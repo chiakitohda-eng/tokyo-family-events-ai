@@ -1,0 +1,15 @@
+{
+ "targets": [
+  "2026-11-07",
+  "2026-11-08"
+ ],
+ "requests": 1500,
+ "ok": 1480,
+ "errors": 18,
+ "pages_read": 1480,
+ "pages_with_target_date": 424,
+ "benchmark_found": 6,
+ "benchmark_total": 14,
+ "publishable": false,
+ "note": "Candidate worklist only. Each hit must be read on its official page before use."
+}
