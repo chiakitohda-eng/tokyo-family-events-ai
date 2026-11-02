@@ -159,6 +159,48 @@ class AuditTests(unittest.TestCase):
         self.assertTrue(any('required source failed' in x
                             for x in validate(run, week, decisions, config, rules)))
 
+    def test_20261102_exception_is_scoped_to_its_own_run_and_weeks(self):
+        import json
+        from pathlib import Path
+        rules = json.loads((Path(__file__).parents[1] /
+                            'policy/temporary_source_exceptions.json').read_text())['exceptions']
+        run, week, decisions = setup()
+        config = {'explicit_sources': [{
+            'id': 'tamemap_nakano', 'enabled': True, 'required': True,
+            'search_urls': ['https://pc.tamemap.net/1311401/calendar/{YYYY-MM}'],
+        }]}
+        failure = {'source_id': 'tamemap_nakano', 'status': 'error',
+                   'http_status': 403, 'response_server': 'cloudflare',
+                   'challenge_detected': True, 'error': 'HTTP Error 403: Forbidden',
+                   'search_url': 'https://pc.tamemap.net/1311401/calendar/2026-12',
+                   'checked_at': '2026-11-03T06:08:00+09:00',
+                   'exception_ref': 'tamemap-nakano-cloudflare403-20261102'}
+        run['explicit_source_checks'] = [failure]
+        # Accepted only for the approved 2026-11-02 run and its six weeks.
+        for sat in ('2026-11-07', '2026-12-05', '2026-12-12'):
+            with self.subTest(sat=sat):
+                run['holiday_after'] = {'as_of_jst': '2026-11-02',
+                                        'run_type': 'holiday_after_update'}
+                week['sat'] = sat
+                self.assertEqual(validate(run, week, decisions, config, rules), [])
+        # Not accepted for another run date, another run type, or a week outside scope.
+        week['sat'] = '2026-12-12'
+        for meta in ({'as_of_jst': '2026-11-09', 'run_type': 'holiday_after_update'},
+                     {'as_of_jst': '2026-10-19', 'run_type': 'holiday_after_update'},
+                     {'as_of_jst': '2026-11-02', 'run_type': 'manual_verified_subset_addition'}):
+            with self.subTest(meta=meta):
+                run['holiday_after'] = meta
+                self.assertTrue(validate(run, week, decisions, config, rules))
+        run['holiday_after'] = {'as_of_jst': '2026-11-02',
+                                'run_type': 'holiday_after_update'}
+        week['sat'] = '2026-12-19'
+        self.assertTrue(validate(run, week, decisions, config, rules))
+        # The earlier 2026-10-19 approval cannot be reused by the new run.
+        week['sat'] = '2026-11-21'
+        run['explicit_source_checks'] = [{**failure, 'exception_ref':
+                                          'tamemap-nakano-cloudflare403-20261019'}]
+        self.assertTrue(validate(run, week, decisions, config, rules))
+
     def test_historical_runs_not_retroactively_mutated(self):
         r, w, d = setup()
         r["prompt"]["version"] = "v1.5"

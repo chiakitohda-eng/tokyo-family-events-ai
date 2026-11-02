@@ -32,6 +32,41 @@
         "nakano_shakyo_community"
       ],
       "note": "Does not declare tamemap checked, does not imply coverage equivalence, does not exempt any other required source, official festival row, verification, dedup, or non-regression rule."
+    },
+    {
+      "id": "tamemap-nakano-cloudflare403-20261102",
+      "source_id": "tamemap_nakano",
+      "approved_at_jst": "2026-11-03",
+      "authorizing_instruction": "ユーザー(2026-11-03 06:23 JST)が、検証プログラム改修を含めて『ためまっぷのCloudflare 403を2026-11-02基準の休日明け更新1回に限り既知障害として扱う』選択肢に「1」と回答して承認",
+      "scope": {
+        "as_of_jst": "2026-11-02",
+        "run_type": "holiday_after_update",
+        "week_sats": [
+          "2026-11-07",
+          "2026-11-14",
+          "2026-11-21",
+          "2026-11-28",
+          "2026-12-05",
+          "2026-12-12"
+        ]
+      },
+      "required_source_stays_enabled": true,
+      "source_registry_mutation_allowed": false,
+      "expected_host": "pc.tamemap.net",
+      "expected_http_status": 403,
+      "expected_observed_status": "error",
+      "expected_error_contains": "403",
+      "reason": "Cloudflare JavaScript challenge in GitHub Actions, not an empty calendar",
+      "evidence_actions": [
+        "https://github.com/chiakitohda-eng/tokyo-family-events-ai/actions/runs/41525444644"
+      ],
+      "fallback_sources": [
+        "nakano_city_calendar_all",
+        "nakano_city_calendar_children",
+        "nakano_shakyo_events",
+        "nakano_shakyo_community"
+      ],
+      "note": "One run only (as_of 2026-11-02). Does not declare tamemap checked, does not imply coverage equivalence, does not exempt any other required source, official festival row, verification, dedup, or non-regression rule."
     }
   ],
   "expires_for_future_runs": true,

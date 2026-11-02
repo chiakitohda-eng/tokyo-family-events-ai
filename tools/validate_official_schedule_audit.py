@@ -19,17 +19,31 @@ def active_version(run):
     return bool(found and int(found.group(1)) >= 15)
 
 
+# Scope of the original 2026-10-19 approval. A rule without its own "scope"
+# keeps exactly this meaning, so the earlier approved ledger entry is unchanged.
+LEGACY_EXCEPTION_SCOPE = {
+    "as_of_jst": "2026-10-19",
+    "run_type": "holiday_after_update",
+    "week_sats": ["2026-10-24", "2026-10-31", "2026-11-07",
+                  "2026-11-14", "2026-11-21", "2026-11-28"],
+}
+
+
+def exception_scope_matches(run_meta, week, rule):
+    """A rule applies only to the run/weeks named in its approved scope."""
+    scope = rule.get("scope") or LEGACY_EXCEPTION_SCOPE
+    return (run_meta.get("as_of_jst") == scope.get("as_of_jst") and
+            run_meta.get("run_type") == scope.get("run_type") and
+            week.get("sat") in set(scope.get("week_sats") or []))
+
+
 def valid_temporary_exception(run, week, check, source_id, rules):
     """Only the measured Cloudflare error for this exact one-time run can defer."""
     from urllib.parse import urlsplit
     run_meta = run.get("holiday_after") or {}
-    if (run_meta.get("as_of_jst") != "2026-10-19" or
-            run_meta.get("run_type") != "holiday_after_update" or
-            week.get("sat") not in {
-                "2026-10-24", "2026-10-31", "2026-11-07",
-                "2026-11-14", "2026-11-21", "2026-11-28"}):
-        return False
     for rule in rules:
+        if not exception_scope_matches(run_meta, week, rule):
+            continue
         if (source_id != rule.get("source_id") or
                 check.get("exception_ref") != rule.get("id") or
                 check.get("status") != rule.get("expected_observed_status") or
