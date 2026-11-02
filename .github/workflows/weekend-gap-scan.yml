@@ -9,7 +9,7 @@ on:
         type: string
 
 permissions:
-  contents: read
+  contents: write   # gap-scan-results ブランチへの結果保存のみ(本番・データ・mainは触らない)
 
 concurrency:
   group: weekend-gap-scan
@@ -39,6 +39,28 @@ jobs:
         run: |
           column -t -s $'\t' "$RUNNER_TEMP/gap-scan/benchmark.tsv" || true
           echo; head -c 3000 "$RUNNER_TEMP/gap-scan/summary.json" || true
+      - name: Save results to the gap-scan-results branch (candidate worklist only)
+        if: always()
+        env:
+          TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+        run: |
+          set -euo pipefail
+          d="$RUNNER_TEMP/gap-scan"
+          pub="$RUNNER_TEMP/pub"
+          rm -rf "$pub"; mkdir -p "$pub/latest"
+          for f in summary.json benchmark.tsv hits.tsv hits.json requests.json; do
+            [ -f "$d/$f" ] && cp "$d/$f" "$pub/latest/$f" || true
+          done
+          cd "$pub"
+          git init -q
+          git checkout -q -b gap-scan-results
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -q -m "gap scan results $(date -u +%FT%TZ) run ${{ github.run_id }}"
+          git push -q --force "https://x-access-token:${TOKEN}@github.com/${REPO}.git" gap-scan-results
+          echo "Saved to branch gap-scan-results (latest/)"
       - uses: actions/upload-artifact@v4
         if: always()
         with:
