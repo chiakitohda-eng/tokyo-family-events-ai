@@ -6,7 +6,7 @@
     "url": "https://expo.nijin.co.jp/venue-real/",
     "official_url": "https://expo.nijin.co.jp/venue-real/",
     "source": "https://expo.nijin.co.jp/venue-real/",
-    "image": null,
+    "image": "https://expo.nijin.co.jp/wp-content/uploads/2026/07/ChatGPT-Image-2026年7月25日-16_57_47-1024x576.png",
     "period": "11/21〜11/22",
     "date_start": "2026-11-21",
     "date_end": "2026-11-22",
@@ -21,43 +21,76 @@
       "親子"
     ],
     "family_fit": {
-      "rubric_version": "family-fit-v2",
       "grade": "A",
       "overall": "A",
-      "reason": "教育と創作体験",
+      "rubric_version": "family-fit-v2",
+      "reason": "企業や子どものブース、制作・プログラミングなどで子ども自身が挑戦し、興味を広げられる。 各自の公式LINE登録が必要。体験ごとの対象・定員は異なり、教育者向け夜間企画とは区別する。",
       "axes": {
         "child_target": {
           "grade": "A",
-          "reason": "子どもの才能と挑戦が中心"
+          "reason": "子ども・親子のための内容を明記。 企業や子どものブース、制作・プログラミングなどで子ども自身が挑戦し、興味を広げられる。"
         },
         "interactivity": {
           "grade": "A",
-          "reason": "企業ブース・コンテスト"
+          "reason": "企業や子どものブース、制作・プログラミングなどで子ども自身が挑戦し、興味を広げられる。"
         },
         "age_fit": {
           "grade": "A",
-          "reason": "園児から大人が参加可"
+          "reason": "企業や子どものブース、制作・プログラミングなどで子ども自身が挑戦し、興味を広げられる。 各自の公式LINE登録が必要。体験ごとの対象・定員は異なり、教育者向け夜間企画とは区別する。"
         },
         "stay_flexibility": {
-          "grade": "B",
-          "reason": "回遊できる常設ブース"
+          "grade": "A",
+          "reason": "展示・複数の活動や立ち寄る範囲を家族で選びやすい形式。 各自の公式LINE登録が必要。体験ごとの対象・定員は異なり、教育者向け夜間企画とは区別する。"
         },
         "burden": {
           "grade": "B",
-          "reason": "都心高層フロアの混雑"
+          "reason": "各自の公式LINE登録が必要。体験ごとの対象・定員は異なり、教育者向け夜間企画とは区別する。"
         },
         "cost": {
           "grade": "A",
-          "reason": "入場無料"
+          "reason": "入場無料。各自の公式LINE登録が必要。"
         },
         "reservation": {
           "grade": "B",
-          "reason": "LINE登録必須、応募締切は企画別"
+          "reason": "公式LINEで来場者各自の無料参加登録が必要。コンテスト応募は別途締切。 各自の公式LINE登録が必要。体験ごとの対象・定員は異なり、教育者向け夜間企画とは区別する。"
         },
         "family_value": {
           "grade": "A",
-          "reason": "教育と創作体験"
+          "reason": "企業や子どものブース、制作・プログラミングなどで子ども自身が挑戦し、興味を広げられる。 各自の公式LINE登録が必要。体験ごとの対象・定員は異なり、教育者向け夜間企画とは区別する。"
         }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-14",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "child_program",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "企業や子どものブース、制作・プログラミングなどで子ども自身が挑戦し、興味を広げられる。"
+        ],
+        "limitations": [
+          "各自の公式LINE登録が必要。体験ごとの対象・定員は異なり、教育者向け夜間企画とは区別する。"
+        ],
+        "grade_comparison": "総合A：企業や子どものブース、制作・プログラミングなどで子ども自身が挑戦し、興味を広げられる。 各自の公式LINE登録が必要。体験ごとの対象・定員は異なり、教育者向け夜間企画とは区別する。",
+        "unsupported_axes": [],
+        "evidence": [
+          {
+            "url": "https://expo.nijin.co.jp/venue-real/",
+            "quote": "万博2026｜会場案内 六本木 のど真ん中に、 “好き”と“個性”が集まる。 東京のど真ん中・DMM六本木本社24階。 子どもの才能と社会が出会う2日間が、ここから始まります。 2026.11.21（土）- 11.22（日） 入場無料（要・公式LINE登録） 六本木一丁目駅 直結 Floor Map 会場 フロアマップ 会場は コンテスト会場 ・ 企業ブース＆子どもブース ・ ワークショップ など、いくつものエリアに分かれています。エリアごとに、子どもたちの挑戦や企業との出会いが待っています。 ※ 当日は会場内の案内表示もあわせてご確認ください。 フロアマップを拡大して見る → コンテスト会場・アートデザインコンテスト 企業ブース＆子どもブース カフェエリア ワークショップ 受付 タラント引き換え所・審査員控室 Areas 会場の エリア 案内 AREA 01 コンテスト会場 子どもプレゼンコンテストやパフォーマンスコンテストなど、子どもたちが本気の発表に挑むメインステージ。審査員や観客の前で、それぞれの「好き」を披露します。 セミナーエリア内 AREA 02 アートデザインコンテスト イラスト・写真・工作・自由研究など、子どもたちが制作した作品を展示するギャラリー。一つひとつに、その子らしいこだわりが詰まっています。 セミナーエリア内 AREA 03 プログラミングコンテスト 子どもたちがプログラミングで作った作品を披露するエリア。画面の向こうのアイデアを、その場で動かしながら発表します。 会場南東側 AREA 04 企業ブース＆子どもブース 協賛企業のブースと、子どもたちが店員・講師になる出展ブースが並ぶエリア。世代を越えて、社会と子どもが直接つながります。 会場中央〜奥 AREA 05 子どもワークショップ 子どもたちが企画・運営する体験型のワークショップエリア。来場者が実際に参加して、一緒に手を動かしながら楽しめます。 会場エントランス側 AREA 06 企業ワークショップ 協賛企業による体験プログラムのエリア。プロの技術や仕事の面白さに、遊びながら触れられます。未来のキャリアのヒントが見つかるかも。 会場外周 AREA 07 託児スペース 小さなお子さま連れの保護者の方も安心してご参加いただけるよう、託児スペースを設置予定です。大学生ボランティアがお子さまをお預かりします。 設置予定（大学生ボランティアが運営） INFO 受付・カフェエリア ご来場後、まずは受付へ。会場内にはひと休みできるカフェエリアのほか、 タラント引き換え所 や 審査員控室 もあります。マップやタイムテーブルを受け取って、会場をめぐりましょう。 受付＝会場入口／カフェ＝会場上部 Schedule 2日間の スケジュール ※ 運営調整により、内容・時刻は変更になる場合があります。 DAY 1 2026.11.21（土） 11:00–13:00 大物ゲスト対談 13:00–14:00 企業PRヘッド",
+            "checked_at": "2026-11-14T16:50:53+09:00",
+            "sha256": "5885feb33db8f6074b48de5b9ba4310ace284961270f6550d514ce28f04f53ef"
+          }
+        ]
       }
     },
     "reservation": {
@@ -78,7 +111,7 @@
     "url": "https://www.city.nerima.tokyo.jp/kankomoyoshi/nogyo/toshinou_festival/festival2027pre.html",
     "official_url": "https://www.city.nerima.tokyo.jp/kankomoyoshi/nogyo/toshinou_festival/festival2027pre.html",
     "source": "https://www.city.nerima.tokyo.jp/kankomoyoshi/nogyo/toshinou_festival/festival2027pre.html",
-    "image": null,
+    "image": "https://www.city.nerima.tokyo.jp/kankomoyoshi/nogyo/toshinou_festival/festival2027pre.images/fes.png",
     "period": "11/21〜11/22",
     "date_start": "2026-11-21",
     "date_end": "2026-11-22",
@@ -93,43 +126,80 @@
       "家族"
     ],
     "family_fit": {
-      "rubric_version": "family-fit-v2",
       "grade": "B",
       "overall": "B",
-      "reason": "旬の農産物と地域交流",
+      "rubric_version": "family-fit-v2",
+      "reason": "全国15自治体の農産物や取り組みを見比べ、親子で食の産地や都市農業に触れられる。 公式概要の主な内容は販売・紹介。子ども専用の収穫体験や無料入場・予約不要の条件は明記されていない。",
       "axes": {
         "child_target": {
           "grade": "B",
-          "reason": "親子専用とは明記されない"
+          "reason": "一般の対象・年齢上の参加資格・子どもの出展と、来場する子ども専用の企画を区別する。 全国15自治体の農産物や取り組みを見比べ、親子で食の産地や都市農業に触れられる。"
         },
         "interactivity": {
           "grade": "B",
-          "reason": "農産物や地域文化を見られる"
+          "reason": "全国15自治体の農産物や取り組みを見比べ、親子で食の産地や都市農業に触れられる。"
         },
         "age_fit": {
           "grade": "B",
-          "reason": "幼児連れでも歩いて見学"
+          "reason": "全国15自治体の農産物や取り組みを見比べ、親子で食の産地や都市農業に触れられる。 公式概要の主な内容は販売・紹介。子ども専用の収穫体験や無料入場・予約不要の条件は明記されていない。"
         },
         "stay_flexibility": {
-          "grade": "B",
-          "reason": "短時間回遊型"
+          "grade": "A",
+          "reason": "展示・複数の活動や立ち寄る範囲を家族で選びやすい形式。 公式概要の主な内容は販売・紹介。子ども専用の収穫体験や無料入場・予約不要の条件は明記されていない。"
         },
         "burden": {
-          "grade": "B",
-          "reason": "混雑と屋外天候"
+          "grade": "unknown",
+          "reason": "混雑・待ち時間・休憩や安全設備についての具体的根拠はなく、未記載を低負担とは判断しない。"
         },
         "cost": {
-          "grade": "B",
-          "reason": "商品購入は有料、入場未記載"
+          "grade": "unknown",
+          "reason": "入場料金の明記を確認できない。農産物の購入は別途。"
         },
         "reservation": {
           "grade": "unknown",
-          "reason": "申込条件未記載"
+          "reason": "練馬区公式開催概要に入場予約条件の明記なし。 公式概要の主な内容は販売・紹介。子ども専用の収穫体験や無料入場・予約不要の条件は明記されていない。"
         },
         "family_value": {
           "grade": "B",
-          "reason": "旬の農産物と地域交流"
+          "reason": "全国15自治体の農産物や取り組みを見比べ、親子で食の産地や都市農業に触れられる。 公式概要の主な内容は販売・紹介。子ども専用の収穫体験や無料入場・予約不要の条件は明記されていない。"
         }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-14",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "all_ages",
+        "child_activity_confirmed": false,
+        "strengths": [
+          "全国15自治体の農産物や取り組みを見比べ、親子で食の産地や都市農業に触れられる。"
+        ],
+        "limitations": [
+          "公式概要の主な内容は販売・紹介。子ども専用の収穫体験や無料入場・予約不要の条件は明記されていない。"
+        ],
+        "grade_comparison": "総合B：全国15自治体の農産物や取り組みを見比べ、親子で食の産地や都市農業に触れられる。 公式概要の主な内容は販売・紹介。子ども専用の収穫体験や無料入場・予約不要の条件は明記されていない。",
+        "unsupported_axes": [
+          "burden",
+          "cost",
+          "reservation"
+        ],
+        "evidence": [
+          {
+            "url": "https://www.city.nerima.tokyo.jp/kankomoyoshi/nogyo/toshinou_festival/festival2027pre.html",
+            "quote": "-5984-1498（直通） ファクス：03-3993-1451 この担当課にメールを送る 全国都市農業フェスティバル 全国都市農業フェスティバル2027 プレイベント開催概要 全国都市農業フェスティバル2025開催概要 The Japan Urban Agriculture Festival 2025 全国都市農業フェスティバル2025 プレイベント開催概要 全国都市農業フェスティバル開催概要 全国都市農業フェスティバル開催記録 農とわたしをテーマにした「みんなでつくる モザイクアート」 1,000個のランタンが夜空に浮かぶ「ねりまランタンナイト」 注目情報 緊急メンテナンスに伴う一部サービスの停止について（11月13日午後4時時点） 区内で特殊詐欺が多発しています このページを見ている人はこんなページも見ています 全国都市農業フェスティバル2025開催概要 緊急メンテナンスに伴う一部サービスの停止について（11月13日午後4時時点） 練馬こぶしハーフマラソン 類似ページ 第1回世界都市農業サミット推進委員会【都市農業課】（平成28年10月31日） 第5回世界都市農業サミット推進委員会【都市農業調整課】（平成29年8月30日） 第4回世界都市農業サミット推進委員会【都市農業調整課】（平成29年5月25日） 情報が見つからないときは このサイトについて 個人情報保護 アクセシビリティポリシー リンク集 所在地： 〒176-8501 東京都練馬区豊玉北6丁目12番1号 電話： 03-3993-1111（代表） 法人番号： 3000020131202 窓口受付時間 本庁舎へのご案内 組織と業務案内 区政へのご意見 〒176-8501 東京都練馬区豊玉北6丁目12番1号 電話：03-3993-1111（代表） 窓口受付時間 組織と業務案内 区政へのご意見 練馬区トップページに戻る 練馬区 法人番号：3000020131202 © 2018 Nerima City. PC版を表示する スマートフォン版を表示する",
+            "checked_at": "2026-11-14T16:52:02+09:00",
+            "sha256": "20b9e0c754e9d7528333ed259c261897559e5c97733f77a22c23f2410fbda69b"
+          }
+        ]
       }
     },
     "reservation": {
@@ -150,7 +220,7 @@
     "url": "https://www.city.edogawa.tokyo.jp/e028/sports/sports/parasports/torikumi/jigyo/edopara.html",
     "official_url": "https://www.city.edogawa.tokyo.jp/e028/sports/sports/parasports/torikumi/jigyo/edopara.html",
     "source": "https://www.city.edogawa.tokyo.jp/e028/sports/sports/parasports/torikumi/jigyo/edopara.html",
-    "image": null,
+    "image": "https://www.city.edogawa.tokyo.jp/images/64325/parasportfesta_leaflet.png",
     "period": "11/22",
     "date_start": "2026-11-22",
     "date_end": "2026-11-22",
@@ -164,30 +234,30 @@
       "インクルーシブ"
     ],
     "family_fit": {
+      "grade": "A",
+      "overall": "A",
       "rubric_version": "family-fit-v2",
-      "grade": "B",
-      "overall": "B",
-      "reason": "当事者向けのスポーツ参加機会",
+      "reason": "対象となる障害のある子どもと家族が、多様なスポーツを無料で試せ、手話・看護・理学療法の支援もある。 対象は障害のある方と保護者・関係者で、一般来場者すべてを対象としない。年齢・身体の状態に合う競技は各受付で相談。",
       "axes": {
         "child_target": {
-          "grade": "B",
-          "reason": "対象は障害のある方等に限定"
+          "grade": "unknown",
+          "reason": "一般の対象・年齢上の参加資格・子どもの出展と、来場する子ども専用の企画を区別する。 対象となる障害のある子どもと家族が、多様なスポーツを無料で試せ、手話・看護・理学療法の支援もある。"
         },
         "interactivity": {
-          "grade": "B",
-          "reason": "複数パラスポーツを体験"
+          "grade": "A",
+          "reason": "対象となる障害のある子どもと家族が、多様なスポーツを無料で試せ、手話・看護・理学療法の支援もある。"
         },
         "age_fit": {
-          "grade": "C",
-          "reason": "参加条件に該当する家族が対象"
+          "grade": "B",
+          "reason": "対象となる障害のある子どもと家族が、多様なスポーツを無料で試せ、手話・看護・理学療法の支援もある。 対象は障害のある方と保護者・関係者で、一般来場者すべてを対象としない。年齢・身体の状態に合う競技は各受付で相談。"
         },
         "stay_flexibility": {
-          "grade": "B",
-          "reason": "体調に応じてブース回遊"
+          "grade": "A",
+          "reason": "展示・複数の活動や立ち寄る範囲を家族で選びやすい形式。 対象は障害のある方と保護者・関係者で、一般来場者すべてを対象としない。年齢・身体の状態に合う競技は各受付で相談。"
         },
         "burden": {
           "grade": "B",
-          "reason": "体育館で室内履き要・専門職サポート"
+          "reason": "対象は障害のある方と保護者・関係者で、一般来場者すべてを対象としない。年齢・身体の状態に合う競技は各受付で相談。"
         },
         "cost": {
           "grade": "A",
@@ -195,12 +265,48 @@
         },
         "reservation": {
           "grade": "unknown",
-          "reason": "申込の有無は要確認"
+          "reason": "主催者公式ページに申込要否の明記なし。障害のある方と保護者・関係者が対象。 対象は障害のある方と保護者・関係者で、一般来場者すべてを対象としない。年齢・身体の状態に合う競技は各受付で相談。"
         },
         "family_value": {
-          "grade": "B",
-          "reason": "当事者向けのスポーツ参加機会"
+          "grade": "A",
+          "reason": "対象となる障害のある子どもと家族が、多様なスポーツを無料で試せ、手話・看護・理学療法の支援もある。 対象は障害のある方と保護者・関係者で、一般来場者すべてを対象としない。年齢・身体の状態に合う競技は各受付で相談。"
         }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-14",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "unspecified",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "対象となる障害のある子どもと家族が、多様なスポーツを無料で試せ、手話・看護・理学療法の支援もある。"
+        ],
+        "limitations": [
+          "対象は障害のある方と保護者・関係者で、一般来場者すべてを対象としない。年齢・身体の状態に合う競技は各受付で相談。"
+        ],
+        "grade_comparison": "総合A：対象となる障害のある子どもと家族が、多様なスポーツを無料で試せ、手話・看護・理学療法の支援もある。 対象は障害のある方と保護者・関係者で、一般来場者すべてを対象としない。年齢・身体の状態に合う競技は各受付で相談。",
+        "unsupported_axes": [
+          "child_target",
+          "reservation"
+        ],
+        "evidence": [
+          {
+            "url": "https://www.city.edogawa.tokyo.jp/e028/sports/sports/parasports/torikumi/jigyo/edopara.html",
+            "quote": "ポーツ情報サイト えどすぽ えどがわパラスポーツ体験会 （PDF：1,193KB） 「えどがわパラスポーツ体験会」は、 障害のある方が対象 のパラスポーツ体験イベントです。 様々なパラスポーツを無料で体験 できます。 夏に総合体育館、秋にスポーツセンターで開催します。 体験できる競技の多くは、区内のスポーツ施設等で定期的に教室などを実施しています。体験会をきっかけに、ご自身の興味のあるスポーツを見つけましょう！ 体験会では、手話通訳・理学療法士・看護師が体験のサポートをします。ご自身の体の状態で取り組めるスポーツについての相談等も可能ですので、安心してご参加いただけます。 会場・日時 会場 日程 総合体育館（江戸川区松本1丁目35番1号） 室内履きは不要です。外履きのまま入れます。 令和8年7月25日（土曜日） 終了しました スポーツセンター（江戸川区西葛西4丁目2番20号） 室内履きをお持ちください。 令和8年11月22日（日曜日） 時間：10時から16時 対象 障害のある方（肢体不自由・聴覚障害・知的障害・発達障害・精神障害） 「上記の障害で手帳をお持ちでない方」「保護者と関係者の皆様」も参加できます。 運動に不安のある方は、 理学療法士 がサポートします。 手話通訳 ・ 看護師 が会場に常駐しております。 体験ブース いろいろなスポーツ体験を実施します。各ブースでは競技団体など、競技に携わっている方々がパラスポーツの楽しさやコツなどを、わかりやすくお伝えします。 競技の多くは、日頃から区立スポーツ施設でも行うことができます。えどがわパラスポーツ体験会での体験をきっかけに、スポーツを始めてみませんか。 ブース 協力団体 ボッチャ 一般社団法人日本ユニバーサルボッチャ連盟 車いすスポーツ 一般社団法人日本車いすスポーツ協会 卓球 T.T Labo トランポリン 江戸川区トランポリン連盟 エンジョイアーチェリー 株式会社西川精機製作所 東京都身体障害者アーチェリー協会 ビームライフル 江戸川区ライフル射撃連盟 フライングディスク NPO法人障害者スポーツサポート・江戸川 パラパワーリフティング 樋口健太郎 選手 陸上競技用車いす展示 一般財団法人東京マラソン財団 体操 一般社団法人みらぷる ストレッチ 東京メディカル・スポーツ専門学校 パラフェンシング 江戸川区フェンシング協会 ローイング 江戸川区ローイング協会 ダンスタイム 一般社団法人MUCHU 陸上競技用車いす展示では、レーサーの他に「Duoランニング」用バギーの展示も行います。Duoランニングは、脳性まひなど永続的な身体障がいにより自力での歩行・走行の困難な人が、安全にカスタマイズされた車いす「デュオ（Duo）バギー」を使って走るランニングスタイルです。詳しくは 一般財団法人東京マラソン財団のホームページ をご覧ください。 過去の体験会の様子 その他 撮影・広報・報道について 本イベントは主催者の江戸川区が写真撮影や",
+            "checked_at": "2026-11-14T16:51:34+09:00",
+            "sha256": "89dda655efad16c9e743957b9f6e649afd27ed7fe5909a81e4f61de7fcbdd4a6"
+          }
+        ]
       }
     },
     "reservation": {
@@ -221,7 +327,7 @@
     "url": "https://www.keepallsmiles.com/komichi2026",
     "official_url": "https://www.keepallsmiles.com/komichi2026",
     "source": "https://www.keepallsmiles.com/komichi2026",
-    "image": null,
+    "image": "https://static.wixstatic.com/media/092767_8bd5b3828a494cc4bfc72a3e877c8861~mv2.jpg/v1/fill/w_2500,h_3507,al_c/092767_8bd5b3828a494cc4bfc72a3e877c8861~mv2.jpg",
     "period": "10/1〜11/30",
     "date_start": "2026-10-01",
     "date_end": "2026-11-30",
@@ -235,43 +341,76 @@
       "親子"
     ],
     "family_fit": {
-      "rubric_version": "family-fit-v2",
       "grade": "A",
       "overall": "A",
-      "reason": "街と歴史の学び",
+      "rubric_version": "family-fit-v2",
+      "reason": "商店街の謎を親子で相談して解き、歩きながら日本橋の街を発見できる無料ラリー。 90〜120分が目安で読み解き・歩行の負担はある。幼児は保護者の手助けが必要で、買い物券は数量限定。",
       "axes": {
         "child_target": {
-          "grade": "A",
-          "reason": "家族参加歓迎の謎解き"
+          "grade": "B",
+          "reason": "一般の対象・年齢上の参加資格・子どもの出展と、来場する子ども専用の企画を区別する。 商店街の謎を親子で相談して解き、歩きながら日本橋の街を発見できる無料ラリー。"
         },
         "interactivity": {
           "grade": "A",
-          "reason": "謎を解きながら街を探索"
+          "reason": "商店街の謎を親子で相談して解き、歩きながら日本橋の街を発見できる無料ラリー。"
         },
         "age_fit": {
-          "grade": "A",
-          "reason": "小さな子どもは大人の補助が必要"
+          "grade": "B",
+          "reason": "商店街の謎を親子で相談して解き、歩きながら日本橋の街を発見できる無料ラリー。 90〜120分が目安で読み解き・歩行の負担はある。幼児は保護者の手助けが必要で、買い物券は数量限定。"
         },
         "stay_flexibility": {
-          "grade": "B",
-          "reason": "90〜120分で途中休憩可"
+          "grade": "A",
+          "reason": "展示・複数の活動や立ち寄る範囲を家族で選びやすい形式。 90〜120分が目安で読み解き・歩行の負担はある。幼児は保護者の手助けが必要で、買い物券は数量限定。"
         },
         "burden": {
           "grade": "B",
-          "reason": "長めの徒歩移動・天候"
+          "reason": "90〜120分が目安で読み解き・歩行の負担はある。幼児は保護者の手助けが必要で、買い物券は数量限定。"
         },
         "cost": {
           "grade": "A",
-          "reason": "無料"
+          "reason": "参加無料（先着の買い物券は配布条件あり）"
         },
         "reservation": {
           "grade": "A",
-          "reason": "予約不要・先着配布"
+          "reason": "予約不要。日本橋案内所で謎解き用紙を受け取る。 90〜120分が目安で読み解き・歩行の負担はある。幼児は保護者の手助けが必要で、買い物券は数量限定。"
         },
         "family_value": {
           "grade": "A",
-          "reason": "街と歴史の学び"
+          "reason": "商店街の謎を親子で相談して解き、歩きながら日本橋の街を発見できる無料ラリー。 90〜120分が目安で読み解き・歩行の負担はある。幼児は保護者の手助けが必要で、買い物券は数量限定。"
         }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-14",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "all_ages",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "商店街の謎を親子で相談して解き、歩きながら日本橋の街を発見できる無料ラリー。"
+        ],
+        "limitations": [
+          "90〜120分が目安で読み解き・歩行の負担はある。幼児は保護者の手助けが必要で、買い物券は数量限定。"
+        ],
+        "grade_comparison": "総合A：商店街の謎を親子で相談して解き、歩きながら日本橋の街を発見できる無料ラリー。 90〜120分が目安で読み解き・歩行の負担はある。幼児は保護者の手助けが必要で、買い物券は数量限定。",
+        "unsupported_axes": [],
+        "evidence": [
+          {
+            "url": "https://www.keepallsmiles.com/komichi2026",
+            "quote": "深みへ ​ ​ 参加費 無料 ​さらに200円のお買い物券付き‼️ 開催期間 2026年 10月1日〜11月30日 ​ 参加方法 日本橋案内所にお越しください （コレド室町地下） ​予約不要です 当サイト下部に案内があります ​ おしらせ 先着5000名に 200円お買物券 プレゼント（利用期限2027年1月末） ​ イベント内容 日本橋北詰商店会のエリアを巡る謎解きイベントです。所要時間90分～120分程度。近隣にはカフェやレストランをはじめショッピング施設も充実。謎解きをしながら日本橋の魅力に触れる事ができるイベントになっております。是非、カップルで、ご家族で、お友達と、おひとり様でもご参加をお待ちしております。 ​ ​ ​ ​ ​ ​日本橋案内所はコレド室町１の地下、地下鉄銀座線の三越前駅改札の近くにあります。 日本橋案内所の受付で「ぶらり謎歩き2026」LINE画面を見せるか「日本橋北詰商店会の謎解きをお願いします」とご希望をお伝えください。 ​ ※200円お買物券付きA4マップは日本橋案内所のみで配布しています。LINE画面のクーポンは日本橋案内所スタッフに提示するためのものです。 ​ ・謎解き用紙A3中折り ・200円券付きA4マップ ​ ２点を受け取ったら注意事項を読んでスタートしてください。 ​ ​ ​ 主催 日本橋北詰商店会 ​ 制作 株式会社オールスマイルズ 謎：けーおん ​デザイン：山口タカシ ​ ​ ​ ​ お問い合わせ 03-6873-5772 （サニサニーピクニック） bottom of page",
+            "checked_at": "2026-11-14T16:52:41+09:00",
+            "sha256": "ba7a87f3b02ab81cdbff7294695ee0aa903dbae25b30343c48d6661c0c120cb3"
+          }
+        ]
       }
     },
     "reservation": {
@@ -292,7 +431,7 @@
     "url": "https://www.o-2.jp/en/event/hasmhicity2026/",
     "official_url": "https://www.o-2.jp/en/event/hasmhicity2026/",
     "source": "https://www.o-2.jp/en/event/hasmhicity2026/",
-    "image": null,
+    "image": "https://www.o-2.jp/ota2022/wp-content/uploads/2026/09/HASM2026-scaled.jpg",
     "period": "9/5〜11/29",
     "date_start": "2026-09-05",
     "date_end": "2026-11-29",
@@ -307,43 +446,79 @@
       "博物館"
     ],
     "family_fit": {
+      "grade": "B",
+      "overall": "B",
       "rubric_version": "family-fit-v2",
-      "grade": "A",
-      "overall": "A",
-      "reason": "航空の歴史と模型に触れる",
+      "reason": "航空写真や資料を見比べ、飛行機好きの親子が羽田空港の歴史を学べる。 展示本体と特定日の工作・関連催事は別。普段の観覧で必ず実技体験できるとは判断しない。",
       "axes": {
         "child_target": {
-          "grade": "A",
-          "reason": "飛行機好きの子どもと家族向け"
+          "grade": "B",
+          "reason": "一般の対象・年齢上の参加資格・子どもの出展と、来場する子ども専用の企画を区別する。 航空写真や資料を見比べ、飛行機好きの親子が羽田空港の歴史を学べる。"
         },
         "interactivity": {
-          "grade": "A",
-          "reason": "航空資料の見学と関連催事"
+          "grade": "B",
+          "reason": "航空写真や資料を見比べ、飛行機好きの親子が羽田空港の歴史を学べる。"
         },
         "age_fit": {
           "grade": "B",
-          "reason": "幼児も見学可能・工作は年齢制限"
+          "reason": "航空写真や資料を見比べ、飛行機好きの親子が羽田空港の歴史を学べる。 展示本体と特定日の工作・関連催事は別。普段の観覧で必ず実技体験できるとは判断しない。"
         },
         "stay_flexibility": {
           "grade": "B",
-          "reason": "展示を自由に回れる"
+          "reason": "実施時刻・順路や時間枠に合わせる参加形式。予約制だけで途中退出不可とは判断しない。 展示本体と特定日の工作・関連催事は別。普段の観覧で必ず実技体験できるとは判断しない。"
         },
         "burden": {
-          "grade": "B",
-          "reason": "施設休館・関連プログラムに注意"
+          "grade": "unknown",
+          "reason": "混雑・待ち時間・休憩や安全設備についての具体的根拠はなく、未記載を低負担とは判断しない。"
         },
         "cost": {
-          "grade": "A",
-          "reason": "展示は無料、一部体験は条件別"
+          "grade": "B",
+          "reason": "展示入場無料でも一部関連体験は別条件。"
         },
         "reservation": {
           "grade": "unknown",
-          "reason": "工作など個別予約が必要"
+          "reason": "展示観覧は原則自由。ラジオ工作など一部関連プログラムは予約制。 展示本体と特定日の工作・関連催事は別。普段の観覧で必ず実技体験できるとは判断しない。"
         },
         "family_value": {
-          "grade": "A",
-          "reason": "航空の歴史と模型に触れる"
+          "grade": "B",
+          "reason": "航空写真や資料を見比べ、飛行機好きの親子が羽田空港の歴史を学べる。 展示本体と特定日の工作・関連催事は別。普段の観覧で必ず実技体験できるとは判断しない。"
         }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-14",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "all_ages",
+        "child_activity_confirmed": false,
+        "strengths": [
+          "航空写真や資料を見比べ、飛行機好きの親子が羽田空港の歴史を学べる。"
+        ],
+        "limitations": [
+          "展示本体と特定日の工作・関連催事は別。普段の観覧で必ず実技体験できるとは判断しない。"
+        ],
+        "grade_comparison": "総合B：航空写真や資料を見比べ、飛行機好きの親子が羽田空港の歴史を学べる。 展示本体と特定日の工作・関連催事は別。普段の観覧で必ず実技体験できるとは判断しない。",
+        "unsupported_axes": [
+          "burden",
+          "reservation"
+        ],
+        "evidence": [
+          {
+            "url": "https://www.o-2.jp/en/event/hasmhicity2026/",
+            "quote": " October 24th (Sat) 10:00-16:45, 25th (Sun) 10:00-15:00 First time at Haneda! \"Passenger Aircraft Plastic Model Festival in Haneda 26\" [Free Admission] ③ November 28th (Sat) and 29th (Sun), 11:00-16:00 \"2nd Haneda Airline Fan Meeting\" - Sale of aviation goods by individual artists, etc. Event Details http://hasm.or.jp/hasm/archives/15028 Organizer Non-profit organization Haneda Aerospace Science Museum Promotion Council (NPO HASM) For details, exhibition contents, and event inquiries, please contact us. CLICK HERE Return to Events list",
+            "checked_at": "2026-11-14T16:52:52+09:00",
+            "sha256": "822f01627f09da96affe0f863461d710e3e22e2fe6c81d59ac56dd10bc290f32"
+          }
+        ]
       }
     },
     "reservation": {

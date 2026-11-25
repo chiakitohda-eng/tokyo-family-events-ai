@@ -1,0 +1,135 @@
+[
+  {
+    "id": "verified-20261121-tachikawa-showakinen-craft-oshogatsu-20261219",
+    "ward": "立川市",
+    "name": "こどもの森クラフト教室 特別編「お正月かざり」（国営昭和記念公園）",
+    "url": "https://www.showakinen-koen.jp/event/29722/",
+    "official_url": "https://www.showakinen-koen.jp/event/29722/",
+    "source": "https://www.showakinen-koen.jp/event/29722/",
+    "image": "https://www.showakinen-koen.jp/wp-content/uploads/2024/09/IMG_5579-1.jpg",
+    "period": "12/19(土)・20(日)",
+    "date_start": "2026-12-19",
+    "date_end": "2026-12-20",
+    "time": "受付10:30〜11:30、13:00〜14:30",
+    "venue": "国営昭和記念公園 こどもの森木工房（立川市緑町3173）",
+    "price": "500円（別途入園料）",
+    "description": "園内の竹や松葉、ナンテンを使って、自分だけのお正月飾りを作る工作教室。当日受付で、先着順・入替制（一度に入れるのは9名）。制作は子どもが自分で行い、保護者は木工房の周りで待つ。",
+    "categories": [
+      "体験・ワークショップ",
+      "工作"
+    ],
+    "indoor_outdoor": "屋内",
+    "reservation": {
+      "required": false,
+      "note": "当日受付（先着順・入室定員9名・随時入替制）。事前予約は不要。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "子どもが自分でお正月飾りを作る工作教室。当日受付で、500円（入園料別）。対象年齢の記載はなく、保護者は木工房の周りで待つ形。",
+      "axes": {
+        "child_target": {
+          "grade": "B",
+          "reason": "制作は子ども自身が行う内容で、対象年齢の記載はない"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "竹や松葉でお正月飾りを作る"
+        },
+        "age_fit": {
+          "grade": "B",
+          "reason": "対象年齢の記載がなく、年齢は目安がない"
+        },
+        "stay_flexibility": {
+          "grade": "B",
+          "reason": "受付時間内に来れば参加できる（入替制）"
+        },
+        "burden": {
+          "grade": "B",
+          "reason": "先着順で、混む日は待つことがある"
+        },
+        "cost": {
+          "grade": "B",
+          "reason": "500円（入園料は別）"
+        },
+        "reservation": {
+          "grade": "A",
+          "reason": "事前予約は不要（当日受付）"
+        },
+        "family_value": {
+          "grade": "A",
+          "reason": "季節の飾りを自分で作れる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-21",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "child_program",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "お正月の飾りを自分で作れて、予約がいらない",
+          "参加費は500円"
+        ],
+        "limitations": [
+          "対象年齢の記載がない",
+          "入園料が別に必要",
+          "先着順・入替制で、混む日は待つことがある"
+        ],
+        "grade_comparison": "総合B：お正月飾りを作る当日受付の工作教室。対象年齢の記載がない点に注意。",
+        "unsupported_axes": [],
+        "evidence": [
+          {
+            "url": "https://www.showakinen-koen.jp/event/29722/",
+            "quote": "園内の竹や松葉、ナンテンを使って、すてきなお正月飾りを作ろう！",
+            "checked_at": "2026-11-21",
+            "sha256": "7e576deb9cd80aaacfe343e5f8a6976d86a8bb24cb5f1a369f790467747b88c1",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.showakinen-koen.jp/event/29722/",
+            "quote": "スケジュール12月19日（土）12月20日(日)",
+            "checked_at": "2026-11-21",
+            "sha256": "bfdd05df3a4ee586b61973d861c25e51833dc8a64044e6c3fed161239e7a6127",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.showakinen-koen.jp/event/29722/",
+            "quote": "参加費500円（入園料別）",
+            "checked_at": "2026-11-21",
+            "sha256": "fd4e328b40dcc7d3c21e814b5fd700a01b6f5e5cb99f6c429723d1c475ff47b2",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.showakinen-koen.jp/event/29722/",
+            "quote": "制作はお子様ご自身で行っていただきますので、保護者の方は木工房周辺でお待ちください。",
+            "checked_at": "2026-11-21",
+            "sha256": "914d21460fa395964a6fd2397d83732657249c21d84c330f40fcbcf3fb5ef0b3",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-21",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  }
+]

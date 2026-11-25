@@ -1,0 +1,296 @@
+[
+  {
+    "id": "verified-20261121-nerima-shakujii-book-kaidan",
+    "ward": "練馬区",
+    "name": "本のくつろぎかいだん（石神井公園）",
+    "url": "https://www.tokyo-park.or.jp/park/shakujii/news/2026/park_info_11.html",
+    "official_url": "https://www.tokyo-park.or.jp/park/shakujii/news/2026/park_info_11.html",
+    "source": "https://www.tokyo-park.or.jp/park/shakujii/news/2026/park_info_11.html",
+    "image": "https://www.tokyo-park.or.jp/park/shakujii/assets/%E6%9C%AC%E3%81%AE%E3%81%8F%E3%81%A4%E3%82%8D%E3%81%8E%E3%81%8B%E3%81%84%E3%81%A0%E3%82%93_%E3%83%9D%E3%82%B9%E3%82%BF%E3%83%BC.jpg",
+    "period": "11/21(土)",
+    "date_start": "2026-11-21",
+    "date_end": "2026-11-21",
+    "time": "13:00〜16:00",
+    "venue": "石神井公園 野外ステージ",
+    "price": "参加費無料",
+    "description": "石神井公園の野外ステージの階段に読書コーナーを設け、練馬おはなしの会などによる楽しいおはなし会を行う1日だけのイベント。予約不要、大人も子供も参加できる。予備日は11/28(土)。",
+    "categories": [
+      "本・読み聞かせ",
+      "自然・公園"
+    ],
+    "indoor_outdoor": "屋外",
+    "reservation": {
+      "required": false,
+      "note": "予約不要。予備日11/28(土)。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "「大人も子供も大集合」とあり、屋外で読書コーナーとおはなし会を無料・予約不要で楽しめる。屋外開催で、天候により予備日になる。",
+      "axes": {
+        "child_target": {
+          "grade": "B",
+          "reason": "「大人も子供も」と明記され、おはなし会がある"
+        },
+        "interactivity": {
+          "grade": "B",
+          "reason": "おはなし会を聞く内容で、体験型の企画ではない"
+        },
+        "age_fit": {
+          "grade": "B",
+          "reason": "年齢別の案内はない"
+        },
+        "stay_flexibility": {
+          "grade": "A",
+          "reason": "13:00〜16:00の間に自由に立ち寄れる"
+        },
+        "burden": {
+          "grade": "B",
+          "reason": "屋外開催で、荒天時は予備日になる"
+        },
+        "cost": {
+          "grade": "A",
+          "reason": "参加費無料"
+        },
+        "reservation": {
+          "grade": "A",
+          "reason": "予約不要"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "無料で本とおはなし会を楽しめる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-21",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "all_ages",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "無料・予約不要で、おはなし会と読書コーナーを楽しめる"
+        ],
+        "limitations": [
+          "屋外で天候の影響を受ける（予備日11/28）",
+          "年齢別の案内はない"
+        ],
+        "grade_comparison": "総合B：無料・予約不要でおはなし会を楽しめるが、年齢別の案内がなく屋外で天候の影響を受ける。",
+        "unsupported_axes": [],
+        "evidence": [
+          {
+            "url": "https://www.tokyo-park.or.jp/park/shakujii/news/2026/park_info_11.html",
+            "quote": "令和8年11月21日(土) 午後1時～4時",
+            "checked_at": "2026-11-21",
+            "sha256": "d3b214bb14066ce5ec5f108061c25f508662b3f9ffb810ab6705d8f7a5ba7509",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.tokyo-park.or.jp/park/shakujii/news/2026/park_info_11.html",
+            "quote": "場 所 石神井公園野外ステージ",
+            "checked_at": "2026-11-21",
+            "sha256": "2125808fbdf3a13db1af3345e53e15374a81cfc1a9c6319107cca458d3072cd6",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.tokyo-park.or.jp/park/shakujii/news/2026/park_info_11.html",
+            "quote": "予約は要りません。大人も子供も大集合！",
+            "checked_at": "2026-11-21",
+            "sha256": "790893997a8229a420fa25a6e3369c0e2273020ecfd135bb2ce58d1806c60549",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.tokyo-park.or.jp/park/shakujii/news/2026/park_info_11.html",
+            "quote": "階段に読書コーナーを設け、楽しいおはなし会を行います。",
+            "checked_at": "2026-11-21",
+            "sha256": "e757b5d1472d0d2f4431ae67a0d897515f5bdd8bcb5a44e89391fb1a992a3cce",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.tokyo-park.or.jp/park/shakujii/news/2026/park_info_11.html",
+            "quote": "出 演 ねりまおはなしの会、にじのね、石神井図書館スタッフ",
+            "checked_at": "2026-11-21",
+            "sha256": "69281d5811f85c85e42fab0e44f11d50b3dd4005a1414a080cfc19adbaa6827c",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.tokyo-park.or.jp/park/shakujii/news/2026/park_info_11.html",
+            "quote": "参加費 無料 ■問合せ先 練馬区立石神井図書館",
+            "checked_at": "2026-11-21",
+            "sha256": "5a3870b0c73dbec12b1099fbf53c88cd445fb2dc5b7e1e5dcb00e8c70602a2e4",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-21",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  },
+  {
+    "id": "verified-20261121-minato-siba-stargazing",
+    "ward": "港区",
+    "name": "星空観望会（芝公園）",
+    "url": "https://www.tokyo-park.or.jp/park/siba/news/2026/sibastamprally2026_1.html",
+    "official_url": "https://www.tokyo-park.or.jp/park/siba/news/2026/sibastamprally2026_1.html",
+    "source": "https://www.tokyo-park.or.jp/park/siba/news/2026/sibastamprally2026_1.html",
+    "image": "https://www.tokyo-park.or.jp/park/siba/assets/%E6%98%9F%E7%A9%BA%E8%A6%B3%E6%9C%9B%E4%BC%9A%E4%BD%8F%E6%89%80%EF%BC%92.png",
+    "period": "11/21(土)",
+    "date_start": "2026-11-21",
+    "date_end": "2026-11-21",
+    "time": "18:00〜19:30",
+    "venue": "芝公園18号地（港区芝公園4-5）",
+    "price": "参加費無料",
+    "description": "芝公園18号地で、天体望遠鏡で秋の星空を眺める観望会。昨年は土星が見えた。どなたでも参加でき、未就学児や小学生も楽しめる。事前申込不要・無料。雨天・曇天中止（当日昼ごろ公式Xで発表）。",
+    "categories": [
+      "自然・公園",
+      "体験・ワークショップ"
+    ],
+    "indoor_outdoor": "屋外",
+    "reservation": {
+      "required": false,
+      "note": "事前申込不要。当日、受付場所へ直接。雨天・曇天中止で、可否は当日昼ごろ芝公園公式Xで発表。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "「未就学児や小学生のお子さまも楽しめます」と明記された、無料・申込不要の天体観望会。夜の開催で、雨天・曇天は中止。",
+      "axes": {
+        "child_target": {
+          "grade": "B",
+          "reason": "「未就学児や小学生のお子さまも楽しめます」と明記されるが、子ども専用ではない"
+        },
+        "interactivity": {
+          "grade": "B",
+          "reason": "天体望遠鏡で星空を観察する体験"
+        },
+        "age_fit": {
+          "grade": "B",
+          "reason": "未就学児・小学生も楽しめると記載"
+        },
+        "stay_flexibility": {
+          "grade": "B",
+          "reason": "18:00〜19:30の枠内で参加"
+        },
+        "burden": {
+          "grade": "B",
+          "reason": "夜間・屋外開催で、雨天・曇天は中止（当日昼に発表）"
+        },
+        "cost": {
+          "grade": "A",
+          "reason": "参加費無料"
+        },
+        "reservation": {
+          "grade": "A",
+          "reason": "事前申込不要"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "無料で望遠鏡で星空を見られる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-21",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "all_ages",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "無料・申込不要で、未就学児や小学生も楽しめる"
+        ],
+        "limitations": [
+          "夜の屋外開催で雨天・曇天は中止",
+          "開催可否が当日昼まで分からない"
+        ],
+        "grade_comparison": "総合B：無料・申込不要で子どもも楽しめるが、夜間で天候次第の開催。",
+        "unsupported_axes": [],
+        "evidence": [
+          {
+            "url": "https://www.tokyo-park.or.jp/park/siba/news/2026/sibastamprally2026_1.html",
+            "quote": "2026年11月21日(土) 18:00～19:30",
+            "checked_at": "2026-11-21",
+            "sha256": "23d4c3c47c0b23e0975b8bf0d28be1ce62c7d3adee0a1bef42e1223208ee282c",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.tokyo-park.or.jp/park/siba/news/2026/sibastamprally2026_1.html",
+            "quote": "受付場所 芝公園18号地 港区芝公園4-5",
+            "checked_at": "2026-11-21",
+            "sha256": "dd0bf3c4fe477b92ade0eb54b4c5a10fd0636930ad7a8c7f1d153abb0d3a4c5b",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.tokyo-park.or.jp/park/siba/news/2026/sibastamprally2026_1.html",
+            "quote": "どなたでも、ご参加いただけます。 未就学児や小学生のお子さまも楽しめます。",
+            "checked_at": "2026-11-21",
+            "sha256": "10fe393a9d1d4bd1c33d6efaccfb3d80b15ae79ffb5c97471ca97bd6f8482f4f",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.tokyo-park.or.jp/park/siba/news/2026/sibastamprally2026_1.html",
+            "quote": "事前申込み不要 当日、受付場所へ直接お越しください。",
+            "checked_at": "2026-11-21",
+            "sha256": "771d3650ae3080ef039f2281f12704b0c5b7f63e7023d9f805820c527cabecd7",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.tokyo-park.or.jp/park/siba/news/2026/sibastamprally2026_1.html",
+            "quote": "参加費 無料 ６．内容 天体望遠鏡で星空を眺めてみよう",
+            "checked_at": "2026-11-21",
+            "sha256": "137b6e5b2c70f26a31c32cbf40a556dbc81bc8aa1844fc059825c858c7762005",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.tokyo-park.or.jp/park/siba/news/2026/sibastamprally2026_1.html",
+            "quote": "※雨天、曇天中止 ※開催の可否は当日お昼ごろ",
+            "checked_at": "2026-11-21",
+            "sha256": "d9179ea83b7c8e54c0a8826dd2d1543f7b681a4d4a1269ce2640eeb0799f9ac1",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-21",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  }
+]

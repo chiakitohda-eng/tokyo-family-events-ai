@@ -1,0 +1,143 @@
+[
+  {
+    "id": "verified-20261219-ota-kawasaki-robot-prog",
+    "ward": "大田区",
+    "name": "カワサキロボットエンジニアになろう！ プログラミング編（羽田イノベーションシティ）",
+    "url": "https://kodomo-smile.metro.tokyo.lg.jp/events/4261",
+    "official_url": "https://kodomo-smile.metro.tokyo.lg.jp/events/4261",
+    "source": "https://kodomo-smile.metro.tokyo.lg.jp/events/4261",
+    "image": "",
+    "period": "12/19(土)・20(日)",
+    "date_start": "2026-12-19",
+    "date_end": "2026-12-19",
+    "time": "11:00〜12:30／14:00〜15:30",
+    "venue": "羽田イノベーションシティ B棟2階 カワサキロボットスクール（大田区羽田空港1-1-4）",
+    "price": "3,500円",
+    "description": "産業用ロボットの実機をプログラミングして動かす体験。小学3年生〜中学生対象、事前予約制。子どもだけでの参加は不可。",
+    "categories": [
+      "科学・ロボット",
+      "プログラミング",
+      "体験・ワークショップ"
+    ],
+    "indoor_outdoor": "屋内",
+    "reservation": {
+      "required": true,
+      "note": "事前予約制。お子様のみでの参加はできません。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "産業用ロボットの実機をプログラミングして動かす、小学3年生〜中学生向けの教室。参加費3,500円で、事前予約制。",
+      "axes": {
+        "child_target": {
+          "grade": "A",
+          "reason": "小学3年生〜中学生を対象にした子ども向けイベント"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "ロボットの実機をプログラミングして動かせる"
+        },
+        "age_fit": {
+          "grade": "A",
+          "reason": "小学3年生〜中学生と明記"
+        },
+        "stay_flexibility": {
+          "grade": "B",
+          "reason": "各1時間半の回で、時間が決まっている"
+        },
+        "burden": {
+          "grade": "B",
+          "reason": "保護者の同行が必要で、事前予約が必要"
+        },
+        "cost": {
+          "grade": "C",
+          "reason": "プログラミング編は3,500円"
+        },
+        "reservation": {
+          "grade": "B",
+          "reason": "事前予約制"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "技術への興味を育てる体験"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-20",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "child_program",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "実機をプログラミングできる",
+          "小学3年〜中学生が対象"
+        ],
+        "limitations": [
+          "参加費3,500円",
+          "事前予約が必要"
+        ],
+        "grade_comparison": "総合B：実機のロボットをプログラミングできる本格的な体験だが、参加費が高めで事前予約が必要。",
+        "unsupported_axes": [],
+        "evidence": [
+          {
+            "url": "https://kodomo-smile.metro.tokyo.lg.jp/events/4261",
+            "quote": "【プロ編】12/19(土）～20(日）11：00～12：30、14：00～15：30",
+            "checked_at": "2026-11-20",
+            "sha256": "18d50c8a939267fa1c2392a33133f9343882781cec58bf93c808f2da0846d0ee",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://kodomo-smile.metro.tokyo.lg.jp/events/4261",
+            "quote": "プログラミング編：小学3年生～中学生",
+            "checked_at": "2026-11-20",
+            "sha256": "b1dd8240fa302d35fcf803dfca8da363c58dfb33aa3fef9cb7240d16c715e6b1",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://kodomo-smile.metro.tokyo.lg.jp/events/4261",
+            "quote": "プログラミング編：3,500円",
+            "checked_at": "2026-11-20",
+            "sha256": "dcb7edb53859c760cba63f37d27b6d40437fa5bd11b00b77405e9db1d1c28766",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://kodomo-smile.metro.tokyo.lg.jp/events/4261",
+            "quote": "事前予約制お申し込みの詳細は",
+            "checked_at": "2026-11-20",
+            "sha256": "8791d1fd78ed5f8bf1e8175afe990b0b4c584cd325144fc3e39e7a2d6a4c76c7",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://kodomo-smile.metro.tokyo.lg.jp/events/4261",
+            "quote": "お子様のみでの参加はできません。",
+            "checked_at": "2026-11-20",
+            "sha256": "d6e2d1b5ab56bc98860825e41e836cfdbe4ef29e5d4cb9bced5eda998b1b5cc4",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-20",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  }
+]

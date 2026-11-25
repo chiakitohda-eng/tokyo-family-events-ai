@@ -1,0 +1,4508 @@
+{
+  "schema_version": 1,
+  "verified_on": "2026-11-08",
+  "events": [
+    {
+      "id": "v15-8bc88232815c",
+      "status": "verified",
+      "source": "https://www.hibiya.tokyo-midtown.com/jp/event/7587/",
+      "source_kind": "organizer_official",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "unknown",
+        "reservation": "pass",
+        "target": "unknown",
+        "cancellation": "unknown",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "v1.5完全再探索で公式・主催者等の根拠と開催情報を再突合。 2026-11-08 current-horizon carryover review: published official range overlaps 12/12-13.",
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "B",
+        "to": "B",
+        "reason": "ツリーの色と音楽、広場の光の変化を短い立ち寄りでも家族で楽しめる。 夕方以降で防寒と混雑への配慮が必要。エリアごとに開催期間が異なり、子ども専用の制作体験はない。",
+        "source": "https://www.hibiya.tokyo-midtown.com/jp/event/7587/"
+      }
+    },
+    {
+      "id": "v15-ad2f72f74ab7",
+      "status": "verified",
+      "source": "https://www.kodomo.go.jp/event/exhibition/tenji2026-02",
+      "source_kind": "public_official",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "pass",
+        "reservation": "pass",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "v1.5完全再探索で公式・主催者等の根拠と開催情報を再突合。 2026-11-08 current-horizon carryover review: published official range overlaps 12/12-13.",
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "A",
+        "to": "A",
+        "reason": "白黒や少ない色で描かれた絵本を見比べ、親子が色と物語の表現を発見できる。 触って作る体験は未記載。祝日も休館で、関連講演会の中学生以上条件を展示の条件に流用しない。",
+        "source": "https://www.kodomo.go.jp/event/exhibition/tenji2026-02"
+      }
+    },
+    {
+      "id": "v15-0c6fcb6bf768",
+      "status": "verified",
+      "source": "https://chihiro.jp/tokyo/exhibitions/2026/",
+      "source_kind": "organizer_official",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "pass",
+        "reservation": "pass",
+        "target": "unknown",
+        "cancellation": "unknown",
+        "official_url": "corrected"
+      },
+      "corrections": {},
+      "note": "v1.5完全再探索で公式・主催者等の根拠と開催情報を再突合。 2026-10-13公式展覧会一覧照合：10月30日〜翌1月31日・2展示同時開催を確認。 2026-11-08 current-horizon carryover review: published official range overlaps 12/12-13.",
+      "field_changes": {
+        "official_url": {
+          "from": "https://chihiro.jp/tokyo/",
+          "to": "https://chihiro.jp/tokyo/exhibitions/2026/",
+          "reason": "公式トップページでなく2026年度公式展覧会一覧の開催日・展示名を参照",
+          "source": "https://chihiro.jp/tokyo/exhibitions/2026/"
+        },
+        "source": {
+          "from": "https://chihiro.jp/tokyo/",
+          "to": "https://chihiro.jp/tokyo/exhibitions/2026/",
+          "reason": "当該同時開催展示を確認できる開催年別の公式ページへ変更",
+          "source": "https://chihiro.jp/tokyo/exhibitions/2026/"
+        }
+      },
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "A",
+        "to": "A",
+        "reason": "絵本に親しむ家族が原画の色と旅の風景を見比べ、世代を越えて物語を話し合える。 鑑賞中心で、子どもの制作体験が常設されているとは判断しない。大人の入館料と休館日を確認したい。",
+        "source": "https://chihiro.jp/tokyo/exhibitions/2026/"
+      }
+    },
+    {
+      "id": "v15-7b30b706f728",
+      "status": "verified",
+      "source": "https://www.city.toshima.lg.jp/129/2609101123.html",
+      "source_kind": "public_official",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "pass",
+        "reservation": "pass",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "v1.5完全再探索で公式・主催者等の根拠と開催情報を再突合。 2026-11-08 current-horizon carryover review: published official range overlaps 12/12-13.",
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "A",
+        "to": "B",
+        "reason": "紙芝居の原画や台本を親子で見比べ、地域と物語の歴史を学べる無料展示。 子ども向け上演や制作とは別の資料展示。歴史解説を読むには保護者の手助けが必要な場合がある。",
+        "source": "https://www.city.toshima.lg.jp/129/2609101123.html"
+      }
+    },
+    {
+      "id": "ongoing-20261128-v15-237c930495e3",
+      "status": "verified",
+      "source": "https://www.city.minato.tokyo.jp/kouhou/event/261015-minatocollection.html",
+      "source_kind": "public_official",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "unknown",
+        "price": "unknown",
+        "reservation": "pass",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "2026-10-20主催/自治体再確認: 港区公式は区内の参加美術館・博物館を回るスタンプラリーを10/15～12/20と明記。施設ごとの休館日に実施しない。 2026-11-08 current-horizon carryover review: published official range overlaps 12/12-13.",
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "A",
+        "to": "B",
+        "reason": "複数のミュージアムを巡ってスタンプを集め、親子で港区の文化を発見できる。 全体が子ども専用の企画ではなく、対象・料金・開館日は施設ごとに違う。巡る範囲を家族で選びたい。",
+        "source": "https://www.city.minato.tokyo.jp/bungeishinkou/minakore/home.html"
+      }
+    },
+    {
+      "id": "ongoing-20261128-v15-97ee0aaed408",
+      "status": "verified",
+      "source": "https://www.neribun.or.jp/event/detail_m.cgi?id=202608151786784919",
+      "source_kind": "organizer_official",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "corrected",
+        "price": "corrected",
+        "reservation": "pass",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "2026-10-20主催/自治体再確認: 練馬区立美術館主催、10/31～12/27、月休、土日10～18時、当日チケット購入可。 2026-11-08 current-horizon carryover review: published official range overlaps 12/12-13.",
+      "field_changes": {
+        "time": {
+          "from": null,
+          "to": "10:00〜18:00（入場17:30まで、月曜原則休館）",
+          "reason": "10/31〜12/27 練馬区立美術館、10:00〜18:00。一般1000円、高校大学生800円、中学生以下無料、月休（祝日11/23は開館）。 / 期間中休館日あり",
+          "source": "https://www.neribun.or.jp/event/detail_m.cgi?id=202608151786784919"
+        },
+        "price": {
+          "from": null,
+          "to": "一般1,000円、高校・大学生800円、中学生以下無料",
+          "reason": "10/31〜12/27 練馬区立美術館、10:00〜18:00。一般1000円、高校大学生800円、中学生以下無料、月休（祝日11/23は開館）。 / 期間中休館日あり",
+          "source": "https://www.neribun.or.jp/event/detail_m.cgi?id=202608151786784919"
+        }
+      },
+      "review_evidence_url": "https://www.neribun.or.jp/event/detail_m.cgi?id=202608151786784919",
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "C",
+        "to": "B",
+        "reason": "絵や表現の変身を見比べ、親子で想像や作品の物語を話し合う鑑賞の機会。 怪物・仮面・戦争の記憶に関わる表現を含み、怖さへの感じ方や解説への理解に配慮したい。子ども専用の制作企画ではない。",
+        "source": "https://www.neribun.or.jp/event/detail_m.cgi?id=202608151786784919"
+      }
+    },
+    {
+      "id": "ongoing-20261128-v15-d7b35a2aa60b",
+      "status": "verified",
+      "source": "https://www.aquarium.gr.jp/news/events/31639",
+      "source_kind": "organizer_official",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "unknown",
+        "reservation": "pass",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "2026-10-20主催/自治体再確認: しながわ水族館7/25～12/25、火曜休、11/14～12/25冬季展示へ切替。11/11～13は特別展休止。 2026-11-08 current-horizon carryover review: published official range overlaps 12/12-13.",
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "A",
+        "to": "A",
+        "reason": "親しみやすい絵本の色と本物の生き物を見比べ、擬態探しや塗り絵を親子で楽しめる。 水族館入館料が必要で、観察場所の混雑・待ち時間は未記載。関連の有料体験は別受付の場合がある。",
+        "source": "https://www.aquarium.gr.jp/news/events/31639"
+      }
+    },
+    {
+      "id": "ongoing-20261128-r16-a998e43102c9",
+      "status": "verified",
+      "source": "https://tokyoatlas.jp/",
+      "source_kind": "organizer_official",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "pass",
+        "reservation": "unknown",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "2026-10-20主催/自治体再確認: 東京都・公式サイト10/10～12/20、原則月曜休、各展示会場土日開場10～17時、一部施設日時予約必要。 2026-11-08 current-horizon carryover review: published official range overlaps 12/12-13.",
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "B",
+        "to": "B",
+        "reason": "台場・青海・天王洲の多様な作品を選んで巡り、親子で場所と表現の違いを楽しめる。 複数会場の移動や屋外の天候に配慮が必要。個別プログラムには有料・予約制のものがある。",
+        "source": "https://tokyoatlas.jp/"
+      }
+    },
+    {
+      "id": "ongoing-20261128-r16-d1fc65f778d6",
+      "status": "verified",
+      "source": "https://www.mori.art.museum/jp/exhibitions/marikomori/",
+      "source_kind": "organizer_official",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "pass",
+        "reservation": "unknown",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "2026-10-20主催/自治体再確認: 森美術館10/31～2027/3/28会期中無休。土日10～22時、中学生以下無料、大人3,000円。子どもの深夜入場制限。 2026-11-08 current-horizon carryover review: published official range overlaps 12/12-13.",
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "B",
+        "to": "B",
+        "reason": "写真・映像・立体やインスタレーションを親子で見比べ、アートと技術の関係を考えられる。 一般向けの現代美術展で、体験作品には個別の参加条件がある。大人の休日料金は3000円で費用を比較したい。",
+        "source": "https://www.mori.art.museum/jp/exhibitions/marikomori/index.html"
+      }
+    },
+    {
+      "id": "ongoing-20261128-r16-c2947a676a15",
+      "status": "verified",
+      "source": "https://www.city.nerima.tokyo.jp/kankomoyoshi/annai/fukei/makinokinenteien/kikakuten2.html",
+      "source_kind": "public_official",
+      "fields": {
+        "name": "pass",
+        "date": "corrected",
+        "venue": "pass",
+        "time": "pass",
+        "price": "pass",
+        "reservation": "unknown",
+        "official_url": "pass"
+      },
+      "corrections": {
+        "date_start": "2026-09-12",
+        "date_end": "2026-12-13"
+      },
+      "note": "2026-10-20主催/自治体再確認: 練馬区公式10/30～12/13後期、牧野記念庭園で9:30～16:30、火曜休、無料。 2026-11-08 current-horizon carryover review: published official range overlaps 12/12-13.",
+      "field_changes": {
+        "date_start": {
+          "from": "2026-09-12",
+          "to": "2026-09-12",
+          "source": "https://www.city.nerima.tokyo.jp/kankomoyoshi/annai/fukei/makinokinenteien/kikakuten2.html",
+          "reason": "練馬区公式10/30～12/13後期、牧野記念庭園で9:30～16:30、火曜休、無料。"
+        },
+        "date_end": {
+          "from": "2026-10-25",
+          "to": "2026-12-13",
+          "source": "https://www.city.nerima.tokyo.jp/kankomoyoshi/annai/fukei/makinokinenteien/kikakuten2.html",
+          "reason": "練馬区公式10/30～12/13後期、牧野記念庭園で9:30～16:30、火曜休、無料。"
+        }
+      },
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "A",
+        "to": "B",
+        "reason": "海を渡った植物の細かな絵を見比べ、庭園の植物と合わせて親子で自然史を学べる。 植物画と歴史資料が中心で子ども専用の仕掛けは未記載。説明を読むには年齢に応じた補助が必要。",
+        "source": "https://www.makinoteien.jp/exhibition/%e3%80%90%e4%bc%81%e7%94%bb%e5%b1%95%e3%80%91%e3%80%8c%e6%b5%b7%e3%82%92%e6%b8%a1%e3%81%a3%e3%81%a6%e3%81%8d%e3%81%9f%e6%a4%8d%e7%89%a9%e3%81%ae%e7%89%a9%e8%aa%9e%e3%80%8d-2/"
+      }
+    },
+    {
+      "id": "ongoing-20261128-v15-5e0e43c28e84",
+      "status": "verified",
+      "source": "https://tickets.tbs.co.jp/yoyogiforestoflights2026/",
+      "source_kind": "organizer_official",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "corrected",
+        "reservation": "corrected",
+        "official_url": "pass"
+      },
+      "corrections": {
+        "price": "事前日時指定券制。大人土日祝3,800円、小学生1,000円（時期・区分で変動）",
+        "reservation": {
+          "required": true,
+          "note": "日時指定券の事前購入が必要。夜間・1.8kmの屋外歩行と子連れ負担に注意。"
+        }
+      },
+      "note": "2026-10-20主催/自治体再確認: 主催者チケット公式11/13～2027/1/11、17:30～22時、大人休日3800円、小学生1000円、日時指定チケット予約必須。 2026-11-08 current-horizon carryover review: published official range overlaps 12/12-13.",
+      "field_changes": {
+        "price": {
+          "from": "早割チケット（対象期間：2026年11月13日〜11月30日）は、小学生（6〜12歳）500円、中高生（13〜18歳）1,200円、大人（大学生以上）2,400円。 通常平日は、小学生800円、中高生1,600円、大人3,200円。価格は税込です。 未就学児は保護者同伴で無料（保護者1人につき2人まで）。 https://tickets.tbs.co.jp/yoyogiforestoflights2026",
+          "to": "事前日時指定券制。大人土日祝3,800円、小学生1,000円（時期・区分で変動）",
+          "source": "https://tickets.tbs.co.jp/yoyogiforestoflights2026/",
+          "reason": "主催者チケット公式11/13～2027/1/11、17:30～22時、大人休日3800円、小学生1000円、日時指定チケット予約必須。"
+        },
+        "reservation": {
+          "from": {
+            "required": null,
+            "note": "最新の参加方法は公式サイトで確認"
+          },
+          "to": {
+            "required": true,
+            "note": "日時指定券の事前購入が必要。夜間・1.8kmの屋外歩行と子連れ負担に注意。"
+          },
+          "source": "https://tickets.tbs.co.jp/yoyogiforestoflights2026/",
+          "reason": "主催者チケット公式11/13～2027/1/11、17:30～22時、大人休日3800円、小学生1000円、日時指定チケット予約必須。"
+        }
+      },
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "A",
+        "to": "B",
+        "reason": "17の光のゾーンを歩いて巡り、家族で自然と光・音の演出を共有できる。 夜の約1.8kmの散策で防寒と歩行負担がある。有料の日時指定入場で、未就学児無料だけでは子連れ向け3つ星とは判断しない。",
+        "source": "https://www.yoyogiforestoflights.tokyo/"
+      }
+    },
+    {
+      "id": "official-2026-sumida-light-garden",
+      "status": "announced",
+      "source": "https://sumida-artfest.jp/programs/3990/",
+      "source_kind": "organizer_official",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "pass",
+        "reservation": "pass",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "2026-10-20公式照合: 主催者公式の個別企画：11/19〜12/27毎日16:30〜20時、旧安田庭園、参加無料。。公式掲載は自由観覧の庭園ライトアップ。運営変更・天候時は主催者へ確認。 2026-11-08 current-horizon carryover review: published official range overlaps 12/12-13.",
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "B",
+        "to": "B",
+        "reason": "庭園の紅葉と池に映る光を見比べ、家族で歴史ある庭園の景色を楽しめる無料鑑賞。 夕方以降の屋外散策で防寒と足元に配慮。工作や子ども専用の参加体験は案内されていない。",
+        "source": "https://sumida-artfest.jp/programs/3990/"
+      }
+    },
+    {
+      "id": "v15-974166027816",
+      "status": "announced",
+      "source": "https://sumida-artfest.jp",
+      "source_kind": "organizer_official",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "unknown",
+        "price": "pass",
+        "reservation": "pass",
+        "target": "unknown",
+        "cancellation": "unknown",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "v1.5完全再探索で公式・主催者等の根拠と開催情報を再突合。 2026-11-08 current-horizon carryover review: published official range overlaps 12/12-13.",
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "B",
+        "to": "B",
+        "reason": "古民家・商店街・ギャラリーなど街全体の表現を選んで巡り、家族で地域の文化を発見できる。 費用・予約・対象・会場はプログラムごとに異なる。催事全体を無料や全日開催の体験とは扱わない。",
+        "source": "https://sumida-artfest.jp"
+      }
+    },
+    {
+      "id": "verified-20261212-ota-bicycle",
+      "status": "verified",
+      "source": "https://www.city.ota.tokyo.jp/seikatsu/sumaimachinami/kotsuanzen/event/oyakojitensha.html",
+      "source_kind": "official",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "pass",
+        "reservation": "pass",
+        "target": "pass",
+        "cancellation": "unknown",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "2026-11-08 official primary page confirms target weekend details.",
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "A",
+        "to": "A",
+        "reason": "区内の小学生と保護者が伴走し、乗り方と交通ルールを無料で一緒に練習できる。 11/26受付開始前、各回15組先着。自転車・ヘルメットや保護者の動ける服装など、安全な練習準備が必要。",
+        "source": "https://www.city.ota.tokyo.jp/seikatsu/sumaimachinami/kotsuanzen/event/oyakojitensha.html"
+      }
+    },
+    {
+      "id": "verified-20261212-koto-sazanami",
+      "status": "verified",
+      "source": "https://www.city.koto.lg.jp/380291/ekokkuru/event/r8/12/261212_wakuwakusazanami.html",
+      "source_kind": "official",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "pass",
+        "reservation": "pass",
+        "target": "pass",
+        "cancellation": "unknown",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "2026-11-08 official primary page confirms target weekend details.",
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "A",
+        "to": "A",
+        "reason": "年長児〜小学生が自然案内人とクイズや観察を行い、親子で身近な生き物を発見できる。 11/20必着・抽選で当選者のみ参加。乳幼児の同伴不可、2時間の屋外活動で服装・雨具などの準備が必要。",
+        "source": "https://www.city.koto.lg.jp/380291/ekokkuru/event/r8/12/261212_wakuwakusazanami.html"
+      }
+    },
+    {
+      "id": "verified-20261212-sumida-gosai-tour",
+      "status": "verified",
+      "source": "https://sumida-artfest.jp/programs/7572/",
+      "source_kind": "official",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "pass",
+        "reservation": "pass",
+        "target": "pass",
+        "cancellation": "unknown",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "2026-11-08 official primary page confirms target weekend details.",
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "B",
+        "to": "B",
+        "reason": "ガイドと街の歴史・作品を見比べ、親子で墨田のアートへの理解を深められる無料ツアー。 少人数の事前申込制で各回2時間程度の街歩き。小学生以下は保護者同伴、幼い子には歩行と解説の負担を考えたい。",
+        "source": "https://sumida-artfest.jp/programs/7572/"
+      }
+    },
+    {
+      "id": "verified-20261213-sumida-startbox",
+      "status": "verified",
+      "source": "https://startbox.jp/event/3246/",
+      "source_kind": "official",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "pass",
+        "reservation": "pass",
+        "target": "pass",
+        "cancellation": "unknown",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "2026-11-08 official primary page confirms target weekend details.",
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "B",
+        "to": "B",
+        "reason": "作品を制作する場所を見学し、アーティストと話しながら親子でものづくりへの関心を広げられる。 制作道具を来場者が自由に使える教室とは案内されていない。悪天候時の変更、駐車・駐輪場なしに留意したい。",
+        "source": "https://startbox.jp/event/3246/"
+      }
+    },
+    {
+      "id": "announced-20261212-sumida-bion",
+      "status": "announced",
+      "source": "https://sumida-artfest.jp/events/",
+      "source_kind": "official",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "unknown",
+        "price": "unknown",
+        "reservation": "unknown",
+        "target": "pass",
+        "cancellation": "unknown",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "2026-11-08 official program schedule confirms name/date/venue; details pending.",
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "B",
+        "to": "B",
+        "reason": "音楽とアートが組み合わさる催しを家族で共有し、表現への関心を広げる機会。 一覧では公演・参加型企画という区分のみで、子ども自身の活動・料金・時間・対象は確認できない。未記載軸をAや無料扱いにしない。",
+        "source": "https://sumida-artfest.jp/events/"
+      }
+    },
+    {
+      "id": "final-20261213-nakano-146912",
+      "status": "verified",
+      "source": "https://pc.tamemap.net/1311401/event/146912/2026-11-22?locale=ja",
+      "source_kind": "organizer_provided_partner",
+      "verified_on": "2026-11-14",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "unknown",
+        "price": "pass",
+        "reservation": "pass",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "名前・2026年の実施日・会場を本文/構造化日程で照合。日付クエリ・更新日・写真を開催事実の根拠にしない。未記載事項は未確認のまま。",
+      "evidence": [
+        {
+          "url": "https://pc.tamemap.net/1311401/event/146912/2026-11-22?locale=ja",
+          "checked_at": "2026-11-13T21:40:31+09:00",
+          "sha256": "d99820566748f58a5be3f4d05ad0cd94c1eaf1bd9a0f876d57cd3012fc5849d3"
+        }
+      ],
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "B",
+        "to": "A",
+        "reason": "父母・祖父母と子どもが一緒に歌う、世代を越えた参加型のファミリー合唱。 細かな開催時刻や費用は未記載だが、それだけを理由に親子体験の強みをBへ抑えない。",
+        "source": "https://pc.tamemap.net/1311401/event/146912/2026-11-22?locale=ja"
+      }
+    },
+    {
+      "id": "final-20261213-nakano-142698",
+      "status": "verified",
+      "source": "https://pc.tamemap.net/1311401/event/142698/2026-11-29?locale=ja",
+      "source_kind": "organizer_provided_partner",
+      "verified_on": "2026-11-14",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "unknown",
+        "price": "pass",
+        "reservation": "pass",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "名前・2026年の実施日・会場を本文/構造化日程で照合。日付クエリ・更新日・写真を開催事実の根拠にしない。未記載事項は未確認のまま。",
+      "evidence": [
+        {
+          "url": "https://pc.tamemap.net/1311401/event/142698/2026-11-29?locale=ja",
+          "checked_at": "2026-11-13T08:10:21+09:00",
+          "sha256": "6e27308a4cd23a87ed8550319283583485be91edd8664d94b30b43dc13f85b00"
+        }
+      ],
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "B",
+        "to": "B",
+        "reason": "子ども・家族向けとして案内されるリトミックの機会。 具体的な活動と対象月齢・所要時間が本文にないため、年齢別に設計された教室と同じ評価にはしない。",
+        "source": "https://pc.tamemap.net/1311401/event/142698/2026-11-29?locale=ja"
+      }
+    },
+    {
+      "id": "final-20261212-nakano-163377",
+      "status": "verified",
+      "source": "https://pc.tamemap.net/1311401/event/163377/2026-12-12?locale=ja",
+      "source_kind": "organizer_provided_partner",
+      "verified_on": "2026-11-14",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "unknown",
+        "price": "pass",
+        "reservation": "pass",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "名前・2026年の実施日・会場を本文/構造化日程で照合。日付クエリ・更新日・写真を開催事実の根拠にしない。未記載事項は未確認のまま。",
+      "evidence": [
+        {
+          "url": "https://pc.tamemap.net/1311401/event/163377/2026-12-12?locale=ja",
+          "checked_at": "2026-11-13T08:10:43+09:00",
+          "sha256": "e5022dee42eef7e9e03e87cfb4a816c0a6b270866e511b653e534ef99c1d6ec0"
+        }
+      ],
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "B",
+        "to": "B",
+        "reason": "親子で囲碁を学べると主催者が案内する無料の教室。 対象年齢・初心者対応・当日の内容が本文にないため、どの子でも始められるとは判断できない。",
+        "source": "https://pc.tamemap.net/1311401/event/163377/2026-12-12?locale=ja"
+      }
+    },
+    {
+      "id": "final-20261212-nakano-162896",
+      "status": "verified",
+      "source": "https://pc.tamemap.net/1311401/event/162896/2026-12-12?locale=ja",
+      "source_kind": "organizer_provided_partner",
+      "verified_on": "2026-11-14",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "pass",
+        "reservation": "pass",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "名前・2026年の実施日・会場を本文/構造化日程で照合。日付クエリ・更新日・写真を開催事実の根拠にしない。未記載事項は未確認のまま。",
+      "evidence": [
+        {
+          "url": "https://pc.tamemap.net/1311401/event/162896/2026-12-12?locale=ja",
+          "checked_at": "2026-11-13T08:10:47+09:00",
+          "sha256": "05b274c1afd2cd36dda1e57873e600ac9a46386529ba9868a0b44b8a7373dfe6"
+        }
+      ],
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "B",
+        "to": "C",
+        "reason": "物語や原作に関心があり字幕を読める子には、家族で作品を話し合う機会になる。 1933年作品の字幕上映115分で、読解と長時間の鑑賞が必要。幼児や字幕を読めない子には内容が合いにくい。",
+        "source": "https://pc.tamemap.net/1311401/event/162896/2026-12-12?locale=ja"
+      }
+    },
+    {
+      "id": "final-20261213-nakano-163152",
+      "status": "verified",
+      "source": "https://pc.tamemap.net/1311401/event/163152/2026-12-13?locale=ja",
+      "source_kind": "organizer_provided_partner",
+      "verified_on": "2026-11-14",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "unknown",
+        "price": "unknown",
+        "reservation": "pass",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "名前・2026年の実施日・会場を本文/構造化日程で照合。日付クエリ・更新日・写真を開催事実の根拠にしない。未記載事項は未確認のまま。",
+      "evidence": [
+        {
+          "url": "https://pc.tamemap.net/1311401/event/163152/2026-12-13?locale=ja",
+          "checked_at": "2026-11-13T08:10:56+09:00",
+          "sha256": "25d227cc4602f6bfcaedcc986784b4f5da7fde16ab9c9d74f8a66b7585b8671b"
+        }
+      ],
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "B",
+        "to": "A",
+        "reason": "サンタ・絵本・音楽・トランポリン・スタンプラリーなど、親子が複数の遊びを選べる。 時刻・全体参加費は未記載で要確認。パンとスープ350円を参加費やイベント開始時刻に転用しない。",
+        "source": "https://pc.tamemap.net/1311401/event/163152/2026-12-13?locale=ja"
+      }
+    },
+    {
+      "id": "final-20261213-nakano-161828",
+      "status": "verified",
+      "source": "https://pc.tamemap.net/1311401/event/161828/2026-12-13?locale=ja",
+      "source_kind": "organizer_provided_partner",
+      "verified_on": "2026-11-14",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "pass",
+        "reservation": "pass",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "名前・2026年の実施日・会場を本文/構造化日程で照合。日付クエリ・更新日・写真を開催事実の根拠にしない。未記載事項は未確認のまま。",
+      "evidence": [
+        {
+          "url": "https://pc.tamemap.net/1311401/event/161828/2026-12-13?locale=ja",
+          "checked_at": "2026-11-13T08:11:02+09:00",
+          "sha256": "f06460fe1b1bf32d71726cba58c0ad3920b49078255bbb77eb7f703e2ce764c3"
+        }
+      ],
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "B",
+        "to": "B",
+        "reason": "外国人の本の紹介を聞いて投票し、読書と異文化について親子で話せる。 2時間の本の紹介・交流が中心で、読書への関心や話を理解できる子向け。発表者募集と観覧を混同しない。",
+        "source": "https://pc.tamemap.net/1311401/event/161828/2026-12-13?locale=ja"
+      }
+    },
+    {
+      "id": "final-20261212-park-7419",
+      "status": "verified",
+      "source": "https://nakano-hiromatimirai.resv.jp/reserve/calendar.php?x=1634516751",
+      "source_kind": "venue_official",
+      "verified_on": "2026-11-14",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "pass",
+        "reservation": "pass",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "名前・2026年の実施日・会場を本文/構造化日程で照合。日付クエリ・更新日・写真を開催事実の根拠にしない。未記載事項は未確認のまま。",
+      "evidence": [
+        {
+          "url": "https://nakano-hiromatimirai.resv.jp/reserve/calendar.php?x=1634516751",
+          "checked_at": "2026-11-13T22:56:27.704755+00:00",
+          "sha256": "e5025633fb226656fd7592f1a14d5827bde21e5af083e229f34abf4aff22809c"
+        }
+      ],
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "B",
+        "to": "A",
+        "reason": "年中〜小学生が初心者から45分のフラダンスを楽しめる。 保護者1名までの同伴と持ち物が必要で、12月枠の予約は11/15 9時開始。",
+        "source": "https://nakano-hiromatimirai.resv.jp/reserve/calendar.php?x=1634516751"
+      }
+    },
+    {
+      "id": "final-20261212-park-7421",
+      "status": "verified",
+      "source": "https://nakano-hiromatimirai.resv.jp/reserve/calendar.php?x=1634516751",
+      "source_kind": "venue_official",
+      "verified_on": "2026-11-14",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "pass",
+        "reservation": "pass",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "名前・2026年の実施日・会場を本文/構造化日程で照合。日付クエリ・更新日・写真を開催事実の根拠にしない。未記載事項は未確認のまま。",
+      "evidence": [
+        {
+          "url": "https://nakano-hiromatimirai.resv.jp/reserve/calendar.php?x=1634516751",
+          "checked_at": "2026-11-13T22:56:31.187772+00:00",
+          "sha256": "91f07f17a86c18a54f7284abe106dfcb0a06e8a7e4e40fbd9d577f030e786ac2"
+        }
+      ],
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "B",
+        "to": "B",
+        "reason": "4歳から親子で書を練習し、季節の文化に触れられる。 参加3500円・兄弟親子追加3000円で人数による負担が大きくなるため、体験の強みと費用を比較して選ぶ。",
+        "source": "https://nakano-hiromatimirai.resv.jp/reserve/calendar.php?x=1634516751"
+      }
+    },
+    {
+      "id": "final-20261212-park-7436",
+      "status": "verified",
+      "source": "https://nakano-hiromatimirai.resv.jp/reserve/calendar.php?x=1634516751",
+      "source_kind": "venue_official",
+      "verified_on": "2026-11-14",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "pass",
+        "reservation": "pass",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "名前・2026年の実施日・会場を本文/構造化日程で照合。日付クエリ・更新日・写真を開催事実の根拠にしない。未記載事項は未確認のまま。",
+      "evidence": [
+        {
+          "url": "https://nakano-hiromatimirai.resv.jp/reserve/calendar.php?x=1634516751",
+          "checked_at": "2026-11-13T22:56:33.066611+00:00",
+          "sha256": "f74e0358b9c7a6a62769d90c1a3675f19111dff9b89eac5e49d945d46d2e0841"
+        }
+      ],
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "B",
+        "to": "A",
+        "reason": "5歳から初心者も、教室と自由対局を自分のレベルで選んで将棋を楽しめる。 90分枠・参加1000円で予約が必要。上級者だけの大会とは評価しない。",
+        "source": "https://nakano-hiromatimirai.resv.jp/reserve/calendar.php?x=1634516751"
+      }
+    },
+    {
+      "id": "final-20261213-park-7428",
+      "status": "verified",
+      "source": "https://nakano-hiromatimirai.resv.jp/reserve/calendar.php?x=1634516751",
+      "source_kind": "venue_official",
+      "verified_on": "2026-11-14",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "pass",
+        "reservation": "pass",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "名前・2026年の実施日・会場を本文/構造化日程で照合。日付クエリ・更新日・写真を開催事実の根拠にしない。未記載事項は未確認のまま。",
+      "evidence": [
+        {
+          "url": "https://nakano-hiromatimirai.resv.jp/reserve/calendar.php?x=1634516751",
+          "checked_at": "2026-11-13T22:56:36.657959+00:00",
+          "sha256": "79fd4541eaa9df4046f2bb4706e19384eb74b2cc64b0495c3a111e4f9b6a5054"
+        }
+      ],
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "B",
+        "to": "A",
+        "reason": "3歳頃から保護者としめ縄飾りを作り、持ち帰る季節の工作を楽しめる。 小学2年生以下は保護者同伴で、材料費1800円・予約・取消条件を確認する。",
+        "source": "https://nakano-hiromatimirai.resv.jp/reserve/calendar.php?x=1634516751"
+      }
+    },
+    {
+      "id": "final-20261213-park-7424",
+      "status": "verified",
+      "source": "https://nakano-hiromatimirai.resv.jp/reserve/calendar.php?x=1634516751",
+      "source_kind": "venue_official",
+      "verified_on": "2026-11-14",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "pass",
+        "reservation": "pass",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "名前・2026年の実施日・会場を本文/構造化日程で照合。日付クエリ・更新日・写真を開催事実の根拠にしない。未記載事項は未確認のまま。",
+      "evidence": [
+        {
+          "url": "https://nakano-hiromatimirai.resv.jp/reserve/calendar.php?x=1634516751",
+          "checked_at": "2026-11-13T22:56:40.252267+00:00",
+          "sha256": "167aca85ff3fc12897ae5645cc7adc9eb0122f3517e193f5896aa6e88acb4d8a"
+        }
+      ],
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "B",
+        "to": "B",
+        "reason": "子ども連れで保護者等が少人数の歌のレッスンに参加できる。 子ども同伴可であって子ども向け指導の明記ではなく、託児もない。親子全員が同じレッスンを受けられるとは限らない。",
+        "source": "https://nakano-hiromatimirai.resv.jp/reserve/calendar.php?x=1634516751"
+      }
+    },
+    {
+      "id": "final-20261213-park-7425",
+      "status": "verified",
+      "source": "https://nakano-hiromatimirai.resv.jp/reserve/calendar.php?x=1634516751",
+      "source_kind": "venue_official",
+      "verified_on": "2026-11-14",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "pass",
+        "reservation": "pass",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "名前・2026年の実施日・会場を本文/構造化日程で照合。日付クエリ・更新日・写真を開催事実の根拠にしない。未記載事項は未確認のまま。",
+      "evidence": [
+        {
+          "url": "https://nakano-hiromatimirai.resv.jp/reserve/calendar.php?x=1634516751",
+          "checked_at": "2026-11-13T22:56:34.793110+00:00",
+          "sha256": "7e834fab6e17b4ffd8d6519421a6cbf0ae81a4f52120f91b2b0e122378e2ec10"
+        }
+      ],
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "B",
+        "to": "C",
+        "reason": "静かに待てる子どもを連れて、保護者が1時間のヨガに参加できる。 子ども向け講座ではなく同伴児は静かに待つ条件があるため、子ども自身の休日体験としての価値は限定的。",
+        "source": "https://nakano-hiromatimirai.resv.jp/reserve/calendar.php?x=1634516751"
+      }
+    },
+    {
+      "id": "final-20261212-suginami-27274",
+      "status": "verified",
+      "source": "https://www.city.suginami.tokyo.jp/s092/event/27274.html",
+      "source_kind": "official",
+      "verified_on": "2026-11-14",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "unknown",
+        "price": "unknown",
+        "reservation": "pass",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "名前・2026年の実施日・会場を本文/構造化日程で照合。日付クエリ・更新日・写真を開催事実の根拠にしない。未記載事項は未確認のまま。",
+      "evidence": [
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s092/event/27274.html",
+          "checked_at": "2026-10-27T18:43:23+09:00",
+          "sha256": "1563e0e722fe0f0a940fb70512a7bc73daff931213ceaaf68e52f86ba945ec7e"
+        }
+      ],
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "B",
+        "to": "A",
+        "reason": "なみすけのAR撮影とアート探しを、短い区間から家族のペースで楽しめる。 全周は約5〜6km。スマートフォンは保護者が扱い、歩きながらの操作を避ける。",
+        "source": "https://www.city.suginami.tokyo.jp/s092/event/27274.html"
+      }
+    },
+    {
+      "id": "final-20261212-suginami-28241",
+      "status": "verified",
+      "source": "https://www.city.suginami.tokyo.jp/s038/event/28241.html",
+      "source_kind": "official",
+      "verified_on": "2026-11-14",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "pass",
+        "reservation": "pass",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "名前・2026年の実施日・会場を本文/構造化日程で照合。日付クエリ・更新日・写真を開催事実の根拠にしない。未記載事項は未確認のまま。",
+      "evidence": [
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s038/event/28241.html",
+          "checked_at": "2026-10-27T18:43:31+09:00",
+          "sha256": "7b6463bcb7a164fb48ed65cd688f6f150fac8397b229ecd085d836bcb4d30681"
+        }
+      ],
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "B",
+        "to": "C",
+        "reason": "歌に関心のある年長の子どもには、シャンソンの表現を学ぶ機会になりうる。 原語やソロも含む90分の一般向けレッスンで、幼児・小学生に合う内容や指導は確認できない。",
+        "source": "https://www.city.suginami.tokyo.jp/s038/event/28241.html"
+      }
+    },
+    {
+      "id": "final-20261212-suginami-28456",
+      "status": "verified",
+      "source": "https://www.city.suginami.tokyo.jp/s113/event/28456.html",
+      "source_kind": "official",
+      "verified_on": "2026-11-14",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "pass",
+        "reservation": "pass",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "名前・2026年の実施日・会場を本文/構造化日程で照合。日付クエリ・更新日・写真を開催事実の根拠にしない。未記載事項は未確認のまま。",
+      "evidence": [
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s113/event/28456.html",
+          "checked_at": "2026-10-27T18:43:33+09:00",
+          "sha256": "73c3a4c9f3c5be8a3776790794638abb0068421bba122ae5d04425a5c0080b1d"
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s113/event/27522.html",
+          "basis": "同じ郷土博物館分館の公式休館日案内。"
+        }
+      ],
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "B",
+        "to": "B",
+        "reason": "写真や資料で天沼の教会・病院と商店街の歴史をたどれる。 地域史の説明を読む一般展示であり、小さい子が遊べる企画や触れる資料は案内されていない。",
+        "source": "https://www.city.suginami.tokyo.jp/s113/event/28456.html"
+      }
+    },
+    {
+      "id": "final-20261212-suginami-28578",
+      "status": "verified",
+      "source": "https://www.city.suginami.tokyo.jp/s100/event/28578.html",
+      "source_kind": "official",
+      "verified_on": "2026-11-14",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "pass",
+        "reservation": "pass",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "名前・2026年の実施日・会場を本文/構造化日程で照合。日付クエリ・更新日・写真を開催事実の根拠にしない。未記載事項は未確認のまま。",
+      "evidence": [
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s100/event/28578.html",
+          "checked_at": "2026-10-27T18:43:35+09:00",
+          "sha256": "72f71e4a253882a216d2ea02a5c4ae6c458eae572604e1a2faab7426e2e84e41"
+        }
+      ],
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "B",
+        "to": "B",
+        "reason": "大礼服の刺繍や復元資料から衣服と歴史を家族で見比べられる。 衣服資料を読む・見る展示が中心で、衣装を着る体験や子ども用解説は確認できない。",
+        "source": "https://www.city.suginami.tokyo.jp/s100/event/28578.html"
+      }
+    },
+    {
+      "id": "final-20261212-nakano-162738",
+      "status": "verified",
+      "source": "https://www.city.tokyo-nakano.lg.jp/kurashi/bunka/manabu/rekishiminzoku/kikakutenji/chiikiten1027.html",
+      "source_kind": "official",
+      "verified_on": "2026-11-14",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "pass",
+        "reservation": "pass",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "名前・2026年の実施日・会場を本文/構造化日程で照合。日付クエリ・更新日・写真を開催事実の根拠にしない。未記載事項は未確認のまま。",
+      "evidence": [
+        {
+          "url": "https://www.city.tokyo-nakano.lg.jp/kurashi/bunka/manabu/rekishiminzoku/kikakutenji/chiikiten1027.html",
+          "checked_at": "2026-11-14T08:11:43+09:00",
+          "sha256": "ccf9c179a69971e7c3e7020a7a858f508e0a2a0a0f9d031f7ff7afe3b3a195ed"
+        },
+        {
+          "url": "https://www.city.tokyo-nakano.lg.jp/kurashi/bunka/manabu/rekishiminzoku/kouza/rekimin_syogi.html",
+          "basis": "同資料館の利用時間・休館日。"
+        }
+      ],
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "B",
+        "to": "B",
+        "reason": "昔と今の写真や生活道具を比べ、住む町の歴史を共有できる。 観察中心の地域展示で、道具に触れる体験や小さい子への案内は確認できない。",
+        "source": "https://www.city.tokyo-nakano.lg.jp/kurashi/bunka/manabu/rekishiminzoku/kikakutenji/chiikiten1027.html"
+      }
+    },
+    {
+      "id": "final-20261212-nakano-163067",
+      "status": "verified",
+      "source": "https://www.city.tokyo-nakano.lg.jp/kurashi/bunka/manabu/rekishiminzoku/kikakutenji/rekimin_kikaku1103.html",
+      "source_kind": "official",
+      "verified_on": "2026-11-14",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "pass",
+        "reservation": "pass",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "名前・2026年の実施日・会場を本文/構造化日程で照合。日付クエリ・更新日・写真を開催事実の根拠にしない。未記載事項は未確認のまま。",
+      "evidence": [
+        {
+          "url": "https://www.city.tokyo-nakano.lg.jp/kurashi/bunka/manabu/rekishiminzoku/kikakutenji/rekimin_kikaku1103.html",
+          "checked_at": "2026-11-14T08:11:45+09:00",
+          "sha256": "f1969e8dca5530422a39961495b5057219992671f169c15fcea3d2c1247f7df6"
+        },
+        {
+          "url": "https://www.city.tokyo-nakano.lg.jp/kurashi/bunka/manabu/rekishiminzoku/kouza/rekimin_syogi.html",
+          "basis": "同資料館の利用時間・休館日。"
+        }
+      ],
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "B",
+        "to": "B",
+        "reason": "浮世絵の色・役者・構図を親子で見比べられる無料展示。 歌舞伎や浮世絵の背景への関心が楽しみ方を左右し、子ども向けの制作は未記載。",
+        "source": "https://www.city.tokyo-nakano.lg.jp/kurashi/bunka/manabu/rekishiminzoku/kikakutenji/rekimin_kikaku1103.html"
+      }
+    },
+    {
+      "id": "final-20261213-nerima-chicoowa-xmas",
+      "status": "verified",
+      "source": "https://www.chicoowa.com/cont14/81.html",
+      "source_kind": "organizer_official",
+      "verified_on": "2026-11-14",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "pass",
+        "reservation": "pass",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "名前・2026年の実施日・会場を本文/構造化日程で照合。日付クエリ・更新日・写真を開催事実の根拠にしない。未記載事項は未確認のまま。",
+      "evidence": [
+        {
+          "url": "https://www.chicoowa.com/cont14/81.html",
+          "checked_at": "2026-11-14T08:13:43+09:00",
+          "sha256": "320348dae684a85d9776048e68a0744bf6752ab42f5741adab0c351da4a23249"
+        }
+      ],
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "B",
+        "to": "B",
+        "reason": "ハンドメイド作品とクリスマス制作を、家族で選んで楽しめるマルシェ。 一般向けで、子どもが参加できる制作の年齢・料金・受付は出店者ごとの確認が必要。",
+        "source": "https://www.chicoowa.com/cont14/81.html"
+      }
+    },
+    {
+      "id": "primary-20261213-meguro-kyogen",
+      "status": "verified",
+      "source": "https://www.city.meguro.tokyo.jp/bunka/event/kyogenr8.html",
+      "source_kind": "official",
+      "verified_on": "2026-11-14",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "pass",
+        "reservation": "pass",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "名前・2026年の実施日・会場を本文/構造化日程で照合。日付クエリ・更新日・写真を開催事実の根拠にしない。未記載事項は未確認のまま。",
+      "evidence": [
+        {
+          "url": "https://www.city.meguro.tokyo.jp/bunka/event/kyogenr8.html",
+          "checked_at": "2026-11-14T11:29:40+09:00",
+          "sha256": "76ff639139be000eed8bb44b42e326a499a9fdb09f177ba0e9c849a6574307d8"
+        }
+      ],
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "B",
+        "to": "A",
+        "reason": "区内の小学生と保護者が、プロから狂言と玉すだれを一緒に学び体験できる無料講座。 在住在学条件・各回25組・抽選があり、11/16締切。午前と午後は選択制で両方参加ではない。",
+        "source": "https://www.city.meguro.tokyo.jp/bunka/event/kyogenr8.html"
+      }
+    },
+    {
+      "id": "primary-20261212-meguro-horse-exhibit",
+      "status": "verified",
+      "source": "https://www.city.meguro.tokyo.jp/shougaigakushuu/event/kikakuten.html",
+      "source_kind": "official",
+      "verified_on": "2026-11-14",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "pass",
+        "reservation": "pass",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "名前・2026年の実施日・会場を本文/構造化日程で照合。日付クエリ・更新日・写真を開催事実の根拠にしない。未記載事項は未確認のまま。",
+      "evidence": [
+        {
+          "url": "https://www.city.meguro.tokyo.jp/shougaigakushuu/event/kikakuten.html",
+          "checked_at": "2026-11-14T11:29:45+09:00",
+          "sha256": "29d4fc79ba52fcadf958a4590fe3b804094d39a6f1d1b4b1c43ffca307bd0a5b"
+        }
+      ],
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "B",
+        "to": "B",
+        "reason": "馬と地名・競馬場など、地域の歴史を親子でたどれる無料の展示。 11月はパネル中心で、乗馬や動物とのふれあいがある催しとは評価しない。",
+        "source": "https://www.city.meguro.tokyo.jp/shougaigakushuu/event/kikakuten.html"
+      }
+    },
+    {
+      "id": "primary-20261212-meguro-horse-talk",
+      "status": "verified",
+      "source": "https://www.city.meguro.tokyo.jp/shougaigakushuu/event/kikakuten.html",
+      "source_kind": "official",
+      "verified_on": "2026-11-14",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "pass",
+        "reservation": "pass",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "名前・2026年の実施日・会場を本文/構造化日程で照合。日付クエリ・更新日・写真を開催事実の根拠にしない。未記載事項は未確認のまま。",
+      "evidence": [
+        {
+          "url": "https://www.city.meguro.tokyo.jp/shougaigakushuu/event/kikakuten.html",
+          "checked_at": "2026-11-14T11:29:45+09:00",
+          "sha256": "29d4fc79ba52fcadf958a4590fe3b804094d39a6f1d1b4b1c43ffca307bd0a5b"
+        }
+      ],
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "B",
+        "to": "B",
+        "reason": "馬と地域史を学芸員の1時間の解説で深められる。 一般向けの説明で、子ども向けの進行や途中退出の扱いは未記載。乗馬体験とは別。",
+        "source": "https://www.city.meguro.tokyo.jp/shougaigakushuu/event/kikakuten.html"
+      }
+    },
+    {
+      "id": "primary-20261212-taito-noguchi",
+      "status": "verified",
+      "source": "https://www.kahaku.go.jp/tenji-event/nid00003997.html",
+      "source_kind": "venue_official",
+      "verified_on": "2026-11-14",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "pass",
+        "reservation": "unknown",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "名前・2026年の実施日・会場を本文/構造化日程で照合。日付クエリ・更新日・写真を開催事実の根拠にしない。未記載事項は未確認のまま。",
+      "evidence": [
+        {
+          "url": "https://www.kahaku.go.jp/tenji-event/nid00003997.html",
+          "checked_at": "2026-11-14T11:34:53+09:00",
+          "sha256": "26a7c939a9d1f1f267ae09b5abf18bfed14fca0dc824d07f49c6ef9ed6e2d7dc"
+        }
+      ],
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "B",
+        "to": "A",
+        "reason": "実際に顕微鏡をのぞく観察と資料を組み合わせ、親子で感染症と科学を学べる。 専門用語の理解は子どもによる。映画会・講演会は展示とは別枠で、申込条件を流用しない。",
+        "source": "https://www.kahaku.go.jp/tenji-event/nid00003997.html"
+      }
+    },
+    {
+      "id": "remaining-20261212-cincinnati-art",
+      "status": "verified",
+      "source": "https://www.cincinnati-art2026.jp/outline.html",
+      "source_kind": "official",
+      "verified_on": "2026-11-14",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "pass",
+        "reservation": "unknown",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "名前・2026年の実施日・会場を本文/構造化日程で照合。日付クエリ・更新日・写真を開催事実の根拠にしない。未記載事項は未確認のまま。",
+      "evidence": [
+        {
+          "url": "https://www.cincinnati-art2026.jp/outline.html",
+          "checked_at": "2026-11-14T16:27:07+09:00",
+          "sha256": "f76a3c8f8ef8d4e72dfc143d5732fd0be1bbe358e81a1a99b0b1154b99014a2f"
+        },
+        {
+          "url": "https://www.cincinnati-art2026.jp/ticket.html",
+          "checked_at": "2026-11-14T16:27:10+09:00",
+          "sha256": "abe5cd53e44e8ca86a5a00b93cf4ecfffb9d033153146fe1c5828a16dbd441e4"
+        }
+      ]
+    },
+    {
+      "id": "remaining-20261212-kahaku-noguchi-lecture",
+      "status": "verified",
+      "source": "https://www.kahaku.go.jp/event/nid00005688.html",
+      "source_kind": "official",
+      "verified_on": "2026-11-14",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "pass",
+        "reservation": "pass",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "名前・2026年の実施日・会場を本文/構造化日程で照合。日付クエリ・更新日・写真を開催事実の根拠にしない。未記載事項は未確認のまま。",
+      "evidence": [
+        {
+          "url": "https://www.kahaku.go.jp/event/nid00005688.html",
+          "checked_at": "2026-11-14T16:27:13+09:00",
+          "sha256": "885070f76fd52a696e4b25ebceaccc5bcafbda50d9a297d2671a5e2db1402dd4"
+        }
+      ]
+    },
+    {
+      "id": "next-primary-20261213-chiyoda-bosai-vr",
+      "status": "verified",
+      "source": "https://www.chiyoda-bosai.tokyo/",
+      "source_kind": "organizer_official",
+      "verified_on": "2026-11-14",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "pass",
+        "reservation": "pass",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "名前・2026年の実施日・会場を本文/構造化日程で照合。日付クエリ・更新日・写真を開催事実の根拠にしない。未記載事項は未確認のまま。",
+      "evidence": [
+        {
+          "url": "https://www.chiyoda-bosai.tokyo/",
+          "checked_at": "2026-11-14T16:26:38+09:00",
+          "sha256": "62bf2c8b8d1d567127a4d4d010c49fdaaa7e0c5930fc44d050018a633412fd86"
+        }
+      ]
+    },
+    {
+      "id": "next-primary-20261213-chiyoda-bosai-ladder",
+      "status": "verified",
+      "source": "https://www.chiyoda-bosai.tokyo/",
+      "source_kind": "organizer_official",
+      "verified_on": "2026-11-14",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "pass",
+        "reservation": "pass",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "名前・2026年の実施日・会場を本文/構造化日程で照合。日付クエリ・更新日・写真を開催事実の根拠にしない。未記載事項は未確認のまま。",
+      "evidence": [
+        {
+          "url": "https://www.chiyoda-bosai.tokyo/",
+          "checked_at": "2026-11-14T16:26:38+09:00",
+          "sha256": "62bf2c8b8d1d567127a4d4d010c49fdaaa7e0c5930fc44d050018a633412fd86"
+        }
+      ]
+    },
+    {
+      "id": "next-primary-20261213-chiyoda-bosai-horse",
+      "status": "verified",
+      "source": "https://www.chiyoda-bosai.tokyo/",
+      "source_kind": "organizer_official",
+      "verified_on": "2026-11-14",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "pass",
+        "reservation": "pass",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "名前・2026年の実施日・会場を本文/構造化日程で照合。日付クエリ・更新日・写真を開催事実の根拠にしない。未記載事項は未確認のまま。",
+      "evidence": [
+        {
+          "url": "https://www.chiyoda-bosai.tokyo/",
+          "checked_at": "2026-11-14T16:26:38+09:00",
+          "sha256": "62bf2c8b8d1d567127a4d4d010c49fdaaa7e0c5930fc44d050018a633412fd86"
+        }
+      ]
+    },
+    {
+      "id": "next-primary-20261213-chiyoda-bosai-baby",
+      "status": "verified",
+      "source": "https://www.chiyoda-bosai.tokyo/",
+      "source_kind": "organizer_official",
+      "verified_on": "2026-11-14",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "pass",
+        "reservation": "pass",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "名前・2026年の実施日・会場を本文/構造化日程で照合。日付クエリ・更新日・写真を開催事実の根拠にしない。未記載事項は未確認のまま。",
+      "evidence": [
+        {
+          "url": "https://www.chiyoda-bosai.tokyo/",
+          "checked_at": "2026-11-14T16:26:38+09:00",
+          "sha256": "62bf2c8b8d1d567127a4d4d010c49fdaaa7e0c5930fc44d050018a633412fd86"
+        }
+      ]
+    },
+    {
+      "id": "next-primary-20261213-chiyoda-bosai-attraction",
+      "status": "verified",
+      "source": "https://www.chiyoda-bosai.tokyo/",
+      "source_kind": "organizer_official",
+      "verified_on": "2026-11-14",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "pass",
+        "reservation": "pass",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "名前・2026年の実施日・会場を本文/構造化日程で照合。日付クエリ・更新日・写真を開催事実の根拠にしない。未記載事項は未確認のまま。",
+      "evidence": [
+        {
+          "url": "https://www.chiyoda-bosai.tokyo/",
+          "checked_at": "2026-11-14T16:26:38+09:00",
+          "sha256": "62bf2c8b8d1d567127a4d4d010c49fdaaa7e0c5930fc44d050018a633412fd86"
+        }
+      ]
+    },
+    {
+      "id": "next-primary-20261213-chiyoda-bosai-booths",
+      "status": "verified",
+      "source": "https://www.chiyoda-bosai.tokyo/",
+      "source_kind": "organizer_official",
+      "verified_on": "2026-11-14",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "pass",
+        "reservation": "pass",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "名前・2026年の実施日・会場を本文/構造化日程で照合。日付クエリ・更新日・写真を開催事実の根拠にしない。未記載事項は未確認のまま。",
+      "evidence": [
+        {
+          "url": "https://www.chiyoda-bosai.tokyo/",
+          "checked_at": "2026-11-14T16:26:38+09:00",
+          "sha256": "62bf2c8b8d1d567127a4d4d010c49fdaaa7e0c5930fc44d050018a633412fd86"
+        }
+      ]
+    },
+    {
+      "id": "next-primary-20261212-turner-exhibition",
+      "status": "verified",
+      "source": "https://turner2026-27.exhibit.jp/outline/index.html",
+      "source_kind": "organizer_official",
+      "verified_on": "2026-11-14",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "pass",
+        "reservation": "unknown",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "名前・2026年の実施日・会場を本文/構造化日程で照合。日付クエリ・更新日・写真を開催事実の根拠にしない。未記載事項は未確認のまま。",
+      "evidence": [
+        {
+          "url": "https://turner2026-27.exhibit.jp/outline/index.html",
+          "checked_at": "2026-11-14T18:03:29+09:00",
+          "sha256": "65184cea827e1f386b8bdff700f11011ec4e5e34d44acc0a469eef23bd866214"
+        },
+        {
+          "url": "https://turner2026-27.exhibit.jp/ticket/",
+          "checked_at": "2026-11-14T16:27:14+09:00",
+          "sha256": "14c696d2a09d4d217cdc4dfaabf1a2db91366849a5751f00d010e673624a013c"
+        },
+        {
+          "url": "https://turner2026-27.exhibit.jp/",
+          "checked_at": "2026-11-14T16:26:43+09:00",
+          "sha256": "5af23decf6dbf6f7de91fc4cc6b7579af84efb0e29804f160ac0b09ca47151c5"
+        }
+      ]
+    },
+    {
+      "id": "next-primary-20261213-nakano-hee-haw-meal",
+      "status": "verified",
+      "source": "https://nakanoshakyo.com/nakanoinfo/event/result/?did=14575",
+      "source_kind": "organizer_provided_partner",
+      "verified_on": "2026-11-14",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "pass",
+        "reservation": "pass",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "名前・2026年の実施日・会場を本文/構造化日程で照合。日付クエリ・更新日・写真を開催事実の根拠にしない。未記載事項は未確認のまま。",
+      "evidence": [
+        {
+          "url": "https://nakanoshakyo.com/nakanoinfo/event/result/?did=14575",
+          "checked_at": "2026-11-14T18:03:30+09:00",
+          "sha256": "acd940cfdd834730b8f2f843046a1e4bcb28268d00362a7235c561579588eb09"
+        }
+      ]
+    },
+    {
+      "id": "all-reviewed-20261212-sugi-214",
+      "status": "verified",
+      "source": "https://www.city.suginami.tokyo.jp/s015/event/28786.html",
+      "source_kind": "official",
+      "verified_on": "2026-11-14",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "pass",
+        "reservation": "pass",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "名前・2026年の実施日・会場を本文/構造化日程で照合。日付クエリ・更新日・写真を開催事実の根拠にしない。未記載事項は未確認のまま。",
+      "evidence": [
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s015/event/28786.html",
+          "checked_at": "2026-11-14T19:48:55+09:00",
+          "sha256": "326211876faacd0bb7c86e9b95158655d16bc4ac4f9880f55d680bd306c00247"
+        }
+      ]
+    },
+    {
+      "id": "all-reviewed-20261213-sugi-230",
+      "status": "verified",
+      "source": "https://www.city.suginami.tokyo.jp/s017/event/29093.html",
+      "source_kind": "official",
+      "verified_on": "2026-11-14",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "pass",
+        "reservation": "pass",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "名前・2026年の実施日・会場を本文/構造化日程で照合。日付クエリ・更新日・写真を開催事実の根拠にしない。未記載事項は未確認のまま。",
+      "evidence": [
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s017/event/29093.html",
+          "checked_at": "2026-11-14T19:49:11+09:00",
+          "sha256": "426e90c203a2315b0cbd51838e844b80f0b61d58852ba566d9a707ab87fb5af8"
+        }
+      ]
+    },
+    {
+      "id": "all-reviewed-20261212-sugi-231",
+      "status": "verified",
+      "source": "https://www.city.suginami.tokyo.jp/s026/event/28518.html",
+      "source_kind": "official",
+      "verified_on": "2026-11-14",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "pass",
+        "reservation": "pass",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "名前・2026年の実施日・会場を本文/構造化日程で照合。日付クエリ・更新日・写真を開催事実の根拠にしない。未記載事項は未確認のまま。",
+      "evidence": [
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s026/event/28518.html",
+          "checked_at": "2026-11-14T19:49:09+09:00",
+          "sha256": "cb4f8193bbf115f5f4d902df186feaaeaa09be854b9ba9958fa53d0faaa17216"
+        }
+      ]
+    },
+    {
+      "id": "all-reviewed-20261213-sugi-470",
+      "status": "verified",
+      "source": "https://www.city.suginami.tokyo.jp/s022/event/28941.html",
+      "source_kind": "official",
+      "verified_on": "2026-11-14",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "pass",
+        "reservation": "pass",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "名前・2026年の実施日・会場を本文/構造化日程で照合。日付クエリ・更新日・写真を開催事実の根拠にしない。未記載事項は未確認のまま。",
+      "evidence": [
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s022/event/28941.html",
+          "checked_at": "2026-11-14T19:49:16+09:00",
+          "sha256": "e8edce12e4e0d04017f6c18134458aadcc834954ff8029e00472365a97bcff37"
+        }
+      ]
+    },
+    {
+      "id": "all-reviewed-20261213-sugi-506",
+      "status": "verified",
+      "source": "https://www.city.suginami.tokyo.jp/s024/event/28984.html",
+      "source_kind": "official",
+      "verified_on": "2026-11-14",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "pass",
+        "reservation": "pass",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "名前・2026年の実施日・会場を本文/構造化日程で照合。日付クエリ・更新日・写真を開催事実の根拠にしない。未記載事項は未確認のまま。",
+      "evidence": [
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s024/event/28984.html",
+          "checked_at": "2026-11-14T19:49:22+09:00",
+          "sha256": "59138bc52518ba6e0244e1e3e098a411b5b9fc619df1164cb3da81bd5dfc5267"
+        }
+      ]
+    },
+    {
+      "id": "all-reviewed-20261213-sugi-536",
+      "status": "verified",
+      "source": "https://www.city.suginami.tokyo.jp/s027/event/28554.html",
+      "source_kind": "official",
+      "verified_on": "2026-11-14",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "pass",
+        "reservation": "pass",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "名前・2026年の実施日・会場を本文/構造化日程で照合。日付クエリ・更新日・写真を開催事実の根拠にしない。未記載事項は未確認のまま。",
+      "evidence": [
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s027/event/28554.html",
+          "checked_at": "2026-11-14T19:49:23+09:00",
+          "sha256": "c4d4bfb3fd6741968f5838ee7dde9b5e6bfe06ddb8218b411ee046a93bb3c4aa"
+        }
+      ]
+    },
+    {
+      "id": "all-reviewed-20261213-sugi-640",
+      "status": "verified",
+      "source": "https://www.city.suginami.tokyo.jp/s037/event/28881.html",
+      "source_kind": "official",
+      "verified_on": "2026-11-14",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "pass",
+        "reservation": "pass",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "名前・2026年の実施日・会場を本文/構造化日程で照合。日付クエリ・更新日・写真を開催事実の根拠にしない。未記載事項は未確認のまま。",
+      "evidence": [
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s037/event/28881.html",
+          "checked_at": "2026-11-14T19:49:55+09:00",
+          "sha256": "645283663f4d7ea6855d9fcc170a9ec06c89a0ba5561ea5037ec79ec5e36a5eb"
+        }
+      ]
+    },
+    {
+      "id": "all-reviewed-20261213-sugi-641",
+      "status": "verified",
+      "source": "https://www.city.suginami.tokyo.jp/s036/event/29862.html",
+      "source_kind": "official",
+      "verified_on": "2026-11-14",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "pass",
+        "reservation": "pass",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "名前・2026年の実施日・会場を本文/構造化日程で照合。日付クエリ・更新日・写真を開催事実の根拠にしない。未記載事項は未確認のまま。",
+      "evidence": [
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s036/event/29862.html",
+          "checked_at": "2026-11-14T19:49:53+09:00",
+          "sha256": "b73a305a42fc3dfd42437540efd520e6816ee5775d6bb0d3d9f2b84a02bd45d0"
+        }
+      ]
+    },
+    {
+      "id": "all-reviewed-20261213-sugi-676",
+      "status": "verified",
+      "source": "https://www.city.suginami.tokyo.jp/s038/event/28937.html",
+      "source_kind": "official",
+      "verified_on": "2026-11-14",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "pass",
+        "reservation": "pass",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "名前・2026年の実施日・会場を本文/構造化日程で照合。日付クエリ・更新日・写真を開催事実の根拠にしない。未記載事項は未確認のまま。",
+      "evidence": [
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s038/event/28937.html",
+          "checked_at": "2026-11-14T19:50:05+09:00",
+          "sha256": "9777b16ec8b0f4560fa5d08578fb31ac3a9efbc90574c44079614571d8dc33c7"
+        }
+      ]
+    },
+    {
+      "id": "all-reviewed-20261212-sugi-711",
+      "status": "verified",
+      "source": "https://www.city.suginami.tokyo.jp/s045/event/28942.html",
+      "source_kind": "official",
+      "verified_on": "2026-11-14",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "pass",
+        "reservation": "pass",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "名前・2026年の実施日・会場を本文/構造化日程で照合。日付クエリ・更新日・写真を開催事実の根拠にしない。未記載事項は未確認のまま。",
+      "evidence": [
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s045/event/28942.html",
+          "checked_at": "2026-11-14T19:58:05+09:00",
+          "sha256": "bb61909605a17cafa9faf4dd58e130bb54d6c650b17d698d206f7a108e1435e2"
+        }
+      ]
+    },
+    {
+      "id": "all-reviewed-20261213-sugi-772",
+      "status": "verified",
+      "source": "https://www.city.suginami.tokyo.jp/s103/event/29010.html",
+      "source_kind": "official",
+      "verified_on": "2026-11-14",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "pass",
+        "reservation": "pass",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "名前・2026年の実施日・会場を本文/構造化日程で照合。日付クエリ・更新日・写真を開催事実の根拠にしない。未記載事項は未確認のまま。",
+      "evidence": [
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s103/event/29010.html",
+          "checked_at": "2026-11-14T19:51:08+09:00",
+          "sha256": "3ef95c784a935539e08e272b0521b7ffeeb49426cd23567ecb92c6f828d31fcd"
+        }
+      ]
+    },
+    {
+      "id": "all-reviewed-20261212-orsay-exhibition",
+      "status": "verified",
+      "source": "https://www.tobikan.jp/exhibition/2026_orsay.html",
+      "source_kind": "official",
+      "verified_on": "2026-11-14",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "pass",
+        "reservation": "pass",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "名前・2026年の実施日・会場を本文/構造化日程で照合。日付クエリ・更新日・写真を開催事実の根拠にしない。未記載事項は未確認のまま。",
+      "evidence": [
+        {
+          "url": "https://www.tobikan.jp/exhibition/2026_orsay.html",
+          "checked_at": "2026-11-14T20:05:26+09:00",
+          "sha256": "087b0c1815b7af8eef5a3f93818261d66517683053ec37ca991db5e1be4f12c5"
+        },
+        {
+          "url": "https://art.nikkei.com/orsay2627/outline/",
+          "checked_at": "2026-11-14T20:05:25+09:00",
+          "sha256": "6364e865a5cc4caa94d83f344d9d7df77004f787316b8b25f934f99060abd15d"
+        },
+        {
+          "url": "https://art.nikkei.com/orsay2627/",
+          "checked_at": "2026-11-14T19:58:07+09:00",
+          "sha256": "5207636536964b74b85ccb18a669514a71e10c144d746aac54bc0a5e6fd0a365"
+        }
+      ]
+    },
+    {
+      "id": "all-reviewed-20261212-art-annex",
+      "status": "verified",
+      "source": "https://avex.jp/meetyourart/festival/annex/",
+      "source_kind": "official",
+      "verified_on": "2026-11-14",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "unknown",
+        "reservation": "unknown",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "名前・2026年の実施日・会場を本文/構造化日程で照合。日付クエリ・更新日・写真を開催事実の根拠にしない。未記載事項は未確認のまま。",
+      "evidence": [
+        {
+          "url": "https://avex.jp/meetyourart/festival/annex/",
+          "checked_at": "2026-11-14T19:58:09+09:00",
+          "sha256": "428976e4041fbb98341376f05fdc913663f742a75bb7aa6c2dd6c4ed4442b103"
+        }
+      ]
+    },
+    {
+      "id": "all-reviewed-20261212-rose-illumination",
+      "status": "verified",
+      "source": "https://www.shikinokaori-rose-garden.com/event/11343/",
+      "source_kind": "official",
+      "verified_on": "2026-11-14",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "unknown",
+        "reservation": "unknown",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "名前・2026年の実施日・会場を本文/構造化日程で照合。日付クエリ・更新日・写真を開催事実の根拠にしない。未記載事項は未確認のまま。",
+      "evidence": [
+        {
+          "url": "https://www.shikinokaori-rose-garden.com/event/11343/",
+          "checked_at": "2026-11-14T19:58:05+09:00",
+          "sha256": "96e8253aa5030b286d4490640f275def67688999199d66dcedba4b603367e11f"
+        }
+      ]
+    },
+    {
+      "id": "all-reviewed-20261213-rose-family-concert",
+      "status": "verified",
+      "source": "https://www.shikinokaori-rose-garden.com/event/11343/",
+      "source_kind": "official",
+      "verified_on": "2026-11-14",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "pass",
+        "reservation": "pass",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "名前・2026年の実施日・会場を本文/構造化日程で照合。日付クエリ・更新日・写真を開催事実の根拠にしない。未記載事項は未確認のまま。",
+      "evidence": [
+        {
+          "url": "https://www.shikinokaori-rose-garden.com/event/11343/",
+          "checked_at": "2026-11-14T19:58:05+09:00",
+          "sha256": "96e8253aa5030b286d4490640f275def67688999199d66dcedba4b603367e11f"
+        }
+      ]
+    },
+    {
+      "id": "all-reviewed-20261213-rose-adult-concert",
+      "status": "verified",
+      "source": "https://www.shikinokaori-rose-garden.com/event/11343/",
+      "source_kind": "official",
+      "verified_on": "2026-11-14",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "pass",
+        "reservation": "pass",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "名前・2026年の実施日・会場を本文/構造化日程で照合。日付クエリ・更新日・写真を開催事実の根拠にしない。未記載事項は未確認のまま。",
+      "evidence": [
+        {
+          "url": "https://www.shikinokaori-rose-garden.com/event/11343/",
+          "checked_at": "2026-11-14T19:58:05+09:00",
+          "sha256": "96e8253aa5030b286d4490640f275def67688999199d66dcedba4b603367e11f"
+        }
+      ]
+    },
+    {
+      "id": "all-reviewed-20261212-rose-training",
+      "status": "verified",
+      "source": "https://www.shikinokaori-rose-garden.com/event/11343/",
+      "source_kind": "official",
+      "verified_on": "2026-11-14",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "pass",
+        "reservation": "pass",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "名前・2026年の実施日・会場を本文/構造化日程で照合。日付クエリ・更新日・写真を開催事実の根拠にしない。未記載事項は未確認のまま。",
+      "evidence": [
+        {
+          "url": "https://www.shikinokaori-rose-garden.com/event/11343/",
+          "checked_at": "2026-11-14T19:58:05+09:00",
+          "sha256": "96e8253aa5030b286d4490640f275def67688999199d66dcedba4b603367e11f"
+        }
+      ]
+    },
+    {
+      "id": "all-reviewed-20261212-shibuya-tennis-family",
+      "status": "verified",
+      "source": "https://www.city.shibuya.tokyo.jp/bunka/olypara-legacy/others/shibuparawan.html",
+      "source_kind": "official",
+      "verified_on": "2026-11-14",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "unknown",
+        "reservation": "pass",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "名前・2026年の実施日・会場を本文/構造化日程で照合。日付クエリ・更新日・写真を開催事実の根拠にしない。未記載事項は未確認のまま。",
+      "evidence": [
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/bunka/olypara-legacy/others/shibuparawan.html",
+          "checked_at": "2026-11-14T20:05:30+09:00",
+          "sha256": "387a12ab50871a035461c39a4a9b42f4ddcb8f6448083188ec0d11fd4afb8285"
+        }
+      ]
+    },
+    {
+      "id": "all-reviewed-20261212-shibuya-tennis-older",
+      "status": "verified",
+      "source": "https://www.city.shibuya.tokyo.jp/bunka/olypara-legacy/others/shibuparawan.html",
+      "source_kind": "official",
+      "verified_on": "2026-11-14",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "unknown",
+        "reservation": "pass",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "名前・2026年の実施日・会場を本文/構造化日程で照合。日付クエリ・更新日・写真を開催事実の根拠にしない。未記載事項は未確認のまま。",
+      "evidence": [
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/bunka/olypara-legacy/others/shibuparawan.html",
+          "checked_at": "2026-11-14T20:05:30+09:00",
+          "sha256": "387a12ab50871a035461c39a4a9b42f4ddcb8f6448083188ec0d11fd4afb8285"
+        }
+      ]
+    },
+    {
+      "id": "all-reviewed-20261212-senju-artpath2026",
+      "status": "verified",
+      "source": "https://www.senju-artpath.com/",
+      "source_kind": "official",
+      "verified_on": "2026-11-14",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "pass",
+        "reservation": "unknown",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "名前・2026年の実施日・会場を本文/構造化日程で照合。日付クエリ・更新日・写真を開催事実の根拠にしない。未記載事項は未確認のまま。",
+      "evidence": [
+        {
+          "url": "https://www.senju-artpath.com/",
+          "checked_at": "2026-11-14T19:58:16+09:00",
+          "sha256": "54b5352d957087771bc69753067760deffc7619705a5833fe1a972966a03628f"
+        }
+      ]
+    },
+    {
+      "id": "evidence2-20261213-minnano-kitchen",
+      "status": "verified",
+      "source": "https://calendar.google.com/calendar/ical/kodomohot.nakano%40gmail.com/public/basic.ics",
+      "source_kind": "official",
+      "verified_on": "2026-11-15",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "pass",
+        "reservation": "pass",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "2025年の記事の曜日から生成せず、公式サイト埋込カレンダーの現在公開中の継続規則・EXDATE・例外インスタンスを照合。11/15以降の対象週末は12/13。変更の有無は来場前にも確認。",
+      "evidence": [
+        {
+          "url": "https://calendar.google.com/calendar/ical/kodomohot.nakano%40gmail.com/public/basic.ics",
+          "checked_at": "2026-11-15T02:57:43.212566+00:00",
+          "sha256": "0894484ddfd6b836057b5ac0184a0de37b741b14f20ef93f028bdf6b8391865f"
+        }
+      ]
+    },
+    {
+      "id": "verified-20261213-suginami-cesion-christmas",
+      "status": "verified",
+      "source": "https://www.city.suginami.tokyo.jp/s024/event/29061.html",
+      "source_kind": "public_official",
+      "verified_on": "2026-11-19",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "unknown",
+        "reservation": "pass",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "週別全源照合は未完（ためまっぷ403等）。この1件は各区公式ページの個別確認に基づく。",
+      "evidence": [
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s024/event/29061.html",
+          "quote": "2026年12月13日（日曜日）開催時間午前11時から午後3時まで",
+          "checked_at": "2026-11-19",
+          "sha256": "4cb476188f28add373864977b6fc29b83c29703f58df803fbbd75e928331e7ae",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "杉並区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s024/event/29061.html",
+          "quote": "セシオン杉並展示室杉並区梅里1丁目22番32号",
+          "checked_at": "2026-11-19",
+          "sha256": "bec76c84209f00a0f468afc3fcb04f792bca6f59cfc71b1741c06a0dff240f83",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "杉並区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s024/event/29061.html",
+          "quote": "ゴスペルクワイヤの演奏、子どもたちによるパフォーマンス、人形劇",
+          "checked_at": "2026-11-19",
+          "sha256": "928fbff812c7b5ce8c83e9df7026cb80f33d6dbac97090c236c5f498839fb4dc",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "杉並区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s024/event/29061.html",
+          "quote": "入退場自由（事前申し込み不要）",
+          "checked_at": "2026-11-19",
+          "sha256": "849785d4fdffc655487792118a543b0f0c1858a104257685930d73729c34add6",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "杉並区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s024/event/29061.html",
+          "quote": "当日直接会場へお越しください。",
+          "checked_at": "2026-11-19",
+          "sha256": "262d4c787ebcfd42b4055ef49b14adeaa1f618a5fd580b3fb709745fdedfd665",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "杉並区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        }
+      ]
+    },
+    {
+      "id": "verified-20261212-sankaku-christmas",
+      "status": "verified",
+      "source": "https://www.sumitomo-sankakuhiroba.jp/event/",
+      "source_kind": "public_official",
+      "verified_on": "2026-11-19",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "unknown",
+        "price": "unknown",
+        "reservation": "unknown",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "開催時間・休演日は公式ページに記載がなく、公式Instagramの参照が案内されている。時間は推測せず、公式Instagramを参照先として掲載（ユーザー承認の特例）。週別全源照合は未完。",
+      "evidence": [
+        {
+          "url": "https://www.sumitomo-sankakuhiroba.jp/event/",
+          "quote": "2026/11/20(金)〜12/13(日)",
+          "checked_at": "2026-11-19",
+          "sha256": "fd6d86a902522a8f0ae89ef0d1c8f68d02caaa4a768c89ad98017b377aa981fd",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "三角広場公式イベントページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        },
+        {
+          "url": "https://www.sumitomo-sankakuhiroba.jp/event/",
+          "quote": "ご家族で楽しめる無料映画上映会*にふわふわ遊具のキッズパーク**",
+          "checked_at": "2026-11-19",
+          "sha256": "61a948f5d20ea0d01f08cbc5c45db2617f015e1bfd24f8f86ee54c8722fe3eb8",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "三角広場公式イベントページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        },
+        {
+          "url": "https://www.sumitomo-sankakuhiroba.jp/event/",
+          "quote": "クリスマススペシャルのクラシックライブまで、芝生広場でクリスマスを満喫！",
+          "checked_at": "2026-11-19",
+          "sha256": "0ac67d469e8e38d037db69a8f9aebd76cc0ae9fcc9ef8ace0d7a7d0baf1b7ecd",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "三角広場公式イベントページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        },
+        {
+          "url": "https://www.sumitomo-sankakuhiroba.jp/event/",
+          "quote": "詳細スケジュールは公式インスタグラムをご確認ください。",
+          "checked_at": "2026-11-19",
+          "sha256": "2a2667f2529b6f34e2cd809d784313903998452c4d8c460721636564c4f2a52e",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "三角広場公式イベントページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        },
+        {
+          "url": "https://www.sumitomo-sankakuhiroba.jp/event/",
+          "quote": "*休演日有。**有料・年齢制限有",
+          "checked_at": "2026-11-19",
+          "sha256": "8a642a826e434425ccd150047bc100dfc1817eb56209ef95e6d484319d0ee442",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "三角広場公式イベントページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        }
+      ]
+    },
+    {
+      "id": "verified-20261213-suginami-motoamanuma-noel",
+      "status": "verified",
+      "source": "https://www.city.suginami.tokyo.jp/s022/event/28941.html",
+      "source_kind": "public_official",
+      "verified_on": "2026-11-19",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "pass",
+        "reservation": "unknown",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "週別全源照合は未完（ためまっぷ403等）。この1件は各区公式ページの個別確認に基づく。",
+      "evidence": [
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s022/event/28941.html",
+          "quote": "開催日2026年12月13日（日曜日）開催時間午前10時から午後2時まで",
+          "checked_at": "2026-11-19",
+          "sha256": "36327d6ce886ad199f4ec84de4867d8c9dedc980fa4e8872ec8bd3a1ddf52b41",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "杉並区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s022/event/28941.html",
+          "quote": "開催場所コミュニティふらっと本天沼杉並区本天沼2丁目12番10号",
+          "checked_at": "2026-11-19",
+          "sha256": "c51294d8ce339cdabcec5afda1c4dfe7778dbb423f37449907cd65cbe14321a5",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "杉並区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s022/event/28941.html",
+          "quote": "クリスマス音楽イベントをはじめ、オーナメント作りなどのワークショップなど",
+          "checked_at": "2026-11-19",
+          "sha256": "705d9ea1776ae537f61dc4319537195febc9770c186d7d53ac4e0aba1a75cc90",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "杉並区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s022/event/28941.html",
+          "quote": "縁日や屋台もクリスマス一色で充実。子どもから大人まで一日中楽しめます。",
+          "checked_at": "2026-11-19",
+          "sha256": "8c98fb04ff8d163eacfc4cf18b7b25d4d70cf1456289daff089048f1d30e4b33",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "杉並区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s022/event/28941.html",
+          "quote": "申し込み当日直接会場へお越しください。ワークショップのみ事前申込制です。",
+          "checked_at": "2026-11-19",
+          "sha256": "d6f9f55eefbb1b6facab65dd8da011d31fc6a7abcdfd939c887a29fc865f33ac",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "杉並区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        }
+      ]
+    },
+    {
+      "id": "verified-20261212-adachi-seibutsuen-night",
+      "status": "verified",
+      "source": "https://www.city.adachi.tokyo.jp/k-iji/event/seibutsuen_yakankaien.html",
+      "source_kind": "public_official",
+      "verified_on": "2026-11-19",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "unknown",
+        "reservation": "pass",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "週別全源照合は未完（ためまっぷ403等）。この1件は各区公式ページの個別確認に基づく。",
+      "evidence": [
+        {
+          "url": "https://www.city.adachi.tokyo.jp/k-iji/event/seibutsuen_yakankaien.html",
+          "quote": "光の祭典の開催期間に合わせて、生物園を夜間に特別開園します。",
+          "checked_at": "2026-11-19",
+          "sha256": "b321d6ec9c9f123e45bb766341ff50af4ae217feedee8f5861fdaee394fa8855",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "足立区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        },
+        {
+          "url": "https://www.city.adachi.tokyo.jp/k-iji/event/seibutsuen_yakankaien.html",
+          "quote": "開催日時2026年11月28日（土曜日）から2026年11月29日（日曜日）2026年12月5日（土曜日）から2026年12月6日（日曜日）",
+          "checked_at": "2026-11-19",
+          "sha256": "181b212ad81b08ed29c40420ac318f2258b2aa8ceb21c3d5c45e8e814aae879c",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "足立区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        },
+        {
+          "url": "https://www.city.adachi.tokyo.jp/k-iji/event/seibutsuen_yakankaien.html",
+          "quote": "各日、午後5時から午後9時※最終入園は午後8時30分",
+          "checked_at": "2026-11-19",
+          "sha256": "7cc717f827c2c54381cc618e8ef4817c16aaf0efc161530376fc759de0ea1b13",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "足立区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        },
+        {
+          "url": "https://www.city.adachi.tokyo.jp/k-iji/event/seibutsuen_yakankaien.html",
+          "quote": "足立区保木間二丁目17番1号（元渕江公園内）",
+          "checked_at": "2026-11-19",
+          "sha256": "e18e79fda31e8d0fe36143bb74beeebe249c78d83d0607d0db7cd813d22ac9c9",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "足立区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        },
+        {
+          "url": "https://www.city.adachi.tokyo.jp/k-iji/event/seibutsuen_yakankaien.html",
+          "quote": "対象どなたでも※小学生以下の方は保護者の同伴が必要です。",
+          "checked_at": "2026-11-19",
+          "sha256": "66079628c325262d50a4381fe9712a7a17cd3ed9c91a0eb73576c0379e153c74",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "足立区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        },
+        {
+          "url": "https://www.city.adachi.tokyo.jp/k-iji/event/seibutsuen_yakankaien.html",
+          "quote": "費用入園料が必要です。申込方法事前の申し込みは不要です。",
+          "checked_at": "2026-11-19",
+          "sha256": "a71f397a614d31519acab7a1e6b3ac1851105be0db982d435df0b463e7655d84",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "足立区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        }
+      ]
+    },
+    {
+      "id": "verified-20261212-adachi-seibutsuen-hotaru",
+      "status": "verified",
+      "source": "https://www.city.adachi.tokyo.jp/k-iji/event/seibutsuen_huyuhotaru.html",
+      "source_kind": "public_official",
+      "verified_on": "2026-11-19",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "unknown",
+        "reservation": "pass",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "週別全源照合は未完（ためまっぷ403等）。この1件は各区公式ページの個別確認に基づく。",
+      "evidence": [
+        {
+          "url": "https://www.city.adachi.tokyo.jp/k-iji/event/seibutsuen_huyuhotaru.html",
+          "quote": "室内に置かれた水槽の中で輝くヘイケボタルの幻想的な光を観賞できます。",
+          "checked_at": "2026-11-19",
+          "sha256": "63ce8ecc9e4f6103b2e314408620a1b92b0621ce168a8acdf411aadcbcd98a74",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "足立区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        },
+        {
+          "url": "https://www.city.adachi.tokyo.jp/k-iji/event/seibutsuen_huyuhotaru.html",
+          "quote": "各日、午後6時から午後9時※最終回は午後8時40分開始。20分ごとに9回実施。",
+          "checked_at": "2026-11-19",
+          "sha256": "afa11530abc30c96abad5fdb725e33ac3638152a704051e0be5bf8fd0cdd10ee",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "足立区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        },
+        {
+          "url": "https://www.city.adachi.tokyo.jp/k-iji/event/seibutsuen_huyuhotaru.html",
+          "quote": "対象どなたでも※就学前の子どもは保護者の同伴が必要です。",
+          "checked_at": "2026-11-19",
+          "sha256": "cd5009b1db6a510cfa75a011b9a4edeb44d667bc72d6cc5c9560c900a4b5f69a",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "足立区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        },
+        {
+          "url": "https://www.city.adachi.tokyo.jp/k-iji/event/seibutsuen_huyuhotaru.html",
+          "quote": "募集人数各40人（先着順）費用無料※入園料が必要です。申込方法事前の申し込みは不要です。",
+          "checked_at": "2026-11-19",
+          "sha256": "ab768ba8840e947610b66821ca20bbf56ce23959154fa335c57472615ec92629",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "足立区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        }
+      ]
+    },
+    {
+      "id": "verified-20261212-edogawa-fuyusakura",
+      "status": "verified",
+      "source": "https://www.city.edogawa.tokyo.jp/event/26fuyusakura.html",
+      "source_kind": "public_official",
+      "verified_on": "2026-11-19",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "unknown",
+        "reservation": "pass",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "週別全源照合は未完（ためまっぷ403等）。この1件は各区公式ページの個別確認に基づく。",
+      "evidence": [
+        {
+          "url": "https://www.city.edogawa.tokyo.jp/event/26fuyusakura.html",
+          "quote": "きらめく光に包まれた幻想的な冬のお花見をお楽しみください。",
+          "checked_at": "2026-11-19",
+          "sha256": "249eadc884db91ceb069b123f97c1c6cbd60339548e097bb38b81fef4e533456",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "江戸川区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        },
+        {
+          "url": "https://www.city.edogawa.tokyo.jp/event/26fuyusakura.html",
+          "quote": "開催日時2026年11月21日（土曜日）から2026年12月25日（金曜日）16時30分～21時30分",
+          "checked_at": "2026-11-19",
+          "sha256": "d54716ac26411c6f5cff1cb0df3222a2a675973b10738d33dee84c5fdacb22e7",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "江戸川区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        },
+        {
+          "url": "https://www.city.edogawa.tokyo.jp/event/26fuyusakura.html",
+          "quote": "申し込み不要場所新川さくら館広場住所江戸川区船堀7丁目15番12号",
+          "checked_at": "2026-11-19",
+          "sha256": "e3ee5819c2b27967abd9cac4aef20b679b81b97b6e585708aa13899385bde698",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "江戸川区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        },
+        {
+          "url": "https://www.city.edogawa.tokyo.jp/event/26fuyusakura.html",
+          "quote": "冬の夜を彩るイルミネーションを、ぜひお楽しみください。",
+          "checked_at": "2026-11-19",
+          "sha256": "2f5ab960882c3e75e5cb8883c057330f8cd1d6f4786cf2154fc606ce1f2d0c17",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "江戸川区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        },
+        {
+          "url": "https://www.city.edogawa.tokyo.jp/event/26fuyusakura.html",
+          "quote": "費用無料問合せ新川さくら館",
+          "checked_at": "2026-11-19",
+          "sha256": "28474ded6b7915e426495f587a22e464d7f922b5ecd23823af8e445374c9b17f",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "江戸川区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        }
+      ]
+    },
+    {
+      "id": "verified-20261212-setagaya-kamimachi-saturday",
+      "status": "verified",
+      "source": "https://www.city.setagaya.lg.jp/03065/36891.html",
+      "source_kind": "public_official",
+      "verified_on": "2026-11-19",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "pass",
+        "reservation": "pass",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "週別全源照合は未完（ためまっぷ403等）。この1件は各区公式ページの個別確認に基づく。",
+      "evidence": [
+        {
+          "url": "https://www.city.setagaya.lg.jp/03065/36891.html",
+          "quote": "上町児童館のサタデーひろば募集中募集終了事前申込必要表示しない体操をしたり遊具を使ったりして遊ぼう！初めての方やパパママ一緒の参加も大歓迎です。",
+          "checked_at": "2026-11-19",
+          "sha256": "d587d09b742c36c2ffc3221228864534de9a8abde92a65dee29b19ff85bb2e75",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "世田谷区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        },
+        {
+          "url": "https://www.city.setagaya.lg.jp/03065/36891.html",
+          "quote": "日程2026年11月14日（土曜日）2026年12月12日（土曜日）12月12日はお楽しみ会もやるよ♪時間午前10時30分~11時30分",
+          "checked_at": "2026-11-19",
+          "sha256": "1892cde58053a5914c6829c7e17a2849e57bbae4810c4dba245e7fd3a2bd614d",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "世田谷区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        },
+        {
+          "url": "https://www.city.setagaya.lg.jp/03065/36891.html",
+          "quote": "場所・会場上町児童館対象乳幼児とその保護者費用・料金無料",
+          "checked_at": "2026-11-19",
+          "sha256": "99fb73d5223f62eecb42614813617eaf02da1a2cded49cd5d0e4b6299918d78a",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "世田谷区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        }
+      ]
+    },
+    {
+      "id": "verified-20261213-setagaya-futakotamagawa-xmas-concert",
+      "status": "verified",
+      "source": "https://www.city.setagaya.lg.jp/03660/35905.html",
+      "source_kind": "public_official",
+      "verified_on": "2026-11-19",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "pass",
+        "reservation": "pass",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "週別全源照合は未完（ためまっぷ403等）。この1件は各区公式ページの個別確認に基づく。",
+      "evidence": [
+        {
+          "url": "https://www.city.setagaya.lg.jp/03660/35905.html",
+          "quote": "「みんなでたのしもう！クリスマスコンサート」を開催します（二子玉川地区）募集中募集終了事前申込必要表示するクリスマスをいっしょに楽しみましょう！今年で4回目となる、「みんなでたのしもう！クリスマスコンサート」。今年も地域の学校やゲストによる演奏をおとどけいたします！カテゴリイベント・講座対象者小学１年生｜小学２年生｜小学３年生｜小学４年生｜小学５年生｜小学６年生中学１年生｜中学２年生｜中学３年生幼",
+          "checked_at": "2026-11-19",
+          "sha256": "f745968a38bc2b2634fc8816040eb5122fe000b05c5d42731a1b02c1172205ad",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "世田谷区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        },
+        {
+          "url": "https://www.city.setagaya.lg.jp/03660/35905.html",
+          "quote": "日程2026年12月13日（日曜日）時間開場：13時30分開演：14時終演：15時45分（予定）",
+          "checked_at": "2026-11-19",
+          "sha256": "2926cf1df8b7c81883913f63166edd0fae63c5b3b3e9f86c441aacea774c3271",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "世田谷区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        },
+        {
+          "url": "https://www.city.setagaya.lg.jp/03660/35905.html",
+          "quote": "場所・会場二子玉川小学校体育館Googleマップで地図を開く対象どなたでも費用・料金無料申し込み方法申し込み不要です。当日、直接会場へお越しください。",
+          "checked_at": "2026-11-19",
+          "sha256": "36e6377ef203efa30e491eba0750e5eb9c13f3c0cee2ad48b3b9a691e190853e",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "世田谷区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        }
+      ]
+    },
+    {
+      "id": "verified-20261212-setagaya-todoroki-papamo-nabe",
+      "status": "verified",
+      "source": "https://www.city.setagaya.lg.jp/03070/24025.html",
+      "source_kind": "public_official",
+      "verified_on": "2026-11-19",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "unknown",
+        "reservation": "pass",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "週別全源照合は未完（ためまっぷ403等）。この1件は各区公式ページの個別確認に基づく。",
+      "evidence": [
+        {
+          "url": "https://www.city.setagaya.lg.jp/03070/24025.html",
+          "quote": "等々力児童館パパも気軽に！PaPaMo募集中募集終了事前申込必要表示しないパパも歓迎！パパじゃなくても、ママも祖父母もシッターさんも里親さんももちろん大歓迎！",
+          "checked_at": "2026-11-19",
+          "sha256": "2dfffd4a3bdec441e5148d7b289973d15f46b135457f8909da98b9d80e256689",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "世田谷区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        },
+        {
+          "url": "https://www.city.setagaya.lg.jp/03070/24025.html",
+          "quote": "日程2026年11月21日（土曜日）2026年12月12日（土曜日）時間午前10時30分から11時30分",
+          "checked_at": "2026-11-19",
+          "sha256": "2a9a57054bd467d490ad58749fb78fd8182931739c24005af8409f58bb60a861",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "世田谷区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        },
+        {
+          "url": "https://www.city.setagaya.lg.jp/03070/24025.html",
+          "quote": "場所・会場等々力児童館グランドもしくは遊戯室対象0歳から未就学のお子さんとその保護者申し込み方法下記の内容をご参照ください。",
+          "checked_at": "2026-11-19",
+          "sha256": "5cfe992143726352a417c28412835e9670cff2d0729e6603ddf2ffc0a5a125e2",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "世田谷区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        }
+      ]
+    },
+    {
+      "id": "verified-20261212-minato-plaza-shinmei-festival",
+      "status": "verified",
+      "source": "https://www.city.minato.tokyo.jp/kouhou/event/261212-purazashinmei.html",
+      "source_kind": "public_official",
+      "verified_on": "2026-11-19",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "pass",
+        "reservation": "pass",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "週別全源照合は未完（ためまっぷ403等）。この1件は各区公式ページの個別確認に基づく。",
+      "evidence": [
+        {
+          "url": "https://www.city.minato.tokyo.jp/kouhou/event/261212-purazashinmei.html",
+          "quote": "プラザ神明フェスティバル2026",
+          "checked_at": "2026-11-19",
+          "sha256": "21b69a57dc3cb8920001425d547eedbdc8d57c2d7818eaeb9b901e4c10bbd99e",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "港区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        },
+        {
+          "url": "https://www.city.minato.tokyo.jp/kouhou/event/261212-purazashinmei.html",
+          "quote": "イベント詳細各種展示・体験コーナー・ステージ発表等対象どなたでも開催場所プラザ神明（ステージ観覧は靴の履き替えが必要です。室内履き・靴袋を持参してください）費用無料（食事代は自己負担）申込・予約当日直接会場へ（一部のイベントは申し込みが必要です。電話または直接、神明いきいきプラザへ）。",
+          "checked_at": "2026-11-19",
+          "sha256": "2212f8b37de4a82a082ee59a1ecc658f2a6d0e02a4d8a24d8123dc293449a929",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "港区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        },
+        {
+          "url": "https://www.city.minato.tokyo.jp/cgi-bin/event_cal_multi/calendar.cgi?type=3&year=2026&month=12&day=12",
+          "quote": "プラザ神明フェスティバル20262026年12月12日（土曜日）",
+          "checked_at": "2026-11-19",
+          "sha256": "8a43681ba11ce82e745ef9b805f0e128654ce8556b88aea469fe5f7bb468db17",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "港区公式イベントカレンダーの日別ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。開催日の確認用。"
+        }
+      ]
+    },
+    {
+      "id": "verified-20261213-edogawa-bunkageijutsusai-ongakusai",
+      "status": "verified",
+      "source": "https://www.city.edogawa.tokyo.jp/event/261213grandart_ongakusai.html",
+      "source_kind": "public_official",
+      "verified_on": "2026-11-19",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "pass",
+        "reservation": "pass",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "週別全源照合は未完（ためまっぷ403等）。この1件は各区公式ページの個別確認に基づく。",
+      "evidence": [
+        {
+          "url": "https://www.city.edogawa.tokyo.jp/event/261213grandart_ongakusai.html",
+          "quote": "第2回江戸川区文化芸術祭音楽祭区内最大の音楽イベントです。オーケストラ、合唱、ハーモニカ、琴、三味線、マンドリンなど多彩なアンサンブルをお楽しみください。響け！江戸川のハーモニー♪",
+          "checked_at": "2026-11-19",
+          "sha256": "a6c6c88da0e9502fe982ccf31d322b0a62e1ecdc5d5310ecd7c59b47885d182d",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "江戸川区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        },
+        {
+          "url": "https://www.city.edogawa.tokyo.jp/event/261213grandart_ongakusai.html",
+          "quote": "開催日時2026年12月13日（日曜日）開場：12時30分開演：13時00分",
+          "checked_at": "2026-11-19",
+          "sha256": "5718cdc5c754bf48a8964f59d19f32866251086bfc0a5a9ebdf0c97a4d058dbd",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "江戸川区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        },
+        {
+          "url": "https://www.city.edogawa.tokyo.jp/event/261213grandart_ongakusai.html",
+          "quote": "場所タワーホール船堀大ホール（5階）",
+          "checked_at": "2026-11-19",
+          "sha256": "2a3d043186769d46e60fef09be449fcc46c62667bb8984027fe580be84ef02b1",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "江戸川区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        }
+      ]
+    },
+    {
+      "id": "verified-20261213-koto-papa-happy-xmas-tree-art",
+      "status": "verified",
+      "source": "https://www.city.koto.lg.jp/011501/kuse/koho/kuho/r08/text/110103.html",
+      "source_kind": "public_official",
+      "verified_on": "2026-11-19",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "unknown",
+        "reservation": "pass",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "週別全源照合は未完（ためまっぷ403等）。この1件は各区公式ページの個別確認に基づく。",
+      "evidence": [
+        {
+          "url": "https://www.city.koto.lg.jp/011501/kuse/koho/kuho/r08/text/110103.html",
+          "quote": "パパのハッピー子育て講座親子で楽しむクリスマスツリーアート",
+          "checked_at": "2026-11-19",
+          "sha256": "5622af65f798a8fc552f4106976bb882d4e0fcf61ee3c6c57fe3718bad2938b9",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "江東区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        },
+        {
+          "url": "https://www.city.koto.lg.jp/011501/kuse/koho/kuho/r08/text/110103.html",
+          "quote": "【日時】12月13日（日曜日）10時00分～11時30分",
+          "checked_at": "2026-11-19",
+          "sha256": "21dde76b1a3175fda1689cdada4347d3539176d80485f3bcade92e0ccfdb9e21",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "江東区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        },
+        {
+          "url": "https://www.city.koto.lg.jp/011501/kuse/koho/kuho/r08/text/110103.html",
+          "quote": "【場所】男女共同参画推進センター",
+          "checked_at": "2026-11-19",
+          "sha256": "d82457c8883e19bc538bd96cefd3dedd534ddb906a7a14271ff76bdc59da8dce",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "江東区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        },
+        {
+          "url": "https://www.city.koto.lg.jp/011501/kuse/koho/kuho/r08/text/110103.html",
+          "quote": "【対象】3～5歳のこどもと父親【定員】16組（申込順）（注釈）父親1人につきこども1人",
+          "checked_at": "2026-11-19",
+          "sha256": "c04316d14d1fb319367d5ed7ec092e2886991b841d60c078219b866bc725e546",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "江東区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        },
+        {
+          "url": "https://www.city.koto.lg.jp/011501/kuse/koho/kuho/r08/text/110103.html",
+          "quote": "【申し込み】11月5日（木曜日）から申込フォーム（外部サイトへリンク）（別ウィンドウで開きます）で【問い合わせ】施設保全課庶務係",
+          "checked_at": "2026-11-19",
+          "sha256": "1cef557ec47db7e3e68e9d8b1f4052649792cd668cf583f90b19e7de9982db30",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "江東区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        }
+      ]
+    },
+    {
+      "id": "verified-20261212-adachi-galaxcity-caravan-dec12",
+      "status": "verified",
+      "source": "https://www.galaxcity.jp/future-creation-hall/event/20261212-009094.html",
+      "source_kind": "public_official",
+      "verified_on": "2026-11-20",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "pass",
+        "reservation": "pass",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "週別全源照合は未完（ためまっぷ403等）。この1件はギャラクシティ公式の個別イベントページの確認に基づく。",
+      "evidence": [
+        {
+          "url": "https://www.galaxcity.jp/future-creation-hall/event/20261212-009094.html",
+          "quote": "大型絵本やパネルシアターを使った読み語りや歌など、クリスマス気分満載！",
+          "checked_at": "2026-11-20",
+          "sha256": "7f3b046d77e50c19bc06254379e974221b67045151ad83a732f7a56bfe66088d",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "ギャラクシティイベントページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        },
+        {
+          "url": "https://www.galaxcity.jp/future-creation-hall/event/20261212-009094.html",
+          "quote": "日時2026年12月12日（土）11：00～11：40（開場10：45）",
+          "checked_at": "2026-11-20",
+          "sha256": "2b8bd03d09e3508ed546f102a5cc087268839aa1555190fc2250f417eefadd8c",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "ギャラクシティイベントページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        },
+        {
+          "url": "https://www.galaxcity.jp/future-creation-hall/event/20261212-009094.html",
+          "quote": "場所ホワイトあとりえ対象どなたでも（未就学児は保護者同伴）",
+          "checked_at": "2026-11-20",
+          "sha256": "87693924c2e6dbfc03d3b9d35e69075b99ecf03c37aab128c35e972abab679d6",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "ギャラクシティイベントページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        },
+        {
+          "url": "https://www.galaxcity.jp/future-creation-hall/event/20261212-009094.html",
+          "quote": "対象どなたでも（未就学児は保護者同伴）",
+          "checked_at": "2026-11-20",
+          "sha256": "51172dcb77863fd9240eaab88add59f7e932f831c717d86d4a1375caaff13d54",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "ギャラクシティイベントページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        },
+        {
+          "url": "https://www.galaxcity.jp/future-creation-hall/event/20261212-009094.html",
+          "quote": "料金無料申込当日直接会場へ講師",
+          "checked_at": "2026-11-20",
+          "sha256": "605b5b14b7e9a0861b58640fecbcef2bbd48c01b196acede0db9da79c8850fef",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "ギャラクシティイベントページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        }
+      ]
+    },
+    {
+      "id": "verified-20261212-adachi-galaxcity-kamishibai-dec12",
+      "status": "verified",
+      "source": "https://www.galaxcity.jp/future-creation-hall/event/20261212-009251.html",
+      "source_kind": "public_official",
+      "verified_on": "2026-11-20",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "pass",
+        "reservation": "pass",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "週別全源照合は未完（ためまっぷ403等）。この1件はギャラクシティ公式の個別イベントページの確認に基づく。",
+      "evidence": [
+        {
+          "url": "https://www.galaxcity.jp/future-creation-hall/event/20261212-009251.html",
+          "quote": "紙芝居サークル「おはなしたまてばこ」による楽しい紙芝居の読み語りを行います！どなたでもお気軽にご参加ください。",
+          "checked_at": "2026-11-20",
+          "sha256": "634d84135341dcc22525c497befbd19a271481bbad0c1d8c705ce9b9b253b812",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "ギャラクシティイベントページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        },
+        {
+          "url": "https://www.galaxcity.jp/future-creation-hall/event/20261212-009251.html",
+          "quote": "日時2026年12月12日（土）14：00～14：30",
+          "checked_at": "2026-11-20",
+          "sha256": "47957da86eacb0d3bc85b0a6f0deba1c82f51026809cab9a02c046ab91f24a64",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "ギャラクシティイベントページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        },
+        {
+          "url": "https://www.galaxcity.jp/future-creation-hall/event/20261212-009251.html",
+          "quote": "場所地下2階 レクリエーションホール2",
+          "checked_at": "2026-11-20",
+          "sha256": "b1e1b9de264e5a4b05b6ecd92fd6001b2402570f67bc638d7fee9201cce46646",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "ギャラクシティイベントページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        },
+        {
+          "url": "https://www.galaxcity.jp/future-creation-hall/event/20261212-009251.html",
+          "quote": "対象どなたでも（未就学児は保護者同伴）",
+          "checked_at": "2026-11-20",
+          "sha256": "51172dcb77863fd9240eaab88add59f7e932f831c717d86d4a1375caaff13d54",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "ギャラクシティイベントページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        },
+        {
+          "url": "https://www.galaxcity.jp/future-creation-hall/event/20261212-009251.html",
+          "quote": "料金無料申込当日直接会場へ講師",
+          "checked_at": "2026-11-20",
+          "sha256": "605b5b14b7e9a0861b58640fecbcef2bbd48c01b196acede0db9da79c8850fef",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "ギャラクシティイベントページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        }
+      ]
+    },
+    {
+      "id": "verified-20261212-adachi-galaxcity-yomikatari-dec12",
+      "status": "verified",
+      "source": "https://www.galaxcity.jp/future-creation-hall/event/20261226-009348.html",
+      "source_kind": "public_official",
+      "verified_on": "2026-11-20",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "pass",
+        "reservation": "pass",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "週別全源照合は未完（ためまっぷ403等）。この1件はギャラクシティ公式の個別イベントページの確認に基づく。",
+      "evidence": [
+        {
+          "url": "https://www.galaxcity.jp/future-creation-hall/event/20261226-009348.html",
+          "quote": "読み語りボランティアのみなさんによる絵本の読み語りと楽しい手あそびです！",
+          "checked_at": "2026-11-20",
+          "sha256": "82911c561964962d8ff16112ee0dc2fe1148ba30d02f5e833ba333f22739b3b7",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "ギャラクシティイベントページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        },
+        {
+          "url": "https://www.galaxcity.jp/future-creation-hall/event/20261226-009348.html",
+          "quote": "日時2026年12月12日・26日（すべて土曜日）10：30～11：00",
+          "checked_at": "2026-11-20",
+          "sha256": "94b3052d41f384a3eabfb9a87ba894e4e8d899f58fb654f50c4eef5df09415c1",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "ギャラクシティイベントページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        },
+        {
+          "url": "https://www.galaxcity.jp/future-creation-hall/event/20261226-009348.html",
+          "quote": "場所わーくしょっぷスタジオ対象未就学のお子さまとその保護者",
+          "checked_at": "2026-11-20",
+          "sha256": "cae98433e1684078ea4cd5d5231e4f63ad7b827b3ca059b11198f061f054fc17",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "ギャラクシティイベントページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        },
+        {
+          "url": "https://www.galaxcity.jp/future-creation-hall/event/20261226-009348.html",
+          "quote": "対象未就学のお子さまとその保護者",
+          "checked_at": "2026-11-20",
+          "sha256": "4e1dead388c2942361845c74cd3cc8c799fa3d0ed7a1f7cdd1f3a5067a35ba41",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "ギャラクシティイベントページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        },
+        {
+          "url": "https://www.galaxcity.jp/future-creation-hall/event/20261226-009348.html",
+          "quote": "料金無料申込当日直接会場へ講師",
+          "checked_at": "2026-11-20",
+          "sha256": "605b5b14b7e9a0861b58640fecbcef2bbd48c01b196acede0db9da79c8850fef",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "ギャラクシティイベントページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        }
+      ]
+    },
+    {
+      "id": "verified-20261212-adachi-kuwabukuro-donguri",
+      "status": "verified",
+      "source": "https://www.city.adachi.tokyo.jp/k-iji/event/20261110kuwabukuro_donguri.html",
+      "source_kind": "public_official",
+      "verified_on": "2026-11-20",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "pass",
+        "reservation": "pass",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "週別全源照合は未完（ためまっぷ403等）。この1件は足立区公式の個別イベントページの確認に基づく。",
+      "evidence": [
+        {
+          "url": "https://www.city.adachi.tokyo.jp/k-iji/event/20261110kuwabukuro_donguri.html",
+          "quote": "ドングリを使ってコマやネックレスを作ります。",
+          "checked_at": "2026-11-20",
+          "sha256": "ccc271ae9fae63f3c33b9c8a2f7e1470efc4045e7fb95996e6b2f11c02f1027d",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "足立区公式イベントページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        },
+        {
+          "url": "https://www.city.adachi.tokyo.jp/k-iji/event/20261110kuwabukuro_donguri.html",
+          "quote": "11月1日から令和9年1月31日：午前9時30分から午前11時30分／午後1時から午後3時30分",
+          "checked_at": "2026-11-20",
+          "sha256": "8b22a8532107ea0c445ef94aefb6f70713fdef534ac3196fa4806526ef878be3",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "足立区公式イベントページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        },
+        {
+          "url": "https://www.city.adachi.tokyo.jp/k-iji/event/20261110kuwabukuro_donguri.html",
+          "quote": "2026年11月1日（日曜日）から2027年3月31日（水曜日）",
+          "checked_at": "2026-11-20",
+          "sha256": "9d313c0dd9779f7b2976877fff10a4d02fca9ac6f5ee14f3421552fcd00102f7",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "足立区公式イベントページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        },
+        {
+          "url": "https://www.city.adachi.tokyo.jp/k-iji/event/20261110kuwabukuro_donguri.html",
+          "quote": "名称桑袋ビオトープ公園所在地足立区花畑八丁目2番2号",
+          "checked_at": "2026-11-20",
+          "sha256": "9f97fd404f9df807a0de8584023f94e5019d74428e12d61051ef1e7083045839",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "足立区公式イベントページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        },
+        {
+          "url": "https://www.city.adachi.tokyo.jp/k-iji/event/20261110kuwabukuro_donguri.html",
+          "quote": "対象3歳以上の方※就学前の子どもは保護者の参加が必要です。",
+          "checked_at": "2026-11-20",
+          "sha256": "7a0d1dac08b7617c28406d09cf86c21d19892ab880cf0da5eb4af26f3e1747be",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "足立区公式イベントページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        },
+        {
+          "url": "https://www.city.adachi.tokyo.jp/k-iji/event/20261110kuwabukuro_donguri.html",
+          "quote": "費用無料申込方法事前の申し込みは不要です。",
+          "checked_at": "2026-11-20",
+          "sha256": "b73b0436fe154626a43a333535788567c513778fcc1d1f8f9186e336f54fd6b9",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "足立区公式イベントページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        }
+      ]
+    },
+    {
+      "id": "verified-20261213-adachi-kuwabukuro-donguri",
+      "status": "verified",
+      "source": "https://www.city.adachi.tokyo.jp/k-iji/event/20261110kuwabukuro_donguri.html",
+      "source_kind": "public_official",
+      "verified_on": "2026-11-20",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "pass",
+        "reservation": "pass",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "週別全源照合は未完（ためまっぷ403等）。この1件は足立区公式の個別イベントページの確認に基づく。",
+      "evidence": [
+        {
+          "url": "https://www.city.adachi.tokyo.jp/k-iji/event/20261110kuwabukuro_donguri.html",
+          "quote": "ドングリを使ってコマやネックレスを作ります。",
+          "checked_at": "2026-11-20",
+          "sha256": "ccc271ae9fae63f3c33b9c8a2f7e1470efc4045e7fb95996e6b2f11c02f1027d",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "足立区公式イベントページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        },
+        {
+          "url": "https://www.city.adachi.tokyo.jp/k-iji/event/20261110kuwabukuro_donguri.html",
+          "quote": "11月1日から令和9年1月31日：午前9時30分から午前11時30分／午後1時から午後3時30分",
+          "checked_at": "2026-11-20",
+          "sha256": "8b22a8532107ea0c445ef94aefb6f70713fdef534ac3196fa4806526ef878be3",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "足立区公式イベントページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        },
+        {
+          "url": "https://www.city.adachi.tokyo.jp/k-iji/event/20261110kuwabukuro_donguri.html",
+          "quote": "2026年11月1日（日曜日）から2027年3月31日（水曜日）",
+          "checked_at": "2026-11-20",
+          "sha256": "9d313c0dd9779f7b2976877fff10a4d02fca9ac6f5ee14f3421552fcd00102f7",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "足立区公式イベントページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        },
+        {
+          "url": "https://www.city.adachi.tokyo.jp/k-iji/event/20261110kuwabukuro_donguri.html",
+          "quote": "名称桑袋ビオトープ公園所在地足立区花畑八丁目2番2号",
+          "checked_at": "2026-11-20",
+          "sha256": "9f97fd404f9df807a0de8584023f94e5019d74428e12d61051ef1e7083045839",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "足立区公式イベントページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        },
+        {
+          "url": "https://www.city.adachi.tokyo.jp/k-iji/event/20261110kuwabukuro_donguri.html",
+          "quote": "対象3歳以上の方※就学前の子どもは保護者の参加が必要です。",
+          "checked_at": "2026-11-20",
+          "sha256": "7a0d1dac08b7617c28406d09cf86c21d19892ab880cf0da5eb4af26f3e1747be",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "足立区公式イベントページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        },
+        {
+          "url": "https://www.city.adachi.tokyo.jp/k-iji/event/20261110kuwabukuro_donguri.html",
+          "quote": "費用無料申込方法事前の申し込みは不要です。",
+          "checked_at": "2026-11-20",
+          "sha256": "b73b0436fe154626a43a333535788567c513778fcc1d1f8f9186e336f54fd6b9",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "足立区公式イベントページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        }
+      ]
+    },
+    {
+      "id": "verified-20261212-edogawa-kanusura-park",
+      "status": "verified",
+      "source": "https://canoe-slalom.tokyo/activity/k-park/",
+      "source_kind": "public_official",
+      "verified_on": "2026-11-20",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "pass",
+        "reservation": "pass",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "週別全源照合は未完（ためまっぷ403等）。この追加分は主催者公式の案内ページの確認に基づく。",
+      "evidence": [
+        {
+          "url": "https://canoe-slalom.tokyo/activity/k-park/",
+          "quote": "営業時間土・日・祝11:00",
+          "checked_at": "2026-11-20",
+          "sha256": "0270186753d492b39e1f3edc4325b903e70f03705c4e641685ba2ccbdc4efa22",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        },
+        {
+          "url": "https://canoe-slalom.tokyo/activity/k-park/",
+          "quote": "参加条件3歳以上※一部遊具は対象年齢が異なります",
+          "checked_at": "2026-11-20",
+          "sha256": "dc9c054ff01433f065216c86db945825786b05ec1210ea4f74417cb952b95bc2",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        },
+        {
+          "url": "https://canoe-slalom.tokyo/activity/k-park/",
+          "quote": "未就学児には保護者の同伴が必要",
+          "checked_at": "2026-11-20",
+          "sha256": "b011204efa57c9c934177f4e5e4a971e72f22e6de6208dc1e6b81a13d297ac83",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        },
+        {
+          "url": "https://canoe-slalom.tokyo/activity/k-park/",
+          "quote": "当日に受付（管理棟）まで直接お越しください",
+          "checked_at": "2026-11-20",
+          "sha256": "e208ad4bb5ee5aaa49bf722c07e4d77d028371c839f8d79321f8fe4922701160",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        },
+        {
+          "url": "https://canoe-slalom.tokyo/activity/k-park/",
+          "quote": "事前予約はございません。当日参加のみとなります",
+          "checked_at": "2026-11-20",
+          "sha256": "9cbe7834ac4877d95315e34fbaf10806f0daf6edca2cbfc058d2b37c1569e939",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        },
+        {
+          "url": "https://canoe-slalom.tokyo/activity/k-park/",
+          "quote": "1回500円（20分間）※予約不要！",
+          "checked_at": "2026-11-20",
+          "sha256": "54c939f2a8072a4e283ee2493b7bfbef4bb7da4914e240ff6b9ff7164d3e6d75",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        },
+        {
+          "url": "https://canoe-slalom.tokyo/activity/k-park/",
+          "quote": "雨天休止※イベントなどで休止の場合あり",
+          "checked_at": "2026-11-20",
+          "sha256": "d2a5dd11087a11298972cd179e3ea9c0174cff5f78e5eb6624c919e5a8a44549",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        }
+      ]
+    },
+    {
+      "id": "verified-20261213-adachi-shikahama-ohanashi",
+      "status": "verified",
+      "source": "https://kodomo-smile.metro.tokyo.lg.jp/events/3381",
+      "source_kind": "public_official",
+      "verified_on": "2026-11-20",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "pass",
+        "reservation": "pass",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "週別全源照合は未完（ためまっぷ403等）。この追加分は主催者公式の案内ページの確認に基づく。",
+      "evidence": [
+        {
+          "url": "https://kodomo-smile.metro.tokyo.lg.jp/events/3381",
+          "quote": "2026年8月9日（日）原則毎月第2日曜日14:00～14:30",
+          "checked_at": "2026-11-20",
+          "sha256": "0981b1f310f2005252f9150921958480e6b6025cfaad7cc8b47917eb238f3213",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        },
+        {
+          "url": "https://kodomo-smile.metro.tokyo.lg.jp/events/3381",
+          "quote": "小学生以下の子どもと保護者",
+          "checked_at": "2026-11-20",
+          "sha256": "710ecf66bb391b940044b8df70a6746be7ba0befedd6b97711a26817f0ef5d41",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        },
+        {
+          "url": "https://kodomo-smile.metro.tokyo.lg.jp/events/3381",
+          "quote": "足立区立鹿浜図書館住所：東京",
+          "checked_at": "2026-11-20",
+          "sha256": "9b658df3cb8bda12827520e28edccf9cc54941d9c4c26e7084fe361e00d07bae",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        },
+        {
+          "url": "https://kodomo-smile.metro.tokyo.lg.jp/events/3381",
+          "quote": "受付方法：当日受付■定員：10人",
+          "checked_at": "2026-11-20",
+          "sha256": "c9c7f8f22775054c6ba69c6461f8315df6a53c692bf403c93e31b9a40aeb45be",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        }
+      ]
+    },
+    {
+      "id": "verified-20261213-ariake-quest-3",
+      "status": "verified",
+      "source": "https://www.tptc.co.jp/park/event/detail/2497",
+      "source_kind": "public_official",
+      "verified_on": "2026-11-20",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "pass",
+        "reservation": "pass",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "週別全源照合は未完（ためまっぷ403等）。この追加分は主催者公式の案内ページの確認に基づく。",
+      "evidence": [
+        {
+          "url": "https://www.tptc.co.jp/park/event/detail/2497",
+          "quote": "開催日時2026年12月13日（日）9:00～15:30",
+          "checked_at": "2026-11-20",
+          "sha256": "24eeef97b5c3eb13eedfd353c15f1d1fe40f27b50847cf6a95553f99601d3aa0",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        },
+        {
+          "url": "https://www.tptc.co.jp/park/event/detail/2497",
+          "quote": "参加費無料対象どなたでもご参",
+          "checked_at": "2026-11-20",
+          "sha256": "de2580e7d747d4a5c5a9e1411df47fd934bf617d91f97fb0cc00656472b48143",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        },
+        {
+          "url": "https://www.tptc.co.jp/park/event/detail/2497",
+          "quote": "どなたでもご参加いただけます。小さなお子さまは保護者の方と一緒にご参加ください。",
+          "checked_at": "2026-11-20",
+          "sha256": "3044f197aba11c8acd58bfe06dd9fce5a84fa97027a5157b9a30e871198f2628",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        },
+        {
+          "url": "https://www.tptc.co.jp/park/event/detail/2497",
+          "quote": "事前申込不要。当日、受付へお越しください。",
+          "checked_at": "2026-11-20",
+          "sha256": "d7ade5d7d97099c39491eb637ae759842d764c9efb25eceb02c99dd6d7e1e51c",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        },
+        {
+          "url": "https://www.tptc.co.jp/park/event/detail/2497",
+          "quote": "先着300名ゴールした方にお菓子をプレゼント",
+          "checked_at": "2026-11-20",
+          "sha256": "38aa8b2985cb58ad7c80daf42751c46cb7e22a4f17528c57a3fdfb8244287198",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        },
+        {
+          "url": "https://www.tptc.co.jp/park/event/detail/2497",
+          "quote": "5つのナゾ園内4か所と駅1か所をめぐろう",
+          "checked_at": "2026-11-20",
+          "sha256": "d73ed738d88543195d8cc2c0177ea1334015a18c1a39636174e2c9aa47bc4b84",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        }
+      ]
+    },
+    {
+      "id": "verified-20261212-itabashi-nettaikan-barbapapa",
+      "status": "verified",
+      "source": "https://www.city.itabashi.tokyo.jp/koho/1062992/1066844/1066847.html",
+      "source_kind": "public_official",
+      "verified_on": "2026-11-20",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "pass",
+        "reservation": "pass",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "週別全源照合は未完（ためまっぷ403等）。この追加分は主催者公式の案内ページの確認に基づく。",
+      "evidence": [
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/koho/1062992/1066844/1066847.html",
+          "quote": "とき11月25日（水曜日）から12月25日（金曜日）、午前10時から午後6時（入館は午後5時30分まで）",
+          "checked_at": "2026-11-20",
+          "sha256": "78088ae83a51df7eb7106e6a0ad543a27fc5d0aa803297a5c86890fd89c934dc",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/koho/1062992/1066844/1066847.html",
+          "quote": "キッズコスプレコーナーポイン",
+          "checked_at": "2026-11-20",
+          "sha256": "cb088d71492338ba9b03ac6d3e0b9a82a5a80d7cfc6b95ed2fbf769a6c477ed4",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/koho/1062992/1066844/1066847.html",
+          "quote": "バーバパパコラボ企画フォトス",
+          "checked_at": "2026-11-20",
+          "sha256": "07fabda0c69b4a8175a0a40605c776d7d5078d753c40bdb0463be66defd0e738",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/koho/1062992/1066844/1066847.html",
+          "quote": "スタンプラリートワイライトジ",
+          "checked_at": "2026-11-20",
+          "sha256": "2e4d4a7ed4ccdd6b2cdf8b1e5840fbba3fa959c73e70630245118f3568dc33be",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/koho/1062992/1066844/1066847.html",
+          "quote": "注：土曜日・日曜日は小・中学生無料",
+          "checked_at": "2026-11-20",
+          "sha256": "77417a2b99aa996bbe59e272e9d5e4c11c961913fd0ba5037a7fbd80edddfc9b",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/koho/1062992/1066844/1066847.html",
+          "quote": "ビルマムツアシガメ「ムッちゃん」のクリスマスツリー点灯式（土曜日・日曜日のみ）",
+          "checked_at": "2026-11-20",
+          "sha256": "4d54dbc3463d088d18be3038caa23fcc644281c23e4c4e4c8b5820b2f4d93a18",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        }
+      ]
+    },
+    {
+      "id": "verified-20261213-itabashi-nettaikan-barbapapa",
+      "status": "verified",
+      "source": "https://www.city.itabashi.tokyo.jp/koho/1062992/1066844/1066847.html",
+      "source_kind": "public_official",
+      "verified_on": "2026-11-20",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "pass",
+        "reservation": "pass",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "週別全源照合は未完（ためまっぷ403等）。この追加分は主催者公式の案内ページの確認に基づく。",
+      "evidence": [
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/koho/1062992/1066844/1066847.html",
+          "quote": "とき11月25日（水曜日）から12月25日（金曜日）、午前10時から午後6時（入館は午後5時30分まで）",
+          "checked_at": "2026-11-20",
+          "sha256": "78088ae83a51df7eb7106e6a0ad543a27fc5d0aa803297a5c86890fd89c934dc",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/koho/1062992/1066844/1066847.html",
+          "quote": "キッズコスプレコーナーポイン",
+          "checked_at": "2026-11-20",
+          "sha256": "cb088d71492338ba9b03ac6d3e0b9a82a5a80d7cfc6b95ed2fbf769a6c477ed4",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/koho/1062992/1066844/1066847.html",
+          "quote": "バーバパパコラボ企画フォトス",
+          "checked_at": "2026-11-20",
+          "sha256": "07fabda0c69b4a8175a0a40605c776d7d5078d753c40bdb0463be66defd0e738",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/koho/1062992/1066844/1066847.html",
+          "quote": "スタンプラリートワイライトジ",
+          "checked_at": "2026-11-20",
+          "sha256": "2e4d4a7ed4ccdd6b2cdf8b1e5840fbba3fa959c73e70630245118f3568dc33be",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/koho/1062992/1066844/1066847.html",
+          "quote": "注：土曜日・日曜日は小・中学生無料",
+          "checked_at": "2026-11-20",
+          "sha256": "77417a2b99aa996bbe59e272e9d5e4c11c961913fd0ba5037a7fbd80edddfc9b",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/koho/1062992/1066844/1066847.html",
+          "quote": "ビルマムツアシガメ「ムッちゃん」のクリスマスツリー点灯式（土曜日・日曜日のみ）",
+          "checked_at": "2026-11-20",
+          "sha256": "4d54dbc3463d088d18be3038caa23fcc644281c23e4c4e4c8b5820b2f4d93a18",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        }
+      ]
+    },
+    {
+      "id": "verified-20261212-mizunokagaku-original_garland",
+      "status": "verified",
+      "source": "https://www.mizunokagaku.jp/event/261212_original_garland/",
+      "source_kind": "public_official",
+      "verified_on": "2026-11-20",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "pass",
+        "reservation": "pass",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "週別全源照合は未完（ためまっぷ403等）。この追加分は主催者公式の案内ページの確認に基づく。",
+      "evidence": [
+        {
+          "url": "https://www.mizunokagaku.jp/event/261212_original_garland/",
+          "quote": "開催日：2026年12月12日(土)",
+          "checked_at": "2026-11-20",
+          "sha256": "bfcdba61154557905b0106d2b53bd0faac9f4987f8d69445792cf4d89f564ebe",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        },
+        {
+          "url": "https://www.mizunokagaku.jp/event/261212_original_garland/",
+          "quote": "対象：小学生以下のお子様",
+          "checked_at": "2026-11-20",
+          "sha256": "87f61fb7b1a0546ddb46d7d8c18b3cc89d0493ebc56666f4ea2037fccbf471c3",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        },
+        {
+          "url": "https://www.mizunokagaku.jp/event/261212_original_garland/",
+          "quote": "会場：1Fオリエンテーションルーム",
+          "checked_at": "2026-11-20",
+          "sha256": "b9f58814738e6ec0f28977f4450e52e8e2bc246f400dd82c2162dfaf1742090e",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        },
+        {
+          "url": "https://www.mizunokagaku.jp/event/261212_original_garland/",
+          "quote": "各回1時間前から1Fインフォメーションにて整理券を配布いたします。",
+          "checked_at": "2026-11-20",
+          "sha256": "b85b5776b46925dd914ba1d839e6df4851566ea984e82473cbfc875d4e837911",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        },
+        {
+          "url": "https://www.mizunokagaku.jp/event/261212_original_garland/",
+          "quote": "開催時間：①11:00～②13:30～",
+          "checked_at": "2026-11-20",
+          "sha256": "4b9f7501cc20d65474695da37c8a2d41af5eaa56f5a1f728ab8d6ca74f84b623",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        }
+      ]
+    },
+    {
+      "id": "verified-20261212-sumida-aquarium-penguin-calendar",
+      "status": "verified",
+      "source": "https://www.sumida-aquarium.com/event/7x2a4asvu/",
+      "source_kind": "public_official",
+      "verified_on": "2026-11-20",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "pass",
+        "reservation": "pass",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "週別全源照合は未完（ためまっぷ403等）。この追加分は主催者公式の案内ページの確認に基づく。",
+      "evidence": [
+        {
+          "url": "https://www.sumida-aquarium.com/event/7x2a4asvu/",
+          "quote": "開催期間2026年12月11日（金）～",
+          "checked_at": "2026-11-20",
+          "sha256": "e24221d216c029ecb5976d645428d6e28739c311ca9d1f28c557977d5819a469",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        },
+        {
+          "url": "https://www.sumida-aquarium.com/event/7x2a4asvu/",
+          "quote": "土日祝日と特定日：午前10時～午後5時（最終受付：午後4時30分）",
+          "checked_at": "2026-11-20",
+          "sha256": "2e4115265a9165da48f48c073466a61907097e53f9ab7e777e6ca44a39a00dec",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        },
+        {
+          "url": "https://www.sumida-aquarium.com/event/7x2a4asvu/",
+          "quote": "参加費無料入場料は別途必要となります。",
+          "checked_at": "2026-11-20",
+          "sha256": "fec76af179454f2dca5195d0f75b47fae1a229a4e802049f2cd28cae24d3656b",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        },
+        {
+          "url": "https://www.sumida-aquarium.com/event/7x2a4asvu/",
+          "quote": "参加方法当日受付ワークショッ",
+          "checked_at": "2026-11-20",
+          "sha256": "050aba7f58ce9ee3548684c5f5ae442ad20e93762974cf0f81b4a20621303787",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        },
+        {
+          "url": "https://www.sumida-aquarium.com/event/7x2a4asvu/",
+          "quote": "カレンダー台紙のそれぞれの月にペンギンたちの写真カードを貼ってカレンダーを完成させましょう！",
+          "checked_at": "2026-11-20",
+          "sha256": "4462f4f3ebd9a80d93c7225761df639e1186cc2199562bf997e302d22995a590",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        }
+      ]
+    },
+    {
+      "id": "verified-20261213-sumida-aquarium-penguin-calendar",
+      "status": "verified",
+      "source": "https://www.sumida-aquarium.com/event/7x2a4asvu/",
+      "source_kind": "public_official",
+      "verified_on": "2026-11-20",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "pass",
+        "reservation": "pass",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "週別全源照合は未完（ためまっぷ403等）。この追加分は主催者公式の案内ページの確認に基づく。",
+      "evidence": [
+        {
+          "url": "https://www.sumida-aquarium.com/event/7x2a4asvu/",
+          "quote": "開催期間2026年12月11日（金）～",
+          "checked_at": "2026-11-20",
+          "sha256": "e24221d216c029ecb5976d645428d6e28739c311ca9d1f28c557977d5819a469",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        },
+        {
+          "url": "https://www.sumida-aquarium.com/event/7x2a4asvu/",
+          "quote": "土日祝日と特定日：午前10時～午後5時（最終受付：午後4時30分）",
+          "checked_at": "2026-11-20",
+          "sha256": "2e4115265a9165da48f48c073466a61907097e53f9ab7e777e6ca44a39a00dec",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        },
+        {
+          "url": "https://www.sumida-aquarium.com/event/7x2a4asvu/",
+          "quote": "参加費無料入場料は別途必要となります。",
+          "checked_at": "2026-11-20",
+          "sha256": "fec76af179454f2dca5195d0f75b47fae1a229a4e802049f2cd28cae24d3656b",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        },
+        {
+          "url": "https://www.sumida-aquarium.com/event/7x2a4asvu/",
+          "quote": "参加方法当日受付ワークショッ",
+          "checked_at": "2026-11-20",
+          "sha256": "050aba7f58ce9ee3548684c5f5ae442ad20e93762974cf0f81b4a20621303787",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        },
+        {
+          "url": "https://www.sumida-aquarium.com/event/7x2a4asvu/",
+          "quote": "カレンダー台紙のそれぞれの月にペンギンたちの写真カードを貼ってカレンダーを完成させましょう！",
+          "checked_at": "2026-11-20",
+          "sha256": "4462f4f3ebd9a80d93c7225761df639e1186cc2199562bf997e302d22995a590",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        }
+      ]
+    },
+    {
+      "id": "verified-20261213-arakawa-gassyotai-workshop",
+      "status": "verified",
+      "source": "https://www.city.arakawa.tokyo.jp/a015/event/workshop_gassyotai.html",
+      "source_kind": "public_official",
+      "verified_on": "2026-11-21",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "pass",
+        "reservation": "unknown",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "週別全源照合は未完（ためまっぷ403等）。この7件は荒川区公式の個別ページの確認に基づく。",
+      "evidence": [
+        {
+          "url": "https://www.city.arakawa.tokyo.jp/a015/event/workshop_gassyotai.html",
+          "quote": "東京荒川少年少女合唱隊のワークショップに参加し、定期演奏会の舞台で一緒に歌いませんか？",
+          "checked_at": "2026-11-21",
+          "sha256": "0f00536746c7426a43575e3916cd027a0278f32a3877f09dbf2fa692660cdb52",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "荒川区公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        },
+        {
+          "url": "https://www.city.arakawa.tokyo.jp/a015/event/workshop_gassyotai.html",
+          "quote": "対象者　年長、小学生、中学生",
+          "checked_at": "2026-11-21",
+          "sha256": "5d2864cbe2e9bcbdd41529717bd5ed8d7893f3aac284fea1a19280276adb5b38",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "荒川区公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        },
+        {
+          "url": "https://www.city.arakawa.tokyo.jp/a015/event/workshop_gassyotai.html",
+          "quote": "午前11時00分から午前11時30分",
+          "checked_at": "2026-11-21",
+          "sha256": "1733a38213d376b2039e84a2727302d83d21ba1cd921fcd40c76e453ebd53084",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "荒川区公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        },
+        {
+          "url": "https://www.city.arakawa.tokyo.jp/a015/event/workshop_gassyotai.html",
+          "quote": "夕やけこやけふれあい館、生涯学習センター",
+          "checked_at": "2026-11-21",
+          "sha256": "785d22c336a343df28e08ea23cb189b088099dff3fe650028680688ec2335832",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "荒川区公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        }
+      ]
+    },
+    {
+      "id": "verified-20261212-setagaya-soshigaya-xmas-tree",
+      "status": "verified",
+      "source": "https://www.tokyo-park.or.jp/park/soshigaya/news/2026/park_info_29.html",
+      "source_kind": "public_official",
+      "verified_on": "2026-11-21",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "pass",
+        "reservation": "pass",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "週別全源照合は未完（ためまっぷ403等）。この4件は各公式ページの個別確認に基づく。",
+      "evidence": [
+        {
+          "url": "https://www.tokyo-park.or.jp/park/soshigaya/news/2026/park_info_29.html",
+          "quote": "【クリスマスツリー作り (小学生以下) ※未就学児は保護者同伴】",
+          "checked_at": "2026-11-21",
+          "sha256": "8ad6a2df4fc0c3b44ee6c7b9b6e6b976492ae9f52b663f68a0c1288771c13364",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        },
+        {
+          "url": "https://www.tokyo-park.or.jp/park/soshigaya/news/2026/park_info_29.html",
+          "quote": "12 月 12 日 (土) ① 10 時 00 分 ～ 11 時 00 分 10名 ② 13 時 00 分 ～ 14 時 00 分 10名",
+          "checked_at": "2026-11-21",
+          "sha256": "fb7ef8844ce8652791ee554f87e4718b703bb5822294a645fa282b4308f8d8e4",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        },
+        {
+          "url": "https://www.tokyo-park.or.jp/park/soshigaya/news/2026/park_info_29.html",
+          "quote": "参加費 各回 1,500 円",
+          "checked_at": "2026-11-21",
+          "sha256": "eb172c82c2d01b4ddb67c89b7a0cd356ee2e5bb35460833091c0553e630c8af3",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        },
+        {
+          "url": "https://www.tokyo-park.or.jp/park/soshigaya/news/2026/park_info_29.html",
+          "quote": "※今回、WEBでお申込み ! 締切後抽選となります。",
+          "checked_at": "2026-11-21",
+          "sha256": "710d66b259f1c4ed0ff318ba89549fa24ea12e6d32dfc15ba778ee22faee34f0",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        },
+        {
+          "url": "https://www.tokyo-park.or.jp/park/soshigaya/news/2026/park_info_29.html",
+          "quote": "「クリスマスツリー作り(小学生以下)※未就学児は保護者同伴」 締切 : 12月 3日(木)",
+          "checked_at": "2026-11-21",
+          "sha256": "9abc970efb5cdbfdeeea5014dbdf18e3316bc4405d6df66ed77919a0f947a458",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        }
+      ]
+    },
+    {
+      "id": "verified-20261213-edogawa-shinozaki-fureai-festival",
+      "status": "verified",
+      "source": "https://www.tokyo-park.or.jp/park/shinozaki/news/2026/8_12_13.html",
+      "source_kind": "public_official",
+      "verified_on": "2026-11-21",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "unknown",
+        "reservation": "unknown",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "週別全源照合は未完（ためまっぷ403等）。この4件は各公式ページの個別確認に基づく。",
+      "evidence": [
+        {
+          "url": "https://www.tokyo-park.or.jp/park/shinozaki/news/2026/8_12_13.html",
+          "quote": "開催日時：令和8年12月13日(日) 10時00分～15時00分",
+          "checked_at": "2026-11-21",
+          "sha256": "0c68110b020ead549873e1e82b5267a40717799acc60adf4dd2d64d9a13c40fa",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        },
+        {
+          "url": "https://www.tokyo-park.or.jp/park/shinozaki/news/2026/8_12_13.html",
+          "quote": "※雨天延期：延期日12月20 日（日)",
+          "checked_at": "2026-11-21",
+          "sha256": "5d6c93293040e2831935860d0c24a3eb68739b3e8863c4e508811f0419e6fd0b",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        },
+        {
+          "url": "https://www.tokyo-park.or.jp/park/shinozaki/news/2026/8_12_13.html",
+          "quote": "①相撲体験：本物のお相撲さんと相撲をしてみよう。先着30名、受付13：00～",
+          "checked_at": "2026-11-21",
+          "sha256": "9fb13feedc49cd4e61a11df4b3ced3819be2f8feea8c6e6656703953b51fc30c",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        },
+        {
+          "url": "https://www.tokyo-park.or.jp/park/shinozaki/news/2026/8_12_13.html",
+          "quote": "⑦靴ひもアクセサリー作り：親子で靴ひもを編みキーチャームを作ろう★1組2本まで。(先着30組)",
+          "checked_at": "2026-11-21",
+          "sha256": "9d2f64de6ec02c0d6fd05b0433b70747bff102aaae3cfd3913ae8b971d9cf9d0",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        },
+        {
+          "url": "https://www.tokyo-park.or.jp/park/shinozaki/news/2026/8_12_13.html",
+          "quote": "⑧キッズトレイン：芝山の周りをトレインが走るよ。",
+          "checked_at": "2026-11-21",
+          "sha256": "f1e5a75b4e365abb570eb13ee9ccab1572d9fd756745214b9beeb91cc127ef25",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        },
+        {
+          "url": "https://www.tokyo-park.or.jp/park/shinozaki/news/2026/8_12_13.html",
+          "quote": "⑩公園のはたらく車：公園の職員とおそろいの制服を着てパワーカートや草刈機に乗ってみよう☆",
+          "checked_at": "2026-11-21",
+          "sha256": "60d30cdd4bd5a4c55deccc90c2d92d15cf4c5b6a470e6aa08d1b4e2bc8f1f160",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        }
+      ]
+    },
+    {
+      "id": "verified-20261212-hachioji-keihachi-xmas-market-beeswax-wrap",
+      "status": "verified",
+      "source": "https://www.city.hachioji.tokyo.jp/kurashi/life/005/001/007/p038184.html",
+      "source_kind": "public_official",
+      "verified_on": "2026-11-21",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "pass",
+        "reservation": "pass",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "週別全源照合は未完（ためまっぷ403等）。この6件は多摩各市の公式ページの個別確認に基づく。",
+      "evidence": [
+        {
+          "url": "https://www.city.hachioji.tokyo.jp/kurashi/life/005/001/007/p038184.html",
+          "quote": "日時 令和8年（2026年）12月12日（土） 10：00～16：00",
+          "checked_at": "2026-11-21",
+          "sha256": "0e7b7d084635fbb44729637db86953f3f6b91db1e62c77880098044c2c1b2b5f",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        },
+        {
+          "url": "https://www.city.hachioji.tokyo.jp/kurashi/life/005/001/007/p038184.html",
+          "quote": "会場 東京たま未来メッセ（八王子市明神町3丁目19-2）（京王八王子駅から徒歩2分） 第2会議室",
+          "checked_at": "2026-11-21",
+          "sha256": "2fb571f9797b8cbceb930b8d5cdd336fcd9761f9a772af01c1490dcc7c0419f0",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        },
+        {
+          "url": "https://www.city.hachioji.tokyo.jp/kurashi/life/005/001/007/p038184.html",
+          "quote": "対象 小学生以上 ※小学生は保護者同伴でご参加ください。 ※アイロンを使用するため、未就学児の参加はご遠慮ください。",
+          "checked_at": "2026-11-21",
+          "sha256": "1204736f37bb5bd6791151ec8528d4a8acd09f06306f8c2b75e5af98a49f4bcf",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        },
+        {
+          "url": "https://www.city.hachioji.tokyo.jp/kurashi/life/005/001/007/p038184.html",
+          "quote": "参加費 無料 持ち物 不要（材料はすべて会場で用意します。）",
+          "checked_at": "2026-11-21",
+          "sha256": "c1fb4cac44e35f20b716e17c314834f4eadac5bc88b076c803552125893d4636",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        },
+        {
+          "url": "https://www.city.hachioji.tokyo.jp/kurashi/life/005/001/007/p038184.html",
+          "quote": "参加方法 事前申込みもしくは当日参加にてご参加いただけます。",
+          "checked_at": "2026-11-21",
+          "sha256": "bbb58d5801550dce3a0c87ffd8a552ea980fc7e4b1f0ee1c2f0ee77ffddbc97f",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        }
+      ]
+    },
+    {
+      "id": "verified-20261212-tachikawa-kunitachi-ongaku-special-concert",
+      "status": "verified",
+      "source": "https://www.city.tachikawa.lg.jp/event/e-bunka/1028372.html",
+      "source_kind": "public_official",
+      "verified_on": "2026-11-21",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "pass",
+        "reservation": "pass",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "週別全源照合は未完（ためまっぷ403等）。この6件は多摩各市の公式ページの個別確認に基づく。",
+      "evidence": [
+        {
+          "url": "https://www.city.tachikawa.lg.jp/event/e-bunka/1028372.html",
+          "quote": "開催日 2026年12月12日（土曜日） 開催時間 午後4時00分開演（午後3時00分開場） 開催場所 TACHIKAWA STAGE GARDEN（立川ステージガーデン）",
+          "checked_at": "2026-11-21",
+          "sha256": "7bfdc97749e2d3b6a888465e4dc6793b189fa4be979a82ead95004194fbf02f9",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        },
+        {
+          "url": "https://www.city.tachikawa.lg.jp/event/e-bunka/1028372.html",
+          "quote": "対象 どなたでも 内容 ベートーヴェン /保科 洋 編曲：交響曲第9番 ニ短調 作品125「合唱付き」より 第4楽章",
+          "checked_at": "2026-11-21",
+          "sha256": "cabc7e53d489ae3bb72fc53fd022da41b6011517ea8dd3a698c56e715bd18856",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        },
+        {
+          "url": "https://www.city.tachikawa.lg.jp/event/e-bunka/1028372.html",
+          "quote": "芸術文化の振興と次世代を担う子どもたちの育成を目的に実施するもので",
+          "checked_at": "2026-11-21",
+          "sha256": "743078d17a6c40992d3f9b2f3daa40f314ad79bb016d4a8b78a7fd7ef36cf452",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        },
+        {
+          "url": "https://www.city.tachikawa.lg.jp/event/e-bunka/1028372.html",
+          "quote": "チャイコフスキー / 足立 正 編曲：バレエ《くるみ割り人形》より",
+          "checked_at": "2026-11-21",
+          "sha256": "75f7486c4cd37ae83972690cc0a84d43066d558a5647e195fed79ac24c6573c8",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        },
+        {
+          "url": "https://www.city.tachikawa.lg.jp/event/e-bunka/1028372.html",
+          "quote": "申込み 必要 チケットの購入が必要です。（全席指定） 料金/税込 一般：1,500円 高校生以下：500円 ※3歳以上有料。2歳以下のお子様は保護者1名につきお子様1名まで、膝上鑑賞の場合無料。",
+          "checked_at": "2026-11-21",
+          "sha256": "e59f3c2f9dd67a7a34599e685ab125637492a7e3dca786b6852b4554203e71f9",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        }
+      ]
+    },
+    {
+      "id": "verified-20261213-akishima-oyako-money-course",
+      "status": "verified",
+      "source": "https://www.city.akishima.lg.jp/kurashi/sumai/1001875/1001929/1013015.html",
+      "source_kind": "public_official",
+      "verified_on": "2026-11-21",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "pass",
+        "reservation": "pass",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "週別全源照合は未完（ためまっぷ403等）。この6件は多摩各市の公式ページの個別確認に基づく。",
+      "evidence": [
+        {
+          "url": "https://www.city.akishima.lg.jp/kurashi/sumai/1001875/1001929/1013015.html",
+          "quote": "開催日 2026年12月13日（日曜日） 開催時間 午前10時 から 午前11時30分 まで 開催場所 市役所1階市民ホール",
+          "checked_at": "2026-11-21",
+          "sha256": "abc5596106dc3284a61c670c07d41d28edb1f1eb8aa283e61fd34f543dab9fbb",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        },
+        {
+          "url": "https://www.city.akishima.lg.jp/kurashi/sumai/1001875/1001929/1013015.html",
+          "quote": "対象 小学生と保護者 内容 低学年にもわかりやすい内容となっています！",
+          "checked_at": "2026-11-21",
+          "sha256": "025936f8237eb3390101c4b7bef39a648a69957916e56ea747ec826dedc83e4d",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        },
+        {
+          "url": "https://www.city.akishima.lg.jp/kurashi/sumai/1001875/1001929/1013015.html",
+          "quote": "クイズや貯金箱づくりをとおして、お金の使いかたなどを親子で楽しく学びましょう！",
+          "checked_at": "2026-11-21",
+          "sha256": "f8cbbc7ac73a45347424531c81733c9e332c75a2cd93eaf44e9bc6d8b89031dd",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        },
+        {
+          "url": "https://www.city.akishima.lg.jp/kurashi/sumai/1001875/1001929/1013015.html",
+          "quote": "定員 20組（申込順） 参加費 無料 申込み 必要 11月2日（月曜日）から11月27日（金曜日）まで下記サイトにて申し込みが可能です。",
+          "checked_at": "2026-11-21",
+          "sha256": "bb788cab97ba4cade23dbc59d8d4e353d786bedc27903bebe3a2fdc372885e01",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        }
+      ]
+    },
+    {
+      "id": "verified-20261212-meguro-karasumori-tudoi-xmas-kazari",
+      "status": "verified",
+      "source": "https://www.city.meguro.tokyo.jp/houkago/event/karasumori-tudoi1.html",
+      "source_kind": "public_official",
+      "verified_on": "2026-11-22",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "unknown",
+        "reservation": "unknown",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "週別全源照合は未完（ためまっぷ403等）。この8件は目黒区・江戸川区の公式個別ページの確認に基づく。",
+      "evidence": [
+        {
+          "url": "https://www.city.meguro.tokyo.jp/houkago/event/karasumori-tudoi1.html",
+          "quote": "乳幼児のつどい「クリスマス飾り作り」",
+          "checked_at": "2026-11-22",
+          "sha256": "8e9974447810b8d937446ca03e508136d7c1ac5977d252b7c9be5bb060773cae",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "公式ページ（2026-11-22にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        },
+        {
+          "url": "https://www.city.meguro.tokyo.jp/houkago/event/karasumori-tudoi1.html",
+          "quote": "2026年12月12日（土曜日）",
+          "checked_at": "2026-11-22",
+          "sha256": "9c0e44ea4b059090b71190f1c9d9cfde35b93b7ea940812730e4403d28f9474e",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "公式ページ（2026-11-22にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        },
+        {
+          "url": "https://www.city.meguro.tokyo.jp/houkago/event/karasumori-tudoi1.html",
+          "quote": "午前10時30分から11時30分まで",
+          "checked_at": "2026-11-22",
+          "sha256": "978e3ea4f685cde8f26540572d3f8f22820d5b2452228ff2b0b5944affdc9a81",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "公式ページ（2026-11-22にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        },
+        {
+          "url": "https://www.city.meguro.tokyo.jp/houkago/event/karasumori-tudoi1.html",
+          "quote": "烏森住区センター児童館プレイルーム",
+          "checked_at": "2026-11-22",
+          "sha256": "cdce691df459338b6a9d2a7784999bd6b7ab764798b57b221955290309a134f5",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "公式ページ（2026-11-22にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        },
+        {
+          "url": "https://www.city.meguro.tokyo.jp/houkago/event/karasumori-tudoi1.html",
+          "quote": "0歳児から5歳児（令和2年4月2日から令和8年4月1日生まれ）とその保護者",
+          "checked_at": "2026-11-22",
+          "sha256": "108fd62a1d6cb8d60dfc4fb8e4f32c0d76e01c0b6f500e4ca0ae182c2a825986",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "公式ページ（2026-11-22にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        },
+        {
+          "url": "https://www.city.meguro.tokyo.jp/houkago/event/karasumori-tudoi1.html",
+          "quote": "対象年齢の乳幼児と保護者であれば、どなたでも参加できます。",
+          "checked_at": "2026-11-22",
+          "sha256": "7866ee8ed67a52ea684112ee6a4cb9e6aa3ec7f063f698a7caab0b80fa72f286",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "公式ページ（2026-11-22にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        }
+      ]
+    },
+    {
+      "id": "verified-20261213-meguro-mukaihara-tudoi-kisetsu-kosaku",
+      "status": "verified",
+      "source": "https://www.city.meguro.tokyo.jp/houkago/event/mukaiharakisetu.html",
+      "source_kind": "public_official",
+      "verified_on": "2026-11-22",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "unknown",
+        "reservation": "pass",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "週別全源照合は未完（ためまっぷ403等）。この8件は目黒区・江戸川区の公式個別ページの確認に基づく。",
+      "evidence": [
+        {
+          "url": "https://www.city.meguro.tokyo.jp/houkago/event/mukaiharakisetu.html",
+          "quote": "乳幼児のつどい「季節の工作」",
+          "checked_at": "2026-11-22",
+          "sha256": "94dbaf358fc84cb4c659b4ea7dbcd04f0da95c5a0927d8d3c349cf2a9d69f00e",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "公式ページ（2026-11-22にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        },
+        {
+          "url": "https://www.city.meguro.tokyo.jp/houkago/event/mukaiharakisetu.html",
+          "quote": "2026年12月13日（日曜日）",
+          "checked_at": "2026-11-22",
+          "sha256": "1f24465946a0c81c1e443859615c2e3d9975073d5593f3e672bc107b50500c1e",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "公式ページ（2026-11-22にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        },
+        {
+          "url": "https://www.city.meguro.tokyo.jp/houkago/event/mukaiharakisetu.html",
+          "quote": "午前10時30分から午前11時30分まで",
+          "checked_at": "2026-11-22",
+          "sha256": "76d4c7869cf674d64c19d1cf53f9f63fc0a886ef6949e5215646408d789bfaa7",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "公式ページ（2026-11-22にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        },
+        {
+          "url": "https://www.city.meguro.tokyo.jp/houkago/event/mukaiharakisetu.html",
+          "quote": "向原住区センター児童館　地下プレイルーム",
+          "checked_at": "2026-11-22",
+          "sha256": "1e0f2c3cdad0f2297949f13b6f8f1b23a10fcbc02ab4068765e5a872d6127ff3",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "公式ページ（2026-11-22にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        },
+        {
+          "url": "https://www.city.meguro.tokyo.jp/houkago/event/mukaiharakisetu.html",
+          "quote": "予約は不要です。午前10時30分の開始前までにお越しください。",
+          "checked_at": "2026-11-22",
+          "sha256": "4487218aa8b0539146b4e04b77c1202a07de21c544ec0063cc6d610a847d84c7",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "公式ページ（2026-11-22にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        },
+        {
+          "url": "https://www.city.meguro.tokyo.jp/houkago/event/mukaiharakisetu.html",
+          "quote": "0歳児から5歳児（令和2年4月2日から令和8年4月1日生まれ）の乳幼児とその保護者",
+          "checked_at": "2026-11-22",
+          "sha256": "33a8e5def1ba44343f6f0695963ad50407903609d15dbd379b45b9aa0ca73297",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "公式ページ（2026-11-22にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        }
+      ]
+    },
+    {
+      "id": "verified-20261212-meguro-komaba-tudoi-athletic-kosaku",
+      "status": "verified",
+      "source": "https://www.city.meguro.tokyo.jp/houkago/event/komaba-tudoi-12.html",
+      "source_kind": "public_official",
+      "verified_on": "2026-11-22",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "pass",
+        "reservation": "pass",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "週別全源照合は未完（ためまっぷ403等）。この8件は目黒区・江戸川区の公式個別ページの確認に基づく。",
+      "evidence": [
+        {
+          "url": "https://www.city.meguro.tokyo.jp/houkago/event/komaba-tudoi-12.html",
+          "quote": "乳幼児のつどい「アスレチックと工作」",
+          "checked_at": "2026-11-22",
+          "sha256": "75f5fbee70407faf512df0377cfc75845a28f439293e626a5b7feed7d15246ab",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "公式ページ（2026-11-22にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        },
+        {
+          "url": "https://www.city.meguro.tokyo.jp/houkago/event/komaba-tudoi-12.html",
+          "quote": "2026年12月12日（土曜日）",
+          "checked_at": "2026-11-22",
+          "sha256": "9c0e44ea4b059090b71190f1c9d9cfde35b93b7ea940812730e4403d28f9474e",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "公式ページ（2026-11-22にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        },
+        {
+          "url": "https://www.city.meguro.tokyo.jp/houkago/event/komaba-tudoi-12.html",
+          "quote": "午前10時30分から午前11時30分まで",
+          "checked_at": "2026-11-22",
+          "sha256": "76d4c7869cf674d64c19d1cf53f9f63fc0a886ef6949e5215646408d789bfaa7",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "公式ページ（2026-11-22にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        },
+        {
+          "url": "https://www.city.meguro.tokyo.jp/houkago/event/komaba-tudoi-12.html",
+          "quote": "駒場児童館　プレイルーム",
+          "checked_at": "2026-11-22",
+          "sha256": "f52326ac010ce24ac649768bc9fd924c8f0aee84d38f9f6ec2acd6cfbad8c42a",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "公式ページ（2026-11-22にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        },
+        {
+          "url": "https://www.city.meguro.tokyo.jp/houkago/event/komaba-tudoi-12.html",
+          "quote": "対象0歳児から5歳児まで",
+          "checked_at": "2026-11-22",
+          "sha256": "827b3562e440823781d58b726af5bc4c8a9ed59fa66a54d4611a63620d7843d9",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "公式ページ（2026-11-22にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        },
+        {
+          "url": "https://www.city.meguro.tokyo.jp/houkago/event/komaba-tudoi-12.html",
+          "quote": "参加人数・定員先着20組料金・費用無料",
+          "checked_at": "2026-11-22",
+          "sha256": "9ba5e0e394f60eabf7e67343f863920aa230024682ab40dd5218283282dc595b",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "公式ページ（2026-11-22にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        },
+        {
+          "url": "https://www.city.meguro.tokyo.jp/houkago/event/komaba-tudoi-12.html",
+          "quote": "事前予約制です。詳しくは毎月の児童館のお知らせでご確認ください。",
+          "checked_at": "2026-11-22",
+          "sha256": "f0339ffe4236ea6a5791c2fd2dd1fe9d05d7c504689a941ced117400306fed7c",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "公式ページ（2026-11-22にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        }
+      ]
+    },
+    {
+      "id": "verified-20261212-shibuya-hachilabo-luminescence-chem-2026",
+      "status": "verified",
+      "source": "https://shibu-cul.jp/event/53568#luminescence",
+      "source_kind": "public_official",
+      "verified_on": "2026-11-23",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "pass",
+        "reservation": "pass",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "週別全源照合は未完（ためまっぷ403等）。この9件は渋谷区の公式ページの個別確認に基づく。",
+      "evidence": [
+        {
+          "url": "https://shibu-cul.jp/event/53568#luminescence",
+          "quote": "●開催日：12月12日（土）",
+          "checked_at": "2026-11-23",
+          "sha256": "d9c1ff251519e2feb1c2eef3cd6c480a370ef13ece87c86d339cd85533ea1c68",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "公式ページ（2026-11-23にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        },
+        {
+          "url": "https://shibu-cul.jp/event/53568#luminescence",
+          "quote": "●推奨年齢：小5～中学生",
+          "checked_at": "2026-11-23",
+          "sha256": "c80403700ae6d76ef6182b179fb5c1d954c0c33c85993f12b5356182bc09222c",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "公式ページ（2026-11-23にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        },
+        {
+          "url": "https://shibu-cul.jp/event/53568#luminescence",
+          "quote": "●募集期間：11月18日（水）0:00～11月25日（水）23:59＜抽選＞",
+          "checked_at": "2026-11-23",
+          "sha256": "614c32158a9128988d1ef8629a44e1d96cd3b895459045d5592fc629b12f8eee",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "公式ページ（2026-11-23にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        }
+      ]
+    },
+    {
+      "id": "verified-20261212-tsurumaki-dodge-2026",
+      "status": "verified",
+      "source": "https://www.city.setagaya.lg.jp/03063/31542.html",
+      "source_kind": "public_official",
+      "verified_on": "2026-11-25",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "pass",
+        "reservation": "pass",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "週別全源照合は未完（ためまっぷ403等）。この43件は公式ページの個別確認に基づく。",
+      "evidence": [
+        {
+          "url": "https://www.city.setagaya.lg.jp/03063/31542.html",
+          "quote": "2026年12月11日（金曜日）から2026年12月12日（土曜日）",
+          "checked_at": "2026-11-25",
+          "sha256": "607c73dfddf5a2dfaa6f1ab21523f7a8ba5bee3a37c2633d6349ee54dd3b4dc4",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "公式ページ（2026-11-25にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        },
+        {
+          "url": "https://www.city.setagaya.lg.jp/03063/31542.html",
+          "quote": "ドッジボールが好きな人もはじめての人もみんなでたのしもう！",
+          "checked_at": "2026-11-25",
+          "sha256": "9dc4a8c72b2597ccf43d295badc3496bfeeef9e79ec58d514dfd2f23afeb3712",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "公式ページ（2026-11-25にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        },
+        {
+          "url": "https://www.city.setagaya.lg.jp/03063/31542.html",
+          "quote": "対象小学生1年生から中高生世代",
+          "checked_at": "2026-11-25",
+          "sha256": "11757b68db899d091a6b94c894e5aacf84ad6d251a9c4d2e41fb61cb274e3692",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "公式ページ（2026-11-25にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        }
+      ]
+    },
+    {
+      "id": "verified-20261212-soshigaya-dodge-2026",
+      "status": "verified",
+      "source": "https://www.city.setagaya.lg.jp/03080/37019.html",
+      "source_kind": "public_official",
+      "verified_on": "2026-11-25",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "pass",
+        "reservation": "pass",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "週別全源照合は未完（ためまっぷ403等）。この43件は公式ページの個別確認に基づく。",
+      "evidence": [
+        {
+          "url": "https://www.city.setagaya.lg.jp/03080/37019.html",
+          "quote": "2026年12月9日（水曜日）から2026年12月12日（土曜日）",
+          "checked_at": "2026-11-25",
+          "sha256": "16648c1ee5d891188291492e528a0c4425bb3761e673810718b62733b2ebcc71",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "公式ページ（2026-11-25にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        },
+        {
+          "url": "https://www.city.setagaya.lg.jp/03080/37019.html",
+          "quote": "対象小学1年生から中高生世代",
+          "checked_at": "2026-11-25",
+          "sha256": "3bd0a3d5785149024d79f56119181b56728906208ef4f9a63015000a4c294934",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "公式ページ（2026-11-25にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        },
+        {
+          "url": "https://www.city.setagaya.lg.jp/03080/37019.html",
+          "quote": "選手のみんなといっしょにドッジボールをしよう！",
+          "checked_at": "2026-11-25",
+          "sha256": "f5c7f1d4f39000d356359d1150f42b9473df14e13102fabfb1f183b5e0a2d391",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "公式ページ（2026-11-25にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        }
+      ]
+    },
+    {
+      "id": "verified-20261212-todoroki-greenfriends-2026",
+      "status": "verified",
+      "source": "https://www.city.setagaya.lg.jp/03070/36784.html",
+      "source_kind": "public_official",
+      "verified_on": "2026-11-25",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "unknown",
+        "reservation": "pass",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "週別全源照合は未完（ためまっぷ403等）。この43件は公式ページの個別確認に基づく。",
+      "evidence": [
+        {
+          "url": "https://www.city.setagaya.lg.jp/03070/36784.html",
+          "quote": "児童館脇の花壇をお花でいっぱいにしよう",
+          "checked_at": "2026-11-25",
+          "sha256": "bf854cd965fe85f77ad9821ac7fd68f1271b53977a6f4ca4609412aaf92abf48",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "公式ページ（2026-11-25にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        },
+        {
+          "url": "https://www.city.setagaya.lg.jp/03070/36784.html",
+          "quote": "日程2026年12月12日（土曜日）",
+          "checked_at": "2026-11-25",
+          "sha256": "5fff53120972315eaa225920579a47be3d8ff43d940a0bf61dccd2a2b0a242cb",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "公式ページ（2026-11-25にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        },
+        {
+          "url": "https://www.city.setagaya.lg.jp/03070/36784.html",
+          "quote": "どなたでも(乳幼児さんは保護者と一緒に)",
+          "checked_at": "2026-11-25",
+          "sha256": "3e4544cf9a36a2f682b905d3ce9086785cfa59c9a08e64bfef66d6eedfab3b97",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "公式ページ（2026-11-25にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        }
+      ]
+    },
+    {
+      "id": "verified-20261212-soshigaya-xmas-concert-2026",
+      "status": "verified",
+      "source": "https://www.city.setagaya.lg.jp/03080/37087.html",
+      "source_kind": "public_official",
+      "verified_on": "2026-11-25",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "pass",
+        "reservation": "pass",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "週別全源照合は未完（ためまっぷ403等）。この43件は公式ページの個別確認に基づく。",
+      "evidence": [
+        {
+          "url": "https://www.city.setagaya.lg.jp/03080/37087.html",
+          "quote": "日程2026年12月12日（土曜日）",
+          "checked_at": "2026-11-25",
+          "sha256": "5fff53120972315eaa225920579a47be3d8ff43d940a0bf61dccd2a2b0a242cb",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "公式ページ（2026-11-25にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        },
+        {
+          "url": "https://www.city.setagaya.lg.jp/03080/37087.html",
+          "quote": "対象就学前の乳幼児とその保護者：先着20組程度",
+          "checked_at": "2026-11-25",
+          "sha256": "50c351b7245be082fa33fe6197559a6eaf609bcf2aa5bcf3c50388ab5a7a8fd1",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "公式ページ（2026-11-25にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        },
+        {
+          "url": "https://www.city.setagaya.lg.jp/03080/37087.html",
+          "quote": "歌や遊びなど家族みんなで楽しめます。",
+          "checked_at": "2026-11-25",
+          "sha256": "568161d485247d88cd737c83c709065a43347b6f3dd2cabab19162e3d74e5ab6",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "公式ページ（2026-11-25にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        }
+      ]
+    },
+    {
+      "id": "verified-20261212-greensprings-bbq-2026",
+      "status": "verified",
+      "source": "https://greensprings.jp/event/11055/",
+      "source_kind": "public_official",
+      "verified_on": "2026-11-25",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "unknown",
+        "reservation": "unknown",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "週別全源照合は未完（ためまっぷ403等）。この43件は公式ページの個別確認に基づく。",
+      "evidence": [
+        {
+          "url": "https://greensprings.jp/event/11055/",
+          "quote": "2026年12月12日（土）11:00〜19:00、13日（日）11:00〜17:00",
+          "checked_at": "2026-11-25",
+          "sha256": "a59e3c35daa077acf7112790deafad111dcc5c4805c91d0f10f1e94a61f8f45e",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "公式ページ（2026-11-25にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        },
+        {
+          "url": "https://greensprings.jp/event/11055/",
+          "quote": "ご家族やご友人とともに、本場アメリカのBBQカルチャーを体感する特別な2日間をお楽しみください！",
+          "checked_at": "2026-11-25",
+          "sha256": "da49926d7888c692f47a9662f6e6dcf21d93cd873a4daf3c6f6a502b15170392",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "公式ページ（2026-11-25にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        }
+      ]
+    },
+    {
+      "id": "verified-20261212-showakinen-wreath-2026",
+      "status": "verified",
+      "source": "https://www.showakinen-koen.jp/event/77216/",
+      "source_kind": "public_official",
+      "verified_on": "2026-11-25",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "pass",
+        "reservation": "pass",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "週別全源照合は未完（ためまっぷ403等）。この43件は公式ページの個別確認に基づく。",
+      "evidence": [
+        {
+          "url": "https://www.showakinen-koen.jp/event/77216/",
+          "quote": "親子で参加するみどりや自然素材にふれられるワークショップです。",
+          "checked_at": "2026-11-25",
+          "sha256": "b68dafac6de64d9426969d30a4a3c32fac3aeb715addc175dcc5542eaaa8fb6a",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "公式ページ（2026-11-25にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        },
+        {
+          "url": "https://www.showakinen-koen.jp/event/77216/",
+          "quote": "定員各回10組（2人1組）",
+          "checked_at": "2026-11-25",
+          "sha256": "a4961ce18c9bb82e583ddd81ef99bb09aa8451633125fa31eb313e8c3eb6205f",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "公式ページ（2026-11-25にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        },
+        {
+          "url": "https://www.showakinen-koen.jp/event/77216/",
+          "quote": "受付期間：12月7日(月)まで。",
+          "checked_at": "2026-11-25",
+          "sha256": "1b7f771e11de7ad1311e0f1f691180e37b73e1a47971e427f25b1146775a4c22",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "公式ページ（2026-11-25にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        },
+        {
+          "url": "https://www.showakinen-koen.jp/event/77216/",
+          "quote": "12月12日(土)クリスマスのリース",
+          "checked_at": "2026-11-25",
+          "sha256": "4839568b1fbf0a96f9f79d8407deb6c2ddcf1ccdd19d84ba36fbb99266ffa4cf",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "公式ページ（2026-11-25にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        }
+      ]
+    },
+    {
+      "id": "verified-20261213-shoin-michiasobi-2026",
+      "status": "verified",
+      "source": "https://www.city.setagaya.lg.jp/03063/37132.html",
+      "source_kind": "public_official",
+      "verified_on": "2026-11-25",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "pass",
+        "reservation": "pass",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "週別全源照合は未完（ためまっぷ403等）。この43件は公式ページの個別確認に基づく。",
+      "evidence": [
+        {
+          "url": "https://www.city.setagaya.lg.jp/03063/37132.html",
+          "quote": "商店街でみんなであそぼう！",
+          "checked_at": "2026-11-25",
+          "sha256": "c11dab7a79b5b043c2b3b5c71e483e1009381c77b1ff111958d0042842753cf0",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "公式ページ（2026-11-25にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        },
+        {
+          "url": "https://www.city.setagaya.lg.jp/03063/37132.html",
+          "quote": "日程2026年12月13日（日曜日）",
+          "checked_at": "2026-11-25",
+          "sha256": "efdcf670e0b5db07b3015a48aa4b1f274022fbb0c038ab978e6f7f7ec1d55c7c",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "公式ページ（2026-11-25にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        },
+        {
+          "url": "https://www.city.setagaya.lg.jp/03063/37132.html",
+          "quote": "弦巻児童館は正午からごご3じに駒回しなどで参加します！",
+          "checked_at": "2026-11-25",
+          "sha256": "cbb96ca4ad7810b02e635d307011c6f2cd6dc54d1caeaac43b33835467624403",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "公式ページ（2026-11-25にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        }
+      ]
+    },
+    {
+      "id": "verified-20261213-kiyose-matsubokkuri-2026",
+      "status": "verified",
+      "source": "https://www.city.kiyose.lg.jp/bunkasportskankou/bunka/toshokan/1016809.html",
+      "source_kind": "public_official",
+      "verified_on": "2026-11-25",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "pass",
+        "reservation": "pass",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "週別全源照合は未完（ためまっぷ403等）。この43件は公式ページの個別確認に基づく。",
+      "evidence": [
+        {
+          "url": "https://www.city.kiyose.lg.jp/bunkasportskankou/bunka/toshokan/1016809.html",
+          "quote": "まつぼっくりをビーズや羊毛フェルトでかざり、手のひらサイズの小さなツリーを作ります！",
+          "checked_at": "2026-11-25",
+          "sha256": "6a799c175c85b129753668d89140c13f2ed646932a638417cea6cbc10dcb2dc6",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "公式ページ（2026-11-25にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        },
+        {
+          "url": "https://www.city.kiyose.lg.jp/bunkasportskankou/bunka/toshokan/1016809.html",
+          "quote": "（2才～小学生。未就学児は保護者同伴）",
+          "checked_at": "2026-11-25",
+          "sha256": "16ec21f50db94aadeb3c5d685f8cc103bb6aa18ce7b6abcf1432e441ff127ce5",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "公式ページ（2026-11-25にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        },
+        {
+          "url": "https://www.city.kiyose.lg.jp/bunkasportskankou/bunka/toshokan/1016809.html",
+          "quote": "申込みは不要ですので、お気軽にご参加ください。",
+          "checked_at": "2026-11-25",
+          "sha256": "2575f46ee99f9cd5a7d2a3f8808ef09c89a075b6c9ff8f07acb42fc751cf7a7c",
+          "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+          "description": "公式ページ（2026-11-25にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "total": 115,
+    "verified": 112,
+    "announced": 3,
+    "corrected": 0
+  }
+}

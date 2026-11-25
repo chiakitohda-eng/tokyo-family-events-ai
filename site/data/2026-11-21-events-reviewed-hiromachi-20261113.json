@@ -1,0 +1,226 @@
+[
+  {
+    "id": "reviewed-20261121-nakano-160131",
+    "ward": "中野区",
+    "name": "笑顔で楽しくおどるケイキフラ",
+    "url": "https://nakano-hiromatimirai.resv.jp/reserve/calendar.php?x=1634516751",
+    "official_url": "https://nakano-hiromatimirai.resv.jp/reserve/calendar.php?x=1634516751",
+    "source": "https://nakano-hiromatimirai.resv.jp/reserve/calendar.php?x=1634516751",
+    "image": "https://pc.tamemap.net/tamemapapi/detail/ca9f25bd-d4b8-4fd1-b5d3-63eceff2fbab.jpg",
+    "period": "11/21",
+    "date_start": "2026-11-21",
+    "date_end": "2026-11-21",
+    "time": "10:00〜10:45",
+    "venue": "広町みらい公園・体験学習センター",
+    "price": "1,500円",
+    "description": "年中〜小学生を対象に、音楽に合わせて体を動かすフラダンス。初心者も参加可能。パウスカート（フレアスカート）・飲み物・室内履きを持参。保護者の同伴は1名まで。",
+    "categories": [
+      "ダンス",
+      "体験"
+    ],
+    "family_fit": {
+      "grade": "A",
+      "overall": "A",
+      "rubric_version": "family-fit-v2",
+      "reason": "年中から小学生が初心者でも45分のフラダンスを実際に踊れる。 付き添いは1名まで。持ち物、予約枠、当日キャンセル料を確認する。",
+      "axes": {
+        "child_target": {
+          "grade": "A",
+          "reason": "子ども・親子向けの対象が主催者案内にある。 年中から小学生が初心者でも45分のフラダンスを実際に踊れる。"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "年中から小学生が初心者でも45分のフラダンスを実際に踊れる。"
+        },
+        "age_fit": {
+          "grade": "A",
+          "reason": "年中から小学生が初心者でも45分のフラダンスを実際に踊れる。 付き添いは1名まで。持ち物、予約枠、当日キャンセル料を確認する。"
+        },
+        "stay_flexibility": {
+          "grade": "B",
+          "reason": "開始・終了時刻の決まった短時間の教室。途中退出の禁止までは明記されていないため、予約制だけでCにはしない。"
+        },
+        "burden": {
+          "grade": "B",
+          "reason": "室内履き等の持参品と当日キャンセル料を事前確認。"
+        },
+        "cost": {
+          "grade": "B",
+          "reason": "主催者予約ページの参加費は1,500円。"
+        },
+        "reservation": {
+          "grade": "C",
+          "reason": "事前申込・先着順、期限は11/20(金)。11/13閲覧時は受付中で空きあり、以後は変動。"
+        },
+        "family_value": {
+          "grade": "A",
+          "reason": "年中から小学生が初心者でも45分のフラダンスを実際に踊れる。"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-14",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "child_program",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "年中から小学生が初心者でも45分のフラダンスを実際に踊れる。"
+        ],
+        "limitations": [
+          "付き添いは1名まで。持ち物、予約枠、当日キャンセル料を確認する。"
+        ],
+        "grade_comparison": "総合A：年中から小学生が初心者でも45分のフラダンスを実際に踊れる。 付き添いは1名まで。持ち物、予約枠、当日キャンセル料を確認する。",
+        "unsupported_axes": [],
+        "evidence": [
+          {
+            "url": "https://nakano-hiromatimirai.resv.jp/reserve/calendar.php?x=1634516751",
+            "quote": "| サイト越えトラッキングを防ぐ」を「OFF」にします。 | 4. 「すべてのCookieをブロック」を「OFF」にします。 | 受付中 | 残 | 13 | 笑顔で楽しくおどるケイキフラ2 11月 | 2026/11/21 (土) 10:00-10:45 | 1,500円 | 税込み | ※キャンセルの場合は開催日前日の午後9時までに体験学習センター管理事務所にお電話でご連絡ください。 | 無断欠席、当日キャンセルの場合は、病欠であっても参加費をいただきます。 | [略称] ケイキフラ2 | 初めてのお子様も安心。楽しく音楽に合わせて体を動かし、自然と笑顔になれるフラダンスを踊ります。 | 参加費:1,500円 | 時 間:10:00~10:45 | 講 師:アロヒラニ高橋 | 定 員:15名 | 対 象:年中~小学生 | 持ち物:パウスカート(フレアスカート) | 飲み物・室内履き(バレエシューズ等) | ※メッセージ欄にお子様のお名前、年齢をご記入ください | (例:○○ 、5歳) | ※保護者の同伴は1名まででお願いします | [担当] アロヒラニ高橋 | [詳細URL] | https://alohilani-hula.com/ | 前の画面に戻る",
+            "checked_at": "2026-11-14T04:31:32.258308+00:00",
+            "sha256": "d1c7a72745d8508fb7549be72734e36efd9c5eba84ed072a5a0278d1d9aa6978",
+            "detail_keyid": "7388"
+          }
+        ]
+      }
+    },
+    "reservation": {
+      "required": true,
+      "note": "事前申込・先着順。申込期限は11/20(金)。11/13の主催者予約ページでは受付中（空きは変動）。公園公式カレンダーで該当日・講座を選んで最新状況を確認。キャンセルは前日21時までに管理事務所へ電話。当日キャンセル・無断欠席は病欠でも参加費が必要。"
+    },
+    "indoor_outdoor": "",
+    "ai": {
+      "checked_at": "2026-11-13",
+      "confidence": "high",
+      "discovery_query": "前回保留候補を公園公式予約カレンダーへ辿り、本文・年・日付・対象・料金・受付状況を再照合。既存216レコードに同日同会場同講座なし。"
+    },
+    "discovery_sources": [
+      {
+        "channel": "explicit",
+        "source_id": "tamemap_nakano",
+        "kind": "recovered_detail_review",
+        "url": "https://pc.tamemap.net/1311401/event/160131/2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "reviewed-20261122-nakano-160190",
+    "ward": "中野区",
+    "name": "はじめてのキッズダンス",
+    "url": "https://nakano-hiromatimirai.resv.jp/reserve/calendar.php?x=1634516751",
+    "official_url": "https://nakano-hiromatimirai.resv.jp/reserve/calendar.php?x=1634516751",
+    "source": "https://nakano-hiromatimirai.resv.jp/reserve/calendar.php?x=1634516751",
+    "image": "https://pc.tamemap.net/tamemapapi/detail/c6b16ac8-3232-40c3-a6fe-0d40d4255225.jpg",
+    "period": "11/22",
+    "date_start": "2026-11-22",
+    "date_end": "2026-11-22",
+    "time": "13:30〜14:20",
+    "venue": "広町みらい公園・体験学習センター 体験学習室A",
+    "price": "1,500円",
+    "description": "3〜6歳向けにポーズやステップを練習するダンス講座。室内履き・飲み物・タオルを用意し、動きやすい服装で参加。付き添いは1名まで。体験学習室Aで開催し、受付は2階管理事務所窓口。",
+    "categories": [
+      "ダンス",
+      "体験"
+    ],
+    "family_fit": {
+      "grade": "A",
+      "overall": "A",
+      "rubric_version": "family-fit-v2",
+      "reason": "3〜6歳に合うポーズやステップを50分で練習する、子ども向けダンス体験。 付き添いは1名まで。動きやすい服装・室内履きと申込条件がある。",
+      "axes": {
+        "child_target": {
+          "grade": "A",
+          "reason": "子ども・親子向けの対象が主催者案内にある。 3〜6歳に合うポーズやステップを50分で練習する、子ども向けダンス体験。"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "3〜6歳に合うポーズやステップを50分で練習する、子ども向けダンス体験。"
+        },
+        "age_fit": {
+          "grade": "A",
+          "reason": "3〜6歳に合うポーズやステップを50分で練習する、子ども向けダンス体験。 付き添いは1名まで。動きやすい服装・室内履きと申込条件がある。"
+        },
+        "stay_flexibility": {
+          "grade": "B",
+          "reason": "開始・終了時刻の決まった短時間の教室。途中退出の禁止までは明記されていないため、予約制だけでCにはしない。"
+        },
+        "burden": {
+          "grade": "B",
+          "reason": "室内履き等の持参品と当日キャンセル料を事前確認。"
+        },
+        "cost": {
+          "grade": "B",
+          "reason": "主催者予約ページの参加費は1,500円。"
+        },
+        "reservation": {
+          "grade": "C",
+          "reason": "事前申込・先着順、期限は11/21(土)。11/13閲覧時は受付中で空きあり、以後は変動。"
+        },
+        "family_value": {
+          "grade": "A",
+          "reason": "3〜6歳に合うポーズやステップを50分で練習する、子ども向けダンス体験。"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-14",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "child_program",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "3〜6歳に合うポーズやステップを50分で練習する、子ども向けダンス体験。"
+        ],
+        "limitations": [
+          "付き添いは1名まで。動きやすい服装・室内履きと申込条件がある。"
+        ],
+        "grade_comparison": "総合A：3〜6歳に合うポーズやステップを50分で練習する、子ども向けダンス体験。 付き添いは1名まで。動きやすい服装・室内履きと申込条件がある。",
+        "unsupported_axes": [],
+        "evidence": [
+          {
+            "url": "https://nakano-hiromatimirai.resv.jp/reserve/calendar.php?x=1634516751",
+            "quote": " | サイト越えトラッキングを防ぐ」を「OFF」にします。 | 4. 「すべてのCookieをブロック」を「OFF」にします。 | 受付中 | 残 | 8 | はじめてのキッズダンス 11月 | 2026/11/22 (日) 13:30-14:20 | 1,500円 | 税込み | [略称] キッズダンス | 「あいどるダンス」をもっと上手に踊りたい子集まれ! | カッコいいポーズやステップをマスターします。2カ月1回の定期レッスンで、みんなのダンスがどんどん進化していきますよ! | 講師:ニシゾノアスカ(ダンスインストラクター) | AKB48、NMB48振付アシスタント、きゃりーぱみゅぱみゅバックダンサー、CM撮影ポージング指導を手掛ける。 | 中野区、杉並区でキッズ専門ダンス教室主催。誰でも『踊れるように』をモットーに丁寧な指導を心がけています♪ | 参加費:1,500円 | 時間:13:30~14:20 | 対象:3~6歳(メッセージ欄にお子様のお名前・年齢をご記入ください(例:〇〇 5歳) | 持ち物:室内履き、飲み物、タオル、動きやすい服装 | 定員:20名(付き添いは1名まで) | 会場:体験学習室A ※受付は2階管理事務所窓口 | [担当] ニシゾノ アスカ(ダンスインストラクター) | 前の画面に戻る",
+            "checked_at": "2026-11-14T04:31:36.229858+00:00",
+            "sha256": "01696f498edfa79ca803c8f0662c021fb43173551109152a17dfb7d571ea6c0f",
+            "detail_keyid": "7409"
+          }
+        ]
+      }
+    },
+    "reservation": {
+      "required": true,
+      "note": "事前申込・先着順。申込期限は11/21(土)。11/13の主催者予約ページでは受付中（空きは変動）。公園公式カレンダーで該当日・講座を選んで最新状況を確認。"
+    },
+    "indoor_outdoor": "",
+    "ai": {
+      "checked_at": "2026-11-13",
+      "confidence": "high",
+      "discovery_query": "前回保留候補を公園公式予約カレンダーへ辿り、本文・年・日付・対象・料金・受付状況を再照合。既存216レコードに同日同会場同講座なし。"
+    },
+    "discovery_sources": [
+      {
+        "channel": "explicit",
+        "source_id": "tamemap_nakano",
+        "kind": "recovered_detail_review",
+        "url": "https://pc.tamemap.net/1311401/event/160190/2026-11-22"
+      }
+    ]
+  }
+]

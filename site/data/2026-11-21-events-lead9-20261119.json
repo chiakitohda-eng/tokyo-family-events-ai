@@ -1,0 +1,1115 @@
+[
+  {
+    "id": "verified-20261121-setagaya-matsuzawa-papamo",
+    "ward": "世田谷区",
+    "name": "松沢児童館「パパモ」じどうかんで、やきやき⁉",
+    "url": "https://www.city.setagaya.lg.jp/03068/25000.html",
+    "official_url": "https://www.city.setagaya.lg.jp/03068/25000.html",
+    "source": "https://www.city.setagaya.lg.jp/03068/25000.html",
+    "image": "",
+    "period": "11/21(土)",
+    "date_start": "2026-11-21",
+    "date_end": "2026-11-21",
+    "time": "10:30〜11:30",
+    "venue": "松沢児童館（3階テラス）",
+    "price": "無料",
+    "description": "乳幼児〜未就学児とパパ向けに、炭火でさつまいも等を焼くおでかけひろば。ママが一緒でも参加できる。",
+    "categories": [
+      "体験・ワークショップ",
+      "公園・自然"
+    ],
+    "indoor_outdoor": "屋内",
+    "reservation": {
+      "required": true,
+      "note": "児童館窓口または電話で申込。先着20組程度。10/3から受付。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "乳幼児〜未就学児とパパ向けに、炭火でさつまいも等を焼くおでかけひろば。無料。事前の申込が必要。",
+      "axes": {
+        "child_target": {
+          "grade": "A",
+          "reason": "乳幼児〜未就学児とパパ（ママ同伴も可）が対象"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "炭火で食材を焼く体験"
+        },
+        "age_fit": {
+          "grade": "A",
+          "reason": "乳幼児と未就学児の年齢別に案内"
+        },
+        "stay_flexibility": {
+          "grade": "B",
+          "reason": "10:30〜11:30"
+        },
+        "burden": {
+          "grade": "C",
+          "reason": "申込が必要で、先着20組程度"
+        },
+        "cost": {
+          "grade": "A",
+          "reason": "無料"
+        },
+        "reservation": {
+          "grade": "C",
+          "reason": "児童館窓口または電話で申込"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "親子で焼き芋を体験できる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-19",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "child_program",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "炭火で焼く体験",
+          "無料"
+        ],
+        "limitations": [
+          "申込が必要",
+          "先着20組程度"
+        ],
+        "grade_comparison": "総合B：11/21(土)の松沢児童館で10:30〜11:30の開催。無料。申込が必要で、定員がある。",
+        "unsupported_axes": [],
+        "evidence": [
+          {
+            "url": "https://www.city.setagaya.lg.jp/03068/25000.html",
+            "quote": "松沢児童館「パパモ」募集中募集終了事前申込必要表示しない児童館では、月齢や各年齢を対象としたおでかけひろばを毎週定期的に開催しています。松沢児童館の「パパモ」は、乳幼児～未就学児のお子さんとパパを対象としたおでかけひろばです。(パパメインのプログラムとなっていますが、ママが一緒でも大丈夫です。）",
+            "checked_at": "2026-11-19",
+            "sha256": "f87ec2160b65e319585e332a0b707e2e2014ebf841e4a5f73d20dfbd4bee953b",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "世田谷区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.setagaya.lg.jp/03068/25000.html",
+            "quote": "日程2026年10月3日（土曜日）2026年11月21日（土曜日）時間午前10時30分～11時30分",
+            "checked_at": "2026-11-19",
+            "sha256": "0088c27331ee570fae73efc106aff2d19679a1c1b4648784ea61a02605db294d",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "世田谷区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.setagaya.lg.jp/03068/25000.html",
+            "quote": "場所・会場1階遊戯室11月は3階テラス対象乳幼児～未就学児とパパ（ママが一緒も可）おすわりのできる赤ちゃんから1歳児と父親2歳児～未就学児と父親先着20組程度費用・料金無料申し込み方法児童館窓口または電話にて受付【11月】10月3日（土曜日）から",
+            "checked_at": "2026-11-19",
+            "sha256": "e3abf4d2c3f8c62552b17b840f1d394fa92b3e6b86c00baf3a45398c444e6352",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "世田谷区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-19",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  },
+  {
+    "id": "verified-20261121-setagaya-matsuzawa-shogi",
+    "ward": "世田谷区",
+    "name": "松沢児童館「将棋をやってみよう」",
+    "url": "https://www.city.setagaya.lg.jp/03068/26323.html",
+    "official_url": "https://www.city.setagaya.lg.jp/03068/26323.html",
+    "source": "https://www.city.setagaya.lg.jp/03068/26323.html",
+    "image": "",
+    "period": "11/21(土)",
+    "date_start": "2026-11-21",
+    "date_end": "2026-11-21",
+    "time": "13:00〜15:00",
+    "venue": "松沢児童館 3階図書室",
+    "price": "無料",
+    "description": "地域のアマチュア棋士が将棋を教えてくれる、どなたでも参加できる催し。当日受付。",
+    "categories": [
+      "体験・ワークショップ",
+      "学び"
+    ],
+    "indoor_outdoor": "屋内",
+    "reservation": {
+      "required": false,
+      "note": "当日受付。申込不要。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "地域のアマチュア棋士が将棋を教えてくれる、どなたでも参加できる催し。無料。申込不要で、当日参加できる。",
+      "axes": {
+        "child_target": {
+          "grade": "B",
+          "reason": "どなたでも参加できる児童館の催し"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "将棋を実際に指して学ぶ"
+        },
+        "age_fit": {
+          "grade": "unknown",
+          "reason": "対象年齢の目安は明記がない"
+        },
+        "stay_flexibility": {
+          "grade": "B",
+          "reason": "13:00〜15:00"
+        },
+        "burden": {
+          "grade": "A",
+          "reason": "当日受付で負担が小さい"
+        },
+        "cost": {
+          "grade": "A",
+          "reason": "無料"
+        },
+        "reservation": {
+          "grade": "A",
+          "reason": "事前申込不要"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "将棋を初めて体験できる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-19",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "child_program",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "初心者も参加できる",
+          "当日受付"
+        ],
+        "limitations": [
+          "対象年齢の目安は不明"
+        ],
+        "grade_comparison": "総合B：11/21(土)の松沢児童館 3階図書室で13:00〜15:00の開催。無料。申込不要で気軽に参加できる。",
+        "unsupported_axes": [
+          "age_fit"
+        ],
+        "evidence": [
+          {
+            "url": "https://www.city.setagaya.lg.jp/03068/26323.html",
+            "quote": "松沢児童館「将棋をやってみよう」募集中募集終了事前申込必要表示しない将棋ってたのしいよ～♪はじめてのこも！おしえてあげるよ～という子も、お友達同士で自由に指しても大丈夫！！地域のアマチュア棋士・武木田さんが教えてくれます。",
+            "checked_at": "2026-11-19",
+            "sha256": "3507235d3a962f3f19c1876cad70eb2858e8e1633a1381959046b5fc3f1e63b4",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "世田谷区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.setagaya.lg.jp/03068/26323.html",
+            "quote": "日程2026年11月21日（土曜日）時間午後1時～3時",
+            "checked_at": "2026-11-19",
+            "sha256": "552ae133a7966eb694bd440e533c691c4bf1f8bf5f8f1095cd903a8bb2715d41",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "世田谷区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.setagaya.lg.jp/03068/26323.html",
+            "quote": "場所・会場3階図書室対象どなたでも費用・料金なし申し込み方法当日受付",
+            "checked_at": "2026-11-19",
+            "sha256": "103e786fce1d4da9dd69b12599c726b67af0f9e34c0e45fb70901f6e09da297d",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "世田谷区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-19",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  },
+  {
+    "id": "verified-20261121-setagaya-kitami-tsuru-wreath",
+    "ward": "世田谷区",
+    "name": "喜多見児童館「つるのリースをつくろう」",
+    "url": "https://www.city.setagaya.lg.jp/03077/33785.html",
+    "official_url": "https://www.city.setagaya.lg.jp/03077/33785.html",
+    "source": "https://www.city.setagaya.lg.jp/03077/33785.html",
+    "image": "https://www.city.setagaya.lg.jp/images/33785/kitamijidoukan.jpeg",
+    "period": "11/21(土)",
+    "date_start": "2026-11-21",
+    "date_end": "2026-11-21",
+    "time": "13:30〜17:00（回ごとに開始）",
+    "venue": "喜多見児童館 工作室",
+    "price": "無料",
+    "description": "植物のつるを使って、世界にひとつのリースを作る工作。小学1年生以上が対象で、11/21は3つの時間帯がある。",
+    "categories": [
+      "体験・ワークショップ"
+    ],
+    "indoor_outdoor": "屋内",
+    "reservation": {
+      "required": true,
+      "note": "11/11午後3時から児童館窓口で受付。各回先着12名程度。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "植物のつるを使って、世界にひとつのリースを作る工作。無料。事前の申込が必要。",
+      "axes": {
+        "child_target": {
+          "grade": "A",
+          "reason": "小学1年生以上の子ども向けの工作"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "つるでリースを作る工作"
+        },
+        "age_fit": {
+          "grade": "A",
+          "reason": "小学1年生以上と明記"
+        },
+        "stay_flexibility": {
+          "grade": "B",
+          "reason": "13:30〜17:00（回ごとに開始）"
+        },
+        "burden": {
+          "grade": "C",
+          "reason": "申込が必要で、各回先着12名程度"
+        },
+        "cost": {
+          "grade": "A",
+          "reason": "無料"
+        },
+        "reservation": {
+          "grade": "C",
+          "reason": "児童館窓口で申込"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "季節のリースを作れる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-19",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "child_program",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "季節の工作",
+          "無料"
+        ],
+        "limitations": [
+          "申込が必要",
+          "各回先着12名程度"
+        ],
+        "grade_comparison": "総合B：11/21(土)の喜多見児童館 工作室で13:30〜17:00（回ごとに開始）の開催。無料。申込が必要で、定員がある。",
+        "unsupported_axes": [],
+        "evidence": [
+          {
+            "url": "https://www.city.setagaya.lg.jp/03077/33785.html",
+            "quote": "喜多見児童館つるのリースをつくろう募集中募集終了事前申込必要表示しない世界にひとつのリースをつくってみよう！植物のつるを使ったリースづくりです。",
+            "checked_at": "2026-11-19",
+            "sha256": "b3a4b047e53fb4a2269afeb20005b2850cd8a8e3e0d4473451675a7169cd0390",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "世田谷区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.setagaya.lg.jp/03077/33785.html",
+            "quote": "日程2026年11月21日（土曜日）2026年11月25日（水曜日）時間21日（土曜日）午後1時30分から午後5時25日（水曜日）午後2時30分から午後5時",
+            "checked_at": "2026-11-19",
+            "sha256": "85d4cf5b9cca47f3b9ba80ab9bd868716abc4dbe8fb3d6e8be927c9fd7c2088a",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "世田谷区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.setagaya.lg.jp/03077/33785.html",
+            "quote": "場所・会場喜多見児童館工作室対象小学校1年生以上費用・料金無料申し込み方法11月11日（水曜日）午後3時00分から児童館窓口にて受付開始。各回先着12名程度申込期間：2026年11月11日から2026年11月21日",
+            "checked_at": "2026-11-19",
+            "sha256": "b10f0a04c5cb48faecc3e4fd697de4d9d1cef43000687583b384fbd93f6d72a5",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "世田谷区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-19",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  },
+  {
+    "id": "verified-20261121-setagaya-kamiyoga-petapeta",
+    "ward": "世田谷区",
+    "name": "上用賀児童館 11月「親子で作ろう！ペタペタの樹」",
+    "url": "https://www.city.setagaya.lg.jp/03074/36302.html",
+    "official_url": "https://www.city.setagaya.lg.jp/03074/36302.html",
+    "source": "https://www.city.setagaya.lg.jp/03074/36302.html",
+    "image": "",
+    "period": "11/21(土)",
+    "date_start": "2026-11-21",
+    "date_end": "2026-11-21",
+    "time": "10:30〜11:30",
+    "venue": "上用賀児童館",
+    "price": "無料",
+    "description": "絵具をつけた手や足でペタペタ押して、大きなシンボルツリーをみんなで作る未就学児親子向けの工作。",
+    "categories": [
+      "体験・ワークショップ"
+    ],
+    "indoor_outdoor": "屋内",
+    "reservation": {
+      "required": false,
+      "note": "当日受付。申込不要。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "絵具をつけた手や足でペタペタ押して、大きなシンボルツリーをみんなで作る未就学児親子向けの工作。無料。申込不要で、当日参加できる。",
+      "axes": {
+        "child_target": {
+          "grade": "A",
+          "reason": "未就学のこどもとその保護者が対象"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "手形・足形で大きな木を作る"
+        },
+        "age_fit": {
+          "grade": "A",
+          "reason": "未就学児と明記"
+        },
+        "stay_flexibility": {
+          "grade": "B",
+          "reason": "10:30〜11:30"
+        },
+        "burden": {
+          "grade": "A",
+          "reason": "当日受付で負担が小さい"
+        },
+        "cost": {
+          "grade": "A",
+          "reason": "無料"
+        },
+        "reservation": {
+          "grade": "A",
+          "reason": "事前申込不要"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "親子で絵具遊びを楽しめる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-19",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "child_program",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "手形・足形の工作",
+          "当日受付"
+        ],
+        "limitations": [
+          "汚れてもよい服装が向く"
+        ],
+        "grade_comparison": "総合B：11/21(土)の上用賀児童館で10:30〜11:30の開催。無料。申込不要で気軽に参加できる。",
+        "unsupported_axes": [],
+        "evidence": [
+          {
+            "url": "https://www.city.setagaya.lg.jp/03074/36302.html",
+            "quote": "上用賀児童館11月の「親子度作ろう！ペタペタの樹」募集中募集終了事前申込必要表示しない絵具をつけた手や足でペタペタペタ。大きなシンボルツリーをみんなで作ってみましょう。【協力】NPO法人親子サポート一本の樹",
+            "checked_at": "2026-11-19",
+            "sha256": "a5f00a2a3b0bf69cb23b3a9c6f2f270aa6e4f6ada10c868e4c052c9a900e96d4",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "世田谷区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.setagaya.lg.jp/03074/36302.html",
+            "quote": "日程2026年11月7日（土曜日）2026年11月21日（土曜日）時間午前10時30分から11時30分",
+            "checked_at": "2026-11-19",
+            "sha256": "1ebfb144910858ed3c5c85074d9841259966edbdc90a049e6a3dd4120b899aa3",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "世田谷区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.setagaya.lg.jp/03074/36302.html",
+            "quote": "場所・会場上用賀児童館対象未就学のこどもとその保護者費用・料金無料申し込み方法当日受付",
+            "checked_at": "2026-11-19",
+            "sha256": "61ec8375f2e2a7a211841ae5be996c6d706b6e6390b6203feb12b6f35be62623",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "世田谷区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-19",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  },
+  {
+    "id": "verified-20261121-setagaya-shinmachi-bicycle",
+    "ward": "世田谷区",
+    "name": "新町児童館 のびのびひろば（子育て自転車安全講座）",
+    "url": "https://www.city.setagaya.lg.jp/03075/36349.html",
+    "official_url": "https://www.city.setagaya.lg.jp/03075/36349.html",
+    "source": "https://www.city.setagaya.lg.jp/03075/36349.html",
+    "image": "",
+    "period": "11/21(土)",
+    "date_start": "2026-11-21",
+    "date_end": "2026-11-21",
+    "time": "10:30〜12:00",
+    "venue": "新町児童館",
+    "price": "無料",
+    "description": "電動自転車の専門家への相談と試乗ができる、乳幼児親子向けの講座。先着6組。",
+    "categories": [
+      "体験・ワークショップ",
+      "学び"
+    ],
+    "indoor_outdoor": "屋内",
+    "reservation": {
+      "required": true,
+      "note": "11/7午前10時から児童館窓口、11/14から電話申込可。先着6組。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "電動自転車の専門家への相談と試乗ができる、乳幼児親子向けの講座。無料。事前の申込が必要。",
+      "axes": {
+        "child_target": {
+          "grade": "A",
+          "reason": "乳幼児親子が対象"
+        },
+        "interactivity": {
+          "grade": "B",
+          "reason": "電動自転車の試乗と相談ができる"
+        },
+        "age_fit": {
+          "grade": "B",
+          "reason": "乳幼児親子向け"
+        },
+        "stay_flexibility": {
+          "grade": "B",
+          "reason": "10:30〜12:00"
+        },
+        "burden": {
+          "grade": "C",
+          "reason": "申込が必要で、先着6組"
+        },
+        "cost": {
+          "grade": "A",
+          "reason": "無料"
+        },
+        "reservation": {
+          "grade": "C",
+          "reason": "児童館窓口または電話で申込"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "子育て世帯向けの自転車選びの参考になる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-19",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "child_program",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "専門家に相談できる",
+          "無料"
+        ],
+        "limitations": [
+          "先着6組",
+          "動きやすい服装が必要"
+        ],
+        "grade_comparison": "総合B：11/21(土)の新町児童館で10:30〜12:00の開催。無料。申込が必要で、定員がある。",
+        "unsupported_axes": [],
+        "evidence": [
+          {
+            "url": "https://www.city.setagaya.lg.jp/03075/36349.html",
+            "quote": "新町児童館のびのびひろば（子育て自転車安全講座）募集中募集終了事前申込必要表示しない電動自転車の遊び方や運転へのご不安はありませんか？自転車の専門家への相談や、電動自転車の試乗ができます。今後の自転車選びの参考にぜひご参加ください。",
+            "checked_at": "2026-11-19",
+            "sha256": "fe7d27c25101e070e1bbbb531692b74bb7d5cc29b6f3c0e4757429f70196cf37",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "世田谷区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.setagaya.lg.jp/03075/36349.html",
+            "quote": "日程2026年11月21日（土曜日）時間午前10時30分～正午",
+            "checked_at": "2026-11-19",
+            "sha256": "7abbca1a20a8ed8379d4f08acf24bca2d07f63bf99a529da72803eeb4cf683d9",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "世田谷区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.setagaya.lg.jp/03075/36349.html",
+            "quote": "場所・会場新町児童館対象乳幼児親子先着6組費用・料金無料申し込み方法11月7日(土曜日)午前10時から児童館窓口にて11月14日(土曜日)午前10時から電話申込可",
+            "checked_at": "2026-11-19",
+            "sha256": "5c2029a4eb054b2ec52aad6a1510489724dd8e5e88cb342abdd3072ba403b674",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "世田谷区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-19",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  },
+  {
+    "id": "verified-20261121-setagaya-kamikitazawa-densha",
+    "ward": "世田谷区",
+    "name": "上北沢児童館 11月「電車であそぼう」",
+    "url": "https://www.city.setagaya.lg.jp/03083/36681.html",
+    "official_url": "https://www.city.setagaya.lg.jp/03083/36681.html",
+    "source": "https://www.city.setagaya.lg.jp/03083/36681.html",
+    "image": "https://www.city.setagaya.lg.jp/images/36681/dennsya.jpg",
+    "period": "11/21(土)",
+    "date_start": "2026-11-21",
+    "date_end": "2026-11-21",
+    "time": "10:00〜11:45",
+    "venue": "上北沢児童館 プレイルーム",
+    "price": "無料",
+    "description": "電車のおもちゃと、幼児が乗れる車で遊べる乳幼児親子向けの催し。",
+    "categories": [
+      "体験・ワークショップ"
+    ],
+    "indoor_outdoor": "屋内",
+    "reservation": {
+      "required": false,
+      "note": "当日来館。申込不要。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "電車のおもちゃと、幼児が乗れる車で遊べる乳幼児親子向けの催し。無料。申込不要で、当日参加できる。",
+      "axes": {
+        "child_target": {
+          "grade": "A",
+          "reason": "乳幼児親子が対象"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "電車のおもちゃや乗れる車で遊べる"
+        },
+        "age_fit": {
+          "grade": "A",
+          "reason": "乳幼児向けと明記"
+        },
+        "stay_flexibility": {
+          "grade": "B",
+          "reason": "10:00〜11:45"
+        },
+        "burden": {
+          "grade": "A",
+          "reason": "当日来館でよい"
+        },
+        "cost": {
+          "grade": "A",
+          "reason": "無料"
+        },
+        "reservation": {
+          "grade": "A",
+          "reason": "事前申込不要"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "乗り物好きの乳幼児に向く"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-19",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "child_program",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "乗れる車で遊べる",
+          "当日参加"
+        ],
+        "limitations": [
+          "小学生はこの時間プレイルームで遊べない"
+        ],
+        "grade_comparison": "総合B：11/21(土)の上北沢児童館 プレイルームで10:00〜11:45の開催。無料。申込不要で気軽に参加できる。",
+        "unsupported_axes": [],
+        "evidence": [
+          {
+            "url": "https://www.city.setagaya.lg.jp/03083/36681.html",
+            "quote": "上北沢児童館11月「電車であそぼう」募集中募集終了事前申込必要表示しない",
+            "checked_at": "2026-11-19",
+            "sha256": "ae6114747ebfd97d74b1c8b14d8c9d8252712de64af1b7af27fcbf6ec6388cdb",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "世田谷区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.setagaya.lg.jp/03083/36681.html",
+            "quote": "日程2026年11月21日（土曜日）時間午前10時～11時45分",
+            "checked_at": "2026-11-19",
+            "sha256": "b2af17bcaaf358e920bbad6d43c7929a38293aaafe1180808b0bb1b386fa007b",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "世田谷区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.setagaya.lg.jp/03083/36681.html",
+            "quote": "場所・会場上北沢児童館プレイルーム対象乳幼児親子費用・料金無料申し込み方法当日来てください。",
+            "checked_at": "2026-11-19",
+            "sha256": "a4964af18b4e580089e2a82182522d22a7be64d6ce1b886c42c08dfeb7d6f272",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "世田谷区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-19",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  },
+  {
+    "id": "verified-20261121-setagaya-ikejiri-danball",
+    "ward": "世田谷区",
+    "name": "池尻児童館「みんなであそぼう」（ダンボールあそび）",
+    "url": "https://www.city.setagaya.lg.jp/03061/36827.html",
+    "official_url": "https://www.city.setagaya.lg.jp/03061/36827.html",
+    "source": "https://www.city.setagaya.lg.jp/03061/36827.html",
+    "image": "https://www.city.setagaya.lg.jp/images/36827/minnnadea2.png",
+    "period": "11/21(土)",
+    "date_start": "2026-11-21",
+    "date_end": "2026-11-21",
+    "time": "10:30〜11:30",
+    "venue": "池尻二丁目アパート広場（池尻児童館前）",
+    "price": "無料",
+    "description": "思いっきり外遊びを楽しめる、ダンボールあそびの催し。どなたでも参加できる。",
+    "categories": [
+      "体験・ワークショップ",
+      "公園・自然"
+    ],
+    "indoor_outdoor": "屋外",
+    "reservation": {
+      "required": false,
+      "note": "申込不要。直接会場へ。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "思いっきり外遊びを楽しめる、ダンボールあそびの催し。無料。申込不要で、当日参加できる。",
+      "axes": {
+        "child_target": {
+          "grade": "B",
+          "reason": "どなたでも参加できる児童館の外遊び"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "ダンボールで体を動かして遊ぶ"
+        },
+        "age_fit": {
+          "grade": "unknown",
+          "reason": "対象年齢の目安は明記がない"
+        },
+        "stay_flexibility": {
+          "grade": "B",
+          "reason": "10:30〜11:30"
+        },
+        "burden": {
+          "grade": "A",
+          "reason": "直接会場へ行ける"
+        },
+        "cost": {
+          "grade": "A",
+          "reason": "無料"
+        },
+        "reservation": {
+          "grade": "A",
+          "reason": "事前申込不要"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "親子で外遊びができる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-19",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "child_program",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "外遊び",
+          "当日参加"
+        ],
+        "limitations": [
+          "汚れてもよい服装が必要"
+        ],
+        "grade_comparison": "総合B：11/21(土)の池尻二丁目アパート広場で10:30〜11:30の開催。無料。申込不要で気軽に参加できる。",
+        "unsupported_axes": [
+          "age_fit"
+        ],
+        "evidence": [
+          {
+            "url": "https://www.city.setagaya.lg.jp/03061/36827.html",
+            "quote": "池尻児童館みんなであそぼう募集中募集終了事前申込必要表示しない思いっきり外遊びを楽しみましょう。ダンボールあそびをします。汚れても良い服装でお越しください。",
+            "checked_at": "2026-11-19",
+            "sha256": "d1032428ba94e476f5b1ce0bb9609127dd7df86bb5ea92326d0dd0ef7908fe4a",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "世田谷区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.setagaya.lg.jp/03061/36827.html",
+            "quote": "日程2026年11月21日（土曜日）時間午前10時30分から11時30分",
+            "checked_at": "2026-11-19",
+            "sha256": "9739223058e1181542dfa1c328f0b29c83f5a5e73a20c279a05b56e5a03c881c",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "世田谷区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.setagaya.lg.jp/03061/36827.html",
+            "quote": "場所・会場池尻二丁目アパート広場(児童館前の団地集会所前のひろば)対象どなたでもどうぞ費用・料金無料申し込み方法ありません。直接会場へお越しください。",
+            "checked_at": "2026-11-19",
+            "sha256": "533921fde6c5a8cea9e9dbbc581da51b759a41c1856c6d3f712c90ece6f5f5b3",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "世田谷区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-19",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  },
+  {
+    "id": "verified-20261122-setagaya-tsurumaki-mystery",
+    "ward": "世田谷区",
+    "name": "弦巻児童館 弦巻区民センターまつり「ミステリーハウス」",
+    "url": "https://www.city.setagaya.lg.jp/03063/32501.html",
+    "official_url": "https://www.city.setagaya.lg.jp/03063/32501.html",
+    "source": "https://www.city.setagaya.lg.jp/03063/32501.html",
+    "image": "",
+    "period": "11/22(日)",
+    "date_start": "2026-11-22",
+    "date_end": "2026-11-22",
+    "time": "10:00〜13:50（3回）",
+    "venue": "弦巻児童館",
+    "price": "無料",
+    "description": "ミステリーゲームやミステリーコースを楽しむ、小学生〜中高生世代向けの催し。当日は配布のチケットが必要。",
+    "categories": [
+      "体験・ワークショップ",
+      "イベント・まつり"
+    ],
+    "indoor_outdoor": "屋内",
+    "reservation": {
+      "required": true,
+      "note": "ミステリーチケットを11/20まで先着配布（なくなり次第終了）。各回40名、計120名。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "ミステリーゲームやミステリーコースを楽しむ、小学生〜中高生世代向けの催し。無料。事前の申込が必要。",
+      "axes": {
+        "child_target": {
+          "grade": "A",
+          "reason": "小学1年生から中高生世代が対象"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "ゲームとコースを体験する"
+        },
+        "age_fit": {
+          "grade": "A",
+          "reason": "小学1年生から中高生世代と明記"
+        },
+        "stay_flexibility": {
+          "grade": "B",
+          "reason": "10:00〜13:50（3回）"
+        },
+        "burden": {
+          "grade": "C",
+          "reason": "チケットが必要で、各回40名"
+        },
+        "cost": {
+          "grade": "A",
+          "reason": "無料"
+        },
+        "reservation": {
+          "grade": "C",
+          "reason": "11/20までに本人がチケットを受け取る"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "謎解き気分を味わえる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-19",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "child_program",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "謎解き体験",
+          "無料"
+        ],
+        "limitations": [
+          "チケット配布は11/20まで",
+          "幼児は21日に見学のみ"
+        ],
+        "grade_comparison": "総合B：11/22(日)の弦巻児童館で10:00〜13:50（3回）の開催。無料。申込が必要で、定員がある。",
+        "unsupported_axes": [],
+        "evidence": [
+          {
+            "url": "https://www.city.setagaya.lg.jp/03063/32501.html",
+            "quote": "弦巻児童館弦巻区民センターまつり「ミステリーハウス」募集中募集終了事前申込必要表示しないミステリーゲームやミステリーコースを楽しもう。ミステリーハウス当日は、「ミステリーチケット」が必要です。チケットの配布は11月6日(金曜日)午後4時から11月20日(金曜日)です。各回先着順、なくなり次第終了です。詳しくは特集号を見てね！※22日(日曜日)は休館日のためチケットを持っている人のみの利用となります",
+            "checked_at": "2026-11-19",
+            "sha256": "54c3c85f78bbbd9a147aa037710e766927ae24012e9298734fc71f9a88316f11",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "世田谷区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.setagaya.lg.jp/03063/32501.html",
+            "quote": "日程2026年11月22日（日曜日）休館日のため、ミステリーチケットを持っている方のみの利用となります。プレミステリーへようこそ！当日は、小学生・中高生世代が対象となるため幼児さんは21日（土曜日）午前10時30分から11時30分にミステリーコースを見学できます。申込は不要です。(保護者と一緒に午前11時20分までに来場ください。)時間午前10時から午後1時50分1回目午前10時～10時50分2回目午前11時10分～正午3回目午後1時～1時50分",
+            "checked_at": "2026-11-19",
+            "sha256": "c3cc89bd2d5f48ef0b0b269f90f6bb1c840b6bfa0c1f2260e45b26dac5f74129",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "世田谷区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.setagaya.lg.jp/03063/32501.html",
+            "quote": "場所・会場弦巻児童館対象小学1年生から中高生世代。120名(各回40名)費用・料金無料申し込み方法参加する本人がミステリーチケットをとりにきてください。（先着順です。）申込期間：2026年11月06日から2026年11月20日",
+            "checked_at": "2026-11-19",
+            "sha256": "12b6897427c64f8cb35ad477b0de9ea489474ce5229521b14d1e0958f10b2b02",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "世田谷区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-19",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  },
+  {
+    "id": "verified-20261122-setagaya-kasuya-daycamp",
+    "ward": "世田谷区",
+    "name": "粕谷児童館 11月低学年デイキャンプ「キャンプファイヤーをやっちゃおう！」",
+    "url": "https://www.city.setagaya.lg.jp/03085/36417.html",
+    "official_url": "https://www.city.setagaya.lg.jp/03085/36417.html",
+    "source": "https://www.city.setagaya.lg.jp/03085/36417.html",
+    "image": "",
+    "period": "11/22(日)",
+    "date_start": "2026-11-22",
+    "date_end": "2026-11-22",
+    "time": "16:00〜19:00",
+    "venue": "粕谷児童館・児童館前広場・都立蘆花恒春園",
+    "price": "無料",
+    "description": "蘆花公園で謎解きをして、カレーを食べ、児童館でキャンプファイヤーをする小学1〜3年生向けのデイキャンプ。",
+    "categories": [
+      "体験・ワークショップ",
+      "公園・自然"
+    ],
+    "indoor_outdoor": "屋外",
+    "reservation": {
+      "required": true,
+      "note": "11/7午後4時から受付。先着30名（開始時に超過なら抽選）。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "蘆花公園で謎解きをして、カレーを食べ、児童館でキャンプファイヤーをする小学1〜3年生向けのデイキャンプ。無料。事前の申込が必要。",
+      "axes": {
+        "child_target": {
+          "grade": "A",
+          "reason": "小学1年生から3年生が対象"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "謎解き・カレー・キャンプファイヤー"
+        },
+        "age_fit": {
+          "grade": "A",
+          "reason": "小学1〜3年生と明記"
+        },
+        "stay_flexibility": {
+          "grade": "B",
+          "reason": "16:00〜19:00"
+        },
+        "burden": {
+          "grade": "C",
+          "reason": "申込が必要で、先着30名。終了時のお迎えが必要"
+        },
+        "cost": {
+          "grade": "A",
+          "reason": "無料"
+        },
+        "reservation": {
+          "grade": "C",
+          "reason": "申込用紙で申込"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "キャンプ気分を楽しめる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-19",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "child_program",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "キャンプファイヤー",
+          "無料"
+        ],
+        "limitations": [
+          "先着30名",
+          "終了時にお迎えが必要"
+        ],
+        "grade_comparison": "総合B：11/22(日)の粕谷児童館・児童館前広場・都立蘆花恒春園で16:00〜19:00の開催。無料。申込が必要で、定員がある。",
+        "unsupported_axes": [],
+        "evidence": [
+          {
+            "url": "https://www.city.setagaya.lg.jp/03085/36417.html",
+            "quote": "粕谷児童館11月低学年デイキャンプ「キャンプファイヤーをやっちゃおう！」募集中募集終了事前申込必要表示しないキャンプファイヤー（本物）を児童館でやるよ！蘆花公園で謎解きをして、カレーを食べて、キャンプファイヤーをして…楽しいキャンプ気分をみんなで味わおう！！！詳しくは、10月24日（土曜日）から配る申込書を確認してね！デイキャンプ終了時に、お迎えが必要です。※休館日のため参加者以外は児童館で遊ぶこ",
+            "checked_at": "2026-11-19",
+            "sha256": "bb1130b4bb52c7c02a4673f1a26b6a6e3b3abe696a0b0b5a9daff69440c3b5dc",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "世田谷区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.setagaya.lg.jp/03085/36417.html",
+            "quote": "日程2026年11月22日（日曜日）時間午後4時から7時",
+            "checked_at": "2026-11-19",
+            "sha256": "912b5b6b595e3dc8d692354af18de1131cbe352c1eda77b41b3f0b4f17aa331f",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "世田谷区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.setagaya.lg.jp/03085/36417.html",
+            "quote": "場所・会場粕谷児童館、児童館前広場、都立蘆花恒春園対象小学1年生から3年生まで先着30名費用・料金無料申し込み方法7日（土曜日）午後4時～※申込み受付開始時点で定員を超えていた場合は、その場で抽選となります。",
+            "checked_at": "2026-11-19",
+            "sha256": "fbfbb738180c2d6ef9e781a0cedf7017d25d3d8c147ed6b29e658f28d73cdbc0",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "世田谷区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-19",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  }
+]

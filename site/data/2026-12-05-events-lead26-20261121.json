@@ -1,0 +1,281 @@
+[
+  {
+    "id": "verified-20261205-tama-ichinomiya-asobitai",
+    "ward": "多摩市",
+    "name": "あそび隊がやってくる！クリスマス（一ノ宮児童館）",
+    "url": "https://www.city.tama.lg.jp/kosodate/1008019/1008033/1011281/1009115/1020209.html",
+    "official_url": "https://www.city.tama.lg.jp/kosodate/1008019/1008033/1011281/1009115/1020209.html",
+    "source": "https://www.city.tama.lg.jp/kosodate/1008019/1008033/1011281/1009115/1020209.html",
+    "image": "",
+    "period": "12/5(土)",
+    "date_start": "2026-12-05",
+    "date_end": "2026-12-05",
+    "time": "14:00〜15:30",
+    "venue": "一ノ宮児童館（多摩市一ノ宮1-18-7）",
+    "price": "費用不要（無料）",
+    "description": "明星大学初等教育研究会「どろんこの会」のお兄さんお姉さんと、クリスマスをテーマにした6つのブースで遊ぶ。対象はどなたでも（幼児も参加可だが小学生向けの遊び）。申込不要・費用不要。",
+    "categories": [
+      "体験・ワークショップ",
+      "まつり・イベント"
+    ],
+    "indoor_outdoor": "屋内",
+    "reservation": {
+      "required": false,
+      "note": "申込不要。"
+    },
+    "family_fit": {
+      "grade": "A",
+      "overall": "A",
+      "rubric_version": "family-fit-v2",
+      "reason": "小学生向けの遊びを大学生と楽しむ、無料・申込不要の児童館イベント。幼児も参加できる。",
+      "axes": {
+        "child_target": {
+          "grade": "A",
+          "reason": "児童館の企画で、対象は小学生の遊び（幼児も参加可）"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "6つのブースで遊ぶ参加型の企画"
+        },
+        "age_fit": {
+          "grade": "B",
+          "reason": "小学生向けの遊びで、幼児も参加できるが年齢別の案内はない"
+        },
+        "stay_flexibility": {
+          "grade": "A",
+          "reason": "14:00〜15:30の間に自由に遊べる形式"
+        },
+        "burden": {
+          "grade": "A",
+          "reason": "申込不要で、そのまま行ける"
+        },
+        "cost": {
+          "grade": "A",
+          "reason": "費用は不要"
+        },
+        "reservation": {
+          "grade": "A",
+          "reason": "申込不要"
+        },
+        "family_value": {
+          "grade": "A",
+          "reason": "クリスマスのあそびを無料で楽しめる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-21",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "child_program",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "無料・申込不要で、小学生向けの遊びを楽しめる",
+          "幼児も参加できる"
+        ],
+        "limitations": [
+          "遊びの内容は小学生向けで、幼児には難しい場合がある",
+          "ブースの詳細は「企画中」と記載"
+        ],
+        "grade_comparison": "総合A：無料・申込不要で、対象が子ども。ブースの内容は企画中。",
+        "unsupported_axes": [],
+        "evidence": [
+          {
+            "url": "https://www.city.tama.lg.jp/kosodate/1008019/1008033/1011281/1009115/1020209.html",
+            "quote": "2026年12月5日（土曜日） 開催時間 午後2時 から 午後3時30分 まで",
+            "checked_at": "2026-11-21",
+            "sha256": "2b5ee5463ca965baac130fff23ca91ed20895abd2095128e226be37fec674f34",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.tama.lg.jp/kosodate/1008019/1008033/1011281/1009115/1020209.html",
+            "quote": "開催場所 一ノ宮児童館 対象 どなたでも 幼児も参加できますが、対象は小学生の遊びです。",
+            "checked_at": "2026-11-21",
+            "sha256": "9d854e361ca1129581beccac2738d517035fc1dd0a2d58917a730521a36e9af7",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.tama.lg.jp/kosodate/1008019/1008033/1011281/1009115/1020209.html",
+            "quote": "「どろんこ」のお兄さんお姉さんと一緒に楽しく遊ぼう！今回のテーマは「クリスマス」です。",
+            "checked_at": "2026-11-21",
+            "sha256": "c1fd4678d3619513075ff95db575c7f7e0756381a7a63c56e3261fa2429862c8",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.tama.lg.jp/kosodate/1008019/1008033/1011281/1009115/1020209.html",
+            "quote": "申込み 不要 費用 不要 イベント情報をiPhone・iPad端末のカレンダーに取り込めます。",
+            "checked_at": "2026-11-21",
+            "sha256": "12089547298a6f4cb71ad8a2f8ae6d3aacf2801f86a0a8a73afe28a6ce23cc01",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-21",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  },
+  {
+    "id": "verified-20261205-musashino-family-xmas-concert",
+    "ward": "武蔵野市",
+    "name": "ファミリー・クリスマスコンサート（武蔵野市民文化会館 小ホール）",
+    "url": "https://www.musashino.or.jp/bunka/1002092/1009902.html",
+    "official_url": "https://www.musashino.or.jp/bunka/1002092/1009902.html",
+    "source": "https://www.musashino.or.jp/bunka/1002092/1009902.html",
+    "image": "https://www.musashino.or.jp/_res/common/event/2026/2026.8-11/family_christmas_omote.png",
+    "period": "12/5(土)",
+    "date_start": "2026-12-05",
+    "date_end": "2026-12-05",
+    "time": "14:00開演（13:30開場）",
+    "venue": "武蔵野市民文化会館 小ホール",
+    "price": "全席指定・一般2,500円／友の会2,250円／U25 1,500円／小学生1,000円",
+    "description": "オルガンとアルトの歌声で楽しむクリスマスコンサート。対象は小学生から大人まで。バッハ、ブラームス、アンダーソンなどのクリスマス曲を演奏する。",
+    "categories": [
+      "舞台・音楽",
+      "まつり・イベント"
+    ],
+    "indoor_outdoor": "屋内",
+    "reservation": {
+      "required": true,
+      "note": "10/3(土)10:00からチケット発売、全席指定。売り切れ状況は公式ページに記載なし。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "小学生から参加でき、小学生料金（1,000円）があるクリスマスコンサート。鑑賞中心の有料・全席指定で、未就学児の対象かどうかは公式ページに記載がない。",
+      "axes": {
+        "child_target": {
+          "grade": "B",
+          "reason": "「ファミリー」と題し、対象は小学生から大人（子ども専用ではない）"
+        },
+        "interactivity": {
+          "grade": "C",
+          "reason": "コンサート鑑賞が中心"
+        },
+        "age_fit": {
+          "grade": "B",
+          "reason": "小学生以上が対象で、未就学児の可否は記載なし"
+        },
+        "stay_flexibility": {
+          "grade": "C",
+          "reason": "全席指定で、開演から終演まで座って鑑賞する"
+        },
+        "burden": {
+          "grade": "B",
+          "reason": "有料のチケット購入が必要"
+        },
+        "cost": {
+          "grade": "B",
+          "reason": "一般2,500円、小学生1,000円"
+        },
+        "reservation": {
+          "grade": "B",
+          "reason": "チケット購入が必要（10/3発売）"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "クリスマスの音楽を親子で楽しめる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-21",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "age_eligible",
+        "child_activity_confirmed": false,
+        "strengths": [
+          "小学生料金（1,000円）があり、クリスマス曲を家族で楽しめる"
+        ],
+        "limitations": [
+          "有料・全席指定で、鑑賞が中心",
+          "未就学児の入場可否は公式ページに記載がない"
+        ],
+        "grade_comparison": "総合B：小学生から楽しめるが、鑑賞が中心の有料公演で、小さな子連れには向きにくい。",
+        "unsupported_axes": [],
+        "evidence": [
+          {
+            "url": "https://www.musashino.or.jp/bunka/1002092/1009902.html",
+            "quote": "開催日 2026年12月5日（土曜日） 開催時間 午後2時開演（午後1時30分開場）",
+            "checked_at": "2026-11-21",
+            "sha256": "dddec779581e2ca2f61077f6a9a4c481bf2ceba99b985745ac3fa7b635a6419e",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.musashino.or.jp/bunka/1002092/1009902.html",
+            "quote": "開催場所 武蔵野市民文化会館 小ホール",
+            "checked_at": "2026-11-21",
+            "sha256": "5d1b1accc16d2f2494997bca9d66a7abfeb89e9ed1e746ec2bcf7eb3b882e8d5",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.musashino.or.jp/bunka/1002092/1009902.html",
+            "quote": "対象 小学生、中学生・高校生・大学生、大人",
+            "checked_at": "2026-11-21",
+            "sha256": "3595c126e633b111d504e588554b4b496d1559ff1123ab2ac87a40198e6de1f2",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.musashino.or.jp/bunka/1002092/1009902.html",
+            "quote": "一般 2,500円 友の会 2,250円 U25（25歳以下） 1,500円 小学生 1,000円",
+            "checked_at": "2026-11-21",
+            "sha256": "f3db7439b348e161240d0dc333ec752e9dc3efa4d56d2d6ab89751daa473df2d",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.musashino.or.jp/bunka/1002092/1009902.html",
+            "quote": "一足早いクリスマスのひと時を、素敵な歌声とオルガンと共に楽しみましょう！",
+            "checked_at": "2026-11-21",
+            "sha256": "5969d3c7233ecab89c49830f555e424509eb3ef3de86c8e8bf4c1e2162faf103",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.musashino.or.jp/bunka/1002092/1009902.html",
+            "quote": "主催 (一社)オルガン芸術振興会 共催 (公財)武蔵野文化生涯学習事業団",
+            "checked_at": "2026-11-21",
+            "sha256": "f8fe1da69ac985c2462d539de4493839e485ffad205ecdfe0e1c947994518d14",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-21",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  }
+]

@@ -1,0 +1,419 @@
+[
+  {
+    "id": "verified-20261212-adachi-galaxcity-caravan-dec12",
+    "ward": "足立区",
+    "name": "読み語りキャラバンinギャラクシティ ～クリスマスバージョン～",
+    "url": "https://www.galaxcity.jp/future-creation-hall/event/20261212-009094.html",
+    "official_url": "https://www.galaxcity.jp/future-creation-hall/event/20261212-009094.html",
+    "source": "https://www.galaxcity.jp/future-creation-hall/event/20261212-009094.html",
+    "image": "https://www.galaxcity.jp/future-creation-hall/assets_c/2026/08/xmas-thumb-600x454-17768.png",
+    "period": "12/12(土)",
+    "date_start": "2026-12-12",
+    "date_end": "2026-12-12",
+    "time": "11:00〜11:40（開場10:45）",
+    "venue": "ギャラクシティ ホワイトあとりえ",
+    "price": "無料",
+    "description": "大型絵本やパネルシアターを使った読み語りや歌でクリスマス気分を楽しむ、赤ちゃんから大人までのおはなし会。",
+    "categories": [
+      "おはなし会",
+      "クリスマス"
+    ],
+    "indoor_outdoor": "屋内",
+    "reservation": {
+      "required": false,
+      "note": "当日直接会場へ。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "大型絵本やパネルシアターを使った読み語りや歌でクリスマス気分を楽しむ、赤ちゃんから大人までのおはなし会。無料。申込不要で当日参加できる。",
+      "axes": {
+        "child_target": {
+          "grade": "B",
+          "reason": "対象にどなたでも参加でき、未就学児は保護者同伴と明記"
+        },
+        "interactivity": {
+          "grade": "B",
+          "reason": "聞いて歌って楽しむ"
+        },
+        "age_fit": {
+          "grade": "B",
+          "reason": "年齢制限がなくどなたでも参加できる"
+        },
+        "stay_flexibility": {
+          "grade": "A",
+          "reason": "40分"
+        },
+        "burden": {
+          "grade": "A",
+          "reason": "当日直接会場へ"
+        },
+        "cost": {
+          "grade": "A",
+          "reason": "無料"
+        },
+        "reservation": {
+          "grade": "A",
+          "reason": "当日参加（申込不要）"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "大型絵本やパネルシアターを楽しめる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-20",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "all_ages",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "大型絵本とパネルシアター",
+          "赤ちゃんから参加できる"
+        ],
+        "limitations": [
+          "定員50名"
+        ],
+        "grade_comparison": "総合B：12/12(土)のギャラクシティ ホワイトあとりえで11:00〜11:40（開場10:45）の開催（読み語りキャラバンinギャラクシティ ～クリスマスバージョン～）。無料。申込不要で当日参加できる。",
+        "unsupported_axes": [],
+        "evidence": [
+          {
+            "url": "https://www.galaxcity.jp/future-creation-hall/event/20261212-009094.html",
+            "quote": "大型絵本やパネルシアターを使った読み語りや歌など、クリスマス気分満載！",
+            "checked_at": "2026-11-20",
+            "sha256": "7f3b046d77e50c19bc06254379e974221b67045151ad83a732f7a56bfe66088d",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "ギャラクシティイベントページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.galaxcity.jp/future-creation-hall/event/20261212-009094.html",
+            "quote": "日時2026年12月12日（土）11：00～11：40（開場10：45）",
+            "checked_at": "2026-11-20",
+            "sha256": "2b8bd03d09e3508ed546f102a5cc087268839aa1555190fc2250f417eefadd8c",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "ギャラクシティイベントページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.galaxcity.jp/future-creation-hall/event/20261212-009094.html",
+            "quote": "場所ホワイトあとりえ対象どなたでも（未就学児は保護者同伴）",
+            "checked_at": "2026-11-20",
+            "sha256": "87693924c2e6dbfc03d3b9d35e69075b99ecf03c37aab128c35e972abab679d6",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "ギャラクシティイベントページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.galaxcity.jp/future-creation-hall/event/20261212-009094.html",
+            "quote": "対象どなたでも（未就学児は保護者同伴）",
+            "checked_at": "2026-11-20",
+            "sha256": "51172dcb77863fd9240eaab88add59f7e932f831c717d86d4a1375caaff13d54",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "ギャラクシティイベントページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.galaxcity.jp/future-creation-hall/event/20261212-009094.html",
+            "quote": "料金無料申込当日直接会場へ講師",
+            "checked_at": "2026-11-20",
+            "sha256": "605b5b14b7e9a0861b58640fecbcef2bbd48c01b196acede0db9da79c8850fef",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "ギャラクシティイベントページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-20",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  },
+  {
+    "id": "verified-20261212-adachi-galaxcity-kamishibai-dec12",
+    "ward": "足立区",
+    "name": "紙芝居！おはなしたまてばこ",
+    "url": "https://www.galaxcity.jp/future-creation-hall/event/20261212-009251.html",
+    "official_url": "https://www.galaxcity.jp/future-creation-hall/event/20261212-009251.html",
+    "source": "https://www.galaxcity.jp/future-creation-hall/event/20261212-009251.html",
+    "image": "",
+    "period": "12/12(土)",
+    "date_start": "2026-12-12",
+    "date_end": "2026-12-12",
+    "time": "14:00〜14:30",
+    "venue": "ギャラクシティ 地下2階 レクリエーションホール2",
+    "price": "無料",
+    "description": "紙芝居サークル「おはなしたまてばこ」による紙芝居の読み語り。",
+    "categories": [
+      "おはなし会",
+      "紙芝居"
+    ],
+    "indoor_outdoor": "屋内",
+    "reservation": {
+      "required": false,
+      "note": "当日直接会場へ。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "紙芝居サークル「おはなしたまてばこ」による紙芝居の読み語り。無料。申込不要で当日参加できる。",
+      "axes": {
+        "child_target": {
+          "grade": "B",
+          "reason": "対象にどなたでも参加でき、未就学児は保護者同伴と明記"
+        },
+        "interactivity": {
+          "grade": "B",
+          "reason": "聞いて見て楽しむ"
+        },
+        "age_fit": {
+          "grade": "B",
+          "reason": "年齢制限がなくどなたでも参加できる"
+        },
+        "stay_flexibility": {
+          "grade": "A",
+          "reason": "30分"
+        },
+        "burden": {
+          "grade": "A",
+          "reason": "当日直接会場へ"
+        },
+        "cost": {
+          "grade": "A",
+          "reason": "無料"
+        },
+        "reservation": {
+          "grade": "A",
+          "reason": "当日参加（申込不要）"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "紙芝居を楽しめる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-20",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "all_ages",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "紙芝居",
+          "無料"
+        ],
+        "limitations": [
+          "定員30名"
+        ],
+        "grade_comparison": "総合B：12/12(土)のギャラクシティ 地下2階 レクリエーションホール2で14:00〜14:30の開催（紙芝居！おはなしたまてばこ）。無料。申込不要で当日参加できる。",
+        "unsupported_axes": [],
+        "evidence": [
+          {
+            "url": "https://www.galaxcity.jp/future-creation-hall/event/20261212-009251.html",
+            "quote": "紙芝居サークル「おはなしたまてばこ」による楽しい紙芝居の読み語りを行います！どなたでもお気軽にご参加ください。",
+            "checked_at": "2026-11-20",
+            "sha256": "634d84135341dcc22525c497befbd19a271481bbad0c1d8c705ce9b9b253b812",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "ギャラクシティイベントページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.galaxcity.jp/future-creation-hall/event/20261212-009251.html",
+            "quote": "日時2026年12月12日（土）14：00～14：30",
+            "checked_at": "2026-11-20",
+            "sha256": "47957da86eacb0d3bc85b0a6f0deba1c82f51026809cab9a02c046ab91f24a64",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "ギャラクシティイベントページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.galaxcity.jp/future-creation-hall/event/20261212-009251.html",
+            "quote": "場所地下2階 レクリエーションホール2",
+            "checked_at": "2026-11-20",
+            "sha256": "b1e1b9de264e5a4b05b6ecd92fd6001b2402570f67bc638d7fee9201cce46646",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "ギャラクシティイベントページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.galaxcity.jp/future-creation-hall/event/20261212-009251.html",
+            "quote": "対象どなたでも（未就学児は保護者同伴）",
+            "checked_at": "2026-11-20",
+            "sha256": "51172dcb77863fd9240eaab88add59f7e932f831c717d86d4a1375caaff13d54",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "ギャラクシティイベントページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.galaxcity.jp/future-creation-hall/event/20261212-009251.html",
+            "quote": "料金無料申込当日直接会場へ講師",
+            "checked_at": "2026-11-20",
+            "sha256": "605b5b14b7e9a0861b58640fecbcef2bbd48c01b196acede0db9da79c8850fef",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "ギャラクシティイベントページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-20",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  },
+  {
+    "id": "verified-20261212-adachi-galaxcity-yomikatari-dec12",
+    "ward": "足立区",
+    "name": "読み語り＆パネルシアター",
+    "url": "https://www.galaxcity.jp/future-creation-hall/event/20261226-009348.html",
+    "official_url": "https://www.galaxcity.jp/future-creation-hall/event/20261226-009348.html",
+    "source": "https://www.galaxcity.jp/future-creation-hall/event/20261226-009348.html",
+    "image": "",
+    "period": "12/12(土)",
+    "date_start": "2026-12-12",
+    "date_end": "2026-12-12",
+    "time": "10:30〜11:00",
+    "venue": "ギャラクシティ わーくしょっぷスタジオ",
+    "price": "無料",
+    "description": "読み語りボランティアによる絵本の読み語りと手あそび。未就学のお子さまと保護者向け。",
+    "categories": [
+      "おはなし会",
+      "親子"
+    ],
+    "indoor_outdoor": "屋内",
+    "reservation": {
+      "required": false,
+      "note": "当日直接会場へ。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "読み語りボランティアによる絵本の読み語りと手あそび。未就学のお子さまと保護者向け。無料。申込不要で当日参加できる。",
+      "axes": {
+        "child_target": {
+          "grade": "A",
+          "reason": "対象は「未就学のお子さまとその保護者」"
+        },
+        "interactivity": {
+          "grade": "B",
+          "reason": "聞く・手あそびをする"
+        },
+        "age_fit": {
+          "grade": "A",
+          "reason": "未就学のお子さまとその保護者と明記"
+        },
+        "stay_flexibility": {
+          "grade": "A",
+          "reason": "30分"
+        },
+        "burden": {
+          "grade": "A",
+          "reason": "当日直接会場へ"
+        },
+        "cost": {
+          "grade": "A",
+          "reason": "無料"
+        },
+        "reservation": {
+          "grade": "A",
+          "reason": "当日参加（申込不要）"
+        },
+        "family_value": {
+          "grade": "A",
+          "reason": "絵本の読み語りと手あそびを楽しめる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-20",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "child_program",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "手あそびつき",
+          "無料"
+        ],
+        "limitations": [
+          "各20組"
+        ],
+        "grade_comparison": "総合B：12/12(土)のギャラクシティ わーくしょっぷスタジオで10:30〜11:00の開催（読み語り＆パネルシアター）。無料。申込不要で当日参加できる。",
+        "unsupported_axes": [],
+        "evidence": [
+          {
+            "url": "https://www.galaxcity.jp/future-creation-hall/event/20261226-009348.html",
+            "quote": "読み語りボランティアのみなさんによる絵本の読み語りと楽しい手あそびです！",
+            "checked_at": "2026-11-20",
+            "sha256": "82911c561964962d8ff16112ee0dc2fe1148ba30d02f5e833ba333f22739b3b7",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "ギャラクシティイベントページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.galaxcity.jp/future-creation-hall/event/20261226-009348.html",
+            "quote": "日時2026年12月12日・26日（すべて土曜日）10：30～11：00",
+            "checked_at": "2026-11-20",
+            "sha256": "94b3052d41f384a3eabfb9a87ba894e4e8d899f58fb654f50c4eef5df09415c1",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "ギャラクシティイベントページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.galaxcity.jp/future-creation-hall/event/20261226-009348.html",
+            "quote": "場所わーくしょっぷスタジオ対象未就学のお子さまとその保護者",
+            "checked_at": "2026-11-20",
+            "sha256": "cae98433e1684078ea4cd5d5231e4f63ad7b827b3ca059b11198f061f054fc17",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "ギャラクシティイベントページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.galaxcity.jp/future-creation-hall/event/20261226-009348.html",
+            "quote": "対象未就学のお子さまとその保護者",
+            "checked_at": "2026-11-20",
+            "sha256": "4e1dead388c2942361845c74cd3cc8c799fa3d0ed7a1f7cdd1f3a5067a35ba41",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "ギャラクシティイベントページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.galaxcity.jp/future-creation-hall/event/20261226-009348.html",
+            "quote": "料金無料申込当日直接会場へ講師",
+            "checked_at": "2026-11-20",
+            "sha256": "605b5b14b7e9a0861b58640fecbcef2bbd48c01b196acede0db9da79c8850fef",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "ギャラクシティイベントページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-20",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  }
+]

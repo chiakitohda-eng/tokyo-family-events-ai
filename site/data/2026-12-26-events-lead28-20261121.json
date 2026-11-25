@@ -1,0 +1,266 @@
+[
+  {
+    "id": "verified-20261226-akishima-shiki-family-musical-hajimari-no-ki",
+    "ward": "昭島市",
+    "name": "劇団四季ファミリーミュージカル『はじまりの樹の神話』（FOSTERホール）",
+    "url": "https://www.city.akishima.lg.jp/bunka/shogaigakushu/1007496/1002968/1002972/1012429.html",
+    "official_url": "https://www.city.akishima.lg.jp/bunka/shogaigakushu/1007496/1002968/1002972/1012429.html",
+    "source": "https://www.city.akishima.lg.jp/bunka/shogaigakushu/1007496/1002968/1002972/1012429.html",
+    "image": "",
+    "period": "12/26(土)",
+    "date_start": "2026-12-26",
+    "date_end": "2026-12-26",
+    "time": "16:00〜18:00（15:15開場）",
+    "venue": "FOSTERホール（昭島市民会館）",
+    "price": "大人7,000円、小学生以下4,500円（税込）。3歳未満は保護者1名につき1名まで膝上鑑賞が無料",
+    "description": "岡田淳の「こそあどの森の物語」シリーズ第6巻を題材にしたファミリーミュージカル。上演時間は休憩を含めて約2時間。全席指定（1,139席）。チケットは窓口、電話予約、SHIKI ON-LINE TICKET、チケットぴあで販売。",
+    "categories": [
+      "舞台・音楽",
+      "まつり・イベント"
+    ],
+    "indoor_outdoor": "屋内",
+    "reservation": {
+      "required": true,
+      "note": "申込必要。チケットを購入（窓口は9/26 9:00から、電話予約は9/26 14:00から、ほかにSHIKI ON-LINE TICKETとチケットぴあ）。売り切れ状況は公式ページに記載なし。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "児童文学「こそあどの森の物語」を題材にした、小学生以下の料金（4,500円）がある家族向けのミュージカル。全席指定・有料で、鑑賞が中心。3歳未満は膝上で見られる。",
+      "axes": {
+        "child_target": {
+          "grade": "B",
+          "reason": "「ファミリーミュージカル」と題するが、対象はどなたでも（子ども専用ではない）"
+        },
+        "interactivity": {
+          "grade": "C",
+          "reason": "ミュージカルの鑑賞が中心"
+        },
+        "age_fit": {
+          "grade": "B",
+          "reason": "対象はどなたでも。3歳未満は膝上鑑賞が可能"
+        },
+        "stay_flexibility": {
+          "grade": "C",
+          "reason": "約2時間の全席指定の観劇"
+        },
+        "burden": {
+          "grade": "B",
+          "reason": "有料のチケット購入が必要"
+        },
+        "cost": {
+          "grade": "C",
+          "reason": "大人7,000円、小学生以下4,500円と高額"
+        },
+        "reservation": {
+          "grade": "B",
+          "reason": "チケット購入が必要（全席指定）"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "人気の児童文学を家族で観劇できる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-21",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "all_ages",
+        "child_activity_confirmed": false,
+        "strengths": [
+          "小学生以下の料金があり、家族向けの演目",
+          "3歳未満は膝上で鑑賞できる"
+        ],
+        "limitations": [
+          "料金が大人7,000円、小学生以下4,500円と高い",
+          "約2時間の全席指定の観劇で、小さな子には長い"
+        ],
+        "grade_comparison": "総合B：家族向けの人気ミュージカルだが、高額で約2時間の鑑賞中心の公演。",
+        "unsupported_axes": [],
+        "evidence": [
+          {
+            "url": "https://www.city.akishima.lg.jp/bunka/shogaigakushu/1007496/1002968/1002972/1012429.html",
+            "quote": "開催日 2026年12月26日（土曜日） 開催時間 午後4時 から 午後6時 まで 開場は午後3時15分からとなります。上演時間は休憩含め、約2時間となります。",
+            "checked_at": "2026-11-21",
+            "sha256": "2b14f7bae008bdb940660b04e25556fe56fffc035de11c7d499c465572b5db36",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.akishima.lg.jp/bunka/shogaigakushu/1007496/1002968/1002972/1012429.html",
+            "quote": "開催場所 FOSTERホール（昭島市民会館） 対象 どなたでも",
+            "checked_at": "2026-11-21",
+            "sha256": "5f7a0f1bf976822e40eb2f1ff4eb3073c695f95f2560da369d2f0250a13794d6",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.akishima.lg.jp/bunka/shogaigakushu/1007496/1002968/1002972/1012429.html",
+            "quote": "3歳未満のお子様が保護者1名につき、1名まで膝上で観劇する場合には無料となります。",
+            "checked_at": "2026-11-21",
+            "sha256": "8cacf75649a619fabde58c50a8e61fc866931c602e9b085137f85b8084196be5",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.akishima.lg.jp/bunka/shogaigakushu/1007496/1002968/1002972/1012429.html",
+            "quote": "参加費 チケット代金は大人7,000円、小学生以下4,500円（全て税込価格）となります。",
+            "checked_at": "2026-11-21",
+            "sha256": "f38f7c9823ba908070c873edac52ddc0ea311c631a8b7d4a143bfb6fae19780d",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-21",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  },
+  {
+    "id": "verified-20261226-tachikawa-nishiki-xmas-eigakai",
+    "ward": "立川市",
+    "name": "地域活性にしきクリスマス映画会（錦学習館）",
+    "url": "https://www.city.tachikawa.lg.jp/event/e-other/1028669.html",
+    "official_url": "https://www.city.tachikawa.lg.jp/event/e-other/1028669.html",
+    "source": "https://www.city.tachikawa.lg.jp/event/e-other/1028669.html",
+    "image": "",
+    "period": "12/26(土)",
+    "date_start": "2026-12-26",
+    "date_end": "2026-12-26",
+    "time": "10:30〜11:30",
+    "venue": "錦学習館（立川市錦町3-12-25）",
+    "price": "無料",
+    "description": "アニメーション「赤毛のアン クリスマスのコンサート」と「ペリーヌ物語 忘れられないクリスマス」の2作品を上映する。対象はどなたでも。申込不要で、当日直接会場へ。定員30人。",
+    "categories": [
+      "舞台・音楽",
+      "体験・ワークショップ"
+    ],
+    "indoor_outdoor": "屋内",
+    "reservation": {
+      "required": false,
+      "note": "申込不要。当日直接会場へ。定員30人。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "クリスマスのアニメ2作品を無料で上映する学習館の映画会。申込不要で当日直接行ける。定員30人。",
+      "axes": {
+        "child_target": {
+          "grade": "B",
+          "reason": "対象はどなたでも。「子ども・子育て」カテゴリのアニメ上映"
+        },
+        "interactivity": {
+          "grade": "C",
+          "reason": "映画の鑑賞が中心"
+        },
+        "age_fit": {
+          "grade": "B",
+          "reason": "年齢の限定はない"
+        },
+        "stay_flexibility": {
+          "grade": "B",
+          "reason": "約1時間の上映"
+        },
+        "burden": {
+          "grade": "A",
+          "reason": "申込不要で、当日直接行ける"
+        },
+        "cost": {
+          "grade": "A",
+          "reason": "無料"
+        },
+        "reservation": {
+          "grade": "A",
+          "reason": "申込不要（定員30人）"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "クリスマスのアニメを無料で楽しめる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-21",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "all_ages",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "無料・申込不要",
+          "クリスマスのアニメ2作品を上映"
+        ],
+        "limitations": [
+          "定員30人で、満席の場合は入れない",
+          "映画の鑑賞が中心"
+        ],
+        "grade_comparison": "総合B：無料・申込不要の短いアニメ上映会。鑑賞中心で、定員が少ない。",
+        "unsupported_axes": [],
+        "evidence": [
+          {
+            "url": "https://www.city.tachikawa.lg.jp/event/e-other/1028669.html",
+            "quote": "開催日 2026年12月26日（土曜日） 開催時間 午前10時30分 から 午前11時30分 まで 開催場所 錦学習館",
+            "checked_at": "2026-11-21",
+            "sha256": "9751571bade6999f20a5fa5788a570e756aeaf6bd0e8b8a03133213fe66d9ed8",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.tachikawa.lg.jp/event/e-other/1028669.html",
+            "quote": "対象 どなたでも ハッシュタグ #無料",
+            "checked_at": "2026-11-21",
+            "sha256": "d9444b5703b88fb76d93e9cc146ac628ff3dc9afaf221f1682ff3e169bb96dc6",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.tachikawa.lg.jp/event/e-other/1028669.html",
+            "quote": "「赤毛のアン クリスマスのコンサート」 「ペリーヌ物語 忘れられないクリスマス」 アニメーション2作品を上映します。",
+            "checked_at": "2026-11-21",
+            "sha256": "e62adec606d430e85ec23ce37331d080debb41ccc8651f36fb021f1759d92f82",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.tachikawa.lg.jp/event/e-other/1028669.html",
+            "quote": "申込み 不要 当日は直接会場へお越しください。 定員30人 費用 無料",
+            "checked_at": "2026-11-21",
+            "sha256": "1a8247175f962a46582188b660b64da0cbd9ebed69fa939ae899caf56a93bd2e",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-21",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  }
+]

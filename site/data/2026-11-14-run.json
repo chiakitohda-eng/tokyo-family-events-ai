@@ -4,8 +4,8 @@
     "sat": "2026-11-14",
     "sun": "2026-11-15"
   },
-  "horizon_index": 3,
-  "publication_tier": "preview",
+  "horizon_index": 2,
+  "publication_tier": "full",
   "mode": "v1.5-native-full-research",
   "prompt": {
     "version": "v1.5",
@@ -93,15 +93,15 @@
   ],
   "summary": {
     "wards_checked": 23,
-    "candidates": 41,
-    "published": 41,
+    "candidates": 51,
+    "published": 133,
     "excluded": 5,
     "duplicate_removed": 0,
-    "verified": 31,
-    "announced": 10,
+    "verified": 133,
+    "announced": 0,
     "corrected": 2,
     "thumbnail_count": 33,
-    "thumbnail_coverage": 0.9166666666666666,
+    "thumbnail_coverage": 0.717,
     "decision_audit_complete": true,
     "hard_excluded": 1,
     "soft_excluded": 4,
@@ -194,5 +194,428 @@
       ],
       "multi_program_parents_automatically_rolled": false
     }
-  ]
+  ],
+  "current_rollover": {
+    "version": "2026-11-08",
+    "mode": "verified-current-horizon-subset",
+    "applied_at": "2026-11-08T16:05:00+09:00",
+    "evidence_run_id": 42456012607,
+    "evidence_artifact_id": 13607681119
+  },
+  "full_tier_recheck": {
+    "checked_at": "2026-11-08T16:05:00+09:00",
+    "promoted_ids": [
+      "v15-dbcd6b0db9e1",
+      "v15-bf81ae6846bf",
+      "v15-43179f997df8",
+      "v15-974166027816",
+      "v15-a09d13a8ee25",
+      "v15-d94b3ac9893d",
+      "v15-beb844967090",
+      "v15-f60029928c5d",
+      "official-2026-nihonbashi-komichi",
+      "official-2026-haneda-museum"
+    ]
+  },
+  "manual_gap_recovery_20261108": {
+    "as_of_jst": "2026-11-08",
+    "mode": "non_destructive_official_verified_additions",
+    "added_count": 3,
+    "event_ids": [
+      "gap-20261114-nakano-new-face-market",
+      "gap-20261114-shinjuku-hokusan-kids",
+      "gap-20261114-shinjuku-okubo-center"
+    ],
+    "official_urls": [
+      "https://www.city.tokyo-nakano.lg.jp/event/kosodate/sogyokyoiku.html",
+      "https://www.city.shinjuku.lg.jp/kusei/kashiwagi01_000001_00042.html",
+      "https://www.city.shinjuku.lg.jp/kusei/kashiwagi01_000001_00042.html"
+    ],
+    "evidence_artifact_id": 13607681119,
+    "prior_event_changes": 0,
+    "prior_event_removals": 0,
+    "required_source_errors_remaining": 3,
+    "unverified_candidate_links_remaining": 844,
+    "note": "2026-11-08の公式個別ページ再確認で追加。既存の23区探索証跡や未検証候補件数を成功扱いにしない。"
+  },
+  "verified_individual_omission_20261108": {
+    "as_of_jst": "2026-11-08",
+    "new_event_ids": [
+      "verified-20261114-nakano-nogata-editing"
+    ],
+    "official_urls": [
+      "https://kodomo-smile.metro.tokyo.lg.jp/events/4231"
+    ],
+    "prior_events_changed": 0,
+    "prior_events_removed": 0,
+    "source_failures_remain_unverified": true,
+    "unreviewed_candidate_links_at_current_audit": 859,
+    "read_only_evidence_run_id": 42475157453
+  },
+  "verified_zoo_park_festa_20261108": {
+    "new_event_ids": [
+      "verified-20261115-itabashi-zoo-park-festa"
+    ],
+    "official_urls": [
+      "https://itabashi-park-zoo.com/cat_main/%EF%BC%92%EF%BC%90%EF%BC%92%EF%BC%96%E5%B9%B4%E3%80%80zoo%E3%83%91%E3%83%BC%E3%82%AF%E3%83%95%E3%82%A7%E3%82%B9%E3%82%BF%E3%81%AE%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B/"
+    ],
+    "as_of_jst": "2026-11-08",
+    "source_failures_remain_unverified": true,
+    "old_events_changed": 0,
+    "old_events_removed": 0,
+    "unreviewed_candidate_links": 859,
+    "read_only_evidence_run_id": 42475275546,
+    "official_date_known_but_time_unknown": true
+  },
+  "verified_nakano_recovery_20261113": {
+    "new_event_ids": [
+      "reviewed-20261114-nakano-162208",
+      "reviewed-20261114-nakano-163281",
+      "reviewed-20261115-nakano-161805"
+    ],
+    "base_data_production_sha": "0dc84f68a3cd4ec3e32b8a28e6fa541b86f1dbe8",
+    "prompt": {
+      "version": "v1.15",
+      "path": "prompts/tokyo_family_events_complete_prompt_v1.15.txt",
+      "resolved": true
+    },
+    "reviewed_on": "2026-11-13",
+    "source_failures_remain_unverified": true,
+    "old_events_changed": 0,
+    "old_events_removed": 0,
+    "whole_source_parity_complete": false
+  },
+  "verified_hiromachi_followup_20261113": {
+    "new_event_ids": [
+      "reviewed-20261115-nakano-160023",
+      "reviewed-20261115-nakano-160164"
+    ],
+    "base_data_production_sha": "bd4ec22347d0d5cac1df1fa9e47fdd9e07b7356d",
+    "prompt": {
+      "version": "v1.15",
+      "path": "prompts/tokyo_family_events_complete_prompt_v1.15.txt",
+      "resolved": true
+    },
+    "reviewed_on": "2026-11-13",
+    "source_failures_remain_unverified": true,
+    "old_events_changed": 0,
+    "old_events_removed": 0,
+    "whole_source_parity_complete": false
+  },
+  "verified_community_followup_20261113": {
+    "new_event_ids": [
+      "reviewed-20261114-nakano-159581",
+      "reviewed-20261115-nakano-160408"
+    ],
+    "base_data_production_sha": "16fce3b01284cc8dad338feba9a0fa7fb2970792",
+    "prompt": {
+      "version": "v1.15",
+      "path": "prompts/tokyo_family_events_complete_prompt_v1.15.txt",
+      "resolved": true
+    },
+    "reviewed_on": "2026-11-13",
+    "source_failures_remain_unverified": true,
+    "old_events_changed": 0,
+    "old_events_removed": 0,
+    "whole_source_parity_complete": false
+  },
+  "verified_backlog_followup_20261114": {
+    "new_event_ids": [
+      "final-20261114-nakano-162251",
+      "final-20261114-nakano-160837",
+      "final-20261115-nakano-161735",
+      "final-20261115-nakano-162703",
+      "final-20261114-suginami-26970",
+      "final-20261114-suginami-27137",
+      "final-20261114-suginami-27274",
+      "final-20261114-suginami-27522",
+      "final-20261115-suginami-27604",
+      "final-20261115-suginami-28061",
+      "final-20261114-suginami-28241",
+      "final-20261114-suginami-28456",
+      "final-20261114-suginami-28459",
+      "final-20261115-suginami-28496",
+      "final-20261114-suginami-28540",
+      "final-20261115-suginami-28541",
+      "final-20261115-suginami-28568",
+      "final-20261114-suginami-28578",
+      "final-20261114-nerima-walk-rally",
+      "final-20261114-nakano-162738",
+      "final-20261114-nakano-163067",
+      "final-20261114-itabashi-shogetsuin",
+      "final-20261115-itabashi-eisa",
+      "final-20261115-itabashi-johoku",
+      "final-20261114-itabashi-bologna",
+      "final-20261114-itabashi-bologna-story",
+      "final-20261115-nerima-recorder",
+      "final-20261114-nakano-162160",
+      "final-20261114-nakano-163523",
+      "final-20261115-suginami-onsen-koto",
+      "final-20261114-suginami-29219",
+      "final-20261115-nakano-162185"
+    ],
+    "base_data_production_sha": "81dd7269a6f0683c635db8491d137b12b50f3707",
+    "prompt": {
+      "version": "v1.15",
+      "path": "prompts/tokyo_family_events_complete_prompt_v1.15.txt",
+      "resolved": true
+    },
+    "reviewed_on": "2026-11-14",
+    "source_failures_remain_unverified": true,
+    "old_events_changed": 0,
+    "old_events_removed": 0,
+    "whole_source_parity_complete": false
+  },
+  "additional_primary_review_20261114": {
+    "new_event_ids": [
+      "primary-20261115-meguro-international",
+      "primary-20261115-nerima-sweets",
+      "primary-20261114-kita-keene",
+      "primary-20261115-arakawa-yuinomori",
+      "primary-20261114-kita-ur",
+      "primary-20261114-kita-kitchen",
+      "primary-20261114-taito-noguchi",
+      "primary-20261115-sumida-disaster",
+      "primary-20261114-toshima-retro"
+    ],
+    "base_data_production_sha": "89c9211fa561fcaabf9d03063d5b745978a52cf8",
+    "prompt": {
+      "version": "v1.15",
+      "path": "prompts/tokyo_family_events_complete_prompt_v1.15.txt",
+      "resolved": true
+    },
+    "reviewed_on": "2026-11-14",
+    "source_failures_remain_unverified": true,
+    "old_events_changed": 0,
+    "old_events_removed": 0,
+    "whole_source_parity_complete": false
+  },
+  "rail_family_fit_correction_20261114": {
+    "event_id": "reviewed-20261115-nakano-161805",
+    "old_grade": "B",
+    "new_grade": "A",
+    "event_facts_changed": false,
+    "source_checks_changed": false,
+    "review": "research/rail_family_fit_review_20261114/review.json"
+  },
+  "weekly_family_fit_review_20261114": {
+    "base_data_production_sha": "cdad50949ead6fe7fff2e8bb28e7c22bfbdd12fd",
+    "reviewed_ids": [
+      "verified-20261115-itabashi-zoo-park-festa",
+      "reviewed-20261114-nakano-162208",
+      "reviewed-20261114-nakano-163281",
+      "reviewed-20261115-nakano-161805",
+      "reviewed-20261115-nakano-160023",
+      "reviewed-20261115-nakano-160164",
+      "reviewed-20261114-nakano-159581",
+      "reviewed-20261115-nakano-160408",
+      "final-20261114-nakano-162251",
+      "final-20261114-nakano-160837",
+      "final-20261115-nakano-161735",
+      "final-20261115-nakano-162703",
+      "final-20261114-suginami-26970",
+      "final-20261114-suginami-27137",
+      "final-20261114-suginami-27274",
+      "final-20261114-suginami-27522",
+      "final-20261115-suginami-27604",
+      "final-20261115-suginami-28061",
+      "final-20261114-suginami-28241",
+      "final-20261114-suginami-28456",
+      "final-20261114-suginami-28459",
+      "final-20261115-suginami-28496",
+      "final-20261114-suginami-28540",
+      "final-20261115-suginami-28541",
+      "final-20261115-suginami-28568",
+      "final-20261114-suginami-28578",
+      "final-20261114-nerima-walk-rally",
+      "final-20261114-nakano-162738",
+      "final-20261114-nakano-163067",
+      "final-20261114-itabashi-shogetsuin",
+      "final-20261115-itabashi-eisa",
+      "final-20261115-itabashi-johoku",
+      "final-20261114-itabashi-bologna",
+      "final-20261114-itabashi-bologna-story",
+      "final-20261115-nerima-recorder",
+      "final-20261114-nakano-162160",
+      "final-20261114-nakano-163523",
+      "final-20261115-suginami-onsen-koto",
+      "final-20261114-suginami-29219",
+      "final-20261115-nakano-162185",
+      "primary-20261115-meguro-international",
+      "primary-20261115-nerima-sweets",
+      "primary-20261114-kita-keene",
+      "primary-20261115-arakawa-yuinomori",
+      "primary-20261114-kita-ur",
+      "primary-20261114-kita-kitchen",
+      "primary-20261114-taito-noguchi",
+      "primary-20261115-sumida-disaster",
+      "primary-20261114-toshima-retro"
+    ],
+    "assessment_only": true,
+    "event_facts_changed": false,
+    "source_checks_changed": false,
+    "review": "research/weekly_family_fit_review_20261114/review.json"
+  },
+  "non_tamemap_review_20261114": {
+    "new_event_ids": [
+      "remaining-20261115-asakusa-wasshoi",
+      "remaining-20261115-adachi-lfesta-play",
+      "remaining-20261115-adachi-lfesta-english",
+      "remaining-20261115-adachi-lfesta-story",
+      "remaining-20261115-arakawa-tram-rally",
+      "remaining-20261115-edogawa-chrysanthemum",
+      "remaining-20261115-cincinnati-art",
+      "remaining-20261115-designfesta64",
+      "remaining-20261115-what-matsuri-art",
+      "remaining-20261115-toshima-4koma-museum",
+      "remaining-20261115-toshima-4koma-retro",
+      "remaining-20261115-toshima-tsunoda",
+      "remaining-20261115-nerima-edokuri-rally"
+    ],
+    "base_data_production_sha": "6aac4355afd8da739885d4ce6f3c64e84c7e5514",
+    "prompt": {
+      "version": "v1.15",
+      "path": "prompts/tokyo_family_events_complete_prompt_v1.15.txt",
+      "resolved": true
+    },
+    "reviewed_on": "2026-11-14",
+    "source_failures_remain_unverified": true,
+    "old_events_changed": 0,
+    "old_events_removed": 0,
+    "whole_source_parity_complete": false
+  },
+  "older_family_fit_review_20261114": {
+    "base_data_production_sha": "9dce04230d9a8a257f8ce6d035f66122250d5d69",
+    "reviewed_ids": [
+      "v15-ad2f72f74ab7",
+      "ongoing-20261114-v15-237c930495e3",
+      "v15-7b30b706f728",
+      "v15-2d67ff511d00",
+      "v15-974166027816",
+      "v15-71e23d5de02c",
+      "v15-2925b1dfd722",
+      "v15-d435b737b0fe",
+      "v15-7a658d4d9456",
+      "v15-0c6fcb6bf768",
+      "r16-339f77d64052",
+      "r16-c2c59cbaf1f6",
+      "r16-409d89a4c6f1",
+      "legacy-gap-2026-10-10-zannen3",
+      "official-2026-nihonbashi-komichi",
+      "official-2026-haneda-museum",
+      "v15-43179f997df8",
+      "ongoing-20261114-v15-daa813b5a665",
+      "v15-807d5cac25fd",
+      "v15-a5b2a88d2c98",
+      "v15-bf81ae6846bf",
+      "v15-649ee1f437c7",
+      "v15-ad038b9864ee",
+      "v15-8bc88232815c",
+      "v15-960da7fa214c",
+      "v15-e8ca460c237c",
+      "v15-5e0e43c28e84",
+      "v15-ddf5454b98f8",
+      "v15-82e894d92f20",
+      "v15-83cfaa4db36c",
+      "v15-72b88b62c590",
+      "v15-a09d13a8ee25",
+      "v15-d94b3ac9893d",
+      "v15-beb844967090",
+      "v15-f60029928c5d",
+      "fx-20261114-itabashi-agriculture-festival",
+      "gap-20261114-nakano-new-face-market",
+      "gap-20261114-shinjuku-hokusan-kids",
+      "gap-20261114-shinjuku-okubo-center",
+      "verified-20261114-nakano-nogata-editing"
+    ],
+    "assessment_only": true,
+    "event_facts_changed": false,
+    "source_checks_changed": false,
+    "review": "research/older_family_fit_review_20261114/review.json"
+  },
+  "non_tamemap_next_review_20261114": {
+    "new_event_ids": [
+      "next-primary-20261115-turner-exhibition",
+      "next-primary-20261115-hozuki-animate",
+      "next-primary-20261115-nerima-flute-lecture"
+    ],
+    "base_data_production_sha": "273c8753a9d5ea09f38e580d4c51b4c87abd0189",
+    "prompt": {
+      "version": "v1.15",
+      "path": "prompts/tokyo_family_events_complete_prompt_v1.15.txt",
+      "resolved": true
+    },
+    "reviewed_on": "2026-11-14",
+    "source_failures_remain_unverified": true,
+    "old_events_changed": 0,
+    "old_events_removed": 0,
+    "whole_source_parity_complete": false
+  },
+  "all_non_tamemap_review_20261114": {
+    "new_event_ids": [
+      "all-reviewed-20261115-sugi-221",
+      "all-reviewed-20261115-sugi-638",
+      "all-reviewed-20261115-sugi-739",
+      "all-reviewed-20261115-sugi-815",
+      "all-reviewed-20261115-sugi-825",
+      "all-reviewed-20261115-edogawa-zenyoji-kiku",
+      "all-reviewed-20261115-meguro-playpark",
+      "all-reviewed-20261115-meguro-free-space",
+      "all-reviewed-20261115-meguro-scout-rally",
+      "all-reviewed-20261115-orsay-exhibition",
+      "all-reviewed-20261115-nakano-drug-lecture",
+      "all-reviewed-20261115-nakano-drug-posters",
+      "all-reviewed-20261115-tachiuo-base",
+      "all-reviewed-20261115-tachiuo-tour",
+      "all-reviewed-20261115-nakano-tree-lecture",
+      "all-reviewed-20261115-shibuya-culture-shodo",
+      "all-reviewed-20261115-shibuya-culture-sakura",
+      "all-reviewed-20261115-shibuya-culture-densho",
+      "all-reviewed-20261115-shibuya-culture-flowers",
+      "all-reviewed-20261115-leonids2026",
+      "all-reviewed-20261115-shoto-road",
+      "all-reviewed-20261115-tokyo-food-fair18"
+    ],
+    "base_data_production_sha": "d05e78f3550ec0f302ab5a3c6550414e7dce5391",
+    "prompt": {
+      "version": "v1.15",
+      "path": "prompts/tokyo_family_events_complete_prompt_v1.15.txt",
+      "resolved": true
+    },
+    "reviewed_on": "2026-11-14",
+    "source_failures_remain_unverified": true,
+    "old_events_changed": 0,
+    "old_events_removed": 0,
+    "whole_source_parity_complete": false,
+    "fixed_851_adjudication_complete": true
+  },
+  "evidence_recovery_20261115": {
+    "base_data_production_sha": "847e388e65b99e38a0f108ecc96009778b3fdcd2",
+    "reviewed_ids": [
+      "v15-dbcd6b0db9e1",
+      "v15-76d7806297bb",
+      "v15-d489193d95be"
+    ],
+    "assessment_only": true,
+    "event_facts_changed": false,
+    "source_checks_changed": false
+  },
+  "aipaku_review_20261115": {
+    "new_event_ids": [
+      "aipaku-20261115-winter-aipaku-tokyo"
+    ],
+    "base_data_staging_sha": "6fb1abd131411ba64bbb175667c3d8a0fc922d69",
+    "base_data_production_sha": "847e388e65b99e38a0f108ecc96009778b3fdcd2",
+    "prompt": {
+      "version": "v1.15",
+      "path": "prompts/tokyo_family_events_complete_prompt_v1.15.txt",
+      "resolved": true
+    },
+    "reviewed_on": "2026-11-15",
+    "source_failures_remain_unverified": true,
+    "old_events_changed": 0,
+    "old_events_removed": 0,
+    "whole_source_parity_complete": false,
+    "fixed_851_adjudication_complete": true
+  }
 }

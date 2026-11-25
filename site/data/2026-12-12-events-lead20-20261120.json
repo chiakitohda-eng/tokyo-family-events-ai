@@ -1,0 +1,159 @@
+[
+  {
+    "id": "verified-20261212-edogawa-kanusura-park",
+    "ward": "江戸川区",
+    "name": "カヌスラパーク（カヌー・スラロームセンター）",
+    "url": "https://canoe-slalom.tokyo/activity/k-park/",
+    "official_url": "https://canoe-slalom.tokyo/activity/k-park/",
+    "source": "https://canoe-slalom.tokyo/activity/k-park/",
+    "image": "",
+    "period": "土・日・祝（12/12〜）",
+    "date_start": "2026-12-12",
+    "date_end": "2026-12-12",
+    "time": "11:00〜16:00（最終受付15:40）",
+    "venue": "カヌー・スラロームセンター（江戸川区臨海町6丁目1番1号）",
+    "price": "1回500円（20分間）",
+    "description": "イージーローラー、キックボード、面白ブランコ、芝生遊びグッズで遊べるパーク。3歳以上、予約不要で当日受付。雨天休止。",
+    "categories": [
+      "公園",
+      "体験",
+      "スポーツ"
+    ],
+    "indoor_outdoor": "屋外",
+    "reservation": {
+      "required": false,
+      "note": "事前予約なし。当日、管理棟で受付。雨天休止。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "12/12週の土日祝に3歳以上が遊べるイージーローラー、キックボード、ブランコなどのあるパーク。予約不要で当日受付、1回500円で20分遊べる。",
+      "axes": {
+        "child_target": {
+          "grade": "B",
+          "reason": "3歳以上が対象で、未就学児は保護者の同伴が必要"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "ローラー、キックボード、ブランコなどで体を動かして遊べる"
+        },
+        "age_fit": {
+          "grade": "A",
+          "reason": "参加条件が3歳以上と明記"
+        },
+        "stay_flexibility": {
+          "grade": "B",
+          "reason": "1回20分で、延長や回数券で調整する"
+        },
+        "burden": {
+          "grade": "B",
+          "reason": "屋外で雨天休止。駅から徒歩約12分"
+        },
+        "cost": {
+          "grade": "B",
+          "reason": "1回500円"
+        },
+        "reservation": {
+          "grade": "A",
+          "reason": "事前予約はなく、当日受付"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "親子で体を動かして遊べる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-20",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "age_eligible",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "3歳から遊べる",
+          "予約不要で当日受付"
+        ],
+        "limitations": [
+          "屋外で雨天休止",
+          "1回20分で料金がかかる"
+        ],
+        "grade_comparison": "総合B（2026-12-12）：3歳から遊べて予約不要だが、屋外で雨天休止、1回20分で料金がかかる。",
+        "unsupported_axes": [],
+        "evidence": [
+          {
+            "url": "https://canoe-slalom.tokyo/activity/k-park/",
+            "quote": "営業時間土・日・祝11:00",
+            "checked_at": "2026-11-20",
+            "sha256": "0270186753d492b39e1f3edc4325b903e70f03705c4e641685ba2ccbdc4efa22",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://canoe-slalom.tokyo/activity/k-park/",
+            "quote": "参加条件3歳以上※一部遊具は対象年齢が異なります",
+            "checked_at": "2026-11-20",
+            "sha256": "dc9c054ff01433f065216c86db945825786b05ec1210ea4f74417cb952b95bc2",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://canoe-slalom.tokyo/activity/k-park/",
+            "quote": "未就学児には保護者の同伴が必要",
+            "checked_at": "2026-11-20",
+            "sha256": "b011204efa57c9c934177f4e5e4a971e72f22e6de6208dc1e6b81a13d297ac83",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://canoe-slalom.tokyo/activity/k-park/",
+            "quote": "当日に受付（管理棟）まで直接お越しください",
+            "checked_at": "2026-11-20",
+            "sha256": "e208ad4bb5ee5aaa49bf722c07e4d77d028371c839f8d79321f8fe4922701160",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://canoe-slalom.tokyo/activity/k-park/",
+            "quote": "事前予約はございません。当日参加のみとなります",
+            "checked_at": "2026-11-20",
+            "sha256": "9cbe7834ac4877d95315e34fbaf10806f0daf6edca2cbfc058d2b37c1569e939",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://canoe-slalom.tokyo/activity/k-park/",
+            "quote": "1回500円（20分間）※予約不要！",
+            "checked_at": "2026-11-20",
+            "sha256": "54c939f2a8072a4e283ee2493b7bfbef4bb7da4914e240ff6b9ff7164d3e6d75",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://canoe-slalom.tokyo/activity/k-park/",
+            "quote": "雨天休止※イベントなどで休止の場合あり",
+            "checked_at": "2026-11-20",
+            "sha256": "d2a5dd11087a11298972cd179e3ea9c0174cff5f78e5eb6624c919e5a8a44549",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-20",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  }
+]

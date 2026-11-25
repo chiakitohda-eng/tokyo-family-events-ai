@@ -1,0 +1,711 @@
+[
+  {
+    "id": "verified-20261121-meguro-kodomo-ongakusai",
+    "ward": "目黒区",
+    "name": "令和8年度めぐろ子ども音楽祭",
+    "url": "https://www.city.meguro.tokyo.jp/bunka/event/ongakusai-.html",
+    "official_url": "https://www.city.meguro.tokyo.jp/bunka/event/ongakusai-.html",
+    "source": "https://www.city.meguro.tokyo.jp/bunka/event/ongakusai-.html",
+    "image": "https://www.city.meguro.tokyo.jp/images/16934/s.jpg",
+    "period": "11/21(土)",
+    "date_start": "2026-11-21",
+    "date_end": "2026-11-21",
+    "time": "13:00〜16:00（開場12:30・2部制）",
+    "venue": "めぐろパーシモンホール 大ホール（目黒区八雲1丁目1番1号）",
+    "price": "入場無料",
+    "description": "区立小学校7校7団体の合唱・合奏の発表会。子どもたちの歌声や演奏を聴きに来場できる。入場無料・整理券なし、直接会場へ。",
+    "categories": [
+      "音楽・ステージ",
+      "地域交流"
+    ],
+    "indoor_outdoor": "屋内",
+    "reservation": {
+      "required": false,
+      "note": "入場整理券はなく、直接会場へ。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "小学生の合唱・合奏の発表会。入場無料・整理券なしで直接行ける。鑑賞型で、撮影はご遠慮いただく。",
+      "axes": {
+        "child_target": {
+          "grade": "B",
+          "reason": "小学生が出演する発表会で、子どもの歌声や演奏を聴きに来場できる"
+        },
+        "interactivity": {
+          "grade": "B",
+          "reason": "主に鑑賞型のステージ"
+        },
+        "age_fit": {
+          "grade": "unknown",
+          "reason": "対象年齢は公式案内に明記がない"
+        },
+        "stay_flexibility": {
+          "grade": "unknown",
+          "reason": "入退場の扱いは公式案内に明記がない"
+        },
+        "burden": {
+          "grade": "B",
+          "reason": "撮影ご遠慮・駐車場に限りがあり、公共交通機関での来場が案内されている"
+        },
+        "cost": {
+          "grade": "A",
+          "reason": "入場無料"
+        },
+        "reservation": {
+          "grade": "A",
+          "reason": "整理券なし・直接会場へ"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "子どもの演奏を家族で無料で聴ける"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-19",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "all_ages",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "入場無料・整理券なしで直接行ける子どもの発表会"
+        ],
+        "limitations": [
+          "鑑賞型が中心",
+          "撮影不可"
+        ],
+        "grade_comparison": "総合B：無料で気軽に聴けるが、鑑賞型で体験要素は少ない。",
+        "unsupported_axes": [
+          "age_fit",
+          "stay_flexibility"
+        ],
+        "evidence": [
+          {
+            "url": "https://www.city.meguro.tokyo.jp/bunka/event/ongakusai-.html",
+            "quote": "令和8年11月21日（土曜日）開場12時30分、開演13時、終演予定16時予定（2部制）",
+            "checked_at": "2026-11-19",
+            "sha256": "3bdedb67cbc32ce262e7f19ce4562dab3094a58c64c1988cc6a0e1354294d7bc",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "目黒区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.meguro.tokyo.jp/bunka/event/ongakusai-.html",
+            "quote": "めぐろパーシモンホール大ホール（目黒区八雲一丁目1番1号区民キャンパス内）",
+            "checked_at": "2026-11-19",
+            "sha256": "84e9c395da89fc2cc9c7ff83f395c3aaf695a900af95d1244952ddb6335cc5e2",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "目黒区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.meguro.tokyo.jp/bunka/event/ongakusai-.html",
+            "quote": "区立小学校7校7団体が出演をし、日頃練習を行っている合唱や合奏などの成果を披露します。",
+            "checked_at": "2026-11-19",
+            "sha256": "1529cb9de33e57bf7e68464a73edf636fd64cffddde32d17e2ccaa5b52129ef1",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "目黒区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.meguro.tokyo.jp/bunka/event/ongakusai-.html",
+            "quote": "ぜひ、子どもたちの歌声や演奏を聴きにお越しください！",
+            "checked_at": "2026-11-19",
+            "sha256": "a4fe39481814de2b6a11b652ce095b8a22db85d8c29535502be736edc99e3606",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "目黒区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.meguro.tokyo.jp/bunka/event/ongakusai-.html",
+            "quote": "入場は無料です。入場整理券はございませんので、直接会場へお越しください。",
+            "checked_at": "2026-11-19",
+            "sha256": "37dd29f70ce496c657ce772ccbccd6ac084df1d1f4f5a849160dad5b2cef9138",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "目黒区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-19",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  },
+  {
+    "id": "verified-20261123-edogawa-kasai-super-fes",
+    "ward": "江戸川区",
+    "name": "KASAI Super Fes（共育プラザ葛西の館まつり）",
+    "url": "https://www.city.edogawa.tokyo.jp/event/super_fes.html",
+    "official_url": "https://www.city.edogawa.tokyo.jp/event/super_fes.html",
+    "source": "https://www.city.edogawa.tokyo.jp/event/super_fes.html",
+    "image": "",
+    "period": "11/23(月・祝)",
+    "date_start": "2026-11-23",
+    "date_end": "2026-11-23",
+    "time": "10:30〜15:00",
+    "venue": "共育プラザ葛西（江戸川区宇喜田町175番地）",
+    "price": "無料（模擬店等は一部有料・現金のみ）",
+    "description": "共育プラザ葛西の年に1度の館まつり。ゲームコーナー、キッチンカー、ポニー体験などがある。申込不要。",
+    "categories": [
+      "体験・ワークショップ",
+      "地域交流"
+    ],
+    "indoor_outdoor": "屋内・屋外",
+    "reservation": {
+      "required": false,
+      "note": "申し込み不要。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "ゲームコーナーやポニー体験がある、共育プラザ葛西の館まつり。参加無料（模擬店等は一部有料）・申込不要。",
+      "axes": {
+        "child_target": {
+          "grade": "B",
+          "reason": "どなたでも参加でき、ゲームコーナーやポニー体験など子ども向けの内容がある"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "ゲームコーナーやポニー体験などの参加型"
+        },
+        "age_fit": {
+          "grade": "unknown",
+          "reason": "対象年齢は公式案内に明記がない"
+        },
+        "stay_flexibility": {
+          "grade": "A",
+          "reason": "10時30分〜15時の間、好きな時間に回れる"
+        },
+        "burden": {
+          "grade": "B",
+          "reason": "模擬店は現金のみ。会場は共育プラザ葛西"
+        },
+        "cost": {
+          "grade": "A",
+          "reason": "参加無料（一部の模擬店等は有料）"
+        },
+        "reservation": {
+          "grade": "A",
+          "reason": "申し込み不要"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "ゲームやポニー体験を家族で楽しめる館まつり"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-19",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "child_program",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "無料・申込不要でゲームやポニー体験"
+        ],
+        "limitations": [
+          "模擬店は現金のみ",
+          "詳細な内容は公式ページにない"
+        ],
+        "grade_comparison": "総合B：参加型で無料・申込不要。内容の詳細は公式ページに少ない。",
+        "unsupported_axes": [
+          "age_fit"
+        ],
+        "evidence": [
+          {
+            "url": "https://www.city.edogawa.tokyo.jp/event/super_fes.html",
+            "quote": "2026年11月23日（月曜日）10時30分から15時00分",
+            "checked_at": "2026-11-19",
+            "sha256": "ca8c12e2c08644adc0fb3b58640fe0729a33194b8e976d8ee4b0bb3bf5b0e90e",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "江戸川区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.edogawa.tokyo.jp/event/super_fes.html",
+            "quote": "さまざまなゲームコーナーやキッチンカー、ポニー体験など",
+            "checked_at": "2026-11-19",
+            "sha256": "b442cef978ac8828b86a73488f908c16be361e885428f7dd44827dadc53f8ae7",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "江戸川区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.edogawa.tokyo.jp/event/super_fes.html",
+            "quote": "申し込み不要場所共育プラザ葛西住所江戸川区宇喜田町175番地",
+            "checked_at": "2026-11-19",
+            "sha256": "88ca46200f15c4d44b9a728db38e09683266c730345267907386f73b25fba0b7",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "江戸川区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.edogawa.tokyo.jp/event/super_fes.html",
+            "quote": "対象どなたでも参加可費用無料一部、模擬店等は有料現金のみ",
+            "checked_at": "2026-11-19",
+            "sha256": "427eb887849ef379392d103063b6872035516f14ed7c9c003139b7f138e17f69",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "江戸川区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.edogawa.tokyo.jp/event/super_fes.html",
+            "quote": "年に1度の共育プラザ葛西の館まつり♪",
+            "checked_at": "2026-11-19",
+            "sha256": "362f1a8798a393e63c0e19e726bbf91f4291c903622912c03d28e76d4becb7a1",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "江戸川区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-19",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  },
+  {
+    "id": "verified-20261121-suginami-suginoko-nouen-matsuri",
+    "ward": "杉並区",
+    "name": "すぎのこ農園まつり2026",
+    "url": "https://www.city.suginami.tokyo.jp/s121/event/28512.html",
+    "official_url": "https://www.city.suginami.tokyo.jp/s121/event/28512.html",
+    "source": "https://www.city.suginami.tokyo.jp/s121/event/28512.html",
+    "image": "https://www.city.suginami.tokyo.jp/images/28512/suginokomatsuri_namisuke.jpg",
+    "period": "11/21(土)",
+    "date_start": "2026-11-21",
+    "date_end": "2026-11-21",
+    "time": "10:00〜12:00",
+    "venue": "農福連携農園すぎのこ農園（杉並区井草3丁目19番23号）",
+    "price": null,
+    "description": "杉並産野菜などのマルシェ、展示、クワ体験やリース作りなどの体験コーナー。なみすけも遊びに来る。どなたでも参加可。",
+    "categories": [
+      "体験・ワークショップ",
+      "自然・農体験"
+    ],
+    "indoor_outdoor": "屋外",
+    "reservation": {
+      "required": null,
+      "note": "申込に関する記載なし。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "農園のまつりで、クワ体験やリース作りなどの体験コーナーがあり、どなたでも参加できる。時間が2時間で、費用・申込は記載がない。",
+      "axes": {
+        "child_target": {
+          "grade": "B",
+          "reason": "どなたでも参加でき、体験コーナーやなみすけが登場する"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "クワ体験やリース作りなどの体験を予定"
+        },
+        "age_fit": {
+          "grade": "unknown",
+          "reason": "対象年齢は公式案内に明記がない"
+        },
+        "stay_flexibility": {
+          "grade": "B",
+          "reason": "開催は午前の2時間"
+        },
+        "burden": {
+          "grade": "B",
+          "reason": "内容は都合により変更になる場合がある"
+        },
+        "cost": {
+          "grade": "unknown",
+          "reason": "費用は公式案内に明記がない"
+        },
+        "reservation": {
+          "grade": "unknown",
+          "reason": "申込の要否は公式案内に明記がない"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "農体験と地域のまつりを家族で楽しめる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-19",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "all_ages",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "クワ体験やリース作りなどの体験コーナー"
+        ],
+        "limitations": [
+          "開催は2時間",
+          "費用・申込の記載がない"
+        ],
+        "grade_comparison": "総合B：体験コーナーがあるが、時間が短く費用・申込の記載がない。",
+        "unsupported_axes": [
+          "age_fit",
+          "cost",
+          "reservation"
+        ],
+        "evidence": [
+          {
+            "url": "https://www.city.suginami.tokyo.jp/s121/event/28512.html",
+            "quote": "開催日2026年11月21日（土曜日）開催時間午前10時から午後0時まで",
+            "checked_at": "2026-11-19",
+            "sha256": "1b81541ecc0e55b23701acebea0fa9cf8d394c45fc5dccb962e06e0f20ae49e6",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "杉並区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.suginami.tokyo.jp/s121/event/28512.html",
+            "quote": "対象者どなたでも開催場所農福連携農園すぎのこ農園杉並区井草3丁目19番23号",
+            "checked_at": "2026-11-19",
+            "sha256": "1ee3e567e2862b40caf78542b6267e8e42452b4d6ce40ad3e7309be6ad9c06f7",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "杉並区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.suginami.tokyo.jp/s121/event/28512.html",
+            "quote": "クワ体験やリース作りなどを予定",
+            "checked_at": "2026-11-19",
+            "sha256": "2c76f18f481cd0c9f2141f931c76284446c35e5c5c08b42a90b0e0579f198797",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "杉並区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.suginami.tokyo.jp/s121/event/28512.html",
+            "quote": "当日はなみすけも遊びにきます！",
+            "checked_at": "2026-11-19",
+            "sha256": "63c5fc304aef5ea5579c09ae28c17fc09f0d6af6bc5ea35158e1fa46ffaf2489",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "杉並区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.suginami.tokyo.jp/s121/event/28512.html",
+            "quote": "杉並産野菜、草花等の販売、区内障害者施設の利用者が作ったパン",
+            "checked_at": "2026-11-19",
+            "sha256": "cc98e9b0a378315a95aca8e829505a26cf22cdc9ced591c65d4098d9d5feb18a",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "杉並区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-19",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  },
+  {
+    "id": "verified-20261122-suginami-koukaido-tree-tento",
+    "ward": "杉並区",
+    "name": "杉並公会堂クリスマスツリー点灯式2026",
+    "url": "https://www.city.suginami.tokyo.jp/s030/event/28892.html",
+    "official_url": "https://www.city.suginami.tokyo.jp/s030/event/28892.html",
+    "source": "https://www.city.suginami.tokyo.jp/s030/event/28892.html",
+    "image": "",
+    "period": "11/22(日)",
+    "date_start": "2026-11-22",
+    "date_end": "2026-11-22",
+    "time": "18:00〜18:40",
+    "venue": "杉並公会堂 正面特設ステージ（杉並区上荻1丁目23番15号）",
+    "price": "無料",
+    "description": "メタセコイアのイルミネーション点灯と、木管五重奏・パワーコーラスなどのステージ。来場した子どもにプレゼントがある。雨天は大ホールホワイエ。",
+    "categories": [
+      "音楽・ステージ",
+      "地域交流"
+    ],
+    "indoor_outdoor": "屋外",
+    "reservation": {
+      "required": false,
+      "note": "当日直接会場へ。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "イルミネーション点灯とステージを楽しめる。来場した子どもにプレゼントがあり、無料・申込不要。夕方の短時間の催し。",
+      "axes": {
+        "child_target": {
+          "grade": "B",
+          "reason": "どなたでも参加でき、来場した子どもにプレゼントがある"
+        },
+        "interactivity": {
+          "grade": "B",
+          "reason": "主に鑑賞型の点灯式とステージ"
+        },
+        "age_fit": {
+          "grade": "unknown",
+          "reason": "対象年齢は公式案内に明記がない"
+        },
+        "stay_flexibility": {
+          "grade": "C",
+          "reason": "18時〜18時40分の短時間"
+        },
+        "burden": {
+          "grade": "B",
+          "reason": "夕方の開催で、雨天は会場が変わる"
+        },
+        "cost": {
+          "grade": "A",
+          "reason": "費用無料"
+        },
+        "reservation": {
+          "grade": "A",
+          "reason": "当日直接会場へ"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "クリスマスの点灯を家族で無料で楽しめる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-19",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "all_ages",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "無料・申込不要でクリスマスのイルミネーション"
+        ],
+        "limitations": [
+          "夕方の40分間のみ",
+          "鑑賞型"
+        ],
+        "grade_comparison": "総合B：無料・申込不要で気軽に行けるが、開催時間が短く鑑賞型。",
+        "unsupported_axes": [
+          "age_fit"
+        ],
+        "evidence": [
+          {
+            "url": "https://www.city.suginami.tokyo.jp/s030/event/28892.html",
+            "quote": "杉並公会堂のシンボルであるメタセコイアの木に、イルミネーションを点灯します。",
+            "checked_at": "2026-11-19",
+            "sha256": "b7825bb93ba9e6204fa2d51fa19fe7034387b2f241b132d11de845ba6efdfad9",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "杉並区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.suginami.tokyo.jp/s030/event/28892.html",
+            "quote": "木管五重奏やパワーコーラスなどのパフォーマンスステージも開催します",
+            "checked_at": "2026-11-19",
+            "sha256": "f1b7004689ec04d23435e4303f36557cf05165132081873cb3f51518bcf49ae3",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "杉並区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.suginami.tokyo.jp/s030/event/28892.html",
+            "quote": "来場したお子さんにはプレゼントを準備しています。",
+            "checked_at": "2026-11-19",
+            "sha256": "dcbcec4b318985bdc7760829ea67b17cd2e62b5d3192299774c8acca3451ccd3",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "杉並区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.suginami.tokyo.jp/s030/event/28892.html",
+            "quote": "開催日2026年11月22日（日曜日）開催時間午後6時から午後6時40分まで",
+            "checked_at": "2026-11-19",
+            "sha256": "3fe68bddf6b1a51bacaaaa5009050180aa3606dd5da8902bca58a92dd114a78f",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "杉並区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.suginami.tokyo.jp/s030/event/28892.html",
+            "quote": "申し込み当日直接会場へお越しください。費用無料",
+            "checked_at": "2026-11-19",
+            "sha256": "2b45666a19f36d226cad8bab8a4351ffcde977cfdc7c4c48154a3850d2740bdb",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "杉並区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-19",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  },
+  {
+    "id": "verified-20261121-nerima-minamioizumi-nofesta",
+    "ward": "練馬区",
+    "name": "南大泉with農フェスタ2026",
+    "url": "https://www.nerimakanko.jp/event/detail.php?event_id=e000003013",
+    "official_url": "https://www.nerimakanko.jp/event/detail.php?event_id=e000003013",
+    "source": "https://www.nerimakanko.jp/event/detail.php?event_id=e000003013",
+    "image": "https://www.nerimakanko.jp/img_data/e000003013.png",
+    "period": "11/21(土)・11/22(日)",
+    "date_start": "2026-11-21",
+    "date_end": "2026-11-22",
+    "time": "10:00〜12:00／13:00〜15:00",
+    "venue": "南大泉農の風景育成地区内（練馬区南大泉3・4丁目）",
+    "price": "クイズラリー等は無料（収穫体験は参加費200円）",
+    "description": "農の風景が残る地区を歩いて楽しむ2日間。スマートフォンを使ったクイズラリーや収穫体験、マルシェ、キッチンカー。",
+    "categories": [
+      "体験・ワークショップ",
+      "自然・農体験"
+    ],
+    "indoor_outdoor": "屋外",
+    "reservation": {
+      "required": null,
+      "note": "申込に関する記載なし。詳細はチラシまたはHP。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "クイズラリーや収穫体験（200円）がある農のイベント。2日間・各日午前午後の開催で、まちを歩いて楽しむ形式。",
+      "axes": {
+        "child_target": {
+          "grade": "B",
+          "reason": "クイズラリーや収穫体験があり家族で参加しやすい"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "クイズラリー・収穫体験などの参加型"
+        },
+        "age_fit": {
+          "grade": "unknown",
+          "reason": "対象年齢は公式案内に明記がない"
+        },
+        "stay_flexibility": {
+          "grade": "B",
+          "reason": "午前・午後の2枠で、まちを歩いて回る"
+        },
+        "burden": {
+          "grade": "B",
+          "reason": "屋外開催。スマートフォンを使うクイズラリー"
+        },
+        "cost": {
+          "grade": "A",
+          "reason": "クイズラリー等は無料、収穫体験は200円"
+        },
+        "reservation": {
+          "grade": "unknown",
+          "reason": "申込の要否は公式案内に明記がない"
+        },
+        "family_value": {
+          "grade": "A",
+          "reason": "農体験とマルシェを家族で安く楽しめる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-19",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "child_program",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "無料のクイズラリーと200円の収穫体験"
+        ],
+        "limitations": [
+          "屋外開催",
+          "申込の記載がない"
+        ],
+        "grade_comparison": "総合B：体験が安く楽しめるが、申込・対象年齢の記載がない。",
+        "unsupported_axes": [
+          "age_fit",
+          "reservation"
+        ],
+        "evidence": [
+          {
+            "url": "https://www.nerimakanko.jp/event/detail.php?event_id=e000003013",
+            "quote": "スマートフォンを使ったクイズラリーや収穫体験をはじめ、マルシェやキッチンカーなど",
+            "checked_at": "2026-11-19",
+            "sha256": "535adbb7f00a0b8b77c0c97edfb1faca521b604987f95c22192f5d05f786dc14",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "練馬区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.nerimakanko.jp/event/detail.php?event_id=e000003013",
+            "quote": "2026年11月21日（土）22日（日）10:00〜12:00／13:00〜15:00",
+            "checked_at": "2026-11-19",
+            "sha256": "f2f838db07255a4a8d118b6e94d67039973a7ebcd5305921e6c34d4e91f3991e",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "練馬区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.nerimakanko.jp/event/detail.php?event_id=e000003013",
+            "quote": "場所南大泉農の風景育成地区内",
+            "checked_at": "2026-11-19",
+            "sha256": "74a46e032116bf9b70e643938047f4e348311877f3b601aeb1e6eda1ca9fe281",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "練馬区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.nerimakanko.jp/event/detail.php?event_id=e000003013",
+            "quote": "東京都練馬区南大泉３丁目・４丁目",
+            "checked_at": "2026-11-19",
+            "sha256": "395cad84f0b795215dea0363d892dc5912e9786c39556adf3c3036047d8b513b",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "練馬区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.nerimakanko.jp/event/detail.php?event_id=e000003013",
+            "quote": "クイズラリー等の参加は無料。クイズラリーでスタンプを集めると収穫体験補助券が発行され、参加費２００円で収穫体験に参加できます。",
+            "checked_at": "2026-11-19",
+            "sha256": "0ea960be6ea46da689b9982fb853bcc88f2489881513799dd3e6402718c42586",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "練馬区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-19",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  }
+]

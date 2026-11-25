@@ -1,0 +1,404 @@
+[
+  {
+    "id": "verified-20261219-koto-minamisuna-xmas-concert",
+    "ward": "江東区",
+    "name": "南砂児童館 クリスマスミニコンサート",
+    "url": "https://www.city.koto.lg.jp/011501/kuse/koho/kuho/r08/text/111102.html",
+    "official_url": "https://www.city.koto.lg.jp/011501/kuse/koho/kuho/r08/text/111102.html",
+    "source": "https://www.city.koto.lg.jp/011501/kuse/koho/kuho/r08/text/111102.html",
+    "image": "",
+    "period": "12/19(土)",
+    "date_start": "2026-12-19",
+    "date_end": "2026-12-19",
+    "time": "11:00〜11:30（開場10:30）",
+    "venue": "南砂児童館（区報に会場の明記なし）",
+    "price": "参加費の記載なし",
+    "description": "金管楽器アンサンブルによるクリスマス曲の演奏を楽しむ、乳幼児から高校生世代向けのコンサート。",
+    "categories": [
+      "音楽",
+      "ショー・観劇"
+    ],
+    "indoor_outdoor": "屋内",
+    "reservation": {
+      "required": true,
+      "note": "12/5 9時からこうとうおやこ手帳または窓口で申込。定員100人。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "金管楽器アンサンブルによるクリスマス曲の演奏を楽しむ、乳幼児から高校生世代向けのコンサート。参加費の記載なし。事前の申込が必要。",
+      "axes": {
+        "child_target": {
+          "grade": "A",
+          "reason": "乳幼児から高校生世代が対象"
+        },
+        "interactivity": {
+          "grade": "B",
+          "reason": "演奏を鑑賞する"
+        },
+        "age_fit": {
+          "grade": "A",
+          "reason": "乳幼児（0歳）〜高校生世代と明記"
+        },
+        "stay_flexibility": {
+          "grade": "B",
+          "reason": "11:00〜11:30（開場10:30）"
+        },
+        "burden": {
+          "grade": "C",
+          "reason": "定員100人（付き添いを含む）で申込が必要"
+        },
+        "cost": {
+          "grade": "unknown",
+          "reason": "参加費の記載がない"
+        },
+        "reservation": {
+          "grade": "C",
+          "reason": "12/5からおやこ手帳または窓口で申込"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "親子でクリスマスの生演奏を楽しめる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-19",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "child_program",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "生演奏",
+          "30分と短い"
+        ],
+        "limitations": [
+          "申込が必要",
+          "参加費の記載なし"
+        ],
+        "grade_comparison": "総合B：12/19(土)の南砂児童館で11:00〜11:30（開場10:30）の開催。参加費の記載なし。申込が必要で、定員がある。",
+        "unsupported_axes": [
+          "cost"
+        ],
+        "evidence": [
+          {
+            "url": "https://www.city.koto.lg.jp/011501/kuse/koho/kuho/r08/text/111102.html",
+            "quote": "南砂児童館Teen’sBase（中高生支援館）クリスマスミニコンサート",
+            "checked_at": "2026-11-19",
+            "sha256": "c8be83487134479ce934de359da6b0794526886e4ae542a8d69c77ec7927018f",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "江東区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.koto.lg.jp/011501/kuse/koho/kuho/r08/text/111102.html",
+            "quote": "【日時】12月19日（土曜日）11時00分～11時30分（開場10時30分）【対象】乳幼児（0歳）～小・中学生、高校生世代",
+            "checked_at": "2026-11-19",
+            "sha256": "83c9b6b136aabd01cb6c8f372cd8a2c1bb525b21c24df09e283028de581b91ec",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "江東区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.koto.lg.jp/011501/kuse/koho/kuho/r08/text/111102.html",
+            "quote": "【定員】100人（オンライン申し込み50人、窓口50人。付き添いを含む。申込順）",
+            "checked_at": "2026-11-19",
+            "sha256": "bb53941d219ab3e56104f8ef746bf47be59c5a6ba2ae38348f24fbeade8ce05b",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "江東区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.koto.lg.jp/011501/kuse/koho/kuho/r08/text/111102.html",
+            "quote": "【内容】金管楽器アンサンブルによるクリスマス曲の演奏",
+            "checked_at": "2026-11-19",
+            "sha256": "63650891f320fbf772c53b741eb46c618c17e0c7627f1325aeb205927e55eff2",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "江東区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-19",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  },
+  {
+    "id": "verified-20261219-koto-onagigawa-winter-festival",
+    "ward": "江東区",
+    "name": "小名木川児童館 ウィンターフェスティバル",
+    "url": "https://www.city.koto.lg.jp/011501/kuse/koho/kuho/r08/text/111102.html",
+    "official_url": "https://www.city.koto.lg.jp/011501/kuse/koho/kuho/r08/text/111102.html",
+    "source": "https://www.city.koto.lg.jp/011501/kuse/koho/kuho/r08/text/111102.html",
+    "image": "",
+    "period": "12/19(土)",
+    "date_start": "2026-12-19",
+    "date_end": "2026-12-19",
+    "time": "10:30〜13:30",
+    "venue": "小名木川児童館（区報に会場の明記なし）",
+    "price": "参加費の記載なし",
+    "description": "クリスマス工作やミニコンサートなどが楽しめる、乳幼児から高校生世代向けの冬のイベント。当日直接参加。",
+    "categories": [
+      "祭り",
+      "工作"
+    ],
+    "indoor_outdoor": "屋内",
+    "reservation": {
+      "required": false,
+      "note": "当日直接会場へ。定員200人（先着順）。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "クリスマス工作やミニコンサートなどが楽しめる、乳幼児から高校生世代向けの冬のイベント。参加費の記載なし。申込の案内はなく、当日参加できる。",
+      "axes": {
+        "child_target": {
+          "grade": "A",
+          "reason": "乳幼児から高校生世代が対象"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "クリスマス工作やミニコンサート"
+        },
+        "age_fit": {
+          "grade": "A",
+          "reason": "乳幼児（0歳）〜高校生世代と明記"
+        },
+        "stay_flexibility": {
+          "grade": "B",
+          "reason": "10:30〜13:30"
+        },
+        "burden": {
+          "grade": "A",
+          "reason": "当日直接参加"
+        },
+        "cost": {
+          "grade": "unknown",
+          "reason": "参加費の記載がない"
+        },
+        "reservation": {
+          "grade": "A",
+          "reason": "申込不要（先着200人）"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "工作とコンサートを親子で楽しめる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-19",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "child_program",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "当日直接",
+          "クリスマス工作"
+        ],
+        "limitations": [
+          "先着200人",
+          "参加費の記載なし"
+        ],
+        "grade_comparison": "総合B：12/19(土)の小名木川児童館で10:30〜13:30の開催。参加費の記載なし。申込不要で気軽に参加できる。",
+        "unsupported_axes": [
+          "cost"
+        ],
+        "evidence": [
+          {
+            "url": "https://www.city.koto.lg.jp/011501/kuse/koho/kuho/r08/text/111102.html",
+            "quote": "小名木川児童館ウィンターフェスティバル",
+            "checked_at": "2026-11-19",
+            "sha256": "c5491f035b149e8756c4a109308a60a2cc6adcd914acf7cb9b98ac75fe2c6357",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "江東区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.koto.lg.jp/011501/kuse/koho/kuho/r08/text/111102.html",
+            "quote": "【日時】12月19日（土曜日）10時30分～13時30分",
+            "checked_at": "2026-11-19",
+            "sha256": "d8d5f631d37cdee67a84825f2397a51101ba1fdc120cc775cb227e7abebf2543",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "江東区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.koto.lg.jp/011501/kuse/koho/kuho/r08/text/111102.html",
+            "quote": "【定員】200人（先着順）【内容】クリスマス工作やミニコンサートなどのウィンターイベント",
+            "checked_at": "2026-11-19",
+            "sha256": "d5aa566001bc8ccf36e95f8bcac0afc0b0c40fd17c326a462485aaecd132dd91",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "江東区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.koto.lg.jp/011501/kuse/koho/kuho/r08/text/111102.html",
+            "quote": "【内容】クリスマス工作やミニコンサートなどのウィンターイベント【申し込み】当日直接会場へ",
+            "checked_at": "2026-11-19",
+            "sha256": "e191c3cd784e32b389e2d6db4c1ae565a2e1350b904d52733a2f5f547b93cb12",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "江東区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-19",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  },
+  {
+    "id": "verified-20261219-koto-oshima-xmas-party",
+    "ward": "江東区",
+    "name": "大島児童館 クリスマスパーティー2026",
+    "url": "https://www.city.koto.lg.jp/011501/kuse/koho/kuho/r08/text/111102.html",
+    "official_url": "https://www.city.koto.lg.jp/011501/kuse/koho/kuho/r08/text/111102.html",
+    "source": "https://www.city.koto.lg.jp/011501/kuse/koho/kuho/r08/text/111102.html",
+    "image": "",
+    "period": "12/19(土)",
+    "date_start": "2026-12-19",
+    "date_end": "2026-12-19",
+    "time": "①10:30〜11:20（乳幼児と保護者）／②14:00〜14:50（小学生〜高校生世代）",
+    "venue": "大島児童館（区報に会場の明記なし）",
+    "price": "参加費の記載なし",
+    "description": "クリスマス気分を味わいながらゲームなどを楽しむパーティー。午前は乳幼児と保護者、午後は小学生〜高校生世代。",
+    "categories": [
+      "祭り",
+      "子ども"
+    ],
+    "indoor_outdoor": "屋内",
+    "reservation": {
+      "required": true,
+      "note": "11/28 9時から大島児童館窓口で申込（空きがあれば12/5から電話可）。①40人②60人。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "クリスマス気分を味わいながらゲームなどを楽しむパーティー。参加費の記載なし。事前の申込が必要。",
+      "axes": {
+        "child_target": {
+          "grade": "A",
+          "reason": "午前は乳幼児と保護者、午後は小学生〜高校生世代"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "ゲームなどを楽しむ"
+        },
+        "age_fit": {
+          "grade": "A",
+          "reason": "年齢別に2部に分けている"
+        },
+        "stay_flexibility": {
+          "grade": "B",
+          "reason": "①10:30〜11:20（乳幼児と保護者）／②14:00〜14:50（小学生〜高校生世代）"
+        },
+        "burden": {
+          "grade": "C",
+          "reason": "申込順で定員40人・60人"
+        },
+        "cost": {
+          "grade": "unknown",
+          "reason": "参加費の記載がない"
+        },
+        "reservation": {
+          "grade": "C",
+          "reason": "11/28から窓口で申込"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "クリスマス気分でゲームを楽しめる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-19",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "child_program",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "年齢別の2部制",
+          "ゲーム"
+        ],
+        "limitations": [
+          "申込が必要",
+          "参加費の記載なし"
+        ],
+        "grade_comparison": "総合B：12/19(土)の大島児童館で①10:30〜11:20（乳幼児と保護者）／②14:00〜14:50（小学生〜高校生世代）の開催。参加費の記載なし。申込が必要で、定員がある。",
+        "unsupported_axes": [
+          "cost"
+        ],
+        "evidence": [
+          {
+            "url": "https://www.city.koto.lg.jp/011501/kuse/koho/kuho/r08/text/111102.html",
+            "quote": "大島児童館クリスマスパーティー2026",
+            "checked_at": "2026-11-19",
+            "sha256": "67751ce9422e2f21103c26a1fb075c49a1a1671ff4bda0e4a5eb30696e0da77f",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "江東区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.koto.lg.jp/011501/kuse/koho/kuho/r08/text/111102.html",
+            "quote": "【日時】12月19日（土曜日）（1）10時30分～11時20分（2）14時00分～14時50分【対象】（1）乳幼児と保護者（2）小・中学生～高校生世代",
+            "checked_at": "2026-11-19",
+            "sha256": "a1b16119b19c858cae4b803c0ccef9c96a750427421d0755894566ebf5e4b8e9",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "江東区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.koto.lg.jp/011501/kuse/koho/kuho/r08/text/111102.html",
+            "quote": "【定員】（1）40人（2）60人（申込順）【内容】クリスマス気分を味わいながらゲームなどを楽しむ",
+            "checked_at": "2026-11-19",
+            "sha256": "fc8922e2b8d0d71d620412bb2f2ec06c32c3f9a212e4ce6522e184485155a1ad",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "江東区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.koto.lg.jp/011501/kuse/koho/kuho/r08/text/111102.html",
+            "quote": "【申し込み】11月28日（土曜日）9時00分から大島児童館窓口で",
+            "checked_at": "2026-11-19",
+            "sha256": "9c1ac576b532e56ca11167fa83d70158823cd5bc462f08b296ea1a162a837add",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "江東区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-19",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  }
+]

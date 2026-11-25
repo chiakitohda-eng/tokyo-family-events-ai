@@ -1,0 +1,300 @@
+[
+  {
+    "id": "verified-20261205-itabashi-nettaikan-barbapapa",
+    "ward": "板橋区",
+    "name": "バーバパパと森のクリスマス展（板橋区立熱帯環境植物館）",
+    "url": "https://www.city.itabashi.tokyo.jp/koho/1062992/1066844/1066847.html",
+    "official_url": "https://www.city.itabashi.tokyo.jp/koho/1062992/1066844/1066847.html",
+    "source": "https://www.city.itabashi.tokyo.jp/koho/1062992/1066844/1066847.html",
+    "image": "",
+    "period": "12/5(土)",
+    "date_start": "2026-12-05",
+    "date_end": "2026-12-05",
+    "time": "10:00〜18:00（入館は17:30まで）",
+    "venue": "板橋区立熱帯環境植物館（板橋区高島平8-29-2）",
+    "price": "入館料 一般360円・小中学生130円（土日は小・中学生無料）",
+    "description": "熱帯環境植物館のクリスマス企画展。クリスマスツリーの展示、キッズコスプレコーナー、バーバパパとのフォトスポット・絵本コーナー・スタンプラリーがある。土日はカメの「ムッちゃん」のツリー点灯式も行われる。",
+    "categories": [
+      "企画展",
+      "クリスマス",
+      "植物館"
+    ],
+    "indoor_outdoor": "屋内",
+    "reservation": {
+      "required": false,
+      "note": "予約不要。入館料が必要。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "12/5(土)開催。バーバパパとコラボしたクリスマス企画展で、キッズコスプレやフォトスポット、絵本コーナー、スタンプラリーがある。土日は小・中学生の入館が無料。",
+      "axes": {
+        "child_target": {
+          "grade": "B",
+          "reason": "キッズコスプレやスタンプラリーなど子ども向けの企画を含む展示で、こども専用ではない"
+        },
+        "interactivity": {
+          "grade": "B",
+          "reason": "スタンプラリーやコスプレなど参加できる要素がある"
+        },
+        "age_fit": {
+          "grade": "B",
+          "reason": "絵本コーナーやコスプレなど幼児から小学生まで楽しめる内容"
+        },
+        "stay_flexibility": {
+          "grade": "A",
+          "reason": "10:00〜18:00の間に自由に出入りでき、短時間でも楽しめる"
+        },
+        "burden": {
+          "grade": "A",
+          "reason": "予約不要で、屋内の温室施設"
+        },
+        "cost": {
+          "grade": "A",
+          "reason": "土日は小・中学生が無料で、大人も360円"
+        },
+        "reservation": {
+          "grade": "A",
+          "reason": "予約不要"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "家族でクリスマスの展示と植物・生きものを楽しめる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-20",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "all_ages",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "土日は小・中学生の入館が無料",
+          "予約不要で屋内"
+        ],
+        "limitations": [
+          "入館料が必要",
+          "展示が中心でこども専用ではない"
+        ],
+        "grade_comparison": "総合B（12/5(土)）：予約不要で土日は小・中学生が無料のクリスマス展だが、展示中心で、こども専用ではない。",
+        "unsupported_axes": [],
+        "evidence": [
+          {
+            "url": "https://www.city.itabashi.tokyo.jp/koho/1062992/1066844/1066847.html",
+            "quote": "とき11月25日（水曜日）から12月25日（金曜日）、午前10時から午後6時（入館は午後5時30分まで）",
+            "checked_at": "2026-11-20",
+            "sha256": "78088ae83a51df7eb7106e6a0ad543a27fc5d0aa803297a5c86890fd89c934dc",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.itabashi.tokyo.jp/koho/1062992/1066844/1066847.html",
+            "quote": "キッズコスプレコーナーポイン",
+            "checked_at": "2026-11-20",
+            "sha256": "cb088d71492338ba9b03ac6d3e0b9a82a5a80d7cfc6b95ed2fbf769a6c477ed4",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.itabashi.tokyo.jp/koho/1062992/1066844/1066847.html",
+            "quote": "バーバパパコラボ企画フォトス",
+            "checked_at": "2026-11-20",
+            "sha256": "07fabda0c69b4a8175a0a40605c776d7d5078d753c40bdb0463be66defd0e738",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.itabashi.tokyo.jp/koho/1062992/1066844/1066847.html",
+            "quote": "スタンプラリートワイライトジ",
+            "checked_at": "2026-11-20",
+            "sha256": "2e4d4a7ed4ccdd6b2cdf8b1e5840fbba3fa959c73e70630245118f3568dc33be",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.itabashi.tokyo.jp/koho/1062992/1066844/1066847.html",
+            "quote": "注：土曜日・日曜日は小・中学生無料",
+            "checked_at": "2026-11-20",
+            "sha256": "77417a2b99aa996bbe59e272e9d5e4c11c961913fd0ba5037a7fbd80edddfc9b",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.itabashi.tokyo.jp/koho/1062992/1066844/1066847.html",
+            "quote": "ビルマムツアシガメ「ムッちゃん」のクリスマスツリー点灯式（土曜日・日曜日のみ）",
+            "checked_at": "2026-11-20",
+            "sha256": "4d54dbc3463d088d18be3038caa23fcc644281c23e4c4e4c8b5820b2f4d93a18",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-20",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  },
+  {
+    "id": "verified-20261206-itabashi-nettaikan-barbapapa",
+    "ward": "板橋区",
+    "name": "バーバパパと森のクリスマス展（板橋区立熱帯環境植物館）",
+    "url": "https://www.city.itabashi.tokyo.jp/koho/1062992/1066844/1066847.html",
+    "official_url": "https://www.city.itabashi.tokyo.jp/koho/1062992/1066844/1066847.html",
+    "source": "https://www.city.itabashi.tokyo.jp/koho/1062992/1066844/1066847.html",
+    "image": "",
+    "period": "12/6(日)",
+    "date_start": "2026-12-06",
+    "date_end": "2026-12-06",
+    "time": "10:00〜18:00（入館は17:30まで）",
+    "venue": "板橋区立熱帯環境植物館（板橋区高島平8-29-2）",
+    "price": "入館料 一般360円・小中学生130円（土日は小・中学生無料）",
+    "description": "熱帯環境植物館のクリスマス企画展。クリスマスツリーの展示、キッズコスプレコーナー、バーバパパとのフォトスポット・絵本コーナー・スタンプラリーがある。土日はカメの「ムッちゃん」のツリー点灯式も行われる。",
+    "categories": [
+      "企画展",
+      "クリスマス",
+      "植物館"
+    ],
+    "indoor_outdoor": "屋内",
+    "reservation": {
+      "required": false,
+      "note": "予約不要。入館料が必要。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "12/6(日)開催。バーバパパとコラボしたクリスマス企画展で、キッズコスプレやフォトスポット、絵本コーナー、スタンプラリーがある。土日は小・中学生の入館が無料。",
+      "axes": {
+        "child_target": {
+          "grade": "B",
+          "reason": "キッズコスプレやスタンプラリーなど子ども向けの企画を含む展示で、こども専用ではない"
+        },
+        "interactivity": {
+          "grade": "B",
+          "reason": "スタンプラリーやコスプレなど参加できる要素がある"
+        },
+        "age_fit": {
+          "grade": "B",
+          "reason": "絵本コーナーやコスプレなど幼児から小学生まで楽しめる内容"
+        },
+        "stay_flexibility": {
+          "grade": "A",
+          "reason": "10:00〜18:00の間に自由に出入りでき、短時間でも楽しめる"
+        },
+        "burden": {
+          "grade": "A",
+          "reason": "予約不要で、屋内の温室施設"
+        },
+        "cost": {
+          "grade": "A",
+          "reason": "土日は小・中学生が無料で、大人も360円"
+        },
+        "reservation": {
+          "grade": "A",
+          "reason": "予約不要"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "家族でクリスマスの展示と植物・生きものを楽しめる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-20",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "all_ages",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "土日は小・中学生の入館が無料",
+          "予約不要で屋内"
+        ],
+        "limitations": [
+          "入館料が必要",
+          "展示が中心でこども専用ではない"
+        ],
+        "grade_comparison": "総合B（12/6(日)）：予約不要で土日は小・中学生が無料のクリスマス展だが、展示中心で、こども専用ではない。",
+        "unsupported_axes": [],
+        "evidence": [
+          {
+            "url": "https://www.city.itabashi.tokyo.jp/koho/1062992/1066844/1066847.html",
+            "quote": "とき11月25日（水曜日）から12月25日（金曜日）、午前10時から午後6時（入館は午後5時30分まで）",
+            "checked_at": "2026-11-20",
+            "sha256": "78088ae83a51df7eb7106e6a0ad543a27fc5d0aa803297a5c86890fd89c934dc",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.itabashi.tokyo.jp/koho/1062992/1066844/1066847.html",
+            "quote": "キッズコスプレコーナーポイン",
+            "checked_at": "2026-11-20",
+            "sha256": "cb088d71492338ba9b03ac6d3e0b9a82a5a80d7cfc6b95ed2fbf769a6c477ed4",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.itabashi.tokyo.jp/koho/1062992/1066844/1066847.html",
+            "quote": "バーバパパコラボ企画フォトス",
+            "checked_at": "2026-11-20",
+            "sha256": "07fabda0c69b4a8175a0a40605c776d7d5078d753c40bdb0463be66defd0e738",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.itabashi.tokyo.jp/koho/1062992/1066844/1066847.html",
+            "quote": "スタンプラリートワイライトジ",
+            "checked_at": "2026-11-20",
+            "sha256": "2e4d4a7ed4ccdd6b2cdf8b1e5840fbba3fa959c73e70630245118f3568dc33be",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.itabashi.tokyo.jp/koho/1062992/1066844/1066847.html",
+            "quote": "注：土曜日・日曜日は小・中学生無料",
+            "checked_at": "2026-11-20",
+            "sha256": "77417a2b99aa996bbe59e272e9d5e4c11c961913fd0ba5037a7fbd80edddfc9b",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.itabashi.tokyo.jp/koho/1062992/1066844/1066847.html",
+            "quote": "ビルマムツアシガメ「ムッちゃん」のクリスマスツリー点灯式（土曜日・日曜日のみ）",
+            "checked_at": "2026-11-20",
+            "sha256": "4d54dbc3463d088d18be3038caa23fcc644281c23e4c4e4c8b5820b2f4d93a18",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-20",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  }
+]

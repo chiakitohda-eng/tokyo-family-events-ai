@@ -3,17 +3,17 @@
   "sat": "2026-11-14",
   "sun": "2026-11-15",
   "label": "11/14(土)〜11/15(日)",
-  "generated": "2026-10-07T08:37:32+09:00",
-  "horizon_index": 3,
-  "publication_tier": "preview",
+  "generated": "2026-11-14T23:45:16.316780+00:00",
+  "horizon_index": 2,
+  "publication_tier": "full",
   "verification_file": "2026-11-14-verification.json",
   "run_file": "2026-11-14-run.json",
   "coverage": {
     "sources_checked": 69,
-    "candidate_count": 46,
+    "candidate_count": 138,
     "duplicate_removed": 0,
     "excluded_count": 5,
-    "published_count": 41,
+    "published_count": 133,
     "wards": [
       {
         "ward": "千代田区",
@@ -47,9 +47,9 @@
         "status": "checked",
         "queries": 3,
         "sources_checked": 3,
-        "candidate_count": 0,
-        "published_count": 0,
-        "note": "v1.5完全再探索。候補0件、掲載0件。"
+        "candidate_count": 3,
+        "published_count": 3,
+        "note": "v1.5完全再探索。候補0件、掲載0件。 2026-11-08 個別公式確認の非破壊追加1件（従来の検索計測は不変）。 2026-11-08 個別公式確認の非破壊追加1件（従来の検索計測は不変）。"
       },
       {
         "ward": "文京区",
@@ -65,8 +65,8 @@
         "status": "checked",
         "queries": 3,
         "sources_checked": 3,
-        "candidate_count": 5,
-        "published_count": 5,
+        "candidate_count": 10,
+        "published_count": 10,
         "note": "v1.5完全再探索。候補5件、掲載5件。"
       },
       {
@@ -74,8 +74,8 @@
         "status": "checked",
         "queries": 3,
         "sources_checked": 3,
-        "candidate_count": 3,
-        "published_count": 3,
+        "candidate_count": 4,
+        "published_count": 4,
         "note": "v1.5完全再探索。候補3件、掲載3件。"
       },
       {
@@ -83,8 +83,8 @@
         "status": "checked",
         "queries": 3,
         "sources_checked": 3,
-        "candidate_count": 5,
-        "published_count": 4,
+        "candidate_count": 6,
+        "published_count": 5,
         "note": "v1.5完全再探索。候補5件、掲載4件。 v1.6除外再審査反映。"
       },
       {
@@ -92,8 +92,8 @@
         "status": "checked",
         "queries": 3,
         "sources_checked": 3,
-        "candidate_count": 1,
-        "published_count": 1,
+        "candidate_count": 2,
+        "published_count": 2,
         "note": "v1.5完全再探索。候補1件、掲載1件。"
       },
       {
@@ -101,8 +101,8 @@
         "status": "checked",
         "queries": 3,
         "sources_checked": 3,
-        "candidate_count": 0,
-        "published_count": 0,
+        "candidate_count": 4,
+        "published_count": 4,
         "note": "v1.5完全再探索。候補0件、掲載0件。"
       },
       {
@@ -128,8 +128,8 @@
         "status": "checked",
         "queries": 3,
         "sources_checked": 3,
-        "candidate_count": 4,
-        "published_count": 3,
+        "candidate_count": 11,
+        "published_count": 10,
         "note": "v1.5完全再探索。候補4件、掲載3件。 v1.6除外再審査反映。"
       },
       {
@@ -137,17 +137,17 @@
         "status": "checked",
         "queries": 3,
         "sources_checked": 3,
-        "candidate_count": 2,
-        "published_count": 2,
-        "note": "v1.5完全再探索。候補0件、掲載0件。 2026-10-17固定サイトと主催者公式照合で2件を差分追加。"
+        "candidate_count": 23,
+        "published_count": 23,
+        "note": "v1.5完全再探索。候補0件、掲載0件。 2026-10-17固定サイトと主催者公式照合で2件を差分追加。 2026-11-08 個別公式確認の非破壊追加1件（従来の検索計測は不変）。 2026-11-08都公式・主催者の個別実測確認で色彩ワークショップを1件追加（旧探索計測は不変）。"
       },
       {
         "ward": "杉並区",
         "status": "checked",
         "queries": 3,
         "sources_checked": 3,
-        "candidate_count": 1,
-        "published_count": 1,
+        "candidate_count": 22,
+        "published_count": 22,
         "note": "v1.5完全再探索。候補0件、掲載0件。"
       },
       {
@@ -155,8 +155,8 @@
         "status": "checked",
         "queries": 3,
         "sources_checked": 3,
-        "candidate_count": 5,
-        "published_count": 4,
+        "candidate_count": 12,
+        "published_count": 11,
         "note": "v1.5完全再探索。候補4件、掲載3件。 v1.6除外再審査反映。"
       },
       {
@@ -164,8 +164,8 @@
         "status": "checked",
         "queries": 3,
         "sources_checked": 3,
-        "candidate_count": 0,
-        "published_count": 0,
+        "candidate_count": 3,
+        "published_count": 3,
         "note": "v1.5完全再探索。候補0件、掲載0件。"
       },
       {
@@ -173,8 +173,8 @@
         "status": "checked",
         "queries": 3,
         "sources_checked": 3,
-        "candidate_count": 0,
-        "published_count": 0,
+        "candidate_count": 2,
+        "published_count": 2,
         "note": "v1.5完全再探索。候補0件、掲載0件。"
       },
       {
@@ -182,17 +182,17 @@
         "status": "checked",
         "queries": 3,
         "sources_checked": 3,
-        "candidate_count": 1,
-        "published_count": 1,
-        "note": "v1.5完全再探索。候補0件、掲載0件。 2026-10-17固定サイトと主催者公式照合で1件を差分追加。"
+        "candidate_count": 7,
+        "published_count": 7,
+        "note": "v1.5完全再探索。候補0件、掲載0件。 2026-10-17固定サイトと主催者公式照合で1件を差分追加。 2026-11-08動物園主催者公式11/01告知で11/15 ZOOパークフェスタを1件追加。旧探索計測は不変。"
       },
       {
         "ward": "練馬区",
         "status": "checked",
         "queries": 3,
         "sources_checked": 3,
-        "candidate_count": 8,
-        "published_count": 7,
+        "candidate_count": 13,
+        "published_count": 12,
         "note": "v1.5完全再探索。候補8件、掲載6件。 v1.6除外再審査反映。"
       },
       {
@@ -200,8 +200,8 @@
         "status": "checked",
         "queries": 3,
         "sources_checked": 3,
-        "candidate_count": 0,
-        "published_count": 0,
+        "candidate_count": 3,
+        "published_count": 3,
         "note": "v1.5完全再探索。候補0件、掲載0件。"
       },
       {
@@ -218,8 +218,8 @@
         "status": "checked",
         "queries": 3,
         "sources_checked": 3,
-        "candidate_count": 0,
-        "published_count": 0,
+        "candidate_count": 2,
+        "published_count": 2,
         "note": "v1.5完全再探索。候補0件、掲載0件。"
       }
     ]
@@ -228,7 +228,19 @@
     "2026-11-14-events-01.json",
     "2026-11-14-events-carryover.json",
     "2026-11-14-events-manual-primary.json",
-    "2026-11-14-events-verified-continuity.json"
+    "2026-11-14-events-verified-continuity.json",
+    "2026-11-14-events-gap-recovery-20261108.json",
+    "2026-11-14-events-verified-omissions-20261108.json",
+    "2026-11-14-events-verified-zoo-20261108.json",
+    "2026-11-14-events-reviewed-nakano-20261113.json",
+    "2026-11-14-events-reviewed-hiromachi-20261113.json",
+    "2026-11-14-events-reviewed-community-20261113.json",
+    "2026-11-14-events-reviewed-backlog-20261114.json",
+    "2026-11-14-events-additional-primary-20261114.json",
+    "2026-11-14-events-non-tamemap-20261114.json",
+    "2026-11-14-events-non-tamemap-next-20261114.json",
+    "2026-11-14-events-all-non-tamemap-20261114.json",
+    "2026-11-14-events-aipaku-20261115.json"
   ],
   "events": []
 }

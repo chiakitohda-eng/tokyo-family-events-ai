@@ -1,0 +1,461 @@
+[
+  {
+    "id": "confirmed-20261226-nakano-wagakki",
+    "ward": "中野区",
+    "name": "子ども向け和楽器体験＆スペシャルコンサート（12月26日回）",
+    "url": "https://www.city.tokyo-nakano.lg.jp/kurashi/bunka/bunka/kodomowakamono_bunka/nakano_ninteijigyo/nintei04.html",
+    "official_url": "https://www.city.tokyo-nakano.lg.jp/kurashi/bunka/bunka/kodomowakamono_bunka/nakano_ninteijigyo/nintei04.html",
+    "source": "https://www.city.tokyo-nakano.lg.jp/kurashi/bunka/bunka/kodomowakamono_bunka/nakano_ninteijigyo/nintei04.html",
+    "image": "",
+    "period": "12/26",
+    "date_start": "2026-12-26",
+    "date_end": "2026-12-26",
+    "time": "10:00〜10:40 未就学児親子／10:50〜11:30 小中学生",
+    "venue": "中野区役所1階 シェアノマ",
+    "price": "2,000円（体験全4回とコンサート観覧込み。参加回数にかかわらず同額）",
+    "description": "三味線・箏・太鼓・尺八に触れる子ども向け体験。全4回の一部のみ参加しても2,000円の一律料金。12月26日は区役所で2つの対象年齢別枠を開催。",
+    "categories": [
+      "体験・ワークショップ",
+      "親子・地域体験"
+    ],
+    "indoor_outdoor": "",
+    "reservation": {
+      "required": true,
+      "note": "主催者の申込フォームから要事前申込。2026年9月18日〜2027年2月7日受付、先着・定員になり次第締切。未就学児は保護者同伴。"
+    },
+    "family_fit": {
+      "grade": "A",
+      "overall": "A",
+      "rubric_version": "family-fit-v2",
+      "reason": "未就学児親子と小中学生が伝統楽器を実際に演奏できる。先着予約で定員が少なく、1回参加でもコース料金が必要。",
+      "axes": {
+        "child_target": {
+          "grade": "A",
+          "reason": "未就学児親子と小中学生が伝統楽器を実際に演奏できる"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "未就学児親子と小中学生が伝統楽器を実際に演奏できる"
+        },
+        "age_fit": {
+          "grade": "A",
+          "reason": "未就学児親子と小中学生が伝統楽器を実際に演奏できる。対象の詳細は公式告知を参照。"
+        },
+        "stay_flexibility": {
+          "grade": "unknown",
+          "reason": "途中の出入りや参加時間の自由度は公式の個別開催案内では明記されていない。"
+        },
+        "burden": {
+          "grade": "B",
+          "reason": "先着予約で定員が少なく、1回参加でもコース料金が必要"
+        },
+        "cost": {
+          "grade": "B",
+          "reason": "2,000円（体験全4回とコンサート観覧込み。参加回数にかかわらず同額）"
+        },
+        "reservation": {
+          "grade": "B",
+          "reason": "主催者の申込フォームから要事前申込。2026年9月18日〜2027年2月7日受付、先着・定員になり次第締切。未就学児は保護者同伴。"
+        },
+        "family_value": {
+          "grade": "A",
+          "reason": "未就学児親子と小中学生が伝統楽器を実際に演奏できる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-17",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "child_program",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "未就学児親子と小中学生が伝統楽器を実際に演奏できる"
+        ],
+        "limitations": [
+          "先着予約で定員が少なく、1回参加でもコース料金が必要"
+        ],
+        "grade_comparison": "総合A：未就学児親子と小中学生が伝統楽器を実際に演奏できる。先着予約で定員が少なく、1回参加でもコース料金が必要。",
+        "unsupported_axes": [
+          "stay_flexibility"
+        ],
+        "evidence": [
+          {
+            "url": "https://www.city.tokyo-nakano.lg.jp/kurashi/bunka/bunka/kodomowakamono_bunka/nakano_ninteijigyo/nintei04.html",
+            "quote": "2026年12月26日（土曜日）",
+            "checked_at": "2026-11-17",
+            "sha256": "2c5c9c053e3363149abb480ba624fa87648eaea6b65a447ca79d457e6dfc87a8",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式または主催者名義の2026年掲載情報を取得。引用文字列だけのUTF-8 SHA-256。月別一覧の日付が必要な候補は別途 indexUrl に保存。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-17",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  },
+  {
+    "id": "tamemap-20261227-nakano-family-rhythm",
+    "ward": "中野区",
+    "name": "ファミリーリトミック（12月27日）",
+    "url": "https://pc.tamemap.net/1311401/event/160164?locale=ja",
+    "official_url": "https://pc.tamemap.net/1311401/event/160164?locale=ja",
+    "source": "https://pc.tamemap.net/1311401/event/160164?locale=ja",
+    "image": "",
+    "period": "12/27",
+    "date_start": "2026-12-27",
+    "date_end": "2026-12-27",
+    "time": "主催者の12月27日個別時刻は未取得（開催枠は申込時に確認）",
+    "venue": "広町みらい公園（中野区弥生町6丁目1-7）",
+    "price": "1,000円以上（掲載カテゴリ。正確な料金・人数条件は予約ページで要確認）",
+    "description": "親子でリズム遊びや楽器に触れる参加型リトミック。ためまっぷの2026年12月27日月別一覧に掲載、個別の開催時刻と予約枠は要確認。",
+    "categories": [
+      "体験・ワークショップ",
+      "親子・地域体験"
+    ],
+    "indoor_outdoor": "",
+    "reservation": {
+      "required": true,
+      "note": "主催者の公園申込サイトから要予約・先着順。通常は開催月の前月15日から受付開始。12月27日の空席は未確認。"
+    },
+    "family_fit": {
+      "grade": "A",
+      "overall": "A",
+      "rubric_version": "family-fit-v2",
+      "reason": "親子で音楽体験に参加できる公園指定管理者の企画。個別の12月27日開催時刻と予約空席が公式個別ページで未確認。",
+      "axes": {
+        "child_target": {
+          "grade": "A",
+          "reason": "親子で音楽体験に参加できる公園指定管理者の企画"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "親子で音楽体験に参加できる公園指定管理者の企画"
+        },
+        "age_fit": {
+          "grade": "B",
+          "reason": "親子で音楽体験に参加できる公園指定管理者の企画。対象の詳細は公式告知を参照。"
+        },
+        "stay_flexibility": {
+          "grade": "unknown",
+          "reason": "途中の出入りや参加時間の自由度は公式の個別開催案内では明記されていない。"
+        },
+        "burden": {
+          "grade": "B",
+          "reason": "個別の12月27日開催時刻と予約空席が公式個別ページで未確認"
+        },
+        "cost": {
+          "grade": "unknown",
+          "reason": "1,000円以上（掲載カテゴリ。正確な料金・人数条件は予約ページで要確認）"
+        },
+        "reservation": {
+          "grade": "B",
+          "reason": "主催者の公園申込サイトから要予約・先着順。通常は開催月の前月15日から受付開始。12月27日の空席は未確認。"
+        },
+        "family_value": {
+          "grade": "A",
+          "reason": "親子で音楽体験に参加できる公園指定管理者の企画"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-17",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "child_program",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "親子で音楽体験に参加できる公園指定管理者の企画"
+        ],
+        "limitations": [
+          "個別の12月27日開催時刻と予約空席が公式個別ページで未確認"
+        ],
+        "grade_comparison": "総合A：親子で音楽体験に参加できる公園指定管理者の企画。個別の12月27日開催時刻と予約空席が公式個別ページで未確認。",
+        "unsupported_axes": [
+          "stay_flexibility"
+        ],
+        "evidence": [
+          {
+            "url": "https://pc.tamemap.net/1311401/event/160164?locale=ja",
+            "quote": "笑顔があふれる音楽体験！季節のアクティビティで、親子でふれあいながら心と体を楽しく育みます。",
+            "checked_at": "2026-11-17",
+            "sha256": "7d758ff9566a8ca6c9d9d9eb13f54d948d4813c7b1b244e3206526f90c206316",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式または主催者名義の2026年掲載情報を取得。引用文字列だけのUTF-8 SHA-256。月別一覧の日付が必要な候補は別途 indexUrl に保存。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-17",
+      "calendar_index_url": "https://pc.tamemap.net/1311401/calendar/2026-12?lat=35.7073&level=5000&lng=139.675&locale=ja",
+      "source_claim": "announced",
+      "global_23_ward_source_audit_complete": false
+    }
+  },
+  {
+    "id": "tamemap-20261226-nakano-tomocchao",
+    "ward": "中野区",
+    "name": "ともっちゃお！ おやこdeひろば（12月26日）",
+    "url": "https://pc.tamemap.net/1311401/event/160639?locale=ja",
+    "official_url": "https://pc.tamemap.net/1311401/event/160639?locale=ja",
+    "source": "https://pc.tamemap.net/1311401/event/160639?locale=ja",
+    "image": "",
+    "period": "12/26",
+    "date_start": "2026-12-26",
+    "date_end": "2026-12-26",
+    "time": "13:00〜15:00／15:00〜17:00（各回8名まで）",
+    "venue": "遊びのひろば ゆるナカふぇ（中野区）",
+    "price": "参加無料。延長30分500円、追加ドリンクは別料金",
+    "description": "日本の方も外国の方も参加できる親子の遊び・交流企画。木のおもちゃ、絵、手形アートなどの体験オプションがある。",
+    "categories": [
+      "体験・ワークショップ",
+      "親子・地域体験"
+    ],
+    "indoor_outdoor": "",
+    "reservation": {
+      "required": true,
+      "note": "前日までの予約制。2026年12月26日の予定は主催者名義の投稿に明記。ただし12月26日個別の受付枠・空席は未確認。"
+    },
+    "family_fit": {
+      "grade": "A",
+      "overall": "A",
+      "rubric_version": "family-fit-v2",
+      "reason": "親子でおもちゃと国際交流・アートを楽しめる主催者告知の企画。事前予約必須で、12月26日個別の空席・申込期限は未取得。",
+      "axes": {
+        "child_target": {
+          "grade": "A",
+          "reason": "親子でおもちゃと国際交流・アートを楽しめる主催者告知の企画"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "親子でおもちゃと国際交流・アートを楽しめる主催者告知の企画"
+        },
+        "age_fit": {
+          "grade": "B",
+          "reason": "親子でおもちゃと国際交流・アートを楽しめる主催者告知の企画。対象の詳細は公式告知を参照。"
+        },
+        "stay_flexibility": {
+          "grade": "unknown",
+          "reason": "途中の出入りや参加時間の自由度は公式の個別開催案内では明記されていない。"
+        },
+        "burden": {
+          "grade": "B",
+          "reason": "事前予約必須で、12月26日個別の空席・申込期限は未取得"
+        },
+        "cost": {
+          "grade": "A",
+          "reason": "参加無料。延長30分500円、追加ドリンクは別料金"
+        },
+        "reservation": {
+          "grade": "B",
+          "reason": "前日までの予約制。2026年12月26日の予定は主催者名義の投稿に明記。ただし12月26日個別の受付枠・空席は未確認。"
+        },
+        "family_value": {
+          "grade": "A",
+          "reason": "親子でおもちゃと国際交流・アートを楽しめる主催者告知の企画"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-17",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "child_program",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "親子でおもちゃと国際交流・アートを楽しめる主催者告知の企画"
+        ],
+        "limitations": [
+          "事前予約必須で、12月26日個別の空席・申込期限は未取得"
+        ],
+        "grade_comparison": "総合A：親子でおもちゃと国際交流・アートを楽しめる主催者告知の企画。事前予約必須で、12月26日個別の空席・申込期限は未取得。",
+        "unsupported_axes": [
+          "stay_flexibility"
+        ],
+        "evidence": [
+          {
+            "url": "https://pc.tamemap.net/1311401/event/160639?locale=ja",
+            "quote": "9/19（土）・10/24（土）・11/28（土）・12/26（土）",
+            "checked_at": "2026-11-17",
+            "sha256": "591e0c20050a767ea138680a086c964a3aa67327e6a565d56f7d395fc66a6924",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式または主催者名義の2026年掲載情報を取得。引用文字列だけのUTF-8 SHA-256。月別一覧の日付が必要な候補は別途 indexUrl に保存。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-17",
+      "calendar_index_url": "https://pc.tamemap.net/1311401/calendar/2026-12?lat=35.7073&level=5000&lng=139.675&locale=ja",
+      "source_claim": "announced",
+      "global_23_ward_source_audit_complete": false
+    }
+  },
+  {
+    "id": "tamemap-20261227-nakano-mama-hot-kitchen",
+    "ward": "中野区",
+    "name": "ママほっとキッチン（12月27日）",
+    "url": "https://nakanoshakyo.com/nakanoinfo/result/?did=13971",
+    "official_url": "https://nakanoshakyo.com/nakanoinfo/result/?did=13971",
+    "source": "https://nakanoshakyo.com/nakanoinfo/result/?did=13971",
+    "image": "",
+    "period": "12/27",
+    "date_start": "2026-12-27",
+    "date_end": "2026-12-27",
+    "time": "通常11:30〜14:00（売り切れ終了。12/27個別時刻は要確認）",
+    "venue": "桃園区民活動センター2階 調理室（中野区中央4-57-1）",
+    "price": "通常：18歳以下無料、大人300円（12/27の例外有無は未確認）",
+    "description": "子どもが安心して食事できる地域の子ども食堂。中野区社会福祉協議会は毎月第4日曜日と案内し、ためまっぷ2026年12月27日の月別一覧にも掲載。個別の時間・申込条件や年末の変更は未確認。",
+    "categories": [
+      "親子・地域体験",
+      "子ども食堂"
+    ],
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "中野区社協の毎月第4日曜開催・子ども料金・会場を確認し、ためまっぷ2026年12月27日一覧と突き合わせた。2026年当日限定の時刻変更・参加方法は未確認。",
+      "axes": {
+        "child_target": {
+          "grade": "A",
+          "reason": "中野区社会福祉協議会の案内は乳幼児親子・子ども対象の子ども食堂と記載"
+        },
+        "interactivity": {
+          "grade": "B",
+          "reason": "子どもや家族が会場で食事をとり交流できる"
+        },
+        "age_fit": {
+          "grade": "A",
+          "reason": "社協の案内では18歳以下の子どもを対象としている"
+        },
+        "stay_flexibility": {
+          "grade": "unknown",
+          "reason": "滞在時間・途中出入り条件は個別の2026年12月27日分で未確認"
+        },
+        "burden": {
+          "grade": "B",
+          "reason": "食事は売り切れ終了であり、2026年当日の提供・開催内容に変更の可能性"
+        },
+        "cost": {
+          "grade": "A",
+          "reason": "社協の定期開催案内では18歳以下無料、大人300円。12月27日個別の変更は未確認"
+        },
+        "reservation": {
+          "grade": "unknown",
+          "reason": "社協の概要に申込方法の明記がなく、個別2026年12月27日の案内を未取得"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "子どもと家族向けの地域の食事・交流の場"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-17",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "child_program",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "子ども食堂の対象・通常料金・定期開催日と2026年12月27日の日付を公的団体案内・当年索引から照合"
+        ],
+        "limitations": [
+          "12月27日個別の時刻・予約方法・開催変更は取得できず、現地参加前の確認を推奨",
+          "2026年当日個別の時刻/参加条件が未確認であり、過去の定期案内と月別索引の突合に限る。"
+        ],
+        "grade_comparison": "総合B：子ども歓迎の地域食堂。日時は当年の掲載確認済みだが個別条件を確約できない。",
+        "unsupported_axes": [
+          "stay_flexibility",
+          "reservation"
+        ],
+        "evidence": [
+          {
+            "url": "https://nakanoshakyo.com/nakanoinfo/result/?did=13971",
+            "quote": "毎月第4日曜日 11:30～14:00（売り切れ終了）",
+            "checked_at": "2026-11-17",
+            "sha256": "9a22ef3332b658c355029dcac2a70ceee76788efcec78256569c7d94c5e33144",
+            "hash_scope": "exact_utf8_quote",
+            "note": "中野区社会福祉協議会の定期開催案内。掲載日2023年の継続案内であり2026年当日の変更を否定するものではない"
+          },
+          {
+            "url": "https://nakanoshakyo.com/nakanoinfo/result/?did=13971",
+            "quote": "こども(18歳以下)無料、大人300円",
+            "checked_at": "2026-11-17",
+            "sha256": "05a723a1a0e6a127b5474725de1ce3ada8f21912f4140897be06e52f77e3b3a3",
+            "hash_scope": "exact_utf8_quote",
+            "note": "社協に記載された通常の料金。12月27日の個別例外未確認"
+          }
+        ]
+      }
+    },
+    "reservation": {
+      "required": null,
+      "note": "個別の2026年12月27日の申込方法・予約可否は未確認。開催前に主催者へ確認"
+    },
+    "indoor_outdoor": "屋内",
+    "ai": {
+      "checked_at": "2026-11-17",
+      "confidence": "medium",
+      "discovery_query": "中野区社会福祉協議会の定期日・年内のためまっぷ12月27日掲載を個別突合"
+    },
+    "discovery_sources": [
+      {
+        "channel": "ai_cross",
+        "kind": "community_social_welfare_official",
+        "url": "https://nakanoshakyo.com/nakanoinfo/result/?did=13971"
+      },
+      {
+        "channel": "ai_cross",
+        "kind": "dated_month_calendar_index",
+        "url": "https://pc.tamemap.net/1311401/calendar/2026-12?lat=35.7073&level=5000&lng=139.675&locale=ja"
+      }
+    ],
+    "audit": {
+      "checked_on": "2026-11-17",
+      "calendar_index_url": "https://pc.tamemap.net/1311401/calendar/2026-12?lat=35.7073&level=5000&lng=139.675&locale=ja",
+      "source_claim": "announced_date_confirmed_individual_details_partial",
+      "global_23_ward_source_audit_complete": false
+    }
+  }
+]

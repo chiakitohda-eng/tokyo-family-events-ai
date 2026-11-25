@@ -1,0 +1,292 @@
+[
+  {
+    "id": "verified-20261205-meguro-ishibumi-tudoi-papa-fureai",
+    "ward": "目黒区",
+    "name": "碑住区センター児童館 乳幼児のつどい「パパといっしょにふれあいあそび」",
+    "url": "https://www.city.meguro.tokyo.jp/houkago/event/ishibumi-tudoi1205.html",
+    "official_url": "https://www.city.meguro.tokyo.jp/houkago/event/ishibumi-tudoi1205.html",
+    "source": "https://www.city.meguro.tokyo.jp/houkago/event/ishibumi-tudoi1205.html",
+    "image": "https://www.city.meguro.tokyo.jp/images/20660/ishibumi1205.jpg",
+    "period": "12/5(土)",
+    "date_start": "2026-12-05",
+    "date_end": "2026-12-05",
+    "time": "10:30〜11:30",
+    "venue": "碑住区センター児童館（目黒区碑文谷二丁目16番6号）",
+    "price": "参加費の記載なし",
+    "description": "体を使ったあそびや絵本の読み語りなど、パパならではのふれあいあそびと、パパ同士の座談会。令和8年4月2日以降生まれの乳児から1歳児までとその保護者が対象で、定員10組（先着順）。",
+    "categories": [
+      "親子",
+      "体験・ワークショップ"
+    ],
+    "indoor_outdoor": "屋内",
+    "reservation": {
+      "required": true,
+      "note": "11/1(日)9:00から受付開始。開館時間中に電話（03-3711-6791）または児童館受付へ。定員10組（先着順）。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "パパと乳児〜1歳児がふれあって遊ぶ児童館の会。土曜に参加できる。定員10組の先着順で、電話または児童館で申し込む。参加費の記載はない。",
+      "axes": {
+        "child_target": {
+          "grade": "A",
+          "reason": "乳児から1歳児とその保護者（パパ）が対象"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "ふれあいあそびと絵本の読み語り"
+        },
+        "age_fit": {
+          "grade": "A",
+          "reason": "対象は乳児〜1歳児と明記"
+        },
+        "stay_flexibility": {
+          "grade": "B",
+          "reason": "10:30〜11:30の1時間"
+        },
+        "burden": {
+          "grade": "C",
+          "reason": "定員10組の先着順で、電話などで申込"
+        },
+        "cost": {
+          "grade": "unknown",
+          "reason": "参加費の記載がない"
+        },
+        "reservation": {
+          "grade": "C",
+          "reason": "電話または来館で申込。定員が少ない"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "パパと子どものふれあいと、パパ同士の交流"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-22",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "child_program",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "土曜開催で、パパが参加しやすい",
+          "乳児〜1歳児向けで、座談会もある"
+        ],
+        "limitations": [
+          "定員10組の先着順で、満員の可能性がある",
+          "参加費の記載がない"
+        ],
+        "grade_comparison": "総合B：12/5(土)10:30〜11:30、パパと乳児〜1歳児のふれあいあそび。定員10組の先着順で、参加費の記載はない。",
+        "unsupported_axes": [
+          "cost"
+        ],
+        "evidence": [
+          {
+            "url": "https://www.city.meguro.tokyo.jp/houkago/event/ishibumi-tudoi1205.html",
+            "quote": "乳幼児のつどい「パパといっしょにふれあいあそび」",
+            "checked_at": "2026-11-22",
+            "sha256": "098d0e65d32a49bf036d86e71e8b75502a982d2d9df326f05e9a7a059ae4f28d",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-22にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.meguro.tokyo.jp/houkago/event/ishibumi-tudoi1205.html",
+            "quote": "令和8年12月5日（土曜日）午前10時30分から午前11時30分まで",
+            "checked_at": "2026-11-22",
+            "sha256": "2a58d93c7cd1989ac0772bc505d2054fd14e3bfff5178d8265a9b41273718df8",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-22にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.meguro.tokyo.jp/houkago/event/ishibumi-tudoi1205.html",
+            "quote": "碑住区センター児童館（目黒区碑文谷二丁目16番6号）",
+            "checked_at": "2026-11-22",
+            "sha256": "53d8764805f6a33a4549a97070caddd133319dd0dc21a4099f510d2398750381",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-22にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.meguro.tokyo.jp/houkago/event/ishibumi-tudoi1205.html",
+            "quote": "令和8年4月2日以降生まれの乳児から1歳児までとその保護者",
+            "checked_at": "2026-11-22",
+            "sha256": "70e68e0a613c89a677bb08476a982912d42ac5edf5a55a9d1611f1afe87a3fce",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-22にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.meguro.tokyo.jp/houkago/event/ishibumi-tudoi1205.html",
+            "quote": "定員10組（先着順）参加方法",
+            "checked_at": "2026-11-22",
+            "sha256": "8dd24aafd82c5362a0bb8fcd55e77d8474123458ad10a841d054cabfd5e8b35e",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-22にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.meguro.tokyo.jp/houkago/event/ishibumi-tudoi1205.html",
+            "quote": "体を使ったあそびや絵本の読み語りなど、パパならではの子どもとのふれあいあそびと、パパ同士の座談会。",
+            "checked_at": "2026-11-22",
+            "sha256": "588c0cc2a8800b108f49793a95440e05c589cf013f18cf18ded36decb4e3b7a2",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-22にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-22",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  },
+  {
+    "id": "verified-20261205-edogawa-mirai-xmas-tree-denshi",
+    "ward": "江戸川区",
+    "name": "クリスマスツリーをつくろう（江戸川区子ども未来館）",
+    "url": "https://www.city.edogawa.tokyo.jp/event/2612christmas.html",
+    "official_url": "https://www.city.edogawa.tokyo.jp/event/2612christmas.html",
+    "source": "https://www.city.edogawa.tokyo.jp/event/2612christmas.html",
+    "image": "https://www.city.edogawa.tokyo.jp/images/75109/1205christmas.jpg",
+    "period": "12/5(土)",
+    "date_start": "2026-12-05",
+    "date_end": "2026-12-05",
+    "time": "14:00〜16:00",
+    "venue": "子ども未来館（江戸川区篠崎町三丁目12番10号）",
+    "price": "無料",
+    "description": "電子部品をはんだごてで組み立てて、電子クリスマスツリーを作る講座。小学校4年生から6年生が対象。定員9人の抽選で、申込はウェブサイトまたは往復はがき（ウェブは11/24まで）。",
+    "categories": [
+      "体験・ワークショップ",
+      "科学・ものづくり"
+    ],
+    "indoor_outdoor": "屋内",
+    "reservation": {
+      "required": true,
+      "note": "申込必要・定員9人（抽選）。申込期間は11/13〜11/24（ウェブサイトのしめきり）。往復はがきはしめきり前日までに到着。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "小学4〜6年生が、はんだごてで電子部品を組み立てて電子ツリーを作る講座。費用は無料だが、定員9人の抽選で、申込は11/24まで。",
+      "axes": {
+        "child_target": {
+          "grade": "A",
+          "reason": "小学校4年生から6年生が対象"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "はんだごてで電子部品を組み立てる"
+        },
+        "age_fit": {
+          "grade": "A",
+          "reason": "対象は小学4〜6年生と明記"
+        },
+        "stay_flexibility": {
+          "grade": "B",
+          "reason": "14:00〜16:00の2時間"
+        },
+        "burden": {
+          "grade": "C",
+          "reason": "抽選で、申込は11/24まで"
+        },
+        "cost": {
+          "grade": "A",
+          "reason": "費用は無料"
+        },
+        "reservation": {
+          "grade": "C",
+          "reason": "申込必要で、定員9人の抽選"
+        },
+        "family_value": {
+          "grade": "A",
+          "reason": "ものづくりを通して電気の仕組みを学べる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-22",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "child_program",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "費用は無料",
+          "電子工作でものづくりを体験できる"
+        ],
+        "limitations": [
+          "定員9人の抽選で、申込は11/24まで",
+          "対象は小学4〜6年生に限られる"
+        ],
+        "grade_comparison": "総合B：12/5(土)14:00〜16:00、小学4〜6年生の電子工作。無料だが、抽選（9人）で申込は11/24まで。",
+        "unsupported_axes": [],
+        "evidence": [
+          {
+            "url": "https://www.city.edogawa.tokyo.jp/event/2612christmas.html",
+            "quote": "クリスマスツリーをつくろう",
+            "checked_at": "2026-11-22",
+            "sha256": "80a53d99f0497eb649472bdfbdb75215ef818bfcad3696f5823141013f64dc1b",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-22にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.edogawa.tokyo.jp/event/2612christmas.html",
+            "quote": "2026年12月5日（土曜日）14時00分から16時00分",
+            "checked_at": "2026-11-22",
+            "sha256": "093ff3620560a6b3c838a0fec2a7829cfbe819b21595b9c5fff080f27218b628",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-22にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.edogawa.tokyo.jp/event/2612christmas.html",
+            "quote": "実際に電子部品をはんだごてで組み立て、電子クリスマスツリーを作ってみましょう。",
+            "checked_at": "2026-11-22",
+            "sha256": "f78bdaa6090bd0ccc2f585f285f4a1599ed29177e9a4ca4f92f1425f267c19f4",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-22にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.edogawa.tokyo.jp/event/2612christmas.html",
+            "quote": "小学校4年生から6年生まで定員9人（抽選）費用無料",
+            "checked_at": "2026-11-22",
+            "sha256": "d588d0ae5223bdcd4627c786c67f04657fa9596db6b26b719991f78f97a5e8e4",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-22にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.edogawa.tokyo.jp/event/2612christmas.html",
+            "quote": "2026年11月13日（金曜日）から2026年11月24日（火曜日）",
+            "checked_at": "2026-11-22",
+            "sha256": "997cb8cdb25ebfeb02ff3072028dcf70bbb336fa461751f7e027b089998d9cff",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-22にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-22",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  }
+]

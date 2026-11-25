@@ -1,0 +1,1959 @@
+[
+  {
+    "id": "verified-20261121-adachi-galaxcity-hoshi-nov21",
+    "ward": "足立区",
+    "name": "星を見る会（月と土星を見よう）",
+    "url": "https://www.galaxcity.jp/future-creation-hall/event/20261121-009201.html",
+    "official_url": "https://www.galaxcity.jp/future-creation-hall/event/20261121-009201.html",
+    "source": "https://www.galaxcity.jp/future-creation-hall/event/20261121-009201.html",
+    "image": "",
+    "period": "11/21(土)",
+    "date_start": "2026-11-21",
+    "date_end": "2026-11-21",
+    "time": "18:30〜20:00",
+    "venue": "ギャラクシティ ちゃれんじコート",
+    "price": "無料",
+    "description": "「月と土星を見よう」をテーマに、満月より少し細い月と土星を観察する会。雨天時はプラネタリウムで星空を解説。事前申込は定員に達し、キャンセル待ち受付中。",
+    "categories": [
+      "天体観測",
+      "体験"
+    ],
+    "indoor_outdoor": "屋外",
+    "reservation": {
+      "required": true,
+      "note": "事前申込制。定員30名に達し、キャンセル待ちを受付中。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "「月と土星を見よう」をテーマに、満月より少し細い月と土星を観察する会。雨天時はプラネタリウムで星空を解説。事前申込は定員に達し、キャンセル待ち受付中。無料。事前の申込が必要。",
+      "axes": {
+        "child_target": {
+          "grade": "B",
+          "reason": "対象にどなたでも参加でき、未就学児は保護者同伴と明記"
+        },
+        "interactivity": {
+          "grade": "B",
+          "reason": "観察と解説が中心"
+        },
+        "age_fit": {
+          "grade": "B",
+          "reason": "年齢制限がなくどなたでも参加できる"
+        },
+        "stay_flexibility": {
+          "grade": "B",
+          "reason": "18:30〜20:00"
+        },
+        "burden": {
+          "grade": "C",
+          "reason": "定員30名で満員。キャンセル待ち"
+        },
+        "cost": {
+          "grade": "A",
+          "reason": "無料"
+        },
+        "reservation": {
+          "grade": "C",
+          "reason": "事前申込制。定員30名に達し、キャンセル待ちを受付中。"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "月と土星を観察して星空解説を聞ける"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-20",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "all_ages",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "月と土星を観察",
+          "雨天時はプラネタリウム"
+        ],
+        "limitations": [
+          "定員30名で満員（キャンセル待ち）",
+          "夜の開催"
+        ],
+        "grade_comparison": "総合B：11/21(土)のギャラクシティ ちゃれんじコートで18:30〜20:00の開催（星を見る会（月と土星を見よう））。無料。事前申込が必要。",
+        "unsupported_axes": [],
+        "evidence": [
+          {
+            "url": "https://www.galaxcity.jp/future-creation-hall/event/20261121-009201.html",
+            "quote": "「月と土星を見よう」のテーマで、この日、満月より少し細い月と土星を観察しましょう。",
+            "checked_at": "2026-11-20",
+            "sha256": "153139e786f50e869af2c0f0001b8819801044ea9575ec9151f3c960577a3cbd",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "ギャラクシティイベントページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.galaxcity.jp/future-creation-hall/event/20261121-009201.html",
+            "quote": "日時2026年11月21日（土）18：30～20：00",
+            "checked_at": "2026-11-20",
+            "sha256": "e1364a5100e73ff7bce15219ab7a06f1471bf295aa5b9474db5cf5523b14d111",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "ギャラクシティイベントページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.galaxcity.jp/future-creation-hall/event/20261121-009201.html",
+            "quote": "場所ちゃれんじコート※集合場所：まるちたいけんドーム入口",
+            "checked_at": "2026-11-20",
+            "sha256": "74339cf2069986664897045f470ae8c6fa5a51aa28f6ee26ca16560a1cf1e470",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "ギャラクシティイベントページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.galaxcity.jp/future-creation-hall/event/20261121-009201.html",
+            "quote": "対象どなたでも（中学生以下は保護者同伴）",
+            "checked_at": "2026-11-20",
+            "sha256": "177b12f279d54342a8d3fb183984971ac7372603a1477fd3e79214dbf206ae74",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "ギャラクシティイベントページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.galaxcity.jp/future-creation-hall/event/20261121-009201.html",
+            "quote": "料金無料申込事前申込制※定員に達しました。キャンセル待ちを受付中です。",
+            "checked_at": "2026-11-20",
+            "sha256": "36be4e84ba9913c529d82e50fe30122c5510e4f70e6b2bef7c0a5684193b60e4",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "ギャラクシティイベントページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-20",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  },
+  {
+    "id": "verified-20261121-adachi-galaxcity-starday-mini",
+    "ward": "足立区",
+    "name": "スターデイズ「ミニプラネタリウム投影会」",
+    "url": "https://www.galaxcity.jp/future-creation-hall/event/20261122-009327.html",
+    "official_url": "https://www.galaxcity.jp/future-creation-hall/event/20261122-009327.html",
+    "source": "https://www.galaxcity.jp/future-creation-hall/event/20261122-009327.html",
+    "image": "https://www.galaxcity.jp/future-creation-hall/assets_c/2026/08/e2e99bd5e2d714ec2c698dfeb210dbcb168ce0e4-thumb-976x550-17758.jpg",
+    "period": "11/21(土)",
+    "date_start": "2026-11-21",
+    "date_end": "2026-11-21",
+    "time": "①10:00〜10:20　②11:00〜11:20 ③13:00〜13:20　④14:00〜14:20 ⑤15:00〜15:20",
+    "venue": "ギャラクシティ ホワイトあとりえ",
+    "price": "無料",
+    "description": "プラネタリウムで季節の星々の解説と映像を楽しむ短い投影会。当日整理券で参加。",
+    "categories": [
+      "プラネタリウム",
+      "体験"
+    ],
+    "indoor_outdoor": "屋内",
+    "reservation": {
+      "required": false,
+      "note": "当日9:00から会場で整理券を配布（各回の定員あり）。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "プラネタリウムで季節の星々の解説と映像を楽しむ短い投影会。当日整理券で参加。無料。申込不要で当日参加できる。",
+      "axes": {
+        "child_target": {
+          "grade": "B",
+          "reason": "対象にどなたでも参加でき、未就学児は保護者同伴と明記"
+        },
+        "interactivity": {
+          "grade": "B",
+          "reason": "投影を鑑賞する"
+        },
+        "age_fit": {
+          "grade": "B",
+          "reason": "年齢制限がなくどなたでも参加できる"
+        },
+        "stay_flexibility": {
+          "grade": "A",
+          "reason": "1回20分と短く、気軽に参加できる"
+        },
+        "burden": {
+          "grade": "B",
+          "reason": "当日9:00から整理券を配布。各回20名"
+        },
+        "cost": {
+          "grade": "A",
+          "reason": "無料"
+        },
+        "reservation": {
+          "grade": "A",
+          "reason": "当日参加（申込不要）"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "季節の星の解説と映像を鑑賞する"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-20",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "all_ages",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "20分の短い投影",
+          "無料"
+        ],
+        "limitations": [
+          "各回20名",
+          "整理券が必要"
+        ],
+        "grade_comparison": "総合B：11/21(土)のギャラクシティ ホワイトあとりえで①10:00〜10:20　②11:00〜11:20 ③13:00〜13:20　④14:00〜14:20 ⑤15:00〜15:20の開催（スターデイズ「ミニプラネタリウム投影会」）。無料。申込不要で当日参加できる。",
+        "unsupported_axes": [],
+        "evidence": [
+          {
+            "url": "https://www.galaxcity.jp/future-creation-hall/event/20261122-009327.html",
+            "quote": "プラネタリウムで季節の星々をはじめとした星の解説および綺麗な映像を楽しみます。",
+            "checked_at": "2026-11-20",
+            "sha256": "96648208774e98c1b0519b3c0d81d0d2971324d6876ae19d76758a5ac6b1f1b0",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "ギャラクシティイベントページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.galaxcity.jp/future-creation-hall/event/20261122-009327.html",
+            "quote": "日時2026年11月21日（土）・22日（日）①10：00～10：20　②11：00～11：20",
+            "checked_at": "2026-11-20",
+            "sha256": "17b1337bc348d6294fa6079ab46f426141cb68bf7de8b0370add0a9c18b468c4",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "ギャラクシティイベントページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.galaxcity.jp/future-creation-hall/event/20261122-009327.html",
+            "quote": "場所ホワイトあとりえ対象どなたでも（未就学児は保護者同伴）",
+            "checked_at": "2026-11-20",
+            "sha256": "87693924c2e6dbfc03d3b9d35e69075b99ecf03c37aab128c35e972abab679d6",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "ギャラクシティイベントページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.galaxcity.jp/future-creation-hall/event/20261122-009327.html",
+            "quote": "対象どなたでも（未就学児は保護者同伴）",
+            "checked_at": "2026-11-20",
+            "sha256": "51172dcb77863fd9240eaab88add59f7e932f831c717d86d4a1375caaff13d54",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "ギャラクシティイベントページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.galaxcity.jp/future-creation-hall/event/20261122-009327.html",
+            "quote": "料金無料申込当日整理券※当日9：00より会場にてすべての回の整理券配布",
+            "checked_at": "2026-11-20",
+            "sha256": "338045b44adb0cf0b2bb3556bf0826dab15b63531170560f925346a5e1c855de",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "ギャラクシティイベントページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-20",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  },
+  {
+    "id": "verified-20261122-adachi-galaxcity-starday-mini",
+    "ward": "足立区",
+    "name": "スターデイズ「ミニプラネタリウム投影会」",
+    "url": "https://www.galaxcity.jp/future-creation-hall/event/20261122-009327.html",
+    "official_url": "https://www.galaxcity.jp/future-creation-hall/event/20261122-009327.html",
+    "source": "https://www.galaxcity.jp/future-creation-hall/event/20261122-009327.html",
+    "image": "https://www.galaxcity.jp/future-creation-hall/assets_c/2026/08/e2e99bd5e2d714ec2c698dfeb210dbcb168ce0e4-thumb-976x550-17758.jpg",
+    "period": "11/22(日)",
+    "date_start": "2026-11-22",
+    "date_end": "2026-11-22",
+    "time": "①10:00〜10:20　②11:00〜11:20 ③13:00〜13:20　④14:00〜14:20 ⑤15:00〜15:20",
+    "venue": "ギャラクシティ ホワイトあとりえ",
+    "price": "無料",
+    "description": "プラネタリウムで季節の星々の解説と映像を楽しむ短い投影会。当日整理券で参加。",
+    "categories": [
+      "プラネタリウム",
+      "体験"
+    ],
+    "indoor_outdoor": "屋内",
+    "reservation": {
+      "required": false,
+      "note": "当日9:00から会場で整理券を配布（各回の定員あり）。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "プラネタリウムで季節の星々の解説と映像を楽しむ短い投影会。当日整理券で参加。無料。申込不要で当日参加できる。",
+      "axes": {
+        "child_target": {
+          "grade": "B",
+          "reason": "対象にどなたでも参加でき、未就学児は保護者同伴と明記"
+        },
+        "interactivity": {
+          "grade": "B",
+          "reason": "投影を鑑賞する"
+        },
+        "age_fit": {
+          "grade": "B",
+          "reason": "年齢制限がなくどなたでも参加できる"
+        },
+        "stay_flexibility": {
+          "grade": "A",
+          "reason": "1回20分と短く、気軽に参加できる"
+        },
+        "burden": {
+          "grade": "B",
+          "reason": "当日9:00から整理券を配布。各回20名"
+        },
+        "cost": {
+          "grade": "A",
+          "reason": "無料"
+        },
+        "reservation": {
+          "grade": "A",
+          "reason": "当日参加（申込不要）"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "季節の星の解説と映像を鑑賞する"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-20",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "all_ages",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "20分の短い投影",
+          "無料"
+        ],
+        "limitations": [
+          "各回20名",
+          "整理券が必要"
+        ],
+        "grade_comparison": "総合B：11/22(日)のギャラクシティ ホワイトあとりえで①10:00〜10:20　②11:00〜11:20 ③13:00〜13:20　④14:00〜14:20 ⑤15:00〜15:20の開催（スターデイズ「ミニプラネタリウム投影会」）。無料。申込不要で当日参加できる。",
+        "unsupported_axes": [],
+        "evidence": [
+          {
+            "url": "https://www.galaxcity.jp/future-creation-hall/event/20261122-009327.html",
+            "quote": "プラネタリウムで季節の星々をはじめとした星の解説および綺麗な映像を楽しみます。",
+            "checked_at": "2026-11-20",
+            "sha256": "96648208774e98c1b0519b3c0d81d0d2971324d6876ae19d76758a5ac6b1f1b0",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "ギャラクシティイベントページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.galaxcity.jp/future-creation-hall/event/20261122-009327.html",
+            "quote": "日時2026年11月21日（土）・22日（日）①10：00～10：20　②11：00～11：20",
+            "checked_at": "2026-11-20",
+            "sha256": "17b1337bc348d6294fa6079ab46f426141cb68bf7de8b0370add0a9c18b468c4",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "ギャラクシティイベントページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.galaxcity.jp/future-creation-hall/event/20261122-009327.html",
+            "quote": "場所ホワイトあとりえ対象どなたでも（未就学児は保護者同伴）",
+            "checked_at": "2026-11-20",
+            "sha256": "87693924c2e6dbfc03d3b9d35e69075b99ecf03c37aab128c35e972abab679d6",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "ギャラクシティイベントページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.galaxcity.jp/future-creation-hall/event/20261122-009327.html",
+            "quote": "対象どなたでも（未就学児は保護者同伴）",
+            "checked_at": "2026-11-20",
+            "sha256": "51172dcb77863fd9240eaab88add59f7e932f831c717d86d4a1375caaff13d54",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "ギャラクシティイベントページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.galaxcity.jp/future-creation-hall/event/20261122-009327.html",
+            "quote": "料金無料申込当日整理券※当日9：00より会場にてすべての回の整理券配布",
+            "checked_at": "2026-11-20",
+            "sha256": "338045b44adb0cf0b2bb3556bf0826dab15b63531170560f925346a5e1c855de",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "ギャラクシティイベントページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-20",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  },
+  {
+    "id": "verified-20261121-adachi-galaxcity-starday-seiza",
+    "ward": "足立区",
+    "name": "スターデイズ「星座早見盤を作って学ぼう！」",
+    "url": "https://www.galaxcity.jp/future-creation-hall/event/20261122-009330.html",
+    "official_url": "https://www.galaxcity.jp/future-creation-hall/event/20261122-009330.html",
+    "source": "https://www.galaxcity.jp/future-creation-hall/event/20261122-009330.html",
+    "image": "https://www.galaxcity.jp/future-creation-hall/assets_c/2026/08/6b617d3ed1f93879c9a2eb20590033077d737ab8-thumb-976x550-17757.jpg",
+    "period": "11/21(土)",
+    "date_start": "2026-11-21",
+    "date_end": "2026-11-21",
+    "time": "①10:15〜10:50　②13:15〜13:50 ③14:15〜14:50　④15:15〜15:50",
+    "venue": "ギャラクシティ ホワイトあとりえ",
+    "price": "無料",
+    "description": "星座早見盤をつくり、実際に使って今夜見える星空や見たい星の時期を確かめる体験。",
+    "categories": [
+      "天体・宇宙",
+      "工作"
+    ],
+    "indoor_outdoor": "屋内",
+    "reservation": {
+      "required": false,
+      "note": "当日9:00から会場で整理券を配布（各回の定員あり）。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "星座早見盤をつくり、実際に使って今夜見える星空や見たい星の時期を確かめる体験。無料。申込不要で当日参加できる。",
+      "axes": {
+        "child_target": {
+          "grade": "B",
+          "reason": "対象にどなたでも参加でき、未就学児は保護者同伴と明記"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "自分で工作して使う"
+        },
+        "age_fit": {
+          "grade": "B",
+          "reason": "年齢制限がなくどなたでも参加できる"
+        },
+        "stay_flexibility": {
+          "grade": "A",
+          "reason": "1回35分程度"
+        },
+        "burden": {
+          "grade": "B",
+          "reason": "当日9:00から整理券を配布。各回10名"
+        },
+        "cost": {
+          "grade": "A",
+          "reason": "無料"
+        },
+        "reservation": {
+          "grade": "A",
+          "reason": "当日参加（申込不要）"
+        },
+        "family_value": {
+          "grade": "A",
+          "reason": "星座早見盤をつくって使い方を確かめる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-20",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "all_ages",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "星座早見盤を作って持ち帰れる",
+          "無料"
+        ],
+        "limitations": [
+          "各回10名",
+          "整理券が必要"
+        ],
+        "grade_comparison": "総合B：11/21(土)のギャラクシティ ホワイトあとりえで①10:15〜10:50　②13:15〜13:50 ③14:15〜14:50　④15:15〜15:50の開催（スターデイズ「星座早見盤を作って学ぼう！」）。無料。申込不要で当日参加できる。",
+        "unsupported_axes": [],
+        "evidence": [
+          {
+            "url": "https://www.galaxcity.jp/future-creation-hall/event/20261122-009330.html",
+            "quote": "星座早見盤をつくって、しくみを理解しよう。そして、今夜みえるほしぞらは？自分の見たい星はいつ見ることができるか？実際に使って確認しよう。",
+            "checked_at": "2026-11-20",
+            "sha256": "191049c6e5a951ec3fb3923e82848719e0236a301af580bd062ee9fcc7183be4",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "ギャラクシティイベントページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.galaxcity.jp/future-creation-hall/event/20261122-009330.html",
+            "quote": "日時2026年11月21日（土）・22日（日）①10：15～10：50　②13：15～13：50",
+            "checked_at": "2026-11-20",
+            "sha256": "4ebad71f0da30e51ac683f52bb0e5a50255be225888c9ebf72ba7b1e40e603ae",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "ギャラクシティイベントページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.galaxcity.jp/future-creation-hall/event/20261122-009330.html",
+            "quote": "場所ホワイトあとりえ対象どなたでも（未就学児は保護者同伴）",
+            "checked_at": "2026-11-20",
+            "sha256": "87693924c2e6dbfc03d3b9d35e69075b99ecf03c37aab128c35e972abab679d6",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "ギャラクシティイベントページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.galaxcity.jp/future-creation-hall/event/20261122-009330.html",
+            "quote": "対象どなたでも（未就学児は保護者同伴）",
+            "checked_at": "2026-11-20",
+            "sha256": "51172dcb77863fd9240eaab88add59f7e932f831c717d86d4a1375caaff13d54",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "ギャラクシティイベントページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.galaxcity.jp/future-creation-hall/event/20261122-009330.html",
+            "quote": "料金無料申込当日整理券※当日9：00より会場にてすべての回の整理券配布",
+            "checked_at": "2026-11-20",
+            "sha256": "338045b44adb0cf0b2bb3556bf0826dab15b63531170560f925346a5e1c855de",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "ギャラクシティイベントページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-20",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  },
+  {
+    "id": "verified-20261122-adachi-galaxcity-starday-seiza",
+    "ward": "足立区",
+    "name": "スターデイズ「星座早見盤を作って学ぼう！」",
+    "url": "https://www.galaxcity.jp/future-creation-hall/event/20261122-009330.html",
+    "official_url": "https://www.galaxcity.jp/future-creation-hall/event/20261122-009330.html",
+    "source": "https://www.galaxcity.jp/future-creation-hall/event/20261122-009330.html",
+    "image": "https://www.galaxcity.jp/future-creation-hall/assets_c/2026/08/6b617d3ed1f93879c9a2eb20590033077d737ab8-thumb-976x550-17757.jpg",
+    "period": "11/22(日)",
+    "date_start": "2026-11-22",
+    "date_end": "2026-11-22",
+    "time": "①10:15〜10:50　②13:15〜13:50 ③14:15〜14:50　④15:15〜15:50",
+    "venue": "ギャラクシティ ホワイトあとりえ",
+    "price": "無料",
+    "description": "星座早見盤をつくり、実際に使って今夜見える星空や見たい星の時期を確かめる体験。",
+    "categories": [
+      "天体・宇宙",
+      "工作"
+    ],
+    "indoor_outdoor": "屋内",
+    "reservation": {
+      "required": false,
+      "note": "当日9:00から会場で整理券を配布（各回の定員あり）。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "星座早見盤をつくり、実際に使って今夜見える星空や見たい星の時期を確かめる体験。無料。申込不要で当日参加できる。",
+      "axes": {
+        "child_target": {
+          "grade": "B",
+          "reason": "対象にどなたでも参加でき、未就学児は保護者同伴と明記"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "自分で工作して使う"
+        },
+        "age_fit": {
+          "grade": "B",
+          "reason": "年齢制限がなくどなたでも参加できる"
+        },
+        "stay_flexibility": {
+          "grade": "A",
+          "reason": "1回35分程度"
+        },
+        "burden": {
+          "grade": "B",
+          "reason": "当日9:00から整理券を配布。各回10名"
+        },
+        "cost": {
+          "grade": "A",
+          "reason": "無料"
+        },
+        "reservation": {
+          "grade": "A",
+          "reason": "当日参加（申込不要）"
+        },
+        "family_value": {
+          "grade": "A",
+          "reason": "星座早見盤をつくって使い方を確かめる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-20",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "all_ages",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "星座早見盤を作って持ち帰れる",
+          "無料"
+        ],
+        "limitations": [
+          "各回10名",
+          "整理券が必要"
+        ],
+        "grade_comparison": "総合B：11/22(日)のギャラクシティ ホワイトあとりえで①10:15〜10:50　②13:15〜13:50 ③14:15〜14:50　④15:15〜15:50の開催（スターデイズ「星座早見盤を作って学ぼう！」）。無料。申込不要で当日参加できる。",
+        "unsupported_axes": [],
+        "evidence": [
+          {
+            "url": "https://www.galaxcity.jp/future-creation-hall/event/20261122-009330.html",
+            "quote": "星座早見盤をつくって、しくみを理解しよう。そして、今夜みえるほしぞらは？自分の見たい星はいつ見ることができるか？実際に使って確認しよう。",
+            "checked_at": "2026-11-20",
+            "sha256": "191049c6e5a951ec3fb3923e82848719e0236a301af580bd062ee9fcc7183be4",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "ギャラクシティイベントページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.galaxcity.jp/future-creation-hall/event/20261122-009330.html",
+            "quote": "日時2026年11月21日（土）・22日（日）①10：15～10：50　②13：15～13：50",
+            "checked_at": "2026-11-20",
+            "sha256": "4ebad71f0da30e51ac683f52bb0e5a50255be225888c9ebf72ba7b1e40e603ae",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "ギャラクシティイベントページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.galaxcity.jp/future-creation-hall/event/20261122-009330.html",
+            "quote": "場所ホワイトあとりえ対象どなたでも（未就学児は保護者同伴）",
+            "checked_at": "2026-11-20",
+            "sha256": "87693924c2e6dbfc03d3b9d35e69075b99ecf03c37aab128c35e972abab679d6",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "ギャラクシティイベントページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.galaxcity.jp/future-creation-hall/event/20261122-009330.html",
+            "quote": "対象どなたでも（未就学児は保護者同伴）",
+            "checked_at": "2026-11-20",
+            "sha256": "51172dcb77863fd9240eaab88add59f7e932f831c717d86d4a1375caaff13d54",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "ギャラクシティイベントページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.galaxcity.jp/future-creation-hall/event/20261122-009330.html",
+            "quote": "料金無料申込当日整理券※当日9：00より会場にてすべての回の整理券配布",
+            "checked_at": "2026-11-20",
+            "sha256": "338045b44adb0cf0b2bb3556bf0826dab15b63531170560f925346a5e1c855de",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "ギャラクシティイベントページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-20",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  },
+  {
+    "id": "verified-20261121-adachi-galaxcity-starday-oekaki",
+    "ward": "足立区",
+    "name": "スターデイズ「星座絵おえかき投影会」",
+    "url": "https://www.galaxcity.jp/future-creation-hall/event/20261122-009329.html",
+    "official_url": "https://www.galaxcity.jp/future-creation-hall/event/20261122-009329.html",
+    "source": "https://www.galaxcity.jp/future-creation-hall/event/20261122-009329.html",
+    "image": "https://www.galaxcity.jp/future-creation-hall/assets_c/2026/08/0af8081703a487a78172cd547f37e8bfb640e961-thumb-976x550-17759.jpg",
+    "period": "11/21(土)",
+    "date_start": "2026-11-21",
+    "date_end": "2026-11-21",
+    "time": "11:15〜11:50",
+    "venue": "ギャラクシティ ホワイトあとりえ",
+    "price": "無料",
+    "description": "プラネタリウムで星座の絵を描き、描いた星座絵が星空に映し出される投影会。",
+    "categories": [
+      "プラネタリウム",
+      "体験"
+    ],
+    "indoor_outdoor": "屋内",
+    "reservation": {
+      "required": false,
+      "note": "当日9:00から会場で整理券を配布（各回の定員あり）。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "プラネタリウムで星座の絵を描き、描いた星座絵が星空に映し出される投影会。無料。申込不要で当日参加できる。",
+      "axes": {
+        "child_target": {
+          "grade": "B",
+          "reason": "対象にどなたでも参加でき、未就学児は保護者同伴と明記"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "絵を描く参加型"
+        },
+        "age_fit": {
+          "grade": "B",
+          "reason": "年齢制限がなくどなたでも参加できる"
+        },
+        "stay_flexibility": {
+          "grade": "A",
+          "reason": "35分程度"
+        },
+        "burden": {
+          "grade": "B",
+          "reason": "当日9:00から整理券を配布。各回10名"
+        },
+        "cost": {
+          "grade": "A",
+          "reason": "無料"
+        },
+        "reservation": {
+          "grade": "A",
+          "reason": "当日参加（申込不要）"
+        },
+        "family_value": {
+          "grade": "A",
+          "reason": "星座の絵を描いて星空に映してもらえる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-20",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "all_ages",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "自分の絵が星空に映る",
+          "無料"
+        ],
+        "limitations": [
+          "各回10名",
+          "整理券が必要"
+        ],
+        "grade_comparison": "総合B：11/21(土)のギャラクシティ ホワイトあとりえで11:15〜11:50の開催（スターデイズ「星座絵おえかき投影会」）。無料。申込不要で当日参加できる。",
+        "unsupported_axes": [],
+        "evidence": [
+          {
+            "url": "https://www.galaxcity.jp/future-creation-hall/event/20261122-009329.html",
+            "quote": "プラネタリウムで黄道12星座をはじめとした星座の絵を描いてみよう。季節の解説を楽しんだあと、星空にみんなの描いた星座絵が登場するよ。",
+            "checked_at": "2026-11-20",
+            "sha256": "f88e42306e1670946af83fd1aeb7ca6fd168c2176296290897915c3386b98e91",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "ギャラクシティイベントページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.galaxcity.jp/future-creation-hall/event/20261122-009329.html",
+            "quote": "日時2026年11月21日（土）・22日（日）11：15～11：50",
+            "checked_at": "2026-11-20",
+            "sha256": "6e38f1778c70396a5cdfaa3777f9d4bb751f5592ffc414d8b7cc534032e7806f",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "ギャラクシティイベントページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.galaxcity.jp/future-creation-hall/event/20261122-009329.html",
+            "quote": "場所ホワイトあとりえ対象どなたでも（未就学児は保護者同伴）",
+            "checked_at": "2026-11-20",
+            "sha256": "87693924c2e6dbfc03d3b9d35e69075b99ecf03c37aab128c35e972abab679d6",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "ギャラクシティイベントページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.galaxcity.jp/future-creation-hall/event/20261122-009329.html",
+            "quote": "対象どなたでも（未就学児は保護者同伴）",
+            "checked_at": "2026-11-20",
+            "sha256": "51172dcb77863fd9240eaab88add59f7e932f831c717d86d4a1375caaff13d54",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "ギャラクシティイベントページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.galaxcity.jp/future-creation-hall/event/20261122-009329.html",
+            "quote": "料金無料申込当日整理券※当日9：00より会場にてすべての回の整理券配布",
+            "checked_at": "2026-11-20",
+            "sha256": "338045b44adb0cf0b2bb3556bf0826dab15b63531170560f925346a5e1c855de",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "ギャラクシティイベントページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-20",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  },
+  {
+    "id": "verified-20261122-adachi-galaxcity-starday-oekaki",
+    "ward": "足立区",
+    "name": "スターデイズ「星座絵おえかき投影会」",
+    "url": "https://www.galaxcity.jp/future-creation-hall/event/20261122-009329.html",
+    "official_url": "https://www.galaxcity.jp/future-creation-hall/event/20261122-009329.html",
+    "source": "https://www.galaxcity.jp/future-creation-hall/event/20261122-009329.html",
+    "image": "https://www.galaxcity.jp/future-creation-hall/assets_c/2026/08/0af8081703a487a78172cd547f37e8bfb640e961-thumb-976x550-17759.jpg",
+    "period": "11/22(日)",
+    "date_start": "2026-11-22",
+    "date_end": "2026-11-22",
+    "time": "11:15〜11:50",
+    "venue": "ギャラクシティ ホワイトあとりえ",
+    "price": "無料",
+    "description": "プラネタリウムで星座の絵を描き、描いた星座絵が星空に映し出される投影会。",
+    "categories": [
+      "プラネタリウム",
+      "体験"
+    ],
+    "indoor_outdoor": "屋内",
+    "reservation": {
+      "required": false,
+      "note": "当日9:00から会場で整理券を配布（各回の定員あり）。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "プラネタリウムで星座の絵を描き、描いた星座絵が星空に映し出される投影会。無料。申込不要で当日参加できる。",
+      "axes": {
+        "child_target": {
+          "grade": "B",
+          "reason": "対象にどなたでも参加でき、未就学児は保護者同伴と明記"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "絵を描く参加型"
+        },
+        "age_fit": {
+          "grade": "B",
+          "reason": "年齢制限がなくどなたでも参加できる"
+        },
+        "stay_flexibility": {
+          "grade": "A",
+          "reason": "35分程度"
+        },
+        "burden": {
+          "grade": "B",
+          "reason": "当日9:00から整理券を配布。各回10名"
+        },
+        "cost": {
+          "grade": "A",
+          "reason": "無料"
+        },
+        "reservation": {
+          "grade": "A",
+          "reason": "当日参加（申込不要）"
+        },
+        "family_value": {
+          "grade": "A",
+          "reason": "星座の絵を描いて星空に映してもらえる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-20",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "all_ages",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "自分の絵が星空に映る",
+          "無料"
+        ],
+        "limitations": [
+          "各回10名",
+          "整理券が必要"
+        ],
+        "grade_comparison": "総合B：11/22(日)のギャラクシティ ホワイトあとりえで11:15〜11:50の開催（スターデイズ「星座絵おえかき投影会」）。無料。申込不要で当日参加できる。",
+        "unsupported_axes": [],
+        "evidence": [
+          {
+            "url": "https://www.galaxcity.jp/future-creation-hall/event/20261122-009329.html",
+            "quote": "プラネタリウムで黄道12星座をはじめとした星座の絵を描いてみよう。季節の解説を楽しんだあと、星空にみんなの描いた星座絵が登場するよ。",
+            "checked_at": "2026-11-20",
+            "sha256": "f88e42306e1670946af83fd1aeb7ca6fd168c2176296290897915c3386b98e91",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "ギャラクシティイベントページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.galaxcity.jp/future-creation-hall/event/20261122-009329.html",
+            "quote": "日時2026年11月21日（土）・22日（日）11：15～11：50",
+            "checked_at": "2026-11-20",
+            "sha256": "6e38f1778c70396a5cdfaa3777f9d4bb751f5592ffc414d8b7cc534032e7806f",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "ギャラクシティイベントページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.galaxcity.jp/future-creation-hall/event/20261122-009329.html",
+            "quote": "場所ホワイトあとりえ対象どなたでも（未就学児は保護者同伴）",
+            "checked_at": "2026-11-20",
+            "sha256": "87693924c2e6dbfc03d3b9d35e69075b99ecf03c37aab128c35e972abab679d6",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "ギャラクシティイベントページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.galaxcity.jp/future-creation-hall/event/20261122-009329.html",
+            "quote": "対象どなたでも（未就学児は保護者同伴）",
+            "checked_at": "2026-11-20",
+            "sha256": "51172dcb77863fd9240eaab88add59f7e932f831c717d86d4a1375caaff13d54",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "ギャラクシティイベントページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.galaxcity.jp/future-creation-hall/event/20261122-009329.html",
+            "quote": "料金無料申込当日整理券※当日9：00より会場にてすべての回の整理券配布",
+            "checked_at": "2026-11-20",
+            "sha256": "338045b44adb0cf0b2bb3556bf0826dab15b63531170560f925346a5e1c855de",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "ギャラクシティイベントページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-20",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  },
+  {
+    "id": "verified-20261122-adachi-galaxcity-shougai-nov22",
+    "ward": "足立区",
+    "name": "障がいのある子もない子もみんなであそぼう",
+    "url": "https://www.galaxcity.jp/future-creation-hall/event/20261122-009246.html",
+    "official_url": "https://www.galaxcity.jp/future-creation-hall/event/20261122-009246.html",
+    "source": "https://www.galaxcity.jp/future-creation-hall/event/20261122-009246.html",
+    "image": "https://www.galaxcity.jp/future-creation-hall/assets_c/2026/05/2a220e818e79fbec4821c26afb385120f8272704-thumb-976x550-17077.jpg",
+    "period": "11/22(日)",
+    "date_start": "2026-11-22",
+    "date_end": "2026-11-22",
+    "time": "①10:45〜11:15　②12:15〜12:45",
+    "venue": "ギャラクシティ わーくしょっぷスタジオ",
+    "price": "無料",
+    "description": "障がいの有無にかかわらず、未就学のお子さまと保護者が室内の遊具で一緒に過ごせる時間。",
+    "categories": [
+      "親子",
+      "遊び場"
+    ],
+    "indoor_outdoor": "屋内",
+    "reservation": {
+      "required": false,
+      "note": "当日直接会場へ。"
+    },
+    "family_fit": {
+      "grade": "A",
+      "overall": "A",
+      "rubric_version": "family-fit-v2",
+      "reason": "障がいの有無にかかわらず、未就学のお子さまと保護者が室内の遊具で一緒に過ごせる時間。無料。申込不要で当日参加できる。",
+      "axes": {
+        "child_target": {
+          "grade": "A",
+          "reason": "対象は「未就学のお子さまとその保護者」"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "遊具で体を動かして遊ぶ"
+        },
+        "age_fit": {
+          "grade": "A",
+          "reason": "未就学のお子さまとその保護者と明記"
+        },
+        "stay_flexibility": {
+          "grade": "A",
+          "reason": "30分の2回"
+        },
+        "burden": {
+          "grade": "A",
+          "reason": "当日直接会場へ。待つ場合あり"
+        },
+        "cost": {
+          "grade": "A",
+          "reason": "無料"
+        },
+        "reservation": {
+          "grade": "A",
+          "reason": "当日参加（申込不要）"
+        },
+        "family_value": {
+          "grade": "A",
+          "reason": "室内の遊具で遊べる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-20",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "child_program",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "当日直接参加",
+          "無料"
+        ],
+        "limitations": [
+          "各20組"
+        ],
+        "grade_comparison": "総合A：11/22(日)のギャラクシティ わーくしょっぷスタジオで①10:45〜11:15　②12:15〜12:45の開催（障がいのある子もない子もみんなであそぼう）。無料。申込不要で当日参加できる。",
+        "unsupported_axes": [],
+        "evidence": [
+          {
+            "url": "https://www.galaxcity.jp/future-creation-hall/event/20261122-009246.html",
+            "quote": "障がいのある子どもと保護者やサポートの人たちが、施設の中で何も気にせずに健常の子ども達と共に過ごす機会を提供します。室内に設置された遊具で一緒に楽しいひと時を過ごしませんか。",
+            "checked_at": "2026-11-20",
+            "sha256": "a109511a8b8804f92b2aa87480341b1d09136a7e3d1d10f473141ed932506557",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "ギャラクシティイベントページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.galaxcity.jp/future-creation-hall/event/20261122-009246.html",
+            "quote": "日時2026年11月22日（日）①10：45～11：15　②12：15～12：45",
+            "checked_at": "2026-11-20",
+            "sha256": "57c838313fa1e4ec8eef8c1b7b08d7bf338483951be7c61845c5026f17135d36",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "ギャラクシティイベントページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.galaxcity.jp/future-creation-hall/event/20261122-009246.html",
+            "quote": "場所わーくしょっぷスタジオ対象未就学のお子さまとその保護者",
+            "checked_at": "2026-11-20",
+            "sha256": "cae98433e1684078ea4cd5d5231e4f63ad7b827b3ca059b11198f061f054fc17",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "ギャラクシティイベントページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.galaxcity.jp/future-creation-hall/event/20261122-009246.html",
+            "quote": "対象未就学のお子さまとその保護者",
+            "checked_at": "2026-11-20",
+            "sha256": "4e1dead388c2942361845c74cd3cc8c799fa3d0ed7a1f7cdd1f3a5067a35ba41",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "ギャラクシティイベントページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.galaxcity.jp/future-creation-hall/event/20261122-009246.html",
+            "quote": "料金無料申込当日直接会場へ※混雑時はお待ちいただくことがございます。",
+            "checked_at": "2026-11-20",
+            "sha256": "6d99b3d4cb46551b8225e4d60383c02828d0acd1416ec020268289e1f57bf1a1",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "ギャラクシティイベントページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-20",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  },
+  {
+    "id": "verified-20261122-adachi-galaxcity-yume-robot-nov22",
+    "ward": "足立区",
+    "name": "こどもゆめくらぶ「プログラミングしてロボットを動かそう！」",
+    "url": "https://www.galaxcity.jp/future-creation-hall/event/20261122-009221.html",
+    "official_url": "https://www.galaxcity.jp/future-creation-hall/event/20261122-009221.html",
+    "source": "https://www.galaxcity.jp/future-creation-hall/event/20261122-009221.html",
+    "image": "",
+    "period": "11/22(日)",
+    "date_start": "2026-11-22",
+    "date_end": "2026-11-22",
+    "time": "14:00〜15:30",
+    "venue": "ギャラクシティ 地下2階 レクリエーションホール2",
+    "price": "無料",
+    "description": "ブロックでロボットを組み立て、プログラミングして動かす小学生・中学生向けの体験。",
+    "categories": [
+      "プログラミング",
+      "体験"
+    ],
+    "indoor_outdoor": "屋内",
+    "reservation": {
+      "required": true,
+      "note": "事前申込制。10/18から受付。定員7名。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "ブロックでロボットを組み立て、プログラミングして動かす小学生・中学生向けの体験。無料。事前の申込が必要。",
+      "axes": {
+        "child_target": {
+          "grade": "A",
+          "reason": "対象は「小学生・中学生（小学3年生以下は保護者同伴）」"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "自分で組み立てて動かす"
+        },
+        "age_fit": {
+          "grade": "A",
+          "reason": "小学生・中学生（小学3年生以下は保護者同伴）と明記"
+        },
+        "stay_flexibility": {
+          "grade": "B",
+          "reason": "14:00〜15:30"
+        },
+        "burden": {
+          "grade": "C",
+          "reason": "定員7名で事前申込が必要"
+        },
+        "cost": {
+          "grade": "A",
+          "reason": "無料"
+        },
+        "reservation": {
+          "grade": "C",
+          "reason": "事前申込制。10/18から受付。定員7名。"
+        },
+        "family_value": {
+          "grade": "A",
+          "reason": "ロボットを組み立てて動かす"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-20",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "child_program",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "ロボット製作とプログラミング",
+          "無料"
+        ],
+        "limitations": [
+          "定員7名",
+          "事前申込制"
+        ],
+        "grade_comparison": "総合B：11/22(日)のギャラクシティ 地下2階 レクリエーションホール2で14:00〜15:30の開催（こどもゆめくらぶ「プログラミングしてロボットを動かそう！」）。無料。事前申込が必要。",
+        "unsupported_axes": [],
+        "evidence": [
+          {
+            "url": "https://www.galaxcity.jp/future-creation-hall/event/20261122-009221.html",
+            "quote": "ブロックでロボットを組み立て、プログラミングして動かそう。",
+            "checked_at": "2026-11-20",
+            "sha256": "a74fdb7a1f92048d0761015b7de71b3c1c3b6a96fee89778879b88df21eb1e03",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "ギャラクシティイベントページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.galaxcity.jp/future-creation-hall/event/20261122-009221.html",
+            "quote": "日時2026年11月22日（日）14：00～15：30",
+            "checked_at": "2026-11-20",
+            "sha256": "00125b719a711d4b3c2f2e55cd4432ede1c3ea99043c589e28192bf194eedb00",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "ギャラクシティイベントページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.galaxcity.jp/future-creation-hall/event/20261122-009221.html",
+            "quote": "場所地下2階 レクリエーションホール2",
+            "checked_at": "2026-11-20",
+            "sha256": "b1e1b9de264e5a4b05b6ecd92fd6001b2402570f67bc638d7fee9201cce46646",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "ギャラクシティイベントページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.galaxcity.jp/future-creation-hall/event/20261122-009221.html",
+            "quote": "対象小学生・中学生（小学3年生以下は保護者同伴）",
+            "checked_at": "2026-11-20",
+            "sha256": "8caa5aa3a07f1bbe30cfdaa7231cbee62d04a1b706c704adc13a6cbf23eeb119",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "ギャラクシティイベントページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.galaxcity.jp/future-creation-hall/event/20261122-009221.html",
+            "quote": "料金無料申込事前申込制※10月18日（日）より受付開始",
+            "checked_at": "2026-11-20",
+            "sha256": "3150be630fe945194583df6d43977695cbf39017254ca97dde246b9f4a919067",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "ギャラクシティイベントページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-20",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  },
+  {
+    "id": "verified-20261123-adachi-galaxcity-toshokan-nov23",
+    "ward": "足立区",
+    "name": "図書館出張おはなし会",
+    "url": "https://www.galaxcity.jp/future-creation-hall/event/20261123-009247.html",
+    "official_url": "https://www.galaxcity.jp/future-creation-hall/event/20261123-009247.html",
+    "source": "https://www.galaxcity.jp/future-creation-hall/event/20261123-009247.html",
+    "image": "https://www.galaxcity.jp/future-creation-hall/assets_c/2026/08/a3ae9b72629f6cbc2db7bb1ae51e3ad650e750fc-thumb-976x550-17807.jpg",
+    "period": "11/23(月・祝)",
+    "date_start": "2026-11-23",
+    "date_end": "2026-11-23",
+    "time": "10:40〜11:00",
+    "venue": "ギャラクシティ わーくしょっぷスタジオ",
+    "price": "無料",
+    "description": "竹の塚図書館の職員による絵本の紹介と読み聞かせ。未就学のお子さまと保護者向け。",
+    "categories": [
+      "おはなし会",
+      "親子"
+    ],
+    "indoor_outdoor": "屋内",
+    "reservation": {
+      "required": false,
+      "note": "当日直接会場へ。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "竹の塚図書館の職員による絵本の紹介と読み聞かせ。未就学のお子さまと保護者向け。無料。申込不要で当日参加できる。",
+      "axes": {
+        "child_target": {
+          "grade": "A",
+          "reason": "対象は「未就学のお子さまとその保護者」"
+        },
+        "interactivity": {
+          "grade": "B",
+          "reason": "聞いて楽しむ時間"
+        },
+        "age_fit": {
+          "grade": "A",
+          "reason": "未就学のお子さまとその保護者と明記"
+        },
+        "stay_flexibility": {
+          "grade": "A",
+          "reason": "20分"
+        },
+        "burden": {
+          "grade": "A",
+          "reason": "当日直接会場へ"
+        },
+        "cost": {
+          "grade": "A",
+          "reason": "無料"
+        },
+        "reservation": {
+          "grade": "A",
+          "reason": "当日参加（申込不要）"
+        },
+        "family_value": {
+          "grade": "A",
+          "reason": "絵本の読み聞かせを楽しめる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-20",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "child_program",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "図書館職員の読み聞かせ",
+          "無料"
+        ],
+        "limitations": [
+          "20組"
+        ],
+        "grade_comparison": "総合B：11/23(月・祝)のギャラクシティ わーくしょっぷスタジオで10:40〜11:00の開催（図書館出張おはなし会）。無料。申込不要で当日参加できる。",
+        "unsupported_axes": [],
+        "evidence": [
+          {
+            "url": "https://www.galaxcity.jp/future-creation-hall/event/20261123-009247.html",
+            "quote": "図書館の職員による、絵本の紹介と読み聞かせです。",
+            "checked_at": "2026-11-20",
+            "sha256": "1376b505dc22baaad8b9ae3fda62b4021fb36fc3a30f32d1b8bd6ffb5fb69074",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "ギャラクシティイベントページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.galaxcity.jp/future-creation-hall/event/20261123-009247.html",
+            "quote": "日時2026年11月23日（月・祝）10：40～11：00",
+            "checked_at": "2026-11-20",
+            "sha256": "ccb0bd6ce820a7fa1702647aca68471637533ad65a009aea293ee846cb38c3ef",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "ギャラクシティイベントページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.galaxcity.jp/future-creation-hall/event/20261123-009247.html",
+            "quote": "場所わーくしょっぷスタジオ対象未就学のお子さまとその保護者",
+            "checked_at": "2026-11-20",
+            "sha256": "cae98433e1684078ea4cd5d5231e4f63ad7b827b3ca059b11198f061f054fc17",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "ギャラクシティイベントページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.galaxcity.jp/future-creation-hall/event/20261123-009247.html",
+            "quote": "対象未就学のお子さまとその保護者",
+            "checked_at": "2026-11-20",
+            "sha256": "4e1dead388c2942361845c74cd3cc8c799fa3d0ed7a1f7cdd1f3a5067a35ba41",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "ギャラクシティイベントページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.galaxcity.jp/future-creation-hall/event/20261123-009247.html",
+            "quote": "料金無料申込当日直接会場へ講師",
+            "checked_at": "2026-11-20",
+            "sha256": "605b5b14b7e9a0861b58640fecbcef2bbd48c01b196acede0db9da79c8850fef",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "ギャラクシティイベントページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-20",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  },
+  {
+    "id": "verified-20261123-adachi-galaxcity-oto-nov23",
+    "ward": "足立区",
+    "name": "音とあそぼう",
+    "url": "https://www.galaxcity.jp/future-creation-hall/event/20261123-009272.html",
+    "official_url": "https://www.galaxcity.jp/future-creation-hall/event/20261123-009272.html",
+    "source": "https://www.galaxcity.jp/future-creation-hall/event/20261123-009272.html",
+    "image": "",
+    "period": "11/23(月・祝)",
+    "date_start": "2026-11-23",
+    "date_end": "2026-11-23",
+    "time": "14:00〜14:40",
+    "venue": "ギャラクシティ わーくしょっぷスタジオ",
+    "price": "無料",
+    "description": "歌を聞いたり作曲に挑戦したりして音を楽しむ、未就学児と家族向けの音遊び。出入り自由。",
+    "categories": [
+      "音楽",
+      "親子"
+    ],
+    "indoor_outdoor": "屋内",
+    "reservation": {
+      "required": false,
+      "note": "当日直接会場へ。"
+    },
+    "family_fit": {
+      "grade": "A",
+      "overall": "A",
+      "rubric_version": "family-fit-v2",
+      "reason": "歌を聞いたり作曲に挑戦したりして音を楽しむ、未就学児と家族向けの音遊び。出入り自由。無料。申込不要で当日参加できる。",
+      "axes": {
+        "child_target": {
+          "grade": "A",
+          "reason": "対象は「未就学児とその家族（未就学児は保護者同伴）」"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "音を出して表現する"
+        },
+        "age_fit": {
+          "grade": "A",
+          "reason": "未就学児とその家族（未就学児は保護者同伴）と明記"
+        },
+        "stay_flexibility": {
+          "grade": "A",
+          "reason": "出入り自由"
+        },
+        "burden": {
+          "grade": "A",
+          "reason": "当日直接会場へ。出入り自由"
+        },
+        "cost": {
+          "grade": "A",
+          "reason": "無料"
+        },
+        "reservation": {
+          "grade": "A",
+          "reason": "当日参加（申込不要）"
+        },
+        "family_value": {
+          "grade": "A",
+          "reason": "歌を聞いたり作曲に挑戦したりする"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-20",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "child_program",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "出入り自由",
+          "無料"
+        ],
+        "limitations": [
+          "15組"
+        ],
+        "grade_comparison": "総合A：11/23(月・祝)のギャラクシティ わーくしょっぷスタジオで14:00〜14:40の開催（音とあそぼう）。無料。申込不要で当日参加できる。",
+        "unsupported_axes": [],
+        "evidence": [
+          {
+            "url": "https://www.galaxcity.jp/future-creation-hall/event/20261123-009272.html",
+            "quote": "歌を聞いたり、作曲に挑戦したり、いろんな音に耳をかたむけ、お互いの音や表現の違いを感じてみよう♪",
+            "checked_at": "2026-11-20",
+            "sha256": "b5c3542830726d6c397f06843489eff482eb6a7414c47636588c8dcea8b1af62",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "ギャラクシティイベントページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.galaxcity.jp/future-creation-hall/event/20261123-009272.html",
+            "quote": "日時2026年11月23日（月・祝）14：00～14：40",
+            "checked_at": "2026-11-20",
+            "sha256": "67aa175ac46a293be275b4711b990b506c746e8c510306b3cebb1d98ce8f8c4a",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "ギャラクシティイベントページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.galaxcity.jp/future-creation-hall/event/20261123-009272.html",
+            "quote": "場所わーくしょっぷスタジオ対象未就学児とその家族（未就学児は保護者同伴）",
+            "checked_at": "2026-11-20",
+            "sha256": "9e1584227206b1cf527835bd3e67e58d8f2ec843b10caf7eac91119743e1f90d",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "ギャラクシティイベントページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.galaxcity.jp/future-creation-hall/event/20261123-009272.html",
+            "quote": "対象未就学児とその家族（未就学児は保護者同伴）",
+            "checked_at": "2026-11-20",
+            "sha256": "ab27dcc6521ea070fa2ab35ffdab9ff8fffe165367415f7285d98638e13930e3",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "ギャラクシティイベントページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.galaxcity.jp/future-creation-hall/event/20261123-009272.html",
+            "quote": "料金無料申込当日直接会場へ講師",
+            "checked_at": "2026-11-20",
+            "sha256": "605b5b14b7e9a0861b58640fecbcef2bbd48c01b196acede0db9da79c8850fef",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "ギャラクシティイベントページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-20",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  },
+  {
+    "id": "verified-20261121-adachi-galaxcity-kosaku-holiday",
+    "ward": "足立区",
+    "name": "ギャラクシティの工作教室【休日・祝日】",
+    "url": "https://www.galaxcity.jp/future-creation-hall/event/20261129-009303.html",
+    "official_url": "https://www.galaxcity.jp/future-creation-hall/event/20261129-009303.html",
+    "source": "https://www.galaxcity.jp/future-creation-hall/event/20261129-009303.html",
+    "image": "https://www.galaxcity.jp/future-creation-hall/assets_c/2023/04/94a4043a58b9f642d6b401b98345483f7ebb91cc-thumb-1024x732-9803.jpg",
+    "period": "11/21(土)",
+    "date_start": "2026-11-21",
+    "date_end": "2026-11-21",
+    "time": "①10:00〜12:00（受付11:45まで） ②13:30〜16:00（受付15:45まで）",
+    "venue": "ギャラクシティ ものづくりガレージ",
+    "price": "無料",
+    "description": "紙コップや割り箸など身近な材料で、季節や行事にちなんだ工作を楽しめる休日・祝日の工作教室。1人1作品まで。",
+    "categories": [
+      "工作",
+      "体験"
+    ],
+    "indoor_outdoor": "屋内",
+    "reservation": {
+      "required": false,
+      "note": "当日直接会場へ。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "紙コップや割り箸など身近な材料で、季節や行事にちなんだ工作を楽しめる休日・祝日の工作教室。1人1作品まで。無料。申込不要で当日参加できる。",
+      "axes": {
+        "child_target": {
+          "grade": "B",
+          "reason": "対象にどなたでも参加でき、未就学児は保護者同伴と明記"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "自分で工作して持ち帰る"
+        },
+        "age_fit": {
+          "grade": "B",
+          "reason": "年齢制限がなくどなたでも参加できる"
+        },
+        "stay_flexibility": {
+          "grade": "A",
+          "reason": "2部制で受付時間内なら参加できる"
+        },
+        "burden": {
+          "grade": "A",
+          "reason": "当日直接会場へ"
+        },
+        "cost": {
+          "grade": "A",
+          "reason": "無料"
+        },
+        "reservation": {
+          "grade": "A",
+          "reason": "当日参加（申込不要）"
+        },
+        "family_value": {
+          "grade": "A",
+          "reason": "季節や行事にちなんだ工作を親子で楽しめる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-20",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "all_ages",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "材料が身近で工作しやすい",
+          "無料"
+        ],
+        "limitations": [
+          "会場により定員が異なる",
+          "混雑時は受付終了が早まる"
+        ],
+        "grade_comparison": "総合B：11/21(土)のギャラクシティ ものづくりガレージで①10:00〜12:00（受付11:45まで） ②13:30〜16:00（受付15:45まで）の開催（ギャラクシティの工作教室【休日・祝日】）。無料。申込不要で当日参加できる。",
+        "unsupported_axes": [],
+        "evidence": [
+          {
+            "url": "https://www.galaxcity.jp/future-creation-hall/event/20261129-009303.html",
+            "quote": "紙コップや割り箸など身近な材料をつかって季節や行事にちなんだ工作を楽しもう！",
+            "checked_at": "2026-11-20",
+            "sha256": "0322b76af683bfb6860f1fb684efcb0147dc0cb8ac4660960e6dd9df41278e50",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "ギャラクシティイベントページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.galaxcity.jp/future-creation-hall/event/20261129-009303.html",
+            "quote": "日時2026年11月1日（日）・3日（火・祝）・7日（土）・8日（日）・14日（土）・15日（日）・21日（土）～23日（月・祝）・28日（土）・29日（日）①10：00～12：00（受付11：45まで）",
+            "checked_at": "2026-11-20",
+            "sha256": "70f21739b897718b04abb63907d1384f2f16af995374bf130cb42aa3e0d7e659",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "ギャラクシティイベントページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.galaxcity.jp/future-creation-hall/event/20261129-009303.html",
+            "quote": "場所11月1日（日）・3日（火・祝）・14日（土）午前・21日（土）～23日（月・祝）・28日（土）ものづくりガレージ11月7日（土）・8日（日）3階 多目的室111月14日（土）・29日（日）すべて午後わーくしょっぷスタジオ11月15日（日）・29日（日）午前地下2階 レクリエーションホール2",
+            "checked_at": "2026-11-20",
+            "sha256": "c80a8a9c272f8e1fcee7f158ed5928681fcd98aa21a8390c926f90eda79a492b",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "ギャラクシティイベントページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.galaxcity.jp/future-creation-hall/event/20261129-009303.html",
+            "quote": "対象どなたでも（未就学児は保護者同伴）",
+            "checked_at": "2026-11-20",
+            "sha256": "51172dcb77863fd9240eaab88add59f7e932f831c717d86d4a1375caaff13d54",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "ギャラクシティイベントページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.galaxcity.jp/future-creation-hall/event/20261129-009303.html",
+            "quote": "料金無料申込当日直接会場へ注意事項",
+            "checked_at": "2026-11-20",
+            "sha256": "d3a0c1176e25e9ba87b0ba46d128fdf78de129628da1f268b99c6daef5d7e20e",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "ギャラクシティイベントページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-20",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  },
+  {
+    "id": "verified-20261122-adachi-galaxcity-kosaku-holiday",
+    "ward": "足立区",
+    "name": "ギャラクシティの工作教室【休日・祝日】",
+    "url": "https://www.galaxcity.jp/future-creation-hall/event/20261129-009303.html",
+    "official_url": "https://www.galaxcity.jp/future-creation-hall/event/20261129-009303.html",
+    "source": "https://www.galaxcity.jp/future-creation-hall/event/20261129-009303.html",
+    "image": "https://www.galaxcity.jp/future-creation-hall/assets_c/2023/04/94a4043a58b9f642d6b401b98345483f7ebb91cc-thumb-1024x732-9803.jpg",
+    "period": "11/22(日)",
+    "date_start": "2026-11-22",
+    "date_end": "2026-11-22",
+    "time": "①10:00〜12:00（受付11:45まで） ②13:30〜16:00（受付15:45まで）",
+    "venue": "ギャラクシティ ものづくりガレージ",
+    "price": "無料",
+    "description": "紙コップや割り箸など身近な材料で、季節や行事にちなんだ工作を楽しめる休日・祝日の工作教室。1人1作品まで。",
+    "categories": [
+      "工作",
+      "体験"
+    ],
+    "indoor_outdoor": "屋内",
+    "reservation": {
+      "required": false,
+      "note": "当日直接会場へ。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "紙コップや割り箸など身近な材料で、季節や行事にちなんだ工作を楽しめる休日・祝日の工作教室。1人1作品まで。無料。申込不要で当日参加できる。",
+      "axes": {
+        "child_target": {
+          "grade": "B",
+          "reason": "対象にどなたでも参加でき、未就学児は保護者同伴と明記"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "自分で工作して持ち帰る"
+        },
+        "age_fit": {
+          "grade": "B",
+          "reason": "年齢制限がなくどなたでも参加できる"
+        },
+        "stay_flexibility": {
+          "grade": "A",
+          "reason": "2部制で受付時間内なら参加できる"
+        },
+        "burden": {
+          "grade": "A",
+          "reason": "当日直接会場へ"
+        },
+        "cost": {
+          "grade": "A",
+          "reason": "無料"
+        },
+        "reservation": {
+          "grade": "A",
+          "reason": "当日参加（申込不要）"
+        },
+        "family_value": {
+          "grade": "A",
+          "reason": "季節や行事にちなんだ工作を親子で楽しめる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-20",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "all_ages",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "材料が身近で工作しやすい",
+          "無料"
+        ],
+        "limitations": [
+          "会場により定員が異なる",
+          "混雑時は受付終了が早まる"
+        ],
+        "grade_comparison": "総合B：11/22(日)のギャラクシティ ものづくりガレージで①10:00〜12:00（受付11:45まで） ②13:30〜16:00（受付15:45まで）の開催（ギャラクシティの工作教室【休日・祝日】）。無料。申込不要で当日参加できる。",
+        "unsupported_axes": [],
+        "evidence": [
+          {
+            "url": "https://www.galaxcity.jp/future-creation-hall/event/20261129-009303.html",
+            "quote": "紙コップや割り箸など身近な材料をつかって季節や行事にちなんだ工作を楽しもう！",
+            "checked_at": "2026-11-20",
+            "sha256": "0322b76af683bfb6860f1fb684efcb0147dc0cb8ac4660960e6dd9df41278e50",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "ギャラクシティイベントページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.galaxcity.jp/future-creation-hall/event/20261129-009303.html",
+            "quote": "日時2026年11月1日（日）・3日（火・祝）・7日（土）・8日（日）・14日（土）・15日（日）・21日（土）～23日（月・祝）・28日（土）・29日（日）①10：00～12：00（受付11：45まで）",
+            "checked_at": "2026-11-20",
+            "sha256": "70f21739b897718b04abb63907d1384f2f16af995374bf130cb42aa3e0d7e659",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "ギャラクシティイベントページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.galaxcity.jp/future-creation-hall/event/20261129-009303.html",
+            "quote": "場所11月1日（日）・3日（火・祝）・14日（土）午前・21日（土）～23日（月・祝）・28日（土）ものづくりガレージ11月7日（土）・8日（日）3階 多目的室111月14日（土）・29日（日）すべて午後わーくしょっぷスタジオ11月15日（日）・29日（日）午前地下2階 レクリエーションホール2",
+            "checked_at": "2026-11-20",
+            "sha256": "c80a8a9c272f8e1fcee7f158ed5928681fcd98aa21a8390c926f90eda79a492b",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "ギャラクシティイベントページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.galaxcity.jp/future-creation-hall/event/20261129-009303.html",
+            "quote": "対象どなたでも（未就学児は保護者同伴）",
+            "checked_at": "2026-11-20",
+            "sha256": "51172dcb77863fd9240eaab88add59f7e932f831c717d86d4a1375caaff13d54",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "ギャラクシティイベントページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.galaxcity.jp/future-creation-hall/event/20261129-009303.html",
+            "quote": "料金無料申込当日直接会場へ注意事項",
+            "checked_at": "2026-11-20",
+            "sha256": "d3a0c1176e25e9ba87b0ba46d128fdf78de129628da1f268b99c6daef5d7e20e",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "ギャラクシティイベントページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-20",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  },
+  {
+    "id": "verified-20261123-adachi-galaxcity-kosaku-holiday",
+    "ward": "足立区",
+    "name": "ギャラクシティの工作教室【休日・祝日】",
+    "url": "https://www.galaxcity.jp/future-creation-hall/event/20261129-009303.html",
+    "official_url": "https://www.galaxcity.jp/future-creation-hall/event/20261129-009303.html",
+    "source": "https://www.galaxcity.jp/future-creation-hall/event/20261129-009303.html",
+    "image": "https://www.galaxcity.jp/future-creation-hall/assets_c/2023/04/94a4043a58b9f642d6b401b98345483f7ebb91cc-thumb-1024x732-9803.jpg",
+    "period": "11/23(月・祝)",
+    "date_start": "2026-11-23",
+    "date_end": "2026-11-23",
+    "time": "①10:00〜12:00（受付11:45まで） ②13:30〜16:00（受付15:45まで）",
+    "venue": "ギャラクシティ ものづくりガレージ",
+    "price": "無料",
+    "description": "紙コップや割り箸など身近な材料で、季節や行事にちなんだ工作を楽しめる休日・祝日の工作教室。1人1作品まで。",
+    "categories": [
+      "工作",
+      "体験"
+    ],
+    "indoor_outdoor": "屋内",
+    "reservation": {
+      "required": false,
+      "note": "当日直接会場へ。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "紙コップや割り箸など身近な材料で、季節や行事にちなんだ工作を楽しめる休日・祝日の工作教室。1人1作品まで。無料。申込不要で当日参加できる。",
+      "axes": {
+        "child_target": {
+          "grade": "B",
+          "reason": "対象にどなたでも参加でき、未就学児は保護者同伴と明記"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "自分で工作して持ち帰る"
+        },
+        "age_fit": {
+          "grade": "B",
+          "reason": "年齢制限がなくどなたでも参加できる"
+        },
+        "stay_flexibility": {
+          "grade": "A",
+          "reason": "2部制で受付時間内なら参加できる"
+        },
+        "burden": {
+          "grade": "A",
+          "reason": "当日直接会場へ"
+        },
+        "cost": {
+          "grade": "A",
+          "reason": "無料"
+        },
+        "reservation": {
+          "grade": "A",
+          "reason": "当日参加（申込不要）"
+        },
+        "family_value": {
+          "grade": "A",
+          "reason": "季節や行事にちなんだ工作を親子で楽しめる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-20",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "all_ages",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "材料が身近で工作しやすい",
+          "無料"
+        ],
+        "limitations": [
+          "会場により定員が異なる",
+          "混雑時は受付終了が早まる"
+        ],
+        "grade_comparison": "総合B：11/23(月・祝)のギャラクシティ ものづくりガレージで①10:00〜12:00（受付11:45まで） ②13:30〜16:00（受付15:45まで）の開催（ギャラクシティの工作教室【休日・祝日】）。無料。申込不要で当日参加できる。",
+        "unsupported_axes": [],
+        "evidence": [
+          {
+            "url": "https://www.galaxcity.jp/future-creation-hall/event/20261129-009303.html",
+            "quote": "紙コップや割り箸など身近な材料をつかって季節や行事にちなんだ工作を楽しもう！",
+            "checked_at": "2026-11-20",
+            "sha256": "0322b76af683bfb6860f1fb684efcb0147dc0cb8ac4660960e6dd9df41278e50",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "ギャラクシティイベントページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.galaxcity.jp/future-creation-hall/event/20261129-009303.html",
+            "quote": "日時2026年11月1日（日）・3日（火・祝）・7日（土）・8日（日）・14日（土）・15日（日）・21日（土）～23日（月・祝）・28日（土）・29日（日）①10：00～12：00（受付11：45まで）",
+            "checked_at": "2026-11-20",
+            "sha256": "70f21739b897718b04abb63907d1384f2f16af995374bf130cb42aa3e0d7e659",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "ギャラクシティイベントページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.galaxcity.jp/future-creation-hall/event/20261129-009303.html",
+            "quote": "場所11月1日（日）・3日（火・祝）・14日（土）午前・21日（土）～23日（月・祝）・28日（土）ものづくりガレージ11月7日（土）・8日（日）3階 多目的室111月14日（土）・29日（日）すべて午後わーくしょっぷスタジオ11月15日（日）・29日（日）午前地下2階 レクリエーションホール2",
+            "checked_at": "2026-11-20",
+            "sha256": "c80a8a9c272f8e1fcee7f158ed5928681fcd98aa21a8390c926f90eda79a492b",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "ギャラクシティイベントページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.galaxcity.jp/future-creation-hall/event/20261129-009303.html",
+            "quote": "対象どなたでも（未就学児は保護者同伴）",
+            "checked_at": "2026-11-20",
+            "sha256": "51172dcb77863fd9240eaab88add59f7e932f831c717d86d4a1375caaff13d54",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "ギャラクシティイベントページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.galaxcity.jp/future-creation-hall/event/20261129-009303.html",
+            "quote": "料金無料申込当日直接会場へ注意事項",
+            "checked_at": "2026-11-20",
+            "sha256": "d3a0c1176e25e9ba87b0ba46d128fdf78de129628da1f268b99c6daef5d7e20e",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "ギャラクシティイベントページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-20",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  }
+]

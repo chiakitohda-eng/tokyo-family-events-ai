@@ -1,0 +1,226 @@
+[
+  {
+    "id": "reviewed-20261115-nakano-160023",
+    "ward": "中野区",
+    "name": "図画工作「魔法つかいのほうき屋さん」",
+    "url": "https://nakano-hiromatimirai.resv.jp/reserve/calendar.php?x=1634516751",
+    "official_url": "https://nakano-hiromatimirai.resv.jp/reserve/calendar.php?x=1634516751",
+    "source": "https://nakano-hiromatimirai.resv.jp/reserve/calendar.php?x=1634516751",
+    "image": "https://pc.tamemap.net/tamemapapi/detail/2bcc09f8-5baa-4866-97b8-947bbc09a9fb.jpg",
+    "period": "11/15",
+    "date_start": "2026-11-15",
+    "date_end": "2026-11-15",
+    "time": "10:00〜11:00",
+    "venue": "広町みらい公園・体験学習センター",
+    "price": "1,000円（材料費込み）",
+    "description": "3歳くらいから大人まで。小学2年生以下は保護者同伴。金色の小枝に布リボンを巻いてクリスマスにも飾れる作品を作る。室内履き・持ち帰り用袋を持参。",
+    "categories": [
+      "工作",
+      "クリスマス"
+    ],
+    "family_fit": {
+      "grade": "A",
+      "overall": "A",
+      "rubric_version": "family-fit-v2",
+      "reason": "3歳頃から保護者と布リボンを使い、持ち帰れる作品を作る1時間の工作。 小学2年生以下は保護者同伴。材料費と当日取消料があり、空き確認が必要。",
+      "axes": {
+        "child_target": {
+          "grade": "A",
+          "reason": "子ども・親子向けの対象が主催者案内にある。 3歳頃から保護者と布リボンを使い、持ち帰れる作品を作る1時間の工作。"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "3歳頃から保護者と布リボンを使い、持ち帰れる作品を作る1時間の工作。"
+        },
+        "age_fit": {
+          "grade": "A",
+          "reason": "3歳頃から保護者と布リボンを使い、持ち帰れる作品を作る1時間の工作。 小学2年生以下は保護者同伴。材料費と当日取消料があり、空き確認が必要。"
+        },
+        "stay_flexibility": {
+          "grade": "B",
+          "reason": "開始・終了時刻の決まった短時間の教室。途中退出の禁止までは明記されていないため、予約制だけでCにはしない。"
+        },
+        "burden": {
+          "grade": "B",
+          "reason": "室内履き等の持参品と当日キャンセル料を事前確認。"
+        },
+        "cost": {
+          "grade": "B",
+          "reason": "主催者予約ページの参加費は1,000円（材料費込み）。"
+        },
+        "reservation": {
+          "grade": "C",
+          "reason": "事前申込・先着順、期限は11/14(土)。11/13閲覧時は受付中で空きあり、以後は変動。"
+        },
+        "family_value": {
+          "grade": "A",
+          "reason": "3歳頃から保護者と布リボンを使い、持ち帰れる作品を作る1時間の工作。"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-14",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "child_program",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "3歳頃から保護者と布リボンを使い、持ち帰れる作品を作る1時間の工作。"
+        ],
+        "limitations": [
+          "小学2年生以下は保護者同伴。材料費と当日取消料があり、空き確認が必要。"
+        ],
+        "grade_comparison": "総合A：3歳頃から保護者と布リボンを使い、持ち帰れる作品を作る1時間の工作。 小学2年生以下は保護者同伴。材料費と当日取消料があり、空き確認が必要。",
+        "unsupported_axes": [],
+        "evidence": [
+          {
+            "url": "https://nakano-hiromatimirai.resv.jp/reserve/calendar.php?x=1634516751",
+            "quote": "ラッキングを防ぐ」を「OFF」にします。 | 4. 「すべてのCookieをブロック」を「OFF」にします。 | 受付中 | 残 | 9 | 図画工作 11月~魔法つかいのほうき屋さん~ | 2026/11/15 (日) 10:00-11:00 | 1,000円 | 税込み | ※キャンセルの場合は開催日前日の午後9時までに体験学習センター管理事務所へご連絡ください。 | 無断欠席、当日キャンセルの場合には病欠であっても参加費をいただきます。 | [略称] 図画工作 | 魔法をかけた金の小板に、いろとりどりの布リボンを巻きつけたらできあがり! | クリスマスオーナメントとしても素敵。いざという時には魔法をかけられるかもしれませんよ♪ | 参加費:1,000円(材料費込み) | 時間:10:00~11:00 | 講師:野中かおり(図画工作室 太陽のいろ) | 対象:3歳くらい~大人まで | 小学2年生以下は保護者同伴 | 持ち物:室内履き、持ち帰り用袋 | 定員:12名 | [担当] 野中かおり (図画工作室 太陽のいろ) | 前の画面に戻る",
+            "checked_at": "2026-11-14T04:31:21.766331+00:00",
+            "sha256": "5417534b2f9a0e2c856703a7f054483ba0e142cbb571031a5485f1eaaf93cc06",
+            "detail_keyid": "7398"
+          }
+        ]
+      }
+    },
+    "reservation": {
+      "required": true,
+      "note": "事前申込・先着順。申込期限は11/14(土)。11/13の主催者予約ページでは受付中（空きは変動）。公園公式カレンダーで該当日・講座を選んで最新状況を確認。キャンセルは前日21時までに管理事務所へ電話。当日キャンセル・無断欠席は病欠でも参加費が必要。"
+    },
+    "indoor_outdoor": "",
+    "ai": {
+      "checked_at": "2026-11-13",
+      "confidence": "high",
+      "discovery_query": "前回保留候補を公園公式予約カレンダーへ辿り、本文・年・日付・対象・料金・受付状況を再照合。既存216レコードに同日同会場同講座なし。"
+    },
+    "discovery_sources": [
+      {
+        "channel": "explicit",
+        "source_id": "tamemap_nakano",
+        "kind": "recovered_detail_review",
+        "url": "https://pc.tamemap.net/1311401/event/160023/2026-11-15"
+      }
+    ]
+  },
+  {
+    "id": "reviewed-20261115-nakano-160164",
+    "ward": "中野区",
+    "name": "ファミリーリトミック（広町みらい公園）",
+    "url": "https://nakano-hiromatimirai.resv.jp/reserve/calendar.php?x=1634516751",
+    "official_url": "https://nakano-hiromatimirai.resv.jp/reserve/calendar.php?x=1634516751",
+    "source": "https://nakano-hiromatimirai.resv.jp/reserve/calendar.php?x=1634516751",
+    "image": "https://pc.tamemap.net/tamemapapi/detail/a8bf0a17-d4cc-4a36-a8ff-5c92ec58e9d7.jpg",
+    "period": "11/15",
+    "date_start": "2026-11-15",
+    "date_end": "2026-11-15",
+    "time": "①9:50〜10:30／②10:50〜11:30",
+    "venue": "広町みらい公園・体験学習センター",
+    "price": "1回2,000円、兄弟姉妹の追加参加は1,000円",
+    "description": "親子でふれあいながら季節の音楽を楽しむ。①は首すわり頃の0歳〜2歳未満と保護者、②は2歳〜未就学児と保護者。両親・兄弟姉妹での参加も可能。①は申込がゼロの場合中止の可能性あり。",
+    "categories": [
+      "音楽",
+      "親子体験"
+    ],
+    "family_fit": {
+      "grade": "A",
+      "overall": "A",
+      "rubric_version": "family-fit-v2",
+      "reason": "0歳から未就学児まで年齢別に、親子で音楽と身体のふれあいを楽しめる40分の教室。 親子組料金と兄弟追加料金があり、年齢別の枠・予約状況・取消条件を確認する。",
+      "axes": {
+        "child_target": {
+          "grade": "A",
+          "reason": "子ども・親子向けの対象が主催者案内にある。 0歳から未就学児まで年齢別に、親子で音楽と身体のふれあいを楽しめる40分の教室。"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "0歳から未就学児まで年齢別に、親子で音楽と身体のふれあいを楽しめる40分の教室。"
+        },
+        "age_fit": {
+          "grade": "A",
+          "reason": "0歳から未就学児まで年齢別に、親子で音楽と身体のふれあいを楽しめる40分の教室。 親子組料金と兄弟追加料金があり、年齢別の枠・予約状況・取消条件を確認する。"
+        },
+        "stay_flexibility": {
+          "grade": "B",
+          "reason": "開始・終了時刻の決まった短時間の教室。途中退出の禁止までは明記されていないため、予約制だけでCにはしない。"
+        },
+        "burden": {
+          "grade": "B",
+          "reason": "年齢別の40分講座。当日キャンセル・無断欠席は病欠でも参加費が必要。"
+        },
+        "cost": {
+          "grade": "B",
+          "reason": "主催者予約ページの参加費は1回2,000円、兄弟姉妹の追加参加は1,000円。"
+        },
+        "reservation": {
+          "grade": "C",
+          "reason": "事前申込・先着順、期限は11/14(土)。11/13閲覧時は受付中で空きあり、以後は変動。"
+        },
+        "family_value": {
+          "grade": "A",
+          "reason": "0歳から未就学児まで年齢別に、親子で音楽と身体のふれあいを楽しめる40分の教室。"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-14",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "child_program",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "0歳から未就学児まで年齢別に、親子で音楽と身体のふれあいを楽しめる40分の教室。"
+        ],
+        "limitations": [
+          "親子組料金と兄弟追加料金があり、年齢別の枠・予約状況・取消条件を確認する。"
+        ],
+        "grade_comparison": "総合A：0歳から未就学児まで年齢別に、親子で音楽と身体のふれあいを楽しめる40分の教室。 親子組料金と兄弟追加料金があり、年齢別の枠・予約状況・取消条件を確認する。",
+        "unsupported_axes": [],
+        "evidence": [
+          {
+            "url": "https://nakano-hiromatimirai.resv.jp/reserve/calendar.php?x=1634516751",
+            "quote": " | サイト越えトラッキングを防ぐ」を「OFF」にします。 | 4. 「すべてのCookieをブロック」を「OFF」にします。 | 受付中 | 残 | 5 | ファミリーリトミック1 11月 | 2026/11/15 (日) 9:50-10:30 | 2,000円 | 税込み、1回分です | ※キャンセルの場合は開催日前日の午後9時までに体験学習センター管理事務所へお電話でご連絡ください。 | 無断欠席、当日キャンセルの場合には病欠であっても参加費をいただきます。 | [略称] リトミック1 | 0歳~2歳未満クラス | こちらの講座は申し込みがゼロの場合は中止となる場合があります。 | 笑顔あふれる音楽体験! | 季節のアクティビティで、親子でふれあいながら心と体を楽しく育みます。 | ご両親、ご兄弟そろっての参加も大歓迎! | 参加費:2,000円(1回) | ご兄弟での参加はプラス1,000円 | 時間:9:50~10:30 | 対象:0歳首すわり頃~2歳未満のお子様と保護者 | 定員:8組 | ※メッセージ欄にお子様のお名前、年齢をご記入ください( | 必須 | ) | 例:○○ちゃん、1歳2ヶ月 | ご兄弟姉妹でのご参加はお好きなクラスにご参加いただけます | ※当日キャンセル・無断欠席をされますと、病欠であっても参加費をいただきます。ご注意ください。 | [担当] Love’it音楽教室 | [詳細URL] | https://loveit-music.net | 前の画面に戻る",
+            "checked_at": "2026-11-14T04:31:20.031455+00:00",
+            "sha256": "567406122e28782acce5512e611feef8525768c00d5bb15768e9f79f0d78bb52",
+            "detail_keyid": "7399"
+          }
+        ]
+      }
+    },
+    "reservation": {
+      "required": true,
+      "note": "事前申込・先着順。申込期限は11/14(土)。11/13の主催者予約ページでは受付中（空きは変動）。公園公式カレンダーで該当日・講座を選んで最新状況を確認。キャンセルは前日21時までに管理事務所へ電話。当日キャンセル・無断欠席は病欠でも参加費が必要。"
+    },
+    "indoor_outdoor": "",
+    "ai": {
+      "checked_at": "2026-11-13",
+      "confidence": "high",
+      "discovery_query": "前回保留候補を公園公式予約カレンダーへ辿り、本文・年・日付・対象・料金・受付状況を再照合。既存216レコードに同日同会場同講座なし。"
+    },
+    "discovery_sources": [
+      {
+        "channel": "explicit",
+        "source_id": "tamemap_nakano",
+        "kind": "recovered_detail_review",
+        "url": "https://pc.tamemap.net/1311401/event/160164/2026-11-15"
+      }
+    ]
+  }
+]

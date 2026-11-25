@@ -1,0 +1,120 @@
+[
+  {
+    "id": "official-20261128-minato-neighbors-garden-party4",
+    "ward": "港区",
+    "name": "NEIGHBORS’ GARDEN PARTY #4",
+    "url": "https://ikou.nttud.co.jp/topics/detail/id/n28054.html",
+    "official_url": "https://ikou.nttud.co.jp/topics/detail/id/n28054.html",
+    "source": "https://ikou.nttud.co.jp/topics/detail/id/n28054.html",
+    "image": "https://ikou.nttud.co.jp/company/news_img/topics_261106_01.webp",
+    "period": "11/28〜11/29",
+    "date_start": "2026-11-28",
+    "date_end": "2026-11-29",
+    "time": "10:00〜17:00（両日）",
+    "venue": "SHARE GREEN MINAMI AOYAMA（港区南青山1-12-32）",
+    "price": "入場無料。縁日各ゲーム200円、松ぼっくり釣り100円など（一部体験は別料金）",
+    "description": "南青山の緑豊かな広場に、子ども縁日、松ぼっくり釣り、スタンプラリー、マーケット、キッチンカーなどが集まる2日間。未就学児は保護者同伴。雨天決行、荒天中止の場合は当日7時に公式SNSで発表。",
+    "categories": [
+      "親子・地域体験",
+      "祭り・フェス"
+    ],
+    "family_fit": {
+      "grade": "A",
+      "overall": "A",
+      "rubric_version": "family-fit-v2",
+      "reason": "子ども縁日・松ぼっくり釣り・スタンプラリーが公式に確認でき、家族の外出先として適している。屋外・数量限定と一部要予約に注意。",
+      "axes": {
+        "child_target": {
+          "grade": "A",
+          "reason": "公式案内にキッズエリアの子ども縁日、親子で遊べるゲームが明記されている。"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "輪投げ・スーパーボールすくい・松ぼっくり釣り・スタンプラリーなどを体験できる。"
+        },
+        "age_fit": {
+          "grade": "A",
+          "reason": "幼児から家族で楽しめる企画がある。未就学児は保護者同伴が必要。"
+        },
+        "stay_flexibility": {
+          "grade": "B",
+          "reason": "マーケット・縁日・周遊型企画を選べるが、数量限定や有料ワークショップの時間・枠に制約がある。"
+        },
+        "burden": {
+          "grade": "B",
+          "reason": "屋外開催で天候による中止の可能性。混雑・待ち時間は確定できず、未就学児は保護者同伴。"
+        },
+        "cost": {
+          "grade": "B",
+          "reason": "入場無料。子ども縁日各ゲーム200円、松ぼっくり釣り100円など任意の有料コンテンツがある。"
+        },
+        "reservation": {
+          "grade": "B",
+          "reason": "会場の一般入場は予約不要。陶芸ワークショップなど一部企画は事前予約、定員に達すると受付終了。"
+        },
+        "family_value": {
+          "grade": "A",
+          "reason": "公園風の会場で子ども縁日、自然体験、マーケット、食を家族一緒に楽しめる。"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-17",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "child_program",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "入場無料で子ども向け縁日、松ぼっくり釣り、スタンプラリーがある。"
+        ],
+        "limitations": [
+          "未就学児は保護者同伴。荒天中止、一部ワークショップは事前予約や有料参加が必要。"
+        ],
+        "grade_comparison": "総合A：子どもを中心に楽しめる活動が複数あり、料金と参加条件は公式に案内されている。",
+        "unsupported_axes": [],
+        "evidence": [
+          {
+            "url": "https://ikou.nttud.co.jp/topics/detail/id/n28054.html",
+            "quote": "子どもたちと一緒に楽しめる縁日",
+            "checked_at": "2026-11-17",
+            "sha256": "b8bfc17c0ba9f0df45600621796c644e59e583653f9bc04280678abb0fe46748",
+            "hash_scope": "exact_utf8_quote"
+          },
+          {
+            "url": "https://ikou.nttud.co.jp/topics/detail/id/n28054.html",
+            "quote": "2026年11月28日（土）10：00～17：00",
+            "checked_at": "2026-11-17",
+            "sha256": "101d05653dc882d3079e2f743c03a8f3dc1487b2ed11e32f7532017a3f18894c",
+            "hash_scope": "exact_utf8_quote"
+          }
+        ]
+      }
+    },
+    "reservation": {
+      "required": false,
+      "note": "入場予約不要。陶芸ワークショップなど一部の体験は事前予約が必要。"
+    },
+    "indoor_outdoor": "",
+    "ai": {
+      "checked_at": "2026-11-17",
+      "confidence": "high",
+      "discovery_query": "2026年11月28・29日 港区 子連れイベント。主催者の開催告知と現在の公開参加単位を個別照合。"
+    },
+    "discovery_sources": [
+      {
+        "channel": "ai_cross",
+        "kind": "organizer_official_event_page",
+        "url": "https://ikou.nttud.co.jp/topics/detail/id/n28054.html"
+      }
+    ]
+  }
+]

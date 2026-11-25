@@ -1,0 +1,3041 @@
+{
+  "schema_version": 1,
+  "rubric_version": "family-fit-v2",
+  "generated": "2026-11-16",
+  "migration_incomplete": false,
+  "summary": {
+    "candidate_total": 23,
+    "published": 23,
+    "excluded": 0,
+    "duplicate": 0,
+    "hard_excluded": 0,
+    "soft_excluded": 0,
+    "reason_counts": {}
+  },
+  "decisions": [
+    {
+      "candidate_id": "confirmed-20261226-nakano-wagakki",
+      "name": "子ども向け和楽器体験＆スペシャルコンサート（12月26日回）",
+      "ward": "中野区",
+      "decision": "published",
+      "family_fit": {
+        "grade": "A",
+        "overall": "A",
+        "rubric_version": "family-fit-v2",
+        "reason": "未就学児親子と小中学生が伝統楽器を実際に演奏できる。先着予約で定員が少なく、1回参加でもコース料金が必要。",
+        "axes": {
+          "child_target": {
+            "grade": "A",
+            "reason": "未就学児親子と小中学生が伝統楽器を実際に演奏できる"
+          },
+          "interactivity": {
+            "grade": "A",
+            "reason": "未就学児親子と小中学生が伝統楽器を実際に演奏できる"
+          },
+          "age_fit": {
+            "grade": "A",
+            "reason": "未就学児親子と小中学生が伝統楽器を実際に演奏できる。対象の詳細は公式告知を参照。"
+          },
+          "stay_flexibility": {
+            "grade": "unknown",
+            "reason": "途中の出入りや参加時間の自由度は公式の個別開催案内では明記されていない。"
+          },
+          "burden": {
+            "grade": "B",
+            "reason": "先着予約で定員が少なく、1回参加でもコース料金が必要"
+          },
+          "cost": {
+            "grade": "B",
+            "reason": "2,000円（体験全4回とコンサート観覧込み。参加回数にかかわらず同額）"
+          },
+          "reservation": {
+            "grade": "B",
+            "reason": "主催者の申込フォームから要事前申込。2026年9月18日〜2027年2月7日受付、先着・定員になり次第締切。未就学児は保護者同伴。"
+          },
+          "family_value": {
+            "grade": "A",
+            "reason": "未就学児親子と小中学生が伝統楽器を実際に演奏できる"
+          }
+        },
+        "review": {
+          "schema_version": 1,
+          "method": "individual_evidence_review",
+          "reviewed_on": "2026-11-17",
+          "axes_checked": [
+            "child_target",
+            "interactivity",
+            "age_fit",
+            "stay_flexibility",
+            "burden",
+            "cost",
+            "reservation",
+            "family_value"
+          ],
+          "audience_basis": "child_program",
+          "child_activity_confirmed": true,
+          "strengths": [
+            "未就学児親子と小中学生が伝統楽器を実際に演奏できる"
+          ],
+          "limitations": [
+            "先着予約で定員が少なく、1回参加でもコース料金が必要"
+          ],
+          "grade_comparison": "総合A：未就学児親子と小中学生が伝統楽器を実際に演奏できる。先着予約で定員が少なく、1回参加でもコース料金が必要。",
+          "unsupported_axes": [
+            "stay_flexibility"
+          ],
+          "evidence": [
+            {
+              "url": "https://www.city.tokyo-nakano.lg.jp/kurashi/bunka/bunka/kodomowakamono_bunka/nakano_ninteijigyo/nintei04.html",
+              "quote": "2026年12月26日（土曜日）",
+              "checked_at": "2026-11-17",
+              "sha256": "2c5c9c053e3363149abb480ba624fa87648eaea6b65a447ca79d457e6dfc87a8",
+              "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+              "description": "公式または主催者名義の2026年掲載情報を取得。引用文字列だけのUTF-8 SHA-256。月別一覧の日付が必要な候補は別途 indexUrl に保存。"
+            }
+          ]
+        }
+      },
+      "positive_signals": [
+        "official_date_confirmed",
+        "child_activity_confirmed"
+      ],
+      "negative_signals": [
+        "global_source_audit_pending"
+      ],
+      "hard_exclusion": null,
+      "exclusion_type": null,
+      "primary_reason_code": "family_value_high",
+      "reason_codes": [
+        "family_value_high"
+      ],
+      "reasons": [
+        "未就学児親子と小中学生が伝統楽器を実際に演奏できる。先着予約で定員が少なく、1回参加でもコース料金が必要。"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.city.tokyo-nakano.lg.jp/kurashi/bunka/bunka/kodomowakamono_bunka/nakano_ninteijigyo/nintei04.html",
+          "basis": "2026-11-17 dated independent official or organizer detail and indexed date; 23 ward completeness not asserted"
+        }
+      ],
+      "override_reason": ""
+    },
+    {
+      "candidate_id": "tamemap-20261227-nakano-family-rhythm",
+      "name": "ファミリーリトミック（12月27日）",
+      "ward": "中野区",
+      "decision": "published",
+      "family_fit": {
+        "grade": "A",
+        "overall": "A",
+        "rubric_version": "family-fit-v2",
+        "reason": "親子で音楽体験に参加できる公園指定管理者の企画。個別の12月27日開催時刻と予約空席が公式個別ページで未確認。",
+        "axes": {
+          "child_target": {
+            "grade": "A",
+            "reason": "親子で音楽体験に参加できる公園指定管理者の企画"
+          },
+          "interactivity": {
+            "grade": "A",
+            "reason": "親子で音楽体験に参加できる公園指定管理者の企画"
+          },
+          "age_fit": {
+            "grade": "B",
+            "reason": "親子で音楽体験に参加できる公園指定管理者の企画。対象の詳細は公式告知を参照。"
+          },
+          "stay_flexibility": {
+            "grade": "unknown",
+            "reason": "途中の出入りや参加時間の自由度は公式の個別開催案内では明記されていない。"
+          },
+          "burden": {
+            "grade": "B",
+            "reason": "個別の12月27日開催時刻と予約空席が公式個別ページで未確認"
+          },
+          "cost": {
+            "grade": "unknown",
+            "reason": "1,000円以上（掲載カテゴリ。正確な料金・人数条件は予約ページで要確認）"
+          },
+          "reservation": {
+            "grade": "B",
+            "reason": "主催者の公園申込サイトから要予約・先着順。通常は開催月の前月15日から受付開始。12月27日の空席は未確認。"
+          },
+          "family_value": {
+            "grade": "A",
+            "reason": "親子で音楽体験に参加できる公園指定管理者の企画"
+          }
+        },
+        "review": {
+          "schema_version": 1,
+          "method": "individual_evidence_review",
+          "reviewed_on": "2026-11-17",
+          "axes_checked": [
+            "child_target",
+            "interactivity",
+            "age_fit",
+            "stay_flexibility",
+            "burden",
+            "cost",
+            "reservation",
+            "family_value"
+          ],
+          "audience_basis": "child_program",
+          "child_activity_confirmed": true,
+          "strengths": [
+            "親子で音楽体験に参加できる公園指定管理者の企画"
+          ],
+          "limitations": [
+            "個別の12月27日開催時刻と予約空席が公式個別ページで未確認"
+          ],
+          "grade_comparison": "総合A：親子で音楽体験に参加できる公園指定管理者の企画。個別の12月27日開催時刻と予約空席が公式個別ページで未確認。",
+          "unsupported_axes": [
+            "stay_flexibility"
+          ],
+          "evidence": [
+            {
+              "url": "https://pc.tamemap.net/1311401/event/160164?locale=ja",
+              "quote": "笑顔があふれる音楽体験！季節のアクティビティで、親子でふれあいながら心と体を楽しく育みます。",
+              "checked_at": "2026-11-17",
+              "sha256": "7d758ff9566a8ca6c9d9d9eb13f54d948d4813c7b1b244e3206526f90c206316",
+              "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+              "description": "公式または主催者名義の2026年掲載情報を取得。引用文字列だけのUTF-8 SHA-256。月別一覧の日付が必要な候補は別途 indexUrl に保存。"
+            }
+          ]
+        }
+      },
+      "positive_signals": [
+        "official_date_confirmed",
+        "child_activity_confirmed"
+      ],
+      "negative_signals": [
+        "global_source_audit_pending"
+      ],
+      "hard_exclusion": null,
+      "exclusion_type": null,
+      "primary_reason_code": "family_value_high",
+      "reason_codes": [
+        "family_value_high"
+      ],
+      "reasons": [
+        "親子で音楽体験に参加できる公園指定管理者の企画。個別の12月27日開催時刻と予約空席が公式個別ページで未確認。"
+      ],
+      "evidence": [
+        {
+          "url": "https://pc.tamemap.net/1311401/event/160164?locale=ja",
+          "basis": "2026-11-17 dated independent official or organizer detail and indexed date; 23 ward completeness not asserted"
+        }
+      ],
+      "override_reason": ""
+    },
+    {
+      "candidate_id": "tamemap-20261226-nakano-tomocchao",
+      "name": "ともっちゃお！ おやこdeひろば（12月26日）",
+      "ward": "中野区",
+      "decision": "published",
+      "family_fit": {
+        "grade": "A",
+        "overall": "A",
+        "rubric_version": "family-fit-v2",
+        "reason": "親子でおもちゃと国際交流・アートを楽しめる主催者告知の企画。事前予約必須で、12月26日個別の空席・申込期限は未取得。",
+        "axes": {
+          "child_target": {
+            "grade": "A",
+            "reason": "親子でおもちゃと国際交流・アートを楽しめる主催者告知の企画"
+          },
+          "interactivity": {
+            "grade": "A",
+            "reason": "親子でおもちゃと国際交流・アートを楽しめる主催者告知の企画"
+          },
+          "age_fit": {
+            "grade": "B",
+            "reason": "親子でおもちゃと国際交流・アートを楽しめる主催者告知の企画。対象の詳細は公式告知を参照。"
+          },
+          "stay_flexibility": {
+            "grade": "unknown",
+            "reason": "途中の出入りや参加時間の自由度は公式の個別開催案内では明記されていない。"
+          },
+          "burden": {
+            "grade": "B",
+            "reason": "事前予約必須で、12月26日個別の空席・申込期限は未取得"
+          },
+          "cost": {
+            "grade": "A",
+            "reason": "参加無料。延長30分500円、追加ドリンクは別料金"
+          },
+          "reservation": {
+            "grade": "B",
+            "reason": "前日までの予約制。2026年12月26日の予定は主催者名義の投稿に明記。ただし12月26日個別の受付枠・空席は未確認。"
+          },
+          "family_value": {
+            "grade": "A",
+            "reason": "親子でおもちゃと国際交流・アートを楽しめる主催者告知の企画"
+          }
+        },
+        "review": {
+          "schema_version": 1,
+          "method": "individual_evidence_review",
+          "reviewed_on": "2026-11-17",
+          "axes_checked": [
+            "child_target",
+            "interactivity",
+            "age_fit",
+            "stay_flexibility",
+            "burden",
+            "cost",
+            "reservation",
+            "family_value"
+          ],
+          "audience_basis": "child_program",
+          "child_activity_confirmed": true,
+          "strengths": [
+            "親子でおもちゃと国際交流・アートを楽しめる主催者告知の企画"
+          ],
+          "limitations": [
+            "事前予約必須で、12月26日個別の空席・申込期限は未取得"
+          ],
+          "grade_comparison": "総合A：親子でおもちゃと国際交流・アートを楽しめる主催者告知の企画。事前予約必須で、12月26日個別の空席・申込期限は未取得。",
+          "unsupported_axes": [
+            "stay_flexibility"
+          ],
+          "evidence": [
+            {
+              "url": "https://pc.tamemap.net/1311401/event/160639?locale=ja",
+              "quote": "9/19（土）・10/24（土）・11/28（土）・12/26（土）",
+              "checked_at": "2026-11-17",
+              "sha256": "591e0c20050a767ea138680a086c964a3aa67327e6a565d56f7d395fc66a6924",
+              "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+              "description": "公式または主催者名義の2026年掲載情報を取得。引用文字列だけのUTF-8 SHA-256。月別一覧の日付が必要な候補は別途 indexUrl に保存。"
+            }
+          ]
+        }
+      },
+      "positive_signals": [
+        "official_date_confirmed",
+        "child_activity_confirmed"
+      ],
+      "negative_signals": [
+        "global_source_audit_pending"
+      ],
+      "hard_exclusion": null,
+      "exclusion_type": null,
+      "primary_reason_code": "family_value_high",
+      "reason_codes": [
+        "family_value_high"
+      ],
+      "reasons": [
+        "親子でおもちゃと国際交流・アートを楽しめる主催者告知の企画。事前予約必須で、12月26日個別の空席・申込期限は未取得。"
+      ],
+      "evidence": [
+        {
+          "url": "https://pc.tamemap.net/1311401/event/160639?locale=ja",
+          "basis": "2026-11-17 dated independent official or organizer detail and indexed date; 23 ward completeness not asserted"
+        }
+      ],
+      "override_reason": ""
+    },
+    {
+      "candidate_id": "tamemap-20261227-nakano-mama-hot-kitchen",
+      "name": "ママほっとキッチン（12月27日）",
+      "ward": "中野区",
+      "decision": "published",
+      "family_fit": {
+        "grade": "B",
+        "overall": "B",
+        "rubric_version": "family-fit-v2",
+        "reason": "中野区社協の毎月第4日曜開催・子ども料金・会場を確認し、ためまっぷ2026年12月27日一覧と突き合わせた。2026年当日限定の時刻変更・参加方法は未確認。",
+        "axes": {
+          "child_target": {
+            "grade": "A",
+            "reason": "中野区社会福祉協議会の案内は乳幼児親子・子ども対象の子ども食堂と記載"
+          },
+          "interactivity": {
+            "grade": "B",
+            "reason": "子どもや家族が会場で食事をとり交流できる"
+          },
+          "age_fit": {
+            "grade": "A",
+            "reason": "社協の案内では18歳以下の子どもを対象としている"
+          },
+          "stay_flexibility": {
+            "grade": "unknown",
+            "reason": "滞在時間・途中出入り条件は個別の2026年12月27日分で未確認"
+          },
+          "burden": {
+            "grade": "B",
+            "reason": "食事は売り切れ終了であり、2026年当日の提供・開催内容に変更の可能性"
+          },
+          "cost": {
+            "grade": "A",
+            "reason": "社協の定期開催案内では18歳以下無料、大人300円。12月27日個別の変更は未確認"
+          },
+          "reservation": {
+            "grade": "unknown",
+            "reason": "社協の概要に申込方法の明記がなく、個別2026年12月27日の案内を未取得"
+          },
+          "family_value": {
+            "grade": "B",
+            "reason": "子どもと家族向けの地域の食事・交流の場"
+          }
+        },
+        "review": {
+          "schema_version": 1,
+          "method": "individual_evidence_review",
+          "reviewed_on": "2026-11-17",
+          "axes_checked": [
+            "child_target",
+            "interactivity",
+            "age_fit",
+            "stay_flexibility",
+            "burden",
+            "cost",
+            "reservation",
+            "family_value"
+          ],
+          "audience_basis": "child_program",
+          "child_activity_confirmed": true,
+          "strengths": [
+            "子ども食堂の対象・通常料金・定期開催日と2026年12月27日の日付を公的団体案内・当年索引から照合"
+          ],
+          "limitations": [
+            "12月27日個別の時刻・予約方法・開催変更は取得できず、現地参加前の確認を推奨",
+            "2026年当日個別の時刻/参加条件が未確認であり、過去の定期案内と月別索引の突合に限る。"
+          ],
+          "grade_comparison": "総合B：子ども歓迎の地域食堂。日時は当年の掲載確認済みだが個別条件を確約できない。",
+          "unsupported_axes": [
+            "stay_flexibility",
+            "reservation"
+          ],
+          "evidence": [
+            {
+              "url": "https://nakanoshakyo.com/nakanoinfo/result/?did=13971",
+              "quote": "毎月第4日曜日 11:30～14:00（売り切れ終了）",
+              "checked_at": "2026-11-17",
+              "sha256": "9a22ef3332b658c355029dcac2a70ceee76788efcec78256569c7d94c5e33144",
+              "hash_scope": "exact_utf8_quote",
+              "note": "中野区社会福祉協議会の定期開催案内。掲載日2023年の継続案内であり2026年当日の変更を否定するものではない"
+            },
+            {
+              "url": "https://nakanoshakyo.com/nakanoinfo/result/?did=13971",
+              "quote": "こども(18歳以下)無料、大人300円",
+              "checked_at": "2026-11-17",
+              "sha256": "05a723a1a0e6a127b5474725de1ce3ada8f21912f4140897be06e52f77e3b3a3",
+              "hash_scope": "exact_utf8_quote",
+              "note": "社協に記載された通常の料金。12月27日の個別例外未確認"
+            }
+          ]
+        }
+      },
+      "positive_signals": [
+        "2026_dated_calendar_index",
+        "social_welfare_recurring_schedule",
+        "child_target_confirmed"
+      ],
+      "negative_signals": [
+        "individual_date_specific_conditions_pending",
+        "global_source_audit_pending"
+      ],
+      "hard_exclusion": null,
+      "exclusion_type": null,
+      "primary_reason_code": "balanced_family_fit",
+      "reason_codes": [
+        "balanced_family_fit"
+      ],
+      "reasons": [
+        "中野区社協の毎月第4日曜開催・子ども料金・会場を確認し、ためまっぷ2026年12月27日一覧と突き合わせた。2026年当日限定の時刻変更・参加方法は未確認。"
+      ],
+      "evidence": [
+        {
+          "url": "https://nakanoshakyo.com/nakanoinfo/result/?did=13971",
+          "basis": "Monthly fourth-Sunday recurrence, 11:30-14:00, age/price/venue, with changes possible"
+        },
+        {
+          "url": "https://pc.tamemap.net/1311401/calendar/2026-12?lat=35.7073&level=5000&lng=139.675&locale=ja",
+          "basis": "2026-12-27 dated calendar listing (not individual-event-page evidence)"
+        }
+      ],
+      "override_reason": ""
+    },
+    {
+      "candidate_id": "verified-20261226-nerima-oshigoto-nishihonmura",
+      "name": "ねりまの森こどもフェスタ「森のおしごと体験」（西本村憩いの森）",
+      "ward": "練馬区",
+      "decision": "published",
+      "family_fit": {
+        "grade": "B",
+        "overall": "B",
+        "rubric_version": "family-fit-v2",
+        "reason": "落ち葉掃き、キクイモ掘り、小鳥の巣箱点検をする森のおしごと体験。西本村憩いの森で開催。無料・予約不要で、18歳以下にはグッズのプレゼントがある。屋外で雨天中止。",
+        "axes": {
+          "child_target": {
+            "grade": "B",
+            "reason": "こどもフェスタの催しで、18歳以下にグッズのプレゼントがある"
+          },
+          "interactivity": {
+            "grade": "B",
+            "reason": "森の中での体験・遊び"
+          },
+          "age_fit": {
+            "grade": "unknown",
+            "reason": "対象年齢の目安は明記がない"
+          },
+          "stay_flexibility": {
+            "grade": "B",
+            "reason": "開催時間が限られている"
+          },
+          "burden": {
+            "grade": "B",
+            "reason": "屋外開催で雨天中止。駐車場がない"
+          },
+          "cost": {
+            "grade": "A",
+            "reason": "参加費無料（一部有料のイベントあり）"
+          },
+          "reservation": {
+            "grade": "A",
+            "reason": "事前予約不要"
+          },
+          "family_value": {
+            "grade": "B",
+            "reason": "森で家族で遊べる"
+          }
+        },
+        "review": {
+          "schema_version": 1,
+          "method": "individual_evidence_review",
+          "reviewed_on": "2026-11-20",
+          "axes_checked": [
+            "child_target",
+            "interactivity",
+            "age_fit",
+            "stay_flexibility",
+            "burden",
+            "cost",
+            "reservation",
+            "family_value"
+          ],
+          "audience_basis": "child_program",
+          "child_activity_confirmed": true,
+          "strengths": [
+            "無料・予約不要",
+            "18歳以下にグッズのプレゼント"
+          ],
+          "limitations": [
+            "屋外で雨天中止",
+            "各会場に駐車場がない"
+          ],
+          "grade_comparison": "総合B：西本村憩いの森で13:30〜16:00の間、無料・予約不要で参加できるが、屋外で雨天中止になる。",
+          "unsupported_axes": [
+            "age_fit"
+          ],
+          "evidence": [
+            {
+              "url": "https://www.city.nerima.tokyo.jp/kurashi/shigoto/midori/shokai/nerimanomori.html",
+              "quote": "令和8年12月26日（土曜）午後1時30分から午後4時まで森のおしごと体験（落ち葉掃き、キクイモ掘り、小鳥の巣箱点検）西本村憩いの森（大泉学園町2丁目23番）西本村憩いの森ファンクラブ",
+              "checked_at": "2026-11-20",
+              "sha256": "48718879e6cd61990a30fb9166f0d98dd3fa7b1e7d48f5d61a9ed36d06776482",
+              "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+              "description": "練馬区公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+            },
+            {
+              "url": "https://www.city.nerima.tokyo.jp/kurashi/shigoto/midori/shokai/nerimanomori.html",
+              "quote": "参加方法当日会場へお越しください。事前予約不要・参加費無料です（一部有料のイベントがあります）。",
+              "checked_at": "2026-11-20",
+              "sha256": "730bebdf9c0fa6545fccbad0f3b5ecd80d28d8c36a1cdcac7b00a05ede354c47",
+              "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+              "description": "練馬区公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+            },
+            {
+              "url": "https://www.city.nerima.tokyo.jp/kurashi/shigoto/midori/shokai/nerimanomori.html",
+              "quote": "（注釈）オリジナルグッズが貰えるのは18歳以下が対象です。",
+              "checked_at": "2026-11-20",
+              "sha256": "ba378f98f2ff0edd2b1faa705ce6c6f06b46a52277f7a24a4990451d98929f31",
+              "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+              "description": "練馬区公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+            },
+            {
+              "url": "https://www.city.nerima.tokyo.jp/kurashi/shigoto/midori/shokai/nerimanomori.html",
+              "quote": "（注釈）雨天中止となります（一部除く）。",
+              "checked_at": "2026-11-20",
+              "sha256": "0aa46117316f5656199124375c44efb20f1c07b3b3b998824717c8de33d56d17",
+              "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+              "description": "練馬区公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+            }
+          ]
+        }
+      },
+      "positive_signals": [
+        "official_date_confirmed",
+        "child_activity_confirmed"
+      ],
+      "negative_signals": [
+        "global_source_audit_pending"
+      ],
+      "hard_exclusion": null,
+      "exclusion_type": null,
+      "primary_reason_code": "family_value_high",
+      "reason_codes": [
+        "family_value_high"
+      ],
+      "reasons": [
+        "落ち葉掃き、キクイモ掘り、小鳥の巣箱点検をする森のおしごと体験。西本村憩いの森で開催。無料・予約不要で、18歳以下にはグッズのプレゼントがある。屋外で雨天中止。"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.city.nerima.tokyo.jp/kurashi/shigoto/midori/shokai/nerimanomori.html",
+          "basis": "2026-11-20 official individual event page (HTTP200); 23 ward completeness not asserted"
+        }
+      ],
+      "override_reason": "",
+      "discovery_sources": [
+        {
+          "channel": "ai_cross",
+          "kind": "ai_cross_search",
+          "url": "https://www.city.nerima.tokyo.jp/kurashi/shigoto/midori/shokai/nerimanomori.html"
+        }
+      ]
+    },
+    {
+      "candidate_id": "verified-20261227-shinagawa-inline-dec27",
+      "name": "やってみよう！インラインスケート体験会（大井ふ頭中央海浜公園 さくら広場）",
+      "ward": "品川区",
+      "decision": "published",
+      "family_fit": {
+        "grade": "C",
+        "overall": "C",
+        "rubric_version": "family-fit-v2",
+        "reason": "12/27(日)のインラインスケートを指導つきで体験できる無料の体験会。対象年齢や事前予約の記載はなく、ヘルメットと長めの靴下の持参が必要。",
+        "axes": {
+          "child_target": {
+            "grade": "unknown",
+            "reason": "対象年齢の記載がない"
+          },
+          "interactivity": {
+            "grade": "A",
+            "reason": "インラインスケートを体験できる"
+          },
+          "age_fit": {
+            "grade": "unknown",
+            "reason": "対象年齢の目安は明記がない"
+          },
+          "stay_flexibility": {
+            "grade": "A",
+            "reason": "10〜17時の間に参加できる"
+          },
+          "burden": {
+            "grade": "B",
+            "reason": "ヘルメットと長めの靴下を持参し、屋外で行う"
+          },
+          "cost": {
+            "grade": "A",
+            "reason": "参加費無料"
+          },
+          "reservation": {
+            "grade": "unknown",
+            "reason": "事前予約の記載がない"
+          },
+          "family_value": {
+            "grade": "B",
+            "reason": "体を動かす体験を無料でできる"
+          }
+        },
+        "review": {
+          "schema_version": 1,
+          "method": "individual_evidence_review",
+          "reviewed_on": "2026-11-20",
+          "axes_checked": [
+            "child_target",
+            "interactivity",
+            "age_fit",
+            "stay_flexibility",
+            "burden",
+            "cost",
+            "reservation",
+            "family_value"
+          ],
+          "audience_basis": "unspecified",
+          "child_activity_confirmed": true,
+          "strengths": [
+            "無料で体験できる",
+            "10〜17時と時間が長い"
+          ],
+          "limitations": [
+            "対象年齢の記載がない",
+            "ヘルメットを持参する必要がある"
+          ],
+          "grade_comparison": "総合C（12/27(日)開催）：無料で長い時間体験できるが、対象年齢が不明で、ヘルメットなどの持ち物が必要。",
+          "unsupported_axes": [
+            "child_target",
+            "age_fit",
+            "reservation"
+          ],
+          "evidence": [
+            {
+              "url": "https://tokyo-south-seaside-parks.com/event/%e3%82%a4%e3%83%b3%e3%83%a9%e3%82%a4%e3%83%b3%e3%82%b9%e3%82%b1%e3%83%bc%e3%83%88%e4%bd%93%e9%a8%93%e4%bc%9a-12%e6%9c%88",
+              "quote": "12月20日(日)、12月27日(日)",
+              "checked_at": "2026-11-20",
+              "sha256": "2f41c923bd2265b9808cc1f14a0a4dfa9a2fadcc9083b18e4c5082cf5209144e",
+              "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+              "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+            },
+            {
+              "url": "https://tokyo-south-seaside-parks.com/event/%e3%82%a4%e3%83%b3%e3%83%a9%e3%82%a4%e3%83%b3%e3%82%b9%e3%82%b1%e3%83%bc%e3%83%88%e4%bd%93%e9%a8%93%e4%bc%9a-12%e6%9c%88",
+              "quote": "体験会：10時～17時　さくら広場にて",
+              "checked_at": "2026-11-20",
+              "sha256": "af68aaffb1d8fbf484e97ca4f4c7a8451bf6640b88b921da6401ada2db25694f",
+              "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+              "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+            },
+            {
+              "url": "https://tokyo-south-seaside-parks.com/event/%e3%82%a4%e3%83%b3%e3%83%a9%e3%82%a4%e3%83%b3%e3%82%b9%e3%82%b1%e3%83%bc%e3%83%88%e4%bd%93%e9%a8%93%e4%bc%9a-12%e6%9c%88",
+              "quote": "参加費無料持ち物体験会ご参加",
+              "checked_at": "2026-11-20",
+              "sha256": "2e2d3aa5ed09e7e953b3c226de56174f3d4aeed2311d13b2ffb1f7a866699ffe",
+              "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+              "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+            },
+            {
+              "url": "https://tokyo-south-seaside-parks.com/event/%e3%82%a4%e3%83%b3%e3%83%a9%e3%82%a4%e3%83%b3%e3%82%b9%e3%82%b1%e3%83%bc%e3%83%88%e4%bd%93%e9%a8%93%e4%bc%9a-12%e6%9c%88",
+              "quote": "体験会ご参加の方は、長めの靴下と自転車等のヘルメットをご持参ください。",
+              "checked_at": "2026-11-20",
+              "sha256": "a06cc784f093512d2a1e7a3e6ae9daa755ff5b65032b43fe1d9e5b28377a87cb",
+              "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+              "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+            },
+            {
+              "url": "https://tokyo-south-seaside-parks.com/event/%e3%82%a4%e3%83%b3%e3%83%a9%e3%82%a4%e3%83%b3%e3%82%b9%e3%82%b1%e3%83%bc%e3%83%88%e4%bd%93%e9%a8%93%e4%bc%9a-12%e6%9c%88",
+              "quote": "共催やしおスケートパーク",
+              "checked_at": "2026-11-20",
+              "sha256": "70d3e6d2a8daa6c760cd039421f3b6e447e195b2583084329e79467e66834af6",
+              "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+              "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+            }
+          ]
+        }
+      },
+      "positive_signals": [
+        "official_date_confirmed",
+        "child_activity_confirmed"
+      ],
+      "negative_signals": [
+        "global_source_audit_pending"
+      ],
+      "hard_exclusion": null,
+      "exclusion_type": null,
+      "primary_reason_code": "family_value_high",
+      "reason_codes": [
+        "family_value_high"
+      ],
+      "reasons": [
+        "12/27(日)のインラインスケートを指導つきで体験できる無料の体験会。対象年齢や事前予約の記載はなく、ヘルメットと長めの靴下の持参が必要。"
+      ],
+      "evidence": [
+        {
+          "url": "https://tokyo-south-seaside-parks.com/event/%e3%82%a4%e3%83%b3%e3%83%a9%e3%82%a4%e3%83%b3%e3%82%b9%e3%82%b1%e3%83%bc%e3%83%88%e4%bd%93%e9%a8%93%e4%bc%9a-12%e6%9c%88",
+          "basis": "2026-11-20 official individual event page (HTTP200); 23 ward completeness not asserted"
+        }
+      ],
+      "override_reason": "公式の無料体験イベントで子どもも体験できる内容だが、対象年齢と事前予約の記載がないため、条件つきの総合Cとして掲載する。",
+      "discovery_sources": [
+        {
+          "channel": "ai_cross",
+          "kind": "ai_cross_search",
+          "url": "https://tokyo-south-seaside-parks.com/event/%e3%82%a4%e3%83%b3%e3%83%a9%e3%82%a4%e3%83%b3%e3%82%b9%e3%82%b1%e3%83%bc%e3%83%88%e4%bd%93%e9%a8%93%e4%bc%9a-12%e6%9c%88"
+        }
+      ]
+    },
+    {
+      "candidate_id": "verified-20261226-edogawa-kanusura-park",
+      "name": "カヌスラパーク（カヌー・スラロームセンター）",
+      "ward": "江戸川区",
+      "decision": "published",
+      "family_fit": {
+        "grade": "B",
+        "overall": "B",
+        "rubric_version": "family-fit-v2",
+        "reason": "12/26週の土日祝に3歳以上が遊べるイージーローラー、キックボード、ブランコなどのあるパーク。予約不要で当日受付、1回500円で20分遊べる。",
+        "axes": {
+          "child_target": {
+            "grade": "B",
+            "reason": "3歳以上が対象で、未就学児は保護者の同伴が必要"
+          },
+          "interactivity": {
+            "grade": "A",
+            "reason": "ローラー、キックボード、ブランコなどで体を動かして遊べる"
+          },
+          "age_fit": {
+            "grade": "A",
+            "reason": "参加条件が3歳以上と明記"
+          },
+          "stay_flexibility": {
+            "grade": "B",
+            "reason": "1回20分で、延長や回数券で調整する"
+          },
+          "burden": {
+            "grade": "B",
+            "reason": "屋外で雨天休止。駅から徒歩約12分"
+          },
+          "cost": {
+            "grade": "B",
+            "reason": "1回500円"
+          },
+          "reservation": {
+            "grade": "A",
+            "reason": "事前予約はなく、当日受付"
+          },
+          "family_value": {
+            "grade": "B",
+            "reason": "親子で体を動かして遊べる"
+          }
+        },
+        "review": {
+          "schema_version": 1,
+          "method": "individual_evidence_review",
+          "reviewed_on": "2026-11-20",
+          "axes_checked": [
+            "child_target",
+            "interactivity",
+            "age_fit",
+            "stay_flexibility",
+            "burden",
+            "cost",
+            "reservation",
+            "family_value"
+          ],
+          "audience_basis": "age_eligible",
+          "child_activity_confirmed": true,
+          "strengths": [
+            "3歳から遊べる",
+            "予約不要で当日受付"
+          ],
+          "limitations": [
+            "屋外で雨天休止",
+            "1回20分で料金がかかる"
+          ],
+          "grade_comparison": "総合B（2026-12-26）：3歳から遊べて予約不要だが、屋外で雨天休止、1回20分で料金がかかる。",
+          "unsupported_axes": [],
+          "evidence": [
+            {
+              "url": "https://canoe-slalom.tokyo/activity/k-park/",
+              "quote": "営業時間土・日・祝11:00",
+              "checked_at": "2026-11-20",
+              "sha256": "0270186753d492b39e1f3edc4325b903e70f03705c4e641685ba2ccbdc4efa22",
+              "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+              "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+            },
+            {
+              "url": "https://canoe-slalom.tokyo/activity/k-park/",
+              "quote": "参加条件3歳以上※一部遊具は対象年齢が異なります",
+              "checked_at": "2026-11-20",
+              "sha256": "dc9c054ff01433f065216c86db945825786b05ec1210ea4f74417cb952b95bc2",
+              "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+              "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+            },
+            {
+              "url": "https://canoe-slalom.tokyo/activity/k-park/",
+              "quote": "未就学児には保護者の同伴が必要",
+              "checked_at": "2026-11-20",
+              "sha256": "b011204efa57c9c934177f4e5e4a971e72f22e6de6208dc1e6b81a13d297ac83",
+              "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+              "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+            },
+            {
+              "url": "https://canoe-slalom.tokyo/activity/k-park/",
+              "quote": "当日に受付（管理棟）まで直接お越しください",
+              "checked_at": "2026-11-20",
+              "sha256": "e208ad4bb5ee5aaa49bf722c07e4d77d028371c839f8d79321f8fe4922701160",
+              "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+              "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+            },
+            {
+              "url": "https://canoe-slalom.tokyo/activity/k-park/",
+              "quote": "事前予約はございません。当日参加のみとなります",
+              "checked_at": "2026-11-20",
+              "sha256": "9cbe7834ac4877d95315e34fbaf10806f0daf6edca2cbfc058d2b37c1569e939",
+              "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+              "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+            },
+            {
+              "url": "https://canoe-slalom.tokyo/activity/k-park/",
+              "quote": "1回500円（20分間）※予約不要！",
+              "checked_at": "2026-11-20",
+              "sha256": "54c939f2a8072a4e283ee2493b7bfbef4bb7da4914e240ff6b9ff7164d3e6d75",
+              "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+              "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+            },
+            {
+              "url": "https://canoe-slalom.tokyo/activity/k-park/",
+              "quote": "雨天休止※イベントなどで休止の場合あり",
+              "checked_at": "2026-11-20",
+              "sha256": "d2a5dd11087a11298972cd179e3ea9c0174cff5f78e5eb6624c919e5a8a44549",
+              "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+              "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+            }
+          ]
+        }
+      },
+      "positive_signals": [
+        "official_date_confirmed",
+        "child_activity_confirmed"
+      ],
+      "negative_signals": [
+        "global_source_audit_pending"
+      ],
+      "hard_exclusion": null,
+      "exclusion_type": null,
+      "primary_reason_code": "family_value_high",
+      "reason_codes": [
+        "family_value_high"
+      ],
+      "reasons": [
+        "12/26週の土日祝に3歳以上が遊べるイージーローラー、キックボード、ブランコなどのあるパーク。予約不要で当日受付、1回500円で20分遊べる。"
+      ],
+      "evidence": [
+        {
+          "url": "https://canoe-slalom.tokyo/activity/k-park/",
+          "basis": "2026-11-20 official individual event page (HTTP200); 23 ward completeness not asserted"
+        }
+      ],
+      "override_reason": "",
+      "discovery_sources": [
+        {
+          "channel": "ai_cross",
+          "kind": "ai_cross_search",
+          "url": "https://canoe-slalom.tokyo/activity/k-park/"
+        }
+      ]
+    },
+    {
+      "candidate_id": "verified-20261227-mizunokagaku-clown_rio",
+      "name": "クラウン・リオのパフォーマンスショー（東京都水の科学館）",
+      "ward": "江東区",
+      "decision": "published",
+      "family_fit": {
+        "grade": "B",
+        "overall": "B",
+        "rubric_version": "family-fit-v2",
+        "reason": "12/27(日)開催。クラウン・リオのパフォーマンスショーは、小学生以下のお子様を対象に、保護者同伴で参加する催し（各回先着60名）。",
+        "axes": {
+          "child_target": {
+            "grade": "A",
+            "reason": "対象が小学生以下のお子様と明記され、保護者同伴で参加する子ども向けの催し"
+          },
+          "interactivity": {
+            "grade": "B",
+            "reason": "ステージや紙芝居を見て楽しむのが中心"
+          },
+          "age_fit": {
+            "grade": "A",
+            "reason": "対象が小学生以下のお子様と明記"
+          },
+          "stay_flexibility": {
+            "grade": "B",
+            "reason": "①11:00〜、②13:30〜の2回など、時間が決まっている"
+          },
+          "burden": {
+            "grade": "B",
+            "reason": "整理券が必要で、定員（各回先着60名）に達すると参加できない"
+          },
+          "cost": {
+            "grade": "unknown",
+            "reason": "このページに参加費の記載がない"
+          },
+          "reservation": {
+            "grade": "B",
+            "reason": "予約はできず、各回の1時間前から整理券を配布（各回先着60名）"
+          },
+          "family_value": {
+            "grade": "B",
+            "reason": "親子で楽しみながら水について学べる"
+          }
+        },
+        "review": {
+          "schema_version": 1,
+          "method": "individual_evidence_review",
+          "reviewed_on": "2026-11-20",
+          "axes_checked": [
+            "child_target",
+            "interactivity",
+            "age_fit",
+            "stay_flexibility",
+            "burden",
+            "cost",
+            "reservation",
+            "family_value"
+          ],
+          "audience_basis": "child_program",
+          "child_activity_confirmed": true,
+          "strengths": [
+            "小学生以下向けで保護者と参加できる",
+            "水の科学館の催しで学びがある"
+          ],
+          "limitations": [
+            "参加費の記載がない",
+            "整理券が必要で定員がある"
+          ],
+          "grade_comparison": "総合B（12/27(日)）：小学生以下向けで学びのある催しだが、整理券が必要で定員が限られる。",
+          "unsupported_axes": [
+            "cost"
+          ],
+          "evidence": [
+            {
+              "url": "https://www.mizunokagaku.jp/event/261227_clown_rio/",
+              "quote": "開催日：2026年12月27日(日)",
+              "checked_at": "2026-11-20",
+              "sha256": "293efa4b2452153a28a39b4d752063f1a4b501d1e80f13faf8cba5f8aecd3e4f",
+              "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+              "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+            },
+            {
+              "url": "https://www.mizunokagaku.jp/event/261227_clown_rio/",
+              "quote": "※当イベントは小学生以下のお子様を対象としております。",
+              "checked_at": "2026-11-20",
+              "sha256": "4fc362c02fbba3f6f228bf281c95bdcf40ee3603910889a3eb9f751db38edf21",
+              "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+              "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+            },
+            {
+              "url": "https://www.mizunokagaku.jp/event/261227_clown_rio/",
+              "quote": "会場：1Fオリエンテーションルーム",
+              "checked_at": "2026-11-20",
+              "sha256": "b9f58814738e6ec0f28977f4450e52e8e2bc246f400dd82c2162dfaf1742090e",
+              "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+              "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+            },
+            {
+              "url": "https://www.mizunokagaku.jp/event/261227_clown_rio/",
+              "quote": "各回1時間前から1Fインフォメーションにて整理券を配布いたします。",
+              "checked_at": "2026-11-20",
+              "sha256": "b85b5776b46925dd914ba1d839e6df4851566ea984e82473cbfc875d4e837911",
+              "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+              "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+            },
+            {
+              "url": "https://www.mizunokagaku.jp/event/261227_clown_rio/",
+              "quote": "開催時間：①11:00～②13:30～",
+              "checked_at": "2026-11-20",
+              "sha256": "4b9f7501cc20d65474695da37c8a2d41af5eaa56f5a1f728ab8d6ca74f84b623",
+              "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+              "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+            }
+          ]
+        }
+      },
+      "positive_signals": [
+        "official_date_confirmed",
+        "child_activity_confirmed"
+      ],
+      "negative_signals": [
+        "global_source_audit_pending"
+      ],
+      "hard_exclusion": null,
+      "exclusion_type": null,
+      "primary_reason_code": "family_value_high",
+      "reason_codes": [
+        "family_value_high"
+      ],
+      "reasons": [
+        "12/27(日)開催。クラウン・リオのパフォーマンスショーは、小学生以下のお子様を対象に、保護者同伴で参加する催し（各回先着60名）。"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.mizunokagaku.jp/event/261227_clown_rio/",
+          "basis": "2026-11-20 official individual event page (HTTP200); 23 ward completeness not asserted"
+        }
+      ],
+      "override_reason": "",
+      "discovery_sources": [
+        {
+          "channel": "ai_cross",
+          "kind": "ai_cross_search",
+          "url": "https://www.mizunokagaku.jp/event/261227_clown_rio/"
+        }
+      ]
+    },
+    {
+      "candidate_id": "verified-20261226-sumida-aquarium-penguin-calendar",
+      "name": "ペンギンカレンダー（すみだ水族館）",
+      "ward": "墨田区",
+      "decision": "published",
+      "family_fit": {
+        "grade": "C",
+        "overall": "C",
+        "rubric_version": "family-fit-v2",
+        "reason": "12/26(土)開催。すみだ水族館の無料ワークショップ「ペンギンカレンダー」で、当日受付で参加できる。水族館の入場料は別に必要。",
+        "axes": {
+          "child_target": {
+            "grade": "unknown",
+            "reason": "子ども向けとは明記されていない"
+          },
+          "interactivity": {
+            "grade": "A",
+            "reason": "工作を作って参加できる"
+          },
+          "age_fit": {
+            "grade": "unknown",
+            "reason": "対象年齢が明記されていない"
+          },
+          "stay_flexibility": {
+            "grade": "A",
+            "reason": "10:00〜17:00の間に好きな時間に参加でき、短時間で終わる"
+          },
+          "burden": {
+            "grade": "B",
+            "reason": "定員になり次第終了となる場合がある"
+          },
+          "cost": {
+            "grade": "B",
+            "reason": "ワークショップは無料だが、水族館の入場料が必要"
+          },
+          "reservation": {
+            "grade": "A",
+            "reason": "予約不要の当日受付"
+          },
+          "family_value": {
+            "grade": "B",
+            "reason": "水族館で工作をして持ち帰れる"
+          }
+        },
+        "review": {
+          "schema_version": 1,
+          "method": "individual_evidence_review",
+          "reviewed_on": "2026-11-20",
+          "axes_checked": [
+            "child_target",
+            "interactivity",
+            "age_fit",
+            "stay_flexibility",
+            "burden",
+            "cost",
+            "reservation",
+            "family_value"
+          ],
+          "audience_basis": "unspecified",
+          "child_activity_confirmed": true,
+          "strengths": [
+            "ワークショップは無料で予約不要",
+            "好きな時間に参加できる"
+          ],
+          "limitations": [
+            "対象年齢の記載がない",
+            "水族館の入場料が必要"
+          ],
+          "grade_comparison": "総合C（ペンギンカレンダー・12/26(土)）：無料で予約不要の工作だが、対象年齢の記載がなく、入場料が別に必要。",
+          "unsupported_axes": [
+            "child_target",
+            "age_fit"
+          ],
+          "evidence": [
+            {
+              "url": "https://www.sumida-aquarium.com/event/7x2a4asvu/",
+              "quote": "開催期間2026年12月11日（金）～",
+              "checked_at": "2026-11-20",
+              "sha256": "e24221d216c029ecb5976d645428d6e28739c311ca9d1f28c557977d5819a469",
+              "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+              "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+            },
+            {
+              "url": "https://www.sumida-aquarium.com/event/7x2a4asvu/",
+              "quote": "土日祝日と特定日：午前10時～午後5時（最終受付：午後4時30分）",
+              "checked_at": "2026-11-20",
+              "sha256": "2e4115265a9165da48f48c073466a61907097e53f9ab7e777e6ca44a39a00dec",
+              "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+              "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+            },
+            {
+              "url": "https://www.sumida-aquarium.com/event/7x2a4asvu/",
+              "quote": "参加費無料入場料は別途必要となります。",
+              "checked_at": "2026-11-20",
+              "sha256": "fec76af179454f2dca5195d0f75b47fae1a229a4e802049f2cd28cae24d3656b",
+              "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+              "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+            },
+            {
+              "url": "https://www.sumida-aquarium.com/event/7x2a4asvu/",
+              "quote": "参加方法当日受付ワークショッ",
+              "checked_at": "2026-11-20",
+              "sha256": "050aba7f58ce9ee3548684c5f5ae442ad20e93762974cf0f81b4a20621303787",
+              "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+              "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+            },
+            {
+              "url": "https://www.sumida-aquarium.com/event/7x2a4asvu/",
+              "quote": "カレンダー台紙のそれぞれの月にペンギンたちの写真カードを貼ってカレンダーを完成させましょう！",
+              "checked_at": "2026-11-20",
+              "sha256": "4462f4f3ebd9a80d93c7225761df639e1186cc2199562bf997e302d22995a590",
+              "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+              "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+            }
+          ]
+        }
+      },
+      "positive_signals": [
+        "official_date_confirmed",
+        "child_activity_confirmed"
+      ],
+      "negative_signals": [
+        "global_source_audit_pending"
+      ],
+      "hard_exclusion": null,
+      "exclusion_type": null,
+      "primary_reason_code": "family_value_high",
+      "reason_codes": [
+        "family_value_high"
+      ],
+      "reasons": [
+        "12/26(土)開催。すみだ水族館の無料ワークショップ「ペンギンカレンダー」で、当日受付で参加できる。水族館の入場料は別に必要。"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.sumida-aquarium.com/event/7x2a4asvu/",
+          "basis": "2026-11-20 official individual event page (HTTP200); 23 ward completeness not asserted"
+        }
+      ],
+      "override_reason": "水族館の無料の工作ワークショップで子どもも参加できる見込みだが、公式ページに対象年齢の記載がなく、入場料も別に必要なため、条件つきの総合Cとして掲載する。",
+      "discovery_sources": [
+        {
+          "channel": "ai_cross",
+          "kind": "ai_cross_search",
+          "url": "https://www.sumida-aquarium.com/event/7x2a4asvu/"
+        }
+      ]
+    },
+    {
+      "candidate_id": "verified-20261227-sumida-aquarium-penguin-calendar",
+      "name": "ペンギンカレンダー（すみだ水族館）",
+      "ward": "墨田区",
+      "decision": "published",
+      "family_fit": {
+        "grade": "C",
+        "overall": "C",
+        "rubric_version": "family-fit-v2",
+        "reason": "12/27(日)開催。すみだ水族館の無料ワークショップ「ペンギンカレンダー」で、当日受付で参加できる。水族館の入場料は別に必要。",
+        "axes": {
+          "child_target": {
+            "grade": "unknown",
+            "reason": "子ども向けとは明記されていない"
+          },
+          "interactivity": {
+            "grade": "A",
+            "reason": "工作を作って参加できる"
+          },
+          "age_fit": {
+            "grade": "unknown",
+            "reason": "対象年齢が明記されていない"
+          },
+          "stay_flexibility": {
+            "grade": "A",
+            "reason": "10:00〜17:00の間に好きな時間に参加でき、短時間で終わる"
+          },
+          "burden": {
+            "grade": "B",
+            "reason": "定員になり次第終了となる場合がある"
+          },
+          "cost": {
+            "grade": "B",
+            "reason": "ワークショップは無料だが、水族館の入場料が必要"
+          },
+          "reservation": {
+            "grade": "A",
+            "reason": "予約不要の当日受付"
+          },
+          "family_value": {
+            "grade": "B",
+            "reason": "水族館で工作をして持ち帰れる"
+          }
+        },
+        "review": {
+          "schema_version": 1,
+          "method": "individual_evidence_review",
+          "reviewed_on": "2026-11-20",
+          "axes_checked": [
+            "child_target",
+            "interactivity",
+            "age_fit",
+            "stay_flexibility",
+            "burden",
+            "cost",
+            "reservation",
+            "family_value"
+          ],
+          "audience_basis": "unspecified",
+          "child_activity_confirmed": true,
+          "strengths": [
+            "ワークショップは無料で予約不要",
+            "好きな時間に参加できる"
+          ],
+          "limitations": [
+            "対象年齢の記載がない",
+            "水族館の入場料が必要"
+          ],
+          "grade_comparison": "総合C（ペンギンカレンダー・12/27(日)）：無料で予約不要の工作だが、対象年齢の記載がなく、入場料が別に必要。",
+          "unsupported_axes": [
+            "child_target",
+            "age_fit"
+          ],
+          "evidence": [
+            {
+              "url": "https://www.sumida-aquarium.com/event/7x2a4asvu/",
+              "quote": "開催期間2026年12月11日（金）～",
+              "checked_at": "2026-11-20",
+              "sha256": "e24221d216c029ecb5976d645428d6e28739c311ca9d1f28c557977d5819a469",
+              "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+              "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+            },
+            {
+              "url": "https://www.sumida-aquarium.com/event/7x2a4asvu/",
+              "quote": "土日祝日と特定日：午前10時～午後5時（最終受付：午後4時30分）",
+              "checked_at": "2026-11-20",
+              "sha256": "2e4115265a9165da48f48c073466a61907097e53f9ab7e777e6ca44a39a00dec",
+              "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+              "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+            },
+            {
+              "url": "https://www.sumida-aquarium.com/event/7x2a4asvu/",
+              "quote": "参加費無料入場料は別途必要となります。",
+              "checked_at": "2026-11-20",
+              "sha256": "fec76af179454f2dca5195d0f75b47fae1a229a4e802049f2cd28cae24d3656b",
+              "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+              "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+            },
+            {
+              "url": "https://www.sumida-aquarium.com/event/7x2a4asvu/",
+              "quote": "参加方法当日受付ワークショッ",
+              "checked_at": "2026-11-20",
+              "sha256": "050aba7f58ce9ee3548684c5f5ae442ad20e93762974cf0f81b4a20621303787",
+              "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+              "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+            },
+            {
+              "url": "https://www.sumida-aquarium.com/event/7x2a4asvu/",
+              "quote": "カレンダー台紙のそれぞれの月にペンギンたちの写真カードを貼ってカレンダーを完成させましょう！",
+              "checked_at": "2026-11-20",
+              "sha256": "4462f4f3ebd9a80d93c7225761df639e1186cc2199562bf997e302d22995a590",
+              "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+              "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+            }
+          ]
+        }
+      },
+      "positive_signals": [
+        "official_date_confirmed",
+        "child_activity_confirmed"
+      ],
+      "negative_signals": [
+        "global_source_audit_pending"
+      ],
+      "hard_exclusion": null,
+      "exclusion_type": null,
+      "primary_reason_code": "family_value_high",
+      "reason_codes": [
+        "family_value_high"
+      ],
+      "reasons": [
+        "12/27(日)開催。すみだ水族館の無料ワークショップ「ペンギンカレンダー」で、当日受付で参加できる。水族館の入場料は別に必要。"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.sumida-aquarium.com/event/7x2a4asvu/",
+          "basis": "2026-11-20 official individual event page (HTTP200); 23 ward completeness not asserted"
+        }
+      ],
+      "override_reason": "水族館の無料の工作ワークショップで子どもも参加できる見込みだが、公式ページに対象年齢の記載がなく、入場料も別に必要なため、条件つきの総合Cとして掲載する。",
+      "discovery_sources": [
+        {
+          "channel": "ai_cross",
+          "kind": "ai_cross_search",
+          "url": "https://www.sumida-aquarium.com/event/7x2a4asvu/"
+        }
+      ]
+    },
+    {
+      "candidate_id": "verified-20261226-akishima-shiki-family-musical-hajimari-no-ki",
+      "name": "劇団四季ファミリーミュージカル『はじまりの樹の神話』（FOSTERホール）",
+      "ward": "昭島市",
+      "decision": "published",
+      "family_fit": {
+        "grade": "B",
+        "overall": "B",
+        "rubric_version": "family-fit-v2",
+        "reason": "児童文学「こそあどの森の物語」を題材にした、小学生以下の料金（4,500円）がある家族向けのミュージカル。全席指定・有料で、鑑賞が中心。3歳未満は膝上で見られる。",
+        "axes": {
+          "child_target": {
+            "grade": "B",
+            "reason": "「ファミリーミュージカル」と題するが、対象はどなたでも（子ども専用ではない）"
+          },
+          "interactivity": {
+            "grade": "C",
+            "reason": "ミュージカルの鑑賞が中心"
+          },
+          "age_fit": {
+            "grade": "B",
+            "reason": "対象はどなたでも。3歳未満は膝上鑑賞が可能"
+          },
+          "stay_flexibility": {
+            "grade": "C",
+            "reason": "約2時間の全席指定の観劇"
+          },
+          "burden": {
+            "grade": "B",
+            "reason": "有料のチケット購入が必要"
+          },
+          "cost": {
+            "grade": "C",
+            "reason": "大人7,000円、小学生以下4,500円と高額"
+          },
+          "reservation": {
+            "grade": "B",
+            "reason": "チケット購入が必要（全席指定）"
+          },
+          "family_value": {
+            "grade": "B",
+            "reason": "人気の児童文学を家族で観劇できる"
+          }
+        },
+        "review": {
+          "schema_version": 1,
+          "method": "individual_evidence_review",
+          "reviewed_on": "2026-11-21",
+          "axes_checked": [
+            "child_target",
+            "interactivity",
+            "age_fit",
+            "stay_flexibility",
+            "burden",
+            "cost",
+            "reservation",
+            "family_value"
+          ],
+          "audience_basis": "all_ages",
+          "child_activity_confirmed": false,
+          "strengths": [
+            "小学生以下の料金があり、家族向けの演目",
+            "3歳未満は膝上で鑑賞できる"
+          ],
+          "limitations": [
+            "料金が大人7,000円、小学生以下4,500円と高い",
+            "約2時間の全席指定の観劇で、小さな子には長い"
+          ],
+          "grade_comparison": "総合B：家族向けの人気ミュージカルだが、高額で約2時間の鑑賞中心の公演。",
+          "unsupported_axes": [],
+          "evidence": [
+            {
+              "url": "https://www.city.akishima.lg.jp/bunka/shogaigakushu/1007496/1002968/1002972/1012429.html",
+              "quote": "開催日 2026年12月26日（土曜日） 開催時間 午後4時 から 午後6時 まで 開場は午後3時15分からとなります。上演時間は休憩含め、約2時間となります。",
+              "checked_at": "2026-11-21",
+              "sha256": "2b14f7bae008bdb940660b04e25556fe56fffc035de11c7d499c465572b5db36",
+              "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+              "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+            },
+            {
+              "url": "https://www.city.akishima.lg.jp/bunka/shogaigakushu/1007496/1002968/1002972/1012429.html",
+              "quote": "開催場所 FOSTERホール（昭島市民会館） 対象 どなたでも",
+              "checked_at": "2026-11-21",
+              "sha256": "5f7a0f1bf976822e40eb2f1ff4eb3073c695f95f2560da369d2f0250a13794d6",
+              "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+              "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+            },
+            {
+              "url": "https://www.city.akishima.lg.jp/bunka/shogaigakushu/1007496/1002968/1002972/1012429.html",
+              "quote": "3歳未満のお子様が保護者1名につき、1名まで膝上で観劇する場合には無料となります。",
+              "checked_at": "2026-11-21",
+              "sha256": "8cacf75649a619fabde58c50a8e61fc866931c602e9b085137f85b8084196be5",
+              "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+              "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+            },
+            {
+              "url": "https://www.city.akishima.lg.jp/bunka/shogaigakushu/1007496/1002968/1002972/1012429.html",
+              "quote": "参加費 チケット代金は大人7,000円、小学生以下4,500円（全て税込価格）となります。",
+              "checked_at": "2026-11-21",
+              "sha256": "f38f7c9823ba908070c873edac52ddc0ea311c631a8b7d4a143bfb6fae19780d",
+              "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+              "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+            }
+          ]
+        }
+      },
+      "positive_signals": [
+        "official_date_confirmed"
+      ],
+      "negative_signals": [
+        "global_source_audit_pending"
+      ],
+      "hard_exclusion": null,
+      "exclusion_type": null,
+      "primary_reason_code": "family_value_high",
+      "reason_codes": [
+        "family_value_high"
+      ],
+      "reasons": [
+        "児童文学「こそあどの森の物語」を題材にした、小学生以下の料金（4,500円）がある家族向けのミュージカル。全席指定・有料で、鑑賞が中心。3歳未満は膝上で見られる。"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.city.akishima.lg.jp/bunka/shogaigakushu/1007496/1002968/1002972/1012429.html",
+          "basis": "2026-11-21 official individual event page (HTTP200); 23 ward completeness not asserted"
+        }
+      ],
+      "override_reason": "",
+      "discovery_sources": [
+        {
+          "channel": "ai_cross",
+          "kind": "ai_cross_search",
+          "url": "https://www.city.akishima.lg.jp/bunka/shogaigakushu/1007496/1002968/1002972/1012429.html"
+        }
+      ]
+    },
+    {
+      "candidate_id": "verified-20261226-tachikawa-nishiki-xmas-eigakai",
+      "name": "地域活性にしきクリスマス映画会（錦学習館）",
+      "ward": "立川市",
+      "decision": "published",
+      "family_fit": {
+        "grade": "B",
+        "overall": "B",
+        "rubric_version": "family-fit-v2",
+        "reason": "クリスマスのアニメ2作品を無料で上映する学習館の映画会。申込不要で当日直接行ける。定員30人。",
+        "axes": {
+          "child_target": {
+            "grade": "B",
+            "reason": "対象はどなたでも。「子ども・子育て」カテゴリのアニメ上映"
+          },
+          "interactivity": {
+            "grade": "C",
+            "reason": "映画の鑑賞が中心"
+          },
+          "age_fit": {
+            "grade": "B",
+            "reason": "年齢の限定はない"
+          },
+          "stay_flexibility": {
+            "grade": "B",
+            "reason": "約1時間の上映"
+          },
+          "burden": {
+            "grade": "A",
+            "reason": "申込不要で、当日直接行ける"
+          },
+          "cost": {
+            "grade": "A",
+            "reason": "無料"
+          },
+          "reservation": {
+            "grade": "A",
+            "reason": "申込不要（定員30人）"
+          },
+          "family_value": {
+            "grade": "B",
+            "reason": "クリスマスのアニメを無料で楽しめる"
+          }
+        },
+        "review": {
+          "schema_version": 1,
+          "method": "individual_evidence_review",
+          "reviewed_on": "2026-11-21",
+          "axes_checked": [
+            "child_target",
+            "interactivity",
+            "age_fit",
+            "stay_flexibility",
+            "burden",
+            "cost",
+            "reservation",
+            "family_value"
+          ],
+          "audience_basis": "all_ages",
+          "child_activity_confirmed": true,
+          "strengths": [
+            "無料・申込不要",
+            "クリスマスのアニメ2作品を上映"
+          ],
+          "limitations": [
+            "定員30人で、満席の場合は入れない",
+            "映画の鑑賞が中心"
+          ],
+          "grade_comparison": "総合B：無料・申込不要の短いアニメ上映会。鑑賞中心で、定員が少ない。",
+          "unsupported_axes": [],
+          "evidence": [
+            {
+              "url": "https://www.city.tachikawa.lg.jp/event/e-other/1028669.html",
+              "quote": "開催日 2026年12月26日（土曜日） 開催時間 午前10時30分 から 午前11時30分 まで 開催場所 錦学習館",
+              "checked_at": "2026-11-21",
+              "sha256": "9751571bade6999f20a5fa5788a570e756aeaf6bd0e8b8a03133213fe66d9ed8",
+              "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+              "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+            },
+            {
+              "url": "https://www.city.tachikawa.lg.jp/event/e-other/1028669.html",
+              "quote": "対象 どなたでも ハッシュタグ #無料",
+              "checked_at": "2026-11-21",
+              "sha256": "d9444b5703b88fb76d93e9cc146ac628ff3dc9afaf221f1682ff3e169bb96dc6",
+              "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+              "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+            },
+            {
+              "url": "https://www.city.tachikawa.lg.jp/event/e-other/1028669.html",
+              "quote": "「赤毛のアン クリスマスのコンサート」 「ペリーヌ物語 忘れられないクリスマス」 アニメーション2作品を上映します。",
+              "checked_at": "2026-11-21",
+              "sha256": "e62adec606d430e85ec23ce37331d080debb41ccc8651f36fb021f1759d92f82",
+              "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+              "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+            },
+            {
+              "url": "https://www.city.tachikawa.lg.jp/event/e-other/1028669.html",
+              "quote": "申込み 不要 当日は直接会場へお越しください。 定員30人 費用 無料",
+              "checked_at": "2026-11-21",
+              "sha256": "1a8247175f962a46582188b660b64da0cbd9ebed69fa939ae899caf56a93bd2e",
+              "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+              "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+            }
+          ]
+        }
+      },
+      "positive_signals": [
+        "official_date_confirmed",
+        "child_activity_confirmed"
+      ],
+      "negative_signals": [
+        "global_source_audit_pending"
+      ],
+      "hard_exclusion": null,
+      "exclusion_type": null,
+      "primary_reason_code": "family_value_high",
+      "reason_codes": [
+        "family_value_high"
+      ],
+      "reasons": [
+        "クリスマスのアニメ2作品を無料で上映する学習館の映画会。申込不要で当日直接行ける。定員30人。"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.city.tachikawa.lg.jp/event/e-other/1028669.html",
+          "basis": "2026-11-21 official individual event page (HTTP200); 23 ward completeness not asserted"
+        }
+      ],
+      "override_reason": "",
+      "discovery_sources": [
+        {
+          "channel": "ai_cross",
+          "kind": "ai_cross_search",
+          "url": "https://www.city.tachikawa.lg.jp/event/e-other/1028669.html"
+        }
+      ]
+    },
+    {
+      "candidate_id": "verified-20261226-shibuya-hachilabo-light-planet-2026",
+      "name": "【ワークショップ】算数と光の実験で惑星のナゾを解き明かせ！（ハチラボ）",
+      "ward": "渋谷区",
+      "decision": "published",
+      "family_fit": {
+        "grade": "B",
+        "overall": "B",
+        "rubric_version": "family-fit-v2",
+        "reason": "小3〜小6向けの無料の実験。算数と光で惑星を調べる。抽選で、受付は12/2〜12/9。",
+        "axes": {
+          "child_target": {
+            "grade": "A",
+            "reason": "子ども向けの内容（公式ページに年齢の目安がある）"
+          },
+          "interactivity": {
+            "grade": "A",
+            "reason": "つくる・実験するなど体験ができる"
+          },
+          "age_fit": {
+            "grade": "B",
+            "reason": "小学生が対象"
+          },
+          "stay_flexibility": {
+            "grade": "C",
+            "reason": "決まった日・回に合わせる必要がある"
+          },
+          "burden": {
+            "grade": "A",
+            "reason": "屋内で短時間。気軽に参加できる"
+          },
+          "cost": {
+            "grade": "A",
+            "reason": "無料"
+          },
+          "reservation": {
+            "grade": "C",
+            "reason": "事前申込（先着順または抽選）が必要"
+          },
+          "family_value": {
+            "grade": "B",
+            "reason": "体験型で、家族の学びになる"
+          }
+        },
+        "review": {
+          "schema_version": 1,
+          "method": "individual_evidence_review",
+          "reviewed_on": "2026-11-23",
+          "axes_checked": [
+            "child_target",
+            "interactivity",
+            "age_fit",
+            "stay_flexibility",
+            "burden",
+            "cost",
+            "reservation",
+            "family_value"
+          ],
+          "audience_basis": "child_program",
+          "child_activity_confirmed": true,
+          "strengths": [
+            "算数と光の実験で惑星を学べる",
+            "無料で、各回12名"
+          ],
+          "limitations": [
+            "小3〜小6向けの抽選。受付は12/2 0:00〜12/9 23:59"
+          ],
+          "grade_comparison": "総合B：小学生向けの無料の宇宙実験。抽選で申込が必要。",
+          "unsupported_axes": [],
+          "evidence": [
+            {
+              "url": "https://shibu-cul.jp/event/53568#planet",
+              "quote": "●開催日：12月26日（土）",
+              "checked_at": "2026-11-23",
+              "sha256": "b3044c55e4fbe2c768f9029f15fae47e85f519b4b973ed3c673aa4916c79a2f6",
+              "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+              "description": "公式ページ（2026-11-23にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+            },
+            {
+              "url": "https://shibu-cul.jp/event/53568#planet",
+              "quote": "●推奨年齢：小3～小6（小3は保護者同伴）",
+              "checked_at": "2026-11-23",
+              "sha256": "a62983c246716e6d3447f8479977ae1fa290f7821e428f6f688b49ef7357bf85",
+              "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+              "description": "公式ページ（2026-11-23にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+            },
+            {
+              "url": "https://shibu-cul.jp/event/53568#planet",
+              "quote": "●募集期間：12月2日（水）0:00～12月9日（水）23:59＜抽選＞",
+              "checked_at": "2026-11-23",
+              "sha256": "f742431600b1c9f24667ae2b111672d9693fb34f7b99a10a48d286ce0f0efc68",
+              "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+              "description": "公式ページ（2026-11-23にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+            }
+          ]
+        }
+      },
+      "positive_signals": [
+        "official_date_confirmed",
+        "child_activity_confirmed"
+      ],
+      "negative_signals": [
+        "global_source_audit_pending"
+      ],
+      "hard_exclusion": null,
+      "exclusion_type": null,
+      "primary_reason_code": "family_value_high",
+      "reason_codes": [
+        "family_value_high"
+      ],
+      "reasons": [
+        "小3〜小6向けの無料の実験。算数と光で惑星を調べる。抽選で、受付は12/2〜12/9。"
+      ],
+      "evidence": [
+        {
+          "url": "https://shibu-cul.jp/event/53568#planet",
+          "basis": "2026-11-23 official individual event page (HTTP200); 23 ward completeness not asserted"
+        }
+      ],
+      "override_reason": "",
+      "discovery_sources": [
+        {
+          "channel": "ai_cross",
+          "kind": "ai_cross_search",
+          "url": "https://shibu-cul.jp/event/53568#planet"
+        }
+      ]
+    },
+    {
+      "candidate_id": "verified-20261227-shibuya-hachilabo-coin-bank-2026",
+      "name": "【ワークショップ】コインが消える貯金箱（ハチラボ）",
+      "ward": "渋谷区",
+      "decision": "published",
+      "family_fit": {
+        "grade": "A",
+        "overall": "A",
+        "rubric_version": "family-fit-v2",
+        "reason": "小1〜小6向けの無料の工作。2日間開くので日を選べる。抽選で、受付は12/2〜12/9。",
+        "axes": {
+          "child_target": {
+            "grade": "A",
+            "reason": "子ども向けの内容（公式ページに年齢の目安がある）"
+          },
+          "interactivity": {
+            "grade": "A",
+            "reason": "つくる・実験するなど体験ができる"
+          },
+          "age_fit": {
+            "grade": "A",
+            "reason": "未就学児から参加できる"
+          },
+          "stay_flexibility": {
+            "grade": "B",
+            "reason": "日や時間帯を選べるが、回ごとの申込が必要"
+          },
+          "burden": {
+            "grade": "A",
+            "reason": "屋内で短時間。気軽に参加できる"
+          },
+          "cost": {
+            "grade": "A",
+            "reason": "無料"
+          },
+          "reservation": {
+            "grade": "C",
+            "reason": "事前申込（先着順または抽選）が必要"
+          },
+          "family_value": {
+            "grade": "A",
+            "reason": "子どもが楽しめる体験がある"
+          }
+        },
+        "review": {
+          "schema_version": 1,
+          "method": "individual_evidence_review",
+          "reviewed_on": "2026-11-23",
+          "axes_checked": [
+            "child_target",
+            "interactivity",
+            "age_fit",
+            "stay_flexibility",
+            "burden",
+            "cost",
+            "reservation",
+            "family_value"
+          ],
+          "audience_basis": "child_program",
+          "child_activity_confirmed": true,
+          "strengths": [
+            "小1から参加でき、無料",
+            "2日間開くので日を選べる"
+          ],
+          "limitations": [
+            "各回8名の抽選。受付は12/2 0:00〜12/9 23:59"
+          ],
+          "grade_comparison": "総合A：小学生向けの無料の工作。抽選で、各回8名と少人数。",
+          "unsupported_axes": [],
+          "evidence": [
+            {
+              "url": "https://shibu-cul.jp/event/53568#coin-bank",
+              "quote": "●開催日：12月27日（日）、28日（月）",
+              "checked_at": "2026-11-23",
+              "sha256": "44502eddb2596d463e8bd136aad00351d35dfbb36c79f8c6f6da5e2680772781",
+              "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+              "description": "公式ページ（2026-11-23にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+            },
+            {
+              "url": "https://shibu-cul.jp/event/53568#coin-bank",
+              "quote": "●推奨年齢：小1～小6（小3以下は保護者同伴）",
+              "checked_at": "2026-11-23",
+              "sha256": "15b6abdde2f50768e302ecfc4d9a5145a6763d4e07bc0e099764790fa02a7c5a",
+              "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+              "description": "公式ページ（2026-11-23にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+            },
+            {
+              "url": "https://shibu-cul.jp/event/53568#coin-bank",
+              "quote": "●募集期間：12月2日（水）0:00～12月9日（水）23:59＜抽選＞",
+              "checked_at": "2026-11-23",
+              "sha256": "f742431600b1c9f24667ae2b111672d9693fb34f7b99a10a48d286ce0f0efc68",
+              "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+              "description": "公式ページ（2026-11-23にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+            }
+          ]
+        }
+      },
+      "positive_signals": [
+        "official_date_confirmed",
+        "child_activity_confirmed"
+      ],
+      "negative_signals": [
+        "global_source_audit_pending"
+      ],
+      "hard_exclusion": null,
+      "exclusion_type": null,
+      "primary_reason_code": "family_value_high",
+      "reason_codes": [
+        "family_value_high"
+      ],
+      "reasons": [
+        "小1〜小6向けの無料の工作。2日間開くので日を選べる。抽選で、受付は12/2〜12/9。"
+      ],
+      "evidence": [
+        {
+          "url": "https://shibu-cul.jp/event/53568#coin-bank",
+          "basis": "2026-11-23 official individual event page (HTTP200); 23 ward completeness not asserted"
+        }
+      ],
+      "override_reason": "",
+      "discovery_sources": [
+        {
+          "channel": "ai_cross",
+          "kind": "ai_cross_search",
+          "url": "https://shibu-cul.jp/event/53568#coin-bank"
+        }
+      ]
+    },
+    {
+      "candidate_id": "verified-20261226-soshigaya-oosouji-2026",
+      "name": "祖師谷児童館「年末！大掃除＆おたのしみ会」",
+      "ward": "世田谷区",
+      "decision": "published",
+      "family_fit": {
+        "grade": "B",
+        "overall": "B",
+        "rubric_version": "family-fit-v2",
+        "reason": "12/26(土)開催。掃除の後にお楽しみ会がある小中高生向けの行事。申込が必要で費用の記載はない。",
+        "axes": {
+          "child_target": {
+            "grade": "A",
+            "reason": "対象は「小学1年生〜中高生世代」"
+          },
+          "interactivity": {
+            "grade": "A",
+            "reason": "内容：児童館をみんなで大掃除したあと、お楽しみ会をする年末の行事。"
+          },
+          "age_fit": {
+            "grade": "A",
+            "reason": "年齢の目安は小学1年生〜中高生世代"
+          },
+          "stay_flexibility": {
+            "grade": "unknown",
+            "reason": "途中の出入りや滞在時間の自由度は公式案内に明記がない"
+          },
+          "burden": {
+            "grade": "B",
+            "reason": "申込が必要で費用の記載がない"
+          },
+          "cost": {
+            "grade": "unknown",
+            "reason": "費用の記載が公式ページにない"
+          },
+          "reservation": {
+            "grade": "B",
+            "reason": "事前の申込や整理券が必要"
+          },
+          "family_value": {
+            "grade": "B",
+            "reason": "仲間と作業してお楽しみ会に参加できる"
+          }
+        },
+        "review": {
+          "schema_version": 1,
+          "method": "individual_evidence_review",
+          "reviewed_on": "2026-11-25",
+          "axes_checked": [
+            "child_target",
+            "interactivity",
+            "age_fit",
+            "stay_flexibility",
+            "burden",
+            "cost",
+            "reservation",
+            "family_value"
+          ],
+          "audience_basis": "child_program",
+          "child_activity_confirmed": true,
+          "strengths": [
+            "仲間と作業してお楽しみ会に参加できる"
+          ],
+          "limitations": [
+            "申込が必要で費用の記載がない"
+          ],
+          "grade_comparison": "総合B（12/26(土)・祖師谷児童館「年末！大掃除＆）：仲間と作業してお楽しみ会に参加できる。注意点は「申込が必要で費用の記載がない」こと。",
+          "unsupported_axes": [
+            "stay_flexibility",
+            "cost"
+          ],
+          "evidence": [
+            {
+              "url": "https://www.city.setagaya.lg.jp/03080/37020.html",
+              "quote": "日程2026年12月26日（土曜日）",
+              "checked_at": "2026-11-25",
+              "sha256": "41afe8f4dd5a631623950c536607fccba3a1ff55fcfa24c78b1d11c03be3c164",
+              "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+              "description": "公式ページ（2026-11-25にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+            },
+            {
+              "url": "https://www.city.setagaya.lg.jp/03080/37020.html",
+              "quote": "対象小学1年生から中高生世代",
+              "checked_at": "2026-11-25",
+              "sha256": "3bd0a3d5785149024d79f56119181b56728906208ef4f9a63015000a4c294934",
+              "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+              "description": "公式ページ（2026-11-25にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+            },
+            {
+              "url": "https://www.city.setagaya.lg.jp/03080/37020.html",
+              "quote": "がんばったあとは、おたのしみ会をします。",
+              "checked_at": "2026-11-25",
+              "sha256": "58572073458b14acf0d275a6de0c026eb2c5b4575f8361e1c6f283749bb376ca",
+              "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+              "description": "公式ページ（2026-11-25にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+            }
+          ]
+        }
+      },
+      "positive_signals": [
+        "official_date_confirmed",
+        "child_activity_confirmed"
+      ],
+      "negative_signals": [
+        "global_source_audit_pending"
+      ],
+      "hard_exclusion": null,
+      "exclusion_type": null,
+      "primary_reason_code": "family_value_high",
+      "reason_codes": [
+        "family_value_high"
+      ],
+      "reasons": [
+        "12/26(土)開催。掃除の後にお楽しみ会がある小中高生向けの行事。申込が必要で費用の記載はない。"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.city.setagaya.lg.jp/03080/37020.html",
+          "basis": "2026-11-25 official individual event page (HTTP200); 23 ward completeness not asserted"
+        }
+      ],
+      "override_reason": "",
+      "discovery_sources": [
+        {
+          "channel": "ai_cross",
+          "kind": "ai_cross_search",
+          "url": "https://www.city.setagaya.lg.jp/03080/37020.html"
+        }
+      ]
+    },
+    {
+      "candidate_id": "verified-20261226-soshigaya-teens-bounen-2026",
+      "name": "祖師谷児童館 TEENS大忘年会2026",
+      "ward": "世田谷区",
+      "decision": "published",
+      "family_fit": {
+        "grade": "B",
+        "overall": "B",
+        "rubric_version": "family-fit-v2",
+        "reason": "12/26(土)開催。中高生限定の食事と交流の会。材料費は無料だが先着15人程度で窓口申込が必要。",
+        "axes": {
+          "child_target": {
+            "grade": "A",
+            "reason": "対象は「中高生世代」"
+          },
+          "interactivity": {
+            "grade": "A",
+            "reason": "内容：中高生がもんじゃなどを囲んで一年を振り返る児童館の忘年会。"
+          },
+          "age_fit": {
+            "grade": "A",
+            "reason": "年齢の目安は中高生世代"
+          },
+          "stay_flexibility": {
+            "grade": "unknown",
+            "reason": "途中の出入りや滞在時間の自由度は公式案内に明記がない"
+          },
+          "burden": {
+            "grade": "B",
+            "reason": "中高生限定で先着15人程度"
+          },
+          "cost": {
+            "grade": "A",
+            "reason": "材料費を無料にすると公式ページに記載"
+          },
+          "reservation": {
+            "grade": "B",
+            "reason": "事前の申込や整理券が必要"
+          },
+          "family_value": {
+            "grade": "B",
+            "reason": "材料費無料で調理と交流ができる"
+          }
+        },
+        "review": {
+          "schema_version": 1,
+          "method": "individual_evidence_review",
+          "reviewed_on": "2026-11-25",
+          "axes_checked": [
+            "child_target",
+            "interactivity",
+            "age_fit",
+            "stay_flexibility",
+            "burden",
+            "cost",
+            "reservation",
+            "family_value"
+          ],
+          "audience_basis": "child_program",
+          "child_activity_confirmed": true,
+          "strengths": [
+            "材料費無料で調理と交流ができる"
+          ],
+          "limitations": [
+            "中高生限定で先着15人程度"
+          ],
+          "grade_comparison": "総合B（12/26(土)・祖師谷児童館 TEENS大忘）：材料費無料で調理と交流ができる。注意点は「中高生限定で先着15人程度」こと。",
+          "unsupported_axes": [
+            "stay_flexibility"
+          ],
+          "evidence": [
+            {
+              "url": "https://www.city.setagaya.lg.jp/03080/37021.html",
+              "quote": "日程2026年12月26日（土曜日）",
+              "checked_at": "2026-11-25",
+              "sha256": "41afe8f4dd5a631623950c536607fccba3a1ff55fcfa24c78b1d11c03be3c164",
+              "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+              "description": "公式ページ（2026-11-25にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+            },
+            {
+              "url": "https://www.city.setagaya.lg.jp/03080/37021.html",
+              "quote": "対象中高生世代：先着15人程度",
+              "checked_at": "2026-11-25",
+              "sha256": "cc2893c03f80ab2997a3006dc36f94afb426ee746f5cb087191695742c896643",
+              "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+              "description": "公式ページ（2026-11-25にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+            },
+            {
+              "url": "https://www.city.setagaya.lg.jp/03080/37021.html",
+              "quote": "今年最後のTEENS企画は、リクエストにより",
+              "checked_at": "2026-11-25",
+              "sha256": "5d8f86bfc1032b2ecf15d3bce5a11ee92dc78e00e249cb6147680d49f2aa0b87",
+              "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+              "description": "公式ページ（2026-11-25にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+            }
+          ]
+        }
+      },
+      "positive_signals": [
+        "official_date_confirmed",
+        "child_activity_confirmed"
+      ],
+      "negative_signals": [
+        "global_source_audit_pending"
+      ],
+      "hard_exclusion": null,
+      "exclusion_type": null,
+      "primary_reason_code": "family_value_high",
+      "reason_codes": [
+        "family_value_high"
+      ],
+      "reasons": [
+        "12/26(土)開催。中高生限定の食事と交流の会。材料費は無料だが先着15人程度で窓口申込が必要。"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.city.setagaya.lg.jp/03080/37021.html",
+          "basis": "2026-11-25 official individual event page (HTTP200); 23 ward completeness not asserted"
+        }
+      ],
+      "override_reason": "",
+      "discovery_sources": [
+        {
+          "channel": "ai_cross",
+          "kind": "ai_cross_search",
+          "url": "https://www.city.setagaya.lg.jp/03080/37021.html"
+        }
+      ]
+    },
+    {
+      "candidate_id": "verified-20261226-soshigaya-wakuwaku-shokudo-2026",
+      "name": "祖師谷児童館 子ども夢プロジェクト「夢のわくわく食堂」",
+      "ward": "世田谷区",
+      "decision": "published",
+      "family_fit": {
+        "grade": "B",
+        "overall": "B",
+        "rubric_version": "family-fit-v2",
+        "reason": "12/26(土)開催。子どもが企画した食堂で無料の昼食を楽しめる。先着30人で事前の申込が必要。",
+        "axes": {
+          "child_target": {
+            "grade": "A",
+            "reason": "対象は「小学1年生〜中高生世代」"
+          },
+          "interactivity": {
+            "grade": "A",
+            "reason": "内容：子どもたちのプロジェクトメンバーが開く児童館の子ども食堂。"
+          },
+          "age_fit": {
+            "grade": "A",
+            "reason": "年齢の目安は小学1年生〜中高生世代"
+          },
+          "stay_flexibility": {
+            "grade": "unknown",
+            "reason": "途中の出入りや滞在時間の自由度は公式案内に明記がない"
+          },
+          "burden": {
+            "grade": "B",
+            "reason": "先着30人で申込用紙の提出が必要"
+          },
+          "cost": {
+            "grade": "A",
+            "reason": "公式ページで費用は無料"
+          },
+          "reservation": {
+            "grade": "B",
+            "reason": "事前の申込や整理券が必要"
+          },
+          "family_value": {
+            "grade": "B",
+            "reason": "子どもが作る食堂を体験できる"
+          }
+        },
+        "review": {
+          "schema_version": 1,
+          "method": "individual_evidence_review",
+          "reviewed_on": "2026-11-25",
+          "axes_checked": [
+            "child_target",
+            "interactivity",
+            "age_fit",
+            "stay_flexibility",
+            "burden",
+            "cost",
+            "reservation",
+            "family_value"
+          ],
+          "audience_basis": "child_program",
+          "child_activity_confirmed": true,
+          "strengths": [
+            "子どもが作る食堂を体験できる"
+          ],
+          "limitations": [
+            "先着30人で申込用紙の提出が必要"
+          ],
+          "grade_comparison": "総合B（12/26(土)・祖師谷児童館 子ども夢プロジ）：子どもが作る食堂を体験できる。注意点は「先着30人で申込用紙の提出が必要」こと。",
+          "unsupported_axes": [
+            "stay_flexibility"
+          ],
+          "evidence": [
+            {
+              "url": "https://www.city.setagaya.lg.jp/03080/37093.html",
+              "quote": "日程2026年12月26日（土曜日）",
+              "checked_at": "2026-11-25",
+              "sha256": "41afe8f4dd5a631623950c536607fccba3a1ff55fcfa24c78b1d11c03be3c164",
+              "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+              "description": "公式ページ（2026-11-25にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+            },
+            {
+              "url": "https://www.city.setagaya.lg.jp/03080/37093.html",
+              "quote": "対象小学1年生から中高生世代：先着30人",
+              "checked_at": "2026-11-25",
+              "sha256": "078fa4b0f9a277b62d1c4222c3401b5664cf9ad183f666ec956238445ac48c61",
+              "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+              "description": "公式ページ（2026-11-25にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+            },
+            {
+              "url": "https://www.city.setagaya.lg.jp/03080/37093.html",
+              "quote": "今年度の子ども夢プロジェクトのメンバーが子ども食堂を開きます。",
+              "checked_at": "2026-11-25",
+              "sha256": "1541c144ad7646d1236a9922b2ce307131a78a068e461e157c23e70b35fe5f38",
+              "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+              "description": "公式ページ（2026-11-25にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+            }
+          ]
+        }
+      },
+      "positive_signals": [
+        "official_date_confirmed",
+        "child_activity_confirmed"
+      ],
+      "negative_signals": [
+        "global_source_audit_pending"
+      ],
+      "hard_exclusion": null,
+      "exclusion_type": null,
+      "primary_reason_code": "family_value_high",
+      "reason_codes": [
+        "family_value_high"
+      ],
+      "reasons": [
+        "12/26(土)開催。子どもが企画した食堂で無料の昼食を楽しめる。先着30人で事前の申込が必要。"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.city.setagaya.lg.jp/03080/37093.html",
+          "basis": "2026-11-25 official individual event page (HTTP200); 23 ward completeness not asserted"
+        }
+      ],
+      "override_reason": "",
+      "discovery_sources": [
+        {
+          "channel": "ai_cross",
+          "kind": "ai_cross_search",
+          "url": "https://www.city.setagaya.lg.jp/03080/37093.html"
+        }
+      ]
+    },
+    {
+      "candidate_id": "verified-20261226-wakabayashi-teens-okashi-2026",
+      "name": "若林児童館 年末お楽しみ会「TEENS！おかしパーティー！」",
+      "ward": "世田谷区",
+      "decision": "published",
+      "family_fit": {
+        "grade": "B",
+        "overall": "B",
+        "rubric_version": "family-fit-v2",
+        "reason": "12/26(土)開催。小学6年生以上の交流会。申込が必要で、費用の記載はない。",
+        "axes": {
+          "child_target": {
+            "grade": "A",
+            "reason": "対象は「小学6年生〜中高生世代」"
+          },
+          "interactivity": {
+            "grade": "A",
+            "reason": "内容：小6から中高生がお菓子を食べながら一年を締めくくる会。"
+          },
+          "age_fit": {
+            "grade": "A",
+            "reason": "年齢の目安は小学6年生〜中高生世代"
+          },
+          "stay_flexibility": {
+            "grade": "unknown",
+            "reason": "途中の出入りや滞在時間の自由度は公式案内に明記がない"
+          },
+          "burden": {
+            "grade": "B",
+            "reason": "対象が小6以上に限られ費用の記載がない"
+          },
+          "cost": {
+            "grade": "unknown",
+            "reason": "費用の記載が公式ページにない"
+          },
+          "reservation": {
+            "grade": "B",
+            "reason": "事前の申込や整理券が必要"
+          },
+          "family_value": {
+            "grade": "B",
+            "reason": "同世代と年末の時間を過ごせる"
+          }
+        },
+        "review": {
+          "schema_version": 1,
+          "method": "individual_evidence_review",
+          "reviewed_on": "2026-11-25",
+          "axes_checked": [
+            "child_target",
+            "interactivity",
+            "age_fit",
+            "stay_flexibility",
+            "burden",
+            "cost",
+            "reservation",
+            "family_value"
+          ],
+          "audience_basis": "child_program",
+          "child_activity_confirmed": true,
+          "strengths": [
+            "同世代と年末の時間を過ごせる"
+          ],
+          "limitations": [
+            "対象が小6以上に限られ費用の記載がない"
+          ],
+          "grade_comparison": "総合B（12/26(土)・若林児童館 年末お楽しみ会「）：同世代と年末の時間を過ごせる。注意点は「対象が小6以上に限られ費用の記載がない」こと。",
+          "unsupported_axes": [
+            "stay_flexibility",
+            "cost"
+          ],
+          "evidence": [
+            {
+              "url": "https://www.city.setagaya.lg.jp/03062/37213.html",
+              "quote": "日程2026年12月26日（土曜日）",
+              "checked_at": "2026-11-25",
+              "sha256": "41afe8f4dd5a631623950c536607fccba3a1ff55fcfa24c78b1d11c03be3c164",
+              "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+              "description": "公式ページ（2026-11-25にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+            },
+            {
+              "url": "https://www.city.setagaya.lg.jp/03062/37213.html",
+              "quote": "対象小学6年生から中高生世代",
+              "checked_at": "2026-11-25",
+              "sha256": "47a548fcde9f814091f7f9da602d87506528fe8989e6d617b209ff2ca80203c9",
+              "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+              "description": "公式ページ（2026-11-25にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+            },
+            {
+              "url": "https://www.city.setagaya.lg.jp/03062/37213.html",
+              "quote": "2026年最後に、美味しいものを食べながら楽しい思い出をつくろう",
+              "checked_at": "2026-11-25",
+              "sha256": "70b61a9a1371875a2d219f0b4539d6dba69a7d9cc57b3b02ca7ff35496ae79b2",
+              "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+              "description": "公式ページ（2026-11-25にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+            }
+          ]
+        }
+      },
+      "positive_signals": [
+        "official_date_confirmed",
+        "child_activity_confirmed"
+      ],
+      "negative_signals": [
+        "global_source_audit_pending"
+      ],
+      "hard_exclusion": null,
+      "exclusion_type": null,
+      "primary_reason_code": "family_value_high",
+      "reason_codes": [
+        "family_value_high"
+      ],
+      "reasons": [
+        "12/26(土)開催。小学6年生以上の交流会。申込が必要で、費用の記載はない。"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.city.setagaya.lg.jp/03062/37213.html",
+          "basis": "2026-11-25 official individual event page (HTTP200); 23 ward completeness not asserted"
+        }
+      ],
+      "override_reason": "",
+      "discovery_sources": [
+        {
+          "channel": "ai_cross",
+          "kind": "ai_cross_search",
+          "url": "https://www.city.setagaya.lg.jp/03062/37213.html"
+        }
+      ]
+    },
+    {
+      "candidate_id": "verified-20261226-wakabayashi-cookie-2026",
+      "name": "若林児童館 年末お楽しみ会「みっすーとつくろう！クッキーづくり」",
+      "ward": "世田谷区",
+      "decision": "published",
+      "family_fit": {
+        "grade": "B",
+        "overall": "B",
+        "rubric_version": "family-fit-v2",
+        "reason": "12/26(土)開催。小学生以上がクッキー作りを体験できる。定員12名で抽選になる場合があり費用の記載はない。",
+        "axes": {
+          "child_target": {
+            "grade": "A",
+            "reason": "対象は「小学1年生以上 定員12名」"
+          },
+          "interactivity": {
+            "grade": "A",
+            "reason": "内容：冬らしい形のクッキーを作る小学生以上向けの調理体験。"
+          },
+          "age_fit": {
+            "grade": "A",
+            "reason": "年齢の目安は小学1年生以上 定員12名"
+          },
+          "stay_flexibility": {
+            "grade": "unknown",
+            "reason": "途中の出入りや滞在時間の自由度は公式案内に明記がない"
+          },
+          "burden": {
+            "grade": "B",
+            "reason": "定員12名で抽選の場合があり費用の記載がない"
+          },
+          "cost": {
+            "grade": "unknown",
+            "reason": "費用の記載が公式ページにない"
+          },
+          "reservation": {
+            "grade": "B",
+            "reason": "事前の申込や整理券が必要"
+          },
+          "family_value": {
+            "grade": "B",
+            "reason": "形を選んで菓子作りができる"
+          }
+        },
+        "review": {
+          "schema_version": 1,
+          "method": "individual_evidence_review",
+          "reviewed_on": "2026-11-25",
+          "axes_checked": [
+            "child_target",
+            "interactivity",
+            "age_fit",
+            "stay_flexibility",
+            "burden",
+            "cost",
+            "reservation",
+            "family_value"
+          ],
+          "audience_basis": "child_program",
+          "child_activity_confirmed": true,
+          "strengths": [
+            "形を選んで菓子作りができる"
+          ],
+          "limitations": [
+            "定員12名で抽選の場合があり費用の記載がない"
+          ],
+          "grade_comparison": "総合B（12/26(土)・若林児童館 年末お楽しみ会「）：形を選んで菓子作りができる。注意点は「定員12名で抽選の場合があり費用の記載がない」こと。",
+          "unsupported_axes": [
+            "stay_flexibility",
+            "cost"
+          ],
+          "evidence": [
+            {
+              "url": "https://www.city.setagaya.lg.jp/03062/37214.html",
+              "quote": "日程2026年12月26日（土曜日）",
+              "checked_at": "2026-11-25",
+              "sha256": "41afe8f4dd5a631623950c536607fccba3a1ff55fcfa24c78b1d11c03be3c164",
+              "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+              "description": "公式ページ（2026-11-25にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+            },
+            {
+              "url": "https://www.city.setagaya.lg.jp/03062/37214.html",
+              "quote": "対象小学1年生以上定員12名",
+              "checked_at": "2026-11-25",
+              "sha256": "b28a5652c8d6c164634cb4879a874f7c45969ec39912d3bf94792f6edb66362f",
+              "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+              "description": "公式ページ（2026-11-25にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+            },
+            {
+              "url": "https://www.city.setagaya.lg.jp/03062/37214.html",
+              "quote": "冬にピッタリなかわいい形のクッキーをつくろう！",
+              "checked_at": "2026-11-25",
+              "sha256": "c941d10da8f45ed546f8fc176e5141de97ae7f9483f8eae182efb184bb69cddf",
+              "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+              "description": "公式ページ（2026-11-25にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+            }
+          ]
+        }
+      },
+      "positive_signals": [
+        "official_date_confirmed",
+        "child_activity_confirmed"
+      ],
+      "negative_signals": [
+        "global_source_audit_pending"
+      ],
+      "hard_exclusion": null,
+      "exclusion_type": null,
+      "primary_reason_code": "family_value_high",
+      "reason_codes": [
+        "family_value_high"
+      ],
+      "reasons": [
+        "12/26(土)開催。小学生以上がクッキー作りを体験できる。定員12名で抽選になる場合があり費用の記載はない。"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.city.setagaya.lg.jp/03062/37214.html",
+          "basis": "2026-11-25 official individual event page (HTTP200); 23 ward completeness not asserted"
+        }
+      ],
+      "override_reason": "",
+      "discovery_sources": [
+        {
+          "channel": "ai_cross",
+          "kind": "ai_cross_search",
+          "url": "https://www.city.setagaya.lg.jp/03062/37214.html"
+        }
+      ]
+    },
+    {
+      "candidate_id": "verified-20261226-daitaminami-tonjiru-2026",
+      "name": "代田南児童館「みんなの豚汁つくり隊」",
+      "ward": "世田谷区",
+      "decision": "published",
+      "family_fit": {
+        "grade": "B",
+        "overall": "B",
+        "rubric_version": "family-fit-v2",
+        "reason": "12/26(土)開催。小3以上が無料で豚汁作りを担当できる。定員6名程度と少なく、本人の来館申込が必要。",
+        "axes": {
+          "child_target": {
+            "grade": "A",
+            "reason": "対象は「小学3年生以上 定員6名程度」"
+          },
+          "interactivity": {
+            "grade": "A",
+            "reason": "内容：お昼にみんなで食べる豚汁を作る小学3年生以上の調理体験。"
+          },
+          "age_fit": {
+            "grade": "A",
+            "reason": "年齢の目安は小学3年生以上 定員6名程度"
+          },
+          "stay_flexibility": {
+            "grade": "unknown",
+            "reason": "途中の出入りや滞在時間の自由度は公式案内に明記がない"
+          },
+          "burden": {
+            "grade": "B",
+            "reason": "定員6名程度で抽選の場合がある"
+          },
+          "cost": {
+            "grade": "A",
+            "reason": "公式ページで費用は無料"
+          },
+          "reservation": {
+            "grade": "B",
+            "reason": "事前の申込や整理券が必要"
+          },
+          "family_value": {
+            "grade": "B",
+            "reason": "無料で調理の役割を体験できる"
+          }
+        },
+        "review": {
+          "schema_version": 1,
+          "method": "individual_evidence_review",
+          "reviewed_on": "2026-11-25",
+          "axes_checked": [
+            "child_target",
+            "interactivity",
+            "age_fit",
+            "stay_flexibility",
+            "burden",
+            "cost",
+            "reservation",
+            "family_value"
+          ],
+          "audience_basis": "child_program",
+          "child_activity_confirmed": true,
+          "strengths": [
+            "無料で調理の役割を体験できる"
+          ],
+          "limitations": [
+            "定員6名程度で抽選の場合がある"
+          ],
+          "grade_comparison": "総合B（12/26(土)・代田南児童館「みんなの豚汁つ）：無料で調理の役割を体験できる。注意点は「定員6名程度で抽選の場合がある」こと。",
+          "unsupported_axes": [
+            "stay_flexibility"
+          ],
+          "evidence": [
+            {
+              "url": "https://www.city.setagaya.lg.jp/03069/37168.html",
+              "quote": "2026年12月26日（土曜日）10時00分",
+              "checked_at": "2026-11-25",
+              "sha256": "89bf39afc694059274ecb3c0db7d043c6207ce631bff10f35c23ef706d46627b",
+              "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+              "description": "公式ページ（2026-11-25にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+            },
+            {
+              "url": "https://www.city.setagaya.lg.jp/03069/37168.html",
+              "quote": "対象小学3年生から以上定員6名程度",
+              "checked_at": "2026-11-25",
+              "sha256": "3a3a93594c5974e6548a7203191ffb6929ffbb9a9ea224bbc58fec05e3509327",
+              "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+              "description": "公式ページ（2026-11-25にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+            },
+            {
+              "url": "https://www.city.setagaya.lg.jp/03069/37168.html",
+              "quote": "みんなで食べる豚汁をつくろう！",
+              "checked_at": "2026-11-25",
+              "sha256": "b2935ee2a3139d735aa2a86fc89bf325416f330a1cc6171ec26685b4e7c08d70",
+              "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+              "description": "公式ページ（2026-11-25にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+            }
+          ]
+        }
+      },
+      "positive_signals": [
+        "official_date_confirmed",
+        "child_activity_confirmed"
+      ],
+      "negative_signals": [
+        "global_source_audit_pending"
+      ],
+      "hard_exclusion": null,
+      "exclusion_type": null,
+      "primary_reason_code": "family_value_high",
+      "reason_codes": [
+        "family_value_high"
+      ],
+      "reasons": [
+        "12/26(土)開催。小3以上が無料で豚汁作りを担当できる。定員6名程度と少なく、本人の来館申込が必要。"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.city.setagaya.lg.jp/03069/37168.html",
+          "basis": "2026-11-25 official individual event page (HTTP200); 23 ward completeness not asserted"
+        }
+      ],
+      "override_reason": "",
+      "discovery_sources": [
+        {
+          "channel": "ai_cross",
+          "kind": "ai_cross_search",
+          "url": "https://www.city.setagaya.lg.jp/03069/37168.html"
+        }
+      ]
+    },
+    {
+      "candidate_id": "verified-20261226-daitaminami-onigiri-2026",
+      "name": "代田南児童館「今日のお昼はおにぎりを食べよう」",
+      "ward": "世田谷区",
+      "decision": "published",
+      "family_fit": {
+        "grade": "A",
+        "overall": "A",
+        "rubric_version": "family-fit-v2",
+        "reason": "12/26(土)開催。小学生から無料・申込不要でおにぎり作りと昼食を楽しめる。材料がなくなると終了する。",
+        "axes": {
+          "child_target": {
+            "grade": "A",
+            "reason": "対象は「小学1年生〜中高生世代」"
+          },
+          "interactivity": {
+            "grade": "A",
+            "reason": "内容：好きな具でおにぎりを握り、豚汁と一緒に食べる児童館の昼ごはん。"
+          },
+          "age_fit": {
+            "grade": "A",
+            "reason": "年齢の目安は小学1年生〜中高生世代"
+          },
+          "stay_flexibility": {
+            "grade": "unknown",
+            "reason": "途中の出入りや滞在時間の自由度は公式案内に明記がない"
+          },
+          "burden": {
+            "grade": "B",
+            "reason": "材料がなくなり次第終了する"
+          },
+          "cost": {
+            "grade": "A",
+            "reason": "公式ページで費用は無料"
+          },
+          "reservation": {
+            "grade": "A",
+            "reason": "事前申込は不要と確認できる"
+          },
+          "family_value": {
+            "grade": "A",
+            "reason": "無料で作って食べる体験ができる"
+          }
+        },
+        "review": {
+          "schema_version": 1,
+          "method": "individual_evidence_review",
+          "reviewed_on": "2026-11-25",
+          "axes_checked": [
+            "child_target",
+            "interactivity",
+            "age_fit",
+            "stay_flexibility",
+            "burden",
+            "cost",
+            "reservation",
+            "family_value"
+          ],
+          "audience_basis": "child_program",
+          "child_activity_confirmed": true,
+          "strengths": [
+            "無料で作って食べる体験ができる"
+          ],
+          "limitations": [
+            "材料がなくなり次第終了する"
+          ],
+          "grade_comparison": "総合A（12/26(土)・代田南児童館「今日のお昼はお）：無料で作って食べる体験ができる。注意点は「材料がなくなり次第終了する」こと。",
+          "unsupported_axes": [
+            "stay_flexibility"
+          ],
+          "evidence": [
+            {
+              "url": "https://www.city.setagaya.lg.jp/03069/37166.html",
+              "quote": "2026年12月26日（土曜日）12時00分",
+              "checked_at": "2026-11-25",
+              "sha256": "fa707b43eea38dd12efdd045840e306624fcff7f143d2906e5b325dbe3819b8a",
+              "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+              "description": "公式ページ（2026-11-25にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+            },
+            {
+              "url": "https://www.city.setagaya.lg.jp/03069/37166.html",
+              "quote": "対象小学1年生から中高生世代費用・料金無料",
+              "checked_at": "2026-11-25",
+              "sha256": "f608f8dd8873be10e3a7cd40cae4293237eb7c9555c79d8a38f4b1ecd9da04ca",
+              "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+              "description": "公式ページ（2026-11-25にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+            },
+            {
+              "url": "https://www.city.setagaya.lg.jp/03069/37166.html",
+              "quote": "好きな具を入れて、おにぎりをつくろう",
+              "checked_at": "2026-11-25",
+              "sha256": "f2489b1d1b2491c6511ecfb55b8660987f2811eb615c8ef800acfe680b35ec8c",
+              "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+              "description": "公式ページ（2026-11-25にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+            }
+          ]
+        }
+      },
+      "positive_signals": [
+        "official_date_confirmed",
+        "child_activity_confirmed"
+      ],
+      "negative_signals": [
+        "global_source_audit_pending"
+      ],
+      "hard_exclusion": null,
+      "exclusion_type": null,
+      "primary_reason_code": "family_value_high",
+      "reason_codes": [
+        "family_value_high"
+      ],
+      "reasons": [
+        "12/26(土)開催。小学生から無料・申込不要でおにぎり作りと昼食を楽しめる。材料がなくなると終了する。"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.city.setagaya.lg.jp/03069/37166.html",
+          "basis": "2026-11-25 official individual event page (HTTP200); 23 ward completeness not asserted"
+        }
+      ],
+      "override_reason": "",
+      "discovery_sources": [
+        {
+          "channel": "ai_cross",
+          "kind": "ai_cross_search",
+          "url": "https://www.city.setagaya.lg.jp/03069/37166.html"
+        }
+      ]
+    },
+    {
+      "candidate_id": "verified-20261226-edogawa-kakizome-2026",
+      "name": "書道を通した交流会（書初めのお手伝い・文化スポーツプラザ）",
+      "ward": "江戸川区",
+      "decision": "published",
+      "family_fit": {
+        "grade": "A",
+        "overall": "A",
+        "rubric_version": "family-fit-v2",
+        "reason": "12/26(土)開催。小中学生が高校生の手ほどきで書初めを無料で仕上げられる。道具は持参が必要。",
+        "axes": {
+          "child_target": {
+            "grade": "A",
+            "reason": "対象は「小・中学生」"
+          },
+          "interactivity": {
+            "grade": "A",
+            "reason": "内容：高校の書道部員に手伝ってもらい、冬休みの書初めを仕上げる会。"
+          },
+          "age_fit": {
+            "grade": "A",
+            "reason": "年齢の目安は小・中学生"
+          },
+          "stay_flexibility": {
+            "grade": "unknown",
+            "reason": "途中の出入りや滞在時間の自由度は公式案内に明記がない"
+          },
+          "burden": {
+            "grade": "B",
+            "reason": "書道セットや用紙の持参が必要"
+          },
+          "cost": {
+            "grade": "A",
+            "reason": "公式ページで費用は無料"
+          },
+          "reservation": {
+            "grade": "A",
+            "reason": "事前申込は不要と確認できる"
+          },
+          "family_value": {
+            "grade": "A",
+            "reason": "宿題の書初めを無料で教われる"
+          }
+        },
+        "review": {
+          "schema_version": 1,
+          "method": "individual_evidence_review",
+          "reviewed_on": "2026-11-25",
+          "axes_checked": [
+            "child_target",
+            "interactivity",
+            "age_fit",
+            "stay_flexibility",
+            "burden",
+            "cost",
+            "reservation",
+            "family_value"
+          ],
+          "audience_basis": "child_program",
+          "child_activity_confirmed": true,
+          "strengths": [
+            "宿題の書初めを無料で教われる"
+          ],
+          "limitations": [
+            "書道セットや用紙の持参が必要"
+          ],
+          "grade_comparison": "総合A（12/26(土)・書道を通した交流会（書初めの）：宿題の書初めを無料で教われる。注意点は「書道セットや用紙の持参が必要」こと。",
+          "unsupported_axes": [
+            "stay_flexibility"
+          ],
+          "evidence": [
+            {
+              "url": "https://www.city.edogawa.tokyo.jp/event/csp38.html",
+              "quote": "関東第一高等学校書道部員が、小・中学生の皆さんの書初めをお手伝いします。",
+              "checked_at": "2026-11-25",
+              "sha256": "dec677b390616eb298bc9f9be425299efc4fcf935f243f313e0f5ff43b6bc697",
+              "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+              "description": "公式ページ（2026-11-25にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+            },
+            {
+              "url": "https://www.city.edogawa.tokyo.jp/event/csp38.html",
+              "quote": "2026年12月26日（土曜日）9時30分から12時00分",
+              "checked_at": "2026-11-25",
+              "sha256": "0c20f04a5d837d946759e8f48ea06c45653df9761ef7cfc077bf9ade4a2d68e1",
+              "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+              "description": "公式ページ（2026-11-25にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+            },
+            {
+              "url": "https://www.city.edogawa.tokyo.jp/event/csp38.html",
+              "quote": "定員100人程度（現地先着順）",
+              "checked_at": "2026-11-25",
+              "sha256": "0a0fd4ba9f7ec0c846a6238091c934a4dd7b3f420c689226bf10c6f4618a9050",
+              "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+              "description": "公式ページ（2026-11-25にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+            }
+          ]
+        }
+      },
+      "positive_signals": [
+        "official_date_confirmed",
+        "child_activity_confirmed"
+      ],
+      "negative_signals": [
+        "global_source_audit_pending"
+      ],
+      "hard_exclusion": null,
+      "exclusion_type": null,
+      "primary_reason_code": "family_value_high",
+      "reason_codes": [
+        "family_value_high"
+      ],
+      "reasons": [
+        "12/26(土)開催。小中学生が高校生の手ほどきで書初めを無料で仕上げられる。道具は持参が必要。"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.city.edogawa.tokyo.jp/event/csp38.html",
+          "basis": "2026-11-25 official individual event page (HTTP200); 23 ward completeness not asserted"
+        }
+      ],
+      "override_reason": "",
+      "discovery_sources": [
+        {
+          "channel": "ai_cross",
+          "kind": "ai_cross_search",
+          "url": "https://www.city.edogawa.tokyo.jp/event/csp38.html"
+        }
+      ]
+    },
+    {
+      "candidate_id": "verified-20261227-kuwabukuro-eto-2026",
+      "name": "自然素材で作ろう！干支の置き物（桑袋ビオトープ公園）",
+      "ward": "足立区",
+      "decision": "published",
+      "family_fit": {
+        "grade": "B",
+        "overall": "B",
+        "rubric_version": "family-fit-v2",
+        "reason": "12/27(日)開催。小学生以上が自然素材の工作を無料で楽しめる。各回10人の先着で参加証が必要。",
+        "axes": {
+          "child_target": {
+            "grade": "B",
+            "reason": "対象は「小学生以上」"
+          },
+          "interactivity": {
+            "grade": "A",
+            "reason": "内容：枝やドングリで干支の未の置き物を作る公園の工作。"
+          },
+          "age_fit": {
+            "grade": "B",
+            "reason": "年齢の目安は小学生以上"
+          },
+          "stay_flexibility": {
+            "grade": "unknown",
+            "reason": "途中の出入りや滞在時間の自由度は公式案内に明記がない"
+          },
+          "burden": {
+            "grade": "B",
+            "reason": "各回10人の先着配布"
+          },
+          "cost": {
+            "grade": "A",
+            "reason": "公式ページで費用は無料"
+          },
+          "reservation": {
+            "grade": "A",
+            "reason": "事前申込は不要と確認できる"
+          },
+          "family_value": {
+            "grade": "B",
+            "reason": "無料で自然素材の工作ができる"
+          }
+        },
+        "review": {
+          "schema_version": 1,
+          "method": "individual_evidence_review",
+          "reviewed_on": "2026-11-25",
+          "axes_checked": [
+            "child_target",
+            "interactivity",
+            "age_fit",
+            "stay_flexibility",
+            "burden",
+            "cost",
+            "reservation",
+            "family_value"
+          ],
+          "audience_basis": "age_eligible",
+          "child_activity_confirmed": false,
+          "strengths": [
+            "無料で自然素材の工作ができる"
+          ],
+          "limitations": [
+            "各回10人の先着配布"
+          ],
+          "grade_comparison": "総合B（12/27(日)・自然素材で作ろう！干支の置き）：無料で自然素材の工作ができる。注意点は「各回10人の先着配布」こと。",
+          "unsupported_axes": [
+            "stay_flexibility"
+          ],
+          "evidence": [
+            {
+              "url": "https://www.city.adachi.tokyo.jp/pickup/202612_newsletter.html",
+              "quote": "枝やドングリなどを使って2027年の干支「未（ひつじ）」の置き物を作ろう！",
+              "checked_at": "2026-11-25",
+              "sha256": "73ac506eaffd721f27ff43f5fc57d239aa59ee5909da91994fd2a10a2e0c582d",
+              "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+              "description": "公式ページ（2026-11-25にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+            },
+            {
+              "url": "https://www.city.adachi.tokyo.jp/pickup/202612_newsletter.html",
+              "quote": "令和8年12月27日（日曜日）午前10時～11時、午後2時～3時",
+              "checked_at": "2026-11-25",
+              "sha256": "2347988c04eb87c38a23d32d8f8ad9329ad1aeab4bfcb3789a2960c04cd8b2fc",
+              "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+              "description": "公式ページ（2026-11-25にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+            },
+            {
+              "url": "https://www.city.adachi.tokyo.jp/pickup/202612_newsletter.html",
+              "quote": "定員：各10人（先着順）",
+              "checked_at": "2026-11-25",
+              "sha256": "e7846f5d895064d01d11448a5a8799be044c6c54b0b51705b2e95fb0ee52993d",
+              "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+              "description": "公式ページ（2026-11-25にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+            }
+          ]
+        }
+      },
+      "positive_signals": [
+        "official_date_confirmed"
+      ],
+      "negative_signals": [
+        "global_source_audit_pending"
+      ],
+      "hard_exclusion": null,
+      "exclusion_type": null,
+      "primary_reason_code": "family_value_high",
+      "reason_codes": [
+        "family_value_high"
+      ],
+      "reasons": [
+        "12/27(日)開催。小学生以上が自然素材の工作を無料で楽しめる。各回10人の先着で参加証が必要。"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.city.adachi.tokyo.jp/pickup/202612_newsletter.html",
+          "basis": "2026-11-25 official individual event page (HTTP200); 23 ward completeness not asserted"
+        }
+      ],
+      "override_reason": "",
+      "discovery_sources": [
+        {
+          "channel": "ai_cross",
+          "kind": "ai_cross_search",
+          "url": "https://www.city.adachi.tokyo.jp/pickup/202612_newsletter.html"
+        }
+      ]
+    }
+  ]
+}

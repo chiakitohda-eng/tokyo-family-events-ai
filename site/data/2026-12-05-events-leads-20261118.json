@@ -1,0 +1,153 @@
+[
+  {
+    "id": "verified-20261205-nerima-shogaisha-festival",
+    "ward": "練馬区",
+    "name": "2026障害者フェスティバル（練馬区・光が丘）",
+    "url": "https://www.city.nerima.tokyo.jp/hokenfukushi/shogai/koryu/syogai_festival.html",
+    "official_url": "https://www.city.nerima.tokyo.jp/hokenfukushi/shogai/koryu/syogai_festival.html",
+    "source": "https://www.city.nerima.tokyo.jp/hokenfukushi/shogai/koryu/syogai_festival.html",
+    "image": "https://www.city.nerima.tokyo.jp/hokenfukushi/shogai/koryu/syogai_festival.images/photo_mogiten1.jpg",
+    "period": "12/5(土)",
+    "date_start": "2026-12-05",
+    "date_end": "2026-12-05",
+    "time": "10:00〜15:00",
+    "venue": "光が丘区民センター・光が丘公園ふれあいの径（練馬区光が丘2-9-6）",
+    "price": null,
+    "description": "障害者週間にちなむ区のフェスティバル。24団体の模擬店・工作・ゲームコーナー、10団体のコンサート、作品展示など。",
+    "categories": [
+      "文化・地域イベント",
+      "地域交流"
+    ],
+    "indoor_outdoor": "屋内・屋外",
+    "reservation": {
+      "required": null,
+      "note": "申込の記載なし。公式ページで確認。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "誰でも立ち寄れる地域フェスティバルで、模擬店・工作・ゲーム・コンサートがある。子ども専用ではなく、入場料や申込の記載はない。",
+      "axes": {
+        "child_target": {
+          "grade": "B",
+          "reason": "子ども専用ではない地域フェスティバルだが、工作・ゲームコーナーがある"
+        },
+        "interactivity": {
+          "grade": "B",
+          "reason": "工作コーナー・ゲームコーナー・コンサートなど参加・鑑賞が混在"
+        },
+        "age_fit": {
+          "grade": "unknown",
+          "reason": "対象年齢は公式案内に明記がない"
+        },
+        "stay_flexibility": {
+          "grade": "A",
+          "reason": "10:00〜15:00の開催で、模擬店・展示・コンサートを自由に回れる構成"
+        },
+        "burden": {
+          "grade": "B",
+          "reason": "光が丘駅から区民センターに直結。公共交通機関の利用を案内"
+        },
+        "cost": {
+          "grade": "unknown",
+          "reason": "入場料の記載なし。模擬店の購入は有料の見込み"
+        },
+        "reservation": {
+          "grade": "unknown",
+          "reason": "申込の要否は公式案内に明記がない"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "模擬店・工作・コンサートを家族で回れる地域イベント"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-18",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "all_ages",
+        "child_activity_confirmed": false,
+        "strengths": [
+          "光が丘駅直結で模擬店・工作・コンサートを一度に楽しめる"
+        ],
+        "limitations": [
+          "子ども専用ではない",
+          "入場料・申込の記載なし"
+        ],
+        "grade_comparison": "総合B：地域の公式フェスで立ち寄りやすいが、子ども向けの比重は小さく費用等が未記載。",
+        "unsupported_axes": [
+          "age_fit",
+          "cost",
+          "reservation"
+        ],
+        "evidence": [
+          {
+            "url": "https://www.city.nerima.tokyo.jp/hokenfukushi/shogai/koryu/syogai_festival.html",
+            "quote": "令和8年12月5日（土曜）午前10時から午後3時",
+            "checked_at": "2026-11-18",
+            "sha256": "1436e865cca8d25590de398214020e4713b824b3e3756b920e64da32c7a5cb8a",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "練馬区公式ページ（2026-11-18にHTTP200で取得、research/2026-11-18-leads-triage/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.nerima.tokyo.jp/hokenfukushi/shogai/koryu/syogai_festival.html",
+            "quote": "光が丘区民センター、光が丘公園ふれあいの径",
+            "checked_at": "2026-11-18",
+            "sha256": "ed6a3c9ff70c9dc38816952fc0ea205514f80aba8f1c7546b4fea7570fa142b1",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "練馬区公式ページ（2026-11-18にHTTP200で取得、research/2026-11-18-leads-triage/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.nerima.tokyo.jp/hokenfukushi/shogai/koryu/syogai_festival.html",
+            "quote": "24団体が模擬店を出店します。",
+            "checked_at": "2026-11-18",
+            "sha256": "ff4514adbfdb01435df01c7383ddaeffef26bbfb425512077590f1a298b9c690",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "練馬区公式ページ（2026-11-18にHTTP200で取得、research/2026-11-18-leads-triage/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.nerima.tokyo.jp/hokenfukushi/shogai/koryu/syogai_festival.html",
+            "quote": "子育て支援SANの会018物品販売、工作コーナー",
+            "checked_at": "2026-11-18",
+            "sha256": "b9fd1c9aac00a552eb808beaf1a26ca02cd9feb9ae085a4792d9832f6151b15b",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "練馬区公式ページ（2026-11-18にHTTP200で取得、research/2026-11-18-leads-triage/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.nerima.tokyo.jp/hokenfukushi/shogai/koryu/syogai_festival.html",
+            "quote": "10団体が歌やダンスなどを披露します。",
+            "checked_at": "2026-11-18",
+            "sha256": "2da4967269222300ebc72bcbc7ad5539f01da289a1ffb45d78bb6c64af2dac05",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "練馬区公式ページ（2026-11-18にHTTP200で取得、research/2026-11-18-leads-triage/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.nerima.tokyo.jp/hokenfukushi/shogai/koryu/syogai_festival.html",
+            "quote": "富士見台聴こえとことばの教室綿あめ販売、ゲームコーナー",
+            "checked_at": "2026-11-18",
+            "sha256": "a87f8b91aadf1f56f7a3deeea2ed47126fb4184b947c9c1cc72d2adeb0cacdbc",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "練馬区公式ページ（2026-11-18にHTTP200で取得、research/2026-11-18-leads-triage/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-18",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  }
+]

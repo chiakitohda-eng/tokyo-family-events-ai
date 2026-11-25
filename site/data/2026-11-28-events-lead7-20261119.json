@@ -1,0 +1,859 @@
+[
+  {
+    "id": "verified-20261128-adachi-seibutsuen-hotaru",
+    "ward": "足立区",
+    "name": "足立区生物園 冬のホタル観賞会（夜間特別開園）",
+    "url": "https://www.city.adachi.tokyo.jp/k-iji/event/seibutsuen_huyuhotaru.html",
+    "official_url": "https://www.city.adachi.tokyo.jp/k-iji/event/seibutsuen_huyuhotaru.html",
+    "source": "https://www.city.adachi.tokyo.jp/k-iji/event/seibutsuen_huyuhotaru.html",
+    "image": "https://www.city.adachi.tokyo.jp/images/74225/seibutsuen3.jpg",
+    "period": "11/28〜12/20の土日",
+    "date_start": "2026-11-28",
+    "date_end": "2026-11-29",
+    "time": "18:00〜21:00（20分ごと9回、最終回20:40開始）",
+    "venue": "足立区生物園（足立区保木間2丁目17番1号 元渕江公園内）",
+    "price": "無料（別途入園料が必要）",
+    "description": "室内の水槽で光るヘイケボタルを観賞できる夜間特別開園。各回40人の先着順で、事前申込は不要。就学前の子どもは保護者同伴。",
+    "categories": [
+      "体験・ワークショップ",
+      "公園・自然"
+    ],
+    "indoor_outdoor": "屋内",
+    "reservation": {
+      "required": false,
+      "note": "事前の申し込みは不要。直接会場へ。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "冬のホタルを水槽で観賞できる夜の特別開園。どなたでも入れ、就学前は保護者同伴。各回40人の先着で、事前申込は不要。",
+      "axes": {
+        "child_target": {
+          "grade": "B",
+          "reason": "どなたでも入れ、就学前の子どもは保護者同伴と案内"
+        },
+        "interactivity": {
+          "grade": "B",
+          "reason": "ホタルの観賞が中心"
+        },
+        "age_fit": {
+          "grade": "unknown",
+          "reason": "対象年齢の目安は明記がない"
+        },
+        "stay_flexibility": {
+          "grade": "B",
+          "reason": "20分ごと9回の入れ替え制で、各回40人の先着"
+        },
+        "burden": {
+          "grade": "B",
+          "reason": "夜の開催で、生体の状況により中止になる場合がある"
+        },
+        "cost": {
+          "grade": "B",
+          "reason": "費用無料だが、別途入園料が必要"
+        },
+        "reservation": {
+          "grade": "A",
+          "reason": "事前の申し込みは不要"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "冬にホタルを家族で観賞できる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-19",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "all_ages",
+        "child_activity_confirmed": false,
+        "strengths": [
+          "申込不要で冬のホタルを観賞できる"
+        ],
+        "limitations": [
+          "各回40人の先着順",
+          "別途入園料が必要",
+          "生体の状況により中止になる場合がある"
+        ],
+        "grade_comparison": "総合B：申込不要で珍しい観賞ができるが、各回の定員が40人で入園料が別に必要。",
+        "unsupported_axes": [
+          "age_fit"
+        ],
+        "evidence": [
+          {
+            "url": "https://www.city.adachi.tokyo.jp/k-iji/event/seibutsuen_huyuhotaru.html",
+            "quote": "室内に置かれた水槽の中で輝くヘイケボタルの幻想的な光を観賞できます。",
+            "checked_at": "2026-11-19",
+            "sha256": "63ce8ecc9e4f6103b2e314408620a1b92b0621ce168a8acdf411aadcbcd98a74",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "足立区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.adachi.tokyo.jp/k-iji/event/seibutsuen_huyuhotaru.html",
+            "quote": "各日、午後6時から午後9時※最終回は午後8時40分開始。20分ごとに9回実施。",
+            "checked_at": "2026-11-19",
+            "sha256": "afa11530abc30c96abad5fdb725e33ac3638152a704051e0be5bf8fd0cdd10ee",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "足立区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.adachi.tokyo.jp/k-iji/event/seibutsuen_huyuhotaru.html",
+            "quote": "対象どなたでも※就学前の子どもは保護者の同伴が必要です。",
+            "checked_at": "2026-11-19",
+            "sha256": "cd5009b1db6a510cfa75a011b9a4edeb44d667bc72d6cc5c9560c900a4b5f69a",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "足立区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.adachi.tokyo.jp/k-iji/event/seibutsuen_huyuhotaru.html",
+            "quote": "募集人数各40人（先着順）費用無料※入園料が必要です。申込方法事前の申し込みは不要です。",
+            "checked_at": "2026-11-19",
+            "sha256": "ab768ba8840e947610b66821ca20bbf56ce23959154fa335c57472615ec92629",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "足立区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-19",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  },
+  {
+    "id": "verified-20261128-meguro-gohongi-oyako-asobo",
+    "ward": "目黒区",
+    "name": "五本木住区センター児童館 乳幼児のつどい「親子で体を使って遊ぼう」",
+    "url": "https://www.city.meguro.tokyo.jp/houkago/event/8gohongi-tudoi11.html",
+    "official_url": "https://www.city.meguro.tokyo.jp/houkago/event/8gohongi-tudoi11.html",
+    "source": "https://www.city.meguro.tokyo.jp/houkago/event/8gohongi-tudoi11.html",
+    "image": "https://www.city.meguro.tokyo.jp/images/20858/aragane.jpg",
+    "period": "11/28(土)",
+    "date_start": "2026-11-28",
+    "date_end": "2026-11-28",
+    "time": "10:30〜（受付10:20、終了時刻は公式ページの表記が不明確）",
+    "venue": "五本木住区センター児童館 プレイルーム（目黒区）",
+    "price": "公式ページに記載なし",
+    "description": "ベビーから5歳児までと保護者が、体を使って遊ぶ乳幼児のつどい。日本体操研究所の講師が来る。予約不要で、当日児童館へ。",
+    "categories": [
+      "体験・ワークショップ",
+      "親子あそび"
+    ],
+    "indoor_outdoor": "屋内",
+    "reservation": {
+      "required": false,
+      "note": "予約不要。当日児童館へ。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "ベビーから5歳児までの親子が体を使って遊べる。予約不要。終了時刻と費用は公式ページに明記がない。",
+      "axes": {
+        "child_target": {
+          "grade": "A",
+          "reason": "ベビーから5歳児までとその保護者が対象"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "親子で体を使って遊ぶ内容"
+        },
+        "age_fit": {
+          "grade": "A",
+          "reason": "ベビーから5歳児までと明記"
+        },
+        "stay_flexibility": {
+          "grade": "unknown",
+          "reason": "終了時刻の表記が不明確"
+        },
+        "burden": {
+          "grade": "A",
+          "reason": "予約不要で当日そのまま行ける"
+        },
+        "cost": {
+          "grade": "unknown",
+          "reason": "費用の記載がない"
+        },
+        "reservation": {
+          "grade": "A",
+          "reason": "予約不要"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "乳幼児と親子で体を動かして遊べる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-19",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "child_program",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "0〜5歳の親子向け",
+          "予約不要"
+        ],
+        "limitations": [
+          "終了時刻と費用が公式ページに明記されていない"
+        ],
+        "grade_comparison": "総合B：乳幼児向けで予約不要だが、終了時刻と費用の記載がない。",
+        "unsupported_axes": [
+          "stay_flexibility",
+          "cost"
+        ],
+        "evidence": [
+          {
+            "url": "https://www.city.meguro.tokyo.jp/houkago/event/8gohongi-tudoi11.html",
+            "quote": "日時令和8年11月28日（土曜日）午前10時30分から",
+            "checked_at": "2026-11-19",
+            "sha256": "60b76c4562d3761abc747d2091bd5c79ba3168993b4882d28e39e267931e0e3e",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "目黒区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.meguro.tokyo.jp/houkago/event/8gohongi-tudoi11.html",
+            "quote": "10時20分より受付を開始します。",
+            "checked_at": "2026-11-19",
+            "sha256": "d4d50c818dc8e6c90ed74e5d10122f6af29c1e0c43d3e929135fa538979babff",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "目黒区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.meguro.tokyo.jp/houkago/event/8gohongi-tudoi11.html",
+            "quote": "会場五本木住区センター児童館プレイルーム",
+            "checked_at": "2026-11-19",
+            "sha256": "a2cf932624d489eeb3a907ff0173a4590a9c6b66584b90766d3a74c1d85bb27c",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "目黒区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.meguro.tokyo.jp/houkago/event/8gohongi-tudoi11.html",
+            "quote": "対象ベビーから5歳児までとその保護者",
+            "checked_at": "2026-11-19",
+            "sha256": "598fce7809906ba9327a9e279a06bcbe2d93513e90d4c3fef3e5c077fc5397ed",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "目黒区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.meguro.tokyo.jp/houkago/event/8gohongi-tudoi11.html",
+            "quote": "講師日本体操研究所荒金幸子氏",
+            "checked_at": "2026-11-19",
+            "sha256": "4761cb7b98ae64fc3f9a3091b015259a85939ccc44ebc2448899f900c1c037e9",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "目黒区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.meguro.tokyo.jp/houkago/event/8gohongi-tudoi11.html",
+            "quote": "参加希望のかたは、当日児童館へお越しください。予約は不要です。",
+            "checked_at": "2026-11-19",
+            "sha256": "3c9c7e5ab33d1ab072d39a618d58a84a1b2181390fc6acd8e789eab278196d07",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "目黒区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-19",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  },
+  {
+    "id": "verified-20261128-suginami-unesco-tsudoi",
+    "ward": "杉並区",
+    "name": "ユネスコのつどい2026『みんなが輝く未来のために』（展示）",
+    "url": "https://www.city.suginami.tokyo.jp/s113/event/28869.html",
+    "official_url": "https://www.city.suginami.tokyo.jp/s113/event/28869.html",
+    "source": "https://www.city.suginami.tokyo.jp/s113/event/28869.html",
+    "image": "",
+    "period": "11/27(金)〜11/30(月)の展示（11/28・29が週末）",
+    "date_start": "2026-11-28",
+    "date_end": "2026-11-29",
+    "time": "10:00〜19:00",
+    "venue": "セシオン杉並 1階・展示室（杉並区梅里1-22-32）",
+    "price": "展示は無料",
+    "description": "ユネスコの紹介、子どもの権利のパネル展示、ちがいを発見する体験コーナー、キッズコーナー（絵本・工作）、世界遺産クイズなどの展示。展示は当日直接会場へ。",
+    "categories": [
+      "体験・ワークショップ",
+      "地域交流"
+    ],
+    "indoor_outdoor": "屋内",
+    "reservation": {
+      "required": false,
+      "note": "展示は当日直接会場へ（講演会は別途申込）。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "展示室にキッズコーナー（絵本・工作）や体験コーナーがある。展示は無料で、当日直接行ける。",
+      "axes": {
+        "child_target": {
+          "grade": "B",
+          "reason": "どなたでも。キッズコーナー（絵本・工作）がある"
+        },
+        "interactivity": {
+          "grade": "B",
+          "reason": "体験コーナーやクイズ、絵本・工作"
+        },
+        "age_fit": {
+          "grade": "unknown",
+          "reason": "対象年齢の目安は明記がない"
+        },
+        "stay_flexibility": {
+          "grade": "A",
+          "reason": "4日間、午前10時から夜7時まで好きな時間に立ち寄れる"
+        },
+        "burden": {
+          "grade": "A",
+          "reason": "展示は当日直接会場へ行ける"
+        },
+        "cost": {
+          "grade": "A",
+          "reason": "展示は無料"
+        },
+        "reservation": {
+          "grade": "A",
+          "reason": "展示は申込不要"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "展示を見て、絵本や工作を家族で楽しめる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-19",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "child_program",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "無料で当日直接行ける",
+          "キッズコーナーで絵本・工作"
+        ],
+        "limitations": [
+          "講演会は別に申込が必要",
+          "展示が中心で子ども向けの詳細は少ない"
+        ],
+        "grade_comparison": "総合B：無料で気軽に立ち寄れるが、展示が中心で子ども向けの詳細は少ない。",
+        "unsupported_axes": [
+          "age_fit"
+        ],
+        "evidence": [
+          {
+            "url": "https://www.city.suginami.tokyo.jp/s113/event/28869.html",
+            "quote": "子どもの権利、平和・さまざまな人との共生について考えるつどいです。",
+            "checked_at": "2026-11-19",
+            "sha256": "f8bea6df6d00a69ac38528eba8f96f9fb04976fe0b2394becdf2fad990c71bca",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "杉並区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.suginami.tokyo.jp/s113/event/28869.html",
+            "quote": "キッズコーナー（絵本・工作）、世界遺産クイズ等があります。",
+            "checked_at": "2026-11-19",
+            "sha256": "14e0bae285c01a5ae3bc762e99cc87d998408d94d179b6e01b80a5e6658ede7e",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "杉並区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.suginami.tokyo.jp/s113/event/28869.html",
+            "quote": "（1）11月27日（金曜日）から11月30日（月曜日）午前10時から午後7時まで（最終日は午後4時まで）",
+            "checked_at": "2026-11-19",
+            "sha256": "8ec16ddbbd14ca03fc5af3a69bc265901bfb7bba433f0dedf8b9f8bac0cab62f",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "杉並区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.suginami.tokyo.jp/s113/event/28869.html",
+            "quote": "（1）セシオン杉並1階・展示室",
+            "checked_at": "2026-11-19",
+            "sha256": "af38f253c14b62aac223d8cece015624ee793d5ef1406fa68a71e2bc38c6781f",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "杉並区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.suginami.tokyo.jp/s113/event/28869.html",
+            "quote": "（1）当日直接会場へお越しください。",
+            "checked_at": "2026-11-19",
+            "sha256": "bf48365cae10994c99db10e35a796afab30441f8f679057dce710aba30d7784c",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "杉並区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.suginami.tokyo.jp/s113/event/28869.html",
+            "quote": "費用（1）無料（2）資料代500円（学生以下は無料）",
+            "checked_at": "2026-11-19",
+            "sha256": "2addc8ed98a39664e60ddb905660c06ec02155e9176b4ea8b80c199180a36f56",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "杉並区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-19",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  },
+  {
+    "id": "verified-20261129-suginami-beach-sports",
+    "ward": "杉並区",
+    "name": "ビーチスポーツイベント（TAC杉並区永福体育館）",
+    "url": "https://www.city.suginami.tokyo.jp/s032/event/28976.html",
+    "official_url": "https://www.city.suginami.tokyo.jp/s032/event/28976.html",
+    "source": "https://www.city.suginami.tokyo.jp/s032/event/28976.html",
+    "image": "",
+    "period": "11/29(日)",
+    "date_start": "2026-11-29",
+    "date_end": "2026-11-29",
+    "time": "14:00〜16:30（雨天中止）",
+    "venue": "TAC杉並区永福体育館 ビーチコート（杉並区永福1丁目7番6号）",
+    "price": "無料",
+    "description": "ビーチフラッグスなど、大人も子どももビーチで楽しめるイベント。どなたでも参加でき、当日直接会場へ。小学3年生以下は保護者同伴。",
+    "categories": [
+      "体験・ワークショップ",
+      "スポーツ"
+    ],
+    "indoor_outdoor": "屋外",
+    "reservation": {
+      "required": false,
+      "note": "当日直接会場へ。雨天中止。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "ビーチフラッグスなど子どもも楽しめるビーチスポーツ。無料で当日直接行ける。雨天中止。",
+      "axes": {
+        "child_target": {
+          "grade": "B",
+          "reason": "子どもから大人までどなたでも参加でき、小3以下は保護者同伴"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "ビーチフラッグスなどのスポーツ体験"
+        },
+        "age_fit": {
+          "grade": "B",
+          "reason": "小学3年生以下は保護者同伴と明記"
+        },
+        "stay_flexibility": {
+          "grade": "B",
+          "reason": "2時間30分の開催"
+        },
+        "burden": {
+          "grade": "B",
+          "reason": "屋外で、雨天中止"
+        },
+        "cost": {
+          "grade": "A",
+          "reason": "無料"
+        },
+        "reservation": {
+          "grade": "A",
+          "reason": "当日直接会場へ"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "体を動かす体験を家族で楽しめる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-19",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "child_program",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "無料・当日直接でビーチスポーツ体験"
+        ],
+        "limitations": [
+          "雨天中止",
+          "屋外開催"
+        ],
+        "grade_comparison": "総合B：無料・当日直接でスポーツ体験ができるが、屋外開催で雨天中止になる。",
+        "unsupported_axes": [],
+        "evidence": [
+          {
+            "url": "https://www.city.suginami.tokyo.jp/s032/event/28976.html",
+            "quote": "子どもから大人までどなたでもご参加いただけます。",
+            "checked_at": "2026-11-19",
+            "sha256": "8f50be4b4df51e73ff9b7104cc1dab8d747359553e982d212fce60b2f032ff6a",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "杉並区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.suginami.tokyo.jp/s032/event/28976.html",
+            "quote": "（小学3年生以下保護者同伴）",
+            "checked_at": "2026-11-19",
+            "sha256": "ac89d58f93b6bc177c2374430a02a2ee9975e03529ea6af20ca1a341b0789a52",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "杉並区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.suginami.tokyo.jp/s032/event/28976.html",
+            "quote": "ビーチフラッグスなど大人も子どももビーチで楽しめるイベントもりだくさん",
+            "checked_at": "2026-11-19",
+            "sha256": "a7b49b7c7521705638eaac7b4af731c3e8e1bbaf2991cec268d493bed65778fe",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "杉並区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.suginami.tokyo.jp/s032/event/28976.html",
+            "quote": "開催日2026年11月29日（日曜日）開催時間午後2時から午後4時30分まで（雨天中止）",
+            "checked_at": "2026-11-19",
+            "sha256": "162f6f4ebc2f3b9b58ee3f65f4329ed6448ab918eb783ccd0c743f4facaee44a",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "杉並区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.suginami.tokyo.jp/s032/event/28976.html",
+            "quote": "申し込み当日直接会場へお越しください。費用無料",
+            "checked_at": "2026-11-19",
+            "sha256": "2b45666a19f36d226cad8bab8a4351ffcde977cfdc7c4c48154a3850d2740bdb",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "杉並区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-19",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  },
+  {
+    "id": "verified-20261129-suginami-asagaya-xmas-market",
+    "ward": "杉並区",
+    "name": "クリスマス ワークショップ＆マーケット（コミュニティふらっと阿佐谷）",
+    "url": "https://www.city.suginami.tokyo.jp/s113/event/28934.html",
+    "official_url": "https://www.city.suginami.tokyo.jp/s113/event/28934.html",
+    "source": "https://www.city.suginami.tokyo.jp/s113/event/28934.html",
+    "image": "",
+    "period": "11/29(日)",
+    "date_start": "2026-11-29",
+    "date_end": "2026-11-29",
+    "time": "10:00〜15:00",
+    "venue": "コミュニティふらっと阿佐谷（杉並区阿佐谷北2丁目18番17号）",
+    "price": "ワークショップにより有料",
+    "description": "ハンドメイド作家によるクリスマスのワークショップとマーケット。子どもから大人まで楽しめる。当日直接会場へ（一部は事前申込可）。ワークショップは有料。",
+    "categories": [
+      "体験・ワークショップ",
+      "地域交流"
+    ],
+    "indoor_outdoor": "屋内",
+    "reservation": {
+      "required": false,
+      "note": "当日直接会場へ。一部のワークショップは事前申込が可能。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "クリスマスの飾りづくりなどのワークショップがあり、お子さんから大人まで楽しめる。当日直接行ける。ワークショップは有料で各ブース約10名。",
+      "axes": {
+        "child_target": {
+          "grade": "B",
+          "reason": "お子さんから大人までと案内"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "クリスマスの飾りづくりなどのワークショップ"
+        },
+        "age_fit": {
+          "grade": "unknown",
+          "reason": "対象年齢は明記がない"
+        },
+        "stay_flexibility": {
+          "grade": "A",
+          "reason": "10時〜15時の間、好きな時間に立ち寄れる"
+        },
+        "burden": {
+          "grade": "B",
+          "reason": "各ブース約10名の定員"
+        },
+        "cost": {
+          "grade": "B",
+          "reason": "ワークショップにより有料"
+        },
+        "reservation": {
+          "grade": "A",
+          "reason": "当日直接会場へ"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "クリスマスの工作を家族で楽しめる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-19",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "child_program",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "クリスマスの工作を体験できる",
+          "当日直接行ける"
+        ],
+        "limitations": [
+          "ワークショップは有料",
+          "各ブース約10名"
+        ],
+        "grade_comparison": "総合B：工作を体験できるが、有料で各ブースの定員が少ない。",
+        "unsupported_axes": [
+          "age_fit"
+        ],
+        "evidence": [
+          {
+            "url": "https://www.city.suginami.tokyo.jp/s113/event/28934.html",
+            "quote": "ハンドメイド作家によるクリスマスワークショップを開催します。",
+            "checked_at": "2026-11-19",
+            "sha256": "f293486e851d0f0169ad5a036f57db8446c3bc3427ff1869e8092a164cf9280d",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "杉並区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.suginami.tokyo.jp/s113/event/28934.html",
+            "quote": "いろいろなワークショップを開催しますので、お子さんから大人までお楽しみいただけます。",
+            "checked_at": "2026-11-19",
+            "sha256": "c6deef570cc28b9ed17ef0679ba998bbcb67fb685029f1d1ffe573087092d24e",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "杉並区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.suginami.tokyo.jp/s113/event/28934.html",
+            "quote": "開催日2026年11月29日（日曜日）開催時間午前10時から午後3時まで",
+            "checked_at": "2026-11-19",
+            "sha256": "f80cc1af765746052b3ac18bb1427e812e4071ca5656616411b827501d3acace",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "杉並区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.suginami.tokyo.jp/s113/event/28934.html",
+            "quote": "申し込み当日直接会場へお越しください。一部事前申込が可能です。",
+            "checked_at": "2026-11-19",
+            "sha256": "e5dd7389e087a884f76d0f69ef917db6958f6a785568e6657026f5cd2b528ac0",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "杉並区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.suginami.tokyo.jp/s113/event/28934.html",
+            "quote": "費用有料（参加するワークショップにより費用が異なります。）",
+            "checked_at": "2026-11-19",
+            "sha256": "25ca6db29a00211a36180c011a96aeb37e50c1015dc8ef4b800c2585bc0baad0",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "杉並区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-19",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  },
+  {
+    "id": "verified-20261128-shinjuku-3r-festa",
+    "ward": "新宿区",
+    "name": "新宿3Rフェスタ～みんなでつくる地球の未来～",
+    "url": "https://www.city.shinjuku.lg.jp/event/seikankyo03_002041.html",
+    "official_url": "https://www.city.shinjuku.lg.jp/event/seikankyo03_002041.html",
+    "source": "https://www.city.shinjuku.lg.jp/event/seikankyo03_002041.html",
+    "image": "https://www.city.shinjuku.lg.jp/content/000387666.png",
+    "period": "11/28(土)",
+    "date_start": "2026-11-28",
+    "date_end": "2026-11-28",
+    "time": "11:00〜16:00（10:45オープニング）",
+    "venue": "新宿駅西口広場イベントコーナー",
+    "price": "参加無料",
+    "description": "ごみ減量のヒントとなる3Rを楽しみながら学ぶイベント。スタンプラリー、抽選会、ステージ、20以上のブース出展。当日直接会場へ。",
+    "categories": [
+      "体験・ワークショップ",
+      "地域交流"
+    ],
+    "indoor_outdoor": "屋外",
+    "reservation": {
+      "required": false,
+      "note": "当日、マイバッグを持って直接会場へ。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "スタンプラリーや抽選会、ステージ、20以上のブースがある環境イベント。無料・当日直接参加。子ども向けとは明記されていない。",
+      "axes": {
+        "child_target": {
+          "grade": "unknown",
+          "reason": "子ども向けとは明記されていない"
+        },
+        "interactivity": {
+          "grade": "B",
+          "reason": "スタンプラリーやブース、ステージ"
+        },
+        "age_fit": {
+          "grade": "unknown",
+          "reason": "対象年齢は明記がない"
+        },
+        "stay_flexibility": {
+          "grade": "A",
+          "reason": "11時〜16時の間、好きな時間に立ち寄れる"
+        },
+        "burden": {
+          "grade": "B",
+          "reason": "駅前広場での開催"
+        },
+        "cost": {
+          "grade": "A",
+          "reason": "参加無料"
+        },
+        "reservation": {
+          "grade": "A",
+          "reason": "当日直接会場へ"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "スタンプラリーなどを家族で楽しめる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-19",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "all_ages",
+        "child_activity_confirmed": false,
+        "strengths": [
+          "無料・当日直接でスタンプラリーなど"
+        ],
+        "limitations": [
+          "子ども向けとは明記されていない",
+          "駅前広場の屋外開催"
+        ],
+        "grade_comparison": "総合B：無料で参加できるが、子ども向けとは明記されていない。",
+        "unsupported_axes": [
+          "child_target",
+          "age_fit"
+        ],
+        "evidence": [
+          {
+            "url": "https://www.city.shinjuku.lg.jp/event/seikankyo03_002041.html",
+            "quote": "新宿3Rフェスタはごみ減量のヒントとなる3Ｒについて、楽しみながら理解を深めるイベントです。",
+            "checked_at": "2026-11-19",
+            "sha256": "e9bf89e74df9dd1bd973156aa5cb231bbd87bdac3e76f376e7ab3697d2e31c26",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "新宿区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.shinjuku.lg.jp/event/seikankyo03_002041.html",
+            "quote": "毎年、スタンプラリーや抽選会、ステージのほか、区内の事業者や区民団体など20以上のブースが出展します。",
+            "checked_at": "2026-11-19",
+            "sha256": "7016270739a6586515e63672e760903beb0be2d52c0bc4d4be7ee6efddf7420b",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "新宿区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.shinjuku.lg.jp/event/seikankyo03_002041.html",
+            "quote": "当日マイバッグをお持ちの上、直接会場へおいでください。",
+            "checked_at": "2026-11-19",
+            "sha256": "ac27857b16e43397dd3d93143f96ed077850e94e1b5c5f43cb1cc39336e38887",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "新宿区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.shinjuku.lg.jp/event/seikankyo03_002041.html",
+            "quote": "日程令和8年11月28日（土）11:00～16:00（10:45からオープニングセレモニー）",
+            "checked_at": "2026-11-19",
+            "sha256": "c3681d8d5cee8798af60c17b06c65628fb1e4e983a1f6583214c9c62cfb2d90b",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "新宿区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.shinjuku.lg.jp/event/seikankyo03_002041.html",
+            "quote": "会場新宿駅西口広場イベントコーナー地図費用参加無料",
+            "checked_at": "2026-11-19",
+            "sha256": "499cfe375f4208d29035851f6225bceb5e5ee7b1dadaf1388d52ce716118179b",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "新宿区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-19",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  }
+]

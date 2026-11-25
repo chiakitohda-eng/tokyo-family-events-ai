@@ -1,0 +1,314 @@
+[
+  {
+    "id": "verified-20261205-chofu-jindai-winter-forest-tanken-2026",
+    "ward": "調布市",
+    "name": "「自然」と友達になろう！冬の森たんけん（神代植物公園）",
+    "url": "https://www.tokyo-park.or.jp/park/jindai/news/2026/12_6.html",
+    "official_url": "https://www.tokyo-park.or.jp/park/jindai/news/2026/12_6.html",
+    "source": "https://www.tokyo-park.or.jp/park/jindai/news/2026/12_6.html",
+    "image": "",
+    "period": "12/6(日)",
+    "date_start": "2026-12-06",
+    "date_end": "2026-12-06",
+    "time": "午前の部10:30〜11:40・午後の部13:30〜14:40（各70分）",
+    "venue": "神代植物公園 植物会館前集合（調布市深大寺元町）",
+    "price": "参加費50円（レクリエーション保険料・ひとり）。保護者は入園料が別途必要",
+    "description": "神代植物公園の職員（ネイチャーゲームリーダー）といっしょに、目で見て、耳で聞いて、手で触って、においを感じながら冬の森をたんけんする親子向けの体験。対象は5歳以上〜小学4年生（保護者同伴）で、各回親子5組10人ほど。事前申込制・先着順。",
+    "categories": [
+      "体験・ワークショップ",
+      "公園・自然"
+    ],
+    "indoor_outdoor": "屋外",
+    "reservation": {
+      "required": true,
+      "note": "事前申込制・先着順。申込フォームから申し込む。小雨決行・雨天中止。"
+    },
+    "family_fit": {
+      "grade": "A",
+      "overall": "A",
+      "rubric_version": "family-fit-v2",
+      "reason": "5歳から小学4年生の子どもが保護者といっしょに、五感で冬の森を探検する体験。参加費は50円と安い。事前申込制で先着順、各回の定員が少ない。",
+      "axes": {
+        "child_target": {
+          "grade": "A",
+          "reason": "5歳〜小学4年生の子どもと保護者のための体験"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "見る・聞く・触る・においをかぐ体験型"
+        },
+        "age_fit": {
+          "grade": "A",
+          "reason": "対象年齢がはっきりしている"
+        },
+        "stay_flexibility": {
+          "grade": "B",
+          "reason": "午前・午後の2回から選べる（各70分）"
+        },
+        "burden": {
+          "grade": "B",
+          "reason": "屋外で、雨天中止。保護者は入園料が必要"
+        },
+        "cost": {
+          "grade": "A",
+          "reason": "参加費は50円"
+        },
+        "reservation": {
+          "grade": "C",
+          "reason": "事前申込制・先着順で、定員が少ない"
+        },
+        "family_value": {
+          "grade": "A",
+          "reason": "職員の案内で、子どもが自然に親しめる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-21",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "child_program",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "参加費は50円と安い",
+          "5歳〜小学4年生向けで、職員が案内する"
+        ],
+        "limitations": [
+          "事前申込制で、各回の定員が少ない",
+          "雨天中止。保護者は入園料が別に必要"
+        ],
+        "grade_comparison": "総合A：対象年齢がはっきりした親子向けの自然体験で、参加費も安い。申込と定員の制約がある。",
+        "unsupported_axes": [],
+        "evidence": [
+          {
+            "url": "https://www.tokyo-park.or.jp/park/jindai/news/2026/12_6.html",
+            "quote": "【実施日】2026年12月6日（日）",
+            "checked_at": "2026-11-21",
+            "sha256": "fba026dfb8724ba7a75ba36c49fcbe39e824f54964e52718b79cbfb90ce83752",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.tokyo-park.or.jp/park/jindai/news/2026/12_6.html",
+            "quote": "【集合場所】神代植物公園植物会館前",
+            "checked_at": "2026-11-21",
+            "sha256": "66f00effd1bb1bbe4d936ae67f87be962b2f208f039dbfa57b337583bacdeb5c",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.tokyo-park.or.jp/park/jindai/news/2026/12_6.html",
+            "quote": "【対象】5歳以上～小学校4年生（保護者同伴）",
+            "checked_at": "2026-11-21",
+            "sha256": "11e5339f29cfd422f67d03c4b5a786c16a962ca56e88606de2483f53065921d2",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.tokyo-park.or.jp/park/jindai/news/2026/12_6.html",
+            "quote": "【参加費】50円(レクリエーション保険料)/ひとり",
+            "checked_at": "2026-11-21",
+            "sha256": "e461560ec1c2098d08e6720f3a3dd967c123266ad331a6dd234caf07cd1f7832",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.tokyo-park.or.jp/park/jindai/news/2026/12_6.html",
+            "quote": "※保護者は入園料が別途必要です。",
+            "checked_at": "2026-11-21",
+            "sha256": "5bd81b50628bb735e5700b12a16f4c0cbe292be671cac9c043493ba2d4ad945a",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.tokyo-park.or.jp/park/jindai/news/2026/12_6.html",
+            "quote": "【定員】各回親子5組10人程度（事前申込制・先着順）",
+            "checked_at": "2026-11-21",
+            "sha256": "2b2cdd379feed1491339a575417333e248ed7216e71505f26741a412b8631e1c",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.tokyo-park.or.jp/park/jindai/news/2026/12_6.html",
+            "quote": "①午前の部10時30分～11時40分（70分）",
+            "checked_at": "2026-11-21",
+            "sha256": "6fb48937260d53b57ea673d23e60ad2394367409a385c8d3fed569702d5ce7e3",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.tokyo-park.or.jp/park/jindai/news/2026/12_6.html",
+            "quote": "②午後の部13時30分～14時40分（70分）",
+            "checked_at": "2026-11-21",
+            "sha256": "e8d75f82a13eb19250862d61a9ff969b34fa6219af61e1d23bd1bbcb1df6b517",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-21",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  },
+  {
+    "id": "verified-20261205-shibuya-yoyogi-donguri-kosaku-20261206",
+    "ward": "渋谷区",
+    "name": "日曜日自然教室「どんぐり工作」（代々木公園）",
+    "url": "https://www.tokyo-park.or.jp/park/yoyogi/news/2026/12_6_pm.html",
+    "official_url": "https://www.tokyo-park.or.jp/park/yoyogi/news/2026/12_6_pm.html",
+    "source": "https://www.tokyo-park.or.jp/park/yoyogi/news/2026/12_6_pm.html",
+    "image": "https://www.tokyo-park.or.jp/park/yoyogi/assets/%E3%81%A9%E3%82%93%E3%81%90%E3%82%8A%E5%B7%A5%E4%BD%9C2026.png",
+    "period": "12/6(日)",
+    "date_start": "2026-12-06",
+    "date_end": "2026-12-06",
+    "time": "13:30〜15:30",
+    "venue": "代々木公園 フラワーランド（渋谷区代々木神園町）",
+    "price": "参加費は無料",
+    "description": "代々木公園にあるいろいろな種類のどんぐりや松ぼっくりを使って、自由な発想でオリジナルの置き物を作る工作。申込は不要で、当日自由に参加できる。先着20名で、材料がなくなり次第終了。同じ日に有料のクリスマスリースづくり（要申込）も開く。",
+    "categories": [
+      "体験・ワークショップ",
+      "公園・自然"
+    ],
+    "indoor_outdoor": "屋外",
+    "reservation": {
+      "required": false,
+      "note": "申込不要、当日自由参加。先着20名。雨天の場合、どんぐり工作は中止。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "どんぐりや松ぼっくりで置き物を作る、自由参加の工作教室。参加費は無料で、申込も要らない。先着20名で、雨天は中止。",
+      "axes": {
+        "child_target": {
+          "grade": "B",
+          "reason": "年齢の限定はなく、子どもも参加しやすい工作"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "どんぐりや松ぼっくりで自由に作る"
+        },
+        "age_fit": {
+          "grade": "B",
+          "reason": "年齢の限定はない"
+        },
+        "stay_flexibility": {
+          "grade": "B",
+          "reason": "13:30〜15:30の間に立ち寄れる"
+        },
+        "burden": {
+          "grade": "B",
+          "reason": "屋外で、雨天は中止。先着20名"
+        },
+        "cost": {
+          "grade": "A",
+          "reason": "参加費は無料"
+        },
+        "reservation": {
+          "grade": "A",
+          "reason": "申込不要、当日自由参加"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "公園で自然の材料を使った工作を楽しめる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-21",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "all_ages",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "参加費が無料で、申込も要らない",
+          "自然の材料を使って自由に作れる"
+        ],
+        "limitations": [
+          "先着20名で、材料がなくなり次第終了",
+          "雨天の場合は中止"
+        ],
+        "grade_comparison": "総合B：無料で当日参加できる自然工作。定員が少なく、雨天中止。",
+        "unsupported_axes": [],
+        "evidence": [
+          {
+            "url": "https://www.tokyo-park.or.jp/park/yoyogi/news/2026/12_6_pm.html",
+            "quote": "【日時】2026年12月6日（日）13：30～15：30",
+            "checked_at": "2026-11-21",
+            "sha256": "62f3d97a2e506db0cbb424a910f29c51c669af3d015ac2dd4c4394ee3f8889df",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.tokyo-park.or.jp/park/yoyogi/news/2026/12_6_pm.html",
+            "quote": "【場所】代々木公園内「フラワーランド」",
+            "checked_at": "2026-11-21",
+            "sha256": "666daa1ae23a7f470dab855684e5b542b5f8edfa4cf5727ce8ae164d9d348229",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.tokyo-park.or.jp/park/yoyogi/news/2026/12_6_pm.html",
+            "quote": "②日曜日自然教室「どんぐり工作」",
+            "checked_at": "2026-11-21",
+            "sha256": "48c42710f4355233b9f8c500581e69ad1aebf4c4e6dbe6b6b6026061b9f1c761",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.tokyo-park.or.jp/park/yoyogi/news/2026/12_6_pm.html",
+            "quote": "【参加費】無料【定員】先着20名、席に空きがあれば順次ご案内、在庫なくなり次第終了",
+            "checked_at": "2026-11-21",
+            "sha256": "1072cb8623113894945ed0ba0b96fe71bdbc9bd31edfc9486f3122b395a6e284",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.tokyo-park.or.jp/park/yoyogi/news/2026/12_6_pm.html",
+            "quote": "【申込み】不要、当日自由参加",
+            "checked_at": "2026-11-21",
+            "sha256": "c1cf5ece69f5e9828eaa620dc2d5c368ca0f6f299a3ae0d3193323fef870cbfe",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.tokyo-park.or.jp/park/yoyogi/news/2026/12_6_pm.html",
+            "quote": "代々木公園にある色々な種類のどんぐりや松ぼっくりを使って工作。",
+            "checked_at": "2026-11-21",
+            "sha256": "d9466c0e39e439a3decc88885d6a13cc0138cc98988db590bf50b9d52985f811",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-21",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  }
+]

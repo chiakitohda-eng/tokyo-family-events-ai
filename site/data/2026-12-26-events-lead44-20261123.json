@@ -1,0 +1,248 @@
+[
+  {
+    "id": "verified-20261226-shibuya-hachilabo-light-planet-2026",
+    "ward": "渋谷区",
+    "name": "【ワークショップ】算数と光の実験で惑星のナゾを解き明かせ！（ハチラボ）",
+    "url": "https://shibu-cul.jp/event/53568#planet",
+    "official_url": "https://shibu-cul.jp/event/53568#planet",
+    "source": "https://shibu-cul.jp/event/53568#planet",
+    "image": "",
+    "period": "12/26(土)",
+    "date_start": "2026-12-26",
+    "date_end": "2026-12-26",
+    "time": "①10:30〜11:40 ②13:30〜14:40（各回70分）",
+    "venue": "こども科学センター・ハチラボ（渋谷区桜丘町23-21、渋谷区文化総合センター大和田3F）",
+    "price": "無料",
+    "description": "宇宙展に関連して、算数と光の実験で惑星のナゾにせまるワークショップ。小学3年生から6年生が対象で、無料。",
+    "categories": [
+      "科学・自然",
+      "体験・ワークショップ"
+    ],
+    "indoor_outdoor": "屋内",
+    "reservation": {
+      "required": true,
+      "note": "要申込（抽選）。受付は12/2 0:00〜12/9 23:59、当落連絡は12/12。申込はp-gakushu.jp/hachilabo。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "小3〜小6向けの無料の実験。算数と光で惑星を調べる。抽選で、受付は12/2〜12/9。",
+      "axes": {
+        "child_target": {
+          "grade": "A",
+          "reason": "子ども向けの内容（公式ページに年齢の目安がある）"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "つくる・実験するなど体験ができる"
+        },
+        "age_fit": {
+          "grade": "B",
+          "reason": "小学生が対象"
+        },
+        "stay_flexibility": {
+          "grade": "C",
+          "reason": "決まった日・回に合わせる必要がある"
+        },
+        "burden": {
+          "grade": "A",
+          "reason": "屋内で短時間。気軽に参加できる"
+        },
+        "cost": {
+          "grade": "A",
+          "reason": "無料"
+        },
+        "reservation": {
+          "grade": "C",
+          "reason": "事前申込（先着順または抽選）が必要"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "体験型で、家族の学びになる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-23",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "child_program",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "算数と光の実験で惑星を学べる",
+          "無料で、各回12名"
+        ],
+        "limitations": [
+          "小3〜小6向けの抽選。受付は12/2 0:00〜12/9 23:59"
+        ],
+        "grade_comparison": "総合B：小学生向けの無料の宇宙実験。抽選で申込が必要。",
+        "unsupported_axes": [],
+        "evidence": [
+          {
+            "url": "https://shibu-cul.jp/event/53568#planet",
+            "quote": "●開催日：12月26日（土）",
+            "checked_at": "2026-11-23",
+            "sha256": "b3044c55e4fbe2c768f9029f15fae47e85f519b4b973ed3c673aa4916c79a2f6",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-23にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://shibu-cul.jp/event/53568#planet",
+            "quote": "●推奨年齢：小3～小6（小3は保護者同伴）",
+            "checked_at": "2026-11-23",
+            "sha256": "a62983c246716e6d3447f8479977ae1fa290f7821e428f6f688b49ef7357bf85",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-23にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://shibu-cul.jp/event/53568#planet",
+            "quote": "●募集期間：12月2日（水）0:00～12月9日（水）23:59＜抽選＞",
+            "checked_at": "2026-11-23",
+            "sha256": "f742431600b1c9f24667ae2b111672d9693fb34f7b99a10a48d286ce0f0efc68",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-23にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-23",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  },
+  {
+    "id": "verified-20261227-shibuya-hachilabo-coin-bank-2026",
+    "ward": "渋谷区",
+    "name": "【ワークショップ】コインが消える貯金箱（ハチラボ）",
+    "url": "https://shibu-cul.jp/event/53568#coin-bank",
+    "official_url": "https://shibu-cul.jp/event/53568#coin-bank",
+    "source": "https://shibu-cul.jp/event/53568#coin-bank",
+    "image": "",
+    "period": "12/27(日)・12/28(月)",
+    "date_start": "2026-12-27",
+    "date_end": "2026-12-28",
+    "time": "①10:30〜11:30 ②13:30〜14:30（各回60分）",
+    "venue": "こども科学センター・ハチラボ（渋谷区桜丘町23-21、渋谷区文化総合センター大和田3F）",
+    "price": "無料",
+    "description": "コインが消えたように見える貯金箱をつくる工作。小学1年生から6年生が対象で、無料。",
+    "categories": [
+      "科学・自然",
+      "体験・ワークショップ"
+    ],
+    "indoor_outdoor": "屋内",
+    "reservation": {
+      "required": true,
+      "note": "要申込（抽選）。受付は12/2 0:00〜12/9 23:59、当落連絡は12/12。申込はp-gakushu.jp/hachilabo。"
+    },
+    "family_fit": {
+      "grade": "A",
+      "overall": "A",
+      "rubric_version": "family-fit-v2",
+      "reason": "小1〜小6向けの無料の工作。2日間開くので日を選べる。抽選で、受付は12/2〜12/9。",
+      "axes": {
+        "child_target": {
+          "grade": "A",
+          "reason": "子ども向けの内容（公式ページに年齢の目安がある）"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "つくる・実験するなど体験ができる"
+        },
+        "age_fit": {
+          "grade": "A",
+          "reason": "未就学児から参加できる"
+        },
+        "stay_flexibility": {
+          "grade": "B",
+          "reason": "日や時間帯を選べるが、回ごとの申込が必要"
+        },
+        "burden": {
+          "grade": "A",
+          "reason": "屋内で短時間。気軽に参加できる"
+        },
+        "cost": {
+          "grade": "A",
+          "reason": "無料"
+        },
+        "reservation": {
+          "grade": "C",
+          "reason": "事前申込（先着順または抽選）が必要"
+        },
+        "family_value": {
+          "grade": "A",
+          "reason": "子どもが楽しめる体験がある"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-23",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "child_program",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "小1から参加でき、無料",
+          "2日間開くので日を選べる"
+        ],
+        "limitations": [
+          "各回8名の抽選。受付は12/2 0:00〜12/9 23:59"
+        ],
+        "grade_comparison": "総合A：小学生向けの無料の工作。抽選で、各回8名と少人数。",
+        "unsupported_axes": [],
+        "evidence": [
+          {
+            "url": "https://shibu-cul.jp/event/53568#coin-bank",
+            "quote": "●開催日：12月27日（日）、28日（月）",
+            "checked_at": "2026-11-23",
+            "sha256": "44502eddb2596d463e8bd136aad00351d35dfbb36c79f8c6f6da5e2680772781",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-23にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://shibu-cul.jp/event/53568#coin-bank",
+            "quote": "●推奨年齢：小1～小6（小3以下は保護者同伴）",
+            "checked_at": "2026-11-23",
+            "sha256": "15b6abdde2f50768e302ecfc4d9a5145a6763d4e07bc0e099764790fa02a7c5a",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-23にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://shibu-cul.jp/event/53568#coin-bank",
+            "quote": "●募集期間：12月2日（水）0:00～12月9日（水）23:59＜抽選＞",
+            "checked_at": "2026-11-23",
+            "sha256": "f742431600b1c9f24667ae2b111672d9693fb34f7b99a10a48d286ce0f0efc68",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-23にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-23",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  }
+]

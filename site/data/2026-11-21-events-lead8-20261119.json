@@ -1,0 +1,142 @@
+[
+  {
+    "id": "verified-20261121-itabashi-hasune-programming",
+    "ward": "板橋区",
+    "name": "【蓮根図書館】はじめてのプログラミング",
+    "url": "https://www.city.itabashi.tokyo.jp/kosodate/1000930/etc/1066375.html",
+    "official_url": "https://www.city.itabashi.tokyo.jp/kosodate/1000930/etc/1066375.html",
+    "source": "https://www.city.itabashi.tokyo.jp/kosodate/1000930/etc/1066375.html",
+    "image": "",
+    "period": "11/21(土)",
+    "date_start": "2026-11-21",
+    "date_end": "2026-11-21",
+    "time": "14:00〜15:30",
+    "venue": "蓮根図書館（板橋区）",
+    "price": "無料",
+    "description": "プログラミングソフトで「すいぞくかん」を作る、小学3年生以下向けの体験。申込が必要で、定員10人（申込順）。費用は不要。",
+    "categories": [
+      "体験・ワークショップ",
+      "学び"
+    ],
+    "indoor_outdoor": "屋内",
+    "reservation": {
+      "required": true,
+      "note": "申込必要。10/17午前9時から直接または電話で蓮根図書館へ。定員10人（申込順）。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "小学3年生以下向けに、プログラミングで水族館を作る体験ができる。無料だが申込が必要で、定員は10人。",
+      "axes": {
+        "child_target": {
+          "grade": "A",
+          "reason": "小学3年生以下の子ども・保護者向け"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "プログラミングソフトで作る体験型"
+        },
+        "age_fit": {
+          "grade": "A",
+          "reason": "対象は小学3年生以下と明記"
+        },
+        "stay_flexibility": {
+          "grade": "B",
+          "reason": "1時間30分"
+        },
+        "burden": {
+          "grade": "C",
+          "reason": "申込が必要で、定員は10人"
+        },
+        "cost": {
+          "grade": "A",
+          "reason": "費用不要"
+        },
+        "reservation": {
+          "grade": "C",
+          "reason": "申込が必要（直接または電話、申込順）"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "子どもがプログラミングを体験できる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-19",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "child_program",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "プログラミング体験",
+          "無料"
+        ],
+        "limitations": [
+          "申込が必要",
+          "定員10人（申込順）"
+        ],
+        "grade_comparison": "総合B：子ども向けの体験で無料だが、申込が必要で定員が少ない。",
+        "unsupported_axes": [],
+        "evidence": [
+          {
+            "url": "https://www.city.itabashi.tokyo.jp/kosodate/1000930/etc/1066375.html",
+            "quote": "【蓮根図書館】はじめてのプログラミング",
+            "checked_at": "2026-11-19",
+            "sha256": "c13a18a93d8ed216a3a626b26d828d8c3b0d83f31f2c27892feb996936b951e8",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "板橋区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.itabashi.tokyo.jp/kosodate/1000930/etc/1066375.html",
+            "quote": "イベントカテゴリ：子ども・保護者向け",
+            "checked_at": "2026-11-19",
+            "sha256": "e108aa100a615d1dcf2dce86971b04870287015b3f36efc65a89cbe48faab40f",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "板橋区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.itabashi.tokyo.jp/kosodate/1000930/etc/1066375.html",
+            "quote": "開催日2026年11月21日（土曜日）開催時間午後2時から午後3時30分まで",
+            "checked_at": "2026-11-19",
+            "sha256": "f3155bf68f92246ad28750db2b95a1078351e726804a74940da246b35e690b87",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "板橋区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.itabashi.tokyo.jp/kosodate/1000930/etc/1066375.html",
+            "quote": "開催場所蓮根図書館内容プログラミングソフトですいぞくかん作り",
+            "checked_at": "2026-11-19",
+            "sha256": "56158ab8616fe78960d0027093b680df64b31ffac4b8f41dbfe4b73d77dd076e",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "板橋区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.itabashi.tokyo.jp/kosodate/1000930/etc/1066375.html",
+            "quote": "申込み必要10月17日（土曜日）午前9時から、直接または電話で、蓮根図書館費用不要定員10人（申込順）対象小学3年生以下",
+            "checked_at": "2026-11-19",
+            "sha256": "8466c01339b3095b45fb5272878071e6019b31c03dedb1678226b71449e138bc",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "板橋区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-19",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  }
+]

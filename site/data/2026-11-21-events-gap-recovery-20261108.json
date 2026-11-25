@@ -1,0 +1,634 @@
+[
+  {
+    "id": "gap-20261123-nakano-higashi-bosai",
+    "ward": "中野区",
+    "name": "なかのひがし防災フェア",
+    "url": "https://library.city.tokyo-nakano.lg.jp/kids/event/?id=695",
+    "official_url": "https://library.city.tokyo-nakano.lg.jp/kids/event/?id=695",
+    "source": "https://library.city.tokyo-nakano.lg.jp/kids/event/?id=695",
+    "period": "11/23(月・祝)",
+    "date_start": "2026-11-23",
+    "date_end": "2026-11-23",
+    "time": "13:00〜16:00",
+    "venue": "中野東図書館（駐車場・1階・7階）",
+    "price": null,
+    "description": "ミニ防火衣の試着と消防車展示、消火体験、防災クイズ・スタンプラリー。雨天等で屋外展示変更あり。",
+    "categories": [
+      "防災",
+      "体験",
+      "消防車"
+    ],
+    "family_fit": {
+      "grade": "A",
+      "overall": "A",
+      "rubric_version": "family-fit-v2",
+      "reason": "小さな子の防火衣試着や消火体験、防災クイズで、家族が楽しみながら備えを学べる。 消防車展示は雨天中止で災害出動の可能性あり。全ての体験が必ず実施されるとは案内しない。",
+      "axes": {
+        "child_target": {
+          "grade": "A",
+          "reason": "子ども・親子のための内容を明記。 小さな子の防火衣試着や消火体験、防災クイズで、家族が楽しみながら備えを学べる。"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "小さな子の防火衣試着や消火体験、防災クイズで、家族が楽しみながら備えを学べる。"
+        },
+        "age_fit": {
+          "grade": "A",
+          "reason": "小さな子の防火衣試着や消火体験、防災クイズで、家族が楽しみながら備えを学べる。 消防車展示は雨天中止で災害出動の可能性あり。全ての体験が必ず実施されるとは案内しない。"
+        },
+        "stay_flexibility": {
+          "grade": "A",
+          "reason": "展示・複数の活動や立ち寄る範囲を家族で選びやすい形式。 消防車展示は雨天中止で災害出動の可能性あり。全ての体験が必ず実施されるとは案内しない。"
+        },
+        "burden": {
+          "grade": "B",
+          "reason": "消防車展示は雨天中止で災害出動の可能性あり。全ての体験が必ず実施されるとは案内しない。"
+        },
+        "cost": {
+          "grade": "unknown",
+          "reason": "料金の十分な記載がなく、無料とは判断しない。"
+        },
+        "reservation": {
+          "grade": "A",
+          "reason": "事前申し込み不要、どなたでも参加可能。 消防車展示は雨天中止で災害出動の可能性あり。全ての体験が必ず実施されるとは案内しない。"
+        },
+        "family_value": {
+          "grade": "A",
+          "reason": "小さな子の防火衣試着や消火体験、防災クイズで、家族が楽しみながら備えを学べる。 消防車展示は雨天中止で災害出動の可能性あり。全ての体験が必ず実施されるとは案内しない。"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-14",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "child_program",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "小さな子の防火衣試着や消火体験、防災クイズで、家族が楽しみながら備えを学べる。"
+        ],
+        "limitations": [
+          "消防車展示は雨天中止で災害出動の可能性あり。全ての体験が必ず実施されるとは案内しない。"
+        ],
+        "grade_comparison": "総合A：小さな子の防火衣試着や消火体験、防災クイズで、家族が楽しみながら備えを学べる。 消防車展示は雨天中止で災害出動の可能性あり。全ての体験が必ず実施されるとは案内しない。",
+        "unsupported_axes": [
+          "cost"
+        ],
+        "evidence": [
+          {
+            "url": "https://library.city.tokyo-nakano.lg.jp/kids/event/?id=695",
+            "quote": "書館の体験型防災イベント第3弾！ 大好評につき今年も開催します。 みんなで楽しく防災について考えよう! 【イベント1】 ミニ防火衣着装 ＆ 消防車展示 消防車の乗車体験や、小さいお子様は防火衣を着て写真撮影ができます。 ※消防車展示は雨天中止、災害発生時は出動の可能性があります。 【会場/駐車場】 【イベント2】 消火体験 空気が入った消火器で消火訓練が体験できます。 【会場/1階エレベーターホール】 【イベント3】 防災クイズ ＆ スタンプラリー 防災に関するクイズに挑戦しよう。イベントすべてに参加したらステキな景品をプレゼント！ 【会場/7階】 申込み 事前申込不要。どなたでもご参加いただけます。 問合せ 中野東図書館 電話 03-5937-3559 ログイン LINE",
+            "checked_at": "2026-11-14T16:50:59+09:00",
+            "sha256": "32fa1fa982b7943ef403f9b02c40e45f869f2906d9b264f29c1127e0a6fb0a20"
+          }
+        ]
+      }
+    },
+    "reservation": {
+      "required": false,
+      "note": "事前申し込み不要、どなたでも参加可能。"
+    },
+    "indoor_outdoor": "屋内・屋外",
+    "ai": {
+      "checked_at": "2026-11-08",
+      "confidence": "high",
+      "discovery_query": "2026-11-08 individual official gap-recovery review; preexisting 23-ward crawl evidence"
+    }
+  },
+  {
+    "id": "gap-20261123-nakano-egota-craft",
+    "ward": "中野区",
+    "name": "江古田図書館 乳幼児向け工作会",
+    "url": "https://library.city.tokyo-nakano.lg.jp/kids/event/?id=726",
+    "official_url": "https://library.city.tokyo-nakano.lg.jp/kids/event/?id=726",
+    "source": "https://library.city.tokyo-nakano.lg.jp/kids/event/?id=726",
+    "period": "11/23(月・祝)",
+    "date_start": "2026-11-23",
+    "date_end": "2026-11-23",
+    "time": "10:30〜12:00／14:00〜15:30（年齢別各30分）",
+    "venue": "江古田図書館 2階会議室",
+    "price": null,
+    "description": "0〜2歳はふわもこひつじ、3〜6歳はびよよんパンケーキを制作。各回5組。きょうだいの参加も可（作品は申込回に準拠）。",
+    "categories": [
+      "工作",
+      "親子",
+      "乳幼児"
+    ],
+    "family_fit": {
+      "grade": "A",
+      "overall": "A",
+      "rubric_version": "family-fit-v2",
+      "reason": "0〜2歳・3〜6歳に分けた30分の工作で、乳幼児と家族・きょうだいが一緒に作れる。 各回5組の申込制。きょうだいの作品は参加する回と同じ内容で、年齢ごとの作品を希望する場合は別々の申込が必要。",
+      "axes": {
+        "child_target": {
+          "grade": "A",
+          "reason": "子ども・親子のための内容を明記。 0〜2歳・3〜6歳に分けた30分の工作で、乳幼児と家族・きょうだいが一緒に作れる。"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "0〜2歳・3〜6歳に分けた30分の工作で、乳幼児と家族・きょうだいが一緒に作れる。"
+        },
+        "age_fit": {
+          "grade": "A",
+          "reason": "0〜2歳・3〜6歳に分けた30分の工作で、乳幼児と家族・きょうだいが一緒に作れる。 各回5組の申込制。きょうだいの作品は参加する回と同じ内容で、年齢ごとの作品を希望する場合は別々の申込が必要。"
+        },
+        "stay_flexibility": {
+          "grade": "B",
+          "reason": "実施時刻・順路や時間枠に合わせる参加形式。予約制だけで途中退出不可とは判断しない。 各回5組の申込制。きょうだいの作品は参加する回と同じ内容で、年齢ごとの作品を希望する場合は別々の申込が必要。"
+        },
+        "burden": {
+          "grade": "B",
+          "reason": "各回5組の申込制。きょうだいの作品は参加する回と同じ内容で、年齢ごとの作品を希望する場合は別々の申込が必要。"
+        },
+        "cost": {
+          "grade": "unknown",
+          "reason": "料金の十分な記載がなく、無料とは判断しない。"
+        },
+        "reservation": {
+          "grade": "B",
+          "reason": "11/7より江古田図書館窓口・電話で受付。各回5組、空きは施設へ確認。 各回5組の申込制。きょうだいの作品は参加する回と同じ内容で、年齢ごとの作品を希望する場合は別々の申込が必要。"
+        },
+        "family_value": {
+          "grade": "A",
+          "reason": "0〜2歳・3〜6歳に分けた30分の工作で、乳幼児と家族・きょうだいが一緒に作れる。 各回5組の申込制。きょうだいの作品は参加する回と同じ内容で、年齢ごとの作品を希望する場合は別々の申込が必要。"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-14",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "child_program",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "0〜2歳・3〜6歳に分けた30分の工作で、乳幼児と家族・きょうだいが一緒に作れる。"
+        ],
+        "limitations": [
+          "各回5組の申込制。きょうだいの作品は参加する回と同じ内容で、年齢ごとの作品を希望する場合は別々の申込が必要。"
+        ],
+        "grade_comparison": "総合A：0〜2歳・3〜6歳に分けた30分の工作で、乳幼児と家族・きょうだいが一緒に作れる。 各回5組の申込制。きょうだいの作品は参加する回と同じ内容で、年齢ごとの作品を希望する場合は別々の申込が必要。",
+        "unsupported_axes": [
+          "cost"
+        ],
+        "evidence": [
+          {
+            "url": "https://library.city.tokyo-nakano.lg.jp/kids/event/?id=726",
+            "quote": "申し込みをお願いいたします。) 定員 各回5組。1家族を1組とカウントいたします。 詳細内容 ご好評につき、今年も開催！乳幼児親子向けの工作会です。 ご家族そろってのご参加大歓迎！また、ごきょうだいのお子さまも、 付き添いだけでなく同じ工作ができる イベントとなっております。 ぜひ一家団らんの場として、江古田図書館をご利用ください！ 【0から2才クラス】 の工作は 「ふわもこひつじ」 です。 フラワー紙をちぎって丸め、羊型の画用紙にペタペタと貼り付けて作ります。フラワー紙の感触を楽しめるほか、見た目もかわいいおもちゃです。 【3から6才クラス】 の工作は 「びよよんパンケーキ」 です。 穴の開いた丸型の画用紙を繋ぎ合わせて作ります。一番上に乗せたバターの部分をひっぱると、パンケーキが縦に伸び、形状の変化を楽しめるおもちゃです。 【ご注意ください】 対象年齢が 【0から2才】 と 【3から6才】 のクラスに分かれている工作会です。 それぞれ 午前の部 と 午後の部 があります。お申し込みやご参加の際は、 対象と時間にお間違いがないか 、よくご確認くださいますよう、お願いいたします。 また、ごきょうだいの工作は、 年齢にかかわらず、参加される回の内容 に準じます。 （0から2才クラスに参加:ふわもこひつじ 3才から6才クラスに参加:びよよんパンケーキ） 対象年齢に合わせた工作内容をご希望の場合は、お子さま それぞれにお申し込み をお願いいたします。 申込み 2026年11月7日(土曜日)9時から受付開始。江古田図書館カウンターまたはお電話にて承ります。 問合せ 中野区立江古田図書館 03-3319-9301 ログイン LINE",
+            "checked_at": "2026-11-14T16:51:01+09:00",
+            "sha256": "d63f5023eb89393a260b0acd31234d74c50237250e4441596b2bd07dab7be1ac"
+          }
+        ]
+      }
+    },
+    "reservation": {
+      "required": true,
+      "note": "11/7より江古田図書館窓口・電話で受付。各回5組、空きは施設へ確認。"
+    },
+    "indoor_outdoor": "屋内",
+    "ai": {
+      "checked_at": "2026-11-08",
+      "confidence": "high",
+      "discovery_query": "2026-11-08 individual official gap-recovery review; preexisting 23-ward crawl evidence"
+    }
+  },
+  {
+    "id": "gap-20261123-edogawa-kasai-super-fes",
+    "ward": "江戸川区",
+    "name": "KASAI Super Fes（共育プラザ葛西館まつり）",
+    "url": "https://www.city.edogawa.tokyo.jp/event/super_fes.html",
+    "official_url": "https://www.city.edogawa.tokyo.jp/event/super_fes.html",
+    "source": "https://www.city.edogawa.tokyo.jp/event/super_fes.html",
+    "period": "11/23(月・祝)",
+    "date_start": "2026-11-23",
+    "date_end": "2026-11-23",
+    "time": "10:30〜15:00",
+    "venue": "共育プラザ葛西（宇喜田町175）",
+    "price": "参加無料（一部模擬店等有料）",
+    "description": "ゲームコーナー、キッチンカー、ポニー体験などが楽しめる館まつり。",
+    "categories": [
+      "祭り",
+      "ポニー",
+      "ゲーム"
+    ],
+    "family_fit": {
+      "grade": "A",
+      "overall": "A",
+      "rubric_version": "family-fit-v2",
+      "reason": "ゲームやポニーなど子どもが参加できる遊びを選び、共育プラザで家族が一緒に楽しめる。 一部模擬店等は有料・現金のみ。ポニーの対象や待ち時間などは各受付で確認が必要。",
+      "axes": {
+        "child_target": {
+          "grade": "A",
+          "reason": "子ども・親子のための内容を明記。 ゲームやポニーなど子どもが参加できる遊びを選び、共育プラザで家族が一緒に楽しめる。"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "ゲームやポニーなど子どもが参加できる遊びを選び、共育プラザで家族が一緒に楽しめる。"
+        },
+        "age_fit": {
+          "grade": "A",
+          "reason": "ゲームやポニーなど子どもが参加できる遊びを選び、共育プラザで家族が一緒に楽しめる。 一部模擬店等は有料・現金のみ。ポニーの対象や待ち時間などは各受付で確認が必要。"
+        },
+        "stay_flexibility": {
+          "grade": "A",
+          "reason": "展示・複数の活動や立ち寄る範囲を家族で選びやすい形式。 一部模擬店等は有料・現金のみ。ポニーの対象や待ち時間などは各受付で確認が必要。"
+        },
+        "burden": {
+          "grade": "B",
+          "reason": "一部模擬店等は有料・現金のみ。ポニーの対象や待ち時間などは各受付で確認が必要。"
+        },
+        "cost": {
+          "grade": "B",
+          "reason": "基本無料、一部模擬店は有料で現金のみ。"
+        },
+        "reservation": {
+          "grade": "A",
+          "reason": "申し込み不要。 一部模擬店等は有料・現金のみ。ポニーの対象や待ち時間などは各受付で確認が必要。"
+        },
+        "family_value": {
+          "grade": "A",
+          "reason": "ゲームやポニーなど子どもが参加できる遊びを選び、共育プラザで家族が一緒に楽しめる。 一部模擬店等は有料・現金のみ。ポニーの対象や待ち時間などは各受付で確認が必要。"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-14",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "child_program",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "ゲームやポニーなど子どもが参加できる遊びを選び、共育プラザで家族が一緒に楽しめる。"
+        ],
+        "limitations": [
+          "一部模擬店等は有料・現金のみ。ポニーの対象や待ち時間などは各受付で確認が必要。"
+        ],
+        "grade_comparison": "総合A：ゲームやポニーなど子どもが参加できる遊びを選び、共育プラザで家族が一緒に楽しめる。 一部模擬店等は有料・現金のみ。ポニーの対象や待ち時間などは各受付で確認が必要。",
+        "unsupported_axes": [],
+        "evidence": [
+          {
+            "url": "https://www.city.edogawa.tokyo.jp/event/super_fes.html",
+            "quote": " Fes～この祭、みんなでいっしょに楽しすぎて「滅」～（葛西） 年に1度の共育プラザ葛西の館まつり♪ 「秋」をテーマに、さまざまなゲームコーナーやキッチンカー、 ポニー体験など【楽しい】＆【おいしい】が盛りだくさんなSuperFesです！ 開催日時 2026年11月23日（月曜日）10時30分から15時00分 申し込み 不要 場所 共育プラザ葛西 住所 江戸川区宇喜田町175番地 対象 どなたでも参加可 費用 無料 一部、模擬店等は有料 現金のみ 問合せ 共育プラザ葛西 電話:03-3688-8611 主催 共育プラザ葛西 イベント情報をiPhone・iPad端末のカレンダーに取り込めます。 カレンダーへの取り込みについて説明を読む iCalendar取込み iPhone、iPadなど このページに関するお問い合わせ このページは 文化共育部健全育成課 が担当しています。 トップページ > 江戸川区イベントカレンダー > KASAI Super Fes～この祭、みんなでいっしょに楽しすぎて「滅」～（葛西）",
+            "checked_at": "2026-11-14T16:51:47+09:00",
+            "sha256": "a1d5b5181cc38d662989db749bd58d4eb6e80a579970c90c03d86c465cf905fa"
+          }
+        ]
+      }
+    },
+    "reservation": {
+      "required": false,
+      "note": "申し込み不要。"
+    },
+    "indoor_outdoor": "屋内・屋外",
+    "ai": {
+      "checked_at": "2026-11-08",
+      "confidence": "high",
+      "discovery_query": "2026-11-08 individual official gap-recovery review; preexisting 23-ward crawl evidence"
+    },
+    "image": "https://www.city.edogawa.tokyo.jp/images/74965/1.jpg"
+  },
+  {
+    "id": "gap-20261123-edogawa-walking",
+    "ward": "江戸川区",
+    "name": "ウオーキングフェスタえどがわ2026",
+    "url": "https://www.city.edogawa.tokyo.jp/event/261123walking.html",
+    "official_url": "https://www.city.edogawa.tokyo.jp/event/261123walking.html",
+    "source": "https://www.city.edogawa.tokyo.jp/event/261123walking.html",
+    "period": "11/23(月・祝)",
+    "date_start": "2026-11-23",
+    "date_end": "2026-11-23",
+    "time": "9:00式典／9:25スタート",
+    "venue": "水辺のスポーツガーデン（東篠崎2丁目3番先）",
+    "price": "無料",
+    "description": "江戸川河川敷を歩く5km・10kmコース。会場に関連企画やブースもあり、小雨決行・荒天中止。体力に合わせて参加を。",
+    "categories": [
+      "ウォーキング",
+      "スポーツ",
+      "屋外"
+    ],
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "河川敷の景色を見ながら親子で歩き、運動と地域の交流を共有できる無料企画。 5km・10kmと長い距離で、幼い子の体力には負担になり得る。途中離脱や短縮コースの案内は未確認。",
+      "axes": {
+        "child_target": {
+          "grade": "B",
+          "reason": "一般の対象・年齢上の参加資格・子どもの出展と、来場する子ども専用の企画を区別する。 河川敷の景色を見ながら親子で歩き、運動と地域の交流を共有できる無料企画。"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "河川敷の景色を見ながら親子で歩き、運動と地域の交流を共有できる無料企画。"
+        },
+        "age_fit": {
+          "grade": "B",
+          "reason": "河川敷の景色を見ながら親子で歩き、運動と地域の交流を共有できる無料企画。 5km・10kmと長い距離で、幼い子の体力には負担になり得る。途中離脱や短縮コースの案内は未確認。"
+        },
+        "stay_flexibility": {
+          "grade": "B",
+          "reason": "実施時刻・順路や時間枠に合わせる参加形式。予約制だけで途中退出不可とは判断しない。 5km・10kmと長い距離で、幼い子の体力には負担になり得る。途中離脱や短縮コースの案内は未確認。"
+        },
+        "burden": {
+          "grade": "C",
+          "reason": "5km・10kmと長い距離で、幼い子の体力には負担になり得る。途中離脱や短縮コースの案内は未確認。"
+        },
+        "cost": {
+          "grade": "A",
+          "reason": "無料"
+        },
+        "reservation": {
+          "grade": "A",
+          "reason": "申し込み不要。5km・10kmは家族の体力を考慮。 5km・10kmと長い距離で、幼い子の体力には負担になり得る。途中離脱や短縮コースの案内は未確認。"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "河川敷の景色を見ながら親子で歩き、運動と地域の交流を共有できる無料企画。 5km・10kmと長い距離で、幼い子の体力には負担になり得る。途中離脱や短縮コースの案内は未確認。"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-14",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "all_ages",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "河川敷の景色を見ながら親子で歩き、運動と地域の交流を共有できる無料企画。"
+        ],
+        "limitations": [
+          "5km・10kmと長い距離で、幼い子の体力には負担になり得る。途中離脱や短縮コースの案内は未確認。"
+        ],
+        "grade_comparison": "総合B：河川敷の景色を見ながら親子で歩き、運動と地域の交流を共有できる無料企画。 5km・10kmと長い距離で、幼い子の体力には負担になり得る。途中離脱や短縮コースの案内は未確認。",
+        "unsupported_axes": [],
+        "evidence": [
+          {
+            "url": "https://www.city.edogawa.tokyo.jp/event/261123walking.html",
+            "quote": "要 場所 水辺のスポーツガーデン（スタート＆ゴール） 住所 江戸川区東篠崎2丁目3番先 内容 江戸川河川敷ウオーキング（5キロメートル・10キロメートルの2コース） 会場では企画やブースもあります。詳しくは下記のホームページをご覧ください。 ホームページ ウオーキングフェスタえどがわ 対象 どなたでも参加できます 費用 無料 問合せ スポーツ係 電話：03-5662-1636 主催 主催：江戸川区ウオーキング協会 運営：ウオーキングフェスタえどがわ2026実行委員会 後援 江戸川区 協賛 大塚製薬株式会社 イベント情報をiPhone・iPad端末のカレンダーに取り込めます。 カレンダーへの取り込みについて説明を読む iCalendar取込み iPhone、iPadなど このページに関するお問い合わせ このページは 文化共育部スポーツ振興課 が担当しています。 トップページ > 江戸川区イベントカレンダー > ウオーキングフェスタえどがわ2026",
+            "checked_at": "2026-11-14T16:51:44+09:00",
+            "sha256": "0855fc116a1d89eac062b88f51b6cc67225c94493d944c6cb688db2ca5caa020"
+          }
+        ]
+      }
+    },
+    "reservation": {
+      "required": false,
+      "note": "申し込み不要。5km・10kmは家族の体力を考慮。"
+    },
+    "indoor_outdoor": "屋外",
+    "ai": {
+      "checked_at": "2026-11-08",
+      "confidence": "high",
+      "discovery_query": "2026-11-08 individual official gap-recovery review; preexisting 23-ward crawl evidence"
+    },
+    "image": "https://www.city.edogawa.tokyo.jp/images/49504/uokin.jpg"
+  },
+  {
+    "id": "gap-20261123-toshima-ikebiz-festa",
+    "ward": "豊島区",
+    "name": "イケビズフェスタ2026",
+    "url": "https://www.toshima-plaza.jp/news/2026/09/2026.html",
+    "official_url": "https://www.toshima-plaza.jp/news/2026/09/2026.html",
+    "source": "https://www.toshima-plaza.jp/news/2026/09/2026.html",
+    "period": "11/23(月・祝)",
+    "date_start": "2026-11-23",
+    "date_end": "2026-11-23",
+    "time": "10:00〜17:00",
+    "venue": "としま産業振興プラザ IKE・Biz（西池袋2-37-4）",
+    "price": "無料企画あり／有料企画あり",
+    "description": "工作、ボルダリング、食品サンプル作りや缶バッジなどの企画。随時参加・当日整理券・事前予約制のプログラムが混在。",
+    "categories": [
+      "工作",
+      "体験",
+      "フェス"
+    ],
+    "family_fit": {
+      "grade": "A",
+      "overall": "A",
+      "rubric_version": "family-fit-v2",
+      "reason": "食品サンプルや石けん作り・ボルダリングなど、子どもが多様な文化と制作を試せる。 無料・有料、事前予約・当日整理券が混在。各体験の年齢と空き、材料費を個別に確認する必要がある。",
+      "axes": {
+        "child_target": {
+          "grade": "A",
+          "reason": "子ども・親子のための内容を明記。 食品サンプルや石けん作り・ボルダリングなど、子どもが多様な文化と制作を試せる。"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "食品サンプルや石けん作り・ボルダリングなど、子どもが多様な文化と制作を試せる。"
+        },
+        "age_fit": {
+          "grade": "A",
+          "reason": "食品サンプルや石けん作り・ボルダリングなど、子どもが多様な文化と制作を試せる。 無料・有料、事前予約・当日整理券が混在。各体験の年齢と空き、材料費を個別に確認する必要がある。"
+        },
+        "stay_flexibility": {
+          "grade": "A",
+          "reason": "展示・複数の活動や立ち寄る範囲を家族で選びやすい形式。 無料・有料、事前予約・当日整理券が混在。各体験の年齢と空き、材料費を個別に確認する必要がある。"
+        },
+        "burden": {
+          "grade": "B",
+          "reason": "無料・有料、事前予約・当日整理券が混在。各体験の年齢と空き、材料費を個別に確認する必要がある。"
+        },
+        "cost": {
+          "grade": "B",
+          "reason": "無料企画と有料の制作体験が混在。選ぶ内容ごとに材料費を確認。"
+        },
+        "reservation": {
+          "grade": "unknown",
+          "reason": "プログラムによって事前予約や当日整理券が必要。 無料・有料、事前予約・当日整理券が混在。各体験の年齢と空き、材料費を個別に確認する必要がある。"
+        },
+        "family_value": {
+          "grade": "A",
+          "reason": "食品サンプルや石けん作り・ボルダリングなど、子どもが多様な文化と制作を試せる。 無料・有料、事前予約・当日整理券が混在。各体験の年齢と空き、材料費を個別に確認する必要がある。"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-14",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "child_program",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "食品サンプルや石けん作り・ボルダリングなど、子どもが多様な文化と制作を試せる。"
+        ],
+        "limitations": [
+          "無料・有料、事前予約・当日整理券が混在。各体験の年齢と空き、材料費を個別に確認する必要がある。"
+        ],
+        "grade_comparison": "総合A：食品サンプルや石けん作り・ボルダリングなど、子どもが多様な文化と制作を試せる。 無料・有料、事前予約・当日整理券が混在。各体験の年齢と空き、材料費を個別に確認する必要がある。",
+        "unsupported_axes": [
+          "reservation"
+        ],
+        "evidence": [
+          {
+            "url": "https://www.toshima-plaza.jp/news/2026/09/2026.html",
+            "quote": "催する最大規模のイベントです。 テーマは “未来に実れ、文化のたね！” 文化を通して町がつながり、人がつながる。 そして未来に活躍されるお子様に多様な文化を知る機会を提供したいという思いを込めています。 今年は豊島区と文化交流都市協定を締結した神奈川県足柄下郡湯河原町の協力を得て、6Fにて特産品の販売や観光案内、もの作り体験会を開催します。その他、イケビズ全貸室を使用し、世代を問わず楽しめる多彩なプログラムをご用意しました。 予約不要で参加できる企画も多数ございます。 ぜひ皆様お誘いあわせのうえ、イケビズフェスタへお越しください♪ ◆日時：2026年11月23日（月・祝）10:00～17:00 ◆会場：としま産業振興プラザ IKE・Biz 詳細はチラシをご確認下さい。↓クリックでPDFが開きます。 以下の催事は、事前申込みが必要です。 ◆有料催事 ●アロマ石けん作り（①～④８個、⑤７個） ●気分はパティシエ♪スイーツ食品サンプル作り（①10:20～11:30、②11:50～13:00） ●はちみつのバスボム作り（各回10個） ●柑橘シロップを使ったラッシー付き！オリジナルオープンサンド作ろう！（①10:20～11:00、②11:20～12:00、③12:20～13:00） ●江戸提灯文字入れ体験 オリジナル提灯を作ろう（各回５個） ◆無料催事 ●ボルダリング体験会（トークショー付き）（①10:20～11:20、②12:00～13:00） ◆事前申込み方法（WEB予約のみ） 10/3（土）10:00より先着順にて受付 以下の催事は、当日申込みを受け付ける催事です。 ◆有料催事 ●アロマ石けん作り（各回２個） ●気分はパティシエ♪スイーツ食品サンプル作り（③14:00～15:10、④15:30～16:40） ●柑橘シロップを使ったラッシー付き！オリジナルオープンサンド作ろう！（④14:00～14:40、⑤15:00～15:40、⑥16:00～16:40） ●江戸提灯文字入れ体験 オリジナル提灯を作ろう（各回１個） ◆無料催事 ●ボルダリング体験会（トークショー無し）（③14:00～14:50、④15:00～15:50） ◆当日申込み方法 ①6階エレベーターホール〔総合受付〕にて整理券を配布します。（先着順） ②各催事10分前より会場にて受付（有料催事はお支払）をしてください。 ◆整理券配布時間 10:10～ アロマ石けん作り①② オリジナル提灯を作ろう①② 13:00～ アロマ石けん作り③④⑤ スイーツ食品サンプル③④ オリジナルオープンサンド作り④⑤⑥ オリジナル提灯を作ろう③④ ボルダリング体験会③④ 以下の催事は、随時会場へお越しください。 ●ゆたぽんファイブの可愛いペーパーバッグ作り（参加無料／材料なくなり次第終了） ●ゆたぽんファイブの塗り絵缶バッジ・マグネット作り（参加無料／材料なくなり次第終了） ●チョークアートを体験しよう（オーナメント500円・フレーム付き作品1",
+            "checked_at": "2026-11-14T16:52:57+09:00",
+            "sha256": "82c323a5b7e390c72ce1b217b13d29b2598df34916064d802620bb201788013e"
+          }
+        ]
+      }
+    },
+    "reservation": {
+      "required": null,
+      "note": "プログラムによって事前予約や当日整理券が必要。"
+    },
+    "indoor_outdoor": "屋内",
+    "ai": {
+      "checked_at": "2026-11-08",
+      "confidence": "high",
+      "discovery_query": "2026-11-08 individual official gap-recovery review; preexisting 23-ward crawl evidence"
+    }
+  },
+  {
+    "id": "gap-20261123-shinjuku-mochitsuki",
+    "ward": "新宿区",
+    "name": "上落合東部町会 餅つき大会",
+    "url": "https://www.city.shinjuku.lg.jp/kusei/kashiwagi01_000001_00042.html",
+    "official_url": "https://www.city.shinjuku.lg.jp/kusei/kashiwagi01_000001_00042.html",
+    "source": "https://www.city.shinjuku.lg.jp/kusei/kashiwagi01_000001_00042.html",
+    "period": "11/23(月・祝)",
+    "date_start": "2026-11-23",
+    "date_end": "2026-11-23",
+    "time": "10:00〜11:30",
+    "venue": "特別養護老人ホーム もみの樹園",
+    "price": null,
+    "description": "上落合東部町会が開催する地域の餅つき大会。対象・参加条件は主催者へ確認。",
+    "categories": [
+      "祭り",
+      "地域",
+      "餅つき"
+    ],
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "地域の餅つきを見て、家族で食文化や世代間の交流に触れられる。 子どもが杵を持つ体験・対象・料金は公式概要にない。食べる場合の安全や参加条件は主催者案内を確認。",
+      "axes": {
+        "child_target": {
+          "grade": "unknown",
+          "reason": "一般の対象・年齢上の参加資格・子どもの出展と、来場する子ども専用の企画を区別する。 地域の餅つきを見て、家族で食文化や世代間の交流に触れられる。"
+        },
+        "interactivity": {
+          "grade": "B",
+          "reason": "地域の餅つきを見て、家族で食文化や世代間の交流に触れられる。"
+        },
+        "age_fit": {
+          "grade": "unknown",
+          "reason": "地域の餅つきを見て、家族で食文化や世代間の交流に触れられる。 子どもが杵を持つ体験・対象・料金は公式概要にない。食べる場合の安全や参加条件は主催者案内を確認。"
+        },
+        "stay_flexibility": {
+          "grade": "A",
+          "reason": "展示・複数の活動や立ち寄る範囲を家族で選びやすい形式。 子どもが杵を持つ体験・対象・料金は公式概要にない。食べる場合の安全や参加条件は主催者案内を確認。"
+        },
+        "burden": {
+          "grade": "unknown",
+          "reason": "混雑・待ち時間・休憩や安全設備についての具体的根拠はなく、未記載を低負担とは判断しない。"
+        },
+        "cost": {
+          "grade": "unknown",
+          "reason": "料金の十分な記載がなく、無料とは判断しない。"
+        },
+        "reservation": {
+          "grade": "unknown",
+          "reason": "対象・参加条件・料金は公式掲載に記載がないため要確認。 子どもが杵を持つ体験・対象・料金は公式概要にない。食べる場合の安全や参加条件は主催者案内を確認。"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "地域の餅つきを見て、家族で食文化や世代間の交流に触れられる。 子どもが杵を持つ体験・対象・料金は公式概要にない。食べる場合の安全や参加条件は主催者案内を確認。"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-14",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "unspecified",
+        "child_activity_confirmed": false,
+        "strengths": [
+          "地域の餅つきを見て、家族で食文化や世代間の交流に触れられる。"
+        ],
+        "limitations": [
+          "子どもが杵を持つ体験・対象・料金は公式概要にない。食べる場合の安全や参加条件は主催者案内を確認。"
+        ],
+        "grade_comparison": "総合B：地域の餅つきを見て、家族で食文化や世代間の交流に触れられる。 子どもが杵を持つ体験・対象・料金は公式概要にない。食べる場合の安全や参加条件は主催者案内を確認。",
+        "unsupported_axes": [
+          "child_target",
+          "age_fit",
+          "burden",
+          "cost",
+          "reservation"
+        ],
+        "evidence": [
+          {
+            "url": "https://www.city.shinjuku.lg.jp/kusei/kashiwagi01_000001_00042.html",
+            "quote": "ーム もみの樹園 内容 餅つき大会 主催 上落合東部町会 問合せ 落合第一特別出張所 03-3951-9196 チラシ 上落合東部町会餅つき大会（239KB） 【落一】東日本大震災応援企画「ホタテ焼き＆カキフライ」 イベント情報 日時 2026年11月23日（月・祝）11時から14時 場所 富士薬局向かい空き地 （下落合3丁目目白通り沿い） 内容 ホタテ焼き等の販売 主催 下落合東町会 備考 雨天決行 問合せ 落合第一特別出張所 03-3951-9196 【柏木】新宿かしわまつり イベント情報 日時 2026年11月29日（日）10時30分から14時30分 場所 柏木地域センター 内容 地域センターまつり 主催 柏木地域センター管理運営委員会 【角筈】キャンドルナイト2026 イベント情報 日時 2026年11月28日（土）、29日（日） 16時から19時30分 場所 新宿中央公園 ファンモアタイムひろば 内容 参加型ナイトタイムイベント 主催 新宿中央公園パークアップ共同体 定員 1,500名 備考 特設HP： https://shinjukuchuo-park.jp/?p=28285 新宿区×よしもと ワクワク！スポーツ体験プロジェクト 車いすバスケットボール教室 イベント情報 日時 2026年11月23日（月・祝）13時から14時45分 場所 新宿スポーツセンター 大体育室 内容 パラリンピアンを講師とした車いすバスケットボール教室 定員 25組50名 主催 新宿区生涯学習スポーツ課 備考 11月2日（月）15時まで 電話またはインターネットにより申込 窓口：(株)よしもとスポーツ (株)よしもとスポーツ特設HP https://wakuwakusports.yoshimoto.co.jp 問合せ ワクワク！スポーツ体験プロジェクト事務局 03-3209-8197 チラシ 新宿区×よしもと ワクワク！スポーツ体験プロジェクト 車いすバスケットボール教室（481KB） ゴールボール体験会 イベント情報 日時 2026年11月29日（日）13時30分から16時 場所 新宿スポーツセンター 大体育室 内容 ゴールボール選手による体験イベント 主催 新宿区生涯学習スポーツ課 定員 30名程度 備考 11月20日（金）17時まで 電話またはインターネットにより申込 窓口：生涯学習スポーツ課 問合せ 生涯学習スポーツ課 03-5273-4358 チラシ ゴールボール体験会（212KB） 新宿ゆにスポ！ イベント情報 日時 2026年11月26日（木）13時30分から14時30分 場所 新宿コズミックスポーツセンター 小体育室 内容 障害者の方を主な対象とした運動教室。 オンライン参加も可。 種目：ダンス 主催 新宿区生涯学習スポーツ課 定員 30名程度（オンライン参加は定員なし） 申込 団体（2名以上）の方は申込必要 開始時間までに電話またはインターネットから申し込み https:",
+            "checked_at": "2026-11-14T16:52:16+09:00",
+            "sha256": "a913ab94b68eccc266eefc0783f4e9792bdc6e0f5a56f3124a3ab6eb80234ecd"
+          }
+        ]
+      }
+    },
+    "reservation": {
+      "required": null,
+      "note": "対象・参加条件・料金は公式掲載に記載がないため要確認。"
+    },
+    "indoor_outdoor": null,
+    "ai": {
+      "checked_at": "2026-11-08",
+      "confidence": "high",
+      "discovery_query": "2026-11-08 individual official gap-recovery review; preexisting 23-ward crawl evidence"
+    }
+  }
+]

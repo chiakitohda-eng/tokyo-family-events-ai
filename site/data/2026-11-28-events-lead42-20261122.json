@@ -1,0 +1,128 @@
+[
+  {
+    "id": "verified-20261128-setagaya-futakotamagawa-rise-green-sky-festa-2026",
+    "ward": "世田谷区",
+    "name": "ソラシドエア presents グリーンスカイフェスタ2026",
+    "url": "https://www.rise.sc/eventnews/detail/?cd=001533",
+    "official_url": "https://www.rise.sc/eventnews/detail/?cd=001533",
+    "source": "https://www.rise.sc/eventnews/detail/?cd=001533",
+    "image": "https://www.rise.sc/uploads/images/resized/0x0/rise/000008/000008/3f9f9601.png",
+    "period": "11/28(土)・11/29(日)",
+    "date_start": "2026-11-28",
+    "date_end": "2026-11-29",
+    "time": "11/28 11:00〜18:00／11/29 10:00〜16:00",
+    "venue": "ガレリア（二子玉川ライズ、世田谷区玉川2-21-1）",
+    "price": "公式ページに参加費の記載なし（要確認）",
+    "description": "九州・沖縄の観光PRブースと特産品販売、お子さま向けの制服試着会、くまモンなどのステージ、スタンプラリー、ガラポン抽選会がある。",
+    "categories": [
+      "まつり・イベント",
+      "体験・ワークショップ"
+    ],
+    "indoor_outdoor": "屋外",
+    "reservation": {
+      "required": false,
+      "note": "申込・予約の記載なし。"
+    },
+    "family_fit": {
+      "grade": "A",
+      "overall": "A",
+      "rubric_version": "family-fit-v2",
+      "reason": "二子玉川ライズのガレリアで11/28・29に開く、九州・沖縄のフェスタ。お子さま向けの制服試着会、くまモンのステージ、スタンプラリーがある。",
+      "axes": {
+        "child_target": {
+          "grade": "A",
+          "reason": "子ども・家族向けの内容"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "体験や参加ができる"
+        },
+        "age_fit": {
+          "grade": "B",
+          "reason": "年齢の限定はない"
+        },
+        "stay_flexibility": {
+          "grade": "A",
+          "reason": "期間が長く、好きな時間に行ける"
+        },
+        "burden": {
+          "grade": "B",
+          "reason": "屋外のため、寒さと混雑に注意"
+        },
+        "cost": {
+          "grade": "unknown",
+          "reason": "公式ページに記載がない"
+        },
+        "reservation": {
+          "grade": "A",
+          "reason": "申込・予約の記載なし。当日行ける"
+        },
+        "family_value": {
+          "grade": "A",
+          "reason": "子どもが楽しめる体験がある"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-22",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "child_program",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "お子さま向けの制服試着会とスタンプラリーがある",
+          "くまモンなどのステージが見られる"
+        ],
+        "limitations": [
+          "参加費が公式ページに記載がない",
+          "2日間の開催で混雑する可能性がある"
+        ],
+        "grade_comparison": "総合A：子ども向けの体験とステージがそろう週末イベント。参加費は要確認。",
+        "unsupported_axes": [
+          "cost"
+        ],
+        "evidence": [
+          {
+            "url": "https://www.rise.sc/eventnews/detail/?cd=001533",
+            "quote": "お子さま限定の制服着用体験など、",
+            "checked_at": "2026-11-22",
+            "sha256": "9139aa34885a28a680202147a806e738ea034a542fc06605d18b9a90417e4cd0",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-22にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.rise.sc/eventnews/detail/?cd=001533",
+            "quote": "2026年11月28日（土）11:00～18:00",
+            "checked_at": "2026-11-22",
+            "sha256": "605b1d7ef66a75838872d2828cbaaf5a89758c74efd2b09329bd20c138966774",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-22にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.rise.sc/eventnews/detail/?cd=001533",
+            "quote": "2026年11月29日（日）10:00～16:00",
+            "checked_at": "2026-11-22",
+            "sha256": "45b61f0fae7a6043ee48040130f19a2eba2a5c26b247def15b31fc7222c8e3da",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-22にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-22",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  }
+]

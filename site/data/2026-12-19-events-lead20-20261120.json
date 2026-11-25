@@ -1,0 +1,898 @@
+[
+  {
+    "id": "verified-20261219-shinjuku-ttm-reindeer",
+    "ward": "新宿区",
+    "name": "TOY工房「木のゆらゆらトナカイ」（東京おもちゃ美術館）",
+    "url": "https://art-play.or.jp/ttm/news/news-9052/",
+    "official_url": "https://art-play.or.jp/ttm/news/news-9052/",
+    "source": "https://art-play.or.jp/ttm/news/news-9052/",
+    "image": "",
+    "period": "12/19(土)",
+    "date_start": "2026-12-19",
+    "date_end": "2026-12-19",
+    "time": "10:00〜15:45（30分ごと6回）",
+    "venue": "東京おもちゃ美術館（新宿区四谷4-20 四谷ひろば内）",
+    "price": "1,500円",
+    "description": "ゆらゆら揺れる手のひらサイズの木のトナカイを作る工作。ソリは子どもも絵付けできる。各回定員4名で、ウェブからの事前予約制。",
+    "categories": [
+      "工作",
+      "クリスマス",
+      "体験・ワークショップ"
+    ],
+    "indoor_outdoor": "屋内",
+    "reservation": {
+      "required": true,
+      "note": "ウェブからの事前予約制。各回定員4名。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "ゆらゆら揺れる木のトナカイを作り、ソリには子どもも絵付けできる。親子で作れるが、各回定員4名でウェブ事前予約制・参加費1,500円。",
+      "axes": {
+        "child_target": {
+          "grade": "B",
+          "reason": "ソリは子どもも絵付けでき、親子で作る案内がある"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "自分で作って絵付けする体験"
+        },
+        "age_fit": {
+          "grade": "unknown",
+          "reason": "対象年齢の目安は小学4年生以上の電動工具操作の記載のみ"
+        },
+        "stay_flexibility": {
+          "grade": "B",
+          "reason": "30分ごとの回で、各回の定員が少ない"
+        },
+        "burden": {
+          "grade": "B",
+          "reason": "定員が各回4名で、事前予約が必要"
+        },
+        "cost": {
+          "grade": "B",
+          "reason": "参加費1,500円"
+        },
+        "reservation": {
+          "grade": "B",
+          "reason": "ウェブからの事前予約制"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "飾って遊べるおもちゃを親子で作れる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-20",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "child_program",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "親子で作って飾れる",
+          "回数が多く時間を選べる"
+        ],
+        "limitations": [
+          "各回定員4名で少ない",
+          "ウェブ事前予約が必要"
+        ],
+        "grade_comparison": "総合B：親子で作れるが、各回の定員が少なく、ウェブ予約と参加費が必要。",
+        "unsupported_axes": [
+          "age_fit"
+        ],
+        "evidence": [
+          {
+            "url": "https://art-play.or.jp/ttm/news/news-9052/",
+            "quote": "TOY工房『木のおもちゃを作ってみよう！』木のゆらゆらトナカイ",
+            "checked_at": "2026-11-20",
+            "sha256": "1223210c2db34576c25bd6854404268374a5905fcd4dea5f89d4f8c60d65ef1d",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://art-play.or.jp/ttm/news/news-9052/",
+            "quote": "開催日時：12/19（土）",
+            "checked_at": "2026-11-20",
+            "sha256": "86207cf3c230c86cdf4f106fdcd5c7ea4235b541a36635ecdebbf33c9680d34b",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://art-play.or.jp/ttm/news/news-9052/",
+            "quote": "定員：各回4名●参加費：15",
+            "checked_at": "2026-11-20",
+            "sha256": "8e6e7898f63206a69be2054a4260cd844d834b72b9f3a7f52b156680ccb5a273",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://art-play.or.jp/ttm/news/news-9052/",
+            "quote": "参加費：1500円●対象：ど",
+            "checked_at": "2026-11-20",
+            "sha256": "e5c72bb3972ccb088ba6b427424a8cd08ea240559e701df8e9c282d1e8c23ed0",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://art-play.or.jp/ttm/news/news-9052/",
+            "quote": "予約：ウェブからの事前予約制（申込フォームよりご予約ください。）",
+            "checked_at": "2026-11-20",
+            "sha256": "9c999ee4059a199c388249c806ce6c5fe2d9914c4a18eb9a812189b6778515e9",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://art-play.or.jp/ttm/news/news-9052/",
+            "quote": "ソリはお子様も絵付けができますので",
+            "checked_at": "2026-11-20",
+            "sha256": "d61da7b2d8effadca9b68cfb3d9beead0d7ba08f4d6d0dca46c0f9de465d2e4e",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-20",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  },
+  {
+    "id": "verified-20261220-shinjuku-ttm-stick",
+    "ward": "新宿区",
+    "name": "TOY工房「親子を紡ぐ工作」不思議なキラキラステッキ（東京おもちゃ美術館）",
+    "url": "https://art-play.or.jp/ttm/news/news-9052/",
+    "official_url": "https://art-play.or.jp/ttm/news/news-9052/",
+    "source": "https://art-play.or.jp/ttm/news/news-9052/",
+    "image": "",
+    "period": "12/20(日)",
+    "date_start": "2026-12-20",
+    "date_end": "2026-12-20",
+    "time": "13:45〜／14:45〜",
+    "venue": "東京おもちゃ美術館（新宿区四谷4-20 四谷ひろば内）",
+    "price": "500円",
+    "description": "光を当てるとステンドグラスのように輝く、手でこねると動きが面白いステッキを作る親子向け工作。各回定員8名、当日3階の予約カウンターで予約。",
+    "categories": [
+      "工作",
+      "体験・ワークショップ",
+      "親子"
+    ],
+    "indoor_outdoor": "屋内",
+    "reservation": {
+      "required": true,
+      "note": "当日3階予約カウンターで予約。各回定員8名。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "「親子を紡ぐ工作」として、光に当てるとステンドグラスのように輝くステッキを作る。参加費500円で当日予約。",
+      "axes": {
+        "child_target": {
+          "grade": "B",
+          "reason": "「親子を紡ぐ工作」と親子向けの工作メニュー"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "自分で作って光や動きを楽しめる"
+        },
+        "age_fit": {
+          "grade": "unknown",
+          "reason": "対象年齢の目安は小学4年生以上の電動工具操作の記載のみ"
+        },
+        "stay_flexibility": {
+          "grade": "B",
+          "reason": "開催は2回で、各回の定員が少ない"
+        },
+        "burden": {
+          "grade": "B",
+          "reason": "定員各回8名で、当日予約が必要"
+        },
+        "cost": {
+          "grade": "A",
+          "reason": "参加費500円"
+        },
+        "reservation": {
+          "grade": "B",
+          "reason": "当日3階の予約カウンターで予約"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "親子で作って光る工作を楽しめる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-20",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "child_program",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "親子向けの工作",
+          "参加費500円と手頃"
+        ],
+        "limitations": [
+          "各回定員8名",
+          "当日の予約が必要"
+        ],
+        "grade_comparison": "総合B：親子向けで参加費も手頃だが、定員が少なく当日の予約が必要。",
+        "unsupported_axes": [
+          "age_fit"
+        ],
+        "evidence": [
+          {
+            "url": "https://art-play.or.jp/ttm/news/news-9052/",
+            "quote": "TOY工房『親子を紡ぐ工作』不思議なキラキラステッキ",
+            "checked_at": "2026-11-20",
+            "sha256": "83c1cac2e68d243925c517ebf13a61df1e07ddf9e1267b9cf4c682091156828c",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://art-play.or.jp/ttm/news/news-9052/",
+            "quote": "開催日時：12/20（日）13:45～、14:45～",
+            "checked_at": "2026-11-20",
+            "sha256": "7148eb80da817c1fc39c4f9388f8a23467d8a35f4add0e624a822192c05c6331",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://art-play.or.jp/ttm/news/news-9052/",
+            "quote": "定員：各回8名●参加費：30",
+            "checked_at": "2026-11-20",
+            "sha256": "12ce1cc7f3355a1a115d19e15f4edb833e993bbc40a0f8ba9903611bf886ea3f",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://art-play.or.jp/ttm/news/news-9052/",
+            "quote": "参加費：500円●対象：どな",
+            "checked_at": "2026-11-20",
+            "sha256": "934b846ed3f711ec49bb620711a224aff8c3498842f5f09947704ec937a15319",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://art-play.or.jp/ttm/news/news-9052/",
+            "quote": "予約：当日3F予約カウンターにて予約",
+            "checked_at": "2026-11-20",
+            "sha256": "bf038e56655ca80b5841b7fdc8926d5a5c5c69fc8136f0be9183c59e684868eb",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-20",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  },
+  {
+    "id": "verified-20261220-sumida-honjo-santa",
+    "ward": "墨田区",
+    "name": "親子防災体験「サンタといっしょに学ぼう防災たいけん」（本所防災館）",
+    "url": "https://www.tfd.metro.tokyo.lg.jp/taiken/honjo/page_00034.html",
+    "official_url": "https://www.tfd.metro.tokyo.lg.jp/taiken/honjo/page_00034.html",
+    "source": "https://www.tfd.metro.tokyo.lg.jp/taiken/honjo/page_00034.html",
+    "image": "",
+    "period": "12/20(日)",
+    "date_start": "2026-12-20",
+    "date_end": "2026-12-20",
+    "time": "13:00〜14:45（受付12:15〜）",
+    "venue": "本所防災館",
+    "price": "参加費の記載なし（本所防災館の公式ページ）",
+    "description": "防災映画（子供用）、地震体験、煙体験、消火体験ができる親子向けの防災体験。3歳から小学生までの子どもと保護者が対象で、24名×3コースの要予約。",
+    "categories": [
+      "体験",
+      "防災",
+      "クリスマス"
+    ],
+    "indoor_outdoor": "屋内",
+    "reservation": {
+      "required": true,
+      "note": "要予約。24名×3コース（合計72名）。予約は家族単位。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "3歳から小学生までの子どもと保護者を対象に、防災映画、地震体験、煙体験、消火体験ができる。要予約・定員72名で、靴と靴下が必要。",
+      "axes": {
+        "child_target": {
+          "grade": "A",
+          "reason": "3歳から小学生までの子どもと保護者を対象にした親子防災体験"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "地震体験、煙体験、消火体験を実際に体験できる"
+        },
+        "age_fit": {
+          "grade": "A",
+          "reason": "対象が3歳から小学生までと明記"
+        },
+        "stay_flexibility": {
+          "grade": "B",
+          "reason": "3コースに分かれ、時間が決まっている"
+        },
+        "burden": {
+          "grade": "B",
+          "reason": "定員72名の要予約で、靴と靴下が必要"
+        },
+        "cost": {
+          "grade": "unknown",
+          "reason": "参加費の記載がない"
+        },
+        "reservation": {
+          "grade": "B",
+          "reason": "要予約（家族単位）"
+        },
+        "family_value": {
+          "grade": "A",
+          "reason": "親子で防災を学び、体験できる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-20",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "child_program",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "3歳から参加できる",
+          "地震・煙・消火の体験がそろう"
+        ],
+        "limitations": [
+          "要予約で定員72名",
+          "参加費の記載がない"
+        ],
+        "grade_comparison": "総合B：子ども向けの体験内容は充実しているが、要予約・定員制で参加費の記載がない。",
+        "unsupported_axes": [
+          "cost"
+        ],
+        "evidence": [
+          {
+            "url": "https://www.tfd.metro.tokyo.lg.jp/taiken/honjo/page_00034.html",
+            "quote": "実施日時：１２月２０日（日）１３時００分から１４時４５分まで",
+            "checked_at": "2026-11-20",
+            "sha256": "474cc299b6f49c904f974a2ab9318d570b2f317beb129a686ea32fd914850bf6",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.tfd.metro.tokyo.lg.jp/taiken/honjo/page_00034.html",
+            "quote": "受付開始１２時１５分から",
+            "checked_at": "2026-11-20",
+            "sha256": "f82bf84c72fc0463b54f451b1b903f9eb037727b94e04d10a9caf3a78768d5cd",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.tfd.metro.tokyo.lg.jp/taiken/honjo/page_00034.html",
+            "quote": "対象者：３歳から小学生までの子どもとその保護者",
+            "checked_at": "2026-11-20",
+            "sha256": "7a482801b660dc0cd8630660331cdcf877e110fb3cc918fe319f3d65e71cd7f1",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.tfd.metro.tokyo.lg.jp/taiken/honjo/page_00034.html",
+            "quote": "募集人員（要予約）：２４名×３コース",
+            "checked_at": "2026-11-20",
+            "sha256": "5c61efb26e572d7056b07e57a6210ec7fea35eddccb85c21e3f09b9ecc93eeab",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.tfd.metro.tokyo.lg.jp/taiken/honjo/page_00034.html",
+            "quote": "体験内容：防災映画（子供用）、地震体験、煙体験、消火体験",
+            "checked_at": "2026-11-20",
+            "sha256": "0846987f052e8d4d8b49108249de97b21c1eddc75310f1c06924cef4ecf97551",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.tfd.metro.tokyo.lg.jp/taiken/honjo/page_00034.html",
+            "quote": "※必ず靴とくつ下を履いてきてください。",
+            "checked_at": "2026-11-20",
+            "sha256": "305f38514179f0da807737c8df5ba6d3cade8fc0b648aac3f66c992d3350268f",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-20",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  },
+  {
+    "id": "verified-20261220-shinagawa-inline-dec20",
+    "ward": "品川区",
+    "name": "やってみよう！インラインスケート体験会（大井ふ頭中央海浜公園 さくら広場）",
+    "url": "https://tokyo-south-seaside-parks.com/event/%e3%82%a4%e3%83%b3%e3%83%a9%e3%82%a4%e3%83%b3%e3%82%b9%e3%82%b1%e3%83%bc%e3%83%88%e4%bd%93%e9%a8%93%e4%bc%9a-12%e6%9c%88",
+    "official_url": "https://tokyo-south-seaside-parks.com/event/%e3%82%a4%e3%83%b3%e3%83%a9%e3%82%a4%e3%83%b3%e3%82%b9%e3%82%b1%e3%83%bc%e3%83%88%e4%bd%93%e9%a8%93%e4%bc%9a-12%e6%9c%88",
+    "source": "https://tokyo-south-seaside-parks.com/event/%e3%82%a4%e3%83%b3%e3%83%a9%e3%82%a4%e3%83%b3%e3%82%b9%e3%82%b1%e3%83%bc%e3%83%88%e4%bd%93%e9%a8%93%e4%bc%9a-12%e6%9c%88",
+    "image": "",
+    "period": "12/20(日)",
+    "date_start": "2026-12-20",
+    "date_end": "2026-12-20",
+    "time": "10:00〜17:00",
+    "venue": "大井ふ頭中央海浜公園 さくら広場（品川区八潮）",
+    "price": "無料",
+    "description": "やしおスケートパークの皆さんによるインラインスケートの体験会。参加費無料。長めの靴下と自転車などのヘルメットを持参する。",
+    "categories": [
+      "スポーツ",
+      "体験",
+      "公園"
+    ],
+    "indoor_outdoor": "屋外",
+    "reservation": {
+      "required": null,
+      "note": "ページに事前予約の記載なし。長めの靴下とヘルメットを持参。"
+    },
+    "family_fit": {
+      "grade": "C",
+      "overall": "C",
+      "rubric_version": "family-fit-v2",
+      "reason": "12/20(日)のインラインスケートを指導つきで体験できる無料の体験会。対象年齢や事前予約の記載はなく、ヘルメットと長めの靴下の持参が必要。",
+      "axes": {
+        "child_target": {
+          "grade": "unknown",
+          "reason": "対象年齢の記載がない"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "インラインスケートを体験できる"
+        },
+        "age_fit": {
+          "grade": "unknown",
+          "reason": "対象年齢の目安は明記がない"
+        },
+        "stay_flexibility": {
+          "grade": "A",
+          "reason": "10〜17時の間に参加できる"
+        },
+        "burden": {
+          "grade": "B",
+          "reason": "ヘルメットと長めの靴下を持参し、屋外で行う"
+        },
+        "cost": {
+          "grade": "A",
+          "reason": "参加費無料"
+        },
+        "reservation": {
+          "grade": "unknown",
+          "reason": "事前予約の記載がない"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "体を動かす体験を無料でできる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-20",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "unspecified",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "無料で体験できる",
+          "10〜17時と時間が長い"
+        ],
+        "limitations": [
+          "対象年齢の記載がない",
+          "ヘルメットを持参する必要がある"
+        ],
+        "grade_comparison": "総合C（12/20(日)開催）：無料で長い時間体験できるが、対象年齢が不明で、ヘルメットなどの持ち物が必要。",
+        "unsupported_axes": [
+          "child_target",
+          "age_fit",
+          "reservation"
+        ],
+        "evidence": [
+          {
+            "url": "https://tokyo-south-seaside-parks.com/event/%e3%82%a4%e3%83%b3%e3%83%a9%e3%82%a4%e3%83%b3%e3%82%b9%e3%82%b1%e3%83%bc%e3%83%88%e4%bd%93%e9%a8%93%e4%bc%9a-12%e6%9c%88",
+            "quote": "12月20日(日)、12月27日(日)",
+            "checked_at": "2026-11-20",
+            "sha256": "2f41c923bd2265b9808cc1f14a0a4dfa9a2fadcc9083b18e4c5082cf5209144e",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://tokyo-south-seaside-parks.com/event/%e3%82%a4%e3%83%b3%e3%83%a9%e3%82%a4%e3%83%b3%e3%82%b9%e3%82%b1%e3%83%bc%e3%83%88%e4%bd%93%e9%a8%93%e4%bc%9a-12%e6%9c%88",
+            "quote": "体験会：10時～17時　さくら広場にて",
+            "checked_at": "2026-11-20",
+            "sha256": "af68aaffb1d8fbf484e97ca4f4c7a8451bf6640b88b921da6401ada2db25694f",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://tokyo-south-seaside-parks.com/event/%e3%82%a4%e3%83%b3%e3%83%a9%e3%82%a4%e3%83%b3%e3%82%b9%e3%82%b1%e3%83%bc%e3%83%88%e4%bd%93%e9%a8%93%e4%bc%9a-12%e6%9c%88",
+            "quote": "参加費無料持ち物体験会ご参加",
+            "checked_at": "2026-11-20",
+            "sha256": "2e2d3aa5ed09e7e953b3c226de56174f3d4aeed2311d13b2ffb1f7a866699ffe",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://tokyo-south-seaside-parks.com/event/%e3%82%a4%e3%83%b3%e3%83%a9%e3%82%a4%e3%83%b3%e3%82%b9%e3%82%b1%e3%83%bc%e3%83%88%e4%bd%93%e9%a8%93%e4%bc%9a-12%e6%9c%88",
+            "quote": "体験会ご参加の方は、長めの靴下と自転車等のヘルメットをご持参ください。",
+            "checked_at": "2026-11-20",
+            "sha256": "a06cc784f093512d2a1e7a3e6ae9daa755ff5b65032b43fe1d9e5b28377a87cb",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://tokyo-south-seaside-parks.com/event/%e3%82%a4%e3%83%b3%e3%83%a9%e3%82%a4%e3%83%b3%e3%82%b9%e3%82%b1%e3%83%bc%e3%83%88%e4%bd%93%e9%a8%93%e4%bc%9a-12%e6%9c%88",
+            "quote": "共催やしおスケートパーク",
+            "checked_at": "2026-11-20",
+            "sha256": "70d3e6d2a8daa6c760cd039421f3b6e447e195b2583084329e79467e66834af6",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-20",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  },
+  {
+    "id": "verified-20261219-edogawa-kanusura-park",
+    "ward": "江戸川区",
+    "name": "カヌスラパーク（カヌー・スラロームセンター）",
+    "url": "https://canoe-slalom.tokyo/activity/k-park/",
+    "official_url": "https://canoe-slalom.tokyo/activity/k-park/",
+    "source": "https://canoe-slalom.tokyo/activity/k-park/",
+    "image": "",
+    "period": "土・日・祝（12/19〜）",
+    "date_start": "2026-12-19",
+    "date_end": "2026-12-19",
+    "time": "11:00〜16:00（最終受付15:40）",
+    "venue": "カヌー・スラロームセンター（江戸川区臨海町6丁目1番1号）",
+    "price": "1回500円（20分間）",
+    "description": "イージーローラー、キックボード、面白ブランコ、芝生遊びグッズで遊べるパーク。3歳以上、予約不要で当日受付。雨天休止。",
+    "categories": [
+      "公園",
+      "体験",
+      "スポーツ"
+    ],
+    "indoor_outdoor": "屋外",
+    "reservation": {
+      "required": false,
+      "note": "事前予約なし。当日、管理棟で受付。雨天休止。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "12/19週の土日祝に3歳以上が遊べるイージーローラー、キックボード、ブランコなどのあるパーク。予約不要で当日受付、1回500円で20分遊べる。",
+      "axes": {
+        "child_target": {
+          "grade": "B",
+          "reason": "3歳以上が対象で、未就学児は保護者の同伴が必要"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "ローラー、キックボード、ブランコなどで体を動かして遊べる"
+        },
+        "age_fit": {
+          "grade": "A",
+          "reason": "参加条件が3歳以上と明記"
+        },
+        "stay_flexibility": {
+          "grade": "B",
+          "reason": "1回20分で、延長や回数券で調整する"
+        },
+        "burden": {
+          "grade": "B",
+          "reason": "屋外で雨天休止。駅から徒歩約12分"
+        },
+        "cost": {
+          "grade": "B",
+          "reason": "1回500円"
+        },
+        "reservation": {
+          "grade": "A",
+          "reason": "事前予約はなく、当日受付"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "親子で体を動かして遊べる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-20",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "age_eligible",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "3歳から遊べる",
+          "予約不要で当日受付"
+        ],
+        "limitations": [
+          "屋外で雨天休止",
+          "1回20分で料金がかかる"
+        ],
+        "grade_comparison": "総合B（2026-12-19）：3歳から遊べて予約不要だが、屋外で雨天休止、1回20分で料金がかかる。",
+        "unsupported_axes": [],
+        "evidence": [
+          {
+            "url": "https://canoe-slalom.tokyo/activity/k-park/",
+            "quote": "営業時間土・日・祝11:00",
+            "checked_at": "2026-11-20",
+            "sha256": "0270186753d492b39e1f3edc4325b903e70f03705c4e641685ba2ccbdc4efa22",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://canoe-slalom.tokyo/activity/k-park/",
+            "quote": "参加条件3歳以上※一部遊具は対象年齢が異なります",
+            "checked_at": "2026-11-20",
+            "sha256": "dc9c054ff01433f065216c86db945825786b05ec1210ea4f74417cb952b95bc2",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://canoe-slalom.tokyo/activity/k-park/",
+            "quote": "未就学児には保護者の同伴が必要",
+            "checked_at": "2026-11-20",
+            "sha256": "b011204efa57c9c934177f4e5e4a971e72f22e6de6208dc1e6b81a13d297ac83",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://canoe-slalom.tokyo/activity/k-park/",
+            "quote": "当日に受付（管理棟）まで直接お越しください",
+            "checked_at": "2026-11-20",
+            "sha256": "e208ad4bb5ee5aaa49bf722c07e4d77d028371c839f8d79321f8fe4922701160",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://canoe-slalom.tokyo/activity/k-park/",
+            "quote": "事前予約はございません。当日参加のみとなります",
+            "checked_at": "2026-11-20",
+            "sha256": "9cbe7834ac4877d95315e34fbaf10806f0daf6edca2cbfc058d2b37c1569e939",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://canoe-slalom.tokyo/activity/k-park/",
+            "quote": "1回500円（20分間）※予約不要！",
+            "checked_at": "2026-11-20",
+            "sha256": "54c939f2a8072a4e283ee2493b7bfbef4bb7da4914e240ff6b9ff7164d3e6d75",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://canoe-slalom.tokyo/activity/k-park/",
+            "quote": "雨天休止※イベントなどで休止の場合あり",
+            "checked_at": "2026-11-20",
+            "sha256": "d2a5dd11087a11298972cd179e3ea9c0174cff5f78e5eb6624c919e5a8a44549",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-20",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  },
+  {
+    "id": "verified-20261219-adachi-tdu-recycle",
+    "ward": "足立区",
+    "name": "【TDU×アサヒユウアス 連携講座】プラごみ削減・リサイクルを考えよう＋タンブラーお絵かき体験（東京電機大学）",
+    "url": "https://www.dendai.ac.jp/event/20260828-07.html",
+    "official_url": "https://www.dendai.ac.jp/event/20260828-07.html",
+    "source": "https://www.dendai.ac.jp/event/20260828-07.html",
+    "image": "",
+    "period": "12/19(土)",
+    "date_start": "2026-12-19",
+    "date_end": "2026-12-19",
+    "time": "10:00〜11:30／13:30〜15:00",
+    "venue": "東京電機大学 東京千住キャンパス",
+    "price": "無料",
+    "description": "リサイクルの資源を活用してマイタンブラーを作る体験講座。小学3〜5年生と保護者が対象で、各回20組。申込は12/4まで、応募多数の場合は抽選。",
+    "categories": [
+      "体験・ワークショップ",
+      "環境",
+      "工作"
+    ],
+    "indoor_outdoor": "屋内",
+    "reservation": {
+      "required": true,
+      "note": "申込期間11/2〜12/4。申込多数の場合は抽選。当選発表12/9。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "リサイクルの資源を使ってマイタンブラーを作る小学3〜5年生と保護者向けの体験講座。無料だが、申込制で応募多数なら抽選になる。",
+      "axes": {
+        "child_target": {
+          "grade": "A",
+          "reason": "小学3〜5年生と保護者を対象にした講座"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "タンブラーにお絵かきして作る体験"
+        },
+        "age_fit": {
+          "grade": "A",
+          "reason": "対象が小学3〜5年生と明記"
+        },
+        "stay_flexibility": {
+          "grade": "B",
+          "reason": "午前と午後の2回で、時間が決まっている"
+        },
+        "burden": {
+          "grade": "B",
+          "reason": "申込制で抽選。大学キャンパスで開催"
+        },
+        "cost": {
+          "grade": "A",
+          "reason": "参加費無料"
+        },
+        "reservation": {
+          "grade": "C",
+          "reason": "申込制で、応募多数の場合は抽選"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "親子で環境とリサイクルを学べる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-20",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "child_program",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "小学3〜5年生向け",
+          "無料で作品を作れる"
+        ],
+        "limitations": [
+          "申込制で抽選",
+          "対象が小学3〜5年生に限られる"
+        ],
+        "grade_comparison": "総合B：対象学年に合う子には内容が充実し無料だが、申込制で抽選になる。",
+        "unsupported_axes": [],
+        "evidence": [
+          {
+            "url": "https://www.dendai.ac.jp/event/20260828-07.html",
+            "quote": "2026年12月19日（土）10：00～11：30、13：30～15：00",
+            "checked_at": "2026-11-20",
+            "sha256": "e3df58efe4062ef79e3aec9bacc56aa4dc5b4e4af53b40a93e638a1fd4658dce",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.dendai.ac.jp/event/20260828-07.html",
+            "quote": "小学3～5年生とその保護者対象",
+            "checked_at": "2026-11-20",
+            "sha256": "7331c2467f14d0ebabcbbedfc9bd579ce5e1e9659255c71bef0016a0c527d466",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.dendai.ac.jp/event/20260828-07.html",
+            "quote": "定員各回20組（40名）",
+            "checked_at": "2026-11-20",
+            "sha256": "a7c1b5a31f896f94e2b448085f822e2314a7f4e4aa534c321ca6ee2b681583c7",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.dendai.ac.jp/event/20260828-07.html",
+            "quote": "参加費無料主催学校法人東京電",
+            "checked_at": "2026-11-20",
+            "sha256": "1f897c2742d1acc8508f69459a4d5abcaa52925170adb0250ec4164739d5b207",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.dendai.ac.jp/event/20260828-07.html",
+            "quote": "申込期間11月2日（月）～12月4日（金）",
+            "checked_at": "2026-11-20",
+            "sha256": "180a12d4826cdb3ed88838db126309c2ba4eb3c7111ef7cd0990bbba6f658084",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.dendai.ac.jp/event/20260828-07.html",
+            "quote": "申込多数の場合、抽選になります",
+            "checked_at": "2026-11-20",
+            "sha256": "1569d4e0d108096fce0c3a32cd6c18984e83bf39efdded67bbfd716dbd780a3b",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-20",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  }
+]

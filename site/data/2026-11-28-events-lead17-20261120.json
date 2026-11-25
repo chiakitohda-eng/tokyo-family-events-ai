@@ -1,0 +1,2164 @@
+[
+  {
+    "id": "verified-20261128-katsushika-kawajin-fair",
+    "ward": "葛飾区",
+    "name": "柴又川甚まちなみ館 秋のまるごと体験市 2026",
+    "url": "https://www.shibamatakawajin-machinamikan.jp/news/%e7%a7%8b%e3%81%ae%e3%81%be%e3%82%8b%e3%81%94%e3%81%a8%e4%bd%93%e9%a8%93%e5%b8%822026/",
+    "official_url": "https://www.shibamatakawajin-machinamikan.jp/news/%e7%a7%8b%e3%81%ae%e3%81%be%e3%82%8b%e3%81%94%e3%81%a8%e4%bd%93%e9%a8%93%e5%b8%822026/",
+    "source": "https://www.shibamatakawajin-machinamikan.jp/news/%e7%a7%8b%e3%81%ae%e3%81%be%e3%82%8b%e3%81%94%e3%81%a8%e4%bd%93%e9%a8%93%e5%b8%822026/",
+    "image": "",
+    "period": "11/28(土)",
+    "date_start": "2026-11-28",
+    "date_end": "2026-11-28",
+    "time": "館内10:00〜17:00／公園10:00〜16:00",
+    "venue": "柴又川甚まちなみ館・公園ほか",
+    "price": "入館無料（一部体験・飲食は有料）",
+    "description": "野点、枯山水、ものづくり、踊りや猿まわしなどのステージ、縁日屋台やキッチンカーが並ぶ体験型イベント。館内から公園まで子どもから大人まで楽しめる。",
+    "categories": [
+      "体験",
+      "祭り"
+    ],
+    "indoor_outdoor": "屋内・屋外",
+    "reservation": {
+      "required": false,
+      "note": "入館無料。体験により当日受付・整理券・事前予約が異なる。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "11/28(土)、柴又川甚まちなみ館で柴又川甚まちなみ館 秋のまるごと体験市 2026。子どもから大人まで楽しめると明記。料金は入館無料（一部体験・飲食は有料）。入館無料。体験により当日受付・整理券・事前予約が異なる。",
+      "axes": {
+        "child_target": {
+          "grade": "B",
+          "reason": "子どもから大人まで楽しめると明記"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "体験・参加型の内容"
+        },
+        "age_fit": {
+          "grade": "B",
+          "reason": "子どもから大人まで楽しめると明記"
+        },
+        "stay_flexibility": {
+          "grade": "B",
+          "reason": "館内10:00〜17:00／公園10:00〜16:00"
+        },
+        "burden": {
+          "grade": "B",
+          "reason": "入館無料。体験により当日受付・整理券・事前予約が異なる。"
+        },
+        "cost": {
+          "grade": "A",
+          "reason": "入館無料（一部体験・飲食は有料）"
+        },
+        "reservation": {
+          "grade": "A",
+          "reason": "入館無料。体験により当日受付・整理券・事前予約が異なる。"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "野点、枯山水、ものづくり、踊りや猿まわしなどのステージ、縁日屋台やキッチンカーが"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-20",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "all_ages",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "体験が館内から公園まで広がる",
+          "縁日屋台やキッチンカーも出る"
+        ],
+        "limitations": [
+          "体験ごとに料金・申込方法が異なる",
+          "屋外は天候で中止や変更の場合あり"
+        ],
+        "grade_comparison": "総合B：11/28(土)の柴又川甚まちなみ館・公園ほかで館内10:00〜17:00／公園10:00〜16:00の開催（柴又川甚まちなみ館 秋のまるごと体験市 2026）。入館無料（一部体験・飲食は有料）。入館無料。体験により当日受付・整理券・事前予約が異なる。",
+        "unsupported_axes": [],
+        "evidence": [
+          {
+            "url": "https://www.shibamatakawajin-machinamikan.jp/news/%e7%a7%8b%e3%81%ae%e3%81%be%e3%82%8b%e3%81%94%e3%81%a8%e4%bd%93%e9%a8%93%e5%b8%822026/",
+            "quote": "秋のまちなみ館をまるごと使って、さまざまな「体験」が楽しめる2日間！",
+            "checked_at": "2026-11-20",
+            "sha256": "23c32033d4f05924269ffc2eb8eccaa6cae632657362c29ac99983f7e8bd7fa0",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "柴又川甚まちなみ館公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.shibamatakawajin-machinamikan.jp/news/%e7%a7%8b%e3%81%ae%e3%81%be%e3%82%8b%e3%81%94%e3%81%a8%e4%bd%93%e9%a8%93%e5%b8%822026/",
+            "quote": "開催日2026年11月28日（土）・29日（日）時間館内10:00～17:00／公園10:00～16:00",
+            "checked_at": "2026-11-20",
+            "sha256": "74a319377e9c05ab3d410fe7b77c8b83935a05cf232cb84ac19923f684438fdd",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "柴又川甚まちなみ館公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.shibamatakawajin-machinamikan.jp/news/%e7%a7%8b%e3%81%ae%e3%81%be%e3%82%8b%e3%81%94%e3%81%a8%e4%bd%93%e9%a8%93%e5%b8%822026/",
+            "quote": "入館料無料※一部の体験・飲食等は有料です。",
+            "checked_at": "2026-11-20",
+            "sha256": "b1b3b1e92c477b73ea7cb5d959869e0f90fe2089e9ec84254b2398383e8315eb",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "柴又川甚まちなみ館公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.shibamatakawajin-machinamikan.jp/news/%e7%a7%8b%e3%81%ae%e3%81%be%e3%82%8b%e3%81%94%e3%81%a8%e4%bd%93%e9%a8%93%e5%b8%822026/",
+            "quote": "公園には縁日屋台やキッチンカーも登場！",
+            "checked_at": "2026-11-20",
+            "sha256": "f97cadd22a46e33b953f5a374c12067a105e98cd74a5ee9cab7e4038fcd698a3",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "柴又川甚まちなみ館公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-20",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  },
+  {
+    "id": "verified-20261129-katsushika-kawajin-fair",
+    "ward": "葛飾区",
+    "name": "柴又川甚まちなみ館 秋のまるごと体験市 2026",
+    "url": "https://www.shibamatakawajin-machinamikan.jp/news/%e7%a7%8b%e3%81%ae%e3%81%be%e3%82%8b%e3%81%94%e3%81%a8%e4%bd%93%e9%a8%93%e5%b8%822026/",
+    "official_url": "https://www.shibamatakawajin-machinamikan.jp/news/%e7%a7%8b%e3%81%ae%e3%81%be%e3%82%8b%e3%81%94%e3%81%a8%e4%bd%93%e9%a8%93%e5%b8%822026/",
+    "source": "https://www.shibamatakawajin-machinamikan.jp/news/%e7%a7%8b%e3%81%ae%e3%81%be%e3%82%8b%e3%81%94%e3%81%a8%e4%bd%93%e9%a8%93%e5%b8%822026/",
+    "image": "",
+    "period": "11/29(日)",
+    "date_start": "2026-11-29",
+    "date_end": "2026-11-29",
+    "time": "館内10:00〜17:00／公園10:00〜16:00",
+    "venue": "柴又川甚まちなみ館・公園ほか",
+    "price": "入館無料（一部体験・飲食は有料）",
+    "description": "野点、枯山水、ものづくり、踊りや猿まわしなどのステージ、縁日屋台やキッチンカーが並ぶ体験型イベント。館内から公園まで子どもから大人まで楽しめる。",
+    "categories": [
+      "体験",
+      "祭り"
+    ],
+    "indoor_outdoor": "屋内・屋外",
+    "reservation": {
+      "required": false,
+      "note": "入館無料。体験により当日受付・整理券・事前予約が異なる。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "11/29(日)、柴又川甚まちなみ館で柴又川甚まちなみ館 秋のまるごと体験市 2026。子どもから大人まで楽しめると明記。料金は入館無料（一部体験・飲食は有料）。入館無料。体験により当日受付・整理券・事前予約が異なる。",
+      "axes": {
+        "child_target": {
+          "grade": "B",
+          "reason": "子どもから大人まで楽しめると明記"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "体験・参加型の内容"
+        },
+        "age_fit": {
+          "grade": "B",
+          "reason": "子どもから大人まで楽しめると明記"
+        },
+        "stay_flexibility": {
+          "grade": "B",
+          "reason": "館内10:00〜17:00／公園10:00〜16:00"
+        },
+        "burden": {
+          "grade": "B",
+          "reason": "入館無料。体験により当日受付・整理券・事前予約が異なる。"
+        },
+        "cost": {
+          "grade": "A",
+          "reason": "入館無料（一部体験・飲食は有料）"
+        },
+        "reservation": {
+          "grade": "A",
+          "reason": "入館無料。体験により当日受付・整理券・事前予約が異なる。"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "野点、枯山水、ものづくり、踊りや猿まわしなどのステージ、縁日屋台やキッチンカーが"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-20",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "all_ages",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "体験が館内から公園まで広がる",
+          "縁日屋台やキッチンカーも出る"
+        ],
+        "limitations": [
+          "体験ごとに料金・申込方法が異なる",
+          "屋外は天候で中止や変更の場合あり"
+        ],
+        "grade_comparison": "総合B：11/29(日)の柴又川甚まちなみ館・公園ほかで館内10:00〜17:00／公園10:00〜16:00の開催（柴又川甚まちなみ館 秋のまるごと体験市 2026）。入館無料（一部体験・飲食は有料）。入館無料。体験により当日受付・整理券・事前予約が異なる。",
+        "unsupported_axes": [],
+        "evidence": [
+          {
+            "url": "https://www.shibamatakawajin-machinamikan.jp/news/%e7%a7%8b%e3%81%ae%e3%81%be%e3%82%8b%e3%81%94%e3%81%a8%e4%bd%93%e9%a8%93%e5%b8%822026/",
+            "quote": "秋のまちなみ館をまるごと使って、さまざまな「体験」が楽しめる2日間！",
+            "checked_at": "2026-11-20",
+            "sha256": "23c32033d4f05924269ffc2eb8eccaa6cae632657362c29ac99983f7e8bd7fa0",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "柴又川甚まちなみ館公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.shibamatakawajin-machinamikan.jp/news/%e7%a7%8b%e3%81%ae%e3%81%be%e3%82%8b%e3%81%94%e3%81%a8%e4%bd%93%e9%a8%93%e5%b8%822026/",
+            "quote": "開催日2026年11月28日（土）・29日（日）時間館内10:00～17:00／公園10:00～16:00",
+            "checked_at": "2026-11-20",
+            "sha256": "74a319377e9c05ab3d410fe7b77c8b83935a05cf232cb84ac19923f684438fdd",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "柴又川甚まちなみ館公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.shibamatakawajin-machinamikan.jp/news/%e7%a7%8b%e3%81%ae%e3%81%be%e3%82%8b%e3%81%94%e3%81%a8%e4%bd%93%e9%a8%93%e5%b8%822026/",
+            "quote": "入館料無料※一部の体験・飲食等は有料です。",
+            "checked_at": "2026-11-20",
+            "sha256": "b1b3b1e92c477b73ea7cb5d959869e0f90fe2089e9ec84254b2398383e8315eb",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "柴又川甚まちなみ館公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.shibamatakawajin-machinamikan.jp/news/%e7%a7%8b%e3%81%ae%e3%81%be%e3%82%8b%e3%81%94%e3%81%a8%e4%bd%93%e9%a8%93%e5%b8%822026/",
+            "quote": "公園には縁日屋台やキッチンカーも登場！",
+            "checked_at": "2026-11-20",
+            "sha256": "f97cadd22a46e33b953f5a374c12067a105e98cd74a5ee9cab7e4038fcd698a3",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "柴又川甚まちなみ館公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-20",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  },
+  {
+    "id": "verified-20261128-katsushika-kawajin-karesansui",
+    "ward": "葛飾区",
+    "name": "枯山水体験（秋のまるごと体験市）",
+    "url": "https://www.shibamatakawajin-machinamikan.jp/news/%e7%a7%8b%e3%81%ae%e3%81%be%e3%82%8b%e3%81%94%e3%81%a8%e4%bd%93%e9%a8%93%e5%b8%822026/",
+    "official_url": "https://www.shibamatakawajin-machinamikan.jp/news/%e7%a7%8b%e3%81%ae%e3%81%be%e3%82%8b%e3%81%94%e3%81%a8%e4%bd%93%e9%a8%93%e5%b8%822026/",
+    "source": "https://www.shibamatakawajin-machinamikan.jp/news/%e7%a7%8b%e3%81%ae%e3%81%be%e3%82%8b%e3%81%94%e3%81%a8%e4%bd%93%e9%a8%93%e5%b8%822026/",
+    "image": "",
+    "period": "11/28(土)",
+    "date_start": "2026-11-28",
+    "date_end": "2026-11-28",
+    "time": "10:00〜13:00／14:00〜16:00",
+    "venue": "11/28は公園、11/29は2階",
+    "price": "無料",
+    "description": "箱庭サイズの枯山水庭園で、砂をならし石を据えて砂紋を描く体験。どなたでも参加でき、当日順次案内。作品の持ち帰りは不可。",
+    "categories": [
+      "体験",
+      "工作"
+    ],
+    "indoor_outdoor": "屋内・屋外",
+    "reservation": {
+      "required": false,
+      "note": "当日順次ご案内。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "11/28(土)、柴又川甚まちなみ館で枯山水体験。対象がどなたでもと明記。料金は無料。当日順次ご案内。",
+      "axes": {
+        "child_target": {
+          "grade": "B",
+          "reason": "対象がどなたでもと明記"
+        },
+        "interactivity": {
+          "grade": "B",
+          "reason": "体験・参加型の内容"
+        },
+        "age_fit": {
+          "grade": "B",
+          "reason": "対象がどなたでもと明記"
+        },
+        "stay_flexibility": {
+          "grade": "B",
+          "reason": "10:00〜13:00／14:00〜16:00"
+        },
+        "burden": {
+          "grade": "A",
+          "reason": "当日順次ご案内。"
+        },
+        "cost": {
+          "grade": "A",
+          "reason": "無料"
+        },
+        "reservation": {
+          "grade": "A",
+          "reason": "当日順次ご案内。"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "箱庭サイズの枯山水庭園で、砂をならし石を据えて砂紋を描く体験。どなたでも参加でき"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-20",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "all_ages",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "無料で参加できる",
+          "砂紋を描く落ち着いた体験"
+        ],
+        "limitations": [
+          "作品は持ち帰れない",
+          "屋外開催日は天候の影響を受ける"
+        ],
+        "grade_comparison": "総合B：11/28(土)の11/28は公園、11/29は2階で10:00〜13:00／14:00〜16:00の開催（枯山水体験（秋のまるごと体験市））。無料。当日順次ご案内。",
+        "unsupported_axes": [],
+        "evidence": [
+          {
+            "url": "https://www.shibamatakawajin-machinamikan.jp/news/%e7%a7%8b%e3%81%ae%e3%81%be%e3%82%8b%e3%81%94%e3%81%a8%e4%bd%93%e9%a8%93%e5%b8%822026/",
+            "quote": "砂をならし、石を据え、砂紋を描いてみましょう。",
+            "checked_at": "2026-11-20",
+            "sha256": "404b33c4a047cb6490b38740cd90303970bcd7e2dcdfba49511b9414a479bdca",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "柴又川甚まちなみ館公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.shibamatakawajin-machinamikan.jp/news/%e7%a7%8b%e3%81%ae%e3%81%be%e3%82%8b%e3%81%94%e3%81%a8%e4%bd%93%e9%a8%93%e5%b8%822026/",
+            "quote": "時間①10:00～13:00②14:00～16:00場所11月28日（土）公園／11月29日（日）2階参加費無料対象どなたでも申込当日順次ご案内",
+            "checked_at": "2026-11-20",
+            "sha256": "9efbef09eb93f235ce9555e13811e775738b625f6dfb3cae722d3d6e19e78507",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "柴又川甚まちなみ館公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.shibamatakawajin-machinamikan.jp/news/%e7%a7%8b%e3%81%ae%e3%81%be%e3%82%8b%e3%81%94%e3%81%a8%e4%bd%93%e9%a8%93%e5%b8%822026/",
+            "quote": "※作品のお持ち帰りはできません。",
+            "checked_at": "2026-11-20",
+            "sha256": "5e1a084371ee6f2f75c7052eed8234d6c017743a27b3ca4c7148d64d2848e537",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "柴又川甚まちなみ館公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-20",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  },
+  {
+    "id": "verified-20261129-katsushika-kawajin-karesansui",
+    "ward": "葛飾区",
+    "name": "枯山水体験（秋のまるごと体験市）",
+    "url": "https://www.shibamatakawajin-machinamikan.jp/news/%e7%a7%8b%e3%81%ae%e3%81%be%e3%82%8b%e3%81%94%e3%81%a8%e4%bd%93%e9%a8%93%e5%b8%822026/",
+    "official_url": "https://www.shibamatakawajin-machinamikan.jp/news/%e7%a7%8b%e3%81%ae%e3%81%be%e3%82%8b%e3%81%94%e3%81%a8%e4%bd%93%e9%a8%93%e5%b8%822026/",
+    "source": "https://www.shibamatakawajin-machinamikan.jp/news/%e7%a7%8b%e3%81%ae%e3%81%be%e3%82%8b%e3%81%94%e3%81%a8%e4%bd%93%e9%a8%93%e5%b8%822026/",
+    "image": "",
+    "period": "11/29(日)",
+    "date_start": "2026-11-29",
+    "date_end": "2026-11-29",
+    "time": "10:00〜13:00／14:00〜16:00",
+    "venue": "11/28は公園、11/29は2階",
+    "price": "無料",
+    "description": "箱庭サイズの枯山水庭園で、砂をならし石を据えて砂紋を描く体験。どなたでも参加でき、当日順次案内。作品の持ち帰りは不可。",
+    "categories": [
+      "体験",
+      "工作"
+    ],
+    "indoor_outdoor": "屋内・屋外",
+    "reservation": {
+      "required": false,
+      "note": "当日順次ご案内。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "11/29(日)、柴又川甚まちなみ館で枯山水体験。対象がどなたでもと明記。料金は無料。当日順次ご案内。",
+      "axes": {
+        "child_target": {
+          "grade": "B",
+          "reason": "対象がどなたでもと明記"
+        },
+        "interactivity": {
+          "grade": "B",
+          "reason": "体験・参加型の内容"
+        },
+        "age_fit": {
+          "grade": "B",
+          "reason": "対象がどなたでもと明記"
+        },
+        "stay_flexibility": {
+          "grade": "B",
+          "reason": "10:00〜13:00／14:00〜16:00"
+        },
+        "burden": {
+          "grade": "A",
+          "reason": "当日順次ご案内。"
+        },
+        "cost": {
+          "grade": "A",
+          "reason": "無料"
+        },
+        "reservation": {
+          "grade": "A",
+          "reason": "当日順次ご案内。"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "箱庭サイズの枯山水庭園で、砂をならし石を据えて砂紋を描く体験。どなたでも参加でき"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-20",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "all_ages",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "無料で参加できる",
+          "砂紋を描く落ち着いた体験"
+        ],
+        "limitations": [
+          "作品は持ち帰れない",
+          "屋外開催日は天候の影響を受ける"
+        ],
+        "grade_comparison": "総合B：11/29(日)の11/28は公園、11/29は2階で10:00〜13:00／14:00〜16:00の開催（枯山水体験（秋のまるごと体験市））。無料。当日順次ご案内。",
+        "unsupported_axes": [],
+        "evidence": [
+          {
+            "url": "https://www.shibamatakawajin-machinamikan.jp/news/%e7%a7%8b%e3%81%ae%e3%81%be%e3%82%8b%e3%81%94%e3%81%a8%e4%bd%93%e9%a8%93%e5%b8%822026/",
+            "quote": "砂をならし、石を据え、砂紋を描いてみましょう。",
+            "checked_at": "2026-11-20",
+            "sha256": "404b33c4a047cb6490b38740cd90303970bcd7e2dcdfba49511b9414a479bdca",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "柴又川甚まちなみ館公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.shibamatakawajin-machinamikan.jp/news/%e7%a7%8b%e3%81%ae%e3%81%be%e3%82%8b%e3%81%94%e3%81%a8%e4%bd%93%e9%a8%93%e5%b8%822026/",
+            "quote": "時間①10:00～13:00②14:00～16:00場所11月28日（土）公園／11月29日（日）2階参加費無料対象どなたでも申込当日順次ご案内",
+            "checked_at": "2026-11-20",
+            "sha256": "9efbef09eb93f235ce9555e13811e775738b625f6dfb3cae722d3d6e19e78507",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "柴又川甚まちなみ館公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.shibamatakawajin-machinamikan.jp/news/%e7%a7%8b%e3%81%ae%e3%81%be%e3%82%8b%e3%81%94%e3%81%a8%e4%bd%93%e9%a8%93%e5%b8%822026/",
+            "quote": "※作品のお持ち帰りはできません。",
+            "checked_at": "2026-11-20",
+            "sha256": "5e1a084371ee6f2f75c7052eed8234d6c017743a27b3ca4c7148d64d2848e537",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "柴又川甚まちなみ館公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-20",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  },
+  {
+    "id": "verified-20261128-katsushika-kawajin-dango",
+    "ward": "葛飾区",
+    "name": "食品サンプルづくり「お団子」（秋のまるごと体験市）",
+    "url": "https://www.shibamatakawajin-machinamikan.jp/news/%e7%a7%8b%e3%81%ae%e3%81%be%e3%82%8b%e3%81%94%e3%81%a8%e4%bd%93%e9%a8%93%e5%b8%822026/",
+    "official_url": "https://www.shibamatakawajin-machinamikan.jp/news/%e7%a7%8b%e3%81%ae%e3%81%be%e3%82%8b%e3%81%94%e3%81%a8%e4%bd%93%e9%a8%93%e5%b8%822026/",
+    "source": "https://www.shibamatakawajin-machinamikan.jp/news/%e7%a7%8b%e3%81%ae%e3%81%be%e3%82%8b%e3%81%94%e3%81%a8%e4%bd%93%e9%a8%93%e5%b8%822026/",
+    "image": "",
+    "period": "11/28(土)",
+    "date_start": "2026-11-28",
+    "date_end": "2026-11-28",
+    "time": "10:00〜16:00（各回約30分ごと、整理券）",
+    "venue": "2階体験コーナー",
+    "price": "1,500円",
+    "description": "お団子の食品サンプルを作る体験。小学生以上が対象で、整理券を配布する。",
+    "categories": [
+      "工作",
+      "体験"
+    ],
+    "indoor_outdoor": "屋内",
+    "reservation": {
+      "required": true,
+      "note": "整理券配布（午前9:45〜／午後12:45〜）。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "11/28(土)、柴又川甚まちなみ館で食品サンプルづくり「お団子」。小学生以上が対象。料金は1,500円。整理券配布（午前9:45〜／午後12:45〜）。",
+      "axes": {
+        "child_target": {
+          "grade": "B",
+          "reason": "小学生以上が対象"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "体験・参加型の内容"
+        },
+        "age_fit": {
+          "grade": "B",
+          "reason": "小学生以上が対象"
+        },
+        "stay_flexibility": {
+          "grade": "B",
+          "reason": "10:00〜16:00（各回約30分ごと、整理券）"
+        },
+        "burden": {
+          "grade": "B",
+          "reason": "整理券配布（午前9:45〜／午後12:45〜）。"
+        },
+        "cost": {
+          "grade": "C",
+          "reason": "1,500円"
+        },
+        "reservation": {
+          "grade": "C",
+          "reason": "整理券配布（午前9:45〜／午後12:45〜）。"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "お団子の食品サンプルを作る体験。小学生以上が対象で、整理券を配布する。"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-20",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "age_eligible",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "食品サンプルを実際に作れる"
+        ],
+        "limitations": [
+          "小学生以上が対象",
+          "整理券が必要で1,500円"
+        ],
+        "grade_comparison": "総合B：11/28(土)の2階体験コーナーで10:00〜16:00（各回約30分ごと、整理券）の開催（食品サンプルづくり「お団子」（秋のまるごと体験市））。1,500円。整理券配布（午前9:45〜／午後12:45〜）。",
+        "unsupported_axes": [],
+        "evidence": [
+          {
+            "url": "https://www.shibamatakawajin-machinamikan.jp/news/%e7%a7%8b%e3%81%ae%e3%81%be%e3%82%8b%e3%81%94%e3%81%a8%e4%bd%93%e9%a8%93%e5%b8%822026/",
+            "quote": "お団子作りの食品サンプルを作ってみましょう。",
+            "checked_at": "2026-11-20",
+            "sha256": "7203200deb270b528ba848028d0fd567d479112547ac91d9625cc1cad101f983",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "柴又川甚まちなみ館公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.shibamatakawajin-machinamikan.jp/news/%e7%a7%8b%e3%81%ae%e3%81%be%e3%82%8b%e3%81%94%e3%81%a8%e4%bd%93%e9%a8%93%e5%b8%822026/",
+            "quote": "場所2階体験コーナー参加費1,500円対象小学生以上定員各回8名整理券配布",
+            "checked_at": "2026-11-20",
+            "sha256": "3bac33bc219d74cbbbadf1bcfad5dc0cdcd21d0ebd204f1b21aa976d168b1af9",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "柴又川甚まちなみ館公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.shibamatakawajin-machinamikan.jp/news/%e7%a7%8b%e3%81%ae%e3%81%be%e3%82%8b%e3%81%94%e3%81%a8%e4%bd%93%e9%a8%93%e5%b8%822026/",
+            "quote": "午前の回（①～④）9:45～／午後の回（⑤～⑩）12:45～",
+            "checked_at": "2026-11-20",
+            "sha256": "068e1bf15272ef0c4cb0cf082abf4b38d30aa2fd2c8f8c4da8c744d38af3cd71",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "柴又川甚まちなみ館公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-20",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  },
+  {
+    "id": "verified-20261129-katsushika-kawajin-pickles",
+    "ward": "葛飾区",
+    "name": "可愛く映えるピクルス作り体験（秋のまるごと体験市）",
+    "url": "https://www.shibamatakawajin-machinamikan.jp/news/%e7%a7%8b%e3%81%ae%e3%81%be%e3%82%8b%e3%81%94%e3%81%a8%e4%bd%93%e9%a8%93%e5%b8%822026/",
+    "official_url": "https://www.shibamatakawajin-machinamikan.jp/news/%e7%a7%8b%e3%81%ae%e3%81%be%e3%82%8b%e3%81%94%e3%81%a8%e4%bd%93%e9%a8%93%e5%b8%822026/",
+    "source": "https://www.shibamatakawajin-machinamikan.jp/news/%e7%a7%8b%e3%81%ae%e3%81%be%e3%82%8b%e3%81%94%e3%81%a8%e4%bd%93%e9%a8%93%e5%b8%822026/",
+    "image": "",
+    "period": "11/29(日)",
+    "date_start": "2026-11-29",
+    "date_end": "2026-11-29",
+    "time": "10:00〜12:00／13:30〜15:30",
+    "venue": "2階体験コーナー",
+    "price": "500円",
+    "description": "葛飾で育った野菜を使い、色とりどりのオリジナルピクルスを作る体験。どなたでも参加でき、整理券を配布する。",
+    "categories": [
+      "料理",
+      "体験"
+    ],
+    "indoor_outdoor": "屋内",
+    "reservation": {
+      "required": true,
+      "note": "整理券配布（午前9:45〜／午後13:15〜）。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "11/29(日)、柴又川甚まちなみ館で可愛く映えるピクルス作り体験。対象がどなたでも。料金は500円。整理券配布（午前9:45〜／午後13:15〜）。",
+      "axes": {
+        "child_target": {
+          "grade": "B",
+          "reason": "対象がどなたでも"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "体験・参加型の内容"
+        },
+        "age_fit": {
+          "grade": "B",
+          "reason": "対象がどなたでも"
+        },
+        "stay_flexibility": {
+          "grade": "B",
+          "reason": "10:00〜12:00／13:30〜15:30"
+        },
+        "burden": {
+          "grade": "B",
+          "reason": "整理券配布（午前9:45〜／午後13:15〜）。"
+        },
+        "cost": {
+          "grade": "B",
+          "reason": "500円"
+        },
+        "reservation": {
+          "grade": "C",
+          "reason": "整理券配布（午前9:45〜／午後13:15〜）。"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "葛飾で育った野菜を使い、色とりどりのオリジナルピクルスを作る体験。どなたでも参加"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-20",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "all_ages",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "野菜でオリジナルピクルスを作れる"
+        ],
+        "limitations": [
+          "整理券が必要",
+          "定員が限られる"
+        ],
+        "grade_comparison": "総合B：11/29(日)の2階体験コーナーで10:00〜12:00／13:30〜15:30の開催（可愛く映えるピクルス作り体験（秋のまるごと体験市））。500円。整理券配布（午前9:45〜／午後13:15〜）。",
+        "unsupported_axes": [],
+        "evidence": [
+          {
+            "url": "https://www.shibamatakawajin-machinamikan.jp/news/%e7%a7%8b%e3%81%ae%e3%81%be%e3%82%8b%e3%81%94%e3%81%a8%e4%bd%93%e9%a8%93%e5%b8%822026/",
+            "quote": "葛飾で生まれたおいしい野菜を使って、色とりどりのオリジナルピクルスを作ります。",
+            "checked_at": "2026-11-20",
+            "sha256": "4ea895736b670d0b4471f2581969e47d44c57c53f8a48cd7012519b36c7855e6",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "柴又川甚まちなみ館公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.shibamatakawajin-machinamikan.jp/news/%e7%a7%8b%e3%81%ae%e3%81%be%e3%82%8b%e3%81%94%e3%81%a8%e4%bd%93%e9%a8%93%e5%b8%822026/",
+            "quote": "場所2階体験コーナー参加費500円対象どなたでも定員①30個②20個整理券配布",
+            "checked_at": "2026-11-20",
+            "sha256": "e73fdf6c60504e7d44ee6aa2eebd277e61a8790bf96a225fb072f041880d23b0",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "柴又川甚まちなみ館公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.shibamatakawajin-machinamikan.jp/news/%e7%a7%8b%e3%81%ae%e3%81%be%e3%82%8b%e3%81%94%e3%81%a8%e4%bd%93%e9%a8%93%e5%b8%822026/",
+            "quote": "午前の回9:45～／午後の回13:15～",
+            "checked_at": "2026-11-20",
+            "sha256": "a7dc03c87989d2b29e91ec5f0cf8c04f6cdd943a92f777efb059c91c34a161f5",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "柴又川甚まちなみ館公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-20",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  },
+  {
+    "id": "verified-20261128-katsushika-kawajin-owara",
+    "ward": "葛飾区",
+    "name": "おわら踊りワークショップ（秋のまるごと体験市）",
+    "url": "https://www.shibamatakawajin-machinamikan.jp/news/%e7%a7%8b%e3%81%ae%e3%81%be%e3%82%8b%e3%81%94%e3%81%a8%e4%bd%93%e9%a8%93%e5%b8%822026/",
+    "official_url": "https://www.shibamatakawajin-machinamikan.jp/news/%e7%a7%8b%e3%81%ae%e3%81%be%e3%82%8b%e3%81%94%e3%81%a8%e4%bd%93%e9%a8%93%e5%b8%822026/",
+    "source": "https://www.shibamatakawajin-machinamikan.jp/news/%e7%a7%8b%e3%81%ae%e3%81%be%e3%82%8b%e3%81%94%e3%81%a8%e4%bd%93%e9%a8%93%e5%b8%822026/",
+    "image": "",
+    "period": "11/28(土)",
+    "date_start": "2026-11-28",
+    "date_end": "2026-11-28",
+    "time": "11:30〜12:30／14:00〜15:00",
+    "venue": "2階展示コーナー（輪踊りは公園）",
+    "price": "無料",
+    "description": "おわら踊りを教わり、三味線と胡弓に合わせてみんなで踊る。どなたでも参加でき、無料。",
+    "categories": [
+      "体験",
+      "伝統文化"
+    ],
+    "indoor_outdoor": "屋内・屋外",
+    "reservation": {
+      "required": false,
+      "note": "開始時間に会場へ集合。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "11/28(土)、柴又川甚まちなみ館でおわら踊りワークショップ。対象がどなたでも。料金は無料。開始時間に会場へ集合。",
+      "axes": {
+        "child_target": {
+          "grade": "B",
+          "reason": "対象がどなたでも"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "体験・参加型の内容"
+        },
+        "age_fit": {
+          "grade": "B",
+          "reason": "対象がどなたでも"
+        },
+        "stay_flexibility": {
+          "grade": "B",
+          "reason": "11:30〜12:30／14:00〜15:00"
+        },
+        "burden": {
+          "grade": "A",
+          "reason": "開始時間に会場へ集合。"
+        },
+        "cost": {
+          "grade": "A",
+          "reason": "無料"
+        },
+        "reservation": {
+          "grade": "A",
+          "reason": "開始時間に会場へ集合。"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "おわら踊りを教わり、三味線と胡弓に合わせてみんなで踊る。どなたでも参加でき、無料"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-20",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "all_ages",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "無料で踊りを体験できる",
+          "事前申込なし"
+        ],
+        "limitations": [
+          "各回20名程度の定員"
+        ],
+        "grade_comparison": "総合B：11/28(土)の2階展示コーナー（輪踊りは公園）で11:30〜12:30／14:00〜15:00の開催（おわら踊りワークショップ（秋のまるごと体験市））。無料。開始時間に会場へ集合。",
+        "unsupported_axes": [],
+        "evidence": [
+          {
+            "url": "https://www.shibamatakawajin-machinamikan.jp/news/%e7%a7%8b%e3%81%ae%e3%81%be%e3%82%8b%e3%81%94%e3%81%a8%e4%bd%93%e9%a8%93%e5%b8%822026/",
+            "quote": "おわら踊りを教わり、三味線と胡弓に合わせてみんなで踊りましょう。",
+            "checked_at": "2026-11-20",
+            "sha256": "6a828f3e0616e2d5c5139d1e628c3b21b59976b1282f3db247a8b26323bd5f17",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "柴又川甚まちなみ館公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.shibamatakawajin-machinamikan.jp/news/%e7%a7%8b%e3%81%ae%e3%81%be%e3%82%8b%e3%81%94%e3%81%a8%e4%bd%93%e9%a8%93%e5%b8%822026/",
+            "quote": "時間①11:30～12:30（輪踊り12:00～12:30）／②14:00～15:00（輪踊り14:30～15:00）",
+            "checked_at": "2026-11-20",
+            "sha256": "ee445a7a61b08a464dbad9caa64213dda5b110a50df8b61547290ccef2f4839c",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "柴又川甚まちなみ館公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.shibamatakawajin-machinamikan.jp/news/%e7%a7%8b%e3%81%ae%e3%81%be%e3%82%8b%e3%81%94%e3%81%a8%e4%bd%93%e9%a8%93%e5%b8%822026/",
+            "quote": "場所2階展示コーナー（輪踊りは公園で実施）参加費無料対象どなたでも定員各回20名程度",
+            "checked_at": "2026-11-20",
+            "sha256": "a4dc4b053cb2727c0f2dd5854221796381b58549271aef15adc8632678a100fb",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "柴又川甚まちなみ館公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-20",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  },
+  {
+    "id": "verified-20261129-katsushika-kawajin-awa",
+    "ward": "葛飾区",
+    "name": "阿波おどりワークショップ（秋のまるごと体験市）",
+    "url": "https://www.shibamatakawajin-machinamikan.jp/news/%e7%a7%8b%e3%81%ae%e3%81%be%e3%82%8b%e3%81%94%e3%81%a8%e4%bd%93%e9%a8%93%e5%b8%822026/",
+    "official_url": "https://www.shibamatakawajin-machinamikan.jp/news/%e7%a7%8b%e3%81%ae%e3%81%be%e3%82%8b%e3%81%94%e3%81%a8%e4%bd%93%e9%a8%93%e5%b8%822026/",
+    "source": "https://www.shibamatakawajin-machinamikan.jp/news/%e7%a7%8b%e3%81%ae%e3%81%be%e3%82%8b%e3%81%94%e3%81%a8%e4%bd%93%e9%a8%93%e5%b8%822026/",
+    "image": "",
+    "period": "11/29(日)",
+    "date_start": "2026-11-29",
+    "date_end": "2026-11-29",
+    "time": "11:00〜11:30／13:30〜14:00",
+    "venue": "公園",
+    "price": "無料",
+    "description": "かつしか青藍連と一緒に阿波踊りを楽しむ体験。どなたでも参加でき、無料。",
+    "categories": [
+      "体験",
+      "伝統文化"
+    ],
+    "indoor_outdoor": "屋外",
+    "reservation": {
+      "required": false,
+      "note": "開始時間に会場へ集合。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "11/29(日)、柴又川甚まちなみ館で阿波おどりワークショップ。対象がどなたでも。料金は無料。開始時間に会場へ集合。",
+      "axes": {
+        "child_target": {
+          "grade": "B",
+          "reason": "対象がどなたでも"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "体験・参加型の内容"
+        },
+        "age_fit": {
+          "grade": "B",
+          "reason": "対象がどなたでも"
+        },
+        "stay_flexibility": {
+          "grade": "B",
+          "reason": "11:00〜11:30／13:30〜14:00"
+        },
+        "burden": {
+          "grade": "A",
+          "reason": "開始時間に会場へ集合。"
+        },
+        "cost": {
+          "grade": "A",
+          "reason": "無料"
+        },
+        "reservation": {
+          "grade": "A",
+          "reason": "開始時間に会場へ集合。"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "かつしか青藍連と一緒に阿波踊りを楽しむ体験。どなたでも参加でき、無料。"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-20",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "all_ages",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "無料で阿波踊りを体験できる"
+        ],
+        "limitations": [
+          "屋外のため天候の影響を受ける"
+        ],
+        "grade_comparison": "総合B：11/29(日)の公園で11:00〜11:30／13:30〜14:00の開催（阿波おどりワークショップ（秋のまるごと体験市））。無料。開始時間に会場へ集合。",
+        "unsupported_axes": [],
+        "evidence": [
+          {
+            "url": "https://www.shibamatakawajin-machinamikan.jp/news/%e7%a7%8b%e3%81%ae%e3%81%be%e3%82%8b%e3%81%94%e3%81%a8%e4%bd%93%e9%a8%93%e5%b8%822026/",
+            "quote": "かつしか青藍連と一緒に、阿波踊りを楽しもう！",
+            "checked_at": "2026-11-20",
+            "sha256": "e4c34b2e7b4a9bff398ea0acd48766c3c0bbd13bdcb05bc78870fa7ee025d4d4",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "柴又川甚まちなみ館公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.shibamatakawajin-machinamikan.jp/news/%e7%a7%8b%e3%81%ae%e3%81%be%e3%82%8b%e3%81%94%e3%81%a8%e4%bd%93%e9%a8%93%e5%b8%822026/",
+            "quote": "時間①11:00～11:30②13:30～14:00場所公園参加費無料対象どなたでも",
+            "checked_at": "2026-11-20",
+            "sha256": "965dc80d10720735782d877517e557f8be0c6bcd9026299fe3cf04d864bbde06",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "柴又川甚まちなみ館公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-20",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  },
+  {
+    "id": "verified-20261129-katsushika-kawajin-taiko",
+    "ward": "葛飾区",
+    "name": "大江戸華太鼓 ステージ＆ワークショップ（秋のまるごと体験市）",
+    "url": "https://www.shibamatakawajin-machinamikan.jp/news/%e7%a7%8b%e3%81%ae%e3%81%be%e3%82%8b%e3%81%94%e3%81%a8%e4%bd%93%e9%a8%93%e5%b8%822026/",
+    "official_url": "https://www.shibamatakawajin-machinamikan.jp/news/%e7%a7%8b%e3%81%ae%e3%81%be%e3%82%8b%e3%81%94%e3%81%a8%e4%bd%93%e9%a8%93%e5%b8%822026/",
+    "source": "https://www.shibamatakawajin-machinamikan.jp/news/%e7%a7%8b%e3%81%ae%e3%81%be%e3%82%8b%e3%81%94%e3%81%a8%e4%bd%93%e9%a8%93%e5%b8%822026/",
+    "image": "",
+    "period": "11/29(日)",
+    "date_start": "2026-11-29",
+    "date_end": "2026-11-29",
+    "time": "10:00〜10:40／13:00〜13:30",
+    "venue": "公園",
+    "price": "無料",
+    "description": "大江戸華太鼓のステージを見て、太鼓を体験できる。どなたでも参加でき、無料。",
+    "categories": [
+      "体験",
+      "伝統文化"
+    ],
+    "indoor_outdoor": "屋外",
+    "reservation": {
+      "required": false,
+      "note": "開始時間に会場へ集合。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "11/29(日)、柴又川甚まちなみ館で大江戸華太鼓 ステージ＆ワークショップ。対象がどなたでも。料金は無料。開始時間に会場へ集合。",
+      "axes": {
+        "child_target": {
+          "grade": "B",
+          "reason": "対象がどなたでも"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "体験・参加型の内容"
+        },
+        "age_fit": {
+          "grade": "B",
+          "reason": "対象がどなたでも"
+        },
+        "stay_flexibility": {
+          "grade": "B",
+          "reason": "10:00〜10:40／13:00〜13:30"
+        },
+        "burden": {
+          "grade": "A",
+          "reason": "開始時間に会場へ集合。"
+        },
+        "cost": {
+          "grade": "A",
+          "reason": "無料"
+        },
+        "reservation": {
+          "grade": "A",
+          "reason": "開始時間に会場へ集合。"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "大江戸華太鼓のステージを見て、太鼓を体験できる。どなたでも参加でき、無料。"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-20",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "all_ages",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "太鼓の演奏を見て体験できる"
+        ],
+        "limitations": [
+          "屋外のため天候の影響を受ける"
+        ],
+        "grade_comparison": "総合B：11/29(日)の公園で10:00〜10:40／13:00〜13:30の開催（大江戸華太鼓 ステージ＆ワークショップ（秋のまるごと体験市））。無料。開始時間に会場へ集合。",
+        "unsupported_axes": [],
+        "evidence": [
+          {
+            "url": "https://www.shibamatakawajin-machinamikan.jp/news/%e7%a7%8b%e3%81%ae%e3%81%be%e3%82%8b%e3%81%94%e3%81%a8%e4%bd%93%e9%a8%93%e5%b8%822026/",
+            "quote": "大江戸華太鼓を体験してみよう",
+            "checked_at": "2026-11-20",
+            "sha256": "e9dfdd4b989cc74af13778ea4519d10c51957d5e6e94bb05ef4c6446e10c2098",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "柴又川甚まちなみ館公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.shibamatakawajin-machinamikan.jp/news/%e7%a7%8b%e3%81%ae%e3%81%be%e3%82%8b%e3%81%94%e3%81%a8%e4%bd%93%e9%a8%93%e5%b8%822026/",
+            "quote": "時間①10:00～10:40②13:00～13:30場所公園参加費無料対象どなたでも",
+            "checked_at": "2026-11-20",
+            "sha256": "c88c745dd54b60af12379b6e656e5715a04cdd0cce9f1cd8e6ccd1af4ab6625a",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "柴又川甚まちなみ館公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-20",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  },
+  {
+    "id": "verified-20261129-katsushika-kawajin-bathbomb",
+    "ward": "葛飾区",
+    "name": "和ハーブのバスボムづくり（秋のまるごと体験市）",
+    "url": "https://www.shibamatakawajin-machinamikan.jp/news/%e7%a7%8b%e3%81%ae%e3%81%be%e3%82%8b%e3%81%94%e3%81%a8%e4%bd%93%e9%a8%93%e5%b8%822026/",
+    "official_url": "https://www.shibamatakawajin-machinamikan.jp/news/%e7%a7%8b%e3%81%ae%e3%81%be%e3%82%8b%e3%81%94%e3%81%a8%e4%bd%93%e9%a8%93%e5%b8%822026/",
+    "source": "https://www.shibamatakawajin-machinamikan.jp/news/%e7%a7%8b%e3%81%ae%e3%81%be%e3%82%8b%e3%81%94%e3%81%a8%e4%bd%93%e9%a8%93%e5%b8%822026/",
+    "image": "",
+    "period": "11/29(日)",
+    "date_start": "2026-11-29",
+    "date_end": "2026-11-29",
+    "time": "11:00〜16:30（各回約30分ごと、整理券）",
+    "venue": "2階展示コーナー",
+    "price": "500円",
+    "description": "ユズやヒノキなどのエッセンシャルオイルを使い、和ハーブのバスボムを作る体験。どなたでも参加でき、整理券を配布する。",
+    "categories": [
+      "工作",
+      "体験"
+    ],
+    "indoor_outdoor": "屋内",
+    "reservation": {
+      "required": true,
+      "note": "整理券配布（午前10:45〜／午後13:45〜）。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "11/29(日)、柴又川甚まちなみ館で和ハーブのバスボムづくり。対象がどなたでも。料金は500円。整理券配布（午前10:45〜／午後13:45〜）。",
+      "axes": {
+        "child_target": {
+          "grade": "B",
+          "reason": "対象がどなたでも"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "体験・参加型の内容"
+        },
+        "age_fit": {
+          "grade": "B",
+          "reason": "対象がどなたでも"
+        },
+        "stay_flexibility": {
+          "grade": "B",
+          "reason": "11:00〜16:30（各回約30分ごと、整理券）"
+        },
+        "burden": {
+          "grade": "B",
+          "reason": "整理券配布（午前10:45〜／午後13:45〜）。"
+        },
+        "cost": {
+          "grade": "B",
+          "reason": "500円"
+        },
+        "reservation": {
+          "grade": "C",
+          "reason": "整理券配布（午前10:45〜／午後13:45〜）。"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "ユズやヒノキなどのエッセンシャルオイルを使い、和ハーブのバスボムを作る体験。どな"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-20",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "all_ages",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "バスボムを自分で作れる"
+        ],
+        "limitations": [
+          "整理券が必要",
+          "各回8名の少人数"
+        ],
+        "grade_comparison": "総合B：11/29(日)の2階展示コーナーで11:00〜16:30（各回約30分ごと、整理券）の開催（和ハーブのバスボムづくり（秋のまるごと体験市））。500円。整理券配布（午前10:45〜／午後13:45〜）。",
+        "unsupported_axes": [],
+        "evidence": [
+          {
+            "url": "https://www.shibamatakawajin-machinamikan.jp/news/%e7%a7%8b%e3%81%ae%e3%81%be%e3%82%8b%e3%81%94%e3%81%a8%e4%bd%93%e9%a8%93%e5%b8%822026/",
+            "quote": "アロマエッセンシャルオイルを使って、和ハーブのバスボムを作ります。",
+            "checked_at": "2026-11-20",
+            "sha256": "1977ce6518d442a5536fbe5a16da64a93abb3e1f3b4200c5a4bbbb79bc5e94cf",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "柴又川甚まちなみ館公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.shibamatakawajin-machinamikan.jp/news/%e7%a7%8b%e3%81%ae%e3%81%be%e3%82%8b%e3%81%94%e3%81%a8%e4%bd%93%e9%a8%93%e5%b8%822026/",
+            "quote": "場所2階展示コーナー参加費500円対象どなたでも定員各回8名整理券配布",
+            "checked_at": "2026-11-20",
+            "sha256": "65c3113d7691fe9771faf8c33d85b30d9f40e16366fea66ea01ccd3ed37fb9d1",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "柴又川甚まちなみ館公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.shibamatakawajin-machinamikan.jp/news/%e7%a7%8b%e3%81%ae%e3%81%be%e3%82%8b%e3%81%94%e3%81%a8%e4%bd%93%e9%a8%93%e5%b8%822026/",
+            "quote": "午前の回（①～④）10:45～／午後の回（⑤～⑩）13:45～",
+            "checked_at": "2026-11-20",
+            "sha256": "96f3ee6196c96cfd38b4526ebe4a211c877ca9aec03348559ca824c4ef5de82f",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "柴又川甚まちなみ館公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-20",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  },
+  {
+    "id": "verified-20261128-katsushika-kawajin-papercup",
+    "ward": "葛飾区",
+    "name": "紙コップを使ったギフト作り（秋のまるごと体験市）",
+    "url": "https://www.shibamatakawajin-machinamikan.jp/news/%e7%a7%8b%e3%81%ae%e3%81%be%e3%82%8b%e3%81%94%e3%81%a8%e4%bd%93%e9%a8%93%e5%b8%822026/",
+    "official_url": "https://www.shibamatakawajin-machinamikan.jp/news/%e7%a7%8b%e3%81%ae%e3%81%be%e3%82%8b%e3%81%94%e3%81%a8%e4%bd%93%e9%a8%93%e5%b8%822026/",
+    "source": "https://www.shibamatakawajin-machinamikan.jp/news/%e7%a7%8b%e3%81%ae%e3%81%be%e3%82%8b%e3%81%94%e3%81%a8%e4%bd%93%e9%a8%93%e5%b8%822026/",
+    "image": "",
+    "period": "11/28(土)",
+    "date_start": "2026-11-28",
+    "date_end": "2026-11-28",
+    "time": "10:00〜14:00／15:00〜17:00",
+    "venue": "3階多目的ホール",
+    "price": "200円",
+    "description": "紙コップでかわいいギフトカップを作る体験。どなたでも参加でき、当日順次案内。",
+    "categories": [
+      "工作",
+      "体験"
+    ],
+    "indoor_outdoor": "屋内",
+    "reservation": {
+      "required": false,
+      "note": "当日順次ご案内。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "11/28(土)、柴又川甚まちなみ館で紙コップを使ったギフト作り。対象がどなたでも。料金は200円。当日順次ご案内。",
+      "axes": {
+        "child_target": {
+          "grade": "B",
+          "reason": "対象がどなたでも"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "体験・参加型の内容"
+        },
+        "age_fit": {
+          "grade": "B",
+          "reason": "対象がどなたでも"
+        },
+        "stay_flexibility": {
+          "grade": "B",
+          "reason": "10:00〜14:00／15:00〜17:00"
+        },
+        "burden": {
+          "grade": "A",
+          "reason": "当日順次ご案内。"
+        },
+        "cost": {
+          "grade": "B",
+          "reason": "200円"
+        },
+        "reservation": {
+          "grade": "A",
+          "reason": "当日順次ご案内。"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "紙コップでかわいいギフトカップを作る体験。どなたでも参加でき、当日順次案内。"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-20",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "all_ages",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "200円で工作できる",
+          "当日参加できる"
+        ],
+        "limitations": [
+          "定員は各日100個"
+        ],
+        "grade_comparison": "総合B：11/28(土)の3階多目的ホールで10:00〜14:00／15:00〜17:00の開催（紙コップを使ったギフト作り（秋のまるごと体験市））。200円。当日順次ご案内。",
+        "unsupported_axes": [],
+        "evidence": [
+          {
+            "url": "https://www.shibamatakawajin-machinamikan.jp/news/%e7%a7%8b%e3%81%ae%e3%81%be%e3%82%8b%e3%81%94%e3%81%a8%e4%bd%93%e9%a8%93%e5%b8%822026/",
+            "quote": "紙コップでかわいいギフトカップを作ります。",
+            "checked_at": "2026-11-20",
+            "sha256": "840ffd561100951798013657aa8f9a65c5a493e8f55941b8058e2858208881d0",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "柴又川甚まちなみ館公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.shibamatakawajin-machinamikan.jp/news/%e7%a7%8b%e3%81%ae%e3%81%be%e3%82%8b%e3%81%94%e3%81%a8%e4%bd%93%e9%a8%93%e5%b8%822026/",
+            "quote": "開催日11月28日（土）・29日（日）時間10:00～14:00／15:00～17:00参加費200円対象どなたでも定員各日100個場所3階多目的ホール申込当日順次ご案内",
+            "checked_at": "2026-11-20",
+            "sha256": "8cb4bad4ecbec40e64879ae239c880349a7ff4b76dfc2e96314ff8d79229940b",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "柴又川甚まちなみ館公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-20",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  },
+  {
+    "id": "verified-20261129-katsushika-kawajin-papercup",
+    "ward": "葛飾区",
+    "name": "紙コップを使ったギフト作り（秋のまるごと体験市）",
+    "url": "https://www.shibamatakawajin-machinamikan.jp/news/%e7%a7%8b%e3%81%ae%e3%81%be%e3%82%8b%e3%81%94%e3%81%a8%e4%bd%93%e9%a8%93%e5%b8%822026/",
+    "official_url": "https://www.shibamatakawajin-machinamikan.jp/news/%e7%a7%8b%e3%81%ae%e3%81%be%e3%82%8b%e3%81%94%e3%81%a8%e4%bd%93%e9%a8%93%e5%b8%822026/",
+    "source": "https://www.shibamatakawajin-machinamikan.jp/news/%e7%a7%8b%e3%81%ae%e3%81%be%e3%82%8b%e3%81%94%e3%81%a8%e4%bd%93%e9%a8%93%e5%b8%822026/",
+    "image": "",
+    "period": "11/29(日)",
+    "date_start": "2026-11-29",
+    "date_end": "2026-11-29",
+    "time": "10:00〜14:00／15:00〜17:00",
+    "venue": "3階多目的ホール",
+    "price": "200円",
+    "description": "紙コップでかわいいギフトカップを作る体験。どなたでも参加でき、当日順次案内。",
+    "categories": [
+      "工作",
+      "体験"
+    ],
+    "indoor_outdoor": "屋内",
+    "reservation": {
+      "required": false,
+      "note": "当日順次ご案内。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "11/29(日)、柴又川甚まちなみ館で紙コップを使ったギフト作り。対象がどなたでも。料金は200円。当日順次ご案内。",
+      "axes": {
+        "child_target": {
+          "grade": "B",
+          "reason": "対象がどなたでも"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "体験・参加型の内容"
+        },
+        "age_fit": {
+          "grade": "B",
+          "reason": "対象がどなたでも"
+        },
+        "stay_flexibility": {
+          "grade": "B",
+          "reason": "10:00〜14:00／15:00〜17:00"
+        },
+        "burden": {
+          "grade": "A",
+          "reason": "当日順次ご案内。"
+        },
+        "cost": {
+          "grade": "B",
+          "reason": "200円"
+        },
+        "reservation": {
+          "grade": "A",
+          "reason": "当日順次ご案内。"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "紙コップでかわいいギフトカップを作る体験。どなたでも参加でき、当日順次案内。"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-20",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "all_ages",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "200円で工作できる",
+          "当日参加できる"
+        ],
+        "limitations": [
+          "定員は各日100個"
+        ],
+        "grade_comparison": "総合B：11/29(日)の3階多目的ホールで10:00〜14:00／15:00〜17:00の開催（紙コップを使ったギフト作り（秋のまるごと体験市））。200円。当日順次ご案内。",
+        "unsupported_axes": [],
+        "evidence": [
+          {
+            "url": "https://www.shibamatakawajin-machinamikan.jp/news/%e7%a7%8b%e3%81%ae%e3%81%be%e3%82%8b%e3%81%94%e3%81%a8%e4%bd%93%e9%a8%93%e5%b8%822026/",
+            "quote": "紙コップでかわいいギフトカップを作ります。",
+            "checked_at": "2026-11-20",
+            "sha256": "840ffd561100951798013657aa8f9a65c5a493e8f55941b8058e2858208881d0",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "柴又川甚まちなみ館公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.shibamatakawajin-machinamikan.jp/news/%e7%a7%8b%e3%81%ae%e3%81%be%e3%82%8b%e3%81%94%e3%81%a8%e4%bd%93%e9%a8%93%e5%b8%822026/",
+            "quote": "開催日11月28日（土）・29日（日）時間10:00～14:00／15:00～17:00参加費200円対象どなたでも定員各日100個場所3階多目的ホール申込当日順次ご案内",
+            "checked_at": "2026-11-20",
+            "sha256": "8cb4bad4ecbec40e64879ae239c880349a7ff4b76dfc2e96314ff8d79229940b",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "柴又川甚まちなみ館公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-20",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  },
+  {
+    "id": "verified-20261128-katsushika-kawajin-brooch",
+    "ward": "葛飾区",
+    "name": "ラバーゴムブローチ作り（秋のまるごと体験市）",
+    "url": "https://www.shibamatakawajin-machinamikan.jp/news/%e7%a7%8b%e3%81%ae%e3%81%be%e3%82%8b%e3%81%94%e3%81%a8%e4%bd%93%e9%a8%93%e5%b8%822026/",
+    "official_url": "https://www.shibamatakawajin-machinamikan.jp/news/%e7%a7%8b%e3%81%ae%e3%81%be%e3%82%8b%e3%81%94%e3%81%a8%e4%bd%93%e9%a8%93%e5%b8%822026/",
+    "source": "https://www.shibamatakawajin-machinamikan.jp/news/%e7%a7%8b%e3%81%ae%e3%81%be%e3%82%8b%e3%81%94%e3%81%a8%e4%bd%93%e9%a8%93%e5%b8%822026/",
+    "image": "",
+    "period": "11/28(土)",
+    "date_start": "2026-11-28",
+    "date_end": "2026-11-28",
+    "time": "10:00〜13:00／14:00〜17:00",
+    "venue": "3階多目的ホール",
+    "price": "500円",
+    "description": "シリコーンゴム粘土で花のブローチを作る体験。どなたでも参加でき、当日受付。",
+    "categories": [
+      "工作",
+      "体験"
+    ],
+    "indoor_outdoor": "屋内",
+    "reservation": {
+      "required": false,
+      "note": "当日受付。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "11/28(土)、柴又川甚まちなみ館でラバーゴムブローチ作り。対象がどなたでも。料金は500円。当日受付。",
+      "axes": {
+        "child_target": {
+          "grade": "B",
+          "reason": "対象がどなたでも"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "体験・参加型の内容"
+        },
+        "age_fit": {
+          "grade": "B",
+          "reason": "対象がどなたでも"
+        },
+        "stay_flexibility": {
+          "grade": "B",
+          "reason": "10:00〜13:00／14:00〜17:00"
+        },
+        "burden": {
+          "grade": "A",
+          "reason": "当日受付。"
+        },
+        "cost": {
+          "grade": "B",
+          "reason": "500円"
+        },
+        "reservation": {
+          "grade": "A",
+          "reason": "当日受付。"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "シリコーンゴム粘土で花のブローチを作る体験。どなたでも参加でき、当日受付。"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-20",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "all_ages",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "ゴム粘土で花のブローチを作れる"
+        ],
+        "limitations": [
+          "定員は各日50個"
+        ],
+        "grade_comparison": "総合B：11/28(土)の3階多目的ホールで10:00〜13:00／14:00〜17:00の開催（ラバーゴムブローチ作り（秋のまるごと体験市））。500円。当日受付。",
+        "unsupported_axes": [],
+        "evidence": [
+          {
+            "url": "https://www.shibamatakawajin-machinamikan.jp/news/%e7%a7%8b%e3%81%ae%e3%81%be%e3%82%8b%e3%81%94%e3%81%a8%e4%bd%93%e9%a8%93%e5%b8%822026/",
+            "quote": "シリコーンゴム粘土を使って花のブローチを作ります。",
+            "checked_at": "2026-11-20",
+            "sha256": "aef590f8bc8740a34d3b22af1f78e7de6a0f466cba502ea3dc50524e390de71c",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "柴又川甚まちなみ館公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.shibamatakawajin-machinamikan.jp/news/%e7%a7%8b%e3%81%ae%e3%81%be%e3%82%8b%e3%81%94%e3%81%a8%e4%bd%93%e9%a8%93%e5%b8%822026/",
+            "quote": "開催日11月28日（土）・29日（日）時間10:00～13:00／14:00～17:00参加費500円対象どなたでも定員各日50個場所3階多目的ホール申込当日受付",
+            "checked_at": "2026-11-20",
+            "sha256": "2411308268aa07059b60bc4caac8b422edbcbf77b2b277ba09cdce7c1398574a",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "柴又川甚まちなみ館公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-20",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  },
+  {
+    "id": "verified-20261129-katsushika-kawajin-brooch",
+    "ward": "葛飾区",
+    "name": "ラバーゴムブローチ作り（秋のまるごと体験市）",
+    "url": "https://www.shibamatakawajin-machinamikan.jp/news/%e7%a7%8b%e3%81%ae%e3%81%be%e3%82%8b%e3%81%94%e3%81%a8%e4%bd%93%e9%a8%93%e5%b8%822026/",
+    "official_url": "https://www.shibamatakawajin-machinamikan.jp/news/%e7%a7%8b%e3%81%ae%e3%81%be%e3%82%8b%e3%81%94%e3%81%a8%e4%bd%93%e9%a8%93%e5%b8%822026/",
+    "source": "https://www.shibamatakawajin-machinamikan.jp/news/%e7%a7%8b%e3%81%ae%e3%81%be%e3%82%8b%e3%81%94%e3%81%a8%e4%bd%93%e9%a8%93%e5%b8%822026/",
+    "image": "",
+    "period": "11/29(日)",
+    "date_start": "2026-11-29",
+    "date_end": "2026-11-29",
+    "time": "10:00〜13:00／14:00〜17:00",
+    "venue": "3階多目的ホール",
+    "price": "500円",
+    "description": "シリコーンゴム粘土で花のブローチを作る体験。どなたでも参加でき、当日受付。",
+    "categories": [
+      "工作",
+      "体験"
+    ],
+    "indoor_outdoor": "屋内",
+    "reservation": {
+      "required": false,
+      "note": "当日受付。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "11/29(日)、柴又川甚まちなみ館でラバーゴムブローチ作り。対象がどなたでも。料金は500円。当日受付。",
+      "axes": {
+        "child_target": {
+          "grade": "B",
+          "reason": "対象がどなたでも"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "体験・参加型の内容"
+        },
+        "age_fit": {
+          "grade": "B",
+          "reason": "対象がどなたでも"
+        },
+        "stay_flexibility": {
+          "grade": "B",
+          "reason": "10:00〜13:00／14:00〜17:00"
+        },
+        "burden": {
+          "grade": "A",
+          "reason": "当日受付。"
+        },
+        "cost": {
+          "grade": "B",
+          "reason": "500円"
+        },
+        "reservation": {
+          "grade": "A",
+          "reason": "当日受付。"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "シリコーンゴム粘土で花のブローチを作る体験。どなたでも参加でき、当日受付。"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-20",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "all_ages",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "ゴム粘土で花のブローチを作れる"
+        ],
+        "limitations": [
+          "定員は各日50個"
+        ],
+        "grade_comparison": "総合B：11/29(日)の3階多目的ホールで10:00〜13:00／14:00〜17:00の開催（ラバーゴムブローチ作り（秋のまるごと体験市））。500円。当日受付。",
+        "unsupported_axes": [],
+        "evidence": [
+          {
+            "url": "https://www.shibamatakawajin-machinamikan.jp/news/%e7%a7%8b%e3%81%ae%e3%81%be%e3%82%8b%e3%81%94%e3%81%a8%e4%bd%93%e9%a8%93%e5%b8%822026/",
+            "quote": "シリコーンゴム粘土を使って花のブローチを作ります。",
+            "checked_at": "2026-11-20",
+            "sha256": "aef590f8bc8740a34d3b22af1f78e7de6a0f466cba502ea3dc50524e390de71c",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "柴又川甚まちなみ館公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.shibamatakawajin-machinamikan.jp/news/%e7%a7%8b%e3%81%ae%e3%81%be%e3%82%8b%e3%81%94%e3%81%a8%e4%bd%93%e9%a8%93%e5%b8%822026/",
+            "quote": "開催日11月28日（土）・29日（日）時間10:00～13:00／14:00～17:00参加費500円対象どなたでも定員各日50個場所3階多目的ホール申込当日受付",
+            "checked_at": "2026-11-20",
+            "sha256": "2411308268aa07059b60bc4caac8b422edbcbf77b2b277ba09cdce7c1398574a",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "柴又川甚まちなみ館公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-20",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  },
+  {
+    "id": "verified-20261128-katsushika-kawajin-pouch",
+    "ward": "葛飾区",
+    "name": "フラットポーチデコ（秋のまるごと体験市）",
+    "url": "https://www.shibamatakawajin-machinamikan.jp/news/%e7%a7%8b%e3%81%ae%e3%81%be%e3%82%8b%e3%81%94%e3%81%a8%e4%bd%93%e9%a8%93%e5%b8%822026/",
+    "official_url": "https://www.shibamatakawajin-machinamikan.jp/news/%e7%a7%8b%e3%81%ae%e3%81%be%e3%82%8b%e3%81%94%e3%81%a8%e4%bd%93%e9%a8%93%e5%b8%822026/",
+    "source": "https://www.shibamatakawajin-machinamikan.jp/news/%e7%a7%8b%e3%81%ae%e3%81%be%e3%82%8b%e3%81%94%e3%81%a8%e4%bd%93%e9%a8%93%e5%b8%822026/",
+    "image": "",
+    "period": "11/28(土)",
+    "date_start": "2026-11-28",
+    "date_end": "2026-11-28",
+    "time": "10:00〜14:00／15:00〜17:00",
+    "venue": "3階多目的ホール",
+    "price": "600円",
+    "description": "キャンバス地のフラットポーチに転写シールを貼って、オリジナルのポーチを作る体験。どなたでも参加でき、当日順次案内。",
+    "categories": [
+      "工作",
+      "体験"
+    ],
+    "indoor_outdoor": "屋内",
+    "reservation": {
+      "required": false,
+      "note": "当日順次ご案内。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "11/28(土)、柴又川甚まちなみ館でフラットポーチデコ。対象がどなたでも。料金は600円。当日順次ご案内。",
+      "axes": {
+        "child_target": {
+          "grade": "B",
+          "reason": "対象がどなたでも"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "体験・参加型の内容"
+        },
+        "age_fit": {
+          "grade": "B",
+          "reason": "対象がどなたでも"
+        },
+        "stay_flexibility": {
+          "grade": "B",
+          "reason": "10:00〜14:00／15:00〜17:00"
+        },
+        "burden": {
+          "grade": "A",
+          "reason": "当日順次ご案内。"
+        },
+        "cost": {
+          "grade": "B",
+          "reason": "600円"
+        },
+        "reservation": {
+          "grade": "A",
+          "reason": "当日順次ご案内。"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "キャンバス地のフラットポーチに転写シールを貼って、オリジナルのポーチを作る体験。"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-20",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "all_ages",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "シールでポーチを飾れる"
+        ],
+        "limitations": [
+          "定員は各日40個"
+        ],
+        "grade_comparison": "総合B：11/28(土)の3階多目的ホールで10:00〜14:00／15:00〜17:00の開催（フラットポーチデコ（秋のまるごと体験市））。600円。当日順次ご案内。",
+        "unsupported_axes": [],
+        "evidence": [
+          {
+            "url": "https://www.shibamatakawajin-machinamikan.jp/news/%e7%a7%8b%e3%81%ae%e3%81%be%e3%82%8b%e3%81%94%e3%81%a8%e4%bd%93%e9%a8%93%e5%b8%822026/",
+            "quote": "キャンバス地のフラットポーチに、布用転写シールを自由に貼ってオリジナルのポーチにデコレーションします。",
+            "checked_at": "2026-11-20",
+            "sha256": "9a04cf84aef76a87f34c80bed00d90d4226f88fdc57c601d7e94596a58535c4a",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "柴又川甚まちなみ館公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.shibamatakawajin-machinamikan.jp/news/%e7%a7%8b%e3%81%ae%e3%81%be%e3%82%8b%e3%81%94%e3%81%a8%e4%bd%93%e9%a8%93%e5%b8%822026/",
+            "quote": "開催日11月28日（土）・29日（日）時間10:00～14:00／15:00～17:00参加費600円対象どなたでも定員各日40個場所3階多目的ホール申込当日順次ご案内",
+            "checked_at": "2026-11-20",
+            "sha256": "78eff7e482180397179f802a7e45525e81347e2526d26d4ab967dc22d7238df9",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "柴又川甚まちなみ館公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-20",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  },
+  {
+    "id": "verified-20261129-katsushika-kawajin-pouch",
+    "ward": "葛飾区",
+    "name": "フラットポーチデコ（秋のまるごと体験市）",
+    "url": "https://www.shibamatakawajin-machinamikan.jp/news/%e7%a7%8b%e3%81%ae%e3%81%be%e3%82%8b%e3%81%94%e3%81%a8%e4%bd%93%e9%a8%93%e5%b8%822026/",
+    "official_url": "https://www.shibamatakawajin-machinamikan.jp/news/%e7%a7%8b%e3%81%ae%e3%81%be%e3%82%8b%e3%81%94%e3%81%a8%e4%bd%93%e9%a8%93%e5%b8%822026/",
+    "source": "https://www.shibamatakawajin-machinamikan.jp/news/%e7%a7%8b%e3%81%ae%e3%81%be%e3%82%8b%e3%81%94%e3%81%a8%e4%bd%93%e9%a8%93%e5%b8%822026/",
+    "image": "",
+    "period": "11/29(日)",
+    "date_start": "2026-11-29",
+    "date_end": "2026-11-29",
+    "time": "10:00〜14:00／15:00〜17:00",
+    "venue": "3階多目的ホール",
+    "price": "600円",
+    "description": "キャンバス地のフラットポーチに転写シールを貼って、オリジナルのポーチを作る体験。どなたでも参加でき、当日順次案内。",
+    "categories": [
+      "工作",
+      "体験"
+    ],
+    "indoor_outdoor": "屋内",
+    "reservation": {
+      "required": false,
+      "note": "当日順次ご案内。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "11/29(日)、柴又川甚まちなみ館でフラットポーチデコ。対象がどなたでも。料金は600円。当日順次ご案内。",
+      "axes": {
+        "child_target": {
+          "grade": "B",
+          "reason": "対象がどなたでも"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "体験・参加型の内容"
+        },
+        "age_fit": {
+          "grade": "B",
+          "reason": "対象がどなたでも"
+        },
+        "stay_flexibility": {
+          "grade": "B",
+          "reason": "10:00〜14:00／15:00〜17:00"
+        },
+        "burden": {
+          "grade": "A",
+          "reason": "当日順次ご案内。"
+        },
+        "cost": {
+          "grade": "B",
+          "reason": "600円"
+        },
+        "reservation": {
+          "grade": "A",
+          "reason": "当日順次ご案内。"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "キャンバス地のフラットポーチに転写シールを貼って、オリジナルのポーチを作る体験。"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-20",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "all_ages",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "シールでポーチを飾れる"
+        ],
+        "limitations": [
+          "定員は各日40個"
+        ],
+        "grade_comparison": "総合B：11/29(日)の3階多目的ホールで10:00〜14:00／15:00〜17:00の開催（フラットポーチデコ（秋のまるごと体験市））。600円。当日順次ご案内。",
+        "unsupported_axes": [],
+        "evidence": [
+          {
+            "url": "https://www.shibamatakawajin-machinamikan.jp/news/%e7%a7%8b%e3%81%ae%e3%81%be%e3%82%8b%e3%81%94%e3%81%a8%e4%bd%93%e9%a8%93%e5%b8%822026/",
+            "quote": "キャンバス地のフラットポーチに、布用転写シールを自由に貼ってオリジナルのポーチにデコレーションします。",
+            "checked_at": "2026-11-20",
+            "sha256": "9a04cf84aef76a87f34c80bed00d90d4226f88fdc57c601d7e94596a58535c4a",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "柴又川甚まちなみ館公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.shibamatakawajin-machinamikan.jp/news/%e7%a7%8b%e3%81%ae%e3%81%be%e3%82%8b%e3%81%94%e3%81%a8%e4%bd%93%e9%a8%93%e5%b8%822026/",
+            "quote": "開催日11月28日（土）・29日（日）時間10:00～14:00／15:00～17:00参加費600円対象どなたでも定員各日40個場所3階多目的ホール申込当日順次ご案内",
+            "checked_at": "2026-11-20",
+            "sha256": "78eff7e482180397179f802a7e45525e81347e2526d26d4ab967dc22d7238df9",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "柴又川甚まちなみ館公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-20",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  },
+  {
+    "id": "verified-20261128-katsushika-kawajin-leather",
+    "ward": "葛飾区",
+    "name": "ウシさんクマさんキーホルダー作り（秋のまるごと体験市）",
+    "url": "https://www.shibamatakawajin-machinamikan.jp/news/%e7%a7%8b%e3%81%ae%e3%81%be%e3%82%8b%e3%81%94%e3%81%a8%e4%bd%93%e9%a8%93%e5%b8%822026/",
+    "official_url": "https://www.shibamatakawajin-machinamikan.jp/news/%e7%a7%8b%e3%81%ae%e3%81%be%e3%82%8b%e3%81%94%e3%81%a8%e4%bd%93%e9%a8%93%e5%b8%822026/",
+    "source": "https://www.shibamatakawajin-machinamikan.jp/news/%e7%a7%8b%e3%81%ae%e3%81%be%e3%82%8b%e3%81%94%e3%81%a8%e4%bd%93%e9%a8%93%e5%b8%822026/",
+    "image": "",
+    "period": "11/28(土)",
+    "date_start": "2026-11-28",
+    "date_end": "2026-11-28",
+    "time": "10:00〜12:00／13:00〜17:00",
+    "venue": "3階多目的ホール",
+    "price": "500円",
+    "description": "革の衣装を着せて、世界でひとつのウシさんクマさんキーホルダーを作る体験。どなたでも参加でき、当日受付。",
+    "categories": [
+      "工作",
+      "体験"
+    ],
+    "indoor_outdoor": "屋内",
+    "reservation": {
+      "required": false,
+      "note": "当日受付。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "11/28(土)、柴又川甚まちなみ館でウシさんクマさんキーホルダー作り。対象がどなたでも。料金は500円。当日受付。",
+      "axes": {
+        "child_target": {
+          "grade": "B",
+          "reason": "対象がどなたでも"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "体験・参加型の内容"
+        },
+        "age_fit": {
+          "grade": "B",
+          "reason": "対象がどなたでも"
+        },
+        "stay_flexibility": {
+          "grade": "B",
+          "reason": "10:00〜12:00／13:00〜17:00"
+        },
+        "burden": {
+          "grade": "A",
+          "reason": "当日受付。"
+        },
+        "cost": {
+          "grade": "B",
+          "reason": "500円"
+        },
+        "reservation": {
+          "grade": "A",
+          "reason": "当日受付。"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "革の衣装を着せて、世界でひとつのウシさんクマさんキーホルダーを作る体験。どなたで"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-20",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "all_ages",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "革でキーホルダーを作れる"
+        ],
+        "limitations": [
+          "定員は各日20個"
+        ],
+        "grade_comparison": "総合B：11/28(土)の3階多目的ホールで10:00〜12:00／13:00〜17:00の開催（ウシさんクマさんキーホルダー作り（秋のまるごと体験市））。500円。当日受付。",
+        "unsupported_axes": [],
+        "evidence": [
+          {
+            "url": "https://www.shibamatakawajin-machinamikan.jp/news/%e7%a7%8b%e3%81%ae%e3%81%be%e3%82%8b%e3%81%94%e3%81%a8%e4%bd%93%e9%a8%93%e5%b8%822026/",
+            "quote": "ウシさんクマさんに革の衣装を着せて世界でひとつのキーホルダーを作ります。",
+            "checked_at": "2026-11-20",
+            "sha256": "bfd6befb796316a5baf415e1fddb63dfbe4a21e31a8ea565e2302242740d4911",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "柴又川甚まちなみ館公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.shibamatakawajin-machinamikan.jp/news/%e7%a7%8b%e3%81%ae%e3%81%be%e3%82%8b%e3%81%94%e3%81%a8%e4%bd%93%e9%a8%93%e5%b8%822026/",
+            "quote": "開催日11月28日（土）・29日（日）時間10:00～12:00／13:00～17:00場所3階多目的ホール",
+            "checked_at": "2026-11-20",
+            "sha256": "20d59a64a40eb633e728e4668c7af3069d019c495332218ea72c8e3835d1dac9",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "柴又川甚まちなみ館公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.shibamatakawajin-machinamikan.jp/news/%e7%a7%8b%e3%81%ae%e3%81%be%e3%82%8b%e3%81%94%e3%81%a8%e4%bd%93%e9%a8%93%e5%b8%822026/",
+            "quote": "ウシさんクマさんキーホルダー500円対象：どなたでも",
+            "checked_at": "2026-11-20",
+            "sha256": "7a9f8ad806e2fc676364cabf9b7ac608bc3efbfdf83ebd6df9aecfcc4f50fc5b",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "柴又川甚まちなみ館公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-20",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  },
+  {
+    "id": "verified-20261129-katsushika-kawajin-leather",
+    "ward": "葛飾区",
+    "name": "ウシさんクマさんキーホルダー作り（秋のまるごと体験市）",
+    "url": "https://www.shibamatakawajin-machinamikan.jp/news/%e7%a7%8b%e3%81%ae%e3%81%be%e3%82%8b%e3%81%94%e3%81%a8%e4%bd%93%e9%a8%93%e5%b8%822026/",
+    "official_url": "https://www.shibamatakawajin-machinamikan.jp/news/%e7%a7%8b%e3%81%ae%e3%81%be%e3%82%8b%e3%81%94%e3%81%a8%e4%bd%93%e9%a8%93%e5%b8%822026/",
+    "source": "https://www.shibamatakawajin-machinamikan.jp/news/%e7%a7%8b%e3%81%ae%e3%81%be%e3%82%8b%e3%81%94%e3%81%a8%e4%bd%93%e9%a8%93%e5%b8%822026/",
+    "image": "",
+    "period": "11/29(日)",
+    "date_start": "2026-11-29",
+    "date_end": "2026-11-29",
+    "time": "10:00〜12:00／13:00〜17:00",
+    "venue": "3階多目的ホール",
+    "price": "500円",
+    "description": "革の衣装を着せて、世界でひとつのウシさんクマさんキーホルダーを作る体験。どなたでも参加でき、当日受付。",
+    "categories": [
+      "工作",
+      "体験"
+    ],
+    "indoor_outdoor": "屋内",
+    "reservation": {
+      "required": false,
+      "note": "当日受付。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "11/29(日)、柴又川甚まちなみ館でウシさんクマさんキーホルダー作り。対象がどなたでも。料金は500円。当日受付。",
+      "axes": {
+        "child_target": {
+          "grade": "B",
+          "reason": "対象がどなたでも"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "体験・参加型の内容"
+        },
+        "age_fit": {
+          "grade": "B",
+          "reason": "対象がどなたでも"
+        },
+        "stay_flexibility": {
+          "grade": "B",
+          "reason": "10:00〜12:00／13:00〜17:00"
+        },
+        "burden": {
+          "grade": "A",
+          "reason": "当日受付。"
+        },
+        "cost": {
+          "grade": "B",
+          "reason": "500円"
+        },
+        "reservation": {
+          "grade": "A",
+          "reason": "当日受付。"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "革の衣装を着せて、世界でひとつのウシさんクマさんキーホルダーを作る体験。どなたで"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-20",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "all_ages",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "革でキーホルダーを作れる"
+        ],
+        "limitations": [
+          "定員は各日20個"
+        ],
+        "grade_comparison": "総合B：11/29(日)の3階多目的ホールで10:00〜12:00／13:00〜17:00の開催（ウシさんクマさんキーホルダー作り（秋のまるごと体験市））。500円。当日受付。",
+        "unsupported_axes": [],
+        "evidence": [
+          {
+            "url": "https://www.shibamatakawajin-machinamikan.jp/news/%e7%a7%8b%e3%81%ae%e3%81%be%e3%82%8b%e3%81%94%e3%81%a8%e4%bd%93%e9%a8%93%e5%b8%822026/",
+            "quote": "ウシさんクマさんに革の衣装を着せて世界でひとつのキーホルダーを作ります。",
+            "checked_at": "2026-11-20",
+            "sha256": "bfd6befb796316a5baf415e1fddb63dfbe4a21e31a8ea565e2302242740d4911",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "柴又川甚まちなみ館公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.shibamatakawajin-machinamikan.jp/news/%e7%a7%8b%e3%81%ae%e3%81%be%e3%82%8b%e3%81%94%e3%81%a8%e4%bd%93%e9%a8%93%e5%b8%822026/",
+            "quote": "開催日11月28日（土）・29日（日）時間10:00～12:00／13:00～17:00場所3階多目的ホール",
+            "checked_at": "2026-11-20",
+            "sha256": "20d59a64a40eb633e728e4668c7af3069d019c495332218ea72c8e3835d1dac9",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "柴又川甚まちなみ館公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.shibamatakawajin-machinamikan.jp/news/%e7%a7%8b%e3%81%ae%e3%81%be%e3%82%8b%e3%81%94%e3%81%a8%e4%bd%93%e9%a8%93%e5%b8%822026/",
+            "quote": "ウシさんクマさんキーホルダー500円対象：どなたでも",
+            "checked_at": "2026-11-20",
+            "sha256": "7a9f8ad806e2fc676364cabf9b7ac608bc3efbfdf83ebd6df9aecfcc4f50fc5b",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "柴又川甚まちなみ館公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-20",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  }
+]

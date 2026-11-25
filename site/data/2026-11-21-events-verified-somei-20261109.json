@@ -1,0 +1,110 @@
+[
+  {
+    "id": "verified-20261123-toshima-somei-autumn-festival",
+    "ward": "豊島区",
+    "name": "染井よしの桜の里秋祭り2026",
+    "url": "https://www.city.toshima.lg.jp/132/2609161020.html",
+    "official_url": "https://www.city.toshima.lg.jp/132/2609161020.html",
+    "source": "https://www.city.toshima.lg.jp/132/2609161020.html",
+    "period": "11/23(月・祝)",
+    "date_start": "2026-11-23",
+    "date_end": "2026-11-23",
+    "time": "10:00〜15:00",
+    "venue": "染井吉野桜記念公園（豊島区駒込2-2-1）",
+    "price": null,
+    "description": "ソメイヨシノ発祥の地・駒込で開く秋祭り。地域物産展やステージイベントを楽しめる。2026年の開催日は豊島区公式10月29日更新情報で11月23日（月・祝）と確認。",
+    "categories": [
+      "祭り",
+      "マルシェ",
+      "地域交流"
+    ],
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "地域の物産とステージを、公園で家族が楽しめる秋の行事。 子ども専用の遊びや体験の具体的内容は未記載で、駅近だけを根拠に安全・負担をAとはしない。",
+      "axes": {
+        "child_target": {
+          "grade": "B",
+          "reason": "一般にも開かれる対象で、子ども専用という根拠にはしない。 子ども専用の遊びや体験の具体的内容は未記載で、駅近だけを根拠に安全・負担をAとはしない。"
+        },
+        "interactivity": {
+          "grade": "B",
+          "reason": "地域の物産とステージを、公園で家族が楽しめる秋の行事。"
+        },
+        "age_fit": {
+          "grade": "B",
+          "reason": "子ども専用の遊びや体験の具体的内容は未記載で、駅近だけを根拠に安全・負担をAとはしない。"
+        },
+        "stay_flexibility": {
+          "grade": "A",
+          "reason": "期間・開催時間内に回る区間や立ち寄りを家族で選べる。"
+        },
+        "burden": {
+          "grade": "unknown",
+          "reason": "この企画の混雑・待ち時間・休憩設備についての明記はなく、駅からの近さや会場確認だけで負担が小さいとは判断しない。"
+        },
+        "cost": {
+          "grade": "unknown",
+          "reason": "公式ページに入場料が明記されていないため不明。物販は有料の場合あり。"
+        },
+        "reservation": {
+          "grade": "unknown",
+          "reason": "事前予約の必要性は公式情報に明示されていない。"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "地域の物産とステージを、公園で家族が楽しめる秋の行事。"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-14",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "all_ages",
+        "child_activity_confirmed": false,
+        "strengths": [
+          "地域の物産とステージを、公園で家族が楽しめる秋の行事。"
+        ],
+        "limitations": [
+          "子ども専用の遊びや体験の具体的内容は未記載で、駅近だけを根拠に安全・負担をAとはしない。"
+        ],
+        "grade_comparison": "総合B：地域の物産とステージを、公園で家族が楽しめる秋の行事。 子ども専用の遊びや体験の具体的内容は未記載で、駅近だけを根拠に安全・負担をAとはしない。",
+        "unsupported_axes": [
+          "burden",
+          "cost",
+          "reservation"
+        ],
+        "evidence": [
+          {
+            "url": "https://www.city.toshima.lg.jp/132/2609161020.html",
+            "quote": " 染井よしの桜の里秋祭り ソメイヨシノ発祥の地駒込を広くPRするために秋祭りを駒込で開催します。桜の里駒込ならではの楽しいひと時をお過ごしください。 開催日 令和8年11月23日(月曜祝日) 開催時間 午前10時から午後3時まで 場所 染井吉野桜記念公園(豊島区駒込2-2-1) 交通アクセス JR山手線・東京メトロ南北線駒込駅下車すぐ 内容 ソメイヨシノ発祥の地駒込が桜の里秋祭りを実施します。物産展やステージイベントもございます。 対象 どなたでも 費用 無料 主催・共催・後援など 共催:豊島区 申込み方法 当日直接会場までお越しください お問い合わせ 観光課観光交流グループ 電話番号:03-3981-1316 PAGE TOP アクセス 区役所案内 このサイトについて 個人情報の取り扱い 組織案内 関連リンク集 サイトマップ 豊島区役所 法人番号 8000020131164 〒171-8422 豊島区南池袋2-45-1 豊島区役所コールセンター 03-3981-1111 Copyright © Toshima City. All rights reserved.",
+            "checked_at": "2026-11-14T13:26:59+09:00",
+            "sha256": "e9d49366586029566934caab7ef4ba7c1962552257391ad8318bfa3675e004c2"
+          }
+        ]
+      }
+    },
+    "reservation": {
+      "required": null,
+      "note": "入場条件は豊島区の最新公式案内を参照。販売品は有料の場合あり。"
+    },
+    "indoor_outdoor": "屋外",
+    "image": "https://www.city.toshima.lg.jp/images/57900/20260916110452.jpg",
+    "ai": {
+      "checked_at": "2026-11-09",
+      "confidence": "high",
+      "discovery_query": "2026-11-08公式11/23カレンダー候補を11/09に豊島区一次ページ本文（SHA付き実HTTP）で再検証。非公式11/22記載は採用せず。"
+    }
+  }
+]

@@ -1,0 +1,128 @@
+[
+  {
+    "id": "verified-20261129-koto-higashisuna-nyanmatsuri",
+    "ward": "江東区",
+    "name": "東砂児童館 ひがしすにゃんまつり -冬-",
+    "url": "https://www.city.koto.lg.jp/011501/kuse/koho/kuho/r08/text/111102.html",
+    "official_url": "https://www.city.koto.lg.jp/011501/kuse/koho/kuho/r08/text/111102.html",
+    "source": "https://www.city.koto.lg.jp/011501/kuse/koho/kuho/r08/text/111102.html",
+    "image": "",
+    "period": "11/29(日)",
+    "date_start": "2026-11-29",
+    "date_end": "2026-11-29",
+    "time": "10:00〜15:00",
+    "venue": "東砂児童館（区報に会場の明記なし）",
+    "price": "参加費の記載なし",
+    "description": "おばけやしき、リサイクル市、舞台発表がある児童館のまつり。乳幼児から高校生世代まで。当日直接参加。",
+    "categories": [
+      "祭り",
+      "子ども"
+    ],
+    "indoor_outdoor": "屋内",
+    "reservation": {
+      "required": false,
+      "note": "当日直接会場へ。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "おばけやしき、リサイクル市、舞台発表がある児童館のまつり。参加費の記載なし。申込の案内はなく、当日参加できる。",
+      "axes": {
+        "child_target": {
+          "grade": "A",
+          "reason": "乳幼児から高校生世代までが対象"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "おばけやしき・リサイクル市・舞台発表"
+        },
+        "age_fit": {
+          "grade": "A",
+          "reason": "乳幼児（0歳）〜高校生世代と明記"
+        },
+        "stay_flexibility": {
+          "grade": "B",
+          "reason": "10:00〜15:00"
+        },
+        "burden": {
+          "grade": "A",
+          "reason": "当日直接参加でき、出入り自由"
+        },
+        "cost": {
+          "grade": "unknown",
+          "reason": "参加費の記載がない"
+        },
+        "reservation": {
+          "grade": "A",
+          "reason": "申込不要"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "児童館のまつりを親子で楽しめる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-19",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "child_program",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "当日直接",
+          "おばけやしき"
+        ],
+        "limitations": [
+          "会場の明記なし",
+          "参加費の記載なし"
+        ],
+        "grade_comparison": "総合B：11/29(日)の東砂児童館で10:00〜15:00の開催。参加費の記載なし。申込不要で気軽に参加できる。",
+        "unsupported_axes": [
+          "cost"
+        ],
+        "evidence": [
+          {
+            "url": "https://www.city.koto.lg.jp/011501/kuse/koho/kuho/r08/text/111102.html",
+            "quote": "東砂児童館ひがしすにゃんまつり-冬-",
+            "checked_at": "2026-11-19",
+            "sha256": "ae9dc59c1986c10cbaa2884daf39b01c3011382920dde35526a75d80dc68b23e",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "江東区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.koto.lg.jp/011501/kuse/koho/kuho/r08/text/111102.html",
+            "quote": "【日時】11月29日（日曜日）10時00分～15時00分【対象】乳幼児（0歳）～小・中学生、高校生世代",
+            "checked_at": "2026-11-19",
+            "sha256": "aabe7f4ff0a0e4e696ab6338932e51cb101356cb3a17b6c526aa26a91859acb9",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "江東区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.koto.lg.jp/011501/kuse/koho/kuho/r08/text/111102.html",
+            "quote": "【内容】おばけやしき、リサイクル市、舞台発表【申し込み】当日直接会場へ",
+            "checked_at": "2026-11-19",
+            "sha256": "5cc7a8d9eaca4de4dea4b2fc0277881cdc337712472210f2bbbe8b178270e1b5",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "江東区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-19",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  }
+]

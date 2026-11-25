@@ -1,0 +1,308 @@
+[
+  {
+    "id": "verified-20261205-fuchu-nobinobi-soccer",
+    "ward": "府中市",
+    "name": "のびのびサッカーひろば（小学生から高校生の部・FC東京パーク府中）",
+    "url": "https://www.city.fuchu.tokyo.jp/kenko/shogai/hoyou/soccer1205.html",
+    "official_url": "https://www.city.fuchu.tokyo.jp/kenko/shogai/hoyou/soccer1205.html",
+    "source": "https://www.city.fuchu.tokyo.jp/kenko/shogai/hoyou/soccer1205.html",
+    "image": "",
+    "period": "12/5(土)",
+    "date_start": "2026-12-05",
+    "date_end": "2026-12-05",
+    "time": "（1）13:00〜14:00／（2）14:00〜15:00（どちらか1回）",
+    "venue": "FC東京パーク府中（ミッテン府中屋上、京王線府中駅南口から徒歩約1分）",
+    "price": "無料",
+    "description": "知的・発達の障害特性のあるお子さま向けのサッカーイベント、および障害の有無にかかわらずみんなで楽しむインクルーシブサッカー。小学生から高校生の部で、サッカー経験は問わない。各回約20名、申込多数の場合は抽選。",
+    "categories": [
+      "スポーツ",
+      "体験・ワークショップ"
+    ],
+    "indoor_outdoor": "屋外",
+    "reservation": {
+      "required": true,
+      "note": "12/2(水)までにオンラインフォームで申込。各回約20名で、申込多数の場合は抽選。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "小学生から高校生を対象にした、サッカー経験を問わない無料のサッカーひろば。申込（12/2まで）と、多数の場合の抽選が必要。",
+      "axes": {
+        "child_target": {
+          "grade": "A",
+          "reason": "「小学生から高校生の部」で、お子さま向けのサッカーイベントと明記"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "実際にサッカーをして体を動かす"
+        },
+        "age_fit": {
+          "grade": "B",
+          "reason": "小学生から高校生と幅が広く、学年別の案内はない"
+        },
+        "stay_flexibility": {
+          "grade": "B",
+          "reason": "13:00か14:00開始のどちらか1回に参加"
+        },
+        "burden": {
+          "grade": "B",
+          "reason": "事前のオンライン申込と抽選が必要"
+        },
+        "cost": {
+          "grade": "A",
+          "reason": "費用は無料"
+        },
+        "reservation": {
+          "grade": "B",
+          "reason": "12/2(水)までにオンライン申込。多数の場合は抽選"
+        },
+        "family_value": {
+          "grade": "A",
+          "reason": "障害の有無やサッカー経験に関わらず、無料で楽しめる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-21",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "child_program",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "無料で、サッカー経験を問わず参加できる",
+          "障害の有無にかかわらずみんなで楽しめる"
+        ],
+        "limitations": [
+          "12/2までの申込と抽選が必要（各回約20名）",
+          "学年別の案内はない"
+        ],
+        "grade_comparison": "総合B：無料で子ども向けの体験だが、申込・抽選・少人数の条件がある。",
+        "unsupported_axes": [],
+        "evidence": [
+          {
+            "url": "https://www.city.fuchu.tokyo.jp/kenko/shogai/hoyou/soccer1205.html",
+            "quote": "小学生から高校生の部（インクルーシブ編） 日時 12月5日（土曜日）",
+            "checked_at": "2026-11-21",
+            "sha256": "c25480b35d68cffa04b6faa4d2e20ba125b50be5486b5662cf69161de35f3ffa",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.fuchu.tokyo.jp/kenko/shogai/hoyou/soccer1205.html",
+            "quote": "（1） 午後1時から2時",
+            "checked_at": "2026-11-21",
+            "sha256": "91ffe2d7764fbb877082f6baaf17d8d8c77c4f355b0b01a5db91bab0da3c72b8",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.fuchu.tokyo.jp/kenko/shogai/hoyou/soccer1205.html",
+            "quote": "FC東京パーク府中（ミッテン府中屋上、京王線「府中駅」南口より徒歩約1分）",
+            "checked_at": "2026-11-21",
+            "sha256": "9a598c6dadacaf29f792e7aee9e542184c2a2deb478411843ca195de1d30490c",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.fuchu.tokyo.jp/kenko/shogai/hoyou/soccer1205.html",
+            "quote": "知的・発達の障害特性のあるお子さま向けのサッカーイベント",
+            "checked_at": "2026-11-21",
+            "sha256": "b960f0afd7b53858537c7372218da940bfae6d12a607085370e3c267959080e7",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.fuchu.tokyo.jp/kenko/shogai/hoyou/soccer1205.html",
+            "quote": "各ひろば 約20名（申込多数の場合は抽選）",
+            "checked_at": "2026-11-21",
+            "sha256": "fd76192b7bab50a09ca05ae68996080b0b83c901b18133fd42eb1042593ed60e",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.fuchu.tokyo.jp/kenko/shogai/hoyou/soccer1205.html",
+            "quote": "12月2日（水曜日）までにオンラインフォーム（外部サイト）よりお申込ください。",
+            "checked_at": "2026-11-21",
+            "sha256": "2903d1e13d730d9356189abe42e4eb661b6e215ec8cfe569b7f639d99e873ff2",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-21",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  },
+  {
+    "id": "verified-20261205-inagi-giants-hometown-fes",
+    "ward": "稲城市",
+    "name": "GIANTS HOMETOWN fes 2026（午後の部・ジャイアンツタウンスタジアム）",
+    "url": "https://www.city.komae.tokyo.jp/events/index.cfm/detail.4.146380.html",
+    "official_url": "https://www.city.komae.tokyo.jp/events/index.cfm/detail.4.146380.html",
+    "source": "https://www.city.komae.tokyo.jp/events/index.cfm/detail.4.146380.html",
+    "image": "https://www.city.komae.tokyo.jp/images/content/146380/20260929-194030.png",
+    "period": "12/5(土)",
+    "date_start": "2026-12-05",
+    "date_end": "2026-12-05",
+    "time": "午後の部 13:00〜16:00",
+    "venue": "ジャイアンツタウンスタジアム（稲城市矢野口3228番地南山95街区1号）",
+    "price": "無料",
+    "description": "読売ジャイアンツの新ファーム球場で、選手なりきり体験、プロ野球のお仕事体験（グラウンド整備・アナウンス・カメラマン）、小学生向けの体を動かす講座などを行う。午前の部は連携7市の在住・在学者限定のため、ここでは誰でも参加できる午後の部（13:00〜16:00）を掲載。",
+    "categories": [
+      "まつり・イベント",
+      "スポーツ",
+      "体験・ワークショップ"
+    ],
+    "indoor_outdoor": "屋外",
+    "reservation": {
+      "required": null,
+      "note": "参加受付は当日。体験によって定員があり、定員を超える応募があった場合は抽選。選手なりきり体験はラリー用紙を受け取って参加。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "無料で、選手なりきり体験や小学生向けの体を動かす企画がある野球のお祭り。午後の部は誰でも参加でき、午前の部は7市在住・在学者限定。体験ごとに定員と抽選がある。",
+      "axes": {
+        "child_target": {
+          "grade": "B",
+          "reason": "地域の皆様向けのイベントだが、小学生・幼児向けの回が複数ある"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "選手なりきり体験やバックホームゲームなど体験が中心"
+        },
+        "age_fit": {
+          "grade": "B",
+          "reason": "小学1〜3年生や小学生向けの回があり、年齢別に分かれている"
+        },
+        "stay_flexibility": {
+          "grade": "B",
+          "reason": "13:00〜16:00の間に体験を選んで参加"
+        },
+        "burden": {
+          "grade": "B",
+          "reason": "体験ごとに定員があり、超えた場合は抽選。無料シャトルバスあり"
+        },
+        "cost": {
+          "grade": "A",
+          "reason": "料金は無料"
+        },
+        "reservation": {
+          "grade": "B",
+          "reason": "当日の参加受付で、定員を超えた場合は抽選"
+        },
+        "family_value": {
+          "grade": "A",
+          "reason": "無料でプロ野球の球場を体験できる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-21",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "all_ages",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "無料で、プロ野球の球場で選手なりきり体験ができる",
+          "小学生・幼児向けの回がある"
+        ],
+        "limitations": [
+          "体験ごとに定員があり、超えた場合は抽選",
+          "午前の部は連携7市の在住・在学者限定",
+          "屋外開催"
+        ],
+        "grade_comparison": "総合B：無料で体験が多く子どもも参加できるが、年齢別の回と体験ごとの定員・抽選がある。",
+        "unsupported_axes": [],
+        "evidence": [
+          {
+            "url": "https://www.city.komae.tokyo.jp/events/index.cfm/detail.4.146380.html",
+            "quote": "令和８年12月５日(土曜日)",
+            "checked_at": "2026-11-21",
+            "sha256": "fb60863a83ab4726499d15f77afe12c72e153a33aa0b6aac6ff8072b069f811d",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.komae.tokyo.jp/events/index.cfm/detail.4.146380.html",
+            "quote": "午後の部：午後１時から午後４時",
+            "checked_at": "2026-11-21",
+            "sha256": "6f2fc927d66f5308be52639112ead21da44ea34c03019565971d73552748f21c",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.komae.tokyo.jp/events/index.cfm/detail.4.146380.html",
+            "quote": "ジャイアンツタウンスタジアム（稲城市矢野口）（稲城市矢野口3228番地南山95街区１号）",
+            "checked_at": "2026-11-21",
+            "sha256": "042f480538ca2cb3e34a98141895f94ee47acf943c1e7f23e762f39e07f88a96",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.komae.tokyo.jp/events/index.cfm/detail.4.146380.html",
+            "quote": "料金 無料 内容 〇選手なりきり体験",
+            "checked_at": "2026-11-21",
+            "sha256": "62d2fdd83663e7c62da0a99cb7945dcf4f6a27523dfbec3abd8993a174f7dd1b",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.komae.tokyo.jp/events/index.cfm/detail.4.146380.html",
+            "quote": "ゲーム形式で野球の動きが楽しめるコンテンツです。",
+            "checked_at": "2026-11-21",
+            "sha256": "e56020b32d3bca6041d7f9ca2bdc7a4973ca3247a01f5310b3b924fb38eee6e5",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.komae.tokyo.jp/events/index.cfm/detail.4.146380.html",
+            "quote": "②の回/③の回＝小学１年生～３年生",
+            "checked_at": "2026-11-21",
+            "sha256": "e78c31f5d14a81e1293bfe173cba93dabe33d43adc5c4f5adaa4424b7983d0ba",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.komae.tokyo.jp/events/index.cfm/detail.4.146380.html",
+            "quote": "＜参加方法＞イベント当日、参加受付を行います。定員を越える応募があった場合は、抽選となります。",
+            "checked_at": "2026-11-21",
+            "sha256": "22f9074ed697bc879721a7caabfbb8760257739f522449741941c882eebf1578",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-21",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  }
+]

@@ -1,0 +1,298 @@
+[
+  {
+    "id": "verified-20261123-itabashi-hase-nazotoki",
+    "ward": "板橋区",
+    "name": "機械工学×謎解きプログラム「機械のからくりを学んで、ふっかちゃんを探せ！」（板橋区立教育科学館）",
+    "url": "https://www.mech.kanagawa-u.ac.jp/lab/hase_lab/HaseLab-Nazotoki-Itabashi2026.html",
+    "official_url": "https://www.mech.kanagawa-u.ac.jp/lab/hase_lab/HaseLab-Nazotoki-Itabashi2026.html",
+    "source": "https://www.mech.kanagawa-u.ac.jp/lab/hase_lab/HaseLab-Nazotoki-Itabashi2026.html",
+    "image": "https://www.mech.kanagawa-u.ac.jp/lab/hase_lab/HASE-Lab-Nazotoki.png",
+    "period": "11/23(月・祝)",
+    "date_start": "2026-11-23",
+    "date_end": "2026-11-23",
+    "time": "13:30〜16:00",
+    "venue": "板橋区立教育科学館 研修室",
+    "price": "受講料無料（教材費500円を当日会場で徴収）",
+    "description": "神奈川大学の研究室が開く、機械のしくみを学びながら謎解きとペーパークラフト製作に挑戦する体験学習。小学4年生〜中学生が対象で、定員40名・事前申込制（先着順）。保護者の付添い・見学も可。",
+    "categories": [
+      "体験・ワークショップ",
+      "科学・学び"
+    ],
+    "indoor_outdoor": "屋内",
+    "reservation": {
+      "required": true,
+      "note": "事前申込制（Googleフォーム）。申込多数の場合は先着順。"
+    },
+    "family_fit": {
+      "grade": "A",
+      "overall": "A",
+      "rubric_version": "family-fit-v2",
+      "reason": "小学4年生〜中学生が謎解きとペーパークラフトで機械のしくみを学ぶ体験学習で、受講料無料。事前申込制（先着順）で定員40名。",
+      "axes": {
+        "child_target": {
+          "grade": "A",
+          "reason": "小学4年生〜中学生が対象の子ども向けプログラム"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "謎解きとペーパークラフト製作に参加して体験する内容"
+        },
+        "age_fit": {
+          "grade": "A",
+          "reason": "小学4年生〜中学生と対象学年が明記され、保護者の付添い・見学も可"
+        },
+        "stay_flexibility": {
+          "grade": "B",
+          "reason": "13:30〜16:00のタイムスケジュールに沿って進む"
+        },
+        "burden": {
+          "grade": "B",
+          "reason": "事前申込制で、はさみ・のりなどの持参品と教材費500円が必要"
+        },
+        "cost": {
+          "grade": "A",
+          "reason": "受講料無料（教材費500円は別途）"
+        },
+        "reservation": {
+          "grade": "B",
+          "reason": "事前申込制（先着順）で定員40名"
+        },
+        "family_value": {
+          "grade": "A",
+          "reason": "機械のしくみを謎解きで学べる無料の体験学習で、保護者の見学もできる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-21",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "child_program",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "受講料無料で、謎解きとペーパークラフトを体験できる",
+          "保護者の付添い・見学が可能"
+        ],
+        "limitations": [
+          "事前申込制・先着順で定員40名",
+          "教材費500円と文房具などの持参が必要"
+        ],
+        "grade_comparison": "総合A：小学4年生〜中学生向けの体験学習で受講料無料。事前申込制（先着順）と教材費・持参品が条件。",
+        "unsupported_axes": [],
+        "evidence": [
+          {
+            "url": "https://www.mech.kanagawa-u.ac.jp/lab/hase_lab/HaseLab-Nazotoki-Itabashi2026.html",
+            "quote": "2026年11月23日（月・祝）13:30-16:00",
+            "checked_at": "2026-11-21",
+            "sha256": "8ffb35e8c7f9e0e8898144a182601db1c1f0244bcfca94e458271c2fa7ffd110",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.mech.kanagawa-u.ac.jp/lab/hase_lab/HaseLab-Nazotoki-Itabashi2026.html",
+            "quote": "板橋区立教育科学館 研修室",
+            "checked_at": "2026-11-21",
+            "sha256": "4b97f68f0a4776197099e203620fdd230efb1cac8df70dc5838d2b4a1a5199b8",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.mech.kanagawa-u.ac.jp/lab/hase_lab/HaseLab-Nazotoki-Itabashi2026.html",
+            "quote": "（定員40名，小学4年生～中学生対象，受講料無料/別途，教材費が必要，事前申込制）",
+            "checked_at": "2026-11-21",
+            "sha256": "4acd553bf6f427798eb1a02a17b19bf98d38a16801871206cf306a6759aecbad",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.mech.kanagawa-u.ac.jp/lab/hase_lab/HaseLab-Nazotoki-Itabashi2026.html",
+            "quote": "教材費：500円（当日会場にて徴収）",
+            "checked_at": "2026-11-21",
+            "sha256": "bfcdd1c342f2ef130a745522ad09b7bc75df46c0b7d60c36d51c6ebc7aa156a2",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.mech.kanagawa-u.ac.jp/lab/hase_lab/HaseLab-Nazotoki-Itabashi2026.html",
+            "quote": "※保護者の付添い・見学可 ★タイムスケジュール★",
+            "checked_at": "2026-11-21",
+            "sha256": "e3992245bd6a1b282ee9bc6a57ce580e28f06fd3f187bf377c1af8be27231710",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.mech.kanagawa-u.ac.jp/lab/hase_lab/HaseLab-Nazotoki-Itabashi2026.html",
+            "quote": "参加申込み受付中！ 参加申込みフォームURL",
+            "checked_at": "2026-11-21",
+            "sha256": "0a15a6392c891fb88ad70b90ec4c2b39ca173d6e4ccb8a47d44c0dbc4ba17367",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-21",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  },
+  {
+    "id": "verified-20261123-edogawa-kasai-ramsar-pr",
+    "ward": "江戸川区",
+    "name": "葛西海浜公園 ラムサール条約湿地PRイベント",
+    "url": "https://www.kouwan.metro.tokyo.lg.jp/kanko/park/kasaikaihin",
+    "official_url": "https://www.kouwan.metro.tokyo.lg.jp/kanko/park/kasaikaihin",
+    "source": "https://www.kouwan.metro.tokyo.lg.jp/kanko/park/kasaikaihin",
+    "image": "",
+    "period": "11/23(月・祝)",
+    "date_start": "2026-11-23",
+    "date_end": "2026-11-23",
+    "time": "10:00〜15:00",
+    "venue": "葛西海浜公園 西なぎさ（雨天時はいきものステーションで規模を縮小）",
+    "price": "無料（親子で楽しめるプログラム・自然観察会とも）",
+    "description": "東京都港湾局が開く、ラムサール条約湿地の葛西海浜公園を学ぶイベント。パネル展示のほか、親子で楽しめるスタンプラリーとクラフト体験（申込不要・無料）と、野鳥・干潟の生きもの観察会（事前申込制・無料、小学3年生以上、各回20名先着）がある。",
+    "categories": [
+      "自然・公園",
+      "体験・ワークショップ"
+    ],
+    "indoor_outdoor": "屋外",
+    "reservation": {
+      "required": null,
+      "note": "親子プログラム（スタンプラリー・クラフト体験）は申込不要。自然観察会は事前申込制（各回20名先着）。"
+    },
+    "family_fit": {
+      "grade": "A",
+      "overall": "A",
+      "rubric_version": "family-fit-v2",
+      "reason": "親子で楽しめるスタンプラリー・クラフト体験が無料・申込不要で、小学3年生以上は無料の自然観察会（事前申込制）にも参加できる。",
+      "axes": {
+        "child_target": {
+          "grade": "A",
+          "reason": "「親子でたのしめるプログラム」と自然観察会（小学3年生以上）が設けられている"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "スタンプラリー・クラフト体験・干潟の生きもの観察など参加型"
+        },
+        "age_fit": {
+          "grade": "B",
+          "reason": "観察会は小学3年生以上（小学生以下は保護者同伴）で、未就学児向けは親子プログラム中心"
+        },
+        "stay_flexibility": {
+          "grade": "A",
+          "reason": "10:00〜15:00の間に親子プログラムを自由に体験できる"
+        },
+        "burden": {
+          "grade": "B",
+          "reason": "屋外開催で、自然観察会は事前申込と開始時刻への集合が必要"
+        },
+        "cost": {
+          "grade": "A",
+          "reason": "親子プログラム・自然観察会とも無料"
+        },
+        "reservation": {
+          "grade": "B",
+          "reason": "親子プログラムは申込不要、観察会は事前申込制（各回20名先着）"
+        },
+        "family_value": {
+          "grade": "A",
+          "reason": "無料で干潟の自然を体験でき、親子で参加できる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-21",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "child_program",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "親子プログラムが無料・申込不要",
+          "干潟の生きもの観察会も無料"
+        ],
+        "limitations": [
+          "観察会は事前申込制で小学3年生以上、各回20名先着",
+          "屋外で雨天時は規模を縮小"
+        ],
+        "grade_comparison": "総合A：親子で楽しめる無料プログラムが申込不要で、観察会は申込制・小学3年生以上という条件が付く。",
+        "unsupported_axes": [],
+        "evidence": [
+          {
+            "url": "https://www.kouwan.metro.tokyo.lg.jp/kanko/park/kasaikaihin",
+            "quote": "令和８年11月23日（月･祝）10:00～15:00",
+            "checked_at": "2026-11-21",
+            "sha256": "b39a2803512c3c99bf603c23d83ae0f58180713f7aaab80767abbaefa9288b89",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.kouwan.metro.tokyo.lg.jp/kanko/park/kasaikaihin",
+            "quote": "場所 葛西海浜公園 西なぎさ",
+            "checked_at": "2026-11-21",
+            "sha256": "aaf9040e184bd4e88724456fca054dff8c11ff8b66e975c4f4ad8e174d0f659a",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.kouwan.metro.tokyo.lg.jp/kanko/park/kasaikaihin",
+            "quote": "親子でたのしめるプログラム（申込不要、無料）",
+            "checked_at": "2026-11-21",
+            "sha256": "c69d96cdd4d9cd0d3ea572fbdf3d2727fa0ff7a2a2908498875bfceff8ee5921",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.kouwan.metro.tokyo.lg.jp/kanko/park/kasaikaihin",
+            "quote": "スタンプラリー、クラフト体験 など",
+            "checked_at": "2026-11-21",
+            "sha256": "d8d104e2693b4a31b88b0b1dd0509be73c0900fb03bfb5d022f396a94d341110",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.kouwan.metro.tokyo.lg.jp/kanko/park/kasaikaihin",
+            "quote": "自然観察会（事前申込制、無料）",
+            "checked_at": "2026-11-21",
+            "sha256": "00ebff2f4556253f88910732f637fbdec1ee77421342c5574cf9a9c036b43c6e",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.kouwan.metro.tokyo.lg.jp/kanko/park/kasaikaihin",
+            "quote": "募集人数 各回20名（先着順） 対象 小学３年生以上（小学生以下は保護者同伴）",
+            "checked_at": "2026-11-21",
+            "sha256": "c389f7fa9d5f7f6100ab5d5c37a14f15110035f7dc5a9761c81d8bec83ae3c11",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-21",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  }
+]

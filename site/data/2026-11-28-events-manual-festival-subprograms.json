@@ -6,7 +6,7 @@
     "url": "https://sumida-artfest.jp/programs/3990/",
     "official_url": "https://sumida-artfest.jp/programs/3990/",
     "source": "https://sumida-artfest.jp/programs/3990/",
-    "image": null,
+    "image": "https://sumida-artfest.jp/wp-content/uploads/2026/07/R51.jpg",
     "period": "11/19〜12/27",
     "date_start": "2026-11-19",
     "date_end": "2026-12-27",
@@ -21,30 +21,30 @@
       "親子"
     ],
     "family_fit": {
-      "rubric_version": "family-fit-v2",
       "grade": "B",
       "overall": "B",
-      "reason": "季節の自然と光を体験",
+      "rubric_version": "family-fit-v2",
+      "reason": "庭園の紅葉と池に映る光を見比べ、家族で歴史ある庭園の景色を楽しめる無料鑑賞。 夕方以降の屋外散策で防寒と足元に配慮。工作や子ども専用の参加体験は案内されていない。",
       "axes": {
         "child_target": {
           "grade": "B",
-          "reason": "全年齢で観覧可能"
+          "reason": "一般の対象・年齢上の参加資格・子どもの出展と、来場する子ども専用の企画を区別する。 庭園の紅葉と池に映る光を見比べ、家族で歴史ある庭園の景色を楽しめる無料鑑賞。"
         },
         "interactivity": {
           "grade": "B",
-          "reason": "庭園ライトアップ・回遊"
+          "reason": "庭園の紅葉と池に映る光を見比べ、家族で歴史ある庭園の景色を楽しめる無料鑑賞。"
         },
         "age_fit": {
           "grade": "B",
-          "reason": "子どもは大人同伴が前提"
+          "reason": "庭園の紅葉と池に映る光を見比べ、家族で歴史ある庭園の景色を楽しめる無料鑑賞。 夕方以降の屋外散策で防寒と足元に配慮。工作や子ども専用の参加体験は案内されていない。"
         },
         "stay_flexibility": {
-          "grade": "B",
-          "reason": "滞在時間を調整可"
+          "grade": "A",
+          "reason": "展示・複数の活動や立ち寄る範囲を家族で選びやすい形式。 夕方以降の屋外散策で防寒と足元に配慮。工作や子ども専用の参加体験は案内されていない。"
         },
         "burden": {
           "grade": "B",
-          "reason": "夜間・寒さ・足元に注意"
+          "reason": "夕方以降の屋外散策で防寒と足元に配慮。工作や子ども専用の参加体験は案内されていない。"
         },
         "cost": {
           "grade": "A",
@@ -52,12 +52,45 @@
         },
         "reservation": {
           "grade": "A",
-          "reason": "事前申込の記載なし"
+          "reason": "公式掲載は自由観覧の庭園ライトアップ。運営変更・天候時は主催者へ確認。 夕方以降の屋外散策で防寒と足元に配慮。工作や子ども専用の参加体験は案内されていない。"
         },
         "family_value": {
           "grade": "B",
-          "reason": "季節の自然と光を体験"
+          "reason": "庭園の紅葉と池に映る光を見比べ、家族で歴史ある庭園の景色を楽しめる無料鑑賞。 夕方以降の屋外散策で防寒と足元に配慮。工作や子ども専用の参加体験は案内されていない。"
         }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-14",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "all_ages",
+        "child_activity_confirmed": false,
+        "strengths": [
+          "庭園の紅葉と池に映る光を見比べ、家族で歴史ある庭園の景色を楽しめる無料鑑賞。"
+        ],
+        "limitations": [
+          "夕方以降の屋外散策で防寒と足元に配慮。工作や子ども専用の参加体験は案内されていない。"
+        ],
+        "grade_comparison": "総合B：庭園の紅葉と池に映る光を見比べ、家族で歴史ある庭園の景色を楽しめる無料鑑賞。 夕方以降の屋外散策で防寒と足元に配慮。工作や子ども専用の参加体験は案内されていない。",
+        "unsupported_axes": [],
+        "evidence": [
+          {
+            "url": "https://sumida-artfest.jp/programs/3990/",
+            "quote": "SUMIDA光のナイトガーデン｜プログラム｜すみだ五彩の芸術祭 日本語 英語 2026年9月4日[金] - 12月20日[日] 定休日：原則 月・火（祝休日の場合は開催） 日本語 ENGLISH 芸術祭について プログラム プログラム一覧 プログラム検索 カレンダー マップ ダウンロード アーティスト トピックス アクセス お問い合わせ 日本語 ENGLISH programs 展示 SUMIDA光のナイトガーデン 2026.11.19 （木） - 12.27 （日） 会場 墨田区立旧安田庭園 主催 墨田区観光協会・墨田区 イントロダクション 基本情報 アクセス 旧安田庭園は潮入り回遊式庭園として整備された元大名庭園で、小島の浮かぶ心字池を老樹と散策路が囲む墨田区立庭園です。初冬の紅葉の時期に、心温まるライトアップが風情ある日本庭園を情緒的に彩り、心字池に映る情景も含めて光に包み、“すみだの心”を感じる演出を行います。庭園で紡がれた歴史と文化、そして数々の縁を更なる未来へとつなぐ特別な時間を、地元の方だけでなく、多くの来訪者の方々にもお越しいただき、お楽しみいただければと思います。 ※この事業は、東京都・(公財)東京観光財団の「秋のライトアップモデル事業費助成金」を活用して実施しています。 基本情報 日時 2026年 11月19日（木）～12月27日（日） （11月19日（木）：点灯式） 毎日16:30～20:00 会場 墨田区立旧安田庭園 参加費 無料 WEBサイト https://visit-sumida.jp/ 問い合わせ先 03-6657-5160 主催 墨田区観光協会・墨田区 アクセス 旧安田庭園 ← プログラム検索へ戻る ダウンロード",
+            "checked_at": "2026-11-14T16:51:28+09:00",
+            "sha256": "06dce94258fb8ac4966870d7e9bf87c06109d464f32643412cf4d729271c5d3c"
+          }
+        ]
       }
     },
     "reservation": {
@@ -78,7 +111,7 @@
     "url": "https://sumida-artfest.jp/programs/4004/",
     "official_url": "https://sumida-artfest.jp/programs/4004/",
     "source": "https://sumida-artfest.jp/programs/4004/",
-    "image": null,
+    "image": "https://sumida-artfest.jp/wp-content/uploads/2026/07/R58-1200x630.jpg",
     "period": "11/28〜11/29",
     "date_start": "2026-11-28",
     "date_end": "2026-11-29",
@@ -93,30 +126,30 @@
       "親子"
     ],
     "family_fit": {
+      "grade": "B",
+      "overall": "B",
       "rubric_version": "family-fit-v2",
-      "grade": "A",
-      "overall": "A",
-      "reason": "創作意欲の刺激",
+      "reason": "同世代の子どもが描いた自然や環境の作品を見比べ、親子で表現への関心を広げられる。 作品の作者が児童であることと来場者の制作体験は区別する。表彰式の参加枠を一般観覧と混同しない。",
       "axes": {
         "child_target": {
-          "grade": "A",
-          "reason": "児童の作品が中心"
+          "grade": "B",
+          "reason": "一般の対象・年齢上の参加資格・子どもの出展と、来場する子ども専用の企画を区別する。 同世代の子どもが描いた自然や環境の作品を見比べ、親子で表現への関心を広げられる。"
         },
         "interactivity": {
-          "grade": "A",
-          "reason": "子どもの絵画鑑賞"
+          "grade": "B",
+          "reason": "同世代の子どもが描いた自然や環境の作品を見比べ、親子で表現への関心を広げられる。"
         },
         "age_fit": {
-          "grade": "A",
-          "reason": "同年代の作品に親しめる"
+          "grade": "B",
+          "reason": "同世代の子どもが描いた自然や環境の作品を見比べ、親子で表現への関心を広げられる。 作品の作者が児童であることと来場者の制作体験は区別する。表彰式の参加枠を一般観覧と混同しない。"
         },
         "stay_flexibility": {
-          "grade": "B",
-          "reason": "短時間でも回遊可"
+          "grade": "A",
+          "reason": "展示・複数の活動や立ち寄る範囲を家族で選びやすい形式。 作品の作者が児童であることと来場者の制作体験は区別する。表彰式の参加枠を一般観覧と混同しない。"
         },
         "burden": {
-          "grade": "B",
-          "reason": "展示で観覧が中心"
+          "grade": "unknown",
+          "reason": "混雑・待ち時間・休憩や安全設備についての具体的根拠はなく、未記載を低負担とは判断しない。"
         },
         "cost": {
           "grade": "A",
@@ -124,12 +157,47 @@
         },
         "reservation": {
           "grade": "A",
-          "reason": "予約条件の記載なし"
+          "reason": "無料展示、一般観覧の予約条件は公式掲載に記載なし。 作品の作者が児童であることと来場者の制作体験は区別する。表彰式の参加枠を一般観覧と混同しない。"
         },
         "family_value": {
-          "grade": "A",
-          "reason": "創作意欲の刺激"
+          "grade": "B",
+          "reason": "同世代の子どもが描いた自然や環境の作品を見比べ、親子で表現への関心を広げられる。 作品の作者が児童であることと来場者の制作体験は区別する。表彰式の参加枠を一般観覧と混同しない。"
         }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-14",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "performers_are_children",
+        "child_activity_confirmed": false,
+        "strengths": [
+          "同世代の子どもが描いた自然や環境の作品を見比べ、親子で表現への関心を広げられる。"
+        ],
+        "limitations": [
+          "作品の作者が児童であることと来場者の制作体験は区別する。表彰式の参加枠を一般観覧と混同しない。"
+        ],
+        "grade_comparison": "総合B：同世代の子どもが描いた自然や環境の作品を見比べ、親子で表現への関心を広げられる。 作品の作者が児童であることと来場者の制作体験は区別する。表彰式の参加枠を一般観覧と混同しない。",
+        "unsupported_axes": [
+          "burden"
+        ],
+        "evidence": [
+          {
+            "url": "https://sumida-artfest.jp/programs/4004/",
+            "quote": "センター（ユートリヤ） ギャラリー 主催 MOA美術館墨田児童作品展実行委員会 イントロダクション 基本情報 アクセス 墨田区内の児童が自然や環境等とのかかわりを通して、興味や関心を持ったものを絵画等作品にし、それらの中から優れた作品を選考し、展示会及び表彰式を開催します。 基本情報 日時 2026年11月28日（土） 9:00〜21:00 2026年11月29日（日） 9:00～15:00 会場 すみだ生涯学習センター（ユートリヤ） ギャラリー 参加費 無料 WEBサイト https://acegn.moaart.or.jp/contents.php?c=local_info&id=i01ks1ek7hh2btjvf5ptt4y1ybp 問い合わせ先 メール： suzu_m0541[at]yahoo.co.jp TEL：事務局 木村 070-5080-9657 主催 MOA美術館墨田児童作品展実行委員会 アクセス すみだ生涯学習センター（ユートリヤ） ← プログラム検索へ戻る ダウンロード",
+            "checked_at": "2026-11-14T16:51:26+09:00",
+            "sha256": "2221dba6f54d86ea1d332303e3ca79d644525f9a96e895c82ffa2ea793b12886"
+          }
+        ]
       }
     },
     "reservation": {

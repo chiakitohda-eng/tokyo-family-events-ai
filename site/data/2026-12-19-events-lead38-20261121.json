@@ -1,0 +1,448 @@
+[
+  {
+    "id": "verified-20261219-meguro-gohongi-tudoi-santa",
+    "ward": "目黒区",
+    "name": "五本木住区センター児童館 乳幼児のつどい「ごほんぎクリスマス サンタさんがやってきた」",
+    "url": "https://www.city.meguro.tokyo.jp/houkago/event/8gohongi-tudoi12190.html",
+    "official_url": "https://www.city.meguro.tokyo.jp/houkago/event/8gohongi-tudoi12190.html",
+    "source": "https://www.city.meguro.tokyo.jp/houkago/event/8gohongi-tudoi12190.html",
+    "image": "https://www.city.meguro.tokyo.jp/images/20863/nyuyoujinotudoi.jpg",
+    "period": "12/19(土)",
+    "date_start": "2026-12-19",
+    "date_end": "2026-12-19",
+    "time": "10:30〜11:30（10:20から受付）",
+    "venue": "五本木住区センター児童館 プレイルーム（目黒区）",
+    "price": "参加費の記載なし",
+    "description": "みんなでクリスマス会をして楽しむ、ベビーから5歳児までの乳幼児のつどい。クリスマスグッズがあれば持参する。当日来館で参加でき、予約は不要。",
+    "categories": [
+      "親子",
+      "まつり・イベント"
+    ],
+    "indoor_outdoor": "屋内",
+    "reservation": {
+      "required": false,
+      "note": "当日児童館へ行く。予約は不要。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "ベビーから5歳児までの親子で楽しむ、児童館のクリスマス会。予約は不要で、土曜に参加できる。参加費の記載はない。",
+      "axes": {
+        "child_target": {
+          "grade": "A",
+          "reason": "ベビーから5歳児までが対象"
+        },
+        "interactivity": {
+          "grade": "B",
+          "reason": "クリスマス会として親子で参加する"
+        },
+        "age_fit": {
+          "grade": "A",
+          "reason": "対象はベビー〜5歳児と明記"
+        },
+        "stay_flexibility": {
+          "grade": "B",
+          "reason": "10:30〜11:30の1時間"
+        },
+        "burden": {
+          "grade": "A",
+          "reason": "予約不要で、当日行けばよい"
+        },
+        "cost": {
+          "grade": "unknown",
+          "reason": "参加費の記載がない"
+        },
+        "reservation": {
+          "grade": "A",
+          "reason": "予約は不要"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "クリスマスの季節行事を親子で楽しめる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-22",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "child_program",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "予約不要で、土曜に参加できる",
+          "ベビー〜5歳児まで幅広く参加できる"
+        ],
+        "limitations": [
+          "参加費の記載がない",
+          "体験の内容の詳細は書かれていない"
+        ],
+        "grade_comparison": "総合B：12/19(土)10:30〜11:30、児童館のクリスマス会。予約不要で行きやすい。参加費の記載はない。",
+        "unsupported_axes": [
+          "cost"
+        ],
+        "evidence": [
+          {
+            "url": "https://www.city.meguro.tokyo.jp/houkago/event/8gohongi-tudoi12190.html",
+            "quote": "乳幼児のつどい「ごほんぎクリスマス　サンタさんがやってきた」",
+            "checked_at": "2026-11-22",
+            "sha256": "b05dd304ac7843ae58f2f664b7200ec81baa0dd5383fe9e53087a8ae4125ea3a",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-22にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.meguro.tokyo.jp/houkago/event/8gohongi-tudoi12190.html",
+            "quote": "令和8年12月19日（土曜日）午前10時30分から11時30分まで",
+            "checked_at": "2026-11-22",
+            "sha256": "ee0b2ea2e3be4412972bceb2f30abcfd77526a709ea0c6f9a42e0e4c48ca23d2",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-22にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.meguro.tokyo.jp/houkago/event/8gohongi-tudoi12190.html",
+            "quote": "五本木住区センター児童館　プレイルーム",
+            "checked_at": "2026-11-22",
+            "sha256": "11d54f5208e22204ca4fd45a9df363898b2132366657bbe2a9260ebefc129528",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-22にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.meguro.tokyo.jp/houkago/event/8gohongi-tudoi12190.html",
+            "quote": "対象ベビーから5歳児まで",
+            "checked_at": "2026-11-22",
+            "sha256": "4fd3d4b9273c83f4d0b1c98a57432a10c791361a3c727593f01607766f0c1a68",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-22にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.meguro.tokyo.jp/houkago/event/8gohongi-tudoi12190.html",
+            "quote": "参加希望のかたは、当日児童館へお越しください。予約は不要です。",
+            "checked_at": "2026-11-22",
+            "sha256": "3c9c7e5ab33d1ab072d39a618d58a84a1b2181390fc6acd8e789eab278196d07",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-22にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.meguro.tokyo.jp/houkago/event/8gohongi-tudoi12190.html",
+            "quote": "今年もあとわずか。みんなでクリスマス会をして楽しみましょう。",
+            "checked_at": "2026-11-22",
+            "sha256": "ccd407f22ac55b888888dae665bf86fb12e93647d038dabb0799d56a05477bc8",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-22にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-22",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  },
+  {
+    "id": "verified-20261219-meguro-kamimeguro-tudoi-rhythmic",
+    "ward": "目黒区",
+    "name": "上目黒住区センター児童館 乳幼児のつどい「親子でリトミック遊び」",
+    "url": "https://www.city.meguro.tokyo.jp/houkago/event/kamime-tudoi14.html",
+    "official_url": "https://www.city.meguro.tokyo.jp/houkago/event/kamime-tudoi14.html",
+    "source": "https://www.city.meguro.tokyo.jp/houkago/event/kamime-tudoi14.html",
+    "image": "",
+    "period": "12/19(土)",
+    "date_start": "2026-12-19",
+    "date_end": "2026-12-19",
+    "time": "10:30〜11:30",
+    "venue": "上目黒住区センター児童館 2階プレイルーム（目黒区）",
+    "price": "無料",
+    "description": "講師を招いて、親子でリトミック遊びを楽しむ会。1歳児から3歳児とその保護者が対象で、費用は無料。事前予約制で、開催日の2週間前から電話または来館で受け付ける。",
+    "categories": [
+      "親子",
+      "音楽・ステージ"
+    ],
+    "indoor_outdoor": "屋内",
+    "reservation": {
+      "required": true,
+      "note": "事前予約制。開催日の2週間前（12/5）から、電話（03-3793-1103）または来館で申し込む。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "1〜3歳の子どもと保護者が、講師といっしょにリトミックを楽しむ児童館の会。費用は無料。事前予約制で、受付は開催の2週間前から。",
+      "axes": {
+        "child_target": {
+          "grade": "A",
+          "reason": "1歳児から3歳児とその保護者が対象"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "講師とリトミックで体を動かす"
+        },
+        "age_fit": {
+          "grade": "A",
+          "reason": "対象は1〜3歳と明記"
+        },
+        "stay_flexibility": {
+          "grade": "B",
+          "reason": "10:30〜11:30の1時間"
+        },
+        "burden": {
+          "grade": "B",
+          "reason": "事前予約制。受付は開催の2週間前から"
+        },
+        "cost": {
+          "grade": "A",
+          "reason": "費用は無料"
+        },
+        "reservation": {
+          "grade": "C",
+          "reason": "事前予約制で、電話または来館で申込"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "音楽に合わせて親子で体を動かせる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-22",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "child_program",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "費用は無料",
+          "講師が来て、リトミックを体験できる"
+        ],
+        "limitations": [
+          "事前予約制で、受付は12/5から",
+          "対象は1〜3歳に限られる"
+        ],
+        "grade_comparison": "総合B：12/19(土)10:30〜11:30、親子のリトミック。無料だが、事前予約制で受付は12/5から。",
+        "unsupported_axes": [],
+        "evidence": [
+          {
+            "url": "https://www.city.meguro.tokyo.jp/houkago/event/kamime-tudoi14.html",
+            "quote": "乳幼児のつどい「親子でリトミック遊び」",
+            "checked_at": "2026-11-22",
+            "sha256": "05f8759f64cad047bf9ab1ce6d45f9194789a053c384aa3416d217e315e2fde0",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-22にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.meguro.tokyo.jp/houkago/event/kamime-tudoi14.html",
+            "quote": "令和8年12月19日（土曜日）午前10時30分から11時30分まで",
+            "checked_at": "2026-11-22",
+            "sha256": "ee0b2ea2e3be4412972bceb2f30abcfd77526a709ea0c6f9a42e0e4c48ca23d2",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-22にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.meguro.tokyo.jp/houkago/event/kamime-tudoi14.html",
+            "quote": "上目黒住区センター児童館　2階プレイルーム",
+            "checked_at": "2026-11-22",
+            "sha256": "8a1dbc573761f40b1202fbc94c05a982eb68a9f4a526abcb330725f1495639db",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-22にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.meguro.tokyo.jp/houkago/event/kamime-tudoi14.html",
+            "quote": "1歳児から3歳児のお子さんとその保護者費用無料",
+            "checked_at": "2026-11-22",
+            "sha256": "c59a1d5d4a10022a62022a88d48fd2ad7fcc53cf0d5c1ac78f9f10cf2fbf15f6",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-22にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.meguro.tokyo.jp/houkago/event/kamime-tudoi14.html",
+            "quote": "事前予約制。開催日の2週間前より受け付けを開始します。",
+            "checked_at": "2026-11-22",
+            "sha256": "64511f2afbcb12490b966f077f825fc2f2d68299b73da433ec506a61bff41038",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-22にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.meguro.tokyo.jp/houkago/event/kamime-tudoi14.html",
+            "quote": "講師のかたをお招きして、親子でリトミック遊びを楽しみます。",
+            "checked_at": "2026-11-22",
+            "sha256": "4a0b71d7a3f7e3b098a0431d3a790175dd002964d9fdf67d509fb951d66d4c09",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-22にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-22",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  },
+  {
+    "id": "verified-20261219-edogawa-mirai-shimenawa-oyako",
+    "ward": "江戸川区",
+    "name": "親子でしめ縄づくり（江戸川区子ども未来館）",
+    "url": "https://www.city.edogawa.tokyo.jp/event/2612shimenawa.html",
+    "official_url": "https://www.city.edogawa.tokyo.jp/event/2612shimenawa.html",
+    "source": "https://www.city.edogawa.tokyo.jp/event/2612shimenawa.html",
+    "image": "https://www.city.edogawa.tokyo.jp/images/75115/12191shimenawa.jpg",
+    "period": "12/19(土)",
+    "date_start": "2026-12-19",
+    "date_end": "2026-12-19",
+    "time": "10:00〜12:00",
+    "venue": "子ども未来館（江戸川区篠崎町三丁目12番10号）",
+    "price": "無料",
+    "description": "稲から取れる藁を使って、お正月の玄関かざりのしめ縄を親子で作る講座。小学校3年生から6年生とその保護者が対象。定員8組の抽選で、申込は12/8まで。",
+    "categories": [
+      "体験・ワークショップ",
+      "親子"
+    ],
+    "indoor_outdoor": "屋内",
+    "reservation": {
+      "required": true,
+      "note": "申込必要・定員8組（抽選）。申込期間は11/13〜12/8（ウェブサイトのしめきり）。往復はがきはしめきり前日までに到着。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "小学3〜6年生と保護者が、藁でしめ縄を作る伝統の工作講座。費用は無料だが、定員8組の抽選で、申込は12/8まで。",
+      "axes": {
+        "child_target": {
+          "grade": "A",
+          "reason": "小学校3年生から6年生とその保護者が対象"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "藁でしめ縄を作る"
+        },
+        "age_fit": {
+          "grade": "A",
+          "reason": "対象は小学3〜6年生と明記"
+        },
+        "stay_flexibility": {
+          "grade": "B",
+          "reason": "10:00〜12:00の2時間"
+        },
+        "burden": {
+          "grade": "C",
+          "reason": "抽選で、申込は12/8まで"
+        },
+        "cost": {
+          "grade": "A",
+          "reason": "費用は無料"
+        },
+        "reservation": {
+          "grade": "C",
+          "reason": "申込必要で、定員8組の抽選"
+        },
+        "family_value": {
+          "grade": "A",
+          "reason": "正月かざりの作り方を親子で学べる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-22",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "child_program",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "費用は無料",
+          "伝統のしめ縄づくりを親子で体験できる"
+        ],
+        "limitations": [
+          "定員8組の抽選で、申込は12/8まで",
+          "対象は小学3〜6年生と保護者に限られる"
+        ],
+        "grade_comparison": "総合B：12/19(土)10:00〜12:00、親子のしめ縄づくり。無料だが、抽選（8組）で申込は12/8まで。",
+        "unsupported_axes": [],
+        "evidence": [
+          {
+            "url": "https://www.city.edogawa.tokyo.jp/event/2612shimenawa.html",
+            "quote": "しめ縄は、正月に歳神様を迎えるための玄関かざりです。",
+            "checked_at": "2026-11-22",
+            "sha256": "4f1411d7d285524980dfc477a1ed8ebf7e4e72b3028cb5df3e35999de28797d7",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-22にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.edogawa.tokyo.jp/event/2612shimenawa.html",
+            "quote": "2026年12月19日（土曜日）10時00分から12時00分",
+            "checked_at": "2026-11-22",
+            "sha256": "cceb2033be090a5aba51bbd54ad632f61375c7050215c9a4fbf37a773f7a8a40",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-22にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.edogawa.tokyo.jp/event/2612shimenawa.html",
+            "quote": "親子でつくり方を学び、1年の始まりを家族で祝いましょう。",
+            "checked_at": "2026-11-22",
+            "sha256": "82657a7edeaafa31dcd15a1806eda804d4c6861d5786eec315ccb012e49335aa",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-22にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.edogawa.tokyo.jp/event/2612shimenawa.html",
+            "quote": "小学校3年生から6年生までとその保護者",
+            "checked_at": "2026-11-22",
+            "sha256": "c70b588e600e1f114f42329babf196a9dfbfaed48a52d913db7b592550cbe6b6",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-22にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.edogawa.tokyo.jp/event/2612shimenawa.html",
+            "quote": "定員8組（抽選）費用無料",
+            "checked_at": "2026-11-22",
+            "sha256": "5bee7bfe7d059e5afa37bc5511a2cfeb9ed6c5672c0f8e86f082e5f432a0eebb",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-22にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.edogawa.tokyo.jp/event/2612shimenawa.html",
+            "quote": "2026年11月13日（金曜日）から2026年12月8日（火曜日）",
+            "checked_at": "2026-11-22",
+            "sha256": "f17999eb600761d02f141e498bae9a6a5cd8b4d3bd3dde3af57e6f69b2c9f392",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-22にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-22",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  }
+]

@@ -1,0 +1,2347 @@
+{
+  "schema_version": 1,
+  "target": {
+    "sat": "2026-12-19",
+    "sun": "2026-12-20"
+  },
+  "horizon_index": 5,
+  "publication_tier": "announcement",
+  "mode": "verified_current_rollover_20261118",
+  "prompt": {
+    "version": "v1.15",
+    "path": "prompts/tokyo_family_events_complete_prompt_v1.15.txt",
+    "pointer": "site/data/latest_prompt.json",
+    "resolved": true
+  },
+  "source_data": {
+    "week_file": "2026-12-19.json",
+    "verification_file": "2026-12-19-verification.json",
+    "decision_file": "2026-12-19-decisions.json"
+  },
+  "candidate_evidence": {
+    "source_shards": [
+      "2026-12-19-events-non-ng-verified-only-20261117.json"
+    ],
+    "source_audits": [
+      "2026-11-16-candidate-audit.json",
+      "2026-11-16-carryover-audit.json",
+      "2026-11-16-suginami-december-audit.json"
+    ],
+    "baseline_data_production_sha": "1f1d9cc5d7716c3b6e5cbe8dd7c9c9d9ac47d35f"
+  },
+  "discovery_evidence": {
+    "wards_total": 23,
+    "wards_fully_checked_this_run": 23,
+    "required_sources_total": 25,
+    "required_sources_fully_checked_this_run": 24,
+    "full_42_day_suginami_daily_sweep": false,
+    "evidence_ref": "rollover_evidence_20261118"
+  },
+  "explicit_source_checks": [],
+  "official_schedule_checks": [
+    {
+      "source_id": "suginami_calendar_all",
+      "status": "partial",
+      "days_reviewed": [
+        "2026-12-19",
+        "2026-12-20",
+        "2026-12-26",
+        "2026-12-27"
+      ],
+      "official_url": "https://www.city.suginami.tokyo.jp/cgi-bin/event_cal_multi/calendar.cgi?type=3&year=2026&month=12&day=19"
+    }
+  ],
+  "stages": [
+    {
+      "name": "candidate_shards_prepared",
+      "status": "passed"
+    },
+    {
+      "name": "official_event_subset",
+      "status": "partial"
+    },
+    {
+      "name": "discover_23_wards",
+      "status": "passed"
+    },
+    {
+      "name": "mandatory_explicit_source_crawl",
+      "status": "partial"
+    },
+    {
+      "name": "strict_validation",
+      "status": "pending"
+    },
+    {
+      "name": "deploy",
+      "status": "not_attempted"
+    }
+  ],
+  "summary": {
+    "wards_checked": 23,
+    "candidates": 87,
+    "published": 87,
+    "excluded": 0,
+    "duplicate_removed": 0,
+    "verified": 86,
+    "announced": 1,
+    "thumbnail_count": 9,
+    "source_audit_complete": false,
+    "publication_ready": false
+  },
+  "official_source_rechecks_added": {
+    "checked_at_jst": "2026-11-16",
+    "source_list": [
+      "https://www.city.shinjuku.lg.jp/kanko/community01_002104.html",
+      "https://www.city.adachi.tokyo.jp/sports/3x3taikenkai.html",
+      "https://www.city.adachi.tokyo.jp/shogai-c/shariha1219.html",
+      "https://www.library.city.arakawa.tokyo.jp/kidseventview?1=&of=1&t=3&type=month",
+      "https://www.museum.city.katsushika.lg.jp/event/2026/11/post-281.php",
+      "https://www.museum.city.katsushika.lg.jp/event/2026/11/post-280.php"
+    ],
+    "added_events": 11,
+    "coverage_status": "partial_23_ward_search_first_pass"
+  },
+  "scoped_addendum_20261117": {
+    "kind": "eight_non_ng_approved_only",
+    "added_ids": [
+      "confirmed-20261219-nakano-rock-experience",
+      "confirmed-20261220-nakano-ikebana",
+      "tamemap-20261219-nakano-family-rhythm",
+      "tamemap-20261220-nakano-forest-choir"
+    ],
+    "verified": 3,
+    "announced": 1,
+    "publication_ready": false,
+    "global_source_audit_complete": false,
+    "as_of_jst": "2026-11-17",
+    "original_staged_week_candidates_preserved_elsewhere": true
+  },
+  "rollover_evidence_20261118": {
+    "source": {
+      "workflow_run_id": 44187635448,
+      "artifact_id": 14375267058,
+      "requests_sha256": "3459409ad644d4e6b3b387312098583a63c69eda2aee073ff65644fee08e502a",
+      "committed_copy": "research/2026-11-18-source-evidence/"
+    },
+    "as_of_jst": "2026-11-16",
+    "base_data_production_sha": "fc6bec505975c6dabbddd404f33cd7d9f3f525e9",
+    "request_count": 588,
+    "requests_success": 583,
+    "wards": [
+      {
+        "ward": "千代田区",
+        "query_logs": [
+          {
+            "query": "千代田区 2026年12月19日 子ども 親子 キッズ イベント ワークショップ 体験",
+            "url": "https://www.bing.com/search?format=rss&q=%E5%8D%83%E4%BB%A3%E7%94%B0%E5%8C%BA%202026%E5%B9%B412%E6%9C%8819%E6%97%A5%20%E5%AD%90%E3%81%A9%E3%82%82%20%E8%A6%AA%E5%AD%90%20%E3%82%AD%E3%83%83%E3%82%BA%20%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88%20%E3%83%AF%E3%83%BC%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%83%E3%83%97%20%E4%BD%93%E9%A8%93",
+            "checked_at": "2026-11-18T07:12:16+09:00",
+            "status": "checked",
+            "http_status": 200,
+            "sha256": "daf2e569858e2ff15d2a8ac1a9ee4025857bebbb7ecc60600eabe3897d618581",
+            "search_results_total": 0,
+            "search_results_event_leads": 0
+          },
+          {
+            "query": "千代田区 2026年12月19日 祭り フェス マルシェ 文化 展示 無料",
+            "url": "https://www.bing.com/search?format=rss&q=%E5%8D%83%E4%BB%A3%E7%94%B0%E5%8C%BA%202026%E5%B9%B412%E6%9C%8819%E6%97%A5%20%E7%A5%AD%E3%82%8A%20%E3%83%95%E3%82%A7%E3%82%B9%20%E3%83%9E%E3%83%AB%E3%82%B7%E3%82%A7%20%E6%96%87%E5%8C%96%20%E5%B1%95%E7%A4%BA%20%E7%84%A1%E6%96%99",
+            "checked_at": "2026-11-18T07:12:16+09:00",
+            "status": "checked",
+            "http_status": 200,
+            "sha256": "8254dd32a4e20588adc991a74262b0e86bd7f7bec0eba41ab3be192710c891ad",
+            "search_results_total": 0,
+            "search_results_event_leads": 0
+          },
+          {
+            "query": "千代田区 2026年12月19日 鉄道 動物 科学 防災 消防 スタンプラリー",
+            "url": "https://www.bing.com/search?format=rss&q=%E5%8D%83%E4%BB%A3%E7%94%B0%E5%8C%BA%202026%E5%B9%B412%E6%9C%8819%E6%97%A5%20%E9%89%84%E9%81%93%20%E5%8B%95%E7%89%A9%20%E7%A7%91%E5%AD%A6%20%E9%98%B2%E7%81%BD%20%E6%B6%88%E9%98%B2%20%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%97%E3%83%A9%E3%83%AA%E3%83%BC",
+            "checked_at": "2026-11-18T07:12:16+09:00",
+            "status": "checked",
+            "http_status": 200,
+            "sha256": "7b1f1c272c4b61764878cdfbb6a14a25bf96ba9bb287ba88e408f7e948728a50",
+            "search_results_total": 0,
+            "search_results_event_leads": 0
+          }
+        ],
+        "source_checks": [
+          {
+            "url": "https://www.city.chiyoda.lg.jp/",
+            "checked_at": "2026-11-18T07:12:18+09:00",
+            "status": "checked",
+            "http_status": 200,
+            "sha256": "de3b447317c1bc436fc764f45c2429afbfbdf71eaf757ded8e041bdc7bca4a61"
+          }
+        ]
+      },
+      {
+        "ward": "中央区",
+        "query_logs": [
+          {
+            "query": "中央区 2026年12月19日 子ども 親子 キッズ イベント ワークショップ 体験",
+            "url": "https://www.bing.com/search?format=rss&q=%E4%B8%AD%E5%A4%AE%E5%8C%BA%202026%E5%B9%B412%E6%9C%8819%E6%97%A5%20%E5%AD%90%E3%81%A9%E3%82%82%20%E8%A6%AA%E5%AD%90%20%E3%82%AD%E3%83%83%E3%82%BA%20%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88%20%E3%83%AF%E3%83%BC%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%83%E3%83%97%20%E4%BD%93%E9%A8%93",
+            "checked_at": "2026-11-18T07:12:17+09:00",
+            "status": "checked",
+            "http_status": 200,
+            "sha256": "055e0dc5b8c6ac75145847caa8c31bafb5dde58c2424134980236e4f7082458e",
+            "search_results_total": 0,
+            "search_results_event_leads": 0
+          },
+          {
+            "query": "中央区 2026年12月19日 祭り フェス マルシェ 文化 展示 無料",
+            "url": "https://www.bing.com/search?format=rss&q=%E4%B8%AD%E5%A4%AE%E5%8C%BA%202026%E5%B9%B412%E6%9C%8819%E6%97%A5%20%E7%A5%AD%E3%82%8A%20%E3%83%95%E3%82%A7%E3%82%B9%20%E3%83%9E%E3%83%AB%E3%82%B7%E3%82%A7%20%E6%96%87%E5%8C%96%20%E5%B1%95%E7%A4%BA%20%E7%84%A1%E6%96%99",
+            "checked_at": "2026-11-18T07:12:17+09:00",
+            "status": "checked",
+            "http_status": 200,
+            "sha256": "43c6676fe8a35f66cf24c2d8d1a8ce9cfd180df24cc3b86a7166365eb4ae6697",
+            "search_results_total": 1,
+            "search_results_event_leads": 0
+          },
+          {
+            "query": "中央区 2026年12月19日 鉄道 動物 科学 防災 消防 スタンプラリー",
+            "url": "https://www.bing.com/search?format=rss&q=%E4%B8%AD%E5%A4%AE%E5%8C%BA%202026%E5%B9%B412%E6%9C%8819%E6%97%A5%20%E9%89%84%E9%81%93%20%E5%8B%95%E7%89%A9%20%E7%A7%91%E5%AD%A6%20%E9%98%B2%E7%81%BD%20%E6%B6%88%E9%98%B2%20%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%97%E3%83%A9%E3%83%AA%E3%83%BC",
+            "checked_at": "2026-11-18T07:12:17+09:00",
+            "status": "checked",
+            "http_status": 200,
+            "sha256": "9d443613d5bbea19f6cf723a3f823d36a4ef361aa5d68f659a1772af29d3d1c1",
+            "search_results_total": 0,
+            "search_results_event_leads": 0
+          }
+        ],
+        "source_checks": [
+          {
+            "url": "https://www.city.chuo.lg.jp/",
+            "checked_at": "2026-11-18T07:12:18+09:00",
+            "status": "checked",
+            "http_status": 200,
+            "sha256": "a824750cf7eea4eb585c0b5dba8b7632353014bb28d2c143120adfe818a1fc02"
+          }
+        ]
+      },
+      {
+        "ward": "港区",
+        "query_logs": [
+          {
+            "query": "港区 2026年12月19日 子ども 親子 キッズ イベント ワークショップ 体験",
+            "url": "https://www.bing.com/search?format=rss&q=%E6%B8%AF%E5%8C%BA%202026%E5%B9%B412%E6%9C%8819%E6%97%A5%20%E5%AD%90%E3%81%A9%E3%82%82%20%E8%A6%AA%E5%AD%90%20%E3%82%AD%E3%83%83%E3%82%BA%20%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88%20%E3%83%AF%E3%83%BC%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%83%E3%83%97%20%E4%BD%93%E9%A8%93",
+            "checked_at": "2026-11-18T07:12:17+09:00",
+            "status": "checked",
+            "http_status": 200,
+            "sha256": "7091359c6eecc9551f26583b3d1a262546c8bac77d1dfda9d5dab29b5eb7504c",
+            "search_results_total": 10,
+            "search_results_event_leads": 0
+          },
+          {
+            "query": "港区 2026年12月19日 祭り フェス マルシェ 文化 展示 無料",
+            "url": "https://www.bing.com/search?format=rss&q=%E6%B8%AF%E5%8C%BA%202026%E5%B9%B412%E6%9C%8819%E6%97%A5%20%E7%A5%AD%E3%82%8A%20%E3%83%95%E3%82%A7%E3%82%B9%20%E3%83%9E%E3%83%AB%E3%82%B7%E3%82%A7%20%E6%96%87%E5%8C%96%20%E5%B1%95%E7%A4%BA%20%E7%84%A1%E6%96%99",
+            "checked_at": "2026-11-18T07:12:17+09:00",
+            "status": "checked",
+            "http_status": 200,
+            "sha256": "0e6bb529f53af75412ad823fabdff18d659403ccdc2486df4e2cd608a32a068c",
+            "search_results_total": 10,
+            "search_results_event_leads": 0
+          },
+          {
+            "query": "港区 2026年12月19日 鉄道 動物 科学 防災 消防 スタンプラリー",
+            "url": "https://www.bing.com/search?format=rss&q=%E6%B8%AF%E5%8C%BA%202026%E5%B9%B412%E6%9C%8819%E6%97%A5%20%E9%89%84%E9%81%93%20%E5%8B%95%E7%89%A9%20%E7%A7%91%E5%AD%A6%20%E9%98%B2%E7%81%BD%20%E6%B6%88%E9%98%B2%20%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%97%E3%83%A9%E3%83%AA%E3%83%BC",
+            "checked_at": "2026-11-18T07:12:17+09:00",
+            "status": "checked",
+            "http_status": 200,
+            "sha256": "0a4c202ce73e80419925e5f33d9f86825ed652a5bc41c6ee449be52085c2372e",
+            "search_results_total": 10,
+            "search_results_event_leads": 0
+          }
+        ],
+        "source_checks": [
+          {
+            "url": "https://www.city.minato.tokyo.jp/",
+            "checked_at": "2026-11-18T07:12:17+09:00",
+            "status": "checked",
+            "http_status": 200,
+            "sha256": "31ebf2018a1aaa35abadb4b9f3ebbbdd0754e8379e39b2fe28e87721f1e3a63c"
+          }
+        ]
+      },
+      {
+        "ward": "新宿区",
+        "query_logs": [
+          {
+            "query": "新宿区 2026年12月19日 子ども 親子 キッズ イベント ワークショップ 体験",
+            "url": "https://www.bing.com/search?format=rss&q=%E6%96%B0%E5%AE%BF%E5%8C%BA%202026%E5%B9%B412%E6%9C%8819%E6%97%A5%20%E5%AD%90%E3%81%A9%E3%82%82%20%E8%A6%AA%E5%AD%90%20%E3%82%AD%E3%83%83%E3%82%BA%20%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88%20%E3%83%AF%E3%83%BC%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%83%E3%83%97%20%E4%BD%93%E9%A8%93",
+            "checked_at": "2026-11-18T07:12:18+09:00",
+            "status": "checked",
+            "http_status": 200,
+            "sha256": "256c065c2bbbf238aab3e89a15b8a9e7f0bffd61dd69a1185cf4b5419cf069ec",
+            "search_results_total": 10,
+            "search_results_event_leads": 0
+          },
+          {
+            "query": "新宿区 2026年12月19日 祭り フェス マルシェ 文化 展示 無料",
+            "url": "https://www.bing.com/search?format=rss&q=%E6%96%B0%E5%AE%BF%E5%8C%BA%202026%E5%B9%B412%E6%9C%8819%E6%97%A5%20%E7%A5%AD%E3%82%8A%20%E3%83%95%E3%82%A7%E3%82%B9%20%E3%83%9E%E3%83%AB%E3%82%B7%E3%82%A7%20%E6%96%87%E5%8C%96%20%E5%B1%95%E7%A4%BA%20%E7%84%A1%E6%96%99",
+            "checked_at": "2026-11-18T07:12:18+09:00",
+            "status": "checked",
+            "http_status": 200,
+            "sha256": "0fbe694ccc0d4b89b3a3f51412cb49d46b543b899e7cdde8f7f9950f7a1a8319",
+            "search_results_total": 10,
+            "search_results_event_leads": 0
+          },
+          {
+            "query": "新宿区 2026年12月19日 鉄道 動物 科学 防災 消防 スタンプラリー",
+            "url": "https://www.bing.com/search?format=rss&q=%E6%96%B0%E5%AE%BF%E5%8C%BA%202026%E5%B9%B412%E6%9C%8819%E6%97%A5%20%E9%89%84%E9%81%93%20%E5%8B%95%E7%89%A9%20%E7%A7%91%E5%AD%A6%20%E9%98%B2%E7%81%BD%20%E6%B6%88%E9%98%B2%20%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%97%E3%83%A9%E3%83%AA%E3%83%BC",
+            "checked_at": "2026-11-18T07:12:18+09:00",
+            "status": "checked",
+            "http_status": 200,
+            "sha256": "7442c31bbac56d661b6993dcf423c7d3a93ca78f0963ab587c4214ff591f2894",
+            "search_results_total": 10,
+            "search_results_event_leads": 0
+          }
+        ],
+        "source_checks": [
+          {
+            "url": "https://www.city.shinjuku.lg.jp/",
+            "checked_at": "2026-11-18T07:12:19+09:00",
+            "status": "checked",
+            "http_status": 200,
+            "sha256": "98b75638f95daa90819487f856d2d24eb349a7d0f0d9175cb01333e5a7bbcd27"
+          }
+        ]
+      },
+      {
+        "ward": "文京区",
+        "query_logs": [
+          {
+            "query": "文京区 2026年12月19日 子ども 親子 キッズ イベント ワークショップ 体験",
+            "url": "https://www.bing.com/search?format=rss&q=%E6%96%87%E4%BA%AC%E5%8C%BA%202026%E5%B9%B412%E6%9C%8819%E6%97%A5%20%E5%AD%90%E3%81%A9%E3%82%82%20%E8%A6%AA%E5%AD%90%20%E3%82%AD%E3%83%83%E3%82%BA%20%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88%20%E3%83%AF%E3%83%BC%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%83%E3%83%97%20%E4%BD%93%E9%A8%93",
+            "checked_at": "2026-11-18T07:12:18+09:00",
+            "status": "checked",
+            "http_status": 200,
+            "sha256": "89503638459f348dbc4b400f0897a27c247c427696a095c4f0f3f17cf58c170c",
+            "search_results_total": 0,
+            "search_results_event_leads": 0
+          },
+          {
+            "query": "文京区 2026年12月19日 祭り フェス マルシェ 文化 展示 無料",
+            "url": "https://www.bing.com/search?format=rss&q=%E6%96%87%E4%BA%AC%E5%8C%BA%202026%E5%B9%B412%E6%9C%8819%E6%97%A5%20%E7%A5%AD%E3%82%8A%20%E3%83%95%E3%82%A7%E3%82%B9%20%E3%83%9E%E3%83%AB%E3%82%B7%E3%82%A7%20%E6%96%87%E5%8C%96%20%E5%B1%95%E7%A4%BA%20%E7%84%A1%E6%96%99",
+            "checked_at": "2026-11-18T07:12:18+09:00",
+            "status": "checked",
+            "http_status": 200,
+            "sha256": "7f93d9612beccae58469cb93ca5988d0d42f5b8e3906d06dd809a10c249740eb",
+            "search_results_total": 0,
+            "search_results_event_leads": 0
+          },
+          {
+            "query": "文京区 2026年12月19日 鉄道 動物 科学 防災 消防 スタンプラリー",
+            "url": "https://www.bing.com/search?format=rss&q=%E6%96%87%E4%BA%AC%E5%8C%BA%202026%E5%B9%B412%E6%9C%8819%E6%97%A5%20%E9%89%84%E9%81%93%20%E5%8B%95%E7%89%A9%20%E7%A7%91%E5%AD%A6%20%E9%98%B2%E7%81%BD%20%E6%B6%88%E9%98%B2%20%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%97%E3%83%A9%E3%83%AA%E3%83%BC",
+            "checked_at": "2026-11-18T07:12:18+09:00",
+            "status": "checked",
+            "http_status": 200,
+            "sha256": "3d81139139c8f3cee718febd46cb8581fb1b4e7e17ef5e983a89934a876ab5f1",
+            "search_results_total": 0,
+            "search_results_event_leads": 0
+          }
+        ],
+        "source_checks": [
+          {
+            "url": "https://www.city.bunkyo.lg.jp/",
+            "checked_at": "2026-11-18T07:12:19+09:00",
+            "status": "checked",
+            "http_status": 200,
+            "sha256": "02dddf0d137f033d4c3b71e4a1dc4d26976f8cb03345fc6c40bf498295716dea"
+          }
+        ]
+      },
+      {
+        "ward": "台東区",
+        "query_logs": [
+          {
+            "query": "台東区 2026年12月19日 子ども 親子 キッズ イベント ワークショップ 体験",
+            "url": "https://www.bing.com/search?format=rss&q=%E5%8F%B0%E6%9D%B1%E5%8C%BA%202026%E5%B9%B412%E6%9C%8819%E6%97%A5%20%E5%AD%90%E3%81%A9%E3%82%82%20%E8%A6%AA%E5%AD%90%20%E3%82%AD%E3%83%83%E3%82%BA%20%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88%20%E3%83%AF%E3%83%BC%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%83%E3%83%97%20%E4%BD%93%E9%A8%93",
+            "checked_at": "2026-11-18T07:12:18+09:00",
+            "status": "checked",
+            "http_status": 200,
+            "sha256": "7b0265275a181df9811883875a302398c7914be034b8d4eebbf292cf7ed2d646",
+            "search_results_total": 0,
+            "search_results_event_leads": 0
+          },
+          {
+            "query": "台東区 2026年12月19日 祭り フェス マルシェ 文化 展示 無料",
+            "url": "https://www.bing.com/search?format=rss&q=%E5%8F%B0%E6%9D%B1%E5%8C%BA%202026%E5%B9%B412%E6%9C%8819%E6%97%A5%20%E7%A5%AD%E3%82%8A%20%E3%83%95%E3%82%A7%E3%82%B9%20%E3%83%9E%E3%83%AB%E3%82%B7%E3%82%A7%20%E6%96%87%E5%8C%96%20%E5%B1%95%E7%A4%BA%20%E7%84%A1%E6%96%99",
+            "checked_at": "2026-11-18T07:12:19+09:00",
+            "status": "checked",
+            "http_status": 200,
+            "sha256": "6cac10e19da04788da08f3792bb0f862c581ddda5317876ea7cbe8521d3ce341",
+            "search_results_total": 0,
+            "search_results_event_leads": 0
+          },
+          {
+            "query": "台東区 2026年12月19日 鉄道 動物 科学 防災 消防 スタンプラリー",
+            "url": "https://www.bing.com/search?format=rss&q=%E5%8F%B0%E6%9D%B1%E5%8C%BA%202026%E5%B9%B412%E6%9C%8819%E6%97%A5%20%E9%89%84%E9%81%93%20%E5%8B%95%E7%89%A9%20%E7%A7%91%E5%AD%A6%20%E9%98%B2%E7%81%BD%20%E6%B6%88%E9%98%B2%20%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%97%E3%83%A9%E3%83%AA%E3%83%BC",
+            "checked_at": "2026-11-18T07:12:18+09:00",
+            "status": "checked",
+            "http_status": 200,
+            "sha256": "73afcac70bcbb2c6f2f966812cdade458783c9334ece476efafc1aec089c19b9",
+            "search_results_total": 0,
+            "search_results_event_leads": 0
+          }
+        ],
+        "source_checks": [
+          {
+            "url": "https://www.city.taito.lg.jp/",
+            "checked_at": "2026-11-18T07:12:19+09:00",
+            "status": "checked",
+            "http_status": 200,
+            "sha256": "eaeab5f50e58293f626c2770be58270f8e4e3e20e28ae90725f985a0a9edb2b7"
+          }
+        ]
+      },
+      {
+        "ward": "墨田区",
+        "query_logs": [
+          {
+            "query": "墨田区 2026年12月19日 子ども 親子 キッズ イベント ワークショップ 体験",
+            "url": "https://www.bing.com/search?format=rss&q=%E5%A2%A8%E7%94%B0%E5%8C%BA%202026%E5%B9%B412%E6%9C%8819%E6%97%A5%20%E5%AD%90%E3%81%A9%E3%82%82%20%E8%A6%AA%E5%AD%90%20%E3%82%AD%E3%83%83%E3%82%BA%20%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88%20%E3%83%AF%E3%83%BC%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%83%E3%83%97%20%E4%BD%93%E9%A8%93",
+            "checked_at": "2026-11-18T07:12:19+09:00",
+            "status": "checked",
+            "http_status": 200,
+            "sha256": "6f376410b7e2ca030e4cb26de3d4500c939c9540068fdb7bc6a643dbb00c8bc1",
+            "search_results_total": 0,
+            "search_results_event_leads": 0
+          },
+          {
+            "query": "墨田区 2026年12月19日 祭り フェス マルシェ 文化 展示 無料",
+            "url": "https://www.bing.com/search?format=rss&q=%E5%A2%A8%E7%94%B0%E5%8C%BA%202026%E5%B9%B412%E6%9C%8819%E6%97%A5%20%E7%A5%AD%E3%82%8A%20%E3%83%95%E3%82%A7%E3%82%B9%20%E3%83%9E%E3%83%AB%E3%82%B7%E3%82%A7%20%E6%96%87%E5%8C%96%20%E5%B1%95%E7%A4%BA%20%E7%84%A1%E6%96%99",
+            "checked_at": "2026-11-18T07:12:19+09:00",
+            "status": "checked",
+            "http_status": 200,
+            "sha256": "6ab2fb4bdb4641757924e59ff8cb3810bcf7153e7513c482e299874cae63d9e9",
+            "search_results_total": 0,
+            "search_results_event_leads": 0
+          },
+          {
+            "query": "墨田区 2026年12月19日 鉄道 動物 科学 防災 消防 スタンプラリー",
+            "url": "https://www.bing.com/search?format=rss&q=%E5%A2%A8%E7%94%B0%E5%8C%BA%202026%E5%B9%B412%E6%9C%8819%E6%97%A5%20%E9%89%84%E9%81%93%20%E5%8B%95%E7%89%A9%20%E7%A7%91%E5%AD%A6%20%E9%98%B2%E7%81%BD%20%E6%B6%88%E9%98%B2%20%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%97%E3%83%A9%E3%83%AA%E3%83%BC",
+            "checked_at": "2026-11-18T07:12:19+09:00",
+            "status": "checked",
+            "http_status": 200,
+            "sha256": "a80cf377bb22db9bc4d96b8d73f260cb5fc44ec97b1159f9fa23f03f9e7e9aef",
+            "search_results_total": 0,
+            "search_results_event_leads": 0
+          }
+        ],
+        "source_checks": [
+          {
+            "url": "https://www.city.sumida.lg.jp/",
+            "checked_at": "2026-11-18T07:12:20+09:00",
+            "status": "checked",
+            "http_status": 200,
+            "sha256": "1755d812f1a8ea9585f00377f1ed7515eb8bfe9812a6e62511be7c3e23acd462"
+          }
+        ]
+      },
+      {
+        "ward": "江東区",
+        "query_logs": [
+          {
+            "query": "江東区 2026年12月19日 子ども 親子 キッズ イベント ワークショップ 体験",
+            "url": "https://www.bing.com/search?format=rss&q=%E6%B1%9F%E6%9D%B1%E5%8C%BA%202026%E5%B9%B412%E6%9C%8819%E6%97%A5%20%E5%AD%90%E3%81%A9%E3%82%82%20%E8%A6%AA%E5%AD%90%20%E3%82%AD%E3%83%83%E3%82%BA%20%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88%20%E3%83%AF%E3%83%BC%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%83%E3%83%97%20%E4%BD%93%E9%A8%93",
+            "checked_at": "2026-11-18T07:12:19+09:00",
+            "status": "checked",
+            "http_status": 200,
+            "sha256": "faf747f19b71dcd6b5857e4a763ae267a72a8853ec1d84c03c5f2802af1e9a30",
+            "search_results_total": 0,
+            "search_results_event_leads": 0
+          },
+          {
+            "query": "江東区 2026年12月19日 祭り フェス マルシェ 文化 展示 無料",
+            "url": "https://www.bing.com/search?format=rss&q=%E6%B1%9F%E6%9D%B1%E5%8C%BA%202026%E5%B9%B412%E6%9C%8819%E6%97%A5%20%E7%A5%AD%E3%82%8A%20%E3%83%95%E3%82%A7%E3%82%B9%20%E3%83%9E%E3%83%AB%E3%82%B7%E3%82%A7%20%E6%96%87%E5%8C%96%20%E5%B1%95%E7%A4%BA%20%E7%84%A1%E6%96%99",
+            "checked_at": "2026-11-18T07:12:19+09:00",
+            "status": "checked",
+            "http_status": 200,
+            "sha256": "0af16d02c5c3951ebf7ee21546e00afd77a7c9cfc6253325d63c378e6695cb03",
+            "search_results_total": 0,
+            "search_results_event_leads": 0
+          },
+          {
+            "query": "江東区 2026年12月19日 鉄道 動物 科学 防災 消防 スタンプラリー",
+            "url": "https://www.bing.com/search?format=rss&q=%E6%B1%9F%E6%9D%B1%E5%8C%BA%202026%E5%B9%B412%E6%9C%8819%E6%97%A5%20%E9%89%84%E9%81%93%20%E5%8B%95%E7%89%A9%20%E7%A7%91%E5%AD%A6%20%E9%98%B2%E7%81%BD%20%E6%B6%88%E9%98%B2%20%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%97%E3%83%A9%E3%83%AA%E3%83%BC",
+            "checked_at": "2026-11-18T07:12:19+09:00",
+            "status": "checked",
+            "http_status": 200,
+            "sha256": "305d77aeb6869b6767fc8f9ebb222b5ceb17bcf9e092edfb266952ec605cdfb2",
+            "search_results_total": 0,
+            "search_results_event_leads": 0
+          }
+        ],
+        "source_checks": [
+          {
+            "url": "https://www.city.koto.lg.jp/",
+            "checked_at": "2026-11-18T07:12:20+09:00",
+            "status": "checked",
+            "http_status": 200,
+            "sha256": "7073dc729496b26d0f8e66758b9ccf789814294f83f8d333d336b76fbade0076"
+          }
+        ]
+      },
+      {
+        "ward": "品川区",
+        "query_logs": [
+          {
+            "query": "品川区 2026年12月19日 子ども 親子 キッズ イベント ワークショップ 体験",
+            "url": "https://www.bing.com/search?format=rss&q=%E5%93%81%E5%B7%9D%E5%8C%BA%202026%E5%B9%B412%E6%9C%8819%E6%97%A5%20%E5%AD%90%E3%81%A9%E3%82%82%20%E8%A6%AA%E5%AD%90%20%E3%82%AD%E3%83%83%E3%82%BA%20%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88%20%E3%83%AF%E3%83%BC%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%83%E3%83%97%20%E4%BD%93%E9%A8%93",
+            "checked_at": "2026-11-18T07:12:20+09:00",
+            "status": "checked",
+            "http_status": 200,
+            "sha256": "ed8c4fb9cbdaf2d3c089eb84201dcd0fedb4e8ab43fd32e757bd2a5d620994b3",
+            "search_results_total": 0,
+            "search_results_event_leads": 0
+          },
+          {
+            "query": "品川区 2026年12月19日 祭り フェス マルシェ 文化 展示 無料",
+            "url": "https://www.bing.com/search?format=rss&q=%E5%93%81%E5%B7%9D%E5%8C%BA%202026%E5%B9%B412%E6%9C%8819%E6%97%A5%20%E7%A5%AD%E3%82%8A%20%E3%83%95%E3%82%A7%E3%82%B9%20%E3%83%9E%E3%83%AB%E3%82%B7%E3%82%A7%20%E6%96%87%E5%8C%96%20%E5%B1%95%E7%A4%BA%20%E7%84%A1%E6%96%99",
+            "checked_at": "2026-11-18T07:12:20+09:00",
+            "status": "checked",
+            "http_status": 200,
+            "sha256": "d8bcdbd04138378aba7f4deba974e94e06b7326a9428909dcf954516ac15476b",
+            "search_results_total": 0,
+            "search_results_event_leads": 0
+          },
+          {
+            "query": "品川区 2026年12月19日 鉄道 動物 科学 防災 消防 スタンプラリー",
+            "url": "https://www.bing.com/search?format=rss&q=%E5%93%81%E5%B7%9D%E5%8C%BA%202026%E5%B9%B412%E6%9C%8819%E6%97%A5%20%E9%89%84%E9%81%93%20%E5%8B%95%E7%89%A9%20%E7%A7%91%E5%AD%A6%20%E9%98%B2%E7%81%BD%20%E6%B6%88%E9%98%B2%20%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%97%E3%83%A9%E3%83%AA%E3%83%BC",
+            "checked_at": "2026-11-18T07:12:20+09:00",
+            "status": "checked",
+            "http_status": 200,
+            "sha256": "9110be9c32c6cb825a31ded5edc13ba0c9e2e6ddfc4cd5bc4f767cdfd3dba8d9",
+            "search_results_total": 0,
+            "search_results_event_leads": 0
+          }
+        ],
+        "source_checks": [
+          {
+            "url": "https://www.city.shinagawa.tokyo.jp/",
+            "checked_at": "2026-11-18T07:12:20+09:00",
+            "status": "checked",
+            "http_status": 200,
+            "sha256": "b07dd00c54161d0a4c98f2f5408d4fca637191d0c682cd94d0590f4eafa5f997"
+          }
+        ]
+      },
+      {
+        "ward": "目黒区",
+        "query_logs": [
+          {
+            "query": "目黒区 2026年12月19日 子ども 親子 キッズ イベント ワークショップ 体験",
+            "url": "https://www.bing.com/search?format=rss&q=%E7%9B%AE%E9%BB%92%E5%8C%BA%202026%E5%B9%B412%E6%9C%8819%E6%97%A5%20%E5%AD%90%E3%81%A9%E3%82%82%20%E8%A6%AA%E5%AD%90%20%E3%82%AD%E3%83%83%E3%82%BA%20%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88%20%E3%83%AF%E3%83%BC%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%83%E3%83%97%20%E4%BD%93%E9%A8%93",
+            "checked_at": "2026-11-18T07:12:20+09:00",
+            "status": "checked",
+            "http_status": 200,
+            "sha256": "c372dbf80a4aeb40070cf662a053455afe7da20a71af9a87f06523b7fe7fb287",
+            "search_results_total": 10,
+            "search_results_event_leads": 0
+          },
+          {
+            "query": "目黒区 2026年12月19日 祭り フェス マルシェ 文化 展示 無料",
+            "url": "https://www.bing.com/search?format=rss&q=%E7%9B%AE%E9%BB%92%E5%8C%BA%202026%E5%B9%B412%E6%9C%8819%E6%97%A5%20%E7%A5%AD%E3%82%8A%20%E3%83%95%E3%82%A7%E3%82%B9%20%E3%83%9E%E3%83%AB%E3%82%B7%E3%82%A7%20%E6%96%87%E5%8C%96%20%E5%B1%95%E7%A4%BA%20%E7%84%A1%E6%96%99",
+            "checked_at": "2026-11-18T07:12:20+09:00",
+            "status": "checked",
+            "http_status": 200,
+            "sha256": "2eb83e2a8cb8bf0d510d81855b8adf43604f454dec4350a2897d4800485958dc",
+            "search_results_total": 10,
+            "search_results_event_leads": 0
+          },
+          {
+            "query": "目黒区 2026年12月19日 鉄道 動物 科学 防災 消防 スタンプラリー",
+            "url": "https://www.bing.com/search?format=rss&q=%E7%9B%AE%E9%BB%92%E5%8C%BA%202026%E5%B9%B412%E6%9C%8819%E6%97%A5%20%E9%89%84%E9%81%93%20%E5%8B%95%E7%89%A9%20%E7%A7%91%E5%AD%A6%20%E9%98%B2%E7%81%BD%20%E6%B6%88%E9%98%B2%20%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%97%E3%83%A9%E3%83%AA%E3%83%BC",
+            "checked_at": "2026-11-18T07:12:20+09:00",
+            "status": "checked",
+            "http_status": 200,
+            "sha256": "ad41b4deb48acc96b3d21540182c56627731e6e47c0f358e504ff16eabf016bc",
+            "search_results_total": 0,
+            "search_results_event_leads": 0
+          }
+        ],
+        "source_checks": [
+          {
+            "url": "https://www.city.meguro.tokyo.jp/",
+            "checked_at": "2026-11-18T07:12:21+09:00",
+            "status": "checked",
+            "http_status": 200,
+            "sha256": "86a3aa23ca070e8f6ceda2e1570b5dddefc3fe4d6d44b09db9a7702010cb928f"
+          }
+        ]
+      },
+      {
+        "ward": "大田区",
+        "query_logs": [
+          {
+            "query": "大田区 2026年12月19日 子ども 親子 キッズ イベント ワークショップ 体験",
+            "url": "https://www.bing.com/search?format=rss&q=%E5%A4%A7%E7%94%B0%E5%8C%BA%202026%E5%B9%B412%E6%9C%8819%E6%97%A5%20%E5%AD%90%E3%81%A9%E3%82%82%20%E8%A6%AA%E5%AD%90%20%E3%82%AD%E3%83%83%E3%82%BA%20%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88%20%E3%83%AF%E3%83%BC%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%83%E3%83%97%20%E4%BD%93%E9%A8%93",
+            "checked_at": "2026-11-18T07:12:20+09:00",
+            "status": "checked",
+            "http_status": 200,
+            "sha256": "7c0665c18940887b60af8e55691c6bd64b54991f9f61afc009950b49c98b74a3",
+            "search_results_total": 0,
+            "search_results_event_leads": 0
+          },
+          {
+            "query": "大田区 2026年12月19日 祭り フェス マルシェ 文化 展示 無料",
+            "url": "https://www.bing.com/search?format=rss&q=%E5%A4%A7%E7%94%B0%E5%8C%BA%202026%E5%B9%B412%E6%9C%8819%E6%97%A5%20%E7%A5%AD%E3%82%8A%20%E3%83%95%E3%82%A7%E3%82%B9%20%E3%83%9E%E3%83%AB%E3%82%B7%E3%82%A7%20%E6%96%87%E5%8C%96%20%E5%B1%95%E7%A4%BA%20%E7%84%A1%E6%96%99",
+            "checked_at": "2026-11-18T07:12:21+09:00",
+            "status": "checked",
+            "http_status": 200,
+            "sha256": "2d490325a3bb21a3bd2740b8b9273219eec472c9c8b60914000d9b9d11d97732",
+            "search_results_total": 0,
+            "search_results_event_leads": 0
+          },
+          {
+            "query": "大田区 2026年12月19日 鉄道 動物 科学 防災 消防 スタンプラリー",
+            "url": "https://www.bing.com/search?format=rss&q=%E5%A4%A7%E7%94%B0%E5%8C%BA%202026%E5%B9%B412%E6%9C%8819%E6%97%A5%20%E9%89%84%E9%81%93%20%E5%8B%95%E7%89%A9%20%E7%A7%91%E5%AD%A6%20%E9%98%B2%E7%81%BD%20%E6%B6%88%E9%98%B2%20%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%97%E3%83%A9%E3%83%AA%E3%83%BC",
+            "checked_at": "2026-11-18T07:12:21+09:00",
+            "status": "checked",
+            "http_status": 200,
+            "sha256": "87771c5559474918909e78f762621239bf0733512ddf0ae9911e4263d2a31435",
+            "search_results_total": 0,
+            "search_results_event_leads": 0
+          }
+        ],
+        "source_checks": [
+          {
+            "url": "https://www.city.ota.tokyo.jp/",
+            "checked_at": "2026-11-18T07:12:22+09:00",
+            "status": "checked",
+            "http_status": 200,
+            "sha256": "bb250af1426e15676b90301faa8e7b59a94002238757b5aa5945b221e99cb18c"
+          }
+        ]
+      },
+      {
+        "ward": "世田谷区",
+        "query_logs": [
+          {
+            "query": "世田谷区 2026年12月19日 子ども 親子 キッズ イベント ワークショップ 体験",
+            "url": "https://www.bing.com/search?format=rss&q=%E4%B8%96%E7%94%B0%E8%B0%B7%E5%8C%BA%202026%E5%B9%B412%E6%9C%8819%E6%97%A5%20%E5%AD%90%E3%81%A9%E3%82%82%20%E8%A6%AA%E5%AD%90%20%E3%82%AD%E3%83%83%E3%82%BA%20%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88%20%E3%83%AF%E3%83%BC%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%83%E3%83%97%20%E4%BD%93%E9%A8%93",
+            "checked_at": "2026-11-18T07:12:21+09:00",
+            "status": "checked",
+            "http_status": 200,
+            "sha256": "7487d0e652e7e1886f0b7031bf479cd3deec2086e7314934b2587518f8d4f43e",
+            "search_results_total": 10,
+            "search_results_event_leads": 0
+          },
+          {
+            "query": "世田谷区 2026年12月19日 祭り フェス マルシェ 文化 展示 無料",
+            "url": "https://www.bing.com/search?format=rss&q=%E4%B8%96%E7%94%B0%E8%B0%B7%E5%8C%BA%202026%E5%B9%B412%E6%9C%8819%E6%97%A5%20%E7%A5%AD%E3%82%8A%20%E3%83%95%E3%82%A7%E3%82%B9%20%E3%83%9E%E3%83%AB%E3%82%B7%E3%82%A7%20%E6%96%87%E5%8C%96%20%E5%B1%95%E7%A4%BA%20%E7%84%A1%E6%96%99",
+            "checked_at": "2026-11-18T07:12:21+09:00",
+            "status": "checked",
+            "http_status": 200,
+            "sha256": "219f986d39741c1f64a1d08111f4e32f2cbeb53c20ee475b0a609cad00a3815f",
+            "search_results_total": 0,
+            "search_results_event_leads": 0
+          },
+          {
+            "query": "世田谷区 2026年12月19日 鉄道 動物 科学 防災 消防 スタンプラリー",
+            "url": "https://www.bing.com/search?format=rss&q=%E4%B8%96%E7%94%B0%E8%B0%B7%E5%8C%BA%202026%E5%B9%B412%E6%9C%8819%E6%97%A5%20%E9%89%84%E9%81%93%20%E5%8B%95%E7%89%A9%20%E7%A7%91%E5%AD%A6%20%E9%98%B2%E7%81%BD%20%E6%B6%88%E9%98%B2%20%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%97%E3%83%A9%E3%83%AA%E3%83%BC",
+            "checked_at": "2026-11-18T07:12:21+09:00",
+            "status": "checked",
+            "http_status": 200,
+            "sha256": "882f9c74b021d501b0c6032fefbc51cf3b6dc042e47a3084f49098485a00f799",
+            "search_results_total": 0,
+            "search_results_event_leads": 0
+          }
+        ],
+        "source_checks": [
+          {
+            "url": "https://www.city.setagaya.lg.jp/",
+            "checked_at": "2026-11-18T07:12:22+09:00",
+            "status": "checked",
+            "http_status": 200,
+            "sha256": "9baee3eb82f1b361fdaeb8564275a288ec092a3a2948886b777c09cdb0ff7613"
+          }
+        ]
+      },
+      {
+        "ward": "渋谷区",
+        "query_logs": [
+          {
+            "query": "渋谷区 2026年12月19日 子ども 親子 キッズ イベント ワークショップ 体験",
+            "url": "https://www.bing.com/search?format=rss&q=%E6%B8%8B%E8%B0%B7%E5%8C%BA%202026%E5%B9%B412%E6%9C%8819%E6%97%A5%20%E5%AD%90%E3%81%A9%E3%82%82%20%E8%A6%AA%E5%AD%90%20%E3%82%AD%E3%83%83%E3%82%BA%20%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88%20%E3%83%AF%E3%83%BC%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%83%E3%83%97%20%E4%BD%93%E9%A8%93",
+            "checked_at": "2026-11-18T07:12:21+09:00",
+            "status": "checked",
+            "http_status": 200,
+            "sha256": "ee06b822340c63c2274042208ccd808fe80bbf16cc2b3a225b2e107c9cedcda0",
+            "search_results_total": 10,
+            "search_results_event_leads": 0
+          },
+          {
+            "query": "渋谷区 2026年12月19日 祭り フェス マルシェ 文化 展示 無料",
+            "url": "https://www.bing.com/search?format=rss&q=%E6%B8%8B%E8%B0%B7%E5%8C%BA%202026%E5%B9%B412%E6%9C%8819%E6%97%A5%20%E7%A5%AD%E3%82%8A%20%E3%83%95%E3%82%A7%E3%82%B9%20%E3%83%9E%E3%83%AB%E3%82%B7%E3%82%A7%20%E6%96%87%E5%8C%96%20%E5%B1%95%E7%A4%BA%20%E7%84%A1%E6%96%99",
+            "checked_at": "2026-11-18T07:12:21+09:00",
+            "status": "checked",
+            "http_status": 200,
+            "sha256": "90ed72040250a1da297f8777ea7533f0bf31f0021a8a867fa0f576f7fca4b019",
+            "search_results_total": 10,
+            "search_results_event_leads": 0
+          },
+          {
+            "query": "渋谷区 2026年12月19日 鉄道 動物 科学 防災 消防 スタンプラリー",
+            "url": "https://www.bing.com/search?format=rss&q=%E6%B8%8B%E8%B0%B7%E5%8C%BA%202026%E5%B9%B412%E6%9C%8819%E6%97%A5%20%E9%89%84%E9%81%93%20%E5%8B%95%E7%89%A9%20%E7%A7%91%E5%AD%A6%20%E9%98%B2%E7%81%BD%20%E6%B6%88%E9%98%B2%20%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%97%E3%83%A9%E3%83%AA%E3%83%BC",
+            "checked_at": "2026-11-18T07:12:21+09:00",
+            "status": "checked",
+            "http_status": 200,
+            "sha256": "ced643edec5d3791d1ef3ac849c1d84dbd314edbb52fc8e8b2b7b24edf29ce22",
+            "search_results_total": 10,
+            "search_results_event_leads": 0
+          }
+        ],
+        "source_checks": [
+          {
+            "url": "https://www.city.shibuya.tokyo.jp/",
+            "checked_at": "2026-11-18T07:12:26+09:00",
+            "status": "checked",
+            "http_status": 200,
+            "sha256": "d8e15b17f8ac646a9ce4824e0b2f38d804ab103b5d9ac49cfb4356f532ecf5f6"
+          }
+        ]
+      },
+      {
+        "ward": "中野区",
+        "query_logs": [
+          {
+            "query": "中野区 2026年12月19日 子ども 親子 キッズ イベント ワークショップ 体験",
+            "url": "https://www.bing.com/search?format=rss&q=%E4%B8%AD%E9%87%8E%E5%8C%BA%202026%E5%B9%B412%E6%9C%8819%E6%97%A5%20%E5%AD%90%E3%81%A9%E3%82%82%20%E8%A6%AA%E5%AD%90%20%E3%82%AD%E3%83%83%E3%82%BA%20%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88%20%E3%83%AF%E3%83%BC%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%83%E3%83%97%20%E4%BD%93%E9%A8%93",
+            "checked_at": "2026-11-18T07:12:22+09:00",
+            "status": "checked",
+            "http_status": 200,
+            "sha256": "9097ef769e9491e1e7b8e5fac55c8dce22daefa1eb31127c4fe21548d8eb930f",
+            "search_results_total": 0,
+            "search_results_event_leads": 0
+          },
+          {
+            "query": "中野区 2026年12月19日 祭り フェス マルシェ 文化 展示 無料",
+            "url": "https://www.bing.com/search?format=rss&q=%E4%B8%AD%E9%87%8E%E5%8C%BA%202026%E5%B9%B412%E6%9C%8819%E6%97%A5%20%E7%A5%AD%E3%82%8A%20%E3%83%95%E3%82%A7%E3%82%B9%20%E3%83%9E%E3%83%AB%E3%82%B7%E3%82%A7%20%E6%96%87%E5%8C%96%20%E5%B1%95%E7%A4%BA%20%E7%84%A1%E6%96%99",
+            "checked_at": "2026-11-18T07:12:22+09:00",
+            "status": "checked",
+            "http_status": 200,
+            "sha256": "995643f587718b6743510d2adaabb174e26c193b823c67b84d4f36085cef0d51",
+            "search_results_total": 0,
+            "search_results_event_leads": 0
+          },
+          {
+            "query": "中野区 2026年12月19日 鉄道 動物 科学 防災 消防 スタンプラリー",
+            "url": "https://www.bing.com/search?format=rss&q=%E4%B8%AD%E9%87%8E%E5%8C%BA%202026%E5%B9%B412%E6%9C%8819%E6%97%A5%20%E9%89%84%E9%81%93%20%E5%8B%95%E7%89%A9%20%E7%A7%91%E5%AD%A6%20%E9%98%B2%E7%81%BD%20%E6%B6%88%E9%98%B2%20%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%97%E3%83%A9%E3%83%AA%E3%83%BC",
+            "checked_at": "2026-11-18T07:12:22+09:00",
+            "status": "checked",
+            "http_status": 200,
+            "sha256": "dc8c0a530398f76c3b567b5418eb7d40bddd40c22fb7c0abaf2643dc1f8653e9",
+            "search_results_total": 0,
+            "search_results_event_leads": 0
+          }
+        ],
+        "source_checks": [
+          {
+            "url": "https://www.city.tokyo-nakano.lg.jp/",
+            "checked_at": "2026-11-18T07:12:22+09:00",
+            "status": "checked",
+            "http_status": 200,
+            "sha256": "34031307ad23cde62365dbb41edfe66a12dfee759250bd5d84a860f584b5165a"
+          }
+        ]
+      },
+      {
+        "ward": "杉並区",
+        "query_logs": [
+          {
+            "query": "杉並区 2026年12月19日 子ども 親子 キッズ イベント ワークショップ 体験",
+            "url": "https://www.bing.com/search?format=rss&q=%E6%9D%89%E4%B8%A6%E5%8C%BA%202026%E5%B9%B412%E6%9C%8819%E6%97%A5%20%E5%AD%90%E3%81%A9%E3%82%82%20%E8%A6%AA%E5%AD%90%20%E3%82%AD%E3%83%83%E3%82%BA%20%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88%20%E3%83%AF%E3%83%BC%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%83%E3%83%97%20%E4%BD%93%E9%A8%93",
+            "checked_at": "2026-11-18T07:12:22+09:00",
+            "status": "checked",
+            "http_status": 200,
+            "sha256": "dbbb5f9cd6e768871acf9526ebdeff072b76dffad0197e5699a6c993ec6a5e17",
+            "search_results_total": 0,
+            "search_results_event_leads": 0
+          },
+          {
+            "query": "杉並区 2026年12月19日 祭り フェス マルシェ 文化 展示 無料",
+            "url": "https://www.bing.com/search?format=rss&q=%E6%9D%89%E4%B8%A6%E5%8C%BA%202026%E5%B9%B412%E6%9C%8819%E6%97%A5%20%E7%A5%AD%E3%82%8A%20%E3%83%95%E3%82%A7%E3%82%B9%20%E3%83%9E%E3%83%AB%E3%82%B7%E3%82%A7%20%E6%96%87%E5%8C%96%20%E5%B1%95%E7%A4%BA%20%E7%84%A1%E6%96%99",
+            "checked_at": "2026-11-18T07:12:22+09:00",
+            "status": "checked",
+            "http_status": 200,
+            "sha256": "426b32eaf24253aba50bbce999a89d5ead8928abb0bd83e966e33c3060e47e56",
+            "search_results_total": 0,
+            "search_results_event_leads": 0
+          },
+          {
+            "query": "杉並区 2026年12月19日 鉄道 動物 科学 防災 消防 スタンプラリー",
+            "url": "https://www.bing.com/search?format=rss&q=%E6%9D%89%E4%B8%A6%E5%8C%BA%202026%E5%B9%B412%E6%9C%8819%E6%97%A5%20%E9%89%84%E9%81%93%20%E5%8B%95%E7%89%A9%20%E7%A7%91%E5%AD%A6%20%E9%98%B2%E7%81%BD%20%E6%B6%88%E9%98%B2%20%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%97%E3%83%A9%E3%83%AA%E3%83%BC",
+            "checked_at": "2026-11-18T07:12:22+09:00",
+            "status": "checked",
+            "http_status": 200,
+            "sha256": "ead65995d3e3c9c2167ecc79f7afb7b3e7945255d9bd1c8ed55c00b17ec70256",
+            "search_results_total": 0,
+            "search_results_event_leads": 0
+          }
+        ],
+        "source_checks": [
+          {
+            "url": "https://www.city.suginami.tokyo.jp/",
+            "checked_at": "2026-11-18T07:12:23+09:00",
+            "status": "checked",
+            "http_status": 200,
+            "sha256": "499cc4f6763cb5b28248cd0cc3a5dc1c843f6a1f9af4217edf88c9de65c0ca7a"
+          }
+        ]
+      },
+      {
+        "ward": "豊島区",
+        "query_logs": [
+          {
+            "query": "豊島区 2026年12月19日 子ども 親子 キッズ イベント ワークショップ 体験",
+            "url": "https://www.bing.com/search?format=rss&q=%E8%B1%8A%E5%B3%B6%E5%8C%BA%202026%E5%B9%B412%E6%9C%8819%E6%97%A5%20%E5%AD%90%E3%81%A9%E3%82%82%20%E8%A6%AA%E5%AD%90%20%E3%82%AD%E3%83%83%E3%82%BA%20%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88%20%E3%83%AF%E3%83%BC%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%83%E3%83%97%20%E4%BD%93%E9%A8%93",
+            "checked_at": "2026-11-18T07:12:22+09:00",
+            "status": "checked",
+            "http_status": 200,
+            "sha256": "544c8c533dc5f1a99998289b3d48624974257d6e8d6933f009818130b663cdf4",
+            "search_results_total": 0,
+            "search_results_event_leads": 0
+          },
+          {
+            "query": "豊島区 2026年12月19日 祭り フェス マルシェ 文化 展示 無料",
+            "url": "https://www.bing.com/search?format=rss&q=%E8%B1%8A%E5%B3%B6%E5%8C%BA%202026%E5%B9%B412%E6%9C%8819%E6%97%A5%20%E7%A5%AD%E3%82%8A%20%E3%83%95%E3%82%A7%E3%82%B9%20%E3%83%9E%E3%83%AB%E3%82%B7%E3%82%A7%20%E6%96%87%E5%8C%96%20%E5%B1%95%E7%A4%BA%20%E7%84%A1%E6%96%99",
+            "checked_at": "2026-11-18T07:12:22+09:00",
+            "status": "checked",
+            "http_status": 200,
+            "sha256": "fa7cd948523b396b821770a5fa64894b1d445dac46f9a76cd317959442bab227",
+            "search_results_total": 0,
+            "search_results_event_leads": 0
+          },
+          {
+            "query": "豊島区 2026年12月19日 鉄道 動物 科学 防災 消防 スタンプラリー",
+            "url": "https://www.bing.com/search?format=rss&q=%E8%B1%8A%E5%B3%B6%E5%8C%BA%202026%E5%B9%B412%E6%9C%8819%E6%97%A5%20%E9%89%84%E9%81%93%20%E5%8B%95%E7%89%A9%20%E7%A7%91%E5%AD%A6%20%E9%98%B2%E7%81%BD%20%E6%B6%88%E9%98%B2%20%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%97%E3%83%A9%E3%83%AA%E3%83%BC",
+            "checked_at": "2026-11-18T07:12:22+09:00",
+            "status": "checked",
+            "http_status": 200,
+            "sha256": "9d0278aee762f2171a84be265a1b4c877d1d658e32ba22f73b5d49810caac785",
+            "search_results_total": 0,
+            "search_results_event_leads": 0
+          }
+        ],
+        "source_checks": [
+          {
+            "url": "https://www.city.toshima.lg.jp/",
+            "checked_at": "2026-11-18T07:12:24+09:00",
+            "status": "checked",
+            "http_status": 200,
+            "sha256": "cce9c8b9805b032aa0982ad22df3dd0db5e21186170a387ae19e10d67a3795d8"
+          }
+        ]
+      },
+      {
+        "ward": "北区",
+        "query_logs": [
+          {
+            "query": "北区 2026年12月19日 子ども 親子 キッズ イベント ワークショップ 体験",
+            "url": "https://www.bing.com/search?format=rss&q=%E5%8C%97%E5%8C%BA%202026%E5%B9%B412%E6%9C%8819%E6%97%A5%20%E5%AD%90%E3%81%A9%E3%82%82%20%E8%A6%AA%E5%AD%90%20%E3%82%AD%E3%83%83%E3%82%BA%20%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88%20%E3%83%AF%E3%83%BC%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%83%E3%83%97%20%E4%BD%93%E9%A8%93",
+            "checked_at": "2026-11-18T07:12:23+09:00",
+            "status": "checked",
+            "http_status": 200,
+            "sha256": "f4da8f95c3fc9357ea1dd5264501071b8f6df2794d9f1926b2370f8091e4138b",
+            "search_results_total": 0,
+            "search_results_event_leads": 0
+          },
+          {
+            "query": "北区 2026年12月19日 祭り フェス マルシェ 文化 展示 無料",
+            "url": "https://www.bing.com/search?format=rss&q=%E5%8C%97%E5%8C%BA%202026%E5%B9%B412%E6%9C%8819%E6%97%A5%20%E7%A5%AD%E3%82%8A%20%E3%83%95%E3%82%A7%E3%82%B9%20%E3%83%9E%E3%83%AB%E3%82%B7%E3%82%A7%20%E6%96%87%E5%8C%96%20%E5%B1%95%E7%A4%BA%20%E7%84%A1%E6%96%99",
+            "checked_at": "2026-11-18T07:12:23+09:00",
+            "status": "checked",
+            "http_status": 200,
+            "sha256": "b6fafdd091478038ff92918c50789d29a2cbe3fabbd68a96da8a02ed56349732",
+            "search_results_total": 0,
+            "search_results_event_leads": 0
+          },
+          {
+            "query": "北区 2026年12月19日 鉄道 動物 科学 防災 消防 スタンプラリー",
+            "url": "https://www.bing.com/search?format=rss&q=%E5%8C%97%E5%8C%BA%202026%E5%B9%B412%E6%9C%8819%E6%97%A5%20%E9%89%84%E9%81%93%20%E5%8B%95%E7%89%A9%20%E7%A7%91%E5%AD%A6%20%E9%98%B2%E7%81%BD%20%E6%B6%88%E9%98%B2%20%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%97%E3%83%A9%E3%83%AA%E3%83%BC",
+            "checked_at": "2026-11-18T07:12:23+09:00",
+            "status": "checked",
+            "http_status": 200,
+            "sha256": "a0fa8975086712e4baa3d8bb62d912e45919565680296976e59665b744e097df",
+            "search_results_total": 0,
+            "search_results_event_leads": 0
+          }
+        ],
+        "source_checks": [
+          {
+            "url": "https://www.city.kita.lg.jp/",
+            "checked_at": "2026-11-18T07:12:23+09:00",
+            "status": "checked",
+            "http_status": 200,
+            "sha256": "d1a8a22d0aee81858bb5111bb216bd0bb0197294f5457a342d85b7f8028b334c"
+          }
+        ]
+      },
+      {
+        "ward": "荒川区",
+        "query_logs": [
+          {
+            "query": "荒川区 2026年12月19日 子ども 親子 キッズ イベント ワークショップ 体験",
+            "url": "https://www.bing.com/search?format=rss&q=%E8%8D%92%E5%B7%9D%E5%8C%BA%202026%E5%B9%B412%E6%9C%8819%E6%97%A5%20%E5%AD%90%E3%81%A9%E3%82%82%20%E8%A6%AA%E5%AD%90%20%E3%82%AD%E3%83%83%E3%82%BA%20%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88%20%E3%83%AF%E3%83%BC%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%83%E3%83%97%20%E4%BD%93%E9%A8%93",
+            "checked_at": "2026-11-18T07:12:23+09:00",
+            "status": "checked",
+            "http_status": 200,
+            "sha256": "7606195aedf726e86138004e35d158f017ce226116c475e405776deab94fe888",
+            "search_results_total": 0,
+            "search_results_event_leads": 0
+          },
+          {
+            "query": "荒川区 2026年12月19日 祭り フェス マルシェ 文化 展示 無料",
+            "url": "https://www.bing.com/search?format=rss&q=%E8%8D%92%E5%B7%9D%E5%8C%BA%202026%E5%B9%B412%E6%9C%8819%E6%97%A5%20%E7%A5%AD%E3%82%8A%20%E3%83%95%E3%82%A7%E3%82%B9%20%E3%83%9E%E3%83%AB%E3%82%B7%E3%82%A7%20%E6%96%87%E5%8C%96%20%E5%B1%95%E7%A4%BA%20%E7%84%A1%E6%96%99",
+            "checked_at": "2026-11-18T07:12:24+09:00",
+            "status": "checked",
+            "http_status": 200,
+            "sha256": "9ce056ed4ee8568a2a7b429373f1c968cb8ffda4000449bd2610ebd3da672531",
+            "search_results_total": 0,
+            "search_results_event_leads": 0
+          },
+          {
+            "query": "荒川区 2026年12月19日 鉄道 動物 科学 防災 消防 スタンプラリー",
+            "url": "https://www.bing.com/search?format=rss&q=%E8%8D%92%E5%B7%9D%E5%8C%BA%202026%E5%B9%B412%E6%9C%8819%E6%97%A5%20%E9%89%84%E9%81%93%20%E5%8B%95%E7%89%A9%20%E7%A7%91%E5%AD%A6%20%E9%98%B2%E7%81%BD%20%E6%B6%88%E9%98%B2%20%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%97%E3%83%A9%E3%83%AA%E3%83%BC",
+            "checked_at": "2026-11-18T07:12:24+09:00",
+            "status": "checked",
+            "http_status": 200,
+            "sha256": "9f9b2a0da193244a38fb2d74db6212b55d23bec9da90227c5323e672cdad4291",
+            "search_results_total": 0,
+            "search_results_event_leads": 0
+          }
+        ],
+        "source_checks": [
+          {
+            "url": "https://www.city.arakawa.tokyo.jp/",
+            "checked_at": "2026-11-18T07:12:24+09:00",
+            "status": "checked",
+            "http_status": 200,
+            "sha256": "974f559098e3541705525f4696cb14e6af6855130d468f6df7e65b046f38d0d9"
+          }
+        ]
+      },
+      {
+        "ward": "板橋区",
+        "query_logs": [
+          {
+            "query": "板橋区 2026年12月19日 子ども 親子 キッズ イベント ワークショップ 体験",
+            "url": "https://www.bing.com/search?format=rss&q=%E6%9D%BF%E6%A9%8B%E5%8C%BA%202026%E5%B9%B412%E6%9C%8819%E6%97%A5%20%E5%AD%90%E3%81%A9%E3%82%82%20%E8%A6%AA%E5%AD%90%20%E3%82%AD%E3%83%83%E3%82%BA%20%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88%20%E3%83%AF%E3%83%BC%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%83%E3%83%97%20%E4%BD%93%E9%A8%93",
+            "checked_at": "2026-11-18T07:12:24+09:00",
+            "status": "checked",
+            "http_status": 200,
+            "sha256": "a67c9feaaac5dfeded7873db3e138b35fc6f28e3402e60709190a24325033495",
+            "search_results_total": 0,
+            "search_results_event_leads": 0
+          },
+          {
+            "query": "板橋区 2026年12月19日 祭り フェス マルシェ 文化 展示 無料",
+            "url": "https://www.bing.com/search?format=rss&q=%E6%9D%BF%E6%A9%8B%E5%8C%BA%202026%E5%B9%B412%E6%9C%8819%E6%97%A5%20%E7%A5%AD%E3%82%8A%20%E3%83%95%E3%82%A7%E3%82%B9%20%E3%83%9E%E3%83%AB%E3%82%B7%E3%82%A7%20%E6%96%87%E5%8C%96%20%E5%B1%95%E7%A4%BA%20%E7%84%A1%E6%96%99",
+            "checked_at": "2026-11-18T07:12:24+09:00",
+            "status": "checked",
+            "http_status": 200,
+            "sha256": "6e1f9ada3a5a1299a366f5d09c703bbf7a37bfa6a861887629b3f37b2edbdf7b",
+            "search_results_total": 0,
+            "search_results_event_leads": 0
+          },
+          {
+            "query": "板橋区 2026年12月19日 鉄道 動物 科学 防災 消防 スタンプラリー",
+            "url": "https://www.bing.com/search?format=rss&q=%E6%9D%BF%E6%A9%8B%E5%8C%BA%202026%E5%B9%B412%E6%9C%8819%E6%97%A5%20%E9%89%84%E9%81%93%20%E5%8B%95%E7%89%A9%20%E7%A7%91%E5%AD%A6%20%E9%98%B2%E7%81%BD%20%E6%B6%88%E9%98%B2%20%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%97%E3%83%A9%E3%83%AA%E3%83%BC",
+            "checked_at": "2026-11-18T07:12:24+09:00",
+            "status": "checked",
+            "http_status": 200,
+            "sha256": "e1ac87e0844ffa74100df36108916ce295b9342930c046d5578eba9048f9d763",
+            "search_results_total": 0,
+            "search_results_event_leads": 0
+          }
+        ],
+        "source_checks": [
+          {
+            "url": "https://www.city.itabashi.tokyo.jp/",
+            "checked_at": "2026-11-18T07:12:24+09:00",
+            "status": "checked",
+            "http_status": 200,
+            "sha256": "6952d80122390b2a37c1a6887a2370bc0be1ab3d2d45d052b63d3386c06b9381"
+          }
+        ]
+      },
+      {
+        "ward": "練馬区",
+        "query_logs": [
+          {
+            "query": "練馬区 2026年12月19日 子ども 親子 キッズ イベント ワークショップ 体験",
+            "url": "https://www.bing.com/search?format=rss&q=%E7%B7%B4%E9%A6%AC%E5%8C%BA%202026%E5%B9%B412%E6%9C%8819%E6%97%A5%20%E5%AD%90%E3%81%A9%E3%82%82%20%E8%A6%AA%E5%AD%90%20%E3%82%AD%E3%83%83%E3%82%BA%20%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88%20%E3%83%AF%E3%83%BC%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%83%E3%83%97%20%E4%BD%93%E9%A8%93",
+            "checked_at": "2026-11-18T07:12:24+09:00",
+            "status": "checked",
+            "http_status": 200,
+            "sha256": "986c5f7fa53562667b623cea88fbc2932c896a730affe815c55ba8744a29a8f8",
+            "search_results_total": 0,
+            "search_results_event_leads": 0
+          },
+          {
+            "query": "練馬区 2026年12月19日 祭り フェス マルシェ 文化 展示 無料",
+            "url": "https://www.bing.com/search?format=rss&q=%E7%B7%B4%E9%A6%AC%E5%8C%BA%202026%E5%B9%B412%E6%9C%8819%E6%97%A5%20%E7%A5%AD%E3%82%8A%20%E3%83%95%E3%82%A7%E3%82%B9%20%E3%83%9E%E3%83%AB%E3%82%B7%E3%82%A7%20%E6%96%87%E5%8C%96%20%E5%B1%95%E7%A4%BA%20%E7%84%A1%E6%96%99",
+            "checked_at": "2026-11-18T07:12:24+09:00",
+            "status": "checked",
+            "http_status": 200,
+            "sha256": "8076d69e3918c7c04dc22afd448edda11c247ab4ec937ae0cb6d50a961d8e3ed",
+            "search_results_total": 0,
+            "search_results_event_leads": 0
+          },
+          {
+            "query": "練馬区 2026年12月19日 鉄道 動物 科学 防災 消防 スタンプラリー",
+            "url": "https://www.bing.com/search?format=rss&q=%E7%B7%B4%E9%A6%AC%E5%8C%BA%202026%E5%B9%B412%E6%9C%8819%E6%97%A5%20%E9%89%84%E9%81%93%20%E5%8B%95%E7%89%A9%20%E7%A7%91%E5%AD%A6%20%E9%98%B2%E7%81%BD%20%E6%B6%88%E9%98%B2%20%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%97%E3%83%A9%E3%83%AA%E3%83%BC",
+            "checked_at": "2026-11-18T07:12:24+09:00",
+            "status": "checked",
+            "http_status": 200,
+            "sha256": "c5ba304e56e7e8669b11df9bf3f829f5dd9f6cee64085236a39a5a6d66597643",
+            "search_results_total": 0,
+            "search_results_event_leads": 0
+          }
+        ],
+        "source_checks": [
+          {
+            "url": "https://www.city.nerima.tokyo.jp/",
+            "checked_at": "2026-11-18T07:12:25+09:00",
+            "status": "checked",
+            "http_status": 200,
+            "sha256": "835ad656736dd10fc29f2ae48deb6dc0c7c27aeda3b368579c1bd660f2eb9d7b"
+          }
+        ]
+      },
+      {
+        "ward": "足立区",
+        "query_logs": [
+          {
+            "query": "足立区 2026年12月19日 子ども 親子 キッズ イベント ワークショップ 体験",
+            "url": "https://www.bing.com/search?format=rss&q=%E8%B6%B3%E7%AB%8B%E5%8C%BA%202026%E5%B9%B412%E6%9C%8819%E6%97%A5%20%E5%AD%90%E3%81%A9%E3%82%82%20%E8%A6%AA%E5%AD%90%20%E3%82%AD%E3%83%83%E3%82%BA%20%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88%20%E3%83%AF%E3%83%BC%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%83%E3%83%97%20%E4%BD%93%E9%A8%93",
+            "checked_at": "2026-11-18T07:12:25+09:00",
+            "status": "checked",
+            "http_status": 200,
+            "sha256": "2b7c2eaa298e064b48a2435c985cd7c18e050ced5a04e6b8270fec0aa88abc86",
+            "search_results_total": 0,
+            "search_results_event_leads": 0
+          },
+          {
+            "query": "足立区 2026年12月19日 祭り フェス マルシェ 文化 展示 無料",
+            "url": "https://www.bing.com/search?format=rss&q=%E8%B6%B3%E7%AB%8B%E5%8C%BA%202026%E5%B9%B412%E6%9C%8819%E6%97%A5%20%E7%A5%AD%E3%82%8A%20%E3%83%95%E3%82%A7%E3%82%B9%20%E3%83%9E%E3%83%AB%E3%82%B7%E3%82%A7%20%E6%96%87%E5%8C%96%20%E5%B1%95%E7%A4%BA%20%E7%84%A1%E6%96%99",
+            "checked_at": "2026-11-18T07:12:25+09:00",
+            "status": "checked",
+            "http_status": 200,
+            "sha256": "f86ab231d414424c3f0bad9bcdf70dec505e7095656a233ad17660bfad6e3224",
+            "search_results_total": 0,
+            "search_results_event_leads": 0
+          },
+          {
+            "query": "足立区 2026年12月19日 鉄道 動物 科学 防災 消防 スタンプラリー",
+            "url": "https://www.bing.com/search?format=rss&q=%E8%B6%B3%E7%AB%8B%E5%8C%BA%202026%E5%B9%B412%E6%9C%8819%E6%97%A5%20%E9%89%84%E9%81%93%20%E5%8B%95%E7%89%A9%20%E7%A7%91%E5%AD%A6%20%E9%98%B2%E7%81%BD%20%E6%B6%88%E9%98%B2%20%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%97%E3%83%A9%E3%83%AA%E3%83%BC",
+            "checked_at": "2026-11-18T07:12:25+09:00",
+            "status": "checked",
+            "http_status": 200,
+            "sha256": "e4652200870858ac225f30af61ed2b88aeb755a193e418fd8833ef0808cf37fa",
+            "search_results_total": 10,
+            "search_results_event_leads": 0
+          }
+        ],
+        "source_checks": [
+          {
+            "url": "https://www.city.adachi.tokyo.jp/",
+            "checked_at": "2026-11-18T07:12:26+09:00",
+            "status": "checked",
+            "http_status": 200,
+            "sha256": "5c2e30b50e9432801dfc460298d96ccfa3d3467aa0ab5b334b2021a861ba796e"
+          }
+        ]
+      },
+      {
+        "ward": "葛飾区",
+        "query_logs": [
+          {
+            "query": "葛飾区 2026年12月19日 子ども 親子 キッズ イベント ワークショップ 体験",
+            "url": "https://www.bing.com/search?format=rss&q=%E8%91%9B%E9%A3%BE%E5%8C%BA%202026%E5%B9%B412%E6%9C%8819%E6%97%A5%20%E5%AD%90%E3%81%A9%E3%82%82%20%E8%A6%AA%E5%AD%90%20%E3%82%AD%E3%83%83%E3%82%BA%20%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88%20%E3%83%AF%E3%83%BC%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%83%E3%83%97%20%E4%BD%93%E9%A8%93",
+            "checked_at": "2026-11-18T07:12:25+09:00",
+            "status": "checked",
+            "http_status": 200,
+            "sha256": "11d649974f344206440fda5b7d39f75dce2943b521265ea8028962391bea9cf9",
+            "search_results_total": 0,
+            "search_results_event_leads": 0
+          },
+          {
+            "query": "葛飾区 2026年12月19日 祭り フェス マルシェ 文化 展示 無料",
+            "url": "https://www.bing.com/search?format=rss&q=%E8%91%9B%E9%A3%BE%E5%8C%BA%202026%E5%B9%B412%E6%9C%8819%E6%97%A5%20%E7%A5%AD%E3%82%8A%20%E3%83%95%E3%82%A7%E3%82%B9%20%E3%83%9E%E3%83%AB%E3%82%B7%E3%82%A7%20%E6%96%87%E5%8C%96%20%E5%B1%95%E7%A4%BA%20%E7%84%A1%E6%96%99",
+            "checked_at": "2026-11-18T07:12:25+09:00",
+            "status": "checked",
+            "http_status": 200,
+            "sha256": "4adb8792ed00c82b5db0408b200fabb452f0da7505ad60232c2def4fef2b4c68",
+            "search_results_total": 0,
+            "search_results_event_leads": 0
+          },
+          {
+            "query": "葛飾区 2026年12月19日 鉄道 動物 科学 防災 消防 スタンプラリー",
+            "url": "https://www.bing.com/search?format=rss&q=%E8%91%9B%E9%A3%BE%E5%8C%BA%202026%E5%B9%B412%E6%9C%8819%E6%97%A5%20%E9%89%84%E9%81%93%20%E5%8B%95%E7%89%A9%20%E7%A7%91%E5%AD%A6%20%E9%98%B2%E7%81%BD%20%E6%B6%88%E9%98%B2%20%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%97%E3%83%A9%E3%83%AA%E3%83%BC",
+            "checked_at": "2026-11-18T07:12:25+09:00",
+            "status": "checked",
+            "http_status": 200,
+            "sha256": "4a256da3f8dc9de2a9a109982cf15417b7ac1d685f43b2d96fc25532b76f50e5",
+            "search_results_total": 0,
+            "search_results_event_leads": 0
+          }
+        ],
+        "source_checks": [
+          {
+            "url": "https://www.city.katsushika.lg.jp/",
+            "checked_at": "2026-11-18T07:12:26+09:00",
+            "status": "checked",
+            "http_status": 200,
+            "sha256": "4a317c7698ea998083f7bf89d70c665550be1d9efc25b4582af0d5c1019fdf29"
+          }
+        ]
+      },
+      {
+        "ward": "江戸川区",
+        "query_logs": [
+          {
+            "query": "江戸川区 2026年12月19日 子ども 親子 キッズ イベント ワークショップ 体験",
+            "url": "https://www.bing.com/search?format=rss&q=%E6%B1%9F%E6%88%B8%E5%B7%9D%E5%8C%BA%202026%E5%B9%B412%E6%9C%8819%E6%97%A5%20%E5%AD%90%E3%81%A9%E3%82%82%20%E8%A6%AA%E5%AD%90%20%E3%82%AD%E3%83%83%E3%82%BA%20%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88%20%E3%83%AF%E3%83%BC%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%83%E3%83%97%20%E4%BD%93%E9%A8%93",
+            "checked_at": "2026-11-18T07:12:26+09:00",
+            "status": "checked",
+            "http_status": 200,
+            "sha256": "be453fa24d95584ca2d829f4ad89db651ffd5eb837599d11b216f7194d7ef39a",
+            "search_results_total": 0,
+            "search_results_event_leads": 0
+          },
+          {
+            "query": "江戸川区 2026年12月19日 祭り フェス マルシェ 文化 展示 無料",
+            "url": "https://www.bing.com/search?format=rss&q=%E6%B1%9F%E6%88%B8%E5%B7%9D%E5%8C%BA%202026%E5%B9%B412%E6%9C%8819%E6%97%A5%20%E7%A5%AD%E3%82%8A%20%E3%83%95%E3%82%A7%E3%82%B9%20%E3%83%9E%E3%83%AB%E3%82%B7%E3%82%A7%20%E6%96%87%E5%8C%96%20%E5%B1%95%E7%A4%BA%20%E7%84%A1%E6%96%99",
+            "checked_at": "2026-11-18T07:12:26+09:00",
+            "status": "checked",
+            "http_status": 200,
+            "sha256": "7f18a8727751ff196af29885a6317ee22f76e135c8f398b2efd8e6f36fce8026",
+            "search_results_total": 0,
+            "search_results_event_leads": 0
+          },
+          {
+            "query": "江戸川区 2026年12月19日 鉄道 動物 科学 防災 消防 スタンプラリー",
+            "url": "https://www.bing.com/search?format=rss&q=%E6%B1%9F%E6%88%B8%E5%B7%9D%E5%8C%BA%202026%E5%B9%B412%E6%9C%8819%E6%97%A5%20%E9%89%84%E9%81%93%20%E5%8B%95%E7%89%A9%20%E7%A7%91%E5%AD%A6%20%E9%98%B2%E7%81%BD%20%E6%B6%88%E9%98%B2%20%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%97%E3%83%A9%E3%83%AA%E3%83%BC",
+            "checked_at": "2026-11-18T07:12:26+09:00",
+            "status": "checked",
+            "http_status": 200,
+            "sha256": "0a4f5d501b6bfe1d23184497340eb67f69ccb8747d09c7315cfd2847b5a4f25c",
+            "search_results_total": 0,
+            "search_results_event_leads": 0
+          }
+        ],
+        "source_checks": [
+          {
+            "url": "https://www.city.edogawa.tokyo.jp/",
+            "checked_at": "2026-11-18T07:12:26+09:00",
+            "status": "checked",
+            "http_status": 200,
+            "sha256": "afe8c4f1d3ff58ccffcb893865e84885e700afb334b30e2c2461d8e8368ea0ea"
+          }
+        ]
+      }
+    ],
+    "required_sources": [
+      {
+        "source_id": "sumida",
+        "required": true,
+        "url": "https://www.sumidaevent.com/",
+        "checked_at": "2026-11-18T07:12:27+09:00",
+        "status": "checked",
+        "http_status": 200,
+        "sha256": "ecdb988f9abe068dc97adfd6db224dd808053f4d37fe95f73fb63c85f4e4bce0"
+      },
+      {
+        "source_id": "asakusa",
+        "required": true,
+        "url": "https://www.asakusaevent.com/",
+        "checked_at": "2026-11-18T07:12:27+09:00",
+        "status": "checked",
+        "http_status": 200,
+        "sha256": "297b690a531bbb1e3e2456a1fdf7269a905fe8bce4c5fb2a7beea84693ff19be"
+      },
+      {
+        "source_id": "ueno",
+        "required": true,
+        "url": "https://www.uenopark.info/",
+        "checked_at": "2026-11-18T07:12:28+09:00",
+        "status": "checked",
+        "http_status": 200,
+        "sha256": "f6f089c0e278683b16a68e47575870729d9da0658c5e2b0dbbb77189f1e61277"
+      },
+      {
+        "source_id": "akihabara",
+        "required": true,
+        "url": "https://www.akihabaraevent.com/",
+        "checked_at": "2026-11-18T07:12:27+09:00",
+        "status": "checked",
+        "http_status": 200,
+        "sha256": "698ce2abf06e658475916897af0a342a407a6795e2bd99e693c3768012e45089"
+      },
+      {
+        "source_id": "hibiya",
+        "required": true,
+        "url": "https://www.hibiyapark.info/",
+        "checked_at": "2026-11-18T07:12:27+09:00",
+        "status": "checked",
+        "http_status": 200,
+        "sha256": "62203edda7c9002e185c245aa672ed4d35166b9fbc50f7ed9d8ddac5036a53fe"
+      },
+      {
+        "source_id": "ikebukuro",
+        "required": true,
+        "url": "https://www.ikebukuropark.info/",
+        "checked_at": "2026-11-18T07:12:27+09:00",
+        "status": "checked",
+        "http_status": 200,
+        "sha256": "5b4894712f2f2d69cc4d2363f567a48f354e441714943acb6261f9e17582a1e2"
+      },
+      {
+        "source_id": "shinjuku",
+        "required": true,
+        "url": "https://www.shinjukuevent.com/",
+        "checked_at": "2026-11-18T07:12:27+09:00",
+        "status": "checked",
+        "http_status": 200,
+        "sha256": "2be696797ce5f3c3b60dc59a46bac052d85b8d380407c72c87d08c95cba007bd"
+      },
+      {
+        "source_id": "nakano",
+        "required": true,
+        "url": "https://www.nakanoevent.com/",
+        "checked_at": "2026-11-18T07:12:27+09:00",
+        "status": "checked",
+        "http_status": 200,
+        "sha256": "01ac5ae2e668ee7c816e6b1908bced48231a6c4f092f72c6f0791e708b65e7c3"
+      },
+      {
+        "source_id": "yoyogi",
+        "required": true,
+        "url": "https://www.yoyogikoen.info/",
+        "checked_at": "2026-11-18T07:12:27+09:00",
+        "status": "checked",
+        "http_status": 200,
+        "sha256": "f8797dd80cde3126c5f6ec9c6d0ac55fff443ba5b2beea84af9d1f63232ea10f"
+      },
+      {
+        "source_id": "shibuya",
+        "required": true,
+        "url": "https://www.miyashitapark.info/",
+        "checked_at": "2026-11-18T07:12:27+09:00",
+        "status": "checked",
+        "http_status": 200,
+        "sha256": "eb024bc57ed1efec206ad288e9c71be86111b2cd87c3d7dc6d39dbe68f560e00"
+      },
+      {
+        "source_id": "roppongi",
+        "required": true,
+        "url": "https://www.roppongievents.com/",
+        "checked_at": "2026-11-18T07:12:27+09:00",
+        "status": "checked",
+        "http_status": 200,
+        "sha256": "0dd7d888316e14440963f27b272179751f8d168ad96f4aa61f236a7b5eae76c5"
+      },
+      {
+        "source_id": "toyosu",
+        "required": true,
+        "url": "https://www.toyosuevent.com/",
+        "checked_at": "2026-11-18T07:12:27+09:00",
+        "status": "checked",
+        "http_status": 200,
+        "sha256": "4e9f33a69607e158b23f04fa2f7f1c65181de78dbbb67e947efd27637d6bcd25"
+      },
+      {
+        "source_id": "odaiba",
+        "required": true,
+        "url": "https://www.odaibapark.com/",
+        "checked_at": "2026-11-18T07:12:28+09:00",
+        "status": "checked",
+        "http_status": 200,
+        "sha256": "76a3f3dd71d49c69c0d8096247d9c72a1dbace6d75cdc486d69fa133ce0da1db"
+      },
+      {
+        "source_id": "shinagawa",
+        "required": true,
+        "url": "https://www.shinagawaevent.com/",
+        "checked_at": "2026-11-18T07:12:28+09:00",
+        "status": "checked",
+        "http_status": 200,
+        "sha256": "bead5065ec8e750e1a94c020a1c4262026e56f355ba9e87d5a3942cd234285b6"
+      },
+      {
+        "source_id": "tachikawa",
+        "required": true,
+        "url": "https://www.tachikawaevent.com/",
+        "checked_at": "2026-11-18T07:12:28+09:00",
+        "status": "checked",
+        "http_status": 200,
+        "sha256": "a3897c03acbf8f1569804135c209d5976ce53cfe3c4874e795c4fc1a0f96154e"
+      },
+      {
+        "source_id": "iterrace",
+        "required": true,
+        "url": "https://www.iterrace.jp/",
+        "checked_at": "2026-11-18T07:12:28+09:00",
+        "status": "checked",
+        "http_status": 200,
+        "sha256": "bd657273a8def057fc775a762f76f6583f321e2b394ae2abc2ce8b9f3d50046c"
+      },
+      {
+        "source_id": "nerimakanko",
+        "required": true,
+        "url": "https://www.nerimakanko.jp/event/",
+        "checked_at": "2026-11-18T07:12:30+09:00",
+        "status": "checked",
+        "http_status": 200,
+        "sha256": "8aa84b96ff6f9e60cac9ebbcd1c56da6c18f77895331a85bb09b9b201a223e0a"
+      },
+      {
+        "source_id": "nerimakanko",
+        "required": true,
+        "url": "https://www.nerimakanko.jp/event/search.php?month=2026-11",
+        "checked_at": "2026-11-18T07:12:30+09:00",
+        "status": "checked",
+        "http_status": 200,
+        "sha256": "ed6b0bf0a443f21c526d436a63ff7aebdfe88d95727da65e2236063a96f1ca01"
+      },
+      {
+        "source_id": "nerimakanko",
+        "required": true,
+        "url": "https://www.nerimakanko.jp/event/search.php?month=2026-12",
+        "checked_at": "2026-11-18T07:12:30+09:00",
+        "status": "checked",
+        "http_status": 200,
+        "sha256": "9cd11bbf39b84530332bbe0ef5e473c4a9ea713da69a1b9edd747dd41a17ccb3"
+      },
+      {
+        "source_id": "suginami_festival",
+        "required": true,
+        "url": "https://www.city.suginami.tokyo.jp/cgi-bin/event_cal_multi/calendar.cgi?type=2&year=2026&month=11&event_category=5&siteid=1",
+        "checked_at": "2026-11-18T07:12:28+09:00",
+        "status": "checked",
+        "http_status": 200,
+        "sha256": "307abb8eacbae0d54013a69bd2d78c30089f409bc23b29756bea95feaa337c40"
+      },
+      {
+        "source_id": "suginami_festival",
+        "required": true,
+        "url": "https://www.city.suginami.tokyo.jp/cgi-bin/event_cal_multi/calendar.cgi?type=2&year=2026&month=12&event_category=5&siteid=1",
+        "checked_at": "2026-11-18T07:12:28+09:00",
+        "status": "checked",
+        "http_status": 200,
+        "sha256": "66c1079807a80c2cee58051bfda8bbee8ae79c342a9810644d831f869440b287"
+      },
+      {
+        "source_id": "nerima_district_festivals_2026",
+        "required": true,
+        "url": "https://www.city.nerima.tokyo.jp/kankomoyoshi/annai/omatsuri/chikusai/index.html",
+        "checked_at": "2026-11-18T07:12:28+09:00",
+        "status": "checked",
+        "http_status": 200,
+        "sha256": "6915cc8836de3c971a028117f57c2d0e552a8e6ba3d2116f5f30a610e96a3ef9"
+      },
+      {
+        "source_id": "nakano_official_tourism",
+        "required": true,
+        "url": "https://www.nakano-kanko.com/event/",
+        "checked_at": "2026-11-18T07:12:29+09:00",
+        "status": "checked",
+        "http_status": 200,
+        "sha256": "e450131f89eb494b16bfb53e061155c15e1f811c7353d1e8663afa3309886332"
+      },
+      {
+        "source_id": "itabashi_official_festival",
+        "required": true,
+        "url": "https://www.city.itabashi.tokyo.jp/bunka/kanko/matsuri/index.html",
+        "checked_at": "2026-11-18T07:12:27+09:00",
+        "status": "checked",
+        "http_status": 200,
+        "sha256": "ba75301b6fa17c192a9b176511e3d4231acf065aac651115ab2f8a0295347571"
+      },
+      {
+        "source_id": "itabashi_official_festival",
+        "required": true,
+        "url": "https://www.city.itabashi.tokyo.jp/bunka/kanko/matsuri/1006858.html",
+        "checked_at": "2026-11-18T07:12:28+09:00",
+        "status": "checked",
+        "http_status": 200,
+        "sha256": "cd9619e0ccf459b7633035fece32d8e5111fe75ad06bbd3ad1d737bbf4604344"
+      },
+      {
+        "source_id": "itabashi_tourism_festival",
+        "required": true,
+        "url": "https://itabashi-kanko.jp/pickup/detail?id=1799",
+        "checked_at": "2026-11-18T07:12:29+09:00",
+        "status": "checked",
+        "http_status": 200,
+        "sha256": "865532423f9703af2cb968845aa2625e33f0f4b6dc5877b8236b8f261d655d39"
+      },
+      {
+        "source_id": "tamemap_nakano",
+        "required": true,
+        "url": "https://pc.tamemap.net/1311401/calendar/2026-11?lat=35.7089745&lng=139.6630981&level=5000&locale=ja",
+        "checked_at": "2026-11-18T07:12:28+09:00",
+        "status": "error",
+        "http_status": 403,
+        "sha256": null,
+        "error": "HTTP Error 403: Forbidden"
+      },
+      {
+        "source_id": "tamemap_nakano",
+        "required": true,
+        "url": "https://pc.tamemap.net/1311401/calendar/2026-12?lat=35.7089745&lng=139.6630981&level=5000&locale=ja",
+        "checked_at": "2026-11-18T07:12:29+09:00",
+        "status": "error",
+        "http_status": 403,
+        "sha256": null,
+        "error": "HTTP Error 403: Forbidden"
+      },
+      {
+        "source_id": "tamemap_nakano",
+        "required": true,
+        "url": "https://pc.tamemap.net/1311401/new_arrival?lat=35.7089745&lng=139.6630981&level=5000&locale=ja",
+        "checked_at": "2026-11-18T07:12:29+09:00",
+        "status": "error",
+        "http_status": 403,
+        "sha256": null,
+        "error": "HTTP Error 403: Forbidden"
+      },
+      {
+        "source_id": "itabashi_times_event",
+        "required": true,
+        "url": "https://itabashi-times.com/category/event",
+        "checked_at": "2026-11-18T07:12:30+09:00",
+        "status": "checked",
+        "http_status": 200,
+        "sha256": "8483b7618971fe79c4acd0b0047254d127ca426ef44f3b4042e7aa472137649b"
+      },
+      {
+        "source_id": "itabashi_times_event",
+        "required": true,
+        "url": "https://itabashi-times.com/category/event/page/2",
+        "checked_at": "2026-11-18T07:12:30+09:00",
+        "status": "checked",
+        "http_status": 200,
+        "sha256": "45d64e034d2d0a9d3e5ca602526b87a68fbfe3ec7bdbff1a93bc62ebc01dd56c"
+      },
+      {
+        "source_id": "suginami_calendar_all",
+        "required": true,
+        "url": "https://www.city.suginami.tokyo.jp/cgi-bin/event_cal_multi/calendar.cgi?type=2&year=2026&month=11",
+        "checked_at": "2026-11-18T07:12:29+09:00",
+        "status": "checked",
+        "http_status": 200,
+        "sha256": "053210d6a7bc3acb4346aaff2f10ba03cc3e62448a9a275d493b987d49282ab0"
+      },
+      {
+        "source_id": "suginami_calendar_all",
+        "required": true,
+        "url": "https://www.city.suginami.tokyo.jp/cgi-bin/event_cal_multi/calendar.cgi?type=2&year=2026&month=12",
+        "checked_at": "2026-11-18T07:12:29+09:00",
+        "status": "checked",
+        "http_status": 200,
+        "sha256": "1376b7ca28c3a1fee0ca9dd2992cea71e20c575043824a9968878c08fc351eb2"
+      },
+      {
+        "source_id": "suginami_calendar_all",
+        "required": true,
+        "url": "https://www.city.suginami.tokyo.jp/cgi-bin/event_cal_multi/calendar.cgi?day=16&month=11&type=3&year=2026",
+        "checked_at": "2026-11-18T07:12:29+09:00",
+        "status": "checked",
+        "http_status": 200,
+        "sha256": "602deec31e2240962e56345c75bfde5b50219c0b22b86142f0b356e764d1baf2"
+      },
+      {
+        "source_id": "suginami_calendar_all",
+        "required": true,
+        "url": "https://www.city.suginami.tokyo.jp/cgi-bin/event_cal_multi/calendar.cgi?day=17&month=11&type=3&year=2026",
+        "checked_at": "2026-11-18T07:12:29+09:00",
+        "status": "checked",
+        "http_status": 200,
+        "sha256": "99f3cb72f24a2cf095c8d01e93e14fa8b8c2063ebad51bac64d66075c995b719"
+      },
+      {
+        "source_id": "suginami_calendar_all",
+        "required": true,
+        "url": "https://www.city.suginami.tokyo.jp/cgi-bin/event_cal_multi/calendar.cgi?day=18&month=11&type=3&year=2026",
+        "checked_at": "2026-11-18T07:12:29+09:00",
+        "status": "checked",
+        "http_status": 200,
+        "sha256": "317f2bde428116f3853e9f9634502cc6b2d098992f613f6f203817dae305f96d"
+      },
+      {
+        "source_id": "suginami_calendar_all",
+        "required": true,
+        "url": "https://www.city.suginami.tokyo.jp/cgi-bin/event_cal_multi/calendar.cgi?day=19&month=11&type=3&year=2026",
+        "checked_at": "2026-11-18T07:12:29+09:00",
+        "status": "checked",
+        "http_status": 200,
+        "sha256": "b563a6d59a380fb237bd8786fb83631a84024b44e2738ce95663aa5a0f57f327"
+      },
+      {
+        "source_id": "suginami_calendar_all",
+        "required": true,
+        "url": "https://www.city.suginami.tokyo.jp/cgi-bin/event_cal_multi/calendar.cgi?day=20&month=11&type=3&year=2026",
+        "checked_at": "2026-11-18T07:12:29+09:00",
+        "status": "checked",
+        "http_status": 200,
+        "sha256": "076bbd9f01fa326904c2df46a45475cb1b6d741afad1c35a9e17a174f2bf5da8"
+      },
+      {
+        "source_id": "suginami_calendar_all",
+        "required": true,
+        "url": "https://www.city.suginami.tokyo.jp/cgi-bin/event_cal_multi/calendar.cgi?day=21&month=11&type=3&year=2026",
+        "checked_at": "2026-11-18T07:12:29+09:00",
+        "status": "checked",
+        "http_status": 200,
+        "sha256": "710174510db0ec53712d85e0ba22889798d82d3b3c743e244f4de918035c3751"
+      },
+      {
+        "source_id": "suginami_calendar_all",
+        "required": true,
+        "url": "https://www.city.suginami.tokyo.jp/cgi-bin/event_cal_multi/calendar.cgi?day=22&month=11&type=3&year=2026",
+        "checked_at": "2026-11-18T07:12:29+09:00",
+        "status": "checked",
+        "http_status": 200,
+        "sha256": "7c7353fdcd8a840ede622424b9d55d6f1283559c1aec541617fe04dae84ab5d0"
+      },
+      {
+        "source_id": "suginami_calendar_all",
+        "required": true,
+        "url": "https://www.city.suginami.tokyo.jp/cgi-bin/event_cal_multi/calendar.cgi?day=23&month=11&type=3&year=2026",
+        "checked_at": "2026-11-18T07:12:30+09:00",
+        "status": "checked",
+        "http_status": 200,
+        "sha256": "1a46b01ec3e5bbe4be86ca4bfac1599536fedcbdade04f64f3f2ee8d5af39b55"
+      },
+      {
+        "source_id": "suginami_calendar_all",
+        "required": true,
+        "url": "https://www.city.suginami.tokyo.jp/cgi-bin/event_cal_multi/calendar.cgi?day=24&month=11&type=3&year=2026",
+        "checked_at": "2026-11-18T07:12:30+09:00",
+        "status": "checked",
+        "http_status": 200,
+        "sha256": "bddb4cb438b877eee14d025cde02a55a5e0fc32958f3c0cba5231309ee0559f9"
+      },
+      {
+        "source_id": "suginami_calendar_all",
+        "required": true,
+        "url": "https://www.city.suginami.tokyo.jp/cgi-bin/event_cal_multi/calendar.cgi?day=25&month=11&type=3&year=2026",
+        "checked_at": "2026-11-18T07:12:30+09:00",
+        "status": "checked",
+        "http_status": 200,
+        "sha256": "3f530744ca1ef37e1cb44f49c2898408316869e5241444e94ce4f69446d3f49a"
+      },
+      {
+        "source_id": "suginami_calendar_all",
+        "required": true,
+        "url": "https://www.city.suginami.tokyo.jp/cgi-bin/event_cal_multi/calendar.cgi?day=26&month=11&type=3&year=2026",
+        "checked_at": "2026-11-18T07:12:30+09:00",
+        "status": "checked",
+        "http_status": 200,
+        "sha256": "d322063aa4f6e1da864ee11c59e3764d099a305429c4c2f360435c1b04ad2a83"
+      },
+      {
+        "source_id": "suginami_calendar_all",
+        "required": true,
+        "url": "https://www.city.suginami.tokyo.jp/cgi-bin/event_cal_multi/calendar.cgi?day=27&month=11&type=3&year=2026",
+        "checked_at": "2026-11-18T07:12:30+09:00",
+        "status": "checked",
+        "http_status": 200,
+        "sha256": "fffb35d75b3d36eebdf91aba82b394b707f274ed52b04d292530a0e40394e9df"
+      },
+      {
+        "source_id": "suginami_calendar_all",
+        "required": true,
+        "url": "https://www.city.suginami.tokyo.jp/cgi-bin/event_cal_multi/calendar.cgi?day=28&month=11&type=3&year=2026",
+        "checked_at": "2026-11-18T07:12:30+09:00",
+        "status": "checked",
+        "http_status": 200,
+        "sha256": "ee5fde2e8cefa8db44913a0b1023f089611652039b234d76c7c1f181578fac87"
+      },
+      {
+        "source_id": "suginami_calendar_all",
+        "required": true,
+        "url": "https://www.city.suginami.tokyo.jp/cgi-bin/event_cal_multi/calendar.cgi?day=29&month=11&type=3&year=2026",
+        "checked_at": "2026-11-18T07:12:30+09:00",
+        "status": "checked",
+        "http_status": 200,
+        "sha256": "1e05a1324c7238c04153ed2de97ce4ed5b673188e84d495aa279173398a5c4ce"
+      },
+      {
+        "source_id": "suginami_calendar_all",
+        "required": true,
+        "url": "https://www.city.suginami.tokyo.jp/cgi-bin/event_cal_multi/calendar.cgi?day=30&month=11&type=3&year=2026",
+        "checked_at": "2026-11-18T07:12:30+09:00",
+        "status": "checked",
+        "http_status": 200,
+        "sha256": "0925daabea2ba1af76557b0f2a5d4a625a398a9457fa03b1fa0fcf7f7d176600"
+      },
+      {
+        "source_id": "suginami_calendar_all",
+        "required": true,
+        "url": "https://www.city.suginami.tokyo.jp/cgi-bin/event_cal_multi/calendar.cgi?day=1&month=12&type=3&year=2026",
+        "checked_at": "2026-11-18T07:12:30+09:00",
+        "status": "checked",
+        "http_status": 200,
+        "sha256": "5f95ce924430674097c1a52f6ce374128a2cba32d076b2f7509277f58d919296"
+      },
+      {
+        "source_id": "suginami_calendar_all",
+        "required": true,
+        "url": "https://www.city.suginami.tokyo.jp/cgi-bin/event_cal_multi/calendar.cgi?day=2&month=12&type=3&year=2026",
+        "checked_at": "2026-11-18T07:12:30+09:00",
+        "status": "checked",
+        "http_status": 200,
+        "sha256": "8ddbbef358d306b747fe7ee91dba19b470bb4254ab37b56b1d390a513d76a72a"
+      },
+      {
+        "source_id": "suginami_calendar_all",
+        "required": true,
+        "url": "https://www.city.suginami.tokyo.jp/cgi-bin/event_cal_multi/calendar.cgi?day=3&month=12&type=3&year=2026",
+        "checked_at": "2026-11-18T07:12:30+09:00",
+        "status": "checked",
+        "http_status": 200,
+        "sha256": "b55ece3a0591443c8f8c2df8c987d423cda79d7cea6ef517b71a100c65d493ac"
+      },
+      {
+        "source_id": "suginami_calendar_all",
+        "required": true,
+        "url": "https://www.city.suginami.tokyo.jp/cgi-bin/event_cal_multi/calendar.cgi?day=4&month=12&type=3&year=2026",
+        "checked_at": "2026-11-18T07:12:30+09:00",
+        "status": "checked",
+        "http_status": 200,
+        "sha256": "bc5b0389d45cec4e4634927f22d5915591429b55d716cfa40b8f741261377ccb"
+      },
+      {
+        "source_id": "suginami_calendar_all",
+        "required": true,
+        "url": "https://www.city.suginami.tokyo.jp/cgi-bin/event_cal_multi/calendar.cgi?day=5&month=12&type=3&year=2026",
+        "checked_at": "2026-11-18T07:12:30+09:00",
+        "status": "checked",
+        "http_status": 200,
+        "sha256": "3d5b622af4555e0997aed21579af9c186b7ee8dcd77a479a10991b51de44c718"
+      },
+      {
+        "source_id": "suginami_calendar_all",
+        "required": true,
+        "url": "https://www.city.suginami.tokyo.jp/cgi-bin/event_cal_multi/calendar.cgi?day=6&month=12&type=3&year=2026",
+        "checked_at": "2026-11-18T07:12:30+09:00",
+        "status": "checked",
+        "http_status": 200,
+        "sha256": "efdec946e4c829f05bfa81b3e7c9f42d5558ce3617c09d3a452faa931b8324e8"
+      },
+      {
+        "source_id": "suginami_calendar_all",
+        "required": true,
+        "url": "https://www.city.suginami.tokyo.jp/cgi-bin/event_cal_multi/calendar.cgi?day=7&month=12&type=3&year=2026",
+        "checked_at": "2026-11-18T07:12:30+09:00",
+        "status": "checked",
+        "http_status": 200,
+        "sha256": "3581c390ab179621b769aaa3fcc2bad2b21c3dfaecac1df6fece3f6e5d094a1a"
+      },
+      {
+        "source_id": "suginami_calendar_all",
+        "required": true,
+        "url": "https://www.city.suginami.tokyo.jp/cgi-bin/event_cal_multi/calendar.cgi?day=8&month=12&type=3&year=2026",
+        "checked_at": "2026-11-18T07:12:30+09:00",
+        "status": "checked",
+        "http_status": 200,
+        "sha256": "d6f64bcfccd944266a04c62a0e5f5ea35b4f4bc78faa637ea6aa573af864a098"
+      },
+      {
+        "source_id": "suginami_calendar_all",
+        "required": true,
+        "url": "https://www.city.suginami.tokyo.jp/cgi-bin/event_cal_multi/calendar.cgi?day=9&month=12&type=3&year=2026",
+        "checked_at": "2026-11-18T07:12:31+09:00",
+        "status": "checked",
+        "http_status": 200,
+        "sha256": "1ae76aae49625414c22afb973b3f9aa05259332606e8f7cad8ab546c5a17b2a2"
+      },
+      {
+        "source_id": "suginami_calendar_all",
+        "required": true,
+        "url": "https://www.city.suginami.tokyo.jp/cgi-bin/event_cal_multi/calendar.cgi?day=10&month=12&type=3&year=2026",
+        "checked_at": "2026-11-18T07:12:31+09:00",
+        "status": "checked",
+        "http_status": 200,
+        "sha256": "267e9bfa2828719537ca24e9eeae535eb43a540e36b5144f3bdb3e7c74c90367"
+      },
+      {
+        "source_id": "suginami_calendar_all",
+        "required": true,
+        "url": "https://www.city.suginami.tokyo.jp/cgi-bin/event_cal_multi/calendar.cgi?day=11&month=12&type=3&year=2026",
+        "checked_at": "2026-11-18T07:12:31+09:00",
+        "status": "checked",
+        "http_status": 200,
+        "sha256": "6e320fcde6dc890dd3c248994c14f9ec2becdebe9fd103fde0e1b72528467199"
+      },
+      {
+        "source_id": "suginami_calendar_all",
+        "required": true,
+        "url": "https://www.city.suginami.tokyo.jp/cgi-bin/event_cal_multi/calendar.cgi?day=12&month=12&type=3&year=2026",
+        "checked_at": "2026-11-18T07:12:31+09:00",
+        "status": "checked",
+        "http_status": 200,
+        "sha256": "993be1b40f10bcd984d375bc244807f2c9e350ff468827e99f3578437a60d6b1"
+      },
+      {
+        "source_id": "suginami_calendar_all",
+        "required": true,
+        "url": "https://www.city.suginami.tokyo.jp/cgi-bin/event_cal_multi/calendar.cgi?day=13&month=12&type=3&year=2026",
+        "checked_at": "2026-11-18T07:12:31+09:00",
+        "status": "checked",
+        "http_status": 200,
+        "sha256": "d5da2afb0e7cef89f5c2178f43d8b4c6e48d4809d1fa2b40bb692b1df16cb5d6"
+      },
+      {
+        "source_id": "suginami_calendar_all",
+        "required": true,
+        "url": "https://www.city.suginami.tokyo.jp/cgi-bin/event_cal_multi/calendar.cgi?day=14&month=12&type=3&year=2026",
+        "checked_at": "2026-11-18T07:12:31+09:00",
+        "status": "checked",
+        "http_status": 200,
+        "sha256": "e823b6e74b206a1d6590c1c22371375777cebd17f4b0b98fcaa8443887b42ef7"
+      },
+      {
+        "source_id": "suginami_calendar_all",
+        "required": true,
+        "url": "https://www.city.suginami.tokyo.jp/cgi-bin/event_cal_multi/calendar.cgi?day=15&month=12&type=3&year=2026",
+        "checked_at": "2026-11-18T07:12:31+09:00",
+        "status": "checked",
+        "http_status": 200,
+        "sha256": "558640eb3b48787d000fb0149229a6a5002153b11dcdaf1eabb76c0adf3d10f3"
+      },
+      {
+        "source_id": "suginami_calendar_all",
+        "required": true,
+        "url": "https://www.city.suginami.tokyo.jp/cgi-bin/event_cal_multi/calendar.cgi?day=16&month=12&type=3&year=2026",
+        "checked_at": "2026-11-18T07:12:31+09:00",
+        "status": "checked",
+        "http_status": 200,
+        "sha256": "b67243f04c0b5eaf5c32cac384a761f5e4eb8b17a4556598b50133887273bb2b"
+      },
+      {
+        "source_id": "suginami_calendar_all",
+        "required": true,
+        "url": "https://www.city.suginami.tokyo.jp/cgi-bin/event_cal_multi/calendar.cgi?day=17&month=12&type=3&year=2026",
+        "checked_at": "2026-11-18T07:12:31+09:00",
+        "status": "checked",
+        "http_status": 200,
+        "sha256": "b1375b16652545c23e7520b6aeb8491110f663955094e32cdd88cc80caa366a3"
+      },
+      {
+        "source_id": "suginami_calendar_all",
+        "required": true,
+        "url": "https://www.city.suginami.tokyo.jp/cgi-bin/event_cal_multi/calendar.cgi?day=18&month=12&type=3&year=2026",
+        "checked_at": "2026-11-18T07:12:31+09:00",
+        "status": "checked",
+        "http_status": 200,
+        "sha256": "e48e07d06d4f83801461482c8b6b01fd2502569f8baf4865cf931b0120eea2d4"
+      },
+      {
+        "source_id": "suginami_calendar_all",
+        "required": true,
+        "url": "https://www.city.suginami.tokyo.jp/cgi-bin/event_cal_multi/calendar.cgi?day=19&month=12&type=3&year=2026",
+        "checked_at": "2026-11-18T07:12:31+09:00",
+        "status": "checked",
+        "http_status": 200,
+        "sha256": "186625eee9cde77860e1c78fdfd5ad00aeea9593810941660351cd84e77a4d25"
+      },
+      {
+        "source_id": "suginami_calendar_all",
+        "required": true,
+        "url": "https://www.city.suginami.tokyo.jp/cgi-bin/event_cal_multi/calendar.cgi?day=20&month=12&type=3&year=2026",
+        "checked_at": "2026-11-18T07:12:31+09:00",
+        "status": "checked",
+        "http_status": 200,
+        "sha256": "a0f65a3ea577b720a3ebbdac9b454059dc732fbc8e6ab30279c58f003061e894"
+      },
+      {
+        "source_id": "suginami_calendar_all",
+        "required": true,
+        "url": "https://www.city.suginami.tokyo.jp/cgi-bin/event_cal_multi/calendar.cgi?day=21&month=12&type=3&year=2026",
+        "checked_at": "2026-11-18T07:12:31+09:00",
+        "status": "checked",
+        "http_status": 200,
+        "sha256": "d84daa72b10bbd099eb7b49f03c796502431b5cb5ab08867efc0f5e9b23c7ce5"
+      },
+      {
+        "source_id": "suginami_calendar_all",
+        "required": true,
+        "url": "https://www.city.suginami.tokyo.jp/cgi-bin/event_cal_multi/calendar.cgi?day=22&month=12&type=3&year=2026",
+        "checked_at": "2026-11-18T07:12:31+09:00",
+        "status": "checked",
+        "http_status": 200,
+        "sha256": "dea66322c6e0109cc9fa1660f5ce0c61b0a712873da2a00617ab864848418e5a"
+      },
+      {
+        "source_id": "suginami_calendar_all",
+        "required": true,
+        "url": "https://www.city.suginami.tokyo.jp/cgi-bin/event_cal_multi/calendar.cgi?day=23&month=12&type=3&year=2026",
+        "checked_at": "2026-11-18T07:12:31+09:00",
+        "status": "checked",
+        "http_status": 200,
+        "sha256": "cdfe160fa06977f443dc9e8ce631f80a70e6f94a4c0b5f7c300400b28a81e592"
+      },
+      {
+        "source_id": "suginami_calendar_all",
+        "required": true,
+        "url": "https://www.city.suginami.tokyo.jp/cgi-bin/event_cal_multi/calendar.cgi?day=24&month=12&type=3&year=2026",
+        "checked_at": "2026-11-18T07:12:31+09:00",
+        "status": "checked",
+        "http_status": 200,
+        "sha256": "2cfdd647657b4fa59ae73f9a9c0d0f10f5b3703f54cca4cf3418a10c69d14bf3"
+      },
+      {
+        "source_id": "suginami_calendar_all",
+        "required": true,
+        "url": "https://www.city.suginami.tokyo.jp/cgi-bin/event_cal_multi/calendar.cgi?day=25&month=12&type=3&year=2026",
+        "checked_at": "2026-11-18T07:12:31+09:00",
+        "status": "checked",
+        "http_status": 200,
+        "sha256": "282b1214f28cbbf01039ac892097b986b5a9a83f100befa98c6b0cf7b4b417fc"
+      },
+      {
+        "source_id": "suginami_calendar_all",
+        "required": true,
+        "url": "https://www.city.suginami.tokyo.jp/cgi-bin/event_cal_multi/calendar.cgi?day=26&month=12&type=3&year=2026",
+        "checked_at": "2026-11-18T07:12:31+09:00",
+        "status": "checked",
+        "http_status": 200,
+        "sha256": "57f2321274dc43a9f0653ff4a4888f1be748d0654bad3db3156c3b01f64b4ea7"
+      },
+      {
+        "source_id": "suginami_calendar_all",
+        "required": true,
+        "url": "https://www.city.suginami.tokyo.jp/cgi-bin/event_cal_multi/calendar.cgi?day=27&month=12&type=3&year=2026",
+        "checked_at": "2026-11-18T07:12:31+09:00",
+        "status": "checked",
+        "http_status": 200,
+        "sha256": "234352e7b28db03d0b26243237a618c115421bde70a797f6135d6648274d36ab"
+      },
+      {
+        "source_id": "nerima_forest_festa_2026",
+        "required": false,
+        "url": "https://www.city.nerima.tokyo.jp/kurashi/shigoto/midori/shokai/nerimanomori.html",
+        "checked_at": "2026-11-18T07:12:31+09:00",
+        "status": "checked",
+        "http_status": 200,
+        "sha256": "d7daef28322b39dfcd4a011c1e8096b0583b65f5ac82c7d08746050901498df4"
+      },
+      {
+        "source_id": "shinjuku_sankaku_hiroba",
+        "required": false,
+        "url": "https://www.sumitomo-sankakuhiroba.jp/event/",
+        "checked_at": "2026-11-18T07:12:31+09:00",
+        "status": "checked",
+        "http_status": 200,
+        "sha256": "a1a199731507fb2948e5ccdf6efa0565d5eddb0c1c8cfa66841576b1497f6329"
+      }
+    ],
+    "known_unresolved_failures": [
+      {
+        "kind": "explicit",
+        "source_id": "tamemap_nakano",
+        "url": "https://pc.tamemap.net/1311401/calendar/2026-11?lat=35.7089745&lng=139.6630981&level=5000&locale=ja",
+        "error": "HTTP Error 403: Forbidden",
+        "recorded_as": "error",
+        "never_marked_checked": true
+      },
+      {
+        "kind": "explicit",
+        "source_id": "tamemap_nakano",
+        "url": "https://pc.tamemap.net/1311401/calendar/2026-12?lat=35.7089745&lng=139.6630981&level=5000&locale=ja",
+        "error": "HTTP Error 403: Forbidden",
+        "recorded_as": "error",
+        "never_marked_checked": true
+      },
+      {
+        "kind": "explicit",
+        "source_id": "tamemap_nakano",
+        "url": "https://pc.tamemap.net/1311401/new_arrival?lat=35.7089745&lng=139.6630981&level=5000&locale=ja",
+        "error": "HTTP Error 403: Forbidden",
+        "recorded_as": "error",
+        "never_marked_checked": true
+      },
+      {
+        "kind": "holiday_calendar",
+        "source_id": "nerima_monthly",
+        "url": "https://www.city.nerima.tokyo.jp/kankomoyoshi/event/calendar/list_calendar202611.html",
+        "error": "HTTP Error 404: Not Found",
+        "recorded_as": "error",
+        "never_marked_checked": true
+      },
+      {
+        "kind": "holiday_calendar",
+        "source_id": "nerima_kids_monthly",
+        "url": "https://www.city.nerima.tokyo.jp/nerimakids/event/calendar/list_calendar202611.html",
+        "error": "HTTP Error 404: Not Found",
+        "recorded_as": "error",
+        "never_marked_checked": true
+      }
+    ],
+    "unverified_candidate_links": 821,
+    "full_23_ward_25_source_audit_complete": false
+  },
+  "suginami_addition_20261118": {
+    "kind": "four_individually_verified_official_events",
+    "added_ids": [
+      "verified-20261219-suginami-29249",
+      "verified-20261219-suginami-28963",
+      "verified-20261219-suginami-29140",
+      "verified-20261220-suginami-29174"
+    ],
+    "held_not_published": [
+      "suginami-official-29029",
+      "suginami-official-29120",
+      "suginami-official-29192",
+      "suginami-official-29334"
+    ],
+    "pages_committed_at": "research/2026-11-18-suginami-pages/",
+    "base_data_production_sha": "06888a9239c86436c4a499b4268847fa34f4dd2c",
+    "global_source_audit_complete": false
+  },
+  "lead5_addition_20261119": {
+    "kind": "individually_verified_official_events_from_lead_triage",
+    "added_ids": [
+      "verified-20261219-adachi-seibutsuen-night"
+    ],
+    "held_not_published": [
+      "edogawa-kodomo-mirai-kan-20261123",
+      "edogawa-konnitsuto-ichi-20261121",
+      "itabashi-hasune-programming-20261121",
+      "shinjuku-3r-festa-20261128",
+      "shinjuku-poreporefes-20261128",
+      "suginami-asagaya-xmas-market-20261129",
+      "suginami-beach-sports-20261129",
+      "suginami-nishiogi-library-oshanashi-20261129",
+      "toshima-kumanokko-day-20261123"
+    ],
+    "pages_committed_at": "research/2026-11-19-audit/pages/",
+    "base_data_production_sha": "4896e679ff43b1b29abdfa2a61abe5f1a923d8b5",
+    "global_source_audit_complete": false
+  },
+  "lead6_addition_20261119": {
+    "kind": "individually_verified_official_events_from_lead_triage",
+    "added_ids": [
+      "verified-20261219-adachi-seibutsuen-hotaru",
+      "verified-20261219-edogawa-fuyusakura"
+    ],
+    "held_not_published": [
+      "adachi-ouka-hakoniwa-20261128",
+      "adachi-seibutsuen-hotaru-20261128",
+      "chiyoda-first-bicycle-20261129",
+      "edogawa-fuyusakura-20261121",
+      "itabashi-shimizu-berezza-20261123",
+      "meguro-gohongi-oyako-asobo-20261128",
+      "suginami-futago-ryuseigun-20261212",
+      "suginami-nazo-sanpo-20261116",
+      "suginami-unesco-tsudoi-20261128",
+      "taito-asakusabashi-kosaku-20261122"
+    ],
+    "pages_committed_at": "research/2026-11-19-audit/pages/",
+    "base_data_production_sha": "db9501b3a8dcd9c11c06c8b4f058061b8a248263",
+    "global_source_audit_complete": false
+  },
+  "lead12_addition_20261119": {
+    "kind": "individually_verified_official_events_from_lead_triage",
+    "added_ids": [
+      "verified-20261219-setagaya-seijo-sakura-candle",
+      "verified-20261219-setagaya-kasuya-baton",
+      "verified-20261220-setagaya-todoroki-jinchi-survival",
+      "verified-20261219-setagaya-daita-candle",
+      "verified-20261219-edogawa-kamiisshiki-magic",
+      "verified-20261219-meguro-higashiyama-english",
+      "verified-20261219-meguro-tairamachi-baby-xmas",
+      "verified-20261219-meguro-higashine-xmas",
+      "verified-20261220-arakawa-ogu-library-xmas"
+    ],
+    "held_not_published": [
+      "edogawa-adult-or-closed",
+      "edogawa-pony-lottery",
+      "ota-jidokan-monthly-pdf",
+      "shinagawa-koto-event-lists"
+    ],
+    "pages_committed_at": "research/2026-11-19-audit/pages/",
+    "base_data_production_sha": "fa70fd6c4d0426e683725150056c0c34ee1c8c13",
+    "global_source_audit_complete": false
+  },
+  "lead14_addition_20261119": {
+    "kind": "individually_verified_official_events_from_lead_triage",
+    "added_ids": [
+      "verified-20261219-koto-minamisuna-xmas-concert",
+      "verified-20261219-koto-onagigawa-winter-festival",
+      "verified-20261219-koto-oshima-xmas-party"
+    ],
+    "held_not_published": [
+      "koto-teens-and-weekday",
+      "shinagawa-koho-pages"
+    ],
+    "pages_committed_at": "research/2026-11-19-audit/pages/",
+    "base_data_production_sha": "003709fe1fdce9af71fb83da6fe3ff2c225b4ba3",
+    "global_source_audit_complete": false
+  },
+  "lead15_addition_20261120": {
+    "kind": "individually_verified_official_events_from_lead_triage",
+    "added_ids": [
+      "verified-20261219-adachi-galaxcity-hihai-dec19",
+      "verified-20261219-adachi-galaxcity-xmasfes-planet",
+      "verified-20261219-adachi-galaxcity-gokko-dec19",
+      "verified-20261219-adachi-galaxcity-present-dec19",
+      "verified-20261219-adachi-galaxcity-undou-dec19",
+      "verified-20261219-adachi-galaxcity-photospot-dec19",
+      "verified-20261219-adachi-galaxcity-oshigoto-dec19",
+      "verified-20261219-adachi-galaxcity-dakko-dec19",
+      "verified-20261219-adachi-galaxcity-babymassage-dec19",
+      "verified-20261219-adachi-galaxcity-hoshi-dec19",
+      "verified-20261219-adachi-galaxcity-santa-dec19",
+      "verified-20261220-adachi-galaxcity-oto-dec20"
+    ],
+    "held_not_published": [
+      "galax-12-26-announcement",
+      "galax-adult-lecture",
+      "galax-always-on",
+      "galax-registration-closed"
+    ],
+    "pages_committed_at": "research/2026-11-20-thin-wards/pages/",
+    "base_data_production_sha": "fc681fb08f448716bcf07948837f1b057b497ead",
+    "global_source_audit_complete": false
+  },
+  "lead16_addition_20261120": {
+    "kind": "individually_verified_official_events_from_lead_triage",
+    "added_ids": [
+      "verified-20261219-adachi-kuwabukuro-donguri",
+      "verified-20261220-adachi-kuwabukuro-donguri"
+    ],
+    "held_not_published": [
+      "adachi-wreath-residents-closed"
+    ],
+    "pages_committed_at": "research/2026-11-20-thin-wards/pages/",
+    "base_data_production_sha": "42a4df85628e29e526f063cc8fe4fbff0b4d163a",
+    "global_source_audit_complete": false
+  },
+  "lead17_addition_20261120": {
+    "kind": "individually_verified_official_events_from_lead_triage",
+    "added_ids": [
+      "verified-20261219-katsushika-kawajin-shogatsu",
+      "verified-20261220-katsushika-kawajin-shogatsu"
+    ],
+    "held_not_published": [
+      "kawajin-kodomo-marche",
+      "kawajin-not-child-or-closed"
+    ],
+    "pages_committed_at": "research/2026-11-20-thin-wards/pages/",
+    "base_data_production_sha": "3c1e048d3a1b8f934471578094efcf2cd49c252f",
+    "global_source_audit_complete": false
+  },
+  "lead20_addition_20261120": {
+    "kind": "individually_verified_official_events_from_lead_triage",
+    "added_ids": [
+      "verified-20261219-shinjuku-ttm-reindeer",
+      "verified-20261220-shinjuku-ttm-stick",
+      "verified-20261220-sumida-honjo-santa",
+      "verified-20261220-shinagawa-inline-dec20",
+      "verified-20261219-edogawa-kanusura-park",
+      "verified-20261219-adachi-tdu-recycle"
+    ],
+    "held_not_published": [],
+    "pages_committed_at": "research/2026-11-20-thin-wards/pages/",
+    "base_data_production_sha": "8e0f42dfb811cbdef5f3d23e2e8ff14f9d49ad28",
+    "global_source_audit_complete": false
+  },
+  "lead21_addition_20261120": {
+    "kind": "individually_verified_official_events_from_lead_triage",
+    "added_ids": [
+      "verified-20261219-ota-kawasaki-robot-prog"
+    ],
+    "held_not_published": [],
+    "pages_committed_at": "research/2026-11-20-thin-wards/pages/",
+    "base_data_production_sha": "027c6d6e57187ef39849e4917fbcab3fab0a43e1",
+    "global_source_audit_complete": false
+  },
+  "lead22_addition_20261120": {
+    "kind": "individually_verified_official_events_from_lead_triage",
+    "added_ids": [
+      "verified-20261219-shibuya-funsportnexus",
+      "verified-20261220-shibuya-funsportnexus"
+    ],
+    "held_not_published": [],
+    "pages_committed_at": "research/2026-11-20-thin-wards/pages/",
+    "base_data_production_sha": "a58d6c51a15757198e02b458962fc1337d9ec28a",
+    "global_source_audit_complete": false
+  },
+  "lead23_addition_20261120": {
+    "kind": "individually_verified_official_events_from_lead_triage",
+    "added_ids": [
+      "verified-20261219-toshima-hinemos-concert",
+      "verified-20261220-toshima-hinemos-concert",
+      "verified-20261219-edogawa-kodomomirai-shimenawa"
+    ],
+    "held_not_published": [],
+    "pages_committed_at": "research/2026-11-20-thin-wards/pages/",
+    "base_data_production_sha": "a279cf9b7b9b576122f51257b705ad9633b3d040",
+    "global_source_audit_complete": false
+  },
+  "lead24_addition_20261120": {
+    "kind": "individually_verified_official_events_from_lead_triage",
+    "added_ids": [
+      "verified-20261220-jonanjima-skateboard-class"
+    ],
+    "held_not_published": [],
+    "pages_committed_at": "research/2026-11-20-thin-wards/pages/",
+    "base_data_production_sha": "29e7e555c772ba2bc59ee42bd30a6f1de6d63c51",
+    "global_source_audit_complete": false
+  },
+  "lead25_addition_20261120": {
+    "kind": "individually_verified_official_events_from_lead_triage",
+    "added_ids": [
+      "verified-20261219-itabashi-nettaikan-barbapapa",
+      "verified-20261220-itabashi-nettaikan-barbapapa"
+    ],
+    "held_not_published": [],
+    "pages_committed_at": "research/2026-11-20-thin-wards/pages/",
+    "base_data_production_sha": "afedbc20dd622d85fb58529ed05e22a262a6b6d6",
+    "global_source_audit_complete": false
+  },
+  "lead26_addition_20261120": {
+    "kind": "individually_verified_official_events_from_lead_triage",
+    "added_ids": [
+      "verified-20261219-mizunokagaku-kamishibai_drop",
+      "verified-20261220-mizunokagaku-tubc_free_throw"
+    ],
+    "held_not_published": [],
+    "pages_committed_at": "research/2026-11-20-thin-wards/pages/",
+    "base_data_production_sha": "3c2ac519ca2ceb86531448814220b828a64ca01b",
+    "global_source_audit_complete": false
+  },
+  "lead28_addition_20261120": {
+    "kind": "individually_verified_official_events_from_lead_triage",
+    "added_ids": [
+      "verified-20261219-sumida-aquarium-penguin-calendar",
+      "verified-20261220-sumida-aquarium-penguin-calendar"
+    ],
+    "held_not_published": [],
+    "pages_committed_at": "research/2026-11-20-thin-wards/pages/",
+    "base_data_production_sha": "22e4a457ceadb6a313cd631a270f1c950f5f39ba",
+    "global_source_audit_complete": false
+  },
+  "lead29_addition_20261120": {
+    "kind": "individually_verified_official_events_from_lead_triage",
+    "added_ids": [
+      "verified-20261220-tohaku-canbadge",
+      "verified-20261220-tohaku-papercraft"
+    ],
+    "held_not_published": [],
+    "pages_committed_at": "research/2026-11-20-thin-wards/pages/",
+    "base_data_production_sha": "f30356a47d4e86a0d2a4586d472ccdbbe5cb804d",
+    "global_source_audit_complete": false
+  },
+  "lead20_addition_20261121": {
+    "kind": "individually_verified_official_events_from_lead_triage",
+    "added_ids": [
+      "verified-20261220-arakawa-gassyotai-teiki164"
+    ],
+    "held_not_published": [
+      "arakawa-araboccia-1206",
+      "arakawa-fureaikan-1121-1128-1129",
+      "arakawa-hananoki-shokudo-1121",
+      "arakawa-kirakira-parade-1128-1220",
+      "arakawa-recycle-center-1128-1205-1212",
+      "arakawa-tougei-1129",
+      "bunkyo-flyingdisc-1129",
+      "bunkyo-furoshiki-1213",
+      "bunkyo-futsal-1128-1219",
+      "chuo-bunkazai-meguri-1128",
+      "chuo-dads-swag-1205",
+      "chuo-hinohara-tour-1212"
+    ],
+    "pages_committed_at": "research/2026-11-20-thin-wards/pages/",
+    "base_data_production_sha": "cf93083b984aacd9b8f5258d4bd8b623a9a65e5f",
+    "global_source_audit_complete": false
+  },
+  "lead26_addition_20261121": {
+    "kind": "individually_verified_official_events_from_lead_triage",
+    "added_ids": [
+      "verified-20261219-musashino-santa-oyako-undokai"
+    ],
+    "held_not_published": [
+      "higashikurume-xmas-ohanashi-1212-1219-1220-1221",
+      "kiyose-takeoka-demae-jidokan",
+      "musashino-asobi-mini-school-20261128",
+      "musashino-hakkentai-20261206",
+      "musashino-harp-20261206",
+      "musashino-noasobi-1122-1123",
+      "musashino-nogyo-kyoshitsu-20261129",
+      "remaining-cities",
+      "tama-aoi-ritmic-20261125",
+      "tama-atago-nature-20261128",
+      "tama-fitness-hijiri-20261201",
+      "tama-renkoji-science-20261212",
+      "tama-soratomo-20261214",
+      "tama-yakiimo-20261202"
+    ],
+    "pages_committed_at": "research/2026-11-20-thin-wards/pages/",
+    "base_data_production_sha": "4670dda5202bc21529e0744163f87a444bf062d1",
+    "global_source_audit_complete": false
+  },
+  "lead27_addition_20261121": {
+    "kind": "individually_verified_official_events_from_lead_triage",
+    "added_ids": [
+      "verified-20261219-chofu-family-concert-0sai-classic"
+    ],
+    "held_not_published": [
+      "chofu-marche-de-chofu-20261205-06",
+      "hachioji-hatchikko-kitchen-festa-20261128",
+      "hachioji-recycle-hiroba-20261128-29",
+      "hachioji-ryonan-mizube-matsuri-20261205",
+      "higashimurayama-kotsu-anzen-fesuta-20261205",
+      "higashimurayama-minamidai-marche-20261205",
+      "kodaira-fc-tokyo-oyako-soccer-20261220",
+      "kodaira-ogawanishi-mobile-20261129",
+      "koganei-jidofes-20261129",
+      "koganei-mini4kuu-20261128",
+      "komae-ohanashi-20261129",
+      "kunitachi-marche-20261213",
+      "machida-event-pages",
+      "nishitokyo-ekimae-festa-20261128-29",
+      "nishitokyo-yagifes-20261121-22",
+      "remaining-cities",
+      "tachikawa-jump-20261129"
+    ],
+    "pages_committed_at": "research/2026-11-20-thin-wards/pages/",
+    "base_data_production_sha": "cdfa4b5ae52314182f3de0d13c51c07c337145dc",
+    "global_source_audit_complete": false
+  },
+  "lead33_addition_20261121": {
+    "kind": "individually_verified_official_events_from_lead_triage",
+    "added_ids": [
+      "verified-20261121-tachikawa-showakinen-craft-oshogatsu-20261219"
+    ],
+    "held_not_published": [
+      "remaining-parks",
+      "tachikawa-showakinen-birdcall-20261220",
+      "tachikawa-showakinen-projectwild-20261212"
+    ],
+    "pages_committed_at": "research/2026-11-20-thin-wards/pages/",
+    "base_data_production_sha": "da7c29fd173c9fe3e1ab9718daec13b33121d2f3",
+    "global_source_audit_complete": false
+  },
+  "lead34_addition_20261121": {
+    "kind": "individually_verified_official_events_from_lead_triage",
+    "added_ids": [
+      "verified-20261121-bunkyo-dome-cinema-christmas-20261219"
+    ],
+    "held_not_published": [
+      "bunkyo-dome-winter-illumination-2026",
+      "nerima-wb-studio-tour",
+      "tokyo-legoland-discovery-center",
+      "tokyo-sunshine-solamachi-hanayashiki-joypolis"
+    ],
+    "pages_committed_at": "research/2026-11-20-thin-wards/pages/",
+    "base_data_production_sha": "0f84cff8a5ec34592502d0b130e1a5bf301834eb",
+    "global_source_audit_complete": false
+  },
+  "lead38_addition_20261121": {
+    "kind": "individually_verified_official_events_from_lead_triage",
+    "added_ids": [
+      "verified-20261219-meguro-gohongi-tudoi-santa",
+      "verified-20261219-meguro-kamimeguro-tudoi-rhythmic",
+      "verified-20261219-edogawa-mirai-shimenawa-oyako"
+    ],
+    "held_not_published": [
+      "edogawa-kosodate-festival-20261114",
+      "koto-midori-kosodate-toyosu",
+      "meguro-other-jidokan-weekday",
+      "meguro-teens-festa-20261206-20261220",
+      "minato-roppongi-nijimi-card-20261206",
+      "ota-kodomo-calendar-202612",
+      "setagaya-ochiai-chibikko-hiroba",
+      "setagaya-yamano-puppet-20261209",
+      "urayasu-tokyo-disney-resort"
+    ],
+    "pages_committed_at": "research/2026-11-20-thin-wards/pages/",
+    "base_data_production_sha": "19205b672d01c9c1a26cb2b9a10812035b44bf0b",
+    "global_source_audit_complete": false
+  },
+  "lead42_addition_20261122": {
+    "kind": "individually_verified_official_events_from_lead_triage",
+    "added_ids": [
+      "verified-20261219-setagaya-futakotamagawa-rise-skate-class"
+    ],
+    "held_not_published": [
+      "rise-busking-20261126",
+      "rise-czech-festival-20261204",
+      "rise-futakoza-street-market-20261130",
+      "rise-hoikushi-fair-20261129",
+      "rise-hotel-chef-cooking-20261206",
+      "rise-kimchi-boroc-mission-20261122",
+      "rise-kimono-festa-20261120",
+      "rise-mens-fudge-20261127"
+    ],
+    "pages_committed_at": "research/2026-11-20-thin-wards/pages/",
+    "base_data_production_sha": "eb1facf6035092f7991cb81cf90cc3e10b382eb1",
+    "global_source_audit_complete": false
+  },
+  "lead44_addition_20261123": {
+    "kind": "individually_verified_official_events_from_lead_triage",
+    "added_ids": [
+      "verified-20261219-shibuya-hachilabo-snowman-lamp-2026",
+      "verified-20261219-shibuya-hachilabo-artemis-moon-2026",
+      "verified-20261220-shibuya-hachilabo-semiconductor-xmas-2026"
+    ],
+    "held_not_published": [
+      "hachilabo-color-play-20261205",
+      "hachilabo-cosmic-college-20261128",
+      "hachilabo-flying-seed-20261123",
+      "hachilabo-lecture-20261206-20261213",
+      "hachilabo-space-slime-20261121"
+    ],
+    "pages_committed_at": "research/2026-11-20-thin-wards/pages/",
+    "base_data_production_sha": "92c676a01ccda8fa2bc27cde65f130be55a445ac",
+    "global_source_audit_complete": false
+  },
+  "lead45_addition_20261121": {
+    "kind": "individually_verified_official_events_from_lead_triage",
+    "added_ids": [
+      "verified-20261219-wakabayashi-candle-2026",
+      "verified-20261219-matsuzawa-xmas-cake-2026",
+      "verified-20261219-tsurumaki-teens-party-2026",
+      "verified-20261219-fukasawa-xmas-2026",
+      "verified-20261219-wakabayashi-minimesse-2026",
+      "verified-20261219-kamiyouga-stage-2026",
+      "verified-20261219-soshigaya-twins-wreath-2026",
+      "verified-20261219-daitaminami-nonbiri-2026",
+      "verified-20261219-matsuzawa-family-concert-2026",
+      "verified-20261219-sakura-hanamido-some-2026",
+      "verified-20261219-bunkyo-upcycle-2026",
+      "verified-20261219-toshino-shougatsu-2026",
+      "verified-20261220-kamiyouga-nichiyou-2026",
+      "verified-20261220-arakawa-pop-2026",
+      "verified-20261220-mitaka-happiness-concert-2026"
+    ],
+    "held_not_published": [
+      "edogawa-biseibutsu-20261227",
+      "edogawa-petbosai-20261212",
+      "kokubunji-goshin-20261205",
+      "kokubunji-violin-20261220",
+      "komae-concerts-lecture",
+      "mitaka-saigai-forum-20261212",
+      "nerima-kiko-20261206",
+      "setagaya-kamiyouga-sleep-20261219",
+      "setagaya-kinuta-teens-festa-20261220",
+      "setagaya-soshigaya-yururi-20261219",
+      "setagaya-todoroki-zoorasia-20261219",
+      "setagaya-tsurumaki-billiard-20261226",
+      "showakinen-decoupage-20261206",
+      "showakinen-nordic-20261213",
+      "sunshine-aquarium-winter-20261218",
+      "tachikawa-udon-20261212",
+      "toyosu-marche-20261128"
+    ],
+    "pages_committed_at": "research/2026-11-20-thin-wards/pages/",
+    "base_data_production_sha": "100bab3eea5a5011deea32fc6bb11840e500ccb8",
+    "global_source_audit_complete": false
+  }
+}

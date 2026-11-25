@@ -1,0 +1,286 @@
+[
+  {
+    "id": "verified-20261121-edogawa-rakuichi",
+    "ward": "江戸川区",
+    "name": "えどがわ楽市2026 ～笑顔がつながる2日間～",
+    "url": "https://www.city.edogawa.tokyo.jp/event/rakuichi2026.html",
+    "official_url": "https://www.city.edogawa.tokyo.jp/event/rakuichi2026.html",
+    "source": "https://www.city.edogawa.tokyo.jp/event/rakuichi2026.html",
+    "image": "https://www.city.edogawa.tokyo.jp/images/74579/edogawarakuichi.jpg",
+    "period": "11/21(土)・11/22(日)",
+    "date_start": "2026-11-21",
+    "date_end": "2026-11-22",
+    "time": "11/21 11:00〜／11/22 〜17:00",
+    "venue": "アリオ葛西（江戸川区東葛西9丁目3番3号）",
+    "price": "無料",
+    "description": "地域の店舗・企業の出店、キッズダンスやライブ、スポーツ体験などがある2日間のイベント。子どもから大人まで1日楽しめる。申込不要。",
+    "categories": [
+      "体験・ワークショップ",
+      "地域交流"
+    ],
+    "indoor_outdoor": "屋内・屋外",
+    "reservation": {
+      "required": false,
+      "note": "申し込み不要。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "キッズダンスやスポーツ体験がある、子どもから大人まで楽しめるイベント。無料・申込不要で、2日間開催。",
+      "axes": {
+        "child_target": {
+          "grade": "B",
+          "reason": "キッズダンスやスポーツ体験など、子どもから大人まで1日楽しめると案内"
+        },
+        "interactivity": {
+          "grade": "B",
+          "reason": "スポーツ体験やステージ発表。体験内容の詳細は公式ページにない"
+        },
+        "age_fit": {
+          "grade": "unknown",
+          "reason": "対象年齢は公式案内に明記がない"
+        },
+        "stay_flexibility": {
+          "grade": "A",
+          "reason": "2日間で、都合のよい時間に立ち寄れる"
+        },
+        "burden": {
+          "grade": "B",
+          "reason": "商業施設での開催で、内容の詳細は公式ページに少ない"
+        },
+        "cost": {
+          "grade": "A",
+          "reason": "費用無料"
+        },
+        "reservation": {
+          "grade": "A",
+          "reason": "申し込み不要"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "店舗の出店とキッズ向けの催しを家族で楽しめる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-19",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "child_program",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "無料・申込不要で2日間開催",
+          "キッズダンスやスポーツ体験"
+        ],
+        "limitations": [
+          "体験内容の詳細は公式ページに少ない"
+        ],
+        "grade_comparison": "総合B：無料・申込不要で気軽だが、体験内容の詳細は公式ページに少ない。",
+        "unsupported_axes": [
+          "age_fit"
+        ],
+        "evidence": [
+          {
+            "url": "https://www.city.edogawa.tokyo.jp/event/rakuichi2026.html",
+            "quote": "地域の店舗・企業による出店をはじめ、キッズダンスやライブ、スポーツ体験など、子どもから大人まで1日楽しめるイベントです。",
+            "checked_at": "2026-11-19",
+            "sha256": "309801f1405e0ff45e6fc9c98eb8a536482e872c86fd17993a3226f6f9cc56da",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "江戸川区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.edogawa.tokyo.jp/event/rakuichi2026.html",
+            "quote": "開催日時2026年11月21日（土曜日）11時00分から2026年11月22日（日曜日）17時00分",
+            "checked_at": "2026-11-19",
+            "sha256": "5e0cf36cf9584fa8b7f565a7a822fa6556282726ce78ad354fb63e0885b87a35",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "江戸川区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.edogawa.tokyo.jp/event/rakuichi2026.html",
+            "quote": "申し込み不要場所アリオ葛西住所江戸川区東葛西9丁目3番3号",
+            "checked_at": "2026-11-19",
+            "sha256": "75918e5880eb6996e1f0499ef06654c81295fd34b6b8cb36c72aadc6690d3f97",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "江戸川区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.edogawa.tokyo.jp/event/rakuichi2026.html",
+            "quote": "ダンスなどのステージ発表やスポーツ体験などを行います。",
+            "checked_at": "2026-11-19",
+            "sha256": "d66ee5f81f52b9067202fc9ab814e6e92f2cef1d5564765ba3541ba005b56778",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "江戸川区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.edogawa.tokyo.jp/event/rakuichi2026.html",
+            "quote": "費用無料問合せえどがわ楽市実行委員会",
+            "checked_at": "2026-11-19",
+            "sha256": "e77454d1a60041ae067bc478c6099500a3bca6d84a2e8e18524a5f1512e09fdd",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "江戸川区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-19",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  },
+  {
+    "id": "verified-20261122-suginami-irori-ohanashi",
+    "ward": "杉並区",
+    "name": "囲炉裏端でのお話し会（郷土博物館）",
+    "url": "https://www.city.suginami.tokyo.jp/s113/event/28911.html",
+    "official_url": "https://www.city.suginami.tokyo.jp/s113/event/28911.html",
+    "source": "https://www.city.suginami.tokyo.jp/s113/event/28911.html",
+    "image": "",
+    "period": "11/22(日)",
+    "date_start": "2026-11-22",
+    "date_end": "2026-11-22",
+    "time": "13:00〜15:00",
+    "venue": "杉並区立郷土博物館 古民家（杉並区大宮1丁目20番8号）",
+    "price": "無料（別途郷土博物館の観覧料100円）",
+    "description": "古民家の囲炉裏端で、昔の囲炉裏端での生活や家族によるお話しの場を再現する催し。どなたでも参加でき、当日直接会場へ。",
+    "categories": [
+      "体験・ワークショップ",
+      "地域交流"
+    ],
+    "indoor_outdoor": "屋内",
+    "reservation": {
+      "required": false,
+      "note": "当日直接会場へ。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "古民家の囲炉裏端で昔の暮らしやお話しの場を体験できる。どなたでも参加でき、当日直接行ける。子ども向けの内容は明記がない。",
+      "axes": {
+        "child_target": {
+          "grade": "unknown",
+          "reason": "子ども向けとは明記されていない。どなたでも参加できる"
+        },
+        "interactivity": {
+          "grade": "B",
+          "reason": "お話しを聞く鑑賞・体験型"
+        },
+        "age_fit": {
+          "grade": "unknown",
+          "reason": "対象年齢は公式案内に明記がない"
+        },
+        "stay_flexibility": {
+          "grade": "B",
+          "reason": "2時間の開催"
+        },
+        "burden": {
+          "grade": "A",
+          "reason": "当日直接会場へ行ける"
+        },
+        "cost": {
+          "grade": "B",
+          "reason": "無料（別途、郷土博物館の観覧料100円）"
+        },
+        "reservation": {
+          "grade": "A",
+          "reason": "当日直接会場へ"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "古民家で昔の暮らしを家族で体験できる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-19",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "all_ages",
+        "child_activity_confirmed": false,
+        "strengths": [
+          "古民家で昔の暮らしを体験できる",
+          "当日直接行ける"
+        ],
+        "limitations": [
+          "子ども向けとは明記されていない",
+          "別途観覧料100円"
+        ],
+        "grade_comparison": "総合B：気軽に体験できるが、子ども向けの内容は明記がない。",
+        "unsupported_axes": [
+          "child_target",
+          "age_fit"
+        ],
+        "evidence": [
+          {
+            "url": "https://www.city.suginami.tokyo.jp/s113/event/28911.html",
+            "quote": "囲炉裏端で祖父母等からお話を聞いていた昔の様子を再現します。",
+            "checked_at": "2026-11-19",
+            "sha256": "ef71d573742487b4098b811e220ef6506d2eb90e0ef5eb517cce3a11af4da210",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "杉並区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.suginami.tokyo.jp/s113/event/28911.html",
+            "quote": "開催日2026年11月22日（日曜日）開催時間午後1時から午後3時まで",
+            "checked_at": "2026-11-19",
+            "sha256": "bf9bf16b2cc945d3d84e6c5808f7fdaf15abb36df3565b04c877437e9028cee4",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "杉並区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.suginami.tokyo.jp/s113/event/28911.html",
+            "quote": "対象者どなたでも開催場所杉並区立郷土博物館古民家杉並区大宮1丁目20番8号",
+            "checked_at": "2026-11-19",
+            "sha256": "9540f4e25aa59b40c6a03df8e7629683f8b1f2af3a2ba8c9e097095d281ef844",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "杉並区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.suginami.tokyo.jp/s113/event/28911.html",
+            "quote": "昔の囲炉裏端での生活を紹介するとともに、娯楽の少ない時代の家族によるお話しの場を再現します。",
+            "checked_at": "2026-11-19",
+            "sha256": "eb6153a5de3533aceb374af8ba2d55f095c3f150e42b91d1bc9703393904849a",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "杉並区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.suginami.tokyo.jp/s113/event/28911.html",
+            "quote": "申し込み当日直接会場へお越しください。費用無料（別途郷土博物館の観覧料100円が必要です。）",
+            "checked_at": "2026-11-19",
+            "sha256": "81f64bfbc6de6cdcd7dc871ecaf00a20a7df063c1326892d67c48ea61e4f794a",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "杉並区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-19",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  }
+]

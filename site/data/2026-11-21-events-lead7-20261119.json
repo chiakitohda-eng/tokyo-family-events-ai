@@ -1,0 +1,284 @@
+[
+  {
+    "id": "verified-20261121-edogawa-fuyusakura",
+    "ward": "江戸川区",
+    "name": "新川さくら館 冬ざくらイルミネーション",
+    "url": "https://www.city.edogawa.tokyo.jp/event/26fuyusakura.html",
+    "official_url": "https://www.city.edogawa.tokyo.jp/event/26fuyusakura.html",
+    "source": "https://www.city.edogawa.tokyo.jp/event/26fuyusakura.html",
+    "image": "https://www.city.edogawa.tokyo.jp/images/75153/img_2440.jpg",
+    "period": "11/21〜12/25",
+    "date_start": "2026-11-21",
+    "date_end": "2026-11-22",
+    "time": "16:30〜21:30",
+    "venue": "新川さくら館広場（江戸川区船堀7丁目15番12号）",
+    "price": "無料",
+    "description": "新川さくら館の広場で開催するイルミネーション。冬の夜を彩る光を楽しめる。無料・申込不要。",
+    "categories": [
+      "公園・自然",
+      "地域交流"
+    ],
+    "indoor_outdoor": "屋外",
+    "reservation": {
+      "required": false,
+      "note": "申し込み不要。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "冬の夜のイルミネーション。無料・申込不要で、5時間の開催。子ども向けとは明記されていない。",
+      "axes": {
+        "child_target": {
+          "grade": "unknown",
+          "reason": "子ども向けとは明記されていない"
+        },
+        "interactivity": {
+          "grade": "B",
+          "reason": "イルミネーションの観賞が中心"
+        },
+        "age_fit": {
+          "grade": "unknown",
+          "reason": "対象年齢は明記がない"
+        },
+        "stay_flexibility": {
+          "grade": "A",
+          "reason": "16時30分〜21時30分の間、好きな時間に立ち寄れる"
+        },
+        "burden": {
+          "grade": "B",
+          "reason": "夜の屋外での開催"
+        },
+        "cost": {
+          "grade": "A",
+          "reason": "費用無料"
+        },
+        "reservation": {
+          "grade": "A",
+          "reason": "申し込み不要"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "冬の夜の光を家族で楽しめる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-19",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "all_ages",
+        "child_activity_confirmed": false,
+        "strengths": [
+          "無料・申込不要で5週間にわたり開催"
+        ],
+        "limitations": [
+          "子ども向けとは明記されていない",
+          "夜の屋外開催"
+        ],
+        "grade_comparison": "総合B：無料・申込不要で気軽に行けるが、子ども向けの内容は明記がない。",
+        "unsupported_axes": [
+          "child_target",
+          "age_fit"
+        ],
+        "evidence": [
+          {
+            "url": "https://www.city.edogawa.tokyo.jp/event/26fuyusakura.html",
+            "quote": "きらめく光に包まれた幻想的な冬のお花見をお楽しみください。",
+            "checked_at": "2026-11-19",
+            "sha256": "249eadc884db91ceb069b123f97c1c6cbd60339548e097bb38b81fef4e533456",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "江戸川区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.edogawa.tokyo.jp/event/26fuyusakura.html",
+            "quote": "開催日時2026年11月21日（土曜日）から2026年12月25日（金曜日）16時30分～21時30分",
+            "checked_at": "2026-11-19",
+            "sha256": "d54716ac26411c6f5cff1cb0df3222a2a675973b10738d33dee84c5fdacb22e7",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "江戸川区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.edogawa.tokyo.jp/event/26fuyusakura.html",
+            "quote": "申し込み不要場所新川さくら館広場住所江戸川区船堀7丁目15番12号",
+            "checked_at": "2026-11-19",
+            "sha256": "e3ee5819c2b27967abd9cac4aef20b679b81b97b6e585708aa13899385bde698",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "江戸川区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.edogawa.tokyo.jp/event/26fuyusakura.html",
+            "quote": "冬の夜を彩るイルミネーションを、ぜひお楽しみください。",
+            "checked_at": "2026-11-19",
+            "sha256": "2f5ab960882c3e75e5cb8883c057330f8cd1d6f4786cf2154fc606ce1f2d0c17",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "江戸川区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.edogawa.tokyo.jp/event/26fuyusakura.html",
+            "quote": "費用無料問合せ新川さくら館",
+            "checked_at": "2026-11-19",
+            "sha256": "28474ded6b7915e426495f587a22e464d7f922b5ecd23823af8e445374c9b17f",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "江戸川区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-19",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  },
+  {
+    "id": "verified-20261122-taito-asakusabashi-kosaku",
+    "ward": "台東区",
+    "name": "あさくさばしぶんしつ おはなしこうさく会（台東区立図書館）",
+    "url": "https://www.city.taito.lg.jp/library/kodomo/event/event11/01583891201702041601.html",
+    "official_url": "https://www.city.taito.lg.jp/library/kodomo/event/event11/01583891201702041601.html",
+    "source": "https://www.city.taito.lg.jp/library/kodomo/event/event11/01583891201702041601.html",
+    "image": "https://www.city.taito.lg.jp/library/kodomo/event/event11/01583891201702041601.images/okiagari.jpeg",
+    "period": "11/22(日)",
+    "date_start": "2026-11-22",
+    "date_end": "2026-11-22",
+    "time": "11:00〜11:30",
+    "venue": "浅草橋区民館 6階和室",
+    "price": "無料",
+    "description": "幼児から小学生までの子どもと保護者向けの、おはなしと工作の会。申込不要・参加費無料で、材料は図書館が用意。8組まで。",
+    "categories": [
+      "体験・ワークショップ",
+      "絵本・お話"
+    ],
+    "indoor_outdoor": "屋内",
+    "reservation": {
+      "required": false,
+      "note": "申込不要。当日直接会場へ。8組まで。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "幼児から小学生の子どもと保護者向けの、おはなしと工作。無料・申込不要だが、30分で8組まで。",
+      "axes": {
+        "child_target": {
+          "grade": "A",
+          "reason": "幼児から小学生までの子どもと保護者が対象"
+        },
+        "interactivity": {
+          "grade": "B",
+          "reason": "おはなしと工作"
+        },
+        "age_fit": {
+          "grade": "A",
+          "reason": "幼児から小学生までと明記"
+        },
+        "stay_flexibility": {
+          "grade": "C",
+          "reason": "11時〜11時30分の30分間"
+        },
+        "burden": {
+          "grade": "B",
+          "reason": "8組までの定員"
+        },
+        "cost": {
+          "grade": "A",
+          "reason": "参加費無料"
+        },
+        "reservation": {
+          "grade": "A",
+          "reason": "申込不要"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "小さな子どもと無料で参加できる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-19",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "child_program",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "無料・申込不要で子ども向け",
+          "材料は図書館が用意"
+        ],
+        "limitations": [
+          "30分と短い",
+          "8組までの定員"
+        ],
+        "grade_comparison": "総合B：子ども向けで無料・申込不要だが、短時間で8組までの定員。",
+        "unsupported_axes": [],
+        "evidence": [
+          {
+            "url": "https://www.city.taito.lg.jp/library/kodomo/event/event11/01583891201702041601.html",
+            "quote": "日時令和8年11月（がつ）22日（にち）（日曜日（にちようび））午前11時（じ）から11時（じ）30分（ふん）まで",
+            "checked_at": "2026-11-19",
+            "sha256": "d7885e32116d26328bc1594a22d4a2c04466287e269a60421e7c7e4460b7b2d9",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "台東区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.taito.lg.jp/library/kodomo/event/event11/01583891201702041601.html",
+            "quote": "場所浅草橋区民館（あさくさばしくみんかん）6階和室（かいわしつ）",
+            "checked_at": "2026-11-19",
+            "sha256": "3a7427f445b9758b871b1ffa8c4af5e99b178336baf637a6db0ab3811105c056",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "台東区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.taito.lg.jp/library/kodomo/event/event11/01583891201702041601.html",
+            "quote": "対象・人数幼児（ようじ）から小学生（しょうがくせい）までのお子（こ）さんとその保護者（ほごしゃ）8組（くみ）",
+            "checked_at": "2026-11-19",
+            "sha256": "ef266b8b5c0f593ffd950a24ca23166e0d1830fa1a52f952d93fe30075945256",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "台東区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.taito.lg.jp/library/kodomo/event/event11/01583891201702041601.html",
+            "quote": "申込不要（ふよう）※当日直接会場（とうじつちょくせつかいじょう）にお越（こ）しください",
+            "checked_at": "2026-11-19",
+            "sha256": "44871c306bedf481f7cdd6e49494aacb09dc915ad030004729eafebd2b4f89a4",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "台東区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.taito.lg.jp/library/kodomo/event/event11/01583891201702041601.html",
+            "quote": "参加費無料（むりょう）※材料（ざいりょう）は図書館（としょかん）で用意（ようい）します",
+            "checked_at": "2026-11-19",
+            "sha256": "a900ed9916a66d81ca0f84ce8f5b3b0fbdfeef182361ce841ba8679ffe7b3299",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "台東区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-19",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  }
+]

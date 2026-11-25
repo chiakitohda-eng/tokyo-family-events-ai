@@ -1,0 +1,252 @@
+[
+  {
+    "id": "verified-20261128-setagaya-wakabayashi-shichirin",
+    "ward": "世田谷区",
+    "name": "若林児童館 七輪でやきやきパーティー！",
+    "url": "https://www.city.setagaya.lg.jp/03062/36374.html",
+    "official_url": "https://www.city.setagaya.lg.jp/03062/36374.html",
+    "source": "https://www.city.setagaya.lg.jp/03062/36374.html",
+    "image": "",
+    "period": "11/28(土)",
+    "date_start": "2026-11-28",
+    "date_end": "2026-11-28",
+    "time": "15:00〜16:00",
+    "venue": "若林児童館 駐輪場",
+    "price": "参加費の記載なし",
+    "description": "七輪で食材を焼いて食べる、小学1〜5年生向けの催し。定員15名。",
+    "categories": [
+      "体験・ワークショップ",
+      "食"
+    ],
+    "indoor_outdoor": "屋外",
+    "reservation": {
+      "required": true,
+      "note": "11/14午前10時から申込。定員15名。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "七輪で食材を焼いて食べる、小学1〜5年生向けの催し。参加費の記載なし。事前の申込が必要。",
+      "axes": {
+        "child_target": {
+          "grade": "A",
+          "reason": "小学1年生から5年生が対象"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "七輪で食材を焼いて食べる"
+        },
+        "age_fit": {
+          "grade": "A",
+          "reason": "小学1〜5年生と明記"
+        },
+        "stay_flexibility": {
+          "grade": "B",
+          "reason": "15:00〜16:00"
+        },
+        "burden": {
+          "grade": "C",
+          "reason": "申込が必要で、定員15名"
+        },
+        "cost": {
+          "grade": "unknown",
+          "reason": "参加費の記載がない"
+        },
+        "reservation": {
+          "grade": "C",
+          "reason": "11/14から申込"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "七輪で焼く体験ができる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-19",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "child_program",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "七輪で焼いて食べる"
+        ],
+        "limitations": [
+          "定員15名",
+          "参加費の記載がない"
+        ],
+        "grade_comparison": "総合B：11/28(土)の若林児童館 駐輪場で15:00〜16:00の開催。参加費の記載なし。申込が必要で、定員がある。",
+        "unsupported_axes": [
+          "cost"
+        ],
+        "evidence": [
+          {
+            "url": "https://www.city.setagaya.lg.jp/03062/36374.html",
+            "quote": "若林児童館七輪でやきやきパーティー！募集中募集終了事前申込必要表示しない七輪で食材を焼いて食べます。七輪で食材を焼いて食べよう～！",
+            "checked_at": "2026-11-19",
+            "sha256": "73695333a54650c7f4a5ef2be65ef07d827468d477bfeff0df4a26148067c0fc",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "世田谷区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.setagaya.lg.jp/03062/36374.html",
+            "quote": "日程2026年11月28日（土曜日）時間午後3時から午後4時",
+            "checked_at": "2026-11-19",
+            "sha256": "6e882bbc35605cc594fa8fa092c3aa160f5d8b4261b6d65b17ff7e41b2f23ed0",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "世田谷区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.setagaya.lg.jp/03062/36374.html",
+            "quote": "場所・会場若林児童館駐輪場対象小学1年生から小学5年生定員15名申し込み方法11月14日（土曜日）午前10時から",
+            "checked_at": "2026-11-19",
+            "sha256": "200795f619f4eaa1c9c88d8a701689a5a060eeffdd061ed8acbf01ff71fa9927",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "世田谷区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-19",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  },
+  {
+    "id": "verified-20261129-setagaya-seijo-chiiki-bunkasai",
+    "ward": "世田谷区",
+    "name": "せいじょう地域文化祭",
+    "url": "https://www.city.setagaya.lg.jp/01051/20700.html",
+    "official_url": "https://www.city.setagaya.lg.jp/01051/20700.html",
+    "source": "https://www.city.setagaya.lg.jp/01051/20700.html",
+    "image": "https://www.city.setagaya.lg.jp/images/20700/img_1047.jpg",
+    "period": "11/29(日)",
+    "date_start": "2026-11-29",
+    "date_end": "2026-11-29",
+    "time": "10:30〜14:30",
+    "venue": "砧総合支所・成城ホール（世田谷区成城6-2-1）",
+    "price": "参加費の記載なし",
+    "description": "ステージ発表、フードコーナー、キッズコーナーがある地域の文化祭。子どもと大人が一緒に作り上げるお祭り。",
+    "categories": [
+      "イベント・まつり"
+    ],
+    "indoor_outdoor": "屋内",
+    "reservation": {
+      "required": false,
+      "note": "申込の記載なし。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "ステージ発表、フードコーナー、キッズコーナーがある地域の文化祭。参加費の記載なし。申込の案内はなく、当日参加できる。",
+      "axes": {
+        "child_target": {
+          "grade": "B",
+          "reason": "キッズコーナーがある地域のお祭り"
+        },
+        "interactivity": {
+          "grade": "B",
+          "reason": "ステージ発表・フード・キッズコーナー"
+        },
+        "age_fit": {
+          "grade": "unknown",
+          "reason": "対象年齢の目安は明記がない"
+        },
+        "stay_flexibility": {
+          "grade": "B",
+          "reason": "10:30〜14:30"
+        },
+        "burden": {
+          "grade": "B",
+          "reason": "10:30〜14:30"
+        },
+        "cost": {
+          "grade": "unknown",
+          "reason": "参加費の記載がない"
+        },
+        "reservation": {
+          "grade": "unknown",
+          "reason": "申込の要否は明記がない"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "親子で地域のお祭りを楽しめる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-19",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "child_program",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "キッズコーナーあり"
+        ],
+        "limitations": [
+          "参加費の記載がない"
+        ],
+        "grade_comparison": "総合B：11/29(日)の砧総合支所・成城ホールで10:30〜14:30の開催。参加費の記載なし。申込不要で気軽に参加できる。",
+        "unsupported_axes": [
+          "age_fit",
+          "cost",
+          "reservation"
+        ],
+        "evidence": [
+          {
+            "url": "https://www.city.setagaya.lg.jp/01051/20700.html",
+            "quote": "せいじょう地域文化祭募集中募集終了事前申込必要表示しないせいじょう地域文化祭を開催します！「せいじょう地域文化祭」とは、地域との交流を深めるために、子供と大人が一緒になって作り上げるお祭りです。毎年、世代を超えてたくさんの来場者を迎えています。今年度は、ステージ発表、フードコーナー、キッズコーナーを行います。皆さんのご来場をお待ちしています！",
+            "checked_at": "2026-11-19",
+            "sha256": "4bfc98cada9fdc40560b19df5b57dbe5ff57513d6ebe0a7d5c41817d7b6688ec",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "世田谷区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.setagaya.lg.jp/01051/20700.html",
+            "quote": "日程2026年11月29日（日曜日）時間10時30分～14時30分※ステージ発表は15時まで",
+            "checked_at": "2026-11-19",
+            "sha256": "bdf73da7b47a854d087677db89f8b97c89014c97fe8c3ef0fab0cb406576dd73",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "世田谷区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.setagaya.lg.jp/01051/20700.html",
+            "quote": "場所・会場砧総合支所・成城ホール（世田谷区成城6-2-1）申込可能な申請方法オンライン利用不可能窓口利用不可能郵送利用不可能電話利用不可能ファクシミリ利用不可能メール利用不可能コンビニ利用不可能",
+            "checked_at": "2026-11-19",
+            "sha256": "24c3bebb3d877cbdde76d426cbf17065af4ac32f4975be67445c6d240e5e7cb7",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "世田谷区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-19",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  }
+]

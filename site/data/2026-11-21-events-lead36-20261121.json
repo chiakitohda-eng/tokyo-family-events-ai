@@ -1,0 +1,159 @@
+[
+  {
+    "id": "verified-20261121-toshima-sunshine60-candle-workshop-2026",
+    "ward": "豊島区",
+    "name": "クリスマスキャンドルワークショップ（サンシャイン60展望台 てんぼうパーク）",
+    "url": "https://sunshinecity.jp/observatory/event/entry-39310.html",
+    "official_url": "https://sunshinecity.jp/observatory/event/entry-39310.html",
+    "source": "https://sunshinecity.jp/observatory/event/entry-39310.html",
+    "image": "https://sunshinecity.jp/archives/003/202611/71870f098b042d2f4b1d0d23a9fb3a7b850c9a7d9be33c0f2ca8915e8da2d535.jpg",
+    "period": "11/21(土)・23(月・祝)・28(土)・29(日)（12月分の日程は後日公開）",
+    "date_start": "2026-11-21",
+    "date_end": "2026-11-29",
+    "time": "11:00〜16:00（最終受付16:00）",
+    "venue": "サンシャイン60展望台 てんぼうパーク（池袋・サンシャインシティ）",
+    "price": "参加費2,530円（税込）〜（別途展望台入場料が必要）",
+    "description": "サンシャイン60展望台のてんぼうパークで開く、クリスマスのキャンドルづくり体験。グラスに色鮮やかな砂を敷き、好きなガラス細工を置いて、世界に一つだけのキャンドルを作る。対象は3歳以上で、体験は20分ほど。お渡しまで別に約40〜60分かかる。",
+    "categories": [
+      "体験・ワークショップ",
+      "まつり・イベント"
+    ],
+    "indoor_outdoor": "屋内",
+    "reservation": {
+      "required": false,
+      "note": "予約の記載なし。各日11:00から受付、最終受付16:00。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "3歳以上から参加できる、クリスマスのキャンドルづくり体験。参加費は2,530円（税込）から。展望台の入場料が別にかかり、出来上がりのお渡しまで約40〜60分待つ。",
+      "axes": {
+        "child_target": {
+          "grade": "B",
+          "reason": "3歳以上が対象。子どもも楽しめる体験"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "砂とガラス細工を選んで、自分でキャンドルを作る"
+        },
+        "age_fit": {
+          "grade": "B",
+          "reason": "3歳以上が対象"
+        },
+        "stay_flexibility": {
+          "grade": "B",
+          "reason": "開催日が限られ、受付は16:00まで"
+        },
+        "burden": {
+          "grade": "B",
+          "reason": "体験20分に加え、お渡しまで約40〜60分かかる"
+        },
+        "cost": {
+          "grade": "C",
+          "reason": "参加費2,530円〜に加え、展望台入場料が必要"
+        },
+        "reservation": {
+          "grade": "A",
+          "reason": "予約の記載なし"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "展望台で過ごしながら、クリスマスの工作を楽しめる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-21",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "age_eligible",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "3歳から参加でき、自分だけのキャンドルを作れる",
+          "屋内で、天候に左右されない"
+        ],
+        "limitations": [
+          "参加費に加えて展望台の入場料が必要",
+          "出来上がりまでの待ち時間が長い",
+          "お支払いは現金のみ"
+        ],
+        "grade_comparison": "総合B：3歳から参加できる屋内の工作体験。費用は参加費と展望台入場料の両方がかかる。",
+        "unsupported_axes": [],
+        "evidence": [
+          {
+            "url": "https://sunshinecity.jp/observatory/event/entry-39310.html",
+            "quote": "クリスマスキャンドルワークショップ開催！",
+            "checked_at": "2026-11-21",
+            "sha256": "706ad6f843c826c666fc59e9840992ec07a7fda3d5dc5f131f5bfe3d14a79cea",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://sunshinecity.jp/observatory/event/entry-39310.html",
+            "quote": "開催場所サンシャイン60展望台てんぼうパーク",
+            "checked_at": "2026-11-21",
+            "sha256": "95e370834bf11ea1374c37eef8ea2bc00eecd9c637a648c04c69d8b92d81d590",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://sunshinecity.jp/observatory/event/entry-39310.html",
+            "quote": "11月21日（土）、23日（月・祝）",
+            "checked_at": "2026-11-21",
+            "sha256": "5792f3289c38d489e8cdad75cc5e17aff1c64e963f5719675b171dc784f7cab7",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://sunshinecity.jp/observatory/event/entry-39310.html",
+            "quote": "11月28日（土）、29日（日）",
+            "checked_at": "2026-11-21",
+            "sha256": "70f066b9e81a04a749f66dfc707ea80d258a592623f3f5be35d7b415be11fc36",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://sunshinecity.jp/observatory/event/entry-39310.html",
+            "quote": "【対象年齢】3歳以上【参加費】2,530円（税込）~",
+            "checked_at": "2026-11-21",
+            "sha256": "055df4031cdc695d53fd37f8a2ee0b5d3406122031f216e1a060559fa8753bce",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://sunshinecity.jp/observatory/event/entry-39310.html",
+            "quote": "※別途展望台入場料が必要です。",
+            "checked_at": "2026-11-21",
+            "sha256": "0e7661134647614afaf3e61ef8583f73eb8962a93c93116f82344e317e888ca9",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://sunshinecity.jp/observatory/event/entry-39310.html",
+            "quote": "各日11:00～（最終受付16:00）",
+            "checked_at": "2026-11-21",
+            "sha256": "dc4d0695db1490cac1ad90d83398014858e1b960215ba3580eb4dc695ed07936",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-21",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  }
+]

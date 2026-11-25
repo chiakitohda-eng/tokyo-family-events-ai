@@ -6,7 +6,7 @@
     "url": "https://www.naka-lab.jp/events/4227ab33-4f6e-4373-b64a-f04c78f4aa47",
     "official_url": "https://www.naka-lab.jp/events/4227ab33-4f6e-4373-b64a-f04c78f4aa47",
     "source": "https://www.naka-lab.jp/events/4227ab33-4f6e-4373-b64a-f04c78f4aa47",
-    "image": null,
+    "image": "https://static.wixstatic.com/media/09a241_9869603069a24ffba3dd7074b6615f73~mv2.png/v1/fill/w_1414,h_2000,al_c/LUMINA%20STUDIO%E7%AC%AC%E4%BA%8C%E5%9B%9E%E3%81%8A%E6%8A%AB%E9%9C%B2%E7%9B%AE%E4%BC%9A%E3%80%9C%E3%83%94%E3%82%A2%E3%83%8E%E3%83%BB%E3%83%90%E3%83%AC%E3%82%A8%E3%83%BB%E3%83%9F%E3%83%A5%E3%83%BC%E3%82%B8%E3%82%AB%E3%83%AB%E3%80%9C.png",
     "period": "11/28",
     "date_start": "2026-11-28",
     "date_end": "2026-11-28",
@@ -21,30 +21,30 @@
       "親子"
     ],
     "family_fit": {
-      "rubric_version": "family-fit-v2",
       "grade": "B",
       "overall": "B",
-      "reason": "芸術活動を家族で応援",
+      "rubric_version": "family-fit-v2",
+      "reason": "同世代のピアノ・バレエ・ミュージカルを親子で鑑賞し、表現への関心を広げられる無料公演。 出演者が子どもというだけで参加者向け体験とは判断しない。事前予約制で、前年満席を今年の満席とは扱わない。",
       "axes": {
         "child_target": {
           "grade": "B",
-          "reason": "子どもの舞台が主役"
+          "reason": "一般の対象・年齢上の参加資格・子どもの出展と、来場する子ども専用の企画を区別する。 同世代のピアノ・バレエ・ミュージカルを親子で鑑賞し、表現への関心を広げられる無料公演。"
         },
         "interactivity": {
-          "grade": "C",
-          "reason": "鑑賞主体で体験はなし"
+          "grade": "B",
+          "reason": "同世代のピアノ・バレエ・ミュージカルを親子で鑑賞し、表現への関心を広げられる無料公演。"
         },
         "age_fit": {
           "grade": "B",
-          "reason": "未就学児同伴は主催者条件確認"
+          "reason": "同世代のピアノ・バレエ・ミュージカルを親子で鑑賞し、表現への関心を広げられる無料公演。 出演者が子どもというだけで参加者向け体験とは判断しない。事前予約制で、前年満席を今年の満席とは扱わない。"
         },
         "stay_flexibility": {
           "grade": "B",
-          "reason": "午前午後の公演別"
+          "reason": "実施時刻・順路や時間枠に合わせる参加形式。予約制だけで途中退出不可とは判断しない。 出演者が子どもというだけで参加者向け体験とは判断しない。事前予約制で、前年満席を今年の満席とは扱わない。"
         },
         "burden": {
-          "grade": "B",
-          "reason": "屋内だが座席満席に注意"
+          "grade": "unknown",
+          "reason": "混雑・待ち時間・休憩や安全設備についての具体的根拠はなく、未記載を低負担とは判断しない。"
         },
         "cost": {
           "grade": "A",
@@ -52,12 +52,47 @@
         },
         "reservation": {
           "grade": "B",
-          "reason": "事前申込・満席に注意"
+          "reason": "事前予約制。主催者公式LINEまたはInstagramのDMから申込。前年度満席のため残席要確認。 出演者が子どもというだけで参加者向け体験とは判断しない。事前予約制で、前年満席を今年の満席とは扱わない。"
         },
         "family_value": {
           "grade": "B",
-          "reason": "芸術活動を家族で応援"
+          "reason": "同世代のピアノ・バレエ・ミュージカルを親子で鑑賞し、表現への関心を広げられる無料公演。 出演者が子どもというだけで参加者向け体験とは判断しない。事前予約制で、前年満席を今年の満席とは扱わない。"
         }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-14",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "performers_are_children",
+        "child_activity_confirmed": false,
+        "strengths": [
+          "同世代のピアノ・バレエ・ミュージカルを親子で鑑賞し、表現への関心を広げられる無料公演。"
+        ],
+        "limitations": [
+          "出演者が子どもというだけで参加者向け体験とは判断しない。事前予約制で、前年満席を今年の満席とは扱わない。"
+        ],
+        "grade_comparison": "総合B：同世代のピアノ・バレエ・ミュージカルを親子で鑑賞し、表現への関心を広げられる無料公演。 出演者が子どもというだけで参加者向け体験とは判断しない。事前予約制で、前年満席を今年の満席とは扱わない。",
+        "unsupported_axes": [
+          "burden"
+        ],
+        "evidence": [
+          {
+            "url": "https://www.naka-lab.jp/events/4227ab33-4f6e-4373-b64a-f04c78f4aa47",
+            "quote": "ちの未来\u0000へとつながる“小さな夢のはじまり”になればと願っています🌱✨ 🎹🩰🎤 ピアノ・バレエ・ミュージカルのステージ 午前11時からは「ピアノの部」、午後15時からは「バレエ・ミュージカルの部」を予定しています。 バレエ・ミュージカルでは、『アニー』『星の王子さま』『メリー・ポピンズ』『チキ・チキ・バン・バン』など、子どもから大人まで親しみやすい作品の楽曲を取り入れたステージをお届けします✨ LUMINA STUDIOに通っていないご家族もご観覧いただけます。 「ミュージカルってどんなことをするの？」 「子どもにバレエを習わせてみたい」 「ピアノや舞台に興味がある」 「LUMINA STUDIOはどんな雰囲気なんだろう？」 そんなご家族にも、実際の子どもたちの姿やスタジオの雰囲気を知っていただける機会です☺️ 子どもたちが一生懸命練習を重ね、仲間と一緒につくり上げる、たった一度の舞台。 ぜひ会場で、子どもたちの「夢がはじまる瞬間」を見届けてください🌟 ━━━━━━━━━━━━━━ LUMINA STUDIO 第2回お披露目会 「Where Dreams Begin ― 夢がはじまる場所 ―」 📅 開催日 2026年11月28日（土） 📍 会場 野方区民ホール 🎹 午前｜ピアノの部 🩰🎤 午後｜バレエ・ミュージカルの部 🎟 事前予約制・入場無料 ※親子・ご家族でのご観覧を対象としております。 【観覧のお申し込み】 LUMINA STUDIO公式InstagramのDM、またはLINEよりお申し込みください。 公式LINE https://lin.ee/ZaDfqef Instagram https://www.instagram.com/lumina_s_tudio/ Clair Wind Symphony the 6th concert（クレールウィンドシンフォニー 第6回定期演奏会） ​ 2026年11月14日(土) なかのZERO ⚫︎ ​施設名 ⚫︎ ​施設名 ⚫︎ ​施設名 ⚫︎ ​施設名 ⚫︎ Clair Wind Symphony the 6th concert（クレールウィンドシンフォニー 第6回定期演奏会） 上智大学グリークラブ 第77回 定期演奏会 ​ 2026年11月14日(土) なかのZERO ⚫︎ ​施設名 ⚫︎ ​施設名 ⚫︎ ​施設名 ⚫︎ ​施設名 ⚫︎ 上智大学グリークラブ 第77回 定期演奏会 ロックウィズユーの集い ​ 2026年11月14日(土) なかの芸能小劇場 ⚫︎ ​施設名 ⚫︎ ​施設名 ⚫︎ ​施設名 ⚫︎ ​施設名 ⚫︎ ロックウィズユーの集い 関連するイベント・講座 イベント一覧を見る bottom of page",
+            "checked_at": "2026-11-14T16:52:48+09:00",
+            "sha256": "6fb7c695a3b1d1b8ae793bde76855981262a015ee7e868bffb5204683575d77c"
+          }
+        ]
       }
     },
     "reservation": {
@@ -78,7 +113,7 @@
     "url": "https://www.keepallsmiles.com/komichi2026",
     "official_url": "https://www.keepallsmiles.com/komichi2026",
     "source": "https://www.keepallsmiles.com/komichi2026",
-    "image": null,
+    "image": "https://static.wixstatic.com/media/092767_8bd5b3828a494cc4bfc72a3e877c8861~mv2.jpg/v1/fill/w_2500,h_3507,al_c/092767_8bd5b3828a494cc4bfc72a3e877c8861~mv2.jpg",
     "period": "10/1〜11/30",
     "date_start": "2026-10-01",
     "date_end": "2026-11-30",
@@ -92,43 +127,76 @@
       "親子"
     ],
     "family_fit": {
-      "rubric_version": "family-fit-v2",
       "grade": "A",
       "overall": "A",
-      "reason": "街と歴史の学び",
+      "rubric_version": "family-fit-v2",
+      "reason": "商店街の謎を親子で相談して解き、歩きながら日本橋の街を発見できる無料ラリー。 90〜120分が目安で読み解き・歩行の負担はある。幼児は保護者の手助けが必要で、買い物券は数量限定。",
       "axes": {
         "child_target": {
-          "grade": "A",
-          "reason": "家族参加歓迎の謎解き"
+          "grade": "B",
+          "reason": "一般の対象・年齢上の参加資格・子どもの出展と、来場する子ども専用の企画を区別する。 商店街の謎を親子で相談して解き、歩きながら日本橋の街を発見できる無料ラリー。"
         },
         "interactivity": {
           "grade": "A",
-          "reason": "謎を解きながら街を探索"
+          "reason": "商店街の謎を親子で相談して解き、歩きながら日本橋の街を発見できる無料ラリー。"
         },
         "age_fit": {
-          "grade": "A",
-          "reason": "小さな子どもは大人の補助が必要"
+          "grade": "B",
+          "reason": "商店街の謎を親子で相談して解き、歩きながら日本橋の街を発見できる無料ラリー。 90〜120分が目安で読み解き・歩行の負担はある。幼児は保護者の手助けが必要で、買い物券は数量限定。"
         },
         "stay_flexibility": {
-          "grade": "B",
-          "reason": "90〜120分で途中休憩可"
+          "grade": "A",
+          "reason": "展示・複数の活動や立ち寄る範囲を家族で選びやすい形式。 90〜120分が目安で読み解き・歩行の負担はある。幼児は保護者の手助けが必要で、買い物券は数量限定。"
         },
         "burden": {
           "grade": "B",
-          "reason": "長めの徒歩移動・天候"
+          "reason": "90〜120分が目安で読み解き・歩行の負担はある。幼児は保護者の手助けが必要で、買い物券は数量限定。"
         },
         "cost": {
           "grade": "A",
-          "reason": "無料"
+          "reason": "参加無料（先着の買い物券は配布条件あり）"
         },
         "reservation": {
           "grade": "A",
-          "reason": "予約不要・先着配布"
+          "reason": "予約不要。日本橋案内所で謎解き用紙を受け取る。 90〜120分が目安で読み解き・歩行の負担はある。幼児は保護者の手助けが必要で、買い物券は数量限定。"
         },
         "family_value": {
           "grade": "A",
-          "reason": "街と歴史の学び"
+          "reason": "商店街の謎を親子で相談して解き、歩きながら日本橋の街を発見できる無料ラリー。 90〜120分が目安で読み解き・歩行の負担はある。幼児は保護者の手助けが必要で、買い物券は数量限定。"
         }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-14",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "all_ages",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "商店街の謎を親子で相談して解き、歩きながら日本橋の街を発見できる無料ラリー。"
+        ],
+        "limitations": [
+          "90〜120分が目安で読み解き・歩行の負担はある。幼児は保護者の手助けが必要で、買い物券は数量限定。"
+        ],
+        "grade_comparison": "総合A：商店街の謎を親子で相談して解き、歩きながら日本橋の街を発見できる無料ラリー。 90〜120分が目安で読み解き・歩行の負担はある。幼児は保護者の手助けが必要で、買い物券は数量限定。",
+        "unsupported_axes": [],
+        "evidence": [
+          {
+            "url": "https://www.keepallsmiles.com/komichi2026",
+            "quote": "深みへ ​ ​ 参加費 無料 ​さらに200円のお買い物券付き‼️ 開催期間 2026年 10月1日〜11月30日 ​ 参加方法 日本橋案内所にお越しください （コレド室町地下） ​予約不要です 当サイト下部に案内があります ​ おしらせ 先着5000名に 200円お買物券 プレゼント（利用期限2027年1月末） ​ イベント内容 日本橋北詰商店会のエリアを巡る謎解きイベントです。所要時間90分～120分程度。近隣にはカフェやレストランをはじめショッピング施設も充実。謎解きをしながら日本橋の魅力に触れる事ができるイベントになっております。是非、カップルで、ご家族で、お友達と、おひとり様でもご参加をお待ちしております。 ​ ​ ​ ​ ​ ​日本橋案内所はコレド室町１の地下、地下鉄銀座線の三越前駅改札の近くにあります。 日本橋案内所の受付で「ぶらり謎歩き2026」LINE画面を見せるか「日本橋北詰商店会の謎解きをお願いします」とご希望をお伝えください。 ​ ※200円お買物券付きA4マップは日本橋案内所のみで配布しています。LINE画面のクーポンは日本橋案内所スタッフに提示するためのものです。 ​ ・謎解き用紙A3中折り ・200円券付きA4マップ ​ ２点を受け取ったら注意事項を読んでスタートしてください。 ​ ​ ​ 主催 日本橋北詰商店会 ​ 制作 株式会社オールスマイルズ 謎：けーおん ​デザイン：山口タカシ ​ ​ ​ ​ お問い合わせ 03-6873-5772 （サニサニーピクニック） bottom of page",
+            "checked_at": "2026-11-14T16:52:41+09:00",
+            "sha256": "ba7a87f3b02ab81cdbff7294695ee0aa903dbae25b30343c48d6661c0c120cb3"
+          }
+        ]
       }
     },
     "reservation": {
@@ -149,7 +217,7 @@
     "url": "https://www.o-2.jp/en/event/hasmhicity2026/",
     "official_url": "https://www.o-2.jp/en/event/hasmhicity2026/",
     "source": "https://www.o-2.jp/en/event/hasmhicity2026/",
-    "image": null,
+    "image": "https://www.o-2.jp/ota2022/wp-content/uploads/2026/09/HASM2026-scaled.jpg",
     "period": "9/5〜11/29",
     "date_start": "2026-09-05",
     "date_end": "2026-11-29",
@@ -164,43 +232,79 @@
       "博物館"
     ],
     "family_fit": {
+      "grade": "B",
+      "overall": "B",
       "rubric_version": "family-fit-v2",
-      "grade": "A",
-      "overall": "A",
-      "reason": "航空の歴史と模型に触れる",
+      "reason": "航空写真や資料を見比べ、飛行機好きの親子が羽田空港の歴史を学べる。 展示本体と特定日の工作・関連催事は別。普段の観覧で必ず実技体験できるとは判断しない。",
       "axes": {
         "child_target": {
-          "grade": "A",
-          "reason": "飛行機好きの子どもと家族向け"
+          "grade": "B",
+          "reason": "一般の対象・年齢上の参加資格・子どもの出展と、来場する子ども専用の企画を区別する。 航空写真や資料を見比べ、飛行機好きの親子が羽田空港の歴史を学べる。"
         },
         "interactivity": {
-          "grade": "A",
-          "reason": "航空資料の見学と関連催事"
+          "grade": "B",
+          "reason": "航空写真や資料を見比べ、飛行機好きの親子が羽田空港の歴史を学べる。"
         },
         "age_fit": {
           "grade": "B",
-          "reason": "幼児も見学可能・工作は年齢制限"
+          "reason": "航空写真や資料を見比べ、飛行機好きの親子が羽田空港の歴史を学べる。 展示本体と特定日の工作・関連催事は別。普段の観覧で必ず実技体験できるとは判断しない。"
         },
         "stay_flexibility": {
           "grade": "B",
-          "reason": "展示を自由に回れる"
+          "reason": "実施時刻・順路や時間枠に合わせる参加形式。予約制だけで途中退出不可とは判断しない。 展示本体と特定日の工作・関連催事は別。普段の観覧で必ず実技体験できるとは判断しない。"
         },
         "burden": {
-          "grade": "B",
-          "reason": "施設休館・関連プログラムに注意"
+          "grade": "unknown",
+          "reason": "混雑・待ち時間・休憩や安全設備についての具体的根拠はなく、未記載を低負担とは判断しない。"
         },
         "cost": {
-          "grade": "A",
-          "reason": "展示は無料、一部体験は条件別"
+          "grade": "B",
+          "reason": "展示入場無料でも一部関連体験は別条件。"
         },
         "reservation": {
           "grade": "unknown",
-          "reason": "工作など個別予約が必要"
+          "reason": "展示観覧は原則自由。ラジオ工作など一部関連プログラムは予約制。 展示本体と特定日の工作・関連催事は別。普段の観覧で必ず実技体験できるとは判断しない。"
         },
         "family_value": {
-          "grade": "A",
-          "reason": "航空の歴史と模型に触れる"
+          "grade": "B",
+          "reason": "航空写真や資料を見比べ、飛行機好きの親子が羽田空港の歴史を学べる。 展示本体と特定日の工作・関連催事は別。普段の観覧で必ず実技体験できるとは判断しない。"
         }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-14",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "all_ages",
+        "child_activity_confirmed": false,
+        "strengths": [
+          "航空写真や資料を見比べ、飛行機好きの親子が羽田空港の歴史を学べる。"
+        ],
+        "limitations": [
+          "展示本体と特定日の工作・関連催事は別。普段の観覧で必ず実技体験できるとは判断しない。"
+        ],
+        "grade_comparison": "総合B：航空写真や資料を見比べ、飛行機好きの親子が羽田空港の歴史を学べる。 展示本体と特定日の工作・関連催事は別。普段の観覧で必ず実技体験できるとは判断しない。",
+        "unsupported_axes": [
+          "burden",
+          "reservation"
+        ],
+        "evidence": [
+          {
+            "url": "https://www.o-2.jp/en/event/hasmhicity2026/",
+            "quote": " October 24th (Sat) 10:00-16:45, 25th (Sun) 10:00-15:00 First time at Haneda! \"Passenger Aircraft Plastic Model Festival in Haneda 26\" [Free Admission] ③ November 28th (Sat) and 29th (Sun), 11:00-16:00 \"2nd Haneda Airline Fan Meeting\" - Sale of aviation goods by individual artists, etc. Event Details http://hasm.or.jp/hasm/archives/15028 Organizer Non-profit organization Haneda Aerospace Science Museum Promotion Council (NPO HASM) For details, exhibition contents, and event inquiries, please contact us. CLICK HERE Return to Events list",
+            "checked_at": "2026-11-14T16:52:52+09:00",
+            "sha256": "822f01627f09da96affe0f863461d710e3e22e2fe6c81d59ac56dd10bc290f32"
+          }
+        ]
       }
     },
     "reservation": {

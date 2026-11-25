@@ -1,0 +1,298 @@
+[
+  {
+    "id": "verified-20261128-setagaya-komazawa-fantasia",
+    "ward": "世田谷区",
+    "name": "駒沢ファンタジア2026（駒沢オリンピック公園）",
+    "url": "https://www.tokyo-park.or.jp/event_search/komazawa_fantasia2026.html",
+    "official_url": "https://www.tokyo-park.or.jp/event_search/komazawa_fantasia2026.html",
+    "source": "https://www.tokyo-park.or.jp/event_search/komazawa_fantasia2026.html",
+    "image": "https://www.tokyo-park.or.jp/event_search/assets/komazawafantasia2026-8.jpg",
+    "period": "11/28(土)",
+    "date_start": "2026-11-28",
+    "date_end": "2026-11-28",
+    "time": "10:00〜16:00",
+    "venue": "駒沢オリンピック公園 中央広場（世田谷区駒沢1-1）",
+    "price": "参加費無料（ブース等の販売・体験には費用がかかる場合がある）",
+    "description": "駒沢オリンピック公園の開園日に合わせた毎年のイベント。周辺事業者のマルシェ、体験型ワークショップ、キッチンカー、ライブや読み聞かせなどのステージがある。日ごとに内容が一部異なる可能性があるため、詳細は公式ページで確認。",
+    "categories": [
+      "まつり・イベント",
+      "体験・ワークショップ"
+    ],
+    "indoor_outdoor": "屋外",
+    "reservation": {
+      "required": false,
+      "note": "「受付等はございません」と記載。小雨決行・荒天中止（前日12:00に公園HP・Xで告知）。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "公式ページに「小さい子から大人まで楽しめる」とあり、体験型ワークショップや読み聞かせのステージがある無料のイベント。ブースの体験は有料の場合がある。",
+      "axes": {
+        "child_target": {
+          "grade": "B",
+          "reason": "「小さい子から大人まで」と明記されるが、子ども専用の企画ではない"
+        },
+        "interactivity": {
+          "grade": "B",
+          "reason": "体験型ワークショップやステージがあるが、日ごとの内容は公式ページで要確認"
+        },
+        "age_fit": {
+          "grade": "B",
+          "reason": "対象は「小さい子から大人まで」で、年齢別の案内はない"
+        },
+        "stay_flexibility": {
+          "grade": "A",
+          "reason": "10:00〜16:00の間、好きなブースを選べる"
+        },
+        "burden": {
+          "grade": "B",
+          "reason": "屋外で小雨決行・荒天中止。駐車場の案内はない"
+        },
+        "cost": {
+          "grade": "B",
+          "reason": "参加費無料だが、ブースの体験や販売は有料の場合がある"
+        },
+        "reservation": {
+          "grade": "A",
+          "reason": "受付等なし。当日そのまま参加できる"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "マルシェ・ワークショップ・読み聞かせを家族で無料で楽しめる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-21",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "all_ages",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "参加費無料で、小さな子から大人まで楽しめると明記",
+          "体験型ワークショップや読み聞かせのステージがある"
+        ],
+        "limitations": [
+          "ブースの体験・販売は有料の場合がある",
+          "日ごとの内容が一部異なる可能性があり、公式ページで要確認"
+        ],
+        "grade_comparison": "総合B：11/28(土)は無料で入れて小さい子から楽しめるが、子ども専用ではなく、ブースの体験は有料の場合がある。",
+        "unsupported_axes": [],
+        "evidence": [
+          {
+            "url": "https://www.tokyo-park.or.jp/event_search/komazawa_fantasia2026.html",
+            "quote": "■日程： 2026 年 11 月 28 日（土）・ 11 月 29 日（日） 10:00 ～ 16:00",
+            "checked_at": "2026-11-21",
+            "sha256": "f6312e37a8d71cc79ba95b7bd9b2f91b44413a320ba2d576e3d828ed515eb4d3",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.tokyo-park.or.jp/event_search/komazawa_fantasia2026.html",
+            "quote": "■ 場所：駒沢オリンピック公園（世田谷区駒沢 1-1 ）内 中央広場",
+            "checked_at": "2026-11-21",
+            "sha256": "36756c823222d7a658e17ef4bfc4bc29f674181edf8f57b3273efd4919783556",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.tokyo-park.or.jp/event_search/komazawa_fantasia2026.html",
+            "quote": "■ 対象：小さい子から大人まで楽しめるコンテンツを多数用意しているイベントです！",
+            "checked_at": "2026-11-21",
+            "sha256": "196b62952d8edc5830d713ff4bbc35f46b30610db7e9e85c964e74a7c2b2bcee",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.tokyo-park.or.jp/event_search/komazawa_fantasia2026.html",
+            "quote": "■ 参加費：無料（ ブース等の販売・体験にはお金がかかる場合がございます。）",
+            "checked_at": "2026-11-21",
+            "sha256": "d2ba977b7c0d5c2c31fb5e11776df8beeebd30225ba19d274b7eaa1b4c3e5fed",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.tokyo-park.or.jp/event_search/komazawa_fantasia2026.html",
+            "quote": "〇ステージ ライブや読み聞かせ、ステージパフォーマンスで一緒に会場を沸かせよう！",
+            "checked_at": "2026-11-21",
+            "sha256": "8d0f8980268857a88a763b218db05afbc41af86d4410fb759f622a2e1a4a2f11",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.tokyo-park.or.jp/event_search/komazawa_fantasia2026.html",
+            "quote": "〇地域連携ブース 体験型ワークショップや展示・植物の販売などのコンテンツが盛りだくさん！",
+            "checked_at": "2026-11-21",
+            "sha256": "94496422c214f5c77e106126e1246c75c5aae6ed93f609398e4f270b27629848",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-21",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  },
+  {
+    "id": "verified-20261129-setagaya-komazawa-fantasia",
+    "ward": "世田谷区",
+    "name": "駒沢ファンタジア2026（駒沢オリンピック公園）",
+    "url": "https://www.tokyo-park.or.jp/event_search/komazawa_fantasia2026.html",
+    "official_url": "https://www.tokyo-park.or.jp/event_search/komazawa_fantasia2026.html",
+    "source": "https://www.tokyo-park.or.jp/event_search/komazawa_fantasia2026.html",
+    "image": "https://www.tokyo-park.or.jp/event_search/assets/komazawafantasia2026-8.jpg",
+    "period": "11/29(日)",
+    "date_start": "2026-11-29",
+    "date_end": "2026-11-29",
+    "time": "10:00〜16:00",
+    "venue": "駒沢オリンピック公園 中央広場（世田谷区駒沢1-1）",
+    "price": "参加費無料（ブース等の販売・体験には費用がかかる場合がある）",
+    "description": "駒沢オリンピック公園の開園日に合わせた毎年のイベント。周辺事業者のマルシェ、体験型ワークショップ、キッチンカー、ライブや読み聞かせなどのステージがある。日ごとに内容が一部異なる可能性があるため、詳細は公式ページで確認。",
+    "categories": [
+      "まつり・イベント",
+      "体験・ワークショップ"
+    ],
+    "indoor_outdoor": "屋外",
+    "reservation": {
+      "required": false,
+      "note": "「受付等はございません」と記載。小雨決行・荒天中止（前日12:00に公園HP・Xで告知）。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "公式ページに「小さい子から大人まで楽しめる」とあり、体験型ワークショップや読み聞かせのステージがある無料のイベント。ブースの体験は有料の場合がある。",
+      "axes": {
+        "child_target": {
+          "grade": "B",
+          "reason": "「小さい子から大人まで」と明記されるが、子ども専用の企画ではない"
+        },
+        "interactivity": {
+          "grade": "B",
+          "reason": "体験型ワークショップやステージがあるが、日ごとの内容は公式ページで要確認"
+        },
+        "age_fit": {
+          "grade": "B",
+          "reason": "対象は「小さい子から大人まで」で、年齢別の案内はない"
+        },
+        "stay_flexibility": {
+          "grade": "A",
+          "reason": "10:00〜16:00の間、好きなブースを選べる"
+        },
+        "burden": {
+          "grade": "B",
+          "reason": "屋外で小雨決行・荒天中止。駐車場の案内はない"
+        },
+        "cost": {
+          "grade": "B",
+          "reason": "参加費無料だが、ブースの体験や販売は有料の場合がある"
+        },
+        "reservation": {
+          "grade": "A",
+          "reason": "受付等なし。当日そのまま参加できる"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "マルシェ・ワークショップ・読み聞かせを家族で無料で楽しめる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-21",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "all_ages",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "参加費無料で、小さな子から大人まで楽しめると明記",
+          "体験型ワークショップや読み聞かせのステージがある"
+        ],
+        "limitations": [
+          "ブースの体験・販売は有料の場合がある",
+          "日ごとの内容が一部異なる可能性があり、公式ページで要確認"
+        ],
+        "grade_comparison": "総合B：11/29(日)は無料で入れて小さい子から楽しめるが、子ども専用ではなく、ブースの体験は有料の場合がある。",
+        "unsupported_axes": [],
+        "evidence": [
+          {
+            "url": "https://www.tokyo-park.or.jp/event_search/komazawa_fantasia2026.html",
+            "quote": "■日程： 2026 年 11 月 28 日（土）・ 11 月 29 日（日） 10:00 ～ 16:00",
+            "checked_at": "2026-11-21",
+            "sha256": "f6312e37a8d71cc79ba95b7bd9b2f91b44413a320ba2d576e3d828ed515eb4d3",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.tokyo-park.or.jp/event_search/komazawa_fantasia2026.html",
+            "quote": "■ 場所：駒沢オリンピック公園（世田谷区駒沢 1-1 ）内 中央広場",
+            "checked_at": "2026-11-21",
+            "sha256": "36756c823222d7a658e17ef4bfc4bc29f674181edf8f57b3273efd4919783556",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.tokyo-park.or.jp/event_search/komazawa_fantasia2026.html",
+            "quote": "■ 対象：小さい子から大人まで楽しめるコンテンツを多数用意しているイベントです！",
+            "checked_at": "2026-11-21",
+            "sha256": "196b62952d8edc5830d713ff4bbc35f46b30610db7e9e85c964e74a7c2b2bcee",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.tokyo-park.or.jp/event_search/komazawa_fantasia2026.html",
+            "quote": "■ 参加費：無料（ ブース等の販売・体験にはお金がかかる場合がございます。）",
+            "checked_at": "2026-11-21",
+            "sha256": "d2ba977b7c0d5c2c31fb5e11776df8beeebd30225ba19d274b7eaa1b4c3e5fed",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.tokyo-park.or.jp/event_search/komazawa_fantasia2026.html",
+            "quote": "〇ステージ ライブや読み聞かせ、ステージパフォーマンスで一緒に会場を沸かせよう！",
+            "checked_at": "2026-11-21",
+            "sha256": "8d0f8980268857a88a763b218db05afbc41af86d4410fb759f622a2e1a4a2f11",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.tokyo-park.or.jp/event_search/komazawa_fantasia2026.html",
+            "quote": "〇地域連携ブース 体験型ワークショップや展示・植物の販売などのコンテンツが盛りだくさん！",
+            "checked_at": "2026-11-21",
+            "sha256": "94496422c214f5c77e106126e1246c75c5aae6ed93f609398e4f270b27629848",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-21",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  }
+]

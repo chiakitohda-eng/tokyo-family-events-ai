@@ -1,0 +1,348 @@
+[
+  {
+    "id": "reviewed-20261122-nakano-162568",
+    "ward": "中野区",
+    "name": "まごころマルシェ",
+    "url": "https://www.city.tokyo-nakano.lg.jp/kosodate/wakamonoshien/magokoromarche.html",
+    "official_url": "https://www.city.tokyo-nakano.lg.jp/kosodate/wakamonoshien/magokoromarche.html",
+    "source": "https://pc.tamemap.net/1311401/event/162568/2026-11-22?locale=ja",
+    "image": "https://pc.tamemap.net/tamemapapi/detail/f0fb315a-6fe7-4c82-8585-1aa752d5224e.jpg",
+    "period": "11/22(日)",
+    "date_start": "2026-11-22",
+    "date_end": "2026-11-22",
+    "time": "13:00〜16:00",
+    "venue": "中野区子ども・若者支援センター4階 まごころドーナッツ（中野区中央1-41-2）",
+    "price": "入場無料（販売品等は別途）",
+    "description": "プラバンやZINEの工作、レトロゲーム、似顔絵、焼き菓子・雑貨の販売など。普段の施設利用対象と異なり、誰でも来場でき、予約不要・出入り自由。",
+    "categories": [
+      "工作",
+      "マルシェ",
+      "遊び"
+    ],
+    "family_fit": {
+      "grade": "A",
+      "overall": "A",
+      "rubric_version": "family-fit-v2",
+      "reason": "プラバン・ZINE・ゲーム・似顔絵など複数の体験を、予約不要・出入り自由で選べる。 通常の施設利用者の条件と今回の来場条件は異なる。販売や個別体験の費用は別途確認する。",
+      "axes": {
+        "child_target": {
+          "grade": "B",
+          "reason": "一般にも開かれる対象で、子ども専用という根拠にはしない。 通常の施設利用者の条件と今回の来場条件は異なる。販売や個別体験の費用は別途確認する。"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "プラバン・ZINE・ゲーム・似顔絵など複数の体験を、予約不要・出入り自由で選べる。"
+        },
+        "age_fit": {
+          "grade": "B",
+          "reason": "通常の施設利用者の条件と今回の来場条件は異なる。販売や個別体験の費用は別途確認する。"
+        },
+        "stay_flexibility": {
+          "grade": "A",
+          "reason": "入退場・活動の選択が自由な旨の主催者案内があり、家族で参加範囲を調整できる。"
+        },
+        "burden": {
+          "grade": "unknown",
+          "reason": "この企画の混雑・待ち時間・休憩設備についての明記はなく、駅からの近さや会場確認だけで負担が小さいとは判断しない。"
+        },
+        "cost": {
+          "grade": "A",
+          "reason": "区または主催者投稿に無料・入場無料の記載あり。飲食や販売品等は別途確認。"
+        },
+        "reservation": {
+          "grade": "A",
+          "reason": "対象として掲載する催しは当日参加可能または申込不要。"
+        },
+        "family_value": {
+          "grade": "A",
+          "reason": "プラバン・ZINE・ゲーム・似顔絵など複数の体験を、予約不要・出入り自由で選べる。"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-14",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "all_ages",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "プラバン・ZINE・ゲーム・似顔絵など複数の体験を、予約不要・出入り自由で選べる。"
+        ],
+        "limitations": [
+          "通常の施設利用者の条件と今回の来場条件は異なる。販売や個別体験の費用は別途確認する。"
+        ],
+        "grade_comparison": "総合A：プラバン・ZINE・ゲーム・似顔絵など複数の体験を、予約不要・出入り自由で選べる。 通常の施設利用者の条件と今回の来場条件は異なる。販売や個別体験の費用は別途確認する。",
+        "unsupported_axes": [
+          "burden"
+        ],
+        "evidence": [
+          {
+            "url": "https://www.city.tokyo-nakano.lg.jp/kosodate/wakamonoshien/magokoromarche.html",
+            "quote": " 「まごころマルシェ」を開催します! ページID: 577717930 更新日:2026年11月9日 印刷 中野若者会議「居場所」チームと中野区の若者フリースペース「まごころドーナッツ」がコラボ! 「つくる」「あそぶ」「しゃべる」「えらぶ」ができる、どなたでも自由に参加ができるマルシェを開催します! 中野の若者が自分たちで考え、作り上げたマルシェに、皆さん是非お越しください! 「まごころマルシェ」開催概要 日時 令和8年11月22日(日曜日)13時から16時まで 開催場所 中野区子ども・若者支援センター 4階 若者フリースペース「まごころドーナッツ」 (中野区中央1-41-2 みらいステップなかの内) ※中野坂上駅A1出口から徒歩2分 出展内容紹介 「つくる」 プラバンづくり ZINEワークショップ(中野若者会議「ZINE」チーム) 「あそぶ」 レトロゲーム クロスワード体験「漢字畑」 似顔絵コーナー 「しゃべる」 現役大学生としゃべる会 「えらぶ」 福祉施設の方々が手掛けた焼き菓子や雑貨など 参加要件 普段の若者フリースペースと違い、 どなたでも来場可能です! 予約不要、出入り自由、入場無料ですので、普段まごころドーナッツに来たことがない方、興味がある方も、是非いらしてください! 開催チラシ 「まごころマルシェ」チラシ(PDF形式:1,764KB) 「まごころマルシェ」関連リンク 中野若者会議 若者フリースペース「まごころドーナッツ」 PDF形式のファイルを開くには、Adobe Acrobat Readerが必要です。 お持ちでない方は、Adobe社から無償でダウンロードできます。 お問い合わせ このページは 子ども教育部 子ども・若者支援課 が担当しています。 本文ここまで サブナビゲーションここから 情報が見つからないときは サブナビゲーションここまで PC版を表示する スマートフォン版を表示する",
+            "checked_at": "2026-11-14T13:26:52+09:00",
+            "sha256": "6a9dd8a4a728b7bc4fc3ac560b980fc2c70dc3e96053a7e9509e438ecccdc0fb"
+          }
+        ]
+      }
+    },
+    "reservation": {
+      "required": false,
+      "note": "当日参加可能。最新の開催・参加条件は主催者案内を確認。"
+    },
+    "indoor_outdoor": "屋内",
+    "ai": {
+      "checked_at": "2026-11-13",
+      "confidence": "high",
+      "discovery_query": "回収済みTamemap候補の個別確認。主催者投稿・区公式本文と既存6週の掲載ID/日時/会場を照合。"
+    },
+    "discovery_sources": [
+      {
+        "channel": "explicit",
+        "source_id": "tamemap_nakano",
+        "kind": "recovered_detail_review",
+        "url": "https://pc.tamemap.net/1311401/event/162568/2026-11-22"
+      }
+    ]
+  },
+  {
+    "id": "reviewed-20261122-nakano-163368",
+    "ward": "中野区",
+    "name": "南中野フェスティバル",
+    "url": "https://pc.tamemap.net/1311401/event/163368/2026-11-22?locale=ja",
+    "official_url": "https://pc.tamemap.net/1311401/event/163368/2026-11-22?locale=ja",
+    "source": "https://pc.tamemap.net/1311401/event/163368/2026-11-22?locale=ja",
+    "image": "https://pc.tamemap.net/tamemapapi/detail/fb2dc61b-766e-4ce0-bd21-8362a4f1815d.jpg",
+    "period": "11/22(日)",
+    "date_start": "2026-11-22",
+    "date_end": "2026-11-22",
+    "time": "",
+    "venue": "南中野区民活動センター（中野区弥生町5-5-2）",
+    "price": "無料",
+    "description": "南中野区民活動センター運営委員会が案内する、ファミリー・キッズ対象の催し。入場無料・当日参加可能。詳しい時間やプログラムは主催者の最新案内を確認。",
+    "categories": [
+      "祭り",
+      "地域交流"
+    ],
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "ファミリー・キッズを対象に、無料で当日参加できる地域フェスティバル。 具体的なプログラムが本文にないため、工作・遊び等を推測して体験性を高くしない。",
+      "axes": {
+        "child_target": {
+          "grade": "unknown",
+          "reason": "子どもを主対象とする明記は確認できない。 具体的なプログラムが本文にないため、工作・遊び等を推測して体験性を高くしない。"
+        },
+        "interactivity": {
+          "grade": "unknown",
+          "reason": "ファミリー・キッズを対象に、無料で当日参加できる地域フェスティバル。"
+        },
+        "age_fit": {
+          "grade": "unknown",
+          "reason": "具体的なプログラムが本文にないため、工作・遊び等を推測して体験性を高くしない。"
+        },
+        "stay_flexibility": {
+          "grade": "unknown",
+          "reason": "当日参加可能だが、途中入退場や滞在時間の明示はない。"
+        },
+        "burden": {
+          "grade": "unknown",
+          "reason": "この企画の混雑・待ち時間・休憩設備についての明記はなく、駅からの近さや会場確認だけで負担が小さいとは判断しない。"
+        },
+        "cost": {
+          "grade": "A",
+          "reason": "区または主催者投稿に無料・入場無料の記載あり。飲食や販売品等は別途確認。"
+        },
+        "reservation": {
+          "grade": "A",
+          "reason": "対象として掲載する催しは当日参加可能または申込不要。"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "ファミリー・キッズを対象に、無料で当日参加できる地域フェスティバル。"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-14",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "unspecified",
+        "child_activity_confirmed": false,
+        "strengths": [
+          "ファミリー・キッズを対象に、無料で当日参加できる地域フェスティバル。"
+        ],
+        "limitations": [
+          "具体的なプログラムが本文にないため、工作・遊び等を推測して体験性を高くしない。"
+        ],
+        "grade_comparison": "総合B：ファミリー・キッズを対象に、無料で当日参加できる地域フェスティバル。 具体的なプログラムが本文にないため、工作・遊び等を推測して体験性を高くしない。",
+        "unsupported_axes": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden"
+        ],
+        "evidence": [
+          {
+            "url": "https://pc.tamemap.net/1311401/event/163368/2026-11-22?locale=ja",
+            "quote": "南中野フェスティバル | 東京都中野区 | イベント 南中野フェスティバル - ためまっぷなかの ためまっぷなかの ためまっぷなかの ためまっぷなかの 言語を選択してください 日本語 English Português Tagalog イベントへのご参加ありがとうございました。よろしければイベントの評価をお願いいします イベントの評価をありがとうございました star_border star_border star_border star_border star_border キャンセル 決定 ▼ 南中野フェスティバル | イベント情報 戻る 11月22日 (日) 8日後 1/1 詳細情報 南中野フェスティバル calendar_month 開催日 11月22日 (日) edit_calendar カレンダーに追加 カレンダー登録 Googleカレンダー Yahoo!カレンダー Outlookカレンダー 開催地 経路 南中野区民活動センター 参加費 参加費 無料 参加形式 当日参加可能 主な対象 ファミリー・キッズ 地域 南部 テーマ 子育て 学び フェスタ・祭り 音楽・アート・エンタメ イベントに対する イメージ わくわく 投稿者 南中野区民活動センター運営委員会 投稿サイト ためまっぷなかの 近くのイベント 三療サービス(はり・灸・マッサージ) calendar_month 11月19日 (木) 5日後 500m以内 クリスマスピザトースト作り🍕 calendar_month 12月20日 (日) 500m以内 南台図書館 クリスマス会 calendar_month 12月19日 (土) 500m以内 全ての近くのイベントを見る 同日開催のイベント 【はじめてのキッズダンス】~みんなで楽しくリズムにのろう!~ calendar_month 11月22日 (日) 8日後 500m以内 【朝ヨガ】 calendar_month 11月22日 (日) 8日後 500m以内 本五ふれあい公園にお花を植えよう🌷ほんごcafeBloom calendar_month 11月22日 (日) 8日後 1.0km以内 全ての同日開催のイベントを見る 報告 報告する理由を以下から選ん",
+            "checked_at": "2026-11-14T13:25:25+09:00",
+            "sha256": "1f56492250887531aafea9a77dc60a66005359be49de32acb6a6c7c6d36be87e"
+          }
+        ]
+      }
+    },
+    "reservation": {
+      "required": false,
+      "note": "当日参加可能。最新の開催・参加条件は主催者案内を確認。"
+    },
+    "indoor_outdoor": "",
+    "ai": {
+      "checked_at": "2026-11-13",
+      "confidence": "high",
+      "discovery_query": "回収済みTamemap候補の個別確認。主催者投稿・区公式本文と既存6週の掲載ID/日時/会場を照合。"
+    },
+    "discovery_sources": [
+      {
+        "channel": "explicit",
+        "source_id": "tamemap_nakano",
+        "kind": "recovered_detail_review",
+        "url": "https://pc.tamemap.net/1311401/event/163368/2026-11-22"
+      }
+    ]
+  },
+  {
+    "id": "reviewed-20261122-nakano-161794",
+    "ward": "中野区",
+    "name": "CCC（Cleanup & Coffee Club）@沼袋",
+    "url": "https://pc.tamemap.net/1311401/event/161794/2026-11-22?locale=ja",
+    "official_url": "https://pc.tamemap.net/1311401/event/161794/2026-11-22?locale=ja",
+    "source": "https://pc.tamemap.net/1311401/event/161794/2026-11-22?locale=ja",
+    "image": "https://pc.tamemap.net/tamemapapi/detail/8d2a9f42-9dac-4a39-8545-9afe7ad592d1.jpeg",
+    "period": "11/22(日)",
+    "date_start": "2026-11-22",
+    "date_end": "2026-11-22",
+    "time": "8:30〜9:30",
+    "venue": "丸山塚公園入口集合（中野区沼袋2-40）",
+    "price": "無料",
+    "description": "ごみ拾いとコーヒーを通じて地域交流する活動。参加条件なし、当日参加可能。マイカップと軍手の持参に協力を（なくても主催者が用意）。",
+    "categories": [
+      "環境",
+      "地域交流",
+      "体験"
+    ],
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "1時間の地域清掃と交流を通じ、親子で身近な環境に関われる。 主な活動はごみ拾いで、保護者が子どもの作業と安全を見守る必要がある。コーヒーを子ども向け体験とは扱わない。",
+      "axes": {
+        "child_target": {
+          "grade": "B",
+          "reason": "一般にも開かれる対象で、子ども専用という根拠にはしない。 主な活動はごみ拾いで、保護者が子どもの作業と安全を見守る必要がある。コーヒーを子ども向け体験とは扱わない。"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "1時間の地域清掃と交流を通じ、親子で身近な環境に関われる。"
+        },
+        "age_fit": {
+          "grade": "B",
+          "reason": "主な活動はごみ拾いで、保護者が子どもの作業と安全を見守る必要がある。コーヒーを子ども向け体験とは扱わない。"
+        },
+        "stay_flexibility": {
+          "grade": "unknown",
+          "reason": "当日参加可能だが、途中入退場や滞在時間の明示はない。"
+        },
+        "burden": {
+          "grade": "unknown",
+          "reason": "この企画の混雑・待ち時間・休憩設備についての明記はなく、駅からの近さや会場確認だけで負担が小さいとは判断しない。"
+        },
+        "cost": {
+          "grade": "A",
+          "reason": "区または主催者投稿に無料・入場無料の記載あり。飲食や販売品等は別途確認。"
+        },
+        "reservation": {
+          "grade": "A",
+          "reason": "対象として掲載する催しは当日参加可能または申込不要。"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "1時間の地域清掃と交流を通じ、親子で身近な環境に関われる。"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-14",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "all_ages",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "1時間の地域清掃と交流を通じ、親子で身近な環境に関われる。"
+        ],
+        "limitations": [
+          "主な活動はごみ拾いで、保護者が子どもの作業と安全を見守る必要がある。コーヒーを子ども向け体験とは扱わない。"
+        ],
+        "grade_comparison": "総合B：1時間の地域清掃と交流を通じ、親子で身近な環境に関われる。 主な活動はごみ拾いで、保護者が子どもの作業と安全を見守る必要がある。コーヒーを子ども向け体験とは扱わない。",
+        "unsupported_axes": [
+          "stay_flexibility",
+          "burden"
+        ],
+        "evidence": [
+          {
+            "url": "https://pc.tamemap.net/1311401/event/161794/2026-11-22?locale=ja",
+            "quote": "CCC(Cleanup & Coffee Club)@沼袋 | 東京都中野区 | イベント CCC(Cleanup & Coffee Club)@沼袋 - ためまっぷなかの ためまっぷなかの ためまっぷなかの ためまっぷなかの 言語を選択してください 日本語 English Português Tagalog イベントへのご参加ありがとうございました。よろしければイベントの評価をお願いいします イベントの評価をありがとうございました star_border star_border star_border star_border star_border キャンセル 決定 ▼ CCC(Cleanup & Coffee Club)@沼袋 | イベント情報 戻る 11月22日 (日) 8日後 1/1 詳細情報 CCC(Cleanup & Coffee Club)@沼袋 CCC(Cleanup & Coffee Club)は、ごみ拾いとコーヒーを通じて地域に友達を作るストリートアクティビティで、池袋からはじまり今は全国各地で開催されています。 リノベーションスクール@中野沼袋のメンバー主催で第19,20,21回が開催予定です。 どなたでもぜひ、お気軽にご参加ください。 ‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐ ▼開催概要 ・日時 第19回:2026年10月31日(土)8時30分から9時30分まで 第20回:2026年11月22日(日)8時30分から9時30分まで 第21回:2026年12月20日(日)8時30分から9時30分まで ・集合場所 丸山塚公園入り口(中野区沼袋2-40) ・持ち物 マイカップと軍手のご協力をお願いいたします。 (お持ちでなくてもご用意しております。) ・参加条件 なし ※お問い合わせはインスタグラムまたはチラシに記載のメールよりお問い合わせください。 calendar_month 開催日 11月22日 (日) 他の開催日 edit_calendar カレンダーに追加 カレンダー登録 Googleカレンダー Yahoo!カレンダー Outlookカレンダー 開催地 経路 中野区立 丸山塚公園 参加費 参加費 無料 参加形式 当日参加可能 リンク link リンク",
+            "checked_at": "2026-11-14T13:24:53+09:00",
+            "sha256": "d8482abbe649e5f327e9bb0cc674e0443379c2d049b59f0b2bfea1780f054f36"
+          }
+        ]
+      }
+    },
+    "reservation": {
+      "required": false,
+      "note": "当日参加可能。最新の開催・参加条件は主催者案内を確認。"
+    },
+    "indoor_outdoor": "屋外",
+    "ai": {
+      "checked_at": "2026-11-13",
+      "confidence": "high",
+      "discovery_query": "回収済みTamemap候補の個別確認。主催者投稿・区公式本文と既存6週の掲載ID/日時/会場を照合。"
+    },
+    "discovery_sources": [
+      {
+        "channel": "explicit",
+        "source_id": "tamemap_nakano",
+        "kind": "recovered_detail_review",
+        "url": "https://pc.tamemap.net/1311401/event/161794/2026-11-22"
+      }
+    ]
+  }
+]

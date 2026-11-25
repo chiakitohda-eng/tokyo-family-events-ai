@@ -1,0 +1,136 @@
+[
+  {
+    "id": "verified-20261121-musashino-inokashira-zoo-stamp-rally-shinka-2026",
+    "ward": "武蔵野市",
+    "name": "秋のスタンプラリー「続・しんかのふしぎ」（井の頭自然文化園）",
+    "url": "https://www.tokyo-zoo.net/inokashira/news/13386/index.html",
+    "official_url": "https://www.tokyo-zoo.net/inokashira/news/13386/index.html",
+    "source": "https://www.tokyo-zoo.net/inokashira/news/13386/index.html",
+    "image": "https://www.tokyo-zoo.net/image/13386_01.jpg",
+    "period": "10/10(土)〜12/6(日)（開催中）",
+    "date_start": "2026-11-21",
+    "date_end": "2026-12-06",
+    "time": "9:30〜17:00（水生物館は16:45まで）",
+    "venue": "井の頭自然文化園 動物園（本園）・水生物園（分園）（武蔵野市御殿山1-17-6）",
+    "price": "公式ページに金額の明記なし（来園前に要確認）",
+    "description": "クイズを解きながら園内の生きものや植物12か所をめぐり、「進化の系統樹」を完成させるスタンプラリー。台紙は動物園正門先広場と水生物園の七井門先で配る。台紙は各日先着（平日150部・土日祝800部）。",
+    "categories": [
+      "体験・ワークショップ",
+      "公園・自然"
+    ],
+    "indoor_outdoor": "屋内・屋外",
+    "reservation": {
+      "required": false,
+      "note": "申込の記載なし。台紙は各日先着で配布し、なくなり次第終了。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "クイズを解きながら園内の生きものをめぐるスタンプラリー。年齢の限定はなく、子どもが楽しみやすい。台紙は各日先着で、料金は公式ページに金額の記載がない。",
+      "axes": {
+        "child_target": {
+          "grade": "B",
+          "reason": "年齢の限定はなく、子どもも参加しやすいクイズ形式"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "クイズを解きながらスタンプを集めて園内をめぐる"
+        },
+        "age_fit": {
+          "grade": "B",
+          "reason": "年齢の限定はない"
+        },
+        "stay_flexibility": {
+          "grade": "A",
+          "reason": "約2か月と長く、開園時間内で好きな時間に回れる"
+        },
+        "burden": {
+          "grade": "B",
+          "reason": "本園と分園の間は徒歩約5分で、屋外を歩く"
+        },
+        "cost": {
+          "grade": "unknown",
+          "reason": "公式ページに金額の記載がない"
+        },
+        "reservation": {
+          "grade": "A",
+          "reason": "申込の記載なし（台紙は先着配布）"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "動物を見ながら進化や生きもののことを学べる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-21",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "all_ages",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "約2か月と長く、好きな日に回れる",
+          "クイズで生きものについて学べる"
+        ],
+        "limitations": [
+          "台紙は各日先着で、なくなり次第終了",
+          "料金は公式ページに記載がなく、来園前の確認が必要"
+        ],
+        "grade_comparison": "総合B：動物園で楽しみながら学べるスタンプラリー。台紙は先着で、料金は要確認。",
+        "unsupported_axes": [
+          "cost"
+        ],
+        "evidence": [
+          {
+            "url": "https://www.tokyo-zoo.net/inokashira/news/13386/index.html",
+            "quote": "2026年10月10日（土）～12月6日（日）",
+            "checked_at": "2026-11-21",
+            "sha256": "e2977b751d4a422b0e3222e16409bbf37bdb95b89c8891296fbd74fcbb06ca71",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.tokyo-zoo.net/inokashira/news/13386/index.html",
+            "quote": "井の頭自然文化園・動物園（本園）正門先広場",
+            "checked_at": "2026-11-21",
+            "sha256": "8b3ff90e6ec87045ebc062e1f50d382879b80177287a382b7eaf1e2728b1e3a8",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.tokyo-zoo.net/inokashira/news/13386/index.html",
+            "quote": "クイズを解きながら園内の生きものや植物をめぐり、進化の系統樹を完成させましょう。",
+            "checked_at": "2026-11-21",
+            "sha256": "f20081f868acfa152ccaa259ec0b1365d53771055c45b4e1e9985ca172951983",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.tokyo-zoo.net/inokashira/news/13386/index.html",
+            "quote": "各日先着150部（平日）/800部（土日祝）",
+            "checked_at": "2026-11-21",
+            "sha256": "64a2b73979c665a3ace508c9f4ac0c0440821b03b581389c66e3cc53a20a3abd",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-21",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  }
+]

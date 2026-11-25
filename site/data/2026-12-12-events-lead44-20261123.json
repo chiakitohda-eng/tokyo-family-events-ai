@@ -1,0 +1,125 @@
+[
+  {
+    "id": "verified-20261212-shibuya-hachilabo-luminescence-chem-2026",
+    "ward": "渋谷区",
+    "name": "【ワークショップ】発光の化学（ハチラボ）",
+    "url": "https://shibu-cul.jp/event/53568#luminescence",
+    "official_url": "https://shibu-cul.jp/event/53568#luminescence",
+    "source": "https://shibu-cul.jp/event/53568#luminescence",
+    "image": "",
+    "period": "12/12(土)",
+    "date_start": "2026-12-12",
+    "date_end": "2026-12-12",
+    "time": "14:00〜16:00（120分）",
+    "venue": "こども科学センター・ハチラボ（渋谷区桜丘町23-21、渋谷区文化総合センター大和田3F）",
+    "price": "無料",
+    "description": "電気通信大学の先生が協力する、光る仕組みを学ぶ実験ワークショップ。小学5年生から中学生が対象で、無料。",
+    "categories": [
+      "科学・自然",
+      "体験・ワークショップ"
+    ],
+    "indoor_outdoor": "屋内",
+    "reservation": {
+      "required": true,
+      "note": "要申込（抽選）。受付は11/18 0:00〜11/25 23:59、当落連絡は11/28。申込はp-gakushu.jp/hachilabo。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "小5〜中学生向けの無料の化学実験。抽選で、受付は11/25まで。",
+      "axes": {
+        "child_target": {
+          "grade": "A",
+          "reason": "子ども向けの内容（公式ページに年齢の目安がある）"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "つくる・実験するなど体験ができる"
+        },
+        "age_fit": {
+          "grade": "C",
+          "reason": "小5〜中学生向け"
+        },
+        "stay_flexibility": {
+          "grade": "C",
+          "reason": "決まった日・回に合わせる必要がある"
+        },
+        "burden": {
+          "grade": "A",
+          "reason": "屋内で短時間。気軽に参加できる"
+        },
+        "cost": {
+          "grade": "A",
+          "reason": "無料"
+        },
+        "reservation": {
+          "grade": "C",
+          "reason": "事前申込（先着順または抽選）が必要"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "体験型で、家族の学びになる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-23",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "child_program",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "大学の先生が協力する本格的な実験",
+          "無料"
+        ],
+        "limitations": [
+          "小5〜中学生向けで、定員12名の抽選。受付は11/25 23:59まで"
+        ],
+        "grade_comparison": "総合B：高学年向けの無料実験。抽選で定員が少ない。",
+        "unsupported_axes": [],
+        "evidence": [
+          {
+            "url": "https://shibu-cul.jp/event/53568#luminescence",
+            "quote": "●開催日：12月12日（土）",
+            "checked_at": "2026-11-23",
+            "sha256": "d9c1ff251519e2feb1c2eef3cd6c480a370ef13ece87c86d339cd85533ea1c68",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-23にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://shibu-cul.jp/event/53568#luminescence",
+            "quote": "●推奨年齢：小5～中学生",
+            "checked_at": "2026-11-23",
+            "sha256": "c80403700ae6d76ef6182b179fb5c1d954c0c33c85993f12b5356182bc09222c",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-23にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://shibu-cul.jp/event/53568#luminescence",
+            "quote": "●募集期間：11月18日（水）0:00～11月25日（水）23:59＜抽選＞",
+            "checked_at": "2026-11-23",
+            "sha256": "614c32158a9128988d1ef8629a44e1d96cd3b895459045d5592fc629b12f8eee",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-23にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-23",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  }
+]

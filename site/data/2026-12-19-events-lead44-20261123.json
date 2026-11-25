@@ -1,0 +1,371 @@
+[
+  {
+    "id": "verified-20261219-shibuya-hachilabo-snowman-lamp-2026",
+    "ward": "渋谷区",
+    "name": "【ひらめきワークショップ】雪だるまランプ（ハチラボ）",
+    "url": "https://shibu-cul.jp/event/53568#snowman-lamp",
+    "official_url": "https://shibu-cul.jp/event/53568#snowman-lamp",
+    "source": "https://shibu-cul.jp/event/53568#snowman-lamp",
+    "image": "",
+    "period": "12/15(火)〜12/25(金)",
+    "date_start": "2026-12-15",
+    "date_end": "2026-12-25",
+    "time": "平日13:30・15:00／土日祝11:30・13:30・15:00（各回20分）",
+    "venue": "こども科学センター・ハチラボ（渋谷区桜丘町23-21、渋谷区文化総合センター大和田3F）",
+    "price": "無料",
+    "description": "約20分のミニワークショップで、雪だるまのランプをつくる。未就学児は保護者といっしょにつくれる。無料。",
+    "categories": [
+      "科学・自然",
+      "体験・ワークショップ"
+    ],
+    "indoor_outdoor": "屋内",
+    "reservation": {
+      "required": true,
+      "note": "要申込（先着順）。開催日の1週間前0:00から受付。申込はp-gakushu.jp/hachilabo。"
+    },
+    "family_fit": {
+      "grade": "A",
+      "overall": "A",
+      "rubric_version": "family-fit-v2",
+      "reason": "12/15〜25に開く、未就学児も保護者といっしょにつくれる雪だるまランプづくり。無料で約20分。",
+      "axes": {
+        "child_target": {
+          "grade": "A",
+          "reason": "子ども向けの内容（公式ページに年齢の目安がある）"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "つくる・実験するなど体験ができる"
+        },
+        "age_fit": {
+          "grade": "A",
+          "reason": "未就学児から参加できる"
+        },
+        "stay_flexibility": {
+          "grade": "B",
+          "reason": "日や時間帯を選べるが、回ごとの申込が必要"
+        },
+        "burden": {
+          "grade": "A",
+          "reason": "屋内で短時間。気軽に参加できる"
+        },
+        "cost": {
+          "grade": "A",
+          "reason": "無料"
+        },
+        "reservation": {
+          "grade": "C",
+          "reason": "事前申込（先着順または抽選）が必要"
+        },
+        "family_value": {
+          "grade": "A",
+          "reason": "子どもが楽しめる体験がある"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-23",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "child_program",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "未就学児も保護者といっしょにつくれる",
+          "クリスマス前の時期に、ランプを持ち帰れる"
+        ],
+        "limitations": [
+          "各回4名と少人数で、開催日の1週間前から先着順の申込が必要"
+        ],
+        "grade_comparison": "総合A：クリスマス前に開く、保護者といっしょにつくれる無料のランプ工作。先着順で少人数。",
+        "unsupported_axes": [],
+        "evidence": [
+          {
+            "url": "https://shibu-cul.jp/event/53568#snowman-lamp",
+            "quote": "●開催期間：12月15日（火）～12月25日（金）",
+            "checked_at": "2026-11-23",
+            "sha256": "8a8fd053dc2b5a4be6c4abec6e1e4dc3c1d159299494dc7ba683945b94486e07",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-23にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://shibu-cul.jp/event/53568#snowman-lamp",
+            "quote": "（小3以下は保護者同伴/未就学児は保護者と作成）",
+            "checked_at": "2026-11-23",
+            "sha256": "749eb5c01441f46da6f50aa0e42aed9b2aa6f3f287392ad8a67ed3348eb9fd67",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-23にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://shibu-cul.jp/event/53568#snowman-lamp",
+            "quote": "●申込：開催日の一週間前の0:00から先着順",
+            "checked_at": "2026-11-23",
+            "sha256": "a0aaff6a53e96d853bb1bd580d8b4a5113d06735876a2ac8255d2f65124ce487",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-23にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-23",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  },
+  {
+    "id": "verified-20261219-shibuya-hachilabo-artemis-moon-2026",
+    "ward": "渋谷区",
+    "name": "【ワークショップ】月へGO！アルテミス計画がえがく未来と月探査ミッションにチャレンジ！（ハチラボ）",
+    "url": "https://shibu-cul.jp/event/53568#artemis",
+    "official_url": "https://shibu-cul.jp/event/53568#artemis",
+    "source": "https://shibu-cul.jp/event/53568#artemis",
+    "image": "",
+    "period": "12/19(土)",
+    "date_start": "2026-12-19",
+    "date_end": "2026-12-19",
+    "time": "①10:30〜12:00 ②13:30〜15:00（各回90分）",
+    "venue": "こども科学センター・ハチラボ（渋谷区桜丘町23-21、渋谷区文化総合センター大和田3F）",
+    "price": "無料",
+    "description": "月探査をテーマに、ミッションに挑戦しながら学ぶ体験型ワークショップ。小学3年生から6年生が対象で、無料。",
+    "categories": [
+      "科学・自然",
+      "体験・ワークショップ"
+    ],
+    "indoor_outdoor": "屋内",
+    "reservation": {
+      "required": true,
+      "note": "要申込（抽選）。受付は11/25 0:00〜12/2 23:59、当落連絡は12/5。申込はp-gakushu.jp/hachilabo。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "小3〜小6向けの無料の月探査ミッション体験。抽選で、受付は11/25〜12/2。",
+      "axes": {
+        "child_target": {
+          "grade": "A",
+          "reason": "子ども向けの内容（公式ページに年齢の目安がある）"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "つくる・実験するなど体験ができる"
+        },
+        "age_fit": {
+          "grade": "B",
+          "reason": "小学生が対象"
+        },
+        "stay_flexibility": {
+          "grade": "C",
+          "reason": "決まった日・回に合わせる必要がある"
+        },
+        "burden": {
+          "grade": "A",
+          "reason": "屋内で短時間。気軽に参加できる"
+        },
+        "cost": {
+          "grade": "A",
+          "reason": "無料"
+        },
+        "reservation": {
+          "grade": "C",
+          "reason": "事前申込（先着順または抽選）が必要"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "体験型で、家族の学びになる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-23",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "child_program",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "月探査のミッションに挑戦する体験型",
+          "無料で、各回18名と比較的多め"
+        ],
+        "limitations": [
+          "小3〜小6向けの抽選。受付は11/25 0:00〜12/2 23:59"
+        ],
+        "grade_comparison": "総合B：小学生向けの無料の宇宙体験。抽選で申込が必要。",
+        "unsupported_axes": [],
+        "evidence": [
+          {
+            "url": "https://shibu-cul.jp/event/53568#artemis",
+            "quote": "●開催日：12月19日（土）",
+            "checked_at": "2026-11-23",
+            "sha256": "74a0f616d1dcf123938bd7f3e22af4a76f112c3d6488f8156caea19a8c829f2b",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-23にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://shibu-cul.jp/event/53568#artemis",
+            "quote": "●推奨年齢：小3～小6●定員：各回18名",
+            "checked_at": "2026-11-23",
+            "sha256": "8f67f53379bcc932e15549640887de6681a29e4d5b96d47176f9e116a4d75415",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-23にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://shibu-cul.jp/event/53568#artemis",
+            "quote": "●募集期間：11月25日（水）0:00～12月2日（水）23:59＜抽選＞",
+            "checked_at": "2026-11-23",
+            "sha256": "6446bb697878b103097f02429456f1a1fa4ab5e2080d73a2efe476428f677d1f",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-23にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-23",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  },
+  {
+    "id": "verified-20261220-shibuya-hachilabo-semiconductor-xmas-2026",
+    "ward": "渋谷区",
+    "name": "【ワークショップ】半導体のしくみを使った光るクリスマスオブジェづくり（ハチラボ）",
+    "url": "https://shibu-cul.jp/event/53568#semiconductor",
+    "official_url": "https://shibu-cul.jp/event/53568#semiconductor",
+    "source": "https://shibu-cul.jp/event/53568#semiconductor",
+    "image": "",
+    "period": "12/20(日)",
+    "date_start": "2026-12-20",
+    "date_end": "2026-12-20",
+    "time": "13:00〜15:00（120分）",
+    "venue": "こども科学センター・ハチラボ（渋谷区桜丘町23-21、渋谷区文化総合センター大和田3F）",
+    "price": "無料",
+    "description": "半導体のしくみを使って、光るクリスマスオブジェをつくる。小学5年生から中学生が対象で、無料。",
+    "categories": [
+      "科学・自然",
+      "体験・ワークショップ"
+    ],
+    "indoor_outdoor": "屋内",
+    "reservation": {
+      "required": true,
+      "note": "要申込（抽選）。受付は11/25 0:00〜12/2 23:59、当落連絡は12/5。申込はp-gakushu.jp/hachilabo。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "小5〜中学生向けの無料のものづくり。光るクリスマスオブジェをつくる。抽選。",
+      "axes": {
+        "child_target": {
+          "grade": "A",
+          "reason": "子ども向けの内容（公式ページに年齢の目安がある）"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "つくる・実験するなど体験ができる"
+        },
+        "age_fit": {
+          "grade": "C",
+          "reason": "小5〜中学生向け"
+        },
+        "stay_flexibility": {
+          "grade": "C",
+          "reason": "決まった日・回に合わせる必要がある"
+        },
+        "burden": {
+          "grade": "A",
+          "reason": "屋内で短時間。気軽に参加できる"
+        },
+        "cost": {
+          "grade": "A",
+          "reason": "無料"
+        },
+        "reservation": {
+          "grade": "C",
+          "reason": "事前申込（先着順または抽選）が必要"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "体験型で、家族の学びになる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-23",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "child_program",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "光るオブジェをつくって持ち帰れる",
+          "無料"
+        ],
+        "limitations": [
+          "小5〜中学生向けで、定員12名の抽選。受付は12/2 23:59まで"
+        ],
+        "grade_comparison": "総合B：高学年向けの無料ものづくり。抽選で定員が少ない。",
+        "unsupported_axes": [],
+        "evidence": [
+          {
+            "url": "https://shibu-cul.jp/event/53568#semiconductor",
+            "quote": "●開催日：12月20日（日）",
+            "checked_at": "2026-11-23",
+            "sha256": "1e79460b4e220b7ebced1375b12589c179fc6a75f72bc007f002e2fba94e41d8",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-23にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://shibu-cul.jp/event/53568#semiconductor",
+            "quote": "●推奨年齢：小5～中学生",
+            "checked_at": "2026-11-23",
+            "sha256": "c80403700ae6d76ef6182b179fb5c1d954c0c33c85993f12b5356182bc09222c",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-23にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://shibu-cul.jp/event/53568#semiconductor",
+            "quote": "●募集期間：11月25日（水）0:00～12月2日（水）23:59＜抽選＞",
+            "checked_at": "2026-11-23",
+            "sha256": "6446bb697878b103097f02429456f1a1fa4ab5e2080d73a2efe476428f677d1f",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-23にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-23",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  }
+]

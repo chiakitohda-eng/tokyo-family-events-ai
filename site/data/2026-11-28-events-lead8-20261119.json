@@ -1,0 +1,159 @@
+[
+  {
+    "id": "verified-20261129-suginami-nishiogi-oshanashi",
+    "ward": "杉並区",
+    "name": "西荻図書館児童講演会「おはなしとワークショップ」",
+    "url": "https://www.city.suginami.tokyo.jp/s116/event/28394.html",
+    "official_url": "https://www.city.suginami.tokyo.jp/s116/event/28394.html",
+    "source": "https://www.city.suginami.tokyo.jp/s116/event/28394.html",
+    "image": "",
+    "period": "11/29(日)",
+    "date_start": "2026-11-29",
+    "date_end": "2026-11-29",
+    "time": "14:00〜15:30",
+    "venue": "西荻図書館 2階多目的ホール（杉並区西荻北2丁目33番9号）",
+    "price": "無料",
+    "description": "絵本作家の出口かずみさんによるおはなしと、「おにぎり型たからばこ」を作るワークショップ。4歳以上（未就学児は保護者同伴）。申込が必要で、定員20名。",
+    "categories": [
+      "体験・ワークショップ",
+      "絵本・お話"
+    ],
+    "indoor_outdoor": "屋内",
+    "reservation": {
+      "required": true,
+      "note": "申込必要。電話または1階カウンターで受付（西荻図書館 03-3301-1670）。定員20名（申込順）。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "絵本作家のおはなしと工作が楽しめる、4歳以上の子ども向けの講演会。無料だが申込が必要で、定員は20名。",
+      "axes": {
+        "child_target": {
+          "grade": "A",
+          "reason": "未就学児・小学生向け（4歳以上）"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "おはなしと、たからばこを作る工作"
+        },
+        "age_fit": {
+          "grade": "A",
+          "reason": "4歳以上と明記"
+        },
+        "stay_flexibility": {
+          "grade": "B",
+          "reason": "1時間30分"
+        },
+        "burden": {
+          "grade": "C",
+          "reason": "申込が必要で、定員は20名。託児はない"
+        },
+        "cost": {
+          "grade": "A",
+          "reason": "無料"
+        },
+        "reservation": {
+          "grade": "C",
+          "reason": "電話または窓口での申込が必要"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "絵本作家のおはなしと工作を体験できる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-19",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "child_program",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "絵本作家のおはなしと工作",
+          "無料"
+        ],
+        "limitations": [
+          "申込が必要",
+          "定員20名",
+          "託児はない"
+        ],
+        "grade_comparison": "総合B：子ども向けの体験で無料だが、申込が必要で定員が20名。",
+        "unsupported_axes": [],
+        "evidence": [
+          {
+            "url": "https://www.city.suginami.tokyo.jp/s116/event/28394.html",
+            "quote": "絵本作家出口かずみさんによるおはなしとワークショップです。",
+            "checked_at": "2026-11-19",
+            "sha256": "b2d0d3baa44d1112235b85450751b7cf28db2b599ef3d06fac14af64d724478c",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "杉並区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.suginami.tokyo.jp/s116/event/28394.html",
+            "quote": "開催日2026年11月29日（日曜日）開催時間午後2時から午後3時30分まで",
+            "checked_at": "2026-11-19",
+            "sha256": "cc0e959b6de48a84e027776ed99d19f482afc3c41de5858400b3c00d53de2cd3",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "杉並区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.suginami.tokyo.jp/s116/event/28394.html",
+            "quote": "対象者未就学児｜小学生4歳以上（未就学児は保護者同伴）",
+            "checked_at": "2026-11-19",
+            "sha256": "1d753397ab48848253f8078f6278a655dab7f8a1d94c56592b5bde0dd8167878",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "杉並区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.suginami.tokyo.jp/s116/event/28394.html",
+            "quote": "開催場所西荻図書館2階多目的ホール杉並区西荻北2丁目33番9号",
+            "checked_at": "2026-11-19",
+            "sha256": "aca97a0780890f0a6eb7c62f0cd9d089a7b7192d3ec48de289b739a9be3a7eea",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "杉並区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.suginami.tokyo.jp/s116/event/28394.html",
+            "quote": "絵本作家出口かずみさんによるおはなしと、ワークショップ『おにぎり型たからばこをつくろう』を行います。",
+            "checked_at": "2026-11-19",
+            "sha256": "12043ddb4fe379350ce9d2170adfd1c758ff9b49bee766cfa4e911e097682ee8",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "杉並区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.suginami.tokyo.jp/s116/event/28394.html",
+            "quote": "申し込み必要11月1日（日曜日）午前9時から電話または1階カウンターで受付",
+            "checked_at": "2026-11-19",
+            "sha256": "984ef85edba21d42bb1c33b1bccc39ecc3200a2f05d523c4579aa4d2f71c9a64",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "杉並区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.suginami.tokyo.jp/s116/event/28394.html",
+            "quote": "定員20名申込順講師出口かずみ氏費用無料",
+            "checked_at": "2026-11-19",
+            "sha256": "e3f2d8abbabd1706af31e0448aad0f75743742d580dbcb586534f2001f9b0a73",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "杉並区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-19",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  }
+]

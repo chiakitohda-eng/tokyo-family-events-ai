@@ -1,0 +1,911 @@
+[
+  {
+    "id": "next-primary-20261213-chiyoda-bosai-vr",
+    "ward": "千代田区",
+    "name": "VR防災体験車 乗車体験",
+    "url": "https://www.chiyoda-bosai.tokyo/",
+    "official_url": "https://www.chiyoda-bosai.tokyo/",
+    "source": "https://www.chiyoda-bosai.tokyo/",
+    "image": "https://www.chiyoda-bosai.tokyo/wp2025/wp-content/themes/chiyoda-bousai-2026/assets/img/front/img_program_vr.jpg",
+    "period": "12/13",
+    "date_start": "2026-12-13",
+    "date_end": "2026-12-13",
+    "time": "10:00／11:15／13:30（1人5分程度）",
+    "venue": "日比谷公会堂前",
+    "price": "無料",
+    "description": "小学生が映像と揺れを体験し、災害への備えを親子で考えられる。 対象：千代田区内在住、小学生以上・身長100cm以上。1組4名まで（大人2名・子ども2名まで）。 11/9〜11/29事前申込・抽選。参加決定・各回の条件は公式申込先で確認。 雨天決行、一部変更・中止の場合あり。",
+    "categories": [
+      "親子・地域体験"
+    ],
+    "family_fit": {
+      "grade": "A",
+      "overall": "A",
+      "rubric_version": "family-fit-v2",
+      "reason": "小学生が映像と揺れを体験し、災害への備えを親子で考えられる。 居住地・学年・身長の条件がある抽選枠。揺れや映像への感じ方と安全上の条件は参加案内を確認。",
+      "axes": {
+        "child_target": {
+          "grade": "A",
+          "reason": "千代田区内在住、小学生以上・身長100cm以上。1組4名まで（大人2名・子ども2名まで）。"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "小学生が映像と揺れを体験し、災害への備えを親子で考えられる。"
+        },
+        "age_fit": {
+          "grade": "B",
+          "reason": "千代田区内在住、小学生以上・身長100cm以上。1組4名まで（大人2名・子ども2名まで）。 居住地・学年・身長の条件がある抽選枠。揺れや映像への感じ方と安全上の条件は参加案内を確認。"
+        },
+        "stay_flexibility": {
+          "grade": "unknown",
+          "reason": "途中入退場・滞在時間の自由度は、明記された場合を除き要確認。"
+        },
+        "burden": {
+          "grade": "unknown",
+          "reason": "混雑、設備、休憩場所など未記載の条件は要確認。"
+        },
+        "cost": {
+          "grade": "A",
+          "reason": "無料"
+        },
+        "reservation": {
+          "grade": "B",
+          "reason": "11/9〜11/29事前申込・抽選。参加決定・各回の条件は公式申込先で確認。 雨天決行、一部変更・中止の場合あり。"
+        },
+        "family_value": {
+          "grade": "A",
+          "reason": "小学生が映像と揺れを体験し、災害への備えを親子で考えられる。"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-14",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "child_program",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "小学生が映像と揺れを体験し、災害への備えを親子で考えられる。"
+        ],
+        "limitations": [
+          "居住地・学年・身長の条件がある抽選枠。揺れや映像への感じ方と安全上の条件は参加案内を確認。"
+        ],
+        "grade_comparison": "総合A：小学生が映像と揺れを体験し、災害への備えを親子で考えられる。 居住地・学年・身長の条件がある抽選枠。揺れや映像への感じ方と安全上の条件は参加案内を確認。",
+        "unsupported_axes": [
+          "stay_flexibility",
+          "burden"
+        ],
+        "evidence": [
+          {
+            "url": "https://www.chiyoda-bosai.tokyo/",
+            "quote": "載したポータルサイトです。平時の備えから災害時の対応まで、区民の防災行動をサポートします。 千代田区防災ポータルサイト 開催概要 日時 2026年12月13日（日）10:00〜15:00 会場 日比谷公園・日比谷図書文化館 主催 千代田区 共催 公益財団法人東京都公園協会 （都立日比谷公園指定管理者） 参加無料、雨天決行 ※公共交通機関でのご来場にご協力をお願いいたします。 ※雨天時は、一部プログラムが変更・中止になる場合があります。",
+            "checked_at": "2026-11-14T16:26:38+09:00",
+            "sha256": "62bf2c8b8d1d567127a4d4d010c49fdaaa7e0c5930fc44d050018a633412fd86"
+          }
+        ]
+      }
+    },
+    "reservation": {
+      "required": true,
+      "note": "11/9〜11/29事前申込・抽選。参加決定・各回の条件は公式申込先で確認。 雨天決行、一部変更・中止の場合あり。"
+    },
+    "indoor_outdoor": "",
+    "ai": {
+      "checked_at": "2026-11-14",
+      "confidence": "high",
+      "discovery_query": "ためまっぷを除く未照合候補の公式本文確認。既存448個票と参加単位・日付・会場を照合。"
+    },
+    "discovery_sources": [
+      {
+        "channel": "ai_cross_search",
+        "kind": "official_body_review",
+        "url": "https://www.chiyoda-bosai.tokyo/"
+      }
+    ]
+  },
+  {
+    "id": "next-primary-20261213-chiyoda-bosai-ladder",
+    "ward": "千代田区",
+    "name": "はしご車 乗車体験",
+    "url": "https://www.chiyoda-bosai.tokyo/",
+    "official_url": "https://www.chiyoda-bosai.tokyo/",
+    "source": "https://www.chiyoda-bosai.tokyo/",
+    "image": "https://www.chiyoda-bosai.tokyo/wp2025/wp-content/themes/chiyoda-bousai-2026/assets/img/front/img_program_ladder_truck.jpg",
+    "period": "12/13",
+    "date_start": "2026-12-13",
+    "date_end": "2026-12-13",
+    "time": "11:00／13:30（1人4分程度）",
+    "venue": "霞門付近",
+    "price": "無料",
+    "description": "親子で消防車両に乗り、消防の仕事と防災を実際の体験から学べる。 対象：千代田区内在住、大人1名・子ども1名の組。 11/9〜11/29事前申込・抽選。参加決定・各回の条件は公式申込先で確認。 雨天決行、一部変更・中止の場合あり。",
+    "categories": [
+      "親子・地域体験"
+    ],
+    "family_fit": {
+      "grade": "A",
+      "overall": "A",
+      "rubric_version": "family-fit-v2",
+      "reason": "親子で消防車両に乗り、消防の仕事と防災を実際の体験から学べる。 区内在住の親子限定・抽選。高所への不安や細かな乗車条件は主催者案内を確認。",
+      "axes": {
+        "child_target": {
+          "grade": "A",
+          "reason": "千代田区内在住、大人1名・子ども1名の組。"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "親子で消防車両に乗り、消防の仕事と防災を実際の体験から学べる。"
+        },
+        "age_fit": {
+          "grade": "B",
+          "reason": "千代田区内在住、大人1名・子ども1名の組。 区内在住の親子限定・抽選。高所への不安や細かな乗車条件は主催者案内を確認。"
+        },
+        "stay_flexibility": {
+          "grade": "unknown",
+          "reason": "途中入退場・滞在時間の自由度は、明記された場合を除き要確認。"
+        },
+        "burden": {
+          "grade": "unknown",
+          "reason": "混雑、設備、休憩場所など未記載の条件は要確認。"
+        },
+        "cost": {
+          "grade": "A",
+          "reason": "無料"
+        },
+        "reservation": {
+          "grade": "B",
+          "reason": "11/9〜11/29事前申込・抽選。参加決定・各回の条件は公式申込先で確認。 雨天決行、一部変更・中止の場合あり。"
+        },
+        "family_value": {
+          "grade": "A",
+          "reason": "親子で消防車両に乗り、消防の仕事と防災を実際の体験から学べる。"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-14",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "child_program",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "親子で消防車両に乗り、消防の仕事と防災を実際の体験から学べる。"
+        ],
+        "limitations": [
+          "区内在住の親子限定・抽選。高所への不安や細かな乗車条件は主催者案内を確認。"
+        ],
+        "grade_comparison": "総合A：親子で消防車両に乗り、消防の仕事と防災を実際の体験から学べる。 区内在住の親子限定・抽選。高所への不安や細かな乗車条件は主催者案内を確認。",
+        "unsupported_axes": [
+          "stay_flexibility",
+          "burden"
+        ],
+        "evidence": [
+          {
+            "url": "https://www.chiyoda-bosai.tokyo/",
+            "quote": "載したポータルサイトです。平時の備えから災害時の対応まで、区民の防災行動をサポートします。 千代田区防災ポータルサイト 開催概要 日時 2026年12月13日（日）10:00〜15:00 会場 日比谷公園・日比谷図書文化館 主催 千代田区 共催 公益財団法人東京都公園協会 （都立日比谷公園指定管理者） 参加無料、雨天決行 ※公共交通機関でのご来場にご協力をお願いいたします。 ※雨天時は、一部プログラムが変更・中止になる場合があります。",
+            "checked_at": "2026-11-14T16:26:38+09:00",
+            "sha256": "62bf2c8b8d1d567127a4d4d010c49fdaaa7e0c5930fc44d050018a633412fd86"
+          }
+        ]
+      }
+    },
+    "reservation": {
+      "required": true,
+      "note": "11/9〜11/29事前申込・抽選。参加決定・各回の条件は公式申込先で確認。 雨天決行、一部変更・中止の場合あり。"
+    },
+    "indoor_outdoor": "",
+    "ai": {
+      "checked_at": "2026-11-14",
+      "confidence": "high",
+      "discovery_query": "ためまっぷを除く未照合候補の公式本文確認。既存448個票と参加単位・日付・会場を照合。"
+    },
+    "discovery_sources": [
+      {
+        "channel": "ai_cross_search",
+        "kind": "official_body_review",
+        "url": "https://www.chiyoda-bosai.tokyo/"
+      }
+    ]
+  },
+  {
+    "id": "next-primary-20261213-chiyoda-bosai-horse",
+    "ward": "千代田区",
+    "name": "警視庁騎馬隊 乗馬体験",
+    "url": "https://www.chiyoda-bosai.tokyo/",
+    "official_url": "https://www.chiyoda-bosai.tokyo/",
+    "source": "https://www.chiyoda-bosai.tokyo/",
+    "image": "https://www.chiyoda-bosai.tokyo/wp2025/wp-content/themes/chiyoda-bousai-2026/assets/img/front/img_program_mounted_police.jpg",
+    "period": "12/13",
+    "date_start": "2026-12-13",
+    "date_end": "2026-12-13",
+    "time": "14:00〜15:00（1人2分程度）",
+    "venue": "草地広場",
+    "price": "無料",
+    "description": "小さな子どもが騎馬隊の馬に乗る、対象を絞った短時間の体験。 対象：千代田区内在住、3歳以上・身長110cm未満の子ども。保護者同乗不可。 11/9〜11/29事前申込・抽選。参加決定・各回の条件は公式申込先で確認。 雨天決行、一部変更・中止の場合あり。",
+    "categories": [
+      "親子・地域体験"
+    ],
+    "family_fit": {
+      "grade": "A",
+      "overall": "A",
+      "rubric_version": "family-fit-v2",
+      "reason": "小さな子どもが騎馬隊の馬に乗る、対象を絞った短時間の体験。 年齢に加え身長上限と居住地の条件がある抽選枠。保護者は同乗できず、動物への不安に配慮。",
+      "axes": {
+        "child_target": {
+          "grade": "A",
+          "reason": "千代田区内在住、3歳以上・身長110cm未満の子ども。保護者同乗不可。"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "小さな子どもが騎馬隊の馬に乗る、対象を絞った短時間の体験。"
+        },
+        "age_fit": {
+          "grade": "A",
+          "reason": "千代田区内在住、3歳以上・身長110cm未満の子ども。保護者同乗不可。 年齢に加え身長上限と居住地の条件がある抽選枠。保護者は同乗できず、動物への不安に配慮。"
+        },
+        "stay_flexibility": {
+          "grade": "unknown",
+          "reason": "途中入退場・滞在時間の自由度は、明記された場合を除き要確認。"
+        },
+        "burden": {
+          "grade": "unknown",
+          "reason": "混雑、設備、休憩場所など未記載の条件は要確認。"
+        },
+        "cost": {
+          "grade": "A",
+          "reason": "無料"
+        },
+        "reservation": {
+          "grade": "B",
+          "reason": "11/9〜11/29事前申込・抽選。参加決定・各回の条件は公式申込先で確認。 雨天決行、一部変更・中止の場合あり。"
+        },
+        "family_value": {
+          "grade": "A",
+          "reason": "小さな子どもが騎馬隊の馬に乗る、対象を絞った短時間の体験。"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-14",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "child_program",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "小さな子どもが騎馬隊の馬に乗る、対象を絞った短時間の体験。"
+        ],
+        "limitations": [
+          "年齢に加え身長上限と居住地の条件がある抽選枠。保護者は同乗できず、動物への不安に配慮。"
+        ],
+        "grade_comparison": "総合A：小さな子どもが騎馬隊の馬に乗る、対象を絞った短時間の体験。 年齢に加え身長上限と居住地の条件がある抽選枠。保護者は同乗できず、動物への不安に配慮。",
+        "unsupported_axes": [
+          "stay_flexibility",
+          "burden"
+        ],
+        "evidence": [
+          {
+            "url": "https://www.chiyoda-bosai.tokyo/",
+            "quote": "載したポータルサイトです。平時の備えから災害時の対応まで、区民の防災行動をサポートします。 千代田区防災ポータルサイト 開催概要 日時 2026年12月13日（日）10:00〜15:00 会場 日比谷公園・日比谷図書文化館 主催 千代田区 共催 公益財団法人東京都公園協会 （都立日比谷公園指定管理者） 参加無料、雨天決行 ※公共交通機関でのご来場にご協力をお願いいたします。 ※雨天時は、一部プログラムが変更・中止になる場合があります。",
+            "checked_at": "2026-11-14T16:26:38+09:00",
+            "sha256": "62bf2c8b8d1d567127a4d4d010c49fdaaa7e0c5930fc44d050018a633412fd86"
+          }
+        ]
+      }
+    },
+    "reservation": {
+      "required": true,
+      "note": "11/9〜11/29事前申込・抽選。参加決定・各回の条件は公式申込先で確認。 雨天決行、一部変更・中止の場合あり。"
+    },
+    "indoor_outdoor": "",
+    "ai": {
+      "checked_at": "2026-11-14",
+      "confidence": "high",
+      "discovery_query": "ためまっぷを除く未照合候補の公式本文確認。既存448個票と参加単位・日付・会場を照合。"
+    },
+    "discovery_sources": [
+      {
+        "channel": "ai_cross_search",
+        "kind": "official_body_review",
+        "url": "https://www.chiyoda-bosai.tokyo/"
+      }
+    ]
+  },
+  {
+    "id": "next-primary-20261213-chiyoda-bosai-baby",
+    "ward": "千代田区",
+    "name": "ベビーキッズ防災講座",
+    "url": "https://www.chiyoda-bosai.tokyo/",
+    "official_url": "https://www.chiyoda-bosai.tokyo/",
+    "source": "https://www.chiyoda-bosai.tokyo/",
+    "image": "https://www.chiyoda-bosai.tokyo/wp2025/wp-content/themes/chiyoda-bousai-2026/assets/img/front/img_program_baby_kids.jpg",
+    "period": "12/13",
+    "date_start": "2026-12-13",
+    "date_end": "2026-12-13",
+    "time": "11:00〜12:30",
+    "venue": "日比谷図書文化館4階 スタジオプラス",
+    "price": "無料",
+    "description": "乳幼児連れの家庭に合わせ、助産師・消防署員から災害時の備えを学べる。 対象：千代田区内在住、満3歳未満の乳幼児がいる親子、1組4名まで。託児室あり。 11/9〜11/29事前申込・抽選。参加決定・各回の条件は公式申込先で確認。 雨天決行、一部変更・中止の場合あり。",
+    "categories": [
+      "文化・地域イベント"
+    ],
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "乳幼児連れの家庭に合わせ、助産師・消防署員から災害時の備えを学べる。 90分の保護者向け学習を含む抽選講座。乳幼児自身の遊びプログラムや託児の細かな条件は未確認。",
+      "axes": {
+        "child_target": {
+          "grade": "B",
+          "reason": "千代田区内在住、満3歳未満の乳幼児がいる親子、1組4名まで。託児室あり。"
+        },
+        "interactivity": {
+          "grade": "B",
+          "reason": "乳幼児連れの家庭に合わせ、助産師・消防署員から災害時の備えを学べる。"
+        },
+        "age_fit": {
+          "grade": "B",
+          "reason": "千代田区内在住、満3歳未満の乳幼児がいる親子、1組4名まで。託児室あり。 90分の保護者向け学習を含む抽選講座。乳幼児自身の遊びプログラムや託児の細かな条件は未確認。"
+        },
+        "stay_flexibility": {
+          "grade": "unknown",
+          "reason": "途中入退場・滞在時間の自由度は、明記された場合を除き要確認。"
+        },
+        "burden": {
+          "grade": "unknown",
+          "reason": "混雑、設備、休憩場所など未記載の条件は要確認。"
+        },
+        "cost": {
+          "grade": "A",
+          "reason": "無料"
+        },
+        "reservation": {
+          "grade": "B",
+          "reason": "11/9〜11/29事前申込・抽選。参加決定・各回の条件は公式申込先で確認。 雨天決行、一部変更・中止の場合あり。"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "乳幼児連れの家庭に合わせ、助産師・消防署員から災害時の備えを学べる。"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-14",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "accompaniment_only",
+        "child_activity_confirmed": false,
+        "strengths": [
+          "乳幼児連れの家庭に合わせ、助産師・消防署員から災害時の備えを学べる。"
+        ],
+        "limitations": [
+          "90分の保護者向け学習を含む抽選講座。乳幼児自身の遊びプログラムや託児の細かな条件は未確認。"
+        ],
+        "grade_comparison": "総合B：乳幼児連れの家庭に合わせ、助産師・消防署員から災害時の備えを学べる。 90分の保護者向け学習を含む抽選講座。乳幼児自身の遊びプログラムや託児の細かな条件は未確認。",
+        "unsupported_axes": [
+          "stay_flexibility",
+          "burden"
+        ],
+        "evidence": [
+          {
+            "url": "https://www.chiyoda-bosai.tokyo/",
+            "quote": "載したポータルサイトです。平時の備えから災害時の対応まで、区民の防災行動をサポートします。 千代田区防災ポータルサイト 開催概要 日時 2026年12月13日（日）10:00〜15:00 会場 日比谷公園・日比谷図書文化館 主催 千代田区 共催 公益財団法人東京都公園協会 （都立日比谷公園指定管理者） 参加無料、雨天決行 ※公共交通機関でのご来場にご協力をお願いいたします。 ※雨天時は、一部プログラムが変更・中止になる場合があります。",
+            "checked_at": "2026-11-14T16:26:38+09:00",
+            "sha256": "62bf2c8b8d1d567127a4d4d010c49fdaaa7e0c5930fc44d050018a633412fd86"
+          }
+        ]
+      }
+    },
+    "reservation": {
+      "required": true,
+      "note": "11/9〜11/29事前申込・抽選。参加決定・各回の条件は公式申込先で確認。 雨天決行、一部変更・中止の場合あり。"
+    },
+    "indoor_outdoor": "",
+    "ai": {
+      "checked_at": "2026-11-14",
+      "confidence": "high",
+      "discovery_query": "ためまっぷを除く未照合候補の公式本文確認。既存448個票と参加単位・日付・会場を照合。"
+    },
+    "discovery_sources": [
+      {
+        "channel": "ai_cross_search",
+        "kind": "official_body_review",
+        "url": "https://www.chiyoda-bosai.tokyo/"
+      }
+    ]
+  },
+  {
+    "id": "next-primary-20261213-chiyoda-bosai-attraction",
+    "ward": "千代田区",
+    "name": "映像で体感！防災アトラクション",
+    "url": "https://www.chiyoda-bosai.tokyo/",
+    "official_url": "https://www.chiyoda-bosai.tokyo/",
+    "source": "https://www.chiyoda-bosai.tokyo/",
+    "image": "https://www.chiyoda-bosai.tokyo/wp2025/wp-content/themes/chiyoda-bousai-2026/assets/img/front/img_program_disaster_attraction.jpg",
+    "period": "12/13",
+    "date_start": "2026-12-13",
+    "date_end": "2026-12-13",
+    "time": "11:00〜12:15／13:30〜14:45",
+    "venue": "日比谷図書文化館地下1階 日比谷コンベンションホール",
+    "price": "無料",
+    "description": "映像の中で災害時の知識と行動を親子で体験的に学べる。 対象：小学生以上、1組2〜5名。親子参加推奨。 11/9〜11/29事前申込・抽選。参加決定・各回の条件は公式申込先で確認。 雨天決行、一部変更・中止の場合あり。",
+    "categories": [
+      "親子・地域体験"
+    ],
+    "family_fit": {
+      "grade": "A",
+      "overall": "A",
+      "rubric_version": "family-fit-v2",
+      "reason": "映像の中で災害時の知識と行動を親子で体験的に学べる。 各75分の抽選枠。強い映像への感じ方に配慮し、未就学児の参加枠とは分けて選ぶ。",
+      "axes": {
+        "child_target": {
+          "grade": "A",
+          "reason": "小学生以上、1組2〜5名。親子参加推奨。"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "映像の中で災害時の知識と行動を親子で体験的に学べる。"
+        },
+        "age_fit": {
+          "grade": "B",
+          "reason": "小学生以上、1組2〜5名。親子参加推奨。 各75分の抽選枠。強い映像への感じ方に配慮し、未就学児の参加枠とは分けて選ぶ。"
+        },
+        "stay_flexibility": {
+          "grade": "unknown",
+          "reason": "途中入退場・滞在時間の自由度は、明記された場合を除き要確認。"
+        },
+        "burden": {
+          "grade": "unknown",
+          "reason": "混雑、設備、休憩場所など未記載の条件は要確認。"
+        },
+        "cost": {
+          "grade": "A",
+          "reason": "無料"
+        },
+        "reservation": {
+          "grade": "B",
+          "reason": "11/9〜11/29事前申込・抽選。参加決定・各回の条件は公式申込先で確認。 雨天決行、一部変更・中止の場合あり。"
+        },
+        "family_value": {
+          "grade": "A",
+          "reason": "映像の中で災害時の知識と行動を親子で体験的に学べる。"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-14",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "child_program",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "映像の中で災害時の知識と行動を親子で体験的に学べる。"
+        ],
+        "limitations": [
+          "各75分の抽選枠。強い映像への感じ方に配慮し、未就学児の参加枠とは分けて選ぶ。"
+        ],
+        "grade_comparison": "総合A：映像の中で災害時の知識と行動を親子で体験的に学べる。 各75分の抽選枠。強い映像への感じ方に配慮し、未就学児の参加枠とは分けて選ぶ。",
+        "unsupported_axes": [
+          "stay_flexibility",
+          "burden"
+        ],
+        "evidence": [
+          {
+            "url": "https://www.chiyoda-bosai.tokyo/",
+            "quote": "載したポータルサイトです。平時の備えから災害時の対応まで、区民の防災行動をサポートします。 千代田区防災ポータルサイト 開催概要 日時 2026年12月13日（日）10:00〜15:00 会場 日比谷公園・日比谷図書文化館 主催 千代田区 共催 公益財団法人東京都公園協会 （都立日比谷公園指定管理者） 参加無料、雨天決行 ※公共交通機関でのご来場にご協力をお願いいたします。 ※雨天時は、一部プログラムが変更・中止になる場合があります。",
+            "checked_at": "2026-11-14T16:26:38+09:00",
+            "sha256": "62bf2c8b8d1d567127a4d4d010c49fdaaa7e0c5930fc44d050018a633412fd86"
+          }
+        ]
+      }
+    },
+    "reservation": {
+      "required": true,
+      "note": "11/9〜11/29事前申込・抽選。参加決定・各回の条件は公式申込先で確認。 雨天決行、一部変更・中止の場合あり。"
+    },
+    "indoor_outdoor": "",
+    "ai": {
+      "checked_at": "2026-11-14",
+      "confidence": "high",
+      "discovery_query": "ためまっぷを除く未照合候補の公式本文確認。既存448個票と参加単位・日付・会場を照合。"
+    },
+    "discovery_sources": [
+      {
+        "channel": "ai_cross_search",
+        "kind": "official_body_review",
+        "url": "https://www.chiyoda-bosai.tokyo/"
+      }
+    ]
+  },
+  {
+    "id": "next-primary-20261213-chiyoda-bosai-booths",
+    "ward": "千代田区",
+    "name": "千代田区防災フェスタ2026 防災ブース・地震体験",
+    "url": "https://www.chiyoda-bosai.tokyo/",
+    "official_url": "https://www.chiyoda-bosai.tokyo/",
+    "source": "https://www.chiyoda-bosai.tokyo/",
+    "image": "https://www.chiyoda-bosai.tokyo/wp2025/wp-content/themes/chiyoda-bousai-2026/assets/img/front/front-hero-info-pc.svg",
+    "period": "12/13",
+    "date_start": "2026-12-13",
+    "date_end": "2026-12-13",
+    "time": "10:00〜15:00",
+    "venue": "日比谷公園 芝庭広場・草地広場など",
+    "price": "無料",
+    "description": "展示や地震体験を家族で選び、身近な防災行動を学べる。 対象：家族で楽しめると案内。個別体験の安全条件・対象は各ブースで確認。 当日参加。事前抽選プログラムと当日抽選グリーティングは別枠。 雨天決行、一部変更・中止の場合あり。",
+    "categories": [
+      "文化・地域イベント"
+    ],
+    "family_fit": {
+      "grade": "A",
+      "overall": "A",
+      "rubric_version": "family-fit-v2",
+      "reason": "展示や地震体験を家族で選び、身近な防災行動を学べる。 雨天時は一部変更・中止あり。別の車両乗車・乗馬・講座は事前抽選で、この当日参加枠に含めない。",
+      "axes": {
+        "child_target": {
+          "grade": "B",
+          "reason": "家族で楽しめると案内。個別体験の安全条件・対象は各ブースで確認。"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "展示や地震体験を家族で選び、身近な防災行動を学べる。"
+        },
+        "age_fit": {
+          "grade": "B",
+          "reason": "家族で楽しめると案内。個別体験の安全条件・対象は各ブースで確認。 雨天時は一部変更・中止あり。別の車両乗車・乗馬・講座は事前抽選で、この当日参加枠に含めない。"
+        },
+        "stay_flexibility": {
+          "grade": "unknown",
+          "reason": "途中入退場・滞在時間の自由度は、明記された場合を除き要確認。"
+        },
+        "burden": {
+          "grade": "unknown",
+          "reason": "混雑、設備、休憩場所など未記載の条件は要確認。"
+        },
+        "cost": {
+          "grade": "A",
+          "reason": "無料"
+        },
+        "reservation": {
+          "grade": "A",
+          "reason": "当日参加。事前抽選プログラムと当日抽選グリーティングは別枠。 雨天決行、一部変更・中止の場合あり。"
+        },
+        "family_value": {
+          "grade": "A",
+          "reason": "展示や地震体験を家族で選び、身近な防災行動を学べる。"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-14",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "all_ages",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "展示や地震体験を家族で選び、身近な防災行動を学べる。"
+        ],
+        "limitations": [
+          "雨天時は一部変更・中止あり。別の車両乗車・乗馬・講座は事前抽選で、この当日参加枠に含めない。"
+        ],
+        "grade_comparison": "総合A：展示や地震体験を家族で選び、身近な防災行動を学べる。 雨天時は一部変更・中止あり。別の車両乗車・乗馬・講座は事前抽選で、この当日参加枠に含めない。",
+        "unsupported_axes": [
+          "stay_flexibility",
+          "burden"
+        ],
+        "evidence": [
+          {
+            "url": "https://www.chiyoda-bosai.tokyo/",
+            "quote": "載したポータルサイトです。平時の備えから災害時の対応まで、区民の防災行動をサポートします。 千代田区防災ポータルサイト 開催概要 日時 2026年12月13日（日）10:00〜15:00 会場 日比谷公園・日比谷図書文化館 主催 千代田区 共催 公益財団法人東京都公園協会 （都立日比谷公園指定管理者） 参加無料、雨天決行 ※公共交通機関でのご来場にご協力をお願いいたします。 ※雨天時は、一部プログラムが変更・中止になる場合があります。",
+            "checked_at": "2026-11-14T16:26:38+09:00",
+            "sha256": "62bf2c8b8d1d567127a4d4d010c49fdaaa7e0c5930fc44d050018a633412fd86"
+          }
+        ]
+      }
+    },
+    "reservation": {
+      "required": false,
+      "note": "当日参加。事前抽選プログラムと当日抽選グリーティングは別枠。 雨天決行、一部変更・中止の場合あり。"
+    },
+    "indoor_outdoor": "",
+    "ai": {
+      "checked_at": "2026-11-14",
+      "confidence": "high",
+      "discovery_query": "ためまっぷを除く未照合候補の公式本文確認。既存448個票と参加単位・日付・会場を照合。"
+    },
+    "discovery_sources": [
+      {
+        "channel": "ai_cross_search",
+        "kind": "official_body_review",
+        "url": "https://www.chiyoda-bosai.tokyo/"
+      }
+    ]
+  },
+  {
+    "id": "next-primary-20261212-turner-exhibition",
+    "ward": "台東区",
+    "name": "テート美術館 ターナー展――崇高の絵画、現代美術との対話",
+    "url": "https://turner2026-27.exhibit.jp/outline/index.html",
+    "official_url": "https://turner2026-27.exhibit.jp/outline/index.html",
+    "source": "https://turner2026-27.exhibit.jp/outline/index.html",
+    "image": "https://turner2026-27.exhibit.jp/assets/img/ogp.png",
+    "period": "12/12〜12/13",
+    "date_start": "2026-12-12",
+    "date_end": "2026-12-13",
+    "time": "9:30〜17:30（土曜20:00まで、入館は各30分前まで）",
+    "venue": "国立西洋美術館（上野公園7-7）",
+    "price": "一般2400円、大学生1500円、高校生1100円、中学生以下無料",
+    "description": "ターナーの絵画と現代美術を鑑賞する企画展。会期10/24〜2027/2/21。 対象：中学生以下無料。細かな鑑賞対象年齢は未記載。 月曜休館、11/23は開館・11/24休館。入場方法や販売先の条件は公式チケット案内を確認。",
+    "categories": [
+      "文化・地域イベント"
+    ],
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "絵の光や色、描き方を親子で見比べ、感じたことを話し合う機会になる。 一般向けの鑑賞展示で子ども専用の体験は未記載。混雑や作品内容は家族の関心に合わせて選ぶ。",
+      "axes": {
+        "child_target": {
+          "grade": "B",
+          "reason": "中学生以下無料。細かな鑑賞対象年齢は未記載。"
+        },
+        "interactivity": {
+          "grade": "B",
+          "reason": "絵の光や色、描き方を親子で見比べ、感じたことを話し合う機会になる。"
+        },
+        "age_fit": {
+          "grade": "B",
+          "reason": "中学生以下無料。細かな鑑賞対象年齢は未記載。 一般向けの鑑賞展示で子ども専用の体験は未記載。混雑や作品内容は家族の関心に合わせて選ぶ。"
+        },
+        "stay_flexibility": {
+          "grade": "unknown",
+          "reason": "途中入退場・滞在時間の自由度は、明記された場合を除き要確認。"
+        },
+        "burden": {
+          "grade": "unknown",
+          "reason": "混雑、設備、休憩場所など未記載の条件は要確認。"
+        },
+        "cost": {
+          "grade": "B",
+          "reason": "一般2400円、大学生1500円、高校生1100円、中学生以下無料"
+        },
+        "reservation": {
+          "grade": "unknown",
+          "reason": "月曜休館、11/23は開館・11/24休館。入場方法や販売先の条件は公式チケット案内を確認。"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "絵の光や色、描き方を親子で見比べ、感じたことを話し合う機会になる。"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-14",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "age_eligible",
+        "child_activity_confirmed": false,
+        "strengths": [
+          "絵の光や色、描き方を親子で見比べ、感じたことを話し合う機会になる。"
+        ],
+        "limitations": [
+          "一般向けの鑑賞展示で子ども専用の体験は未記載。混雑や作品内容は家族の関心に合わせて選ぶ。"
+        ],
+        "grade_comparison": "総合B：絵の光や色、描き方を親子で見比べ、感じたことを話し合う機会になる。 一般向けの鑑賞展示で子ども専用の体験は未記載。混雑や作品内容は家族の関心に合わせて選ぶ。",
+        "unsupported_axes": [
+          "stay_flexibility",
+          "burden",
+          "reservation"
+        ],
+        "evidence": [
+          {
+            "url": "https://turner2026-27.exhibit.jp/outline/index.html",
+            "quote": "った、きみにフープはやらない」》（部分） 1840年展示 油彩／板（マホガニー） テート美術館 Photo: Tate 東京会場 大阪会場 開催概要 展覧会名 テート美術館 ターナー展――崇高の絵画、現代美術との対話 会期 2026年10月24日［土］－2027年2月21日［日］ 会場 国立西洋美術館［東京・上野公園］ 〒110-0007 東京都台東区上野公園7-7 開館時間 9:30－17:30 金曜・土曜日は20:00まで （入館は閉館の30分前まで） 休館日 月曜日、11月24日［火］、12月28日［月］－2027年1月1日［金・祝］、1月12日［火］ ただし、11月23日[月・祝]、2027年1月11日[月・祝]は開館 2027年1月12日[火]― 2月21日[日]の期間、国立西洋美術館 常設展は閉室 主催 国立西洋美術館、テート美術館、朝日新聞社、テレビ朝日 協賛 NISSHA、ダイキン工業、大和ハウス工業 後援 TOKYO FM、ブリティッシュ・カウンシル 協力 セルシス、西洋美術振興財団 お問い合わせ 050-5541-8600（ハローダイヤル） 本展は、政府による美術品補償制度の適用を受けています。 アクセス ［東京・上野公園］ 〒110-0007 東京都台東区上野公園7-7 JR上野駅下車（公園口）徒歩1分 京成電鉄京成上野駅下車 徒歩7分 東京メトロ銀座線・日比谷線上野駅下車 徒歩8分 美術館に駐車場はございませんので、お車でのご来館はご遠慮ください。 開催概要 展覧会名 テート美術館 ターナー展――崇高の絵画、現代美術との対話 会期 2027年3月13日［土］－6月27日［日］ 会場 大阪中之島美術館 〒530-0005 大阪府大阪市北区中之島4-3-1 主催 大阪中之島美術館、テート美術館、朝日新聞社、関西テレビ放送 協賛 NISSHA 後援 ブリティッシュ・カウンシル アクセス 大阪中之島美術館 〒530-0005 大阪府大阪市北区中之島4-3-1 京阪：中之島線 渡辺橋駅（2番出口）より南西へ徒歩約5分 Osaka Metro：四つ橋線 肥後橋駅（4番出口）より西へ徒歩約10分 JR：大阪環状線 福島駅／東西線 新福島駅（2番出口）より南へ徒歩約10分 阪神：福島駅より南へ徒歩約10分 有料駐車場あり（割引サービスはございません。）",
+            "checked_at": "2026-11-14T18:03:29+09:00",
+            "sha256": "65184cea827e1f386b8bdff700f11011ec4e5e34d44acc0a469eef23bd866214"
+          },
+          {
+            "url": "https://turner2026-27.exhibit.jp/ticket/",
+            "quote": "「テート美術館 ターナー展――崇高の絵画、現代美術との対話」公式サイト TICKETS チケット J.M.W. ターナー《ヴェネツィア――サンタ・マリア・デッラ・サルーテ聖堂》（部分） 1844年展示 油彩／カンヴァス テート美術館 Photo: Tate 観覧料 グッズセット券 ペア割 シニア割 他展セット券 他展相互割引 お食事券セット券 購入方法 観覧料 （税込） 当日券 前売券 一般 2,400円 2,200円 大学生 1,500円 1,300円 高校生 1,100円 900円 中学生以下無料、障害者手帳をお持ちの方及び付添者1名は無料（学生証等の年齢の確認できるもの、障害者手帳等をご提示ください）。 大学生及び高校生の方は、入館の際に学生証をご提示ください。 なお、2026年11月4日[水]－19日[木]は高校生・大学生無料観覧期間です。高校生・大学生の方はオンラインチケットを購入せず、学生証をご持参のうえ、国立西洋美術館の券売窓口までお越しください。 国立美術館キャンパスメンバーズ加盟校の学生・教職員は本展を学生1,300円、教職員2,200円でご覧いただけます（学生証または教職員証をご提示のうえ、会期中ご来場当日に国立西洋美術館の券売窓口にてお求めください）。 観覧当日に限り本展の観覧券で常設展もご覧いただけます。なお、2027年1月12日[火]－2月21日[日]の期間、常設展は閉室いたします。 ご購入はこちら 数量限定 グッズセット券 坂本 眞一 『イカロスの筆』特別セット券 3,500 円 自然の脅威と美しさ、光と闇のドラマを圧倒的な画力で描いてきた漫画家・坂本眞一による、本展のための描き下ろし漫画が誕生。全47頁の描き下ろし漫画に加え、坂本眞一への特別インタビューを収録しました。 特別セット券の購入特典として、セブン-イレブン店頭の「マルチコピー機」で、チケットに記載のプリント予約番号を入力すると、特製ブロマイドが印刷されます。 セブンチケットで販売 販売終了 数量限定 書籍は特設ショップでも販売しますが、特製ブロマイドは付きません。 上製本｜A5版｜90頁 Ⓒ坂本眞一 あらすじ 19世紀のロンドン。ターナーの私設ギャラリーを訪れたある夫婦は、一枚の絵画の前で立ち尽くす。眼前に現れたのは、画家が大自然の猛威と対峙した記憶そのものだった。時代を超えて交錯する、光に魅入られた 表現者 イカロス たちの、果てなき挑戦の物語。 坂本 眞一 漫画家。1990年「週刊少年ジャンプ」の新人賞でデビュー。文学や史実に着想を得て、幻想と現実が交錯する世界観を緻密に描く作風で知られる。極限の自然に挑む人間を描いた『孤高の人』で第14回文化庁メディア芸術祭優秀賞を受賞。『イノサンRouge』で第24回文化庁メディア芸術祭優秀賞を受賞。現在「グランドジャンプ」で『#DRCL midnight children』を連載中。 【坂本 眞一×ターナー展 描き下ろし漫画『イカロスの筆』特別インタビュー】を読む TENERITA パイピングタオルハンカチセット券 5,000 円 国際認証を取得した本物のオーガニックコットン製品をプロデュースするTENERITA（テネリータ）のタオルハンカチとのセット券。 タオル部分にはインド産オーガニック超長綿を使用し、色合いはターナー展ポスター作品《捕鯨船エレバス号に万歳! もう一頭獲ったぞ!》をイメージした別注カラーに。周囲のパイピングには英国・リバティ社のプリント生地をあしらった、ターナー展限定のハンカチです。TENERITAのショッパー付きで、ギフトにもおすすめです。 展覧会オンラインチケット（etix）で販売 販売終了 数量限定 タオルハンカチは特設ショップでも販売しますが、ショッパーは付きません。 TENERITAパイピングタオルハンカチ 2,860円 ※ハンカチのみの価格 約250×250mm 日本製 本体 綿100%（綿:オーガニックコットン100%）／パイピング部分 綿100% 画像は完成イメージを含み、実物とは異なる場合があります。 価格は全て税込表示です。 数量限定 お得なチケット ペア割 4,200 円 当日一般券2枚分が600円お得なペアチケット 販売期間 2026年9月9日［水］ー12月20日［日］ 利用期間 2026年10月24日［土］ー2027年1月11日［月・祝］ 楽天トラベルで販売 ご購入はこちら シニア割 2,000 円 65歳以上の方を対象とした、当日一般券が400円お得なチケット 2026年10月24日［土］ー11月8日［日］の期間中、ご来場当日に国立西洋美術館の券売窓口にて身分証をご提示のうえお求めください。 期間限定 数量限定 他展セット券 （館内カフェ利用割引付き） 三菱一号館美術館 ターナー展 × フォンタネージ展 風景画をめぐる旅チケット 4,300 円 「テート美術館 ターナー展――崇高の絵画、現代美術との対話」と「フォンタネージ展――イタリアの光・心の風景」の一般観覧券各1枚をセットにした特別デザイン券を販売します。さらに、本券を国立西洋美術館内「CAFÉ すいれん」または三菱一号館美術館内「Café 1894」でご提示いただくと、会計金額から100円引きとなる特典もお楽しみいただけます。 販売期間 国立西洋美術館窓口にて：2026年10月24日［土］ー2027年1月24日［日］ 三菱一号館美術館窓口にて：2026年10月17日［土］ー20",
+            "checked_at": "2026-11-14T16:27:14+09:00",
+            "sha256": "14c696d2a09d4d217cdc4dfaabf1a2db91366849a5751f00d010e673624a013c"
+          },
+          {
+            "url": "https://turner2026-27.exhibit.jp/",
+            "quote": "「テート美術館 ターナー展――崇高の絵画、現代美術との対話」公式サイト J.M.W. ターナー《捕鯨船エレバス号に万歳！ もう一頭獲ったぞ！》（部分） 1846年展示 油彩／カンヴァス テート美術館 Photo: Tate TUR NER 東京会場 巡回：大阪中之島美術館 NEWS お知らせ 2026.11.10 グッズ・図録ページ を更新しました 2026.10.30 TURNERページ を更新しました 2026.10.28 TURNERページ を更新しました 2026.10.26 TURNERページ を更新しました 2026.10.24 ターナー展 東京会場 開幕しました 2026.10.23 TURNERページ ・ 音声ガイドページ を更新しました 2026.10.20 TURNERページ を更新しました 2026.10.16 TURNERページ を更新しました 2026.10.08 TURNERページ ・ グッズ・図録ページ を更新しました 2026.09.28 チケットページ を更新しました 2026.09.25 TURNERページ 坂本眞一 特別インタビュー 第3回 を公開しました 2026.09.24 国立西洋美術館ウェブサイトにて、関連プログラムの情報を公開しました。 2026.09.15 TURNERページ 坂本眞一 特別インタビュー 第2回 を公開しました 2026.09.08 チケットページ ・ TURNERページ ・ グッズ・図録ページ ・ 音声ガイドページ を更新しました 2026.5.13 公式サイトを公開しました ABOUT 本展に ついて 絵画は、 ターナーによって 自由になった 英国絵画史上、もっとも偉大な画家、J.M.W. ターナー。 絵画史に新地平を切り拓いたターナーは、移ろう「光」や「大気」をはじめとする世界のありようをときに克明に、ときに抽象化して描きだしました。彼の作品は、見る者に自然の「崇高」を経験させるものとして高く評価されてきました。本展は、世界最大のターナー・コレクションを誇るロンドンのテート美術館が所蔵する油彩・水彩画など80点以上を紹介する、待望の大回顧展です。 本展では、ターナーの作品群をテーマごとに再編し、ゆるやかな時系列に沿って展示します。さらに、ターナーの絵画と現代美術を併置して対話させ、この巨匠の問題意識が後世のアーティストたちの関心とも響きあうことに眼を向けます。 《ターナーの肖像》（J.M.W. ターナーの原画にもとづくウィリアム・ホールの版刻） 1859-61年 エングレーヴィング／紙 テート美術館 Photo: Tate ジョゼフ・ マロード・ ウィリアム・ ターナー （1775–1851年） 「光の画家」とも呼ばれ、英国ロマン主義を代表する芸術家。 10代から画家として頭角を現し、弱冠26歳にして英国美術界の最高権威であったロイヤル・アカデミーの正会員となる。信念を貫く寡黙な人柄だったとされ、終生画業に専心した。自然にたいする鋭敏な感覚と実験的な絵画表現によって風景画のありかたを一変させ、後世のモネら印象派の試みに先行した画家ともいわれている。 展覧会構成 ターナーの絵画がもたらす感動を、さまざまなコラボレーションをつうじて、日常の風景へとひらいていくプロジェクト",
+            "checked_at": "2026-11-14T16:26:43+09:00",
+            "sha256": "5af23decf6dbf6f7de91fc4cc6b7579af84efb0e29804f160ac0b09ca47151c5"
+          }
+        ]
+      }
+    },
+    "reservation": {
+      "required": null,
+      "note": "月曜休館、11/23は開館・11/24休館。入場方法や販売先の条件は公式チケット案内を確認。"
+    },
+    "indoor_outdoor": "",
+    "ai": {
+      "checked_at": "2026-11-14",
+      "confidence": "high",
+      "discovery_query": "ためまっぷを除く未照合候補の公式本文確認。既存448個票と参加単位・日付・会場を照合。"
+    },
+    "discovery_sources": [
+      {
+        "channel": "ai_cross_search",
+        "kind": "official_body_review",
+        "url": "https://turner2026-27.exhibit.jp/outline/index.html"
+      }
+    ]
+  },
+  {
+    "id": "next-primary-20261213-nakano-hee-haw-meal",
+    "ward": "中野区",
+    "name": "えんためこども食堂ひーほー",
+    "url": "https://nakanoshakyo.com/nakanoinfo/event/result/?did=14575",
+    "official_url": "https://nakanoshakyo.com/nakanoinfo/event/result/?did=14575",
+    "source": "https://nakanoshakyo.com/nakanoinfo/event/result/?did=14575",
+    "image": "",
+    "period": "12/13",
+    "date_start": "2026-12-13",
+    "date_end": "2026-12-13",
+    "time": "17:00〜18:30（小学1〜3年）／19:00〜20:30（小学4〜6年）",
+    "venue": "HEE-HAW（弥生町4-24-1 シャンポール南中野105）",
+    "price": "子ども無料、大人300円",
+    "description": "芸人によるパフォーマンスと食事を提供する子ども食堂。1部と2部で対象学年が異なる。 対象：1部は小学1〜3年生、2部は小学4〜6年生。 当日15:30に店頭整理券配布。各部20人（保護者・兄弟姉妹を含む）。食事内容・アレルギー対応は事前確認。",
+    "categories": [
+      "親子・地域体験"
+    ],
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "小学生が食事と演芸を楽しみ、地域の人と交流できる。 夕方・夜間の90分枠。15:30の店頭整理券配布と再来店の負担があり、各部20人には保護者・兄弟姉妹も含む。",
+      "axes": {
+        "child_target": {
+          "grade": "A",
+          "reason": "1部は小学1〜3年生、2部は小学4〜6年生。"
+        },
+        "interactivity": {
+          "grade": "B",
+          "reason": "小学生が食事と演芸を楽しみ、地域の人と交流できる。"
+        },
+        "age_fit": {
+          "grade": "A",
+          "reason": "1部は小学1〜3年生、2部は小学4〜6年生。 夕方・夜間の90分枠。15:30の店頭整理券配布と再来店の負担があり、各部20人には保護者・兄弟姉妹も含む。"
+        },
+        "stay_flexibility": {
+          "grade": "unknown",
+          "reason": "途中入退場・滞在時間の自由度は、明記された場合を除き要確認。"
+        },
+        "burden": {
+          "grade": "unknown",
+          "reason": "混雑、設備、休憩場所など未記載の条件は要確認。"
+        },
+        "cost": {
+          "grade": "B",
+          "reason": "子ども無料、大人300円"
+        },
+        "reservation": {
+          "grade": "A",
+          "reason": "当日15:30に店頭整理券配布。各部20人（保護者・兄弟姉妹を含む）。食事内容・アレルギー対応は事前確認。"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "小学生が食事と演芸を楽しみ、地域の人と交流できる。"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-14",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "child_program",
+        "child_activity_confirmed": false,
+        "strengths": [
+          "小学生が食事と演芸を楽しみ、地域の人と交流できる。"
+        ],
+        "limitations": [
+          "夕方・夜間の90分枠。15:30の店頭整理券配布と再来店の負担があり、各部20人には保護者・兄弟姉妹も含む。"
+        ],
+        "grade_comparison": "総合B：小学生が食事と演芸を楽しみ、地域の人と交流できる。 夕方・夜間の90分枠。15:30の店頭整理券配布と再来店の負担があり、各部20人には保護者・兄弟姉妹も含む。",
+        "unsupported_axes": [
+          "stay_flexibility",
+          "burden"
+        ],
+        "evidence": [
+          {
+            "url": "https://nakanoshakyo.com/nakanoinfo/event/result/?did=14575",
+            "quote": "なかの情報 | 社会福祉法人 中野区社会福祉協議会 イベント・講座・助成金 情報掲載日：2026年9月18日 えんためこども食堂ひーほー 開催場所 南部地域 開催日 土日祝午後 土日祝夜間 助成金 内容 趣旨 地域のこどもたちに美味しく楽しいひとときを！ 芸人さんによるパフォーマンスと食事を提供します！🍴✨ 日時 毎月第2日曜日に開催🍳💫 2026年 9月13日 日曜日 10月11日 日曜日 11月8日 日曜日 12月13日 日曜日 2027年 1月10日 日曜日 2月14日 日曜日 3月14日 日曜日 【1部】 17:00～18：30（対象：小学１～3年生） 【2部】 19：00～20：30（対象：小学４～6年生） 会場 中野区弥生町４－２４－１ シャンポール南中野105 カントリー＆ウェスタン風酒場HEE-HAW 参加費 こども：無料 おとな：300円 その他 【対象】 〈1部〉 17:00～18：30 小学１～3年生 定員20名 〈2部〉 19：00～20：30 小学４～6年生 定員20名 ※定員は保護者、兄弟姉妹を含み20名です。 申込締切日 当日15：30に店で整理券を配布します。 問い合わせ先 カントリー＆ウェスタン風酒場HEE-HAW 甚平店主Nsan≪えぬさん≫ 03-3384-9657 団体・施設情報 団体名： 戻る",
+            "checked_at": "2026-11-14T18:03:30+09:00",
+            "sha256": "acd940cfdd834730b8f2f843046a1e4bcb28268d00362a7235c561579588eb09"
+          }
+        ]
+      }
+    },
+    "reservation": {
+      "required": false,
+      "note": "当日15:30に店頭整理券配布。各部20人（保護者・兄弟姉妹を含む）。食事内容・アレルギー対応は事前確認。"
+    },
+    "indoor_outdoor": "",
+    "ai": {
+      "checked_at": "2026-11-14",
+      "confidence": "high",
+      "discovery_query": "ためまっぷを除く未照合候補の公式本文確認。既存448個票と参加単位・日付・会場を照合。"
+    },
+    "discovery_sources": [
+      {
+        "channel": "ai_cross_search",
+        "kind": "official_body_review",
+        "url": "https://nakanoshakyo.com/nakanoinfo/event/result/?did=14575"
+      }
+    ]
+  }
+]

@@ -1,0 +1,376 @@
+[
+  {
+    "id": "verified-20261205-setagaya-futakotamagawa-rise-skate-garden-2026",
+    "ward": "世田谷区",
+    "name": "二子玉川ライズ スケートガーデン 2026",
+    "url": "https://www.rise.sc/eventnews/detail/?cd=001500",
+    "official_url": "https://www.rise.sc/eventnews/detail/?cd=001500",
+    "source": "https://www.rise.sc/eventnews/detail/?cd=001500",
+    "image": "https://www.rise.sc/uploads/images/resized/0x0/rise/000008/000008/02aff602.png",
+    "period": "〜2/28(日)の毎日（12/5開幕）",
+    "date_start": "2026-12-05",
+    "date_end": "2027-02-28",
+    "time": "平日13:00〜19:00／土日祝11:00〜19:00（受付は18:30まで。12/5は13:00〜）",
+    "venue": "二子玉川ライズ 中央広場（世田谷区玉川2-21-1）",
+    "price": "未就学児1,200円・小学生1,700円・学生2,000円・大人2,200円（貸靴代込）。17時以降は500円引",
+    "description": "本物の氷を張った期間限定の屋外スケートリンク。ワンポイントレッスン（10分1,000円）やスケート遊具（20分500円）もあり、初めての子どもも滑れる。",
+    "categories": [
+      "体験・ワークショップ",
+      "スポーツ・体を動かす"
+    ],
+    "indoor_outdoor": "屋外",
+    "reservation": {
+      "required": false,
+      "note": "当日券売機で購入。手袋着用が必須。混雑時は入場制限あり。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "二子玉川ライズの中央広場で2027年2月28日まで続く屋外スケートリンク。未就学児から滑れる料金設定があり、初心者向けのワンポイントレッスンもある。",
+      "axes": {
+        "child_target": {
+          "grade": "B",
+          "reason": "対象の限定はなく、家族で楽しめる"
+        },
+        "interactivity": {
+          "grade": "B",
+          "reason": "ステージを見ながら参加できる部分がある"
+        },
+        "age_fit": {
+          "grade": "B",
+          "reason": "年齢の限定はない"
+        },
+        "stay_flexibility": {
+          "grade": "A",
+          "reason": "期間が長く、好きな時間に行ける"
+        },
+        "burden": {
+          "grade": "B",
+          "reason": "屋外のため、寒さと混雑に注意"
+        },
+        "cost": {
+          "grade": "C",
+          "reason": "有料で、費用がかかる"
+        },
+        "reservation": {
+          "grade": "A",
+          "reason": "申込・予約の記載なし。当日行ける"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "家族で楽しめる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-22",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "all_ages",
+        "child_activity_confirmed": false,
+        "strengths": [
+          "未就学児から料金が設定され、初心者向けレッスンもある",
+          "期間が長く、好きな日に行ける"
+        ],
+        "limitations": [
+          "料金は1人1,200〜2,200円と高め",
+          "手袋が必須で、混雑時は入場制限がある"
+        ],
+        "grade_comparison": "総合B：屋外の本格スケートで、未就学児から滑れる。1人1,200円〜の費用と混雑に注意。",
+        "unsupported_axes": [],
+        "evidence": [
+          {
+            "url": "https://www.rise.sc/eventnews/detail/?cd=001500",
+            "quote": "本物の氷を張った、期間限定の屋外スケートリンク「二子玉川ライズ スケートガーデン」が今年も開催します！",
+            "checked_at": "2026-11-22",
+            "sha256": "7a9c5ee83c94145e69f7d0f67647d6b9504d423d09c5f7b93d6646d6e8cb453f",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-22にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.rise.sc/eventnews/detail/?cd=001500",
+            "quote": "1,200円（貸靴代込）",
+            "checked_at": "2026-11-22",
+            "sha256": "72702ce07812197a5f9058fe5209419910f7500b6693e65ac450a2b193f0094c",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-22にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.rise.sc/eventnews/detail/?cd=001500",
+            "quote": "土日祝 11：00～19：00（18：30受付終了）",
+            "checked_at": "2026-11-22",
+            "sha256": "d3e5b924d474df7bd6a36d1c06ef126a38efc2e7a65d17b5b5dd09c81a093227",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-22にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-22",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  },
+  {
+    "id": "verified-20261205-setagaya-futakotamagawa-rise-skate-opening",
+    "ward": "世田谷区",
+    "name": "二子玉川ライズ スケートガーデン オープニングイベント",
+    "url": "https://www.rise.sc/eventnews/detail/?cd=001535",
+    "official_url": "https://www.rise.sc/eventnews/detail/?cd=001535",
+    "source": "https://www.rise.sc/eventnews/detail/?cd=001535",
+    "image": "https://www.rise.sc/uploads/images/resized/0x0/rise/000008/000008/00e8f947.png",
+    "period": "12/5(土)",
+    "date_start": "2026-12-05",
+    "date_end": "2026-12-05",
+    "time": "12:00〜12:45",
+    "venue": "二子玉川ライズ 中央広場（世田谷区玉川2-21-1）",
+    "price": "オープン初日の12月5日（土）は豪華なゲストを招いたオープニングイベントを実施！",
+    "description": "プロスケーターの織田信成さんのパフォーマンスとスケートクイズ対決があるスケートガーデンの開幕イベント。",
+    "categories": [
+      "まつり・イベント",
+      "スポーツ・体を動かす"
+    ],
+    "indoor_outdoor": "屋外",
+    "reservation": {
+      "required": false,
+      "note": "申込・予約の記載なし。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "スケートガーデンの開幕日に、織田信成さんのパフォーマンスとスケートクイズ対決を無料で観られる。",
+      "axes": {
+        "child_target": {
+          "grade": "B",
+          "reason": "対象の限定はなく、家族で楽しめる"
+        },
+        "interactivity": {
+          "grade": "B",
+          "reason": "ステージを見ながら参加できる部分がある"
+        },
+        "age_fit": {
+          "grade": "B",
+          "reason": "年齢の限定はない"
+        },
+        "stay_flexibility": {
+          "grade": "C",
+          "reason": "決まった日・回に合わせる必要がある"
+        },
+        "burden": {
+          "grade": "B",
+          "reason": "屋外のため、寒さと混雑に注意"
+        },
+        "cost": {
+          "grade": "A",
+          "reason": "無料"
+        },
+        "reservation": {
+          "grade": "A",
+          "reason": "申込・予約の記載なし。当日行ける"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "家族で楽しめる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-22",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "all_ages",
+        "child_activity_confirmed": false,
+        "strengths": [
+          "観覧無料",
+          "クイズ対決で観客も参加できる"
+        ],
+        "limitations": [
+          "45分の短いステージ",
+          "メディア取材で撮影に映り込むことがある"
+        ],
+        "grade_comparison": "総合B：無料のステージ。短時間で、同じ日にスケートも楽しめる。",
+        "unsupported_axes": [],
+        "evidence": [
+          {
+            "url": "https://www.rise.sc/eventnews/detail/?cd=001535",
+            "quote": "オープン初日の12月5日（土）は豪華なゲストを招いたオープニングイベントを実施！",
+            "checked_at": "2026-11-22",
+            "sha256": "17690423f7ff07d68c31bfb09e781e499310f495335aab29ee3ea14e1230eea0",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-22にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.rise.sc/eventnews/detail/?cd=001535",
+            "quote": "開催日時：2026年12月5日（土）12：00～12：45",
+            "checked_at": "2026-11-22",
+            "sha256": "3d209ceb132709150df10b442f75eef94fee28b180259c2b0d8ccbd65d52ba36",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-22にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.rise.sc/eventnews/detail/?cd=001535",
+            "quote": "織田さんの演技の後は是非みんなでスケートにチャレンジしてみましょう♪",
+            "checked_at": "2026-11-22",
+            "sha256": "62adb22c038ee2418560b335ec4c1a11cc403edcd2f5e52433099297db8d44c5",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-22にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-22",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  },
+  {
+    "id": "verified-20261205-setagaya-futakotamagawa-rise-black-rams-send-off",
+    "ward": "世田谷区",
+    "name": "ブラックラムズ東京 2026-27シーズン 出陣式",
+    "url": "https://www.rise.sc/eventnews/detail/?cd=001512",
+    "official_url": "https://www.rise.sc/eventnews/detail/?cd=001512",
+    "source": "https://www.rise.sc/eventnews/detail/?cd=001512",
+    "image": "https://www.rise.sc/uploads/images/resized/0x0/rise/000008/000008/b04435de.png",
+    "period": "12/5(土)",
+    "date_start": "2026-12-05",
+    "date_end": "2026-12-05",
+    "time": "選手登壇出陣式 11:00〜11:30（予定）",
+    "venue": "ガレリア（二子玉川ライズ、世田谷区玉川2-21-1）",
+    "price": "公式ページに参加費の記載なし（要確認）",
+    "description": "ラグビーチームの選手が登壇する出陣式に加え、ラグビー体験会、グッズ販売、マスコットのラムまるグリーティングがある。",
+    "categories": [
+      "まつり・イベント",
+      "スポーツ・体を動かす"
+    ],
+    "indoor_outdoor": "屋外",
+    "reservation": {
+      "required": false,
+      "note": "申込・予約の記載なし。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "世田谷区のラグビーチームの出陣式で、ラグビー体験会とマスコットのグリーティングがある。内容は予定で、詳細は決まり次第案内される。",
+      "axes": {
+        "child_target": {
+          "grade": "B",
+          "reason": "対象の限定はなく、家族で楽しめる"
+        },
+        "interactivity": {
+          "grade": "B",
+          "reason": "ステージを見ながら参加できる部分がある"
+        },
+        "age_fit": {
+          "grade": "B",
+          "reason": "年齢の限定はない"
+        },
+        "stay_flexibility": {
+          "grade": "C",
+          "reason": "決まった日・回に合わせる必要がある"
+        },
+        "burden": {
+          "grade": "B",
+          "reason": "屋外のため、寒さと混雑に注意"
+        },
+        "cost": {
+          "grade": "unknown",
+          "reason": "公式ページに記載がない"
+        },
+        "reservation": {
+          "grade": "A",
+          "reason": "申込・予約の記載なし。当日行ける"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "家族で楽しめる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-22",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "all_ages",
+        "child_activity_confirmed": false,
+        "strengths": [
+          "ラグビー体験会とマスコットのグリーティングがある",
+          "選手を間近で見られる"
+        ],
+        "limitations": [
+          "内容は予定で、体験会の時間は未発表",
+          "参加費は公式ページに記載がない"
+        ],
+        "grade_comparison": "総合B：スポーツ体験つきの出陣式。時間と内容は公式の続報を確認。",
+        "unsupported_axes": [
+          "cost"
+        ],
+        "evidence": [
+          {
+            "url": "https://www.rise.sc/eventnews/detail/?cd=001512",
+            "quote": "選手登壇出陣式（11:00～11:30予定）",
+            "checked_at": "2026-11-22",
+            "sha256": "dd088e51f62832ca5501d7696916cb311a09d36bb4942441efb33bada5579944",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-22にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.rise.sc/eventnews/detail/?cd=001512",
+            "quote": "ラグビー体験会、グッズ販売、ラムまるグリーティング 他",
+            "checked_at": "2026-11-22",
+            "sha256": "0321fdad366ea417d5886959b39f41a42ede61c4dd893188e832729a684d1cfd",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-22にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.rise.sc/eventnews/detail/?cd=001512",
+            "quote": "2026年12月5日（土）",
+            "checked_at": "2026-11-22",
+            "sha256": "1798d8bd000b31af7bafb0fb1e377050ecefb3007e4eba875007c4104ac7f881",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-22にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-22",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  }
+]

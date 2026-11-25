@@ -1,0 +1,408 @@
+[
+  {
+    "id": "verified-20261121-arakawa-nippori-holiday-park",
+    "ward": "荒川区",
+    "name": "にっぽり・ホリデー・パーク（日暮里駅前イベント広場）",
+    "url": "https://www.city.arakawa.tokyo.jp/a022/event/eventkouenmeigi/nipporiholidayparkr8112122.html",
+    "official_url": "https://www.city.arakawa.tokyo.jp/a022/event/eventkouenmeigi/nipporiholidayparkr8112122.html",
+    "source": "https://www.city.arakawa.tokyo.jp/a022/event/eventkouenmeigi/nipporiholidayparkr8112122.html",
+    "image": "",
+    "period": "11/21(土)",
+    "date_start": "2026-11-21",
+    "date_end": "2026-11-21",
+    "time": "10:00〜17:00",
+    "venue": "日暮里駅前イベント広場（荒川区西日暮里二丁目24番）",
+    "price": "入場の可否は公式ページに記載なし。ゲーム・アトラクション、飲食ブースなど費用が掛かるものがある",
+    "description": "日暮里駅前イベント広場で、子どもから大人まで遊べるゲーム・アトラクション、飲食ブース、屋外ステージを開催する。荒天の場合は中止になることがある。",
+    "categories": [
+      "まつり・イベント",
+      "親子・地域体験"
+    ],
+    "indoor_outdoor": "屋外",
+    "reservation": {
+      "required": null,
+      "note": "公式ページに事前申込の記載なし。荒天時は主催のバイタル・プロジェクトのInstagramで確認。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "公式ページに子どもから大人まで遊べるゲーム・アトラクションと記載があり、11/21の10〜17時に駅前広場で遊べる。",
+      "axes": {
+        "child_target": {
+          "grade": "B",
+          "reason": "公式ページに「子どもから大人まで遊べる」とある"
+        },
+        "interactivity": {
+          "grade": "B",
+          "reason": "ゲーム・アトラクションと屋外ステージがある"
+        },
+        "age_fit": {
+          "grade": "unknown",
+          "reason": "対象年齢の目安は明記がない"
+        },
+        "stay_flexibility": {
+          "grade": "A",
+          "reason": "10〜17時の間に出入りして遊べる"
+        },
+        "burden": {
+          "grade": "B",
+          "reason": "屋外開催で荒天時は中止になることがある"
+        },
+        "cost": {
+          "grade": "unknown",
+          "reason": "費用が掛かるものがあるとだけ記載され、金額は不明"
+        },
+        "reservation": {
+          "grade": "unknown",
+          "reason": "事前申込の記載がない"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "駅前広場で子どもが遊べる体験と飲食が一か所にある"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-21",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "all_ages",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "ゲーム・アトラクションが複数ある",
+          "10〜17時で出入り自由に近い"
+        ],
+        "limitations": [
+          "屋外で荒天時は中止",
+          "有料のブースがあり金額は不明"
+        ],
+        "grade_comparison": "総合B：11/21の日暮里駅前で10〜17時に遊べるが、屋外で天候の影響があり、費用の金額は公式ページにない。",
+        "unsupported_axes": [
+          "age_fit",
+          "cost",
+          "reservation"
+        ],
+        "evidence": [
+          {
+            "url": "https://www.city.arakawa.tokyo.jp/a022/event/eventkouenmeigi/nipporiholidayparkr8112122.html",
+            "quote": "子どもから大人まで遊べるゲーム・アトラクション",
+            "checked_at": "2026-11-21",
+            "sha256": "0cbde4760a58b414f98238f2d9916c6962fa80d378df02452be8a5d776cec8a5",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "荒川区公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.arakawa.tokyo.jp/a022/event/eventkouenmeigi/nipporiholidayparkr8112122.html",
+            "quote": "日暮里駅前イベント広場（荒川区西日暮里二丁目24番）",
+            "checked_at": "2026-11-21",
+            "sha256": "10da381f06c1cf19d1dc843fe3c99f0243b45b72641b08f9cb9a6e694096b230",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "荒川区公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.arakawa.tokyo.jp/a022/event/eventkouenmeigi/nipporiholidayparkr8112122.html",
+            "quote": "両日　午前10時から午後5時まで",
+            "checked_at": "2026-11-21",
+            "sha256": "357fe9779d349f8d26fb1898034ef976cc757dae766c89b97408a59f40e60608",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "荒川区公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.arakawa.tokyo.jp/a022/event/eventkouenmeigi/nipporiholidayparkr8112122.html",
+            "quote": "ゲーム・アトラクション、飲食ブースなど費用が掛かるものがあります",
+            "checked_at": "2026-11-21",
+            "sha256": "a97c550d4f3c8f73f7f99db5b069ba9c62081dda52df3fb8b292e392836ba748",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "荒川区公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-21",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  },
+  {
+    "id": "verified-20261122-arakawa-nippori-holiday-park",
+    "ward": "荒川区",
+    "name": "にっぽり・ホリデー・パーク（日暮里駅前イベント広場）",
+    "url": "https://www.city.arakawa.tokyo.jp/a022/event/eventkouenmeigi/nipporiholidayparkr8112122.html",
+    "official_url": "https://www.city.arakawa.tokyo.jp/a022/event/eventkouenmeigi/nipporiholidayparkr8112122.html",
+    "source": "https://www.city.arakawa.tokyo.jp/a022/event/eventkouenmeigi/nipporiholidayparkr8112122.html",
+    "image": "",
+    "period": "11/22(日)",
+    "date_start": "2026-11-22",
+    "date_end": "2026-11-22",
+    "time": "10:00〜17:00",
+    "venue": "日暮里駅前イベント広場（荒川区西日暮里二丁目24番）",
+    "price": "入場の可否は公式ページに記載なし。ゲーム・アトラクション、飲食ブースなど費用が掛かるものがある",
+    "description": "日暮里駅前イベント広場で、子どもから大人まで遊べるゲーム・アトラクション、飲食ブース、屋外ステージを開催する。荒天の場合は中止になることがある。",
+    "categories": [
+      "まつり・イベント",
+      "親子・地域体験"
+    ],
+    "indoor_outdoor": "屋外",
+    "reservation": {
+      "required": null,
+      "note": "公式ページに事前申込の記載なし。荒天時は主催のバイタル・プロジェクトのInstagramで確認。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "公式ページに子どもから大人まで遊べるゲーム・アトラクションと記載があり、11/22の10〜17時に駅前広場で遊べる。",
+      "axes": {
+        "child_target": {
+          "grade": "B",
+          "reason": "公式ページに「子どもから大人まで遊べる」とある"
+        },
+        "interactivity": {
+          "grade": "B",
+          "reason": "ゲーム・アトラクションと屋外ステージがある"
+        },
+        "age_fit": {
+          "grade": "unknown",
+          "reason": "対象年齢の目安は明記がない"
+        },
+        "stay_flexibility": {
+          "grade": "A",
+          "reason": "10〜17時の間に出入りして遊べる"
+        },
+        "burden": {
+          "grade": "B",
+          "reason": "屋外開催で荒天時は中止になることがある"
+        },
+        "cost": {
+          "grade": "unknown",
+          "reason": "費用が掛かるものがあるとだけ記載され、金額は不明"
+        },
+        "reservation": {
+          "grade": "unknown",
+          "reason": "事前申込の記載がない"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "駅前広場で子どもが遊べる体験と飲食が一か所にある"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-21",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "all_ages",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "ゲーム・アトラクションが複数ある",
+          "10〜17時で出入り自由に近い"
+        ],
+        "limitations": [
+          "屋外で荒天時は中止",
+          "有料のブースがあり金額は不明"
+        ],
+        "grade_comparison": "総合B：11/22の日暮里駅前で10〜17時に遊べるが、屋外で天候の影響があり、費用の金額は公式ページにない。",
+        "unsupported_axes": [
+          "age_fit",
+          "cost",
+          "reservation"
+        ],
+        "evidence": [
+          {
+            "url": "https://www.city.arakawa.tokyo.jp/a022/event/eventkouenmeigi/nipporiholidayparkr8112122.html",
+            "quote": "子どもから大人まで遊べるゲーム・アトラクション",
+            "checked_at": "2026-11-21",
+            "sha256": "0cbde4760a58b414f98238f2d9916c6962fa80d378df02452be8a5d776cec8a5",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "荒川区公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.arakawa.tokyo.jp/a022/event/eventkouenmeigi/nipporiholidayparkr8112122.html",
+            "quote": "日暮里駅前イベント広場（荒川区西日暮里二丁目24番）",
+            "checked_at": "2026-11-21",
+            "sha256": "10da381f06c1cf19d1dc843fe3c99f0243b45b72641b08f9cb9a6e694096b230",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "荒川区公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.arakawa.tokyo.jp/a022/event/eventkouenmeigi/nipporiholidayparkr8112122.html",
+            "quote": "両日　午前10時から午後5時まで",
+            "checked_at": "2026-11-21",
+            "sha256": "357fe9779d349f8d26fb1898034ef976cc757dae766c89b97408a59f40e60608",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "荒川区公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.arakawa.tokyo.jp/a022/event/eventkouenmeigi/nipporiholidayparkr8112122.html",
+            "quote": "ゲーム・アトラクション、飲食ブースなど費用が掛かるものがあります",
+            "checked_at": "2026-11-21",
+            "sha256": "a97c550d4f3c8f73f7f99db5b069ba9c62081dda52df3fb8b292e392836ba748",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "荒川区公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-21",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  },
+  {
+    "id": "verified-20261122-arakawa-gassyotai-workshop",
+    "ward": "荒川区",
+    "name": "東京荒川少年少女合唱隊 合唱ワークショップ（冬）",
+    "url": "https://www.city.arakawa.tokyo.jp/a015/event/workshop_gassyotai.html",
+    "official_url": "https://www.city.arakawa.tokyo.jp/a015/event/workshop_gassyotai.html",
+    "source": "https://www.city.arakawa.tokyo.jp/a015/event/workshop_gassyotai.html",
+    "image": "https://www.city.arakawa.tokyo.jp/images/46863/akt_workshop_2026.jpg",
+    "period": "11/22(日)",
+    "date_start": "2026-11-22",
+    "date_end": "2026-11-22",
+    "time": "11:00〜11:30",
+    "venue": "夕やけこやけふれあい館、生涯学習センター（公式ページは両施設を併記し、日ごとの会場の区別は記載なし）",
+    "price": "無料",
+    "description": "東京荒川少年少女合唱隊のワークショップに参加し、定期演奏会の舞台で一緒に歌う。対象は年長・小学生・中学生。",
+    "categories": [
+      "音楽",
+      "体験・ワークショップ"
+    ],
+    "indoor_outdoor": "屋内",
+    "reservation": {
+      "required": null,
+      "note": "申込方法は東京荒川少年少女合唱隊のホームページで確認するよう公式ページに記載（詳細は不明）。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "対象が年長・小学生・中学生で、11/22の11時から30分、合唱隊と一緒に歌う子ども向けの体験で、費用は無料と公式ページに記載がある。",
+      "axes": {
+        "child_target": {
+          "grade": "A",
+          "reason": "公式ページの対象者が年長・小学生・中学生"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "合唱隊と一緒に歌う参加型の体験"
+        },
+        "age_fit": {
+          "grade": "B",
+          "reason": "年長から中学生までと幅がある"
+        },
+        "stay_flexibility": {
+          "grade": "C",
+          "reason": "30分の短い枠で時間は固定"
+        },
+        "burden": {
+          "grade": "B",
+          "reason": "会場が2施設併記で当日の会場は申込先で確認が要る"
+        },
+        "cost": {
+          "grade": "A",
+          "reason": "費用は無料と記載"
+        },
+        "reservation": {
+          "grade": "unknown",
+          "reason": "申込方法は合唱隊のホームページで確認とあり、締切などは不明"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "子どもが演奏会の舞台に向けて歌える機会"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-21",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "child_program",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "対象が年長から中学生と明記",
+          "費用無料"
+        ],
+        "limitations": [
+          "30分の短い枠",
+          "会場と申込の詳細が公式ページにない"
+        ],
+        "grade_comparison": "総合B：11/2211時の30分、年長〜中学生向けで無料だが、会場の区別と申込の詳細は公式ページにない。",
+        "unsupported_axes": [
+          "reservation"
+        ],
+        "evidence": [
+          {
+            "url": "https://www.city.arakawa.tokyo.jp/a015/event/workshop_gassyotai.html",
+            "quote": "東京荒川少年少女合唱隊のワークショップに参加し、定期演奏会の舞台で一緒に歌いませんか？",
+            "checked_at": "2026-11-21",
+            "sha256": "0f00536746c7426a43575e3916cd027a0278f32a3877f09dbf2fa692660cdb52",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "荒川区公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.arakawa.tokyo.jp/a015/event/workshop_gassyotai.html",
+            "quote": "対象者　年長、小学生、中学生",
+            "checked_at": "2026-11-21",
+            "sha256": "5d2864cbe2e9bcbdd41529717bd5ed8d7893f3aac284fea1a19280276adb5b38",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "荒川区公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.arakawa.tokyo.jp/a015/event/workshop_gassyotai.html",
+            "quote": "午前11時00分から午前11時30分",
+            "checked_at": "2026-11-21",
+            "sha256": "1733a38213d376b2039e84a2727302d83d21ba1cd921fcd40c76e453ebd53084",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "荒川区公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.arakawa.tokyo.jp/a015/event/workshop_gassyotai.html",
+            "quote": "夕やけこやけふれあい館、生涯学習センター",
+            "checked_at": "2026-11-21",
+            "sha256": "785d22c336a343df28e08ea23cb189b088099dff3fe650028680688ec2335832",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "荒川区公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-21",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  }
+]
