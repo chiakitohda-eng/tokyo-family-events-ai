@@ -1,0 +1,2 @@
+page1 https://www.tnm.jp/modules/r_event/index.php?controller=dtl&cid=15&id=11858 200 94020
+page2 https://www.tnm.jp/modules/r_event/index.php?controller=dtl&cid=15&id=11859 200 94154
