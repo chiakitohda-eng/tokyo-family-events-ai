@@ -1,60 +1,340 @@
 {
   "schema_version": 1,
-  "reviewed_at_jst": "2026-10-28",
-  "overview": "イベント情報の取得や照合で、まだ確認・修正が必要なことをまとめています。表示中のイベントがすべて誤っているという意味ではありません。",
+  "reviewed_at_jst": "2026-11-15",
+  "overview": "現在の残課題と、対象範囲の対応が完了した記録を分けて表示します。完了した対応は残課題の件数に含めません。",
   "issue_status_source": "source_audit_for_connection; issue_tracking_for_review",
   "issues": [
     {
       "id": "tamemap-nakano",
       "category": "connection",
       "source_id": "tamemap_nakano",
-      "title": "ためまっぷなかのを自動で確認できない",
+      "title": "ためまっぷの追加調査は保留",
       "impact": "中野区の地域イベントを一部見つけられない可能性があります。",
-      "now": "月別カレンダーに加え、新着一覧も収集候補に登録しました。ただし自動取得はアクセス制限で止まっています。",
+      "now": "利用者の指定により、ためまっぷは現在の追加調査の対象外です。過去の取得失敗と既存の掲載は保持しています。",
       "workaround": "中野区公式カレンダーなど、別の情報源からも探しています。",
-      "next": "取得できる正規の方法を確認し、取得後は開催日や会場も個別に照合します。",
-      "issue_url": "https://github.com/toodataa-ai/tokyo-family-events-ai/issues/65"
+      "next": "調査を再開する指定があるまで保留します。未確認の内容を解決済みにはしません。",
+      "issue_url": "https://github.com/toodataa-ai/tokyo-family-events-ai/issues/65",
+      "work_status": "deferred"
     },
     {
       "id": "itabashi-tourism",
       "category": "connection",
       "source_id": "itabashi_tourism_festival",
-      "title": "板橋観光協会の案内ページにつながらない",
-      "impact": "観光協会独自の案内を確認できず、板橋区内のイベントを一部見逃す可能性があります。",
-      "now": "観光協会のページは取得できていません。別に登録した板橋区公式ページは確認できています。",
+      "title": "板橋区の収集済み候補の照合・追加",
+      "impact": "観光協会独自の案内を取得できない場合、板橋区内のイベントを一部見逃す可能性があります。",
+      "now": "観光協会と区公式の記事を照合し、根拠のそろった祭り・体験・図書館企画などを追加しました。固定候補の掲載済み・期間外・受付終了等の判定も完了しています。",
       "workaround": "板橋区の公式情報と、ほかの地域情報サイトを参照します。",
-      "next": "観光協会の復旧または正式な移転先を確認し、掲載内容を照合します。",
-      "issue_url": "https://github.com/toodataa-ai/tokyo-family-events-ai/issues/65"
+      "next": "新着情報と接続状態は、今回の完了記録とは別に確認します。",
+      "issue_url": "https://github.com/toodataa-ai/tokyo-family-events-ai/issues/65",
+      "work_status": "completed",
+      "completed_at": "2026-11-14",
+      "completed_scope": "11月14日に固定した851候補に含まれる、板橋区観光協会・区公式の収集済み記事。今後の新着記事や、サイト内の全記事の確認完了を意味しません。"
     },
     {
       "id": "suginami-candidates",
       "category": "verification",
-      "title": "杉並区のイベント候補をすべて照合しきれていない",
+      "title": "杉並区290候補の判定・確認できた企画の掲載",
       "impact": "公式サイトにある一部の催しが、現在の検索結果に含まれていない可能性があります。",
-      "now": "公式カレンダーから見つけた候補と、すでに載っているイベントを1件ずつ照合しています。",
+      "now": "以前の227候補に含まれていなかった記事も照合し、対象年齢と申込条件を企画ごとに整理して、根拠のそろった企画を本番へ反映しました。",
       "workaround": "すでに確認済みのイベントは引き続き掲載します。類似イベントの重複追加は避けます。",
-      "next": "日時・会場・対象年齢・申込みと、既存の掲載内容を照合してから追加可否を判断します。",
-      "issue_url": "https://github.com/toodataa-ai/tokyo-family-events-ai/issues/52"
+      "next": "根拠不足の保留は「公式根拠が足りない候補・評価の確認」にまとめています。",
+      "issue_url": "https://github.com/toodataa-ai/tokyo-family-events-ai/issues/52",
+      "work_status": "completed",
+      "completed_at": "2026-11-14",
+      "completed_scope": "固定851候補中の杉並区290候補について、掲載済み・追加・期間外・受付終了・保留への判定まで。保留候補の開催確認まで完了したという意味ではありません。"
     },
     {
       "id": "article-leads",
       "category": "verification",
-      "title": "中野・板橋・練馬で見つけた記事の確認が残っている",
-      "impact": "記事に載っている催しの中に、まだ検索へ反映できていないものがあるかもしれません。",
-      "now": "イベント一覧やまとめ記事から候補を収集していますが、記事を見つけただけでは開催が確定しません。",
-      "workaround": "区や主催者の案内で確かめられたイベントは、確認後に順次取り扱います。",
-      "next": "親イベントと内包企画の重複を防ぎ、主催者の一次情報と照合します。",
-      "issue_url": "https://github.com/toodataa-ai/tokyo-family-events-ai/issues/62"
+      "title": "公式根拠が不足している候補の確認（残9件）",
+      "impact": "未掲載8件は開催年・日付・会場・参加条件などを確定できていません。掲載済みのカンボジア水祭り1件は、終了時刻に公式同士の不一致があります。",
+      "now": "未解決は9件です。未掲載8件の開催根拠と、掲載済み1件の終了時刻が残っています。下の9件ごとに、確認済みの内容・不足する根拠・掲載への影響を記載しています。",
+      "workaround": "確認できた催しは掲載を続けています。既存4件の評価根拠と、終了・期間対象外7件の確認結果は、下の「確認済みの記録」に残しています。",
+      "next": "各項目の「確認に必要な資料」が公開された場合に再照合します。根拠不足を理由に掲載を見送っただけでは、確認完了にしません。",
+      "issue_url": "https://github.com/toodataa-ai/tokyo-family-events-ai/issues/62",
+      "work_status": "pending",
+      "review_results": [
+        {
+          "id": "21",
+          "name": "おかのうえプレイルーム「プレム」",
+          "status": "withheld_insufficient_evidence",
+          "reason": "11月28日の告知が2026年の開催か、12月休止のお知らせがプレムも対象か。 開催年を確認できるまで、今年の開催分としては掲載を保留しています。",
+          "sources": [
+            "https://www.higashinonet.com/",
+            "https://www.city.tokyo-nakano.lg.jp/kenko_hukushi/kourei/kaigoyobo/nakakatsuguide.files/higashinakano_nakakatsuguide.pdf"
+          ],
+          "pending_detail": {
+            "blocker": "開催年・12月の休止予定",
+            "confirmed": "主催者の画像告知に11月28日（土）9:30〜11:30、ボクササイズ・ヨガ、無料・予約不要の記載があります。",
+            "missing": "11月28日の告知が2026年の開催か、12月休止のお知らせがプレムも対象か。",
+            "publication_impact": "開催年を確認できるまで、今年の開催分としては掲載を保留しています。",
+            "needed_evidence": "主催者が開催年を明記した案内、または当年の開催予定表。",
+            "publication_status": "未掲載・掲載保留"
+          }
+        },
+        {
+          "id": "22",
+          "name": "おもちゃDAY",
+          "status": "withheld_insufficient_evidence",
+          "reason": "2026年も継続しているか、12月5日の実施・休止と参加条件。 今年の開催日が確定できず、新規掲載を保留しています。",
+          "sources": [
+            "https://kg-tokyo.or.jp/facility/higashi-nakano/cafe/",
+            "https://kg-tokyo.or.jp/info/?category_name=event"
+          ],
+          "pending_detail": {
+            "blocker": "当年の継続・具体的な開催日",
+            "confirmed": "過去の公式案内は毎月第1土曜10:30〜16:00、キングス・カフェ、無料の木のおもちゃ遊びです。",
+            "missing": "2026年も継続しているか、12月5日の実施・休止と参加条件。",
+            "publication_impact": "今年の開催日が確定できず、新規掲載を保留しています。",
+            "needed_evidence": "会場運営法人の当年カレンダーや開催・休止の告知。",
+            "publication_status": "未掲載・掲載保留"
+          }
+        },
+        {
+          "id": "31",
+          "name": "にこにこランチ食堂",
+          "status": "withheld_insufficient_evidence",
+          "reason": "当年の具体的な実施日。同じ会場の「にこにこ茶屋」「城山みんなの食堂」と同一の企画か。 日付と企画を特定できず、掲載を保留しています。",
+          "sources": [
+            "https://www.city.tokyo-nakano.lg.jp/kenko_hukushi/kourei/kaigoyobo/nakakatsuguide.files/nakano_nakakatsuguide.pdf",
+            "https://carepro-navi.jp/nakano/PubOffDetail/show/0/3/9006/R131140168",
+            "https://www.city.tokyo-nakano.lg.jp/kenko_hukushi/soudan/chikihokatsucare/daredemo.html"
+          ],
+          "pending_detail": {
+            "blocker": "具体的な開催日・同名企画の特定",
+            "confirmed": "過去の社協案内には、城山ふれあいの家さくら館2階、月1回不定期12:00〜13:30、大人300円・子ども無料とあります。",
+            "missing": "当年の具体的な実施日。同じ会場の「にこにこ茶屋」「城山みんなの食堂」と同一の企画か。",
+            "publication_impact": "日付と企画を特定できず、掲載を保留しています。",
+            "needed_evidence": "「にこにこランチ食堂」の名称・日付・会場がそろった当年の公式案内。",
+            "publication_status": "未掲載・掲載保留"
+          }
+        },
+        {
+          "id": "33",
+          "name": "はるさんのおしゃべりサロン",
+          "status": "withheld_insufficient_evidence",
+          "reason": "当年の具体的な開催日、子ども同伴の条件と家族で参加できる活動内容。 子連れの参加条件を確認できず、掲載を保留しています。",
+          "sources": [
+            "https://nakanoshakyo.com/service/salon/"
+          ],
+          "pending_detail": {
+            "blocker": "子どもの参加条件・当年の実施日",
+            "confirmed": "社協の現行一覧では、第1土曜10:00〜12:00、宮二町会集会所、300円の茶話会です。",
+            "missing": "当年の具体的な開催日、子ども同伴の条件と家族で参加できる活動内容。",
+            "publication_impact": "子連れの参加条件を確認できず、掲載を保留しています。",
+            "needed_evidence": "社協が公開する対象者・活動内容・当年日程の案内。",
+            "publication_status": "未掲載・掲載保留"
+          }
+        },
+        {
+          "id": "55",
+          "name": "がきんちょ食堂",
+          "status": "withheld_insufficient_evidence",
+          "reason": "2026年11〜12月の実施日・会場・時刻・料金・対象・申込条件。主催者サイトの告知は閲覧できていません。 日付と会場を確定できず、掲載を保留しています。",
+          "sources": [
+            "https://www.city.adachi.tokyo.jp/sesaku/adachiku-kodomosyokudo.html",
+            "https://peraichi.com/landing_pages/view/kodomocienn2915/",
+            "https://lunchicooking.hp.peraichi.com/"
+          ],
+          "pending_detail": {
+            "blocker": "開催日・会場・参加条件",
+            "confirmed": "足立区の公式案内には地域食堂として掲載され、会場は南花畑住区センター「等」となっています。",
+            "missing": "2026年11〜12月の実施日・会場・時刻・料金・対象・申込条件。主催者サイトの告知は閲覧できていません。",
+            "publication_impact": "日付と会場を確定できず、掲載を保留しています。",
+            "needed_evidence": "足立区または主催者が公開する、次回の日付と会場が明記されたチラシ。",
+            "publication_status": "未掲載・掲載保留"
+          }
+        },
+        {
+          "id": "149",
+          "name": "港区の高齢者入浴案内（元記事消失）",
+          "status": "withheld_insufficient_evidence",
+          "reason": "元の記事が現行制度と同じか、別の開催行事か。個別行事なら日付・会場・対象条件。 元の企画を特定できず、家族向けイベントとしての掲載を保留しています。",
+          "sources": [
+            "https://www.city.minato.tokyo.jp/zaitakushien/kenko/fukushi/koresha/sekatsu/nyuyokuken.html"
+          ],
+          "pending_detail": {
+            "blocker": "元の記事が何の案内だったか",
+            "confirmed": "元の港区ページは見つかりません。現在の「高齢者無料入浴券」は70歳以上の区民向けの年間給付制度です。",
+            "missing": "元の記事が現行制度と同じか、別の開催行事か。個別行事なら日付・会場・対象条件。",
+            "publication_impact": "元の企画を特定できず、家族向けイベントとしての掲載を保留しています。",
+            "needed_evidence": "港区の公式移転案内・保存資料、または元の記事を特定できる公式説明。",
+            "publication_status": "未掲載・掲載保留"
+          }
+        },
+        {
+          "id": "226",
+          "name": "働く人の湯｜杉並区公式ホームページ",
+          "status": "withheld_insufficient_evidence",
+          "reason": "杉並区内の各浴場が実施する具体的な日付と営業時間。 全浴場を11月23日開催として一括掲載せず、個別の開催確認を待っています。",
+          "sources": [
+            "https://suginami1010.com/hatarakuhitonoyu/"
+          ],
+          "pending_detail": {
+            "blocker": "浴場ごとの実施日・営業時間",
+            "confirmed": "杉並区と浴場組合の告知で「働く人の湯」を確認していますが、実施日は浴場によって異なります。",
+            "missing": "杉並区内の各浴場が実施する具体的な日付と営業時間。",
+            "publication_impact": "全浴場を11月23日開催として一括掲載せず、個別の開催確認を待っています。",
+            "needed_evidence": "対象浴場が日付と営業時間を明記した当年の公式告知。",
+            "publication_status": "未掲載・掲載保留"
+          }
+        },
+        {
+          "id": "232",
+          "name": "中野区総合防災訓練（元記事消失）",
+          "status": "excluded_confirmed_scope",
+          "reason": "町会の公式告知で2026/11/8 9〜12時、武蔵台小学校の開催を確認。終了済みのため新たな開催分として追加しない。",
+          "sources": [
+            "https://kitasagi.com/?p=1723"
+          ]
+        },
+        {
+          "id": "249",
+          "name": "ハロウィンパレード フォトアルバム",
+          "status": "withheld_insufficient_evidence",
+          "reason": "この写真展示の開催年が2026年か。記事・チラシには年の明記を確認できていません。 開催年を確定できず、今年の開催分としての掲載を保留しています。",
+          "sources": [
+            "https://www.iterrace.jp/event/",
+            "https://www.iterrace.jp/js/pdfjs/web/ec_11.pdf"
+          ],
+          "pending_detail": {
+            "blocker": "開催年",
+            "confirmed": "施設公式案内では、写真展示は10月31日〜11月15日、2階Exhibit Alley、10:00〜20:00（最終日は17:00まで）です。",
+            "missing": "この写真展示の開催年が2026年か。記事・チラシには年の明記を確認できていません。",
+            "publication_impact": "開催年を確定できず、今年の開催分としての掲載を保留しています。",
+            "needed_evidence": "施設が2026年の展示と明記した告知や開催記録。",
+            "publication_status": "未掲載・掲載保留"
+          }
+        },
+        {
+          "id": "436",
+          "name": "中野区の子ども貧困対策講演会（元記事消失）",
+          "status": "excluded_confirmed_scope",
+          "reason": "区公式の保存本文で2026/11/7 14〜16時と確認。終了済み講演会を今後のイベントとして追加しない。",
+          "sources": [
+            "https://www.city.tokyo-nakano.lg.jp/event/kosodate/hinnkontaisakukouennkai.html"
+          ]
+        },
+        {
+          "id": "487",
+          "name": "食の安全・安心懇談会（元記事消失）",
+          "status": "excluded_confirmed_scope",
+          "reason": "区公式の保存本文で2026/11/11水曜14〜16時、10/28申込締切と確認。開催終了・土日祝対象外のため追加しない。",
+          "sources": [
+            "https://www.city.tokyo-nakano.lg.jp/kenko_hukushi/pet-eisei/syokuhineisei/anzen-anshinkondankaimoushikomi.html"
+          ]
+        },
+        {
+          "id": "517",
+          "name": "北部すこやか福祉センター 離乳食講習会",
+          "status": "excluded_confirmed_scope",
+          "reason": "区公式の2026年度日程とセンター10〜11月広報で11/12木曜を確認。以後の初期コースも平日で、対象期間の週末開催はない。",
+          "sources": [
+            "https://www.city.tokyo-nakano.lg.jp/kosodate/kosodatesite_ohirune/mokuteki/kenshin/kouza/reiwa6rinyusyokukosyukai.html",
+            "https://www.city.tokyo-nakano.lg.jp/kosodate/kosodatesite_ohirune/sodan/kosodate/sukoyaka/hokubusukoyaka.files/hokubee1011.pdf"
+          ]
+        },
+        {
+          "id": "560",
+          "name": "中野区の不動産相談（元記事消失）",
+          "status": "excluded_confirmed_scope",
+          "reason": "区公式の保存本文で2026/11/10火曜10〜16時の無料不動産相談と確認。終了した専門相談で、週末の家族向け催事として追加しない。",
+          "sources": [
+            "https://www.city.tokyo-nakano.lg.jp/machizukuri/jyutaku/0686558520231019170416838.html",
+            "https://www.city.tokyo-nakano.lg.jp/kurashi/soudan/soudan/senmon.html"
+          ]
+        },
+        {
+          "id": "617",
+          "name": "杉並区アーチェリー認定会（元記事消失）",
+          "status": "excluded_confirmed_scope",
+          "reason": "主催アーチェリー協会の当年予定JSONで認定講習会は2026/11/8、次回2027/2/20。現在の対象期間に開催なし。射場確保前の予定もある注記を保持し、他の初心者教室を同一催事へ置換しない。",
+          "sources": [
+            "https://suginamiarchery.com/schedule.html",
+            "https://suginamiarchery.com/data/schedule.json"
+          ]
+        },
+        {
+          "id": "687",
+          "name": "杉並区介護の日（元記事消失）",
+          "status": "excluded_confirmed_scope",
+          "reason": "厚生労働省掲載の2026年11月資料で杉並区介護の日イベントは11/10火曜9〜16時、区役所ロビーと確認。旧探索時の11/11ヒントでは日付を作らず、終了済みのため追加しない。",
+          "sources": [
+            "https://www.mhlw.go.jp/content/12000000/001765650.pdf"
+          ]
+        },
+        {
+          "id": "cambodia-water-festival",
+          "name": "カンボジア水祭り",
+          "status": "withheld_insufficient_evidence",
+          "reason": "主催者は18:00終了、公園管理者は19:00終了と案内しており、正しい終了時刻が未確定です。 掲載済みです。画面に18:00／19:00の両記載と確認が必要なことを明示しています。",
+          "sources": [
+            "https://www.tokyo-park.or.jp/park/yoyogi/news/2026/11.html",
+            "https://www.instagram.com/bmi_jp/p/DfZRH7kN5mx/"
+          ],
+          "current_publication_state": "verified_fields_only_end_time_unresolved",
+          "pending_detail": {
+            "blocker": "終了時刻の不一致",
+            "confirmed": "主催者の2026年ポスターで11月21・22日、代々木公園ケヤキ並木、入場無料を確認し、本番へ掲載済みです。",
+            "missing": "主催者は18:00終了、公園管理者は19:00終了と案内しており、正しい終了時刻が未確定です。",
+            "publication_impact": "掲載済みです。画面に18:00／19:00の両記載と確認が必要なことを明示しています。",
+            "needed_evidence": "主催者または公園管理者が終了時刻の差異を解消した公式案内。",
+            "publication_status": "掲載済み・終了時刻未確定"
+          }
+        },
+        {
+          "id": "27",
+          "name": "あすなろまつり2026（あすなろ作業所）",
+          "status": "assessment_reconfirmed",
+          "reason": "主催者の2026年掲示で、ステージ、なみすけ撮影会、バザー・模擬店が確認でき、家族で地域の祭りを共有できる。 一般向けの催しで子ども専用体験は未確認。撮影会は当日10時からの整理券が必要。料金・会場設備・混雑条件の明記は未確認。",
+          "sources": [
+            "https://suginami.goguynet.jp/wp-content/uploads/sites/69/2026/11/IMG_0389-1.jpeg"
+          ]
+        },
+        {
+          "id": "29",
+          "name": "わかばの家 第32回こどもまつり",
+          "status": "assessment_reconfirmed",
+          "reason": "子どもを対象とするゲーム・遊び・イベントコーナーがあり、地域の子どもも午後の部に参加できる。 午前は施設の対象サービス利用児のみ。地域の子どもは11:30〜14:00の午後枠。模擬店や販売品の料金・予約要否は本文で確認できない。 当時の公式公開本文の検索保存で確認。現在の元ページは404または記事一覧へ移動しており、元ページの取得復旧とは区別しています。",
+          "sources": [
+            "https://www.city.ota.tokyo.jp/seikatsu/fukushi/shougai/hoiku_kyoiku/hoiku/kodomo-matsuri_20261108.html"
+          ]
+        },
+        {
+          "id": "36",
+          "name": "食の体験ワークショップ（なかの里・まち連携事業）",
+          "status": "assessment_reconfirmed",
+          "reason": "小学生〜中学生が、おにぎり作りと新米の食べ比べを通して産地や食文化を体験できる。 各回10名・45分の予約制。小学生は保護者の引率が必要で、全回定員到達による予約終了を公式本文が明記している。 当時の公式公開本文の検索保存で確認。現在の元ページは404または記事一覧へ移動しており、元ページの取得復旧とは区別しています。",
+          "sources": [
+            "https://www.city.tokyo-nakano.lg.jp/kanko/machirenkei/shotengai_sinmai.html"
+          ]
+        },
+        {
+          "id": "46",
+          "name": "親子も！シニアも！まちあるきスタンプラリー",
+          "status": "assessment_reconfirmed",
+          "reason": "親子を明示した地域のまち歩きで、ゆかりのスポットのスタンプ集めとミッションに子どもが参加できる。 申込締切は11/3で終了。11/7 14〜16時・最終受付15:30、屋外で小雨決行・荒天中止。移動距離・対象年齢の明記はない。 当時の公式公開本文の検索保存で確認。現在の元ページは404または記事一覧へ移動しており、元ページの取得復旧とは区別しています。",
+          "sources": [
+            "https://nakanoshakyo.com/nakanoinfo/event/result/?did=14585"
+          ]
+        }
+      ],
+      "public_information_only": true,
+      "outbound_contact_allowed": false,
+      "followup_policy": "確認方法は公開情報の照合のみです。利用者の指定により、主催者・自治体への問い合わせは行いません。"
     },
     {
       "id": "weekly-update",
       "category": "verification",
-      "title": "10月26日分のデータ更新に未完了の確認がある",
-      "impact": "この更新分について、見つけた候補がすべて検証・反映済みとはまだ言えません。",
-      "now": "10月26日の更新作業に未完了があるという記録が残っています。現在のイベント全件が未掲載という意味ではありません。",
+      "title": "既存掲載の保護・更新履歴と取得失敗の保持",
+      "impact": "取得失敗によって、既存の掲載が削除されたり、過去の失敗が成功へ書き換わったりすることを防ぎます。",
+      "now": "既存480個票を変更せず、99企画・週別118件を追加して合計598件としたことを実配信で照合しました。評価根拠や対象年齢・申込枠の混同を防ぐ検証も追加しています。",
       "workaround": "それ以前から掲載されているイベントは、取得失敗だけを理由に削除しないルールです。",
-      "next": "必要な参照元と候補の確認を再点検し、検証が済んだ部分から安全に更新します。",
-      "issue_url": "https://github.com/toodataa-ai/tokyo-family-events-ai/issues/41"
+      "next": "過去の取得失敗と根拠不足は記録を残し、現在の残課題で扱います。",
+      "issue_url": "https://github.com/toodataa-ai/tokyo-family-events-ai/issues/41",
+      "work_status": "completed",
+      "completed_at": "2026-11-14",
+      "completed_scope": "現在の更新で旧480個票と履歴・取得失敗が保持されることの検証。10月26日当時の取得失敗そのものを解消したという意味ではありません。"
     }
   ]
 }

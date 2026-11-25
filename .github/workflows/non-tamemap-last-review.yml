@@ -1,0 +1,61 @@
+name: Verify last non-Tamemap additions and preserve all published records
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - 'tools/validate_non_tamemap_last_addition.py'
+      - 'tests/test_non_tamemap_last_gate.py'
+      - 'research/non_tamemap_last_review_20261114/**'
+      - '.github/workflows/non-tamemap-last-review.yml'
+  workflow_dispatch: {}
+permissions:
+  contents: read
+jobs:
+  review:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          path: scanner
+      - uses: actions/checkout@v4
+        with:
+          ref: d05e78f3550ec0f302ab5a3c6550414e7dce5391
+          path: candidate
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Regression suite including old-record and source-error preservation
+        working-directory: scanner
+        run: |
+          npm test
+      - name: Verify the frozen 7-file data candidate and all existing records
+        working-directory: candidate
+        run: |
+          python3 -m unittest discover -s ../scanner/tests -p test_non_tamemap_last_gate.py
+          python3 ../scanner/tools/validate_non_tamemap_last_addition.py --base-ref 99d1082e560ab9469d93ef431af2704fed12e4da
+          python3 ../scanner/tools/validate_data.py --strict --min-image-coverage 0.70 site/data
+          python3 ../scanner/tools/validate_decisions.py --strict site/data
+          python3 ../scanner/tools/validate_rereview.py --strict site/data
+          python3 ../scanner/tools/audit_event_image_identity.py --strict site/data
+          python3 ../scanner/tools/validate_protected_events.py --base-ref 99d1082e560ab9469d93ef431af2704fed12e4da site/data
+          python3 ../scanner/tools/validate_non_regression.py --base-ref 99d1082e560ab9469d93ef431af2704fed12e4da site/data
+          python3 ../scanner/tools/validate_family_fit_quality.py --base-ref 99d1082e560ab9469d93ef431af2704fed12e4da
+      - uses: actions/checkout@v4
+        with:
+          ref: a2aa4a866ab59d1b0a4c0e6835405805a37488a1
+          path: app-candidate
+          fetch-depth: 0
+      - name: Verify isolated factual pending-guidance refresh
+        working-directory: app-candidate
+        shell: bash
+        run: |
+          set -euo pipefail
+          test "$(git rev-parse HEAD^)" = "e311ee769291a84ff7d6b070ac306f6da3b03977"
+          test "$(git diff --name-only HEAD^ HEAD)" = "site/audit/pending_issues_catalog.json"
+          git diff --quiet HEAD^ HEAD -- site/data prompts policy tools
+          npm test

@@ -1,0 +1,54 @@
+name: Verify nine unresolved follow-ups and explicit official time conflict
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - 'tools/validate_nine_followup_addition_20261115.py'
+      - 'tests/test_nine_followup_gate.py'
+      - 'research/nine_followup_20261115/**'
+      - '.github/workflows/nine-followup-review.yml'
+  workflow_dispatch: {}
+permissions:
+  contents: read
+jobs:
+  review:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          path: scanner
+          fetch-depth: 0
+      - uses: actions/checkout@v4
+        with:
+          ref: 1f1d9cc5d7716c3b6e5cbe8dd7c9c9d9ac47d35f
+          path: candidate
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: UI regression and evidence boundary tests
+        working-directory: scanner
+        run: |
+          npm test
+          python3 -m unittest discover -s tests -p test_nine_followup_gate.py
+          python3 tools/audit_environment_diff.py --strict
+      - name: Exact candidate and all old event facts/history/source debt
+        working-directory: candidate
+        run: |
+          python3 ../scanner/tools/validate_nine_followup_addition_20261115.py --base-ref 37288d43e28e9e7473ca75c3267432b97b57ee33
+          python3 ../scanner/tools/validate_data.py --strict --min-image-coverage 0.70 site/data
+          python3 ../scanner/tools/validate_decisions.py --strict site/data
+          python3 ../scanner/tools/validate_rereview.py --strict site/data
+          python3 ../scanner/tools/audit_event_image_identity.py --strict site/data
+          python3 ../scanner/tools/validate_protected_events.py --base-ref 37288d43e28e9e7473ca75c3267432b97b57ee33 site/data
+          python3 ../scanner/tools/validate_non_regression.py --base-ref 37288d43e28e9e7473ca75c3267432b97b57ee33 site/data
+          python3 ../scanner/tools/validate_family_fit_quality.py --base-ref 37288d43e28e9e7473ca75c3267432b97b57ee33
+      - name: Production application remains unchanged before data publication
+        working-directory: scanner
+        run: |
+          test "$(git ls-remote origin refs/heads/production | cut -f1)" = "d2ee3226f64f42c56a5ed0ca61e3696769c4db21"
+          test "$(git ls-remote origin refs/heads/data-production | cut -f1)" = "37288d43e28e9e7473ca75c3267432b97b57ee33"

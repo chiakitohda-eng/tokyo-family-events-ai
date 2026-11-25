@@ -1,0 +1,10 @@
+{
+  "base_data_production_sha": "81dd7269a6f0683c635db8491d137b12b50f3707",
+  "data_candidate_sha": "89c9211fa561fcaabf9d03063d5b745978a52cf8",
+  "base_production_sha": "ce64f0578f6df5a700fcc631350ec8669e323ed0",
+  "app_candidate_sha": "c1c37b8e348e5ef30edb677d495875ce317787d5",
+  "added_weekly_records": 142,
+  "old_weekly_records": 227,
+  "candidate_total": 369,
+  "published": false
+}

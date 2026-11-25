@@ -1,0 +1,92 @@
+name: Prepare strictly scoped November thumbnail evidence candidate
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/prepare-safe-december-images.yml']
+  workflow_dispatch: {}
+permissions:
+  contents: write
+jobs:
+  image-proposal:
+    runs-on: ubuntu-latest
+    timeout-minutes: 16
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: data-staging
+          path: candidate
+          fetch-depth: 0
+      - uses: actions/checkout@v4
+        with:
+          ref: production
+          path: released
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Extract images from official event pages for only two archived weeks
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p /tmp/november-probe
+          python3 - <<'PY'
+          import json,pathlib,shutil
+          src=pathlib.Path('candidate/site/data');out=pathlib.Path('/tmp/november-probe')
+          for sat in ['2026-11-21','2026-11-28']:
+            week=json.loads((src/(sat+'.json')).read_text())
+            for shard in week['event_files']:shutil.copy2(src/shard,out/shard)
+          PY
+          python3 released/tools/enrich_images.py /tmp/november-probe --workers 8
+      - name: Verify only new exact-event images and at least 70 percent coverage, then apply to candidate
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import json,pathlib,math,re,sys
+          src=pathlib.Path('candidate/site/data');p=pathlib.Path('/tmp/november-probe')
+          sys.path.insert(0,'released/tools')
+          from audit_event_image_identity import inspect_events
+          images_changed=[];summary={}
+          bad=re.compile(r'/sns/|/shared/.*/logo|/twitter_card/|/common/meta/|[/_.-]nc_title[.]|/assets/ilcl/og[.]|/head_moku|/default-og|[/_.-]favicon[/_.-]', re.I)
+          for sat in ('2026-11-21','2026-11-28'):
+            week=json.loads((src/(sat+'.json')).read_text());events=[];changed=0
+            for filename in week['event_files']:
+              old=json.loads((src/filename).read_text());candidate=json.loads((p/filename).read_text());assert len(old)==len(candidate)
+              for original,new in zip(old,candidate):
+                assert original['id']==new['id'],(sat,filename)
+                a=str(original.get('image') or '');b=str(new.get('image') or '')
+                if a!=b:
+                  assert not a,(filename,original['id'],a,b)
+                  if not b.startswith('https://') or bad.search(b):
+                    print('SKIP_WEAK_OR_NONHTTPS_IMAGE',sat,original['id'],b)
+                    continue
+                  assert {k:v for k,v in original.items() if k!='image'} == {k:v for k,v in new.items() if k!='image'}
+                  original['image']=b;changed+=1
+                  images_changed.append({'week':sat,'id':original['id'],'name':original['name'],'image':b,'official_source':original.get('official_url') or original.get('source')})
+              (src/filename).write_text(json.dumps(old,ensure_ascii=False,indent=2)+'\n')
+              events+=old
+            n=sum(bool(str(x.get('image') or '').startswith(('https://','http://'))) for x in events)
+            fail,warn=inspect_events(events,sat)
+            if fail:raise SystemExit('Image identity collision '+repr(fail))
+            if n<math.ceil(len(events)*.70):raise SystemExit(f'Thumbnail 70% blocker: {sat} {n}/{len(events)}')
+            summary[sat]={'total':len(events),'image_count':n,'enriched':changed,'ratio':round(n/len(events),4),'image_warnings_preserved':len(warn)}
+          pathlib.Path('candidate/november-image-proposal-evidence-20261117.json').write_text(json.dumps({'source':'read-only official event page extraction','weeks':summary,'changes':images_changed,'declared_limit':'ONLY existing empty image properties are assigned and all other event fields preserved','production_was_not_modified':True},ensure_ascii=False,indent=2)+'\n')
+          print('PROPOSAL_IMAGES',json.dumps(summary,ensure_ascii=False))
+          PY
+          python3 released/tools/validate_data.py --strict --min-image-coverage .7 candidate/site/data
+          python3 released/tools/audit_event_image_identity.py --strict candidate/site/data
+      - name: Preserve proposal on a distinct branch only, not production
+        working-directory: candidate
+        shell: bash
+        run: |
+          set -euo pipefail
+          branch='candidate/verified-november-images-20261117'
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add site/data/2026-11-21-events-*.json site/data/2026-11-28-events-*.json november-image-proposal-evidence-20261117.json
+          git diff --cached --quiet && { echo 'No image proposal changes'; exit 1; }
+          git commit -m 'candidate: propose official event image patches for November full-tier rollover, no source status upgrades'
+          if git ls-remote --exit-code --heads origin "$branch" >/dev/null 2>&1; then
+            echo 'Image proposal branch already exists; do not overwrite'; exit 1
+          fi
+          git push origin "HEAD:refs/heads/$branch"
+          echo "IMAGE_CANDIDATE_SHA $(git rev-parse HEAD)"

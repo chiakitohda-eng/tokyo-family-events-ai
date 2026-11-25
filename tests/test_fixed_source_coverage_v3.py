@@ -39,6 +39,17 @@ class FixedSourcePhase3Tests(unittest.TestCase):
         self.end = dt.date(2026,12,6)
         self.registry = make_registry()
 
+    def test_appended_source_is_audited_without_losing_originals(self):
+        registry=make_registry()
+        registry['protected_source_ids']=[r['id']for r in registry['explicit_sources']]
+        new=dict(registry['explicit_sources'][-1],id='new_venue',label='新しい会場',base_url='https://www.example.com/new',search_urls=['https://www.example.com/new'])
+        registry['explicit_sources'].append(new)
+        report=build_report(registry,self.start,self.end,fetcher=fake_response,workers=4)
+        self.assertTrue(validate(report,registry));self.assertEqual(report['registered_source_count'],27)
+        self.assertEqual([r['source_id']for r in report['sources']],[r['id']for r in registry['explicit_sources']])
+        registry['explicit_sources']=[r for r in registry['explicit_sources']if r['id']!='source_24']
+        with self.assertRaises(ValueError):build_report(registry,self.start,self.end,fetcher=fake_response,workers=4)
+
     def test_all_26_sources_protected_and_same_registry_order(self):
         r = build_report(self.registry,self.start,self.end,
                          fetcher=fake_response,workers=4,checked_at="2026-10-27T22:00:00+09:00")

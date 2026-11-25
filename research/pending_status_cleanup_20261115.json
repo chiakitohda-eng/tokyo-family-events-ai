@@ -1,0 +1,118 @@
+{
+  "scope": "pending/completed public page cleanup requested by user",
+  "base_production_sha": "48ea14ef33d762958448ab562fd1d5f1ae4c834e",
+  "candidate_sha": "5f2ad98c8f8e18c0f25eb72bcac00cc0335feccf",
+  "production_sha": "5d7f8b961e6c93e5a8950c426e3ffddac9a6d7aa",
+  "version": "1.36",
+  "read_only_validation_run": 43644660560,
+  "control_pr": 124,
+  "production_pr": 125,
+  "staging_pages_run": 43644780293,
+  "staging_browser": [
+    {
+      "width": 390,
+      "remaining": 2,
+      "completed": 3,
+      "history_collapsed_on_load": true,
+      "filters_passed": true,
+      "no_horizontal_overflow": true
+    },
+    {
+      "width": 1280,
+      "remaining": 2,
+      "completed": 3,
+      "history_collapsed_on_load": true,
+      "filters_passed": true,
+      "no_horizontal_overflow": true
+    }
+  ],
+  "local_browser": {
+    "viewports": [
+      390,
+      1280
+    ],
+    "remaining_cards": 2,
+    "completed_cards": 3,
+    "completed_collapsed_by_default": true,
+    "filters_verified": true,
+    "audit_and_work_status_separate": true,
+    "catalog_failure_never_shows_zero": true,
+    "no_horizontal_overflow": true
+  },
+  "counts": {
+    "remaining": 2,
+    "awaiting_official_evidence": 1,
+    "deferred_by_user": 1,
+    "completed": 3
+  },
+  "data_production_sha": "847e388e65b99e38a0f108ecc96009778b3fdcd2",
+  "data_staging_same_sha": true,
+  "published_event_records": 598,
+  "event_record_mutation": "none",
+  "unrelated_ui_promoted": false,
+  "completed_scopes": [
+    {
+      "id": "itabashi-tourism",
+      "completed_at": "2026-11-14",
+      "scope": "11月14日に固定した851候補に含まれる、板橋区観光協会・区公式の収集済み記事。今後の新着記事や、サイト内の全記事の確認完了を意味しません。"
+    },
+    {
+      "id": "suginami-candidates",
+      "completed_at": "2026-11-14",
+      "scope": "固定851候補中の杉並区290候補について、掲載済み・追加・期間外・受付終了・保留への判定まで。保留候補の開催確認まで完了したという意味ではありません。"
+    },
+    {
+      "id": "weekly-update",
+      "completed_at": "2026-11-14",
+      "scope": "現在の更新で旧480個票と履歴・取得失敗が保持されることの検証。10月26日当時の取得失敗そのものを解消したという意味ではありません。"
+    }
+  ],
+  "verified_at": "2026-11-14T21:53:52.745235+00:00",
+  "app_pages_run": 43644991399,
+  "app_pages_result": "success",
+  "release_snapshot": "release/2026-11-15-r1",
+  "public_browser": [
+    {
+      "width": 390,
+      "remaining": 2,
+      "completed": 3,
+      "history_collapsed_on_load": true,
+      "filters_passed": true,
+      "no_horizontal_overflow": true
+    },
+    {
+      "width": 1280,
+      "remaining": 2,
+      "completed": 3,
+      "history_collapsed_on_load": true,
+      "filters_passed": true,
+      "no_horizontal_overflow": true
+    }
+  ],
+  "public_files": {
+    "files_match_candidate": [
+      {
+        "path": "pending-issues.js",
+        "sha256": "cc1a47cf31c8e786c35aa6e75f9dde1c70051f8803e242220a6003ce71a2ba7c"
+      },
+      {
+        "path": "pending-issues-model.mjs",
+        "sha256": "4f0c86c66362c590ff342d92934855b2ffd61700be8a59234926989f5357f241"
+      },
+      {
+        "path": "pending-issues.css",
+        "sha256": "3f7118b45ae29596abd590b47a99a72b38e9d6a9b0d26ecd23e7358f70eba87b"
+      },
+      {
+        "path": "pending-issues.html",
+        "sha256": "4d55e6ccc191e379c4cde3d18a547a90c9b33df444b0071c1ffd159d23e3ad95"
+      },
+      {
+        "path": "audit/pending_issues_catalog.json",
+        "sha256": "742f6e23c615fca571baefe0bbe5ae7b62962eb4facdf2c89fcb5076cdcb01bf"
+      }
+    ],
+    "public_manifest_unchanged": true,
+    "public_event_count": 598
+  }
+}

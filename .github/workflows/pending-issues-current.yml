@@ -1,0 +1,30 @@
+name: Verify current pending evidence status without historical data-head assumptions
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - 'site/pending-issues*'
+      - 'site/audit/pending_issues_catalog.json'
+      - 'site/omitted*'
+      - 'tests/pending_issues*'
+      - '.github/workflows/pending-issues-current.yml'
+  workflow_dispatch: {}
+permissions:
+  contents: read
+jobs:
+  current-status:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Reject premature completion and validate current UI contracts
+        run: |
+          npm test
+          python3 tools/audit_environment_diff.py --strict

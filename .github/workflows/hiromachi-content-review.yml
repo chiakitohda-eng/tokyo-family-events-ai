@@ -1,0 +1,44 @@
+name: Verify four reviewed Hiromachi classes without changing published data
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - 'tools/validate_hiromachi_review_addition.py'
+      - 'tests/test_hiromachi_review_gate.py'
+      - 'research/hiromachi_review_20261113/**'
+      - '.github/workflows/hiromachi-content-review.yml'
+  workflow_dispatch: {}
+permissions:
+  contents: read
+jobs:
+  review:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          path: scanner
+      - uses: actions/checkout@v4
+        with:
+          ref: 16fce3b01284cc8dad338feba9a0fa7fb2970792
+          path: candidate
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Regression suite including old-record and source-error preservation
+        working-directory: scanner
+        run: npm test
+      - name: Verify the frozen twelve-file data candidate and all existing records
+        working-directory: candidate
+        run: |
+          python3 ../scanner/tools/validate_hiromachi_review_addition.py --base-ref bd4ec22347d0d5cac1df1fa9e47fdd9e07b7356d
+          python3 ../scanner/tools/validate_data.py --strict --min-image-coverage 0.70 site/data
+          python3 ../scanner/tools/validate_decisions.py --strict site/data
+          python3 ../scanner/tools/validate_rereview.py --strict site/data
+          python3 ../scanner/tools/audit_event_image_identity.py --strict site/data
+          python3 ../scanner/tools/validate_protected_events.py --base-ref bd4ec22347d0d5cac1df1fa9e47fdd9e07b7356d site/data
+          python3 ../scanner/tools/validate_non_regression.py --base-ref bd4ec22347d0d5cac1df1fa9e47fdd9e07b7356d site/data

@@ -1,0 +1,49 @@
+name: Verify manual evidence recovery staging candidate
+on:
+  # Historical frozen candidate: live branch SHAs intentionally reflect its pre-release state.
+  # Current changes run remaining-evidence-review (npm regression + current exact data gate).
+  workflow_dispatch: {}
+permissions:
+  contents: read
+jobs:
+  review:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          path: scanner
+          fetch-depth: 0
+      - uses: actions/checkout@v4
+        with:
+          ref: 6fb1abd131411ba64bbb175667c3d8a0fc922d69
+          path: candidate
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: UI regression and evidence boundary tests
+        working-directory: scanner
+        run: |
+          npm test
+          python3 -m unittest discover -s tests -p test_evidence_recovery_gate.py
+          python3 tools/audit_environment_diff.py --strict
+      - name: Exact candidate and all old event facts/history/source debt
+        working-directory: candidate
+        run: |
+          python3 ../scanner/tools/validate_evidence_recovery_20261115.py --base-ref 847e388e65b99e38a0f108ecc96009778b3fdcd2
+          python3 ../scanner/tools/validate_data.py --strict --min-image-coverage 0.70 site/data
+          python3 ../scanner/tools/validate_decisions.py --strict site/data
+          python3 ../scanner/tools/validate_rereview.py --strict site/data
+          python3 ../scanner/tools/audit_event_image_identity.py --strict site/data
+          python3 ../scanner/tools/validate_protected_events.py --base-ref 847e388e65b99e38a0f108ecc96009778b3fdcd2 site/data
+          python3 ../scanner/tools/validate_non_regression.py --base-ref 847e388e65b99e38a0f108ecc96009778b3fdcd2 site/data
+          python3 ../scanner/tools/validate_family_fit_quality.py --base-ref 847e388e65b99e38a0f108ecc96009778b3fdcd2
+      - name: Production refs remain unmodified before user review
+        working-directory: scanner
+        run: |
+          test "$(git ls-remote origin refs/heads/production | cut -f1)" = "9aa067f0756bb900ff3f95e33f1dee7473e9c63f"
+          test "$(git ls-remote origin refs/heads/data-production | cut -f1)" = "847e388e65b99e38a0f108ecc96009778b3fdcd2"

@@ -1,0 +1,151 @@
+name: Rerun six-week source audit as of 2026-11-16 horizon (read only, 2026-11-19)
+
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/audit-rerun-20261119.yml']
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: audit-rerun-20261119
+  cancel-in-progress: false
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 28
+    steps:
+      - name: Checkout tested scanner policy
+        uses: actions/checkout@v4
+        with:
+          path: scanner
+      - name: Checkout released application policy
+        uses: actions/checkout@v4
+        with:
+          ref: production
+          path: released
+      - name: Checkout published data without editing
+        uses: actions/checkout@v4
+        with:
+          ref: data-production
+          path: data-src
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Verify evidence extractor regression tests
+        run: |
+          python3 -m unittest discover -s scanner/tests -p 'test_tamemap_discovery.py' -v
+          python3 -m unittest discover -s scanner/tests -p 'test_holiday_after_*.py' -v
+          python3 -m unittest discover -s scanner/tests -p 'test_nerima_holiday_fallback.py' -v
+          python3 -m unittest discover -s scanner/tests -p 'test_nakano_supplemental_discovery.py' -v
+          PYTHONPATH=scanner python3 -m unittest discover -s scanner/tests -p 'test_official_schedule_audit.py' -v
+      - name: Verify released prompt policy
+        working-directory: released
+        run: node .github/scripts/validate-prompt-history.mjs
+      - name: Produce official holiday-after plan
+        env:
+          AS_OF: "2026-11-16"
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p "$RUNNER_TEMP/holiday-after-audit"
+          base="$(git -C data-src rev-parse HEAD)"
+          args=()
+          if [ -n "$AS_OF" ]; then
+            args+=(--as-of "$AS_OF")
+          fi
+          python3 scanner/tools/rolling_horizon.py \
+            "${args[@]}" \
+            --manifest data-src/site/data/manifest.json \
+            --sources released/site/data/discovery_sources.json \
+            --base-data-production-sha "$base" \
+            --output "$RUNNER_TEMP/holiday-after-audit/plan.json"
+      - name: Crawl sources and save individual request evidence
+        id: collection
+        continue-on-error: true
+        shell: bash
+        run: |
+          set -euo pipefail
+          if [ "$(python3 -c 'import json,sys; print(json.load(open(sys.argv[1]))["status"])' "$RUNNER_TEMP/holiday-after-audit/plan.json")" = "skipped" ]; then
+            echo "Not a holiday-after date; read-only no-op"
+            exit 0
+          fi
+          python3 scanner/tools/holiday_after_collect.py \
+            --plan "$RUNNER_TEMP/holiday-after-audit/plan.json" \
+            --output-dir "$RUNNER_TEMP/holiday-after-audit" \
+            --supplemental-config scanner/policy/nakano_supplemental_sources.json \
+            --exception-policy scanner/policy/temporary_source_exceptions.json \
+            --workers 12
+      - name: Prepare event-by-event reviewer worklist (never publishes)
+        if: always()
+        shell: bash
+        run: |
+          set -euo pipefail
+          packet_dir="$RUNNER_TEMP/holiday-after-audit"
+          if [ -f "$packet_dir/summary.json" ] && [ -f "$packet_dir/candidate_pool.json" ]; then
+            python3 scanner/tools/holiday_after_review_packet.py \
+              --plan "$packet_dir/plan.json" \
+              --evidence-dir "$packet_dir" \
+              --published-data data-src/site/data \
+              --output "$packet_dir/review_packet.json"
+          else
+            echo "No actual research available; leaving published data untouched"
+          fi
+      - name: Preserve read-only audit artifacts on success or failure
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: holiday-after-source-evidence
+          path: ${{ runner.temp }}/holiday-after-audit/
+          retention-days: 30
+          if-no-files-found: warn
+      - name: Confirm this run cannot publish without candidate verification
+        if: always()
+        shell: bash
+        run: |
+          set -euo pipefail
+          packet="$RUNNER_TEMP/holiday-after-audit"
+          if [ ! -f "$packet/summary.json" ]; then
+            if [ -f "$packet/plan.json" ] && grep -q '"status": "skipped"' "$packet/plan.json"; then
+              echo "Not a holiday-after eligible date; correctly skipped"
+              exit 0
+            fi
+            echo "No actual evidence summary was produced" >&2
+            exit 1
+          fi
+          python3 - "$packet/summary.json" "$packet/review_packet.json" <<'PY'
+          import json,sys
+          summary=json.load(open(sys.argv[1]))
+          packet=json.load(open(sys.argv[2]))
+          if summary.get("publishable") is not False or packet.get("publication_permitted") is not False:
+              raise SystemExit("Unsafe publication permission in evidence")
+          if not summary.get("blockers"):
+              raise SystemExit("Missing explicit review/publication blockers")
+          print("Read-only evidence exported. Publication BLOCKED by:", summary["blockers"])
+          print("There is no push, data candidate, or Pages release in this audit workflow.")
+          PY
+
+      - name: Commit raw evidence to a research-only branch (no data or app change)
+        if: always()
+        shell: bash
+        run: |
+          set -euo pipefail
+          d="$RUNNER_TEMP/holiday-after-audit"
+          cd scanner
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout --orphan research/audit-20261119
+          git rm -rf . >/dev/null 2>&1 || true
+          cp -r "$d"/. .
+          date -u +%FT%TZ > FETCHED_AT.txt
+          git add -A
+          git commit -m "research: raw read-only six-week audit evidence (2026-11-19)"
+          git push --force origin research/audit-20261119

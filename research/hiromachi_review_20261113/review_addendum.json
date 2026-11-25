@@ -1,0 +1,56 @@
+{
+  "reviewed_on": "2026-11-13",
+  "previous_ledger": "research/nakano_content_review_20261113/review_ledger.json",
+  "base_data_production_sha": "bd4ec22347d0d5cac1df1fa9e47fdd9e07b7356d",
+  "new_event_records": 4,
+  "priority_rows_resolved": 4,
+  "records": [
+    {
+      "candidate_id": "tamemap-calendar-160023-20261115",
+      "previous_status": "blocked_pending_evidence",
+      "status": "published",
+      "new_event_id": "reviewed-20261115-nakano-160023",
+      "evidence": "official_evidence.json",
+      "reason": "公園主催者予約詳細で時刻・料金・年齢・受付中を確認。"
+    },
+    {
+      "candidate_id": "tamemap-calendar-160164-20261115",
+      "previous_status": "blocked_pending_evidence",
+      "status": "published",
+      "new_event_id": "reviewed-20261115-nakano-160164",
+      "evidence": "official_evidence.json",
+      "reason": "公園主催者予約詳細で時刻・料金・年齢・受付中を確認。"
+    },
+    {
+      "candidate_id": "tamemap-calendar-160131-20261121",
+      "previous_status": "blocked_pending_evidence",
+      "status": "published",
+      "new_event_id": "reviewed-20261121-nakano-160131",
+      "evidence": "official_evidence.json",
+      "reason": "公園主催者予約詳細で時刻・料金・年齢・受付中を確認。"
+    },
+    {
+      "candidate_id": "tamemap-calendar-160190-20261122",
+      "previous_status": "blocked_pending_evidence",
+      "status": "published",
+      "new_event_id": "reviewed-20261122-nakano-160190",
+      "evidence": "official_evidence.json",
+      "reason": "公園主催者予約詳細で時刻・料金・年齢・受付中を確認。"
+    }
+  ],
+  "full_pool_review_complete": false,
+  "github_actions_tamemap_403_resolved": false,
+  "remaining_priority_held": 54,
+  "outside_priority_rows_not_fully_assessed": 350,
+  "note": "原430候補と前回台帳は履歴として保持。日付が異なる開催回（11/29等）は今回の解決件数に含めない。",
+  "publication": {
+    "data_production_sha": "16fce3b01284cc8dad338feba9a0fa7fb2970792",
+    "snapshot": "data-release/2026-11-13-r637",
+    "workflow_run_id": 43423712415,
+    "total_records": 220,
+    "old_records_preserved": 216,
+    "old_records_changed": 0,
+    "old_records_removed": 0,
+    "public_runtime_verified": true
+  }
+}

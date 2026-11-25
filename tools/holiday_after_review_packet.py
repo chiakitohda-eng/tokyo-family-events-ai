@@ -165,6 +165,19 @@ def build_packet(plan, published_dir, collected):
         "read_only": True, "publication_permitted": False,
         "as_of_jst": plan["as_of_jst"], "base_data_production_sha": plan["base_data_production_sha"],
         "published_history_preserved": True, "published_week_file_changes": 0,
+        "family_fit_review_requirements": {
+            "default_grade_allowed": False,
+            "method": "individual_evidence_review",
+            "required": ["all_eight_axes", "activity_specific_overall_reason", "strengths", "limitations", "grade_comparison", "audience_basis", "primary_excerpt_date_hash"],
+            "rules": [
+                "Do not average axes or set every event to B; select the overall grade for the actual activity.",
+                "All-ages admission, a minimum age, accompanying children and child performers are different from a child-targeted program.",
+                "Adult participation is not a child activity. Unknown conditions remain unknown and do not automatically cap the overall grade.",
+                "A specific family concert may be A despite being viewing-only; booking does not automatically make a class B.",
+                "Keep event and decision assessments consistent; C/D publication needs a reasoned override."
+            ],
+            "release_check": "python3 tools/validate_family_fit_quality.py --base-ref <immutable-data-production-sha>"
+        },
         "required_source_failures": summary.get("required_source_failures") or [],
         "annual_schedule": summary.get("annual_schedule") or [],
         "wards": summary["wards"],

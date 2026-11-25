@@ -1,0 +1,39 @@
+name: Export 2026-11-18 six-week source evidence artifact to a read-only research branch
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/export-evidence-20261118.yml']
+  workflow_dispatch: {}
+permissions:
+  contents: write
+  actions: read
+jobs:
+  export:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          path: repo
+      - uses: actions/download-artifact@v4
+        with:
+          artifact-ids: 14375267058
+          run-id: 44187635448
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          path: /tmp/evidence
+      - name: Commit the unchanged artifact files to a research-only branch
+        shell: bash
+        run: |
+          set -euo pipefail
+          cd repo
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout --orphan research/evidence-export-20261118
+          git rm -rf . >/dev/null 2>&1 || true
+          mkdir -p evidence
+          cp -r /tmp/evidence/. evidence/
+          find evidence -type f | sort > evidence/FILE_LIST.txt
+          git add evidence
+          git commit -m "research: unchanged copy of Actions artifact 14375267058 (run 44187635448); read-only evidence, no data change"
+          git push --force origin research/evidence-export-20261118

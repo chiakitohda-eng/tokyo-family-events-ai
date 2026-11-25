@@ -1,0 +1,142 @@
+name: Nov 08 actual 23-ward, six-week and all 26 fixed-source recheck (read only)
+
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/audit-nov08-current-coverage.yml']
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+jobs:
+  fixed-26:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          path: inspector
+      - uses: actions/checkout@v4
+        with:
+          ref: production
+          path: released
+      - uses: actions/checkout@v4
+        with:
+          ref: data-production
+          path: published
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Independently inspect all registered fixed sources with real HTTP evidence
+        continue-on-error: true
+        run: |
+          mkdir -p "$RUNNER_TEMP/coverage-recheck"
+          python3 inspector/tools/fixed_source_coverage_v3.py \
+            --registry released/site/data/discovery_sources.json \
+            --manifest published/site/data/manifest.json \
+            --output "$RUNNER_TEMP/coverage-recheck/fixed_26.json" --workers 8
+      - name: Record retrieval vs event-parity status; never treat 200 as all events found
+        if: always()
+        run: |
+          python3 - <<'PY'
+          import json, os, pathlib
+          p=pathlib.Path(os.environ['RUNNER_TEMP'])/'coverage-recheck/fixed_26.json'
+          if not p.exists():
+              raise SystemExit('BLOCKER: 26 fixed source artifact missing')
+          d=json.loads(p.read_text())
+          assert d['summary']['registered']==26
+          assert d['summary']['full_event_row_parity_verified_by_this_report']==0
+          print('FIXED_26_REPORT',d['summary'])
+          print('FAILURES',[(x['source_id'],x['retrieval_status']) for x in d['sources'] if x['retrieval_status']!='checked'])
+          PY
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: nov08-fixed-26-sources
+          path: ${{ runner.temp }}/coverage-recheck/
+          retention-days: 30
+          if-no-files-found: warn
+
+  ward-six-weeks:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          path: scanner
+      - uses: actions/checkout@v4
+        with:
+          ref: production
+          path: released
+      - uses: actions/checkout@v4
+        with:
+          ref: data-production
+          path: published
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Verify actual extraction tests
+        run: |
+          python3 -m unittest discover -s scanner/tests -p 'test_holiday_after_*.py'
+          python3 -m unittest discover -s scanner/tests -p 'test_nakano_supplemental_discovery.py'
+      - name: Independently plan current six-week coverage using Nov 4 holiday-after anchor
+        run: |
+          mkdir -p "$RUNNER_TEMP/coverage-recheck"
+          base="$(git -C published rev-parse HEAD)"
+          python3 scanner/tools/rolling_horizon.py \
+            --as-of 2026-11-04 --manifest published/site/data/manifest.json \
+            --sources released/site/data/discovery_sources.json \
+            --base-data-production-sha "$base" \
+            --output "$RUNNER_TEMP/coverage-recheck/plan.json"
+          python3 - <<'PY'
+          import json,os,pathlib
+          j=json.loads((pathlib.Path(os.environ['RUNNER_TEMP'])/'coverage-recheck/plan.json').read_text())
+          assert j['status']=='eligible',j.get('status')
+          assert [x['sat'] for x in j['weekends']]==['2026-11-07','2026-11-14','2026-11-21','2026-11-28','2026-12-05','2026-12-12']
+          print('Six-week current target verified; no rollover date shifted')
+          PY
+      - name: Fetch actual 23-ward, required-source and holiday evidence (no publish)
+        continue-on-error: true
+        run: |
+          python3 scanner/tools/holiday_after_collect.py \
+            --plan "$RUNNER_TEMP/coverage-recheck/plan.json" \
+            --output-dir "$RUNNER_TEMP/coverage-recheck" \
+            --supplemental-config scanner/policy/nakano_supplemental_sources.json \
+            --exception-policy scanner/policy/temporary_source_exceptions.json \
+            --workers 12
+      - name: Build weekly event-level review packet against live published shards
+        if: always()
+        run: |
+          root="$RUNNER_TEMP/coverage-recheck"
+          if [ -f "$root/summary.json" ] && [ -f "$root/candidate_pool.json" ]; then
+            python3 scanner/tools/holiday_after_review_packet.py \
+              --plan "$root/plan.json" --evidence-dir "$root" \
+              --published-data published/site/data \
+              --output "$root/review_packet.json"
+          else
+            echo 'BLOCKER: no complete crawl evidence for reviewer packet' >&2
+            exit 1
+          fi
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: nov08-current-23-ward-six-week-source-evidence
+          path: ${{ runner.temp }}/coverage-recheck/
+          retention-days: 30
+          if-no-files-found: warn
+      - name: Explicit unresolved decision or source failures are not accepted as parity
+        if: always()
+        run: |
+          python3 - <<'PY'
+          import json,os,pathlib
+          p=pathlib.Path(os.environ['RUNNER_TEMP'])/'coverage-recheck/summary.json'
+          if not p.exists(): raise SystemExit('BLOCKER: no actual source summary')
+          j=json.loads(p.read_text())
+          assert j['read_only'] and j['publishable'] is False
+          print('OBSERVED_REQUESTS',j.get('request_count'), 'SUCCESS',j.get('requests_success'))
+          print('UNVERIFIED_LINKS',j.get('candidate_links_unverified'))
+          print('BLOCKERS',j.get('blockers'))
+          PY

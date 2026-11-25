@@ -1,0 +1,7 @@
+https://www.city.tachikawa.lg.jp/cgi-bin/event_cal/cal_day.cgi
+https://www.city.tachikawa.lg.jp/event_calendar.html
+https://www.city.tachikawa.lg.jp/cgi-bin/event_cal/cal_month.cgi
+https://www.city.tachikawa.lg.jp/cgi-bin/event_cal/cal_day.cgi?year=2026&month=11&day=28
+https://www.city.tachikawa.lg.jp/cgi-bin/event_cal/cal_day.cgi?year=2026&month=11&day=29
+https://www.city.tachikawa.lg.jp/cgi-bin/event_cal/cal_day.cgi?year=2026&month=12&day=5
+https://www.city.tachikawa.lg.jp/cgi-bin/event_cal/cal_day.cgi?year=2026&month=12&day=6

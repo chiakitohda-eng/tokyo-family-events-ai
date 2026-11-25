@@ -1,0 +1,58 @@
+name: Read-only organizer-page follow-up of 750 unresolved source leads
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/audit-750-lead-detail-fetch.yml']
+  workflow_dispatch: {}
+permissions:
+  contents: read
+  actions: read
+jobs:
+  source-detail:
+    runs-on: ubuntu-latest
+    timeout-minutes: 26
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          path: inspector
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Download actual unchanged per-candidate unresolved work queue
+        uses: actions/download-artifact@v4
+        with:
+          artifact-ids: 13634901362
+          run-id: 42524385657
+          github-token: ${{ github.token }}
+          path: evidence
+      - name: Follow each distinct HTTPS source link, preserve real failures
+        run: |
+          mkdir -p output
+          python3 inspector/tools/followup_unresolved_617_urls_20261109.py \
+            --queue evidence/all-859-candidates-triage-and-priority-queue/priority_review.json \
+            --output-dir output --workers 12
+      - name: Check 750 candidate identities retained and no unearned published decisions
+        run: |
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          rows=json.loads(Path('output/per_candidate_url_status.json').read_text())
+          pages=json.loads(Path('output/source_pages.json').read_text())
+          summary=json.loads(Path('output/summary.json').read_text())
+          assert len(rows)==750==summary['queue_rows']
+          assert len({r['candidate_id'] for r in rows})==750
+          assert len(pages)==summary['distinct_https_source_urls']
+          assert summary['events_verified_by_this_scan']==summary['final_decisions_by_this_scan']==0
+          assert summary['publication_permitted'] is False
+          assert all(r['final_inclusion_decision'].startswith('pending_') for r in rows)
+          print('No candidates silently removed or marked complete; failures retained.')
+          PY
+      - name: Archive all source fetch outcomes, date snippets and exact candidate IDs
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: unresolved-750-real-detail-fetch-status-and-evidence
+          path: output/
+          retention-days: 30
+          if-no-files-found: warn

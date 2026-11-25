@@ -1,0 +1,64 @@
+name: Read-only Tamemap Chromium verification probe
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/probe-tamemap-chromium-20261117.yml']
+  workflow_dispatch: {}
+permissions:
+  contents: read
+jobs:
+  chromium:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 12
+    steps:
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Prepare actual headless Chromium
+        shell: bash
+        run: |
+          python -m pip install 'playwright==1.56.0'
+          python -m playwright install chromium
+      - name: Read-only browser navigation without challenge bypassing or fabricated success
+        continue-on-error: true
+        shell: bash
+        run: |
+          mkdir -p /tmp/tamemap-chromium
+          python3 - <<'PY'
+          import asyncio,json,hashlib,datetime,pathlib
+          from playwright.async_api import async_playwright
+          root="https://pc.tamemap.net/1311401"
+          urls=[
+            ("exact_december",root+"/calendar/2026-12?lat=35.7089745&lng=139.6630981&level=5000&locale=ja"),
+            ("other_geo_december",root+"/calendar/2026-12?lat=35.7073&level=5000&lng=139.675&locale=ja"),
+            ("no_geo_december",root+"/calendar/2026-12?locale=ja"),
+            ("organizer_family_rhythm",root+"/event/160164?locale=ja"),
+            ("organizer_tomocchao",root+"/event/160639?locale=ja")
+          ]
+          async def main():
+            async with async_playwright() as p:
+              browser=await p.chromium.launch(headless=True,args=["--no-sandbox"])
+              page=await browser.new_page(locale="ja-JP",timezone_id="Asia/Tokyo")
+              results=[]
+              for label,url in urls:
+                row={"id":label,"url":url,"checked_at":datetime.datetime.now(datetime.timezone.utc).isoformat(),"status":"error"}
+                try:
+                  resp=await page.goto(url,wait_until="domcontentloaded",timeout=20000)
+                  await page.wait_for_timeout(2200)
+                  body=await page.locator("body").inner_text(timeout=10000)
+                  row.update(http_status=(resp.status if resp else None),final_url=page.url,title=await page.title(),body_length=len(body),sha256=hashlib.sha256(body.encode("utf-8")).hexdigest(),has_2026_december=("2026年12月" in body),has_event_marker=("ママほっとキッチン" in body or "ファミリーリトミック" in body),body_excerpt=body[:800])
+                  row["status"]="checked" if resp and resp.status==200 and ("2026年12月" in body or "ファミリーリトミック" in body or "ともっちゃお" in body) else "http_or_content_not_verified"
+                  await page.screenshot(path=f"/tmp/tamemap-chromium/{label}.png",full_page=False)
+                except Exception as e:
+                  row["error"]=str(e)[:350]
+                results.append(row);print("CHROME_PROBE",json.dumps(row,ensure_ascii=False),flush=True)
+              pathlib.Path("/tmp/tamemap-chromium/summary.json").write_text(json.dumps({"read_only":True,"run_date":"2026-11-17","results":results},ensure_ascii=False,indent=2)+"\n")
+              await browser.close()
+          asyncio.run(main())
+          PY
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: tamemap-chromium-probe-20261117
+          path: /tmp/tamemap-chromium/
+          if-no-files-found: warn

@@ -1,0 +1,2430 @@
+[
+  {
+    "url": "https://www.city.minato.tokyo.jp/fukushishien/sento.html",
+    "retrieval": {
+      "url": "https://www.city.minato.tokyo.jp/fukushishien/sento.html",
+      "checked_at": "2026-11-14T19:48:38+09:00",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found",
+      "http_status": 404,
+      "final_url": "https://www.city.minato.tokyo.jp/fukushishien/sento.html",
+      "response_server": "envoy",
+      "response_content_type": "text/html",
+      "response_title": "港区ホームページ／ご指定のページは見つかりませんでした",
+      "error_body_sha256": "d8e4dadec33419f19b96472f7364fd11805cc04047d910a6b84bc034dfff0898",
+      "error_body_truncated": true,
+      "cloudflare_challenge_detected": false,
+      "challenge_detected": false,
+      "response_cf_ray_present": false,
+      "error_kind": "ambiguous_http_404",
+      "retryable_http_error": false
+    }
+  },
+  {
+    "url": "https://www.city.nerima.tokyo.jp/kankomoyoshi/event/bunka/dentoukougeiten38.html",
+    "retrieval": {
+      "url": "https://www.city.nerima.tokyo.jp/kankomoyoshi/event/bunka/dentoukougeiten38.html",
+      "checked_at": "2026-11-14T19:48:38+09:00",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found",
+      "http_status": 404,
+      "final_url": "https://www.city.nerima.tokyo.jp/kankomoyoshi/event/bunka/dentoukougeiten38.html",
+      "response_server": "envoy",
+      "response_content_type": "text/html",
+      "response_title": "お探しのページを表示できません",
+      "error_body_sha256": "1aaba2d1cbd1ba6a5ea4a79dc76ae32aa4f85718656e3c66930858067ab41adb",
+      "error_body_truncated": false,
+      "cloudflare_challenge_detected": false,
+      "challenge_detected": false,
+      "response_cf_ray_present": false,
+      "error_kind": "ambiguous_http_404",
+      "retryable_http_error": false
+    }
+  },
+  {
+    "url": "https://www.city.nerima.tokyo.jp/kusei/dokuritsu_80/80thyear-kuminkyoudo.html",
+    "retrieval": {
+      "url": "https://www.city.nerima.tokyo.jp/kusei/dokuritsu_80/80thyear-kuminkyoudo.html",
+      "checked_at": "2026-11-14T19:48:41+09:00",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found",
+      "http_status": 404,
+      "final_url": "https://www.city.nerima.tokyo.jp/kusei/dokuritsu_80/80thyear-kuminkyoudo.html",
+      "response_server": "envoy",
+      "response_content_type": "text/html",
+      "response_title": "お探しのページを表示できません",
+      "error_body_sha256": "1aaba2d1cbd1ba6a5ea4a79dc76ae32aa4f85718656e3c66930858067ab41adb",
+      "error_body_truncated": false,
+      "cloudflare_challenge_detected": false,
+      "challenge_detected": false,
+      "response_cf_ray_present": false,
+      "error_kind": "ambiguous_http_404",
+      "retryable_http_error": false
+    }
+  },
+  {
+    "url": "https://www.city.suginami.tokyo.jp/s005/event/28871.html",
+    "retrieval": {
+      "url": "https://www.city.suginami.tokyo.jp/s005/event/28871.html",
+      "checked_at": "2026-11-14T19:48:45+09:00",
+      "status": "checked",
+      "http_status": 200,
+      "final_url": "https://www.city.suginami.tokyo.jp/s005/event/28871.html",
+      "content_type": "text/html",
+      "bytes": 19897,
+      "sha256": "571b91f38793887548e5793726540c6b2d03fad850c26bca2d165a8aafee0b9e"
+    }
+  },
+  {
+    "url": "https://www.city.suginami.tokyo.jp/s010/event/29780.html",
+    "retrieval": {
+      "url": "https://www.city.suginami.tokyo.jp/s010/event/29780.html",
+      "checked_at": "2026-11-14T19:48:48+09:00",
+      "status": "checked",
+      "http_status": 200,
+      "final_url": "https://www.city.suginami.tokyo.jp/s010/event/29780.html",
+      "content_type": "text/html",
+      "bytes": 18196,
+      "sha256": "dd375b4df34310fd1afbe0ac1bba549e68e22ffdd0b2824b84b0a1dbed45d184"
+    }
+  },
+  {
+    "url": "https://www.city.suginami.tokyo.jp/s013/event/28888.html",
+    "retrieval": {
+      "url": "https://www.city.suginami.tokyo.jp/s013/event/28888.html",
+      "checked_at": "2026-11-14T19:48:59+09:00",
+      "status": "checked",
+      "http_status": 200,
+      "final_url": "https://www.city.suginami.tokyo.jp/s013/event/28888.html",
+      "content_type": "text/html",
+      "bytes": 16218,
+      "sha256": "f151b68dbd08d5606dcbcf6d7e772281b1ed70753e2d9a0114e96d270ca9a674"
+    }
+  },
+  {
+    "url": "https://www.city.suginami.tokyo.jp/s015/event/28786.html",
+    "retrieval": {
+      "url": "https://www.city.suginami.tokyo.jp/s015/event/28786.html",
+      "checked_at": "2026-11-14T19:48:55+09:00",
+      "status": "checked",
+      "http_status": 200,
+      "final_url": "https://www.city.suginami.tokyo.jp/s015/event/28786.html",
+      "content_type": "text/html",
+      "bytes": 18914,
+      "sha256": "326211876faacd0bb7c86e9b95158655d16bc4ac4f9880f55d680bd306c00247"
+    }
+  },
+  {
+    "url": "https://www.city.suginami.tokyo.jp/s017/event/28952.html",
+    "retrieval": {
+      "url": "https://www.city.suginami.tokyo.jp/s017/event/28952.html",
+      "checked_at": "2026-11-14T19:48:52+09:00",
+      "status": "checked",
+      "http_status": 200,
+      "final_url": "https://www.city.suginami.tokyo.jp/s017/event/28952.html",
+      "content_type": "text/html",
+      "bytes": 18854,
+      "sha256": "e3242368bf76cf4bff00949d2284dec41db8d7106a70af94890b903a090dca66"
+    }
+  },
+  {
+    "url": "https://www.city.suginami.tokyo.jp/s022/event/29644.html",
+    "retrieval": {
+      "url": "https://www.city.suginami.tokyo.jp/s022/event/29644.html",
+      "checked_at": "2026-11-14T19:49:08+09:00",
+      "status": "checked",
+      "http_status": 200,
+      "final_url": "https://www.city.suginami.tokyo.jp/s022/event/29644.html",
+      "content_type": "text/html",
+      "bytes": 17622,
+      "sha256": "28a20b5d25ad5572f421e336702c6c5fae651b560a1a03707e0769cad7f086da"
+    }
+  },
+  {
+    "url": "https://www.city.suginami.tokyo.jp/s019/event/22661.html",
+    "retrieval": {
+      "url": "https://www.city.suginami.tokyo.jp/s019/event/22661.html",
+      "checked_at": "2026-11-14T19:49:05+09:00",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found",
+      "http_status": 404,
+      "final_url": "https://www.city.suginami.tokyo.jp/s019/event/22661.html",
+      "response_server": "envoy",
+      "response_content_type": "text/html",
+      "response_title": "ページが見つかりません｜杉並区公式ホームページ",
+      "error_body_sha256": "d03e6253e2845041ec8c1fce6a86814344981f831f03e10e18aabfdba25863f6",
+      "error_body_truncated": true,
+      "cloudflare_challenge_detected": false,
+      "challenge_detected": false,
+      "response_cf_ray_present": false,
+      "error_kind": "official_page_not_found",
+      "retryable_http_error": false
+    }
+  },
+  {
+    "url": "https://www.city.suginami.tokyo.jp/s016/event/28751.html",
+    "retrieval": {
+      "url": "https://www.city.suginami.tokyo.jp/s016/event/28751.html",
+      "checked_at": "2026-11-14T19:49:02+09:00",
+      "status": "checked",
+      "http_status": 200,
+      "final_url": "https://www.city.suginami.tokyo.jp/s016/event/28751.html",
+      "content_type": "text/html",
+      "bytes": 16825,
+      "sha256": "8c0cc4af425c12f287446c8e2cb418cf75899428ec12848a77d5b4abd45c1b81"
+    }
+  },
+  {
+    "url": "https://www.city.suginami.tokyo.jp/s020/event/28883.html",
+    "retrieval": {
+      "url": "https://www.city.suginami.tokyo.jp/s020/event/28883.html",
+      "checked_at": "2026-11-14T19:49:13+09:00",
+      "status": "checked",
+      "http_status": 200,
+      "final_url": "https://www.city.suginami.tokyo.jp/s020/event/28883.html",
+      "content_type": "text/html",
+      "bytes": 17924,
+      "sha256": "79f4fadffe7e0fbf79eb93076b9a5e83c52026d7edd5c91f2d91b41000cfa184"
+    }
+  },
+  {
+    "url": "https://www.city.suginami.tokyo.jp/s017/event/29093.html",
+    "retrieval": {
+      "url": "https://www.city.suginami.tokyo.jp/s017/event/29093.html",
+      "checked_at": "2026-11-14T19:49:11+09:00",
+      "status": "checked",
+      "http_status": 200,
+      "final_url": "https://www.city.suginami.tokyo.jp/s017/event/29093.html",
+      "content_type": "text/html",
+      "bytes": 20233,
+      "sha256": "426e90c203a2315b0cbd51838e844b80f0b61d58852ba566d9a707ab87fb5af8"
+    }
+  },
+  {
+    "url": "https://www.city.suginami.tokyo.jp/s026/event/28518.html",
+    "retrieval": {
+      "url": "https://www.city.suginami.tokyo.jp/s026/event/28518.html",
+      "checked_at": "2026-11-14T19:49:09+09:00",
+      "status": "checked",
+      "http_status": 200,
+      "final_url": "https://www.city.suginami.tokyo.jp/s026/event/28518.html",
+      "content_type": "text/html",
+      "bytes": 18499,
+      "sha256": "cb4f8193bbf115f5f4d902df186feaaeaa09be854b9ba9958fa53d0faaa17216"
+    }
+  },
+  {
+    "url": "https://www.city.tokyo-nakano.lg.jp/bosai/jishin-sonae/jijyo-kyojyo/0686087720231019102954778.html",
+    "retrieval": {
+      "url": "https://www.city.tokyo-nakano.lg.jp/bosai/jishin-sonae/jijyo-kyojyo/0686087720231019102954778.html",
+      "checked_at": "2026-11-14T19:49:12+09:00",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found",
+      "http_status": 404,
+      "final_url": "https://www.city.tokyo-nakano.lg.jp/bosai/jishin-sonae/jijyo-kyojyo/0686087720231019102954778.html",
+      "response_server": "envoy",
+      "response_content_type": "text/html",
+      "response_title": "お探しのページを表示できません",
+      "error_body_sha256": "1aaba2d1cbd1ba6a5ea4a79dc76ae32aa4f85718656e3c66930858067ab41adb",
+      "error_body_truncated": false,
+      "cloudflare_challenge_detected": false,
+      "challenge_detected": false,
+      "response_cf_ray_present": false,
+      "error_kind": "ambiguous_http_404",
+      "retryable_http_error": false
+    }
+  },
+  {
+    "url": "https://www.youtube.com/playlist?list=PLaouZeZ4O75sCLOeC5fOPBm4OTRcrTywm",
+    "retrieval": {
+      "url": "https://www.youtube.com/playlist?list=PLaouZeZ4O75sCLOeC5fOPBm4OTRcrTywm",
+      "checked_at": "2026-11-14T19:49:12+09:00",
+      "status": "error",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    }
+  },
+  {
+    "url": "https://www.city.tokyo-nakano.lg.jp/event/koen/aibloomjapan.html",
+    "retrieval": {
+      "url": "https://www.city.tokyo-nakano.lg.jp/event/koen/aibloomjapan.html",
+      "checked_at": "2026-11-14T19:49:14+09:00",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found",
+      "http_status": 404,
+      "final_url": "https://www.city.tokyo-nakano.lg.jp/event/koen/aibloomjapan.html",
+      "response_server": "envoy",
+      "response_content_type": "text/html",
+      "response_title": "お探しのページを表示できません",
+      "error_body_sha256": "1aaba2d1cbd1ba6a5ea4a79dc76ae32aa4f85718656e3c66930858067ab41adb",
+      "error_body_truncated": false,
+      "cloudflare_challenge_detected": false,
+      "challenge_detected": false,
+      "response_cf_ray_present": false,
+      "error_kind": "ambiguous_http_404",
+      "retryable_http_error": false
+    }
+  },
+  {
+    "url": "https://www.city.tokyo-nakano.lg.jp/event/kosodate/hinnkontaisakukouennkai.html",
+    "retrieval": {
+      "url": "https://www.city.tokyo-nakano.lg.jp/event/kosodate/hinnkontaisakukouennkai.html",
+      "checked_at": "2026-11-14T19:49:17+09:00",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found",
+      "http_status": 404,
+      "final_url": "https://www.city.tokyo-nakano.lg.jp/event/kosodate/hinnkontaisakukouennkai.html",
+      "response_server": "envoy",
+      "response_content_type": "text/html",
+      "response_title": "お探しのページを表示できません",
+      "error_body_sha256": "1aaba2d1cbd1ba6a5ea4a79dc76ae32aa4f85718656e3c66930858067ab41adb",
+      "error_body_truncated": false,
+      "cloudflare_challenge_detected": false,
+      "challenge_detected": false,
+      "response_cf_ray_present": false,
+      "error_kind": "ambiguous_http_404",
+      "retryable_http_error": false
+    }
+  },
+  {
+    "url": "https://www.city.tokyo-nakano.lg.jp/kanko/machirenkei/shotengai_sinmai.html",
+    "retrieval": {
+      "url": "https://www.city.tokyo-nakano.lg.jp/kanko/machirenkei/shotengai_sinmai.html",
+      "checked_at": "2026-11-14T19:49:19+09:00",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found",
+      "http_status": 404,
+      "final_url": "https://www.city.tokyo-nakano.lg.jp/kanko/machirenkei/shotengai_sinmai.html",
+      "response_server": "envoy",
+      "response_content_type": "text/html",
+      "response_title": "お探しのページを表示できません",
+      "error_body_sha256": "1aaba2d1cbd1ba6a5ea4a79dc76ae32aa4f85718656e3c66930858067ab41adb",
+      "error_body_truncated": false,
+      "cloudflare_challenge_detected": false,
+      "challenge_detected": false,
+      "response_cf_ray_present": false,
+      "error_kind": "ambiguous_http_404",
+      "retryable_http_error": false
+    }
+  },
+  {
+    "url": "https://www.city.suginami.tokyo.jp/s022/event/28941.html",
+    "retrieval": {
+      "url": "https://www.city.suginami.tokyo.jp/s022/event/28941.html",
+      "checked_at": "2026-11-14T19:49:16+09:00",
+      "status": "checked",
+      "http_status": 200,
+      "final_url": "https://www.city.suginami.tokyo.jp/s022/event/28941.html",
+      "content_type": "text/html",
+      "bytes": 16811,
+      "sha256": "e8edce12e4e0d04017f6c18134458aadcc834954ff8029e00472365a97bcff37"
+    }
+  },
+  {
+    "url": "https://www.city.tokyo-nakano.lg.jp/kenko_hukushi/pet-eisei/syokuhineisei/anzen-anshinkondankaimoushikomi.html",
+    "retrieval": {
+      "url": "https://www.city.tokyo-nakano.lg.jp/kenko_hukushi/pet-eisei/syokuhineisei/anzen-anshinkondankaimoushikomi.html",
+      "checked_at": "2026-11-14T19:49:21+09:00",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found",
+      "http_status": 404,
+      "final_url": "https://www.city.tokyo-nakano.lg.jp/kenko_hukushi/pet-eisei/syokuhineisei/anzen-anshinkondankaimoushikomi.html",
+      "response_server": "envoy",
+      "response_content_type": "text/html",
+      "response_title": "お探しのページを表示できません",
+      "error_body_sha256": "1aaba2d1cbd1ba6a5ea4a79dc76ae32aa4f85718656e3c66930858067ab41adb",
+      "error_body_truncated": false,
+      "cloudflare_challenge_detected": false,
+      "challenge_detected": false,
+      "response_cf_ray_present": false,
+      "error_kind": "ambiguous_http_404",
+      "retryable_http_error": false
+    }
+  },
+  {
+    "url": "https://www.city.suginami.tokyo.jp/s023/event/28934.html",
+    "retrieval": {
+      "url": "https://www.city.suginami.tokyo.jp/s023/event/28934.html",
+      "checked_at": "2026-11-14T19:49:18+09:00",
+      "status": "checked",
+      "http_status": 200,
+      "final_url": "https://www.city.suginami.tokyo.jp/s023/event/28934.html",
+      "content_type": "text/html",
+      "bytes": 17930,
+      "sha256": "3e2d3d2102bdf2ac99ebc82a59320e3c12a3039563626975d68cd8bb6e239f27"
+    }
+  },
+  {
+    "url": "https://www.city.suginami.tokyo.jp/s024/event/28874.html",
+    "retrieval": {
+      "url": "https://www.city.suginami.tokyo.jp/s024/event/28874.html",
+      "checked_at": "2026-11-14T19:49:20+09:00",
+      "status": "checked",
+      "http_status": 200,
+      "final_url": "https://www.city.suginami.tokyo.jp/s024/event/28874.html",
+      "content_type": "text/html",
+      "bytes": 16725,
+      "sha256": "2e90d5478acab0a61d86520aac3689198f2904d4cbcafeae569c8ba8805bb9f3"
+    }
+  },
+  {
+    "url": "https://www.city.suginami.tokyo.jp/s024/event/28984.html",
+    "retrieval": {
+      "url": "https://www.city.suginami.tokyo.jp/s024/event/28984.html",
+      "checked_at": "2026-11-14T19:49:22+09:00",
+      "status": "checked",
+      "http_status": 200,
+      "final_url": "https://www.city.suginami.tokyo.jp/s024/event/28984.html",
+      "content_type": "text/html",
+      "bytes": 18587,
+      "sha256": "59138bc52518ba6e0244e1e3e098a411b5b9fc619df1164cb3da81bd5dfc5267"
+    }
+  },
+  {
+    "url": "https://www.city.tokyo-nakano.lg.jp/kosodate/kosodatesite_ohirune/mokuteki/kenshin/kouza/rinyuusyokukousyuukaishokicyuuki.html",
+    "retrieval": {
+      "url": "https://www.city.tokyo-nakano.lg.jp/kosodate/kosodatesite_ohirune/mokuteki/kenshin/kouza/rinyuusyokukousyuukaishokicyuuki.html",
+      "checked_at": "2026-11-14T19:49:23+09:00",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found",
+      "http_status": 404,
+      "final_url": "https://www.city.tokyo-nakano.lg.jp/kosodate/kosodatesite_ohirune/mokuteki/kenshin/kouza/rinyuusyokukousyuukaishokicyuuki.html",
+      "response_server": "envoy",
+      "response_content_type": "text/html",
+      "response_title": "お探しのページを表示できません",
+      "error_body_sha256": "1aaba2d1cbd1ba6a5ea4a79dc76ae32aa4f85718656e3c66930858067ab41adb",
+      "error_body_truncated": false,
+      "cloudflare_challenge_detected": false,
+      "challenge_detected": false,
+      "response_cf_ray_present": false,
+      "error_kind": "ambiguous_http_404",
+      "retryable_http_error": false
+    }
+  },
+  {
+    "url": "https://www.city.suginami.tokyo.jp/s027/event/28554.html",
+    "retrieval": {
+      "url": "https://www.city.suginami.tokyo.jp/s027/event/28554.html",
+      "checked_at": "2026-11-14T19:49:23+09:00",
+      "status": "checked",
+      "http_status": 200,
+      "final_url": "https://www.city.suginami.tokyo.jp/s027/event/28554.html",
+      "content_type": "text/html",
+      "bytes": 20128,
+      "sha256": "c4d4bfb3fd6741968f5838ee7dde9b5e6bfe06ddb8218b411ee046a93bb3c4aa"
+    }
+  },
+  {
+    "url": "https://www.city.tokyo-nakano.lg.jp/machizukuri/jyutaku/0686558520231019170416838.html",
+    "retrieval": {
+      "url": "https://www.city.tokyo-nakano.lg.jp/machizukuri/jyutaku/0686558520231019170416838.html",
+      "checked_at": "2026-11-14T19:49:26+09:00",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found",
+      "http_status": 404,
+      "final_url": "https://www.city.tokyo-nakano.lg.jp/machizukuri/jyutaku/0686558520231019170416838.html",
+      "response_server": "envoy",
+      "response_content_type": "text/html",
+      "response_title": "お探しのページを表示できません",
+      "error_body_sha256": "1aaba2d1cbd1ba6a5ea4a79dc76ae32aa4f85718656e3c66930858067ab41adb",
+      "error_body_truncated": false,
+      "cloudflare_challenge_detected": false,
+      "challenge_detected": false,
+      "response_cf_ray_present": false,
+      "error_kind": "ambiguous_http_404",
+      "retryable_http_error": false
+    }
+  },
+  {
+    "url": "https://www.city.suginami.tokyo.jp/s030/event/28579.html",
+    "retrieval": {
+      "url": "https://www.city.suginami.tokyo.jp/s030/event/28579.html",
+      "checked_at": "2026-11-14T19:49:25+09:00",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found",
+      "http_status": 404,
+      "final_url": "https://www.city.suginami.tokyo.jp/s030/event/28579.html",
+      "response_server": "envoy",
+      "response_content_type": "text/html",
+      "response_title": "ページが見つかりません｜杉並区公式ホームページ",
+      "error_body_sha256": "d03e6253e2845041ec8c1fce6a86814344981f831f03e10e18aabfdba25863f6",
+      "error_body_truncated": true,
+      "cloudflare_challenge_detected": false,
+      "challenge_detected": false,
+      "response_cf_ray_present": false,
+      "error_kind": "official_page_not_found",
+      "retryable_http_error": false
+    }
+  },
+  {
+    "url": "https://www.city.suginami.tokyo.jp/s030/event/28813.html",
+    "retrieval": {
+      "url": "https://www.city.suginami.tokyo.jp/s030/event/28813.html",
+      "checked_at": "2026-11-14T19:49:27+09:00",
+      "status": "checked",
+      "http_status": 200,
+      "final_url": "https://www.city.suginami.tokyo.jp/s030/event/28813.html",
+      "content_type": "text/html",
+      "bytes": 17730,
+      "sha256": "28bbd5641fd199389317b99c42a5c529766d8125c98bc3ea85355ed48b9301ab"
+    }
+  },
+  {
+    "url": "https://www.city.suginami.tokyo.jp/s030/event/28876.html",
+    "retrieval": {
+      "url": "https://www.city.suginami.tokyo.jp/s030/event/28876.html",
+      "checked_at": "2026-11-14T19:49:29+09:00",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found",
+      "http_status": 404,
+      "final_url": "https://www.city.suginami.tokyo.jp/s030/event/28876.html",
+      "response_server": "envoy",
+      "response_content_type": "text/html",
+      "response_title": "ページが見つかりません｜杉並区公式ホームページ",
+      "error_body_sha256": "d03e6253e2845041ec8c1fce6a86814344981f831f03e10e18aabfdba25863f6",
+      "error_body_truncated": true,
+      "cloudflare_challenge_detected": false,
+      "challenge_detected": false,
+      "response_cf_ray_present": false,
+      "error_kind": "official_page_not_found",
+      "retryable_http_error": false
+    }
+  },
+  {
+    "url": "https://www.city.suginami.tokyo.jp/s030/event/28892.html",
+    "retrieval": {
+      "url": "https://www.city.suginami.tokyo.jp/s030/event/28892.html",
+      "checked_at": "2026-11-14T19:49:33+09:00",
+      "status": "checked",
+      "http_status": 200,
+      "final_url": "https://www.city.suginami.tokyo.jp/s030/event/28892.html",
+      "content_type": "text/html",
+      "bytes": 16581,
+      "sha256": "e29fdb8b5186715f1909d7c4834c921ddbf16704554a8cd1294f0e15b7f6dacc"
+    }
+  },
+  {
+    "url": "https://www.city.suginami.tokyo.jp/s030/event/28895.html",
+    "retrieval": {
+      "url": "https://www.city.suginami.tokyo.jp/s030/event/28895.html",
+      "checked_at": "2026-11-14T19:49:32+09:00",
+      "status": "checked",
+      "http_status": 200,
+      "final_url": "https://www.city.suginami.tokyo.jp/s030/event/28895.html",
+      "content_type": "text/html",
+      "bytes": 18282,
+      "sha256": "114d8356609559a69413e5e7954f3da4864fc33a36b35c6bdcb0d59cd7d1258e"
+    }
+  },
+  {
+    "url": "https://www.city.suginami.tokyo.jp/s030/event/28935.html",
+    "retrieval": {
+      "url": "https://www.city.suginami.tokyo.jp/s030/event/28935.html",
+      "checked_at": "2026-11-14T19:49:30+09:00",
+      "status": "checked",
+      "http_status": 200,
+      "final_url": "https://www.city.suginami.tokyo.jp/s030/event/28935.html",
+      "content_type": "text/html",
+      "bytes": 17295,
+      "sha256": "fb95097fd65e16ce75a5de85bffb56eb3cda6ff919672e04dc8045faec0e7c55"
+    }
+  },
+  {
+    "url": "https://www.city.suginami.tokyo.jp/s030/event/29065.html",
+    "retrieval": {
+      "url": "https://www.city.suginami.tokyo.jp/s030/event/29065.html",
+      "checked_at": "2026-11-14T19:49:38+09:00",
+      "status": "checked",
+      "http_status": 200,
+      "final_url": "https://www.city.suginami.tokyo.jp/s030/event/29065.html",
+      "content_type": "text/html",
+      "bytes": 17934,
+      "sha256": "c26af818b83a598c550a078c4be71f5e03bd53026b6e5ebfb3f6e6a888886439"
+    }
+  },
+  {
+    "url": "https://www.city.suginami.tokyo.jp/s032/event/28111.html",
+    "retrieval": {
+      "url": "https://www.city.suginami.tokyo.jp/s032/event/28111.html",
+      "checked_at": "2026-11-14T19:49:37+09:00",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found",
+      "http_status": 404,
+      "final_url": "https://www.city.suginami.tokyo.jp/s032/event/28111.html",
+      "response_server": "envoy",
+      "response_content_type": "text/html",
+      "response_title": "ページが見つかりません｜杉並区公式ホームページ",
+      "error_body_sha256": "d03e6253e2845041ec8c1fce6a86814344981f831f03e10e18aabfdba25863f6",
+      "error_body_truncated": true,
+      "cloudflare_challenge_detected": false,
+      "challenge_detected": false,
+      "response_cf_ray_present": false,
+      "error_kind": "official_page_not_found",
+      "retryable_http_error": false
+    }
+  },
+  {
+    "url": "https://www.city.suginami.tokyo.jp/s032/event/28680.html",
+    "retrieval": {
+      "url": "https://www.city.suginami.tokyo.jp/s032/event/28680.html",
+      "checked_at": "2026-11-14T19:49:35+09:00",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found",
+      "http_status": 404,
+      "final_url": "https://www.city.suginami.tokyo.jp/s032/event/28680.html",
+      "response_server": "envoy",
+      "response_content_type": "text/html",
+      "response_title": "ページが見つかりません｜杉並区公式ホームページ",
+      "error_body_sha256": "d03e6253e2845041ec8c1fce6a86814344981f831f03e10e18aabfdba25863f6",
+      "error_body_truncated": true,
+      "cloudflare_challenge_detected": false,
+      "challenge_detected": false,
+      "response_cf_ray_present": false,
+      "error_kind": "official_page_not_found",
+      "retryable_http_error": false
+    }
+  },
+  {
+    "url": "https://www.city.suginami.tokyo.jp/s032/event/28849.html",
+    "retrieval": {
+      "url": "https://www.city.suginami.tokyo.jp/s032/event/28849.html",
+      "checked_at": "2026-11-14T19:49:44+09:00",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found",
+      "http_status": 404,
+      "final_url": "https://www.city.suginami.tokyo.jp/s032/event/28849.html",
+      "response_server": "envoy",
+      "response_content_type": "text/html",
+      "response_title": "ページが見つかりません｜杉並区公式ホームページ",
+      "error_body_sha256": "d03e6253e2845041ec8c1fce6a86814344981f831f03e10e18aabfdba25863f6",
+      "error_body_truncated": true,
+      "cloudflare_challenge_detected": false,
+      "challenge_detected": false,
+      "response_cf_ray_present": false,
+      "error_kind": "official_page_not_found",
+      "retryable_http_error": false
+    }
+  },
+  {
+    "url": "https://www.city.suginami.tokyo.jp/s032/event/29036.html",
+    "retrieval": {
+      "url": "https://www.city.suginami.tokyo.jp/s032/event/29036.html",
+      "checked_at": "2026-11-14T19:49:42+09:00",
+      "status": "checked",
+      "http_status": 200,
+      "final_url": "https://www.city.suginami.tokyo.jp/s032/event/29036.html",
+      "content_type": "text/html",
+      "bytes": 17824,
+      "sha256": "398387cb186f26a40a64f5425238b7686218e2cba7c9709851b99c5fd2af0e1c"
+    }
+  },
+  {
+    "url": "https://www.city.suginami.tokyo.jp/s033/event/28657.html",
+    "retrieval": {
+      "url": "https://www.city.suginami.tokyo.jp/s033/event/28657.html",
+      "checked_at": "2026-11-14T19:49:40+09:00",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found",
+      "http_status": 404,
+      "final_url": "https://www.city.suginami.tokyo.jp/s033/event/28657.html",
+      "response_server": "envoy",
+      "response_content_type": "text/html",
+      "response_title": "ページが見つかりません｜杉並区公式ホームページ",
+      "error_body_sha256": "d03e6253e2845041ec8c1fce6a86814344981f831f03e10e18aabfdba25863f6",
+      "error_body_truncated": true,
+      "cloudflare_challenge_detected": false,
+      "challenge_detected": false,
+      "response_cf_ray_present": false,
+      "error_kind": "official_page_not_found",
+      "retryable_http_error": false
+    }
+  },
+  {
+    "url": "https://www.city.suginami.tokyo.jp/s032/event/28976.html",
+    "retrieval": {
+      "url": "https://www.city.suginami.tokyo.jp/s032/event/28976.html",
+      "checked_at": "2026-11-14T19:49:50+09:00",
+      "status": "checked",
+      "http_status": 200,
+      "final_url": "https://www.city.suginami.tokyo.jp/s032/event/28976.html",
+      "content_type": "text/html",
+      "bytes": 16787,
+      "sha256": "022e0144717076122d3a9fe88c0c7cc61227ecce2df1e5a2a9b540849f532a6a"
+    }
+  },
+  {
+    "url": "https://www.city.suginami.tokyo.jp/s036/event/28878.html",
+    "retrieval": {
+      "url": "https://www.city.suginami.tokyo.jp/s036/event/28878.html",
+      "checked_at": "2026-11-14T19:49:47+09:00",
+      "status": "checked",
+      "http_status": 200,
+      "final_url": "https://www.city.suginami.tokyo.jp/s036/event/28878.html",
+      "content_type": "text/html",
+      "bytes": 18493,
+      "sha256": "fa16039e4d5df93b8fa337edc04acdfbcabb13434a69eaa3b234dc05d33345f3"
+    }
+  },
+  {
+    "url": "https://www.city.suginami.tokyo.jp/s033/event/28971.html",
+    "retrieval": {
+      "url": "https://www.city.suginami.tokyo.jp/s033/event/28971.html",
+      "checked_at": "2026-11-14T19:49:45+09:00",
+      "status": "checked",
+      "http_status": 200,
+      "final_url": "https://www.city.suginami.tokyo.jp/s033/event/28971.html",
+      "content_type": "text/html",
+      "bytes": 17825,
+      "sha256": "15f441ec61c26fa174f11023585e685d13d536f90f749ae2dc7fd4676c814cb3"
+    }
+  },
+  {
+    "url": "https://www.city.suginami.tokyo.jp/s037/event/28881.html",
+    "retrieval": {
+      "url": "https://www.city.suginami.tokyo.jp/s037/event/28881.html",
+      "checked_at": "2026-11-14T19:49:55+09:00",
+      "status": "checked",
+      "http_status": 200,
+      "final_url": "https://www.city.suginami.tokyo.jp/s037/event/28881.html",
+      "content_type": "text/html",
+      "bytes": 17461,
+      "sha256": "645283663f4d7ea6855d9fcc170a9ec06c89a0ba5561ea5037ec79ec5e36a5eb"
+    }
+  },
+  {
+    "url": "https://www.city.suginami.tokyo.jp/s036/event/29862.html",
+    "retrieval": {
+      "url": "https://www.city.suginami.tokyo.jp/s036/event/29862.html",
+      "checked_at": "2026-11-14T19:49:53+09:00",
+      "status": "checked",
+      "http_status": 200,
+      "final_url": "https://www.city.suginami.tokyo.jp/s036/event/29862.html",
+      "content_type": "text/html",
+      "bytes": 17830,
+      "sha256": "b73a305a42fc3dfd42437540efd520e6816ee5775d6bb0d3d9f2b84a02bd45d0"
+    }
+  },
+  {
+    "url": "https://www.city.suginami.tokyo.jp/s037/event/28517.html",
+    "retrieval": {
+      "url": "https://www.city.suginami.tokyo.jp/s037/event/28517.html",
+      "checked_at": "2026-11-14T19:49:51+09:00",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found",
+      "http_status": 404,
+      "final_url": "https://www.city.suginami.tokyo.jp/s037/event/28517.html",
+      "response_server": "envoy",
+      "response_content_type": "text/html",
+      "response_title": "ページが見つかりません｜杉並区公式ホームページ",
+      "error_body_sha256": "d03e6253e2845041ec8c1fce6a86814344981f831f03e10e18aabfdba25863f6",
+      "error_body_truncated": true,
+      "cloudflare_challenge_detected": false,
+      "challenge_detected": false,
+      "response_cf_ray_present": false,
+      "error_kind": "official_page_not_found",
+      "retryable_http_error": false
+    }
+  },
+  {
+    "url": "https://www.city.suginami.tokyo.jp/s036/event/29122.html",
+    "retrieval": {
+      "url": "https://www.city.suginami.tokyo.jp/s036/event/29122.html",
+      "checked_at": "2026-11-14T19:50:01+09:00",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found",
+      "http_status": 404,
+      "final_url": "https://www.city.suginami.tokyo.jp/s036/event/29122.html",
+      "response_server": "envoy",
+      "response_content_type": "text/html",
+      "response_title": "ページが見つかりません｜杉並区公式ホームページ",
+      "error_body_sha256": "d03e6253e2845041ec8c1fce6a86814344981f831f03e10e18aabfdba25863f6",
+      "error_body_truncated": true,
+      "cloudflare_challenge_detected": false,
+      "challenge_detected": false,
+      "response_cf_ray_present": false,
+      "error_kind": "official_page_not_found",
+      "retryable_http_error": false
+    }
+  },
+  {
+    "url": "https://www.city.suginami.tokyo.jp/s038/event/27360.html",
+    "retrieval": {
+      "url": "https://www.city.suginami.tokyo.jp/s038/event/27360.html",
+      "checked_at": "2026-11-14T19:49:59+09:00",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found",
+      "http_status": 404,
+      "final_url": "https://www.city.suginami.tokyo.jp/s038/event/27360.html",
+      "response_server": "envoy",
+      "response_content_type": "text/html",
+      "response_title": "ページが見つかりません｜杉並区公式ホームページ",
+      "error_body_sha256": "d03e6253e2845041ec8c1fce6a86814344981f831f03e10e18aabfdba25863f6",
+      "error_body_truncated": true,
+      "cloudflare_challenge_detected": false,
+      "challenge_detected": false,
+      "response_cf_ray_present": false,
+      "error_kind": "official_page_not_found",
+      "retryable_http_error": false
+    }
+  },
+  {
+    "url": "https://www.city.suginami.tokyo.jp/s038/event/28208.html",
+    "retrieval": {
+      "url": "https://www.city.suginami.tokyo.jp/s038/event/28208.html",
+      "checked_at": "2026-11-14T19:49:57+09:00",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found",
+      "http_status": 404,
+      "final_url": "https://www.city.suginami.tokyo.jp/s038/event/28208.html",
+      "response_server": "envoy",
+      "response_content_type": "text/html",
+      "response_title": "ページが見つかりません｜杉並区公式ホームページ",
+      "error_body_sha256": "d03e6253e2845041ec8c1fce6a86814344981f831f03e10e18aabfdba25863f6",
+      "error_body_truncated": true,
+      "cloudflare_challenge_detected": false,
+      "challenge_detected": false,
+      "response_cf_ray_present": false,
+      "error_kind": "official_page_not_found",
+      "retryable_http_error": false
+    }
+  },
+  {
+    "url": "https://www.city.suginami.tokyo.jp/s038/event/28321.html",
+    "retrieval": {
+      "url": "https://www.city.suginami.tokyo.jp/s038/event/28321.html",
+      "checked_at": "2026-11-14T19:50:07+09:00",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found",
+      "http_status": 404,
+      "final_url": "https://www.city.suginami.tokyo.jp/s038/event/28321.html",
+      "response_server": "envoy",
+      "response_content_type": "text/html",
+      "response_title": "ページが見つかりません｜杉並区公式ホームページ",
+      "error_body_sha256": "d03e6253e2845041ec8c1fce6a86814344981f831f03e10e18aabfdba25863f6",
+      "error_body_truncated": true,
+      "cloudflare_challenge_detected": false,
+      "challenge_detected": false,
+      "response_cf_ray_present": false,
+      "error_kind": "official_page_not_found",
+      "retryable_http_error": false
+    }
+  },
+  {
+    "url": "https://www.city.suginami.tokyo.jp/s038/event/28937.html",
+    "retrieval": {
+      "url": "https://www.city.suginami.tokyo.jp/s038/event/28937.html",
+      "checked_at": "2026-11-14T19:50:05+09:00",
+      "status": "checked",
+      "http_status": 200,
+      "final_url": "https://www.city.suginami.tokyo.jp/s038/event/28937.html",
+      "content_type": "text/html",
+      "bytes": 18543,
+      "sha256": "9777b16ec8b0f4560fa5d08578fb31ac3a9efbc90574c44079614571d8dc33c7"
+    }
+  },
+  {
+    "url": "https://www.city.suginami.tokyo.jp/s039/event/28583.html",
+    "retrieval": {
+      "url": "https://www.city.suginami.tokyo.jp/s039/event/28583.html",
+      "checked_at": "2026-11-14T19:50:03+09:00",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found",
+      "http_status": 404,
+      "final_url": "https://www.city.suginami.tokyo.jp/s039/event/28583.html",
+      "response_server": "envoy",
+      "response_content_type": "text/html",
+      "response_title": "ページが見つかりません｜杉並区公式ホームページ",
+      "error_body_sha256": "d03e6253e2845041ec8c1fce6a86814344981f831f03e10e18aabfdba25863f6",
+      "error_body_truncated": true,
+      "cloudflare_challenge_detected": false,
+      "challenge_detected": false,
+      "response_cf_ray_present": false,
+      "error_kind": "official_page_not_found",
+      "retryable_http_error": false
+    }
+  },
+  {
+    "url": "https://www.city.suginami.tokyo.jp/s039/event/28943.html",
+    "retrieval": {
+      "url": "https://www.city.suginami.tokyo.jp/s039/event/28943.html",
+      "checked_at": "2026-11-14T19:50:13+09:00",
+      "status": "checked",
+      "http_status": 200,
+      "final_url": "https://www.city.suginami.tokyo.jp/s039/event/28943.html",
+      "content_type": "text/html",
+      "bytes": 17947,
+      "sha256": "57396e36c8be0d64b772bce174d3b593c6bba739504046b063030847233e6f51"
+    }
+  },
+  {
+    "url": "https://www.city.suginami.tokyo.jp/s039/event/28947.html",
+    "retrieval": {
+      "url": "https://www.city.suginami.tokyo.jp/s039/event/28947.html",
+      "checked_at": "2026-11-14T19:50:11+09:00",
+      "status": "checked",
+      "http_status": 200,
+      "final_url": "https://www.city.suginami.tokyo.jp/s039/event/28947.html",
+      "content_type": "text/html",
+      "bytes": 17209,
+      "sha256": "e3ecb292c48b407b845d87aed4b92926eadae277db91d6ecefd99704653b7641"
+    }
+  },
+  {
+    "url": "https://www.city.suginami.tokyo.jp/s038/event/29761.html",
+    "retrieval": {
+      "url": "https://www.city.suginami.tokyo.jp/s038/event/29761.html",
+      "checked_at": "2026-11-14T19:50:09+09:00",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found",
+      "http_status": 404,
+      "final_url": "https://www.city.suginami.tokyo.jp/s038/event/29761.html",
+      "response_server": "envoy",
+      "response_content_type": "text/html",
+      "response_title": "ページが見つかりません｜杉並区公式ホームページ",
+      "error_body_sha256": "d03e6253e2845041ec8c1fce6a86814344981f831f03e10e18aabfdba25863f6",
+      "error_body_truncated": true,
+      "cloudflare_challenge_detected": false,
+      "challenge_detected": false,
+      "response_cf_ray_present": false,
+      "error_kind": "official_page_not_found",
+      "retryable_http_error": false
+    }
+  },
+  {
+    "url": "https://www.city.suginami.tokyo.jp/s045/event/28093.html",
+    "retrieval": {
+      "url": "https://www.city.suginami.tokyo.jp/s045/event/28093.html",
+      "checked_at": "2026-11-14T19:50:15+09:00",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found",
+      "http_status": 404,
+      "final_url": "https://www.city.suginami.tokyo.jp/s045/event/28093.html",
+      "response_server": "envoy",
+      "response_content_type": "text/html",
+      "response_title": "ページが見つかりません｜杉並区公式ホームページ",
+      "error_body_sha256": "d03e6253e2845041ec8c1fce6a86814344981f831f03e10e18aabfdba25863f6",
+      "error_body_truncated": true,
+      "cloudflare_challenge_detected": false,
+      "challenge_detected": false,
+      "response_cf_ray_present": false,
+      "error_kind": "official_page_not_found",
+      "retryable_http_error": false
+    }
+  },
+  {
+    "url": "https://www.city.suginami.tokyo.jp/s045/event/28191.html",
+    "retrieval": {
+      "url": "https://www.city.suginami.tokyo.jp/s045/event/28191.html",
+      "checked_at": "2026-11-14T19:50:20+09:00",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found",
+      "http_status": 404,
+      "final_url": "https://www.city.suginami.tokyo.jp/s045/event/28191.html",
+      "response_server": "envoy",
+      "response_content_type": "text/html",
+      "response_title": "ページが見つかりません｜杉並区公式ホームページ",
+      "error_body_sha256": "d03e6253e2845041ec8c1fce6a86814344981f831f03e10e18aabfdba25863f6",
+      "error_body_truncated": true,
+      "cloudflare_challenge_detected": false,
+      "challenge_detected": false,
+      "response_cf_ray_present": false,
+      "error_kind": "official_page_not_found",
+      "retryable_http_error": false
+    }
+  },
+  {
+    "url": "https://www.city.suginami.tokyo.jp/s045/event/28245.html",
+    "retrieval": {
+      "url": "https://www.city.suginami.tokyo.jp/s045/event/28245.html",
+      "checked_at": "2026-11-14T19:50:18+09:00",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found",
+      "http_status": 404,
+      "final_url": "https://www.city.suginami.tokyo.jp/s045/event/28245.html",
+      "response_server": "envoy",
+      "response_content_type": "text/html",
+      "response_title": "ページが見つかりません｜杉並区公式ホームページ",
+      "error_body_sha256": "d03e6253e2845041ec8c1fce6a86814344981f831f03e10e18aabfdba25863f6",
+      "error_body_truncated": true,
+      "cloudflare_challenge_detected": false,
+      "challenge_detected": false,
+      "response_cf_ray_present": false,
+      "error_kind": "official_page_not_found",
+      "retryable_http_error": false
+    }
+  },
+  {
+    "url": "https://www.city.suginami.tokyo.jp/s045/event/28726.html",
+    "retrieval": {
+      "url": "https://www.city.suginami.tokyo.jp/s045/event/28726.html",
+      "checked_at": "2026-11-14T19:50:17+09:00",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found",
+      "http_status": 404,
+      "final_url": "https://www.city.suginami.tokyo.jp/s045/event/28726.html",
+      "response_server": "envoy",
+      "response_content_type": "text/html",
+      "response_title": "ページが見つかりません｜杉並区公式ホームページ",
+      "error_body_sha256": "d03e6253e2845041ec8c1fce6a86814344981f831f03e10e18aabfdba25863f6",
+      "error_body_truncated": true,
+      "cloudflare_challenge_detected": false,
+      "challenge_detected": false,
+      "response_cf_ray_present": false,
+      "error_kind": "official_page_not_found",
+      "retryable_http_error": false
+    }
+  },
+  {
+    "url": "https://www.city.suginami.tokyo.jp/s045/event/28198.html",
+    "retrieval": {
+      "url": "https://www.city.suginami.tokyo.jp/s045/event/28198.html",
+      "checked_at": "2026-11-14T19:50:22+09:00",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found",
+      "http_status": 404,
+      "final_url": "https://www.city.suginami.tokyo.jp/s045/event/28198.html",
+      "response_server": "envoy",
+      "response_content_type": "text/html",
+      "response_title": "ページが見つかりません｜杉並区公式ホームページ",
+      "error_body_sha256": "d03e6253e2845041ec8c1fce6a86814344981f831f03e10e18aabfdba25863f6",
+      "error_body_truncated": true,
+      "cloudflare_challenge_detected": false,
+      "challenge_detected": false,
+      "response_cf_ray_present": false,
+      "error_kind": "official_page_not_found",
+      "retryable_http_error": false
+    }
+  },
+  {
+    "url": "https://www.city.suginami.tokyo.jp/s050/event/28476.html",
+    "retrieval": {
+      "url": "https://www.city.suginami.tokyo.jp/s050/event/28476.html",
+      "checked_at": "2026-11-14T19:50:27+09:00",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found",
+      "http_status": 404,
+      "final_url": "https://www.city.suginami.tokyo.jp/s050/event/28476.html",
+      "response_server": "envoy",
+      "response_content_type": "text/html",
+      "response_title": "ページが見つかりません｜杉並区公式ホームページ",
+      "error_body_sha256": "d03e6253e2845041ec8c1fce6a86814344981f831f03e10e18aabfdba25863f6",
+      "error_body_truncated": true,
+      "cloudflare_challenge_detected": false,
+      "challenge_detected": false,
+      "response_cf_ray_present": false,
+      "error_kind": "official_page_not_found",
+      "retryable_http_error": false
+    }
+  },
+  {
+    "url": "https://www.city.suginami.tokyo.jp/s054/event/28009.html",
+    "retrieval": {
+      "url": "https://www.city.suginami.tokyo.jp/s054/event/28009.html",
+      "checked_at": "2026-11-14T19:50:25+09:00",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found",
+      "http_status": 404,
+      "final_url": "https://www.city.suginami.tokyo.jp/s054/event/28009.html",
+      "response_server": "envoy",
+      "response_content_type": "text/html",
+      "response_title": "ページが見つかりません｜杉並区公式ホームページ",
+      "error_body_sha256": "d03e6253e2845041ec8c1fce6a86814344981f831f03e10e18aabfdba25863f6",
+      "error_body_truncated": true,
+      "cloudflare_challenge_detected": false,
+      "challenge_detected": false,
+      "response_cf_ray_present": false,
+      "error_kind": "official_page_not_found",
+      "retryable_http_error": false
+    }
+  },
+  {
+    "url": "https://www.city.suginami.tokyo.jp/s059/event/28842.html",
+    "retrieval": {
+      "url": "https://www.city.suginami.tokyo.jp/s059/event/28842.html",
+      "checked_at": "2026-11-14T19:50:23+09:00",
+      "status": "checked",
+      "http_status": 200,
+      "final_url": "https://www.city.suginami.tokyo.jp/s059/event/28842.html",
+      "content_type": "text/html",
+      "bytes": 16928,
+      "sha256": "b897b1221216cce1390aeb8744ec0617ee460d68d1fe207235494915becc470b"
+    }
+  },
+  {
+    "url": "https://www.city.suginami.tokyo.jp/s059/event/28866.html",
+    "retrieval": {
+      "url": "https://www.city.suginami.tokyo.jp/s059/event/28866.html",
+      "checked_at": "2026-11-14T19:50:33+09:00",
+      "status": "checked",
+      "http_status": 200,
+      "final_url": "https://www.city.suginami.tokyo.jp/s059/event/28866.html",
+      "content_type": "text/html",
+      "bytes": 19018,
+      "sha256": "ef07b4ea0bfdb286a5c2a6796f0a92200726db476071062cc5860c72e2aa53a0"
+    }
+  },
+  {
+    "url": "https://www.city.suginami.tokyo.jp/s059/event/28880.html",
+    "retrieval": {
+      "url": "https://www.city.suginami.tokyo.jp/s059/event/28880.html",
+      "checked_at": "2026-11-14T19:50:31+09:00",
+      "status": "checked",
+      "http_status": 200,
+      "final_url": "https://www.city.suginami.tokyo.jp/s059/event/28880.html",
+      "content_type": "text/html",
+      "bytes": 18398,
+      "sha256": "cb7667e053949c7fb4c848f6de65e66dd18a0dcecae6e7554abf92e733d1fb33"
+    }
+  },
+  {
+    "url": "https://www.city.suginami.tokyo.jp/s054/event/28652.html",
+    "retrieval": {
+      "url": "https://www.city.suginami.tokyo.jp/s054/event/28652.html",
+      "checked_at": "2026-11-14T19:50:29+09:00",
+      "status": "checked",
+      "http_status": 200,
+      "final_url": "https://www.city.suginami.tokyo.jp/s054/event/28652.html",
+      "content_type": "text/html",
+      "bytes": 20867,
+      "sha256": "adb2fdf0921152fb78c99a6d18beaadf1f05b6ecbf1b9d406ec0920e82b41f7d"
+    }
+  },
+  {
+    "url": "https://www.city.suginami.tokyo.jp/s093/event/28814.html",
+    "retrieval": {
+      "url": "https://www.city.suginami.tokyo.jp/s093/event/28814.html",
+      "checked_at": "2026-11-14T19:50:34+09:00",
+      "status": "checked",
+      "http_status": 200,
+      "final_url": "https://www.city.suginami.tokyo.jp/s093/event/28814.html",
+      "content_type": "text/html",
+      "bytes": 16486,
+      "sha256": "e089671cd14367b4e75f01bbc939671ab1bdef5e75c99f5cbc7b9ee37edb80e8"
+    }
+  },
+  {
+    "url": "https://www.city.suginami.tokyo.jp/s093/event/28818.html",
+    "retrieval": {
+      "url": "https://www.city.suginami.tokyo.jp/s093/event/28818.html",
+      "checked_at": "2026-11-14T19:50:36+09:00",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found",
+      "http_status": 404,
+      "final_url": "https://www.city.suginami.tokyo.jp/s093/event/28818.html",
+      "response_server": "envoy",
+      "response_content_type": "text/html",
+      "response_title": "ページが見つかりません｜杉並区公式ホームページ",
+      "error_body_sha256": "d03e6253e2845041ec8c1fce6a86814344981f831f03e10e18aabfdba25863f6",
+      "error_body_truncated": true,
+      "cloudflare_challenge_detected": false,
+      "challenge_detected": false,
+      "response_cf_ray_present": false,
+      "error_kind": "official_page_not_found",
+      "retryable_http_error": false
+    }
+  },
+  {
+    "url": "https://www.city.suginami.tokyo.jp/s093/event/28828.html",
+    "retrieval": {
+      "url": "https://www.city.suginami.tokyo.jp/s093/event/28828.html",
+      "checked_at": "2026-11-14T19:50:38+09:00",
+      "status": "checked",
+      "http_status": 200,
+      "final_url": "https://www.city.suginami.tokyo.jp/s093/event/28828.html",
+      "content_type": "text/html",
+      "bytes": 19944,
+      "sha256": "13a39a97b54181ea97d5d1dbfb2037837bbb80eeca1f7dedcf33c5bba0ecb731"
+    }
+  },
+  {
+    "url": "https://www.city.suginami.tokyo.jp/s100/event/28939.html",
+    "retrieval": {
+      "url": "https://www.city.suginami.tokyo.jp/s100/event/28939.html",
+      "checked_at": "2026-11-14T19:50:40+09:00",
+      "status": "checked",
+      "http_status": 200,
+      "final_url": "https://www.city.suginami.tokyo.jp/s100/event/28939.html",
+      "content_type": "text/html",
+      "bytes": 22100,
+      "sha256": "3374d421d6226a60d31233d5f8123990999722ae1cdb7373f8d2e24a78429b7a"
+    }
+  },
+  {
+    "url": "https://www.city.suginami.tokyo.jp/s100/event/28897.html",
+    "retrieval": {
+      "url": "https://www.city.suginami.tokyo.jp/s100/event/28897.html",
+      "checked_at": "2026-11-14T19:50:41+09:00",
+      "status": "checked",
+      "http_status": 200,
+      "final_url": "https://www.city.suginami.tokyo.jp/s100/event/28897.html",
+      "content_type": "text/html",
+      "bytes": 18171,
+      "sha256": "9ef217e63405f9fcc7db21f4175042ef6d630684dffb92f49dede0504dcf9f75"
+    }
+  },
+  {
+    "url": "https://www.city.suginami.tokyo.jp/s103/event/28212.html",
+    "retrieval": {
+      "url": "https://www.city.suginami.tokyo.jp/s103/event/28212.html",
+      "checked_at": "2026-11-14T19:50:43+09:00",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found",
+      "http_status": 404,
+      "final_url": "https://www.city.suginami.tokyo.jp/s103/event/28212.html",
+      "response_server": "envoy",
+      "response_content_type": "text/html",
+      "response_title": "ページが見つかりません｜杉並区公式ホームページ",
+      "error_body_sha256": "d03e6253e2845041ec8c1fce6a86814344981f831f03e10e18aabfdba25863f6",
+      "error_body_truncated": true,
+      "cloudflare_challenge_detected": false,
+      "challenge_detected": false,
+      "response_cf_ray_present": false,
+      "error_kind": "official_page_not_found",
+      "retryable_http_error": false
+    }
+  },
+  {
+    "url": "https://www.city.suginami.tokyo.jp/s103/event/28219.html",
+    "retrieval": {
+      "url": "https://www.city.suginami.tokyo.jp/s103/event/28219.html",
+      "checked_at": "2026-11-14T19:50:45+09:00",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found",
+      "http_status": 404,
+      "final_url": "https://www.city.suginami.tokyo.jp/s103/event/28219.html",
+      "response_server": "envoy",
+      "response_content_type": "text/html",
+      "response_title": "ページが見つかりません｜杉並区公式ホームページ",
+      "error_body_sha256": "d03e6253e2845041ec8c1fce6a86814344981f831f03e10e18aabfdba25863f6",
+      "error_body_truncated": true,
+      "cloudflare_challenge_detected": false,
+      "challenge_detected": false,
+      "response_cf_ray_present": false,
+      "error_kind": "official_page_not_found",
+      "retryable_http_error": false
+    }
+  },
+  {
+    "url": "https://www.city.suginami.tokyo.jp/s103/event/29003.html",
+    "retrieval": {
+      "url": "https://www.city.suginami.tokyo.jp/s103/event/29003.html",
+      "checked_at": "2026-11-14T19:50:46+09:00",
+      "status": "checked",
+      "http_status": 200,
+      "final_url": "https://www.city.suginami.tokyo.jp/s103/event/29003.html",
+      "content_type": "text/html",
+      "bytes": 19194,
+      "sha256": "6860faa2b8332bca4d4da779267769b32c18815a73f8cef2597a9e9591ae5dc6"
+    }
+  },
+  {
+    "url": "https://www.city.suginami.tokyo.jp/s103/event/29005.html",
+    "retrieval": {
+      "url": "https://www.city.suginami.tokyo.jp/s103/event/29005.html",
+      "checked_at": "2026-11-14T19:50:48+09:00",
+      "status": "checked",
+      "http_status": 200,
+      "final_url": "https://www.city.suginami.tokyo.jp/s103/event/29005.html",
+      "content_type": "text/html",
+      "bytes": 18267,
+      "sha256": "fd2e6132fdecaa8df2a3394ba2b7cb196770f2e6fe6a62151b80299a5e4550b8"
+    }
+  },
+  {
+    "url": "https://www.city.suginami.tokyo.jp/s103/event/28218.html",
+    "retrieval": {
+      "url": "https://www.city.suginami.tokyo.jp/s103/event/28218.html",
+      "checked_at": "2026-11-14T19:50:53+09:00",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found",
+      "http_status": 404,
+      "final_url": "https://www.city.suginami.tokyo.jp/s103/event/28218.html",
+      "response_server": "envoy",
+      "response_content_type": "text/html",
+      "response_title": "ページが見つかりません｜杉並区公式ホームページ",
+      "error_body_sha256": "d03e6253e2845041ec8c1fce6a86814344981f831f03e10e18aabfdba25863f6",
+      "error_body_truncated": true,
+      "cloudflare_challenge_detected": false,
+      "challenge_detected": false,
+      "response_cf_ray_present": false,
+      "error_kind": "official_page_not_found",
+      "retryable_http_error": false
+    }
+  },
+  {
+    "url": "https://www.city.suginami.tokyo.jp/s110/event/29026.html",
+    "retrieval": {
+      "url": "https://www.city.suginami.tokyo.jp/s110/event/29026.html",
+      "checked_at": "2026-11-14T19:50:58+09:00",
+      "status": "checked",
+      "http_status": 200,
+      "final_url": "https://www.city.suginami.tokyo.jp/s110/event/29026.html",
+      "content_type": "text/html",
+      "bytes": 18143,
+      "sha256": "816bcedcbc156774a495ae7c583ff4107ac9cc898453c4975a9f12adcaaeaa89"
+    }
+  },
+  {
+    "url": "https://www.city.suginami.tokyo.jp/s103/event/29010.html",
+    "retrieval": {
+      "url": "https://www.city.suginami.tokyo.jp/s103/event/29010.html",
+      "checked_at": "2026-11-14T19:51:08+09:00",
+      "status": "checked",
+      "http_status": 200,
+      "final_url": "https://www.city.suginami.tokyo.jp/s103/event/29010.html",
+      "content_type": "text/html",
+      "bytes": 17604,
+      "sha256": "3ef95c784a935539e08e272b0521b7ffeeb49426cd23567ecb92c6f828d31fcd"
+    }
+  },
+  {
+    "url": "https://www.city.suginami.tokyo.jp/s107/event/28877.html",
+    "retrieval": {
+      "url": "https://www.city.suginami.tokyo.jp/s107/event/28877.html",
+      "checked_at": "2026-11-14T19:51:05+09:00",
+      "status": "checked",
+      "http_status": 200,
+      "final_url": "https://www.city.suginami.tokyo.jp/s107/event/28877.html",
+      "content_type": "text/html",
+      "bytes": 17365,
+      "sha256": "888d1405ca1abfc92612e3890754a098d88beef59ff3475f7ffff15d5bd4cdb9"
+    }
+  },
+  {
+    "url": "https://www.city.suginami.tokyo.jp/s103/event/29006.html",
+    "retrieval": {
+      "url": "https://www.city.suginami.tokyo.jp/s103/event/29006.html",
+      "checked_at": "2026-11-14T19:51:01+09:00",
+      "status": "checked",
+      "http_status": 200,
+      "final_url": "https://www.city.suginami.tokyo.jp/s103/event/29006.html",
+      "content_type": "text/html",
+      "bytes": 17675,
+      "sha256": "82600a3126801a4351cdf7fc8fbb3e5f2f6865d8851b11488c10d7edf964b742"
+    }
+  },
+  {
+    "url": "https://www.city.suginami.tokyo.jp/s111/event/28900.html",
+    "retrieval": {
+      "url": "https://www.city.suginami.tokyo.jp/s111/event/28900.html",
+      "checked_at": "2026-11-14T19:51:10+09:00",
+      "status": "checked",
+      "http_status": 200,
+      "final_url": "https://www.city.suginami.tokyo.jp/s111/event/28900.html",
+      "content_type": "text/html",
+      "bytes": 18634,
+      "sha256": "bba8dd1d849f0d9a747da94f7273eb32cb94c5670a4fe24ddbf7c6d3105693cc"
+    }
+  },
+  {
+    "url": "https://www.city.suginami.tokyo.jp/s113/event/28275.html",
+    "retrieval": {
+      "url": "https://www.city.suginami.tokyo.jp/s113/event/28275.html",
+      "checked_at": "2026-11-14T19:51:11+09:00",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found",
+      "http_status": 404,
+      "final_url": "https://www.city.suginami.tokyo.jp/s113/event/28275.html",
+      "response_server": "envoy",
+      "response_content_type": "text/html",
+      "response_title": "ページが見つかりません｜杉並区公式ホームページ",
+      "error_body_sha256": "d03e6253e2845041ec8c1fce6a86814344981f831f03e10e18aabfdba25863f6",
+      "error_body_truncated": true,
+      "cloudflare_challenge_detected": false,
+      "challenge_detected": false,
+      "response_cf_ray_present": false,
+      "error_kind": "official_page_not_found",
+      "retryable_http_error": false
+    }
+  },
+  {
+    "url": "https://www.city.suginami.tokyo.jp/s113/event/28335.html",
+    "retrieval": {
+      "url": "https://www.city.suginami.tokyo.jp/s113/event/28335.html",
+      "checked_at": "2026-11-14T19:51:15+09:00",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found",
+      "http_status": 404,
+      "final_url": "https://www.city.suginami.tokyo.jp/s113/event/28335.html",
+      "response_server": "envoy",
+      "response_content_type": "text/html",
+      "response_title": "ページが見つかりません｜杉並区公式ホームページ",
+      "error_body_sha256": "d03e6253e2845041ec8c1fce6a86814344981f831f03e10e18aabfdba25863f6",
+      "error_body_truncated": true,
+      "cloudflare_challenge_detected": false,
+      "challenge_detected": false,
+      "response_cf_ray_present": false,
+      "error_kind": "official_page_not_found",
+      "retryable_http_error": false
+    }
+  },
+  {
+    "url": "https://www.city.suginami.tokyo.jp/s113/event/28057.html",
+    "retrieval": {
+      "url": "https://www.city.suginami.tokyo.jp/s113/event/28057.html",
+      "checked_at": "2026-11-14T19:51:21+09:00",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found",
+      "http_status": 404,
+      "final_url": "https://www.city.suginami.tokyo.jp/s113/event/28057.html",
+      "response_server": "envoy",
+      "response_content_type": "text/html",
+      "response_title": "ページが見つかりません｜杉並区公式ホームページ",
+      "error_body_sha256": "d03e6253e2845041ec8c1fce6a86814344981f831f03e10e18aabfdba25863f6",
+      "error_body_truncated": true,
+      "cloudflare_challenge_detected": false,
+      "challenge_detected": false,
+      "response_cf_ray_present": false,
+      "error_kind": "official_page_not_found",
+      "retryable_http_error": false
+    }
+  },
+  {
+    "url": "https://www.city.suginami.tokyo.jp/s113/event/29833.html",
+    "retrieval": {
+      "url": "https://www.city.suginami.tokyo.jp/s113/event/29833.html",
+      "checked_at": "2026-11-14T19:51:18+09:00",
+      "status": "checked",
+      "http_status": 200,
+      "final_url": "https://www.city.suginami.tokyo.jp/s113/event/29833.html",
+      "content_type": "text/html",
+      "bytes": 20905,
+      "sha256": "2430bba9cdbbe9e831f4840f31a76571ae30efac38a2662fc4b23e9a6a577287"
+    }
+  },
+  {
+    "url": "https://www.city.suginami.tokyo.jp/s113/event/28673.html",
+    "retrieval": {
+      "url": "https://www.city.suginami.tokyo.jp/s113/event/28673.html",
+      "checked_at": "2026-11-14T19:51:17+09:00",
+      "status": "checked",
+      "http_status": 200,
+      "final_url": "https://www.city.suginami.tokyo.jp/s113/event/28673.html",
+      "content_type": "text/html",
+      "bytes": 17967,
+      "sha256": "7913c9d2eefe96054849027578bacb704647146fa350fa0139ca17eeeadcd45d"
+    }
+  },
+  {
+    "url": "https://www.city.suginami.tokyo.jp/s113/event/28686.html",
+    "retrieval": {
+      "url": "https://www.city.suginami.tokyo.jp/s113/event/28686.html",
+      "checked_at": "2026-11-14T19:51:28+09:00",
+      "status": "checked",
+      "http_status": 200,
+      "final_url": "https://www.city.suginami.tokyo.jp/s113/event/28686.html",
+      "content_type": "text/html",
+      "bytes": 17411,
+      "sha256": "38ebb43a81bf4c93bc540f090c22534f997edb617e27ce3800556781dfa4e7d2"
+    }
+  },
+  {
+    "url": "https://www.city.suginami.tokyo.jp/s113/event/28509.html",
+    "retrieval": {
+      "url": "https://www.city.suginami.tokyo.jp/s113/event/28509.html",
+      "checked_at": "2026-11-14T19:51:26+09:00",
+      "status": "checked",
+      "http_status": 200,
+      "final_url": "https://www.city.suginami.tokyo.jp/s113/event/28509.html",
+      "content_type": "text/html",
+      "bytes": 18472,
+      "sha256": "94be16040081684343300573b7233e64fba86cd607dcc10a079fff0922387895"
+    }
+  },
+  {
+    "url": "https://www.city.suginami.tokyo.jp/s116/event/28800.html",
+    "retrieval": {
+      "url": "https://www.city.suginami.tokyo.jp/s116/event/28800.html",
+      "checked_at": "2026-11-14T19:51:23+09:00",
+      "status": "checked",
+      "http_status": 200,
+      "final_url": "https://www.city.suginami.tokyo.jp/s116/event/28800.html",
+      "content_type": "text/html",
+      "bytes": 16798,
+      "sha256": "22ca3676df9b81904397bcc188aadccfceb1fd3d51b96bee186920b4e70fdfe8"
+    }
+  },
+  {
+    "url": "https://www.city.suginami.tokyo.jp/s116/event/28337.html",
+    "retrieval": {
+      "url": "https://www.city.suginami.tokyo.jp/s116/event/28337.html",
+      "checked_at": "2026-11-14T19:51:35+09:00",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found",
+      "http_status": 404,
+      "final_url": "https://www.city.suginami.tokyo.jp/s116/event/28337.html",
+      "response_server": "envoy",
+      "response_content_type": "text/html",
+      "response_title": "ページが見つかりません｜杉並区公式ホームページ",
+      "error_body_sha256": "d03e6253e2845041ec8c1fce6a86814344981f831f03e10e18aabfdba25863f6",
+      "error_body_truncated": true,
+      "cloudflare_challenge_detected": false,
+      "challenge_detected": false,
+      "response_cf_ray_present": false,
+      "error_kind": "official_page_not_found",
+      "retryable_http_error": false
+    }
+  },
+  {
+    "url": "https://www.city.suginami.tokyo.jp/s121/event/26951.html",
+    "retrieval": {
+      "url": "https://www.city.suginami.tokyo.jp/s121/event/26951.html",
+      "checked_at": "2026-11-14T19:51:31+09:00",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found",
+      "http_status": 404,
+      "final_url": "https://www.city.suginami.tokyo.jp/s121/event/26951.html",
+      "response_server": "envoy",
+      "response_content_type": "text/html",
+      "response_title": "ページが見つかりません｜杉並区公式ホームページ",
+      "error_body_sha256": "d03e6253e2845041ec8c1fce6a86814344981f831f03e10e18aabfdba25863f6",
+      "error_body_truncated": true,
+      "cloudflare_challenge_detected": false,
+      "challenge_detected": false,
+      "response_cf_ray_present": false,
+      "error_kind": "official_page_not_found",
+      "retryable_http_error": false
+    }
+  },
+  {
+    "url": "https://www.city.suginami.tokyo.jp/s116/event/28736.html",
+    "retrieval": {
+      "url": "https://www.city.suginami.tokyo.jp/s116/event/28736.html",
+      "checked_at": "2026-11-14T19:51:29+09:00",
+      "status": "checked",
+      "http_status": 200,
+      "final_url": "https://www.city.suginami.tokyo.jp/s116/event/28736.html",
+      "content_type": "text/html",
+      "bytes": 17181,
+      "sha256": "0e816c44d905d32348e3b9f85fd7c7455cf56cf242b7a2280b0610af0bbc2b33"
+    }
+  },
+  {
+    "url": "https://www.city.suginami.tokyo.jp/s113/event/29910.html",
+    "retrieval": {
+      "url": "https://www.city.suginami.tokyo.jp/s113/event/29910.html",
+      "checked_at": "2026-11-14T19:51:34+09:00",
+      "status": "checked",
+      "http_status": 200,
+      "final_url": "https://www.city.suginami.tokyo.jp/s113/event/29910.html",
+      "content_type": "text/html",
+      "bytes": 15015,
+      "sha256": "f18ca2e8da9b2aa041dbb7eeb0779884c99da1075877c98ed2e4f4cda27d00e4"
+    }
+  },
+  {
+    "url": "https://www.city.suginami.tokyo.jp/s116/event/28394.html",
+    "retrieval": {
+      "url": "https://www.city.suginami.tokyo.jp/s116/event/28394.html",
+      "checked_at": "2026-11-14T19:51:33+09:00",
+      "status": "checked",
+      "http_status": 200,
+      "final_url": "https://www.city.suginami.tokyo.jp/s116/event/28394.html",
+      "content_type": "text/html",
+      "bytes": 17493,
+      "sha256": "e8ffd9a09fa8eb3a54dbdf19e440a1c76bb09da1a13937eafefc9fc1938eba66"
+    }
+  },
+  {
+    "url": "https://www.city.suginami.tokyo.jp/s121/event/28114.html",
+    "retrieval": {
+      "url": "https://www.city.suginami.tokyo.jp/s121/event/28114.html",
+      "checked_at": "2026-11-14T19:51:37+09:00",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found",
+      "http_status": 404,
+      "final_url": "https://www.city.suginami.tokyo.jp/s121/event/28114.html",
+      "response_server": "envoy",
+      "response_content_type": "text/html",
+      "response_title": "ページが見つかりません｜杉並区公式ホームページ",
+      "error_body_sha256": "d03e6253e2845041ec8c1fce6a86814344981f831f03e10e18aabfdba25863f6",
+      "error_body_truncated": true,
+      "cloudflare_challenge_detected": false,
+      "challenge_detected": false,
+      "response_cf_ray_present": false,
+      "error_kind": "official_page_not_found",
+      "retryable_http_error": false
+    }
+  },
+  {
+    "url": "https://www.city.suginami.tokyo.jp/s121/event/28242.html",
+    "retrieval": {
+      "url": "https://www.city.suginami.tokyo.jp/s121/event/28242.html",
+      "checked_at": "2026-11-14T19:51:39+09:00",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found",
+      "http_status": 404,
+      "final_url": "https://www.city.suginami.tokyo.jp/s121/event/28242.html",
+      "response_server": "envoy",
+      "response_content_type": "text/html",
+      "response_title": "ページが見つかりません｜杉並区公式ホームページ",
+      "error_body_sha256": "d03e6253e2845041ec8c1fce6a86814344981f831f03e10e18aabfdba25863f6",
+      "error_body_truncated": true,
+      "cloudflare_challenge_detected": false,
+      "challenge_detected": false,
+      "response_cf_ray_present": false,
+      "error_kind": "official_page_not_found",
+      "retryable_http_error": false
+    }
+  },
+  {
+    "url": "https://www.city.suginami.tokyo.jp/s116/event/28780.html",
+    "retrieval": {
+      "url": "https://www.city.suginami.tokyo.jp/s116/event/28780.html",
+      "checked_at": "2026-11-14T19:51:41+09:00",
+      "status": "checked",
+      "http_status": 200,
+      "final_url": "https://www.city.suginami.tokyo.jp/s116/event/28780.html",
+      "content_type": "text/html",
+      "bytes": 19607,
+      "sha256": "6971f99b80e395ec634b8b85e478e86334f8de67d54e1a3649e4b084a56d8b87"
+    }
+  },
+  {
+    "url": "https://www.city.suginami.tokyo.jp/s121/event/28589.html",
+    "retrieval": {
+      "url": "https://www.city.suginami.tokyo.jp/s121/event/28589.html",
+      "checked_at": "2026-11-14T19:51:46+09:00",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found",
+      "http_status": 404,
+      "final_url": "https://www.city.suginami.tokyo.jp/s121/event/28589.html",
+      "response_server": "envoy",
+      "response_content_type": "text/html",
+      "response_title": "ページが見つかりません｜杉並区公式ホームページ",
+      "error_body_sha256": "d03e6253e2845041ec8c1fce6a86814344981f831f03e10e18aabfdba25863f6",
+      "error_body_truncated": true,
+      "cloudflare_challenge_detected": false,
+      "challenge_detected": false,
+      "response_cf_ray_present": false,
+      "error_kind": "official_page_not_found",
+      "retryable_http_error": false
+    }
+  },
+  {
+    "url": "https://www.city.suginami.tokyo.jp/s121/event/28677.html",
+    "retrieval": {
+      "url": "https://www.city.suginami.tokyo.jp/s121/event/28677.html",
+      "checked_at": "2026-11-14T19:51:44+09:00",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found",
+      "http_status": 404,
+      "final_url": "https://www.city.suginami.tokyo.jp/s121/event/28677.html",
+      "response_server": "envoy",
+      "response_content_type": "text/html",
+      "response_title": "ページが見つかりません｜杉並区公式ホームページ",
+      "error_body_sha256": "d03e6253e2845041ec8c1fce6a86814344981f831f03e10e18aabfdba25863f6",
+      "error_body_truncated": true,
+      "cloudflare_challenge_detected": false,
+      "challenge_detected": false,
+      "response_cf_ray_present": false,
+      "error_kind": "official_page_not_found",
+      "retryable_http_error": false
+    }
+  },
+  {
+    "url": "https://www.city.suginami.tokyo.jp/s121/event/28679.html",
+    "retrieval": {
+      "url": "https://www.city.suginami.tokyo.jp/s121/event/28679.html",
+      "checked_at": "2026-11-14T19:51:43+09:00",
+      "status": "error",
+      "error": "HTTP Error 404: Not Found",
+      "http_status": 404,
+      "final_url": "https://www.city.suginami.tokyo.jp/s121/event/28679.html",
+      "response_server": "envoy",
+      "response_content_type": "text/html",
+      "response_title": "ページが見つかりません｜杉並区公式ホームページ",
+      "error_body_sha256": "d03e6253e2845041ec8c1fce6a86814344981f831f03e10e18aabfdba25863f6",
+      "error_body_truncated": true,
+      "cloudflare_challenge_detected": false,
+      "challenge_detected": false,
+      "response_cf_ray_present": false,
+      "error_kind": "official_page_not_found",
+      "retryable_http_error": false
+    }
+  },
+  {
+    "url": "https://www.city.suginami.tokyo.jp/s121/event/28993.html",
+    "retrieval": {
+      "url": "https://www.city.suginami.tokyo.jp/s121/event/28993.html",
+      "checked_at": "2026-11-14T19:51:48+09:00",
+      "status": "checked",
+      "http_status": 200,
+      "final_url": "https://www.city.suginami.tokyo.jp/s121/event/28993.html",
+      "content_type": "text/html",
+      "bytes": 17764,
+      "sha256": "b4824e6a4273dee3819c02352538a65b4581ec02cb1a55350c87f290a06db282"
+    }
+  },
+  {
+    "url": "https://www.city.arakawa.tokyo.jp/a011/event/2026/0811/0811_ishihama.html",
+    "retrieval": {
+      "url": "https://www.city.arakawa.tokyo.jp/a011/event/2026/0811/0811_ishihama.html",
+      "checked_at": "2026-11-14T19:57:52+09:00",
+      "status": "checked",
+      "http_status": 200,
+      "final_url": "https://www.city.arakawa.tokyo.jp/a011/event/2026/0811/0811_ishihama.html",
+      "content_type": "text/html",
+      "bytes": 16736,
+      "sha256": "4bb343627a326983d4a2ac78485d30776d2d99a5bc3e8327516aa3e31c0d01c8"
+    }
+  },
+  {
+    "url": "https://www.city.arakawa.tokyo.jp/a015/event/kouenmeigi/sizenwoegaku.html",
+    "retrieval": {
+      "url": "https://www.city.arakawa.tokyo.jp/a015/event/kouenmeigi/sizenwoegaku.html",
+      "checked_at": "2026-11-14T19:57:56+09:00",
+      "status": "checked",
+      "http_status": 200,
+      "final_url": "https://www.city.arakawa.tokyo.jp/a015/event/kouenmeigi/sizenwoegaku.html",
+      "content_type": "text/html",
+      "bytes": 18087,
+      "sha256": "147e2ef027191fc48bae38f496404e1b29c6b0ed954b0c78421a06b1ea593874"
+    }
+  },
+  {
+    "url": "https://www.city.arakawa.tokyo.jp/a039/kosodate/2026kouenkai2.html",
+    "retrieval": {
+      "url": "https://www.city.arakawa.tokyo.jp/a039/kosodate/2026kouenkai2.html",
+      "checked_at": "2026-11-14T19:58:00+09:00",
+      "status": "checked",
+      "http_status": 200,
+      "final_url": "https://www.city.arakawa.tokyo.jp/a039/kosodate/2026kouenkai2.html",
+      "content_type": "text/html",
+      "bytes": 18238,
+      "sha256": "3ecb40ac4bdd3fb92f385f3deaf74c189dce7330d9a5c77c5a4dea86c94ef03f"
+    }
+  },
+  {
+    "url": "https://www.city.chiyoda.lg.jp/koho/kuse/koho/pressrelease/r8/r811/20261105.html",
+    "retrieval": {
+      "url": "https://www.city.chiyoda.lg.jp/koho/kuse/koho/pressrelease/r8/r811/20261105.html",
+      "checked_at": "2026-11-14T19:57:56+09:00",
+      "status": "checked",
+      "http_status": 200,
+      "final_url": "https://www.city.chiyoda.lg.jp/koho/kuse/koho/pressrelease/r8/r811/20261105.html",
+      "content_type": "text/html",
+      "bytes": 19615,
+      "sha256": "79f8bbf56cac122c76a61b6ab1553df510afc32e0002237176a49ea155f2c81e"
+    }
+  },
+  {
+    "url": "https://www.city.edogawa.tokyo.jp/event/167koiwa.html",
+    "retrieval": {
+      "url": "https://www.city.edogawa.tokyo.jp/event/167koiwa.html",
+      "checked_at": "2026-11-14T19:57:59+09:00",
+      "status": "checked",
+      "http_status": 200,
+      "final_url": "https://www.city.edogawa.tokyo.jp/event/167koiwa.html",
+      "content_type": "text/html",
+      "bytes": 14781,
+      "sha256": "ffc58aff7f51d741c927eedc632de18082d1f43680b2d90d067cbd4d7ba70ea0"
+    }
+  },
+  {
+    "url": "https://www.city.edogawa.tokyo.jp/event/59yogokikkataikai.html",
+    "retrieval": {
+      "url": "https://www.city.edogawa.tokyo.jp/event/59yogokikkataikai.html",
+      "checked_at": "2026-11-14T19:58:02+09:00",
+      "status": "checked",
+      "http_status": 200,
+      "final_url": "https://www.city.edogawa.tokyo.jp/event/59yogokikkataikai.html",
+      "content_type": "text/html",
+      "bytes": 14714,
+      "sha256": "8c6b2fc55c02696fa1912c9f4a556b929f3e3a3f7095ccf23e4735e89338617c"
+    }
+  },
+  {
+    "url": "https://www.city.shibuya.tokyo.jp/contents/koho-news/1622/20261101_bunka.html",
+    "retrieval": {
+      "url": "https://www.city.shibuya.tokyo.jp/contents/koho-news/1622/20261101_bunka.html",
+      "checked_at": "2026-11-14T19:58:02+09:00",
+      "status": "checked",
+      "http_status": 200,
+      "final_url": "https://www.city.shibuya.tokyo.jp/contents/koho-news/1622/20261101_bunka.html",
+      "content_type": "text/html;charset=UTF-8",
+      "bytes": 302188,
+      "sha256": "21ad6357f79f0679f185fec9bf79c8f850620e4c901216fd59ab75b63ef3083f"
+    }
+  },
+  {
+    "url": "https://www.city.shibuya.tokyo.jp/contents/koho-news/1622/20261101_kenko.html",
+    "retrieval": {
+      "url": "https://www.city.shibuya.tokyo.jp/contents/koho-news/1622/20261101_kenko.html",
+      "checked_at": "2026-11-14T19:58:04+09:00",
+      "status": "checked",
+      "http_status": 200,
+      "final_url": "https://www.city.shibuya.tokyo.jp/contents/koho-news/1622/20261101_kenko.html",
+      "content_type": "text/html;charset=UTF-8",
+      "bytes": 302740,
+      "sha256": "32b345e72efde4fa61756a6cf1c64c0a823c27a342d91c8571ff54ccb3d91bb8"
+    }
+  },
+  {
+    "url": "https://www.shikinokaori-rose-garden.com/event/11343/",
+    "retrieval": {
+      "url": "https://www.shikinokaori-rose-garden.com/event/11343/",
+      "checked_at": "2026-11-14T19:58:05+09:00",
+      "status": "checked",
+      "http_status": 200,
+      "final_url": "https://www.shikinokaori-rose-garden.com/event/11343/",
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 54216,
+      "sha256": "96e8253aa5030b286d4490640f275def67688999199d66dcedba4b603367e11f"
+    }
+  },
+  {
+    "url": "https://www.city.suginami.tokyo.jp/s045/event/28942.html",
+    "retrieval": {
+      "url": "https://www.city.suginami.tokyo.jp/s045/event/28942.html",
+      "checked_at": "2026-11-14T19:58:05+09:00",
+      "status": "checked",
+      "http_status": 200,
+      "final_url": "https://www.city.suginami.tokyo.jp/s045/event/28942.html",
+      "content_type": "text/html",
+      "bytes": 20481,
+      "sha256": "bb61909605a17cafa9faf4dd58e130bb54d6c650b17d698d206f7a108e1435e2"
+    }
+  },
+  {
+    "url": "https://www.city.suginami.tokyo.jp/s118/event/28799.html",
+    "retrieval": {
+      "url": "https://www.city.suginami.tokyo.jp/s118/event/28799.html",
+      "checked_at": "2026-11-14T19:58:08+09:00",
+      "status": "checked",
+      "http_status": 200,
+      "final_url": "https://www.city.suginami.tokyo.jp/s118/event/28799.html",
+      "content_type": "text/html",
+      "bytes": 17989,
+      "sha256": "a64ef40b0919b6762aab407fd8fd7e078b9654291e8a88fa4d286d4b7eca185a"
+    }
+  },
+  {
+    "url": "https://art.nikkei.com/orsay2627/",
+    "retrieval": {
+      "url": "https://art.nikkei.com/orsay2627/",
+      "checked_at": "2026-11-14T19:58:07+09:00",
+      "status": "checked",
+      "http_status": 200,
+      "final_url": "https://art.nikkei.com/orsay2627/",
+      "content_type": "text/html",
+      "bytes": 30448,
+      "sha256": "5207636536964b74b85ccb18a669514a71e10c144d746aac54bc0a5e6fd0a365"
+    }
+  },
+  {
+    "url": "https://philippinefestivaljp.com/",
+    "retrieval": {
+      "url": "https://philippinefestivaljp.com/",
+      "checked_at": "2026-11-14T19:58:07+09:00",
+      "status": "checked",
+      "http_status": 200,
+      "final_url": "https://philippinefestivaljp.com/",
+      "content_type": "text/html;charset=utf-8",
+      "bytes": 147459,
+      "sha256": "7e18ae4a0e70a0c4c94d6bceaa42ec2034df1d104deec9e2932573843297cf8a"
+    }
+  },
+  {
+    "url": "https://avex.jp/meetyourart/festival/annex/",
+    "retrieval": {
+      "url": "https://avex.jp/meetyourart/festival/annex/",
+      "checked_at": "2026-11-14T19:58:09+09:00",
+      "status": "checked",
+      "http_status": 200,
+      "final_url": "https://avex.jp/meetyourart/festival/annex/",
+      "content_type": "text/html",
+      "bytes": 32952,
+      "sha256": "428976e4041fbb98341376f05fdc913663f742a75bb7aa6c2dd6c4ed4442b103"
+    }
+  },
+  {
+    "url": "https://worlddrinks-fest.jp/",
+    "retrieval": {
+      "url": "https://worlddrinks-fest.jp/",
+      "checked_at": "2026-11-14T19:58:11+09:00",
+      "status": "checked",
+      "http_status": 200,
+      "final_url": "https://worlddrinks-fest.jp/",
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 576984,
+      "sha256": "ef2f0bb46e0e762c75233398204596d4fed479689c2f32a1b85e30833a6386d9"
+    }
+  },
+  {
+    "url": "https://www.city.meguro.tokyo.jp/houkago/kosodatekyouiku/kosodate/sugekarikouen_playpark.html",
+    "retrieval": {
+      "url": "https://www.city.meguro.tokyo.jp/houkago/kosodatekyouiku/kosodate/sugekarikouen_playpark.html",
+      "checked_at": "2026-11-14T19:58:12+09:00",
+      "status": "checked",
+      "http_status": 200,
+      "final_url": "https://www.city.meguro.tokyo.jp/houkago/kosodatekyouiku/kosodate/sugekarikouen_playpark.html",
+      "content_type": "text/html",
+      "bytes": 23515,
+      "sha256": "e33821c00cedbd58e7644be2e06bcaad7cbf3e8fafb8ed879ff5476354f88cad"
+    }
+  },
+  {
+    "url": "https://www.city.meguro.tokyo.jp/houkago/kosodatekyouiku/kosodate/sugekariju-ku_freespace.html",
+    "retrieval": {
+      "url": "https://www.city.meguro.tokyo.jp/houkago/kosodatekyouiku/kosodate/sugekariju-ku_freespace.html",
+      "checked_at": "2026-11-14T19:58:16+09:00",
+      "status": "checked",
+      "http_status": 200,
+      "final_url": "https://www.city.meguro.tokyo.jp/houkago/kosodatekyouiku/kosodate/sugekariju-ku_freespace.html",
+      "content_type": "text/html",
+      "bytes": 22498,
+      "sha256": "d9cfdb9b352379866c83deb92b5fe13136b82da11562c3223827674edbcb9701"
+    }
+  },
+  {
+    "url": "https://www.city.nerima.tokyo.jp/kankomoyoshi/nogyo/oshirase/nerimaruche.html",
+    "retrieval": {
+      "url": "https://www.city.nerima.tokyo.jp/kankomoyoshi/nogyo/oshirase/nerimaruche.html",
+      "checked_at": "2026-11-14T19:58:13+09:00",
+      "status": "checked",
+      "http_status": 200,
+      "final_url": "https://www.city.nerima.tokyo.jp/kankomoyoshi/nogyo/oshirase/nerimaruche.html",
+      "content_type": "text/html",
+      "bytes": 25741,
+      "sha256": "3ed02d7b57775c0cdd714248271de97721d30a7cf8fba0f1b0ac6673116429b6"
+    }
+  },
+  {
+    "url": "https://www.city.nerima.tokyo.jp/kankomoyoshi/nogyo/hureai/casualfarm/index.html",
+    "retrieval": {
+      "url": "https://www.city.nerima.tokyo.jp/kankomoyoshi/nogyo/hureai/casualfarm/index.html",
+      "checked_at": "2026-11-14T19:58:16+09:00",
+      "status": "checked",
+      "http_status": 200,
+      "final_url": "https://www.city.nerima.tokyo.jp/kankomoyoshi/nogyo/hureai/casualfarm/index.html",
+      "content_type": "text/html",
+      "bytes": 17678,
+      "sha256": "aa8e6c7042e5ea82431b7624a37fc7680d13c4d8f8c3425a49b68ddf4d8065a2"
+    }
+  },
+  {
+    "url": "https://www.senju-artpath.com/",
+    "retrieval": {
+      "url": "https://www.senju-artpath.com/",
+      "checked_at": "2026-11-14T19:58:16+09:00",
+      "status": "checked",
+      "http_status": 200,
+      "final_url": "https://www.senju-artpath.com/",
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 861936,
+      "sha256": "54b5352d957087771bc69753067760deffc7619705a5833fe1a972966a03628f"
+    }
+  },
+  {
+    "url": "https://oukasai-2026.studio.site/",
+    "retrieval": {
+      "url": "https://oukasai-2026.studio.site/",
+      "checked_at": "2026-11-14T19:58:18+09:00",
+      "status": "checked",
+      "http_status": 200,
+      "final_url": "https://oukasai-2026.studio.site/",
+      "content_type": "text/html",
+      "bytes": 131918,
+      "sha256": "d7affa039e0e58f348a743bd35c5141cab45b9280109b1a3e5b7eda7b6bf03f2"
+    }
+  },
+  {
+    "url": "https://www.sg.dendai.ac.jp/s1j-asahisai/",
+    "retrieval": {
+      "url": "https://www.sg.dendai.ac.jp/s1j-asahisai/",
+      "checked_at": "2026-11-14T19:58:19+09:00",
+      "status": "checked",
+      "http_status": 200,
+      "final_url": "https://www.sg.dendai.ac.jp/s1j-asahisai/",
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 463319,
+      "sha256": "3e00d3f231008572ac03cd3475860b44befa251c10816294ae2419b2b8bf232a"
+    }
+  },
+  {
+    "url": "https://www.tokyomirai.ac.jp/miraifes/2026/",
+    "retrieval": {
+      "url": "https://www.tokyomirai.ac.jp/miraifes/2026/",
+      "checked_at": "2026-11-14T19:58:19+09:00",
+      "status": "checked",
+      "http_status": 200,
+      "final_url": "https://www.tokyomirai.ac.jp/miraifes/2026/",
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 23680,
+      "sha256": "451254881f64817bb3333979af06cb69d5726888a38eefd1669d05f998aa3c9e"
+    }
+  },
+  {
+    "url": "https://bunkyoadachigakusa6.wixsite.com/hanamatasai",
+    "retrieval": {
+      "url": "https://bunkyoadachigakusa6.wixsite.com/hanamatasai",
+      "checked_at": "2026-11-14T19:58:21+09:00",
+      "status": "checked",
+      "http_status": 200,
+      "final_url": "https://bunkyoadachigakusa6.wixsite.com/hanamatasai",
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 747256,
+      "sha256": "e2e39dcfc700c284395448c98ee97e537654ae0abce0409fdf032f7cea257083"
+    }
+  },
+  {
+    "url": "https://www.sc.ouj.ac.jp/center/adachi/",
+    "retrieval": {
+      "url": "https://www.sc.ouj.ac.jp/center/adachi/",
+      "checked_at": "2026-11-14T19:58:21+09:00",
+      "status": "checked",
+      "http_status": 200,
+      "final_url": "https://www.sc.ouj.ac.jp/center/adachi/",
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 23664,
+      "sha256": "9b8dc80e022cdd49a9f773ea12e8dbe76b8e9b696d84da874ae11736f82a4787"
+    }
+  },
+  {
+    "url": "https://kitashibu-run.com/",
+    "retrieval": {
+      "url": "https://kitashibu-run.com/",
+      "checked_at": "2026-11-14T19:58:22+09:00",
+      "status": "checked",
+      "http_status": 200,
+      "final_url": "https://kitashibu-run.com/",
+      "content_type": "text/html;charset=utf-8",
+      "bytes": 12280,
+      "sha256": "1a5f321b3d27be55a3dd536514ee0772bf7596741c637586cf4d5adc97b613c8"
+    }
+  },
+  {
+    "url": "https://www.city.meguro.tokyo.jp/cgi-bin/event_cal_multi/calendar.cgi?day=15&event_area=2&month=11&type=3&year=2026",
+    "retrieval": {
+      "url": "https://www.city.meguro.tokyo.jp/cgi-bin/event_cal_multi/calendar.cgi?day=15&event_area=2&month=11&type=3&year=2026",
+      "checked_at": "2026-11-14T20:05:25+09:00",
+      "status": "checked",
+      "http_status": 200,
+      "final_url": "https://www.city.meguro.tokyo.jp/cgi-bin/event_cal_multi/calendar.cgi?day=15&event_area=2&month=11&type=3&year=2026",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 25518,
+      "sha256": "55eba1491e5db0c86295f9b4d5d64678d8520360ae1948687c5f6c6d0c80bc6b"
+    }
+  },
+  {
+    "url": "https://www.tokyo-park.or.jp/park/yoyogi/news/2026/11.html",
+    "retrieval": {
+      "url": "https://www.tokyo-park.or.jp/park/yoyogi/news/2026/11.html",
+      "checked_at": "2026-11-14T20:05:23+09:00",
+      "status": "checked",
+      "http_status": 200,
+      "final_url": "https://www.tokyo-park.or.jp/park/yoyogi/news/2026/11.html",
+      "content_type": "text/html;charset=UTF-8",
+      "bytes": 27656,
+      "sha256": "a479d7a724ad6b9396336a33571e5068e295171a574096bdb3b93987fb6c8f96"
+    }
+  },
+  {
+    "url": "https://tokyo.philembassy.net/ja/philippine-embassy-philippine-assistance-group-discuss-2026-activities-for-filipino-community-and-70th-anniversary-of-ph-jp-friendship/",
+    "retrieval": {
+      "url": "https://tokyo.philembassy.net/ja/philippine-embassy-philippine-assistance-group-discuss-2026-activities-for-filipino-community-and-70th-anniversary-of-ph-jp-friendship/",
+      "checked_at": "2026-11-14T20:05:22+09:00",
+      "status": "checked",
+      "http_status": 200,
+      "final_url": "https://tokyo.philembassy.net/ja/philippine-embassy-philippine-assistance-group-discuss-2026-activities-for-filipino-community-and-70th-anniversary-of-ph-jp-friendship/",
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 168778,
+      "sha256": "1855153fb82c113ff837e07297f1df3d581f6adc6158d228721b33d809830cc8"
+    }
+  },
+  {
+    "url": "https://www.tobikan.jp/exhibition/2026_orsay.html",
+    "retrieval": {
+      "url": "https://www.tobikan.jp/exhibition/2026_orsay.html",
+      "checked_at": "2026-11-14T20:05:26+09:00",
+      "status": "checked",
+      "http_status": 200,
+      "final_url": "https://www.tobikan.jp/exhibition/2026_orsay.html",
+      "content_type": "text/html",
+      "bytes": 17161,
+      "sha256": "087b0c1815b7af8eef5a3f93818261d66517683053ec37ca991db5e1be4f12c5"
+    }
+  },
+  {
+    "url": "https://art.nikkei.com/orsay2627/outline/",
+    "retrieval": {
+      "url": "https://art.nikkei.com/orsay2627/outline/",
+      "checked_at": "2026-11-14T20:05:25+09:00",
+      "status": "checked",
+      "http_status": 200,
+      "final_url": "https://art.nikkei.com/orsay2627/outline/",
+      "content_type": "text/html",
+      "bytes": 8369,
+      "sha256": "6364e865a5cc4caa94d83f344d9d7df77004f787316b8b25f934f99060abd15d"
+    }
+  },
+  {
+    "url": "https://shibu-cul.jp/event/mucha2026",
+    "retrieval": {
+      "url": "https://shibu-cul.jp/event/mucha2026",
+      "checked_at": "2026-11-14T20:05:28+09:00",
+      "status": "checked",
+      "http_status": 200,
+      "final_url": "https://shibu-cul.jp/event/mucha2026",
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 70652,
+      "sha256": "aa7345930092f9341e7637fab8775f1accc54c3a78b3c8c2486eb4845815441e"
+    }
+  },
+  {
+    "url": "https://shibu-cul.jp/event/leonoid2026",
+    "retrieval": {
+      "url": "https://shibu-cul.jp/event/leonoid2026",
+      "checked_at": "2026-11-14T20:05:31+09:00",
+      "status": "checked",
+      "http_status": 200,
+      "final_url": "https://shibu-cul.jp/event/leonoid2026",
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 74615,
+      "sha256": "c85ef1767b51e3ee7e8a9a28d964324401714559bc5be6b6a95c65baf4470517"
+    }
+  },
+  {
+    "url": "https://shibu-cul.jp/event/jukusui_kantetu2026",
+    "retrieval": {
+      "url": "https://shibu-cul.jp/event/jukusui_kantetu2026",
+      "checked_at": "2026-11-14T20:05:34+09:00",
+      "status": "checked",
+      "http_status": 200,
+      "final_url": "https://shibu-cul.jp/event/jukusui_kantetu2026",
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 84457,
+      "sha256": "e8f57d9d6af2043e26f119149d75e7f4ff75155540f8a3e13ac2c42cde21c66f"
+    }
+  },
+  {
+    "url": "https://www.city.shibuya.tokyo.jp/bunka/olypara-legacy/others/shibuparawan.html",
+    "retrieval": {
+      "url": "https://www.city.shibuya.tokyo.jp/bunka/olypara-legacy/others/shibuparawan.html",
+      "checked_at": "2026-11-14T20:05:30+09:00",
+      "status": "checked",
+      "http_status": 200,
+      "final_url": "https://www.city.shibuya.tokyo.jp/bunka/olypara-legacy/others/shibuparawan.html",
+      "content_type": "text/html;charset=UTF-8",
+      "bytes": 85484,
+      "sha256": "387a12ab50871a035461c39a4a9b42f4ddcb8f6448083188ec0d11fd4afb8285"
+    }
+  },
+  {
+    "url": "https://shoto-museum.jp/",
+    "retrieval": {
+      "url": "https://shoto-museum.jp/",
+      "checked_at": "2026-11-14T20:05:34+09:00",
+      "status": "checked",
+      "http_status": 200,
+      "final_url": "https://shoto-museum.jp/",
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 44633,
+      "sha256": "7e8f8c17a934e7e038867cacecdd431cb90b99add806999080cb9bf3cb93ac08"
+    }
+  },
+  {
+    "url": "https://www.city.tokyo-nakano.lg.jp/kurashi/kankyo/ondankataisaku/nakano-kikokaigi-bocho.html",
+    "retrieval": {
+      "url": "https://www.city.tokyo-nakano.lg.jp/kurashi/kankyo/ondankataisaku/nakano-kikokaigi-bocho.html",
+      "checked_at": "2026-11-14T20:05:33+09:00",
+      "status": "checked",
+      "http_status": 200,
+      "final_url": "https://www.city.tokyo-nakano.lg.jp/kurashi/kankyo/ondankataisaku/nakano-kikokaigi-bocho.html",
+      "content_type": "text/html",
+      "bytes": 22752,
+      "sha256": "d9822233d8d14222278c00951162c7947813c3c1e882234ecde30b7e15b0d00e"
+    }
+  },
+  {
+    "url": "https://manabiyamom.com/post-20788/",
+    "retrieval": {
+      "url": "https://manabiyamom.com/post-20788/",
+      "checked_at": "2026-11-14T20:05:36+09:00",
+      "status": "checked",
+      "http_status": 200,
+      "final_url": "https://manabiyamom.com/post-20788/",
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 118928,
+      "sha256": "1c14cfcf00873b151f2cbe7eae1b0a41076f24f8a0249710489e306ee1fa7d67"
+    }
+  },
+  {
+    "url": "https://www.city.suginami.tokyo.jp/s038/event/28047.html",
+    "retrieval": {
+      "url": "https://www.city.suginami.tokyo.jp/s038/event/28047.html",
+      "checked_at": "2026-11-14T20:17:20+09:00",
+      "status": "checked",
+      "http_status": 200,
+      "final_url": "https://www.city.suginami.tokyo.jp/s038/event/28047.html",
+      "content_type": "text/html",
+      "bytes": 18796,
+      "sha256": "a9c0adb9876c8b0914afed709521bf6415d191c74e06928a59106ed4a9acab6e"
+    }
+  },
+  {
+    "url": "https://www.city.suginami.tokyo.jp/s041/event/22000.html",
+    "retrieval": {
+      "url": "https://www.city.suginami.tokyo.jp/s041/event/22000.html",
+      "checked_at": "2026-11-14T20:17:24+09:00",
+      "status": "checked",
+      "http_status": 200,
+      "final_url": "https://www.city.suginami.tokyo.jp/s041/event/22000.html",
+      "content_type": "text/html",
+      "bytes": 20298,
+      "sha256": "54d0510f2fd7a2bdc02017bc02b92791dc41cf9605dfb7a42c5514572d0b1ccd"
+    }
+  },
+  {
+    "url": "https://www.city.suginami.tokyo.jp/s042/event/28598.html",
+    "retrieval": {
+      "url": "https://www.city.suginami.tokyo.jp/s042/event/28598.html",
+      "checked_at": "2026-11-14T20:17:30+09:00",
+      "status": "checked",
+      "http_status": 200,
+      "final_url": "https://www.city.suginami.tokyo.jp/s042/event/28598.html",
+      "content_type": "text/html",
+      "bytes": 19584,
+      "sha256": "081ee35ce725e42a91f56a5a14eea8c561922c516951fdcbb4883012daf75526"
+    }
+  },
+  {
+    "url": "https://www.city.suginami.tokyo.jp/s057/event/28205.html",
+    "retrieval": {
+      "url": "https://www.city.suginami.tokyo.jp/s057/event/28205.html",
+      "checked_at": "2026-11-14T20:17:33+09:00",
+      "status": "checked",
+      "http_status": 200,
+      "final_url": "https://www.city.suginami.tokyo.jp/s057/event/28205.html",
+      "content_type": "text/html",
+      "bytes": 19325,
+      "sha256": "bf449175f5aa7429104c2f43de1d9ae29624e296e1fc17f5234ff586d8501087"
+    }
+  },
+  {
+    "url": "https://www.city.tokyo-nakano.lg.jp/event/kenko/38kumintaikai.html",
+    "retrieval": {
+      "url": "https://www.city.tokyo-nakano.lg.jp/event/kenko/38kumintaikai.html",
+      "checked_at": "2026-11-14T20:17:26+09:00",
+      "status": "checked",
+      "http_status": 200,
+      "final_url": "https://www.city.tokyo-nakano.lg.jp/event/kenko/38kumintaikai.html",
+      "content_type": "text/html",
+      "bytes": 12821,
+      "sha256": "f316834837de492cc9d35dcc61cb95f2ec754d6670128366c04f953ad8b149e3"
+    }
+  },
+  {
+    "url": "https://www.city.tokyo-nakano.lg.jp/kosodate/wakamonoshien/wakamono.html",
+    "retrieval": {
+      "url": "https://www.city.tokyo-nakano.lg.jp/kosodate/wakamonoshien/wakamono.html",
+      "checked_at": "2026-11-14T20:17:28+09:00",
+      "status": "checked",
+      "http_status": 200,
+      "final_url": "https://www.city.tokyo-nakano.lg.jp/kosodate/wakamonoshien/wakamono.html",
+      "content_type": "text/html",
+      "bytes": 22688,
+      "sha256": "a10709df4e268625d170cf4d63fa2d5ea1ffd979095d7594eed1d74e9ca0222d"
+    }
+  },
+  {
+    "url": "https://www.city.tokyo-nakano.lg.jp/kurashi/bohan/syohiseikatsu/oshirase/20261009syouhiseikatuten.html",
+    "retrieval": {
+      "url": "https://www.city.tokyo-nakano.lg.jp/kurashi/bohan/syohiseikatsu/oshirase/20261009syouhiseikatuten.html",
+      "checked_at": "2026-11-14T20:17:30+09:00",
+      "status": "checked",
+      "http_status": 200,
+      "final_url": "https://www.city.tokyo-nakano.lg.jp/kurashi/bohan/syohiseikatsu/oshirase/20261009syouhiseikatuten.html",
+      "content_type": "text/html",
+      "bytes": 18132,
+      "sha256": "10b821b64450925f9db610cdc5318865cef31f9945235854e6bbc273ae4b42bc"
+    }
+  },
+  {
+    "url": "https://www.city.tokyo-nakano.lg.jp/machizukuri/kouen/kouenseibi/maruyamaru-rudukuri.html",
+    "retrieval": {
+      "url": "https://www.city.tokyo-nakano.lg.jp/machizukuri/kouen/kouenseibi/maruyamaru-rudukuri.html",
+      "checked_at": "2026-11-14T20:17:32+09:00",
+      "status": "checked",
+      "http_status": 200,
+      "final_url": "https://www.city.tokyo-nakano.lg.jp/machizukuri/kouen/kouenseibi/maruyamaru-rudukuri.html",
+      "content_type": "text/html",
+      "bytes": 22628,
+      "sha256": "6050d87794bf94a6c5f77c4e754bce33e8916fd0837fadf8f65bee4bec6c85e9"
+    }
+  },
+  {
+    "url": "https://www.metro.tokyo.lg.jp/information/press/2026/10/2026101531",
+    "retrieval": {
+      "url": "https://www.metro.tokyo.lg.jp/information/press/2026/10/2026101531",
+      "checked_at": "2026-11-14T20:17:33+09:00",
+      "status": "checked",
+      "http_status": 200,
+      "final_url": "https://www.metro.tokyo.lg.jp/information/press/2026/10/2026101531",
+      "content_type": "text/html;charset=UTF-8",
+      "bytes": 519419,
+      "sha256": "d43d6d3fb91c2ec288867f9f8ed663ca463c80c95f86f4cc896f29f520957f60"
+    }
+  },
+  {
+    "url": "https://playgroundcity-shibuya.jp/",
+    "retrieval": {
+      "url": "https://playgroundcity-shibuya.jp/",
+      "checked_at": "2026-11-14T20:17:34+09:00",
+      "status": "checked",
+      "http_status": 200,
+      "final_url": "https://playgroundcity-shibuya.jp/",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 103360,
+      "sha256": "ce1b40841991dc941ed0c8d2742407aa3e2df441a2494346e0ee8f58140dc689"
+    }
+  },
+  {
+    "url": "https://www.footballpark-shibuya.jp/",
+    "retrieval": {
+      "url": "https://www.footballpark-shibuya.jp/",
+      "checked_at": "2026-11-14T20:17:35+09:00",
+      "status": "checked",
+      "http_status": 200,
+      "final_url": "https://www.footballpark-shibuya.jp/",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 56747,
+      "sha256": "8662ca366d2492e3c2138c9d79fd646af677f68129927c29693c3d9ed949f903"
+    }
+  },
+  {
+    "url": "https://streetdanceweek.jp/",
+    "retrieval": {
+      "url": "https://streetdanceweek.jp/",
+      "checked_at": "2026-11-14T20:17:36+09:00",
+      "status": "checked",
+      "http_status": 200,
+      "final_url": "https://streetdanceweek.jp/",
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 50560,
+      "sha256": "fa93883b3fae96fe5e7e9cdb91092ba8095a2a986bafb2c3797c829ebc6d29ec"
+    }
+  },
+  {
+    "url": "https://shibu-cul.jp/cms/wp-content/uploads/2026/09/cf1fc098e778be084b25264a3f3927d6.jpg",
+    "status": 200,
+    "content_type": "image/jpeg",
+    "bytes": 87330,
+    "sha256": "630ff587613435d0fda18934414b1bcfe9ea2be6e8943c0b6b3dbb37729bd38e",
+    "evidence_type": "image_get_check"
+  },
+  {
+    "url": "https://sunshinecity.jp/archives/002/202609/ab581403423edb0cca16b2cee6ca24c3d02a067b002ab53cf79f2d4cf1cccb01.jpg",
+    "error": "HTTP Error 403: Forbidden",
+    "evidence_type": "image_get_check"
+  },
+  {
+    "url": "https://sunshinecity.jp/archives/002/202609/eabff0d5e8ad61a25c3078660ba39ec4931d8036d9a2952496295a015a73d03e.jpg",
+    "error": "HTTP Error 403: Forbidden",
+    "evidence_type": "image_get_check"
+  },
+  {
+    "url": "https://www.city.arakawa.tokyo.jp/images/46592/2026-chirashi1009_1.jpg",
+    "status": 200,
+    "content_type": "image/jpeg",
+    "bytes": 102644,
+    "sha256": "5048e35b3e1b8adc78b57ba2f312a5e2cf70a76138f7cece738e32bf573b6c08",
+    "evidence_type": "image_get_check"
+  },
+  {
+    "url": "https://www.city.suginami.tokyo.jp/images/28554/vol10christmas.jpg",
+    "status": 200,
+    "content_type": "image/jpeg",
+    "bytes": 68653,
+    "sha256": "cc978292b3b88557e0eedd06aa87cd68fd6defcf205c5540b613ca99e624a6e1",
+    "evidence_type": "image_get_check"
+  },
+  {
+    "url": "https://www.city.suginami.tokyo.jp/images/28686/kojin-photo.jpg",
+    "status": 200,
+    "content_type": "image/jpeg",
+    "bytes": 121963,
+    "sha256": "fc3ebbc7c5b52a778756883946d3b98d31cf2801f4f251abeb1e48fa5ad2ccaa",
+    "evidence_type": "image_get_check"
+  },
+  {
+    "url": "https://www.city.suginami.tokyo.jp/images/28935/dsc.jpg",
+    "status": 200,
+    "content_type": "image/jpeg",
+    "bytes": 164099,
+    "sha256": "3c191545da76db924dbd39724a0b5ab3c1b43f45db0c491be429b6979826d50b",
+    "evidence_type": "image_get_check"
+  },
+  {
+    "url": "https://www.city.suginami.tokyo.jp/images/28939/otaguro_lightup01.jpg",
+    "status": 200,
+    "content_type": "image/jpeg",
+    "bytes": 109232,
+    "sha256": "eea5632f8ab86d3b7b92e4586deca30a1e3b623b08fad544183bf49360876c8f",
+    "evidence_type": "image_get_check"
+  },
+  {
+    "url": "https://www.city.suginami.tokyo.jp/images/28952/1_7-10-2026_95149_rds-filesv00.jpeg",
+    "status": 200,
+    "content_type": "image/jpeg",
+    "bytes": 11209,
+    "sha256": "7cb27bd859ff41d9d6d7026b3aa6e4d715c5969c0dae9ce2a45650bcad0b3f43",
+    "evidence_type": "image_get_check"
+  },
+  {
+    "url": "https://www.city.suginami.tokyo.jp/images/29005/soraflourwreath_foto.jpeg",
+    "status": 200,
+    "content_type": "image/jpeg",
+    "bytes": 15877,
+    "sha256": "d71d268e207f0e755962e1c73c44192f01d6b1907ecc5bc57aebc58d7f5480f2",
+    "evidence_type": "image_get_check"
+  },
+  {
+    "url": "https://www.city.suginami.tokyo.jp/images/29006/081101christmaswreath.jpeg",
+    "status": 200,
+    "content_type": "image/jpeg",
+    "bytes": 78199,
+    "sha256": "22129d4b0c2db5395dde2bcb3580e20f81a7bd9647461a4b6f9d0e35e2900945",
+    "evidence_type": "image_get_check"
+  },
+  {
+    "url": "https://www.city.suginami.tokyo.jp/images/29093/satoukiyoshishi.png",
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 851266,
+    "sha256": "70d70ac373efbeda0b4c604e76799b3372fb3ce9cb8bdf9324b0576578bbab62",
+    "evidence_type": "image_get_check"
+  },
+  {
+    "url": "https://www.city.suginami.tokyo.jp/images/29833/hazime_kokai_title.png",
+    "status": 200,
+    "content_type": "image/png",
+    "bytes": 188807,
+    "sha256": "09c924c65fd7b536edad6cffe221990e17976011e661c9ca6fc734f3c381f3be",
+    "evidence_type": "image_get_check"
+  },
+  {
+    "url": "https://www.tobikan.jp/media/img/poster/2026_orsay_l.jpg",
+    "status": 200,
+    "content_type": "image/jpeg",
+    "bytes": 193829,
+    "sha256": "be19f991be929dce8c5abf71917e3d483f0e2589180bfa438d55ef2254212729",
+    "evidence_type": "image_get_check"
+  },
+  {
+    "url": "https://www.city.edogawa.tokyo.jp/images/73397/yogo.jpg",
+    "evidence_type": "image_get_check",
+    "status": 200,
+    "content_type": "image/jpeg",
+    "sha256": "c6b63eae9a792ba4f1a47ce0c8aa944ac56a99f2bfa52582e4b83e6431c2c402",
+    "bytes": 81216
+  },
+  {
+    "url": "https://images.city.shibuya.tokyo.jp/assets/12995aba8b194961be709ba879857f70/817799ac06734ec0a32db0ecf46c40e8/20261101_bunka_pic03.jpg",
+    "evidence_type": "image_get_check",
+    "status": 200,
+    "content_type": "image/jpeg",
+    "sha256": "3214d8a847f6f4fd540d96bc666c6893aea34854b656610499e520522f8c9a2d",
+    "bytes": 104009
+  }
+]

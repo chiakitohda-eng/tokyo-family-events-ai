@@ -1,0 +1,436 @@
+{
+  "schema_version": 1,
+  "as_of_jst": "2026-11-16",
+  "holiday_source": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html",
+  "holiday_csv": "https://www8.cao.go.jp/chosei/shukujitsu/syukujitsu.csv",
+  "base_data_production_sha": "fc6bec505975c6dabbddd404f33cd7d9f3f525e9",
+  "read_only": true,
+  "app_code_changes_allowed": false,
+  "published_version_changes_allowed": false,
+  "status": "eligible",
+  "run_type": "holiday_after_update",
+  "holiday_block_start": "2026-11-14",
+  "holiday_block_end": "2026-11-15",
+  "target_start": "2026-11-16",
+  "target_end": "2026-12-27",
+  "rolling_horizon_weeks": 6,
+  "weekends": [
+    {
+      "sat": "2026-11-21",
+      "sun": "2026-11-22",
+      "file": "2026-11-21.json",
+      "horizon_index": 1,
+      "publication_tier": "full",
+      "status": "pending",
+      "action": "re_audit",
+      "existing_file": "2026-11-21.json"
+    },
+    {
+      "sat": "2026-11-28",
+      "sun": "2026-11-29",
+      "file": "2026-11-28.json",
+      "horizon_index": 2,
+      "publication_tier": "full",
+      "status": "pending",
+      "action": "re_audit",
+      "existing_file": "2026-11-28.json"
+    },
+    {
+      "sat": "2026-12-05",
+      "sun": "2026-12-06",
+      "file": "2026-12-05.json",
+      "horizon_index": 3,
+      "publication_tier": "preview",
+      "status": "pending",
+      "action": "re_audit",
+      "existing_file": "2026-12-05.json"
+    },
+    {
+      "sat": "2026-12-12",
+      "sun": "2026-12-13",
+      "file": "2026-12-12.json",
+      "horizon_index": 4,
+      "publication_tier": "preview",
+      "status": "pending",
+      "action": "re_audit",
+      "existing_file": "2026-12-12.json"
+    },
+    {
+      "sat": "2026-12-19",
+      "sun": "2026-12-20",
+      "file": "2026-12-19.json",
+      "horizon_index": 5,
+      "publication_tier": "announcement",
+      "status": "pending",
+      "action": "discover_and_verify",
+      "existing_file": null
+    },
+    {
+      "sat": "2026-12-26",
+      "sun": "2026-12-27",
+      "file": "2026-12-26.json",
+      "horizon_index": 6,
+      "publication_tier": "announcement",
+      "status": "pending",
+      "action": "discover_and_verify",
+      "existing_file": null
+    }
+  ],
+  "holiday_targets": [
+    {
+      "date": "2026-11-23",
+      "name": "勤労感謝の日",
+      "day_type": "weekday_holiday",
+      "requires_independent_23_ward_search": true
+    }
+  ],
+  "explicit_source_checks": [
+    {
+      "id": "sumida",
+      "required": true,
+      "urls": [
+        "https://www.sumidaevent.com/"
+      ],
+      "fallback_source_ids": [],
+      "status": "pending",
+      "checked_count": 0
+    },
+    {
+      "id": "asakusa",
+      "required": true,
+      "urls": [
+        "https://www.asakusaevent.com/"
+      ],
+      "fallback_source_ids": [],
+      "status": "pending",
+      "checked_count": 0
+    },
+    {
+      "id": "ueno",
+      "required": true,
+      "urls": [
+        "https://www.uenopark.info/"
+      ],
+      "fallback_source_ids": [],
+      "status": "pending",
+      "checked_count": 0
+    },
+    {
+      "id": "akihabara",
+      "required": true,
+      "urls": [
+        "https://www.akihabaraevent.com/"
+      ],
+      "fallback_source_ids": [],
+      "status": "pending",
+      "checked_count": 0
+    },
+    {
+      "id": "hibiya",
+      "required": true,
+      "urls": [
+        "https://www.hibiyapark.info/"
+      ],
+      "fallback_source_ids": [],
+      "status": "pending",
+      "checked_count": 0
+    },
+    {
+      "id": "ikebukuro",
+      "required": true,
+      "urls": [
+        "https://www.ikebukuropark.info/"
+      ],
+      "fallback_source_ids": [],
+      "status": "pending",
+      "checked_count": 0
+    },
+    {
+      "id": "shinjuku",
+      "required": true,
+      "urls": [
+        "https://www.shinjukuevent.com/"
+      ],
+      "fallback_source_ids": [],
+      "status": "pending",
+      "checked_count": 0
+    },
+    {
+      "id": "nakano",
+      "required": true,
+      "urls": [
+        "https://www.nakanoevent.com/"
+      ],
+      "fallback_source_ids": [],
+      "status": "pending",
+      "checked_count": 0
+    },
+    {
+      "id": "yoyogi",
+      "required": true,
+      "urls": [
+        "https://www.yoyogikoen.info/"
+      ],
+      "fallback_source_ids": [],
+      "status": "pending",
+      "checked_count": 0
+    },
+    {
+      "id": "shibuya",
+      "required": true,
+      "urls": [
+        "https://www.miyashitapark.info/"
+      ],
+      "fallback_source_ids": [],
+      "status": "pending",
+      "checked_count": 0
+    },
+    {
+      "id": "roppongi",
+      "required": true,
+      "urls": [
+        "https://www.roppongievents.com/"
+      ],
+      "fallback_source_ids": [],
+      "status": "pending",
+      "checked_count": 0
+    },
+    {
+      "id": "toyosu",
+      "required": true,
+      "urls": [
+        "https://www.toyosuevent.com/"
+      ],
+      "fallback_source_ids": [],
+      "status": "pending",
+      "checked_count": 0
+    },
+    {
+      "id": "odaiba",
+      "required": true,
+      "urls": [
+        "https://www.odaibapark.com/"
+      ],
+      "fallback_source_ids": [],
+      "status": "pending",
+      "checked_count": 0
+    },
+    {
+      "id": "shinagawa",
+      "required": true,
+      "urls": [
+        "https://www.shinagawaevent.com/"
+      ],
+      "fallback_source_ids": [],
+      "status": "pending",
+      "checked_count": 0
+    },
+    {
+      "id": "tachikawa",
+      "required": true,
+      "urls": [
+        "https://www.tachikawaevent.com/"
+      ],
+      "fallback_source_ids": [],
+      "status": "pending",
+      "checked_count": 0
+    },
+    {
+      "id": "iterrace",
+      "required": true,
+      "urls": [
+        "https://www.iterrace.jp/"
+      ],
+      "fallback_source_ids": [],
+      "status": "pending",
+      "checked_count": 0
+    },
+    {
+      "id": "nerimakanko",
+      "required": true,
+      "urls": [
+        "https://www.nerimakanko.jp/event/",
+        "https://www.nerimakanko.jp/event/search.php?month=2026-11",
+        "https://www.nerimakanko.jp/event/search.php?month=2026-12"
+      ],
+      "fallback_source_ids": [],
+      "status": "pending",
+      "checked_count": 0
+    },
+    {
+      "id": "suginami_festival",
+      "required": true,
+      "urls": [
+        "https://www.city.suginami.tokyo.jp/cgi-bin/event_cal_multi/calendar.cgi?type=2&year=2026&month=11&event_category=5&siteid=1",
+        "https://www.city.suginami.tokyo.jp/cgi-bin/event_cal_multi/calendar.cgi?type=2&year=2026&month=12&event_category=5&siteid=1"
+      ],
+      "fallback_source_ids": [],
+      "status": "pending",
+      "checked_count": 0
+    },
+    {
+      "id": "nerima_district_festivals_2026",
+      "required": true,
+      "urls": [
+        "https://www.city.nerima.tokyo.jp/kankomoyoshi/annai/omatsuri/chikusai/index.html"
+      ],
+      "annual_listing_url": "https://www.city.nerima.tokyo.jp/kankomoyoshi/annai/omatsuri/chikusai/index.html",
+      "fiscal_years_to_resolve": [
+        2026
+      ],
+      "resolver": "tools/official_schedule_discovery.py",
+      "status": "pending",
+      "checked_count": 0
+    },
+    {
+      "id": "nakano_official_tourism",
+      "required": true,
+      "urls": [
+        "https://www.nakano-kanko.com/event/"
+      ],
+      "fallback_source_ids": [],
+      "status": "pending",
+      "checked_count": 0
+    },
+    {
+      "id": "itabashi_official_festival",
+      "required": true,
+      "urls": [
+        "https://www.city.itabashi.tokyo.jp/bunka/kanko/matsuri/index.html",
+        "https://www.city.itabashi.tokyo.jp/bunka/kanko/matsuri/1006858.html"
+      ],
+      "fallback_source_ids": [],
+      "status": "pending",
+      "checked_count": 0
+    },
+    {
+      "id": "itabashi_tourism_festival",
+      "required": true,
+      "urls": [
+        "https://itabashi-kanko.jp/pickup/detail?id=1799"
+      ],
+      "fallback_source_ids": [
+        "itabashi_official_festival"
+      ],
+      "status": "pending",
+      "checked_count": 0
+    },
+    {
+      "id": "tamemap_nakano",
+      "required": true,
+      "urls": [
+        "https://pc.tamemap.net/1311401/calendar/2026-11?lat=35.7089745&lng=139.6630981&level=5000&locale=ja",
+        "https://pc.tamemap.net/1311401/calendar/2026-12?lat=35.7089745&lng=139.6630981&level=5000&locale=ja",
+        "https://pc.tamemap.net/1311401/new_arrival?lat=35.7089745&lng=139.6630981&level=5000&locale=ja"
+      ],
+      "fallback_source_ids": [],
+      "status": "pending",
+      "checked_count": 0
+    },
+    {
+      "id": "itabashi_times_event",
+      "required": true,
+      "urls": [
+        "https://itabashi-times.com/category/event",
+        "https://itabashi-times.com/category/event/page/2"
+      ],
+      "fallback_source_ids": [],
+      "status": "pending",
+      "checked_count": 0
+    },
+    {
+      "id": "suginami_calendar_all",
+      "required": true,
+      "urls": [
+        "https://www.city.suginami.tokyo.jp/cgi-bin/event_cal_multi/calendar.cgi?type=2&year=2026&month=11",
+        "https://www.city.suginami.tokyo.jp/cgi-bin/event_cal_multi/calendar.cgi?type=2&year=2026&month=12",
+        "https://www.city.suginami.tokyo.jp/cgi-bin/event_cal_multi/calendar.cgi?day=16&month=11&type=3&year=2026",
+        "https://www.city.suginami.tokyo.jp/cgi-bin/event_cal_multi/calendar.cgi?day=17&month=11&type=3&year=2026",
+        "https://www.city.suginami.tokyo.jp/cgi-bin/event_cal_multi/calendar.cgi?day=18&month=11&type=3&year=2026",
+        "https://www.city.suginami.tokyo.jp/cgi-bin/event_cal_multi/calendar.cgi?day=19&month=11&type=3&year=2026",
+        "https://www.city.suginami.tokyo.jp/cgi-bin/event_cal_multi/calendar.cgi?day=20&month=11&type=3&year=2026",
+        "https://www.city.suginami.tokyo.jp/cgi-bin/event_cal_multi/calendar.cgi?day=21&month=11&type=3&year=2026",
+        "https://www.city.suginami.tokyo.jp/cgi-bin/event_cal_multi/calendar.cgi?day=22&month=11&type=3&year=2026",
+        "https://www.city.suginami.tokyo.jp/cgi-bin/event_cal_multi/calendar.cgi?day=23&month=11&type=3&year=2026",
+        "https://www.city.suginami.tokyo.jp/cgi-bin/event_cal_multi/calendar.cgi?day=24&month=11&type=3&year=2026",
+        "https://www.city.suginami.tokyo.jp/cgi-bin/event_cal_multi/calendar.cgi?day=25&month=11&type=3&year=2026",
+        "https://www.city.suginami.tokyo.jp/cgi-bin/event_cal_multi/calendar.cgi?day=26&month=11&type=3&year=2026",
+        "https://www.city.suginami.tokyo.jp/cgi-bin/event_cal_multi/calendar.cgi?day=27&month=11&type=3&year=2026",
+        "https://www.city.suginami.tokyo.jp/cgi-bin/event_cal_multi/calendar.cgi?day=28&month=11&type=3&year=2026",
+        "https://www.city.suginami.tokyo.jp/cgi-bin/event_cal_multi/calendar.cgi?day=29&month=11&type=3&year=2026",
+        "https://www.city.suginami.tokyo.jp/cgi-bin/event_cal_multi/calendar.cgi?day=30&month=11&type=3&year=2026",
+        "https://www.city.suginami.tokyo.jp/cgi-bin/event_cal_multi/calendar.cgi?day=1&month=12&type=3&year=2026",
+        "https://www.city.suginami.tokyo.jp/cgi-bin/event_cal_multi/calendar.cgi?day=2&month=12&type=3&year=2026",
+        "https://www.city.suginami.tokyo.jp/cgi-bin/event_cal_multi/calendar.cgi?day=3&month=12&type=3&year=2026",
+        "https://www.city.suginami.tokyo.jp/cgi-bin/event_cal_multi/calendar.cgi?day=4&month=12&type=3&year=2026",
+        "https://www.city.suginami.tokyo.jp/cgi-bin/event_cal_multi/calendar.cgi?day=5&month=12&type=3&year=2026",
+        "https://www.city.suginami.tokyo.jp/cgi-bin/event_cal_multi/calendar.cgi?day=6&month=12&type=3&year=2026",
+        "https://www.city.suginami.tokyo.jp/cgi-bin/event_cal_multi/calendar.cgi?day=7&month=12&type=3&year=2026",
+        "https://www.city.suginami.tokyo.jp/cgi-bin/event_cal_multi/calendar.cgi?day=8&month=12&type=3&year=2026",
+        "https://www.city.suginami.tokyo.jp/cgi-bin/event_cal_multi/calendar.cgi?day=9&month=12&type=3&year=2026",
+        "https://www.city.suginami.tokyo.jp/cgi-bin/event_cal_multi/calendar.cgi?day=10&month=12&type=3&year=2026",
+        "https://www.city.suginami.tokyo.jp/cgi-bin/event_cal_multi/calendar.cgi?day=11&month=12&type=3&year=2026",
+        "https://www.city.suginami.tokyo.jp/cgi-bin/event_cal_multi/calendar.cgi?day=12&month=12&type=3&year=2026",
+        "https://www.city.suginami.tokyo.jp/cgi-bin/event_cal_multi/calendar.cgi?day=13&month=12&type=3&year=2026",
+        "https://www.city.suginami.tokyo.jp/cgi-bin/event_cal_multi/calendar.cgi?day=14&month=12&type=3&year=2026",
+        "https://www.city.suginami.tokyo.jp/cgi-bin/event_cal_multi/calendar.cgi?day=15&month=12&type=3&year=2026",
+        "https://www.city.suginami.tokyo.jp/cgi-bin/event_cal_multi/calendar.cgi?day=16&month=12&type=3&year=2026",
+        "https://www.city.suginami.tokyo.jp/cgi-bin/event_cal_multi/calendar.cgi?day=17&month=12&type=3&year=2026",
+        "https://www.city.suginami.tokyo.jp/cgi-bin/event_cal_multi/calendar.cgi?day=18&month=12&type=3&year=2026",
+        "https://www.city.suginami.tokyo.jp/cgi-bin/event_cal_multi/calendar.cgi?day=19&month=12&type=3&year=2026",
+        "https://www.city.suginami.tokyo.jp/cgi-bin/event_cal_multi/calendar.cgi?day=20&month=12&type=3&year=2026",
+        "https://www.city.suginami.tokyo.jp/cgi-bin/event_cal_multi/calendar.cgi?day=21&month=12&type=3&year=2026",
+        "https://www.city.suginami.tokyo.jp/cgi-bin/event_cal_multi/calendar.cgi?day=22&month=12&type=3&year=2026",
+        "https://www.city.suginami.tokyo.jp/cgi-bin/event_cal_multi/calendar.cgi?day=23&month=12&type=3&year=2026",
+        "https://www.city.suginami.tokyo.jp/cgi-bin/event_cal_multi/calendar.cgi?day=24&month=12&type=3&year=2026",
+        "https://www.city.suginami.tokyo.jp/cgi-bin/event_cal_multi/calendar.cgi?day=25&month=12&type=3&year=2026",
+        "https://www.city.suginami.tokyo.jp/cgi-bin/event_cal_multi/calendar.cgi?day=26&month=12&type=3&year=2026",
+        "https://www.city.suginami.tokyo.jp/cgi-bin/event_cal_multi/calendar.cgi?day=27&month=12&type=3&year=2026"
+      ],
+      "fallback_source_ids": [],
+      "status": "pending",
+      "checked_count": 0
+    },
+    {
+      "id": "nerima_forest_festa_2026",
+      "required": false,
+      "urls": [
+        "https://www.city.nerima.tokyo.jp/kurashi/shigoto/midori/shokai/nerimanomori.html"
+      ],
+      "fallback_source_ids": [],
+      "status": "pending",
+      "checked_count": 0
+    },
+    {
+      "id": "shinjuku_sankaku_hiroba",
+      "required": false,
+      "urls": [
+        "https://www.sumitomo-sankakuhiroba.jp/event/"
+      ],
+      "fallback_source_ids": [],
+      "status": "pending",
+      "checked_count": 0
+    }
+  ],
+  "retired_week_starts": [
+    "2026-11-07",
+    "2026-11-14"
+  ],
+  "required_checks": [
+    "released_prompt_governance",
+    "AI_search_each_of_23_wards",
+    "explicit_sources_each_required_URL",
+    "official_schedule_row_parity",
+    "candidate_decisions",
+    "official_verification",
+    "non_regression",
+    "image_and_holiday_coverage",
+    "strict_validation",
+    "update_history",
+    "data_only_deploy",
+    "Pages_and_snapshot"
+  ],
+  "candidate_status": "not_generated",
+  "publication_permitted": false,
+  "note": "Plan only. Actual research evidence and strict CI are mandatory."
+}

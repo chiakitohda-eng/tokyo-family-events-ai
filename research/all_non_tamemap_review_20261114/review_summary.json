@@ -1,0 +1,186 @@
+{
+  "schema_version": 1,
+  "reviewed_on": "2026-11-14",
+  "excluded_source": "tamemap",
+  "corpus_size": 851,
+  "corpus_url_sha256": "63f4929deaa2eb04febc1f5e689f4d171ef8fc25d5707e635b9d0ebadd067320",
+  "all_candidates_adjudicated": true,
+  "unreviewed_candidates": 0,
+  "all_source_bodies_verified": false,
+  "current_failed_source_bodies": 46,
+  "status_counts": {
+    "administrative_hearing": 1,
+    "adult_or_senior_target": 12,
+    "approved_addition": 71,
+    "blocked_body_redirect": 1,
+    "blocked_current_recurring_venue": 1,
+    "blocked_date_conflict": 1,
+    "blocked_event_year": 2,
+    "blocked_family_participation": 1,
+    "blocked_per_bath_schedule": 1,
+    "blocked_recurring_date": 5,
+    "blocked_same_day_deadline": 1,
+    "blocked_same_day_phone_deadline": 1,
+    "blocked_source_unavailable": 10,
+    "course_not_standalone": 1,
+    "directory_not_individual_event": 61,
+    "directory_or_service": 101,
+    "duplicate_observation": 2,
+    "ended_event": 130,
+    "outside_23_wards": 2,
+    "outside_area_directory": 30,
+    "outside_target_dates": 74,
+    "past_year_schedule": 5,
+    "prior_age_restricted_reviewed": 7,
+    "prior_closed_registration": 38,
+    "prior_no_future_target_dates": 74,
+    "prior_outside_23_wards": 1,
+    "prior_weekday_schedule_only": 2,
+    "professional_or_volunteer_training": 3,
+    "published_alias": 35,
+    "published_reference": 115,
+    "registration_closed": 11,
+    "social_index": 3,
+    "standing_facility": 1,
+    "standing_service": 7,
+    "support_consultation": 3,
+    "support_event_reviewed": 1,
+    "support_registration": 2,
+    "support_service": 5,
+    "weekday_only": 23,
+    "weekday_or_ended_dates": 5,
+    "weekday_registration_closed": 1
+  },
+  "blocked_candidate_count": 24,
+  "new_programme_count": 99,
+  "new_weekly_records": 118,
+  "base_data_production_sha": "d05e78f3550ec0f302ab5a3c6550414e7dce5391",
+  "old_weekly_records": 480,
+  "expected_total_weekly_records": 598,
+  "limitations": [
+    "404・過去の月例日程・開催年・個別枠が不明な候補は確認不能の判定を残す。未着手0は全本文取得成功を意味しない。",
+    "トップページ・地域一覧の無限の全リンクを照合済みとは主張しない。固定851候補とそこから特定した直接の開催企画が対象。",
+    "既存10個票の取得不能とためまっぷ除外2件は変更しない。"
+  ],
+  "direct_followup_holds": [
+    {
+      "programme": "第4回カンボジア水祭り",
+      "url": "https://www.tokyo-park.or.jp/park/yoyogi/news/2026/11.html",
+      "status": "blocked_programme_details",
+      "reason": "11/21・22 11〜19時ケヤキ並木は公園管理者で確認。公式の具体的内容を確認できず、名称だけで水遊び・屋台・踊りを推測しない。"
+    },
+    {
+      "programme": "ミュシャ 旅する彗星",
+      "url": "https://shibu-cul.jp/event/mucha2026",
+      "status": "blocked_projection_schedule",
+      "reason": "11/14開始は確認。現在の土日祝投影枠が本文になく、開始日を全週に展開しない。"
+    }
+  ],
+  "publication": {
+    "data_production_sha": "847e388e65b99e38a0f108ecc96009778b3fdcd2",
+    "data_staging_same_sha": true,
+    "data_release_snapshot": "data-release/2026-11-14-r669",
+    "data_publication_workflow_run": 43592763300,
+    "read_only_ci_run": 43592538020,
+    "control_pr": 122,
+    "guidance_pr": 123,
+    "live_json_verification": {
+      "verified_at": "2026-11-14T12:02:59.467119+00:00",
+      "public_total": 598,
+      "old_records_unchanged": 480,
+      "added_records": 118,
+      "new_programs": 99,
+      "week_counts": {
+        "2026-11-07": 52,
+        "2026-11-14": 132,
+        "2026-11-21": 150,
+        "2026-11-28": 106,
+        "2026-12-05": 87,
+        "2026-12-12": 71
+      },
+      "files_compared": 92,
+      "all_files_match_candidate": true,
+      "history_preserved": true
+    },
+    "mobile_cases_verified": [
+      {
+        "name": "当日参加メニュー",
+        "week": "2026-11-28",
+        "stars": 2,
+        "star_filter_matches": true,
+        "mobile_no_overflow": true
+      },
+      {
+        "name": "みんなでわくわくキャンプ体験",
+        "week": "2026-11-28",
+        "stars": 3,
+        "star_filter_matches": true,
+        "mobile_no_overflow": true
+      },
+      {
+        "name": "Dr.コルチャック",
+        "week": "2026-11-28",
+        "stars": 2,
+        "star_filter_matches": true,
+        "mobile_no_overflow": true
+      },
+      {
+        "name": "元イスラエル兵士",
+        "week": "2026-11-28",
+        "stars": 2,
+        "star_filter_matches": true,
+        "mobile_no_overflow": true
+      },
+      {
+        "name": "車いすテニス体験会 小中学生",
+        "week": "2026-12-12",
+        "stars": 3,
+        "star_filter_matches": true,
+        "mobile_no_overflow": true
+      },
+      {
+        "name": "フリースペース",
+        "week": "2026-11-21",
+        "stars": 3,
+        "star_filter_matches": true,
+        "mobile_no_overflow": true
+      },
+      {
+        "name": "タチウオ愛",
+        "week": "2026-11-14",
+        "stars": 3,
+        "star_filter_matches": true,
+        "mobile_no_overflow": true
+      },
+      {
+        "name": "世界のお酒フェス",
+        "week": "2026-11-21",
+        "stars": 1,
+        "star_filter_matches": true,
+        "mobile_no_overflow": true
+      },
+      {
+        "name": "オルセー美術館所蔵",
+        "week": "2026-11-21",
+        "stars": 2,
+        "star_filter_matches": true,
+        "mobile_no_overflow": true
+      },
+      {
+        "name": "PLAYGROUND WALK",
+        "week": "2026-11-21",
+        "stars": 3,
+        "star_filter_matches": true,
+        "mobile_no_overflow": true
+      }
+    ],
+    "app_production_sha": "48ea14ef33d762958448ab562fd1d5f1ae4c834e",
+    "app_version": "1.35",
+    "app_release_snapshot": "release/2026-11-14-r4",
+    "app_publication_workflow_run": 43592955747,
+    "public_guidance": {
+      "guidance_matches": true,
+      "issues": 5
+    }
+  }
+}

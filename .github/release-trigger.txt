@@ -1,15 +1,15 @@
-# User-approved application-only production release v1.26 (2026-10-28 JST).
+# User-approved v1.50 (chat 2026-11-23): unify count display (home total, ward chips, change chips) with the search result unit and window. Front-end files only.
 operation=release
 production_ref=production
-production_sha=9efccbcfa31facd7b78ffbdddcdec4ab6d347752
-previous_production_sha=933291588f3ea1ebcd5c311a0376a415037a02a9
-candidate_sha=912ae8e0c7b91f58c878b25c692b00477d6e946c
-pr=75
-target_public_version=1.26
-previous_public_release=release/2026-10-28-r2
-release_date_jst=2026-10-28
-expected_data_production_sha=1d1687321f82279d6e46899f1fc453169bba5b1d
-approved_scope=site/self-usage.js;site/usage-history.css;site/usage-history.html;site/usage-history.js;tests/usage_metrics.test.mjs
+production_sha=2b779c95b724c095071c1eaa45355aed18c78907
+previous_production_sha=05175c11806466d94881f3f4a8853ee2b2cb4dcf
+candidate_sha=775a9e9a6c5e9795fe216477793ad6fa17b3036d
+pr=150
+target_public_version=1.50
+previous_public_release=release/2026-11-23-r1030
+release_date_jst=2026-11-23
+expected_data_production_sha=100bab3eea5a5011deea32fc6bb11840e500ccb8
+approved_scope=site/index.html,site/search.html,site/copy.html,site/multi-filter-ui.js
 event_record_mutation=none
-source_registry_mutation=none
-note=User-approved opt-in browser-only own usage overlay on existing anonymous full-site daily usage chart. Independent isolated five-path audit run 40599255425 success; staging run 40598698148 success. PR #75 merges isolated production-based candidate. No search, Canva, event data, personal IDs, Cloudflare Worker, stats endpoint or D1 schema changes. Previous version v1.25 rollback maintained.
+curation_record_mutation=none
+note=Home total, ward chip counts and weekly-change chip counts now use the same unit (festival programmes grouped) and window (this weekend onward) as the search result count. No event data changes.

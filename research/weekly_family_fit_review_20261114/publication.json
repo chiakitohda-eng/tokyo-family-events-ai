@@ -1,0 +1,127 @@
+{
+  "verified_at": "2026-11-14T05:54:27.857333+00:00",
+  "base_data_production_sha": "cdad50949ead6fe7fff2e8bb28e7c22bfbdd12fd",
+  "data_production_sha": "6aac4355afd8da739885d4ce6f3c64e84c7e5514",
+  "data_staging_sha": "6aac4355afd8da739885d4ce6f3c64e84c7e5514",
+  "data_release": "data-release/2026-11-14-r656",
+  "preflight_run": 43563239284,
+  "preflight_conclusion": "success",
+  "data_publication_run": 43563464845,
+  "data_publication_conclusion": "success",
+  "quality_gate_actual_publication_step": {
+    "job_id": 132352077280,
+    "name": "Require individual evidence for every new or changed family-fit assessment",
+    "conclusion": "success"
+  },
+  "public_app_sha_unchanged": "e311ee769291a84ff7d6b070ac306f6da3b03977",
+  "public_app_version_unchanged": "1.33",
+  "public_data": {
+    "verified_at": "2026-11-14T05:52:18.012203+00:00",
+    "public_total": 408,
+    "event_facts_retained": 408,
+    "out_of_scope_records_retained_exactly": 208,
+    "assessments_reviewed": 200,
+    "programs_reviewed": 139,
+    "reviewed_grade_counts": {
+      "A": 72,
+      "B": 120,
+      "C": 8
+    },
+    "grade_changes": 78,
+    "upgraded_to_A": 70,
+    "changed_to_C": 8,
+    "week_counts": {
+      "2026-11-07": 52,
+      "2026-11-14": 94,
+      "2026-11-21": 100,
+      "2026-11-28": 69,
+      "2026-12-05": 52,
+      "2026-12-12": 41
+    },
+    "files_compared": 76,
+    "all_candidate_files_match_public": true,
+    "history_retained": true
+  },
+  "public_browser": [
+    {
+      "name": "魔法つかいのほうき屋さん",
+      "week": "2026-11-14",
+      "stars": 3,
+      "star_filter_matches": true,
+      "mobile_no_overflow": true,
+      "card_text": "図画工作「魔法つかいのほうき屋さん」今週追加\n🗓 11/15\n−\nCanvaに追加\n中野区\n✓ 公式確認済み\n有料\n要事前申込\n📍 広町みらい公園・体験学習センター\n🕒 10:00〜11:00\n💰 1,000円（材料費込み）\n3歳くらいから大人まで。小学2年生以下は保護者同伴。金色の小枝に布リボンを巻いてクリスマスにも飾れる作品を作る。室内履き・持ち帰り用袋を持参。\nAI判定: 3歳頃から保護者と布リボンを使い、持ち帰れる作品を作る1時間の工作。 小学2年生以下は保護者同伴。材料費と当日取消料があり、空き確認が必要。\n子連れ適性8軸を見る\n公式確認: 2026-11-14 ／ 検証ソース\n2026年・講座名・時刻・料金・対象年齢・受付中を公園の予約詳細で確認。会場は公園維持・管理係の提供投稿で照合。画像は同一イベント投稿で観測した素材で、事実推測には使用しない。\n情報元: https://nakano-hiromatimirai.resv.jp/reserve/calendar.php?x=1634516751"
+    },
+    {
+      "name": "0歳から楽しめる45分",
+      "week": "2026-11-21",
+      "stars": 3,
+      "star_filter_matches": true,
+      "mobile_no_overflow": true,
+      "card_text": "練\nねりぶんの音楽便in練馬 0歳から楽しめる45分今週追加\n🗓 11/22\n−\nCanvaに追加\n練馬区\n✓ 公式確認済み\n有料\n要事前申込\n📍 中村南スポーツ交流センター 地下1階 多目的アリーナ\n🕒 13:00〜13:45（12:30開場）\n💰 一般500円、車いす席250円\n金管五重奏と歌などを親子で楽しめる乳幼児向け公演。 対象：0歳から。2歳以下ひざ上無料、座席使用時は有料。 全席指定・要チケット。室内履き持参。空席は公式販売で確認。ベビーカー置場に限りあり、抱っこひも等を推奨。\nAI判定: 0歳からの親子に合わせた45分公演で、金管五重奏と歌を低負担で楽しめる。 2歳以下ひざ上無料は座席不要の場合のみ。ベビーカー置場に限りがあり室内履きも必要。\n子連れ適性8軸を見る\n公式確認: 2026-11-14 ／ 検証ソース\n名前・2026年の実施日・会場を本文/構造化日程で照合。日付クエリ・更新日・写真を開催事実の根拠にしない。未記載事項は未確認のまま。\n情報元: https://www.neribun.or.jp/event/detail_n.cgi?id=202608081786175523"
+    },
+    {
+      "name": "宇宙工作あそび",
+      "week": "2026-11-28",
+      "stars": 3,
+      "star_filter_matches": true,
+      "mobile_no_overflow": true,
+      "card_text": "宇宙工作あそび！バルーンロケット射的＆宇宙人ロボット今週追加\n🗓 11/28\n−\nCanvaに追加\n板橋区\n✓ 公式確認済み\n無料\n申込不要\n📍 板橋区立グリーンホール703会議室\n🕒 10:00〜15:00\n💰 無料\n風船ロケットやストローとゴムのロボットを作り、しくみを体験する。 対象：どなたでも。 子ども向け。申込不要、出入り自由。\nAI判定: 風船ロケットやロボットを作り、遊んでしくみを学べる子ども向け無料工作。 申込不要だが混雑や道具の使い方は現地で確認。宇宙の講演会ではなく実際の制作を評価する。\n子連れ適性8軸を見る\n公式確認: 2026-11-14 ／ 検証ソース\n名前・2026年の実施日・会場を本文/構造化日程で照合。日付クエリ・更新日・写真を開催事実の根拠にしない。未記載事項は未確認のまま。\n情報元: https://www.city.itabashi.tokyo.jp/tetsuduki/jinken/danjo/forum/1066253.html"
+    },
+    {
+      "name": "狂言と玉すだれ",
+      "week": "2026-12-12",
+      "stars": 3,
+      "star_filter_matches": true,
+      "mobile_no_overflow": true,
+      "card_text": "親子で体験！狂言と玉すだれ今週追加\n🗓 12/13\n−\nCanvaに追加\n目黒区\n✓ 公式確認済み\n無料\n要事前申込\n📍 めぐろパーシモンホール小ホール（八雲1-1-1）\n🕒 10:00〜12:00／13:30〜15:30（選択制）\n💰 無料\n狂言と玉すだれの鑑賞・体験。白足袋または白い靴下を持参。午前・午後どちらかを選択。 対象：目黒区内在住・在学の小学1〜6年生とその保護者。 11/16締切のオンライン申込。各回25組50名、応募多数時抽選、11/17結果通知。\nAI判定: 区内の小学生と保護者が、プロから狂言と玉すだれを一緒に学び体験できる無料講座。 在住在学条件・各回25組・抽選があり、11/16締切。午前と午後は選択制で両方参加ではない。\n子連れ適性8軸を見る\n公式確認: 2026-11-14 ／ 検証ソース\n名前・2026年の実施日・会場を本文/構造化日程で照合。日付クエリ・更新日・写真を開催事実の根拠にしない。未記載事項は未確認のまま。\n情報元: https://www.city.meguro.tokyo.jp/bunka/event/kyogenr8.html"
+    },
+    {
+      "name": "めぐろ子ども音楽祭",
+      "week": "2026-11-21",
+      "stars": 2,
+      "star_filter_matches": true,
+      "mobile_no_overflow": true,
+      "card_text": "令和8年度めぐろ子ども音楽祭今週追加\n🗓 11/21\n−\nCanvaに追加\n目黒区\n✓ 公式確認済み\n無料\n申込不要\n📍 めぐろパーシモンホール大ホール（八雲1-1-1）\n🕒 13:00〜16:00予定（12:30開場）\n💰 無料\n小学校7校の合唱・合奏と目黒吹奏楽団の公演。13時からと14時30分からの2部構成。客席からの撮影は不可。 対象：子どもの音楽活動の発表会。観覧年齢の制限は未記載。 入場整理券なし。直接会場へ。車いす席は先着順・事前問合せ。\nAI判定: 区内小学校の合唱・合奏を無料で聴き、子どもの音楽活動を家族で共有できる。 子どもは主に出演者であり、観覧者向けの短い参加型公演とは別。全体は約3時間。\n子連れ適性8軸を見る\n公式確認: 2026-11-14 ／ 検証ソース\n名前・2026年の実施日・会場を本文/構造化日程で照合。日付クエリ・更新日・写真を開催事実の根拠にしない。未記載事項は未確認のまま。\n情報元: https://www.city.meguro.tokyo.jp/bunka/event/ongakusai-.html"
+    },
+    {
+      "name": "将来の安心につなげる",
+      "week": "2026-11-14",
+      "stars": 1,
+      "star_filter_matches": true,
+      "mobile_no_overflow": true,
+      "card_text": "将来の安心につなげる お金の使い方今週追加\n🗓 11/15\n−\nCanvaに追加\n中野区\n✓ 確認済み\n無料\n要事前申込\n📍 中野区立中野中央図書館\n🕒 14:00〜15:00（13:45集合）\n💰 無料\n【開催日時】2026年11月15日(日曜日) 14時から15時(集合13時45分) 【場所】なかのゼロ本館 地下2階 中野区立中央図書館 セミナールーム 【対象】一般 【定員】30名 (ウェブ申込み・電話・カウンター/先着制) 【講師】CFP®ファイナンシャル・プランナー 亀谷 さおり氏 【イベント内容】物価上昇などお金を取り巻く環境が変化する中、家計管理と資産形成の基本について学びます。簡単なワークにも取り組みながら、将来の安心につながるお金との付き合い方や、今日からできる行動を考えます。 【申込み方法】2026年11月1日(日曜日)9時からウェブ申込み・電話・カウンターにて受付(先着制)、定員に達し次第受付終了 ※この講座は先着制になりますので、お申込みが完了した時点で参加が確定となります。 対象：一般向け。公式の子どもの年齢条件は未記載、内容が合うか申込時に確認。 ウェブ・電話・カウンターで事前申込、先着30名。空きは中央図書館へ確認。\nAI判定: お金に関心のある年長の子どもと保護者が、家計や資産形成について考えるきっかけになる。 一般向けの家計管理・資産形成が中心で、幼児・小学生向けの内容や子どもの参加条件は未記載。\n子連れ適性8軸を見る\n確認: 2026-11-14 ／ 検証ソース\n名前・2026年の実施日・会場を本文/構造化日程で照合。日付クエリ・更新日・写真を開催事実の根拠にしない。未記載事項は未確認のまま。\n情報元: https://pc.tamemap.net/1311401/event/162185/2026-11-15?locale=ja"
+    },
+    {
+      "name": "朝ヨガ",
+      "week": "2026-12-12",
+      "stars": 1,
+      "star_filter_matches": true,
+      "mobile_no_overflow": true,
+      "card_text": "中\n朝ヨガ（広町みらい公園）今週追加\n🗓 12/13\n−\nCanvaに追加\n中野区\n✓ 公式確認済み\n有料\n要事前申込\n📍 広町みらい公園 体験学習センター\n🕒 9:30〜10:30\n💰 1,500円。10歳以上の同伴児も有料\n子ども同伴が明記された保護者の運動の選択肢。 対象：静かに待てる子ども1名の同伴可。子ども向け講座ではない。 11/15 9:00から予約受付開始。受付開始前。 取消・無断欠席等の費用は公式案内を確認。\nAI判定: 静かに待てる子どもを連れて、保護者が1時間のヨガに参加できる。 子ども向け講座ではなく同伴児は静かに待つ条件があるため、子ども自身の休日体験としての価値は限定的。\n子連れ適性8軸を見る\n公式確認: 2026-11-14 ／ 検証ソース\n名前・2026年の実施日・会場を本文/構造化日程で照合。日付クエリ・更新日・写真を開催事実の根拠にしない。未記載事項は未確認のまま。\n情報元: https://nakano-hiromatimirai.resv.jp/reserve/calendar.php?x=1634516751"
+    },
+    {
+      "name": "若草物語",
+      "week": "2026-12-12",
+      "stars": 1,
+      "star_filter_matches": true,
+      "mobile_no_overflow": true,
+      "card_text": "12月映画会『若草物語』今週追加\n🗓 12/12\n−\nCanvaに追加\n中野区\n✓ 確認済み\n無料\n要事前申込\n📍 なかのゼロ本館 地下2階 中野区立中央図書館 セミナールーム\n🕒 10:00／14:30（各30分前開場、15分前からブックトーク）\n💰 無料\n中野区立中央図書館では、地域住民および利用者の皆さまに対して、映画会（DVD上映）を企画しています。 皆さまのご参加をお待ちしております。 洋画｢若草物語｣DVD上映 暖かい母親を中心に、豊かでなくとも力を合わせ、つつましく明るい毎日を過ごす美しい4姉妹が若草のように成長していく日常を描く。 監督：ジョージ・キューカー　出演：キャサリン・ヘプバーン、ジョーン・ベネットほか 1933年 アメリカ作品　115分（字幕上映） 原作：ルイザ・メイ・オルコット 音楽：マックス・スタイナー 【午前】10時上映（9時30分開場、9時45分よりブックトーク） 【午後】14時30分上映（14時開場、14時15分よりブックトーク） 上映15分前からは上映作品にちなんだブックトークを実施します。 対象：公式の年齢制限は未記載。1933年作品・字幕115分で、長時間座って読めるか事前判断が必要。 事前申込・先着順。図書館案内で申込方法と空きを確認。\nAI判定: 物語や原作に関心があり字幕を読める子には、家族で作品を話し合う機会になる。 1933年作品の字幕上映115分で、読解と長時間の鑑賞が必要。幼児や字幕を読めない子には内容が合いにくい。\n子連れ適性8軸を見る\n確認: 2026-11-14 ／ 検証ソース\n名前・2026年の実施日・会場を本文/構造化日程で照合。日付クエリ・更新日・写真を開催事実の根拠にしない。未記載事項は未確認のまま。\n情報元: https://pc.tamemap.net/1311401/event/162896/2026-12-12?locale=ja"
+    }
+  ],
+  "controls": [
+    "No default overall B; reviewed strength, limitations, comparison, audience basis and captured evidence required for every new or changed assessment",
+    "General admission, age eligibility, accompanying children and child performers are distinct from a child program",
+    "Unknown conditions remain unknown; no grade averaging or automatic promotion from A-count",
+    "Published and decision assessments must match; low-grade publication needs a specific override",
+    "Unchanged legacy and exact same-ID assessment carryover retained",
+    "Review work packet and operational instructions include the required process"
+  ],
+  "scope_limitation": "Only the 200 records published this week were individually reassessed. Other208 records and whole-source parity debt are unchanged.",
+  "historical_suginami_preflight": {
+    "run": 43563239209,
+    "conclusion": "failure",
+    "reason": "Frozen October candidate still fails its historical source lookup; not changed or waived."
+  },
+  "existing_unclassified_app_paths": 115,
+  "existing_wrong_kind_paths": 1
+}

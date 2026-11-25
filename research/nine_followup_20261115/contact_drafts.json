@@ -1,0 +1,79 @@
+{
+  "status": "not_sent",
+  "requires_explicit_outbound_authorization": true,
+  "sender_and_reply_to_not_assumed": true,
+  "records": [
+    {
+      "id": 21,
+      "recipient": "おかのうえデスク（東中野区民活動センター運営委員会）",
+      "public_contact": "nakano_higashi@jewel.ocn.ne.jp / 03-3364-6795",
+      "source_url": "https://www.higashinonet.com/",
+      "question": "掲載中のプレムの11月28日（土）9:30〜11:30のチラシは、2026年の開催でしょうか。11月28日の内容・対象年齢をご確認ください。また、12月休止のお知らせはプレムを含むものでしょうか。",
+      "sent": false
+    },
+    {
+      "id": 22,
+      "recipient": "東中野キングス・ガーデン キングス・カフェ",
+      "public_contact": "nakano.cafe@kg-tokyo.or.jp / 03-3368-5200",
+      "source_url": "https://kg-tokyo.or.jp/facility/higashi-nakano/cafe/",
+      "question": "おもちゃDAYは2026年も毎月第1土曜日10:30〜16:00に実施されていますか。12月5日の実施・会場・料金・対象と、予約の要否を確認したいです。",
+      "sent": false
+    },
+    {
+      "id": 31,
+      "recipient": "にこにこランチ食堂（社協掲載の問い合わせ先）",
+      "public_contact": "rkazuyuki@gmail.com / 090-9153-8011",
+      "source_url": "https://nakanoshakyo.com/nakanoinfo/result/?did=14372",
+      "question": "2026年11月15日〜12月13日の開催予定はありますか。具体的な開催日・会場・時刻・子どもと保護者の参加条件・料金・申込方法を確認したいです。同会場の別名称の食堂とは区別して掲載します。",
+      "sent": false
+    },
+    {
+      "id": 33,
+      "recipient": "中野区社会福祉協議会 東部地域担当",
+      "public_contact": "03-5380-0254（電話の公開窓口。メール宛先は未確認）",
+      "source_url": "https://nakanoshakyo.com/nakanoinfo/result/?did=14373",
+      "question": "はるさんのおしゃべりサロンは、2026年12月5日も10〜12時に開催予定でしょうか。乳幼児や小学生を同伴した家族も対象となりますか。子ども向けの活動・会場条件、特別行事による料金・予約条件の変更があればお知らせください。",
+      "sent": false
+    },
+    {
+      "id": 55,
+      "recipient": "足立区 総合事業調整担当（がきんちょ地域食堂の公開窓口照会）",
+      "public_contact": "03-3880-5717（区の公開担当窓口。主催団体の連絡先は要照会）",
+      "source_url": "https://www.city.adachi.tokyo.jp/sesaku/adachiku-kodomosyokudo.html",
+      "question": "がきんちょ地域食堂の2026年11月15日〜12月13日の開催日・会場・時刻・対象・料金・申込条件を確認できる主催者窓口または当年チラシをご案内いただけますか。主催サイトは現在通常ブラウザーでも403となります。",
+      "sent": false
+    },
+    {
+      "id": 149,
+      "recipient": "港区 各総合支所区民課保健福祉係（代表経由）",
+      "public_contact": "03-3578-2111",
+      "source_url": "https://www.city.minato.tokyo.jp/zaitakushien/kenko/fukushi/koresha/sekatsu/nyuyokuken.html",
+      "question": "旧URL https://www.city.minato.tokyo.jp/fukushishien/sento.html はどの制度・行事の案内だったでしょうか。高齢者無料入浴券の給付と同一か、個別の実施日がある別行事か、移転先や保存資料があれば教えてください。高齢者限定制度を親子イベントへ置き換えないための照会です。",
+      "sent": false
+    },
+    {
+      "id": 226,
+      "recipient": "杉並区 区民生活部管理課庶務係（浴場案内の公開担当）",
+      "public_contact": "03-5307-0733",
+      "source_url": "https://www.city.suginami.tokyo.jp/s016/event/28751.html",
+      "question": "2026年の「働く人の湯」は浴場ごとに実施日が異なると伺っています。11月15日〜12月13日の土日祝に実施する杉並区内の浴場について、個別の開催日・営業時間が確認できる公式資料または照会先をご案内いただけますか。全浴場を11月23日として掲載しないための確認です。",
+      "sent": false
+    },
+    {
+      "id": 249,
+      "recipient": "アイテラス落合南長崎（公開代表窓口）",
+      "public_contact": "03-6908-1441",
+      "source_url": "https://www.iterrace.jp/event/event_data.php?no=741",
+      "question": "ハロウィンパレード フォトアルバム（10月31日〜11月15日、2F Exhibit Alley）の開催年は2026年でしょうか。当年の開催を明記するチラシや公式案内、参加費・受付条件をご案内いただけますか。",
+      "sent": false
+    },
+    {
+      "id": "cambodia",
+      "recipient": "カンボジア水祭り実行委員会／BMI 斉藤（主催ポスターの公開連絡先）",
+      "public_contact": "bmisaito@gmail.com / 090-5563-9930",
+      "source_url": "https://www.instagram.com/bmi_jp/p/DfZRH7kN5mx/",
+      "question": "2026年11月21日・22日の第4回カンボジア水祭りについて、正しい終了時刻を確認したいです。主催者ポスターは11〜18時、公園管理者の11月案内は11〜19時となっています。両日とも何時終了でしょうか。時刻が異なる対象（出店・会場等）があれば併せてお知らせください。",
+      "sent": false
+    }
+  ]
+}

@@ -9,7 +9,7 @@
 <section class="site-hero">
   <div class="hero-inner">
     <div class="site-topbar">
-      <a class="site-brand" href="index.html">東京23区子連れイベントAI収集</a>
+      <a class="site-brand" href="index.html">東京子連れイベントAI収集</a>
       <nav class="site-nav"><a id="backLink" href="search.html">イベント検索へ</a></nav>
     </div>
     <div class="hero-eyebrow">COPY LIST</div>
@@ -60,12 +60,13 @@
   <div class="grid" id="grid"></div>
 </main>
 <footer>コピペ契約 v1：タイトル → 場所 → 日時 → 料金 → 説明 → 公式サイト → 情報元サイト → 画像URL（画像がある場合のみ）</footer>
+<script src="thumb-fallback.js"></script>
 <script src="self-usage.js?v=20261028-1" defer></script>
 <script src="usage-metrics.js?v=20261028-today" defer></script>
 <script type="module">
 import {WARDS,defaultDate,saturdayOf,fmtRange,filterEvents,countsByWard,loadManifest,loadWeekend,loadDiscoverySources,escapeHtml,safeHttpUrl,rollingWeekSlots,shortWeekendLabel,holidayPeriodSlots,holidayTabMeta,holidayRangeLabel,eventsOverlappingPeriod,verificationStateMeta,verificationSourceHeading,mergeEventsAcrossWeeks,indoorOutdoorLabel,eventPriceCategory,eventPriceLabel,reservationLabel,reservationCategory,eventDiscoveryProvenance,familyFitAxisRows,heroSeasonForDate} from './app.js?v=20261010-multifilter';
 import {createMultiFilterUI} from './multi-filter-ui.js?v=20261025-date-range-v1';
-import {loadChangeData,changeBadge,currentChangeCounts,changeKind} from './recent-event-changes.js?v=20261027-1';
+import {loadChangeData,changeBadge,currentChangeCounts,changeKind} from './recent-event-changes.js?v=20261108-weekly-identity';
 import {groupFestivalDisplayEvents,festivalDisplayChangeKind,festivalMemberSummary,groupedEventChangeCounts} from './festival-display-grouping.js?v=20261027-fest-parent';
 import {COPY_CONTRACT_VERSION,copyFieldList,copyAllText} from './copy-contract.js';
 
@@ -121,18 +122,19 @@ function copyProvenanceBadge(prov){
 }
 function fieldHtml(field,id){const url=field.isLink?safeHttpUrl(field.value):'';const inner=url?`<a href="${escapeHtml(url)}" target="_blank" rel="noopener">${escapeHtml(field.value)}</a>`:escapeHtml(field.value);return `<div class="copy-field"><div class="field-label">${escapeHtml(field.label)}</div><div class="field-value" id="${id}">${inner}</div><button class="copy-btn" onclick="copyOne('${id}',this)">コピー</button></div>`;}
 
-function renderChangeControls(){
+function renderChangeControls(scopeEvents){
   const bar=$('changeFilterBar');if(!bar||!currentData)return;
-  const counts=groupedEventChangeCounts(currentData.events,changes);
+  const base=scopeEvents||currentData.events;
+  const counts=groupedEventChangeCounts(base,changes);
   bar.innerHTML='<span class="change-filter-label">今週の掲載変更</span>'+
-    [['','すべて',groupFestivalDisplayEvents(currentData.events).length],['added','追加',counts.added],['updated','情報更新',counts.updated]]
+    [['','すべて',groupFestivalDisplayEvents(base).length],['added','追加',counts.added],['updated','情報更新',counts.updated]]
     .map(([key,label,count])=>'<button type="button" class="change-filter-btn'+(changeFilter===key?' active':'')+
       '" data-change-filter="'+key+'" aria-pressed="'+String(changeFilter===key)+'">'+label+' '+count+'件</button>').join('');
 }
 function render(){
   if(!currentData)return;renderWeekTabs();renderChips(currentData);
-  renderChangeControls();
   let visible=filterEvents(currentData.events,{...filters(),registry,decisionAudit:currentData.decision_audit});
+  renderChangeControls(visible);
   if(changeFilter)visible=visible.filter(ev=>changeKind(ev,changes)===changeFilter);
   const displayed=groupFestivalDisplayEvents(visible);
   window.__visibleEvents=displayed;
@@ -162,7 +164,7 @@ function render(){
        <span>料金：${escapeHtml(child.price||'料金要確認')}</span>
        ${child.description?`<span>内容：${escapeHtml(child.description)}</span>`:''}
        <span>申込：${escapeHtml(child.reservation?.note||'要確認')}</span></li>`).join('')}</ol></section>`:'';
-    const thumb=img?`<img class="thumb event-list-thumb" src="${escapeHtml(img)}" alt="" loading="lazy" onerror="this.replaceWith(Object.assign(document.createElement('div'),{className:'thumb ph event-list-thumb',textContent:'${escapeHtml(ev.ward.slice(0,1))}'}))">`:`<div class="thumb ph event-list-thumb">${escapeHtml(ev.ward.slice(0,1))}</div>`;
+    const thumb=img?`<img class="thumb event-list-thumb" src="${escapeHtml(img)}" alt="" loading="lazy" onerror="this.outerHTML=ThumbFallback.html(JSON.parse(this.dataset.ev))" data-ev='${escapeHtml(JSON.stringify({name:ev.name,ward:ev.ward,description:ev.description,venue:ev.venue}))}'>`:ThumbFallback.html(ev);
     const title=href?`<a href="${escapeHtml(href)}" target="_blank" rel="noopener">${escapeHtml(ev.name||ev.url)}</a>`:escapeHtml(ev.name||ev.url);
     const verifyBadge=`<span class="badge ${state.className}">${escapeHtml(state.label)}</span>`;
     const verifyText=`<div class="source"><b>${verificationSourceHeading(ev.verification)}:</b> ${ev.verification?.verified_on?escapeHtml(ev.verification.verified_on)+' ／ ':''}${verifyUrl?`<a href="${escapeHtml(verifyUrl)}" target="_blank" rel="noopener">検証ソース</a>`:'検証ソース要確認'}${ev.verification?.note?`<br>${escapeHtml(ev.verification.note)}`:''}</div>`;

@@ -1,0 +1,62 @@
+name: Verify frozen final backlog additions without changing published data
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - 'tools/validate_final_backlog_addition.py'
+      - 'tests/test_final_backlog_gate.py'
+      - 'research/final_backlog_review_20261114/**'
+      - '.github/workflows/final-backlog-review.yml'
+  workflow_dispatch: {}
+permissions:
+  contents: read
+jobs:
+  review:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          path: scanner
+      - uses: actions/checkout@v4
+        with:
+          ref: 89c9211fa561fcaabf9d03063d5b745978a52cf8
+          path: candidate
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Regression suite including old-record and source-error preservation
+        working-directory: scanner
+        run: npm test
+      - name: Verify the frozen 27-file data candidate and all existing records
+        working-directory: candidate
+        run: |
+          python3 ../scanner/tools/validate_final_backlog_addition.py --base-ref 81dd7269a6f0683c635db8491d137b12b50f3707
+          python3 ../scanner/tools/validate_data.py --strict --min-image-coverage 0.70 site/data
+          python3 ../scanner/tools/validate_decisions.py --strict site/data
+          python3 ../scanner/tools/validate_rereview.py --strict site/data
+          python3 ../scanner/tools/audit_event_image_identity.py --strict site/data
+          python3 ../scanner/tools/validate_protected_events.py --base-ref 81dd7269a6f0683c635db8491d137b12b50f3707 site/data
+          python3 ../scanner/tools/validate_non_regression.py --base-ref 81dd7269a6f0683c635db8491d137b12b50f3707 site/data
+      - uses: actions/checkout@v4
+        with:
+          ref: c1c37b8e348e5ef30edb677d495875ce317787d5
+          path: app-candidate
+          fetch-depth: 0
+      - name: Verify isolated production application candidate
+        working-directory: app-candidate
+        shell: bash
+        run: |
+          set -euo pipefail
+          test "$(git rev-parse HEAD^)" = "ce64f0578f6df5a700fcc631350ec8669e323ed0"
+          git diff --name-only HEAD^ HEAD | sort > /tmp/actual-app-paths.txt
+          printf '%s\n' site/app.js site/audit/pending_issues_catalog.json | sort > /tmp/expected-app-paths.txt
+          diff -u /tmp/expected-app-paths.txt /tmp/actual-app-paths.txt
+          git diff --quiet HEAD^ HEAD -- site/data prompts policy tools
+          npm test
+          cp ../scanner/tests/verification_date.test.mjs tests/verification_date.test.mjs
+          node tests/verification_date.test.mjs

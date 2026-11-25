@@ -1,0 +1,85 @@
+{
+  "status": "published",
+  "recorded_at_jst": "2026-11-14T10:43:55.625036+09:00",
+  "data_base_sha": "81dd7269a6f0683c635db8491d137b12b50f3707",
+  "data_production_sha": "89c9211fa561fcaabf9d03063d5b745978a52cf8",
+  "data_release": "data-release/2026-11-14-r646",
+  "data_pages_run": 43541686211,
+  "app_base_sha": "ce64f0578f6df5a700fcc631350ec8669e323ed0",
+  "production_sha": "34531c0fcb7ac4eddc0c1c261927e4aadd8cc4a5",
+  "app_candidate_sha": "c1c37b8e348e5ef30edb677d495875ce317787d5",
+  "app_release": "release/2026-11-14-r1",
+  "public_version": "1.32",
+  "app_pages_run": 43542047853,
+  "app_pages_conclusion": "success",
+  "app_changed_paths": [
+    "site/app.js",
+    "site/audit/pending_issues_catalog.json"
+  ],
+  "main_control_pr": 110,
+  "production_pr": 111,
+  "frozen_preflight_run": 43541322840,
+  "listing_regression_run": 43541322812,
+  "public_data_proof": {
+    "verified_at": "2026-11-14T01:39:08.828304+00:00",
+    "public_total": 369,
+    "old_records_retained_exactly": 227,
+    "new_records": 142,
+    "week_counts": {
+      "2026-11-07": 52,
+      "2026-11-14": 85,
+      "2026-11-21": 88,
+      "2026-11-28": 62,
+      "2026-12-05": 45,
+      "2026-12-12": 37
+    },
+    "files_compared": 71,
+    "all_candidate_files_match_public": true,
+    "history_retained": true
+  },
+  "public_browser_proof": "research/final_backlog_review_20261114/public_browser_proof.json",
+  "public_browser_cases": 6,
+  "mobile_horizontal_overflow": false,
+  "historical_suginami_preflight": {
+    "run_id": 43541322782,
+    "conclusion": "failure",
+    "reason": "Old frozen October candidate still requests old official s113/event paths; HTTP404. This unrelated historical audit was not disabled or marked successful."
+  },
+  "remaining_blockers": {
+    "github_tamemap_403": true,
+    "tamemap_participation_conditions_missing": 13,
+    "suginami_specialist_participation_conditions_missing": 2,
+    "retrieval_errors_in_851_url_set": 46,
+    "all_851_content_publication_review_complete": false,
+    "unclassified_app_paths": 115,
+    "wrong_kind_paths": [
+      "tools/holiday_after_collect.py"
+    ]
+  },
+  "whole_source_parity_complete": false,
+  "new_weekly_records": 142,
+  "unique_review_keys": 101,
+  "old_records_retained": 227,
+  "published_total": 369,
+  "old_event_mutations": 0,
+  "old_event_removals": 0,
+  "old_source_errors_changed": 0,
+  "final_public_release_proof": {
+    "verified_at": "2026-11-14T01:47:28.365207+00:00",
+    "public_version": "1.32",
+    "public_release": "release/2026-11-14-r1",
+    "registry_pages_run": 43542428978,
+    "registry_pages_conclusion": "success",
+    "production_app_js_sha256": "0812d8687e352cba410b6d0ad1d0b7e650adf593f11db93f4379d794da613990",
+    "public_app_matches_production": true,
+    "public_catalog_matches_production": true,
+    "public_registry_matches_release_snapshot": true,
+    "public_total": 369
+  },
+  "issue_updates": {
+    "41": 6869618375,
+    "52": 6869626446,
+    "62": 6869628077,
+    "65": 6869629706
+  }
+}

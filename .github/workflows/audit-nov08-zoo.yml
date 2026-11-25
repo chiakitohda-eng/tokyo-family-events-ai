@@ -1,0 +1,49 @@
+name: Verify one missing ZOO park festa from organizer evidence (read only)
+
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/audit-nov08-zoo.yml']
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 18
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: bd7efa1555cd89f06254b5a1179c3f2858ceef8b
+          fetch-depth: 0
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          path: staging-src
+      - uses: actions/checkout@v4
+        with:
+          ref: production
+          path: released-src
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Check exact baseline and source candidate
+        run: |
+          set -euo pipefail
+          test "$(git rev-parse HEAD)" = "bd7efa1555cd89f06254b5a1179c3f2858ceef8b"
+          test "$(git ls-remote origin refs/heads/data-production | cut -f1)" = "45c2688a84a0e045ece7d756d7df028b784526d6"
+      - name: Prove only one independent official event and old source failures untouched
+        run: python staging-src/tools/validate_zoo_add_20261108.py --base-ref 45c2688a84a0e045ece7d756d7df028b784526d6 --data-dir site/data
+      - name: Released strict data contracts and prior event preservation
+        run: |
+          python3 released-src/tools/validate_data.py --strict --min-image-coverage 0.70 site/data
+          python3 released-src/tools/validate_decisions.py --strict site/data
+          python3 released-src/tools/validate_rereview.py --strict site/data
+          python3 staging-src/tools/validate_non_regression.py --base-ref 45c2688a84a0e045ece7d756d7df028b784526d6 site/data
+          python3 staging-src/tools/validate_protected_events.py --base-ref 45c2688a84a0e045ece7d756d7df028b784526d6 site/data
+          cd released-src && npm test

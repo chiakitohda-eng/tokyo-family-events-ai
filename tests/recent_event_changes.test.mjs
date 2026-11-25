@@ -29,3 +29,19 @@ assert.match(changeBadge({id:'b'},annotated),/今週更新/);
 const nextWeek=recentEventChanges({history:base},{today:new Date('2026-11-02T09:00:00+09:00'),lastWeekNewRows:[{id:'dec05-1'},{id:'dec05-2'}]});
 assert.equal(nextWeek.added.size,0,'week badges expire automatically');
 console.log('PASS weekly change markers: added identity, changed identity, no carryover, clear after new week');
+
+
+const nov2026Rows=[
+ {run_type:'verified_current_horizon_subset',as_of_jst:'2026-11-08',
+  newly_verified_or_announced_records:5,protected_carryover_records:13,
+  added_weekly_records:18,new_event_ids:["verified-20261212-ota-bicycle","verified-20261212-koto-sazanami","verified-20261212-sumida-gosai-tour","verified-20261213-sumida-startbox","announced-20261212-sumida-bion"]},
+ {run_type:'manual_official_add_only',as_of_jst:'2026-11-08',added_weekly_records:11,
+  new_event_ids:Array.from({length:11},(_,i)=>'gap-'+i)}
+];
+const novToday=new Date('2026-11-08T18:40:00+09:00');
+const novChanges=recentEventChanges({history:nov2026Rows},{today:novToday});
+assert.equal(novChanges.added.size,16,'only five newly verified plus eleven verified gap recoveries');
+assert.equal(novChanges.added.has('verified-20261212-ota-bicycle'),true);
+assert.equal(novChanges.added.has('preserved-carryover'),false);
+const incompleteRollover=recentEventChanges({history:[{...nov2026Rows[0],new_event_ids:["verified-20261212-ota-bicycle","verified-20261212-koto-sazanami","verified-20261212-sumida-gosai-tour","verified-20261213-sumida-startbox"]}]},{today:novToday});
+assert.equal(incompleteRollover.added.size,0,'incomplete identity evidence must never be promoted');

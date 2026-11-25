@@ -1,0 +1,37 @@
+name: Read-only fetch of official pages for two-week recheck (round 84)
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/fetch-thin-wards84-20261125.yml']
+  workflow_dispatch: {}
+permissions:
+  contents: write
+jobs:
+  fetch:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          path: repo
+      - name: Fetch pages in parallel (no data or app change)
+        shell: bash
+        run: |
+          mkdir -p out
+          nl -ba repo/research/2026-11-20-thin-wards/urls84.txt | sed 's/^ *//' | tr '\t' ' ' | \
+            xargs -P 12 -n 2 sh -c 'curl -sS -L -m 25 -A "Mozilla/5.0 (compatible; family-events-audit)" -o "out/page$1.html" -w "page$1 $2 %{http_code} %{size_download}\n" "$2" >> "out/status_$1.txt" 2>&1 || echo "page$1 $2 FAIL" >> "out/status_$1.txt"' _
+          cat out/status_*.txt > out/STATUS.txt; rm out/status_*.txt
+          date -u +%FT%TZ > out/FETCHED_AT.txt
+      - name: Commit raw fetches to a research-only branch
+        shell: bash
+        run: |
+          cd repo
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout --orphan research/thin-wards84-20261125
+          git rm -rf . >/dev/null 2>&1 || true
+          cp -r ../out/. .
+          git add -A
+          git commit -m "research: raw read-only fetches of official pages for two-week recheck (round 84)"
+          git push --force origin research/thin-wards84-20261125

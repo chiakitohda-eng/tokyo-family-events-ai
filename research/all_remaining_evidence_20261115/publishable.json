@@ -1,0 +1,515 @@
+{
+  "base_data_production_sha": "4d35bec6ac7c2b857d6580bd1ec852744519b79a",
+  "records": [],
+  "assessment_reviews": [
+    {
+      "index": 27,
+      "week": "2026-11-07",
+      "event_file": "2026-11-07-events-01.json",
+      "id": "v15-bdb7fcbca1d9",
+      "name": "あすなろまつり2026（あすなろ作業所）",
+      "decision_candidate_id": "lg-3f61b8424c",
+      "before_family_fit": {
+        "grade": "B",
+        "reason": "注意点を踏まえても家族で参加する価値がある。",
+        "overall": "B",
+        "rubric_version": "family-fit-v1",
+        "axes": {
+          "child_target": {
+            "grade": "C",
+            "reason": "子ども向け明示は弱い一般向け企画。"
+          },
+          "interactivity": {
+            "grade": "A",
+            "reason": "参加・体験要素がある。"
+          },
+          "age_fit": {
+            "grade": "B",
+            "reason": "全年齢参加可能だが専用設計ではない。"
+          },
+          "stay_flexibility": {
+            "grade": "A",
+            "reason": "回遊・自由観覧型で滞在調整しやすい。"
+          },
+          "burden": {
+            "grade": "A",
+            "reason": "大きな身体・時間負担は確認できない。"
+          },
+          "cost": {
+            "grade": "unknown",
+            "reason": "料金情報が十分でなく推測しない。"
+          },
+          "reservation": {
+            "grade": "B",
+            "reason": "大きな予約障壁は未確認。"
+          },
+          "family_value": {
+            "grade": "B",
+            "reason": "地域・季節・文化のお出かけ価値がある。"
+          }
+        }
+      },
+      "after_family_fit": {
+        "grade": "B",
+        "overall": "B",
+        "rubric_version": "family-fit-v2",
+        "reason": "主催者の2026年掲示で、ステージ、なみすけ撮影会、バザー・模擬店が確認でき、家族で地域の祭りを共有できる。 一般向けの催しで子ども専用体験は未確認。撮影会は当日10時からの整理券が必要。料金・会場設備・混雑条件の明記は未確認。",
+        "axes": {
+          "child_target": {
+            "grade": "B",
+            "reason": "施設掲示は「だれでも歓迎」。子ども専用の催しとは明記していない。"
+          },
+          "interactivity": {
+            "grade": "B",
+            "reason": "ステージ鑑賞・なみすけ撮影と物販等。子どもが制作・運動をする体験は未確認。"
+          },
+          "age_fit": {
+            "grade": "B",
+            "reason": "家族で地域の催しを共有できるが、幼児向け構成や対象年齢の明記はない。"
+          },
+          "stay_flexibility": {
+            "grade": "unknown",
+            "reason": "10時〜14時の開催。途中退出・再入場条件は掲示に記載なし。"
+          },
+          "burden": {
+            "grade": "unknown",
+            "reason": "掲示から混雑・休憩設備やベビーカー対応までは確認できない。"
+          },
+          "cost": {
+            "grade": "unknown",
+            "reason": "模擬店等はあるが、この掲示に料金の記載はない。古い年の無料案内は使わない。"
+          },
+          "reservation": {
+            "grade": "B",
+            "reason": "なみすけ撮影会は当日10時より整理券配布。基本入場の事前予約条件は未記載。"
+          },
+          "family_value": {
+            "grade": "B",
+            "reason": "主催者の2026年掲示で、ステージ、なみすけ撮影会、バザー・模擬店が確認でき、家族で地域の祭りを共有できる。"
+          }
+        },
+        "review": {
+          "schema_version": 1,
+          "method": "individual_evidence_review",
+          "reviewed_on": "2026-11-15",
+          "axes_checked": [
+            "child_target",
+            "interactivity",
+            "age_fit",
+            "stay_flexibility",
+            "burden",
+            "cost",
+            "reservation",
+            "family_value"
+          ],
+          "audience_basis": "all_ages",
+          "child_activity_confirmed": false,
+          "strengths": [
+            "主催者の2026年掲示で、ステージ、なみすけ撮影会、バザー・模擬店が確認でき、家族で地域の祭りを共有できる。"
+          ],
+          "limitations": [
+            "一般向けの催しで子ども専用体験は未確認。撮影会は当日10時からの整理券が必要。料金・会場設備・混雑条件の明記は未確認。"
+          ],
+          "grade_comparison": "総合Bを維持：主催者の2026年掲示で、ステージ、なみすけ撮影会、バザー・模擬店が確認でき、家族で地域の祭りを共有できる。 一般向けの催しで子ども専用体験は未確認。撮影会は当日10時からの整理券が必要。料金・会場設備・混雑条件の明記は未確認。",
+          "unsupported_axes": [
+            "stay_flexibility",
+            "burden",
+            "cost"
+          ],
+          "evidence": [
+            {
+              "url": "https://suginami.goguynet.jp/wp-content/uploads/sites/69/2026/11/IMG_0389-1.jpeg",
+              "quote": "あすなろまつり2026。2026年11月7日土曜日10:00〜14:00。",
+              "sha256": "4c8f8191e8dda03fd53483a656a0ea493e848a218f81a73f15a9f538aea05322",
+              "checked_at": "2026-11-15T03:45:33.098779+00:00",
+              "capture_method": "organizer_poster_republished_photo",
+              "hash_scope": "photograph_bytes",
+              "note": "主催者ポスターの現地掲示写真を目視照合。撮影・再掲載元は号外NET。元の区詳細と運営法人サイトの復旧を意味しない。"
+            }
+          ]
+        }
+      },
+      "override_reason": ""
+    },
+    {
+      "index": 29,
+      "week": "2026-11-07",
+      "event_file": "2026-11-07-events-01.json",
+      "id": "v15-8fd7f8c017c9",
+      "name": "わかばの家 第32回こどもまつり",
+      "decision_candidate_id": "web-b35d49494b",
+      "before_family_fit": {
+        "grade": "A",
+        "reason": "注意点を踏まえても家族で参加する価値がある。",
+        "overall": "A",
+        "rubric_version": "family-fit-v1",
+        "axes": {
+          "child_target": {
+            "grade": "A",
+            "reason": "子ども・親子向け要素が明示される。"
+          },
+          "interactivity": {
+            "grade": "A",
+            "reason": "参加・体験要素がある。"
+          },
+          "age_fit": {
+            "grade": "A",
+            "reason": "幼児・小学生を含む家族で楽しみやすい。"
+          },
+          "stay_flexibility": {
+            "grade": "A",
+            "reason": "回遊・自由観覧型で滞在調整しやすい。"
+          },
+          "burden": {
+            "grade": "A",
+            "reason": "大きな身体・時間負担は確認できない。"
+          },
+          "cost": {
+            "grade": "unknown",
+            "reason": "料金情報が十分でなく推測しない。"
+          },
+          "reservation": {
+            "grade": "B",
+            "reason": "大きな予約障壁は未確認。"
+          },
+          "family_value": {
+            "grade": "A",
+            "reason": "家族で出かける目的になる体験・特別感がある。"
+          }
+        }
+      },
+      "after_family_fit": {
+        "grade": "A",
+        "overall": "A",
+        "rubric_version": "family-fit-v2",
+        "reason": "子どもを対象とするゲーム・遊び・イベントコーナーがあり、地域の子どもも午後の部に参加できる。 午前は施設の対象サービス利用児のみ。地域の子どもは11:30〜14:00の午後枠。模擬店や販売品の料金・予約要否は本文で確認できない。",
+        "axes": {
+          "child_target": {
+            "grade": "A",
+            "reason": "公式本文は午後の対象に地域のお子さんを明記。午前の施設利用児の枠とは区別。"
+          },
+          "interactivity": {
+            "grade": "A",
+            "reason": "ゲームコーナー・遊びのコーナー・イベントコーナーを公式本文で確認。"
+          },
+          "age_fit": {
+            "grade": "A",
+            "reason": "子ども向けの祭りで、地域の子どもが参加できる午後枠を選べる。細かな年齢制限は未記載。"
+          },
+          "stay_flexibility": {
+            "grade": "B",
+            "reason": "午前と午後の完全入替制。地域の来場枠は11:30〜14:00。"
+          },
+          "burden": {
+            "grade": "unknown",
+            "reason": "混雑・休憩場所・介助設備について本文での明記は未確認。"
+          },
+          "cost": {
+            "grade": "unknown",
+            "reason": "焼きそば・駄菓子、パン・焼き菓子の販売あり。具体的な価格や入場料の明記は未確認。"
+          },
+          "reservation": {
+            "grade": "unknown",
+            "reason": "この公式本文には午後枠の事前予約・当日定員の記載なし。"
+          },
+          "family_value": {
+            "grade": "A",
+            "reason": "子どもを対象とするゲーム・遊び・イベントコーナーがあり、地域の子どもも午後の部に参加できる。"
+          }
+        },
+        "review": {
+          "schema_version": 1,
+          "method": "individual_evidence_review",
+          "reviewed_on": "2026-11-15",
+          "axes_checked": [
+            "child_target",
+            "interactivity",
+            "age_fit",
+            "stay_flexibility",
+            "burden",
+            "cost",
+            "reservation",
+            "family_value"
+          ],
+          "audience_basis": "child_program",
+          "child_activity_confirmed": true,
+          "strengths": [
+            "子どもを対象とするゲーム・遊び・イベントコーナーがあり、地域の子どもも午後の部に参加できる。"
+          ],
+          "limitations": [
+            "午前は施設の対象サービス利用児のみ。地域の子どもは11:30〜14:00の午後枠。模擬店や販売品の料金・予約要否は本文で確認できない。"
+          ],
+          "grade_comparison": "総合Aを維持：子どもを対象とするゲーム・遊び・イベントコーナーがあり、地域の子どもも午後の部に参加できる。 午前は施設の対象サービス利用児のみ。地域の子どもは11:30〜14:00の午後枠。模擬店や販売品の料金・予約要否は本文で確認できない。",
+          "unsupported_axes": [
+            "burden",
+            "cost",
+            "reservation"
+          ],
+          "evidence": [
+            {
+              "url": "https://www.city.ota.tokyo.jp/seikatsu/fukushi/shougai/hoiku_kyoiku/hoiku/kodomo-matsuri_20261108.html",
+              "quote": "ゲームコーナー/遊びのコーナー",
+              "sha256": "7984bcf969ec0ebd3266b76968df77b43cd991927193e6fc47117b5a05bc8978",
+              "checked_at": "2026-11-15T03:45:33.098779+00:00",
+              "capture_method": "indexed_primary_publication",
+              "hash_scope": "indexed_primary_text_utf8",
+              "note": "検索サービスが保存した区公式公開本文で確認。現在の元URLの404と、別の区公式つどい案内の日時を別に記録。"
+            }
+          ]
+        }
+      },
+      "override_reason": ""
+    },
+    {
+      "index": 36,
+      "week": "2026-11-07",
+      "event_file": "2026-11-07-events-01.json",
+      "id": "fx-20261107-nakano-food-workshop",
+      "name": "食の体験ワークショップ（なかの里・まち連携事業）",
+      "decision_candidate_id": "fx-20261107-nakano-food-workshop",
+      "before_family_fit": {
+        "grade": "A",
+        "overall": "A",
+        "rubric_version": "family-fit-v1",
+        "reason": "中野区担当課の投稿による子ども向け食育体験。",
+        "axes": {
+          "child_target": {
+            "grade": "A",
+            "reason": "主催の中野区産業振興課が親子・小中学生を対象に告知。"
+          },
+          "interactivity": {
+            "grade": "A",
+            "reason": "新米おにぎりづくりと食べ比べの実体験。"
+          },
+          "age_fit": {
+            "grade": "A",
+            "reason": "子どもと家族で体験しやすい食品ワークショップ。"
+          },
+          "stay_flexibility": {
+            "grade": "B",
+            "reason": "先着予約制のため時間が指定される。"
+          },
+          "burden": {
+            "grade": "B",
+            "reason": "申込と現地へのアクセスが必要。"
+          },
+          "cost": {
+            "grade": "A",
+            "reason": "参加費無料を主催者が明記。"
+          },
+          "reservation": {
+            "grade": "B",
+            "reason": "11月6日17時までに先着順の事前申込が必要。"
+          },
+          "family_value": {
+            "grade": "A",
+            "reason": "親子で作る・食べる体験を共有できる。"
+          }
+        }
+      },
+      "after_family_fit": {
+        "grade": "A",
+        "overall": "A",
+        "rubric_version": "family-fit-v2",
+        "reason": "小学生〜中学生が、おにぎり作りと新米の食べ比べを通して産地や食文化を体験できる。 各回10名・45分の予約制。小学生は保護者の引率が必要で、全回定員到達による予約終了を公式本文が明記している。",
+        "axes": {
+          "child_target": {
+            "grade": "A",
+            "reason": "小学生以上中学生以下の子どもを対象として公式に募集。"
+          },
+          "interactivity": {
+            "grade": "A",
+            "reason": "おにぎり作りと新米の食べ比べを行う食の体験。"
+          },
+          "age_fit": {
+            "grade": "A",
+            "reason": "小学生〜中学生が対象。小学生は保護者の引率が必要。"
+          },
+          "stay_flexibility": {
+            "grade": "B",
+            "reason": "各回45分のプログラム。遅れても延長せず、体験終了後の途中参加は断る場合がある。"
+          },
+          "burden": {
+            "grade": "B",
+            "reason": "小学生は保護者引率。食物アレルギーは申込時の質問項目で申告する案内。"
+          },
+          "cost": {
+            "grade": "A",
+            "reason": "参加費無料、持ち物不要と明記。"
+          },
+          "reservation": {
+            "grade": "C",
+            "reason": "11/6 17時締切。全回定員到達で予約受付終了と明記し、参加可能とは案内しない。"
+          },
+          "family_value": {
+            "grade": "A",
+            "reason": "小学生〜中学生が、おにぎり作りと新米の食べ比べを通して産地や食文化を体験できる。"
+          }
+        },
+        "review": {
+          "schema_version": 1,
+          "method": "individual_evidence_review",
+          "reviewed_on": "2026-11-15",
+          "axes_checked": [
+            "child_target",
+            "interactivity",
+            "age_fit",
+            "stay_flexibility",
+            "burden",
+            "cost",
+            "reservation",
+            "family_value"
+          ],
+          "audience_basis": "child_program",
+          "child_activity_confirmed": true,
+          "strengths": [
+            "小学生〜中学生が、おにぎり作りと新米の食べ比べを通して産地や食文化を体験できる。"
+          ],
+          "limitations": [
+            "各回10名・45分の予約制。小学生は保護者の引率が必要で、全回定員到達による予約終了を公式本文が明記している。"
+          ],
+          "grade_comparison": "総合Aを維持：小学生〜中学生が、おにぎり作りと新米の食べ比べを通して産地や食文化を体験できる。 各回10名・45分の予約制。小学生は保護者の引率が必要で、全回定員到達による予約終了を公式本文が明記している。",
+          "unsupported_axes": [],
+          "evidence": [
+            {
+              "url": "https://www.city.tokyo-nakano.lg.jp/kanko/machirenkei/shotengai_sinmai.html",
+              "quote": "定員に達したため予約受付を終了いたしました。",
+              "sha256": "4dc2a8acc8b650c002fe99c5e385cd48d6a41568b790155ab3a529ae7f890c26",
+              "checked_at": "2026-11-15T03:45:33.098779+00:00",
+              "capture_method": "indexed_primary_publication",
+              "hash_scope": "indexed_primary_text_utf8",
+              "note": "検索サービスに残る区公式公開本文を照合。現行元URLの404を取得成功へ書き換えない。既存の受付終了記録を保持する。"
+            }
+          ]
+        }
+      },
+      "override_reason": ""
+    },
+    {
+      "index": 46,
+      "week": "2026-11-07",
+      "event_file": "2026-11-07-events-manual-primary.json",
+      "id": "official-2026-shirasagi-stamp",
+      "name": "親子も！シニアも！まちあるきスタンプラリー",
+      "decision_candidate_id": "manual-primary-official-2026-shirasagi-stamp-2026-11-07",
+      "before_family_fit": {
+        "rubric_version": "family-fit-v2",
+        "grade": "A",
+        "overall": "A",
+        "reason": "地域探索と交流",
+        "axes": {
+          "child_target": {
+            "grade": "A",
+            "reason": "親子対象が明示"
+          },
+          "interactivity": {
+            "grade": "A",
+            "reason": "街歩きミッション・景品"
+          },
+          "age_fit": {
+            "grade": "A",
+            "reason": "歩ける年齢と体力を確認"
+          },
+          "stay_flexibility": {
+            "grade": "B",
+            "reason": "1〜2時間程度"
+          },
+          "burden": {
+            "grade": "B",
+            "reason": "小雨決行・荒天中止"
+          },
+          "cost": {
+            "grade": "A",
+            "reason": "無料"
+          },
+          "reservation": {
+            "grade": "B",
+            "reason": "11/3締切の事前申込"
+          },
+          "family_value": {
+            "grade": "A",
+            "reason": "地域探索と交流"
+          }
+        }
+      },
+      "after_family_fit": {
+        "grade": "A",
+        "overall": "A",
+        "rubric_version": "family-fit-v2",
+        "reason": "親子を明示した地域のまち歩きで、ゆかりのスポットのスタンプ集めとミッションに子どもが参加できる。 申込締切は11/3で終了。11/7 14〜16時・最終受付15:30、屋外で小雨決行・荒天中止。移動距離・対象年齢の明記はない。",
+        "axes": {
+          "child_target": {
+            "grade": "A",
+            "reason": "催し名で親子を対象に含め、子どもが参加できるミッションと景品を案内。"
+          },
+          "interactivity": {
+            "grade": "A",
+            "reason": "鷺宮・白鷺・若宮のスポットを歩き、スタンプ集めとミッションに挑戦。"
+          },
+          "age_fit": {
+            "grade": "B",
+            "reason": "親子が対象だが、歩行距離・細かな対象年齢は未記載。"
+          },
+          "stay_flexibility": {
+            "grade": "B",
+            "reason": "14〜16時、最終受付15:30。受付場所はしらさぎ桜苑。"
+          },
+          "burden": {
+            "grade": "B",
+            "reason": "動きやすい服装と飲み物が必要。小雨決行・荒天中止の屋外まち歩き。"
+          },
+          "cost": {
+            "grade": "A",
+            "reason": "参加費は無料と明記。"
+          },
+          "reservation": {
+            "grade": "C",
+            "reason": "電話または申込フォームで11/3締切。定員なしでも締切後の当日受付可とは解釈しない。"
+          },
+          "family_value": {
+            "grade": "A",
+            "reason": "親子を明示した地域のまち歩きで、ゆかりのスポットのスタンプ集めとミッションに子どもが参加できる。"
+          }
+        },
+        "review": {
+          "schema_version": 1,
+          "method": "individual_evidence_review",
+          "reviewed_on": "2026-11-15",
+          "axes_checked": [
+            "child_target",
+            "interactivity",
+            "age_fit",
+            "stay_flexibility",
+            "burden",
+            "cost",
+            "reservation",
+            "family_value"
+          ],
+          "audience_basis": "child_program",
+          "child_activity_confirmed": true,
+          "strengths": [
+            "親子を明示した地域のまち歩きで、ゆかりのスポットのスタンプ集めとミッションに子どもが参加できる。"
+          ],
+          "limitations": [
+            "申込締切は11/3で終了。11/7 14〜16時・最終受付15:30、屋外で小雨決行・荒天中止。移動距離・対象年齢の明記はない。"
+          ],
+          "grade_comparison": "総合Aを維持：親子を明示した地域のまち歩きで、ゆかりのスポットのスタンプ集めとミッションに子どもが参加できる。 申込締切は11/3で終了。11/7 14〜16時・最終受付15:30、屋外で小雨決行・荒天中止。移動距離・対象年齢の明記はない。",
+          "unsupported_axes": [],
+          "evidence": [
+            {
+              "url": "https://nakanoshakyo.com/nakanoinfo/event/result/?did=14585",
+              "quote": "スタンプをあつめたり、ミッションに挑戦しよう！",
+              "sha256": "6ba69f763715b09110c90240e3695b182c1677e73b5bcf05c4d144cff5ed4804",
+              "checked_at": "2026-11-15T03:45:33.098779+00:00",
+              "capture_method": "indexed_primary_publication",
+              "hash_scope": "indexed_primary_text_utf8",
+              "note": "社協の公式公開本文の検索保存を照合。現在の同URLは一覧へ移動するため、元イベント本文のHTTP取得成功とは記録しない。"
+            }
+          ]
+        }
+      },
+      "override_reason": ""
+    }
+  ],
+  "authorization": "Verified individual data corrections may publish directly; UI changes require staging approval."
+}

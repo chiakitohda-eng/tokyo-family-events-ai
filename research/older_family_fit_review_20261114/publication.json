@@ -1,0 +1,38 @@
+{
+  "verified_at": "2026-11-14T08:23:03.265844+00:00",
+  "public_total": 448,
+  "event_facts_retained": 448,
+  "out_of_scope_records_retained_exactly": 252,
+  "assessments_reviewed": 196,
+  "programs_reviewed": 116,
+  "reviewed_grade_counts": {
+    "A": 95,
+    "B": 100,
+    "C": 1
+  },
+  "grade_changes": 51,
+  "upgraded_to_A": 11,
+  "changed_to_C": 1,
+  "week_counts": {
+    "2026-11-07": 52,
+    "2026-11-14": 107,
+    "2026-11-21": 116,
+    "2026-11-28": 73,
+    "2026-12-05": 57,
+    "2026-12-12": 43
+  },
+  "files_compared": 81,
+  "all_candidate_files_match_public": true,
+  "history_retained": true,
+  "base_data_production_sha": "9dce04230d9a8a257f8ce6d035f66122250d5d69",
+  "candidate_sha": "273c8753a9d5ea09f38e580d4c51b4c87abd0189",
+  "pages_run": 43575480117,
+  "data_release": "data-release/2026-11-14-r660",
+  "app_version": "v1.33",
+  "unresolved_historical_evidence_records": 10,
+  "user_excluded_tamemap_records": 2,
+  "production": "e311ee769291a84ff7d6b070ac306f6da3b03977",
+  "data_staging": "273c8753a9d5ea09f38e580d4c51b4c87abd0189",
+  "data_production": "273c8753a9d5ea09f38e580d4c51b4c87abd0189",
+  "data_release_sha": "273c8753a9d5ea09f38e580d4c51b4c87abd0189"
+}

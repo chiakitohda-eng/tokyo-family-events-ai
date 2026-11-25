@@ -1,0 +1,45 @@
+name: Audit 2026-11-23 Toshima family autumn festival exact verified supplement (read-only)
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/audit-somei-one-event.yml']
+  workflow_dispatch: {}
+permissions:
+  contents: read
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 16
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: bec94a74b260ba1278426929610b44d34e368a13
+          fetch-depth: 0
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          path: inspector
+      - uses: actions/checkout@v4
+        with:
+          ref: production
+          path: released
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Verify no drift, exact 7-file original-data preserving candidate
+        run: |
+          test "$(git rev-parse HEAD)" = bec94a74b260ba1278426929610b44d34e368a13
+          test "$(git ls-remote origin refs/heads/data-production | cut -f1)" = 4d3352bee7bd9b6318fbc3febc6ac9ffa3a1bfe2
+          python3 inspector/tools/validate_somei_add_20261109.py --base-ref 4d3352bee7bd9b6318fbc3febc6ac9ffa3a1bfe2
+      - name: Run released strict events and prior-event safety
+        run: |
+          python3 released/tools/validate_data.py --strict --min-image-coverage 0.70 site/data
+          python3 released/tools/validate_decisions.py --strict site/data
+          python3 released/tools/validate_rereview.py --strict site/data
+          python3 inspector/tools/validate_non_regression.py --base-ref 4d3352bee7bd9b6318fbc3febc6ac9ffa3a1bfe2 site/data
+          python3 inspector/tools/validate_protected_events.py --base-ref 4d3352bee7bd9b6318fbc3febc6ac9ffa3a1bfe2 site/data
+      - name: Released application regression
+        run: cd released && npm test

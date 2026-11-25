@@ -44,3 +44,46 @@
  .pending-issues-home {display:block;}
  .pending-issues-home a {margin-top:9px;}
 }
+
+.pending-issue-card[data-work-status="completed"] {border-color:#b8d9cb;background:#fbfefc;}
+.pending-issue-card[data-work-status="completed"] .pending-issue-status {color:#245d47;background:#eaf7ef;border-color:#b4d5c1;}
+/* Compact overview: every task and its status stay visible, only details collapse. */
+.pending-issues-stats {grid-template-columns:repeat(4,minmax(0,1fr));}
+.pending-issue-list {gap:0;border:1px solid #d3dfe8;border-radius:10px;overflow:hidden;}
+.pending-issue-card {padding:0;border:0;border-bottom:1px solid #d3dfe8;border-radius:0;}
+.pending-issue-card:last-child {border-bottom:0;}
+.pending-issue-summary {list-style:none;display:grid;grid-template-columns:minmax(0,1fr) auto;gap:5px 12px;align-items:center;cursor:pointer;padding:12px 36px 12px 14px;position:relative;}
+.pending-issue-summary::-webkit-details-marker {display:none;}
+.pending-issue-summary::after {content:'＋';position:absolute;right:12px;top:50%;transform:translateY(-50%);color:#42627b;}
+.pending-issue-card[open]>.pending-issue-summary::after {content:'−';}
+.pending-issue-summary h3 {font-size:14px;margin:0;overflow-wrap:anywhere;}
+.pending-issue-summary .pending-issue-card-top {gap:5px;justify-content:flex-end;}
+.pending-issue-summary .pending-issue-kind {display:none;}
+.pending-issue-summary:focus-visible {outline:3px solid #8db8dd;outline-offset:-3px;}
+.pending-issue-content {padding:2px 14px 14px;border-top:1px solid #e5ebef;}
+.pending-context>summary {font-size:12px;color:#42627b;cursor:pointer;padding:6px 0;}
+@media(max-width:720px){
+ .pending-issues-stats {grid-template-columns:repeat(2,minmax(0,1fr));}
+ .pending-issues-stats>div:first-child {grid-column:auto;}
+ .pending-issue-summary {grid-template-columns:minmax(0,1fr);padding:10px 34px 10px 12px;}
+ .pending-issue-summary .pending-issue-card-top {justify-content:flex-start;}
+ .pending-issue-summary h3 {font-size:13px;}
+ .pending-issues-filters {display:grid;grid-template-columns:auto minmax(0,1fr);}
+ .pending-issues-filters label {width:auto;}
+}
+
+.pending-review-item{border-top:1px solid var(--line,#dbe3e8);padding:.85rem 0}
+.pending-review-item>summary{cursor:pointer;font-weight:700;line-height:1.65;overflow-wrap:anywhere}
+.pending-review-item>p{line-height:1.8;overflow-wrap:anywhere}
+.pending-review-item a{display:inline-block;margin:.25rem .5rem .25rem 0}
+.pending-review-name{display:block;color:#173b55}
+.pending-review-summary{list-style:none;position:relative;padding-left:1rem}
+.pending-review-summary::-webkit-details-marker{display:none}
+.pending-review-summary::before{content:"▸";position:absolute;left:0;top:0}
+.pending-review-item[open]>.pending-review-summary::before{content:"▾"}
+.pending-review-state{display:block;margin-top:.25rem;font-size:12px;font-weight:400;color:#6b5426}
+.pending-review-item>.pending-issue-part{margin:.85rem 0}
+.pending-followup-policy{font-size:12px;line-height:1.8;color:#435c72}
+.pending-reviewed-history{border-top:1px solid #d3dfe8;margin-top:1rem;padding-top:1rem}
+.pending-reviewed-history>summary{cursor:pointer;font-weight:700;color:#355a70}
+.pending-reviewed-history>p{font-size:12px;line-height:1.8;color:#435c72}

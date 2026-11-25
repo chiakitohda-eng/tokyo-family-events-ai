@@ -1,5 +1,51 @@
 {
   "schema_version": 1,
-  "principle": "No event that was previously publicly listed may be removed or hidden without a specific user approval, recorded on the released app policy branch. Authorizing a removal requires event ID, week, proof and approval reference. Current approvals: none.",
-  "approvals": []
+  "principle": "No event that was previously publicly listed may be removed or hidden without a specific user approval, recorded on the released app policy branch. Authorizing a removal requires event ID, week, proof and approval reference. Current approvals: 5 (Nerima forest festival duplicate listings, 2026-11-20).",
+  "approvals": [
+    {
+      "week_start": "2026-11-21",
+      "event_id": "verified-20261121-nerima-nomori-ochiba-asobi",
+      "status": "approved",
+      "approval_reference": "ユーザー承認（チャット、2026-11-20）: 練馬『森こどもフェスタ』二重掲載5件の整理は選択肢A（後から追加した側を重複として取り下げ）",
+      "official_evidence_url": "https://www.city.nerima.tokyo.jp/kurashi/shigoto/midori/shokai/nerimanomori.html",
+      "duplicate_of": "nerima-forest-20261121-minamitakamatsu",
+      "recorded_on": "2026-11-20"
+    },
+    {
+      "week_start": "2026-11-28",
+      "event_id": "verified-20261129-nerima-molkky",
+      "status": "approved",
+      "approval_reference": "ユーザー承認（チャット、2026-11-20）: 練馬『森こどもフェスタ』二重掲載5件の整理は選択肢A（後から追加した側を重複として取り下げ）",
+      "official_evidence_url": "https://www.city.nerima.tokyo.jp/kurashi/shigoto/midori/shokai/nerimanomori.html",
+      "duplicate_of": "nerima-forest-20261129-kitappara",
+      "recorded_on": "2026-11-20"
+    },
+    {
+      "week_start": "2026-12-05",
+      "event_id": "verified-20261205-nerima-ochiba-matsuri",
+      "status": "approved",
+      "approval_reference": "ユーザー承認（チャット、2026-11-20）: 練馬『森こどもフェスタ』二重掲載5件の整理は選択肢A（後から追加した側を重複として取り下げ）",
+      "official_evidence_url": "https://www.city.nerima.tokyo.jp/kurashi/shigoto/midori/shokai/nerimanomori.html",
+      "duplicate_of": "v15-20261205-nerima-mori-leaf",
+      "recorded_on": "2026-11-20"
+    },
+    {
+      "week_start": "2026-12-05",
+      "event_id": "verified-20261205-nerima-oshigoto-minamitakamatsu",
+      "status": "approved",
+      "approval_reference": "ユーザー承認（チャット、2026-11-20）: 練馬『森こどもフェスタ』二重掲載5件の整理は選択肢A（後から追加した側を重複として取り下げ）",
+      "official_evidence_url": "https://www.city.nerima.tokyo.jp/kurashi/shigoto/midori/shokai/nerimanomori.html",
+      "duplicate_of": "v15-20261205-nerima-mori-takamatsu",
+      "recorded_on": "2026-11-20"
+    },
+    {
+      "week_start": "2026-12-05",
+      "event_id": "verified-20261205-nerima-oshigoto-oozekiyama",
+      "status": "approved",
+      "approval_reference": "ユーザー承認（チャット、2026-11-20）: 練馬『森こどもフェスタ』二重掲載5件の整理は選択肢A（後から追加した側を重複として取り下げ）",
+      "official_evidence_url": "https://www.city.nerima.tokyo.jp/kurashi/shigoto/midori/shokai/nerimanomori.html",
+      "duplicate_of": "v15-20261205-nerima-mori-otaka",
+      "recorded_on": "2026-11-20"
+    }
+  ]
 }

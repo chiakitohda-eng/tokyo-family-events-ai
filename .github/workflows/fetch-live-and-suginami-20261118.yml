@@ -1,0 +1,43 @@
+name: Read-only fetch of the live site and the eight Suginami December official pages
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/fetch-live-and-suginami-20261118.yml']
+  workflow_dispatch: {}
+permissions:
+  contents: write
+jobs:
+  fetch:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          path: repo
+      - name: Fetch pages (no data or app change)
+        shell: bash
+        run: |
+          mkdir -p out/live out/suginami
+          B=https://toodataa-ai.github.io/tokyo-family-events-ai
+          for f in data/2026-12-19-events-suginami-official-20261118.json data/2026-12-19-events-non-ng-verified-only-20261117.json data/2026-12-26-events-non-ng-verified-only-20261117.json data/manifest.json data/update_history.json data/2026-12-19.json data/2026-12-26.json data/2026-11-21.json data/2026-11-28.json index.html; do
+            n=$(echo "$f" | tr '/' '_')
+            curl -sS -L -m 60 -A "Mozilla/5.0 (compatible; family-events-audit)" -o "out/live/$n" -w "$f %{http_code} %{size_download}\n" "$B/$f" | tee -a out/live/STATUS.txt
+          done
+          for id in "s023/event/28963" "s121/event/29120" "s025/event/29140" "s022/event/29249" "s111/event/29029" "s116/event/29174" "s100/event/29192" "s103/event/29334"; do
+            n=$(echo "$id" | tr '/' '_')
+            curl -sS -L -m 60 -A "Mozilla/5.0 (compatible; family-events-audit)" -o "out/suginami/$n.html" -w "$id %{http_code} %{size_download} %{url_effective}\n" "https://www.city.suginami.tokyo.jp/$id.html" | tee -a out/suginami/STATUS.txt
+          done
+          date -u +%FT%TZ > out/FETCHED_AT.txt
+      - name: Commit raw fetches to a research-only branch
+        shell: bash
+        run: |
+          cd repo
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout --orphan research/live-and-suginami-20261118b
+          git rm -rf . >/dev/null 2>&1 || true
+          cp -r ../out/. .
+          git add -A
+          git commit -m "research: raw read-only fetches of live site and Suginami official pages"
+          git push --force origin research/live-and-suginami-20261118b

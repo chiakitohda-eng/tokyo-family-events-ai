@@ -1,0 +1,16 @@
+[
+  {
+    "source_id": "itabashi_tourism_festival",
+    "primary_failed": false,
+    "primary_source_errors_preserved": true,
+    "alternative_source_ids": [
+      "itabashi_official_festival"
+    ],
+    "verified_accessible_alternatives": [
+      "itabashi_official_festival"
+    ],
+    "status": "no_fallback_needed",
+    "candidate_publication_approved": false,
+    "note": "板橋観光協会の障害を成功扱いせず、区公式の独立した証拠で必要なイベントを別途検証する。"
+  }
+]

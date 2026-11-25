@@ -1,0 +1,50 @@
+name: Verify 14 carried announcements on current official pages
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/verify-carried-announcements-20261117.yml', 'tools/verify_carried_announcements_20261117.py']
+  workflow_dispatch: {}
+permissions:
+  contents: write
+jobs:
+  verify:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: candidate/scoped-non-ng-rollover-20261117
+          path: candidate
+          fetch-depth: 0
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          path: scanner
+      - uses: actions/checkout@v4
+        with:
+          ref: production
+          path: released
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: HTTP 200 plus exact dated official row and venue tokens for each of 14
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 scanner/tools/verify_carried_announcements_20261117.py
+          python3 released/tools/validate_data.py --min-image-coverage 0.70 candidate/site/data
+          python3 released/tools/audit_event_image_identity.py --strict candidate/site/data
+      - name: Write append-only official recheck evidence to isolated candidate
+        working-directory: candidate
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add site/data/2026-11-21-verification.json site/data/2026-11-21-run.json \
+                  site/data/2026-11-28-verification.json site/data/2026-11-28-run.json \
+                  site/data/2026-11-17-carried-announcement-rechecks.json
+          git diff --cached --quiet && { echo 'No evidence changes'; exit 1; }
+          git commit -m 'candidate: recheck 14 carried events against 2026 official date and venue; retain failures'
+          git push origin "HEAD:refs/heads/candidate/scoped-non-ng-rollover-20261117"
+          echo "SCOPED_CANDIDATE_RECHECK_SHA $(git rev-parse HEAD)"

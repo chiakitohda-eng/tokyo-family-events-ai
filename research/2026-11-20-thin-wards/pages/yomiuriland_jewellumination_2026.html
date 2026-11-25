@@ -1,0 +1,1149 @@
+<!DOCTYPE html>
+<html lang="ja">
+	<head>
+		<meta charset="utf-8"/>
+		<meta content="width=device-width, initial-scale=1" name="viewport"/>
+		<script>
+			(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+			new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+			j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+			'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+			})(window,document,'script','dataLayer','GTM-N3JGJ95');
+		</script>
+		<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/scrollify/1.0.21/jquery.scrollify.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+		<script src="/jewellumination/js/script.js"></script>
+		<script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js"></script>
+		<script src="//cdn.jsdelivr.net/npm/gsap@3.7.0/dist/ScrollTrigger.min.js"></script>
+		<script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/ScrollToPlugin3.min.js"></script>
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
+		<link rel="stylesheet" href="/jewellumination/css/style.css">
+		<link rel="stylesheet" href="/jewellumination/css/style_add.css">
+		<link rel="stylesheet" href="/jewellumination/css/style_note.css">
+		<title>ジュエルミネーション | よみうりランド</title>
+		<meta content="よみうりランドのイルミネーション「ジュエルミネーション」の公式サイトです。世界的照明デザイナー石井幹子氏がプロデュースする宝石色のLEDが輝く幻想的な夜の遊園地。大迫力の噴水ショーもお楽しみいただけます。" name="description"/>
+	</head>
+	<body class="--isTop" id="top">
+		<div class="jw-layout --menuIsClosed">
+			<div class="jw-layout__movie">
+				<video autoplay="" loop="" muted="" playsinline="" poster="/jewellumination/images/common/bg-image.jpg">
+					<source src="/jewellumination/images/common/bg.mp4" type="video/mp4"/>
+				</video>
+			</div>
+
+			<nav class="jw-layout__nav">
+				<div class="jw-navigation">
+					<div class="jw-navigation__header">
+						<a class="jw-navigation__logo" href="/jewellumination/">
+							<img alt="" src="/jewellumination/images/common/logo.png"/>
+						</a>
+
+						<!--チケットボタン追加　sp　2023.11.20-->
+						<a class="btn_ticket middle" href="https://land-ticket.yomiuriland.com/ticket">
+							<img alt="" src="/jewellumination/images/common/btn_ticket.png"/>
+						</a>
+						<a class="btn_ticket sp" href="https://land-ticket.yomiuriland.com/ticket">
+							<img alt="" src="/jewellumination/images/common/btn_ticket_sp.png"/>
+						</a>
+						<button :aria-expanded="menuIsOpen" class="jw-navigation__button" type="button">
+							<span class="jw-navigation__buttonLine"></span>
+							<span class="jw-navigation__buttonLine"></span>
+						</button>
+					</div>
+					<div :class="menuIsOpen ? '--isOpen' : ''" class="jw-navigation__navigation">
+						<ul class="jw-navigation__listMain">
+							<li class="jw-navigation__listMainItem">
+								<a class="jw-navigation__listLink" href="https://www.yomiuriland.com/charge/">
+									<div class="jw-navigation__listIcon"><img alt="" src="/jewellumination/images/common/menuIcon/charge.svg"/></div>
+									<span class="jw-navigation__listText">料金・チケット</span>
+									<div class="jw-navigation__listArrow"><img alt="" src="/jewellumination/images/common/arrow.svg"/></div>
+								</a>
+							</li>
+							<li class="jw-navigation__listMainItem">
+								<a class="jw-navigation__listLink" href="https://www.yomiuriland.com/information/">
+									<div class="jw-navigation__listIcon"><img alt="" src="/jewellumination/images/common/menuIcon/information.svg"/></div>
+									<span class="jw-navigation__listText">営業時間・カレンダー</span>
+									<div class="jw-navigation__listArrow"><img alt="" src="/jewellumination/images/common/arrow.svg"/></div>
+								</a>
+							</li>
+							<li class="jw-navigation__listMainItem">
+								<a class="jw-navigation__listLink" href="/jewellumination/area/">
+									<div class="jw-navigation__listIcon"><img alt="" src="/jewellumination/images/common/menuIcon/jewell1.svg"/></div>
+									<span class="jw-navigation__listText">スペシャルスポット</span>
+									<div class="jw-navigation__listArrow"><img alt="" src="/jewellumination/images/common/arrow.svg"/></div>
+								</a>
+							</li>
+							<li class="jw-navigation__listMainItem">
+								<a class="jw-navigation__listLink" href="/jewellumination/enjoy/">
+									<div class="jw-navigation__listIcon"><img alt="" src="/jewellumination/images/common/menuIcon/wheel.svg"/></div>
+									<span class="jw-navigation__listText">楽しみ方</span>
+									<div class="jw-navigation__listArrow"><img alt="" src="/jewellumination/images/common/arrow.svg"/></div>
+								</a>
+							</li>
+							<li class="jw-navigation__listMainItem">
+								<a class="jw-navigation__listLink" href="/jewellumination/fountain/">
+									<div class="jw-navigation__listIcon"><img alt="" src="/jewellumination/images/common/menuIcon/fountain.svg"/></div>
+									<span class="jw-navigation__listText">噴水ショー</span>
+									<div class="jw-navigation__listArrow"><img alt="" src="/jewellumination/images/common/arrow.svg"/></div>
+								</a>
+							</li>
+							<li class="jw-navigation__listMainItem">
+								<a class="jw-navigation__listLink" href="/jewellumination/event/">
+									<div class="jw-navigation__listIcon"><img alt="" src="/jewellumination/images/common/menuIcon/baloon.svg"/></div>
+									<span class="jw-navigation__listText">イベント</span>
+									<div class="jw-navigation__listArrow"><img alt="" src="/jewellumination/images/common/arrow.svg"/></div>
+								</a>
+							</li>
+							<li class="jw-navigation__listMainItem">
+								<a class="jw-navigation__listLink" href="/jewellumination/food/">
+									<div class="jw-navigation__listIcon"><img alt="" src="/jewellumination/images/common/menuIcon/drink.svg"/></div>
+									<span class="jw-navigation__listText">フード・グッズ</span>
+									<div class="jw-navigation__listArrow"><img alt="" src="/jewellumination/images/common/arrow.svg"/></div>
+								</a>
+							</li>
+							<li class="jw-navigation__listMainItem">
+								<a class="jw-navigation__listLink" href="/jewellumination/think_about/">
+									<div class="jw-navigation__listIcon"><img alt="" src="/jewellumination/images/common/menuIcon/jewell2.svg"/></div>
+									<span class="jw-navigation__listText">ジュエルミネーションとは</span>
+									<div class="jw-navigation__listArrow"><img alt="" src="/jewellumination/images/common/arrow.svg"/></div>
+								</a>
+							</li>
+							<li class="jw-navigation__listMainItem">
+								<a class="jw-navigation__listLink" href="/jewellumination/motoko_ishii/">
+									<div class="jw-navigation__listIcon"><img alt="" src="/jewellumination/images/common/menuIcon/jewell3.svg"/></div>
+									<span class="jw-navigation__listText">照明デザイナー石井幹子</span>
+									<div class="jw-navigation__listArrow"><img alt="" src="/jewellumination/images/common/arrow.svg"/></div>
+								</a>
+							</li>
+						</ul>
+						<ul class="jw-navigation__listSub">
+							<li class="jw-navigation__listSubItem">
+								<a class="jw-navigation__listLink" href="https://platinumaps.jp/d/yomiuriland?gm=148&amp;floor=G&amp;mt=21" rel="noopener noreferrer" target="_blank">
+									<span class="jw-navigation__listText">園内マップ</span>
+									<div class="jw-navigation__listArrow"><img alt="" src="/jewellumination/images/common/arrow.svg"/></div>
+								</a>
+							</li>
+							<li class="jw-navigation__listSubItem">
+								<a class="jw-navigation__listLink" href="https://yldfaq.yomiuri.co.jp/">
+									<span class="jw-navigation__listText">よくある質問</span>
+									<div class="jw-navigation__listArrow"><img alt="" src="/jewellumination/images/common/arrow.svg"/></div>
+								</a>
+							</li>
+						</ul>
+
+						<!--チケットボタン追加　サイド　2023.11.20-->
+						<div class="jw-navigation__banner pc">
+							<a href="https://land-ticket.yomiuriland.com/ticket" target="_blank">
+								<img alt="" src="/jewellumination/images/common/btn_ticket.png" width="95%"/>
+							</a>
+						</div>
+						<div class="jw-navigation__banner">
+							<a href="/yomilanclub/" target="_blank">
+								<img alt="" src="/jewellumination/images/common/banner.png"/>
+							</a>
+						</div>
+						<div class="jw-navigation__languageSwitch" id="target">
+							<select class="jw-navigation__languageSwitchSelect">
+								<option>Languages（言語切替）</option>
+								<option value="ja">日本語</option>
+								<option value="en">English</option>
+								<option value="tw">繁體</option>
+								<option value="cn">简体</option>
+								<option value="ko">한국어</option>
+							</select>
+						</div>
+					</div>
+				</div>
+			</nav>
+
+			<button class="jw-layout__navButton">
+				<span></span>
+				<span></span>
+			</button>
+
+			<main class="jw-layout__main">
+				<script src="/jewellumination/js/top.js">
+				</script>
+				<div class="jw-mainVisual">
+					<div class="jw-mainVisual__inner">
+						<div class="jw-mainVisual__logo"><img alt="" src="/jewellumination/images/common/logo.png"/></div>
+						<div class="jw-mainVisual__main swiper">
+							<ul class="jw-mainVisual__list swiper-wrapper">
+								<li class="jw-mainVisual__item swiper-slide" data-index="1">
+									<div class="jw-mainVisual__linkWrapper">
+										<a class="jw-mainVisual__link" href="./area/#spot1">
+											<div class="jw-mainVisual__imageWrapper"><img alt="" class="jw-mainVisual__image" height="383" src="/jewellumination/images/area/circle_image1.jpg" width="575"/></div>
+											<div class="jw-mainVisual__title">
+												<div class="jw-mainVisual__titleNumber">01</div>
+												<div class="jw-mainVisual__titleText">JEWELLERY・GRAND・OBJET</div>
+											</div>
+											<div class="jw-mainVisual__spotName --spot01"><img src="/jewellumination/images/area/title/01_jewellery-grandobjet.svg"/></div>
+										</a>
+									</div>
+								</li>
+								<li class="jw-mainVisual__item swiper-slide" data-index="2">
+									<div class="jw-mainVisual__linkWrapper">
+										<a class="jw-mainVisual__link" href="./area/#spot2">
+											<div class="jw-mainVisual__imageWrapper"><img alt="" class="jw-mainVisual__image" height="383" src="/jewellumination/images/area/circle_image2_2026.webp" width="575"/></div>
+											<div class="jw-mainVisual__title">
+												<div class="jw-mainVisual__titleNumber">02</div>
+												<div class="jw-mainVisual__titleText">JEWELLERY・PROMENADE</div>
+											</div>
+											<div class="jw-mainVisual__spotName --spot02"><img src="/jewellumination/images/area/title/02_jewellery-promenade.svg"/></div>
+										</a>
+									</div>
+								</li>
+								<li class="jw-mainVisual__item swiper-slide" data-index="3">
+									<div class="jw-mainVisual__linkWrapper">
+										<a class="jw-mainVisual__link" href="./area/#spot3">
+											<div class="jw-mainVisual__imageWrapper"><img alt="" class="jw-mainVisual__image" height="383" src="/jewellumination/images/area/circle_image3.jpg" width="575"/></div>
+											<div class="jw-mainVisual__title">
+												<div class="jw-mainVisual__titleNumber">03</div>
+												<div class="jw-mainVisual__titleText">JEWELLERY・BRIDGE</div>
+											</div>
+											<div class="jw-mainVisual__spotName --spot03"><img src="/jewellumination/images/area/title/03_jewellery-bridge.svg"/></div>
+										</a>
+									</div>
+								</li>
+								<li class="jw-mainVisual__item swiper-slide" data-index="4">
+									<div class="jw-mainVisual__linkWrapper">
+										<a class="jw-mainVisual__link" href="./area/#spot4">
+											<div class="jw-mainVisual__imageWrapper"><img alt="" class="jw-mainVisual__image" height="383" src="/jewellumination/images/area/circle_image4_2026.jpg" width="575"/></div>
+											<div class="jw-mainVisual__title">
+												<div class="jw-mainVisual__titleNumber">04</div>
+												<div class="jw-mainVisual__titleText">COLORFUL・JEWELLERY・STREET</div>
+											</div>
+											<div class="jw-mainVisual__spotName --spot04"><img src="/jewellumination/images/area/title/04_colorful-jewellery-street.svg"/></div>
+										</a>
+									</div>
+								</li>
+								<li class="jw-mainVisual__item swiper-slide" data-index="5">
+									<div class="jw-mainVisual__linkWrapper">
+										<a class="jw-mainVisual__link" href="./area/#spot5">
+											<div class="jw-mainVisual__imageWrapper"><img alt="" class="jw-mainVisual__image" height="383" src="/jewellumination/images/area/circle_image5.webp" width="575"/></div>
+											<div class="jw-mainVisual__title">
+												<div class="jw-mainVisual__titleNumber">05</div>
+												<div class="jw-mainVisual__titleText">CRYSTAL・PASSAGE</div>
+											</div>
+											<div class="jw-mainVisual__spotName --spot05"><img src="/jewellumination/images/area/title/05_crystal-passage.svg"/></div>
+										</a>
+									</div>
+								</li>
+								<li class="jw-mainVisual__item swiper-slide" data-index="6">
+									<div class="jw-mainVisual__linkWrapper">
+										<a class="jw-mainVisual__link" href="./area/#spot6">
+											<div class="jw-mainVisual__imageWrapper"><img alt="" class="jw-mainVisual__image" height="383" src="/jewellumination/images/area/circle_image6.jpg" width="575"/></div>
+											<div class="jw-mainVisual__title">
+												<div class="jw-mainVisual__titleNumber">06</div>
+												<div class="jw-mainVisual__titleText">JEWELLERY・TOWER ＆ JEWELLERY・SPIRAL</div>
+											</div>
+											<div class="jw-mainVisual__spotName --spot06"><img src="/jewellumination/images/area/title/06_jewellery-tower-spiral.svg"/></div>
+										</a>
+									</div>
+								</li>
+								<li class="jw-mainVisual__item swiper-slide" data-index="7">
+									<div class="jw-mainVisual__linkWrapper">
+										<a class="jw-mainVisual__link" href="./area/#spot7">
+											<div class="jw-mainVisual__imageWrapper"><img alt="" class="jw-mainVisual__image" height="383" src="/jewellumination/images/area/circle_image7_2026.jpg" width="575"/></div>
+											<div class="jw-mainVisual__title">
+												<div class="jw-mainVisual__titleNumber">07</div>
+												<div class="jw-mainVisual__titleText">JEWELLERY・STREAM</div>
+											</div>
+											<div class="jw-mainVisual__spotName --spot07"><img src="/jewellumination/images/area/title/07_jewellery-stream.svg"/></div>
+										</a>
+									</div>
+								</li>
+								<li class="jw-mainVisual__item swiper-slide" data-index="8">
+									<div class="jw-mainVisual__linkWrapper">
+										<a class="jw-mainVisual__link" href="./area/#spot8">
+											<div class="jw-mainVisual__imageWrapper"><img alt="" class="jw-mainVisual__image" height="383" src="/jewellumination/images/area/circle_image8.jpg" width="575"/></div>
+											<div class="jw-mainVisual__title">
+												<div class="jw-mainVisual__titleNumber">08</div>
+												<div class="jw-mainVisual__titleText">GRAND・SANCTUARY</div>
+											</div>
+											<div class="jw-mainVisual__spotName --spot08"><img src="/jewellumination/images/area/title/08_grand-sanctuary_b.svg"/></div>
+										</a>
+									</div>
+								</li>
+								<li class="jw-mainVisual__item swiper-slide" data-index="9">
+									<div class="jw-mainVisual__linkWrapper">
+										<a class="jw-mainVisual__link" href="./area/#spot9">
+											<div class="jw-mainVisual__imageWrapper"><img alt="" class="jw-mainVisual__image" height="383" src="/jewellumination/images/area/circle_image9_2026.jpg" width="575"/></div>
+											<div class="jw-mainVisual__title">
+												<div class="jw-mainVisual__titleNumber">09</div>
+												<div class="jw-mainVisual__titleText">LUXURY・WALL</div>
+											</div>
+											<div class="jw-mainVisual__spotName --spot09"><img src="/jewellumination/images/area/title/09_luxury-wall.svg"/></div>
+										</a>
+									</div>
+								</li>
+								<li class="jw-mainVisual__item swiper-slide" data-index="10">
+									<div class="jw-mainVisual__linkWrapper">
+										<a class="jw-mainVisual__link" href="./area/#spot10">
+											<div class="jw-mainVisual__imageWrapper"><img alt="" class="jw-mainVisual__image" height="383" src="/jewellumination/images/area/circle_image10_2026.jpg" width="575"/></div>
+											<div class="jw-mainVisual__title">
+												<div class="jw-mainVisual__titleNumber">10</div>
+												<div class="jw-mainVisual__titleText">JEWELLERY・BOX</div>
+											</div>
+											<div class="jw-mainVisual__spotName --spot10"><img src="/jewellumination/images/area/title/10_jewellery-box.svg"/></div>
+										</a>
+									</div>
+								</li>
+								<li class="jw-mainVisual__item swiper-slide" data-index="1">
+									<div class="jw-mainVisual__linkWrapper">
+										<a class="jw-mainVisual__link" href="./area/#spot1">
+											<div class="jw-mainVisual__imageWrapper"><img alt="" class="jw-mainVisual__image" height="383" src="/jewellumination/images/area/circle_image1.jpg" width="575"/></div>
+											<div class="jw-mainVisual__title">
+												<div class="jw-mainVisual__titleNumber">01</div>
+												<div class="jw-mainVisual__titleText">JEWELLERY・GRAND・OBJET</div>
+											</div>
+											<div class="jw-mainVisual__spotName --spot01"><img src="/jewellumination/images/area/title/01_jewellery-grandobjet.svg"/></div>
+										</a>
+									</div>
+								</li>
+								<li class="jw-mainVisual__item swiper-slide" data-index="2">
+									<div class="jw-mainVisual__linkWrapper">
+										<a class="jw-mainVisual__link" href="./area/#spot2">
+											<div class="jw-mainVisual__imageWrapper"><img alt="" class="jw-mainVisual__image" height="383" src="/jewellumination/images/area/circle_image2_2026.webp" width="575"/></div>
+											<div class="jw-mainVisual__title">
+												<div class="jw-mainVisual__titleNumber">02</div>
+												<div class="jw-mainVisual__titleText">JEWELLERY・PROMENADE</div>
+											</div>
+											<div class="jw-mainVisual__spotName --spot02"><img src="/jewellumination/images/area/title/02_jewellery-promenade.svg"/></div>
+										</a>
+									</div>
+								</li>
+								<li class="jw-mainVisual__item swiper-slide" data-index="3">
+									<div class="jw-mainVisual__linkWrapper">
+										<a class="jw-mainVisual__link" href="./area/#spot3">
+											<div class="jw-mainVisual__imageWrapper"><img alt="" class="jw-mainVisual__image" height="383" src="/jewellumination/images/area/circle_image3.jpg" width="575"/></div>
+											<div class="jw-mainVisual__title">
+												<div class="jw-mainVisual__titleNumber">03</div>
+												<div class="jw-mainVisual__titleText">JEWELLERY・BRIDGE</div>
+											</div>
+											<div class="jw-mainVisual__spotName --spot03"><img src="/jewellumination/images/area/title/03_jewellery-bridge.svg"/></div>
+										</a>
+									</div>
+								</li>
+								<li class="jw-mainVisual__item swiper-slide" data-index="4">
+									<div class="jw-mainVisual__linkWrapper">
+										<a class="jw-mainVisual__link" href="./area/#spot4">
+											<div class="jw-mainVisual__imageWrapper"><img alt="" class="jw-mainVisual__image" height="383" src="/jewellumination/images/area/circle_image4_2026.jpg" width="575"/></div>
+											<div class="jw-mainVisual__title">
+												<div class="jw-mainVisual__titleNumber">04</div>
+												<div class="jw-mainVisual__titleText">COLORFUL・JEWELLERY・STREET</div>
+											</div>
+											<div class="jw-mainVisual__spotName --spot04"><img src="/jewellumination/images/area/title/04_colorful-jewellery-street.svg"/></div>
+										</a>
+									</div>
+								</li>
+								<li class="jw-mainVisual__item swiper-slide" data-index="5">
+									<div class="jw-mainVisual__linkWrapper">
+										<a class="jw-mainVisual__link" href="./area/#spot5">
+											<div class="jw-mainVisual__imageWrapper"><img alt="" class="jw-mainVisual__image" height="383" src="/jewellumination/images/area/circle_image5.webp" width="575"/></div>
+											<div class="jw-mainVisual__title">
+												<div class="jw-mainVisual__titleNumber">05</div>
+												<div class="jw-mainVisual__titleText">CRYSTAL・PASSAGE</div>
+											</div>
+											<div class="jw-mainVisual__spotName --spot05"><img src="/jewellumination/images/area/title/05_crystal-passage.svg"/></div>
+										</a>
+									</div>
+								</li>
+								<li class="jw-mainVisual__item swiper-slide" data-index="6">
+									<div class="jw-mainVisual__linkWrapper">
+										<a class="jw-mainVisual__link" href="./area/#spot6">
+											<div class="jw-mainVisual__imageWrapper"><img alt="" class="jw-mainVisual__image" height="383" src="/jewellumination/images/area/circle_image6.jpg" width="575"/></div>
+											<div class="jw-mainVisual__title">
+												<div class="jw-mainVisual__titleNumber">06</div>
+												<div class="jw-mainVisual__titleText">JEWELLERY・TOWER ＆ JEWELLERY・SPIRAL</div>
+											</div>
+											<div class="jw-mainVisual__spotName --spot06"><img src="/jewellumination/images/area/title/06_jewellery-tower-spiral.svg"/></div>
+										</a>
+									</div>
+								</li>
+								<li class="jw-mainVisual__item swiper-slide" data-index="7">
+									<div class="jw-mainVisual__linkWrapper">
+										<a class="jw-mainVisual__link" href="./area/#spot7">
+											<div class="jw-mainVisual__imageWrapper"><img alt="" class="jw-mainVisual__image" height="383" src="/jewellumination/images/area/circle_image7_2026.jpg" width="575"/></div>
+											<div class="jw-mainVisual__title">
+												<div class="jw-mainVisual__titleNumber">07</div>
+												<div class="jw-mainVisual__titleText">JEWELLERY・STREAM</div>
+											</div>
+											<div class="jw-mainVisual__spotName --spot07"><img src="/jewellumination/images/area/title/07_jewellery-stream.svg"/></div>
+										</a>
+									</div>
+								</li>
+								<li class="jw-mainVisual__item swiper-slide" data-index="8">
+									<div class="jw-mainVisual__linkWrapper">
+										<a class="jw-mainVisual__link" href="./area/#spot8">
+											<div class="jw-mainVisual__imageWrapper"><img alt="" class="jw-mainVisual__image" height="383" src="/jewellumination/images/area/circle_image8.jpg" width="575"/></div>
+											<div class="jw-mainVisual__title">
+												<div class="jw-mainVisual__titleNumber">08</div>
+												<div class="jw-mainVisual__titleText">GRAND・SANCTUARY</div>
+											</div>
+											<div class="jw-mainVisual__spotName --spot08"><img src="/jewellumination/images/area/title/08_grand-sanctuary_b.svg"/></div>
+										</a>
+									</div>
+								</li>
+								<li class="jw-mainVisual__item swiper-slide" data-index="9">
+									<div class="jw-mainVisual__linkWrapper">
+										<a class="jw-mainVisual__link" href="./area/#spot9">
+											<div class="jw-mainVisual__imageWrapper"><img alt="" class="jw-mainVisual__image" height="383" src="/jewellumination/images/area/circle_image9_2026.jpg" width="575"/></div>
+											<div class="jw-mainVisual__title">
+												<div class="jw-mainVisual__titleNumber">09</div>
+												<div class="jw-mainVisual__titleText">LUXURY・WALL</div>
+											</div>
+											<div class="jw-mainVisual__spotName --spot09"><img src="/jewellumination/images/area/title/09_luxury-wall.svg"/></div>
+										</a>
+									</div>
+								</li>
+								<li class="jw-mainVisual__item swiper-slide" data-index="10">
+									<div class="jw-mainVisual__linkWrapper">
+										<a class="jw-mainVisual__link" href="./area/#spot10">
+											<div class="jw-mainVisual__imageWrapper"><img alt="" class="jw-mainVisual__image" height="383" src="/jewellumination/images/area/circle_image10_2026.jpg" width="575"/></div>
+											<div class="jw-mainVisual__title">
+												<div class="jw-mainVisual__titleNumber">10</div>
+												<div class="jw-mainVisual__titleText">JEWELLERY・BOX</div>
+											</div>
+											<div class="jw-mainVisual__spotName --spot10"><img src="/jewellumination/images/area/title/10_jewellery-box.svg"/></div>
+										</a>
+									</div>
+								</li>
+								<li class="jw-mainVisual__item swiper-slide" data-index="1">
+									<div class="jw-mainVisual__linkWrapper">
+										<a class="jw-mainVisual__link" href="./area/#spot1">
+											<div class="jw-mainVisual__imageWrapper"><img alt="" class="jw-mainVisual__image" height="383" src="/jewellumination/images/area/circle_image1.jpg" width="575"/></div>
+											<div class="jw-mainVisual__title">
+												<div class="jw-mainVisual__titleNumber">01</div>
+												<div class="jw-mainVisual__titleText">JEWELLERY・GRAND・OBJET</div>
+											</div>
+											<div class="jw-mainVisual__spotName --spot01"><img src="/jewellumination/images/area/title/01_jewellery-grandobjet.svg"/></div>
+										</a>
+									</div>
+								</li>
+								<li class="jw-mainVisual__item swiper-slide" data-index="2">
+									<div class="jw-mainVisual__linkWrapper">
+										<a class="jw-mainVisual__link" href="./area/#spot2">
+											<div class="jw-mainVisual__imageWrapper"><img alt="" class="jw-mainVisual__image" height="383" src="/jewellumination/images/area/circle_image2_2026.webp" width="575"/></div>
+											<div class="jw-mainVisual__title">
+												<div class="jw-mainVisual__titleNumber">02</div>
+												<div class="jw-mainVisual__titleText">JEWELLERY・PROMENADE</div>
+											</div>
+											<div class="jw-mainVisual__spotName --spot02"><img src="/jewellumination/images/area/title/02_jewellery-promenade.svg"/></div>
+										</a>
+									</div>
+								</li>
+								<li class="jw-mainVisual__item swiper-slide" data-index="3">
+									<div class="jw-mainVisual__linkWrapper">
+										<a class="jw-mainVisual__link" href="./area/#spot3">
+											<div class="jw-mainVisual__imageWrapper"><img alt="" class="jw-mainVisual__image" height="383" src="/jewellumination/images/area/circle_image3.jpg" width="575"/></div>
+											<div class="jw-mainVisual__title">
+												<div class="jw-mainVisual__titleNumber">03</div>
+												<div class="jw-mainVisual__titleText">JEWELLERY・BRIDGE</div>
+											</div>
+											<div class="jw-mainVisual__spotName --spot03"><img src="/jewellumination/images/area/title/03_jewellery-bridge.svg"/></div>
+										</a>
+									</div>
+								</li>
+								<li class="jw-mainVisual__item swiper-slide" data-index="4">
+									<div class="jw-mainVisual__linkWrapper">
+										<a class="jw-mainVisual__link" href="./area/#spot4">
+											<div class="jw-mainVisual__imageWrapper"><img alt="" class="jw-mainVisual__image" height="383" src="/jewellumination/images/area/circle_image4_2026.jpg" width="575"/></div>
+											<div class="jw-mainVisual__title">
+												<div class="jw-mainVisual__titleNumber">04</div>
+												<div class="jw-mainVisual__titleText">COLORFUL・JEWELLERY・STREET</div>
+											</div>
+											<div class="jw-mainVisual__spotName --spot04"><img src="/jewellumination/images/area/title/04_colorful-jewellery-street.svg"/></div>
+										</a>
+									</div>
+								</li>
+								<li class="jw-mainVisual__item swiper-slide" data-index="5">
+									<div class="jw-mainVisual__linkWrapper">
+										<a class="jw-mainVisual__link" href="./area/#spot5">
+											<div class="jw-mainVisual__imageWrapper"><img alt="" class="jw-mainVisual__image" height="383" src="/jewellumination/images/area/circle_image5.webp" width="575"/></div>
+											<div class="jw-mainVisual__title">
+												<div class="jw-mainVisual__titleNumber">05</div>
+												<div class="jw-mainVisual__titleText">CRYSTAL・PASSAGE</div>
+											</div>
+											<div class="jw-mainVisual__spotName --spot05"><img src="/jewellumination/images/area/title/05_crystal-passage.svg"/></div>
+										</a>
+									</div>
+								</li>
+								<li class="jw-mainVisual__item swiper-slide" data-index="6">
+									<div class="jw-mainVisual__linkWrapper">
+										<a class="jw-mainVisual__link" href="./area/#spot6">
+											<div class="jw-mainVisual__imageWrapper"><img alt="" class="jw-mainVisual__image" height="383" src="/jewellumination/images/area/circle_image6.jpg" width="575"/></div>
+											<div class="jw-mainVisual__title">
+												<div class="jw-mainVisual__titleNumber">06</div>
+												<div class="jw-mainVisual__titleText">JEWELLERY・TOWER ＆ JEWELLERY・SPIRAL</div>
+											</div>
+											<div class="jw-mainVisual__spotName --spot06"><img src="/jewellumination/images/area/title/06_jewellery-tower-spiral.svg"/></div>
+										</a>
+									</div>
+								</li>
+								<li class="jw-mainVisual__item swiper-slide" data-index="7">
+									<div class="jw-mainVisual__linkWrapper">
+										<a class="jw-mainVisual__link" href="./area/#spot7">
+											<div class="jw-mainVisual__imageWrapper"><img alt="" class="jw-mainVisual__image" height="383" src="/jewellumination/images/area/circle_image7_2026.jpg" width="575"/></div>
+											<div class="jw-mainVisual__title">
+												<div class="jw-mainVisual__titleNumber">07</div>
+												<div class="jw-mainVisual__titleText">JEWELLERY・STREAM</div>
+											</div>
+											<div class="jw-mainVisual__spotName --spot07"><img src="/jewellumination/images/area/title/07_jewellery-stream.svg"/></div>
+										</a>
+									</div>
+								</li>
+								<li class="jw-mainVisual__item swiper-slide" data-index="8">
+									<div class="jw-mainVisual__linkWrapper">
+										<a class="jw-mainVisual__link" href="./area/#spot8">
+											<div class="jw-mainVisual__imageWrapper"><img alt="" class="jw-mainVisual__image" height="383" src="/jewellumination/images/area/circle_image8.jpg" width="575"/></div>
+											<div class="jw-mainVisual__title">
+												<div class="jw-mainVisual__titleNumber">08</div>
+												<div class="jw-mainVisual__titleText">GRAND・SANCTUARY</div>
+											</div>
+											<div class="jw-mainVisual__spotName --spot08"><img src="/jewellumination/images/area/title/08_grand-sanctuary_b.svg"/></div>
+										</a>
+									</div>
+								</li>
+								<li class="jw-mainVisual__item swiper-slide" data-index="9">
+									<div class="jw-mainVisual__linkWrapper">
+										<a class="jw-mainVisual__link" href="./area/#spot9">
+											<div class="jw-mainVisual__imageWrapper"><img alt="" class="jw-mainVisual__image" height="383" src="/jewellumination/images/area/circle_image9_2026.jpg" width="575"/></div>
+											<div class="jw-mainVisual__title">
+												<div class="jw-mainVisual__titleNumber">09</div>
+												<div class="jw-mainVisual__titleText">LUXURY・WALL</div>
+											</div>
+											<div class="jw-mainVisual__spotName --spot09"><img src="/jewellumination/images/area/title/09_luxury-wall.svg"/></div>
+										</a>
+									</div>
+								</li>
+								<li class="jw-mainVisual__item swiper-slide" data-index="10">
+									<div class="jw-mainVisual__linkWrapper">
+										<a class="jw-mainVisual__link" href="./area/#spot10">
+											<div class="jw-mainVisual__imageWrapper"><img alt="" class="jw-mainVisual__image" height="383" src="/jewellumination/images/area/circle_image10_2026.jpg" width="575"/></div>
+											<div class="jw-mainVisual__title">
+												<div class="jw-mainVisual__titleNumber">10</div>
+												<div class="jw-mainVisual__titleText">JEWELLERY・BOX</div>
+											</div>
+											<div class="jw-mainVisual__spotName --spot10"><img src="/jewellumination/images/area/title/10_jewellery-box.svg"/></div>
+										</a>
+									</div>
+								</li>
+								<li class="jw-mainVisual__item swiper-slide" data-index="1">
+									<div class="jw-mainVisual__linkWrapper">
+										<a class="jw-mainVisual__link" href="./area/#spot1">
+											<div class="jw-mainVisual__imageWrapper"><img alt="" class="jw-mainVisual__image" height="383" src="/jewellumination/images/area/circle_image1.jpg" width="575"/></div>
+											<div class="jw-mainVisual__title">
+												<div class="jw-mainVisual__titleNumber">01</div>
+												<div class="jw-mainVisual__titleText">JEWELLERY・GRAND・OBJET</div>
+											</div>
+											<div class="jw-mainVisual__spotName --spot01"><img src="/jewellumination/images/area/title/01_jewellery-grandobjet.svg"/></div>
+										</a>
+									</div>
+								</li>
+								<li class="jw-mainVisual__item swiper-slide" data-index="2">
+									<div class="jw-mainVisual__linkWrapper">
+										<a class="jw-mainVisual__link" href="./area/#spot2">
+											<div class="jw-mainVisual__imageWrapper"><img alt="" class="jw-mainVisual__image" height="383" src="/jewellumination/images/area/circle_image2_2026.webp" width="575"/></div>
+											<div class="jw-mainVisual__title">
+												<div class="jw-mainVisual__titleNumber">02</div>
+												<div class="jw-mainVisual__titleText">JEWELLERY・PROMENADE</div>
+											</div>
+											<div class="jw-mainVisual__spotName --spot02"><img src="/jewellumination/images/area/title/02_jewellery-promenade.svg"/></div>
+										</a>
+									</div>
+								</li>
+								<li class="jw-mainVisual__item swiper-slide" data-index="3">
+									<div class="jw-mainVisual__linkWrapper">
+										<a class="jw-mainVisual__link" href="./area/#spot3">
+											<div class="jw-mainVisual__imageWrapper"><img alt="" class="jw-mainVisual__image" height="383" src="/jewellumination/images/area/circle_image3.jpg" width="575"/></div>
+											<div class="jw-mainVisual__title">
+												<div class="jw-mainVisual__titleNumber">03</div>
+												<div class="jw-mainVisual__titleText">JEWELLERY・BRIDGE</div>
+											</div>
+											<div class="jw-mainVisual__spotName --spot03"><img src="/jewellumination/images/area/title/03_jewellery-bridge.svg"/></div>
+										</a>
+									</div>
+								</li>
+								<li class="jw-mainVisual__item swiper-slide" data-index="4">
+									<div class="jw-mainVisual__linkWrapper">
+										<a class="jw-mainVisual__link" href="./area/#spot4">
+											<div class="jw-mainVisual__imageWrapper"><img alt="" class="jw-mainVisual__image" height="383" src="/jewellumination/images/area/circle_image4_2026.jpg" width="575"/></div>
+											<div class="jw-mainVisual__title">
+												<div class="jw-mainVisual__titleNumber">04</div>
+												<div class="jw-mainVisual__titleText">COLORFUL・JEWELLERY・STREET</div>
+											</div>
+											<div class="jw-mainVisual__spotName --spot04"><img src="/jewellumination/images/area/title/04_colorful-jewellery-street.svg"/></div>
+										</a>
+									</div>
+								</li>
+								<li class="jw-mainVisual__item swiper-slide" data-index="5">
+									<div class="jw-mainVisual__linkWrapper">
+										<a class="jw-mainVisual__link" href="./area/#spot5">
+											<div class="jw-mainVisual__imageWrapper"><img alt="" class="jw-mainVisual__image" height="383" src="/jewellumination/images/area/circle_image5.webp" width="575"/></div>
+											<div class="jw-mainVisual__title">
+												<div class="jw-mainVisual__titleNumber">05</div>
+												<div class="jw-mainVisual__titleText">CRYSTAL・PASSAGE</div>
+											</div>
+											<div class="jw-mainVisual__spotName --spot05"><img src="/jewellumination/images/area/title/05_crystal-passage.svg"/></div>
+										</a>
+									</div>
+								</li>
+								<li class="jw-mainVisual__item swiper-slide" data-index="6">
+									<div class="jw-mainVisual__linkWrapper">
+										<a class="jw-mainVisual__link" href="./area/#spot6">
+											<div class="jw-mainVisual__imageWrapper"><img alt="" class="jw-mainVisual__image" height="383" src="/jewellumination/images/area/circle_image6.jpg" width="575"/></div>
+											<div class="jw-mainVisual__title">
+												<div class="jw-mainVisual__titleNumber">06</div>
+												<div class="jw-mainVisual__titleText">JEWELLERY・TOWER ＆ JEWELLERY・SPIRAL</div>
+											</div>
+											<div class="jw-mainVisual__spotName --spot06"><img src="/jewellumination/images/area/title/06_jewellery-tower-spiral.svg"/></div>
+										</a>
+									</div>
+								</li>
+								<li class="jw-mainVisual__item swiper-slide" data-index="7">
+									<div class="jw-mainVisual__linkWrapper">
+										<a class="jw-mainVisual__link" href="./area/#spot7">
+											<div class="jw-mainVisual__imageWrapper"><img alt="" class="jw-mainVisual__image" height="383" src="/jewellumination/images/area/circle_image7_2026.jpg" width="575"/></div>
+											<div class="jw-mainVisual__title">
+												<div class="jw-mainVisual__titleNumber">07</div>
+												<div class="jw-mainVisual__titleText">JEWELLERY・STREAM</div>
+											</div>
+											<div class="jw-mainVisual__spotName --spot07"><img src="/jewellumination/images/area/title/07_jewellery-stream.svg"/></div>
+										</a>
+									</div>
+								</li>
+								<li class="jw-mainVisual__item swiper-slide" data-index="8">
+									<div class="jw-mainVisual__linkWrapper">
+										<a class="jw-mainVisual__link" href="./area/#spot8">
+											<div class="jw-mainVisual__imageWrapper"><img alt="" class="jw-mainVisual__image" height="383" src="/jewellumination/images/area/circle_image8.jpg" width="575"/></div>
+											<div class="jw-mainVisual__title">
+												<div class="jw-mainVisual__titleNumber">08</div>
+												<div class="jw-mainVisual__titleText">GRAND・SANCTUARY</div>
+											</div>
+											<div class="jw-mainVisual__spotName --spot08"><img src="/jewellumination/images/area/title/08_grand-sanctuary_b.svg"/></div>
+										</a>
+									</div>
+								</li>
+								<li class="jw-mainVisual__item swiper-slide" data-index="9">
+									<div class="jw-mainVisual__linkWrapper">
+										<a class="jw-mainVisual__link" href="./area/#spot9">
+											<div class="jw-mainVisual__imageWrapper"><img alt="" class="jw-mainVisual__image" height="383" src="/jewellumination/images/area/circle_image9_2026.jpg" width="575"/></div>
+											<div class="jw-mainVisual__title">
+												<div class="jw-mainVisual__titleNumber">09</div>
+												<div class="jw-mainVisual__titleText">LUXURY・WALL</div>
+											</div>
+											<div class="jw-mainVisual__spotName --spot09"><img src="/jewellumination/images/area/title/09_luxury-wall.svg"/></div>
+										</a>
+									</div>
+								</li>
+								<li class="jw-mainVisual__item swiper-slide" data-index="10">
+									<div class="jw-mainVisual__linkWrapper">
+										<a class="jw-mainVisual__link" href="./area/#spot10">
+											<div class="jw-mainVisual__imageWrapper"><img alt="" class="jw-mainVisual__image" height="383" src="/jewellumination/images/area/circle_image10_2026.jpg" width="575"/></div>
+											<div class="jw-mainVisual__title">
+												<div class="jw-mainVisual__titleNumber">10</div>
+												<div class="jw-mainVisual__titleText">JEWELLERY・BOX</div>
+											</div>
+											<div class="jw-mainVisual__spotName --spot10"><img src="/jewellumination/images/area/title/10_jewellery-box.svg"/></div>
+										</a>
+									</div>
+								</li>
+								<li class="jw-mainVisual__item swiper-slide" data-index="1">
+									<div class="jw-mainVisual__linkWrapper">
+										<a class="jw-mainVisual__link" href="./area/#spot1">
+											<div class="jw-mainVisual__imageWrapper"><img alt="" class="jw-mainVisual__image" height="383" src="/jewellumination/images/area/circle_image1.jpg" width="575"/></div>
+											<div class="jw-mainVisual__title">
+												<div class="jw-mainVisual__titleNumber">01</div>
+												<div class="jw-mainVisual__titleText">JEWELLERY・GRAND・OBJET</div>
+											</div>
+											<div class="jw-mainVisual__spotName --spot01"><img src="/jewellumination/images/area/title/01_jewellery-grandobjet.svg"/></div>
+										</a>
+									</div>
+								</li>
+								<li class="jw-mainVisual__item swiper-slide" data-index="2">
+									<div class="jw-mainVisual__linkWrapper">
+										<a class="jw-mainVisual__link" href="./area/#spot2">
+											<div class="jw-mainVisual__imageWrapper"><img alt="" class="jw-mainVisual__image" height="383" src="/jewellumination/images/area/circle_image2_2026.webp" width="575"/></div>
+											<div class="jw-mainVisual__title">
+												<div class="jw-mainVisual__titleNumber">02</div>
+												<div class="jw-mainVisual__titleText">JEWELLERY・PROMENADE</div>
+											</div>
+											<div class="jw-mainVisual__spotName --spot02"><img src="/jewellumination/images/area/title/02_jewellery-promenade.svg"/></div>
+										</a>
+									</div>
+								</li>
+								<li class="jw-mainVisual__item swiper-slide" data-index="3">
+									<div class="jw-mainVisual__linkWrapper">
+										<a class="jw-mainVisual__link" href="./area/#spot3">
+											<div class="jw-mainVisual__imageWrapper"><img alt="" class="jw-mainVisual__image" height="383" src="/jewellumination/images/area/circle_image3.jpg" width="575"/></div>
+											<div class="jw-mainVisual__title">
+												<div class="jw-mainVisual__titleNumber">03</div>
+												<div class="jw-mainVisual__titleText">JEWELLERY・BRIDGE</div>
+											</div>
+											<div class="jw-mainVisual__spotName --spot03"><img src="/jewellumination/images/area/title/03_jewellery-bridge.svg"/></div>
+										</a>
+									</div>
+								</li>
+								<li class="jw-mainVisual__item swiper-slide" data-index="4">
+									<div class="jw-mainVisual__linkWrapper">
+										<a class="jw-mainVisual__link" href="./area/#spot4">
+											<div class="jw-mainVisual__imageWrapper"><img alt="" class="jw-mainVisual__image" height="383" src="/jewellumination/images/area/circle_image4_2026.jpg" width="575"/></div>
+											<div class="jw-mainVisual__title">
+												<div class="jw-mainVisual__titleNumber">04</div>
+												<div class="jw-mainVisual__titleText">COLORFUL・JEWELLERY・STREET</div>
+											</div>
+											<div class="jw-mainVisual__spotName --spot04"><img src="/jewellumination/images/area/title/04_colorful-jewellery-street.svg"/></div>
+										</a>
+									</div>
+								</li>
+								<li class="jw-mainVisual__item swiper-slide" data-index="5">
+									<div class="jw-mainVisual__linkWrapper">
+										<a class="jw-mainVisual__link" href="./area/#spot5">
+											<div class="jw-mainVisual__imageWrapper"><img alt="" class="jw-mainVisual__image" height="383" src="/jewellumination/images/area/circle_image5.webp" width="575"/></div>
+											<div class="jw-mainVisual__title">
+												<div class="jw-mainVisual__titleNumber">05</div>
+												<div class="jw-mainVisual__titleText">CRYSTAL・PASSAGE</div>
+											</div>
+											<div class="jw-mainVisual__spotName --spot05"><img src="/jewellumination/images/area/title/05_crystal-passage.svg"/></div>
+										</a>
+									</div>
+								</li>
+								<li class="jw-mainVisual__item swiper-slide" data-index="6">
+									<div class="jw-mainVisual__linkWrapper">
+										<a class="jw-mainVisual__link" href="./area/#spot6">
+											<div class="jw-mainVisual__imageWrapper"><img alt="" class="jw-mainVisual__image" height="383" src="/jewellumination/images/area/circle_image6.jpg" width="575"/></div>
+											<div class="jw-mainVisual__title">
+												<div class="jw-mainVisual__titleNumber">06</div>
+												<div class="jw-mainVisual__titleText">JEWELLERY・TOWER ＆ JEWELLERY・SPIRAL</div>
+											</div>
+											<div class="jw-mainVisual__spotName --spot06"><img src="/jewellumination/images/area/title/06_jewellery-tower-spiral.svg"/></div>
+										</a>
+									</div>
+								</li>
+								<li class="jw-mainVisual__item swiper-slide" data-index="7">
+									<div class="jw-mainVisual__linkWrapper">
+										<a class="jw-mainVisual__link" href="./area/#spot7">
+											<div class="jw-mainVisual__imageWrapper"><img alt="" class="jw-mainVisual__image" height="383" src="/jewellumination/images/area/circle_image7_2026.jpg" width="575"/></div>
+											<div class="jw-mainVisual__title">
+												<div class="jw-mainVisual__titleNumber">07</div>
+												<div class="jw-mainVisual__titleText">JEWELLERY・STREAM</div>
+											</div>
+											<div class="jw-mainVisual__spotName --spot07"><img src="/jewellumination/images/area/title/07_jewellery-stream.svg"/></div>
+										</a>
+									</div>
+								</li>
+								<li class="jw-mainVisual__item swiper-slide" data-index="8">
+									<div class="jw-mainVisual__linkWrapper">
+										<a class="jw-mainVisual__link" href="./area/#spot8">
+											<div class="jw-mainVisual__imageWrapper"><img alt="" class="jw-mainVisual__image" height="383" src="/jewellumination/images/area/circle_image8.jpg" width="575"/></div>
+											<div class="jw-mainVisual__title">
+												<div class="jw-mainVisual__titleNumber">08</div>
+												<div class="jw-mainVisual__titleText">GRAND・SANCTUARY</div>
+											</div>
+											<div class="jw-mainVisual__spotName --spot08"><img src="/jewellumination/images/area/title/08_grand-sanctuary_b.svg"/></div>
+										</a>
+									</div>
+								</li>
+								<li class="jw-mainVisual__item swiper-slide" data-index="9">
+									<div class="jw-mainVisual__linkWrapper">
+										<a class="jw-mainVisual__link" href="./area/#spot9">
+											<div class="jw-mainVisual__imageWrapper"><img alt="" class="jw-mainVisual__image" height="383" src="/jewellumination/images/area/circle_image9_2026.jpg" width="575"/></div>
+											<div class="jw-mainVisual__title">
+												<div class="jw-mainVisual__titleNumber">09</div>
+												<div class="jw-mainVisual__titleText">LUXURY・WALL</div>
+											</div>
+											<div class="jw-mainVisual__spotName --spot09"><img src="/jewellumination/images/area/title/09_luxury-wall.svg"/></div>
+										</a>
+									</div>
+								</li>
+								<li class="jw-mainVisual__item swiper-slide" data-index="10">
+									<div class="jw-mainVisual__linkWrapper">
+										<a class="jw-mainVisual__link" href="./area/#spot10">
+											<div class="jw-mainVisual__imageWrapper"><img alt="" class="jw-mainVisual__image" height="383" src="/jewellumination/images/area/circle_image10_2026.jpg" width="575"/></div>
+											<div class="jw-mainVisual__title">
+												<div class="jw-mainVisual__titleNumber">10</div>
+												<div class="jw-mainVisual__titleText">JEWELLERY・BOX</div>
+											</div>
+											<div class="jw-mainVisual__spotName --spot10"><img src="/jewellumination/images/area/title/10_jewellery-box.svg"/></div>
+										</a>
+									</div>
+								</li>
+							</ul>
+							<div class="swiper-pagination-wrapper">
+								<div class="swiper-pagination">
+									<div class="swiper-pagination-current">1</div>
+									<div class="swiper-pagination-slash">/</div>
+									<div class="swiper-pagination-total">10</div>
+								</div>
+							</div>
+						</div>
+						<div class="swiper-buttons">
+							<div class="swiper-button-prev"></div>
+							<div class="swiper-button-next"></div>
+						</div>
+						<div class="jw-mainVisual__schedule">
+							<!--<div class="jw-mainVisual__countDown">
+								<img alt="" class="jw-mainVisual__countDownImage" src="/jewellumination/images/top/countdown.svg"/>
+								<span class="jw-mainVisual__countDownNumber"></span>
+								<span class="jw-mainVisual__countDownText">日</span>
+							</div>-->
+							
+							<div class="jw-mainVisual__countDown">
+								<div class="jw-mainVisual__countDownText">2026-2027 Season 開催中</div>
+							</div>
+
+							<a class="jw-mainVisual__linkButton" href="/information/">営業時間・カレンダーはこちら</a>
+
+							<!--<div class="jw-mainVisual__countDown">
+								<div class="jw-mainVisual__countDownText">2025-2026 Season 終了</div>
+							</div>
+							-->
+						</div>
+						<div class="jw-mainVisual__info">
+							<div class="jw-mainVisual__infoItems">
+								<!--<a class="jw-mainVisual__infoItem" href="#">loading</a>-->
+								<a class="jw-mainVisual__infoViewAll" href="./news/">期間限定フードも販売中！ View All</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="jw-indexBody">
+					<div class="jw-decorationTitle u-fade">
+						<div class="jw-decorationTitle__image">
+							<img alt="" src="/jewellumination/images/top/jewellumination.png"/>
+							<img alt="" src="/jewellumination/images/top/jewellumination.png"/>
+						</div>
+					</div>
+					<div class="jw-movie u-fade">
+						<div class="jw-movie__movie --isPc">
+							<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" class="youtube_player" frameborder="0" height="315" id="player1" src="https://youtube.com/embed/zbrz1akXT4A?autoplay=1&amp;mute=1&amp;enablejsapi=1&amp;loop=1&amp;playlist=zbrz1akXT4A&amp;modestbranding=1&amp;rel=0&amp;disablekb=1&amp;iv_load_policy=3" title="YouTube video player" width="560"></iframe>
+						</div>
+						<div class="jw-movie__movie --isSp">
+							<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" class="youtube_player" frameborder="0" height="636" id="player2" src="https://youtube.com/embed/I-mesUKO9Bc?autoplay=1&amp;mute=1&amp;enablejsapi=1&amp;loop=1&amp;playlist=I-mesUKO9Bc&amp;modestbranding=1&amp;rel=0&amp;disablekb=1&amp;iv_load_policy=3" title="YouTube video player" width="358"></iframe>
+						</div>
+						<p>※昨年の様子です</p>
+					</div>
+					<a class="jw-linkButton --alignCenter --wide u-mt6 u-fade" href="./area/">スペシャルスポット一覧を見る</a>
+					<div class="jw-fadeLinks u-fade">
+						<div class="jw-fadeLinks__inner">
+							<h2 class="jw-decorationHeading --enjoy u-mt12">
+								<img alt="ジュエルミネーションの楽しみ方" src="/jewellumination/images/top/title-enjoy.png"/>
+							</h2>
+							<ul class="jw-fadeLinks__list swiper-wrapper">
+								<li class="jw-fadeLinks__item swiper-slide">
+									<a class="jw-fadeLinks__link" href="./enjoy/friend/">
+										<p class="jw-fadeLinks__text --friend">
+											<span>観て、遊んで、食べて、撮って…</span>
+											<br/>
+											<span>ジュエルミネーションを最大限満喫！</span>
+										</p>
+										<img alt="" src="/jewellumination/images/common/friend.jpg?1691612165253"/>
+									</a>
+								</li>
+								<li class="jw-fadeLinks__item swiper-slide">
+									<a class="jw-fadeLinks__link" href="./enjoy/family/">
+										<p class="jw-fadeLinks__text --family">
+											<span>きらきらのイルミネーションの中で</span>
+											<br/>
+											<span>家族みんなの笑顔も輝く！</span>
+										</p>
+										<img alt="" src="/jewellumination/images/common/family.jpg?1691612165253"/>
+									</a>
+								</li>
+								<li class="jw-fadeLinks__item swiper-slide">
+									<a class="jw-fadeLinks__link" href="./enjoy/attraction/">
+										<p class="jw-fadeLinks__text --attraction">
+											<span>遊園地のイルミネーションならでは</span>
+											<br/>
+											<span>遊びながら楽しめる！</span>
+										</p>
+										<img alt="" src="/jewellumination/images/common/attraction.jpg?1691612165253"/>
+									</a>
+								</li>
+							</ul>
+							<div class="swiper-pagination"></div>
+							<div class="swiper-progressbar"></div>
+							<a class="jw-linkButton --alignCenter --wide u-mt6 u-fade" href="./enjoy/">楽しみ方一覧を見る</a>
+						</div>
+					</div>
+					<h2 class="jw-decorationHeading --fountain u-fade">
+						<img alt="噴水ショー" src="/jewellumination/images/top/title-fountain.png"/>
+					</h2>
+					<div class="jw-layoutTriple u-mt6 u-fade">
+						<div class="jw-layoutTriple__item">
+							<a class="jw-boxLink" href="./fountain/#fountain1">
+								<div class="jw-boxLink__image"><img alt="" src="/jewellumination/images/top/fountain1_2026.jpg"/></div>
+								<p class="jw-boxLink__number">01</p>
+								<p class="jw-boxLink__title">
+									毎年好評の大迫力ショー
+									<br/>
+									ラ・フォンテーヌ
+								</p>
+							</a>
+						</div>
+						<div class="jw-layoutTriple__item">
+							<a class="jw-boxLink" href="./fountain/#fountain2">
+								<div class="jw-boxLink__image"><img alt="" src="/jewellumination/images/top/fountain2_2026.webp"/></div>
+								<p class="jw-boxLink__number">02</p>
+								<p class="jw-boxLink__title">
+									生命力あふれる”成長する光”を表現
+									<br/>
+									Growing Light
+								</p>
+							</a>
+						</div>
+						<div class="jw-layoutTriple__item">
+							<a class="jw-boxLink" href="./fountain/#fountain3">
+								<div class="jw-boxLink__image"><img alt="" src="/jewellumination/images/top/fountain3_2026.webp"/></div>
+								<p class="jw-boxLink__number">03</p>
+								<p class="jw-boxLink__title">
+									光と影のダンスショー
+									<br/>
+									シルエット
+								</p>
+							</a>
+						</div>
+					</div>
+					<a class="jw-linkButton --alignCenter --wide u-mt4 u-fade" href="./fountain/">噴水ショー一覧を見る</a>
+					<h2 class="jw-decorationHeading --food u-mt12 u-fade">
+						<img alt="フード・グッズ" src="/jewellumination/images/top/title-food.png"/>
+					</h2>
+					<div class="jw-foodAndGoods">
+						<div class="jw-foodAndGoods__images">
+							<div class="jw-foodAndGoods__image"><img alt="" src="/jewellumination/images/top/foodAndGoods1.png"/></div>
+							<div class="jw-foodAndGoods__image"><img alt="" src="/jewellumination/images/top/foodAndGoods2.png?1691612165253"/></div>
+							<div class="jw-foodAndGoods__image"><img alt="" src="/jewellumination/images/top/foodAndGoods3.png"/></div>
+						</div>
+						<!--<div class="jw-foodAndGoods__link">
+							<p class="jw-linkButton --alignCenter --wide u-mt6 u-fade">Coming Soon</p>
+						</div>-->
+						<div class="jw-foodAndGoods__link"><a class="jw-linkButton --alignCenter --wide u-mt6 u-fade" href="./food/">フード・グッズ一覧を見る</a></div>
+					</div>
+
+
+					<h2 class="jw-decorationHeading --enjoy u-mt12 u-fade">
+						<img alt="ジュエルミネーション Note" src="/jewellumination/images/top/title-note.png"/>
+					</h2>
+					<div class="note-article u-mt6 u-fade">
+						<a href="./note/26_irumitoha/" class="note-article__item">
+							<img src="/jewellumination/note/images/img_note_26_irumitoha01.jpg">
+							<div class="note-article__box">
+								<p>よみうりランドのイルミネーションとは？</p>
+							</div>
+						</a>
+
+						<a href="./note/26_tiisanaokosama/" class="note-article__item">
+							<img src="/jewellumination/note/images/img_note_26_tiisanaokosama01.jpg">
+							<div class="note-article__box">
+								<p>小さなお子様を連れて楽しむ</p>
+							</div>
+						</a>
+
+						<a href="./note/26_gakkougaeri/" class="note-article__item">
+							<img src="/jewellumination/note/images/img_note_26_gakkougaeri01.jpg">
+							<div class="note-article__box">
+								<p>学校帰りに楽しむ</p>
+							</div>
+						</a>
+
+						<a href="./note/26_syumatsu/" class="note-article__item">
+							<img src="/jewellumination/note/images/img_note_26_syumatsu01.jpg">
+							<div class="note-article__box">
+								<p>週末に楽しむ</p>
+							</div>
+						</a>
+
+						<!-- <a href="" class="note-article__item">
+							<img src="/jewellumination/note/images/img_note_26_ticketbetsu01.jpg">
+							<div class="note-article__box">
+								<p>どのチケットを買えばいい？ 楽しみ方別チケット紹介</p>
+							</div>
+						</a> -->
+
+						<a href="./note/26_3000yen/" class="note-article__item">
+							<img src="/jewellumination/note/images/img_note_26_3000yen01.jpg">
+							<div class="note-article__box">
+								<p>3,000円プラン</p>
+							</div>
+						</a>
+
+						<a href="./note/26_5000yen/" class="note-article__item">
+							<img src="/jewellumination/note/images/img_note_26_5000yen01.jpg">
+							<div class="note-article__box">
+								<p>5,000円プラン</p>
+							</div>
+						</a>
+					</div>
+					<a class="jw-linkButton --alignCenter --wide u-mt6 u-fade" href="./note/">記事一覧を見る</a>
+
+
+					<div class="jw-layoutParallel --reverse u-mt14 u-fade">
+						<div class="jw-layoutParallel__column1">
+							<div class="jw-text u-mt4">
+								<p class="--strong">
+									<span style="font-size:.6em;">2026-2027 SEASON'S THEME</span>
+									<br/>
+									<span>
+										<img alt="" src="images/top/theme.png" width="100%"></img>
+									</span>
+								</p>
+								<p style="margin-top: -40px;">
+									ジュエルミネーションの輝きは、人や自然、
+									<br/>
+									そして地球への愛を、優しくあなたに伝えます。
+									<br/>
+									植物が芽生え、育ち、葉を広げていく生命力を表現する、瑞々しい新色が誕生しました。
+								</p>
+							</div>
+							<a class="jw-linkButton u-mt6" href="./think_about/">ジュエルミネーションとは</a>
+							<div class="u-mt10"></div>
+						</div>
+						<div class="jw-layoutParallel__column2">
+							<div class="jw-image --wide"><img alt="" src="/jewellumination/images/top/keyVisual.webp"/></div>
+							<p>(c)MOTOKO ISHII LIGHTING DESIGN</p>
+						</div>
+					</div>
+					<div class="u-mt10"></div>
+					<a class="jw-linkButton --alignCenter --wide u-mt4 u-fade" href="./sponsor/">協賛企業一覧</a>
+					<div class="jw-layoutSingle">
+						<div class="jw-greenPower u-mt10">
+							<div class="jw-greenPower__image"><img alt="Green Power" src="/jewellumination/images/top/greenPower.png"/></div>
+							<div class="jw-greenPower__text">
+								<p>本イベントで使用する電力の100％は、グリーン電力を利用しています。</p>
+								<a href="http://www.natural-e.co.jp/" target="_blank">日本自然エネルギー株式会社</a>
+							</div>
+						</div>
+						<!--<div class="jw-layoutSingle"><a class="jw-banner" href="https://tokyolights.jp/" target="_blank"><img src="/jewellumination/images/top/banner-tokyolights_nov_blue.png" alt="TOKYO LIGHTS"></a></div>-->
+						<div class="u-mt10"></div>
+					</div>
+				</div>
+				<div class="jw-instagramTile">
+					<div class="jw-instagramTile__images"><img class="jw-instagramTile__image" onerror="this.style.display='none'"/></div>
+					<div class="jw-instagramTile__elements">
+						<p class="jw-instagramTile__text">#ジュエルミネーションをチェック!</p>
+						<a class="jw-instagramTile__button" href="https://www.instagram.com/yomiuriland/" rel="noopener noreferrer" target="_blank">
+							<img src="/jewellumination/images/top/instagram.png"/>
+							<span>公式Instagram</span>
+						</a>
+					</div>
+				</div>
+				<div class="jw-snsLinks">
+					<div class="jw-snsLinks__item --facebook">
+						<a class="jw-snsLinks__button" href="https://www.facebook.com/yomiuriland/" rel="noopener noreferrer" target="_blank">
+							<img src="/jewellumination/images/top/facebook.png"/>
+							<span>公式Facebook</span>
+						</a>
+					</div>
+					<div class="jw-snsLinks__item --twitter">
+						<a class="jw-snsLinks__button" href="https://x.com/yomiuriland_com" rel="noopener noreferrer" target="_blank">
+							<img src="/jewellumination/images/top/x.png"/>
+							<span>公式X</span>
+						</a>
+					</div>
+					<div class="jw-snsLinks__item --tiktok">
+						<a class="jw-snsLinks__button" href="https://www.tiktok.com/@yomiuriland_com" rel="noopener noreferrer" target="_blank">
+							<img src="/jewellumination/images/top/tiktok.png"/>
+							<span>公式TikTok</span>
+						</a>
+					</div>
+				</div>
+
+				<footer class="jw-footer">
+
+					<nav class="jw-footer__navigation">
+						<div class="jw-footer__navigationColumn">
+							<h1 class="jw-footer__navigationTitle">ご利用ガイド</h1>
+							<ul class="jw-footer__navigationList">
+								<li class="jw-footer__navigationItem"><a class="jw-footer__navigationLink" href="/charge/">料金・チケット</a></li>
+								<li class="jw-footer__navigationItem"><a class="jw-footer__navigationLink" href="/information/">営業時間・カレンダー</a></li>
+								<li class="jw-footer__navigationItem"><a class="jw-footer__navigationLink" href="/traffic/">交通アクセス</a></li>
+								<li class="jw-footer__navigationItem"><a class="jw-footer__navigationLink" href="/restaurant_shop/">レストラン・ショップ</a></li>
+								<li class="jw-footer__navigationItem"><a class="jw-footer__navigationLink" href="/topic/">お知らせ</a></li>
+								<li class="jw-footer__navigationItem"><a class="jw-footer__navigationLink" href="https://www.yomiuriland.com/sp/organization/">団体のお客様</a></li>
+								<li class="jw-footer__navigationItem"><a class="jw-footer__navigationLink" href="https://platinumaps.jp/d/yomiuriland?gm=148&amp;floor=G&amp;mt=21" target="_blank">園内マップ</a></li>
+							</ul>
+						</div>
+						<div class="jw-footer__navigationColumn">
+							<h1 class="jw-footer__navigationTitle">ジュエルミネーションを楽しむ</h1>
+							<ul class="jw-footer__navigationList">
+								<li class="jw-footer__navigationItem"><a class="jw-footer__navigationLink" href="/jewellumination/area/">スペシャルスポット</a></li>
+								<li class="jw-footer__navigationItem"><a class="jw-footer__navigationLink" href="/jewellumination/enjoy/friend/">非日常を大満喫</a></li>
+								<li class="jw-footer__navigationItem"><a class="jw-footer__navigationLink" href="/jewellumination/enjoy/family/">こどもと一緒に</a></li>
+								<li class="jw-footer__navigationItem"><a class="jw-footer__navigationLink" href="/jewellumination/enjoy/attraction/">イルミ映えアトラクション</a></li>
+								<li class="jw-footer__navigationItem"><a class="jw-footer__navigationLink" href="/jewellumination/fountain/">噴水ショー</a></li>
+								<li class="jw-footer__navigationItem"><a class="jw-footer__navigationLink" href="/jewellumination/event/">イベント</a></li>
+								<li class="jw-footer__navigationItem"><a class="jw-footer__navigationLink" href="/jewellumination/think_about/">ジュエルミネーションとは</a></li>
+								<li class="jw-footer__navigationItem"><a class="jw-footer__navigationLink" href="/jewellumination/motoko_ishii/">照明デザイナー石井幹子</a></li>
+								<li class="jw-footer__navigationItem"><a class="jw-footer__navigationLink" href="/jewellumination/news/">お知らせ</a></li>
+							</ul>
+						</div>
+						<div class="jw-footer__navigationColumn">
+							<h1 class="jw-footer__navigationTitle">サービス・施設</h1>
+							<ul class="jw-footer__navigationList">
+								<li class="jw-footer__navigationItem"><a class="jw-footer__navigationLink" href="https://yomiuriland.com/yomilanclub/" target="_blank">よみランCLUB</a></li>
+								<li class="jw-footer__navigationItem"><a class="jw-footer__navigationLink" href="https://www.yomiuriland.com/sp/bbq_juju/" target="_blank">バーベキューパークJU-JU</a></li>
+								<li class="jw-footer__navigationItem"><a class="jw-footer__navigationLink" href="https://yland.store.yomiuri.co.jp/shop/yomilanmall" target="_blank">よみランモール</a></li>
+								<li class="jw-footer__navigationItem"><a class="jw-footer__navigationLink" href="/page/rental/">貸し会場のご案内</a></li>
+								<li class="jw-footer__navigationItem"><a class="jw-footer__navigationLink" href="/page/stay/">近隣宿泊施設のご案内</a></li>
+								<li class="jw-footer__navigationItem"><a class="jw-footer__navigationLink" href="/page/institution/">園内外施設のご案内</a></li>
+							</ul>
+						</div>
+						<div class="jw-footer__navigationColumn">
+							<h1 class="jw-footer__navigationTitle">お問い合わせ・その他</h1>
+							<ul class="jw-footer__navigationList">
+								<li class="jw-footer__navigationItem"><a class="jw-footer__navigationLink" href="/contact/">お問い合わせ</a></li>
+								<li class="jw-footer__navigationItem"><a class="jw-footer__navigationLink" href="https://yldfaq.yomiuri.co.jp/">よくある質問</a></li>
+								<li class="jw-footer__navigationItem"><a class="jw-footer__navigationLink" href="/page/arbeit/">スタッフ募集</a></li>
+								<li class="jw-footer__navigationItem"><a class="jw-footer__navigationLink" href="/page/yakkan/">遊園地利用約款</a></li>
+								<li class="jw-footer__navigationItem"><a class="jw-footer__navigationLink" href="/page/attraction_precaution/">アトラクション利用時の注意事項</a></li>
+								<li class="jw-footer__navigationItem"><a class="jw-footer__navigationLink" href="/page/policy/">サイト利用規約</a></li>
+								<li class="jw-footer__navigationItem"><a class="jw-footer__navigationLink" href="/page/site_map/">サイトマップ</a></li>
+								<li class="jw-footer__navigationItem"><a class="jw-footer__navigationLink" href="/page/use/">ご利用条件</a></li>
+								<li class="jw-footer__navigationItem"><a class="jw-footer__navigationLink" href="https://yomiuriland.co.jp/company/" target="_blank">企業情報</a></li>
+								<li class="jw-footer__navigationItem"><a class="jw-footer__navigationLink" href="https://yomiuriland.co.jp/recruit/" target="_blank">採用情報</a></li>
+								<li class="jw-footer__navigationItem"><a class="jw-footer__navigationLink" href="https://yomiuriland.co.jp/privacy-policy/" target="_blank">個人情報の取り扱い</a></li>
+								<li class="jw-footer__navigationItem"><a class="jw-footer__navigationLink" href="https://yomiuriland.co.jp/news/category/news-release/" target="_blank">ニュースリリース</a></li>
+							</ul>
+						</div>
+					</nav>
+
+					<div class="jw-footer__bottom">
+						<div class="jw-footer__illust"><img alt="" src="/jewellumination/images/common/footer-illust.png"/></div>
+						<div class="jw-footer__columns">
+							<div class="jw-footer__column">
+								<p class="jw-footer__text">遊園地よみうりランド</p>
+								<p class="jw-footer__address">〒206-8725 東京都稲城市矢野口4015-1</p>
+							</div>
+							<div class="jw-footer__column">
+								<a href="/">
+									<img alt="よみうりランド" src="/jewellumination/images/common/logo-alt.svg"/>
+								</a>
+							</div>
+							<div class="jw-footer__column">
+								<div class="jw-footer__snsLinks">
+									<p class="jw-footer__text">SNSで最新情報をゲット!</p>
+									<ul class="jw-footer__snsLists">
+										<li class="jw-footer__snsItem"><a class="jw-footer__snsLink" href="https://www.facebook.com/yomiuriland/" rel="noopener noreferrer" target="_blank" title="Facebook"><img alt="facebook" src="/jewellumination/images/common/facebook.svg"/></a></li>
+										<li class="jw-footer__snsItem"><a class="jw-footer__snsLink" href="https://www.instagram.com/yomiuriland/" rel="noopener noreferrer" target="_blank" title="Instagram"><img alt="instagram" src="/jewellumination/images/common/instagram.svg"/></a></li>
+										<li class="jw-footer__snsItem"><a class="jw-footer__snsLink" href="https://x.com/yomiuriland_com" rel="noopener noreferrer" target="_blank" title="x"><img alt="x" src="/jewellumination/images/common/x.svg"/></a></li>
+										<li class="jw-footer__snsItem"><a class="jw-footer__snsLink" href="https://www.tiktok.com/@yomiuriland_com" rel="noopener noreferrer" target="_blank" title="TikTok"><img alt="tiktok" src="/jewellumination/images/common/tiktok.svg"/></a></li>
+										<li class="jw-footer__snsItem"><a class="jw-footer__snsLink" href="https://www.youtube.com/channel/UCnh1cU6x1taj19yBsY72NKQ" rel="noopener noreferrer" target="_blank" title="Youtube"><img alt="youtube" src="/jewellumination/images/common/youtube.svg"/></a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<p class="jw-footer__copyright">Copyright（c） YOMIURI LAND All Rights Reserved.</p>
+					</div>
+				</footer>
+
+			</main>
+
+			<a class="jw-layout__goTop" href="#top">
+				<img alt="TOP" src="/jewellumination/images/common/goTop.svg"/>
+			</a>
+		</div>
+	</body>
+</html>

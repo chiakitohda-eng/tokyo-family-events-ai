@@ -1,0 +1,187 @@
+{
+  "schema_version": 1,
+  "executed_as_of_jst": "2026-11-18",
+  "repository": "toodataa-ai/tokyo-family-events-ai",
+  "scope": "Read-only remaining validation of November 16 six-week data rollover and eight previously identified non-NG December leads",
+  "production_base_sha": "fc6bec505975c6dabbddd404f33cd7d9f3f525e9",
+  "candidate_sha": "6365d9f04eaf2e5633b63930ad1ff0ab5984f7f7",
+  "sources": {
+    "full_source_audit_action": "https://github.com/toodataa-ai/tokyo-family-events-ai/actions/runs/44187635448",
+    "source_artifact_id": 14375267058,
+    "individual_suginami_action": "https://github.com/toodataa-ai/tokyo-family-events-ai/actions/runs/44188865106",
+    "individual_suginami_artifact_id": 14374484595,
+    "all_data_gate_action": "https://github.com/toodataa-ai/tokyo-family-events-ai/actions/runs/44189295105",
+    "all_data_gate_artifact_id": 14375537831,
+    "chromium_tamemap_probe": "https://github.com/toodataa-ai/tokyo-family-events-ai/actions/runs/44101596810"
+  },
+  "completed": {
+    "government_holiday_plan_as_of_jst": "2026-11-16",
+    "active_sat_weeks": [
+      "2026-11-21",
+      "2026-11-28",
+      "2026-12-05",
+      "2026-12-12",
+      "2026-12-19",
+      "2026-12-26"
+    ],
+    "independent_ward_homepages_http200": 23,
+    "ward_week_queries_http200": 414,
+    "weekday_holiday_nov23_ward_queries_http200": 69,
+    "total_http_requests": 588,
+    "total_successful_http_requests": 583,
+    "total_url_errors": 5,
+    "registered_explicit_sources_checked": 27,
+    "required_source_ids": 25,
+    "required_source_ids_all_urls_http200": 24,
+    "explicit_source_url_checks": 77,
+    "explicit_source_urls_http200": 74,
+    "explicit_source_urls_http403": 3,
+    "current_november_and_december_suginami_daily_calendar_queries_completed": 44,
+    "unique_discovery_links_unverified": 821,
+    "six_week_horizon_matched_discovery_leads_unverified": 59,
+    "year_specific_official_nerima_festival_rows_in_six_week_horizon": 2,
+    "annual_nerima_festival_rows_fully_decided": false,
+    "fourteen_carried_announcements_individually_rechecked": 14,
+    "already_approved_new_december_family_fit_rechecks_passed": 8,
+    "prior_records_preservation_gate_passed": 607,
+    "previous_21_28_november_new_images_in_candidate": 42,
+    "image_identity_collisions": 0,
+    "current_8_candidate_new_active_records": 8,
+    "total_current_candidate_active_records": 430
+  },
+  "observed_failing_requests": [
+    {
+      "source_id": "tamemap_nakano",
+      "http": 403,
+      "required": true,
+      "url": "https://pc.tamemap.net/1311401/calendar/2026-11?lat=35.7089745&lng=139.6630981&level=5000&locale=ja",
+      "status": "blocked_cloudflare_not_checked"
+    },
+    {
+      "source_id": "tamemap_nakano",
+      "http": 403,
+      "required": true,
+      "url": "https://pc.tamemap.net/1311401/calendar/2026-12?lat=35.7089745&lng=139.6630981&level=5000&locale=ja",
+      "status": "blocked_cloudflare_not_checked"
+    },
+    {
+      "source_id": "tamemap_nakano",
+      "http": 403,
+      "required": true,
+      "url": "https://pc.tamemap.net/1311401/new_arrival?lat=35.7089745&lng=139.6630981&level=5000&locale=ja",
+      "status": "blocked_cloudflare_not_checked"
+    },
+    {
+      "source_id": "nerima_monthly",
+      "http": 404,
+      "required": false,
+      "url": "https://www.city.nerima.tokyo.jp/kankomoyoshi/event/calendar/list_calendar202611.html",
+      "fallback_http": 200,
+      "fallback_month_matches": true,
+      "fallback_candidate_count": 6,
+      "status": "original_404_retained_fallback_checked_candidate_decisions_pending"
+    },
+    {
+      "source_id": "nerima_kids_monthly",
+      "http": 404,
+      "required": false,
+      "url": "https://www.city.nerima.tokyo.jp/nerimakids/event/calendar/list_calendar202611.html",
+      "fallback_http": 200,
+      "fallback_month_matches": true,
+      "fallback_candidate_count": 1,
+      "status": "original_404_retained_fallback_checked_candidate_decisions_pending"
+    }
+  ],
+  "individual_december_suginami_research": {
+    "official_date_matched_http200_pages": 13,
+    "adult_only_excluded_ids": [
+      "suginami-official-29244",
+      "suginami-official-29269",
+      "suginami-official-28197",
+      "suginami-official-25063"
+    ],
+    "previously_closed_registration_classified_not_currently_applicable_ids": [
+      "suginami-official-24444"
+    ],
+    "age_eligible_for_followup_publication_review": [
+      {
+        "id": "suginami-official-28963",
+        "date": "2026-12-19",
+        "name": "クリスマス交流会アフリカハープ コラ演奏会",
+        "url": "https://www.city.suginami.tokyo.jp/s023/event/28963.html"
+      },
+      {
+        "id": "suginami-official-29120",
+        "date": "2026-12-19",
+        "name": "成田西ふれあい農業公園 しめ飾りづくり体験",
+        "url": "https://www.city.suginami.tokyo.jp/s121/event/29120.html"
+      },
+      {
+        "id": "suginami-official-29140",
+        "date": "2026-12-19",
+        "name": "ドーム型プラネタリウムで星空体験",
+        "url": "https://www.city.suginami.tokyo.jp/s025/event/29140.html"
+      },
+      {
+        "id": "suginami-official-29249",
+        "date": "2026-12-19",
+        "name": "科学で遊ぼう！さいえんす縁日",
+        "url": "https://www.city.suginami.tokyo.jp/s022/event/29249.html"
+      },
+      {
+        "id": "suginami-official-29029",
+        "date": "2026-12-20",
+        "name": "プロに学ぶ 吹奏楽ワークショップ（中高生の経験・演奏条件あり）",
+        "url": "https://www.city.suginami.tokyo.jp/s111/event/29029.html"
+      },
+      {
+        "id": "suginami-official-29174",
+        "date": "2026-12-20",
+        "name": "絵本ライブ 親と子でたのしむおはなし会28",
+        "url": "https://www.city.suginami.tokyo.jp/s116/event/29174.html"
+      },
+      {
+        "id": "suginami-official-29192",
+        "date": "2026-12-20",
+        "name": "荻窪三庭園俳句さんぽ（未就学児不可）",
+        "url": "https://www.city.suginami.tokyo.jp/s100/event/29192.html"
+      },
+      {
+        "id": "suginami-official-29334",
+        "date": "2026-12-20",
+        "name": "おもちゃのクリニック",
+        "url": "https://www.city.suginami.tokyo.jp/s103/event/29334.html"
+      }
+    ],
+    "classifications_are_not_final_event_published_decisions": true,
+    "full_family_fit_8_axis_review_missing_for_new_links": 8
+  },
+  "strict_release_guard_results": {
+    "strict_event_data_exit": 1,
+    "strict_event_data_errors": 4,
+    "strict_event_data_details": "December 19 and 26 week status 'checked' and per-ward source/search evidence not yet reconciled into two candidate run JSONs (2 errors each). External source GET logs alone cannot be relabeled fully reconciled.",
+    "official_source_row_audit_exit": 1,
+    "official_source_row_audit_errors": 105,
+    "official_source_row_errors_by_week": {
+      "2026-11-21": 1,
+      "2026-11-28": 1,
+      "2026-12-05": 1,
+      "2026-12-12": 52,
+      "2026-12-19": 25,
+      "2026-12-26": 25
+    },
+    "released_app_source_registry_overlay_applied": true,
+    "eight_axis_family_fit_exit": 0,
+    "prior_607_event_protection_exit": 0,
+    "image_identity_exit": 0
+  },
+  "completion": {
+    "validation_work_executed": true,
+    "complete_global_23_ward_25_source_release_certification": false,
+    "reason": "3 mandatory Tamemap HTTP 403 requests, 2 unreconciled 404 holiday calendar originals, prior official-row decision gaps, and many unverified discovery links. All raw failures preserved. These are not to be silently marked successful.",
+    "production_deployment_attempted": false,
+    "data_production_modified": false,
+    "app_production_modified": false,
+    "no_false_success_or_source_waiver": true
+  }
+}

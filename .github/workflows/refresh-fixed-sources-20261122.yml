@@ -1,0 +1,37 @@
+name: Refresh fixed-source audit snapshot (GREEN SPRINGS registration, 2026-11-22)
+on:
+  workflow_dispatch: {}
+permissions:
+  contents: write
+jobs:
+  snapshot:
+    runs-on: ubuntu-latest
+    timeout-minutes: 18
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/checkout@v4
+        with:
+          ref: data-production
+          path: published
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Probe every registered source without changing event records
+        run: |
+          mkdir -p site/audit
+          python3 tools/fixed_source_coverage_v3.py \
+            --registry site/data/discovery_sources.json \
+            --manifest published/site/data/manifest.json \
+            --output site/audit/fixed_sources.json \
+            --workers 8
+      - name: Commit only the audit snapshot
+        run: |
+          set -eu
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -- site/audit/fixed_sources.json
+          test "$(git diff --cached --name-only)" = "site/audit/fixed_sources.json"
+          git commit -m "audit: refresh registered source retrieval statuses (28 sources)"
+          git push origin HEAD:refs/heads/main

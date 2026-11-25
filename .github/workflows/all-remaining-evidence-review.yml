@@ -1,0 +1,48 @@
+name: Verify every final hold and four assessment-only corrections
+on:
+  # Frozen pre-publication assessment candidate: current UI tests use pending-issues-current.
+  workflow_dispatch: {}
+permissions:
+  contents: read
+jobs:
+  review:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          path: scanner
+          fetch-depth: 0
+      - uses: actions/checkout@v4
+        with:
+          ref: 37288d43e28e9e7473ca75c3267432b97b57ee33
+          path: candidate
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: UI regression and evidence boundary tests
+        working-directory: scanner
+        run: |
+          npm test
+          python3 -m unittest discover -s tests -p test_all_remaining_evidence_gate.py
+          python3 tools/audit_environment_diff.py --strict
+      - name: Exact candidate and all old event facts/history/source debt
+        working-directory: candidate
+        run: |
+          python3 ../scanner/tools/validate_all_remaining_evidence_20261115.py --base-ref 4d35bec6ac7c2b857d6580bd1ec852744519b79a
+          python3 ../scanner/tools/validate_data.py --strict --min-image-coverage 0.70 site/data
+          python3 ../scanner/tools/validate_decisions.py --strict site/data
+          python3 ../scanner/tools/validate_rereview.py --strict site/data
+          python3 ../scanner/tools/audit_event_image_identity.py --strict site/data
+          python3 ../scanner/tools/validate_protected_events.py --base-ref 4d35bec6ac7c2b857d6580bd1ec852744519b79a site/data
+          python3 ../scanner/tools/validate_non_regression.py --base-ref 4d35bec6ac7c2b857d6580bd1ec852744519b79a site/data
+          python3 ../scanner/tools/validate_family_fit_quality.py --base-ref 4d35bec6ac7c2b857d6580bd1ec852744519b79a
+      - name: Production application remains unchanged before data publication
+        working-directory: scanner
+        run: |
+          test "$(git ls-remote origin refs/heads/production | cut -f1)" = "d2ee3226f64f42c56a5ed0ca61e3696769c4db21"
+          test "$(git ls-remote origin refs/heads/data-production | cut -f1)" = "4d35bec6ac7c2b857d6580bd1ec852744519b79a"

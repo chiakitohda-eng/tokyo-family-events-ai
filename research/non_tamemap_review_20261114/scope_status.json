@@ -1,0 +1,23 @@
+{
+  "excluded_source": "tamemap",
+  "order": [
+    "non_tamemap_candidate_review",
+    "existing_208_assessment_review_excluding_2_tamemap",
+    "historical_audit_and_environment_diff_cleanup"
+  ],
+  "completed_publication": true,
+  "reviewed_new_programs": 29,
+  "reviewed_new_weekly_records": 40,
+  "all_non_tamemap_candidates_complete": false,
+  "existing_assessment_scope": 208,
+  "tamemap_deferred_records": 2,
+  "existing_non_tamemap_assessments_remaining": 10,
+  "historical_diff_cleanup_complete": true,
+  "published_total": 448,
+  "data_release": "data-release/2026-11-14-r658",
+  "existing_non_tamemap_assessments_reviewed": 196,
+  "existing_assessment_publication_complete": true,
+  "latest_data_release": "data-release/2026-11-14-r660",
+  "environment_classification": "reviewed_intentional_staging_differences_only",
+  "pending_app_publication_approved": false
+}

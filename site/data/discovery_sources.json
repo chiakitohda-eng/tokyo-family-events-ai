@@ -1,6 +1,6 @@
 {
   "schema_version": 3,
-  "updated_at": "2026-10-27",
+  "updated_at": "2026-11-23",
   "principle": "候補発見はAI横断探索と明示参照元探索を両方実行する。媒体は候補発見用、公式・主催者情報は掲載確定用。",
   "discovery_strategy": {
     "ai_cross_search": {
@@ -453,6 +453,83 @@
       "note": "年度別の同一ページに複数日程・会場がある。テーブルの行を日付・体験名・会場で個別候補化。全行数と対象日程の候補IDを照合する。取得失敗は失敗・未処理として保持し、既存掲載を削除しない。次回以降の公開は独立公式確認を経て判定。",
       "candidate_extraction": "official_multi_date_schedule_rows",
       "effective_from": "2026-10-27"
+    },
+    {
+      "id": "shinjuku_sankaku_hiroba",
+      "label": "新宿住友ビル三角広場（会場公式）",
+      "origin": "official",
+      "enabled": true,
+      "required": false,
+      "purpose": "candidate_discovery",
+      "scope": "tokyo_23_candidate",
+      "base_url": "https://www.sumitomo-sankakuhiroba.jp/event/",
+      "search_urls": [
+        "https://www.sumitomo-sankakuhiroba.jp/event/"
+      ],
+      "candidate_extraction": "official_venue_cards_external_organizer",
+      "effective_from": "2026-11-15",
+      "note": "汎用的な「詳しくはこちら」のリンク文言だけで判定せず、同じarticleの催事名・開催期間と外部主催者URLを結び付けて候補化。重複表示をまとめ、主催者の開催年・年齢・料金・個別枠を別途本文確認してから掲載。過去のあいぱく別会期や未確認候補を自動掲載しない。"
+    },
+    {
+      "id": "greensprings_tachikawa",
+      "label": "GREEN SPRINGS（立川・施設公式イベント）",
+      "origin": "official",
+      "enabled": true,
+      "required": false,
+      "purpose": "candidate_discovery",
+      "scope": "tokyo_23_candidate",
+      "base_url": "https://greensprings.jp/event/",
+      "search_urls": [
+        "https://greensprings.jp/event/"
+      ],
+      "effective_from": "2026-11-22",
+      "note": "立川市の複合施設GREEN SPRINGSの公式イベント一覧（立川は多摩拡張の対象市）。一覧から個別ページ（/event/NNNN/）へ進み、開催日・場所・子ども家族向けの記載を本文で確認してから掲載する。毎週火曜のマルシェなど平日の定例、終了済み、期間未定の常設設置は掲載しない。参加費・申込の記載がないものは記載なしと表示し、家族向けの根拠がないもの（物販・夜の音楽イベントなど）は保留にする。"
+    },
+    {
+      "id": "futako_tamagawa_rise",
+      "label": "二子玉川ライズ（世田谷区・施設公式イベント）",
+      "origin": "official",
+      "enabled": true,
+      "required": false,
+      "purpose": "candidate_discovery",
+      "scope": "tokyo_23_candidate",
+      "base_url": "https://www.rise.sc/eventnews/",
+      "search_urls": [
+        "https://www.rise.sc/eventnews/"
+      ],
+      "effective_from": "2026-11-22",
+      "note": "世田谷区の複合施設・二子玉川ライズの公式イベント＆ニュース一覧。一覧から個別ページ（?cd=番号）へ進み、開催日・場所・子ども家族向けの記載を本文で確認してから掲載する。ポイントなどのキャンペーン、平日開催のバスキング、大人向けの催し、申込が終了した抽選イベントは掲載しない。参加費の記載がないものは記載なしと表示する。"
+    },
+    {
+      "id": "chuosen_rr_suginami",
+      "label": "なみじゃない、杉並！中央線あるあるPROJECT（杉並のイベント）",
+      "origin": "official",
+      "enabled": true,
+      "required": false,
+      "purpose": "candidate_discovery",
+      "scope": "tokyo_23_candidate",
+      "base_url": "https://www.chuosen-rr.com/event/",
+      "search_urls": [
+        "https://www.chuosen-rr.com/event/"
+      ],
+      "effective_from": "2026-11-23",
+      "note": "杉並区の商工会議所・商店会などによる地域サイト。高円寺・阿佐ヶ谷・荻窪・西荻窪の主要イベントを、日付つきで一覧にしている。一覧から個別ページ（/event/名前/）へ進み、開催日・場所・子ども家族向けの記載を確認する。主催者の個別サイトや杉並区の公式ページに詳細がある場合は、そちらで確認してから掲載する。終了済みと翌年以降のもの、大人向けのもの（飲み屋まつり等）は掲載しない。"
+    },
+    {
+      "id": "hachilabo_shibuya",
+      "label": "こども科学センター・ハチラボ（渋谷区文化総合センター大和田）",
+      "origin": "official",
+      "enabled": true,
+      "required": false,
+      "purpose": "candidate_discovery",
+      "scope": "tokyo_23_candidate",
+      "base_url": "https://shibu-cul.jp/hachilabo",
+      "search_urls": [
+        "https://shibu-cul.jp/hachilabo",
+        "https://shibu-cul.jp/hachilabo/tenji"
+      ],
+      "effective_from": "2026-11-23",
+      "note": "渋谷区の体験型科学館（入館無料）。トップの月別イベントカレンダー（11月・12月）と特別展ページを確認する。各ワークショップの日付・対象年齢・申込方法は月別の個別ページ（/event/…）にある。受付が終了した抽選、渋谷区在住・在学限定の講座、終了日のものは掲載しない。常設展・特別展は1件として掲載する。"
     }
   ],
   "protected_source_ids": [
@@ -481,6 +558,1334 @@
     "tamemap_nakano",
     "itabashi_times_event",
     "suginami_calendar_all",
-    "nerima_forest_festa_2026"
-  ]
+    "nerima_forest_festa_2026",
+    "shinjuku_sankaku_hiroba",
+    "greensprings_tachikawa",
+    "futako_tamagawa_rise",
+    "chuosen_rr_suginami",
+    "hachilabo_shibuya"
+  ],
+  "ai_exploration_sites": {
+    "note": "【固定サイト（explicit_sources）との違い】固定サイトは「毎回必ず確認する登録済みの参照元」。このリストは、AIがイベント候補を探すときの「入口にするサイト」（毎回の確認は必須でない）。どちらにも載るサイトは作らない。掲載の根拠は、各イベントの公式ページで確認する。サイトの追加は本リストに追記する（既存idは変更・削除しない）。",
+    "sites": [
+      {
+        "id": "ai_city_musashino",
+        "label": "武蔵野市公式サイト（イベント・子育て・広報）",
+        "group": "市部の自治体公式サイト（多摩20市＋浦安市）",
+        "url": "https://www.city.musashino.lg.jp/"
+      },
+      {
+        "id": "ai_city_mitaka",
+        "label": "三鷹市公式サイト（イベント・子育て・広報）",
+        "group": "市部の自治体公式サイト（多摩20市＋浦安市）",
+        "url": "https://www.city.mitaka.lg.jp/"
+      },
+      {
+        "id": "ai_city_chofu",
+        "label": "調布市公式サイト（イベント・子育て・広報）",
+        "group": "市部の自治体公式サイト（多摩20市＋浦安市）",
+        "url": "https://www.city.chofu.lg.jp/"
+      },
+      {
+        "id": "ai_city_fuchu",
+        "label": "府中市公式サイト（イベント・子育て・広報）",
+        "group": "市部の自治体公式サイト（多摩20市＋浦安市）",
+        "url": "https://www.city.fuchu.tokyo.jp/"
+      },
+      {
+        "id": "ai_city_koganei",
+        "label": "小金井市公式サイト（イベント・子育て・広報）",
+        "group": "市部の自治体公式サイト（多摩20市＋浦安市）",
+        "url": "https://www.city.koganei.lg.jp/"
+      },
+      {
+        "id": "ai_city_kodaira",
+        "label": "小平市公式サイト（イベント・子育て・広報）",
+        "group": "市部の自治体公式サイト（多摩20市＋浦安市）",
+        "url": "https://www.city.kodaira.tokyo.jp/"
+      },
+      {
+        "id": "ai_city_kokubunji",
+        "label": "国分寺市公式サイト（イベント・子育て・広報）",
+        "group": "市部の自治体公式サイト（多摩20市＋浦安市）",
+        "url": "https://www.city.kokubunji.tokyo.jp/"
+      },
+      {
+        "id": "ai_city_kunitachi",
+        "label": "国立市公式サイト（イベント・子育て・広報）",
+        "group": "市部の自治体公式サイト（多摩20市＋浦安市）",
+        "url": "https://www.city.kunitachi.tokyo.jp/"
+      },
+      {
+        "id": "ai_city_tachikawa",
+        "label": "立川市公式サイト（イベント・子育て・広報）",
+        "group": "市部の自治体公式サイト（多摩20市＋浦安市）",
+        "url": "https://www.city.tachikawa.lg.jp/"
+      },
+      {
+        "id": "ai_city_akishima",
+        "label": "昭島市公式サイト（イベント・子育て・広報）",
+        "group": "市部の自治体公式サイト（多摩20市＋浦安市）",
+        "url": "https://www.city.akishima.lg.jp/"
+      },
+      {
+        "id": "ai_city_hino",
+        "label": "日野市公式サイト（イベント・子育て・広報）",
+        "group": "市部の自治体公式サイト（多摩20市＋浦安市）",
+        "url": "https://www.city.hino.lg.jp/"
+      },
+      {
+        "id": "ai_city_nishitokyo",
+        "label": "西東京市公式サイト（イベント・子育て・広報）",
+        "group": "市部の自治体公式サイト（多摩20市＋浦安市）",
+        "url": "https://www.city.nishitokyo.lg.jp/"
+      },
+      {
+        "id": "ai_city_higashikurume",
+        "label": "東久留米市公式サイト（イベント・子育て・広報）",
+        "group": "市部の自治体公式サイト（多摩20市＋浦安市）",
+        "url": "https://www.city.higashikurume.lg.jp/"
+      },
+      {
+        "id": "ai_city_kiyose",
+        "label": "清瀬市公式サイト（イベント・子育て・広報）",
+        "group": "市部の自治体公式サイト（多摩20市＋浦安市）",
+        "url": "https://www.city.kiyose.lg.jp/"
+      },
+      {
+        "id": "ai_city_higashimurayama",
+        "label": "東村山市公式サイト（イベント・子育て・広報）",
+        "group": "市部の自治体公式サイト（多摩20市＋浦安市）",
+        "url": "https://www.city.higashimurayama.tokyo.jp/"
+      },
+      {
+        "id": "ai_city_komae",
+        "label": "狛江市公式サイト（イベント・子育て・広報）",
+        "group": "市部の自治体公式サイト（多摩20市＋浦安市）",
+        "url": "https://www.city.komae.tokyo.jp/"
+      },
+      {
+        "id": "ai_city_tama",
+        "label": "多摩市公式サイト（イベント・子育て・広報）",
+        "group": "市部の自治体公式サイト（多摩20市＋浦安市）",
+        "url": "https://www.city.tama.lg.jp/"
+      },
+      {
+        "id": "ai_city_inagi",
+        "label": "稲城市公式サイト（イベント・子育て・広報）",
+        "group": "市部の自治体公式サイト（多摩20市＋浦安市）",
+        "url": "https://www.city.inagi.tokyo.jp/"
+      },
+      {
+        "id": "ai_city_machida",
+        "label": "町田市公式サイト（イベント・子育て・広報）",
+        "group": "市部の自治体公式サイト（多摩20市＋浦安市）",
+        "url": "https://www.city.machida.tokyo.jp/"
+      },
+      {
+        "id": "ai_city_hachioji",
+        "label": "八王子市公式サイト（イベント・子育て・広報）",
+        "group": "市部の自治体公式サイト（多摩20市＋浦安市）",
+        "url": "https://www.city.hachioji.tokyo.jp/"
+      },
+      {
+        "id": "ai_ward_chiyoda",
+        "label": "千代田区公式サイト（イベント・子育て・広報）",
+        "group": "23区の自治体公式サイト",
+        "url": "https://www.city.chiyoda.lg.jp/"
+      },
+      {
+        "id": "ai_ward_chuo",
+        "label": "中央区公式サイト（イベント・子育て・広報）",
+        "group": "23区の自治体公式サイト",
+        "url": "https://www.city.chuo.lg.jp/"
+      },
+      {
+        "id": "ai_ward_minato",
+        "label": "港区公式サイト（イベント・子育て・広報）",
+        "group": "23区の自治体公式サイト",
+        "url": "https://www.city.minato.tokyo.jp/"
+      },
+      {
+        "id": "ai_ward_shinjuku",
+        "label": "新宿区公式サイト（イベント・子育て・広報）",
+        "group": "23区の自治体公式サイト",
+        "url": "https://www.city.shinjuku.lg.jp/"
+      },
+      {
+        "id": "ai_ward_bunkyo",
+        "label": "文京区公式サイト（イベント・子育て・広報）",
+        "group": "23区の自治体公式サイト",
+        "url": "https://www.city.bunkyo.lg.jp/"
+      },
+      {
+        "id": "ai_ward_taito",
+        "label": "台東区公式サイト（イベント・子育て・広報）",
+        "group": "23区の自治体公式サイト",
+        "url": "https://www.city.taito.lg.jp/"
+      },
+      {
+        "id": "ai_ward_sumida",
+        "label": "墨田区公式サイト（イベント・子育て・広報）",
+        "group": "23区の自治体公式サイト",
+        "url": "https://www.city.sumida.lg.jp/"
+      },
+      {
+        "id": "ai_ward_koto",
+        "label": "江東区公式サイト（イベント・子育て・広報）",
+        "group": "23区の自治体公式サイト",
+        "url": "https://www.city.koto.lg.jp/"
+      },
+      {
+        "id": "ai_ward_shinagawa",
+        "label": "品川区公式サイト（イベント・子育て・広報）",
+        "group": "23区の自治体公式サイト",
+        "url": "https://www.city.shinagawa.tokyo.jp/"
+      },
+      {
+        "id": "ai_ward_meguro",
+        "label": "目黒区公式サイト（イベント・子育て・広報）",
+        "group": "23区の自治体公式サイト",
+        "url": "https://www.city.meguro.tokyo.jp/"
+      },
+      {
+        "id": "ai_ward_ota",
+        "label": "大田区公式サイト（イベント・子育て・広報）",
+        "group": "23区の自治体公式サイト",
+        "url": "https://www.city.ota.tokyo.jp/"
+      },
+      {
+        "id": "ai_ward_setagaya",
+        "label": "世田谷区公式サイト（イベント・子育て・広報）",
+        "group": "23区の自治体公式サイト",
+        "url": "https://www.city.setagaya.lg.jp/"
+      },
+      {
+        "id": "ai_ward_suginami",
+        "label": "杉並区公式サイト（イベント・子育て・広報）",
+        "group": "23区の自治体公式サイト",
+        "url": "https://www.city.suginami.tokyo.jp/"
+      },
+      {
+        "id": "ai_ward_toshima",
+        "label": "豊島区公式サイト（イベント・子育て・広報）",
+        "group": "23区の自治体公式サイト",
+        "url": "https://www.city.toshima.lg.jp/"
+      },
+      {
+        "id": "ai_ward_kita",
+        "label": "北区公式サイト（イベント・子育て・広報）",
+        "group": "23区の自治体公式サイト",
+        "url": "https://www.city.kita.tokyo.jp/"
+      },
+      {
+        "id": "ai_ward_arakawa",
+        "label": "荒川区公式サイト（イベント・子育て・広報）",
+        "group": "23区の自治体公式サイト",
+        "url": "https://www.city.arakawa.tokyo.jp/"
+      },
+      {
+        "id": "ai_ward_itabashi",
+        "label": "板橋区公式サイト（イベント・子育て・広報）",
+        "group": "23区の自治体公式サイト",
+        "url": "https://www.city.itabashi.tokyo.jp/"
+      },
+      {
+        "id": "ai_ward_nerima",
+        "label": "練馬区公式サイト（イベント・子育て・広報）",
+        "group": "23区の自治体公式サイト",
+        "url": "https://www.city.nerima.tokyo.jp/"
+      },
+      {
+        "id": "ai_ward_adachi",
+        "label": "足立区公式サイト（イベント・子育て・広報）",
+        "group": "23区の自治体公式サイト",
+        "url": "https://www.city.adachi.tokyo.jp/"
+      },
+      {
+        "id": "ai_ward_katsushika",
+        "label": "葛飾区公式サイト（イベント・子育て・広報）",
+        "group": "23区の自治体公式サイト",
+        "url": "https://www.city.katsushika.lg.jp/"
+      },
+      {
+        "id": "ai_ward_edogawa",
+        "label": "江戸川区公式サイト（イベント・子育て・広報）",
+        "group": "23区の自治体公式サイト",
+        "url": "https://www.city.edogawa.tokyo.jp/"
+      },
+      {
+        "id": "ai_ward_shibuya",
+        "label": "渋谷区公式サイト（イベント・子育て・広報）",
+        "group": "23区の自治体公式サイト",
+        "url": "https://www.city.shibuya.tokyo.jp/"
+      },
+      {
+        "id": "ai_ward_nakano",
+        "label": "中野区公式サイト（イベント・子育て・広報）",
+        "group": "23区の自治体公式サイト",
+        "url": "https://www.city.tokyo-nakano.lg.jp/"
+      },
+      {
+        "id": "ai_ward_nakano_kanko",
+        "label": "中野区観光協会（イベント）",
+        "group": "23区の自治体公式サイト",
+        "url": "https://www.nakano-kanko.com/event/"
+      },
+      {
+        "id": "ai_ward_nakano_event",
+        "label": "中野のイベント情報（nakanoevent）",
+        "group": "23区の自治体公式サイト",
+        "url": "https://www.nakanoevent.com/"
+      },
+      {
+        "id": "ai_ward_shibuya_pgc",
+        "label": "渋谷区 プレイグラウンドシティ渋谷（子育て・遊び）",
+        "group": "23区の自治体公式サイト",
+        "url": "https://playgroundcity-shibuya.jp/"
+      },
+      {
+        "id": "ai_showakinen",
+        "label": "国営昭和記念公園 イベント",
+        "group": "都立公園・国営公園・海上公園",
+        "url": "https://www.showakinen-koen.jp/event/"
+      },
+      {
+        "id": "ai_tokyo_park",
+        "label": "東京都公園協会 公園イベント",
+        "group": "都立公園・国営公園・海上公園",
+        "url": "https://www.tokyo-park.or.jp/event/"
+      },
+      {
+        "id": "ai_tpark_yoyogi",
+        "label": "代々木公園（東京都公園協会の公園ページ）",
+        "group": "都立公園・国営公園・海上公園",
+        "url": "https://www.tokyo-park.or.jp/park/yoyogi/"
+      },
+      {
+        "id": "ai_tpark_hibiya",
+        "label": "日比谷公園（東京都公園協会の公園ページ）",
+        "group": "都立公園・国営公園・海上公園",
+        "url": "https://www.tokyo-park.or.jp/park/hibiya/"
+      },
+      {
+        "id": "ai_tpark_hikarigaoka",
+        "label": "光が丘公園（東京都公園協会の公園ページ）",
+        "group": "都立公園・国営公園・海上公園",
+        "url": "https://www.tokyo-park.or.jp/park/hikarigaoka/"
+      },
+      {
+        "id": "ai_tpark_kasairinkai",
+        "label": "葛西臨海公園（東京都公園協会の公園ページ）",
+        "group": "都立公園・国営公園・海上公園",
+        "url": "https://www.tokyo-park.or.jp/park/kasairinkai/"
+      },
+      {
+        "id": "ai_tpark_shakujii",
+        "label": "石神井公園（東京都公園協会の公園ページ）",
+        "group": "都立公園・国営公園・海上公園",
+        "url": "https://www.tokyo-park.or.jp/park/shakujii/"
+      },
+      {
+        "id": "ai_tpark_kiba",
+        "label": "木場公園（東京都公園協会の公園ページ）",
+        "group": "都立公園・国営公園・海上公園",
+        "url": "https://www.tokyo-park.or.jp/park/kiba/"
+      },
+      {
+        "id": "ai_tpark_akatsuka",
+        "label": "赤塚公園（東京都公園協会の公園ページ）",
+        "group": "都立公園・国営公園・海上公園",
+        "url": "https://www.tokyo-park.or.jp/park/akatsuka/"
+      },
+      {
+        "id": "ai_tpark_wadabori",
+        "label": "和田堀公園（東京都公園協会の公園ページ）",
+        "group": "都立公園・国営公園・海上公園",
+        "url": "https://www.tokyo-park.or.jp/park/wadabori/"
+      },
+      {
+        "id": "ai_tpark_ukima",
+        "label": "浮間公園（東京都公園協会の公園ページ）",
+        "group": "都立公園・国営公園・海上公園",
+        "url": "https://www.tokyo-park.or.jp/park/ukima/"
+      },
+      {
+        "id": "ai_tpark_toneri",
+        "label": "舎人公園（東京都公園協会の公園ページ）",
+        "group": "都立公園・国営公園・海上公園",
+        "url": "https://www.tokyo-park.or.jp/park/toneri/"
+      },
+      {
+        "id": "ai_tpark_siba",
+        "label": "芝公園（東京都公園協会の公園ページ）",
+        "group": "都立公園・国営公園・海上公園",
+        "url": "https://www.tokyo-park.or.jp/park/siba/"
+      },
+      {
+        "id": "ai_tpark_shinozaki",
+        "label": "篠崎公園（東京都公園協会の公園ページ）",
+        "group": "都立公園・国営公園・海上公園",
+        "url": "https://www.tokyo-park.or.jp/park/shinozaki/"
+      },
+      {
+        "id": "ai_tpark_mizumoto",
+        "label": "水元公園（東京都公園協会の公園ページ）",
+        "group": "都立公園・国営公園・海上公園",
+        "url": "https://www.tokyo-park.or.jp/park/mizumoto/"
+      },
+      {
+        "id": "ai_tpark_soshigaya",
+        "label": "祖師谷公園（東京都公園協会の公園ページ）",
+        "group": "都立公園・国営公園・海上公園",
+        "url": "https://www.tokyo-park.or.jp/park/soshigaya/"
+      },
+      {
+        "id": "ai_tpark_toyama",
+        "label": "戸山公園（東京都公園協会の公園ページ）",
+        "group": "都立公園・国営公園・海上公園",
+        "url": "https://www.tokyo-park.or.jp/park/toyama/"
+      },
+      {
+        "id": "ai_tpark_takaido",
+        "label": "高井戸公園（東京都公園協会の公園ページ）",
+        "group": "都立公園・国営公園・海上公園",
+        "url": "https://www.tokyo-park.or.jp/park/takaido/"
+      },
+      {
+        "id": "ai_tpark_zenpukuji",
+        "label": "善福寺公園（東京都公園協会の公園ページ）",
+        "group": "都立公園・国営公園・海上公園",
+        "url": "https://www.tokyo-park.or.jp/park/zenpukuji/"
+      },
+      {
+        "id": "ai_tpark_shioiri",
+        "label": "汐入公園（東京都公園協会の公園ページ）",
+        "group": "都立公園・国営公園・海上公園",
+        "url": "https://www.tokyo-park.or.jp/park/shioiri/"
+      },
+      {
+        "id": "ai_tpark_rinshinomori",
+        "label": "林試の森公園（東京都公園協会の公園ページ）",
+        "group": "都立公園・国営公園・海上公園",
+        "url": "https://www.tokyo-park.or.jp/park/rinshinomori/"
+      },
+      {
+        "id": "ai_tpark_nerimajoshi",
+        "label": "練馬城址公園（東京都公園協会の公園ページ）",
+        "group": "都立公園・国営公園・海上公園",
+        "url": "https://www.tokyo-park.or.jp/park/nerimajoshi/"
+      },
+      {
+        "id": "ai_tpark_komazawa",
+        "label": "駒沢オリンピック公園（東京都公園協会の公園ページ）",
+        "group": "都立公園・国営公園・海上公園",
+        "url": "https://www.tokyo-park.or.jp/park/komazawa-olympic/"
+      },
+      {
+        "id": "ai_tpark_kinuta",
+        "label": "砧公園（東京都公園協会の公園ページ）",
+        "group": "都立公園・国営公園・海上公園",
+        "url": "https://www.tokyo-park.or.jp/park/kinuta/"
+      },
+      {
+        "id": "ai_tpark_johoku_chuo",
+        "label": "城北中央公園（東京都公園協会の公園ページ）",
+        "group": "都立公園・国営公園・海上公園",
+        "url": "https://www.tokyo-park.or.jp/park/johoku-chuo/"
+      },
+      {
+        "id": "ai_tpark_higashishirahige",
+        "label": "東白鬚公園（東京都公園協会の公園ページ）",
+        "group": "都立公園・国営公園・海上公園",
+        "url": "https://www.tokyo-park.or.jp/park/higashi-shirahige/"
+      },
+      {
+        "id": "ai_tpark_aoyama",
+        "label": "青山公園（東京都公園協会の公園ページ）",
+        "group": "都立公園・国営公園・海上公園",
+        "url": "https://www.tokyo-park.or.jp/park/aoyama/"
+      },
+      {
+        "id": "ai_park_kasai_official",
+        "label": "葛西臨海公園（公式）",
+        "group": "都立公園・国営公園・海上公園",
+        "url": "https://kasaikaihinpark.com/"
+      },
+      {
+        "id": "ai_park_seaside_south",
+        "label": "東京港 南部海上公園（お台場・城南島など）",
+        "group": "都立公園・国営公園・海上公園",
+        "url": "https://tokyo-south-seaside-parks.com/"
+      },
+      {
+        "id": "ai_park_uminomori",
+        "label": "海の森公園",
+        "group": "都立公園・国営公園・海上公園",
+        "url": "https://uminomoripark.com/"
+      },
+      {
+        "id": "ai_park_tptc",
+        "label": "東京港埠頭（海上公園のイベント）",
+        "group": "都立公園・国営公園・海上公園",
+        "url": "https://www.tptc.co.jp/"
+      },
+      {
+        "id": "ai_park_showakinen_top",
+        "label": "国営昭和記念公園（公式）",
+        "group": "都立公園・国営公園・海上公園",
+        "url": "https://www.showakinen-koen.jp/"
+      },
+      {
+        "id": "ai_tokyo_zoo",
+        "label": "東京動物園協会（多摩動物公園・井の頭自然文化園ほか）",
+        "group": "動物園・水族館・博物館・美術館・科学館",
+        "url": "https://www.tokyo-zoo.net/"
+      },
+      {
+        "id": "ai_park_yumenoshima",
+        "label": "夢の島熱帯植物館",
+        "group": "動物園・水族館・博物館・美術館・科学館",
+        "url": "https://www.yumenoshima-nettai.com/"
+      },
+      {
+        "id": "ai_fac_galaxcity",
+        "label": "ギャラクシティ（足立区）",
+        "group": "動物園・水族館・博物館・美術館・科学館",
+        "url": "https://www.galaxcity.jp/"
+      },
+      {
+        "id": "ai_fac_sumida_aquarium",
+        "label": "すみだ水族館",
+        "group": "動物園・水族館・博物館・美術館・科学館",
+        "url": "https://www.sumida-aquarium.com/"
+      },
+      {
+        "id": "ai_fac_mizunokagaku",
+        "label": "水の科学館",
+        "group": "動物園・水族館・博物館・美術館・科学館",
+        "url": "https://www.mizunokagaku.jp/"
+      },
+      {
+        "id": "ai_fac_tnm",
+        "label": "東京国立博物館",
+        "group": "動物園・水族館・博物館・美術館・科学館",
+        "url": "https://www.tnm.jp/"
+      },
+      {
+        "id": "ai_fac_miraikan",
+        "label": "日本科学未来館",
+        "group": "動物園・水族館・博物館・美術館・科学館",
+        "url": "https://www.miraikan.jst.go.jp/"
+      },
+      {
+        "id": "ai_fac_mot",
+        "label": "東京都現代美術館",
+        "group": "動物園・水族館・博物館・美術館・科学館",
+        "url": "https://www.mot-art-museum.jp/"
+      },
+      {
+        "id": "ai_fac_tobikan",
+        "label": "東京都美術館",
+        "group": "動物園・水族館・博物館・美術館・科学館",
+        "url": "https://www.tobikan.jp/"
+      },
+      {
+        "id": "ai_fac_edo_tokyo",
+        "label": "江戸東京博物館",
+        "group": "動物園・水族館・博物館・美術館・科学館",
+        "url": "https://www.edo-tokyo-museum.or.jp/"
+      },
+      {
+        "id": "ai_fac_teien",
+        "label": "東京都庭園美術館",
+        "group": "動物園・水族館・博物館・美術館・科学館",
+        "url": "https://www.teien-art-museum.ne.jp/"
+      },
+      {
+        "id": "ai_fac_fire_museum",
+        "label": "新宿消防博物館",
+        "group": "動物園・水族館・博物館・美術館・科学館",
+        "url": "https://www.shinjuku-fire-museum.jp/"
+      },
+      {
+        "id": "ai_fac_chihiro",
+        "label": "ちひろ美術館",
+        "group": "動物園・水族館・博物館・美術館・科学館",
+        "url": "https://chihiro.jp/"
+      },
+      {
+        "id": "ai_yomiuriland",
+        "label": "よみうりランド（稲城市）",
+        "group": "テーマパーク・遊園地・大型商業施設",
+        "url": "https://www.yomiuriland.com/event/"
+      },
+      {
+        "id": "ai_puroland",
+        "label": "サンリオピューロランド（多摩市）",
+        "group": "テーマパーク・遊園地・大型商業施設",
+        "url": "https://www.puroland.jp/"
+      },
+      {
+        "id": "ai_tokyo_dome_city",
+        "label": "東京ドームシティ（文京区）",
+        "group": "テーマパーク・遊園地・大型商業施設",
+        "url": "https://www.tokyo-dome.co.jp/event/"
+      },
+      {
+        "id": "ai_wb_studio_tour",
+        "label": "ワーナー ブラザース スタジオツアー東京（練馬区）",
+        "group": "テーマパーク・遊園地・大型商業施設",
+        "url": "https://www.wbstudiotour.jp/"
+      },
+      {
+        "id": "ai_fac_skytree",
+        "label": "東京スカイツリー",
+        "group": "テーマパーク・遊園地・大型商業施設",
+        "url": "https://www.tokyo-skytree.jp/"
+      },
+      {
+        "id": "ai_fac_solamachi",
+        "label": "東京ソラマチ（イベント）",
+        "group": "テーマパーク・遊園地・大型商業施設",
+        "url": "https://www.tokyo-solamachi.jp/event/"
+      },
+      {
+        "id": "ai_fac_hanayashiki",
+        "label": "浅草花やしき",
+        "group": "テーマパーク・遊園地・大型商業施設",
+        "url": "https://www.hanayashiki.net/"
+      },
+      {
+        "id": "ai_fac_joypolis",
+        "label": "東京ジョイポリス",
+        "group": "テーマパーク・遊園地・大型商業施設",
+        "url": "https://tokyo-joypolis.com/"
+      },
+      {
+        "id": "ai_fac_sunshine",
+        "label": "サンシャインシティ",
+        "group": "テーマパーク・遊園地・大型商業施設",
+        "url": "https://sunshinecity.jp/event/"
+      },
+      {
+        "id": "ai_fac_legoland",
+        "label": "レゴランド・ディスカバリー・センター東京",
+        "group": "テーマパーク・遊園地・大型商業施設",
+        "url": "https://www.legoland.jp/"
+      },
+      {
+        "id": "ai_fac_tdl",
+        "label": "東京ディズニーランド（千葉県浦安市）",
+        "group": "テーマパーク・遊園地・大型商業施設",
+        "url": "https://www.tokyodisneyresort.jp/tdl/"
+      },
+      {
+        "id": "ai_tcvb",
+        "label": "東京観光財団（都内地域のイベント）",
+        "group": "東京都・観光財団",
+        "url": "https://www.tcvb.or.jp/"
+      },
+      {
+        "id": "ai_metro_kodomo_smile",
+        "label": "東京都こどもスマイルムーブメント",
+        "group": "東京都・観光財団",
+        "url": "https://kodomo-smile.metro.tokyo.lg.jp/"
+      },
+      {
+        "id": "ai_metro_metro",
+        "label": "東京都（報道発表・イベント）",
+        "group": "東京都・観光財団",
+        "url": "https://www.metro.tokyo.lg.jp/"
+      },
+      {
+        "id": "ai_city_urayasu",
+        "label": "浦安市（千葉県）公式サイト・イベントカレンダー",
+        "group": "市部の自治体公式サイト（多摩20市＋浦安市）",
+        "url": "https://www.city.urayasu.lg.jp/event_calendar.html"
+      },
+      {
+        "id": "ai_tpark_inokashira",
+        "label": "井の頭恩賜公園（東京都公園協会の公園ページ）",
+        "group": "都立公園・国営公園・海上公園",
+        "url": "https://www.tokyo-park.or.jp/park/inokashira/"
+      },
+      {
+        "id": "ai_tpark_ueno",
+        "label": "上野恩賜公園（東京都公園協会の公園ページ）",
+        "group": "都立公園・国営公園・海上公園",
+        "url": "https://www.tokyo-park.or.jp/park/ueno/"
+      },
+      {
+        "id": "ai_tpark_jindai",
+        "label": "神代植物公園（東京都公園協会の公園ページ）",
+        "group": "都立公園・国営公園・海上公園",
+        "url": "https://www.tokyo-park.or.jp/park/jindai/"
+      },
+      {
+        "id": "ai_tpark_koganei",
+        "label": "小金井公園（東京都公園協会の公園ページ）",
+        "group": "都立公園・国営公園・海上公園",
+        "url": "https://www.tokyo-park.or.jp/park/koganei/"
+      },
+      {
+        "id": "ai_tpark_event_search",
+        "label": "東京都公園協会 イベント検索（全公園）",
+        "group": "都立公園・国営公園・海上公園",
+        "url": "https://www.tokyo-park.or.jp/event_search/index.html"
+      },
+      {
+        "id": "ai_zoo_ueno",
+        "label": "上野動物園（イベント）",
+        "group": "動物園・水族館・博物館・美術館・科学館",
+        "url": "https://www.tokyo-zoo.net/ueno/events/index.html"
+      },
+      {
+        "id": "ai_zoo_inokashira",
+        "label": "井の頭自然文化園（イベント）",
+        "group": "動物園・水族館・博物館・美術館・科学館",
+        "url": "https://www.tokyo-zoo.net/inokashira/events/index.html"
+      },
+      {
+        "id": "ai_zoo_kasai",
+        "label": "葛西臨海水族園（イベント）",
+        "group": "動物園・水族館・博物館・美術館・科学館",
+        "url": "https://www.tokyo-zoo.net/kasai/events/index.html"
+      },
+      {
+        "id": "ai_fac_tds",
+        "label": "東京ディズニーシー（千葉県浦安市）",
+        "group": "テーマパーク・遊園地・大型商業施設",
+        "url": "https://www.tokyodisneyresort.jp/tds/"
+      },
+      {
+        "id": "ai_fac_tdr_christmas",
+        "label": "東京ディズニーリゾート ディズニー・クリスマス（千葉県浦安市）",
+        "group": "テーマパーク・遊園地・大型商業施設",
+        "url": "https://www.tokyodisneyresort.jp/treasure/christmas2026/tdl/"
+      },
+      {
+        "id": "ai_fac_hanayashiki_event",
+        "label": "浅草花やしき イベント・ステージ（台東区）",
+        "group": "テーマパーク・遊園地・大型商業施設",
+        "url": "https://www.hanayashiki.net/event_this/"
+      },
+      {
+        "id": "ai_fac_sunshine_tenbo",
+        "label": "サンシャイン60展望台 てんぼうパーク イベント（豊島区）",
+        "group": "テーマパーク・遊園地・大型商業施設",
+        "url": "https://sunshinecity.jp/observatory/event/"
+      }
+    ],
+    "group_order": [
+      "市部の自治体公式サイト（多摩20市＋浦安市）",
+      "23区の自治体公式サイト",
+      "都立公園・国営公園・海上公園",
+      "動物園・水族館・博物館・美術館・科学館",
+      "テーマパーク・遊園地・大型商業施設",
+      "東京都・観光財団"
+    ]
+  },
+  "visit_status": {
+    "checked_on": "2026-11-22",
+    "method": "GitHub Actionsからの読み取り専用取得（第65回）。1ページ目のみ。",
+    "sites": {
+      "sumida": {
+        "state": "read",
+        "note": "HTTP 200・本文約2271文字・日付表記15件"
+      },
+      "asakusa": {
+        "state": "read",
+        "note": "HTTP 200・本文約2229文字・日付表記13件"
+      },
+      "ueno": {
+        "state": "read",
+        "note": "HTTP 200・本文約4935文字・日付表記93件"
+      },
+      "akihabara": {
+        "state": "read",
+        "note": "HTTP 200・本文約2009文字・日付表記12件"
+      },
+      "hibiya": {
+        "state": "read",
+        "note": "HTTP 200・本文約2819文字・日付表記21件"
+      },
+      "ikebukuro": {
+        "state": "read",
+        "note": "HTTP 200・本文約3388文字・日付表記66件"
+      },
+      "shinjuku": {
+        "state": "read",
+        "note": "HTTP 200・本文約2371文字・日付表記17件"
+      },
+      "nakano": {
+        "state": "read",
+        "note": "HTTP 200・本文約2122文字・日付表記6件"
+      },
+      "yoyogi": {
+        "state": "read",
+        "note": "HTTP 200・本文約3188文字・日付表記41件"
+      },
+      "shibuya": {
+        "state": "read",
+        "note": "HTTP 200・本文約2506文字・日付表記25件"
+      },
+      "roppongi": {
+        "state": "read",
+        "note": "HTTP 200・本文約3400文字・日付表記57件"
+      },
+      "toyosu": {
+        "state": "read",
+        "note": "HTTP 200・本文約2301文字・日付表記17件"
+      },
+      "odaiba": {
+        "state": "read",
+        "note": "HTTP 200・本文約2703文字・日付表記28件"
+      },
+      "shinagawa": {
+        "state": "read",
+        "note": "HTTP 200・本文約2821文字・日付表記42件"
+      },
+      "tachikawa": {
+        "state": "read",
+        "note": "HTTP 200・本文約2207文字・日付表記13件"
+      },
+      "iterrace": {
+        "state": "read",
+        "note": "HTTP 200・本文約2100文字・日付表記15件"
+      },
+      "nerimakanko": {
+        "state": "read",
+        "note": "HTTP 200・本文約2252文字・日付表記23件"
+      },
+      "suginami_festival": {
+        "state": "no_body",
+        "note": "HTTP 200・本文約682文字・日付表記0件（画面表示で本文なしの可能性）"
+      },
+      "nerima_district_festivals_2026": {
+        "state": "read",
+        "note": "HTTP 200・本文約3122文字・日付表記32件"
+      },
+      "nakano_official_tourism": {
+        "state": "read",
+        "note": "HTTP 200・本文約2525文字・日付表記34件"
+      },
+      "itabashi_official_festival": {
+        "state": "no_body",
+        "note": "HTTP 200・本文約1063文字・日付表記0件（画面表示で本文なしの可能性）"
+      },
+      "itabashi_tourism_festival": {
+        "state": "read",
+        "note": "HTTP 200・本文約7829文字・日付表記4件"
+      },
+      "tamemap_nakano": {
+        "state": "failed",
+        "note": "HTTP 403"
+      },
+      "itabashi_times_event": {
+        "state": "read",
+        "note": "HTTP 200・本文約2752文字・日付表記82件"
+      },
+      "suginami_calendar_all": {
+        "state": "no_body",
+        "note": "HTTP 200・本文約682文字・日付表記0件（画面表示で本文なしの可能性）"
+      },
+      "nerima_forest_festa_2026": {
+        "state": "read",
+        "note": "HTTP 200・本文約5051文字・日付表記42件"
+      },
+      "shinjuku_sankaku_hiroba": {
+        "state": "read",
+        "note": "HTTP 200・本文約2279文字・日付表記22件"
+      },
+      "ai_city_musashino": {
+        "state": "read",
+        "note": "HTTP 200・本文約3926文字・日付表記35件"
+      },
+      "ai_city_mitaka": {
+        "state": "read",
+        "note": "HTTP 200・本文約1917文字・日付表記28件"
+      },
+      "ai_city_chofu": {
+        "state": "read",
+        "note": "HTTP 200・本文約1353文字・日付表記6件"
+      },
+      "ai_city_fuchu": {
+        "state": "read",
+        "note": "HTTP 200・本文約2047文字・日付表記23件"
+      },
+      "ai_city_koganei": {
+        "state": "read",
+        "note": "HTTP 200・本文約1700文字・日付表記9件"
+      },
+      "ai_city_kodaira": {
+        "state": "read",
+        "note": "HTTP 200・本文約2892文字・日付表記13件"
+      },
+      "ai_city_kokubunji": {
+        "state": "read",
+        "note": "HTTP 200・本文約2531文字・日付表記25件"
+      },
+      "ai_city_kunitachi": {
+        "state": "read",
+        "note": "HTTP 200・本文約1560文字・日付表記11件"
+      },
+      "ai_city_tachikawa": {
+        "state": "read",
+        "note": "HTTP 200・本文約4192文字・日付表記16件"
+      },
+      "ai_city_akishima": {
+        "state": "no_body",
+        "note": "HTTP 200・本文約390文字・日付表記0件（画面表示で本文なしの可能性）"
+      },
+      "ai_city_hino": {
+        "state": "no_body",
+        "note": "HTTP 200・本文約3126文字・日付表記2件（画面表示で本文なしの可能性）"
+      },
+      "ai_city_nishitokyo": {
+        "state": "read",
+        "note": "HTTP 200・本文約2478文字・日付表記15件"
+      },
+      "ai_city_higashikurume": {
+        "state": "read",
+        "note": "HTTP 200・本文約2699文字・日付表記10件"
+      },
+      "ai_city_kiyose": {
+        "state": "read",
+        "note": "HTTP 200・本文約2506文字・日付表記7件"
+      },
+      "ai_city_higashimurayama": {
+        "state": "read",
+        "note": "HTTP 200・本文約2958文字・日付表記18件"
+      },
+      "ai_city_komae": {
+        "state": "read",
+        "note": "HTTP 200・本文約1594文字・日付表記23件"
+      },
+      "ai_city_tama": {
+        "state": "read",
+        "note": "HTTP 200・本文約2665文字・日付表記17件"
+      },
+      "ai_city_inagi": {
+        "state": "read",
+        "note": "HTTP 200・本文約2456文字・日付表記13件"
+      },
+      "ai_city_machida": {
+        "state": "read",
+        "note": "HTTP 200・本文約2893文字・日付表記8件"
+      },
+      "ai_city_hachioji": {
+        "state": "no_body",
+        "note": "HTTP 200・本文約2134文字・日付表記2件（画面表示で本文なしの可能性）"
+      },
+      "ai_ward_chiyoda": {
+        "state": "read",
+        "note": "HTTP 200・本文約2262文字・日付表記30件"
+      },
+      "ai_ward_chuo": {
+        "state": "read",
+        "note": "HTTP 200・本文約1235文字・日付表記6件"
+      },
+      "ai_ward_minato": {
+        "state": "read",
+        "note": "HTTP 200・本文約1536文字・日付表記15件"
+      },
+      "ai_ward_shinjuku": {
+        "state": "read",
+        "note": "HTTP 200・本文約2161文字・日付表記12件"
+      },
+      "ai_ward_bunkyo": {
+        "state": "no_body",
+        "note": "HTTP 200・本文約1761文字・日付表記1件（画面表示で本文なしの可能性）"
+      },
+      "ai_ward_taito": {
+        "state": "read",
+        "note": "HTTP 200・本文約2555文字・日付表記31件"
+      },
+      "ai_ward_sumida": {
+        "state": "read",
+        "note": "HTTP 200・本文約3282文字・日付表記12件"
+      },
+      "ai_ward_koto": {
+        "state": "read",
+        "note": "HTTP 200・本文約1151文字・日付表記7件"
+      },
+      "ai_ward_shinagawa": {
+        "state": "read",
+        "note": "HTTP 200・本文約3449文字・日付表記8件"
+      },
+      "ai_ward_meguro": {
+        "state": "read",
+        "note": "HTTP 200・本文約4584文字・日付表記76件"
+      },
+      "ai_ward_ota": {
+        "state": "read",
+        "note": "HTTP 200・本文約1911文字・日付表記12件"
+      },
+      "ai_ward_setagaya": {
+        "state": "read",
+        "note": "HTTP 200・本文約2515文字・日付表記35件"
+      },
+      "ai_ward_suginami": {
+        "state": "read",
+        "note": "HTTP 200・本文約1410文字・日付表記12件"
+      },
+      "ai_ward_toshima": {
+        "state": "read",
+        "note": "HTTP 200・本文約1668文字・日付表記24件"
+      },
+      "ai_ward_kita": {
+        "state": "read",
+        "note": "HTTP 200・本文約3710文字・日付表記12件"
+      },
+      "ai_ward_arakawa": {
+        "state": "read",
+        "note": "HTTP 200・本文約1393文字・日付表記10件"
+      },
+      "ai_ward_itabashi": {
+        "state": "read",
+        "note": "HTTP 200・本文約2720文字・日付表記6件"
+      },
+      "ai_ward_nerima": {
+        "state": "read",
+        "note": "HTTP 200・本文約1754文字・日付表記29件"
+      },
+      "ai_ward_adachi": {
+        "state": "read",
+        "note": "HTTP 200・本文約2683文字・日付表記19件"
+      },
+      "ai_ward_katsushika": {
+        "state": "read",
+        "note": "HTTP 200・本文約2730文字・日付表記8件"
+      },
+      "ai_ward_edogawa": {
+        "state": "read",
+        "note": "HTTP 200・本文約1113文字・日付表記7件"
+      },
+      "ai_ward_shibuya": {
+        "state": "read",
+        "note": "HTTP 200・本文約2318文字・日付表記17件"
+      },
+      "ai_ward_nakano": {
+        "state": "read",
+        "note": "HTTP 200・本文約1281文字・日付表記9件"
+      },
+      "ai_ward_nakano_kanko": {
+        "state": "read",
+        "note": "HTTP 200・本文約2525文字・日付表記34件"
+      },
+      "ai_ward_nakano_event": {
+        "state": "read",
+        "note": "HTTP 200・本文約2122文字・日付表記6件"
+      },
+      "ai_ward_shibuya_pgc": {
+        "state": "read",
+        "note": "HTTP 200・本文約5769文字・日付表記10件"
+      },
+      "ai_showakinen": {
+        "state": "read",
+        "note": "HTTP 200・本文約2106文字・日付表記36件"
+      },
+      "ai_tokyo_park": {
+        "state": "failed",
+        "note": "HTTP 404"
+      },
+      "ai_tpark_yoyogi": {
+        "state": "no_body",
+        "note": "HTTP 200・公園の紹介ページ（イベントは「お知らせ」「イベント」の別ページにあり、個別取得が必要）"
+      },
+      "ai_tpark_hibiya": {
+        "state": "no_body",
+        "note": "HTTP 200・公園の紹介ページ（イベントは「お知らせ」「イベント」の別ページにあり、個別取得が必要）"
+      },
+      "ai_tpark_hikarigaoka": {
+        "state": "no_body",
+        "note": "HTTP 200・公園の紹介ページ（イベントは「お知らせ」「イベント」の別ページにあり、個別取得が必要）"
+      },
+      "ai_tpark_kasairinkai": {
+        "state": "no_body",
+        "note": "HTTP 200・公園の紹介ページ（イベントは「お知らせ」「イベント」の別ページにあり、個別取得が必要）"
+      },
+      "ai_tpark_shakujii": {
+        "state": "no_body",
+        "note": "HTTP 200・公園の紹介ページ（イベントは「お知らせ」「イベント」の別ページにあり、個別取得が必要）"
+      },
+      "ai_tpark_kiba": {
+        "state": "no_body",
+        "note": "HTTP 200・公園の紹介ページ（イベントは「お知らせ」「イベント」の別ページにあり、個別取得が必要）"
+      },
+      "ai_tpark_akatsuka": {
+        "state": "no_body",
+        "note": "HTTP 200・公園の紹介ページ（イベントは「お知らせ」「イベント」の別ページにあり、個別取得が必要）"
+      },
+      "ai_tpark_wadabori": {
+        "state": "no_body",
+        "note": "HTTP 200・公園の紹介ページ（イベントは「お知らせ」「イベント」の別ページにあり、個別取得が必要）"
+      },
+      "ai_tpark_ukima": {
+        "state": "no_body",
+        "note": "HTTP 200・公園の紹介ページ（イベントは「お知らせ」「イベント」の別ページにあり、個別取得が必要）"
+      },
+      "ai_tpark_toneri": {
+        "state": "no_body",
+        "note": "HTTP 200・公園の紹介ページ（イベントは「お知らせ」「イベント」の別ページにあり、個別取得が必要）"
+      },
+      "ai_tpark_siba": {
+        "state": "no_body",
+        "note": "HTTP 200・公園の紹介ページ（イベントは「お知らせ」「イベント」の別ページにあり、個別取得が必要）"
+      },
+      "ai_tpark_shinozaki": {
+        "state": "no_body",
+        "note": "HTTP 200・公園の紹介ページ（イベントは「お知らせ」「イベント」の別ページにあり、個別取得が必要）"
+      },
+      "ai_tpark_mizumoto": {
+        "state": "no_body",
+        "note": "HTTP 200・公園の紹介ページ（イベントは「お知らせ」「イベント」の別ページにあり、個別取得が必要）"
+      },
+      "ai_tpark_soshigaya": {
+        "state": "no_body",
+        "note": "HTTP 200・公園の紹介ページ（イベントは「お知らせ」「イベント」の別ページにあり、個別取得が必要）"
+      },
+      "ai_tpark_toyama": {
+        "state": "no_body",
+        "note": "HTTP 200・公園の紹介ページ（イベントは「お知らせ」「イベント」の別ページにあり、個別取得が必要）"
+      },
+      "ai_tpark_takaido": {
+        "state": "no_body",
+        "note": "HTTP 200・公園の紹介ページ（イベントは「お知らせ」「イベント」の別ページにあり、個別取得が必要）"
+      },
+      "ai_tpark_zenpukuji": {
+        "state": "no_body",
+        "note": "HTTP 200・公園の紹介ページ（イベントは「お知らせ」「イベント」の別ページにあり、個別取得が必要）"
+      },
+      "ai_tpark_shioiri": {
+        "state": "no_body",
+        "note": "HTTP 200・公園の紹介ページ（イベントは「お知らせ」「イベント」の別ページにあり、個別取得が必要）"
+      },
+      "ai_tpark_rinshinomori": {
+        "state": "no_body",
+        "note": "HTTP 200・公園の紹介ページ（イベントは「お知らせ」「イベント」の別ページにあり、個別取得が必要）"
+      },
+      "ai_tpark_nerimajoshi": {
+        "state": "no_body",
+        "note": "HTTP 200・公園の紹介ページ（イベントは「お知らせ」「イベント」の別ページにあり、個別取得が必要）"
+      },
+      "ai_tpark_komazawa": {
+        "state": "failed",
+        "note": "HTTP 404"
+      },
+      "ai_tpark_kinuta": {
+        "state": "no_body",
+        "note": "HTTP 200・公園の紹介ページ（イベントは「お知らせ」「イベント」の別ページにあり、個別取得が必要）"
+      },
+      "ai_tpark_johoku_chuo": {
+        "state": "failed",
+        "note": "HTTP 404"
+      },
+      "ai_tpark_higashishirahige": {
+        "state": "failed",
+        "note": "HTTP 404"
+      },
+      "ai_tpark_aoyama": {
+        "state": "no_body",
+        "note": "HTTP 200・公園の紹介ページ（イベントは「お知らせ」「イベント」の別ページにあり、個別取得が必要）"
+      },
+      "ai_park_kasai_official": {
+        "state": "read",
+        "note": "HTTP 200・本文約2042文字・日付表記15件"
+      },
+      "ai_park_seaside_south": {
+        "state": "read",
+        "note": "HTTP 200・本文約2858文字・日付表記18件"
+      },
+      "ai_park_uminomori": {
+        "state": "read",
+        "note": "HTTP 200・本文約1220文字・日付表記11件"
+      },
+      "ai_park_tptc": {
+        "state": "read",
+        "note": "HTTP 200・本文約2004文字・日付表記10件"
+      },
+      "ai_park_showakinen_top": {
+        "state": "read",
+        "note": "HTTP 200・本文約2130文字・日付表記38件"
+      },
+      "ai_tokyo_zoo": {
+        "state": "read",
+        "note": "HTTP 200・本文約18759文字・日付表記483件"
+      },
+      "ai_park_yumenoshima": {
+        "state": "failed",
+        "note": "接続できず（タイムアウトまたは拒否）"
+      },
+      "ai_fac_galaxcity": {
+        "state": "read",
+        "note": "HTTP 200・本文約1934文字・日付表記15件"
+      },
+      "ai_fac_sumida_aquarium": {
+        "state": "read",
+        "note": "HTTP 200・本文約59118文字・日付表記37件"
+      },
+      "ai_fac_mizunokagaku": {
+        "state": "no_body",
+        "note": "HTTP 200・本文約959文字・日付表記11件（画面表示で本文なしの可能性）"
+      },
+      "ai_fac_tnm": {
+        "state": "read",
+        "note": "HTTP 200・本文約5383文字・日付表記36件"
+      },
+      "ai_fac_miraikan": {
+        "state": "read",
+        "note": "HTTP 200・本文約1996文字・日付表記8件"
+      },
+      "ai_fac_mot": {
+        "state": "failed",
+        "note": "HTTP 403"
+      },
+      "ai_fac_tobikan": {
+        "state": "read",
+        "note": "HTTP 200・本文約2294文字・日付表記28件"
+      },
+      "ai_fac_edo_tokyo": {
+        "state": "read",
+        "note": "HTTP 200・本文約2682文字・日付表記24件"
+      },
+      "ai_fac_teien": {
+        "state": "read",
+        "note": "HTTP 200・本文約1815文字・日付表記12件"
+      },
+      "ai_fac_fire_museum": {
+        "state": "failed",
+        "note": "接続できず（タイムアウトまたは拒否）"
+      },
+      "ai_fac_chihiro": {
+        "state": "read",
+        "note": "HTTP 200・本文約3021文字・日付表記26件"
+      },
+      "ai_yomiuriland": {
+        "state": "read",
+        "note": "HTTP 200・本文約1611文字・日付表記22件"
+      },
+      "ai_puroland": {
+        "state": "read",
+        "note": "HTTP 200・本文約1311文字・日付表記4件"
+      },
+      "ai_tokyo_dome_city": {
+        "state": "read",
+        "note": "HTTP 200・本文約2650文字・日付表記47件"
+      },
+      "ai_wb_studio_tour": {
+        "state": "read",
+        "note": "HTTP 200・本文約2387文字・日付表記8件"
+      },
+      "ai_fac_skytree": {
+        "state": "read",
+        "note": "HTTP 200・本文約5924文字・日付表記45件"
+      },
+      "ai_fac_solamachi": {
+        "state": "read",
+        "note": "HTTP 200・本文約2062文字・日付表記47件"
+      },
+      "ai_fac_hanayashiki": {
+        "state": "read",
+        "note": "HTTP 200・本文約1695文字・日付表記43件"
+      },
+      "ai_fac_joypolis": {
+        "state": "read",
+        "note": "HTTP 200・本文約2431文字・日付表記33件"
+      },
+      "ai_fac_sunshine": {
+        "state": "read",
+        "note": "HTTP 200・本文約4153文字・日付表記45件"
+      },
+      "ai_fac_legoland": {
+        "state": "read",
+        "note": "HTTP 200・本文約7028文字・日付表記105件"
+      },
+      "ai_fac_tdl": {
+        "state": "failed",
+        "note": "接続できず（タイムアウトまたは拒否）"
+      },
+      "ai_tcvb": {
+        "state": "no_body",
+        "note": "HTTP 200・本文約0文字・日付表記0件（画面表示で本文なしの可能性）"
+      },
+      "ai_metro_kodomo_smile": {
+        "state": "read",
+        "note": "HTTP 200・本文約4124文字・日付表記26件"
+      },
+      "ai_metro_metro": {
+        "state": "read",
+        "note": "HTTP 200・本文約12108文字・日付表記75件"
+      },
+      "ai_city_urayasu": {
+        "state": "no_body",
+        "note": "HTTP 200・本文約1461文字・日付表記0件（画面表示で本文なしの可能性）"
+      },
+      "ai_tpark_inokashira": {
+        "state": "no_body",
+        "note": "HTTP 200・公園の紹介ページ（イベントは「お知らせ」「イベント」の別ページにあり、個別取得が必要）"
+      },
+      "ai_tpark_ueno": {
+        "state": "no_body",
+        "note": "HTTP 200・公園の紹介ページ（イベントは「お知らせ」「イベント」の別ページにあり、個別取得が必要）"
+      },
+      "ai_tpark_jindai": {
+        "state": "no_body",
+        "note": "HTTP 200・公園の紹介ページ（イベントは「お知らせ」「イベント」の別ページにあり、個別取得が必要）"
+      },
+      "ai_tpark_koganei": {
+        "state": "no_body",
+        "note": "HTTP 200・公園の紹介ページ（イベントは「お知らせ」「イベント」の別ページにあり、個別取得が必要）"
+      },
+      "ai_tpark_event_search": {
+        "state": "read",
+        "note": "HTTP 200・本文約2725文字・日付表記32件"
+      },
+      "ai_zoo_ueno": {
+        "state": "no_body",
+        "note": "HTTP 200・本文約1934文字・日付表記0件（画面表示で本文なしの可能性）"
+      },
+      "ai_zoo_inokashira": {
+        "state": "no_body",
+        "note": "HTTP 200・本文約1697文字・日付表記0件（画面表示で本文なしの可能性）"
+      },
+      "ai_zoo_kasai": {
+        "state": "no_body",
+        "note": "HTTP 200・本文約1757文字・日付表記0件（画面表示で本文なしの可能性）"
+      },
+      "ai_fac_tds": {
+        "state": "failed",
+        "note": "接続できず（タイムアウトまたは拒否）"
+      },
+      "ai_fac_tdr_christmas": {
+        "state": "failed",
+        "note": "接続できず（タイムアウトまたは拒否）"
+      },
+      "ai_fac_hanayashiki_event": {
+        "state": "no_body",
+        "note": "HTTP 200・本文約343文字・日付表記0件（画面表示で本文なしの可能性）"
+      },
+      "ai_fac_sunshine_tenbo": {
+        "state": "no_body",
+        "note": "HTTP 200・本文約514文字・日付表記0件（画面表示で本文なしの可能性）"
+      },
+      "greensprings_tachikawa": {
+        "state": "read",
+        "note": "HTTP 200・イベント一覧7件（第75回取得、個別ページも取得）"
+      },
+      "futako_tamagawa_rise": {
+        "state": "read",
+        "note": "HTTP 200・イベント37件（第76回取得、個別ページ15件も取得）"
+      },
+      "chuosen_rr_suginami": {
+        "state": "read",
+        "note": "HTTP 200・イベント一覧15件（第77回取得、個別ページも取得）"
+      },
+      "hachilabo_shibuya": {
+        "state": "read",
+        "note": "HTTP 200・月別イベント一覧と特別展ページ（第80回取得、個別ページも取得）"
+      }
+    }
+  }
 }

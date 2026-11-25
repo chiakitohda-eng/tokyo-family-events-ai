@@ -1,0 +1,95 @@
+{
+  "reviewed_on": "2026-11-13",
+  "base_data_production_sha": "16fce3b01284cc8dad338feba9a0fa7fb2970792",
+  "previous_ledgers": [
+    "research/nakano_content_review_20261113/review_ledger.json",
+    "research/hiromachi_review_20261113/review_addendum.json"
+  ],
+  "new_event_records": 7,
+  "priority_rows_resolved": 7,
+  "records": [
+    {
+      "candidate_id": "tamemap-calendar-159581-20261114",
+      "previous_status": "blocked_pending_evidence",
+      "status": "published",
+      "new_event_id": "reviewed-20261114-nakano-159581",
+      "evidence": "source_evidence.json",
+      "note": "名前/開催日/会場と家族の参加価値を照合。不明な二次項目は明示し、画像や問合せ受付時間から補わない。"
+    },
+    {
+      "candidate_id": "tamemap-calendar-160408-20261115",
+      "previous_status": "blocked_pending_evidence",
+      "status": "published",
+      "new_event_id": "reviewed-20261115-nakano-160408",
+      "evidence": "source_evidence.json",
+      "note": "名前/開催日/会場と家族の参加価値を照合。不明な二次項目は明示し、画像や問合せ受付時間から補わない。"
+    },
+    {
+      "candidate_id": "tamemap-calendar-146912-20261122",
+      "previous_status": "blocked_pending_evidence",
+      "status": "published",
+      "new_event_id": "reviewed-20261122-nakano-146912",
+      "evidence": "source_evidence.json",
+      "note": "名前/開催日/会場と家族の参加価値を照合。不明な二次項目は明示し、画像や問合せ受付時間から補わない。"
+    },
+    {
+      "candidate_id": "tamemap-calendar-153058-20261122",
+      "previous_status": "blocked_pending_evidence",
+      "status": "published",
+      "new_event_id": "reviewed-20261122-nakano-153058",
+      "evidence": "source_evidence.json",
+      "note": "名前/開催日/会場と家族の参加価値を照合。不明な二次項目は明示し、画像や問合せ受付時間から補わない。"
+    },
+    {
+      "candidate_id": "tamemap-calendar-163150-20261122",
+      "previous_status": "blocked_pending_evidence",
+      "status": "published",
+      "new_event_id": "reviewed-20261122-nakano-163150",
+      "evidence": "source_evidence.json",
+      "note": "名前/開催日/会場と家族の参加価値を照合。不明な二次項目は明示し、画像や問合せ受付時間から補わない。"
+    },
+    {
+      "candidate_id": "tamemap-calendar-163358-20261122",
+      "previous_status": "blocked_pending_evidence",
+      "status": "published",
+      "new_event_id": "reviewed-20261122-nakano-163358",
+      "evidence": "source_evidence.json",
+      "note": "名前/開催日/会場と家族の参加価値を照合。不明な二次項目は明示し、画像や問合せ受付時間から補わない。"
+    },
+    {
+      "candidate_id": "tamemap-calendar-102229-20261123",
+      "previous_status": "blocked_pending_evidence",
+      "status": "published",
+      "new_event_id": "reviewed-20261123-nakano-102229",
+      "evidence": "source_evidence.json",
+      "note": "名前/開催日/会場と家族の参加価値を照合。不明な二次項目は明示し、画像や問合せ受付時間から補わない。"
+    }
+  ],
+  "full_pool_review_complete": false,
+  "github_actions_tamemap_403_resolved": false,
+  "remaining_priority_held": 47,
+  "outside_priority_rows_not_fully_assessed": 350,
+  "uncertain_secondary_fields_remain_explicit": true,
+  "publication": {
+    "data_production_sha": "81dd7269a6f0683c635db8491d137b12b50f3707",
+    "snapshot": "data-release/2026-11-13-r642",
+    "workflow_run_id": 43429130812,
+    "frozen_candidate_validation_run": 43428793526,
+    "total_records": 227,
+    "old_records_preserved": 220,
+    "old_records_changed": 0,
+    "old_records_removed": 0,
+    "public_runtime_verified": true,
+    "browser_verified": {
+      "153058_unknown_registration": true,
+      "102229_unknown_registration": true,
+      "102229_monthly_membership_fee_visible": true,
+      "159581_unknown_fee": true,
+      "163150_visible": true
+    },
+    "display_limitations": [
+      "開催時刻未記載6件は空欄/要確認。",
+      "表示の確認日は既存の週単位監査日を使用する。今回の個別取得日はsource_evidence.jsonと個票evidence.checked_atに保存。週全体を11/13に再確認したようには書き換えない。"
+    ]
+  }
+}

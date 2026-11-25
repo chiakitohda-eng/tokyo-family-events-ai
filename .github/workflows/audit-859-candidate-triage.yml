@@ -1,0 +1,76 @@
+name: Audit all 859 real source leads against live six-week published decisions (read only)
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/audit-859-candidate-triage.yml']
+  workflow_dispatch: {}
+permissions:
+  contents: read
+  actions: read
+jobs:
+  reconcile:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Checkout staging audit script
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          path: inspector
+      - name: Checkout currently published data
+        uses: actions/checkout@v4
+        with:
+          ref: data-production
+          path: published
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Acquire immutable real 859-link crawl evidence (not invented)
+        uses: actions/download-artifact@v4
+        with:
+          artifact-ids: 13614807598
+          run-id: 42475157453
+          github-token: ${{ github.token }}
+          path: evidence
+      - name: Cross-check current live branch and immutable source evidence
+        run: |
+          test "$(git -C published rev-parse HEAD)" = "0dc84f68a3cd4ec3e32b8a28e6fa541b86f1dbe8"
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          e=json.loads(Path('evidence/nov08-current-23-ward-six-week-source-evidence/summary.json').read_text())
+          assert e['candidate_links_unverified']==859
+          assert e['required_source_failures_outstanding']
+          assert e['publishable'] is False
+          print('Read only crawl audit evidence verified; source failures kept.')
+          PY
+      - name: Classify all 859 links against every live event and reviewed decision
+        run: |
+          mkdir -p output
+          python3 inspector/tools/audit_859_candidate_links_20261109.py \
+            --evidence-dir evidence/nov08-current-23-ward-six-week-source-evidence \
+            --published-dir published/site/data \
+            --output-dir output
+      - name: Verify every item was accounted for without false publication
+        run: |
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          r=json.loads(Path('output/summary.json').read_text())
+          rows=json.loads(Path('output/all_859_triage.json').read_text())
+          assert r['classified_input_rows']==r['input_candidate_links']==len(rows)==859
+          assert r['publication_permitted'] is False
+          assert len({x['candidate_id'] for x in rows})==859
+          assert all(x['individual_organizer_detail_verified_in_this_audit'] is False for x in rows)
+          assert all(x['publication_approved_by_this_audit'] is False for x in rows)
+          assert len(r['required_source_failures'])==3
+          print('All 859 lead IDs accounted for, no unearned completed event-row audit.')
+          PY
+      - name: Save complete exact-ID report and unresolved work queue
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: all-859-candidates-triage-and-priority-queue
+          path: output/
+          retention-days: 30
+          if-no-files-found: warn

@@ -1,0 +1,66 @@
+{
+  "read_only": true,
+  "observed_on": "2026-11-13",
+  "checks": [
+    {
+      "url": "https://www.city.tokyo-nakano.lg.jp/kosodate/wakamonoshien/magokoromarche.html",
+      "checked_at": "2026-11-13T07:43:25+09:00",
+      "status": "checked",
+      "http_status": 200,
+      "final_url": "https://www.city.tokyo-nakano.lg.jp/kosodate/wakamonoshien/magokoromarche.html",
+      "content_type": "text/html",
+      "bytes": 17678,
+      "sha256": "6a9dd8a4a728b7bc4fc3ac560b980fc2c70dc3e96053a7e9509e438ecccdc0fb"
+    },
+    {
+      "url": "https://www.city.tokyo-nakano.lg.jp/kurashi/bunka/manabu/rekishiminzoku/kikakutenji/chiikiten1027.html",
+      "checked_at": "2026-11-13T07:44:51+09:00",
+      "status": "checked",
+      "http_status": 200,
+      "final_url": "https://www.city.tokyo-nakano.lg.jp/kurashi/bunka/manabu/rekishiminzoku/kikakutenji/chiikiten1027.html",
+      "content_type": "text/html",
+      "bytes": 17265,
+      "sha256": "7158aade2f815c2c5f1e3aeba17579a6dd7a123dd038372d797eb70b61f63ffe"
+    },
+    {
+      "url": "https://library.city.tokyo-nakano.lg.jp/event/?id=671",
+      "checked_at": "2026-11-13T07:44:57+09:00",
+      "status": "checked",
+      "http_status": 200,
+      "final_url": "https://library.city.tokyo-nakano.lg.jp/event/?id=671",
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 22371,
+      "sha256": "21c4d0f088a0c92626a3aeaf81085776e764fcdf4fc0eee1a8ea5352901b327e"
+    },
+    {
+      "url": "https://www.city.tokyo-nakano.lg.jp/kurashi/gomi/gomizero/furugi.html",
+      "checked_at": "2026-11-13T07:44:49+09:00",
+      "status": "checked",
+      "http_status": 200,
+      "final_url": "https://www.city.tokyo-nakano.lg.jp/kurashi/gomi/gomizero/furugi.html",
+      "content_type": "text/html",
+      "bytes": 18348,
+      "sha256": "28d71a7ad09e2efe06bff6ad4047b6b69b0ed8fd3fbe5054b5cb0438ec4c48a5"
+    },
+    {
+      "url": "https://www.city.tokyo-nakano.lg.jp/machizukuri/machizukuri/oshirase/TetsudoJobu.html",
+      "checked_at": "2026-11-13T07:45:57+09:00",
+      "status": "checked",
+      "http_status": 200,
+      "final_url": "https://www.city.tokyo-nakano.lg.jp/machizukuri/machizukuri/oshirase/TetsudoJobu.html",
+      "content_type": "text/html",
+      "bytes": 21173,
+      "sha256": "4ed3bb83c77da1eba5a48e8325ecd90059dd4341571e0cd40768184f5ed1b8c1"
+    },
+    {
+      "url": "https://www.city.tokyo-nakano.lg.jp/kurashi/bunka/manabu/rekishiminzoku/kikakutenji/rekimin_kikaku1103.html",
+      "checked_at": "2026-11-13T07:44:54+09:00",
+      "status": "checked",
+      "http_status": 200,
+      "final_url": "https://www.city.tokyo-nakano.lg.jp/kurashi/bunka/manabu/rekishiminzoku/kikakutenji/rekimin_kikaku1103.html",
+      "content_type": "text/html",
+      "bytes": 18951,
+      "sha256": "0604c38901b57b7151217e4cc8ed4713b28d5150902e3392d782456d6ad9039b"
+    }
+  ]
+}

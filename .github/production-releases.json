@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "current_public_release": "release/2026-10-28-r3",
+  "current_public_release": "release/2026-11-22-r970",
   "policy": {
     "snapshot_scope": "successfully_deployed_production_only",
     "rollback_scope": "entries_in_this_registry_only",
@@ -248,7 +248,223 @@
       "workflow_run_id": 40599359550,
       "public_version": "1.26",
       "note": "2026-10-28 JST ユーザー明示承認の本番アプリv1.26。日別利用棒グラフに希望者がこのブラウザで記録した利用回数をオレンジ色で重ね表示。オフ時非表示、他の利用者には端末内の記録を表示せず、ステージングはブラウザローカル記録の読み取り専用。現行production v1.25直系の隔離候補PR #75で5ファイルのみを反映。ステージングrun 40598698148と独立候補監査run 40599255425、Pages公開run 40599359550いずれもsuccess。既存匿名PV・セッション・コピー集計、検索/Canva/イベント個票/収集元/Cloudflare Worker/D1スキーマは不変。data-production SHA 1d1687321f82279d6e46899f1fc453169bba5b1d。以前のv1.25 release/2026-10-28-r2をロールバック候補として保持。"
+    },
+    {
+      "release_id": "release/2026-11-08-r1",
+      "branch": "release/2026-11-08-r1",
+      "commit_sha": "c1862e535c067b74149d9674efd54d08d0f66c02",
+      "deployed_at": "2026-11-08T10:18:02Z",
+      "workflow_run_id": 42470773391,
+      "public_version": "1.27",
+      "note": "2026-11-08 JST ユーザー承認の本番アプリv1.27。11月8日週の新規イベントを13件の継続掲載を除く実質16件（12/12週独立5件＋個別補完11件）として表示する、週次追加集計と検索/コピーの今週追加フィルタ修正。現行production v1.26からの隔離8ファイル差分をPR #83で反映。候補固定監査run 42470694934 success、ステージングrun 42470151716 success、メタデータのみのデータ本番公開run 42470399682 success、本番Pages run 42470773391 success。データ本体/採否/画像/コピー本文/Canva/既存イベントID変更0。登録必須参照元TamemapのHTTP403（3件）と候補リンク844件の全件審査未完了は引き続き未解決。data-production SHA 890cef441ec2dfcc6393989634eb080225d6d9c9。前版v1.26 release/2026-10-28-r3をロールバック保持。"
+    },
+    {
+      "release_id": "release/2026-11-13-r1",
+      "branch": "release/2026-11-13-r1",
+      "commit_sha": "01f04fe95ebe24e47a14ca53fea9536b1dc68f63",
+      "deployed_at": "2026-11-12T21:57:30Z",
+      "workflow_run_id": 43315121324,
+      "public_version": "1.28",
+      "note": "ユーザー明示承認の取得状況修正。productionはPR #102のカタログJSON1ファイルのみ更新。main PR #101で取得状況JSONの限定配信、Tamemap日付付きリンクと新着詳細URL抽出、再試行証跡・HTTP200チャレンジ判定、通常取得可能な作業環境からの代替収集を反映。回帰CI成功、Pages run43315121324成功、公開URLで板橋checked・Tamemap source_errorを確認。TamemapのGitHub403は未解消として保持し、手動環境の未検証候補430件は公開しない。data-production 0dc84f68a3cd4ec3e32b8a28e6fa541b86f1dbe8、現在6週間210件と全runtime blobは不変。mainの他のアプリ差分は昇格しない。"
+    },
+    {
+      "release_id": "release/2026-11-13-r2",
+      "branch": "release/2026-11-13-r2",
+      "commit_sha": "4f219260e0f315cb5789ac421cff94b9c190dbbf",
+      "deployed_at": "2026-11-12T23:08:46Z",
+      "workflow_run_id": 43326190478,
+      "public_version": "1.29",
+      "note": "ユーザー依頼の個別照合を実行。優先80候補行/61詳細本文を確認し、4既存重複・受付終了3行等を区別。独立確認した中野区6件をdata-only run43325412594で公開、data-production bd4ec22347d0d5cac1df1fa9e47fdd9e07b7356d/data-release2026-11-13-r633、旧210個票不変、総216件。productionはPR104の残課題カタログ1ファイル2文だけ変更し、Pages43326190478成功。保留58行・優先外350行の全件照合およびTamemap GitHub403は未解消。mainPR103の厳格な追加専用ガードは旧個票/採否/履歴/ソース失敗の改変を拒否。"
+    },
+    {
+      "release_id": "release/2026-11-13-r3",
+      "branch": "release/2026-11-13-r3",
+      "commit_sha": "aa22afcc2715ae2948139891c91c0393fb84299b",
+      "deployed_at": "2026-11-13T12:19:58Z",
+      "workflow_run_id": 43424123417,
+      "public_version": "1.30",
+      "note": "継続依頼に基づき前回保留4講座を公園公式予約詳細5画面で照合。data-only run43423712415で公開、data-production 16fce3b01284cc8dad338feba9a0fa7fb2970792 / data-release/2026-11-13-r637。旧216個票を完全保持して計220件。productionはPR106の残課題カタログ1ファイル2文のみ更新し、Pages43424123417成功。主催者公式で日時・年齢・料金・受付中を確認し、リトミック年齢別2クラスは1件。優先保留54行・優先外350行・Tamemap GitHub403は未解決。mainPR105の凍結ガードとStrict・回帰CI43423216345成功。アプリのその他差分は昇格しない。"
+    },
+    {
+      "release_id": "release/2026-11-13-r4",
+      "branch": "release/2026-11-13-r4",
+      "commit_sha": "ce64f0578f6df5a700fcc631350ec8669e323ed0",
+      "deployed_at": "2026-11-13T12:59:26Z",
+      "workflow_run_id": 43429674472,
+      "public_version": "1.31",
+      "note": "継続依頼に基づき前回保留7件（親子フラ・児童館開放・花植え・食堂2件・合唱・あかちゃん会）の開催日・会場を主催者本文/申込案内で照合し、data-only run43429130812で公開。data-production 81dd7269a6f0683c635db8491d137b12b50f3707 / data-release/2026-11-13-r642。旧220個票を保持して計227件。時刻未記載6件は要確認、施設月会費300円・別枠パントリー予約を明示。表示判定の誤解釈を注記文言で修正し回帰CI43428793526成功、実ブラウザでも申込不明2件と料金を検証。productionはPR108の残課題カタログ1ファイル2文だけ変更しPages43429674472成功。累計17件追加・優先保留47行・優先外350行を表示し、Tamemap GitHub403や全候補の照合は未解決のまま。main全体の未承認アプリ差分は昇格しない。"
+    },
+    {
+      "release_id": "release/2026-11-14-r1",
+      "branch": "release/2026-11-14-r1",
+      "commit_sha": "34531c0fcb7ac4eddc0c1c261927e4aadd8cc4a5",
+      "deployed_at": "2026-11-14T01:42:02Z",
+      "workflow_run_id": 43542047853,
+      "public_version": "1.32",
+      "note": "未照合候補を通常HTTPSの本文で再確認し、独立参加単位142延べ個票をdata-only run43541686211で公開。data-production89c9211 / data-release/2026-11-14-r646、旧227個票・履歴・ソース失敗を保持して計369。公開71ファイルを候補と全件照合、6企画とスマホ表示を実ブラウザで検証。板橋の記事リンク消失をmainで修正。production PR111は個票確認日表示1行と残課題カタログの2ファイルのみ、Pages43542047853成功。ためまっぷGitHub403・参加条件不足13件・杉並2件・全851URLの全件採否照合・既存115未分類差分と1種別不一致は未解消。旧杉並監査43541322782の404も記録に保持。"
+    },
+    {
+      "release_id": "release/2026-11-14-r2",
+      "branch": "release/2026-11-14-r2",
+      "commit_sha": "e311ee769291a84ff7d6b070ac306f6da3b03977",
+      "deployed_at": "2026-11-14T03:10:52Z",
+      "workflow_run_id": 43550173494,
+      "public_version": "1.33",
+      "note": "残件を再調査し、目黒・北区・荒川など20企画39週別個票を公式本文で追加確認。data-only43549900408成功、data-production033c9e1 / data-release/2026-11-14-r650、旧369個票・履歴・参照元失敗を完全保持し計408件。公開データ76ファイルを全件比較。江古田図書館本の探し方講座の対象中学生以上・時刻・会場を確認し保留を解消。production PR113は残課題カタログ1ファイルのみ、固定候補とアプリのCI43549636655およびPages43550173494が成功。全候補の個別照合、参加条件不足の残件、GitHub403、歴史杉並監査404および既存115未分類差分・1種別不一致は未解決。"
+    },
+    {
+      "release_id": "release/2026-11-14-r3",
+      "branch": "release/2026-11-14-r3",
+      "commit_sha": "f05bfe3698c0d61ece44509c4c8d8597e058125f",
+      "deployed_at": "2026-11-14T09:49:46Z",
+      "workflow_run_id": 43582308128,
+      "public_version": "1.34",
+      "note": "ためまっぷ以外の残件を順番に進める継続依頼に対応。追加40件(run43573187010)、既存196件の個別評価補足・訂正(run43575480117)、今回31件(run43581456344)と中野区検定1件(run43582156712)を公開。旧408件から55企画72週別個票を追加して合計480件。data-production d05e78f / data-release/2026-11-14-r665。本番87ファイル一致・旧個票と履歴保持・今回スマホ9ケースを検証。production PR121は残課題カタログ9文だけ変更、固定候補CI43581943377・Pages43582308128成功。評価根拠再取得不可10件、指定保留Tamemap2件、全851候補の個別照合未完了を明記。過去杉並監査を手動再照合へ整理、115未分類と種別不一致を個別調査し解消。未公開10アプリパスは昇格せず、Worker・その他UI・参照元不変。前版v1.33をロールバック保持。"
+    },
+    {
+      "release_id": "release/2026-11-14-r4",
+      "branch": "release/2026-11-14-r4",
+      "commit_sha": "48ea14ef33d762958448ab562fd1d5f1ae4c834e",
+      "deployed_at": "2026-11-14T12:05:37.435370+00:00",
+      "workflow_run_id": 43592955747,
+      "public_version": "1.35",
+      "note": "固定851候補の判定完了と99企画118週別個票の追加・合計598件を説明文に反映。本文取得不能46件・保留24候補と直接追跡の保留2企画を明示。productionベースの単一JSONのみ、既存480個票と未承認UIを保持。データ公開43592763300・92公開JSON・モバイル10例の照合成功。"
+    },
+    {
+      "release_id": "release/2026-11-15-r1",
+      "branch": "release/2026-11-15-r1",
+      "commit_sha": "5d7f8b961e6c93e5a8950c426e3ffddac9a6d7aa",
+      "deployed_at": "2026-11-14T21:53:52.745235+00:00",
+      "workflow_run_id": 43644991399,
+      "public_version": "1.36",
+      "note": "残課題ページを現在の2項目と完了3項目に分離。完了分は対象範囲・確認日付きで折りたたみ、件数から除外。作業状態と接続監査を独立させ、一覧取得失敗時は未確認を表示。公開5ファイルの一致と390/1280幅の表示・絞り込み・折りたたみを確認。598イベントおよび他の未公開UIは変更なし。"
+    },
+    {
+      "release_id": "release/2026-11-15-r2",
+      "branch": "release/2026-11-15-r2",
+      "commit_sha": "9aa067f0756bb900ff3f95e33f1dee7473e9c63f",
+      "deployed_at": "2026-11-14T22:22:09.130882+00:00",
+      "workflow_run_id": 43647527937,
+      "public_version": "1.37",
+      "note": "残課題・保留・完了の全5項目を同じ一覧へ配置し、項目ごとの詳細は初期折りたたみ。残2/完了3と状態別絞り込みを表示。掲載判断も名称・判定・理由抜粋の一覧とし、理由全文・公式リンクは詳細内へ保持。390/1280幅の実配信で開閉・検索・追加表示等を確認。598イベントと310判定原本は不変。"
+    },
+    {
+      "release_id": "release/2026-11-15-r3",
+      "branch": "release/2026-11-15-r3",
+      "commit_sha": "d2ee3226f64f42c56a5ed0ca61e3696769c4db21",
+      "deployed_at": "2026-11-15T02:02:05.581396+00:00",
+      "workflow_run_id": 43665676887,
+      "public_version": "1.38",
+      "note": "残課題ページの上部集計を削除。三角広場を固定収集先に追加し、催事名・開催期間・主催者リンクを関連付けて取得するよう改善。対応状況を更新し、公開済み603イベント・履歴・掲載判断原本を保持。"
+    },
+    {
+      "release_id": "release/2026-11-20-r1",
+      "branch": "release/2026-11-20-r1",
+      "commit_sha": "d4e53fe170af6c3e28fef09dc90b9b8ed680d486",
+      "deployed_at": "2026-11-20T13:42:20.858418+00:00",
+      "workflow_run_id": 44746179721,
+      "public_version": "1.39",
+      "note": "写真がない行事のサムネイルを、区の頭文字から種類別アイコンのタイルに変更。データ変更なし。"
+    },
+    {
+      "release_id": "release/2026-11-20-r2",
+      "branch": "release/2026-11-20-r2",
+      "commit_sha": "ede99e6844bb77eaa9a533153b99f2385f73158f",
+      "deployed_at": "2026-11-20T14:52:49.630264+00:00",
+      "workflow_run_id": 44757226113,
+      "public_version": "1.40",
+      "note": "トップページの説明を、休日明けの週次更新から毎日更新の表記に変更。データ変更なし。"
+    },
+    {
+      "release_id": "release/2026-11-21-r889",
+      "branch": "release/2026-11-21-r889",
+      "commit_sha": "a0001583804f4c168e72785ae36bcc61d918fa8d",
+      "deployed_at": "2026-11-21T09:04:05+00:00",
+      "workflow_run_id": 44887707052,
+      "public_version": "1.41",
+      "note": "ユーザー承認の本番アプリv1.41。絞り込みに「23区/多摩」の切り替えを追加し、検証ツールが多摩の市名を受け付けるよう変更。PR #140で5ファイルのみ反映（app.js・multi-filter-ui.js・styles.css・validate_data.py・テスト）。イベントデータは変更なし、多摩のイベントは未掲載。data-production f6695d542ca58cc1a43451bf5be9571e864c9ae6。"
+    },
+    {
+      "release_id": "release/2026-11-21-r923",
+      "branch": "release/2026-11-21-r923",
+      "commit_sha": "bb57e0f630e6c772befdfe6f9ad63e2c5d20eb99",
+      "deployed_at": "2026-11-21T18:11:48+00:00",
+      "workflow_run_id": 44934090660,
+      "public_version": "1.42",
+      "note": "ユーザー承認の本番アプリv1.42。サイト題名を「東京子連れイベントAI収集」、区・市の切り替え名を「23区 / 市部」に変更（表示文言のみ、PR #142で9ファイル）。イベントデータは変更なし。data-production 15b18aa7e38622c8ffe1917b3ae5f147964495de。"
+    },
+    {
+      "release_id": "release/2026-11-22-r960",
+      "branch": "release/2026-11-22-r960",
+      "commit_sha": "53df1dc631b22e05caae27e9a5aeca2a392f3c61",
+      "deployed_at": "2026-11-21T22:54:39+00:00",
+      "workflow_run_id": 44959033924,
+      "public_version": "1.43",
+      "note": "ユーザー承認の本番アプリv1.43。固定サイト（27件）とAI探索先サイト（105件・6分類）を別ブロックで表示（PR #143で3ファイル）。イベントデータは変更なし。data-production fb4999cedea142e5bac21c0a3670cfef3f3c1573。"
+    },
+    {
+      "release_id": "release/2026-11-22-r970",
+      "branch": "release/2026-11-22-r970",
+      "commit_sha": "f7188412486efe7629c7e819e5fe0980567c3bd3",
+      "deployed_at": "2026-11-21T23:49:08+00:00",
+      "workflow_run_id": 44963537661,
+      "public_version": "1.44",
+      "note": "ユーザー承認の本番アプリv1.44。市部に千葉県浦安市（東京ディズニーリゾート）を追加（ボタン表示は「千葉県浦安市」）、固定サイト27件とAI探索先118件の各サイトに取得状況（取得できた／本文なし／取得できなかった／未確認）を表示（PR #144で8ファイル）。イベントデータは変更なし。data-production 73951929654233560abe8d64fc175cfb323af829。初回の公開はPagesデプロイが一時失敗し、再実行で成功。"
+    },
+    {
+      "release_id": "release/2026-11-22-r981",
+      "branch": "release/2026-11-22-r981",
+      "commit_sha": "ce462388060f5b7205f9ef6474f773ca2948e25c",
+      "deployed_at": "2026-11-22T00:28:42+00:00",
+      "workflow_run_id": 44966711169,
+      "public_version": "1.45",
+      "note": "ユーザー承認の本番v1.45。AI探索先の都立公園3件（駒沢オリンピック公園・城北中央公園・東白鬚公園）のURL綴りを訂正（PR #145、discovery_sources.jsonのみ）。イベントデータは変更なし。data-production 19205b672d01c9c1a26cb2b9a10812035b44bf0b（771件）。"
+    },
+    {
+      "release_id": "release/2026-11-22-r1003",
+      "branch": "release/2026-11-22-r1003",
+      "commit_sha": "415da1fc5c87989a7e93d6bdebd43dda83fb238e",
+      "deployed_at": "2026-11-22T05:40:45+00:00",
+      "workflow_run_id": 44990348243,
+      "public_version": "1.46",
+      "note": "ユーザー承認の本番v1.46。取得元にGREEN SPRINGS（立川）を28件目として追加（PR #146、discovery_sources.jsonと固定サイト一覧テストのみ）。イベントデータは変更なし。data-production eb1facf6035092f7991cb81cf90cc3e10b382eb1（784件）。"
+    },
+    {
+      "release_id": "release/2026-11-22-r1011",
+      "branch": "release/2026-11-22-r1011",
+      "commit_sha": "d4db9e7009209acabec90f45cb2e50d70ec0ba6f",
+      "deployed_at": "2026-11-22T13:33:20+00:00",
+      "workflow_run_id": 45027932307,
+      "public_version": "1.47",
+      "note": "ユーザー承認の本番v1.47。取得元に二子玉川ライズ（世田谷区）を29件目として追加（PR #147、discovery_sources.jsonと固定サイト一覧テストのみ）。イベントデータは変更なし。data-production 8bfead01d491182ec50458b3754d277b048a6552（792件）。"
+    },
+    {
+      "release_id": "release/2026-11-23-r1021",
+      "branch": "release/2026-11-23-r1021",
+      "commit_sha": "c3d918a464462b0013172f27a941c12c0aaa72b8",
+      "deployed_at": "2026-11-23T03:24:40+00:00",
+      "workflow_run_id": 45105687164,
+      "public_version": "1.48",
+      "note": "ユーザー承認の本番v1.48。取得元に中央線あるあるPROJECT（杉並区）を30件目として追加（PR #148、discovery_sources.jsonと固定サイト一覧テストのみ）。イベントデータは変更なし。data-production 92c676a01ccda8fa2bc27cde65f130be55a445ac（793件）。"
+    },
+    {
+      "release_id": "release/2026-11-23-r1030",
+      "branch": "release/2026-11-23-r1030",
+      "commit_sha": "05175c11806466d94881f3f4a8853ee2b2cb4dcf",
+      "deployed_at": "2026-11-23T04:49:34+00:00",
+      "workflow_run_id": 45114010021,
+      "public_version": "1.49",
+      "note": "ユーザー承認の本番v1.49。取得元にこども科学センター・ハチラボ（渋谷区）を31件目として追加（PR #149、discovery_sources.jsonと固定サイト一覧テストのみ）。イベントデータは変更なし。data-production 100bab3eea5a5011deea32fc6bb11840e500ccb8（802件）。"
+    },
+    {
+      "release_id": "release/2026-11-23-r1036",
+      "branch": "release/2026-11-23-r1036",
+      "commit_sha": "2b779c95b724c095071c1eaa45355aed18c78907",
+      "deployed_at": "2026-11-23T05:18:45+00:00",
+      "workflow_run_id": 45116868239,
+      "public_version": "1.50",
+      "note": "ユーザー承認の本番v1.50。トップの掲載件数・区ボタンの件数・今週の掲載変更の件数を、検索結果と同じ数え方（フェスの企画をまとめた表示単位、今週末以降）にそろえた（PR #150、index.html・search.html・copy.html・multi-filter-ui.js）。イベントデータは変更なし。data-production 100bab3eea5a5011deea32fc6bb11840e500ccb8（802件）。"
     }
   ],
-  "current_public_version": "1.26"
+  "current_public_version": "1.50"
 }

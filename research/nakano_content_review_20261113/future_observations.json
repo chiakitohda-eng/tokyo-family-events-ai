@@ -1,0 +1,656 @@
+{
+  "observed_on": "2026-11-13",
+  "body_pages_read": 30,
+  "all_event_facts_verified": false,
+  "published_events_added_by_this_file": 0,
+  "observations": [
+    {
+      "candidate_id": "tamemap-calendar-160028-20261128",
+      "title_observed": "【ポーセラーツ】ヨーグルトカップをご用意します。",
+      "dates_observed": "2026-11-28",
+      "venue_observed": "東京都中野区弥生町６丁目１−６",
+      "retrieval": {
+        "url": "https://pc.tamemap.net/1311401/event/160028/2026-11-28?locale=ja",
+        "checked_at": "2026-11-13T08:09:58+09:00",
+        "status": "checked",
+        "http_status": 200,
+        "final_url": "https://pc.tamemap.net/1311401/event/160028/2026-11-28?locale=ja",
+        "content_type": "text/html; charset=utf-8",
+        "bytes": 91959,
+        "sha256": "3c4a22bda00e9ae97a63fdae2d01e09bd09ed2f2360a2f1cbfdd89085416ce14"
+      },
+      "primary_links": [
+        "https://nakano-hiromatimirai.resv.jp/reserve/calendar.php?x=1634516751"
+      ],
+      "review_state": "body_read_pending_primary_crosscheck",
+      "publication_approved": false,
+      "note": "先の週の詳細本文を取得。本文取得と個別条件の最終照合は区別し、先行6件には追加しない。"
+    },
+    {
+      "candidate_id": "tamemap-calendar-160143-20261128",
+      "title_observed": "【女性のためのボールフィット】",
+      "dates_observed": "2026-10-24,2026-11-28,2026-12-19",
+      "venue_observed": "東京都中野区弥生町６丁目１−６",
+      "retrieval": {
+        "url": "https://pc.tamemap.net/1311401/event/160143/2026-11-28?locale=ja",
+        "checked_at": "2026-11-13T08:10:00+09:00",
+        "status": "checked",
+        "http_status": 200,
+        "final_url": "https://pc.tamemap.net/1311401/event/160143/2026-11-28?locale=ja",
+        "content_type": "text/html; charset=utf-8",
+        "bytes": 91786,
+        "sha256": "ee2dc6e7f5e741dddad41cae75eb382cd9f3e530085b0d53331b8bbd9a2dfb74"
+      },
+      "primary_links": [
+        "https://nakano-hiromatimirai.resv.jp/reserve/calendar.php?x=1634516751"
+      ],
+      "review_state": "body_read_pending_primary_crosscheck",
+      "publication_approved": false,
+      "note": "先の週の詳細本文を取得。本文取得と個別条件の最終照合は区別し、先行6件には追加しない。"
+    },
+    {
+      "candidate_id": "tamemap-calendar-161917-20261128",
+      "title_observed": "子どものための日本舞踊教室",
+      "dates_observed": "2026-10-17,2026-11-28,2026-12-12",
+      "venue_observed": "東京都中野区松が丘２丁目２７−１",
+      "retrieval": {
+        "url": "https://pc.tamemap.net/1311401/event/161917/2026-11-28?locale=ja",
+        "checked_at": "2026-11-13T08:10:02+09:00",
+        "status": "checked",
+        "http_status": 200,
+        "final_url": "https://pc.tamemap.net/1311401/event/161917/2026-11-28?locale=ja",
+        "content_type": "text/html; charset=utf-8",
+        "bytes": 94144,
+        "sha256": "9f4ee59010462c214b7878665e666f5adfb3b5b51efd34223326d175f327ef4f"
+      },
+      "primary_links": [
+        "https://form.run/@nakano--2NWnVlf4qN8JkNEPShxC",
+        "https://form.run/@nakano--2NWnVlf4qN8JkNEPShxC"
+      ],
+      "review_state": "registration_closed",
+      "publication_approved": false,
+      "note": "本文で申込終了と確認。発表会見学等の別枠は主催者の個別案内で確認する。"
+    },
+    {
+      "candidate_id": "tamemap-calendar-163398-20261128",
+      "title_observed": "11/28(土)小さい\"ほんごcafe\"＠本五ふれあい公園　",
+      "dates_observed": "2026-11-28",
+      "venue_observed": "東京都中野区本町５丁目２８",
+      "retrieval": {
+        "url": "https://pc.tamemap.net/1311401/event/163398/2026-11-28?locale=ja",
+        "checked_at": "2026-11-13T08:10:05+09:00",
+        "status": "checked",
+        "http_status": 200,
+        "final_url": "https://pc.tamemap.net/1311401/event/163398/2026-11-28?locale=ja",
+        "content_type": "text/html; charset=utf-8",
+        "bytes": 92227,
+        "sha256": "61a13d327fbb15bdb13311c841cda7b5c033bbe296b58e21e3e52d44b8c0efb3"
+      },
+      "primary_links": [],
+      "review_state": "body_read_pending_primary_crosscheck",
+      "publication_approved": false,
+      "note": "先の週の詳細本文を取得。本文取得と個別条件の最終照合は区別し、先行6件には追加しない。"
+    },
+    {
+      "candidate_id": "tamemap-calendar-160639-20261128",
+      "title_observed": "ともっちゃお！　おやこdeひろば",
+      "dates_observed": "2026-09-19,2026-10-24,2026-11-28,2026-12-26",
+      "venue_observed": "東京都中野区中野２丁目１４−２４ １F",
+      "retrieval": {
+        "url": "https://pc.tamemap.net/1311401/event/160639/2026-11-28?locale=ja",
+        "checked_at": "2026-11-13T08:10:08+09:00",
+        "status": "checked",
+        "http_status": 200,
+        "final_url": "https://pc.tamemap.net/1311401/event/160639/2026-11-28?locale=ja",
+        "content_type": "text/html; charset=utf-8",
+        "bytes": 96131,
+        "sha256": "a7a40e14efecf7c9b1f32282efdb8bcedce810f66afd4da4368b963c3e43d5ce"
+      },
+      "primary_links": [
+        "https://yurunaka.notion.site/cdb2fc8d25c04bacac734222dd0843f8"
+      ],
+      "review_state": "body_read_pending_primary_crosscheck",
+      "publication_approved": false,
+      "note": "先の週の詳細本文を取得。本文取得と個別条件の最終照合は区別し、先行6件には追加しない。"
+    },
+    {
+      "candidate_id": "tamemap-calendar-161470-20261128",
+      "title_observed": "かぞくのしゃべり場",
+      "dates_observed": "2026-10-24,2026-11-28,2026-12-26",
+      "venue_observed": "東京都中野区中央１丁目４１−２",
+      "retrieval": {
+        "url": "https://pc.tamemap.net/1311401/event/161470/2026-11-28?locale=ja",
+        "checked_at": "2026-11-13T08:10:10+09:00",
+        "status": "checked",
+        "http_status": 200,
+        "final_url": "https://pc.tamemap.net/1311401/event/161470/2026-11-28?locale=ja",
+        "content_type": "text/html; charset=utf-8",
+        "bytes": 90539,
+        "sha256": "3198aa28282156eb35d662be61912ba377462ac12a9005029fab74f536c3337d"
+      },
+      "primary_links": [
+        "https://nakano-wakamono.space/"
+      ],
+      "review_state": "body_read_pending_primary_crosscheck",
+      "publication_approved": false,
+      "note": "先の週の詳細本文を取得。本文取得と個別条件の最終照合は区別し、先行6件には追加しない。"
+    },
+    {
+      "candidate_id": "tamemap-calendar-162446-20261128",
+      "title_observed": "第40回　野方ひる席",
+      "dates_observed": "2026-11-28",
+      "venue_observed": "東京都中野区野方５丁目３−３−１",
+      "retrieval": {
+        "url": "https://pc.tamemap.net/1311401/event/162446/2026-11-28?locale=ja",
+        "checked_at": "2026-11-13T08:10:12+09:00",
+        "status": "checked",
+        "http_status": 200,
+        "final_url": "https://pc.tamemap.net/1311401/event/162446/2026-11-28?locale=ja",
+        "content_type": "text/html; charset=utf-8",
+        "bytes": 90737,
+        "sha256": "f3a0a9241781fec9602d866e258d1c34b73eacc256776032cf8a5efc2263f258"
+      },
+      "primary_links": [],
+      "review_state": "body_read_pending_primary_crosscheck",
+      "publication_approved": false,
+      "note": "先の週の詳細本文を取得。本文取得と個別条件の最終照合は区別し、先行6件には追加しない。"
+    },
+    {
+      "candidate_id": "tamemap-calendar-162473-20261128",
+      "title_observed": "大人のための朗読会 ひとり語り『羅生門』＆芥川トーク",
+      "dates_observed": "2026-11-28",
+      "venue_observed": "東京都中野区上高田５丁目３０−１５",
+      "retrieval": {
+        "url": "https://pc.tamemap.net/1311401/event/162473/2026-11-28?locale=ja",
+        "checked_at": "2026-11-13T08:10:14+09:00",
+        "status": "checked",
+        "http_status": 200,
+        "final_url": "https://pc.tamemap.net/1311401/event/162473/2026-11-28?locale=ja",
+        "content_type": "text/html; charset=utf-8",
+        "bytes": 92600,
+        "sha256": "f02e093b53d859a0d398755353462b7f4fdd3874eed307698282b83e1bfe7a55"
+      },
+      "primary_links": [
+        "https://library.city.tokyo-nakano.lg.jp/event/?id=694"
+      ],
+      "review_state": "body_read_pending_primary_crosscheck",
+      "publication_approved": false,
+      "note": "先の週の詳細本文を取得。本文取得と個別条件の最終照合は区別し、先行6件には追加しない。"
+    },
+    {
+      "candidate_id": "tamemap-calendar-163360-20261128",
+      "title_observed": "本の探し方講座",
+      "dates_observed": "2026-11-28",
+      "venue_observed": "東京都中野区江古田２丁目１−１１",
+      "retrieval": {
+        "url": "https://pc.tamemap.net/1311401/event/163360/2026-11-28?locale=ja",
+        "checked_at": "2026-11-13T08:10:17+09:00",
+        "status": "checked",
+        "http_status": 200,
+        "final_url": "https://pc.tamemap.net/1311401/event/163360/2026-11-28?locale=ja",
+        "content_type": "text/html; charset=utf-8",
+        "bytes": 88645,
+        "sha256": "12b9c0339306d94dfc1adc42a1ca8742c279fc6519d213ff23488b05a07cbe1c"
+      },
+      "primary_links": [
+        "https://library.city.tokyo-nakano.lg.jp/event/?id=704"
+      ],
+      "review_state": "body_read_pending_primary_crosscheck",
+      "publication_approved": false,
+      "note": "先の週の詳細本文を取得。本文取得と個別条件の最終照合は区別し、先行6件には追加しない。"
+    },
+    {
+      "candidate_id": "tamemap-calendar-163373-20261128",
+      "title_observed": "みま～も桃園「支えあい終活フェア2026」",
+      "dates_observed": "2026-11-28",
+      "venue_observed": "東京都中野区中央４丁目５７−１ 中野区桃園地域センター",
+      "retrieval": {
+        "url": "https://pc.tamemap.net/1311401/event/163373/2026-11-28?locale=ja",
+        "checked_at": "2026-11-13T08:10:19+09:00",
+        "status": "checked",
+        "http_status": 200,
+        "final_url": "https://pc.tamemap.net/1311401/event/163373/2026-11-28?locale=ja",
+        "content_type": "text/html; charset=utf-8",
+        "bytes": 87762,
+        "sha256": "b4e8702ac6fb686646808dc38a4569adfd89c62fb8cadbb98a8cfd7b3c1c6501"
+      },
+      "primary_links": [],
+      "review_state": "body_read_pending_primary_crosscheck",
+      "publication_approved": false,
+      "note": "先の週の詳細本文を取得。本文取得と個別条件の最終照合は区別し、先行6件には追加しない。"
+    },
+    {
+      "candidate_id": "tamemap-calendar-142698-20261129",
+      "title_observed": "おひさまリトミック",
+      "dates_observed": "2025-09-28,2026-04-26,2026-05-24,2026-06-28,2026-07-26,2026-08-23,2026-09-27,2026-10-25,2026-11-29,2026-12-13,2027-01-24,2027-02-28,2027-03-28",
+      "venue_observed": "東京都中野区江古田３丁目１４−１",
+      "retrieval": {
+        "url": "https://pc.tamemap.net/1311401/event/142698/2026-11-29?locale=ja",
+        "checked_at": "2026-11-13T08:10:21+09:00",
+        "status": "checked",
+        "http_status": 200,
+        "final_url": "https://pc.tamemap.net/1311401/event/142698/2026-11-29?locale=ja",
+        "content_type": "text/html; charset=utf-8",
+        "bytes": 89488,
+        "sha256": "6e27308a4cd23a87ed8550319283583485be91edd8664d94b30b43dc13f85b00"
+      },
+      "primary_links": [],
+      "review_state": "body_read_pending_primary_crosscheck",
+      "publication_approved": false,
+      "note": "先の週の詳細本文を取得。本文取得と個別条件の最終照合は区別し、先行6件には追加しない。"
+    },
+    {
+      "candidate_id": "tamemap-calendar-163111-20261129",
+      "title_observed": "男性料理教室「美味しい手作りハンバーグに挑戦！」",
+      "dates_observed": "2026-11-29",
+      "venue_observed": "東京都中野区野方５丁目３−１",
+      "retrieval": {
+        "url": "https://pc.tamemap.net/1311401/event/163111/2026-11-29?locale=ja",
+        "checked_at": "2026-11-13T08:10:23+09:00",
+        "status": "checked",
+        "http_status": 200,
+        "final_url": "https://pc.tamemap.net/1311401/event/163111/2026-11-29?locale=ja",
+        "content_type": "text/html; charset=utf-8",
+        "bytes": 93619,
+        "sha256": "e1a5099a8b7528ba8fed5d3a75825199c568221d7260c208e3fc472915faf73a"
+      },
+      "primary_links": [
+        "https://nakanoeiyo.jimdofree.com/"
+      ],
+      "review_state": "body_read_pending_primary_crosscheck",
+      "publication_approved": false,
+      "note": "先の週の詳細本文を取得。本文取得と個別条件の最終照合は区別し、先行6件には追加しない。"
+    },
+    {
+      "candidate_id": "tamemap-calendar-160187-20261129",
+      "title_observed": "【カブトムシを見よう】～冬の昆虫観察会～",
+      "dates_observed": "2026-11-29",
+      "venue_observed": "東京都中野区弥生町６丁目１−６",
+      "retrieval": {
+        "url": "https://pc.tamemap.net/1311401/event/160187/2026-11-29?locale=ja",
+        "checked_at": "2026-11-13T08:10:25+09:00",
+        "status": "checked",
+        "http_status": 200,
+        "final_url": "https://pc.tamemap.net/1311401/event/160187/2026-11-29?locale=ja",
+        "content_type": "text/html; charset=utf-8",
+        "bytes": 90339,
+        "sha256": "b1df246880faa61ebbfe51e3a81ebd73c031db850f6d3e15c696620a4c87bb54"
+      },
+      "primary_links": [
+        "https://nakano-hiromatimirai.resv.jp/reserve/calendar.php?x=1634516751"
+      ],
+      "review_state": "body_read_pending_primary_crosscheck",
+      "publication_approved": false,
+      "note": "先の週の詳細本文を取得。本文取得と個別条件の最終照合は区別し、先行6件には追加しない。"
+    },
+    {
+      "candidate_id": "tamemap-calendar-163077-20261129",
+      "title_observed": "ボランティア講座「わらべうたであそぼう！」",
+      "dates_observed": "2026-11-29",
+      "venue_observed": "東京都中野区中野２丁目９−７",
+      "retrieval": {
+        "url": "https://pc.tamemap.net/1311401/event/163077/2026-11-29?locale=ja",
+        "checked_at": "2026-11-13T08:10:28+09:00",
+        "status": "checked",
+        "http_status": 200,
+        "final_url": "https://pc.tamemap.net/1311401/event/163077/2026-11-29?locale=ja",
+        "content_type": "text/html; charset=utf-8",
+        "bytes": 92571,
+        "sha256": "5a1443e1c24c54523737ac94d5670383be725eb616d7ef98cc0b480944da2952"
+      },
+      "primary_links": [
+        "https://library.city.tokyo-nakano.lg.jp/event/?id=707"
+      ],
+      "review_state": "body_read_pending_primary_crosscheck",
+      "publication_approved": false,
+      "note": "先の週の詳細本文を取得。本文取得と個別条件の最終照合は区別し、先行6件には追加しない。"
+    },
+    {
+      "candidate_id": "tamemap-calendar-160029-20261205",
+      "title_observed": "【ポーセラーツ】クリスマスツリー型の食器をご用意します。",
+      "dates_observed": "2026-12-05",
+      "venue_observed": "東京都中野区弥生町６丁目１−６",
+      "retrieval": {
+        "url": "https://pc.tamemap.net/1311401/event/160029/2026-12-05?locale=ja",
+        "checked_at": "2026-11-13T08:10:30+09:00",
+        "status": "checked",
+        "http_status": 200,
+        "final_url": "https://pc.tamemap.net/1311401/event/160029/2026-12-05?locale=ja",
+        "content_type": "text/html; charset=utf-8",
+        "bytes": 91907,
+        "sha256": "78f54646894d7846d216c708f9867953b15133da4c2bb36f0f4ea785c5518cc6"
+      },
+      "primary_links": [
+        "https://nakano-hiromatimirai.resv.jp/reserve/calendar.php?x=1634516751"
+      ],
+      "review_state": "body_read_pending_primary_crosscheck",
+      "publication_approved": false,
+      "note": "先の週の詳細本文を取得。本文取得と個別条件の最終照合は区別し、先行6件には追加しない。"
+    },
+    {
+      "candidate_id": "tamemap-calendar-160133-20261205",
+      "title_observed": "【笑顔で楽しくおどるケイキフラ】",
+      "dates_observed": "2026-12-05,2026-12-12",
+      "venue_observed": "東京都中野区弥生町６丁目１−６",
+      "retrieval": {
+        "url": "https://pc.tamemap.net/1311401/event/160133/2026-12-05?locale=ja",
+        "checked_at": "2026-11-13T08:10:32+09:00",
+        "status": "checked",
+        "http_status": 200,
+        "final_url": "https://pc.tamemap.net/1311401/event/160133/2026-12-05?locale=ja",
+        "content_type": "text/html; charset=utf-8",
+        "bytes": 91565,
+        "sha256": "7fa8dfbab1c765e160ac52fa738ec12c15dd6a983f3b6d69a0c1f7c541d2d8ef"
+      },
+      "primary_links": [
+        "https://nakano-hiromatimirai.resv.jp/reserve/calendar.php?x=1634516751"
+      ],
+      "review_state": "body_read_pending_primary_crosscheck",
+      "publication_approved": false,
+      "note": "先の週の詳細本文を取得。本文取得と個別条件の最終照合は区別し、先行6件には追加しない。"
+    },
+    {
+      "candidate_id": "tamemap-calendar-160168-20261205",
+      "title_observed": "【ウクレレを楽しむ】",
+      "dates_observed": "2026-10-03,2026-11-07,2026-12-05",
+      "venue_observed": "東京都中野区弥生町６丁目１−６",
+      "retrieval": {
+        "url": "https://pc.tamemap.net/1311401/event/160168/2026-12-05?locale=ja",
+        "checked_at": "2026-11-13T08:10:34+09:00",
+        "status": "checked",
+        "http_status": 200,
+        "final_url": "https://pc.tamemap.net/1311401/event/160168/2026-12-05?locale=ja",
+        "content_type": "text/html; charset=utf-8",
+        "bytes": 91520,
+        "sha256": "99c24082441ff3cccbfa0f164ae3a6d3b0247542180a830b16686c27e74748ca"
+      },
+      "primary_links": [
+        "https://nakano-hiromatimirai.resv.jp/reserve/calendar.php?x=1634516751"
+      ],
+      "review_state": "body_read_pending_primary_crosscheck",
+      "publication_approved": false,
+      "note": "先の週の詳細本文を取得。本文取得と個別条件の最終照合は区別し、先行6件には追加しない。"
+    },
+    {
+      "candidate_id": "tamemap-calendar-159839-20261206",
+      "title_observed": "プライマリィ中野　2026定期活動⑤",
+      "dates_observed": "2026-12-06",
+      "venue_observed": "東京都杉並区高円寺北１丁目２８−１",
+      "retrieval": {
+        "url": "https://pc.tamemap.net/1311401/event/159839/2026-12-06?locale=ja",
+        "checked_at": "2026-11-13T08:10:36+09:00",
+        "status": "checked",
+        "http_status": 200,
+        "final_url": "https://pc.tamemap.net/1311401/event/159839/2026-12-06?locale=ja",
+        "content_type": "text/html; charset=utf-8",
+        "bytes": 88716,
+        "sha256": "cc64cca0d59a1e81e354b8b5d1bddf64c3171d95dcfcf9b1275dcb80fff7f701"
+      },
+      "primary_links": [],
+      "review_state": "body_read_pending_primary_crosscheck",
+      "publication_approved": false,
+      "note": "先の週の詳細本文を取得。本文取得と個別条件の最終照合は区別し、先行6件には追加しない。"
+    },
+    {
+      "candidate_id": "tamemap-calendar-160665-20261206",
+      "title_observed": " 大和クリスマスコンサート",
+      "dates_observed": "2026-12-06",
+      "venue_observed": "東京都中野区大和町２丁目４４−６",
+      "retrieval": {
+        "url": "https://pc.tamemap.net/1311401/event/160665/2026-12-06?locale=ja",
+        "checked_at": "2026-11-13T08:10:38+09:00",
+        "status": "checked",
+        "http_status": 200,
+        "final_url": "https://pc.tamemap.net/1311401/event/160665/2026-12-06?locale=ja",
+        "content_type": "text/html; charset=utf-8",
+        "bytes": 94764,
+        "sha256": "258c6f85347fa8673fcc4d1c28b60308aa44617eccff132c171e8f055bd693e7"
+      },
+      "primary_links": [
+        "https://forms.gle/RVKRQDxJMZZJw8LS8",
+        "http://nakano-yamato.gr.jp/"
+      ],
+      "review_state": "blocked_conflicting_application_dates",
+      "publication_approved": false,
+      "note": "本文内に申込開始・締切の日付と曜日の不一致があり、主催者の正式案内で再確認が必要。"
+    },
+    {
+      "candidate_id": "tamemap-calendar-162068-20261206",
+      "title_observed": "ファミコンあつまる＠ゲーム大会",
+      "dates_observed": "2026-12-06",
+      "venue_observed": "東京都中野区江原町２丁目３−１５",
+      "retrieval": {
+        "url": "https://pc.tamemap.net/1311401/event/162068/2026-12-06?locale=ja",
+        "checked_at": "2026-11-13T08:10:41+09:00",
+        "status": "checked",
+        "http_status": 200,
+        "final_url": "https://pc.tamemap.net/1311401/event/162068/2026-12-06?locale=ja",
+        "content_type": "text/html; charset=utf-8",
+        "bytes": 92553,
+        "sha256": "26dd009a6b19a4414fccd281fc207642c1cae9743d66de1b2721dc899d75717b"
+      },
+      "primary_links": [],
+      "review_state": "body_read_pending_primary_crosscheck",
+      "publication_approved": false,
+      "note": "先の週の詳細本文を取得。本文取得と個別条件の最終照合は区別し、先行6件には追加しない。"
+    },
+    {
+      "candidate_id": "tamemap-calendar-163377-20261212",
+      "title_observed": "桃園「親子で囲碁教室2026」",
+      "dates_observed": "2026-12-12",
+      "venue_observed": "東京都中野区中央４丁目５７−１ 中野区桃園区民活動センター",
+      "retrieval": {
+        "url": "https://pc.tamemap.net/1311401/event/163377/2026-12-12?locale=ja",
+        "checked_at": "2026-11-13T08:10:43+09:00",
+        "status": "checked",
+        "http_status": 200,
+        "final_url": "https://pc.tamemap.net/1311401/event/163377/2026-12-12?locale=ja",
+        "content_type": "text/html; charset=utf-8",
+        "bytes": 86517,
+        "sha256": "e5022dee42eef7e9e03e87cfb4a816c0a6b270866e511b653e534ef99c1d6ec0"
+      },
+      "primary_links": [],
+      "review_state": "body_read_pending_primary_crosscheck",
+      "publication_approved": false,
+      "note": "先の週の詳細本文を取得。本文取得と個別条件の最終照合は区別し、先行6件には追加しない。"
+    },
+    {
+      "candidate_id": "tamemap-calendar-160136-20261212",
+      "title_observed": "【かきぞめ教室】",
+      "dates_observed": "2026-11-08,2026-12-12",
+      "venue_observed": "東京都中野区弥生町６丁目１−６",
+      "retrieval": {
+        "url": "https://pc.tamemap.net/1311401/event/160136/2026-12-12?locale=ja",
+        "checked_at": "2026-11-13T08:10:45+09:00",
+        "status": "checked",
+        "http_status": 200,
+        "final_url": "https://pc.tamemap.net/1311401/event/160136/2026-12-12?locale=ja",
+        "content_type": "text/html; charset=utf-8",
+        "bytes": 91282,
+        "sha256": "553fe50636ec6a1a58f3b9778e9f09e26337bbd929645e3228b38645b623521c"
+      },
+      "primary_links": [
+        "https://nakano-hiromatimirai.resv.jp/reserve/calendar.php?x=1634516751"
+      ],
+      "review_state": "body_read_pending_primary_crosscheck",
+      "publication_approved": false,
+      "note": "先の週の詳細本文を取得。本文取得と個別条件の最終照合は区別し、先行6件には追加しない。"
+    },
+    {
+      "candidate_id": "tamemap-calendar-162896-20261212",
+      "title_observed": "12月映画会『若草物語』",
+      "dates_observed": "2026-12-12",
+      "venue_observed": "東京都中野区中野２丁目９−７",
+      "retrieval": {
+        "url": "https://pc.tamemap.net/1311401/event/162896/2026-12-12?locale=ja",
+        "checked_at": "2026-11-13T08:10:47+09:00",
+        "status": "checked",
+        "http_status": 200,
+        "final_url": "https://pc.tamemap.net/1311401/event/162896/2026-12-12?locale=ja",
+        "content_type": "text/html; charset=utf-8",
+        "bytes": 93519,
+        "sha256": "05b274c1afd2cd36dda1e57873e600ac9a46386529ba9868a0b44b8a7373dfe6"
+      },
+      "primary_links": [
+        "https://library.city.tokyo-nakano.lg.jp/event/?id=710"
+      ],
+      "review_state": "body_read_pending_primary_crosscheck",
+      "publication_approved": false,
+      "note": "先の週の詳細本文を取得。本文取得と個別条件の最終照合は区別し、先行6件には追加しない。"
+    },
+    {
+      "candidate_id": "tamemap-calendar-160024-20261213",
+      "title_observed": "【図画工作】『福を呼ぶ♪お正月飾りを作ろう！』",
+      "dates_observed": "2026-12-13",
+      "venue_observed": "東京都中野区弥生町６丁目１−６",
+      "retrieval": {
+        "url": "https://pc.tamemap.net/1311401/event/160024/2026-12-13?locale=ja",
+        "checked_at": "2026-11-13T08:10:49+09:00",
+        "status": "checked",
+        "http_status": 200,
+        "final_url": "https://pc.tamemap.net/1311401/event/160024/2026-12-13?locale=ja",
+        "content_type": "text/html; charset=utf-8",
+        "bytes": 91730,
+        "sha256": "7b1f45db56011810d4b4c1355eefd69d6951e1fdfed5abb86e8b45af1172742c"
+      },
+      "primary_links": [
+        "https://nakano-hiromatimirai.resv.jp/reserve/calendar.php?x=1634516751"
+      ],
+      "review_state": "body_read_pending_primary_crosscheck",
+      "publication_approved": false,
+      "note": "先の週の詳細本文を取得。本文取得と個別条件の最終照合は区別し、先行6件には追加しない。"
+    },
+    {
+      "candidate_id": "tamemap-calendar-160140-20261213",
+      "title_observed": "【朝ヨガ】",
+      "dates_observed": "2026-12-13,2026-12-20",
+      "venue_observed": "東京都中野区弥生町６丁目１−６",
+      "retrieval": {
+        "url": "https://pc.tamemap.net/1311401/event/160140/2026-12-13?locale=ja",
+        "checked_at": "2026-11-13T08:10:51+09:00",
+        "status": "checked",
+        "http_status": 200,
+        "final_url": "https://pc.tamemap.net/1311401/event/160140/2026-12-13?locale=ja",
+        "content_type": "text/html; charset=utf-8",
+        "bytes": 91481,
+        "sha256": "582f78a41e6748aa345abd4d51f9f3a5f79acd027bf6d00126ab2b28f2090419"
+      },
+      "primary_links": [
+        "https://nakano-hiromatimirai.resv.jp/reserve/calendar.php?x=1634516751"
+      ],
+      "review_state": "body_read_pending_primary_crosscheck",
+      "publication_approved": false,
+      "note": "先の週の詳細本文を取得。本文取得と個別条件の最終照合は区別し、先行6件には追加しない。"
+    },
+    {
+      "candidate_id": "tamemap-calendar-160144-20261213",
+      "title_observed": "【ピラヨガ】",
+      "dates_observed": "2026-10-18,2026-11-08,2026-12-13",
+      "venue_observed": "東京都中野区弥生町６丁目１−６",
+      "retrieval": {
+        "url": "https://pc.tamemap.net/1311401/event/160144/2026-12-13?locale=ja",
+        "checked_at": "2026-11-13T08:10:53+09:00",
+        "status": "checked",
+        "http_status": 200,
+        "final_url": "https://pc.tamemap.net/1311401/event/160144/2026-12-13?locale=ja",
+        "content_type": "text/html; charset=utf-8",
+        "bytes": 91010,
+        "sha256": "cf02182b5ebdc7fa7bfe4ab2054bc7c720414441c8783f797879ce822dda6a71"
+      },
+      "primary_links": [
+        "https://nakano-hiromatimirai.resv.jp/reserve/calendar.php?x=1634516751"
+      ],
+      "review_state": "body_read_pending_primary_crosscheck",
+      "publication_approved": false,
+      "note": "先の週の詳細本文を取得。本文取得と個別条件の最終照合は区別し、先行6件には追加しない。"
+    },
+    {
+      "candidate_id": "tamemap-calendar-163152-20261213",
+      "title_observed": "ほんごcafe＠本五ふれあい公園でクリスマス🎄",
+      "dates_observed": "2026-12-13",
+      "venue_observed": "東京都中野区本町５丁目２８",
+      "retrieval": {
+        "url": "https://pc.tamemap.net/1311401/event/163152/2026-12-13?locale=ja",
+        "checked_at": "2026-11-13T08:10:56+09:00",
+        "status": "checked",
+        "http_status": 200,
+        "final_url": "https://pc.tamemap.net/1311401/event/163152/2026-12-13?locale=ja",
+        "content_type": "text/html; charset=utf-8",
+        "bytes": 110142,
+        "sha256": "25d227cc4602f6bfcaedcc986784b4f5da7fde16ab9c9d74f8a66b7585b8671b"
+      },
+      "primary_links": [
+        "https://www.instagram.com/blanket_nakanoku/"
+      ],
+      "review_state": "body_read_pending_primary_crosscheck",
+      "publication_approved": false,
+      "note": "先の週の詳細本文を取得。本文取得と個別条件の最終照合は区別し、先行6件には追加しない。"
+    },
+    {
+      "candidate_id": "tamemap-calendar-158187-20261213",
+      "title_observed": "日本で学ぶ！働く！外国人によるビブリオバトル 発表者申込受付",
+      "dates_observed": "2026-12-13",
+      "venue_observed": "東京都中野区中野２丁目９−７",
+      "retrieval": {
+        "url": "https://pc.tamemap.net/1311401/event/158187/2026-12-13?locale=ja",
+        "checked_at": "2026-11-13T08:10:58+09:00",
+        "status": "checked",
+        "http_status": 200,
+        "final_url": "https://pc.tamemap.net/1311401/event/158187/2026-12-13?locale=ja",
+        "content_type": "text/html; charset=utf-8",
+        "bytes": 96736,
+        "sha256": "168c0112bc6086643ade94223af369cbf467e7f8b5a9caa539d55e1f9b166b76"
+      },
+      "primary_links": [
+        "https://library.city.tokyo-nakano.lg.jp/news/?id=245"
+      ],
+      "review_state": "body_read_pending_primary_crosscheck",
+      "publication_approved": false,
+      "note": "発表者と観覧者の投稿を発見。同一日時・会場の親企画として参加区分を整理し、重複掲載と取り違えを防ぐ。"
+    },
+    {
+      "candidate_id": "tamemap-calendar-160137-20261213",
+      "title_observed": "【みんなでボイトレ】",
+      "dates_observed": "2026-10-18,2026-11-08,2026-12-13",
+      "venue_observed": "東京都中野区弥生町６丁目１−６",
+      "retrieval": {
+        "url": "https://pc.tamemap.net/1311401/event/160137/2026-12-13?locale=ja",
+        "checked_at": "2026-11-13T08:11:00+09:00",
+        "status": "checked",
+        "http_status": 200,
+        "final_url": "https://pc.tamemap.net/1311401/event/160137/2026-12-13?locale=ja",
+        "content_type": "text/html; charset=utf-8",
+        "bytes": 91126,
+        "sha256": "3b90f06f48c83d9a2634ead9f1fe018c55f49751804e8ca97c4fc434a08f1617"
+      },
+      "primary_links": [
+        "https://nakano-hiromatimirai.resv.jp/reserve/calendar.php?x=1634516751"
+      ],
+      "review_state": "body_read_pending_primary_crosscheck",
+      "publication_approved": false,
+      "note": "先の週の詳細本文を取得。本文取得と個別条件の最終照合は区別し、先行6件には追加しない。"
+    },
+    {
+      "candidate_id": "tamemap-calendar-161828-20261213",
+      "title_observed": "日本で学ぶ！働く！外国人によるビブリオバトル 観覧者申込受付",
+      "dates_observed": "2026-12-13",
+      "venue_observed": "東京都中野区中野２丁目９−７",
+      "retrieval": {
+        "url": "https://pc.tamemap.net/1311401/event/161828/2026-12-13?locale=ja",
+        "checked_at": "2026-11-13T08:11:02+09:00",
+        "status": "checked",
+        "http_status": 200,
+        "final_url": "https://pc.tamemap.net/1311401/event/161828/2026-12-13?locale=ja",
+        "content_type": "text/html; charset=utf-8",
+        "bytes": 95736,
+        "sha256": "f06460fe1b1bf32d71726cba58c0ad3920b49078255bbb77eb7f703e2ce764c3"
+      },
+      "primary_links": [
+        "https://library.city.tokyo-nakano.lg.jp/event/?id=687"
+      ],
+      "review_state": "body_read_pending_primary_crosscheck",
+      "publication_approved": false,
+      "note": "発表者と観覧者の投稿を発見。同一日時・会場の親企画として参加区分を整理し、重複掲載と取り違えを防ぐ。"
+    }
+  ]
+}

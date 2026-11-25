@@ -1,0 +1,47 @@
+name: Verify compact status and publication-decision lists
+on:
+  # Historical frozen candidate: live branch SHAs intentionally reflect its pre-release state.
+  # Current changes run remaining-evidence-review (npm regression + current exact data gate).
+  workflow_dispatch: {}
+permissions:
+  contents: read
+jobs:
+  status-cleanup:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          path: scanner
+      - uses: actions/checkout@v4
+        with:
+          ref: 411702d051ca73204fc1e48924591f94c64ba713
+          path: candidate
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Staging tests
+        working-directory: scanner
+        run: npm test
+      - name: Exact approved paths and preserved event data
+        working-directory: candidate
+        shell: bash
+        run: |
+          set -euo pipefail
+          BASE=5d7f8b961e6c93e5a8950c426e3ffddac9a6d7aa
+          test "$(git merge-base "$BASE" HEAD)" = "$BASE"
+          git diff --name-only "$BASE" HEAD | sort > /tmp/actual-paths.txt
+          printf '%s\n' site/omitted.css site/omitted.html site/omitted.js site/pending-issues.css site/pending-issues.html site/pending-issues.js tests/omitted_page_contract.test.mjs tests/pending_issues_release.test.mjs | sort > /tmp/expected-paths.txt
+          diff -u /tmp/expected-paths.txt /tmp/actual-paths.txt
+          git diff --quiet "$BASE" HEAD -- site/data site/curation site/audit site/pending-issues-model.mjs site/app.js site/search.html site/copy.html site/index.html prompts policy analytics tools
+          test "$(git ls-remote origin refs/heads/data-production | cut -f1)" = "847e388e65b99e38a0f108ecc96009778b3fdcd2"
+          test "$(git ls-remote origin refs/heads/data-staging | cut -f1)" = "847e388e65b99e38a0f108ecc96009778b3fdcd2"
+      - name: Production candidate regression and real load failure
+        working-directory: candidate
+        run: |
+          node --check site/pending-issues.js
+          npm test

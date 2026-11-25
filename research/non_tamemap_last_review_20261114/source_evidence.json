@@ -1,0 +1,29 @@
+{
+  "reviewed_on": "2026-11-14",
+  "events": {
+    "nakano-kentei13": {
+      "url": "https://www.nakano-kanko.com/event-info/event-3797/",
+      "retrieval": {
+        "url": "https://www.nakano-kanko.com/event-info/event-3797/",
+        "checked_at": "2026-11-14T18:38:05+09:00",
+        "status": "checked",
+        "http_status": 200,
+        "final_url": "https://www.nakano-kanko.com/event-info/event-3797/",
+        "content_type": "text/html; charset=UTF-8",
+        "bytes": 52020,
+        "sha256": "1e20a1322101948b5758a0e246b2eb9230952bbefa0c33c155fba1f35118d425"
+      },
+      "body": "中野の☆になろう！第13回 中野区検定！ | 中野区観光協会 Skip to the content 中野の☆になろう！第13回 中野区検定！ 中野区観光協会 > イベント > 中野駅南口 > 中野の☆になろう！第13回 中野区検定！ イベント情報 第13回 中野区検定 【申込期間】 2026年10月1日（木）～11月16日（月） 先着順受付（定員：100名） 【申込方法】 お申込み期間中に、QRコードよりWEBサイトにアクセスし登録 お電話での登録も可能です。 TEL：03-3228-5544（受付時間 平日 09:00～16:00） ◆検定料（当日会場現金払い） 一般：1,500円、高校生以上の学生：1,000円、小・中学生：500円 イベント期間 2026年11月29日 イベント時間 受付：09:30～ 事前説明会開始：09:50～（必ずご着席ください。） 試験：10:00～11:00（60分） 会場 中野駅南口 エリア 中野区産業振興センター 当日の天候や状況に応じてイベント（スケジュール）が変更・中止となっている場合もあります。 詳しくはイベントサイトやSNSなどの公式情報をご確認ください。",
+      "strength": "中野に関心のある小中学生以上が、地域の知識を確かめ親子で学ぶきっかけになる。",
+      "limitation": "60分着席して問題を読む試験。幼い子の遊びではなく、読む力や地域の知識に合わせて選ぶ必要がある。",
+      "new_grade": "B",
+      "sources": [],
+      "image": "https://www.nakano-kanko.com/wp-content/uploads/nakanoku_kentei-1.jpg"
+    }
+  },
+  "excluded_source": "tamemap",
+  "other_checked_candidates": {
+    "event-3930": "2026-11-14 16時終了、現在終了済みのため新規追加しない",
+    "event-3888": "作品募集と2027-03-13最終選考、現在6週間の来場イベントとして追加しない"
+  }
+}

@@ -1,4 +1,4 @@
-name: Read-only holiday-after official discovery audit
+name: Read-only December source and carried-announcement audit
 
 on:
   push:
@@ -23,12 +23,16 @@ jobs:
           path: released
       - uses: actions/checkout@v4
         with:
+          ref: data-staging
+          path: data-staging-src
+      - uses: actions/checkout@v4
+        with:
           ref: data-production
-          path: data-src
+          path: data-production-src
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-      - name: Fetch actual 23-ward, 19 explicit sources, and existing official pages
+      - name: Check 23 wards, all 25 required sources, 8 new leads and 14 carried announcements
         id: crawl
         continue-on-error: true
         run: python3 stage/tools/holiday_readonly_crawl.py
@@ -36,12 +40,53 @@ jobs:
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: holiday-source-evidence-2026-10-13
+          name: holiday-source-evidence-2026-11-17
           path: /tmp/tokyo-holiday-evidence/*.json
           if-no-files-found: warn
           retention-days: 30
+      - name: Probe missing image sources on historical November weeks, without publication
+        continue-on-error: true
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p /tmp/november-image-probe /tmp/tokyo-holiday-evidence
+          python3 - <<'PY'
+          import json, pathlib, shutil
+          source=pathlib.Path("data-production-src/site/data")
+          target=pathlib.Path("/tmp/november-image-probe")
+          for week in ("2026-11-21", "2026-11-28"):
+              record=json.loads((source/(week+".json")).read_text())
+              for shard in record["event_files"]:
+                  shutil.copy2(source/shard,target/shard)
+          print("Image probe only copied old source data; no production or staging mutations.")
+          PY
+          python3 released/tools/enrich_images.py /tmp/november-image-probe --workers 8
+          python3 - <<'PY'
+          import json,pathlib
+          base=pathlib.Path("/tmp/november-image-probe")
+          result={"as_of_jst":"2026-11-17","read_only":True,"weeks":{}}
+          for week in ("2026-11-21","2026-11-28"):
+              events=[]
+              for file in base.glob(week+"-events-*.json"):
+                  events+=json.loads(file.read_text())
+              imgs=[e for e in events if str(e.get("image") or "").startswith(("https://","http://"))]
+              import sys
+              sys.path.insert(0,"released/tools")
+              from audit_event_image_identity import inspect_events
+              image_errors,image_warnings=inspect_events(events,week)
+              result["weeks"][week]={"image_collisions":image_errors,"generic_sharing_warnings":image_warnings,"total":len(events),"with_image":len(imgs),"ratio":round(len(imgs)/max(1,len(events)),4),"need_for_70_percent":max(0, __import__("math").ceil(len(events)*.70)-len(imgs)),"image_candidates":[{"id":e["id"],"name":e["name"],"url":e["image"],"official_url":e.get("official_url","")} for e in imgs]}
+          (pathlib.Path("/tmp/tokyo-holiday-evidence")/"image-probe-summary.json").write_text(json.dumps(result,ensure_ascii=False,indent=2)+"\n")
+          print("IMAGE_PROBE",json.dumps({w:{k:v for k,v in obj.items() if k!="image_candidates"} for w,obj in result["weeks"].items()},ensure_ascii=False))
+          PY
+      - name: Save image-probe audit evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: november-image-probe-2026-11-17
+          path: /tmp/tokyo-holiday-evidence/image-probe-summary.json
+          if-no-files-found: warn
       - name: Enforce fail-closed required-source policy
         if: steps.crawl.outcome != 'success'
         run: |
-          echo 'Some required queries failed. Do not publish data without complete official audit.'
+          echo 'Some required source or query checks failed. Do not claim the six-week global official audit completed.'
           exit 1

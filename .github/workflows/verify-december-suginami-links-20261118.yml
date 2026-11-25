@@ -1,0 +1,109 @@
+name: Audit each December 19-27 Suginami official individual event link
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/verify-december-suginami-links-20261118.yml']
+  workflow_dispatch: {}
+permissions:
+  contents: read
+  actions: read
+jobs:
+  verify_specific_rows:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          path: scanner
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - uses: actions/download-artifact@v4
+        with:
+          artifact-ids: 14375267058
+          run-id: 44187635448
+          github-token: ${{ github.token }}
+          path: sourced
+      - name: Independent event-specific official Suginami page retrieval and date/eligibility audit
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p /tmp/december-suginami-audit
+          python3 - <<'PY'
+          import concurrent.futures, datetime,hashlib,html,json,pathlib,re,urllib.request
+          from html.parser import HTMLParser
+          from urllib.parse import urlsplit
+          class Visible(HTMLParser):
+            def __init__(self):super().__init__(convert_charrefs=True);self.buf=[];self.skip=0
+            def handle_starttag(self,t,a):
+              if t in ('script','style','noscript'):self.skip+=1
+              if t in ('p','li','td','th','div','h1','h2','h3','br'):self.buf.append('\n')
+            def handle_endtag(self,t):
+              if t in ('script','style','noscript'):self.skip=max(0,self.skip-1)
+            def handle_data(self,s):
+              if not self.skip:self.buf.append(s)
+          files=list(pathlib.Path('sourced').rglob('candidate_pool.json'))
+          assert len(files)==1,('artifact nesting unexpected',files)
+          pool=json.load(open(files[0]))
+          rows={}
+          for x in pool:
+            via=x.get('discovered_via') or {};su=via.get('search_url') or ''
+            m=re.search(r'day=(19|20|26|27)&month=12&type=3&year=2026',su)
+            if not m or via.get('source_id')!='suginami_calendar_all':continue
+            u=x.get('discovery_url')
+            if not u:continue
+            rows.setdefault(u,{'id':x.get('candidate_id'),'name':x.get('name'),'event_day':'2026-12-'+m.group(1).zfill(2),'url':u})
+          assert len(rows)==13,('source-derived 13 rows expected, got',len(rows))
+          def check(row):
+            d=dict(row);d.update(status='error',checked_at=datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=9))).isoformat())
+            url=row['url']
+            try:
+              host=urlsplit(url).hostname or ''
+              assert host=='www.city.suginami.tokyo.jp',host
+              req=urllib.request.Request(url,headers={'User-Agent':'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/129 Safari/537.36','Accept-Language':'ja-JP,ja;q=0.9'})
+              with urllib.request.urlopen(req,timeout=19) as resp:
+                raw=resp.read(1800000);d['http_status']=resp.status;d['sha256_full_http_bytes']=hashlib.sha256(raw).hexdigest()
+                enc=resp.headers.get_content_charset() or 'utf-8'
+              p=Visible();p.feed(raw.decode(enc,errors='replace'))
+              txt=html.unescape(' '.join(''.join(p.buf).split()))
+              # Scope eligibility to the event detail body, not the global navigation
+              detail=(txt.split('イベント情報詳細',1)[1] if 'イベント情報詳細' in txt else txt)
+              detail=detail.split('イベント情報をiPhone',1)[0]
+              audience=re.search(r'対象者\s*(.*?)\s*開催場所',detail)
+              audience_text=(audience.group(1) if audience else '')[:300]
+              booking=re.search(r'申し込み\s*(.*?)\s*(?:申し込み期間|定員|費用|問い合わせ)',detail)
+              booking_text=(booking.group(1) if booking else '')[:350]
+              eligibility_child=bool(re.search(r'未就学児|乳幼児|小学生|中学生|高校生|子ども|こども|親子|どなたでも',audience_text))
+              eligibility_adult_only=bool(re.search(r'成人|高齢者|60歳以上',audience_text)) and not eligibility_child
+              day=row['event_day'];ymd=datetime.date.fromisoformat(day)
+              label=f'{ymd.year}年{ymd.month}月{ymd.day}日'
+              d.update(status='checked' if resp.status==200 else 'http_error',text_length=len(txt),
+                expected_date=label,date_marker_found=label in txt,
+                children_word_found=bool(re.search(r'子ども|こども|親子|小学生|中学生|児童|乳幼児|青少年|ファミリー|こども向け|おもちゃ|科学|プラネタリウム',txt)),
+                adult_only_cue=bool(re.search(r'対象者.{0,25}(?:成人|高齢者)|中学生のみ|区内在住・在学の令和8年度中学生|募集終了',txt)),
+                body_markers=[txt[max(0,m.start()-65):m.start()+110] for m in list(re.finditer(re.escape(label),txt))[:3]],
+                eligibility_text=audience_text,eligibility_child=eligibility_child,
+                eligibility_adult_only=eligibility_adult_only,booking_excerpt=booking_text,
+                detail_excerpt=detail[:1650],
+                title_in_body=row['name'].replace(' ','')[:9] in txt.replace(' ',''))
+            except Exception as err:d['error']=str(err)[:250]
+            return d
+          with concurrent.futures.ThreadPoolExecutor(max_workers=9) as ex:results=list(ex.map(check,rows.values()))
+          for item in results:print('DEC_SUGINAMI_EVENT',json.dumps(item,ensure_ascii=False))
+          total={'as_of_jst':'2026-11-18','source_run':44187635448,'source_artifact':14375267058,
+            'research_only':True,'not_published':True,'required_source_urls_checked_separately':False,
+            'total_discovered_12_19_to_12_27':len(results),'http200':sum(x['status']=='checked' for x in results),
+            'date_confirmed':sum(x.get('date_marker_found',False) for x in results),'child_cues':sum(x.get('children_word_found',False) for x in results),
+            'undetermined_or_error':sum(not x.get('date_marker_found',False) for x in results),
+            'individual_event_participation_family_fit_thumbnail_still_need_confirmation':True,
+            'events':results}
+          pathlib.Path('/tmp/december-suginami-audit/summary.json').write_text(json.dumps(total,ensure_ascii=False,indent=2)+'\n')
+          print('DEC_SUGINAMI_AUDIT',json.dumps({k:v for k,v in total.items() if k!='events'},ensure_ascii=False))
+          PY
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: dec19-27-suginami-individual-official-probe-20261118
+          path: /tmp/december-suginami-audit
+          if-no-files-found: error

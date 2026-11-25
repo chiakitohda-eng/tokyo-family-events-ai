@@ -1,0 +1,947 @@
+{
+  "review_base_main": "e90488e2f0eb0acda399402382c998aba4494b21",
+  "production": "e311ee769291a84ff7d6b070ac306f6da3b03977",
+  "original_unclassified_paths": 115,
+  "resolved_by_released_cache_import_backport": [
+    "site/copy.html",
+    "site/search.html"
+  ],
+  "reviewed_formerly_unclassified_entries": [
+    {
+      "path": ".github/workflows/audit-750-lead-detail-fetch.yml",
+      "kind": "staging_only",
+      "category": "main_operational_inventory",
+      "reason": "mainの個別監査ワークフロー「Read-only organizer-page follow-up of 750 unresolved source leads」。対象候補・公開版の再検証記録として保持し、配信アプリへは不要。",
+      "disposition": "intentional_staging_only",
+      "requires_user_approval_to_release": true
+    },
+    {
+      "path": ".github/workflows/audit-859-candidate-triage.yml",
+      "kind": "staging_only",
+      "category": "main_operational_inventory",
+      "reason": "mainの個別監査ワークフロー「Audit all 859 real source leads against live six-week published decisions (read only)」。対象候補・公開版の再検証記録として保持し、配信アプリへは不要。",
+      "disposition": "intentional_staging_only",
+      "requires_user_approval_to_release": true
+    },
+    {
+      "path": ".github/workflows/audit-canva-v117-release.yml",
+      "kind": "staging_only",
+      "category": "main_operational_inventory",
+      "reason": "mainの個別監査ワークフロー「Audit Canva v1.17 isolated production candidate (read-only)」。対象候補・公開版の再検証記録として保持し、配信アプリへは不要。",
+      "disposition": "intentional_staging_only",
+      "requires_user_approval_to_release": true
+    },
+    {
+      "path": ".github/workflows/audit-http-errors-20261109.yml",
+      "kind": "staging_only",
+      "category": "main_operational_inventory",
+      "reason": "mainの個別監査ワークフロー「Diagnose 2026-11-09 source HTTP errors using actual failed URL evidence (read only)」。対象候補・公開版の再検証記録として保持し、配信アプリへは不要。",
+      "disposition": "intentional_staging_only",
+      "requires_user_approval_to_release": true
+    },
+    {
+      "path": ".github/workflows/audit-live-nov03-publication.yml",
+      "kind": "staging_only",
+      "category": "main_operational_inventory",
+      "reason": "mainの個別監査ワークフロー「Verify live public November 3 events and regression」。対象候補・公開版の再検証記録として保持し、配信アプリへは不要。",
+      "disposition": "intentional_staging_only",
+      "requires_user_approval_to_release": true
+    },
+    {
+      "path": ".github/workflows/audit-nerima-forest-publication.yml",
+      "kind": "staging_only",
+      "category": "main_operational_inventory",
+      "reason": "mainの個別監査ワークフロー「Audit official Nerima forest schedule vs published date rows (read-only)」。対象候補・公開版の再検証記録として保持し、配信アプリへは不要。",
+      "disposition": "intentional_staging_only",
+      "requires_user_approval_to_release": true
+    },
+    {
+      "path": ".github/workflows/audit-nov03-all-wards.yml",
+      "kind": "staging_only",
+      "category": "main_operational_inventory",
+      "reason": "mainの個別監査ワークフロー「Audit Nov 3 all 23 wards (read only)」。対象候補・公開版の再検証記録として保持し、配信アプリへは不要。",
+      "disposition": "intentional_staging_only",
+      "requires_user_approval_to_release": true
+    },
+    {
+      "path": ".github/workflows/audit-nov03-data-candidate.yml",
+      "kind": "staging_only",
+      "category": "main_operational_inventory",
+      "reason": "mainの個別監査ワークフロー「Audit 2026 Nov 3 isolated event data candidate」。対象候補・公開版の再検証記録として保持し、配信アプリへは不要。",
+      "disposition": "intentional_staging_only",
+      "requires_user_approval_to_release": true
+    },
+    {
+      "path": ".github/workflows/audit-nov03-live-calendar.yml",
+      "kind": "staging_only",
+      "category": "main_operational_inventory",
+      "reason": "mainの個別監査ワークフロー「Verify Nov 3 official calendar extraction (read only)」。対象候補・公開版の再検証記録として保持し、配信アプリへは不要。",
+      "disposition": "intentional_staging_only",
+      "requires_user_approval_to_release": true
+    },
+    {
+      "path": ".github/workflows/audit-nov03-publication-gap.yml",
+      "kind": "staging_only",
+      "category": "main_operational_inventory",
+      "reason": "mainの個別監査ワークフロー「Audit Nov 3 holiday publication gap (read only)」。対象候補・公開版の再検証記録として保持し、配信アプリへは不要。",
+      "disposition": "intentional_staging_only",
+      "requires_user_approval_to_release": true
+    },
+    {
+      "path": ".github/workflows/audit-nov08-current-coverage.yml",
+      "kind": "staging_only",
+      "category": "main_operational_inventory",
+      "reason": "mainの個別監査ワークフロー「Nov 08 actual 23-ward, six-week and all 26 fixed-source recheck (read only)」。対象候補・公開版の再検証記録として保持し、配信アプリへは不要。",
+      "disposition": "intentional_staging_only",
+      "requires_user_approval_to_release": true
+    },
+    {
+      "path": ".github/workflows/audit-nov08-two-omissions.yml",
+      "kind": "staging_only",
+      "category": "main_operational_inventory",
+      "reason": "mainの個別監査ワークフロー「Verify 2026-11-08 two official event omission candidate (read only)」。対象候補・公開版の再検証記録として保持し、配信アプリへは不要。",
+      "disposition": "intentional_staging_only",
+      "requires_user_approval_to_release": true
+    },
+    {
+      "path": ".github/workflows/audit-nov08-zoo.yml",
+      "kind": "staging_only",
+      "category": "main_operational_inventory",
+      "reason": "mainの個別監査ワークフロー「Verify one missing ZOO park festa from organizer evidence (read only)」。対象候補・公開版の再検証記録として保持し、配信アプリへは不要。",
+      "disposition": "intentional_staging_only",
+      "requires_user_approval_to_release": true
+    },
+    {
+      "path": ".github/workflows/audit-somei-one-event.yml",
+      "kind": "staging_only",
+      "category": "main_operational_inventory",
+      "reason": "mainの個別監査ワークフロー「Audit 2026-11-23 Toshima family autumn festival exact verified supplement (read-only)」。対象候補・公開版の再検証記録として保持し、配信アプリへは不要。",
+      "disposition": "intentional_staging_only",
+      "requires_user_approval_to_release": true
+    },
+    {
+      "path": ".github/workflows/audit-suginami-alias-duplicates.yml",
+      "kind": "staging_only",
+      "category": "main_operational_inventory",
+      "reason": "mainの個別監査ワークフロー「Audit staged event aliases for reviewed Suginami candidate IDs」。対象候補・公開版の再検証記録として保持し、配信アプリへは不要。",
+      "disposition": "intentional_staging_only",
+      "requires_user_approval_to_release": true
+    },
+    {
+      "path": ".github/workflows/audit-usage-history-candidate.yml",
+      "kind": "staging_only",
+      "category": "main_operational_inventory",
+      "reason": "mainの個別監査ワークフロー「Audit staged usage history changes (read-only)」。対象候補・公開版の再検証記録として保持し、配信アプリへは不要。",
+      "disposition": "intentional_staging_only",
+      "requires_user_approval_to_release": true
+    },
+    {
+      "path": ".github/workflows/audit-v112-arts-suginami-release.yml",
+      "kind": "staging_only",
+      "category": "main_operational_inventory",
+      "reason": "mainの個別監査ワークフロー「Audit v1.12 Arts and Suginami approved app candidate」。対象候補・公開版の再検証記録として保持し、配信アプリへは不要。",
+      "disposition": "intentional_staging_only",
+      "requires_user_approval_to_release": true
+    },
+    {
+      "path": ".github/workflows/audit-v113-nonregression-safety.yml",
+      "kind": "staging_only",
+      "category": "main_operational_inventory",
+      "reason": "mainの個別監査ワークフロー「Audit v1.13 per-week event preservation hotfix candidate」。対象候補・公開版の再検証記録として保持し、配信アプリへは不要。",
+      "disposition": "intentional_staging_only",
+      "requires_user_approval_to_release": true
+    },
+    {
+      "path": ".github/workflows/audit-v114-omitted-candidate.yml",
+      "kind": "staging_only",
+      "category": "main_operational_inventory",
+      "reason": "mainの個別監査ワークフロー「Audit v1.14 isolated excluded-event directory candidate」。対象候補・公開版の再検証記録として保持し、配信アプリへは不要。",
+      "disposition": "intentional_staging_only",
+      "requires_user_approval_to_release": true
+    },
+    {
+      "path": ".github/workflows/audit-v118-image-integrity-release.yml",
+      "kind": "staging_only",
+      "category": "main_operational_inventory",
+      "reason": "mainの個別監査ワークフロー「Audit v1.18 approved image-integrity release (read-only)」。対象候補・公開版の再検証記録として保持し、配信アプリへは不要。",
+      "disposition": "intentional_staging_only",
+      "requires_user_approval_to_release": true
+    },
+    {
+      "path": ".github/workflows/audit-v119-canva-fluid-release.yml",
+      "kind": "staging_only",
+      "category": "main_operational_inventory",
+      "reason": "mainの個別監査ワークフロー「Audit v1.19 approved Canva touch sorter (read-only)」。対象候補・公開版の再検証記録として保持し、配信アプリへは不要。",
+      "disposition": "intentional_staging_only",
+      "requires_user_approval_to_release": true
+    },
+    {
+      "path": ".github/workflows/audit-v120-holiday-validator.yml",
+      "kind": "staging_only",
+      "category": "main_operational_inventory",
+      "reason": "mainの個別監査ワークフロー「Audit v1.20 isolated weekday holiday validator」。対象候補・公開版の再検証記録として保持し、配信アプリへは不要。",
+      "disposition": "intentional_staging_only",
+      "requires_user_approval_to_release": true
+    },
+    {
+      "path": ".github/workflows/audit-v124-pending-issues-release.yml",
+      "kind": "staging_only",
+      "category": "main_operational_inventory",
+      "reason": "mainの個別監査ワークフロー「Audit isolated approved pending-issues public release v1.24 (read-only)」。対象候補・公開版の再検証記録として保持し、配信アプリへは不要。",
+      "disposition": "intentional_staging_only",
+      "requires_user_approval_to_release": true
+    },
+    {
+      "path": ".github/workflows/audit-v125-usage-history-release.yml",
+      "kind": "staging_only",
+      "category": "main_operational_inventory",
+      "reason": "mainの個別監査ワークフロー「Audit isolated production v1.25 anonymous metrics release (read-only)」。対象候補・公開版の再検証記録として保持し、配信アプリへは不要。",
+      "disposition": "intentional_staging_only",
+      "requires_user_approval_to_release": true
+    },
+    {
+      "path": ".github/workflows/audit-v126-browser-overlay-release.yml",
+      "kind": "staging_only",
+      "category": "main_operational_inventory",
+      "reason": "mainの個別監査ワークフロー「Audit isolated v1.26 browser-private history overlay (read-only)」。対象候補・公開版の再検証記録として保持し、配信アプリへは不要。",
+      "disposition": "intentional_staging_only",
+      "requires_user_approval_to_release": true
+    },
+    {
+      "path": ".github/workflows/audit-v127-weekly-count-release.yml",
+      "kind": "staging_only",
+      "category": "main_operational_inventory",
+      "reason": "mainの個別監査ワークフロー「Audit approved v1.27 weekly-new-count app release (read-only)」。対象候補・公開版の再検証記録として保持し、配信アプリへは不要。",
+      "disposition": "intentional_staging_only",
+      "requires_user_approval_to_release": true
+    },
+    {
+      "path": ".github/workflows/audit-weekday-holiday-coverage.yml",
+      "kind": "staging_only",
+      "category": "main_operational_inventory",
+      "reason": "mainの個別監査ワークフロー「Audit upcoming official weekday holidays (read only)」。対象候補・公開版の再検証記録として保持し、配信アプリへは不要。",
+      "disposition": "intentional_staging_only",
+      "requires_user_approval_to_release": true
+    },
+    {
+      "path": ".github/workflows/audit-zoo-one-event-candidate.yml",
+      "kind": "staging_only",
+      "category": "main_operational_inventory",
+      "reason": "mainの個別監査ワークフロー「Strictly audit single 2026-11-15 official zoo park festa candidate (read-only)」。対象候補・公開版の再検証記録として保持し、配信アプリへは不要。",
+      "disposition": "intentional_staging_only",
+      "requires_user_approval_to_release": true
+    },
+    {
+      "path": ".github/workflows/deploy-metrics-history-worker.yml",
+      "kind": "staging_only",
+      "category": "main_operational_inventory",
+      "reason": "既存Cloudflare Workerのコードだけを検証後更新するデプロイ定義。D1新規作成・移行はせず、今回このワークフローの編集・実行は行わない。",
+      "disposition": "intentional_staging_only",
+      "requires_user_approval_to_release": true,
+      "requires_separate_execution_authorization": true
+    },
+    {
+      "path": ".github/workflows/diagnose-metrics-worker-403.yml",
+      "kind": "staging_only",
+      "category": "main_operational_inventory",
+      "reason": "mainの個別監査ワークフロー「Diagnose Cloudflare metrics Worker 403 (read only)」。対象候補・公開版の再検証記録として保持し、配信アプリへは不要。",
+      "disposition": "intentional_staging_only",
+      "requires_user_approval_to_release": true
+    },
+    {
+      "path": ".github/workflows/manual-latest-20261108-evidence.yml",
+      "kind": "staging_only",
+      "category": "main_operational_inventory",
+      "reason": "mainの個別監査ワークフロー「Manual latest six-week evidence 2026-11-08」。対象候補・公開版の再検証記録として保持し、配信アプリへは不要。",
+      "disposition": "intentional_staging_only",
+      "requires_user_approval_to_release": true
+    },
+    {
+      "path": ".github/workflows/persist-suginami-triage.yml",
+      "kind": "staging_only",
+      "category": "main_operational_inventory",
+      "reason": "当時の310採否artifactを隔離監査ブランチへ保存する書込み処理。本番データへの自動昇格ではなく、今回実行しない。",
+      "disposition": "intentional_staging_only",
+      "requires_user_approval_to_release": true,
+      "requires_separate_execution_authorization": true
+    },
+    {
+      "path": ".github/workflows/phase1-source-parity.yml",
+      "kind": "staging_only",
+      "category": "main_operational_inventory",
+      "reason": "mainの個別監査ワークフロー「Phase 1 official candidate-to-publication parity (read-only)」。対象候補・公開版の再検証記録として保持し、配信アプリへは不要。",
+      "disposition": "intentional_staging_only",
+      "requires_user_approval_to_release": true
+    },
+    {
+      "path": ".github/workflows/phase2-listing-coverage.yml",
+      "kind": "staging_only",
+      "category": "main_operational_inventory",
+      "reason": "mainの個別監査ワークフロー「Phase 2 paginated listing and article-to-publication audit (read-only)」。対象候補・公開版の再検証記録として保持し、配信アプリへは不要。",
+      "disposition": "intentional_staging_only",
+      "requires_user_approval_to_release": true
+    },
+    {
+      "path": ".github/workflows/recheck-http-error-fallbacks.yml",
+      "kind": "staging_only",
+      "category": "main_operational_inventory",
+      "reason": "mainの個別監査ワークフロー「HTTP 404/403 classification, official index fallback and 20-source recheck (read only)」。対象候補・公開版の再検証記録として保持し、配信アプリへは不要。",
+      "disposition": "intentional_staging_only",
+      "requires_user_approval_to_release": true
+    },
+    {
+      "path": ".github/workflows/smoke-v114-live.yml",
+      "kind": "staging_only",
+      "category": "main_operational_inventory",
+      "reason": "mainの個別監査ワークフロー「Verify live v1.14 production omission directory (read-only)」。対象候補・公開版の再検証記録として保持し、配信アプリへは不要。",
+      "disposition": "intentional_staging_only",
+      "requires_user_approval_to_release": true
+    },
+    {
+      "path": ".github/workflows/smoke-v126-live.yml",
+      "kind": "staging_only",
+      "category": "main_operational_inventory",
+      "reason": "mainの個別監査ワークフロー「Smoke test public v1.26 own-browser chart (read-only)」。対象候補・公開版の再検証記録として保持し、配信アプリへは不要。",
+      "disposition": "intentional_staging_only",
+      "requires_user_approval_to_release": true
+    },
+    {
+      "path": ".github/workflows/suginami-full-calendar-evidence.yml",
+      "kind": "staging_only",
+      "category": "main_operational_inventory",
+      "reason": "mainの個別監査ワークフロー「Suginami 42-day official calendar complete read-only audit」。対象候補・公開版の再検証記録として保持し、配信アプリへは不要。",
+      "disposition": "intentional_staging_only",
+      "requires_user_approval_to_release": true
+    },
+    {
+      "path": ".github/workflows/suginami-phase1-preflight.yml",
+      "kind": "staging_only",
+      "category": "main_operational_inventory",
+      "reason": "10/27不変候補の公式詳細を再検査する履歴監査。手動実行に限定し現行deploy.yml改修では起動しない。元404の失敗判定は維持。",
+      "disposition": "intentional_staging_only",
+      "requires_user_approval_to_release": true
+    },
+    {
+      "path": ".github/workflows/test-canva-golden-layout.yml",
+      "kind": "staging_only",
+      "category": "main_operational_inventory",
+      "reason": "mainの個別監査ワークフロー「Canva golden layout regression (read-only)」。対象候補・公開版の再検証記録として保持し、配信アプリへは不要。",
+      "disposition": "intentional_staging_only",
+      "requires_user_approval_to_release": true
+    },
+    {
+      "path": ".github/workflows/third-batch-identity-preflight.yml",
+      "kind": "staging_only",
+      "category": "main_operational_inventory",
+      "reason": "mainの個別監査ワークフロー「Verify rolling Arts preservation before final Pages deploy」。対象候補・公開版の再検証記録として保持し、配信アプリへは不要。",
+      "disposition": "intentional_staging_only",
+      "requires_user_approval_to_release": true
+    },
+    {
+      "path": ".github/workflows/third-batch-preflight.yml",
+      "kind": "staging_only",
+      "category": "main_operational_inventory",
+      "reason": "mainの個別監査ワークフロー「Verify Dec 05 rolling subset (read only)」。対象候補・公開版の再検証記録として保持し、配信アプリへは不要。",
+      "disposition": "intentional_staging_only",
+      "requires_user_approval_to_release": true
+    },
+    {
+      "path": ".github/workflows/third-batch-stage.yml",
+      "kind": "staging_only",
+      "category": "main_operational_inventory",
+      "reason": "当時の12/5部分公開候補を厳密監査後にデータステージへ置く過去の操作定義。今回実行しない。",
+      "disposition": "intentional_staging_only",
+      "requires_user_approval_to_release": true,
+      "requires_separate_execution_authorization": true
+    },
+    {
+      "path": ".github/workflows/verified-subset-preflight.yml",
+      "kind": "staging_only",
+      "category": "main_operational_inventory",
+      "reason": "mainの個別監査ワークフロー「Preflight independently verified subset (read only)」。対象候補・公開版の再検証記録として保持し、配信アプリへは不要。",
+      "disposition": "intentional_staging_only",
+      "requires_user_approval_to_release": true
+    },
+    {
+      "path": "analytics/README.md",
+      "kind": "different",
+      "category": "main_operational_inventory",
+      "reason": "匿名日別集計のイベント名と個人識別子を保存しない契約、Worker・D1の運用を説明する開発資料。配信HTMLではない。",
+      "disposition": "intentional_staging_only",
+      "requires_user_approval_to_release": true
+    },
+    {
+      "path": "analytics/worker.mjs",
+      "kind": "different",
+      "category": "main_operational_inventory",
+      "reason": "匿名集計Workerのmain候補には別サービスkeiba名前空間の分離があり、既存イベント集計の非退行テストと対になる。Cloudflareへの公開承認・デプロイは今回の範囲外として保持。",
+      "disposition": "intentional_staging_only",
+      "requires_user_approval_to_release": true,
+      "release_state": "pending_release"
+    },
+    {
+      "path": "docs/CANVA_DRAFT_INTEGRATION.md",
+      "kind": "staging_only",
+      "category": "main_operational_inventory",
+      "reason": "36イベント・固定表紙と末尾ページ等のCanvaドラフト連携の開発経緯とルールを残す運用資料。公開サイトへの自動移植はしない。",
+      "disposition": "intentional_staging_only",
+      "requires_user_approval_to_release": true
+    },
+    {
+      "path": "docs/IMAGE_THUMBNAIL_ROOT_CAUSE_2026-10-24.md",
+      "kind": "staging_only",
+      "category": "main_operational_inventory",
+      "reason": "交流フェスタと木と暮しの画像取り違えの公式画像位置・原因・修正を残す障害記録。",
+      "disposition": "intentional_staging_only",
+      "requires_user_approval_to_release": true
+    },
+    {
+      "path": "docs/SOURCE_PARITY_PHASE1.md",
+      "kind": "staging_only",
+      "category": "main_operational_inventory",
+      "reason": "練馬地区祭と杉並全ジャンルカレンダーの候補・採否・公開照合を定義するmain監査手順。",
+      "disposition": "intentional_staging_only",
+      "requires_user_approval_to_release": true
+    },
+    {
+      "path": "docs/SOURCE_PARITY_PHASE2.md",
+      "kind": "staging_only",
+      "category": "main_operational_inventory",
+      "reason": "中野観光・板橋記事・練馬観光の有限ページ送りと記事照合を定義するmain監査手順。",
+      "disposition": "intentional_staging_only",
+      "requires_user_approval_to_release": true
+    },
+    {
+      "path": "docs/SOURCE_PARITY_PHASE3.md",
+      "kind": "staging_only",
+      "category": "main_operational_inventory",
+      "reason": "固定26サイトの接続成功と個別イベントの掲載確認を混同しない、ステージング監査画面の仕様。",
+      "disposition": "intentional_staging_only",
+      "requires_user_approval_to_release": true
+    },
+    {
+      "path": "docs/canva_prompt_rules_v2.md",
+      "kind": "different",
+      "category": "main_operational_inventory",
+      "reason": "Canvaドラフトのコピー・画像・日付・ページ順の検品に使う開発運用ルール。今回Canvaの変更や投稿は行わない。",
+      "disposition": "intentional_staging_only",
+      "requires_user_approval_to_release": true
+    },
+    {
+      "path": "docs/verified_subset_publication_policy_v1.md",
+      "kind": "staging_only",
+      "category": "main_operational_inventory",
+      "reason": "2026-10-26の明示承認に基づく検証済み個票だけの部分公開、旧ソース失敗保持、非削除の手順。",
+      "disposition": "intentional_staging_only",
+      "requires_user_approval_to_release": true
+    },
+    {
+      "path": "policy/source_fallbacks_v1.json",
+      "kind": "staging_only",
+      "category": "main_operational_inventory",
+      "reason": "固定26サイト登録を変更しない補助URLのインメモリ上乗せ。元の取得失敗を残し、イベント掲載を自動承認しないmain収集用設定。",
+      "disposition": "intentional_staging_only",
+      "requires_user_approval_to_release": true
+    },
+    {
+      "path": "research/2026-10-25-nov03-official-gap-ledger.json",
+      "kind": "staging_only",
+      "category": "main_operational_inventory",
+      "reason": "11/3単独祝日の公式候補を未公開・未承認として残す2026-10-25の調査台帳。",
+      "disposition": "intentional_staging_only",
+      "requires_user_approval_to_release": true
+    },
+    {
+      "path": "research/2026-10-25-nov03-standalone-followup.json",
+      "kind": "staging_only",
+      "category": "main_operational_inventory",
+      "reason": "11/3休日だけの催事が週末扱いの制約で落ちた原因と追跡候補の過去調査。",
+      "disposition": "intentional_staging_only",
+      "requires_user_approval_to_release": true
+    },
+    {
+      "path": "research/dec05_independent_official_programs_20261027.json",
+      "kind": "staging_only",
+      "category": "main_operational_inventory",
+      "reason": "12/5〜6を新しい第6週へ入れる前の独立参加企画の確認資料。現行公開数や承認状態には流用しない。",
+      "disposition": "intentional_staging_only",
+      "requires_user_approval_to_release": true
+    },
+    {
+      "path": "research/third_batch_20261205_carryover_preservation.json",
+      "kind": "staging_only",
+      "category": "main_operational_inventory",
+      "reason": "当時の11/28から12/5への14件持越しでID・日付・元週を保護する過去の計画。",
+      "disposition": "intentional_staging_only",
+      "requires_user_approval_to_release": true
+    },
+    {
+      "path": "research/third_batch_20261205_verified_shard.json",
+      "kind": "staging_only",
+      "category": "main_operational_inventory",
+      "reason": "当時の14件の公式確認候補をready_for_production=falseで残す、過去の第6週追加準備資料。",
+      "disposition": "intentional_staging_only",
+      "requires_user_approval_to_release": true
+    },
+    {
+      "path": "research/third_batch_nov07_full_tier_rechecks.json",
+      "kind": "staging_only",
+      "category": "main_operational_inventory",
+      "reason": "11/7週のfull昇格前に各公式情報を再確認した2026-10-27の証跡。現在のHTTP成功へは書換えない。",
+      "disposition": "intentional_staging_only",
+      "requires_user_approval_to_release": true
+    },
+    {
+      "path": "research/verified_subset_20261026_batch01.json",
+      "kind": "staging_only",
+      "category": "main_operational_inventory",
+      "reason": "2026-10-26の公式事実照合と不変ベース・画像等の残確認を記録する部分公開の準備台帳。",
+      "disposition": "intentional_staging_only",
+      "requires_user_approval_to_release": true
+    },
+    {
+      "path": "site/data/2026-10-24-events-01.json",
+      "kind": "different",
+      "category": "historical_data_shadow_copy",
+      "reason": "過去10/24の交流フェスタ画像1件の訂正版。公開の動的正本data-productionも訂正済みで、productionアプリ側の旧コピーは公開データ正本ではない。",
+      "disposition": "intentional_staging_only",
+      "requires_user_approval_to_release": true
+    },
+    {
+      "path": "site/pending-issues.html",
+      "kind": "different",
+      "category": "pending_staging_app",
+      "reason": "ステージング専用の固定26サイト監査画面への導線。公開版の掲載判断一覧への導線を本番では保持し、この差分は自動公開しない。",
+      "disposition": "intentional_staging_only",
+      "requires_user_approval_to_release": true,
+      "release_state": "pending_release"
+    },
+    {
+      "path": "site/pending-issues.js",
+      "kind": "different",
+      "category": "pending_staging_app",
+      "reason": "ステージングのローカル監査JSONを読む版。本番のstaging/audit参照との差を保持し、取得時刻・候補確認の状態を混ぜない。",
+      "disposition": "intentional_staging_only",
+      "requires_user_approval_to_release": true,
+      "release_state": "pending_release"
+    },
+    {
+      "path": "site/source-audit.css",
+      "kind": "staging_only",
+      "category": "pending_staging_app",
+      "reason": "未公開の固定26サイト監査画面だけのレイアウト。既存イベントカードのスタイルとは分離してmainに保持。",
+      "disposition": "intentional_staging_only",
+      "requires_user_approval_to_release": true,
+      "release_state": "pending_release"
+    },
+    {
+      "path": "site/source-audit.html",
+      "kind": "staging_only",
+      "category": "pending_staging_app",
+      "reason": "取得成功とイベント内容確認を別に表示するステージング監査画面のHTML。productionに存在せず公開承認待ち。",
+      "disposition": "intentional_staging_only",
+      "requires_user_approval_to_release": true,
+      "release_state": "pending_release"
+    },
+    {
+      "path": "site/source-audit.js",
+      "kind": "staging_only",
+      "category": "pending_staging_app",
+      "reason": "HTTP200を全件掲載照合完了と扱わない未公開の読み取り専用監査画面。今回のデータ公開には混ぜない。",
+      "disposition": "intentional_staging_only",
+      "requires_user_approval_to_release": true,
+      "release_state": "pending_release"
+    },
+    {
+      "path": "site/usage-history.css",
+      "kind": "different",
+      "category": "pending_staging_app",
+      "reason": "この端末の記録オン状態で操作ボタンのhiddenを効かせるmainの追加CSS。公開版との差は未承認UI候補として保持。",
+      "disposition": "intentional_staging_only",
+      "requires_user_approval_to_release": true,
+      "release_state": "pending_release"
+    },
+    {
+      "path": "site/usage-history.html",
+      "kind": "different",
+      "category": "pending_staging_app",
+      "reason": "端末内設定が次回にも残る説明を補うmainの追加文言。公開v1.33には混ぜず、別のUIリリース候補として保持。",
+      "disposition": "intentional_staging_only",
+      "requires_user_approval_to_release": true,
+      "release_state": "pending_release"
+    },
+    {
+      "path": "site/usage-history.js",
+      "kind": "different",
+      "category": "pending_staging_app",
+      "reason": "オン時に再度有効化ボタンを出さず、保存状態を表示するmainのUI候補。公開版への昇格承認は今回行わない。",
+      "disposition": "intentional_staging_only",
+      "requires_user_approval_to_release": true,
+      "release_state": "pending_release"
+    },
+    {
+      "path": "tests/event_star_layout_contract.test.mjs",
+      "kind": "staging_only",
+      "category": "main_operational_inventory",
+      "reason": "イベント要約HTMLの閉じタグ欠落や星表示レイアウトの構文崩れを検出するmain回帰検証。",
+      "disposition": "intentional_staging_only",
+      "requires_user_approval_to_release": true
+    },
+    {
+      "path": "tests/festival_display_grouping.test.mjs",
+      "kind": "staging_only",
+      "category": "main_operational_inventory",
+      "reason": "同一フェスの親子企画を表示上まとめるID・会場・更新件数の契約をmainで検証。",
+      "disposition": "intentional_staging_only",
+      "requires_user_approval_to_release": true
+    },
+    {
+      "path": "tests/keiba_metrics_shared_worker.test.mjs",
+      "kind": "staging_only",
+      "category": "main_operational_inventory",
+      "reason": "別keiba APIの追加で既存イベントの収集・集計・Origin分離が壊れないことをmainで検証。",
+      "disposition": "intentional_staging_only",
+      "requires_user_approval_to_release": true
+    },
+    {
+      "path": "tests/pending_issues_release.test.mjs",
+      "kind": "production_only",
+      "category": "main_operational_inventory",
+      "reason": "productionだけにある公開版残課題ページの導線と表示契約のリリース検証。未公開ステージング監査画面とは別の正本として保持。",
+      "disposition": "intentional_staging_only",
+      "requires_user_approval_to_release": true
+    },
+    {
+      "path": "tests/source_audit_dashboard.test.mjs",
+      "kind": "staging_only",
+      "category": "main_operational_inventory",
+      "reason": "未照合数null、26サイト、取得失敗をゼロにしないステージング監査画面の表示契約。",
+      "disposition": "intentional_staging_only",
+      "requires_user_approval_to_release": true
+    },
+    {
+      "path": "tests/test_fixed_source_coverage_v3.py",
+      "kind": "staging_only",
+      "category": "main_operational_inventory",
+      "reason": "26ソース保護、対象月の展開、接続失敗と候補未確認の区別を検証するmainの監査テスト。",
+      "disposition": "intentional_staging_only",
+      "requires_user_approval_to_release": true
+    },
+    {
+      "path": "tests/test_independent_holiday_gap.py",
+      "kind": "staging_only",
+      "category": "main_operational_inventory",
+      "reason": "長期展示があっても祝日単独の別企画の欠落が隠れないことを検証するmainのテスト。",
+      "disposition": "intentional_staging_only",
+      "requires_user_approval_to_release": true
+    },
+    {
+      "path": "tests/test_listing_source_evidence_v2.py",
+      "kind": "staging_only",
+      "category": "main_operational_inventory",
+      "reason": "中野の見出し・板橋まとめから子記事・練馬の過去一覧見出しの誤候補化を検証するmainのテスト。",
+      "disposition": "intentional_staging_only",
+      "requires_user_approval_to_release": true
+    },
+    {
+      "path": "tests/test_nerima_forest_publication.py",
+      "kind": "staging_only",
+      "category": "main_operational_inventory",
+      "reason": "森イベントの同日・同会場・個別IDごとの掲載と曖昧一致の拒否を確認するmainのテスト。",
+      "disposition": "intentional_staging_only",
+      "requires_user_approval_to_release": true
+    },
+    {
+      "path": "tests/test_nerima_holiday_fallback.py",
+      "kind": "staging_only",
+      "category": "main_operational_inventory",
+      "reason": "練馬月別404の元記録を保持し、誤月やセキュリティチャレンジでは補助URLを成功扱いしない検証。",
+      "disposition": "intentional_staging_only",
+      "requires_user_approval_to_release": true
+    },
+    {
+      "path": "tests/test_official_schedule_annual.py",
+      "kind": "different",
+      "category": "main_operational_inventory",
+      "reason": "年度をまたぐ実際の公式年次リンク、未公開年、別ホストを厳密に扱うmain追加テスト。",
+      "disposition": "intentional_staging_only",
+      "requires_user_approval_to_release": true
+    },
+    {
+      "path": "tests/test_rolling_horizon.py",
+      "kind": "different",
+      "category": "main_operational_inventory",
+      "reason": "平日単独祝日と通常の月曜、11月の3連休を区別して6週の対象を作るmain追加テスト。",
+      "disposition": "intentional_staging_only",
+      "requires_user_approval_to_release": true
+    },
+    {
+      "path": "tests/test_source_coverage_reconcile.py",
+      "kind": "staging_only",
+      "category": "main_operational_inventory",
+      "reason": "公式候補・根拠付き採否・実公開データをID・日付・会場で照合し、曖昧一致や根拠なし除外を拒否する検証。",
+      "disposition": "intentional_staging_only",
+      "requires_user_approval_to_release": true
+    },
+    {
+      "path": "tests/test_source_fallback_policy.py",
+      "kind": "staging_only",
+      "category": "main_operational_inventory",
+      "reason": "固定ソースのID・URLを不変にし、補助候補を実行時だけ上乗せするmain収集の保護検証。",
+      "disposition": "intentional_staging_only",
+      "requires_user_approval_to_release": true
+    },
+    {
+      "path": "tests/test_weekday_holiday_coverage.py",
+      "kind": "staging_only",
+      "category": "main_operational_inventory",
+      "reason": "11/3を加えても11/23欠落を見逃さず、通常平日を祝日と扱わない収集・公開範囲の検証。",
+      "disposition": "intentional_staging_only",
+      "requires_user_approval_to_release": true
+    },
+    {
+      "path": "tests/usage_history_release.test.mjs",
+      "kind": "production_only",
+      "category": "main_operational_inventory",
+      "reason": "productionだけにある公開済み日別履歴画面の配信・Worker契約テスト。mainの次期画面候補とは別に保持。",
+      "disposition": "intentional_staging_only",
+      "requires_user_approval_to_release": true
+    },
+    {
+      "path": "tests/usage_metrics.test.mjs",
+      "kind": "different",
+      "category": "main_operational_inventory",
+      "reason": "個人識別情報を保存せず、許可イベントと実測日別集計だけを扱うWorkerと端末内メモのmain回帰検証。",
+      "disposition": "intentional_staging_only",
+      "requires_user_approval_to_release": true
+    },
+    {
+      "path": "tools/audit_859_candidate_links_20261109.py",
+      "kind": "staging_only",
+      "category": "main_operational_inventory",
+      "reason": "859個の実観測リンクを同名・同URLだけで掲載一致とせず、ナビや未日付候補に区分する読み取り監査。",
+      "disposition": "intentional_staging_only",
+      "requires_user_approval_to_release": true
+    },
+    {
+      "path": "tools/audit_independent_holiday.py",
+      "kind": "staging_only",
+      "category": "main_operational_inventory",
+      "reason": "単独祝日の公式催事が長期展示に埋もれた掲載漏れを検出する読み取り専用ツール。",
+      "disposition": "intentional_staging_only",
+      "requires_user_approval_to_release": true
+    },
+    {
+      "path": "tools/audit_nerima_forest_publication.py",
+      "kind": "staging_only",
+      "category": "main_operational_inventory",
+      "reason": "練馬森フェスタの公式表の各行を、同一日・会場の実際の掲載へ照合する読み取り監査。",
+      "disposition": "intentional_staging_only",
+      "requires_user_approval_to_release": true
+    },
+    {
+      "path": "tools/audit_phase1_source_coverage.py",
+      "kind": "staging_only",
+      "category": "main_operational_inventory",
+      "reason": "練馬地区祭・杉並カレンダーの実取得証跡から、公式候補と公開照合の状況を集計するmain監査。",
+      "disposition": "intentional_staging_only",
+      "requires_user_approval_to_release": true
+    },
+    {
+      "path": "tools/audit_phase2_listing_parity.py",
+      "kind": "staging_only",
+      "category": "main_operational_inventory",
+      "reason": "記事・ページ送り型の取得証跡を現行shardに照合し、ニュース記事だけで公式確認済みにしないmain監査。",
+      "disposition": "intentional_staging_only",
+      "requires_user_approval_to_release": true
+    },
+    {
+      "path": "tools/audit_weekday_holiday_coverage.py",
+      "kind": "staging_only",
+      "category": "main_operational_inventory",
+      "reason": "内閣府祝日CSVと候補manifestを読み、6週内の平日祝日が欠落していないか確認する公開範囲監査。",
+      "disposition": "intentional_staging_only",
+      "requires_user_approval_to_release": true
+    },
+    {
+      "path": "tools/build_verified_horizon_subset.py",
+      "kind": "staging_only",
+      "category": "main_operational_inventory",
+      "reason": "不変data-productionと当時の実取得artifactから6週部分公開候補を構築するmain工具。自分で本番枝へ昇格しない。",
+      "disposition": "intentional_staging_only",
+      "requires_user_approval_to_release": true
+    },
+    {
+      "path": "tools/followup_unresolved_617_urls_20261109.py",
+      "kind": "staging_only",
+      "category": "main_operational_inventory",
+      "reason": "未解決URLの本文を有限個だけ取得する読み取り監査。タイトル・日付断片・HTTP200だけで採否を決めない。",
+      "disposition": "intentional_staging_only",
+      "requires_user_approval_to_release": true
+    },
+    {
+      "path": "tools/listing_source_evidence_v2.py",
+      "kind": "staging_only",
+      "category": "main_operational_inventory",
+      "reason": "中野・板橋・練馬の記事と実在する次ページを有限巡回し、候補根拠だけを残すmain収集処理。",
+      "disposition": "intentional_staging_only",
+      "requires_user_approval_to_release": true
+    },
+    {
+      "path": "tools/official_schedule_discovery.py",
+      "kind": "different",
+      "category": "main_operational_inventory",
+      "reason": "自治体の複数催事表を日付・会場の個別候補へ分けるmainの探索処理。取得・解析失敗を成功へは変更しない。",
+      "disposition": "intentional_staging_only",
+      "requires_user_approval_to_release": true
+    },
+    {
+      "path": "tools/recheck_failed_http_sources_20261109.py",
+      "kind": "staging_only",
+      "category": "main_operational_inventory",
+      "reason": "当時の17失敗URLと必須経路を再実測する過去の読み取り調査。今回ためまっぷ再調査のためには実行しない。",
+      "disposition": "intentional_staging_only",
+      "requires_user_approval_to_release": true
+    },
+    {
+      "path": "tools/source_coverage_reconcile.py",
+      "kind": "staging_only",
+      "category": "main_operational_inventory",
+      "reason": "公式候補から根拠付き採否、実掲載までの一致を検証する再利用可能なmain監査処理。",
+      "disposition": "intentional_staging_only",
+      "requires_user_approval_to_release": true
+    },
+    {
+      "path": "tools/source_fallback_policy.py",
+      "kind": "staging_only",
+      "category": "main_operational_inventory",
+      "reason": "固定ソース登録に触れず、実行中だけ補助URLを足すmainの上乗せ規則。元ソースの失敗は保持。",
+      "disposition": "intentional_staging_only",
+      "requires_user_approval_to_release": true
+    },
+    {
+      "path": "tools/suginami_full_calendar_evidence.py",
+      "kind": "staging_only",
+      "category": "main_operational_inventory",
+      "reason": "杉並公式の42日分を実際に巡回する読み取り監査。取得数を採否完了数や掲載数と同一視しない。",
+      "disposition": "intentional_staging_only",
+      "requires_user_approval_to_release": true
+    },
+    {
+      "path": "tools/validate_current_rollover_20261108.py",
+      "kind": "staging_only",
+      "category": "main_operational_inventory",
+      "reason": "2026-11-08の既存保持付き6週ロール更新候補を、固定ベースと実証跡で限定検証するmainゲート。",
+      "disposition": "intentional_staging_only",
+      "requires_user_approval_to_release": true
+    },
+    {
+      "path": "tools/validate_data.py",
+      "kind": "different",
+      "category": "main_operational_inventory",
+      "reason": "main側の実行モードとローカル変数初期化位置がproduction版と異なる。独立祝日検証の意味は同じで、未承認の本番検証器置換はしない。",
+      "disposition": "intentional_staging_only",
+      "requires_user_approval_to_release": true
+    },
+    {
+      "path": "tools/validate_history_metadata_provenance.mjs",
+      "kind": "staging_only",
+      "category": "main_operational_inventory",
+      "reason": "当時の11/8更新件数来歴だけの訂正を限定し、イベント・採否・取得ログ等の変更を拒否するmainゲート。",
+      "disposition": "intentional_staging_only",
+      "requires_user_approval_to_release": true
+    },
+    {
+      "path": "tools/validate_nerima_forest_addition.py",
+      "kind": "staging_only",
+      "category": "main_operational_inventory",
+      "reason": "公式の森イベント3週追加と旧イベントID・取得失敗保持を固定ベースで照合する過去バッチ専用mainゲート。",
+      "disposition": "intentional_staging_only",
+      "requires_user_approval_to_release": true
+    },
+    {
+      "path": "tools/validate_official_gap_recovery_20261108.py",
+      "kind": "staging_only",
+      "category": "main_operational_inventory",
+      "reason": "11/8の公式追加分だけを許し、既存ソース失敗の多重集合を不変にするmainの凍結バッチゲート。",
+      "disposition": "intentional_staging_only",
+      "requires_user_approval_to_release": true
+    },
+    {
+      "path": "tools/validate_somei_add_20261109.py",
+      "kind": "staging_only",
+      "category": "main_operational_inventory",
+      "reason": "区公式で確認した染井よしの祭り1件だけの追加と旧データ保持を照合するmainゲート。",
+      "disposition": "intentional_staging_only",
+      "requires_user_approval_to_release": true
+    },
+    {
+      "path": "tools/validate_suginami_phase1_addition.py",
+      "kind": "staging_only",
+      "category": "main_operational_inventory",
+      "reason": "10/27の杉並2企画だけの不変候補・旧記録保持・公式詳細の現行HTTPを確認する過去バッチ専用ゲート。404は失敗のまま。",
+      "disposition": "intentional_staging_only",
+      "requires_user_approval_to_release": true
+    },
+    {
+      "path": "tools/validate_this_week_verified_addition.py",
+      "kind": "staging_only",
+      "category": "main_operational_inventory",
+      "reason": "10/31・11/1・11/3の公式6件だけの追加を固定ベースに対して確認する過去バッチ専用mainゲート。",
+      "disposition": "intentional_staging_only",
+      "requires_user_approval_to_release": true
+    },
+    {
+      "path": "tools/validate_two_official_omissions_20261108.py",
+      "kind": "staging_only",
+      "category": "main_operational_inventory",
+      "reason": "11/8の独立公式2件だけの追加を許す凍結mainゲート。他候補や未完了ソースへの免除として使わない。",
+      "disposition": "intentional_staging_only",
+      "requires_user_approval_to_release": true
+    },
+    {
+      "path": "tools/validate_verified_horizon_rollover.py",
+      "kind": "staging_only",
+      "category": "main_operational_inventory",
+      "reason": "当時の12/5第6週への14確認企画と14持越しだけを許し、旧取得失敗を保持するmainゲート。",
+      "disposition": "intentional_staging_only",
+      "requires_user_approval_to_release": true
+    },
+    {
+      "path": "tools/validate_verified_subset.py",
+      "kind": "staging_only",
+      "category": "main_operational_inventory",
+      "reason": "11/23単独祝日の部分追加だけを固定ベース・旧記録保持で確認する過去バッチ用mainゲート。",
+      "disposition": "intentional_staging_only",
+      "requires_user_approval_to_release": true
+    },
+    {
+      "path": "tools/validate_verified_weekend_subset.py",
+      "kind": "staging_only",
+      "category": "main_operational_inventory",
+      "reason": "11/29週の部分追加だけを固定ベース・旧記録保持で確認する過去バッチ用mainゲート。",
+      "disposition": "intentional_staging_only",
+      "requires_user_approval_to_release": true
+    },
+    {
+      "path": "tools/validate_zoo_add_20261108.py",
+      "kind": "staging_only",
+      "category": "main_operational_inventory",
+      "reason": "主催者公式のZOOイベント1件追加だけを許す固定ベース・旧記録保護のmainゲート。",
+      "disposition": "intentional_staging_only",
+      "requires_user_approval_to_release": true
+    }
+  ],
+  "corrected_kind": {
+    "path": "tools/holiday_after_collect.py",
+    "kind": "different",
+    "category": "staging_tool",
+    "reason": "mainにHTTP失敗診断・補助候補発見等の運用上の追加がある収集器。productionにも既存版があるためstaging_onlyではなくdifferent。本番アプリへ自動移植せず、ためまっぷの追加再取得は今回行わない。",
+    "disposition": "intentional_staging_only",
+    "requires_user_approval_to_release": true
+  },
+  "data_only_release": "data-release/2026-11-14-r660",
+  "data_production": "273c8753a9d5ea09f38e580d4c51b4c87abd0189",
+  "no_production_app_or_data_mutation": true,
+  "pending_release_differences_are_not_approved_for_publication": true
+}

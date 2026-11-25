@@ -2,15 +2,15 @@
 <html lang="ja">
 <head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>現在の残課題・対応状況 | 東京23区子連れイベントAI収集</title>
+<title>現在の残課題・対応状況 | 東京子連れイベントAI収集</title>
 <meta name="description" content="子連れイベントの収集や掲載確認で、まだ対応が必要なことをわかりやすくご案内します。">
 <link rel="stylesheet" href="styles.css?v=20261017-fixed-source-directory">
-<link rel="stylesheet" href="pending-issues.css?v=20261028-1">
+<link rel="stylesheet" href="pending-issues.css?v=20261115-remaining-clarity-1">
 </head>
 <body class="pending-issues-page">
 <section class="site-hero"><div class="hero-inner">
   <div class="site-topbar">
-    <a class="site-brand" href="index.html">東京23区子連れイベントAI収集</a>
+    <a class="site-brand" href="index.html">東京子連れイベントAI収集</a>
     <nav class="site-nav" aria-label="メインナビゲーション">
       <a href="index.html">トップ</a><a href="search.html">イベント検索</a>
       <a href="source-audit.html">情報源の確認状況</a>
@@ -18,30 +18,24 @@
   </div>
   <div class="hero-eyebrow">CURRENT OPEN ITEMS</div>
   <h1>現在の残課題・対応状況</h1>
-  <p class="hero-copy">イベント情報を集めるときに、まだ確認・改善が必要なことをまとめています。今起きていることと、代わりに行っている対応をお知らせします。</p>
+  <p class="hero-copy">残課題・保留・完了を一覧で確認できます。詳細は各項目を開いてご覧ください。</p>
 </div></section>
 <main class="home-main">
-  <section class="home-section panel">
-    <div class="section-head">
-      <div><div class="eyebrow">CURRENT STATUS</div><h2>今、対応していること</h2>
-      <p id="pendingIntro">残課題の情報を確認しています。</p></div>
-    </div>
-    <div class="pending-issues-stats">
-      <div><strong id="pendingTotal">—</strong><span>確認・対応が必要な項目</span></div>
-      <div><strong id="pendingConnection">—</strong><span>サイトへの接続に関する問題</span></div>
-      <div><strong id="pendingVerification">—</strong><span>イベント情報の確認作業</span></div>
-    </div>
-    <p class="pending-issues-note">これらは<strong>掲載中のイベントがすべて間違っているという意味ではありません</strong>。取得できなかったために既存情報を消すこともありません。未確認は「解決済み」にせず、そのまま表示します。</p>
-    <div id="pendingCheckedAt" class="pending-issues-checked" role="status">監査日時を確認中です。</div>
-  </section>
   <section class="home-section panel" aria-labelledby="pendingListTitle">
     <div class="section-head">
-      <div><div class="eyebrow">WORK IN PROGRESS</div><h2 id="pendingListTitle">残課題一覧</h2>
-        <p>困っていること、利用者への影響、いまの対処方法、次の対応を項目ごとに表示します。</p>
+      <div><div class="eyebrow">STATUS OVERVIEW</div><h2 id="pendingListTitle">対応状況一覧</h2>
+        <p id="pendingIntro">項目名と状態を並べています。対応内容や完了した範囲は、各行を開いて確認できます。</p>
       </div>
     </div>
     <div class="pending-issues-filters">
-      <label for="pendingCategoryFilter">表示する課題</label>
+      <label for="pendingStatusFilter">状態</label>
+      <select id="pendingStatusFilter">
+        <option value="all">すべての状態</option>
+        <option value="pending">公式根拠の確認待ち</option>
+        <option value="deferred">指定による保留</option>
+        <option value="completed">対応完了</option>
+      </select>
+      <label for="pendingCategoryFilter">区分</label>
       <select id="pendingCategoryFilter">
         <option value="all">すべて</option>
         <option value="connection">サイトへの接続に関する問題</option>
@@ -53,14 +47,18 @@
   </section>
   <section class="home-section panel">
     <div class="section-head"><div><div class="eyebrow">WHAT THIS MEANS</div><h2>どうやって更新されるの？</h2></div></div>
+    <details class="pending-context"><summary>確認の範囲・取得状況について</summary>
+    <p class="pending-issues-note">これらは<strong>掲載中のイベントがすべて間違っているという意味ではありません</strong>。取得できなかったために既存情報を消すこともありません。未確認は「解決済み」にせず、そのまま表示します。完了分は残課題の件数に含めません。件数は課題のまとまりで、候補数や取得できないページ数とは異なります。</p>
+    <div id="pendingCheckedAt" class="pending-issues-checked" role="status">監査日時を確認中です。</div>
+    </details>
     <div class="pending-issues-explainer">
-      <p><strong>サイトにつながるか</strong>は定期的な実際のアクセス結果から確認します。サイトに接続できたとしても、イベント情報の確認が完了するまでは課題を自動的に消しません。</p>
-      <p><strong>候補の確認作業</strong>は日時・会場・主催者の情報を照合し、完了した項目を更新します。表示されている課題はGitHubの管理記録にもリンクしています。</p>
+      <p><strong>サイトにつながるか</strong>は定期的な実際のアクセス結果から確認します。接続の結果と、対応が完了したかどうかは別に表示します。接続成功だけで保留を完了に変えることはありません。</p>
+      <p><strong>候補の確認作業</strong>は日時・会場・主催者の情報を照合し、完了した範囲と残る確認事項を整理します。候補を「保留」と判定したことと、その開催を確認できたことは区別します。</p>
     </div>
-    <p class="pending-issues-related"><a href="source-audit.html">26サイトそれぞれの取得状況を見る</a>　／　<a href="search.html">イベントを探す</a></p>
+    <p class="pending-issues-related"><a href="source-audit.html">登録サイトそれぞれの取得状況を見る</a>　／　<a href="search.html">イベントを探す</a></p>
   </section>
 </main>
 <footer class="site-footer"><a href="index.html">トップへ戻る</a>　／　取得できないページがあっても、確認済みのイベントは保持します。</footer>
-<script type="module" src="pending-issues.js?v=20261028-1"></script>
+<script type="module" src="pending-issues.js?v=20261115-remaining-clarity-1"></script>
 </body>
 </html>

@@ -1,0 +1,128 @@
+name: Diagnose 2026-11-09 source HTTP errors using actual failed URL evidence (read only)
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/audit-http-errors-20261109.yml']
+  workflow_dispatch: {}
+permissions:
+  contents: read
+  actions: read
+jobs:
+  diagnose:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Retrieve immutable 17 HTTP failures and one oversize observation
+        uses: actions/download-artifact@v4
+        with:
+          artifact-ids: 13635440202
+          run-id: 42525057008
+          github-token: ${{ github.token }}
+          path: evidence
+      - name: Record actual HTTP response signatures and distinguish server 404 from denial or transient failures
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import json,datetime as dt,hashlib,re
+          from pathlib import Path
+          from collections import Counter
+          from urllib.request import Request,urlopen
+          from urllib.error import HTTPError,URLError
+          from concurrent.futures import ThreadPoolExecutor
+          from urllib.parse import urlsplit
+          src=Path('evidence/unresolved-750-real-detail-fetch-status-and-evidence/summary.json')
+          failures=json.loads(src.read_text(encoding='utf8'))['source_url_failures']
+          cases=[x for x in failures if x['status']=='http_error']
+          assert len(cases)==17 and Counter(x['http_status'] for x in cases)=={404:15,403:2}
+          tbase="https://pc.tamemap.net/1311401/"
+          tamemap=[
+            tbase+"calendar/2026-11?lat=35.7089745&lng=139.6630981&level=5000&locale=ja",
+            tbase+"calendar/2026-12?lat=35.7089745&lng=139.6630981&level=5000&locale=ja",
+            tbase+"new_arrival?lat=35.7089745&lng=139.6630981&level=5000&locale=ja",
+          ]
+          # Never use browser challenge automation, cookie scraping or CAPTCHA evasion.
+          # A comparison of two ordinary public user-agent headers on 404 only
+          # distinguishes bot-UA-dependent denial from a genuinely broken deep URL.
+          robots='TokyoFamilyEventsEvidence/1.0 (+github.com/toodataa-ai/tokyo-family-events-ai)'
+          public='Mozilla/5.0 (compatible; PublicEventStatusDiagnostics/1.0)'
+          def check(url,agent):
+              req=Request(url,headers={'User-Agent':agent,'Accept':'text/html,application/xhtml+xml;q=0.9,*/*;q=0.1'})
+              payload=b'';headers={};code=None;final=url;failure=''
+              try:
+                  with urlopen(req,timeout=11) as res:
+                      code=res.status;final=res.geturl()
+                      headers=dict(res.headers.items())
+                      payload=res.read(32000)
+              except HTTPError as e:
+                  code=e.code;final=e.geturl();headers=dict(e.headers.items())
+                  payload=e.read(4000);failure='HTTPError'
+              except (URLError,TimeoutError,OSError,ValueError) as e:
+                  failure=type(e).__name__+': '+str(e)[:130]
+              h={k.lower():v for k,v in headers.items()}
+              sample=payload.decode('utf-8','replace')[:420]
+              title=re.search(r'<title[^>]*>(.*?)</title>',sample,re.I|re.S)
+              return dict(status=code,final_url=final,
+                  server=h.get('server'),content_type=h.get('content-type'),
+                  location=h.get('location'),cache_status=h.get('cf-cache-status'),
+                  cf_ray=bool(h.get('cf-ray')),
+                  challenge=bool(re.search('Just a moment|challenge-platform|cf-chl|cloudflare',sample,re.I)),
+                  response_sha256=hashlib.sha256(payload).hexdigest() if payload else None,
+                  body_sample=sample[:360],title=title.group(1)[:140] if title else None,
+                  error=failure)
+          root=['https://www.city.suginami.tokyo.jp/event/',
+                'https://www.city.tokyo-nakano.lg.jp/event/',
+                'https://www.city.nerima.tokyo.jp/kankomoyoshi/',
+                'https://pc.tamemap.net/1311401/']
+          tasks=[(x['url'],'observed-original-UA') for x in cases]
+          tasks += [(u,'tamemap-original-UA') for u in tamemap]
+          tasks += [(u,'host-control') for u in root]
+          def task(t):
+              url,group=t
+              result=check(url,robots)
+              out=dict(url=url,test_group=group,original_observed_status=next((x['http_status'] for x in cases if x['url']==url),None),
+                       current_original_ua=result)
+              if result['status']==404 and group=='observed-original-UA':
+                  out['public_diagnostics_ua']=check(url,public)
+              return out
+          # Bounded concurrent probes, one host may handle many URLs.
+          with ThreadPoolExecutor(max_workers=5) as pool:
+              rows=list(pool.map(task,tasks))
+          now=dt.datetime.now(dt.timezone(dt.timedelta(hours=9))).isoformat(timespec='seconds')
+          summaries=Counter((r['test_group'],r['current_original_ua']['status']) for r in rows)
+          output={
+            'run_jst':now,'read_only':True,'original_observed_http_errors':len(cases),
+            'notes':[
+                'HTTP 404 may indicate deleted/expired/moved path, stale link, or access-control mapping. Body/header and test of host root needed.',
+                'Second request with benign alternative UA on only 404 URLs is diagnostic, not a successful original source fetch.',
+                '403 Cloudflare is retained unresolved; no attempt to solve challenge.',
+                'Successful alternate fetch proves page exists now but not original collector path success.',
+                'No event decision or publication from HTTP status diagnostics.'
+            ],
+            'responses':rows,
+            'summaries':[{'test_group':group,'http_status':status,'count':count} for (group,status),count in sorted(summaries.items(),key=lambda x:str(x[0]))],
+            'unexpected_status_changes':[
+                {'url':r['url'],'previous':r['original_observed_status'],'current':r['current_original_ua']['status']}
+                for r in rows if r['original_observed_status'] is not None and r['original_observed_status']!=r['current_original_ua']['status']]
+          }
+          Path('diagnostic').mkdir(exist_ok=True)
+          Path('diagnostic/http_error_diagnosis.json').write_text(json.dumps(output,ensure_ascii=False,indent=2)+'\n',encoding='utf8')
+          print(json.dumps({'run_jst':now,'summaries':output['summaries'],
+                            'changes':output['unexpected_status_changes'],
+                            'alternate_ua_differences':[
+                                {'url':r['url'],'orig':r['current_original_ua']['status'],'alt':r['public_diagnostics_ua']['status']}
+                                for r in rows if 'public_diagnostics_ua' in r and
+                                r['current_original_ua']['status']!=r['public_diagnostics_ua']['status']]},
+                           ensure_ascii=False,indent=2))
+          PY
+      - name: Persist raw bounded response metadata without changing published event/source audits
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: nov09-http-17-errors-and-tamemap-403-diagnosis
+          path: diagnostic/
+          retention-days: 30
+          if-no-files-found: warn

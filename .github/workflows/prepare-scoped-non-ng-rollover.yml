@@ -1,0 +1,60 @@
+name: Build guarded non-NG eight-item rollover candidate only
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/prepare-scoped-non-ng-rollover.yml', 'tools/prepare_scoped_rollover_20261117.py']
+  workflow_dispatch: {}
+permissions:
+  contents: write
+jobs:
+  propose:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          path: scanner
+      - uses: actions/checkout@v4
+        with:
+          ref: data-production
+          path: baseline
+          fetch-depth: 0
+      - uses: actions/checkout@v4
+        with:
+          ref: data-staging
+          path: candidate
+          fetch-depth: 0
+      - uses: actions/checkout@v4
+        with:
+          ref: production
+          path: released
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Check exact immutable published base and rebuild six-week candidate
+        run: |
+          test "$(git -C baseline rev-parse HEAD)" = "fc6bec505975c6dabbddd404f33cd7d9f3f525e9"
+          python3 scanner/tools/prepare_scoped_rollover_20261117.py
+      - name: Validate candidate structural counts and images without pretending global source audit passed
+        run: |
+          python3 released/tools/validate_data.py --min-image-coverage 0.70 candidate/site/data
+          python3 released/tools/audit_event_image_identity.py --strict candidate/site/data
+          python3 released/tools/validate_decisions.py --strict candidate/site/data
+          python3 released/tools/validate_rereview.py --strict candidate/site/data
+      - name: Snapshot candidate in a separate non-live branch
+        working-directory: candidate
+        shell: bash
+        run: |
+          set -euo pipefail
+          branch='candidate/scoped-non-ng-rollover-20261117'
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add site/data
+          git diff --cached --quiet && { echo 'No actual data difference found'; exit 1; }
+          git commit -m "candidate: preserve all 607 prior records and stage eight non-NG Dec entries with 42 official image additions"
+          if git ls-remote --exit-code --heads origin "$branch" >/dev/null 2>&1; then
+             echo 'Target candidate branch already exists, not overwriting'; exit 1
+          fi
+          git push origin "HEAD:refs/heads/$branch"
+          echo "CANDIDATE_NON_G_SHAS $(git rev-parse HEAD)"

@@ -45,3 +45,29 @@ assert.equal(data.rows.find(x => x.id === 'suginami-official-27652').status, '�
 assert.equal(data.rows.find(x => x.id === 'suginami-official-28531').status, 'ステージング既登録');
 assert.equal(data.rows.find(x => x.id === 'suginami-official-28567').status, 'ステージング既登録');
 console.log('PASS: 310 decision-page rows/links/statuses reconciled and homepage has access link.');
+
+// Render the real script to check disclosures retain full evidence, filters and paging.
+const {default:vm}=await import('node:vm');
+class Node {
+ constructor(tag='div'){this.tag=tag;this.textContent='';this.children=[];this.dataset={};this.listeners={};this.value='';this.hidden=false;this.open=false;this.classList={add(){},toggle(){}};}
+ appendChild(n){this.children.push(n);return n;}
+ replaceChildren(...xs){this.children=xs.flatMap(x=>x.tag==='#fragment'?x.children:[x]);}
+ addEventListener(name,fn){this.listeners[name]=fn;}
+ setAttribute(){}
+ querySelector(){return this.count||(this.count=new Node('span'));}
+}
+const nodes=new Map(),tabs=Object.keys(expected).map(status=>{const n=new Node('button');n.dataset.filter=status;return n;});
+const document={getElementById(id){if(!nodes.has(id))nodes.set(id,new Node());return nodes.get(id);},createElement:tag=>new Node(tag),createTextNode:s=>Object.assign(new Node('#text'),{textContent:s}),createDocumentFragment:()=>new Node('#fragment'),querySelectorAll:()=>tabs};
+const context=vm.createContext({document,URL,fetch:async()=>({ok:true,json:async()=>data}),console});
+vm.runInContext(js.replace('  initialize();','  globalThis.loadCuration=initialize;'),context);await context.loadCuration();
+const flattened=n=>n.textContent+n.children.map(flattened).join('');
+let rendered=nodes.get('omittedResults').children;
+assert.equal(rendered.length,40);assert.ok(rendered.every(n=>n.tag==='details'&&!n.open));
+for(const card of rendered){assert.equal(card.children[0].tag,'summary');assert.equal(card.children[1].className,'omit-result-content');assert.ok(flattened(card.children[0]).includes('理由：'));}
+const original=data.rows.find(r=>r.status==='対象外');assert.ok(flattened(rendered[0].children[1]).includes(original.reason));
+nodes.get('showMore').listeners.click();assert.equal(nodes.get('omittedResults').children.length,80);
+tabs.find(n=>n.dataset.filter==='要確認').listeners.click();assert.equal(nodes.get('omittedResults').children.length,3);
+assert.ok(nodes.get('showMore').hidden);
+tabs.find(n=>n.dataset.filter==='対象外').listeners.click();nodes.get('omittedSearch').value=original.id;nodes.get('omittedSearch').listeners.input();assert.equal(nodes.get('omittedResults').children.length,1);
+assert.ok(flattened(nodes.get('omittedResults').children[0]).includes(original.title));
+console.log('PASS: collapsed curation rows preserve full reasons and sources; tabs, search and show-more retained');

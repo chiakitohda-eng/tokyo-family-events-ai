@@ -1,0 +1,2204 @@
+[
+ {
+  "i": 1,
+  "url": "https://www.city.chiyoda.lg.jp/bunka/index.html",
+  "name": "文化・スポーツ",
+  "ward": "千代田区"
+ },
+ {
+  "i": 2,
+  "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/kosodate/kyubyo/kyukyu.html",
+  "name": "ちよだこども救急室",
+  "ward": "千代田区"
+ },
+ {
+  "i": 3,
+  "url": "https://www.city.chiyoda.lg.jp/koho/kosodate/yochien/r904tanjikan-kekka.html",
+  "name": "令和9年4月千代田区立幼稚園・幼保一体施設・こども園（短時間保育）入園児募集の選考結果",
+  "ward": "千代田区"
+ },
+ {
+  "i": 4,
+  "url": "https://www.city.chiyoda.lg.jp/cgi-bin/event_cal_multi/calendar.cgi",
+  "name": "イベントカレンダーを見る",
+  "ward": "千代田区"
+ },
+ {
+  "i": 5,
+  "url": "https://www.city.chuo.lg.jp/bunkakankou/index.html",
+  "name": "文化・観光・スポーツ",
+  "ward": "中央区"
+ },
+ {
+  "i": 6,
+  "url": "https://www.city.minato.tokyo.jp/kankou/index.html",
+  "name": "観光・スポーツ・文化",
+  "ward": "港区"
+ },
+ {
+  "i": 7,
+  "url": "https://www.city.minato.tokyo.jp/cgi-bin/event_cal_multi/calendar.cgi?type=2",
+  "name": "イベントカレンダー",
+  "ward": "港区"
+ },
+ {
+  "i": 8,
+  "url": "https://www.city.minato.tokyo.jp/kyouikucenter/kodomo/kids/index.html?utm_source=newsletter&utm_medium=email&utm_campaign=shiru_syogakusei",
+  "name": "キッズページ小学生",
+  "ward": "港区"
+ },
+ {
+  "i": 9,
+  "url": "https://www.city.minato.tokyo.jp/kyouikucenter/kodomo/birudo/index.html?utm_source=newsletter&utm_medium=email&utm_campaign=shiru_cyukosei",
+  "name": "キッズページ中高生",
+  "ward": "港区"
+ },
+ {
+  "i": 10,
+  "url": "https://www.city.shinjuku.lg.jp/kodomo/index.html",
+  "name": "出産・子ども・教育",
+  "ward": "新宿区"
+ },
+ {
+  "i": 11,
+  "url": "https://www.city.shinjuku.lg.jp/event/calendar/calendar.php",
+  "name": "イベントカレンダー",
+  "ward": "新宿区"
+ },
+ {
+  "i": 12,
+  "url": "https://www.city.shinjuku.lg.jp/kanko/index06.html",
+  "name": "生涯学習・スポーツ",
+  "ward": "新宿区"
+ },
+ {
+  "i": 13,
+  "url": "https://www.city.shinjuku.lg.jp/kids/index.html",
+  "name": "新宿区キッズページ",
+  "ward": "新宿区"
+ },
+ {
+  "i": 14,
+  "url": "https://www.city.shinjuku.lg.jp/kodomo/file04_07_00041.html",
+  "name": "区立保育園・子ども園の保育補助員等（会計年度任用職員）を募集します",
+  "ward": "新宿区"
+ },
+ {
+  "i": 15,
+  "url": "https://www.city.bunkyo.lg.jp/bunkakankou/index.html",
+  "name": "文化・観光・スポーツ",
+  "ward": "文京区"
+ },
+ {
+  "i": 16,
+  "url": "https://www.city.bunkyo.lg.jp/bunkakankou/sports/shisetsu/index.html",
+  "name": "スポーツ施設",
+  "ward": "文京区"
+ },
+ {
+  "i": 17,
+  "url": "https://www.city.bunkyo.lg.jp/b023/p007683.html",
+  "name": "令和9年度4月区立幼稚園・認定こども園入園募集",
+  "ward": "文京区"
+ },
+ {
+  "i": 18,
+  "url": "https://www.city.bunkyo.lg.jp/event/index.html",
+  "name": "イベント一覧を見る",
+  "ward": "文京区"
+ },
+ {
+  "i": 19,
+  "url": "https://bunkyo-sports.jp/",
+  "name": "文京区スポーツ協会",
+  "ward": "文京区"
+ },
+ {
+  "i": 20,
+  "url": "https://www.city.taito.lg.jp/event/index.html",
+  "name": "イベント検索",
+  "ward": "台東区"
+ },
+ {
+  "i": 21,
+  "url": "https://www.city.taito.lg.jp/kosodatekyouiku/kosodate/mokutei/kenkou_iryou/yobousesshu/kodomoyobousesshu.html",
+  "name": "子どもの予防接種",
+  "ward": "台東区"
+ },
+ {
+  "i": 22,
+  "url": "https://www.city.taito.lg.jp/event/kanko/nihonnouta8.html",
+  "name": "重要文化財 旧東京音楽学校奏楽堂で聴く「心に寄り添う日本の歌」開催のお知らせ",
+  "ward": "台東区"
+ },
+ {
+  "i": 23,
+  "url": "https://www.city.taito.lg.jp/gakushu/sports/sportsevent/sportsevent/kumintaiikusai/skitaikai.html",
+  "name": "区民体育祭スキー競技大会を開催します",
+  "ward": "台東区"
+ },
+ {
+  "i": 24,
+  "url": "https://www.city.taito.lg.jp/gakushu/shogaigakushu/kozaeventannai/taitokumin/tiikikatudou_kankyou.html",
+  "name": "【募集終了】地域活動体験講座〈環境編〉「都市の生活から考える環境問題―ごみ・リサイクル・環境倫理―」",
+  "ward": "台東区"
+ },
+ {
+  "i": 25,
+  "url": "https://www.city.taito.lg.jp/gakushu/shogaigakushu/kozaeventannai/learningsquare/manabinonakama.html",
+  "name": "学びの仲間体験講座 受講生募集のお知らせ",
+  "ward": "台東区"
+ },
+ {
+  "i": 26,
+  "url": "https://www.city.taito.lg.jp/event/calendar/list_calendar.html",
+  "name": "イベントカレンダー",
+  "ward": "台東区"
+ },
+ {
+  "i": 27,
+  "url": "https://www.city.sumida.lg.jp/eventcalendar/index.html",
+  "name": "イベント情報一覧",
+  "ward": "墨田区"
+ },
+ {
+  "i": 28,
+  "url": "https://www.city.sumida.lg.jp/eventcalendar/calendar/list_calendar.html",
+  "name": "イベントカレンダー",
+  "ward": "墨田区"
+ },
+ {
+  "i": 29,
+  "url": "https://pickshare.jp/venue/list?capacity=pattern5",
+  "name": "東京都で51～80名の貸し会議室・イベントホール一覧｜pick share",
+  "ward": "墨田区"
+ },
+ {
+  "i": 30,
+  "url": "https://www.city.koto.lg.jp/kodomo/index.html",
+  "name": "こども・教育",
+  "ward": "江東区"
+ },
+ {
+  "i": 31,
+  "url": "https://www.city.koto.lg.jp/bunkasports/index.html",
+  "name": "文化・観光・スポーツ",
+  "ward": "江東区"
+ },
+ {
+  "i": 32,
+  "url": "https://www.city.shinagawa.tokyo.jp/kodomo/index.html",
+  "name": "子ども・教育トップ",
+  "ward": "品川区"
+ },
+ {
+  "i": 33,
+  "url": "https://www.city.shinagawa.tokyo.jp/kodomo/kodomoteate/index.html",
+  "name": "子どもの手当・助成",
+  "ward": "品川区"
+ },
+ {
+  "i": 34,
+  "url": "https://www.city.shinagawa.tokyo.jp/kodomo/kodomoshisetsu/index.html",
+  "name": "子ども関連施設",
+  "ward": "品川区"
+ },
+ {
+  "i": 35,
+  "url": "https://www.city.shinagawa.tokyo.jp/bunka/index.html",
+  "name": "文化・観光・スポーツトップ",
+  "ward": "品川区"
+ },
+ {
+  "i": 36,
+  "url": "https://www.city.shinagawa.tokyo.jp/bunka/bunkasports/index.html",
+  "name": "文化・スポーツ",
+  "ward": "品川区"
+ },
+ {
+  "i": 37,
+  "url": "https://www.city.shinagawa.tokyo.jp/shisetsu/bunkasportsshisetsu/index.html",
+  "name": "文化・スポーツ施設",
+  "ward": "品川区"
+ },
+ {
+  "i": 38,
+  "url": "https://ttzk.graffer.jp/ward-shinagawa",
+  "name": "手続きナビ ライフイベント、認可保育園等の手続きの案内やオンライン申請ができます",
+  "ward": "品川区"
+ },
+ {
+  "i": 39,
+  "url": "https://www.city.shinagawa.tokyo.jp/event_calendar.html",
+  "name": "イベントカレンダーTOPを見る",
+  "ward": "品川区"
+ },
+ {
+  "i": 40,
+  "url": "https://www.city.meguro.tokyo.jp/bunkasports/index.html",
+  "name": "文化・スポーツ",
+  "ward": "目黒区"
+ },
+ {
+  "i": 41,
+  "url": "https://www.city.meguro.tokyo.jp/cgi-bin/event_cal_multi/calendar.cgi",
+  "name": "イベント情報",
+  "ward": "目黒区"
+ },
+ {
+  "i": 42,
+  "url": "https://www.city.meguro.tokyo.jp/kosodatekyouiku/kosodate/shien/ibashozukuri/sugekari/index.html",
+  "name": "菅刈地域における新たな子どもの居場所づくりに取り組んでいます（プレーパーク・フリースペース）",
+  "ward": "目黒区"
+ },
+ {
+  "i": 43,
+  "url": "https://www.city.meguro.tokyo.jp/kosodateshien/event/r8oyasien.html",
+  "name": "目黒区離婚前後の親支援講座「子どものために考えておくこと」を開催します",
+  "ward": "目黒区"
+ },
+ {
+  "i": 44,
+  "url": "https://www.city.meguro.tokyo.jp/kosodateshien/event/gakushukai.html",
+  "name": "目黒区子ども条例学習会",
+  "ward": "目黒区"
+ },
+ {
+  "i": 45,
+  "url": "https://www.city.meguro.tokyo.jp/shougaishisaku/event/kinennjigyou.html",
+  "name": "障害者週間記念事業「めぐろふれあいフェスティバル」を開催します",
+  "ward": "目黒区"
+ },
+ {
+  "i": 46,
+  "url": "https://www.city.meguro.tokyo.jp/sports/event/taiikusai_suki.html",
+  "name": "目黒区体育祭スキー大会",
+  "ward": "目黒区"
+ },
+ {
+  "i": 47,
+  "url": "https://www.city.meguro.tokyo.jp/sports/event/taiikusai_softtennis_ippannkoko.html",
+  "name": "目黒区体育祭 ソフトテニス大会（一般・高校生の部）",
+  "ward": "目黒区"
+ },
+ {
+  "i": 48,
+  "url": "https://www.city.meguro.tokyo.jp/sangyoukeizai/event/2026syoutengaiwinterevent.html",
+  "name": "商店街へおでかけしませんか︖商店街冬のイベント情報",
+  "ward": "目黒区"
+ },
+ {
+  "i": 49,
+  "url": "https://www.city.meguro.tokyo.jp/recycle/event/foodlossworkshop.html",
+  "name": "めぐろ食べきりMEET UP（高校生向けワークショップ）",
+  "ward": "目黒区"
+ },
+ {
+  "i": 50,
+  "url": "https://www.city.meguro.tokyo.jp/sports/event/taiikusai_ekiden.html",
+  "name": "目黒区体育祭 MEGURO ランニング フェスタ",
+  "ward": "目黒区"
+ },
+ {
+  "i": 51,
+  "url": "https://www.city.meguro.tokyo.jp/bunka/event/kyogenr8.html",
+  "name": "伝統文化子ども教室「親子で体験！狂言と玉すだれ」",
+  "ward": "目黒区"
+ },
+ {
+  "i": 52,
+  "url": "https://www.city.meguro.tokyo.jp/sports/event/taiikusai_dance.html",
+  "name": "目黒区体育祭 ダンス大会",
+  "ward": "目黒区"
+ },
+ {
+  "i": 53,
+  "url": "https://www.city.meguro.tokyo.jp/benrinavi/azukeru/index.html",
+  "name": "子どもを預ける",
+  "ward": "目黒区"
+ },
+ {
+  "i": 54,
+  "url": "https://www.city.meguro.tokyo.jp/cgi-bin/event_cal_multi/calendar.cgi?event_target=1&event_target=2",
+  "name": "イベントカレンダー",
+  "ward": "目黒区"
+ },
+ {
+  "i": 55,
+  "url": "https://www.city.meguro.tokyo.jp/cgi-bin/event_cal_multi/calendar.cgi?event_target=3",
+  "name": "イベントカレンダー",
+  "ward": "目黒区"
+ },
+ {
+  "i": 56,
+  "url": "https://www.city.ota.tokyo.jp/seikatsu/manabu/index.html",
+  "name": "学ぶ・楽しむ・スポーツ 生涯学習・文化",
+  "ward": "大田区"
+ },
+ {
+  "i": 57,
+  "url": "https://www.city.ota.tokyo.jp/seikatsu/sumaimachinami/kotsuanzen/event/oyakojitensha.html",
+  "name": "親子で学ぶはじめての自転車教室",
+  "ward": "大田区"
+ },
+ {
+  "i": 58,
+  "url": "https://www.city.ota.tokyo.jp/kuseijoho/press/releaseR08/2026111601.html",
+  "name": "【プレスリリース】鹿児島県霧島市と 「災害時における相互応援に関する協定」を締結しました！ OTAフェスタで協定締結を発表",
+  "ward": "大田区"
+ },
+ {
+  "i": 59,
+  "url": "https://www.city.setagaya.lg.jp/kankou/index.html",
+  "name": "イベント・観光情報",
+  "ward": "世田谷区"
+ },
+ {
+  "i": 60,
+  "url": "https://www.city.setagaya.lg.jp/kodomokyouiku/11525.html",
+  "name": "子ども・教育・若者支援",
+  "ward": "世田谷区"
+ },
+ {
+  "i": 61,
+  "url": "https://www.city.setagaya.lg.jp/02243/29576.html",
+  "name": "世田谷版こども誰でも通園制度（乳児等通園支援事業）について",
+  "ward": "世田谷区"
+ },
+ {
+  "i": 62,
+  "url": "https://www.city.setagaya.lg.jp/01430/36710.html",
+  "name": "【車いすバスケ・観戦募集】SETAGAYA SPORTS フェスティバル～THE LEGACY～",
+  "ward": "世田谷区"
+ },
+ {
+  "i": 63,
+  "url": "https://www.city.setagaya.lg.jp/03648/19885.html",
+  "name": "子どもの虐待防止推進講演会＆養育家庭体験発表会",
+  "ward": "世田谷区"
+ },
+ {
+  "i": 64,
+  "url": "https://www.city.setagaya.lg.jp/cgi-bin/event_cal_multi/calendar.cgi?type=1",
+  "name": "イベントを探す",
+  "ward": "世田谷区"
+ },
+ {
+  "i": 65,
+  "url": "https://www.city.setagaya.lg.jp/cgi-bin/event_cal_multi/calendar.cgi?type=2",
+  "name": "イベントを探す",
+  "ward": "世田谷区"
+ },
+ {
+  "i": 66,
+  "url": "https://www.city.setagaya.lg.jp/01051/22802.html",
+  "name": "成城100年の歩み展示",
+  "ward": "世田谷区"
+ },
+ {
+  "i": 67,
+  "url": "https://www.city.shibuya.tokyo.jp/bunka/",
+  "name": "スポーツ・文化・観光",
+  "ward": "渋谷区"
+ },
+ {
+  "i": 68,
+  "url": "https://www.city.shibuya.tokyo.jp/kodomo/kodomo-teate-josei/kodomo-teate/",
+  "name": "子ども手当",
+  "ward": "渋谷区"
+ },
+ {
+  "i": 69,
+  "url": "https://www.city.shibuya.tokyo.jp/contents/koho-news/1623/20261115_kodomo.html",
+  "name": "【子育て・教育・生涯学習】それぞれの成長を、一生よろこべる街へ。スマイルシップスポーツベビーin原宿こども園 「子育てひろば」/｢親子マナー講座｣クリスマス･お正月編 など",
+  "ward": "渋谷区"
+ },
+ {
+  "i": 70,
+  "url": "https://www.city.shibuya.tokyo.jp/contents/koho-news/1623/20261115_kenko.html",
+  "name": "【健康・スポーツ】思わず身体を動かしたくなる街へ。PLAYGROUND CITY SHIBUYA with Poke'mon/中幡小学校温水プール休場のお知らせ",
+  "ward": "渋谷区"
+ },
+ {
+  "i": 71,
+  "url": "https://www.city.tokyo-nakano.lg.jp/event/calendar/list_calendar.html",
+  "name": "イベントカレンダー",
+  "ward": "中野区"
+ },
+ {
+  "i": 72,
+  "url": "https://www.city.suginami.tokyo.jp/kosodatekyouiku/index.html",
+  "name": "子ども・子育て・教育",
+  "ward": "杉並区"
+ },
+ {
+  "i": 73,
+  "url": "https://www.city.suginami.tokyo.jp/sports/index.html",
+  "name": "スポーツ・文化",
+  "ward": "杉並区"
+ },
+ {
+  "i": 74,
+  "url": "https://www.city.suginami.tokyo.jp/kodomoazukeru/index.html",
+  "name": "子どもを預ける",
+  "ward": "杉並区"
+ },
+ {
+  "i": 75,
+  "url": "https://www.city.toshima.lg.jp/bunka/index.html",
+  "name": "文化・スポーツ",
+  "ward": "豊島区"
+ },
+ {
+  "i": 76,
+  "url": "https://www.city.toshima.lg.jp/kids/index.html",
+  "name": "キッズページ",
+  "ward": "豊島区"
+ },
+ {
+  "i": 77,
+  "url": "https://www.city.toshima.lg.jp/cgi-bin/event_cal/calendar.cgi",
+  "name": "イベント一覧",
+  "ward": "豊島区"
+ },
+ {
+  "i": 78,
+  "url": "https://www.city.toshima.lg.jp/454/shisetsu/koen/documents/2009141032.html",
+  "name": "としまキッズパーク",
+  "ward": "豊島区"
+ },
+ {
+  "i": 79,
+  "url": "https://www.city.kita.lg.jp/children-edu/index.html",
+  "name": "子ども・教育トップ",
+  "ward": "北区"
+ },
+ {
+  "i": 80,
+  "url": "https://www.city.kita.lg.jp/children-edu/kids/index.html",
+  "name": "キッズページ",
+  "ward": "北区"
+ },
+ {
+  "i": 81,
+  "url": "https://www.city.kita.lg.jp/culture-tourism-sports/index.html",
+  "name": "文化・観光・スポーツトップ",
+  "ward": "北区"
+ },
+ {
+  "i": 82,
+  "url": "https://www.city.kita.lg.jp/children-edu/childcare/1002975/index.html",
+  "name": "子どもを預ける",
+  "ward": "北区"
+ },
+ {
+  "i": 83,
+  "url": "https://www.city.kita.lg.jp/children-edu/kids/1019177/1027059.html",
+  "name": "みんなで楽しく知ろう・学ぼう！すごろくイベント参加者大募集！",
+  "ward": "北区"
+ },
+ {
+  "i": 84,
+  "url": "https://www.city.kita.lg.jp/event_calendar.html",
+  "name": "イベントカレンダー",
+  "ward": "北区"
+ },
+ {
+  "i": 85,
+  "url": "https://www.city.arakawa.tokyo.jp/a039/kosodate/ikujisoudan/kidscall.html",
+  "name": "あらかわキッズ・ファミリーコール24",
+  "ward": "荒川区"
+ },
+ {
+  "i": 86,
+  "url": "https://www.city.arakawa.tokyo.jp/sitemap.html",
+  "name": "文化・スポーツ・観光",
+  "ward": "荒川区"
+ },
+ {
+  "i": 87,
+  "url": "https://www.city.arakawa.tokyo.jp/portal/kosodatesetai/index.html",
+  "name": "子ども・子育て",
+  "ward": "荒川区"
+ },
+ {
+  "i": 88,
+  "url": "https://www.arakawa-sposen.com/",
+  "name": "荒川総合スポーツセンター（外部サイトへリンク）",
+  "ward": "荒川区"
+ },
+ {
+  "i": 89,
+  "url": "https://www.city.itabashi.tokyo.jp/kosodate/1064645/index.html",
+  "name": "こども性暴力防止法に関すること",
+  "ward": "板橋区"
+ },
+ {
+  "i": 90,
+  "url": "https://www.city.itabashi.tokyo.jp/kosodate/kenko/index.html",
+  "name": "子どもの健康",
+  "ward": "板橋区"
+ },
+ {
+  "i": 91,
+  "url": "https://www.city.itabashi.tokyo.jp/kosodate/azukeru/index.html",
+  "name": "子どもを預ける",
+  "ward": "板橋区"
+ },
+ {
+  "i": 92,
+  "url": "https://www.city.itabashi.tokyo.jp/kosodate/asobiba/index.html",
+  "name": "子どもの遊び場",
+  "ward": "板橋区"
+ },
+ {
+  "i": 93,
+  "url": "https://www.city.itabashi.tokyo.jp/kosodate/teate/index.html",
+  "name": "子どもの手当・助成・支援",
+  "ward": "板橋区"
+ },
+ {
+  "i": 94,
+  "url": "https://www.city.itabashi.tokyo.jp/kosodate/anzen/index.html",
+  "name": "子どもの安全・安心",
+  "ward": "板橋区"
+ },
+ {
+  "i": 95,
+  "url": "https://www.city.itabashi.tokyo.jp/kosodate/1060568/index.html",
+  "name": "各種計画（子ども関連）",
+  "ward": "板橋区"
+ },
+ {
+  "i": 96,
+  "url": "https://www.city.itabashi.tokyo.jp/bunka/index.html",
+  "name": "文化・スポーツ・産業トップ",
+  "ward": "板橋区"
+ },
+ {
+  "i": 97,
+  "url": "https://www.city.itabashi.tokyo.jp/bunka/1066959/index.html",
+  "name": "スポーツ施設案内サイト",
+  "ward": "板橋区"
+ },
+ {
+  "i": 98,
+  "url": "https://www.city.itabashi.tokyo.jp/cgi-evt/event.cgi",
+  "name": "イベントカレンダーを見る",
+  "ward": "板橋区"
+ },
+ {
+  "i": 99,
+  "url": "https://www.youtube.com/playlist?list=PLaouZeZ4O75sCLOeC5fOPBm4OTRcrTywm",
+  "name": "動画配信「ワクワク未来の学校づくり」子どもが通いたくなる学校をめざして（倉斗教授と長沼教育長の対談）",
+  "ward": "板橋区"
+ },
+ {
+  "i": 100,
+  "url": "https://www.itabashi-sa.or.jp/",
+  "name": "板橋区スポーツ協会",
+  "ward": "板橋区"
+ },
+ {
+  "i": 101,
+  "url": "https://www.city.nerima.tokyo.jp/rss/event/rss_news.xml",
+  "name": "イベントのRSS",
+  "ward": "練馬区"
+ },
+ {
+  "i": 102,
+  "url": "https://www.city.nerima.tokyo.jp/kankomoyoshi/event/calendar/list_calendar.html",
+  "name": "イベントカレンダーへ",
+  "ward": "練馬区"
+ },
+ {
+  "i": 103,
+  "url": "https://www.city.adachi.tokyo.jp/bunka/index.html",
+  "name": "文化・スポーツ",
+  "ward": "足立区"
+ },
+ {
+  "i": 104,
+  "url": "https://www.city.adachi.tokyo.jp/pickup/kodomosyokudou.html",
+  "name": "みんながあつまる 子ども食堂の「イマ」",
+  "ward": "足立区"
+ },
+ {
+  "i": 105,
+  "url": "https://www.city.adachi.tokyo.jp/odekake/index.html",
+  "name": "ジャンル・エリアからイベントを探す",
+  "ward": "足立区"
+ },
+ {
+  "i": 106,
+  "url": "https://www.city.adachi.tokyo.jp/cgi-bin/event_cal_multi/calendar.cgi",
+  "name": "カレンダーからイベントを探す",
+  "ward": "足立区"
+ },
+ {
+  "i": 107,
+  "url": "https://www.city.adachi.tokyo.jp/sports/shisetsu/koen/038.html",
+  "name": "総合スポーツセンター",
+  "ward": "足立区"
+ },
+ {
+  "i": 108,
+  "url": "https://www.city.katsushika.lg.jp/kosodate/index.html",
+  "name": "子育て・教育・子どもトップ",
+  "ward": "葛飾区"
+ },
+ {
+  "i": 109,
+  "url": "https://www.city.katsushika.lg.jp/tourism/index.html",
+  "name": "観光・文化・スポーツトップ",
+  "ward": "葛飾区"
+ },
+ {
+  "i": 110,
+  "url": "https://www.city.katsushika.lg.jp/tourism/1044016/index.html",
+  "name": "全国健康福祉祭（ねんりんピック）",
+  "ward": "葛飾区"
+ },
+ {
+  "i": 111,
+  "url": "https://www.city.katsushika.lg.jp/event/index.html",
+  "name": "イベント情報",
+  "ward": "葛飾区"
+ },
+ {
+  "i": 112,
+  "url": "https://www.city.katsushika.lg.jp/institution/1030225/index.html",
+  "name": "観光・文化・スポーツ施設",
+  "ward": "葛飾区"
+ },
+ {
+  "i": 113,
+  "url": "https://www.city.katsushika.lg.jp/kosodate/1000056/1037720/index.html",
+  "name": "かつしかこどものページができました！！",
+  "ward": "葛飾区"
+ },
+ {
+  "i": 114,
+  "url": "https://www.city.katsushika.lg.jp/event_calendar.html",
+  "name": "区で開催されるイベントが満載! イベントカレンダー",
+  "ward": "葛飾区"
+ },
+ {
+  "i": 115,
+  "url": "https://spo.katsushika-web.net/",
+  "name": "総合スポーツセンター",
+  "ward": "葛飾区"
+ },
+ {
+  "i": 116,
+  "url": "https://www.city.edogawa.tokyo.jp/sports/index.html",
+  "name": "スポーツ・文化",
+  "ward": "江戸川区"
+ },
+ {
+  "i": 117,
+  "url": "https://www.city.edogawa.tokyo.jp/cgi-bin/event_cal_multi/calendar.cgi",
+  "name": "イベントカレンダーTOPを見る",
+  "ward": "江戸川区"
+ },
+ {
+  "i": 118,
+  "url": "https://x.com/event_fes",
+  "name": "Xで東京のイベント情報を見る",
+  "ward": null
+ },
+ {
+  "i": 119,
+  "url": "https://www.tokyofes.info/",
+  "name": "東京イベント",
+  "ward": null
+ },
+ {
+  "i": 120,
+  "url": "https://x.com/yoyogi_fes",
+  "name": "代々木公園イベント情報｜公式X（@yoyogi_fes）",
+  "ward": null
+ },
+ {
+  "i": 121,
+  "url": "https://www.eventfestival.info/",
+  "name": "全国イベント",
+  "ward": null
+ },
+ {
+  "i": 122,
+  "url": "https://www.sapporoevents.com/",
+  "name": "札幌イベント",
+  "ward": null
+ },
+ {
+  "i": 123,
+  "url": "https://www.odoripark.info/",
+  "name": "札幌｜大通公園イベント",
+  "ward": null
+ },
+ {
+  "i": 124,
+  "url": "https://www.goryokakupark.com/",
+  "name": "函館｜五稜郭公園イベント",
+  "ward": null
+ },
+ {
+  "i": 125,
+  "url": "https://www.eventfestival.info/aomori/",
+  "name": "青森｜青い海公園イベント",
+  "ward": null
+ },
+ {
+  "i": 126,
+  "url": "https://www.eventfestival.info/morioka/",
+  "name": "盛岡｜岩手公園イベント",
+  "ward": null
+ },
+ {
+  "i": 127,
+  "url": "https://www.kotodaipark.com/",
+  "name": "仙台｜勾当台公園イベント",
+  "ward": null
+ },
+ {
+  "i": 128,
+  "url": "https://kaiseizanpark.com/",
+  "name": "郡山｜開成山公園イベント",
+  "ward": null
+ },
+ {
+  "i": 129,
+  "url": "https://www.eventfestival.info/ibaraki/",
+  "name": "茨城イベント",
+  "ward": null
+ },
+ {
+  "i": 130,
+  "url": "https://www.orionevent.info/",
+  "name": "宇都宮イベント",
+  "ward": null
+ },
+ {
+  "i": 131,
+  "url": "https://www.eventfestival.info/takasaki/",
+  "name": "高崎イベント",
+  "ward": null
+ },
+ {
+  "i": 132,
+  "url": "https://www.eventfestival.info/saitama/",
+  "name": "埼玉イベント",
+  "ward": null
+ },
+ {
+  "i": 133,
+  "url": "https://www.tokorozawaevent.com/",
+  "name": "所沢イベント",
+  "ward": null
+ },
+ {
+  "i": 134,
+  "url": "https://www.omiyaevent.com/",
+  "name": "さいたま｜大宮イベント",
+  "ward": null
+ },
+ {
+  "i": 135,
+  "url": "https://www.saitama-shintoshin.com/",
+  "name": "さいたま新都心イベント",
+  "ward": null
+ },
+ {
+  "i": 136,
+  "url": "https://www.eventfestival.info/kawaguchi/",
+  "name": "川口イベント",
+  "ward": null
+ },
+ {
+  "i": 137,
+  "url": "https://www.eventfestival.info/chiba/",
+  "name": "千葉イベント",
+  "ward": null
+ },
+ {
+  "i": 138,
+  "url": "https://www.inageseasidepark.com/",
+  "name": "千葉｜稲毛海浜公園・幕張イベント",
+  "ward": null
+ },
+ {
+  "i": 139,
+  "url": "https://www.eventfestival.info/funabashi/",
+  "name": "船橋イベント",
+  "ward": null
+ },
+ {
+  "i": 140,
+  "url": "https://www.eventfestival.info/machida/",
+  "name": "東京｜町田イベント",
+  "ward": null
+ },
+ {
+  "i": 141,
+  "url": "https://www.kawasakicity.info/",
+  "name": "川崎イベント＆お祭り",
+  "ward": null
+ },
+ {
+  "i": 142,
+  "url": "https://www.yokohamaevent.info/",
+  "name": "横浜イベント",
+  "ward": null
+ },
+ {
+  "i": 143,
+  "url": "https://www.yamashitapark.com/",
+  "name": "横浜｜山下公園イベント",
+  "ward": null
+ },
+ {
+  "i": 144,
+  "url": "https://www.rinkopark.com/",
+  "name": "横浜｜臨港パークイベント",
+  "ward": null
+ },
+ {
+  "i": 145,
+  "url": "https://www.eventfestival.info/yokosuka/",
+  "name": "横須賀イベント",
+  "ward": null
+ },
+ {
+  "i": 146,
+  "url": "https://www.eventfestival.info/shonan/",
+  "name": "湘南｜江の島イベント",
+  "ward": null
+ },
+ {
+  "i": 147,
+  "url": "https://www.bandaievent.com/",
+  "name": "新潟｜万代イベント",
+  "ward": null
+ },
+ {
+  "i": 148,
+  "url": "https://www.eventfestival.info/toyama/",
+  "name": "富山イベント",
+  "ward": null
+ },
+ {
+  "i": 149,
+  "url": "https://www.eventfestival.info/matsumoto/",
+  "name": "松本｜花時計公園イベント",
+  "ward": null
+ },
+ {
+  "i": 150,
+  "url": "https://www.eventfestival.info/fukui/",
+  "name": "福井イベント",
+  "ward": null
+ },
+ {
+  "i": 151,
+  "url": "https://www.eventfestival.info/kofu/",
+  "name": "甲府｜舞鶴城公園イベント",
+  "ward": null
+ },
+ {
+  "i": 152,
+  "url": "https://www.eventfestival.info/atami/",
+  "name": "熱海イベント",
+  "ward": null
+ },
+ {
+  "i": 153,
+  "url": "https://www.aobasymbolroad.com/",
+  "name": "静岡｜駿府城公園イベント",
+  "ward": null
+ },
+ {
+  "i": 154,
+  "url": "https://www.hamamatsuevent.com/",
+  "name": "浜松｜浜松城公園イベント",
+  "ward": null
+ },
+ {
+  "i": 155,
+  "url": "https://www.eventfestival.info/aichi/",
+  "name": "愛知イベント",
+  "ward": null
+ },
+ {
+  "i": 156,
+  "url": "https://www.eventfestival.info/okazaki/",
+  "name": "岡崎イベント",
+  "ward": null
+ },
+ {
+  "i": 157,
+  "url": "https://www.nagoyaevent.com/",
+  "name": "名古屋イベント",
+  "ward": null
+ },
+ {
+  "i": 158,
+  "url": "https://www.meijopark.com/",
+  "name": "名古屋｜名城公園イベント",
+  "ward": null
+ },
+ {
+  "i": 159,
+  "url": "https://www.hisayaodoripark.com/",
+  "name": "名古屋｜栄・久屋大通公園イベント",
+  "ward": null
+ },
+ {
+  "i": 160,
+  "url": "https://www.tsurumapark.com/",
+  "name": "名古屋｜鶴舞公園イベント",
+  "ward": null
+ },
+ {
+  "i": 161,
+  "url": "https://www.kyotoevent.com/",
+  "name": "京都イベント",
+  "ward": null
+ },
+ {
+  "i": 162,
+  "url": "https://www.okazakipark.info/",
+  "name": "京都｜岡崎公園イベント",
+  "ward": null
+ },
+ {
+  "i": 163,
+  "url": "https://www.eventfestival.info/nara/",
+  "name": "奈良｜奈良公園イベント",
+  "ward": null
+ },
+ {
+  "i": 164,
+  "url": "https://www.osakaevent.info/",
+  "name": "大阪イベント",
+  "ward": null
+ },
+ {
+  "i": 165,
+  "url": "https://www.banpakupark.com/",
+  "name": "大阪｜万博公園イベント",
+  "ward": null
+ },
+ {
+  "i": 166,
+  "url": "https://www.umekitapark.com/",
+  "name": "大阪キタイベント｜うめきた広場・うめきた公園",
+  "ward": null
+ },
+ {
+  "i": 167,
+  "url": "https://www.ogimachipark.info/",
+  "name": "大阪｜扇町公園イベント",
+  "ward": null
+ },
+ {
+  "i": 168,
+  "url": "https://www.nakanoshimapark.info/",
+  "name": "大阪｜中之島公園イベント",
+  "ward": null
+ },
+ {
+  "i": 169,
+  "url": "https://www.osakacastle.info/",
+  "name": "大阪｜大阪城公園イベント",
+  "ward": null
+ },
+ {
+  "i": 170,
+  "url": "https://www.eventfestival.info/minami/",
+  "name": "大阪ミナミイベント",
+  "ward": null
+ },
+ {
+  "i": 171,
+  "url": "https://www.tennojipark.com/",
+  "name": "大阪｜てんしば・天王寺イベント",
+  "ward": null
+ },
+ {
+  "i": 172,
+  "url": "https://www.nagaipark.info/",
+  "name": "大阪｜長居公園イベント",
+  "ward": null
+ },
+ {
+  "i": 173,
+  "url": "https://www.sakaievent.com/",
+  "name": "堺｜大仙公園・浜寺公園イベント",
+  "ward": null
+ },
+ {
+  "i": 174,
+  "url": "https://www.merikenpark.com/",
+  "name": "神戸｜メリケンパークイベント",
+  "ward": null
+ },
+ {
+  "i": 175,
+  "url": "https://www.otemaepark.com/",
+  "name": "姫路｜大手前公園イベント",
+  "ward": null
+ },
+ {
+  "i": 176,
+  "url": "https://www.ishiyamapark.com/",
+  "name": "岡山｜下石井公園イベント",
+  "ward": null
+ },
+ {
+  "i": 177,
+  "url": "https://www.eventfestival.info/kurashiki/",
+  "name": "倉敷イベント",
+  "ward": null
+ },
+ {
+  "i": 178,
+  "url": "https://www.gatepark.net/",
+  "name": "広島｜ひろしまゲートパークイベント",
+  "ward": null
+ },
+ {
+  "i": 179,
+  "url": "https://www.eventfestival.info/takamatsu/",
+  "name": "高松｜中央公園イベント",
+  "ward": null
+ },
+ {
+  "i": 180,
+  "url": "https://www.aibahama.com/",
+  "name": "徳島｜藍場浜公園イベント",
+  "ward": null
+ },
+ {
+  "i": 181,
+  "url": "https://www.shiroyamapark.com/",
+  "name": "松山｜城山公園イベント",
+  "ward": null
+ },
+ {
+  "i": 182,
+  "url": "https://www.kochichuokoen.com/",
+  "name": "高知｜中央公園イベント",
+  "ward": null
+ },
+ {
+  "i": 183,
+  "url": "https://www.katsuyamapark.com/",
+  "name": "北九州｜勝山公園・門司港レトロイベント",
+  "ward": null
+ },
+ {
+  "i": 184,
+  "url": "https://www.eventfestival.info/fukuoka/",
+  "name": "福岡イベント",
+  "ward": null
+ },
+ {
+  "i": 185,
+  "url": "https://www.tenjinpark.info/",
+  "name": "天神イベント",
+  "ward": null
+ },
+ {
+  "i": 186,
+  "url": "https://www.eventfestival.info/oita/",
+  "name": "大分イベント",
+  "ward": null
+ },
+ {
+  "i": 187,
+  "url": "https://www.hanabatahiroba.com/",
+  "name": "熊本｜サクラマチ・花畑広場イベント",
+  "ward": null
+ },
+ {
+  "i": 188,
+  "url": "https://www.mizubenomori.info/",
+  "name": "長崎｜水辺の森公園イベント",
+  "ward": null
+ },
+ {
+  "i": 189,
+  "url": "https://www.eventfestival.info/kagoshima/",
+  "name": "鹿児島｜天文館イベント",
+  "ward": null
+ },
+ {
+  "i": 190,
+  "url": "https://www.eventfestival.info/okinawa/",
+  "name": "沖縄｜祭り＆エイサーイベント",
+  "ward": null
+ },
+ {
+  "i": 191,
+  "url": "https://www.eventfestival.info/naha/",
+  "name": "那覇イベント",
+  "ward": null
+ },
+ {
+  "i": 192,
+  "url": "https://www.onoyamapark.com/",
+  "name": "那覇｜奥武山公園イベント",
+  "ward": null
+ },
+ {
+  "i": 193,
+  "url": "https://www.eventfestival.info/ginowan/",
+  "name": "宜野湾｜ぎのわん海浜公園イベント",
+  "ward": null
+ },
+ {
+  "i": 194,
+  "url": "https://www.eventfestival.info/seoul/",
+  "name": "ソウルイベント",
+  "ward": null
+ },
+ {
+  "i": 195,
+  "url": "https://www.eventfestival.info/busan/",
+  "name": "釜山イベント",
+  "ward": null
+ },
+ {
+  "i": 196,
+  "url": "https://www.siamsquare.info/",
+  "name": "サイアムスクエアイベント",
+  "ward": null
+ },
+ {
+  "i": 197,
+  "url": "https://www.kotodaikoen.com/",
+  "name": "仙台イベントニュース",
+  "ward": null
+ },
+ {
+  "i": 198,
+  "url": "https://www.tokyoevents.info/",
+  "name": "東京イベントニュース",
+  "ward": null
+ },
+ {
+  "i": 199,
+  "url": "https://www.asakusaevent.com/wasshoi-festival-asakusa-kokusaidori-2026/",
+  "name": "WAっしょい祭りin浅草国際通り",
+  "ward": null
+ },
+ {
+  "i": 200,
+  "url": "https://www.uenoevent.com/",
+  "name": "上野恩賜公園イベントニュース",
+  "ward": null
+ },
+ {
+  "i": 201,
+  "url": "https://www.yoyogievent.com/",
+  "name": "代々木公園イベントニュース",
+  "ward": null
+ },
+ {
+  "i": 202,
+  "url": "https://www.tokyoart.jp/cincinnati-art-museum-exhibition-ueno-2026/",
+  "name": "シンシナティ美術館展 ～アメリカに渡ったヨーロッパの至宝～",
+  "ward": null
+ },
+ {
+  "i": 203,
+  "url": "https://www.tokyoart.jp/tate-turner-exhibition-ueno-2026/",
+  "name": "テート美術館 ターナー展――崇高の絵画、現代美術との対話",
+  "ward": null
+ },
+ {
+  "i": 204,
+  "url": "https://www.tokyoart.jp/noguchi-hideyo-infectious-diseases-exhibition-2026/",
+  "name": "野口英世生誕150年記念企画展「感染症への挑戦：過去・現在・未来」",
+  "ward": null
+ },
+ {
+  "i": 205,
+  "url": "https://www.uenopark.info/2026/2026-sakaya-kakuuchi-fes/",
+  "name": "第13回 酒屋角打ちフェス",
+  "ward": null
+ },
+ {
+  "i": 206,
+  "url": "https://www.futonrecords.com/classlog/",
+  "name": "子どもの学校名・クラス・担任名を12年分記録できる無料アプリ「うちの子なん組？」はこちら",
+  "ward": null
+ },
+ {
+  "i": 207,
+  "url": "https://www.akihabaraevent.com/famitsu-40th-anniversary-fes-2026/",
+  "name": "ファミ通40周年フェス",
+  "ward": null
+ },
+ {
+  "i": 208,
+  "url": "https://www.yoyogikoen.info/tokyo-women-children-festival-2026/",
+  "name": "第4回TOKYO女性と子どものフェスティバル",
+  "ward": null
+ },
+ {
+  "i": 209,
+  "url": "https://www.yoyogikoen.info/yoyogi-park-festa-2026-2/",
+  "name": "公園フェスタ",
+  "ward": null
+ },
+ {
+  "i": 210,
+  "url": "https://www.yoyogikoen.info/27th-thai-festival-tokyo-2027/",
+  "name": "第27回タイフェスティバル東京",
+  "ward": null
+ },
+ {
+  "i": 211,
+  "url": "https://www.yoyogikoen.info/thai-fextival/",
+  "name": "タイフェスティバル",
+  "ward": null
+ },
+ {
+  "i": 212,
+  "url": "https://www.hibiyaevent.com/",
+  "name": "日比谷公園イベントニュース",
+  "ward": null
+ },
+ {
+  "i": 213,
+  "url": "https://www.odaibapark.com/world-drinks-fest-2026/",
+  "name": "世界のお酒フェス",
+  "ward": null
+ },
+ {
+  "i": 214,
+  "url": "https://www.odaibapark.com/dream-yosacoy-festival-2026-odaiba-marunouchi-2/",
+  "name": "第25回ドリーム夜さ来い祭り",
+  "ward": null
+ },
+ {
+  "i": 215,
+  "url": "https://www.odaibapark.com/design-festa-vol-64-2026/",
+  "name": "デザインフェスタ vol.64",
+  "ward": null
+ },
+ {
+  "i": 216,
+  "url": "https://www.odaibapark.com/minato-machinaka-concert-arte-tokyo-2026/",
+  "name": "MINATOまちなかコンサート×ARTE TOKYO（ピアノコンサート 音楽とワインで感じるパリのテロワール）",
+  "ward": null
+ },
+ {
+  "i": 217,
+  "url": "https://www.shinagawaevent.com/matsuri-art-exhibition-2026/",
+  "name": "WHAT CAFE EXHIBITION vol.48：WHAT CAFE×宮本卯之助商店コラボ展示「Matsuri × Art Exhibition -祭の多面体-」",
+  "ward": null
+ },
+ {
+  "i": 218,
+  "url": "https://www.iterrace.jp/shop-restaurants-annex/shop-r_data.php?no=15",
+  "name": "こども写真城 スタジオアリス 落合南長崎店",
+  "ward": null
+ },
+ {
+  "i": 219,
+  "url": "https://www.iterrace.jp/shop-restaurants-annex/shop-r_data.php?no=41",
+  "name": "トーノダンススタジオ＜キッズ＞",
+  "ward": null
+ },
+ {
+  "i": 220,
+  "url": "https://www.nerimakanko.jp/event/post/",
+  "name": "イベント掲載希望の方はこちら",
+  "ward": null
+ },
+ {
+  "i": 221,
+  "url": "https://www.nerimakanko.jp/event/annual.php",
+  "name": "年間イベントガイド",
+  "ward": null
+ },
+ {
+  "i": 222,
+  "url": "https://www.nerimakanko.jp/event/search.php",
+  "name": "イベント検索",
+  "ward": null
+ },
+ {
+  "i": 223,
+  "url": "https://www.city.suginami.tokyo.jp/s022/event/28941.html",
+  "name": "コミふら本天沼ノエルフェスティバル直接会場へ",
+  "ward": null
+ },
+ {
+  "i": 224,
+  "url": "https://www.city.suginami.tokyo.jp/s022/event/29249.html",
+  "name": "科学で遊ぼう！さいえんす縁日（荻窪地域区民センター）直接会場へ",
+  "ward": null
+ },
+ {
+  "i": 225,
+  "url": "https://www.city.nerima.tokyo.jp/kankomoyoshi/annai/omatsuri/index.html",
+  "name": "ねりまのお祭り",
+  "ward": null
+ },
+ {
+  "i": 226,
+  "url": "https://www.city.nerima.tokyo.jp/kankomoyoshi/annai/omatsuri/chikusai/20250617103208700.html",
+  "name": "令和7年度 地区祭開催日程",
+  "ward": null
+ },
+ {
+  "i": 227,
+  "url": "https://www.city.nerima.tokyo.jp/kankomoyoshi/annai/omatsuri/chikusai/06617883202407240916.html",
+  "name": "令和6年度 地区祭開催日程",
+  "ward": null
+ },
+ {
+  "i": 228,
+  "url": "https://www.city.nerima.tokyo.jp/kankomoyoshi/annai/omatsuri/chikusai/066280102023072110.html",
+  "name": "令和5年度 地区祭開催日程",
+  "ward": null
+ },
+ {
+  "i": 229,
+  "url": "https://www.city.nerima.tokyo.jp/kankomoyoshi/annai/omatsuri/chikusai/r4chikusai.html",
+  "name": "令和4年度 地区祭開催日程",
+  "ward": null
+ },
+ {
+  "i": 230,
+  "url": "https://www.city.nerima.tokyo.jp/kankomoyoshi/annai/omatsuri/chikusai/r1-chikusainittei.html",
+  "name": "令和元年度 地区祭開催日程",
+  "ward": null
+ },
+ {
+  "i": 231,
+  "url": "https://www.nakano-kanko.com/event-info/event-3881/",
+  "name": "イベントの詳細へ",
+  "ward": null
+ },
+ {
+  "i": 232,
+  "url": "https://www.nakano-kanko.com/event-info/event-3888/",
+  "name": "イベントの詳細へ",
+  "ward": null
+ },
+ {
+  "i": 233,
+  "url": "https://www.nakano-kanko.com/event-info/event-3797/",
+  "name": "イベントの詳細へ",
+  "ward": null
+ },
+ {
+  "i": 234,
+  "url": "https://www.nakano-kanko.com/event-info/event-3930/",
+  "name": "イベントの詳細へ",
+  "ward": null
+ },
+ {
+  "i": 235,
+  "url": "https://www.nakano-kanko.com/event-info/event-3941/",
+  "name": "イベントの詳細へ",
+  "ward": null
+ },
+ {
+  "i": 236,
+  "url": "https://www.nakano-kanko.com/event-info/event-3935/",
+  "name": "イベントの詳細へ",
+  "ward": null
+ },
+ {
+  "i": 237,
+  "url": "https://www.nakano-kanko.com/event-info/event-3895/",
+  "name": "イベントの詳細へ",
+  "ward": null
+ },
+ {
+  "i": 238,
+  "url": "https://www.nakano-kanko.com/event-info/event-3846/",
+  "name": "イベントの詳細へ",
+  "ward": null
+ },
+ {
+  "i": 239,
+  "url": "https://www.nakano-kanko.com/event-info/event-3782/",
+  "name": "イベントの詳細へ",
+  "ward": null
+ },
+ {
+  "i": 240,
+  "url": "https://www.nakano-kanko.com/event-info/event-3839/",
+  "name": "イベントの詳細へ",
+  "ward": null
+ },
+ {
+  "i": 241,
+  "url": "https://www.city.itabashi.tokyo.jp/bunka/kanko/1055151.html",
+  "name": "「ぐるっと板橋LINEスタンプラリー」開催について",
+  "ward": null
+ },
+ {
+  "i": 242,
+  "url": "https://itabashi-kanko.jp/event/",
+  "name": "イベント情報",
+  "ward": null
+ },
+ {
+  "i": 243,
+  "url": "https://itabashi-kanko.jp/pickup/detail?id=1799#act9",
+  "name": "Ⓗスポーツひろば（都税事務所前）",
+  "ward": null
+ },
+ {
+  "i": 244,
+  "url": "https://itabashi-times.com/category/event",
+  "name": "イベント情報",
+  "ward": null
+ },
+ {
+  "i": 245,
+  "url": "https://www.city.suginami.tokyo.jp/s030/event/24782.html",
+  "name": "日本フィル×東急コミュニティー 60歳からの楽器教室（セシオン杉並、西荻地域区民センター）募集終了",
+  "ward": null
+ },
+ {
+  "i": 246,
+  "url": "https://www.city.suginami.tokyo.jp/s033/event/26970.html",
+  "name": "杉並アニメーションミュージアム第74回企画展 「シンエイ動画50周年」展直接会場へ",
+  "ward": null
+ },
+ {
+  "i": 247,
+  "url": "https://www.city.suginami.tokyo.jp/s113/event/28008.html",
+  "name": "女子美術大学 アート・デザイン表現学科 公開講座事前申込",
+  "ward": null
+ },
+ {
+  "i": 248,
+  "url": "https://www.city.suginami.tokyo.jp/s113/event/27201.html",
+  "name": "杉並で暮らす外国人のためのにほんご教室（セシオン杉並ほか）募集終了",
+  "ward": null
+ },
+ {
+  "i": 249,
+  "url": "https://www.city.suginami.tokyo.jp/s045/event/27651.html",
+  "name": "「杉並区健康づくり推進期間」スポーツデビュー教室募集終了",
+  "ward": null
+ },
+ {
+  "i": 250,
+  "url": "https://www.city.suginami.tokyo.jp/s100/event/28578.html",
+  "name": "企画展「近衞文麿の大礼服」（荻外荘公園）",
+  "ward": null
+ },
+ {
+  "i": 251,
+  "url": "https://www.city.suginami.tokyo.jp/s038/event/28084.html",
+  "name": "ゆうゆう茶道教室（ゆうゆう高円寺東館）",
+  "ward": null
+ },
+ {
+  "i": 252,
+  "url": "https://www.city.suginami.tokyo.jp/s113/event/27727.html",
+  "name": "荻窪三庭園アカデミー講座「モダン建築散策」（東京都内および横浜市）",
+  "ward": null
+ },
+ {
+  "i": 253,
+  "url": "https://www.city.suginami.tokyo.jp/s030/event/26751.html",
+  "name": "すぎなみ日本語教室「はじめてのにほんご」（杉並区交流協会）",
+  "ward": null
+ },
+ {
+  "i": 254,
+  "url": "https://www.city.suginami.tokyo.jp/s038/event/28203.html",
+  "name": "シニアe-スポーツ塾 ゲームで身体と脳を動かそう（ゆうゆう今川館）",
+  "ward": null
+ },
+ {
+  "i": 255,
+  "url": "https://www.city.suginami.tokyo.jp/s026/event/29063.html",
+  "name": "人類の美を楽しむ（美術講座）（コミュニティふらっと永福）",
+  "ward": null
+ },
+ {
+  "i": 256,
+  "url": "https://www.city.suginami.tokyo.jp/s045/event/27267.html",
+  "name": "東京衛生アドベンチスト病院 子育てのブレークタイム（オンライン開催）",
+  "ward": null
+ },
+ {
+  "i": 257,
+  "url": "https://www.city.suginami.tokyo.jp/s039/event/27681.html",
+  "name": "認知症とともに生きる 映画「オレンジ・ランプ」上映会",
+  "ward": null
+ },
+ {
+  "i": 258,
+  "url": "https://www.city.suginami.tokyo.jp/s023/event/25425.html",
+  "name": "いきいき楽書（らくしょ）講座（コミュニティふらっと阿佐谷）",
+  "ward": null
+ },
+ {
+  "i": 259,
+  "url": "https://www.city.suginami.tokyo.jp/s039/event/29337.html",
+  "name": "認知症サポーター養成講座（永福和泉地域区民センター）",
+  "ward": null
+ },
+ {
+  "i": 260,
+  "url": "https://www.city.suginami.tokyo.jp/s039/event/29639.html",
+  "name": "認知症サポーター養成講座（永福和泉地域区民センター）",
+  "ward": null
+ },
+ {
+  "i": 261,
+  "url": "https://www.city.suginami.tokyo.jp/s036/event/26086.html",
+  "name": "障害者のためのアート教室（すだちの里すぎなみ）",
+  "ward": null
+ },
+ {
+  "i": 262,
+  "url": "https://www.city.suginami.tokyo.jp/s017/event/27310.html",
+  "name": "女性のための犯罪被害防止講座 知ってて安心 あなたを守る護身術（杉並区役所）",
+  "ward": null
+ },
+ {
+  "i": 263,
+  "url": "https://www.city.suginami.tokyo.jp/s026/event/27932.html",
+  "name": "「子ども短歌講座」（永福和泉地域区民センター）",
+  "ward": null
+ },
+ {
+  "i": 264,
+  "url": "https://www.city.suginami.tokyo.jp/s113/event/28588.html",
+  "name": "西高の夕べ講演会「自然の恵みと防災」とコンサート",
+  "ward": null
+ },
+ {
+  "i": 265,
+  "url": "https://www.city.suginami.tokyo.jp/s036/event/26083.html",
+  "name": "障害者のための（1）リトミック（2）ユニカール教室（すだちの里すぎなみ）",
+  "ward": null
+ },
+ {
+  "i": 266,
+  "url": "https://www.city.suginami.tokyo.jp/s113/event/28300.html",
+  "name": "第31回フィルモアコンサート（セシオン杉並）",
+  "ward": null
+ },
+ {
+  "i": 267,
+  "url": "https://www.city.suginami.tokyo.jp/s037/event/28538.html",
+  "name": "障害者のためのリトミック教室（後期）（杉並障害者福祉会館）",
+  "ward": null
+ },
+ {
+  "i": 268,
+  "url": "https://www.city.suginami.tokyo.jp/s059/event/28842.html",
+  "name": "ボーイスカウト秋まつり（杉並第一小学校）",
+  "ward": null
+ },
+ {
+  "i": 269,
+  "url": "https://www.city.suginami.tokyo.jp/s045/event/28049.html",
+  "name": "浜田山病院 第11回公開講座「人生100年健康長寿セミナー」＆感謝祭",
+  "ward": null
+ },
+ {
+  "i": 270,
+  "url": "https://www.city.suginami.tokyo.jp/s024/event/28874.html",
+  "name": "映画「オレンジ・ランプ」鑑賞会（コミュニティふらっと馬橋）",
+  "ward": null
+ },
+ {
+  "i": 271,
+  "url": "https://www.city.suginami.tokyo.jp/s039/event/28947.html",
+  "name": "ふれあい交流イベント みて、ふれて、知って、つながるやさしい時間（ニチイケアセンター荻窪）",
+  "ward": null
+ },
+ {
+  "i": 272,
+  "url": "https://www.city.suginami.tokyo.jp/s048/event/28556.html",
+  "name": "小児救急講座 新米パパママへ 小児科医からのメッセージ（荻窪保健センター）",
+  "ward": null
+ },
+ {
+  "i": 273,
+  "url": "https://www.city.suginami.tokyo.jp/s030/event/28607.html",
+  "name": "日本フィル出張ロビーコンサート in 西荻図書館 細田工務店は、音楽を楽しむひとときを応援します。",
+  "ward": null
+ },
+ {
+  "i": 274,
+  "url": "https://www.city.suginami.tokyo.jp/s039/event/28257.html",
+  "name": "【フレイル予防教室】杉並・げんき応援プログラム",
+  "ward": null
+ },
+ {
+  "i": 275,
+  "url": "https://www.city.suginami.tokyo.jp/s016/event/27940.html",
+  "name": "【募集終了】消費者講座「AIに惑わされない！ネット・スマホトラブル回避術」（ウェルファーム杉並）",
+  "ward": null
+ },
+ {
+  "i": 276,
+  "url": "https://www.city.suginami.tokyo.jp/s045/event/28237.html",
+  "name": "河北健康教室「益々広がるがん放射線治療」（河北サテライトクリニック）",
+  "ward": null
+ },
+ {
+  "i": 277,
+  "url": "https://www.city.suginami.tokyo.jp/s038/event/28614.html",
+  "name": "ペン習字講座「年賀状を書く」（高齢者活動支援センター）",
+  "ward": null
+ },
+ {
+  "i": 278,
+  "url": "https://www.city.suginami.tokyo.jp/s030/event/29258.html",
+  "name": "女子美術大学・女子美術大学短期大学部退職教員記念展（女子美ガレリアニケ）",
+  "ward": null
+ },
+ {
+  "i": 279,
+  "url": "https://www.city.suginami.tokyo.jp/s045/event/27576.html",
+  "name": "東京衛生アドベンチスト病院 転倒予防教室",
+  "ward": null
+ },
+ {
+  "i": 280,
+  "url": "https://www.city.suginami.tokyo.jp/s104/event/22439.html",
+  "name": "家庭でできる！食品ロス削減講座（すぎのこ農園）",
+  "ward": null
+ },
+ {
+  "i": 281,
+  "url": "https://www.city.suginami.tokyo.jp/s121/event/28689.html",
+  "name": "葬祭セミナー「令和のお葬式事情 備えて安心」（産業商工会館）",
+  "ward": null
+ },
+ {
+  "i": 282,
+  "url": "https://www.city.suginami.tokyo.jp/s039/event/28851.html",
+  "name": "家族介護教室 老後2000万問題 介護のことは元気なうちに（産業商工会館）",
+  "ward": null
+ },
+ {
+  "i": 283,
+  "url": "https://www.city.suginami.tokyo.jp/s113/event/27913.html",
+  "name": "荻窪三庭園アカデミー講座「杉並に暮らした音楽家たち」（阿佐谷地域区民センター）",
+  "ward": null
+ },
+ {
+  "i": 284,
+  "url": "https://www.city.suginami.tokyo.jp/s057/event/28205.html",
+  "name": "虐待防止講演会・養育家庭体験発表会（座・高円寺）",
+  "ward": null
+ },
+ {
+  "i": 285,
+  "url": "https://www.city.suginami.tokyo.jp/s021/event/28386.html",
+  "name": "協働事業「荻窪病院 秋の健康講座」認知症、軽度認知障害を知ろう（西荻地域区民センター）",
+  "ward": null
+ },
+ {
+  "i": 286,
+  "url": "https://www.city.suginami.tokyo.jp/s046/event/28656.html",
+  "name": "犬のしつけ方教室（都立高井戸公園）",
+  "ward": null
+ },
+ {
+  "i": 287,
+  "url": "https://www.city.suginami.tokyo.jp/s111/event/28900.html",
+  "name": "【家庭教育講座】親子が笑顔になる食卓のつくり方 「共食」で育む心と体の健康（セシオン杉並）",
+  "ward": null
+ },
+ {
+  "i": 288,
+  "url": "https://www.city.suginami.tokyo.jp/s113/event/28940.html",
+  "name": "荻窪文学講座「太宰治と荻窪」（ウェルファーム杉並ほか）",
+  "ward": null
+ },
+ {
+  "i": 289,
+  "url": "https://www.city.suginami.tokyo.jp/s103/event/29003.html",
+  "name": "省エネ・再エネ講座 手軽な断熱対策＆太陽光のある暮らし（下高井戸おおぞら公園）",
+  "ward": null
+ },
+ {
+  "i": 290,
+  "url": "https://www.city.suginami.tokyo.jp/s039/event/29229.html",
+  "name": "認知症サポーター養成講座（すぎなみ正吉苑）",
+  "ward": null
+ },
+ {
+  "i": 291,
+  "url": "https://www.city.suginami.tokyo.jp/s039/event/29325.html",
+  "name": "家族介護教室 フレイルってなに 自分らしく生活するために（浜田山会館）",
+  "ward": null
+ },
+ {
+  "i": 292,
+  "url": "https://www.city.suginami.tokyo.jp/s116/event/28394.html",
+  "name": "西荻図書館児童講演会「おはなしとワークショップ」",
+  "ward": null
+ },
+ {
+  "i": 293,
+  "url": "https://www.city.suginami.tokyo.jp/s103/event/28507.html",
+  "name": "年末年始の飾り小物手作り教室（環境活動推進センター）",
+  "ward": null
+ },
+ {
+  "i": 294,
+  "url": "https://www.city.suginami.tokyo.jp/s037/event/28532.html",
+  "name": "料理教室『知って便利な非常食「パッククッキング」を作ってみよう』（杉並障害者福祉会館）",
+  "ward": null
+ },
+ {
+  "i": 295,
+  "url": "https://www.city.suginami.tokyo.jp/s032/event/28642.html",
+  "name": "サウンドテーブルテニス教室（荻窪体育館）",
+  "ward": null
+ },
+ {
+  "i": 296,
+  "url": "https://www.city.suginami.tokyo.jp/s038/event/28659.html",
+  "name": "長谷川淳一・バイオリンコンサート（ゆうゆう梅里堀ノ内館）",
+  "ward": null
+ },
+ {
+  "i": 297,
+  "url": "https://www.city.suginami.tokyo.jp/s030/event/28661.html",
+  "name": "古典の日 こども伝統芸能わくわく体験 日本の芸・技・あそび（セシオン杉並）",
+  "ward": null
+ },
+ {
+  "i": 298,
+  "url": "https://www.city.suginami.tokyo.jp/s030/event/28813.html",
+  "name": "フルートオーケストラセドルリアン オータムコンサート（杉並公会堂）",
+  "ward": null
+ },
+ {
+  "i": 299,
+  "url": "https://www.city.suginami.tokyo.jp/s059/event/28866.html",
+  "name": "【申込期限延長】わくわくフィールドSUGINAMI'26みんなでわくわくキャンプ体験（柏の宮公園）",
+  "ward": null
+ },
+ {
+  "i": 300,
+  "url": "https://www.city.suginami.tokyo.jp/s023/event/28934.html",
+  "name": "クリスマス ワークショップ＆マーケット（コミュニティふらっと阿佐谷）",
+  "ward": null
+ },
+ {
+  "i": 301,
+  "url": "https://www.city.suginami.tokyo.jp/s032/event/28976.html",
+  "name": "ビーチスポーツイベント（TAC杉並区永福体育館）",
+  "ward": null
+ },
+ {
+  "i": 302,
+  "url": "https://www.city.suginami.tokyo.jp/s010/event/29780.html",
+  "name": "保育⼠バンク！就職・転職フェスタ（新宿エルタワー）",
+  "ward": null
+ },
+ {
+  "i": 303,
+  "url": "https://www.city.suginami.tokyo.jp/s036/event/23035.html",
+  "name": "障害者団体・施設 パネル展（杉並区役所）",
+  "ward": null
+ },
+ {
+  "i": 304,
+  "url": "https://www.city.suginami.tokyo.jp/s045/event/27266.html",
+  "name": "東京衛生アドベンチスト病院 子育て学級（乳児クラス）（オンライン開催）",
+  "ward": null
+ },
+ {
+  "i": 305,
+  "url": "https://www.city.suginami.tokyo.jp/s048/event/28870.html",
+  "name": "睡眠改善教室「快眠のコツ こどもから高齢者まで」みんなで仮眠、スッキリ体験（荻窪地域区民センター）",
+  "ward": null
+ },
+ {
+  "i": 306,
+  "url": "https://www.city.suginami.tokyo.jp/s039/event/29319.html",
+  "name": "家族介護教室 「終活」いろは 未来を輝かせる7つのこと（コミュニティふらっと永福）",
+  "ward": null
+ },
+ {
+  "i": 307,
+  "url": "https://www.city.suginami.tokyo.jp/s038/event/27340.html",
+  "name": "アロマ講座 心とからだのセルフケア（ゆうゆう下高井戸館）",
+  "ward": null
+ },
+ {
+  "i": 308,
+  "url": "https://www.city.suginami.tokyo.jp/s050/event/28827.html",
+  "name": "家族みんなのむし歯・歯周病予防教室（高円寺保健センター）",
+  "ward": null
+ },
+ {
+  "i": 309,
+  "url": "https://www.city.suginami.tokyo.jp/s038/event/28838.html",
+  "name": "スマホ教室「カメラ・写真に楽しくチャレンジiPhone編」（シルバー人材センター）",
+  "ward": null
+ },
+ {
+  "i": 310,
+  "url": "https://www.city.suginami.tokyo.jp/s103/event/29012.html",
+  "name": "石けん作り体験（環境活動推進センター）",
+  "ward": null
+ },
+ {
+  "i": 311,
+  "url": "https://www.city.suginami.tokyo.jp/s121/event/29152.html",
+  "name": "女性の就活実践講座 就職活動の実施ステップやポイントを具体的に解説（ウェルファーム杉並）",
+  "ward": null
+ },
+ {
+  "i": 312,
+  "url": "https://www.city.suginami.tokyo.jp/s036/event/23034.html",
+  "name": "ふれあい美術展（セシオン杉並）",
+  "ward": null
+ },
+ {
+  "i": 313,
+  "url": "https://www.city.suginami.tokyo.jp/s020/event/28883.html",
+  "name": "大人も子供も楽しめるクリスマスマーケット（コミュニティふらっと東原）",
+  "ward": null
+ },
+ {
+  "i": 314,
+  "url": "https://www.city.suginami.tokyo.jp/s048/event/29193.html",
+  "name": "講座「健康寿命を延ばす“声”の力」（高齢者活動支援センター）",
+  "ward": null
+ },
+ {
+  "i": 315,
+  "url": "https://www.city.suginami.tokyo.jp/s038/event/29276.html",
+  "name": "男性限定お料理教室【はじめてのおとこ飯】（ゆうゆう桃井館）",
+  "ward": null
+ },
+ {
+  "i": 316,
+  "url": "https://www.city.suginami.tokyo.jp/s039/event/29316.html",
+  "name": "家族介護教室 食事、口腔ケア、服薬から考えるお口の健康（西荻窪診療所）",
+  "ward": null
+ },
+ {
+  "i": 317,
+  "url": "https://www.city.suginami.tokyo.jp/s107/event/28877.html",
+  "name": "子どもドキュメンタリー映画制作ワークショップ",
+  "ward": null
+ },
+ {
+  "i": 318,
+  "url": "https://www.city.suginami.tokyo.jp/s034/event/29246.html",
+  "name": "第66回全国矯正展（全国刑務所作業製品展示即売会）社会とつながり未来へつなぐ 地域と創る拘禁刑の1年（東京国際フォーラム）",
+  "ward": null
+ },
+ {
+  "i": 319,
+  "url": "https://www.city.suginami.tokyo.jp/s038/event/28624.html",
+  "name": "第2回クラフト講座「紙紐で作るお正月飾り」（高齢者活動支援センター）",
+  "ward": null
+ },
+ {
+  "i": 320,
+  "url": "https://www.city.suginami.tokyo.jp/s030/event/28895.html",
+  "name": "音楽と絵画とお話でつづるブレーメンの音楽隊（杉並公会堂）",
+  "ward": null
+ },
+ {
+  "i": 321,
+  "url": "https://www.city.suginami.tokyo.jp/s103/event/29006.html",
+  "name": "子ども海の環境工作教室 貝とシーグラスで作るクリスマスリース（環境活動推進センター）",
+  "ward": null
+ },
+ {
+  "i": 322,
+  "url": "https://www.city.suginami.tokyo.jp/s036/event/29196.html",
+  "name": "地域自立支援協議会トークライブ 地域の「居心地のいい場所」って、どんな場所？（セシオン杉並）",
+  "ward": null
+ },
+ {
+  "i": 323,
+  "url": "https://www.city.suginami.tokyo.jp/s038/event/28839.html",
+  "name": "英会話教室「楽しく英会話」（シルバー人材センター）",
+  "ward": null
+ },
+ {
+  "i": 324,
+  "url": "https://www.city.suginami.tokyo.jp/s038/event/28033.html",
+  "name": "「家に眠っている楽器」の音楽教室（ゆうゆう西荻北館）",
+  "ward": null
+ },
+ {
+  "i": 325,
+  "url": "https://www.city.suginami.tokyo.jp/s045/event/28734.html",
+  "name": "チャレンジフィットネスday（スポーツハイツ）",
+  "ward": null
+ },
+ {
+  "i": 326,
+  "url": "https://www.city.suginami.tokyo.jp/s045/event/28738.html",
+  "name": "はじめてメディカルノルディック・ウオーク講座（スポーツハイツ）",
+  "ward": null
+ },
+ {
+  "i": 327,
+  "url": "https://www.city.suginami.tokyo.jp/s038/event/25600.html",
+  "name": "杉の樹大学 第3回期別講座「健康と体力づくり」（高齢者活動支援センター）",
+  "ward": null
+ },
+ {
+  "i": 328,
+  "url": "https://www.city.suginami.tokyo.jp/s039/event/28478.html",
+  "name": "介護予防サポーター養成講座（阿佐谷地域区民センター）",
+  "ward": null
+ },
+ {
+  "i": 329,
+  "url": "https://www.city.suginami.tokyo.jp/s113/event/28115.html",
+  "name": "高千穂大学公開講座「会計・税務をめぐる諸問題」",
+  "ward": null
+ },
+ {
+  "i": 330,
+  "url": "https://www.city.suginami.tokyo.jp/s113/event/28906.html",
+  "name": "収蔵資料展「渡邉錠太郎と杉並」 区指定文化財「渡邉錠太郎関係資料」「柳井平八関係資料」から（郷土博物館）",
+  "ward": null
+ },
+ {
+  "i": 331,
+  "url": "https://www.city.suginami.tokyo.jp/s038/event/28089.html",
+  "name": "こんな時に使える！英会話教室（ゆうゆう和泉館）",
+  "ward": null
+ },
+ {
+  "i": 332,
+  "url": "https://www.city.suginami.tokyo.jp/s037/event/28881.html",
+  "name": "クリスマスお楽しみ会（お楽しみクリスマスプレゼント付）（杉並障害者福祉会館）",
+  "ward": null
+ },
+ {
+  "i": 333,
+  "url": "https://www.city.suginami.tokyo.jp/s038/event/28937.html",
+  "name": "第3回 親子孫三世代料理教室「作りおきできるお正月料理」（高齢者活動支援センター）",
+  "ward": null
+ },
+ {
+  "i": 334,
+  "url": "https://www.city.suginami.tokyo.jp/s024/event/28984.html",
+  "name": "ふらっとすぎはちキャリア形成講座（コミュニティふらっと高円寺南）",
+  "ward": null
+ },
+ {
+  "i": 335,
+  "url": "https://www.city.suginami.tokyo.jp/s016/event/28972.html",
+  "name": "北朝鮮人権侵害問題啓発パネル展（杉並区役所）",
+  "ward": null
+ },
+ {
+  "i": 336,
+  "url": "https://www.city.suginami.tokyo.jp/s039/event/29288.html",
+  "name": "家族介護教室 終活と相続 エンディングノートに書いてみよう！（方南二丁目福祉施設）",
+  "ward": null
+ },
+ {
+  "i": 337,
+  "url": "https://www.city.suginami.tokyo.jp/s049/event/28884.html",
+  "name": "地域食育推進教室「年齢のせいにしない！からだが喜ぶ食べ方 食物繊維を味方につける食事術」（高井戸保健センター）",
+  "ward": null
+ },
+ {
+  "i": 338,
+  "url": "https://www.city.suginami.tokyo.jp/s039/event/29290.html",
+  "name": "家族介護教室 フレイル・サルコペニア予防に必要な栄養を学ぼう（さんじゅ久我山）",
+  "ward": null
+ },
+ {
+  "i": 339,
+  "url": "https://www.city.suginami.tokyo.jp/s023/event/28963.html",
+  "name": "クリスマス交流会アフリカハープ コラ演奏会（コミュニティふらっと成田）",
+  "ward": null
+ },
+ {
+  "i": 340,
+  "url": "https://www.city.suginami.tokyo.jp/s025/event/29140.html",
+  "name": "天文講座「ドーム型プラネタリウムで星空体験」（高井戸地域区民センター）",
+  "ward": null
+ },
+ {
+  "i": 341,
+  "url": "https://www.city.suginami.tokyo.jp/s111/event/29029.html",
+  "name": "プロに学ぶ「吹奏楽ワークショップ」（高円寺学園）",
+  "ward": null
+ },
+ {
+  "i": 342,
+  "url": "https://www.city.suginami.tokyo.jp/s116/event/29174.html",
+  "name": "【絵本ライブ】親と子でたのしむおはなし会28（中央図書館）",
+  "ward": null
+ },
+ {
+  "i": 343,
+  "url": "https://www.city.suginami.tokyo.jp/s038/event/29269.html",
+  "name": "第2回「マクラメ手芸講座」（高齢者活動支援センター）",
+  "ward": null
+ },
+ {
+  "i": 344,
+  "url": "https://www.city.suginami.tokyo.jp/s039/event/29110.html",
+  "name": "【フレイル予防教室】杉並・げんき応援プログラム",
+  "ward": null
+ },
+ {
+  "i": 345,
+  "url": "https://www.city.suginami.tokyo.jp/s113/event/28898.html",
+  "name": "文化講座及び演奏会「ベートーヴェン第九の世界」第4楽章演奏ピアノ伴奏（杉並公会堂）",
+  "ward": null
+ },
+ {
+  "i": 346,
+  "url": "https://www.city.tokyo-nakano.lg.jp/kusei/danjyo/danjyo/event/20261116jbb.html",
+  "name": "暴力防止に関する講座「これってDV？身近な人間関係から考える暴力と支援」を開催します",
+  "ward": "中野区"
+ },
+ {
+  "i": 347,
+  "url": "https://www.city.tokyo-nakano.lg.jp/kosodate/kosodatesite_ohirune/sodan/kodomosoudan/kodomosoudanshitsu.html",
+  "name": "中野区子ども相談室「ポカコロ」（なかのくこどもそうだんしつ「ポカコロ」）",
+  "ward": "中野区"
+ },
+ {
+  "i": 348,
+  "url": "https://www.city.tokyo-nakano.lg.jp/kurashi/soudan/soudan/0686427920240520145035355.html",
+  "name": "【参加者募集中】LGBTQ＋おしゃべりサロン",
+  "ward": "中野区"
+ },
+ {
+  "i": 349,
+  "url": "https://www.city.tokyo-nakano.lg.jp/event/koen/geneki2026.html",
+  "name": "「生涯現役セミナー シニア期に向けた暮らしと働き方」開催のお知らせ",
+  "ward": "中野区"
+ },
+ {
+  "i": 350,
+  "url": "https://www.city.tokyo-nakano.lg.jp/event/kosodate/kyouryuuziorama.html",
+  "name": "ひとり親家庭支援事業「親子工作 恐竜のジオラマを作ろう！」",
+  "ward": "中野区"
+ },
+ {
+  "i": 351,
+  "url": "https://www.city.tokyo-nakano.lg.jp/kosodate/wakamonoshien/magokoromarche.html",
+  "name": "「まごころマルシェ」を開催します！",
+  "ward": "中野区"
+ },
+ {
+  "i": 352,
+  "url": "https://www.city.tokyo-nakano.lg.jp/kurashi/kankyo/ondankataisaku/kikoukuminkaigi.html",
+  "name": "なかの気候区民会議を開催します",
+  "ward": "中野区"
+ },
+ {
+  "i": 353,
+  "url": "https://www.city.tokyo-nakano.lg.jp/kosodate/kosodatesite_ohirune/mokuteki/kenshin/kouza/7000052020240202110046378.html",
+  "name": "北部すこやか福祉センター 歯みがき教室",
+  "ward": "中野区"
+ },
+ {
+  "i": 354,
+  "url": "https://www.city.tokyo-nakano.lg.jp/event/koen/0686471620231110165729185.html",
+  "name": "スマートフォン講習会・教室・相談会（区役所開催）",
+  "ward": "中野区"
+ },
+ {
+  "i": 355,
+  "url": "https://www.city.tokyo-nakano.lg.jp/event/koen/parasports.html",
+  "name": "認知症予防講座「脳いきいき講座」",
+  "ward": "中野区"
+ },
+ {
+  "i": 356,
+  "url": "https://www.city.tokyo-nakano.lg.jp/event/koen/senior_job.html",
+  "name": "「シニアおしごと就職相談・面接会」開催のお知らせ",
+  "ward": "中野区"
+ },
+ {
+  "i": 357,
+  "url": "https://www.city.tokyo-nakano.lg.jp/event/kenko/chubueiyo_tekisio.html",
+  "name": "中部すこやか福祉センター 栄養講習会「今日からできる！適塩お食事講座」",
+  "ward": "中野区"
+ },
+ {
+  "i": 358,
+  "url": "https://www.city.tokyo-nakano.lg.jp/event/koen/0236850120231108173858436.html",
+  "name": "障害理解促進ワークショップ",
+  "ward": "中野区"
+ },
+ {
+  "i": 359,
+  "url": "https://www.city.tokyo-nakano.lg.jp/kusei/kaigi/fuzokukikan/kodomokenri/kodomonokenri3kidai5kai.html",
+  "name": "第3期第5回中野区子どもの権利委員会の開催",
+  "ward": "中野区"
+ },
+ {
+  "i": 360,
+  "url": "https://www.city.tokyo-nakano.lg.jp/event/kosodate/arekyo.html",
+  "name": "北部すこやか福祉センター 乳幼児のためのやさしいアレルギー教室",
+  "ward": "中野区"
+ },
+ {
+  "i": 361,
+  "url": "https://nakanoshakyo.com/nakanoinfo/event/result/?did=14603",
+  "name": "公開講座 映画上映＆シンポジウム＆障がいと防災展",
+  "ward": "中野区"
+ },
+ {
+  "i": 362,
+  "url": "https://nakanoshakyo.com/nakanoinfo/event/result/?did=14601",
+  "name": "子ども向け和楽器体験＆「互」スペシャルコンサート ～親子で感じて楽しむ和文化体験～",
+  "ward": "中野区"
+ },
+ {
+  "i": 363,
+  "url": "https://nakanoshakyo.com/nakanoinfo/event/result/?did=14596",
+  "name": "ボランティアに届く募集情報の作り方📱🤳🏻～施設ボランティア活動説明会～",
+  "ward": "中野区"
+ },
+ {
+  "i": 364,
+  "url": "https://nakanoshakyo.com/nakanoinfo/event/result/?did=14575",
+  "name": "えんためこども食堂ひーほー",
+  "ward": "中野区"
+ },
+ {
+  "i": 365,
+  "url": "https://nakanoshakyo.com/nakanoinfo/event/result/?did=14452",
+  "name": "２０２６年度ほほえみサービス事業 協力会員説明会開催！",
+  "ward": "中野区"
+ },
+ {
+  "i": 366,
+  "url": "https://nakanoshakyo.com/nakanoinfo/result/?did=14385",
+  "name": "おはなしだいすき",
+  "ward": "中野区"
+ },
+ {
+  "i": 367,
+  "url": "https://nakanoshakyo.com/nakanoinfo/result/?did=14309",
+  "name": "中野マンガクラブ マンガワークショップ",
+  "ward": "中野区"
+ }
+]

@@ -1,0 +1,3039 @@
+{
+  "schema_version": 1,
+  "kind": "holiday_after_reviewer_packet",
+  "read_only": true,
+  "publication_permitted": false,
+  "as_of_jst": "2026-11-16",
+  "base_data_production_sha": "fc6bec505975c6dabbddd404f33cd7d9f3f525e9",
+  "published_history_preserved": true,
+  "published_week_file_changes": 0,
+  "family_fit_review_requirements": {
+    "default_grade_allowed": false,
+    "method": "individual_evidence_review",
+    "required": [
+      "all_eight_axes",
+      "activity_specific_overall_reason",
+      "strengths",
+      "limitations",
+      "grade_comparison",
+      "audience_basis",
+      "primary_excerpt_date_hash"
+    ],
+    "rules": [
+      "Do not average axes or set every event to B; select the overall grade for the actual activity.",
+      "All-ages admission, a minimum age, accompanying children and child performers are different from a child-targeted program.",
+      "Adult participation is not a child activity. Unknown conditions remain unknown and do not automatically cap the overall grade.",
+      "A specific family concert may be A despite being viewing-only; booking does not automatically make a class B.",
+      "Keep event and decision assessments consistent; C/D publication needs a reasoned override."
+    ],
+    "release_check": "python3 tools/validate_family_fit_quality.py --base-ref <immutable-data-production-sha>"
+  },
+  "required_source_failures": [
+    {
+      "id": "tamemap_nakano",
+      "url": "https://pc.tamemap.net/1311401/calendar/2026-11?lat=35.7089745&lng=139.6630981&level=5000&locale=ja",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "tamemap_nakano",
+      "url": "https://pc.tamemap.net/1311401/calendar/2026-12?lat=35.7089745&lng=139.6630981&level=5000&locale=ja",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "tamemap_nakano",
+      "url": "https://pc.tamemap.net/1311401/new_arrival?lat=35.7089745&lng=139.6630981&level=5000&locale=ja",
+      "error": "HTTP Error 403: Forbidden"
+    }
+  ],
+  "annual_schedule": [
+    {
+      "status": "checked",
+      "source_id": "nerima_district_festivals_2026",
+      "official_row_count": 2,
+      "resolved_pages": [
+        {
+          "fiscal_year": 2026,
+          "resolved_url": "https://www.city.nerima.tokyo.jp/kankomoyoshi/annai/omatsuri/chikusai/20260616103208700.html",
+          "row_count": 2,
+          "checked_at": "2026-11-18T07:12:39+09:00",
+          "sha256": "985741ac14ef0492eaa28ded6bffffb24449142daae91cfce848cd132462e60c"
+        }
+      ],
+      "candidate_ids": [
+        "nerima-district-0275426b6920",
+        "nerima-district-cbea3481e03a"
+      ],
+      "decision_reconciliation": "pending"
+    }
+  ],
+  "wards": {
+    "千代田区": {
+      "total_queries": 21,
+      "successful_queries": 21,
+      "official_home_checked": true,
+      "errors": []
+    },
+    "中央区": {
+      "total_queries": 21,
+      "successful_queries": 21,
+      "official_home_checked": true,
+      "errors": []
+    },
+    "港区": {
+      "total_queries": 21,
+      "successful_queries": 21,
+      "official_home_checked": true,
+      "errors": []
+    },
+    "新宿区": {
+      "total_queries": 21,
+      "successful_queries": 21,
+      "official_home_checked": true,
+      "errors": []
+    },
+    "文京区": {
+      "total_queries": 21,
+      "successful_queries": 21,
+      "official_home_checked": true,
+      "errors": []
+    },
+    "台東区": {
+      "total_queries": 21,
+      "successful_queries": 21,
+      "official_home_checked": true,
+      "errors": []
+    },
+    "墨田区": {
+      "total_queries": 21,
+      "successful_queries": 21,
+      "official_home_checked": true,
+      "errors": []
+    },
+    "江東区": {
+      "total_queries": 21,
+      "successful_queries": 21,
+      "official_home_checked": true,
+      "errors": []
+    },
+    "品川区": {
+      "total_queries": 21,
+      "successful_queries": 21,
+      "official_home_checked": true,
+      "errors": []
+    },
+    "目黒区": {
+      "total_queries": 21,
+      "successful_queries": 21,
+      "official_home_checked": true,
+      "errors": []
+    },
+    "大田区": {
+      "total_queries": 21,
+      "successful_queries": 21,
+      "official_home_checked": true,
+      "errors": []
+    },
+    "世田谷区": {
+      "total_queries": 21,
+      "successful_queries": 21,
+      "official_home_checked": true,
+      "errors": []
+    },
+    "渋谷区": {
+      "total_queries": 21,
+      "successful_queries": 21,
+      "official_home_checked": true,
+      "errors": []
+    },
+    "中野区": {
+      "total_queries": 21,
+      "successful_queries": 21,
+      "official_home_checked": true,
+      "errors": []
+    },
+    "杉並区": {
+      "total_queries": 21,
+      "successful_queries": 21,
+      "official_home_checked": true,
+      "errors": []
+    },
+    "豊島区": {
+      "total_queries": 21,
+      "successful_queries": 21,
+      "official_home_checked": true,
+      "errors": []
+    },
+    "北区": {
+      "total_queries": 21,
+      "successful_queries": 21,
+      "official_home_checked": true,
+      "errors": []
+    },
+    "荒川区": {
+      "total_queries": 21,
+      "successful_queries": 21,
+      "official_home_checked": true,
+      "errors": []
+    },
+    "板橋区": {
+      "total_queries": 21,
+      "successful_queries": 21,
+      "official_home_checked": true,
+      "errors": []
+    },
+    "練馬区": {
+      "total_queries": 21,
+      "successful_queries": 21,
+      "official_home_checked": true,
+      "errors": [
+        {
+          "url": "https://www.city.nerima.tokyo.jp/kankomoyoshi/event/calendar/list_calendar202611.html",
+          "error": "HTTP Error 404: Not Found"
+        },
+        {
+          "url": "https://www.city.nerima.tokyo.jp/nerimakids/event/calendar/list_calendar202611.html",
+          "error": "HTTP Error 404: Not Found"
+        }
+      ]
+    },
+    "足立区": {
+      "total_queries": 21,
+      "successful_queries": 21,
+      "official_home_checked": true,
+      "errors": []
+    },
+    "葛飾区": {
+      "total_queries": 21,
+      "successful_queries": 21,
+      "official_home_checked": true,
+      "errors": []
+    },
+    "江戸川区": {
+      "total_queries": 21,
+      "successful_queries": 21,
+      "official_home_checked": true,
+      "errors": []
+    }
+  },
+  "weeks": [
+    {
+      "sat": "2026-11-21",
+      "sun": "2026-11-22",
+      "tier": "full",
+      "existing_week": true,
+      "prior_published_count": 155,
+      "carryover_review_count": 0,
+      "carryover_needs_daily_confirmation": false,
+      "protected_prior_event_ids": [
+        "all-reviewed-20261121-edogawa-zenyoji-kiku",
+        "all-reviewed-20261121-meguro-free-space",
+        "all-reviewed-20261121-meguro-playpark",
+        "all-reviewed-20261121-orsay-exhibition",
+        "all-reviewed-20261121-playground-gym",
+        "all-reviewed-20261121-playground-street",
+        "all-reviewed-20261121-playground-walk",
+        "all-reviewed-20261121-shoto-road",
+        "all-reviewed-20261121-sugi-602",
+        "all-reviewed-20261121-sugi-685",
+        "all-reviewed-20261121-sugi-711",
+        "all-reviewed-20261121-sugi-810",
+        "all-reviewed-20261121-women-children-festival",
+        "all-reviewed-20261121-world-drinks2026",
+        "all-reviewed-20261122-kawamoto-dolls-opening",
+        "all-reviewed-20261122-nakano-climate-observe",
+        "all-reviewed-20261122-sugi-598",
+        "all-reviewed-20261122-sugi-730",
+        "all-reviewed-20261122-sugi-809",
+        "all-reviewed-20261123-arakawa-papa",
+        "all-reviewed-20261123-arakawa-parent-lecture",
+        "all-reviewed-20261123-arakawa-sketch",
+        "all-reviewed-20261123-edogawa-rakugo167",
+        "all-reviewed-20261123-football-park-freeplay",
+        "all-reviewed-20261123-kantetsu2026",
+        "all-reviewed-20261123-shibuya-streetdance2026",
+        "all-reviewed-20261123-shoto-sento-parade",
+        "all-reviewed-20261123-sugi-500",
+        "all-reviewed-20261123-sugi-686",
+        "candidate-20261121-kids-street-itabashi",
+        "evidence-recovery-20261121-kita-iwate-fair",
+        "evidence-recovery-20261121-mucha-weekend",
+        "evidence-recovery-20261122-meguro-dance-view",
+        "final-20261121-itabashi-bologna",
+        "final-20261121-itabashi-bologna-story",
+        "final-20261121-nakano-160837",
+        "final-20261121-nakano-162251",
+        "final-20261121-nakano-162738",
+        "final-20261121-nakano-163067",
+        "final-20261121-nakano-163204",
+        "final-20261121-nakano-toyokuni-talk",
+        "final-20261121-nerima-walk-rally",
+        "final-20261121-suginami-26086",
+        "final-20261121-suginami-26970",
+        "final-20261121-suginami-27137",
+        "final-20261121-suginami-27140",
+        "final-20261121-suginami-27274",
+        "final-20261121-suginami-27522",
+        "final-20261121-suginami-27932",
+        "final-20261121-suginami-28229",
+        "final-20261121-suginami-28456",
+        "final-20261121-suginami-28512",
+        "final-20261121-suginami-28578",
+        "final-20261121-suginami-28588",
+        "final-20261121-suginami-onsen-suginamiyu",
+        "final-20261122-itabashi-ennichi",
+        "final-20261122-itabashi-kayaku",
+        "final-20261122-itabashi-kayaku-digital",
+        "final-20261122-itabashi-kayaku-riddle",
+        "final-20261122-itabashi-kayaku-tour",
+        "final-20261122-nakano-161735",
+        "final-20261122-nakano-162444",
+        "final-20261122-nerima-music-brass",
+        "final-20261122-nerima-music-family",
+        "final-20261122-suginami-26083",
+        "final-20261122-suginami-26083-unicurl",
+        "final-20261122-suginami-28262",
+        "final-20261122-suginami-28300",
+        "final-20261122-suginami-onsen-yuraku",
+        "final-20261123-itabashi-kominka-autumn",
+        "final-20261123-nakano-160643",
+        "final-20261123-nakano-163203",
+        "final-20261123-suginami-28049",
+        "gap-20261123-edogawa-kasai-super-fes",
+        "gap-20261123-edogawa-walking",
+        "gap-20261123-nakano-egota-craft",
+        "gap-20261123-nakano-higashi-bosai",
+        "gap-20261123-shinjuku-mochitsuki",
+        "gap-20261123-toshima-ikebiz-festa",
+        "legacy-gap-2026-10-10-zannen3",
+        "nerima-forest-20261121-minamitakamatsu",
+        "next-primary-20261121-adachi-reading-bingo",
+        "next-primary-20261121-hozuki-animate",
+        "next-primary-20261121-minato-english-games",
+        "next-primary-20261121-turner-exhibition",
+        "next-primary-20261122-minato-coffee-craft",
+        "nine-followup-20261121-cambodia-water-festival",
+        "official-2026-edogawa-parasports",
+        "official-2026-haneda-museum",
+        "official-2026-nerima-cultural-craft",
+        "official-2026-nerima-cultural-dance",
+        "official-2026-nihonbashi-komichi",
+        "official-2026-nijin-expo",
+        "official-2026-sumida-light-garden",
+        "official-2026-urban-agriculture-pre",
+        "ongoing-20261121-r16-a998e43102c9",
+        "ongoing-20261121-r16-c2947a676a15",
+        "ongoing-20261121-r16-d1fc65f778d6",
+        "ongoing-20261121-v15-2129bbe736b8",
+        "ongoing-20261121-v15-237c930495e3",
+        "ongoing-20261121-v15-5e0e43c28e84",
+        "ongoing-20261121-v15-8d59fcc6e04c",
+        "ongoing-20261121-v15-97ee0aaed408",
+        "ongoing-20261121-v15-9abcdd41c48d",
+        "ongoing-20261121-v15-d7b35a2aa60b",
+        "ongoing-20261121-v15-daa813b5a665",
+        "partial-20261123-edogawa-keyholder",
+        "partial-20261123-edogawa-magic",
+        "partial-20261123-edogawa-planaria",
+        "partial-20261123-toshima-kumanoko",
+        "primary-20261121-kita-keene",
+        "primary-20261121-kita-kitchen",
+        "primary-20261121-kita-kitchen-talk",
+        "primary-20261121-kita-ur",
+        "primary-20261121-meguro-child-music",
+        "primary-20261121-meguro-horse-exhibit",
+        "primary-20261121-shinagawa-museum-tour",
+        "primary-20261121-taito-noguchi",
+        "primary-20261121-taito-zakka",
+        "primary-20261121-toshima-retro",
+        "primary-20261123-edogawa-inclusive-culture",
+        "primary-20261123-itabashi-misuzu",
+        "remaining-20261121-aozora-chime",
+        "remaining-20261121-aozora-concert",
+        "remaining-20261121-aozora-dance",
+        "remaining-20261121-aozora-kids-paint",
+        "remaining-20261121-aozora-silkscreen",
+        "remaining-20261121-aozora-strings",
+        "remaining-20261121-arakawa-tram-rally",
+        "remaining-20261121-cincinnati-art",
+        "remaining-20261121-edogawa-chrysanthemum",
+        "remaining-20261121-meguro-ajimi",
+        "remaining-20261121-minamioizumi-farm",
+        "remaining-20261121-nerima-edokuri-rally",
+        "remaining-20261121-toshima-4koma-museum",
+        "remaining-20261121-toshima-4koma-retro",
+        "remaining-20261121-toshima-tsunoda",
+        "remaining-20261122-slackline-final",
+        "reviewed-20261121-nakano-160131",
+        "reviewed-20261122-nakano-146912",
+        "reviewed-20261122-nakano-153058",
+        "reviewed-20261122-nakano-160190",
+        "reviewed-20261122-nakano-161794",
+        "reviewed-20261122-nakano-162568",
+        "reviewed-20261122-nakano-163150",
+        "reviewed-20261122-nakano-163358",
+        "reviewed-20261122-nakano-163368",
+        "reviewed-20261123-nakano-102229",
+        "v15-0c6fcb6bf768",
+        "v15-7b30b706f728",
+        "v15-8bc88232815c",
+        "v15-960da7fa214c",
+        "v15-ad2f72f74ab7",
+        "verified-20261121-meguro-shinobu-playpark",
+        "verified-20261123-toshima-somei-autumn-festival"
+      ],
+      "suggested_discoveries_count": 40,
+      "attached_weekday_holidays": [
+        "2026-11-23"
+      ],
+      "holiday_leads_by_date": {
+        "2026-11-23": {
+          "candidate_count": 30,
+          "candidate_ids": [
+            "holiday-official-26d997c550b428ac",
+            "holiday-official-380e33beebb441e5",
+            "holiday-official-3f70e35d0b4c8eff",
+            "holiday-official-483bf2ae181f1d35",
+            "holiday-official-513e525d1376eefd",
+            "holiday-official-55f62b473be5d6ad",
+            "holiday-official-63b864a48236bfa1",
+            "holiday-official-64bdb9ba7f712f1a",
+            "holiday-official-6ecd0fbd88b0f64e",
+            "holiday-official-6ef26cb3fb7fece0",
+            "holiday-official-76745bc5a511efe7",
+            "holiday-official-7a2253ad57b66ce1",
+            "holiday-official-86d82db54acf7ff7",
+            "holiday-official-9643d975abd3f0c0",
+            "holiday-official-96bde04589a38d12",
+            "holiday-official-9ec40f351f125577",
+            "holiday-official-a059ebe4c65bf8f4",
+            "holiday-official-a6eee0e248978d13",
+            "holiday-official-ab77d1aafa6e1053",
+            "holiday-official-ae9e955744a72403",
+            "holiday-official-aead64130ba6e772",
+            "holiday-official-b29aa001f23db416",
+            "holiday-official-b724720de50e63e0",
+            "holiday-official-c59080e9cd3b5fb6",
+            "holiday-official-e00c7823c910859b",
+            "holiday-official-ead25607c7e37fa9",
+            "holiday-official-f24afb7fa85d58ac",
+            "holiday-official-ff3e744801a119a7",
+            "nakano-official-029ca1e22e1df2ca",
+            "nakano-official-64dbf3bf881b88d0"
+          ]
+        }
+      },
+      "undated_supplemental_candidates": [
+        {
+          "candidate_id": "shakyo-6f7e8184c1fa6985",
+          "name": "任意後見制度講演会「今の私から、未来の私への贈り物～これからも安心して暮らしていくために～」",
+          "discovery_url": "https://nakanoshakyo.com/nakanoinfo/event/result/?did=14610",
+          "ward": "中野区",
+          "status": "unverified",
+          "date_unverified": true,
+          "discovered_via": {
+            "channel": "supplemental_community",
+            "source_id": "nakano_shakyo_events",
+            "ward": "中野区",
+            "search_url": "https://nakanoshakyo.com/nakanoinfo/event/index.php"
+          }
+        },
+        {
+          "candidate_id": "shakyo-8c4026d877d526c5",
+          "name": "公開講座 映画上映＆シンポジウム＆障がいと防災展",
+          "discovery_url": "https://nakanoshakyo.com/nakanoinfo/event/result/?did=14603",
+          "ward": "中野区",
+          "status": "unverified",
+          "date_unverified": true,
+          "discovered_via": {
+            "channel": "supplemental_community",
+            "source_id": "nakano_shakyo_events",
+            "ward": "中野区",
+            "search_url": "https://nakanoshakyo.com/nakanoinfo/event/index.php"
+          }
+        },
+        {
+          "candidate_id": "shakyo-71f6d42e119b3d47",
+          "name": "子ども向け和楽器体験＆「互」スペシャルコンサート ～親子で感じて楽しむ和文化体験～",
+          "discovery_url": "https://nakanoshakyo.com/nakanoinfo/event/result/?did=14601",
+          "ward": "中野区",
+          "status": "unverified",
+          "date_unverified": true,
+          "discovered_via": {
+            "channel": "supplemental_community",
+            "source_id": "nakano_shakyo_events",
+            "ward": "中野区",
+            "search_url": "https://nakanoshakyo.com/nakanoinfo/event/index.php"
+          }
+        },
+        {
+          "candidate_id": "shakyo-f0bb044b1a5bb244",
+          "name": "ボランティアに届く募集情報の作り方📱🤳🏻～施設ボランティア活動説明会～",
+          "discovery_url": "https://nakanoshakyo.com/nakanoinfo/event/result/?did=14596",
+          "ward": "中野区",
+          "status": "unverified",
+          "date_unverified": true,
+          "discovered_via": {
+            "channel": "supplemental_community",
+            "source_id": "nakano_shakyo_events",
+            "ward": "中野区",
+            "search_url": "https://nakanoshakyo.com/nakanoinfo/event/index.php"
+          }
+        },
+        {
+          "candidate_id": "shakyo-cec613d2140471a6",
+          "name": "11月期12月期 同行援護ガイドヘルパー養成研修受講者募集",
+          "discovery_url": "https://nakanoshakyo.com/nakanoinfo/event/result/?did=14589",
+          "ward": "中野区",
+          "status": "unverified",
+          "date_unverified": true,
+          "discovered_via": {
+            "channel": "supplemental_community",
+            "source_id": "nakano_shakyo_events",
+            "ward": "中野区",
+            "search_url": "https://nakanoshakyo.com/nakanoinfo/event/index.php"
+          }
+        },
+        {
+          "candidate_id": "shakyo-456d8d44a4cb986d",
+          "name": "数学月間企画講演会（第19回）",
+          "discovery_url": "https://nakanoshakyo.com/nakanoinfo/event/result/?did=14581",
+          "ward": "中野区",
+          "status": "unverified",
+          "date_unverified": true,
+          "discovered_via": {
+            "channel": "supplemental_community",
+            "source_id": "nakano_shakyo_events",
+            "ward": "中野区",
+            "search_url": "https://nakanoshakyo.com/nakanoinfo/event/index.php"
+          }
+        },
+        {
+          "candidate_id": "shakyo-7efaa7ba860b070e",
+          "name": "えんためこども食堂ひーほー",
+          "discovery_url": "https://nakanoshakyo.com/nakanoinfo/event/result/?did=14575",
+          "ward": "中野区",
+          "status": "unverified",
+          "date_unverified": true,
+          "discovered_via": {
+            "channel": "supplemental_community",
+            "source_id": "nakano_shakyo_events",
+            "ward": "中野区",
+            "search_url": "https://nakanoshakyo.com/nakanoinfo/event/index.php"
+          }
+        },
+        {
+          "candidate_id": "shakyo-7939f0c0f7591e7e",
+          "name": "【2026後期】中野区ファミリー・サポート事業 予約制会員登録会のご案内",
+          "discovery_url": "https://nakanoshakyo.com/nakanoinfo/event/result/?did=14574",
+          "ward": "中野区",
+          "status": "unverified",
+          "date_unverified": true,
+          "discovered_via": {
+            "channel": "supplemental_community",
+            "source_id": "nakano_shakyo_events",
+            "ward": "中野区",
+            "search_url": "https://nakanoshakyo.com/nakanoinfo/event/index.php"
+          }
+        },
+        {
+          "candidate_id": "shakyo-3066bc21bf0bae28",
+          "name": "2026年度 成年後見制度説明会",
+          "discovery_url": "https://nakanoshakyo.com/nakanoinfo/event/result/?did=14460",
+          "ward": "中野区",
+          "status": "unverified",
+          "date_unverified": true,
+          "discovered_via": {
+            "channel": "supplemental_community",
+            "source_id": "nakano_shakyo_events",
+            "ward": "中野区",
+            "search_url": "https://nakanoshakyo.com/nakanoinfo/event/index.php"
+          }
+        },
+        {
+          "candidate_id": "shakyo-d34658ff2974f483",
+          "name": "２０２６年度ほほえみサービス事業 協力会員説明会開催！",
+          "discovery_url": "https://nakanoshakyo.com/nakanoinfo/event/result/?did=14452",
+          "ward": "中野区",
+          "status": "unverified",
+          "date_unverified": true,
+          "discovered_via": {
+            "channel": "supplemental_community",
+            "source_id": "nakano_shakyo_events",
+            "ward": "中野区",
+            "search_url": "https://nakanoshakyo.com/nakanoinfo/event/index.php"
+          }
+        },
+        {
+          "candidate_id": "shakyo-d3d86efa42987847",
+          "name": "【2026前期】中野区ファミリー・サポート事業 予約制登録講習会のお知らせ",
+          "discovery_url": "https://nakanoshakyo.com/nakanoinfo/event/result/?did=14434",
+          "ward": "中野区",
+          "status": "unverified",
+          "date_unverified": true,
+          "discovered_via": {
+            "channel": "supplemental_community",
+            "source_id": "nakano_shakyo_events",
+            "ward": "中野区",
+            "search_url": "https://nakanoshakyo.com/nakanoinfo/event/index.php"
+          }
+        },
+        {
+          "candidate_id": "shakyo-b41898c36137c996",
+          "name": "JEC英会話～ご一緒に英会話を楽しみましょ～う！",
+          "discovery_url": "https://nakanoshakyo.com/nakanoinfo/result/?did=14470",
+          "ward": "中野区",
+          "status": "unverified",
+          "date_unverified": true,
+          "discovered_via": {
+            "channel": "supplemental_community",
+            "source_id": "nakano_shakyo_community",
+            "ward": "中野区",
+            "search_url": "https://nakanoshakyo.com/nakanoinfo/"
+          }
+        },
+        {
+          "candidate_id": "shakyo-5b640257d9aeff2c",
+          "name": "おはなしだいすき",
+          "discovery_url": "https://nakanoshakyo.com/nakanoinfo/result/?did=14385",
+          "ward": "中野区",
+          "status": "unverified",
+          "date_unverified": true,
+          "discovered_via": {
+            "channel": "supplemental_community",
+            "source_id": "nakano_shakyo_community",
+            "ward": "中野区",
+            "search_url": "https://nakanoshakyo.com/nakanoinfo/"
+          }
+        },
+        {
+          "candidate_id": "shakyo-5405a4944e5c26f1",
+          "name": "囲碁交友会",
+          "discovery_url": "https://nakanoshakyo.com/nakanoinfo/result/?did=14382",
+          "ward": "中野区",
+          "status": "unverified",
+          "date_unverified": true,
+          "discovered_via": {
+            "channel": "supplemental_community",
+            "source_id": "nakano_shakyo_community",
+            "ward": "中野区",
+            "search_url": "https://nakanoshakyo.com/nakanoinfo/"
+          }
+        },
+        {
+          "candidate_id": "shakyo-8510b60f5fb2deab",
+          "name": "あらい暮らしの保健室",
+          "discovery_url": "https://nakanoshakyo.com/nakanoinfo/result/?did=14380",
+          "ward": "中野区",
+          "status": "unverified",
+          "date_unverified": true,
+          "discovered_via": {
+            "channel": "supplemental_community",
+            "source_id": "nakano_shakyo_community",
+            "ward": "中野区",
+            "search_url": "https://nakanoshakyo.com/nakanoinfo/"
+          }
+        },
+        {
+          "candidate_id": "shakyo-eb64278756d90b1e",
+          "name": "みんなのキッチン",
+          "discovery_url": "https://nakanoshakyo.com/nakanoinfo/result/?did=14378",
+          "ward": "中野区",
+          "status": "unverified",
+          "date_unverified": true,
+          "discovered_via": {
+            "channel": "supplemental_community",
+            "source_id": "nakano_shakyo_community",
+            "ward": "中野区",
+            "search_url": "https://nakanoshakyo.com/nakanoinfo/"
+          }
+        },
+        {
+          "candidate_id": "shakyo-f7999ae95db89fce",
+          "name": "若年性認知症家族会交流会",
+          "discovery_url": "https://nakanoshakyo.com/nakanoinfo/result/?did=14377",
+          "ward": "中野区",
+          "status": "unverified",
+          "date_unverified": true,
+          "discovered_via": {
+            "channel": "supplemental_community",
+            "source_id": "nakano_shakyo_community",
+            "ward": "中野区",
+            "search_url": "https://nakanoshakyo.com/nakanoinfo/"
+          }
+        },
+        {
+          "candidate_id": "shakyo-0bafa1e9a82c5a69",
+          "name": "まちなかサロン はるさんのおしゃべりサロン",
+          "discovery_url": "https://nakanoshakyo.com/nakanoinfo/result/?did=14373",
+          "ward": "中野区",
+          "status": "unverified",
+          "date_unverified": true,
+          "discovered_via": {
+            "channel": "supplemental_community",
+            "source_id": "nakano_shakyo_community",
+            "ward": "中野区",
+            "search_url": "https://nakanoshakyo.com/nakanoinfo/"
+          }
+        },
+        {
+          "candidate_id": "shakyo-17dcea742efe81ae",
+          "name": "にこにこランチ食堂",
+          "discovery_url": "https://nakanoshakyo.com/nakanoinfo/result/?did=14372",
+          "ward": "中野区",
+          "status": "unverified",
+          "date_unverified": true,
+          "discovered_via": {
+            "channel": "supplemental_community",
+            "source_id": "nakano_shakyo_community",
+            "ward": "中野区",
+            "search_url": "https://nakanoshakyo.com/nakanoinfo/"
+          }
+        },
+        {
+          "candidate_id": "shakyo-df3628497e68daca",
+          "name": "OYAJI合唱団",
+          "discovery_url": "https://nakanoshakyo.com/nakanoinfo/result/?did=14310",
+          "ward": "中野区",
+          "status": "unverified",
+          "date_unverified": true,
+          "discovered_via": {
+            "channel": "supplemental_community",
+            "source_id": "nakano_shakyo_community",
+            "ward": "中野区",
+            "search_url": "https://nakanoshakyo.com/nakanoinfo/"
+          }
+        },
+        {
+          "candidate_id": "shakyo-f858dac9c3ce6549",
+          "name": "中野マンガクラブ マンガワークショップ",
+          "discovery_url": "https://nakanoshakyo.com/nakanoinfo/result/?did=14309",
+          "ward": "中野区",
+          "status": "unverified",
+          "date_unverified": true,
+          "discovered_via": {
+            "channel": "supplemental_community",
+            "source_id": "nakano_shakyo_community",
+            "ward": "中野区",
+            "search_url": "https://nakanoshakyo.com/nakanoinfo/"
+          }
+        },
+        {
+          "candidate_id": "shakyo-baa3dfa8b78acd37",
+          "name": "囲碁・将棋",
+          "discovery_url": "https://nakanoshakyo.com/nakanoinfo/result/?did=14308",
+          "ward": "中野区",
+          "status": "unverified",
+          "date_unverified": true,
+          "discovered_via": {
+            "channel": "supplemental_community",
+            "source_id": "nakano_shakyo_community",
+            "ward": "中野区",
+            "search_url": "https://nakanoshakyo.com/nakanoinfo/"
+          }
+        },
+        {
+          "candidate_id": "shakyo-39ace0ce0991f085",
+          "name": "がん哲学外来 東中野メディカルカフェ",
+          "discovery_url": "https://nakanoshakyo.com/nakanoinfo/result/?did=14306",
+          "ward": "中野区",
+          "status": "unverified",
+          "date_unverified": true,
+          "discovered_via": {
+            "channel": "supplemental_community",
+            "source_id": "nakano_shakyo_community",
+            "ward": "中野区",
+            "search_url": "https://nakanoshakyo.com/nakanoinfo/"
+          }
+        },
+        {
+          "candidate_id": "shakyo-7f337b4764bf5ba3",
+          "name": "おもちゃDAY",
+          "discovery_url": "https://nakanoshakyo.com/nakanoinfo/result/?did=14305",
+          "ward": "中野区",
+          "status": "unverified",
+          "date_unverified": true,
+          "discovered_via": {
+            "channel": "supplemental_community",
+            "source_id": "nakano_shakyo_community",
+            "ward": "中野区",
+            "search_url": "https://nakanoshakyo.com/nakanoinfo/"
+          }
+        },
+        {
+          "candidate_id": "shakyo-705242f959dfcdbe",
+          "name": "おかのうえプレイルーム「プレム」",
+          "discovery_url": "https://nakanoshakyo.com/nakanoinfo/result/?did=14304",
+          "ward": "中野区",
+          "status": "unverified",
+          "date_unverified": true,
+          "discovered_via": {
+            "channel": "supplemental_community",
+            "source_id": "nakano_shakyo_community",
+            "ward": "中野区",
+            "search_url": "https://nakanoshakyo.com/nakanoinfo/"
+          }
+        },
+        {
+          "candidate_id": "shakyo-fe570fa505bc46ee",
+          "name": "ももざくら切手の会",
+          "discovery_url": "https://nakanoshakyo.com/nakanoinfo/result/?did=14303",
+          "ward": "中野区",
+          "status": "unverified",
+          "date_unverified": true,
+          "discovered_via": {
+            "channel": "supplemental_community",
+            "source_id": "nakano_shakyo_community",
+            "ward": "中野区",
+            "search_url": "https://nakanoshakyo.com/nakanoinfo/"
+          }
+        }
+      ],
+      "suggested_discoveries": [
+        {
+          "candidate_id": "holiday-official-b29aa001f23db416",
+          "name": "熊谷守一美術館 特別開館 くまのこDAY 2026年11月23日（月曜日） 10時 ～ 2026年11月23日（月曜日） 17時",
+          "discovery_url": "https://www.city.toshima.lg.jp/129/bunka/bunka/shiryokan/2602150927.html",
+          "official_url": "https://www.city.toshima.lg.jp/129/bunka/bunka/shiryokan/2602150927.html",
+          "matched_dates": [
+            "2026-11-23"
+          ],
+          "date_unverified": true,
+          "calendar_date_hint": "2026-11-23",
+          "source_kind": "official_calendar_candidate_only",
+          "discovered_via": {
+            "channel": "ai_cross",
+            "source_id": "toshima_daily",
+            "ward": "豊島区",
+            "query": null,
+            "search_url": "https://www.city.toshima.lg.jp/cgi-bin/event_cal/calendar.cgi?day=23&month=11&type=3&year=2026"
+          },
+          "status": "unverified"
+        },
+        {
+          "candidate_id": "holiday-official-64bdb9ba7f712f1a",
+          "name": "第54回としま子どものつどい「ワンパクまつり」 2026年11月23日（月曜日） 10時 ～ 2026年11月23日（月曜日） 14時",
+          "discovery_url": "https://www.city.toshima.lg.jp/231/2609151435.html",
+          "official_url": "https://www.city.toshima.lg.jp/231/2609151435.html",
+          "matched_dates": [
+            "2026-11-23"
+          ],
+          "date_unverified": true,
+          "calendar_date_hint": "2026-11-23",
+          "source_kind": "official_calendar_candidate_only",
+          "discovered_via": {
+            "channel": "ai_cross",
+            "source_id": "toshima_daily",
+            "ward": "豊島区",
+            "query": null,
+            "search_url": "https://www.city.toshima.lg.jp/cgi-bin/event_cal/calendar.cgi?day=23&month=11&type=3&year=2026"
+          },
+          "status": "unverified"
+        },
+        {
+          "candidate_id": "holiday-official-63b864a48236bfa1",
+          "name": "染井よしの桜の里秋祭り 2026年11月23日（月曜日） 10時 ～ 2026年11月23日（月曜日） 15時",
+          "discovery_url": "https://www.city.toshima.lg.jp/132/2609161020.html",
+          "official_url": "https://www.city.toshima.lg.jp/132/2609161020.html",
+          "matched_dates": [
+            "2026-11-23"
+          ],
+          "date_unverified": true,
+          "calendar_date_hint": "2026-11-23",
+          "source_kind": "official_calendar_candidate_only",
+          "discovered_via": {
+            "channel": "ai_cross",
+            "source_id": "toshima_daily",
+            "ward": "豊島区",
+            "query": null,
+            "search_url": "https://www.city.toshima.lg.jp/cgi-bin/event_cal/calendar.cgi?day=23&month=11&type=3&year=2026"
+          },
+          "status": "unverified"
+        },
+        {
+          "candidate_id": "holiday-official-6ef26cb3fb7fece0",
+          "name": "イケビズフェスタ2026 2026年11月23日（月曜日） 10時 ～ 2026年11月23日（月曜日） 17時",
+          "discovery_url": "https://www.city.toshima.lg.jp/121/shisetsu/sonota/2608050909.html",
+          "official_url": "https://www.city.toshima.lg.jp/121/shisetsu/sonota/2608050909.html",
+          "matched_dates": [
+            "2026-11-23"
+          ],
+          "date_unverified": true,
+          "calendar_date_hint": "2026-11-23",
+          "source_kind": "official_calendar_candidate_only",
+          "discovered_via": {
+            "channel": "ai_cross",
+            "source_id": "toshima_daily",
+            "ward": "豊島区",
+            "query": null,
+            "search_url": "https://www.city.toshima.lg.jp/cgi-bin/event_cal/calendar.cgi?day=23&month=11&type=3&year=2026"
+          },
+          "status": "unverified"
+        },
+        {
+          "candidate_id": "holiday-official-a6eee0e248978d13",
+          "name": "トキワ荘のまち４コママンガ大賞受賞作品展示 2026年11月1日（日曜日） ～ 2026年11月23日（月曜日）",
+          "discovery_url": "https://www.city.toshima.lg.jp/424/2609250940.html",
+          "official_url": "https://www.city.toshima.lg.jp/424/2609250940.html",
+          "matched_dates": [
+            "2026-11-23"
+          ],
+          "date_unverified": true,
+          "calendar_date_hint": "2026-11-23",
+          "source_kind": "official_calendar_candidate_only",
+          "discovered_via": {
+            "channel": "ai_cross",
+            "source_id": "toshima_daily",
+            "ward": "豊島区",
+            "query": null,
+            "search_url": "https://www.city.toshima.lg.jp/cgi-bin/event_cal/calendar.cgi?day=23&month=11&type=3&year=2026"
+          },
+          "status": "unverified"
+        },
+        {
+          "candidate_id": "holiday-official-483bf2ae181f1d35",
+          "name": "いまどきの子育てとマンガ展 2026年9月18日（金曜日） ～ 2026年11月23日（月曜日）",
+          "discovery_url": "https://www.city.toshima.lg.jp/467/2607241454.html",
+          "official_url": "https://www.city.toshima.lg.jp/467/2607241454.html",
+          "matched_dates": [
+            "2026-11-23"
+          ],
+          "date_unverified": true,
+          "calendar_date_hint": "2026-11-23",
+          "source_kind": "official_calendar_candidate_only",
+          "discovered_via": {
+            "channel": "ai_cross",
+            "source_id": "toshima_daily",
+            "ward": "豊島区",
+            "query": null,
+            "search_url": "https://www.city.toshima.lg.jp/cgi-bin/event_cal/calendar.cgi?day=23&month=11&type=3&year=2026"
+          },
+          "status": "unverified"
+        },
+        {
+          "candidate_id": "holiday-official-e00c7823c910859b",
+          "name": "トキワ荘マンガミュージアム特別企画展 「生誕90周年記念 つのだじろう なんでも描いてやろう！」 2026年8月8日（土曜日） ～ 2026年11月23日（月曜日）",
+          "discovery_url": "https://www.city.toshima.lg.jp/467/2606091600.html",
+          "official_url": "https://www.city.toshima.lg.jp/467/2606091600.html",
+          "matched_dates": [
+            "2026-11-23"
+          ],
+          "date_unverified": true,
+          "calendar_date_hint": "2026-11-23",
+          "source_kind": "official_calendar_candidate_only",
+          "discovered_via": {
+            "channel": "ai_cross",
+            "source_id": "toshima_daily",
+            "ward": "豊島区",
+            "query": null,
+            "search_url": "https://www.city.toshima.lg.jp/cgi-bin/event_cal/calendar.cgi?day=23&month=11&type=3&year=2026"
+          },
+          "status": "unverified"
+        },
+        {
+          "candidate_id": "holiday-official-26d997c550b428ac",
+          "name": "都電沿線のグルメをめぐる荒川区デジタルスタンプラリー（尾久～町屋編） 2026年9月18日（金曜日） ～ 2026年11月23日（月曜日）",
+          "discovery_url": "https://www.city.arakawa.tokyo.jp/a022/event/r8_digitalstamprally.html",
+          "official_url": "https://www.city.arakawa.tokyo.jp/a022/event/r8_digitalstamprally.html",
+          "matched_dates": [
+            "2026-11-23"
+          ],
+          "date_unverified": true,
+          "calendar_date_hint": "2026-11-23",
+          "source_kind": "official_calendar_candidate_only",
+          "discovered_via": {
+            "channel": "ai_cross",
+            "source_id": "arakawa_daily",
+            "ward": "荒川区",
+            "query": null,
+            "search_url": "https://www.city.arakawa.tokyo.jp/cgi-bin/event_cal_multi/calendar.cgi?day=23&month=11&type=3&year=2026"
+          },
+          "status": "unverified"
+        },
+        {
+          "candidate_id": "holiday-official-9ec40f351f125577",
+          "name": "「版画講習会」参加者募集 2026年11月23日（月曜日）",
+          "discovery_url": "https://www.city.arakawa.tokyo.jp/a015/event/kouenmeigi/hangakousyuukai.html",
+          "official_url": "https://www.city.arakawa.tokyo.jp/a015/event/kouenmeigi/hangakousyuukai.html",
+          "matched_dates": [
+            "2026-11-23"
+          ],
+          "date_unverified": true,
+          "calendar_date_hint": "2026-11-23",
+          "source_kind": "official_calendar_candidate_only",
+          "discovered_via": {
+            "channel": "ai_cross",
+            "source_id": "arakawa_daily",
+            "ward": "荒川区",
+            "query": null,
+            "search_url": "https://www.city.arakawa.tokyo.jp/cgi-bin/event_cal_multi/calendar.cgi?day=23&month=11&type=3&year=2026"
+          },
+          "status": "unverified"
+        },
+        {
+          "candidate_id": "holiday-official-ead25607c7e37fa9",
+          "name": "令和8年度児童虐待防止推進講演会「子どもの心の成長を支える」 2026年11月23日（月曜日）",
+          "discovery_url": "https://www.city.arakawa.tokyo.jp/a039/kosodate/2026kouenkai2.html",
+          "official_url": "https://www.city.arakawa.tokyo.jp/a039/kosodate/2026kouenkai2.html",
+          "matched_dates": [
+            "2026-11-23"
+          ],
+          "date_unverified": true,
+          "calendar_date_hint": "2026-11-23",
+          "source_kind": "official_calendar_candidate_only",
+          "discovered_via": {
+            "channel": "ai_cross",
+            "source_id": "arakawa_daily",
+            "ward": "荒川区",
+            "query": null,
+            "search_url": "https://www.city.arakawa.tokyo.jp/cgi-bin/event_cal_multi/calendar.cgi?day=23&month=11&type=3&year=2026"
+          },
+          "status": "unverified"
+        },
+        {
+          "candidate_id": "holiday-official-a059ebe4c65bf8f4",
+          "name": "【石浜ふれあい館】パパとあそぼう 2026年11月23日（月曜日） ～ 2026年11月23日（月曜日）",
+          "discovery_url": "https://www.city.arakawa.tokyo.jp/a011/event/2026/0811/0811_ishihama.html",
+          "official_url": "https://www.city.arakawa.tokyo.jp/a011/event/2026/0811/0811_ishihama.html",
+          "matched_dates": [
+            "2026-11-23"
+          ],
+          "date_unverified": true,
+          "calendar_date_hint": "2026-11-23",
+          "source_kind": "official_calendar_candidate_only",
+          "discovered_via": {
+            "channel": "ai_cross",
+            "source_id": "arakawa_daily",
+            "ward": "荒川区",
+            "query": null,
+            "search_url": "https://www.city.arakawa.tokyo.jp/cgi-bin/event_cal_multi/calendar.cgi?day=23&month=11&type=3&year=2026"
+          },
+          "status": "unverified"
+        },
+        {
+          "candidate_id": "holiday-official-ae9e955744a72403",
+          "name": "「荒川区の自然を描く写生会」参加者募集 2026年11月23日（月曜日） 10時 ～ 2026年11月23日（月曜日） 15時",
+          "discovery_url": "https://www.city.arakawa.tokyo.jp/a015/event/kouenmeigi/sizenwoegaku.html",
+          "official_url": "https://www.city.arakawa.tokyo.jp/a015/event/kouenmeigi/sizenwoegaku.html",
+          "matched_dates": [
+            "2026-11-23"
+          ],
+          "date_unverified": true,
+          "calendar_date_hint": "2026-11-23",
+          "source_kind": "official_calendar_candidate_only",
+          "discovered_via": {
+            "channel": "ai_cross",
+            "source_id": "arakawa_daily",
+            "ward": "荒川区",
+            "query": null,
+            "search_url": "https://www.city.arakawa.tokyo.jp/cgi-bin/event_cal_multi/calendar.cgi?day=23&month=11&type=3&year=2026"
+          },
+          "status": "unverified"
+        },
+        {
+          "candidate_id": "holiday-official-6ecd0fbd88b0f64e",
+          "name": "星空観察会とフィルムロケット工作 2026年11月23日（月曜日） 13時 ～ 2026年11月23日（月曜日） 19時",
+          "discovery_url": "https://www.city.arakawa.tokyo.jp/a042/koen/koen/sizenkouen2.html",
+          "official_url": "https://www.city.arakawa.tokyo.jp/a042/koen/koen/sizenkouen2.html",
+          "matched_dates": [
+            "2026-11-23"
+          ],
+          "date_unverified": true,
+          "calendar_date_hint": "2026-11-23",
+          "source_kind": "official_calendar_candidate_only",
+          "discovered_via": {
+            "channel": "ai_cross",
+            "source_id": "arakawa_daily",
+            "ward": "荒川区",
+            "query": null,
+            "search_url": "https://www.city.arakawa.tokyo.jp/cgi-bin/event_cal_multi/calendar.cgi?day=23&month=11&type=3&year=2026"
+          },
+          "status": "unverified"
+        },
+        {
+          "candidate_id": "holiday-official-9643d975abd3f0c0",
+          "name": "11月はオレンジリボン・児童虐待防止推進キャンペーン「地域で見守る みんなの子」",
+          "discovery_url": "https://www.city.nerima.tokyo.jp/kosodatekyoiku/kodomo/sodan/kodomokateicenter/11gatu_campaign.html",
+          "official_url": "https://www.city.nerima.tokyo.jp/kosodatekyoiku/kodomo/sodan/kodomokateicenter/11gatu_campaign.html",
+          "matched_dates": [
+            "2026-11-23"
+          ],
+          "date_unverified": true,
+          "calendar_date_hint": "2026-11-23",
+          "source_kind": "official_calendar_candidate_only",
+          "discovered_via": {
+            "channel": "ai_cross",
+            "source_id": "nerima_monthly",
+            "ward": "練馬区",
+            "query": null,
+            "search_url": "https://www.city.nerima.tokyo.jp/kankomoyoshi/event/calendar/list_calendar202611.html"
+          },
+          "status": "unverified"
+        },
+        {
+          "candidate_id": "holiday-official-86d82db54acf7ff7",
+          "name": "ねりまの森こどもフェスタ",
+          "discovery_url": "https://www.city.nerima.tokyo.jp/kurashi/shigoto/midori/shokai/nerimanomori.html",
+          "official_url": "https://www.city.nerima.tokyo.jp/kurashi/shigoto/midori/shokai/nerimanomori.html",
+          "matched_dates": [
+            "2026-11-23"
+          ],
+          "date_unverified": true,
+          "calendar_date_hint": "2026-11-23",
+          "source_kind": "official_calendar_candidate_only",
+          "discovered_via": {
+            "channel": "ai_cross",
+            "source_id": "nerima_monthly",
+            "ward": "練馬区",
+            "query": null,
+            "search_url": "https://www.city.nerima.tokyo.jp/kankomoyoshi/event/calendar/list_calendar202611.html"
+          },
+          "status": "unverified",
+          "other_discoveries": [
+            {
+              "channel": "ai_cross",
+              "source_id": "nerima_kids_monthly",
+              "ward": "練馬区",
+              "query": null,
+              "search_url": "https://www.city.nerima.tokyo.jp/nerimakids/event/calendar/list_calendar202611.html"
+            }
+          ]
+        },
+        {
+          "candidate_id": "holiday-official-76745bc5a511efe7",
+          "name": "ねりまの散歩道をゆく！デジタル健康スタンプラリー2026",
+          "discovery_url": "https://www.city.nerima.tokyo.jp/hokenfukushi/hoken/kenkodukuri/undo/202610_stamprally.html",
+          "official_url": "https://www.city.nerima.tokyo.jp/hokenfukushi/hoken/kenkodukuri/undo/202610_stamprally.html",
+          "matched_dates": [
+            "2026-11-23"
+          ],
+          "date_unverified": true,
+          "calendar_date_hint": "2026-11-23",
+          "source_kind": "official_calendar_candidate_only",
+          "discovered_via": {
+            "channel": "ai_cross",
+            "source_id": "nerima_monthly",
+            "ward": "練馬区",
+            "query": null,
+            "search_url": "https://www.city.nerima.tokyo.jp/kankomoyoshi/event/calendar/list_calendar202611.html"
+          },
+          "status": "unverified"
+        },
+        {
+          "candidate_id": "holiday-official-b724720de50e63e0",
+          "name": "ユアサエボシと戦後アヴァンギャルドの変身寓話集【令和8年10月31日（土曜）から12月27日（日曜）まで】",
+          "discovery_url": "https://www.city.nerima.tokyo.jp/kankomoyoshi/bunka/museum/tenrankai/yuasaeboshi.html",
+          "official_url": "https://www.city.nerima.tokyo.jp/kankomoyoshi/bunka/museum/tenrankai/yuasaeboshi.html",
+          "matched_dates": [
+            "2026-11-23"
+          ],
+          "date_unverified": true,
+          "calendar_date_hint": "2026-11-23",
+          "source_kind": "official_calendar_candidate_only",
+          "discovered_via": {
+            "channel": "ai_cross",
+            "source_id": "nerima_monthly",
+            "ward": "練馬区",
+            "query": null,
+            "search_url": "https://www.city.nerima.tokyo.jp/kankomoyoshi/event/calendar/list_calendar202611.html"
+          },
+          "status": "unverified"
+        },
+        {
+          "candidate_id": "holiday-official-ab77d1aafa6e1053",
+          "name": "第71回（令和8年度秋季）区民文化祭を開催します",
+          "discovery_url": "https://www.city.nerima.tokyo.jp/kankomoyoshi/shogaigakushu/kyogikai/kuminbunkasai.html",
+          "official_url": "https://www.city.nerima.tokyo.jp/kankomoyoshi/shogaigakushu/kyogikai/kuminbunkasai.html",
+          "matched_dates": [
+            "2026-11-23"
+          ],
+          "date_unverified": true,
+          "calendar_date_hint": "2026-11-23",
+          "source_kind": "official_calendar_candidate_only",
+          "discovered_via": {
+            "channel": "ai_cross",
+            "source_id": "nerima_monthly",
+            "ward": "練馬区",
+            "query": null,
+            "search_url": "https://www.city.nerima.tokyo.jp/kankomoyoshi/event/calendar/list_calendar202611.html"
+          },
+          "status": "unverified"
+        },
+        {
+          "candidate_id": "holiday-official-96bde04589a38d12",
+          "name": "「お口とからだの体操でフレイル予防～ねりま お口すっきり体操講習会」",
+          "discovery_url": "https://www.city.nerima.tokyo.jp/hokenfukushi/hoken/kenkodukuri/koenkai/okuchikousyuukai.html",
+          "official_url": "https://www.city.nerima.tokyo.jp/hokenfukushi/hoken/kenkodukuri/koenkai/okuchikousyuukai.html",
+          "matched_dates": [
+            "2026-11-23"
+          ],
+          "date_unverified": true,
+          "calendar_date_hint": "2026-11-23",
+          "source_kind": "official_calendar_candidate_only",
+          "discovered_via": {
+            "channel": "ai_cross",
+            "source_id": "nerima_monthly",
+            "ward": "練馬区",
+            "query": null,
+            "search_url": "https://www.city.nerima.tokyo.jp/kankomoyoshi/event/calendar/list_calendar202611.html"
+          },
+          "status": "unverified"
+        },
+        {
+          "candidate_id": "holiday-official-55f62b473be5d6ad",
+          "name": "ウオーキングフェスタえどがわ2026 2026年11月23日（月曜日） ～ 2026年11月23日（月曜日）",
+          "discovery_url": "https://www.city.edogawa.tokyo.jp/event/261123walking.html",
+          "official_url": "https://www.city.edogawa.tokyo.jp/event/261123walking.html",
+          "matched_dates": [
+            "2026-11-23"
+          ],
+          "date_unverified": true,
+          "calendar_date_hint": "2026-11-23",
+          "source_kind": "official_calendar_candidate_only",
+          "discovered_via": {
+            "channel": "ai_cross",
+            "source_id": "edogawa_daily",
+            "ward": "江戸川区",
+            "query": null,
+            "search_url": "https://www.city.edogawa.tokyo.jp/cgi-bin/event_cal_multi/calendar.cgi?day=23&month=11&siteid=6&type=3&year=2026"
+          },
+          "status": "unverified"
+        },
+        {
+          "candidate_id": "holiday-official-ff3e744801a119a7",
+          "name": "第42回江戸川区視覚障害者福祉協会 文化祭 2026年11月23日（月曜日） 13時00分 ～ 2026年11月23日（月曜日） 16時30分",
+          "discovery_url": "https://www.city.edogawa.tokyo.jp/event/eshikyor8.html",
+          "official_url": "https://www.city.edogawa.tokyo.jp/event/eshikyor8.html",
+          "matched_dates": [
+            "2026-11-23"
+          ],
+          "date_unverified": true,
+          "calendar_date_hint": "2026-11-23",
+          "source_kind": "official_calendar_candidate_only",
+          "discovered_via": {
+            "channel": "ai_cross",
+            "source_id": "edogawa_daily",
+            "ward": "江戸川区",
+            "query": null,
+            "search_url": "https://www.city.edogawa.tokyo.jp/cgi-bin/event_cal_multi/calendar.cgi?day=23&month=11&siteid=6&type=3&year=2026"
+          },
+          "status": "unverified"
+        },
+        {
+          "candidate_id": "holiday-official-3f70e35d0b4c8eff",
+          "name": "第167回小岩で落語を聴く会 2026年11月23日（月曜日） 14時00分 ～ 2026年11月23日（月曜日） 16時30分",
+          "discovery_url": "https://www.city.edogawa.tokyo.jp/event/167koiwa.html",
+          "official_url": "https://www.city.edogawa.tokyo.jp/event/167koiwa.html",
+          "matched_dates": [
+            "2026-11-23"
+          ],
+          "date_unverified": true,
+          "calendar_date_hint": "2026-11-23",
+          "source_kind": "official_calendar_candidate_only",
+          "discovered_via": {
+            "channel": "ai_cross",
+            "source_id": "edogawa_daily",
+            "ward": "江戸川区",
+            "query": null,
+            "search_url": "https://www.city.edogawa.tokyo.jp/cgi-bin/event_cal_multi/calendar.cgi?day=23&month=11&siteid=6&type=3&year=2026"
+          },
+          "status": "unverified"
+        },
+        {
+          "candidate_id": "holiday-official-7a2253ad57b66ce1",
+          "name": "謎の生物プラナリア大研究 2026年11月23日（月曜日） 10時00分 ～ 2026年11月23日（月曜日） 11時30分",
+          "discovery_url": "https://www.city.edogawa.tokyo.jp/event/2611puranaria.html",
+          "official_url": "https://www.city.edogawa.tokyo.jp/event/2611puranaria.html",
+          "matched_dates": [
+            "2026-11-23"
+          ],
+          "date_unverified": true,
+          "calendar_date_hint": "2026-11-23",
+          "source_kind": "official_calendar_candidate_only",
+          "discovered_via": {
+            "channel": "ai_cross",
+            "source_id": "edogawa_daily",
+            "ward": "江戸川区",
+            "query": null,
+            "search_url": "https://www.city.edogawa.tokyo.jp/cgi-bin/event_cal_multi/calendar.cgi?day=23&month=11&siteid=6&type=3&year=2026"
+          },
+          "status": "unverified"
+        },
+        {
+          "candidate_id": "holiday-official-513e525d1376eefd",
+          "name": "光るキーホルダーをつくろう 2026年11月23日（月曜日） 13時30分 ～ 2026年11月23日（月曜日） 16時00分",
+          "discovery_url": "https://www.city.edogawa.tokyo.jp/event/2611keyholder.html",
+          "official_url": "https://www.city.edogawa.tokyo.jp/event/2611keyholder.html",
+          "matched_dates": [
+            "2026-11-23"
+          ],
+          "date_unverified": true,
+          "calendar_date_hint": "2026-11-23",
+          "source_kind": "official_calendar_candidate_only",
+          "discovered_via": {
+            "channel": "ai_cross",
+            "source_id": "edogawa_daily",
+            "ward": "江戸川区",
+            "query": null,
+            "search_url": "https://www.city.edogawa.tokyo.jp/cgi-bin/event_cal_multi/calendar.cgi?day=23&month=11&siteid=6&type=3&year=2026"
+          },
+          "status": "unverified"
+        },
+        {
+          "candidate_id": "holiday-official-aead64130ba6e772",
+          "name": "工作とマジックに挑戦 2026年11月23日（月曜日） 14時00分 ～ 2026年11月23日（月曜日） 15時30分",
+          "discovery_url": "https://www.city.edogawa.tokyo.jp/event/2611kosaku.html",
+          "official_url": "https://www.city.edogawa.tokyo.jp/event/2611kosaku.html",
+          "matched_dates": [
+            "2026-11-23"
+          ],
+          "date_unverified": true,
+          "calendar_date_hint": "2026-11-23",
+          "source_kind": "official_calendar_candidate_only",
+          "discovered_via": {
+            "channel": "ai_cross",
+            "source_id": "edogawa_daily",
+            "ward": "江戸川区",
+            "query": null,
+            "search_url": "https://www.city.edogawa.tokyo.jp/cgi-bin/event_cal_multi/calendar.cgi?day=23&month=11&siteid=6&type=3&year=2026"
+          },
+          "status": "unverified"
+        },
+        {
+          "candidate_id": "holiday-official-c59080e9cd3b5fb6",
+          "name": "KASAI Super Fes～この祭、みんなでいっしょに楽しすぎて「滅」～（葛西） 2026年11月23日（月曜日） 10時30分 ～ 2026年11月23日（月曜日） 15時00分",
+          "discovery_url": "https://www.city.edogawa.tokyo.jp/event/super_fes.html",
+          "official_url": "https://www.city.edogawa.tokyo.jp/event/super_fes.html",
+          "matched_dates": [
+            "2026-11-23"
+          ],
+          "date_unverified": true,
+          "calendar_date_hint": "2026-11-23",
+          "source_kind": "official_calendar_candidate_only",
+          "discovered_via": {
+            "channel": "ai_cross",
+            "source_id": "edogawa_daily",
+            "ward": "江戸川区",
+            "query": null,
+            "search_url": "https://www.city.edogawa.tokyo.jp/cgi-bin/event_cal_multi/calendar.cgi?day=23&month=11&siteid=6&type=3&year=2026"
+          },
+          "status": "unverified"
+        },
+        {
+          "candidate_id": "holiday-official-380e33beebb441e5",
+          "name": "第59回影向菊花大会 2026年10月19日（月曜日） 8時30分 ～ 2026年11月23日（月曜日） 16時00分",
+          "discovery_url": "https://www.city.edogawa.tokyo.jp/event/59yogokikkataikai.html",
+          "official_url": "https://www.city.edogawa.tokyo.jp/event/59yogokikkataikai.html",
+          "matched_dates": [
+            "2026-11-23"
+          ],
+          "date_unverified": true,
+          "calendar_date_hint": "2026-11-23",
+          "source_kind": "official_calendar_candidate_only",
+          "discovered_via": {
+            "channel": "ai_cross",
+            "source_id": "edogawa_daily",
+            "ward": "江戸川区",
+            "query": null,
+            "search_url": "https://www.city.edogawa.tokyo.jp/cgi-bin/event_cal_multi/calendar.cgi?day=23&month=11&siteid=6&type=3&year=2026"
+          },
+          "status": "unverified"
+        },
+        {
+          "candidate_id": "holiday-official-f24afb7fa85d58ac",
+          "name": "一之江抹香亭江戸園芸植物展示「菊花展」 2026年11月7日（土曜日） ～ 2026年11月23日（月曜日）",
+          "discovery_url": "https://www.city.edogawa.tokyo.jp/event/makko1107.html",
+          "official_url": "https://www.city.edogawa.tokyo.jp/event/makko1107.html",
+          "matched_dates": [
+            "2026-11-23"
+          ],
+          "date_unverified": true,
+          "calendar_date_hint": "2026-11-23",
+          "source_kind": "official_calendar_candidate_only",
+          "discovered_via": {
+            "channel": "ai_cross",
+            "source_id": "edogawa_daily",
+            "ward": "江戸川区",
+            "query": null,
+            "search_url": "https://www.city.edogawa.tokyo.jp/cgi-bin/event_cal_multi/calendar.cgi?day=23&month=11&siteid=6&type=3&year=2026"
+          },
+          "status": "unverified"
+        },
+        {
+          "candidate_id": "nakano-official-1cfb868400067588",
+          "name": "その『普通』は、だれが決めた普通？～スポーツとLGBTQ+から考える多様性と人権～」令和8年度中野区人権啓発講演会を開催します！",
+          "ward": "中野区",
+          "matched_dates": [
+            "2026-11-21"
+          ],
+          "date_from_calendar": "2026-11-21",
+          "discovery_url": "https://www.city.tokyo-nakano.lg.jp/event/koen/jinnkenkeihatukouennkai20261121.html",
+          "source_page": "https://www.city.tokyo-nakano.lg.jp/event/calendar/list_calendar.html",
+          "status": "unverified",
+          "calendar_day_needs_detail_confirmation": true,
+          "discovered_via": {
+            "channel": "supplemental_official",
+            "source_id": "nakano_city_calendar_all",
+            "ward": "中野区",
+            "search_url": "https://www.city.tokyo-nakano.lg.jp/event/calendar/list_calendar.html"
+          }
+        },
+        {
+          "candidate_id": "nakano-official-4f42686210ee0741",
+          "name": "考えてみませんか「人生会議ーアドバンス・ケア・プランニング(ACP)－」",
+          "ward": "中野区",
+          "matched_dates": [
+            "2026-11-21"
+          ],
+          "date_from_calendar": "2026-11-21",
+          "discovery_url": "https://www.city.tokyo-nakano.lg.jp/kenko_hukushi/kourei/zaitakuryoyo/jinseikaigi.html",
+          "source_page": "https://www.city.tokyo-nakano.lg.jp/event/calendar/list_calendar.html",
+          "status": "unverified",
+          "calendar_day_needs_detail_confirmation": true,
+          "discovered_via": {
+            "channel": "supplemental_official",
+            "source_id": "nakano_city_calendar_all",
+            "ward": "中野区",
+            "search_url": "https://www.city.tokyo-nakano.lg.jp/event/calendar/list_calendar.html"
+          }
+        },
+        {
+          "candidate_id": "nakano-official-4e78e25b61f7827d",
+          "name": "ひとり親家庭支援事業「親子工作 恐竜のジオラマを作ろう！」",
+          "ward": "中野区",
+          "matched_dates": [
+            "2026-11-21"
+          ],
+          "date_from_calendar": "2026-11-21",
+          "discovery_url": "https://www.city.tokyo-nakano.lg.jp/event/kosodate/kyouryuuziorama.html",
+          "source_page": "https://www.city.tokyo-nakano.lg.jp/event/calendar/list_calendar.html",
+          "status": "unverified",
+          "calendar_day_needs_detail_confirmation": true,
+          "discovered_via": {
+            "channel": "supplemental_official",
+            "source_id": "nakano_city_calendar_all",
+            "ward": "中野区",
+            "search_url": "https://www.city.tokyo-nakano.lg.jp/event/calendar/list_calendar.html"
+          },
+          "other_discoveries": [
+            {
+              "channel": "supplemental_official",
+              "source_id": "nakano_city_calendar_children",
+              "ward": "中野区",
+              "search_url": "https://www.city.tokyo-nakano.lg.jp/event/kosodate/calendar/list_calendar.html"
+            }
+          ]
+        },
+        {
+          "candidate_id": "nakano-official-54b1888f8eac68d1",
+          "name": "公共交通応援キャンペーン（エントリー開始）",
+          "ward": "中野区",
+          "matched_dates": [
+            "2026-11-21"
+          ],
+          "date_from_calendar": "2026-11-21",
+          "discovery_url": "https://www.city.tokyo-nakano.lg.jp/machizukuri/koutsu/tiikikoukyou/mobilitymanagement/campaign.html",
+          "source_page": "https://www.city.tokyo-nakano.lg.jp/event/calendar/list_calendar.html",
+          "status": "unverified",
+          "calendar_day_needs_detail_confirmation": true,
+          "discovered_via": {
+            "channel": "supplemental_official",
+            "source_id": "nakano_city_calendar_all",
+            "ward": "中野区",
+            "search_url": "https://www.city.tokyo-nakano.lg.jp/event/calendar/list_calendar.html"
+          }
+        },
+        {
+          "candidate_id": "nakano-official-a87f74aa8bf0d617",
+          "name": "秋のあるこう会 水辺の紅葉を抜ければ、そこは懐かしい東京 ～歩いて、歩いて、みんなでゴール～",
+          "ward": "中野区",
+          "matched_dates": [
+            "2026-11-21"
+          ],
+          "date_from_calendar": "2026-11-21",
+          "discovery_url": "https://www.city.tokyo-nakano.lg.jp/event/sports/0686200420240502084116680.html",
+          "source_page": "https://www.city.tokyo-nakano.lg.jp/event/calendar/list_calendar.html",
+          "status": "unverified",
+          "calendar_day_needs_detail_confirmation": true,
+          "discovered_via": {
+            "channel": "supplemental_official",
+            "source_id": "nakano_city_calendar_all",
+            "ward": "中野区",
+            "search_url": "https://www.city.tokyo-nakano.lg.jp/event/calendar/list_calendar.html"
+          }
+        },
+        {
+          "candidate_id": "nakano-official-fb50185d4b3dffbb",
+          "name": "「まごころマルシェ」を開催します！",
+          "ward": "中野区",
+          "matched_dates": [
+            "2026-11-22"
+          ],
+          "date_from_calendar": "2026-11-22",
+          "discovery_url": "https://www.city.tokyo-nakano.lg.jp/kosodate/wakamonoshien/magokoromarche.html",
+          "source_page": "https://www.city.tokyo-nakano.lg.jp/event/calendar/list_calendar.html",
+          "status": "unverified",
+          "calendar_day_needs_detail_confirmation": true,
+          "discovered_via": {
+            "channel": "supplemental_official",
+            "source_id": "nakano_city_calendar_all",
+            "ward": "中野区",
+            "search_url": "https://www.city.tokyo-nakano.lg.jp/event/calendar/list_calendar.html"
+          }
+        },
+        {
+          "candidate_id": "nakano-official-2bd5ce331abf239c",
+          "name": "考えてみませんか「人生会議ーアドバンス・ケア・プランニング(ACP)－」",
+          "ward": "中野区",
+          "matched_dates": [
+            "2026-11-22"
+          ],
+          "date_from_calendar": "2026-11-22",
+          "discovery_url": "https://www.city.tokyo-nakano.lg.jp/kenko_hukushi/kourei/zaitakuryoyo/jinseikaigi.html",
+          "source_page": "https://www.city.tokyo-nakano.lg.jp/event/calendar/list_calendar.html",
+          "status": "unverified",
+          "calendar_day_needs_detail_confirmation": true,
+          "discovered_via": {
+            "channel": "supplemental_official",
+            "source_id": "nakano_city_calendar_all",
+            "ward": "中野区",
+            "search_url": "https://www.city.tokyo-nakano.lg.jp/event/calendar/list_calendar.html"
+          }
+        },
+        {
+          "candidate_id": "nakano-official-134888ab10a79d7a",
+          "name": "なかの気候区民会議を開催します",
+          "ward": "中野区",
+          "matched_dates": [
+            "2026-11-22"
+          ],
+          "date_from_calendar": "2026-11-22",
+          "discovery_url": "https://www.city.tokyo-nakano.lg.jp/kurashi/kankyo/ondankataisaku/kikoukuminkaigi.html",
+          "source_page": "https://www.city.tokyo-nakano.lg.jp/event/calendar/list_calendar.html",
+          "status": "unverified",
+          "calendar_day_needs_detail_confirmation": true,
+          "discovered_via": {
+            "channel": "supplemental_official",
+            "source_id": "nakano_city_calendar_all",
+            "ward": "中野区",
+            "search_url": "https://www.city.tokyo-nakano.lg.jp/event/calendar/list_calendar.html"
+          }
+        },
+        {
+          "candidate_id": "nakano-official-e830fbb515746b7d",
+          "name": "公共交通応援キャンペーン（エントリー開始）",
+          "ward": "中野区",
+          "matched_dates": [
+            "2026-11-22"
+          ],
+          "date_from_calendar": "2026-11-22",
+          "discovery_url": "https://www.city.tokyo-nakano.lg.jp/machizukuri/koutsu/tiikikoukyou/mobilitymanagement/campaign.html",
+          "source_page": "https://www.city.tokyo-nakano.lg.jp/event/calendar/list_calendar.html",
+          "status": "unverified",
+          "calendar_day_needs_detail_confirmation": true,
+          "discovered_via": {
+            "channel": "supplemental_official",
+            "source_id": "nakano_city_calendar_all",
+            "ward": "中野区",
+            "search_url": "https://www.city.tokyo-nakano.lg.jp/event/calendar/list_calendar.html"
+          }
+        },
+        {
+          "candidate_id": "nakano-official-fb91176beefcd08c",
+          "name": "【11月のオープンプログラム更新！】若者フリースペース「まごころドーナッツ」の紹介！",
+          "ward": "中野区",
+          "matched_dates": [
+            "2026-11-22"
+          ],
+          "date_from_calendar": "2026-11-22",
+          "discovery_url": "https://www.city.tokyo-nakano.lg.jp/kosodate/wakamonoshien/wakamono.html",
+          "source_page": "https://www.city.tokyo-nakano.lg.jp/event/calendar/list_calendar.html",
+          "status": "unverified",
+          "calendar_day_needs_detail_confirmation": true,
+          "discovered_via": {
+            "channel": "supplemental_official",
+            "source_id": "nakano_city_calendar_all",
+            "ward": "中野区",
+            "search_url": "https://www.city.tokyo-nakano.lg.jp/event/calendar/list_calendar.html"
+          }
+        },
+        {
+          "candidate_id": "nakano-official-029ca1e22e1df2ca",
+          "name": "考えてみませんか「人生会議ーアドバンス・ケア・プランニング(ACP)－」",
+          "ward": "中野区",
+          "matched_dates": [
+            "2026-11-23"
+          ],
+          "date_from_calendar": "2026-11-23",
+          "discovery_url": "https://www.city.tokyo-nakano.lg.jp/kenko_hukushi/kourei/zaitakuryoyo/jinseikaigi.html",
+          "source_page": "https://www.city.tokyo-nakano.lg.jp/event/calendar/list_calendar.html",
+          "status": "unverified",
+          "calendar_day_needs_detail_confirmation": true,
+          "discovered_via": {
+            "channel": "supplemental_official",
+            "source_id": "nakano_city_calendar_all",
+            "ward": "中野区",
+            "search_url": "https://www.city.tokyo-nakano.lg.jp/event/calendar/list_calendar.html"
+          }
+        },
+        {
+          "candidate_id": "nakano-official-64dbf3bf881b88d0",
+          "name": "公共交通応援キャンペーン（エントリー開始）",
+          "ward": "中野区",
+          "matched_dates": [
+            "2026-11-23"
+          ],
+          "date_from_calendar": "2026-11-23",
+          "discovery_url": "https://www.city.tokyo-nakano.lg.jp/machizukuri/koutsu/tiikikoukyou/mobilitymanagement/campaign.html",
+          "source_page": "https://www.city.tokyo-nakano.lg.jp/event/calendar/list_calendar.html",
+          "status": "unverified",
+          "calendar_day_needs_detail_confirmation": true,
+          "discovered_via": {
+            "channel": "supplemental_official",
+            "source_id": "nakano_city_calendar_all",
+            "ward": "中野区",
+            "search_url": "https://www.city.tokyo-nakano.lg.jp/event/calendar/list_calendar.html"
+          }
+        }
+      ],
+      "review_state": "needs_individual_official_event_checks_and_decisions"
+    },
+    {
+      "sat": "2026-11-28",
+      "sun": "2026-11-29",
+      "tier": "full",
+      "existing_week": true,
+      "prior_published_count": 108,
+      "carryover_review_count": 0,
+      "carryover_needs_daily_confirmation": false,
+      "protected_prior_event_ids": [
+        "all-reviewed-20261128-chiyoda-family-bazaar",
+        "all-reviewed-20261128-meguro-free-space",
+        "all-reviewed-20261128-orsay-exhibition",
+        "all-reviewed-20261128-philippine-festival2026",
+        "all-reviewed-20261128-sugi-711",
+        "all-reviewed-20261128-sugi-720",
+        "all-reviewed-20261128-sugi-743",
+        "all-reviewed-20261128-sugi-759",
+        "all-reviewed-20261128-sugi-803-exhibit",
+        "all-reviewed-20261128-sugi-803-korczak",
+        "all-reviewed-20261128-sugi-805",
+        "all-reviewed-20261128-sugi-810",
+        "all-reviewed-20261129-nerima-marche",
+        "all-reviewed-20261129-sugi-489",
+        "all-reviewed-20261129-sugi-589",
+        "all-reviewed-20261129-sugi-630",
+        "all-reviewed-20261129-sugi-636",
+        "all-reviewed-20261129-sugi-690",
+        "all-reviewed-20261129-sugi-693",
+        "all-reviewed-20261129-sugi-731",
+        "all-reviewed-20261129-sugi-731-walkin",
+        "all-reviewed-20261129-sugi-803-dialogue",
+        "all-reviewed-20261129-sugi-822",
+        "all-reviewed-20261129-sugi-828",
+        "evidence-recovery-20261128-kita-iwate-fair",
+        "final-20261128-itabashi-bologna",
+        "final-20261128-itabashi-bologna-story",
+        "final-20261128-itabashi-forum-child",
+        "final-20261128-itabashi-forum-safari",
+        "final-20261128-itabashi-forum-space",
+        "final-20261128-nakano-159581",
+        "final-20261128-nakano-160639",
+        "final-20261128-nakano-160837",
+        "final-20261128-nakano-162251",
+        "final-20261128-nakano-162446",
+        "final-20261128-nakano-162738",
+        "final-20261128-nakano-163067",
+        "final-20261128-nakano-163398",
+        "final-20261128-nakano-163509",
+        "final-20261128-nerima-wabunka",
+        "final-20261128-nerima-walk-rally",
+        "final-20261128-park-7407",
+        "final-20261128-suginami-26970",
+        "final-20261128-suginami-27274",
+        "final-20261128-suginami-28456",
+        "final-20261128-suginami-28578",
+        "final-20261128-suginami-28656",
+        "final-20261128-suginami-onsen-gokuraku",
+        "final-20261129-nakano-142698",
+        "final-20261129-nakano-146912",
+        "final-20261129-nakano-161735",
+        "final-20261129-nakano-163077",
+        "final-20261129-park-7401",
+        "final-20261129-park-7440",
+        "final-20261129-suginami-28642",
+        "final-20261129-suginami-28653",
+        "final-20261129-suginami-28659",
+        "final-20261129-suginami-28661-performance",
+        "final-20261129-suginami-28661-play",
+        "final-20261129-suginami-28661-workshop",
+        "gap-20261129-shinjuku-goalball",
+        "gap-20261129-shinjuku-kashiwa",
+        "nerima-district-0275426b6920",
+        "nerima-forest-20261129-kitappara",
+        "next-primary-20261128-hozuki-animate",
+        "next-primary-20261128-minato-austria-market",
+        "next-primary-20261128-minato-autumn-lightup",
+        "next-primary-20261128-minato-karippa-sdgs",
+        "next-primary-20261128-turner-exhibition",
+        "next-primary-20261128-wanko-odaiba",
+        "next-primary-20261129-meguro-math-19",
+        "next-primary-20261129-nakano-kentei13",
+        "next-primary-20261129-suginami-exchange-easy",
+        "official-2026-haneda-museum",
+        "official-2026-lumina-nogata",
+        "official-2026-nihonbashi-komichi",
+        "official-2026-sumida-light-garden",
+        "official-2026-sumida-moa-art",
+        "official-20261128-minato-neighbors-garden-party4",
+        "ongoing-20261128-r16-a998e43102c9",
+        "ongoing-20261128-r16-c2947a676a15",
+        "ongoing-20261128-r16-d1fc65f778d6",
+        "ongoing-20261128-v15-237c930495e3",
+        "ongoing-20261128-v15-5e0e43c28e84",
+        "ongoing-20261128-v15-97ee0aaed408",
+        "ongoing-20261128-v15-d7b35a2aa60b",
+        "ongoing-20261128-v15-daa813b5a665",
+        "partial-20261129-edogawa-origami",
+        "partial-20261129-nakano-precure-rally",
+        "partial-20261129-setagaya-languages",
+        "partial-20261129-setagaya-workfes",
+        "partial-20261129-taito-bookstand",
+        "primary-20261128-kita-keene",
+        "primary-20261128-kita-kitchen",
+        "primary-20261128-kita-ur",
+        "primary-20261128-meguro-horse-exhibit",
+        "primary-20261128-nakano-bookfinding",
+        "primary-20261128-taito-noguchi",
+        "primary-20261128-toshima-retro",
+        "remaining-20261128-cincinnati-art",
+        "remaining-20261128-nerima-edokuri-rally",
+        "remaining-20261128-tkg-yatai",
+        "remaining-20261129-nerima-indonesia",
+        "v15-0c6fcb6bf768",
+        "v15-7b30b706f728",
+        "v15-8bc88232815c",
+        "v15-960da7fa214c",
+        "v15-ad2f72f74ab7"
+      ],
+      "suggested_discoveries_count": 6,
+      "attached_weekday_holidays": [],
+      "holiday_leads_by_date": {},
+      "undated_supplemental_candidates": [],
+      "suggested_discoveries": [
+        {
+          "candidate_id": "nerima-district-0275426b6920",
+          "ward": "練馬区",
+          "name": "第一地区祭 （豊玉南小学校）",
+          "date_start": "2026-11-29",
+          "date_end": "2026-11-29",
+          "dates": [
+            "2026-11-29"
+          ],
+          "matched_dates": [
+            "2026-11-29"
+          ],
+          "time": "10時～12時",
+          "venue": "豊玉南小学校 （豊玉南2-14-1）",
+          "description": "高齢者体験、餅つき、ゲームコーナー、昔遊び等",
+          "price": null,
+          "official_url": "https://www.city.nerima.tokyo.jp/kankomoyoshi/annai/omatsuri/chikusai/20260616103208700.html",
+          "source": "https://www.city.nerima.tokyo.jp/kankomoyoshi/annai/omatsuri/chikusai/20260616103208700.html",
+          "discovery_sources": [
+            {
+              "channel": "explicit",
+              "source_id": "nerima_district_festivals_2026",
+              "kind": "official_multi_event_schedule",
+              "url": "https://www.city.nerima.tokyo.jp/kankomoyoshi/annai/omatsuri/chikusai/20260616103208700.html"
+            }
+          ],
+          "status": "unverified"
+        },
+        {
+          "candidate_id": "nakano-official-6f20282802174dce",
+          "name": "考えてみませんか「人生会議ーアドバンス・ケア・プランニング(ACP)－」",
+          "ward": "中野区",
+          "matched_dates": [
+            "2026-11-28"
+          ],
+          "date_from_calendar": "2026-11-28",
+          "discovery_url": "https://www.city.tokyo-nakano.lg.jp/kenko_hukushi/kourei/zaitakuryoyo/jinseikaigi.html",
+          "source_page": "https://www.city.tokyo-nakano.lg.jp/event/calendar/list_calendar.html",
+          "status": "unverified",
+          "calendar_day_needs_detail_confirmation": true,
+          "discovered_via": {
+            "channel": "supplemental_official",
+            "source_id": "nakano_city_calendar_all",
+            "ward": "中野区",
+            "search_url": "https://www.city.tokyo-nakano.lg.jp/event/calendar/list_calendar.html"
+          }
+        },
+        {
+          "candidate_id": "nakano-official-8f0f02018dbf895c",
+          "name": "公共交通応援キャンペーン（エントリー開始）",
+          "ward": "中野区",
+          "matched_dates": [
+            "2026-11-28"
+          ],
+          "date_from_calendar": "2026-11-28",
+          "discovery_url": "https://www.city.tokyo-nakano.lg.jp/machizukuri/koutsu/tiikikoukyou/mobilitymanagement/campaign.html",
+          "source_page": "https://www.city.tokyo-nakano.lg.jp/event/calendar/list_calendar.html",
+          "status": "unverified",
+          "calendar_day_needs_detail_confirmation": true,
+          "discovered_via": {
+            "channel": "supplemental_official",
+            "source_id": "nakano_city_calendar_all",
+            "ward": "中野区",
+            "search_url": "https://www.city.tokyo-nakano.lg.jp/event/calendar/list_calendar.html"
+          }
+        },
+        {
+          "candidate_id": "nakano-official-0767e08d1015e94a",
+          "name": "家計の見直しで暮らしをラクに！ FPによる無料個別相談会",
+          "ward": "中野区",
+          "matched_dates": [
+            "2026-11-29"
+          ],
+          "date_from_calendar": "2026-11-29",
+          "discovery_url": "https://www.city.tokyo-nakano.lg.jp/event/kosodate/kobetusoudannkai2026.html",
+          "source_page": "https://www.city.tokyo-nakano.lg.jp/event/calendar/list_calendar.html",
+          "status": "unverified",
+          "calendar_day_needs_detail_confirmation": true,
+          "discovered_via": {
+            "channel": "supplemental_official",
+            "source_id": "nakano_city_calendar_all",
+            "ward": "中野区",
+            "search_url": "https://www.city.tokyo-nakano.lg.jp/event/calendar/list_calendar.html"
+          },
+          "other_discoveries": [
+            {
+              "channel": "supplemental_official",
+              "source_id": "nakano_city_calendar_children",
+              "ward": "中野区",
+              "search_url": "https://www.city.tokyo-nakano.lg.jp/event/kosodate/calendar/list_calendar.html"
+            }
+          ]
+        },
+        {
+          "candidate_id": "nakano-official-0f08b5bab70d3f79",
+          "name": "考えてみませんか「人生会議ーアドバンス・ケア・プランニング(ACP)－」",
+          "ward": "中野区",
+          "matched_dates": [
+            "2026-11-29"
+          ],
+          "date_from_calendar": "2026-11-29",
+          "discovery_url": "https://www.city.tokyo-nakano.lg.jp/kenko_hukushi/kourei/zaitakuryoyo/jinseikaigi.html",
+          "source_page": "https://www.city.tokyo-nakano.lg.jp/event/calendar/list_calendar.html",
+          "status": "unverified",
+          "calendar_day_needs_detail_confirmation": true,
+          "discovered_via": {
+            "channel": "supplemental_official",
+            "source_id": "nakano_city_calendar_all",
+            "ward": "中野区",
+            "search_url": "https://www.city.tokyo-nakano.lg.jp/event/calendar/list_calendar.html"
+          }
+        },
+        {
+          "candidate_id": "nakano-official-611183ce218f1c44",
+          "name": "公共交通応援キャンペーン（エントリー開始）",
+          "ward": "中野区",
+          "matched_dates": [
+            "2026-11-29"
+          ],
+          "date_from_calendar": "2026-11-29",
+          "discovery_url": "https://www.city.tokyo-nakano.lg.jp/machizukuri/koutsu/tiikikoukyou/mobilitymanagement/campaign.html",
+          "source_page": "https://www.city.tokyo-nakano.lg.jp/event/calendar/list_calendar.html",
+          "status": "unverified",
+          "calendar_day_needs_detail_confirmation": true,
+          "discovered_via": {
+            "channel": "supplemental_official",
+            "source_id": "nakano_city_calendar_all",
+            "ward": "中野区",
+            "search_url": "https://www.city.tokyo-nakano.lg.jp/event/calendar/list_calendar.html"
+          }
+        }
+      ],
+      "review_state": "needs_individual_official_event_checks_and_decisions"
+    },
+    {
+      "sat": "2026-12-05",
+      "sun": "2026-12-06",
+      "tier": "preview",
+      "existing_week": true,
+      "prior_published_count": 87,
+      "carryover_review_count": 0,
+      "carryover_needs_daily_confirmation": false,
+      "protected_prior_event_ids": [
+        "all-reviewed-20261205-art-annex",
+        "all-reviewed-20261205-chiyoda-family-bazaar",
+        "all-reviewed-20261205-nakano-disaster-condo",
+        "all-reviewed-20261205-nakano-maruyama-park",
+        "all-reviewed-20261205-orsay-exhibition",
+        "all-reviewed-20261205-rose-aroma",
+        "all-reviewed-20261205-rose-illumination",
+        "all-reviewed-20261205-rose-market",
+        "all-reviewed-20261205-rose-wreath",
+        "all-reviewed-20261205-sugi-227",
+        "all-reviewed-20261205-sugi-711",
+        "all-reviewed-20261205-sugi-743",
+        "all-reviewed-20261205-sugi-760",
+        "all-reviewed-20261205-sugi-776",
+        "all-reviewed-20261206-kitashibu-run-satellite",
+        "all-reviewed-20261206-sugi-220",
+        "all-reviewed-20261206-sugi-600",
+        "all-reviewed-20261206-sugi-608",
+        "all-reviewed-20261206-sugi-656",
+        "all-reviewed-20261206-sugi-690",
+        "all-reviewed-20261206-sugi-779",
+        "all-reviewed-20261206-sugi-809",
+        "all-reviewed-20261206-sugi-832",
+        "final-20261205-nakano-162738",
+        "final-20261205-nakano-163067",
+        "final-20261205-park-7418",
+        "final-20261205-park-7420",
+        "final-20261205-suginami-26086",
+        "final-20261205-suginami-27274",
+        "final-20261205-suginami-27454",
+        "final-20261205-suginami-28456",
+        "final-20261205-suginami-28578",
+        "final-20261206-nakano-146912",
+        "final-20261206-nakano-159839",
+        "final-20261206-nakano-162068",
+        "final-20261206-nakano-163359",
+        "final-20261206-park-7442",
+        "final-20261206-park-7450",
+        "final-20261206-park-7451",
+        "next-primary-20261205-turner-exhibition",
+        "next-primary-20261206-suginami-exchange-culture",
+        "next-primary-20261206-suginami-medical-mission",
+        "next-primary-20261206-taito-easy-etegami",
+        "next-primary-20261206-taito-easy-haiku",
+        "next-primary-20261206-taito-easy-namebook",
+        "next-primary-20261206-taito-human-library",
+        "official-2026-sumida-light-garden",
+        "ongoing-20261128-r16-a998e43102c9",
+        "ongoing-20261128-r16-c2947a676a15",
+        "ongoing-20261128-r16-d1fc65f778d6",
+        "ongoing-20261128-v15-237c930495e3",
+        "ongoing-20261128-v15-5e0e43c28e84",
+        "ongoing-20261128-v15-97ee0aaed408",
+        "ongoing-20261128-v15-d7b35a2aa60b",
+        "partial-20261129-nakano-precure-rally",
+        "primary-20261205-kita-kitchen",
+        "primary-20261205-kita-ur",
+        "primary-20261205-koto-fish-festival",
+        "primary-20261205-meguro-horse-exhibit",
+        "primary-20261205-meguro-horse-talk",
+        "primary-20261205-taito-noguchi",
+        "primary-20261205-toshima-retro",
+        "remaining-20261205-cincinnati-art",
+        "remaining-20261205-kita-housing-tour",
+        "remaining-20261205-meguro-fureai-art",
+        "remaining-20261205-meguro-fureai-concert",
+        "remaining-20261205-meguro-fureai-market",
+        "suginami-official-23878",
+        "v15-0c6fcb6bf768",
+        "v15-20261205-koto-meishi",
+        "v15-20261205-nakano-oshiri",
+        "v15-20261205-nakano-precure-show",
+        "v15-20261205-nakano-screening-bananya",
+        "v15-20261205-nakano-screening-hakujaden",
+        "v15-20261205-nakano-screening-kitaro",
+        "v15-20261205-nakano-screening-vanguard",
+        "v15-20261205-nakano-student-art",
+        "v15-20261205-nakano-vanguard",
+        "v15-20261205-nerima-mori-leaf",
+        "v15-20261205-nerima-mori-otaka",
+        "v15-20261205-nerima-mori-takamatsu",
+        "v15-20261205-nerima-orchestra",
+        "v15-20261205-toyotama-district",
+        "v15-7b30b706f728",
+        "v15-8bc88232815c",
+        "v15-974166027816",
+        "v15-ad2f72f74ab7"
+      ],
+      "suggested_discoveries_count": 8,
+      "attached_weekday_holidays": [],
+      "holiday_leads_by_date": {},
+      "undated_supplemental_candidates": [],
+      "suggested_discoveries": [
+        {
+          "candidate_id": "sankaku-b741a78b90a5c6db",
+          "name": "ベルギービールウィークエンド2026 新宿",
+          "ward": "新宿区",
+          "discovery_url": "https://belgianbeerweekend.jp/shinjuku",
+          "official_url": "https://belgianbeerweekend.jp/shinjuku",
+          "source_id": "shinjuku_sankaku_hiroba",
+          "listing_url": "https://www.sumitomo-sankakuhiroba.jp/event/",
+          "date_start_hint": "2026-12-02",
+          "date_end_hint": "2026-12-06",
+          "matched_dates": [
+            "2026-12-05",
+            "2026-12-06"
+          ],
+          "date_unverified": true,
+          "source_kind": "official_venue_external_organizer_candidate_only",
+          "image_hint": "https://www.sumitomo-sankakuhiroba.jp/wp-content/uploads/2026/10/BBW26SJK_Sumitomo_Building_website_banner_600x400.png",
+          "discovered_via": {
+            "channel": "explicit",
+            "source_id": "shinjuku_sankaku_hiroba",
+            "ward": null,
+            "query": null,
+            "search_url": "https://www.sumitomo-sankakuhiroba.jp/event/"
+          },
+          "status": "unverified"
+        },
+        {
+          "candidate_id": "nerima-district-cbea3481e03a",
+          "ward": "練馬区",
+          "name": "第一地区祭 （豊玉小学校）",
+          "date_start": "2026-12-05",
+          "date_end": "2026-12-05",
+          "dates": [
+            "2026-12-05"
+          ],
+          "matched_dates": [
+            "2026-12-05"
+          ],
+          "time": "12時～15時",
+          "venue": "豊玉小学校 （豊玉中4-2-20）",
+          "description": "焼きそば、フランクフルト、スーパーボールすくい等",
+          "price": null,
+          "official_url": "https://www.city.nerima.tokyo.jp/kankomoyoshi/annai/omatsuri/chikusai/20260616103208700.html",
+          "source": "https://www.city.nerima.tokyo.jp/kankomoyoshi/annai/omatsuri/chikusai/20260616103208700.html",
+          "discovery_sources": [
+            {
+              "channel": "explicit",
+              "source_id": "nerima_district_festivals_2026",
+              "kind": "official_multi_event_schedule",
+              "url": "https://www.city.nerima.tokyo.jp/kankomoyoshi/annai/omatsuri/chikusai/20260616103208700.html"
+            }
+          ],
+          "status": "unverified"
+        },
+        {
+          "candidate_id": "nakano-official-1164b38bc65404cf",
+          "name": "【特別上映会】中野チルナイトピクニック～夕涼みアニメシアター～",
+          "ward": "中野区",
+          "matched_dates": [
+            "2026-12-05"
+          ],
+          "date_from_calendar": "2026-12-05",
+          "discovery_url": "https://www.city.tokyo-nakano.lg.jp/kanko/city-promotion/chillnightpicnic.html",
+          "source_page": "https://www.city.tokyo-nakano.lg.jp/event/calendar/list_calendar202612.html",
+          "status": "unverified",
+          "calendar_day_needs_detail_confirmation": true,
+          "discovered_via": {
+            "channel": "supplemental_official",
+            "source_id": "nakano_city_calendar_all",
+            "ward": "中野区",
+            "search_url": "https://www.city.tokyo-nakano.lg.jp/event/calendar/list_calendar202612.html"
+          }
+        },
+        {
+          "candidate_id": "nakano-official-4bcf31bdb67cbef9",
+          "name": "中野×杉並×豊島アニメ・マンガフェス2026",
+          "ward": "中野区",
+          "matched_dates": [
+            "2026-12-05"
+          ],
+          "date_from_calendar": "2026-12-05",
+          "discovery_url": "https://www.city.tokyo-nakano.lg.jp/kanko/city-promotion/animemangafest2026.html",
+          "source_page": "https://www.city.tokyo-nakano.lg.jp/event/calendar/list_calendar202612.html",
+          "status": "unverified",
+          "calendar_day_needs_detail_confirmation": true,
+          "discovered_via": {
+            "channel": "supplemental_official",
+            "source_id": "nakano_city_calendar_all",
+            "ward": "中野区",
+            "search_url": "https://www.city.tokyo-nakano.lg.jp/event/calendar/list_calendar202612.html"
+          }
+        },
+        {
+          "candidate_id": "nakano-official-2cc4e510d02129b3",
+          "name": "令和8年度「障害者週間」について",
+          "ward": "中野区",
+          "matched_dates": [
+            "2026-12-05"
+          ],
+          "date_from_calendar": "2026-12-05",
+          "discovery_url": "https://www.city.tokyo-nakano.lg.jp/kenko_hukushi/syogai/shukan.html",
+          "source_page": "https://www.city.tokyo-nakano.lg.jp/event/calendar/list_calendar202612.html",
+          "status": "unverified",
+          "calendar_day_needs_detail_confirmation": true,
+          "discovered_via": {
+            "channel": "supplemental_official",
+            "source_id": "nakano_city_calendar_all",
+            "ward": "中野区",
+            "search_url": "https://www.city.tokyo-nakano.lg.jp/event/calendar/list_calendar202612.html"
+          }
+        },
+        {
+          "candidate_id": "nakano-official-714d410a218a1fdc",
+          "name": "令和8年度 防災講演会",
+          "ward": "中野区",
+          "matched_dates": [
+            "2026-12-05"
+          ],
+          "date_from_calendar": "2026-12-05",
+          "discovery_url": "https://www.city.tokyo-nakano.lg.jp/event/koen/bousaikouenkai.html",
+          "source_page": "https://www.city.tokyo-nakano.lg.jp/event/calendar/list_calendar202612.html",
+          "status": "unverified",
+          "calendar_day_needs_detail_confirmation": true,
+          "discovered_via": {
+            "channel": "supplemental_official",
+            "source_id": "nakano_city_calendar_all",
+            "ward": "中野区",
+            "search_url": "https://www.city.tokyo-nakano.lg.jp/event/calendar/list_calendar202612.html"
+          }
+        },
+        {
+          "candidate_id": "nakano-official-1717e726e9802ced",
+          "name": "ティーンズ会議",
+          "ward": "中野区",
+          "matched_dates": [
+            "2026-12-06"
+          ],
+          "date_from_calendar": "2026-12-06",
+          "discovery_url": "https://www.city.tokyo-nakano.lg.jp/kosodate/wakamonoshien/highteenkaigi.html",
+          "source_page": "https://www.city.tokyo-nakano.lg.jp/event/calendar/list_calendar202612.html",
+          "status": "unverified",
+          "calendar_day_needs_detail_confirmation": true,
+          "discovered_via": {
+            "channel": "supplemental_official",
+            "source_id": "nakano_city_calendar_all",
+            "ward": "中野区",
+            "search_url": "https://www.city.tokyo-nakano.lg.jp/event/calendar/list_calendar202612.html"
+          },
+          "other_discoveries": [
+            {
+              "channel": "supplemental_official",
+              "source_id": "nakano_city_calendar_children",
+              "ward": "中野区",
+              "search_url": "https://www.city.tokyo-nakano.lg.jp/event/kosodate/calendar/list_calendar202612.html"
+            }
+          ]
+        },
+        {
+          "candidate_id": "nakano-official-3d64e4415f024621",
+          "name": "令和8年度「障害者週間」について",
+          "ward": "中野区",
+          "matched_dates": [
+            "2026-12-06"
+          ],
+          "date_from_calendar": "2026-12-06",
+          "discovery_url": "https://www.city.tokyo-nakano.lg.jp/kenko_hukushi/syogai/shukan.html",
+          "source_page": "https://www.city.tokyo-nakano.lg.jp/event/calendar/list_calendar202612.html",
+          "status": "unverified",
+          "calendar_day_needs_detail_confirmation": true,
+          "discovered_via": {
+            "channel": "supplemental_official",
+            "source_id": "nakano_city_calendar_all",
+            "ward": "中野区",
+            "search_url": "https://www.city.tokyo-nakano.lg.jp/event/calendar/list_calendar202612.html"
+          }
+        }
+      ],
+      "review_state": "needs_individual_official_event_checks_and_decisions"
+    },
+    {
+      "sat": "2026-12-12",
+      "sun": "2026-12-13",
+      "tier": "preview",
+      "existing_week": true,
+      "prior_published_count": 72,
+      "carryover_review_count": 0,
+      "carryover_needs_daily_confirmation": false,
+      "protected_prior_event_ids": [
+        "all-reviewed-20261212-art-annex",
+        "all-reviewed-20261212-orsay-exhibition",
+        "all-reviewed-20261212-rose-illumination",
+        "all-reviewed-20261212-rose-training",
+        "all-reviewed-20261212-senju-artpath2026",
+        "all-reviewed-20261212-shibuya-tennis-family",
+        "all-reviewed-20261212-shibuya-tennis-older",
+        "all-reviewed-20261212-sugi-214",
+        "all-reviewed-20261212-sugi-231",
+        "all-reviewed-20261212-sugi-711",
+        "all-reviewed-20261213-rose-adult-concert",
+        "all-reviewed-20261213-rose-family-concert",
+        "all-reviewed-20261213-sugi-230",
+        "all-reviewed-20261213-sugi-470",
+        "all-reviewed-20261213-sugi-506",
+        "all-reviewed-20261213-sugi-536",
+        "all-reviewed-20261213-sugi-640",
+        "all-reviewed-20261213-sugi-641",
+        "all-reviewed-20261213-sugi-676",
+        "all-reviewed-20261213-sugi-772",
+        "announced-20261212-sumida-bion",
+        "evidence2-20261213-minnano-kitchen",
+        "final-20261212-nakano-162738",
+        "final-20261212-nakano-162896",
+        "final-20261212-nakano-163067",
+        "final-20261212-nakano-163377",
+        "final-20261212-park-7419",
+        "final-20261212-park-7421",
+        "final-20261212-park-7436",
+        "final-20261212-suginami-27274",
+        "final-20261212-suginami-28241",
+        "final-20261212-suginami-28456",
+        "final-20261212-suginami-28578",
+        "final-20261213-nakano-142698",
+        "final-20261213-nakano-146912",
+        "final-20261213-nakano-161828",
+        "final-20261213-nakano-163152",
+        "final-20261213-nerima-chicoowa-xmas",
+        "final-20261213-park-7424",
+        "final-20261213-park-7425",
+        "final-20261213-park-7428",
+        "next-primary-20261212-turner-exhibition",
+        "next-primary-20261213-chiyoda-bosai-attraction",
+        "next-primary-20261213-chiyoda-bosai-baby",
+        "next-primary-20261213-chiyoda-bosai-booths",
+        "next-primary-20261213-chiyoda-bosai-horse",
+        "next-primary-20261213-chiyoda-bosai-ladder",
+        "next-primary-20261213-chiyoda-bosai-vr",
+        "next-primary-20261213-nakano-hee-haw-meal",
+        "official-2026-sumida-light-garden",
+        "ongoing-20261128-r16-a998e43102c9",
+        "ongoing-20261128-r16-c2947a676a15",
+        "ongoing-20261128-r16-d1fc65f778d6",
+        "ongoing-20261128-v15-237c930495e3",
+        "ongoing-20261128-v15-5e0e43c28e84",
+        "ongoing-20261128-v15-97ee0aaed408",
+        "ongoing-20261128-v15-d7b35a2aa60b",
+        "primary-20261212-meguro-horse-exhibit",
+        "primary-20261212-meguro-horse-talk",
+        "primary-20261212-taito-noguchi",
+        "primary-20261213-meguro-kyogen",
+        "remaining-20261212-cincinnati-art",
+        "remaining-20261212-kahaku-noguchi-lecture",
+        "v15-0c6fcb6bf768",
+        "v15-7b30b706f728",
+        "v15-8bc88232815c",
+        "v15-974166027816",
+        "v15-ad2f72f74ab7",
+        "verified-20261212-koto-sazanami",
+        "verified-20261212-ota-bicycle",
+        "verified-20261212-sumida-gosai-tour",
+        "verified-20261213-sumida-startbox"
+      ],
+      "suggested_discoveries_count": 3,
+      "attached_weekday_holidays": [],
+      "holiday_leads_by_date": {},
+      "undated_supplemental_candidates": [],
+      "suggested_discoveries": [
+        {
+          "candidate_id": "rss-46a7b41dc64279dc",
+          "name": "人物史『河西昌枝：1964年東京五輪（バレーボール）金メダル獲得「東洋の魔女」主将』女性スポーツ選手編",
+          "discovery_url": "https://note.com/eiennotabibito/n/nae9411291b38",
+          "discovered_via": {
+            "channel": "ai_cross",
+            "source_id": null,
+            "ward": "板橋区",
+            "query": "板橋区 2026年12月12日 子ども 親子 キッズ イベント ワークショップ 体験",
+            "search_url": "https://www.bing.com/search?format=rss&q=%E6%9D%BF%E6%A9%8B%E5%8C%BA%202026%E5%B9%B412%E6%9C%8812%E6%97%A5%20%E5%AD%90%E3%81%A9%E3%82%82%20%E8%A6%AA%E5%AD%90%20%E3%82%AD%E3%83%83%E3%82%BA%20%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88%20%E3%83%AF%E3%83%BC%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%83%E3%83%97%20%E4%BD%93%E9%A8%93"
+          },
+          "status": "unverified"
+        },
+        {
+          "candidate_id": "nakano-official-bfc62ea2972443b4",
+          "name": "なかの気候区民会議を開催します",
+          "ward": "中野区",
+          "matched_dates": [
+            "2026-12-12"
+          ],
+          "date_from_calendar": "2026-12-12",
+          "discovery_url": "https://www.city.tokyo-nakano.lg.jp/kurashi/kankyo/ondankataisaku/kikoukuminkaigi.html",
+          "source_page": "https://www.city.tokyo-nakano.lg.jp/event/calendar/list_calendar202612.html",
+          "status": "unverified",
+          "calendar_day_needs_detail_confirmation": true,
+          "discovered_via": {
+            "channel": "supplemental_official",
+            "source_id": "nakano_city_calendar_all",
+            "ward": "中野区",
+            "search_url": "https://www.city.tokyo-nakano.lg.jp/event/calendar/list_calendar202612.html"
+          }
+        },
+        {
+          "candidate_id": "nakano-official-c235019f979f56a1",
+          "name": "2026年中野若者会議報告会を開催します！",
+          "ward": "中野区",
+          "matched_dates": [
+            "2026-12-13"
+          ],
+          "date_from_calendar": "2026-12-13",
+          "discovery_url": "https://www.city.tokyo-nakano.lg.jp/kosodate/wakamonoshien/wakamonokaigi.html",
+          "source_page": "https://www.city.tokyo-nakano.lg.jp/event/calendar/list_calendar202612.html",
+          "status": "unverified",
+          "calendar_day_needs_detail_confirmation": true,
+          "discovered_via": {
+            "channel": "supplemental_official",
+            "source_id": "nakano_city_calendar_all",
+            "ward": "中野区",
+            "search_url": "https://www.city.tokyo-nakano.lg.jp/event/calendar/list_calendar202612.html"
+          },
+          "other_discoveries": [
+            {
+              "channel": "supplemental_official",
+              "source_id": "nakano_city_calendar_children",
+              "ward": "中野区",
+              "search_url": "https://www.city.tokyo-nakano.lg.jp/event/kosodate/calendar/list_calendar202612.html"
+            }
+          ]
+        }
+      ],
+      "review_state": "needs_individual_official_event_checks_and_decisions"
+    },
+    {
+      "sat": "2026-12-19",
+      "sun": "2026-12-20",
+      "tier": "announcement",
+      "existing_week": true,
+      "prior_published_count": 4,
+      "carryover_review_count": 0,
+      "carryover_needs_daily_confirmation": false,
+      "protected_prior_event_ids": [
+        "confirmed-20261219-nakano-rock-experience",
+        "confirmed-20261220-nakano-ikebana",
+        "tamemap-20261219-nakano-family-rhythm",
+        "tamemap-20261220-nakano-forest-choir"
+      ],
+      "suggested_discoveries_count": 1,
+      "attached_weekday_holidays": [],
+      "holiday_leads_by_date": {},
+      "undated_supplemental_candidates": [],
+      "suggested_discoveries": [
+        {
+          "candidate_id": "nakano-official-32ee20a3238c80cd",
+          "name": "【参加者募集中】LGBTQ＋おしゃべりサロン",
+          "ward": "中野区",
+          "matched_dates": [
+            "2026-12-19"
+          ],
+          "date_from_calendar": "2026-12-19",
+          "discovery_url": "https://www.city.tokyo-nakano.lg.jp/kurashi/soudan/soudan/0686427920240520145035355.html",
+          "source_page": "https://www.city.tokyo-nakano.lg.jp/event/calendar/list_calendar202612.html",
+          "status": "unverified",
+          "calendar_day_needs_detail_confirmation": true,
+          "discovered_via": {
+            "channel": "supplemental_official",
+            "source_id": "nakano_city_calendar_all",
+            "ward": "中野区",
+            "search_url": "https://www.city.tokyo-nakano.lg.jp/event/calendar/list_calendar202612.html"
+          }
+        }
+      ],
+      "review_state": "needs_individual_official_event_checks_and_decisions"
+    },
+    {
+      "sat": "2026-12-26",
+      "sun": "2026-12-27",
+      "tier": "announcement",
+      "existing_week": true,
+      "prior_published_count": 4,
+      "carryover_review_count": 0,
+      "carryover_needs_daily_confirmation": false,
+      "protected_prior_event_ids": [
+        "confirmed-20261226-nakano-wagakki",
+        "tamemap-20261226-nakano-tomocchao",
+        "tamemap-20261227-nakano-family-rhythm",
+        "tamemap-20261227-nakano-mama-hot-kitchen"
+      ],
+      "suggested_discoveries_count": 1,
+      "attached_weekday_holidays": [],
+      "holiday_leads_by_date": {},
+      "undated_supplemental_candidates": [],
+      "suggested_discoveries": [
+        {
+          "candidate_id": "sankaku-dcb18c7f1890c817",
+          "name": "芥見下々『呪術廻戦』完結展",
+          "ward": "新宿区",
+          "discovery_url": "https://jujutsuten.com/",
+          "official_url": "https://jujutsuten.com/",
+          "source_id": "shinjuku_sankaku_hiroba",
+          "listing_url": "https://www.sumitomo-sankakuhiroba.jp/event/",
+          "date_start_hint": "2026-12-25",
+          "date_end_hint": "2027-01-25",
+          "matched_dates": [
+            "2026-12-26",
+            "2026-12-27"
+          ],
+          "date_unverified": true,
+          "source_kind": "official_venue_external_organizer_candidate_only",
+          "image_hint": "https://www.sumitomo-sankakuhiroba.jp/wp-content/uploads/2026/10/【呪術廻戦完結展】-TOP画.png",
+          "discovered_via": {
+            "channel": "explicit",
+            "source_id": "shinjuku_sankaku_hiroba",
+            "ward": null,
+            "query": null,
+            "search_url": "https://www.sumitomo-sankakuhiroba.jp/event/"
+          },
+          "status": "unverified"
+        }
+      ],
+      "review_state": "needs_individual_official_event_checks_and_decisions"
+    }
+  ],
+  "independent_holiday_reviews": [
+    {
+      "date": "2026-11-23",
+      "name": "勤労感謝の日",
+      "assigned_week_sat": "2026-11-21",
+      "candidate_count": 30,
+      "candidates": [
+        {
+          "candidate_id": "holiday-official-b29aa001f23db416",
+          "name": "熊谷守一美術館 特別開館 くまのこDAY 2026年11月23日（月曜日） 10時 ～ 2026年11月23日（月曜日） 17時",
+          "discovery_url": "https://www.city.toshima.lg.jp/129/bunka/bunka/shiryokan/2602150927.html",
+          "official_url": "https://www.city.toshima.lg.jp/129/bunka/bunka/shiryokan/2602150927.html",
+          "matched_dates": [
+            "2026-11-23"
+          ],
+          "date_unverified": true,
+          "calendar_date_hint": "2026-11-23",
+          "source_kind": "official_calendar_candidate_only",
+          "discovered_via": {
+            "channel": "ai_cross",
+            "source_id": "toshima_daily",
+            "ward": "豊島区",
+            "query": null,
+            "search_url": "https://www.city.toshima.lg.jp/cgi-bin/event_cal/calendar.cgi?day=23&month=11&type=3&year=2026"
+          },
+          "status": "unverified"
+        },
+        {
+          "candidate_id": "holiday-official-64bdb9ba7f712f1a",
+          "name": "第54回としま子どものつどい「ワンパクまつり」 2026年11月23日（月曜日） 10時 ～ 2026年11月23日（月曜日） 14時",
+          "discovery_url": "https://www.city.toshima.lg.jp/231/2609151435.html",
+          "official_url": "https://www.city.toshima.lg.jp/231/2609151435.html",
+          "matched_dates": [
+            "2026-11-23"
+          ],
+          "date_unverified": true,
+          "calendar_date_hint": "2026-11-23",
+          "source_kind": "official_calendar_candidate_only",
+          "discovered_via": {
+            "channel": "ai_cross",
+            "source_id": "toshima_daily",
+            "ward": "豊島区",
+            "query": null,
+            "search_url": "https://www.city.toshima.lg.jp/cgi-bin/event_cal/calendar.cgi?day=23&month=11&type=3&year=2026"
+          },
+          "status": "unverified"
+        },
+        {
+          "candidate_id": "holiday-official-63b864a48236bfa1",
+          "name": "染井よしの桜の里秋祭り 2026年11月23日（月曜日） 10時 ～ 2026年11月23日（月曜日） 15時",
+          "discovery_url": "https://www.city.toshima.lg.jp/132/2609161020.html",
+          "official_url": "https://www.city.toshima.lg.jp/132/2609161020.html",
+          "matched_dates": [
+            "2026-11-23"
+          ],
+          "date_unverified": true,
+          "calendar_date_hint": "2026-11-23",
+          "source_kind": "official_calendar_candidate_only",
+          "discovered_via": {
+            "channel": "ai_cross",
+            "source_id": "toshima_daily",
+            "ward": "豊島区",
+            "query": null,
+            "search_url": "https://www.city.toshima.lg.jp/cgi-bin/event_cal/calendar.cgi?day=23&month=11&type=3&year=2026"
+          },
+          "status": "unverified"
+        },
+        {
+          "candidate_id": "holiday-official-6ef26cb3fb7fece0",
+          "name": "イケビズフェスタ2026 2026年11月23日（月曜日） 10時 ～ 2026年11月23日（月曜日） 17時",
+          "discovery_url": "https://www.city.toshima.lg.jp/121/shisetsu/sonota/2608050909.html",
+          "official_url": "https://www.city.toshima.lg.jp/121/shisetsu/sonota/2608050909.html",
+          "matched_dates": [
+            "2026-11-23"
+          ],
+          "date_unverified": true,
+          "calendar_date_hint": "2026-11-23",
+          "source_kind": "official_calendar_candidate_only",
+          "discovered_via": {
+            "channel": "ai_cross",
+            "source_id": "toshima_daily",
+            "ward": "豊島区",
+            "query": null,
+            "search_url": "https://www.city.toshima.lg.jp/cgi-bin/event_cal/calendar.cgi?day=23&month=11&type=3&year=2026"
+          },
+          "status": "unverified"
+        },
+        {
+          "candidate_id": "holiday-official-a6eee0e248978d13",
+          "name": "トキワ荘のまち４コママンガ大賞受賞作品展示 2026年11月1日（日曜日） ～ 2026年11月23日（月曜日）",
+          "discovery_url": "https://www.city.toshima.lg.jp/424/2609250940.html",
+          "official_url": "https://www.city.toshima.lg.jp/424/2609250940.html",
+          "matched_dates": [
+            "2026-11-23"
+          ],
+          "date_unverified": true,
+          "calendar_date_hint": "2026-11-23",
+          "source_kind": "official_calendar_candidate_only",
+          "discovered_via": {
+            "channel": "ai_cross",
+            "source_id": "toshima_daily",
+            "ward": "豊島区",
+            "query": null,
+            "search_url": "https://www.city.toshima.lg.jp/cgi-bin/event_cal/calendar.cgi?day=23&month=11&type=3&year=2026"
+          },
+          "status": "unverified"
+        },
+        {
+          "candidate_id": "holiday-official-483bf2ae181f1d35",
+          "name": "いまどきの子育てとマンガ展 2026年9月18日（金曜日） ～ 2026年11月23日（月曜日）",
+          "discovery_url": "https://www.city.toshima.lg.jp/467/2607241454.html",
+          "official_url": "https://www.city.toshima.lg.jp/467/2607241454.html",
+          "matched_dates": [
+            "2026-11-23"
+          ],
+          "date_unverified": true,
+          "calendar_date_hint": "2026-11-23",
+          "source_kind": "official_calendar_candidate_only",
+          "discovered_via": {
+            "channel": "ai_cross",
+            "source_id": "toshima_daily",
+            "ward": "豊島区",
+            "query": null,
+            "search_url": "https://www.city.toshima.lg.jp/cgi-bin/event_cal/calendar.cgi?day=23&month=11&type=3&year=2026"
+          },
+          "status": "unverified"
+        },
+        {
+          "candidate_id": "holiday-official-e00c7823c910859b",
+          "name": "トキワ荘マンガミュージアム特別企画展 「生誕90周年記念 つのだじろう なんでも描いてやろう！」 2026年8月8日（土曜日） ～ 2026年11月23日（月曜日）",
+          "discovery_url": "https://www.city.toshima.lg.jp/467/2606091600.html",
+          "official_url": "https://www.city.toshima.lg.jp/467/2606091600.html",
+          "matched_dates": [
+            "2026-11-23"
+          ],
+          "date_unverified": true,
+          "calendar_date_hint": "2026-11-23",
+          "source_kind": "official_calendar_candidate_only",
+          "discovered_via": {
+            "channel": "ai_cross",
+            "source_id": "toshima_daily",
+            "ward": "豊島区",
+            "query": null,
+            "search_url": "https://www.city.toshima.lg.jp/cgi-bin/event_cal/calendar.cgi?day=23&month=11&type=3&year=2026"
+          },
+          "status": "unverified"
+        },
+        {
+          "candidate_id": "holiday-official-26d997c550b428ac",
+          "name": "都電沿線のグルメをめぐる荒川区デジタルスタンプラリー（尾久～町屋編） 2026年9月18日（金曜日） ～ 2026年11月23日（月曜日）",
+          "discovery_url": "https://www.city.arakawa.tokyo.jp/a022/event/r8_digitalstamprally.html",
+          "official_url": "https://www.city.arakawa.tokyo.jp/a022/event/r8_digitalstamprally.html",
+          "matched_dates": [
+            "2026-11-23"
+          ],
+          "date_unverified": true,
+          "calendar_date_hint": "2026-11-23",
+          "source_kind": "official_calendar_candidate_only",
+          "discovered_via": {
+            "channel": "ai_cross",
+            "source_id": "arakawa_daily",
+            "ward": "荒川区",
+            "query": null,
+            "search_url": "https://www.city.arakawa.tokyo.jp/cgi-bin/event_cal_multi/calendar.cgi?day=23&month=11&type=3&year=2026"
+          },
+          "status": "unverified"
+        },
+        {
+          "candidate_id": "holiday-official-9ec40f351f125577",
+          "name": "「版画講習会」参加者募集 2026年11月23日（月曜日）",
+          "discovery_url": "https://www.city.arakawa.tokyo.jp/a015/event/kouenmeigi/hangakousyuukai.html",
+          "official_url": "https://www.city.arakawa.tokyo.jp/a015/event/kouenmeigi/hangakousyuukai.html",
+          "matched_dates": [
+            "2026-11-23"
+          ],
+          "date_unverified": true,
+          "calendar_date_hint": "2026-11-23",
+          "source_kind": "official_calendar_candidate_only",
+          "discovered_via": {
+            "channel": "ai_cross",
+            "source_id": "arakawa_daily",
+            "ward": "荒川区",
+            "query": null,
+            "search_url": "https://www.city.arakawa.tokyo.jp/cgi-bin/event_cal_multi/calendar.cgi?day=23&month=11&type=3&year=2026"
+          },
+          "status": "unverified"
+        },
+        {
+          "candidate_id": "holiday-official-ead25607c7e37fa9",
+          "name": "令和8年度児童虐待防止推進講演会「子どもの心の成長を支える」 2026年11月23日（月曜日）",
+          "discovery_url": "https://www.city.arakawa.tokyo.jp/a039/kosodate/2026kouenkai2.html",
+          "official_url": "https://www.city.arakawa.tokyo.jp/a039/kosodate/2026kouenkai2.html",
+          "matched_dates": [
+            "2026-11-23"
+          ],
+          "date_unverified": true,
+          "calendar_date_hint": "2026-11-23",
+          "source_kind": "official_calendar_candidate_only",
+          "discovered_via": {
+            "channel": "ai_cross",
+            "source_id": "arakawa_daily",
+            "ward": "荒川区",
+            "query": null,
+            "search_url": "https://www.city.arakawa.tokyo.jp/cgi-bin/event_cal_multi/calendar.cgi?day=23&month=11&type=3&year=2026"
+          },
+          "status": "unverified"
+        },
+        {
+          "candidate_id": "holiday-official-a059ebe4c65bf8f4",
+          "name": "【石浜ふれあい館】パパとあそぼう 2026年11月23日（月曜日） ～ 2026年11月23日（月曜日）",
+          "discovery_url": "https://www.city.arakawa.tokyo.jp/a011/event/2026/0811/0811_ishihama.html",
+          "official_url": "https://www.city.arakawa.tokyo.jp/a011/event/2026/0811/0811_ishihama.html",
+          "matched_dates": [
+            "2026-11-23"
+          ],
+          "date_unverified": true,
+          "calendar_date_hint": "2026-11-23",
+          "source_kind": "official_calendar_candidate_only",
+          "discovered_via": {
+            "channel": "ai_cross",
+            "source_id": "arakawa_daily",
+            "ward": "荒川区",
+            "query": null,
+            "search_url": "https://www.city.arakawa.tokyo.jp/cgi-bin/event_cal_multi/calendar.cgi?day=23&month=11&type=3&year=2026"
+          },
+          "status": "unverified"
+        },
+        {
+          "candidate_id": "holiday-official-ae9e955744a72403",
+          "name": "「荒川区の自然を描く写生会」参加者募集 2026年11月23日（月曜日） 10時 ～ 2026年11月23日（月曜日） 15時",
+          "discovery_url": "https://www.city.arakawa.tokyo.jp/a015/event/kouenmeigi/sizenwoegaku.html",
+          "official_url": "https://www.city.arakawa.tokyo.jp/a015/event/kouenmeigi/sizenwoegaku.html",
+          "matched_dates": [
+            "2026-11-23"
+          ],
+          "date_unverified": true,
+          "calendar_date_hint": "2026-11-23",
+          "source_kind": "official_calendar_candidate_only",
+          "discovered_via": {
+            "channel": "ai_cross",
+            "source_id": "arakawa_daily",
+            "ward": "荒川区",
+            "query": null,
+            "search_url": "https://www.city.arakawa.tokyo.jp/cgi-bin/event_cal_multi/calendar.cgi?day=23&month=11&type=3&year=2026"
+          },
+          "status": "unverified"
+        },
+        {
+          "candidate_id": "holiday-official-6ecd0fbd88b0f64e",
+          "name": "星空観察会とフィルムロケット工作 2026年11月23日（月曜日） 13時 ～ 2026年11月23日（月曜日） 19時",
+          "discovery_url": "https://www.city.arakawa.tokyo.jp/a042/koen/koen/sizenkouen2.html",
+          "official_url": "https://www.city.arakawa.tokyo.jp/a042/koen/koen/sizenkouen2.html",
+          "matched_dates": [
+            "2026-11-23"
+          ],
+          "date_unverified": true,
+          "calendar_date_hint": "2026-11-23",
+          "source_kind": "official_calendar_candidate_only",
+          "discovered_via": {
+            "channel": "ai_cross",
+            "source_id": "arakawa_daily",
+            "ward": "荒川区",
+            "query": null,
+            "search_url": "https://www.city.arakawa.tokyo.jp/cgi-bin/event_cal_multi/calendar.cgi?day=23&month=11&type=3&year=2026"
+          },
+          "status": "unverified"
+        },
+        {
+          "candidate_id": "holiday-official-9643d975abd3f0c0",
+          "name": "11月はオレンジリボン・児童虐待防止推進キャンペーン「地域で見守る みんなの子」",
+          "discovery_url": "https://www.city.nerima.tokyo.jp/kosodatekyoiku/kodomo/sodan/kodomokateicenter/11gatu_campaign.html",
+          "official_url": "https://www.city.nerima.tokyo.jp/kosodatekyoiku/kodomo/sodan/kodomokateicenter/11gatu_campaign.html",
+          "matched_dates": [
+            "2026-11-23"
+          ],
+          "date_unverified": true,
+          "calendar_date_hint": "2026-11-23",
+          "source_kind": "official_calendar_candidate_only",
+          "discovered_via": {
+            "channel": "ai_cross",
+            "source_id": "nerima_monthly",
+            "ward": "練馬区",
+            "query": null,
+            "search_url": "https://www.city.nerima.tokyo.jp/kankomoyoshi/event/calendar/list_calendar202611.html"
+          },
+          "status": "unverified"
+        },
+        {
+          "candidate_id": "holiday-official-86d82db54acf7ff7",
+          "name": "ねりまの森こどもフェスタ",
+          "discovery_url": "https://www.city.nerima.tokyo.jp/kurashi/shigoto/midori/shokai/nerimanomori.html",
+          "official_url": "https://www.city.nerima.tokyo.jp/kurashi/shigoto/midori/shokai/nerimanomori.html",
+          "matched_dates": [
+            "2026-11-23"
+          ],
+          "date_unverified": true,
+          "calendar_date_hint": "2026-11-23",
+          "source_kind": "official_calendar_candidate_only",
+          "discovered_via": {
+            "channel": "ai_cross",
+            "source_id": "nerima_monthly",
+            "ward": "練馬区",
+            "query": null,
+            "search_url": "https://www.city.nerima.tokyo.jp/kankomoyoshi/event/calendar/list_calendar202611.html"
+          },
+          "status": "unverified",
+          "other_discoveries": [
+            {
+              "channel": "ai_cross",
+              "source_id": "nerima_kids_monthly",
+              "ward": "練馬区",
+              "query": null,
+              "search_url": "https://www.city.nerima.tokyo.jp/nerimakids/event/calendar/list_calendar202611.html"
+            }
+          ]
+        },
+        {
+          "candidate_id": "holiday-official-76745bc5a511efe7",
+          "name": "ねりまの散歩道をゆく！デジタル健康スタンプラリー2026",
+          "discovery_url": "https://www.city.nerima.tokyo.jp/hokenfukushi/hoken/kenkodukuri/undo/202610_stamprally.html",
+          "official_url": "https://www.city.nerima.tokyo.jp/hokenfukushi/hoken/kenkodukuri/undo/202610_stamprally.html",
+          "matched_dates": [
+            "2026-11-23"
+          ],
+          "date_unverified": true,
+          "calendar_date_hint": "2026-11-23",
+          "source_kind": "official_calendar_candidate_only",
+          "discovered_via": {
+            "channel": "ai_cross",
+            "source_id": "nerima_monthly",
+            "ward": "練馬区",
+            "query": null,
+            "search_url": "https://www.city.nerima.tokyo.jp/kankomoyoshi/event/calendar/list_calendar202611.html"
+          },
+          "status": "unverified"
+        },
+        {
+          "candidate_id": "holiday-official-b724720de50e63e0",
+          "name": "ユアサエボシと戦後アヴァンギャルドの変身寓話集【令和8年10月31日（土曜）から12月27日（日曜）まで】",
+          "discovery_url": "https://www.city.nerima.tokyo.jp/kankomoyoshi/bunka/museum/tenrankai/yuasaeboshi.html",
+          "official_url": "https://www.city.nerima.tokyo.jp/kankomoyoshi/bunka/museum/tenrankai/yuasaeboshi.html",
+          "matched_dates": [
+            "2026-11-23"
+          ],
+          "date_unverified": true,
+          "calendar_date_hint": "2026-11-23",
+          "source_kind": "official_calendar_candidate_only",
+          "discovered_via": {
+            "channel": "ai_cross",
+            "source_id": "nerima_monthly",
+            "ward": "練馬区",
+            "query": null,
+            "search_url": "https://www.city.nerima.tokyo.jp/kankomoyoshi/event/calendar/list_calendar202611.html"
+          },
+          "status": "unverified"
+        },
+        {
+          "candidate_id": "holiday-official-ab77d1aafa6e1053",
+          "name": "第71回（令和8年度秋季）区民文化祭を開催します",
+          "discovery_url": "https://www.city.nerima.tokyo.jp/kankomoyoshi/shogaigakushu/kyogikai/kuminbunkasai.html",
+          "official_url": "https://www.city.nerima.tokyo.jp/kankomoyoshi/shogaigakushu/kyogikai/kuminbunkasai.html",
+          "matched_dates": [
+            "2026-11-23"
+          ],
+          "date_unverified": true,
+          "calendar_date_hint": "2026-11-23",
+          "source_kind": "official_calendar_candidate_only",
+          "discovered_via": {
+            "channel": "ai_cross",
+            "source_id": "nerima_monthly",
+            "ward": "練馬区",
+            "query": null,
+            "search_url": "https://www.city.nerima.tokyo.jp/kankomoyoshi/event/calendar/list_calendar202611.html"
+          },
+          "status": "unverified"
+        },
+        {
+          "candidate_id": "holiday-official-96bde04589a38d12",
+          "name": "「お口とからだの体操でフレイル予防～ねりま お口すっきり体操講習会」",
+          "discovery_url": "https://www.city.nerima.tokyo.jp/hokenfukushi/hoken/kenkodukuri/koenkai/okuchikousyuukai.html",
+          "official_url": "https://www.city.nerima.tokyo.jp/hokenfukushi/hoken/kenkodukuri/koenkai/okuchikousyuukai.html",
+          "matched_dates": [
+            "2026-11-23"
+          ],
+          "date_unverified": true,
+          "calendar_date_hint": "2026-11-23",
+          "source_kind": "official_calendar_candidate_only",
+          "discovered_via": {
+            "channel": "ai_cross",
+            "source_id": "nerima_monthly",
+            "ward": "練馬区",
+            "query": null,
+            "search_url": "https://www.city.nerima.tokyo.jp/kankomoyoshi/event/calendar/list_calendar202611.html"
+          },
+          "status": "unverified"
+        },
+        {
+          "candidate_id": "holiday-official-55f62b473be5d6ad",
+          "name": "ウオーキングフェスタえどがわ2026 2026年11月23日（月曜日） ～ 2026年11月23日（月曜日）",
+          "discovery_url": "https://www.city.edogawa.tokyo.jp/event/261123walking.html",
+          "official_url": "https://www.city.edogawa.tokyo.jp/event/261123walking.html",
+          "matched_dates": [
+            "2026-11-23"
+          ],
+          "date_unverified": true,
+          "calendar_date_hint": "2026-11-23",
+          "source_kind": "official_calendar_candidate_only",
+          "discovered_via": {
+            "channel": "ai_cross",
+            "source_id": "edogawa_daily",
+            "ward": "江戸川区",
+            "query": null,
+            "search_url": "https://www.city.edogawa.tokyo.jp/cgi-bin/event_cal_multi/calendar.cgi?day=23&month=11&siteid=6&type=3&year=2026"
+          },
+          "status": "unverified"
+        },
+        {
+          "candidate_id": "holiday-official-ff3e744801a119a7",
+          "name": "第42回江戸川区視覚障害者福祉協会 文化祭 2026年11月23日（月曜日） 13時00分 ～ 2026年11月23日（月曜日） 16時30分",
+          "discovery_url": "https://www.city.edogawa.tokyo.jp/event/eshikyor8.html",
+          "official_url": "https://www.city.edogawa.tokyo.jp/event/eshikyor8.html",
+          "matched_dates": [
+            "2026-11-23"
+          ],
+          "date_unverified": true,
+          "calendar_date_hint": "2026-11-23",
+          "source_kind": "official_calendar_candidate_only",
+          "discovered_via": {
+            "channel": "ai_cross",
+            "source_id": "edogawa_daily",
+            "ward": "江戸川区",
+            "query": null,
+            "search_url": "https://www.city.edogawa.tokyo.jp/cgi-bin/event_cal_multi/calendar.cgi?day=23&month=11&siteid=6&type=3&year=2026"
+          },
+          "status": "unverified"
+        },
+        {
+          "candidate_id": "holiday-official-3f70e35d0b4c8eff",
+          "name": "第167回小岩で落語を聴く会 2026年11月23日（月曜日） 14時00分 ～ 2026年11月23日（月曜日） 16時30分",
+          "discovery_url": "https://www.city.edogawa.tokyo.jp/event/167koiwa.html",
+          "official_url": "https://www.city.edogawa.tokyo.jp/event/167koiwa.html",
+          "matched_dates": [
+            "2026-11-23"
+          ],
+          "date_unverified": true,
+          "calendar_date_hint": "2026-11-23",
+          "source_kind": "official_calendar_candidate_only",
+          "discovered_via": {
+            "channel": "ai_cross",
+            "source_id": "edogawa_daily",
+            "ward": "江戸川区",
+            "query": null,
+            "search_url": "https://www.city.edogawa.tokyo.jp/cgi-bin/event_cal_multi/calendar.cgi?day=23&month=11&siteid=6&type=3&year=2026"
+          },
+          "status": "unverified"
+        },
+        {
+          "candidate_id": "holiday-official-7a2253ad57b66ce1",
+          "name": "謎の生物プラナリア大研究 2026年11月23日（月曜日） 10時00分 ～ 2026年11月23日（月曜日） 11時30分",
+          "discovery_url": "https://www.city.edogawa.tokyo.jp/event/2611puranaria.html",
+          "official_url": "https://www.city.edogawa.tokyo.jp/event/2611puranaria.html",
+          "matched_dates": [
+            "2026-11-23"
+          ],
+          "date_unverified": true,
+          "calendar_date_hint": "2026-11-23",
+          "source_kind": "official_calendar_candidate_only",
+          "discovered_via": {
+            "channel": "ai_cross",
+            "source_id": "edogawa_daily",
+            "ward": "江戸川区",
+            "query": null,
+            "search_url": "https://www.city.edogawa.tokyo.jp/cgi-bin/event_cal_multi/calendar.cgi?day=23&month=11&siteid=6&type=3&year=2026"
+          },
+          "status": "unverified"
+        },
+        {
+          "candidate_id": "holiday-official-513e525d1376eefd",
+          "name": "光るキーホルダーをつくろう 2026年11月23日（月曜日） 13時30分 ～ 2026年11月23日（月曜日） 16時00分",
+          "discovery_url": "https://www.city.edogawa.tokyo.jp/event/2611keyholder.html",
+          "official_url": "https://www.city.edogawa.tokyo.jp/event/2611keyholder.html",
+          "matched_dates": [
+            "2026-11-23"
+          ],
+          "date_unverified": true,
+          "calendar_date_hint": "2026-11-23",
+          "source_kind": "official_calendar_candidate_only",
+          "discovered_via": {
+            "channel": "ai_cross",
+            "source_id": "edogawa_daily",
+            "ward": "江戸川区",
+            "query": null,
+            "search_url": "https://www.city.edogawa.tokyo.jp/cgi-bin/event_cal_multi/calendar.cgi?day=23&month=11&siteid=6&type=3&year=2026"
+          },
+          "status": "unverified"
+        },
+        {
+          "candidate_id": "holiday-official-aead64130ba6e772",
+          "name": "工作とマジックに挑戦 2026年11月23日（月曜日） 14時00分 ～ 2026年11月23日（月曜日） 15時30分",
+          "discovery_url": "https://www.city.edogawa.tokyo.jp/event/2611kosaku.html",
+          "official_url": "https://www.city.edogawa.tokyo.jp/event/2611kosaku.html",
+          "matched_dates": [
+            "2026-11-23"
+          ],
+          "date_unverified": true,
+          "calendar_date_hint": "2026-11-23",
+          "source_kind": "official_calendar_candidate_only",
+          "discovered_via": {
+            "channel": "ai_cross",
+            "source_id": "edogawa_daily",
+            "ward": "江戸川区",
+            "query": null,
+            "search_url": "https://www.city.edogawa.tokyo.jp/cgi-bin/event_cal_multi/calendar.cgi?day=23&month=11&siteid=6&type=3&year=2026"
+          },
+          "status": "unverified"
+        },
+        {
+          "candidate_id": "holiday-official-c59080e9cd3b5fb6",
+          "name": "KASAI Super Fes～この祭、みんなでいっしょに楽しすぎて「滅」～（葛西） 2026年11月23日（月曜日） 10時30分 ～ 2026年11月23日（月曜日） 15時00分",
+          "discovery_url": "https://www.city.edogawa.tokyo.jp/event/super_fes.html",
+          "official_url": "https://www.city.edogawa.tokyo.jp/event/super_fes.html",
+          "matched_dates": [
+            "2026-11-23"
+          ],
+          "date_unverified": true,
+          "calendar_date_hint": "2026-11-23",
+          "source_kind": "official_calendar_candidate_only",
+          "discovered_via": {
+            "channel": "ai_cross",
+            "source_id": "edogawa_daily",
+            "ward": "江戸川区",
+            "query": null,
+            "search_url": "https://www.city.edogawa.tokyo.jp/cgi-bin/event_cal_multi/calendar.cgi?day=23&month=11&siteid=6&type=3&year=2026"
+          },
+          "status": "unverified"
+        },
+        {
+          "candidate_id": "holiday-official-380e33beebb441e5",
+          "name": "第59回影向菊花大会 2026年10月19日（月曜日） 8時30分 ～ 2026年11月23日（月曜日） 16時00分",
+          "discovery_url": "https://www.city.edogawa.tokyo.jp/event/59yogokikkataikai.html",
+          "official_url": "https://www.city.edogawa.tokyo.jp/event/59yogokikkataikai.html",
+          "matched_dates": [
+            "2026-11-23"
+          ],
+          "date_unverified": true,
+          "calendar_date_hint": "2026-11-23",
+          "source_kind": "official_calendar_candidate_only",
+          "discovered_via": {
+            "channel": "ai_cross",
+            "source_id": "edogawa_daily",
+            "ward": "江戸川区",
+            "query": null,
+            "search_url": "https://www.city.edogawa.tokyo.jp/cgi-bin/event_cal_multi/calendar.cgi?day=23&month=11&siteid=6&type=3&year=2026"
+          },
+          "status": "unverified"
+        },
+        {
+          "candidate_id": "holiday-official-f24afb7fa85d58ac",
+          "name": "一之江抹香亭江戸園芸植物展示「菊花展」 2026年11月7日（土曜日） ～ 2026年11月23日（月曜日）",
+          "discovery_url": "https://www.city.edogawa.tokyo.jp/event/makko1107.html",
+          "official_url": "https://www.city.edogawa.tokyo.jp/event/makko1107.html",
+          "matched_dates": [
+            "2026-11-23"
+          ],
+          "date_unverified": true,
+          "calendar_date_hint": "2026-11-23",
+          "source_kind": "official_calendar_candidate_only",
+          "discovered_via": {
+            "channel": "ai_cross",
+            "source_id": "edogawa_daily",
+            "ward": "江戸川区",
+            "query": null,
+            "search_url": "https://www.city.edogawa.tokyo.jp/cgi-bin/event_cal_multi/calendar.cgi?day=23&month=11&siteid=6&type=3&year=2026"
+          },
+          "status": "unverified"
+        },
+        {
+          "candidate_id": "nakano-official-029ca1e22e1df2ca",
+          "name": "考えてみませんか「人生会議ーアドバンス・ケア・プランニング(ACP)－」",
+          "ward": "中野区",
+          "matched_dates": [
+            "2026-11-23"
+          ],
+          "date_from_calendar": "2026-11-23",
+          "discovery_url": "https://www.city.tokyo-nakano.lg.jp/kenko_hukushi/kourei/zaitakuryoyo/jinseikaigi.html",
+          "source_page": "https://www.city.tokyo-nakano.lg.jp/event/calendar/list_calendar.html",
+          "status": "unverified",
+          "calendar_day_needs_detail_confirmation": true,
+          "discovered_via": {
+            "channel": "supplemental_official",
+            "source_id": "nakano_city_calendar_all",
+            "ward": "中野区",
+            "search_url": "https://www.city.tokyo-nakano.lg.jp/event/calendar/list_calendar.html"
+          }
+        },
+        {
+          "candidate_id": "nakano-official-64dbf3bf881b88d0",
+          "name": "公共交通応援キャンペーン（エントリー開始）",
+          "ward": "中野区",
+          "matched_dates": [
+            "2026-11-23"
+          ],
+          "date_from_calendar": "2026-11-23",
+          "discovery_url": "https://www.city.tokyo-nakano.lg.jp/machizukuri/koutsu/tiikikoukyou/mobilitymanagement/campaign.html",
+          "source_page": "https://www.city.tokyo-nakano.lg.jp/event/calendar/list_calendar.html",
+          "status": "unverified",
+          "calendar_day_needs_detail_confirmation": true,
+          "discovered_via": {
+            "channel": "supplemental_official",
+            "source_id": "nakano_city_calendar_all",
+            "ward": "中野区",
+            "search_url": "https://www.city.tokyo-nakano.lg.jp/event/calendar/list_calendar.html"
+          }
+        }
+      ],
+      "review_week_candidate_ids": [
+        "holiday-official-26d997c550b428ac",
+        "holiday-official-380e33beebb441e5",
+        "holiday-official-3f70e35d0b4c8eff",
+        "holiday-official-483bf2ae181f1d35",
+        "holiday-official-513e525d1376eefd",
+        "holiday-official-55f62b473be5d6ad",
+        "holiday-official-63b864a48236bfa1",
+        "holiday-official-64bdb9ba7f712f1a",
+        "holiday-official-6ecd0fbd88b0f64e",
+        "holiday-official-6ef26cb3fb7fece0",
+        "holiday-official-76745bc5a511efe7",
+        "holiday-official-7a2253ad57b66ce1",
+        "holiday-official-86d82db54acf7ff7",
+        "holiday-official-9643d975abd3f0c0",
+        "holiday-official-96bde04589a38d12",
+        "holiday-official-9ec40f351f125577",
+        "holiday-official-a059ebe4c65bf8f4",
+        "holiday-official-a6eee0e248978d13",
+        "holiday-official-ab77d1aafa6e1053",
+        "holiday-official-ae9e955744a72403",
+        "holiday-official-aead64130ba6e772",
+        "holiday-official-b29aa001f23db416",
+        "holiday-official-b724720de50e63e0",
+        "holiday-official-c59080e9cd3b5fb6",
+        "holiday-official-e00c7823c910859b",
+        "holiday-official-ead25607c7e37fa9",
+        "holiday-official-f24afb7fa85d58ac",
+        "holiday-official-ff3e744801a119a7",
+        "nakano-official-029ca1e22e1df2ca",
+        "nakano-official-64dbf3bf881b88d0"
+      ],
+      "candidate_handoff_complete": true,
+      "publication_state": "unreviewed_candidates_not_published",
+      "independent_official_date_and_opening_check": "pending"
+    }
+  ],
+  "approval_requirements": [
+    "Reconcile every official schedule row with a published/excluded/duplicate decision",
+    "Verify each new event's date, venue and official evidence for its participation unit",
+    "Independently check both weekday holidays (November 3 and 23)",
+    "Preserve each prior current-week event ID or obtain explicit removal approval",
+    "Produce actual per-week 23-ward and required-source query logs",
+    "Run all released strict validators, protected-event gate and npm test",
+    "Append exact update history and use the unchanged data-only CI path"
+  ],
+  "note": "An old event spanning a target week is a review candidate, NOT proof it runs every holiday."
+}

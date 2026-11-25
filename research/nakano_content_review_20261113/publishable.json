@@ -1,0 +1,1077 @@
+{
+  "base_data_production_sha": "0dc84f68a3cd4ec3e32b8a28e6fa541b86f1dbe8",
+  "reviewed_at": "2026-11-13",
+  "records": [
+    {
+      "tamemap_event_id": "162208",
+      "week": "2026-11-14",
+      "event": {
+        "id": "reviewed-20261114-nakano-162208",
+        "ward": "中野区",
+        "name": "芋煮会、今年もやります！",
+        "url": "https://pc.tamemap.net/1311401/event/162208/2026-11-14?locale=ja",
+        "official_url": "https://pc.tamemap.net/1311401/event/162208/2026-11-14?locale=ja",
+        "source": "https://pc.tamemap.net/1311401/event/162208/2026-11-14?locale=ja",
+        "image": "https://pc.tamemap.net/tamemapapi/detail/d9988e88-b335-49ce-80db-3812df740e6a.jpg",
+        "period": "11/14(土)",
+        "date_start": "2026-11-14",
+        "date_end": "2026-11-14",
+        "time": "",
+        "venue": "中野区立本一公園（中野区本町1丁目23）",
+        "price": "無料",
+        "description": "温かい芋煮を囲み、地域の人と交流する秋の集まり。主催の本一相生町会が家族・友人の参加を案内。詳しい時間は主催者案内を確認。",
+        "categories": [
+          "地域交流",
+          "食",
+          "季節イベント"
+        ],
+        "family_fit": {
+          "grade": "B",
+          "overall": "B",
+          "rubric_version": "family-fit-v2",
+          "reason": "公式または主催者提供の詳細本文で日付・会場・参加条件を確認。",
+          "axes": {
+            "child_target": {
+              "grade": "B",
+              "reason": "主催町会が家族・友人と来場する芋煮会として案内。"
+            },
+            "interactivity": {
+              "grade": "B",
+              "reason": "大鍋の芋煮を囲んで地域の人と交流する。"
+            },
+            "age_fit": {
+              "grade": "B",
+              "reason": "地域の家族を対象にした食の集まり。年齢別条件は明示なし。"
+            },
+            "stay_flexibility": {
+              "grade": "unknown",
+              "reason": "当日参加可能だが、途中入退場や滞在時間の明示はない。"
+            },
+            "burden": {
+              "grade": "B",
+              "reason": "会場と参加条件を確認。屋外では天候、写真展示では内容を保護者が事前確認。"
+            },
+            "cost": {
+              "grade": "A",
+              "reason": "区または主催者投稿に無料・入場無料の記載あり。飲食や販売品等は別途確認。"
+            },
+            "reservation": {
+              "grade": "A",
+              "reason": "対象として掲載する催しは当日参加可能または申込不要。"
+            },
+            "family_value": {
+              "grade": "B",
+              "reason": "季節の食と地域交流を家族で共有できる。"
+            }
+          }
+        },
+        "reservation": {
+          "required": false,
+          "note": "当日参加可能。最新の開催・参加条件は主催者案内を確認。"
+        },
+        "indoor_outdoor": "屋外",
+        "ai": {
+          "checked_at": "2026-11-13",
+          "confidence": "high",
+          "discovery_query": "回収済みTamemap候補の個別確認。主催者投稿・区公式本文と既存6週の掲載ID/日時/会場を照合。"
+        },
+        "discovery_sources": [
+          {
+            "channel": "explicit",
+            "source_id": "tamemap_nakano",
+            "kind": "recovered_detail_review",
+            "url": "https://pc.tamemap.net/1311401/event/162208/2026-11-14"
+          }
+        ]
+      },
+      "verification": {
+        "id": "reviewed-20261114-nakano-162208",
+        "status": "verified",
+        "source": "https://pc.tamemap.net/1311401/event/162208/2026-11-14?locale=ja",
+        "source_kind": "organizer_provided_partner",
+        "fields": {
+          "name": "pass",
+          "date": "pass",
+          "venue": "pass",
+          "time": "unknown",
+          "price": "pass",
+          "reservation": "pass",
+          "official_url": "pass"
+        },
+        "corrections": {},
+        "note": "2026-11-13に本文の開催日・会場・主催/投稿者を個別確認。画像は内容の事実確認に使わず、未記載の時刻は空欄のまま。",
+        "evidence": [
+          {
+            "url": "https://pc.tamemap.net/1311401/event/162208/2026-11-14?locale=ja",
+            "checked_at": "2026-11-13T07:43:14+09:00",
+            "sha256": "458f2f2168bf38df76bd830a4d46ce3d81b2980fb98f1b6a5bff19c0b6684a6d"
+          }
+        ]
+      },
+      "decision": {
+        "candidate_id": "reviewed-20261114-nakano-162208",
+        "name": "芋煮会、今年もやります！",
+        "ward": "中野区",
+        "decision": "published",
+        "family_fit": {
+          "grade": "B",
+          "overall": "B",
+          "rubric_version": "family-fit-v2",
+          "reason": "公式または主催者提供の詳細本文で日付・会場・参加条件を確認。",
+          "axes": {
+            "child_target": {
+              "grade": "B",
+              "reason": "主催町会が家族・友人と来場する芋煮会として案内。"
+            },
+            "interactivity": {
+              "grade": "B",
+              "reason": "大鍋の芋煮を囲んで地域の人と交流する。"
+            },
+            "age_fit": {
+              "grade": "B",
+              "reason": "地域の家族を対象にした食の集まり。年齢別条件は明示なし。"
+            },
+            "stay_flexibility": {
+              "grade": "unknown",
+              "reason": "当日参加可能だが、途中入退場や滞在時間の明示はない。"
+            },
+            "burden": {
+              "grade": "B",
+              "reason": "会場と参加条件を確認。屋外では天候、写真展示では内容を保護者が事前確認。"
+            },
+            "cost": {
+              "grade": "A",
+              "reason": "区または主催者投稿に無料・入場無料の記載あり。飲食や販売品等は別途確認。"
+            },
+            "reservation": {
+              "grade": "A",
+              "reason": "対象として掲載する催しは当日参加可能または申込不要。"
+            },
+            "family_value": {
+              "grade": "B",
+              "reason": "季節の食と地域交流を家族で共有できる。"
+            }
+          }
+        },
+        "positive_signals": [
+          "daytime",
+          "free_or_low_cost",
+          "family_venue",
+          "all_ages"
+        ],
+        "negative_signals": [],
+        "hard_exclusion": null,
+        "exclusion_type": null,
+        "primary_reason_code": "family_community_activity",
+        "reason_codes": [
+          "family_community_activity"
+        ],
+        "reasons": [
+          "詳細本文の日時・会場・参加条件を確認。既存公開と照合し独立参加単位の新規候補。"
+        ],
+        "evidence": [
+          {
+            "url": "https://pc.tamemap.net/1311401/event/162208/2026-11-14?locale=ja",
+            "basis": "主催団体/担当課名が明記された提供投稿の本文で、日付・会場・参加条件を照合。"
+          }
+        ],
+        "override_reason": "",
+        "tradeoff_reason": ""
+      }
+    },
+    {
+      "tamemap_event_id": "163281",
+      "week": "2026-11-14",
+      "event": {
+        "id": "reviewed-20261114-nakano-163281",
+        "ward": "中野区",
+        "name": "ぶらんけっとの多文化共生ひろば",
+        "url": "https://pc.tamemap.net/1311401/event/163281/2026-11-14?locale=ja",
+        "official_url": "https://pc.tamemap.net/1311401/event/163281/2026-11-14?locale=ja",
+        "source": "https://pc.tamemap.net/1311401/event/163281/2026-11-14?locale=ja",
+        "image": "https://pc.tamemap.net/tamemapapi/detail/58143de0-f523-4163-920d-353edbafb9eb.jpeg",
+        "period": "11/14(土)",
+        "date_start": "2026-11-14",
+        "date_end": "2026-11-14",
+        "time": "13:30〜17:00",
+        "venue": "広町みらい公園・体験学習室A（中野区弥生町6-1-7）",
+        "price": "無料",
+        "description": "絵本の読み聞かせや工作、レンジャーショーなど。14:10から翻訳者による絵本の読み聞かせ・お話会を予定。ガザの写真展示もあるため、内容は事前に主催者案内で確認。",
+        "categories": [
+          "絵本",
+          "工作",
+          "国際交流"
+        ],
+        "family_fit": {
+          "grade": "B",
+          "overall": "B",
+          "rubric_version": "family-fit-v2",
+          "reason": "公式または主催者提供の詳細本文で日付・会場・参加条件を確認。",
+          "axes": {
+            "child_target": {
+              "grade": "A",
+              "reason": "主催者が家族来場を案内し、絵本・工作・ショーを明示。"
+            },
+            "interactivity": {
+              "grade": "A",
+              "reason": "絵本の読み聞かせ・工作・レンジャーショーに参加できる。"
+            },
+            "age_fit": {
+              "grade": "B",
+              "reason": "絵本や工作は子どもが参加しやすい。写真展の内容は保護者が事前確認する。"
+            },
+            "stay_flexibility": {
+              "grade": "unknown",
+              "reason": "当日参加可能だが、途中入退場や滞在時間の明示はない。"
+            },
+            "burden": {
+              "grade": "B",
+              "reason": "絵本・工作のほかガザの写真展示があるため、保護者が内容を事前に確認する。"
+            },
+            "cost": {
+              "grade": "A",
+              "reason": "区または主催者投稿に無料・入場無料の記載あり。飲食や販売品等は別途確認。"
+            },
+            "reservation": {
+              "grade": "A",
+              "reason": "対象として掲載する催しは当日参加可能または申込不要。"
+            },
+            "family_value": {
+              "grade": "B",
+              "reason": "家族で絵本・工作・多文化交流を楽しめる。"
+            }
+          }
+        },
+        "reservation": {
+          "required": false,
+          "note": "当日参加可能。最新の開催・参加条件は主催者案内を確認。"
+        },
+        "indoor_outdoor": "屋内",
+        "ai": {
+          "checked_at": "2026-11-13",
+          "confidence": "high",
+          "discovery_query": "回収済みTamemap候補の個別確認。主催者投稿・区公式本文と既存6週の掲載ID/日時/会場を照合。"
+        },
+        "discovery_sources": [
+          {
+            "channel": "explicit",
+            "source_id": "tamemap_nakano",
+            "kind": "recovered_detail_review",
+            "url": "https://pc.tamemap.net/1311401/event/163281/2026-11-14"
+          }
+        ]
+      },
+      "verification": {
+        "id": "reviewed-20261114-nakano-163281",
+        "status": "verified",
+        "source": "https://pc.tamemap.net/1311401/event/163281/2026-11-14?locale=ja",
+        "source_kind": "organizer_provided_partner",
+        "fields": {
+          "name": "pass",
+          "date": "pass",
+          "venue": "pass",
+          "time": "pass",
+          "price": "pass",
+          "reservation": "pass",
+          "official_url": "pass"
+        },
+        "corrections": {},
+        "note": "2026-11-13に本文の開催日・会場・主催/投稿者を個別確認。画像は内容の事実確認に使わず、未記載の時刻は空欄のまま。",
+        "evidence": [
+          {
+            "url": "https://pc.tamemap.net/1311401/event/163281/2026-11-14?locale=ja",
+            "checked_at": "2026-11-13T07:43:16+09:00",
+            "sha256": "6ed0bbed2401c2c3ab51fd7eafbea7b9703ab2dc7ac105c59953d5e05da8c37c"
+          }
+        ]
+      },
+      "decision": {
+        "candidate_id": "reviewed-20261114-nakano-163281",
+        "name": "ぶらんけっとの多文化共生ひろば",
+        "ward": "中野区",
+        "decision": "published",
+        "family_fit": {
+          "grade": "B",
+          "overall": "B",
+          "rubric_version": "family-fit-v2",
+          "reason": "公式または主催者提供の詳細本文で日付・会場・参加条件を確認。",
+          "axes": {
+            "child_target": {
+              "grade": "A",
+              "reason": "主催者が家族来場を案内し、絵本・工作・ショーを明示。"
+            },
+            "interactivity": {
+              "grade": "A",
+              "reason": "絵本の読み聞かせ・工作・レンジャーショーに参加できる。"
+            },
+            "age_fit": {
+              "grade": "B",
+              "reason": "絵本や工作は子どもが参加しやすい。写真展の内容は保護者が事前確認する。"
+            },
+            "stay_flexibility": {
+              "grade": "unknown",
+              "reason": "当日参加可能だが、途中入退場や滞在時間の明示はない。"
+            },
+            "burden": {
+              "grade": "B",
+              "reason": "絵本・工作のほかガザの写真展示があるため、保護者が内容を事前に確認する。"
+            },
+            "cost": {
+              "grade": "A",
+              "reason": "区または主催者投稿に無料・入場無料の記載あり。飲食や販売品等は別途確認。"
+            },
+            "reservation": {
+              "grade": "A",
+              "reason": "対象として掲載する催しは当日参加可能または申込不要。"
+            },
+            "family_value": {
+              "grade": "B",
+              "reason": "家族で絵本・工作・多文化交流を楽しめる。"
+            }
+          }
+        },
+        "positive_signals": [
+          "daytime",
+          "free_or_low_cost",
+          "family_venue",
+          "all_ages"
+        ],
+        "negative_signals": [
+          "content_intensity"
+        ],
+        "hard_exclusion": null,
+        "exclusion_type": null,
+        "primary_reason_code": "family_community_activity",
+        "reason_codes": [
+          "family_community_activity"
+        ],
+        "reasons": [
+          "詳細本文の日時・会場・参加条件を確認。既存公開と照合し独立参加単位の新規候補。"
+        ],
+        "evidence": [
+          {
+            "url": "https://pc.tamemap.net/1311401/event/163281/2026-11-14?locale=ja",
+            "basis": "主催団体/担当課名が明記された提供投稿の本文で、日付・会場・参加条件を照合。"
+          }
+        ],
+        "override_reason": "",
+        "tradeoff_reason": ""
+      }
+    },
+    {
+      "tamemap_event_id": "161805",
+      "week": "2026-11-14",
+      "event": {
+        "id": "reviewed-20261115-nakano-161805",
+        "ward": "中野区",
+        "name": "鉄道上部空間活用オープンハウス（こども向け体験・展示）",
+        "url": "https://www.city.tokyo-nakano.lg.jp/machizukuri/machizukuri/oshirase/TetsudoJobu.html",
+        "official_url": "https://www.city.tokyo-nakano.lg.jp/machizukuri/machizukuri/oshirase/TetsudoJobu.html",
+        "source": "https://pc.tamemap.net/1311401/event/161805/2026-11-15?locale=ja",
+        "image": "https://pc.tamemap.net/tamemapapi/detail/7df58700-1301-4ea5-ac31-f08ec1bf229e.jpg",
+        "period": "11/15(日)",
+        "date_start": "2026-11-15",
+        "date_end": "2026-11-15",
+        "time": "",
+        "venue": "中野区立令和小学校（中野区新井4-19-26）",
+        "price": "無料",
+        "description": "鉄道上部空間の未来を生成AIでイメージするこども向け体験や、模型・パネル展示。体験・展示は申込不要・入退場自由。別のグループワークは申込終了。体験・展示の時間は公式案内で確認。",
+        "categories": [
+          "鉄道",
+          "体験",
+          "まちづくり"
+        ],
+        "family_fit": {
+          "grade": "B",
+          "overall": "B",
+          "rubric_version": "family-fit-v2",
+          "reason": "公式または主催者提供の詳細本文で日付・会場・参加条件を確認。",
+          "axes": {
+            "child_target": {
+              "grade": "A",
+              "reason": "区公式がこども向け体験ブース、お子さまから大人まで参加可能と明記。"
+            },
+            "interactivity": {
+              "grade": "A",
+              "reason": "生成AIによる未来のまち画像作成、模型・パネル展示、シール投票。"
+            },
+            "age_fit": {
+              "grade": "B",
+              "reason": "こども向け体験の記載があり、親子でまちづくりに触れられる。"
+            },
+            "stay_flexibility": {
+              "grade": "A",
+              "reason": "予約不要・当日参加可能。短時間参加の扱いは各主催者案内に従う。"
+            },
+            "burden": {
+              "grade": "B",
+              "reason": "会場と参加条件を確認。屋外では天候、写真展示では内容を保護者が事前確認。"
+            },
+            "cost": {
+              "grade": "A",
+              "reason": "区または主催者投稿に無料・入場無料の記載あり。飲食や販売品等は別途確認。"
+            },
+            "reservation": {
+              "grade": "A",
+              "reason": "対象として掲載する催しは当日参加可能または申込不要。"
+            },
+            "family_value": {
+              "grade": "B",
+              "reason": "鉄道とまちの未来を考える親子の体験・学び。"
+            }
+          }
+        },
+        "reservation": {
+          "required": false,
+          "note": "体験・展示は申込不要。グループワークの申込は終了。"
+        },
+        "indoor_outdoor": "",
+        "ai": {
+          "checked_at": "2026-11-13",
+          "confidence": "high",
+          "discovery_query": "回収済みTamemap候補の個別確認。主催者投稿・区公式本文と既存6週の掲載ID/日時/会場を照合。"
+        },
+        "discovery_sources": [
+          {
+            "channel": "explicit",
+            "source_id": "tamemap_nakano",
+            "kind": "recovered_detail_review",
+            "url": "https://pc.tamemap.net/1311401/event/161805/2026-11-15"
+          }
+        ]
+      },
+      "verification": {
+        "id": "reviewed-20261115-nakano-161805",
+        "status": "verified",
+        "source": "https://www.city.tokyo-nakano.lg.jp/machizukuri/machizukuri/oshirase/TetsudoJobu.html",
+        "source_kind": "public_official",
+        "fields": {
+          "name": "pass",
+          "date": "pass",
+          "venue": "pass",
+          "time": "unknown",
+          "price": "pass",
+          "reservation": "pass",
+          "official_url": "pass"
+        },
+        "corrections": {},
+        "note": "2026-11-13に本文の開催日・会場・主催/投稿者を個別確認。画像は内容の事実確認に使わず、未記載の時刻は空欄のまま。",
+        "evidence": [
+          {
+            "url": "https://pc.tamemap.net/1311401/event/161805/2026-11-15?locale=ja",
+            "checked_at": "2026-11-13T07:43:40+09:00",
+            "sha256": "4fc8a0ec34236f0a4d28c525d9b6a3a9729c95b85fa68f613e6d336587ac099f"
+          }
+        ]
+      },
+      "decision": {
+        "candidate_id": "reviewed-20261115-nakano-161805",
+        "name": "鉄道上部空間活用オープンハウス（こども向け体験・展示）",
+        "ward": "中野区",
+        "decision": "published",
+        "family_fit": {
+          "grade": "B",
+          "overall": "B",
+          "rubric_version": "family-fit-v2",
+          "reason": "公式または主催者提供の詳細本文で日付・会場・参加条件を確認。",
+          "axes": {
+            "child_target": {
+              "grade": "A",
+              "reason": "区公式がこども向け体験ブース、お子さまから大人まで参加可能と明記。"
+            },
+            "interactivity": {
+              "grade": "A",
+              "reason": "生成AIによる未来のまち画像作成、模型・パネル展示、シール投票。"
+            },
+            "age_fit": {
+              "grade": "B",
+              "reason": "こども向け体験の記載があり、親子でまちづくりに触れられる。"
+            },
+            "stay_flexibility": {
+              "grade": "A",
+              "reason": "予約不要・当日参加可能。短時間参加の扱いは各主催者案内に従う。"
+            },
+            "burden": {
+              "grade": "B",
+              "reason": "会場と参加条件を確認。屋外では天候、写真展示では内容を保護者が事前確認。"
+            },
+            "cost": {
+              "grade": "A",
+              "reason": "区または主催者投稿に無料・入場無料の記載あり。飲食や販売品等は別途確認。"
+            },
+            "reservation": {
+              "grade": "A",
+              "reason": "対象として掲載する催しは当日参加可能または申込不要。"
+            },
+            "family_value": {
+              "grade": "B",
+              "reason": "鉄道とまちの未来を考える親子の体験・学び。"
+            }
+          }
+        },
+        "positive_signals": [
+          "daytime",
+          "free_or_low_cost",
+          "family_venue",
+          "all_ages"
+        ],
+        "negative_signals": [],
+        "hard_exclusion": null,
+        "exclusion_type": null,
+        "primary_reason_code": "family_community_activity",
+        "reason_codes": [
+          "family_community_activity"
+        ],
+        "reasons": [
+          "詳細本文の日時・会場・参加条件を確認。既存公開と照合し独立参加単位の新規候補。"
+        ],
+        "evidence": [
+          {
+            "url": "https://www.city.tokyo-nakano.lg.jp/machizukuri/machizukuri/oshirase/TetsudoJobu.html",
+            "basis": "自治体公式本文で開催日・会場・参加条件を照合。"
+          },
+          {
+            "url": "https://pc.tamemap.net/1311401/event/161805/2026-11-15?locale=ja",
+            "basis": "同じ日時・会場の主催担当課による投稿。"
+          }
+        ],
+        "override_reason": "",
+        "tradeoff_reason": ""
+      }
+    },
+    {
+      "tamemap_event_id": "162568",
+      "week": "2026-11-21",
+      "event": {
+        "id": "reviewed-20261122-nakano-162568",
+        "ward": "中野区",
+        "name": "まごころマルシェ",
+        "url": "https://www.city.tokyo-nakano.lg.jp/kosodate/wakamonoshien/magokoromarche.html",
+        "official_url": "https://www.city.tokyo-nakano.lg.jp/kosodate/wakamonoshien/magokoromarche.html",
+        "source": "https://pc.tamemap.net/1311401/event/162568/2026-11-22?locale=ja",
+        "image": "https://pc.tamemap.net/tamemapapi/detail/f0fb315a-6fe7-4c82-8585-1aa752d5224e.jpg",
+        "period": "11/22(日)",
+        "date_start": "2026-11-22",
+        "date_end": "2026-11-22",
+        "time": "13:00〜16:00",
+        "venue": "中野区子ども・若者支援センター4階 まごころドーナッツ（中野区中央1-41-2）",
+        "price": "入場無料（販売品等は別途）",
+        "description": "プラバンやZINEの工作、レトロゲーム、似顔絵、焼き菓子・雑貨の販売など。普段の施設利用対象と異なり、誰でも来場でき、予約不要・出入り自由。",
+        "categories": [
+          "工作",
+          "マルシェ",
+          "遊び"
+        ],
+        "family_fit": {
+          "grade": "B",
+          "overall": "B",
+          "rubric_version": "family-fit-v2",
+          "reason": "公式または主催者提供の詳細本文で日付・会場・参加条件を確認。",
+          "axes": {
+            "child_target": {
+              "grade": "B",
+              "reason": "区公式が普段の施設対象に限らずどなたでも来場可能と明記。"
+            },
+            "interactivity": {
+              "grade": "A",
+              "reason": "プラバン・ZINE・ゲーム・似顔絵などの参加内容が公式に掲載。"
+            },
+            "age_fit": {
+              "grade": "B",
+              "reason": "工作・ゲームなど家族で楽しめる内容。個別企画の年齢条件は当日確認。"
+            },
+            "stay_flexibility": {
+              "grade": "A",
+              "reason": "予約不要・当日参加可能。短時間参加の扱いは各主催者案内に従う。"
+            },
+            "burden": {
+              "grade": "B",
+              "reason": "会場と参加条件を確認。屋外では天候、写真展示では内容を保護者が事前確認。"
+            },
+            "cost": {
+              "grade": "A",
+              "reason": "区または主催者投稿に無料・入場無料の記載あり。飲食や販売品等は別途確認。"
+            },
+            "reservation": {
+              "grade": "A",
+              "reason": "対象として掲載する催しは当日参加可能または申込不要。"
+            },
+            "family_value": {
+              "grade": "B",
+              "reason": "家族で工作や遊び、地域の若者との交流を共有できる。"
+            }
+          }
+        },
+        "reservation": {
+          "required": false,
+          "note": "当日参加可能。最新の開催・参加条件は主催者案内を確認。"
+        },
+        "indoor_outdoor": "屋内",
+        "ai": {
+          "checked_at": "2026-11-13",
+          "confidence": "high",
+          "discovery_query": "回収済みTamemap候補の個別確認。主催者投稿・区公式本文と既存6週の掲載ID/日時/会場を照合。"
+        },
+        "discovery_sources": [
+          {
+            "channel": "explicit",
+            "source_id": "tamemap_nakano",
+            "kind": "recovered_detail_review",
+            "url": "https://pc.tamemap.net/1311401/event/162568/2026-11-22"
+          }
+        ]
+      },
+      "verification": {
+        "id": "reviewed-20261122-nakano-162568",
+        "status": "verified",
+        "source": "https://www.city.tokyo-nakano.lg.jp/kosodate/wakamonoshien/magokoromarche.html",
+        "source_kind": "public_official",
+        "fields": {
+          "name": "pass",
+          "date": "pass",
+          "venue": "pass",
+          "time": "pass",
+          "price": "pass",
+          "reservation": "pass",
+          "official_url": "pass"
+        },
+        "corrections": {},
+        "note": "2026-11-13に本文の開催日・会場・主催/投稿者を個別確認。画像は内容の事実確認に使わず、未記載の時刻は空欄のまま。",
+        "evidence": [
+          {
+            "url": "https://pc.tamemap.net/1311401/event/162568/2026-11-22?locale=ja",
+            "checked_at": "2026-11-13T07:44:22+09:00",
+            "sha256": "f23609fbee3ae77a8e1b5477f0ea26be7e4fd3746024ebc364e670a1ae99f02f"
+          }
+        ]
+      },
+      "decision": {
+        "candidate_id": "reviewed-20261122-nakano-162568",
+        "name": "まごころマルシェ",
+        "ward": "中野区",
+        "decision": "published",
+        "family_fit": {
+          "grade": "B",
+          "overall": "B",
+          "rubric_version": "family-fit-v2",
+          "reason": "公式または主催者提供の詳細本文で日付・会場・参加条件を確認。",
+          "axes": {
+            "child_target": {
+              "grade": "B",
+              "reason": "区公式が普段の施設対象に限らずどなたでも来場可能と明記。"
+            },
+            "interactivity": {
+              "grade": "A",
+              "reason": "プラバン・ZINE・ゲーム・似顔絵などの参加内容が公式に掲載。"
+            },
+            "age_fit": {
+              "grade": "B",
+              "reason": "工作・ゲームなど家族で楽しめる内容。個別企画の年齢条件は当日確認。"
+            },
+            "stay_flexibility": {
+              "grade": "A",
+              "reason": "予約不要・当日参加可能。短時間参加の扱いは各主催者案内に従う。"
+            },
+            "burden": {
+              "grade": "B",
+              "reason": "会場と参加条件を確認。屋外では天候、写真展示では内容を保護者が事前確認。"
+            },
+            "cost": {
+              "grade": "A",
+              "reason": "区または主催者投稿に無料・入場無料の記載あり。飲食や販売品等は別途確認。"
+            },
+            "reservation": {
+              "grade": "A",
+              "reason": "対象として掲載する催しは当日参加可能または申込不要。"
+            },
+            "family_value": {
+              "grade": "B",
+              "reason": "家族で工作や遊び、地域の若者との交流を共有できる。"
+            }
+          }
+        },
+        "positive_signals": [
+          "daytime",
+          "free_or_low_cost",
+          "family_venue",
+          "all_ages"
+        ],
+        "negative_signals": [],
+        "hard_exclusion": null,
+        "exclusion_type": null,
+        "primary_reason_code": "family_community_activity",
+        "reason_codes": [
+          "family_community_activity"
+        ],
+        "reasons": [
+          "詳細本文の日時・会場・参加条件を確認。既存公開と照合し独立参加単位の新規候補。"
+        ],
+        "evidence": [
+          {
+            "url": "https://www.city.tokyo-nakano.lg.jp/kosodate/wakamonoshien/magokoromarche.html",
+            "basis": "自治体公式本文で開催日・会場・参加条件を照合。"
+          },
+          {
+            "url": "https://pc.tamemap.net/1311401/event/162568/2026-11-22?locale=ja",
+            "basis": "同じ日時・会場の主催担当課による投稿。"
+          }
+        ],
+        "override_reason": "",
+        "tradeoff_reason": ""
+      }
+    },
+    {
+      "tamemap_event_id": "163368",
+      "week": "2026-11-21",
+      "event": {
+        "id": "reviewed-20261122-nakano-163368",
+        "ward": "中野区",
+        "name": "南中野フェスティバル",
+        "url": "https://pc.tamemap.net/1311401/event/163368/2026-11-22?locale=ja",
+        "official_url": "https://pc.tamemap.net/1311401/event/163368/2026-11-22?locale=ja",
+        "source": "https://pc.tamemap.net/1311401/event/163368/2026-11-22?locale=ja",
+        "image": "https://pc.tamemap.net/tamemapapi/detail/fb2dc61b-766e-4ce0-bd21-8362a4f1815d.jpg",
+        "period": "11/22(日)",
+        "date_start": "2026-11-22",
+        "date_end": "2026-11-22",
+        "time": "",
+        "venue": "南中野区民活動センター（中野区弥生町5-5-2）",
+        "price": "無料",
+        "description": "南中野区民活動センター運営委員会が案内する、ファミリー・キッズ対象の催し。入場無料・当日参加可能。詳しい時間やプログラムは主催者の最新案内を確認。",
+        "categories": [
+          "祭り",
+          "地域交流"
+        ],
+        "family_fit": {
+          "grade": "B",
+          "overall": "B",
+          "rubric_version": "family-fit-v2",
+          "reason": "公式または主催者提供の詳細本文で日付・会場・参加条件を確認。",
+          "axes": {
+            "child_target": {
+              "grade": "A",
+              "reason": "主催する区民活動センター運営委員会の投稿でファミリー・キッズを明記。"
+            },
+            "interactivity": {
+              "grade": "unknown",
+              "reason": "具体的なプログラムは本文未記載で推測しない。"
+            },
+            "age_fit": {
+              "grade": "B",
+              "reason": "ファミリー・キッズ対象の記載あり。個別企画の年齢条件は未記載。"
+            },
+            "stay_flexibility": {
+              "grade": "unknown",
+              "reason": "当日参加可能だが、途中入退場や滞在時間の明示はない。"
+            },
+            "burden": {
+              "grade": "B",
+              "reason": "会場と参加条件を確認。屋外では天候、写真展示では内容を保護者が事前確認。"
+            },
+            "cost": {
+              "grade": "A",
+              "reason": "区または主催者投稿に無料・入場無料の記載あり。飲食や販売品等は別途確認。"
+            },
+            "reservation": {
+              "grade": "A",
+              "reason": "対象として掲載する催しは当日参加可能または申込不要。"
+            },
+            "family_value": {
+              "grade": "B",
+              "reason": "主催者が家族向けとして案内する地域フェスティバル。"
+            }
+          }
+        },
+        "reservation": {
+          "required": false,
+          "note": "当日参加可能。最新の開催・参加条件は主催者案内を確認。"
+        },
+        "indoor_outdoor": "",
+        "ai": {
+          "checked_at": "2026-11-13",
+          "confidence": "high",
+          "discovery_query": "回収済みTamemap候補の個別確認。主催者投稿・区公式本文と既存6週の掲載ID/日時/会場を照合。"
+        },
+        "discovery_sources": [
+          {
+            "channel": "explicit",
+            "source_id": "tamemap_nakano",
+            "kind": "recovered_detail_review",
+            "url": "https://pc.tamemap.net/1311401/event/163368/2026-11-22"
+          }
+        ]
+      },
+      "verification": {
+        "id": "reviewed-20261122-nakano-163368",
+        "status": "verified",
+        "source": "https://pc.tamemap.net/1311401/event/163368/2026-11-22?locale=ja",
+        "source_kind": "organizer_provided_partner",
+        "fields": {
+          "name": "pass",
+          "date": "pass",
+          "venue": "pass",
+          "time": "unknown",
+          "price": "pass",
+          "reservation": "pass",
+          "official_url": "pass"
+        },
+        "corrections": {},
+        "note": "2026-11-13に本文の開催日・会場・主催/投稿者を個別確認。画像は内容の事実確認に使わず、未記載の時刻は空欄のまま。",
+        "evidence": [
+          {
+            "url": "https://pc.tamemap.net/1311401/event/163368/2026-11-22?locale=ja",
+            "checked_at": "2026-11-13T07:44:13+09:00",
+            "sha256": "7446570ab745a7431a3a9012444d00f6f537dc373ced7928f92bc202cce1dd5d"
+          }
+        ]
+      },
+      "decision": {
+        "candidate_id": "reviewed-20261122-nakano-163368",
+        "name": "南中野フェスティバル",
+        "ward": "中野区",
+        "decision": "published",
+        "family_fit": {
+          "grade": "B",
+          "overall": "B",
+          "rubric_version": "family-fit-v2",
+          "reason": "公式または主催者提供の詳細本文で日付・会場・参加条件を確認。",
+          "axes": {
+            "child_target": {
+              "grade": "A",
+              "reason": "主催する区民活動センター運営委員会の投稿でファミリー・キッズを明記。"
+            },
+            "interactivity": {
+              "grade": "unknown",
+              "reason": "具体的なプログラムは本文未記載で推測しない。"
+            },
+            "age_fit": {
+              "grade": "B",
+              "reason": "ファミリー・キッズ対象の記載あり。個別企画の年齢条件は未記載。"
+            },
+            "stay_flexibility": {
+              "grade": "unknown",
+              "reason": "当日参加可能だが、途中入退場や滞在時間の明示はない。"
+            },
+            "burden": {
+              "grade": "B",
+              "reason": "会場と参加条件を確認。屋外では天候、写真展示では内容を保護者が事前確認。"
+            },
+            "cost": {
+              "grade": "A",
+              "reason": "区または主催者投稿に無料・入場無料の記載あり。飲食や販売品等は別途確認。"
+            },
+            "reservation": {
+              "grade": "A",
+              "reason": "対象として掲載する催しは当日参加可能または申込不要。"
+            },
+            "family_value": {
+              "grade": "B",
+              "reason": "主催者が家族向けとして案内する地域フェスティバル。"
+            }
+          }
+        },
+        "positive_signals": [
+          "daytime",
+          "free_or_low_cost",
+          "family_venue",
+          "all_ages"
+        ],
+        "negative_signals": [],
+        "hard_exclusion": null,
+        "exclusion_type": null,
+        "primary_reason_code": "family_community_activity",
+        "reason_codes": [
+          "family_community_activity"
+        ],
+        "reasons": [
+          "詳細本文の日時・会場・参加条件を確認。既存公開と照合し独立参加単位の新規候補。"
+        ],
+        "evidence": [
+          {
+            "url": "https://pc.tamemap.net/1311401/event/163368/2026-11-22?locale=ja",
+            "basis": "主催団体/担当課名が明記された提供投稿の本文で、日付・会場・参加条件を照合。"
+          }
+        ],
+        "override_reason": "",
+        "tradeoff_reason": ""
+      }
+    },
+    {
+      "tamemap_event_id": "161794",
+      "week": "2026-11-21",
+      "event": {
+        "id": "reviewed-20261122-nakano-161794",
+        "ward": "中野区",
+        "name": "CCC（Cleanup & Coffee Club）@沼袋",
+        "url": "https://pc.tamemap.net/1311401/event/161794/2026-11-22?locale=ja",
+        "official_url": "https://pc.tamemap.net/1311401/event/161794/2026-11-22?locale=ja",
+        "source": "https://pc.tamemap.net/1311401/event/161794/2026-11-22?locale=ja",
+        "image": "https://pc.tamemap.net/tamemapapi/detail/8d2a9f42-9dac-4a39-8545-9afe7ad592d1.jpeg",
+        "period": "11/22(日)",
+        "date_start": "2026-11-22",
+        "date_end": "2026-11-22",
+        "time": "8:30〜9:30",
+        "venue": "丸山塚公園入口集合（中野区沼袋2-40）",
+        "price": "無料",
+        "description": "ごみ拾いとコーヒーを通じて地域交流する活動。参加条件なし、当日参加可能。マイカップと軍手の持参に協力を（なくても主催者が用意）。",
+        "categories": [
+          "環境",
+          "地域交流",
+          "体験"
+        ],
+        "family_fit": {
+          "grade": "B",
+          "overall": "B",
+          "rubric_version": "family-fit-v2",
+          "reason": "公式または主催者提供の詳細本文で日付・会場・参加条件を確認。",
+          "axes": {
+            "child_target": {
+              "grade": "B",
+              "reason": "区担当課の投稿が参加条件なし、どなたでも参加可能と明記。"
+            },
+            "interactivity": {
+              "grade": "B",
+              "reason": "ごみ拾いとコーヒーを通じた地域交流活動。"
+            },
+            "age_fit": {
+              "grade": "B",
+              "reason": "親子で地域の環境に触れられる。子どもの作業は保護者が安全を確認。"
+            },
+            "stay_flexibility": {
+              "grade": "unknown",
+              "reason": "当日参加可能だが、途中入退場や滞在時間の明示はない。"
+            },
+            "burden": {
+              "grade": "B",
+              "reason": "会場と参加条件を確認。屋外では天候、写真展示では内容を保護者が事前確認。"
+            },
+            "cost": {
+              "grade": "A",
+              "reason": "区または主催者投稿に無料・入場無料の記載あり。飲食や販売品等は別途確認。"
+            },
+            "reservation": {
+              "grade": "A",
+              "reason": "対象として掲載する催しは当日参加可能または申込不要。"
+            },
+            "family_value": {
+              "grade": "B",
+              "reason": "家族で地域の清掃・交流に参加する体験。"
+            }
+          }
+        },
+        "reservation": {
+          "required": false,
+          "note": "当日参加可能。最新の開催・参加条件は主催者案内を確認。"
+        },
+        "indoor_outdoor": "屋外",
+        "ai": {
+          "checked_at": "2026-11-13",
+          "confidence": "high",
+          "discovery_query": "回収済みTamemap候補の個別確認。主催者投稿・区公式本文と既存6週の掲載ID/日時/会場を照合。"
+        },
+        "discovery_sources": [
+          {
+            "channel": "explicit",
+            "source_id": "tamemap_nakano",
+            "kind": "recovered_detail_review",
+            "url": "https://pc.tamemap.net/1311401/event/161794/2026-11-22"
+          }
+        ]
+      },
+      "verification": {
+        "id": "reviewed-20261122-nakano-161794",
+        "status": "verified",
+        "source": "https://pc.tamemap.net/1311401/event/161794/2026-11-22?locale=ja",
+        "source_kind": "organizer_provided_partner",
+        "fields": {
+          "name": "pass",
+          "date": "pass",
+          "venue": "pass",
+          "time": "pass",
+          "price": "pass",
+          "reservation": "pass",
+          "official_url": "pass"
+        },
+        "corrections": {},
+        "note": "2026-11-13に本文の開催日・会場・主催/投稿者を個別確認。画像は内容の事実確認に使わず、未記載の時刻は空欄のまま。",
+        "evidence": [
+          {
+            "url": "https://pc.tamemap.net/1311401/event/161794/2026-11-22?locale=ja",
+            "checked_at": "2026-11-13T07:44:06+09:00",
+            "sha256": "3598681f2374b9ccf37c93afff9e5aba21a0e53c5f8c6d6b27c9fcdb82ebf7f8"
+          }
+        ]
+      },
+      "decision": {
+        "candidate_id": "reviewed-20261122-nakano-161794",
+        "name": "CCC（Cleanup & Coffee Club）@沼袋",
+        "ward": "中野区",
+        "decision": "published",
+        "family_fit": {
+          "grade": "B",
+          "overall": "B",
+          "rubric_version": "family-fit-v2",
+          "reason": "公式または主催者提供の詳細本文で日付・会場・参加条件を確認。",
+          "axes": {
+            "child_target": {
+              "grade": "B",
+              "reason": "区担当課の投稿が参加条件なし、どなたでも参加可能と明記。"
+            },
+            "interactivity": {
+              "grade": "B",
+              "reason": "ごみ拾いとコーヒーを通じた地域交流活動。"
+            },
+            "age_fit": {
+              "grade": "B",
+              "reason": "親子で地域の環境に触れられる。子どもの作業は保護者が安全を確認。"
+            },
+            "stay_flexibility": {
+              "grade": "unknown",
+              "reason": "当日参加可能だが、途中入退場や滞在時間の明示はない。"
+            },
+            "burden": {
+              "grade": "B",
+              "reason": "会場と参加条件を確認。屋外では天候、写真展示では内容を保護者が事前確認。"
+            },
+            "cost": {
+              "grade": "A",
+              "reason": "区または主催者投稿に無料・入場無料の記載あり。飲食や販売品等は別途確認。"
+            },
+            "reservation": {
+              "grade": "A",
+              "reason": "対象として掲載する催しは当日参加可能または申込不要。"
+            },
+            "family_value": {
+              "grade": "B",
+              "reason": "家族で地域の清掃・交流に参加する体験。"
+            }
+          }
+        },
+        "positive_signals": [
+          "daytime",
+          "free_or_low_cost",
+          "family_venue",
+          "all_ages"
+        ],
+        "negative_signals": [],
+        "hard_exclusion": null,
+        "exclusion_type": null,
+        "primary_reason_code": "family_community_activity",
+        "reason_codes": [
+          "family_community_activity"
+        ],
+        "reasons": [
+          "詳細本文の日時・会場・参加条件を確認。既存公開と照合し独立参加単位の新規候補。"
+        ],
+        "evidence": [
+          {
+            "url": "https://pc.tamemap.net/1311401/event/161794/2026-11-22?locale=ja",
+            "basis": "主催団体/担当課名が明記された提供投稿の本文で、日付・会場・参加条件を照合。"
+          }
+        ],
+        "override_reason": "",
+        "tradeoff_reason": ""
+      }
+    }
+  ]
+}

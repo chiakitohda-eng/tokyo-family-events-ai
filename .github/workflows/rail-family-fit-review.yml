@@ -1,0 +1,44 @@
+name: Verify frozen rail family-fit correction without changing published data
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - 'tools/validate_rail_family_fit_correction.py'
+      - 'tests/test_rail_family_fit_gate.py'
+      - 'research/rail_family_fit_review_20261114/**'
+      - '.github/workflows/rail-family-fit-review.yml'
+  workflow_dispatch: {}
+permissions:
+  contents: read
+jobs:
+  review:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          path: scanner
+      - uses: actions/checkout@v4
+        with:
+          ref: cdad50949ead6fe7fff2e8bb28e7c22bfbdd12fd
+          path: candidate
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Regression suite including old-record and source-error preservation
+        working-directory: scanner
+        run: npm test
+      - name: Verify the frozen 7-file assessment candidate and all existing records
+        working-directory: candidate
+        run: |
+          python3 ../scanner/tools/validate_rail_family_fit_correction.py --base-ref 033c9e12728f1fca18899b3b47d9a8ca62e3ab48
+          python3 ../scanner/tools/validate_data.py --strict --min-image-coverage 0.70 site/data
+          python3 ../scanner/tools/validate_decisions.py --strict site/data
+          python3 ../scanner/tools/validate_rereview.py --strict site/data
+          python3 ../scanner/tools/audit_event_image_identity.py --strict site/data
+          python3 ../scanner/tools/validate_protected_events.py --base-ref 033c9e12728f1fca18899b3b47d9a8ca62e3ab48 site/data
+          python3 ../scanner/tools/validate_non_regression.py --base-ref 033c9e12728f1fca18899b3b47d9a8ca62e3ab48 site/data

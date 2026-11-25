@@ -1,0 +1,82 @@
+{
+  "reviewed_on": "2026-11-14",
+  "excluded_source": "tamemap",
+  "public_data_sha": "d05e78f3550ec0f302ab5a3c6550414e7dce5391",
+  "expected_final_weekly_records": 480,
+  "new_records_since_408": 72,
+  "new_programs_since_408": 55,
+  "new_records_this_resume": 32,
+  "new_programs_this_resume": 26,
+  "existing_assessments": {
+    "prior_weekly_review": 200,
+    "older_non_tamemap_review": 196,
+    "older_primary_evidence_unavailable": 10,
+    "tamemap_excluded_from_review": 2,
+    "old_events_removed": 0
+  },
+  "remaining": {
+    "all_851_candidate_bodies_individually_verified": false,
+    "women_children_festival": "2026年トップ・前年詳細・概要テンプレートの不一致。時刻と会場が未確認。",
+    "meguro_scouts": "開催年の本文根拠なし。更新日やURLだけで2026年としない。",
+    "old_evidence_unavailable": "過去公式404・一覧転送・個別日付の根拠不足など10個票。従来評価を保持。",
+    "full_events": "定員到達・締切後・終了済みは新規受付中として掲載しない。",
+    "tamemap": "利用者指定により追加調査対象外。過去の取得失敗を保持。"
+  },
+  "environment": {
+    "historical_suginami_audit": "過去失敗の証跡を残し手動再照合に限定。現行ゲートは必須のまま。",
+    "unclassified_paths": 0,
+    "wrong_kind": 0,
+    "pending_application_paths": 10,
+    "pending_ui_approved_for_production": false
+  },
+  "read_only_ci_runs": [
+    43581267867,
+    43581943377,
+    43581943403
+  ],
+  "initial_ci_failure": {
+    "run": 43581766227,
+    "reason": "保護テストを履歴のないscanner checkoutで実行。候補データのfull-history checkout内で実行するよう修正し、43581943377で合格。",
+    "data_changed_to_suppress_failure": false
+  },
+  "public_guidance_release": {
+    "version": "1.34",
+    "release": "release/2026-11-14-r3",
+    "production_sha": "f05bfe3698c0d61ece44509c4c8d8597e058125f",
+    "isolated_candidate_sha": "a2aa4a866ab59d1b0a4c0e6835405805a37488a1",
+    "changed_paths": [
+      "site/audit/pending_issues_catalog.json"
+    ],
+    "pages_run": 43582308128,
+    "pages_conclusion": "success",
+    "public_catalog_matches_production": true,
+    "public_app_js_unchanged": true,
+    "registry_refresh_public_verification": {
+      "pages_run": 43582470326,
+      "conclusion": "success",
+      "public_version": "1.34",
+      "release_snapshot_matches_registry": true
+    }
+  },
+  "final_public_verification": {
+    "verified_at": "2026-11-14T09:52:08.930549+00:00",
+    "version": "1.34",
+    "release": "release/2026-11-14-r3",
+    "public_data_records": 480,
+    "runtime_files_match_production": true,
+    "app_js_unchanged": true,
+    "registry_matches_snapshot": true,
+    "data_snapshot": "data-release/2026-11-14-r665",
+    "environment_unclassified": 0,
+    "pending_app_paths_not_promoted": 10
+  },
+  "final_mobile_guidance_verification": {
+    "verified_at": "2026-11-14T09:51:48.047156+00:00",
+    "public_home_version": "1.34",
+    "public_guidance_total": 480,
+    "reviewed_older_count_visible": 196,
+    "unavailable_evidence_count_visible": 10,
+    "mobile_no_overflow": true,
+    "remaining_work_not_claimed_complete": true
+  }
+}

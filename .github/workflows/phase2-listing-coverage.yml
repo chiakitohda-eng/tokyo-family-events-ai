@@ -1,4 +1,5 @@
 name: Phase 2 paginated listing and article-to-publication audit (read-only)
+# 2026-11-08 explicit fresh audit of live 6-week source-to-decision parity.
 
 on:
   pull_request:

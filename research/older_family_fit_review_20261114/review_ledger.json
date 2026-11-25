@@ -1,0 +1,1296 @@
+{
+  "scope_records": 208,
+  "records": [
+    {
+      "index": 0,
+      "name": "色の引き算―白・黒・いろいろ―",
+      "url": "https://www.kodomo.go.jp/event/exhibition/tenji2026-02",
+      "weekly_records": 6,
+      "status": "individually_reviewed",
+      "new_grade": "A",
+      "source_url": "https://www.kodomo.go.jp/event/exhibition/tenji2026-02"
+    },
+    {
+      "index": 1,
+      "name": "2026秋の企画展「デジタルでみる 東京自然いきもの展」",
+      "url": "https://sp.minato-kagaku.tokyo/event-2026autumnexhibition/",
+      "weekly_records": 1,
+      "status": "individually_reviewed",
+      "new_grade": "A",
+      "source_url": "https://sp.minato-kagaku.tokyo/event-2026autumnexhibition/"
+    },
+    {
+      "index": 2,
+      "name": "2026ミナコレ（MINATO COLLECTION）",
+      "url": "https://www.city.minato.tokyo.jp/bungeishinkou/minakore/home.html",
+      "weekly_records": 6,
+      "status": "individually_reviewed",
+      "new_grade": "B",
+      "source_url": "https://www.city.minato.tokyo.jp/bungeishinkou/minakore/home.html"
+    },
+    {
+      "index": 3,
+      "name": "Kids meet 大きなマリンバの木のしたで",
+      "url": "https://www.inclusion-art.jp/event/index.html",
+      "weekly_records": 1,
+      "status": "individually_reviewed",
+      "new_grade": "A",
+      "source_url": "https://www.inclusion-art.jp/archive/event/2026/20261107-422.html"
+    },
+    {
+      "index": 4,
+      "name": "企画展「Made in としまの紙芝居～日本画劇が残したもの～」",
+      "url": "https://www.city.toshima.lg.jp/129/2609101123.html",
+      "weekly_records": 6,
+      "status": "individually_reviewed",
+      "new_grade": "B",
+      "source_url": "https://www.city.toshima.lg.jp/129/2609101123.html"
+    },
+    {
+      "index": 5,
+      "name": "いまどきの子育てとマンガ展",
+      "url": "https://www.city.toshima.lg.jp/467/2607241454.html",
+      "weekly_records": 3,
+      "status": "individually_reviewed",
+      "new_grade": "A",
+      "source_url": "https://www.city.toshima.lg.jp/467/2607241454.html"
+    },
+    {
+      "index": 6,
+      "name": "企画展講演会・紙芝居実演",
+      "url": "https://www.city.toshima.lg.jp/500/2608211303.html",
+      "weekly_records": 1,
+      "status": "individually_reviewed",
+      "new_grade": "B",
+      "source_url": "https://www.city.toshima.lg.jp/129/2609101123.html"
+    },
+    {
+      "index": 7,
+      "name": "アーツ中村橋 2026―わたしとまちの記憶",
+      "url": "https://www.neribun.or.jp/event/museum.cgi?genre=2026",
+      "weekly_records": 1,
+      "status": "individually_reviewed",
+      "new_grade": "B",
+      "source_url": "https://www.nerimakanko.jp/event/detail.php?event_id=e000002865"
+    },
+    {
+      "index": 8,
+      "name": "すみだ五彩の芸術祭",
+      "url": "https://sumida-artfest.jp",
+      "weekly_records": 4,
+      "status": "individually_reviewed",
+      "new_grade": "B",
+      "source_url": "https://sumida-artfest.jp"
+    },
+    {
+      "index": 9,
+      "name": "J-WAVE『POP OF THE WORLD』〜10周年はリスナーに感謝するしかナイスワン！～",
+      "url": "https://www.j-wave.co.jp/topics/entry_popworld10th/",
+      "weekly_records": 1,
+      "status": "individually_reviewed",
+      "new_grade": "B",
+      "source_url": "https://www.j-wave.co.jp/topics/entry_popworld10th/"
+    },
+    {
+      "index": 10,
+      "name": "ファミ通40周年フェス",
+      "url": "https://www.famitsu.com/special/content/40th/",
+      "weekly_records": 1,
+      "status": "individually_reviewed",
+      "new_grade": "B",
+      "source_url": "https://www.famitsu.com/special/content/40th/"
+    },
+    {
+      "index": 11,
+      "name": "第2回 池袋ウエストグルメパーク2026",
+      "url": "https://iwgp-gourmet.com/",
+      "weekly_records": 1,
+      "status": "individually_reviewed",
+      "new_grade": "B",
+      "source_url": "https://iwgp-gourmet.com/"
+    },
+    {
+      "index": 12,
+      "name": "新宿まちフェス2026",
+      "url": "https://www.kanko-shinjuku.jp/festival2026/-/index.html",
+      "weekly_records": 1,
+      "status": "individually_reviewed",
+      "new_grade": "B",
+      "source_url": "https://www.kanko-shinjuku.jp/festival2026/-/index.html"
+    },
+    {
+      "index": 13,
+      "name": "やきいもフェス® TOKYO 2026",
+      "url": "https://yakiimofes.jp/",
+      "weekly_records": 1,
+      "status": "individually_reviewed",
+      "new_grade": "B",
+      "source_url": "https://yakiimofes.jp/"
+    },
+    {
+      "index": 14,
+      "name": "羊フェスタ2026 in なかのアンテナストリート",
+      "url": "https://hitsujifesta.com/",
+      "weekly_records": 1,
+      "status": "individually_reviewed",
+      "new_grade": "B",
+      "source_url": "https://hitsujifesta.com/"
+    },
+    {
+      "index": 15,
+      "name": "渋谷フェスティバル2026",
+      "url": "https://www.shibuya-fes.online/",
+      "weekly_records": 1,
+      "status": "individually_reviewed",
+      "new_grade": "B",
+      "source_url": "https://www.shibuya-fes.online/"
+    },
+    {
+      "index": 16,
+      "name": "第18回渋谷芸術祭2026 ～SHIBUYA ART SCRAMBLE～",
+      "url": "http://shibuyaartscramble.tokyo",
+      "weekly_records": 1,
+      "status": "individually_reviewed",
+      "new_grade": "B",
+      "source_url": "https://shibuyaartscramble.tokyo/"
+    },
+    {
+      "index": 17,
+      "name": "東京ノルディック・ウォークフェスタ2026 in お台場",
+      "url": "https://www.nordic-walk.or.jp/",
+      "weekly_records": 1,
+      "status": "individually_reviewed",
+      "new_grade": "B",
+      "source_url": "https://www.nordic-walk.or.jp/"
+    },
+    {
+      "index": 18,
+      "name": "特別展「エリック・カールといのちの色‐同じ世界で、ちがう色‐」",
+      "url": "https://www.aquarium.gr.jp/news/events/31639",
+      "weekly_records": 6,
+      "status": "individually_reviewed",
+      "new_grade": "A",
+      "source_url": "https://www.aquarium.gr.jp/news/events/31639"
+    },
+    {
+      "index": 19,
+      "name": "秋の自然たんけんラリー",
+      "url": "https://nakazato.ces-net.jp/",
+      "weekly_records": 3,
+      "status": "individually_reviewed",
+      "new_grade": "A",
+      "source_url": "https://www.nerimakanko.jp/event/detail.php?event_id=e000002940"
+    },
+    {
+      "index": 20,
+      "name": "中里の秋さがしミッション！",
+      "url": "https://nakazato.ces-net.jp/",
+      "weekly_records": 3,
+      "status": "individually_reviewed",
+      "new_grade": "A",
+      "source_url": "https://www.nerimakanko.jp/event/detail.php?event_id=e000002941"
+    },
+    {
+      "index": 21,
+      "name": "2026オータムフェスティバル",
+      "url": "https://www.shikinokaori-rose-garden.com/",
+      "weekly_records": 2,
+      "status": "individually_reviewed",
+      "new_grade": "B",
+      "source_url": "https://www.shikinokaori-rose-garden.com/"
+    },
+    {
+      "index": 22,
+      "name": "森のようちえん～身近なみどりで育てる未来の力～",
+      "url": "https://www.midorikankyo.net/",
+      "weekly_records": 1,
+      "status": "individually_reviewed",
+      "new_grade": "A",
+      "source_url": "https://www.nerimakanko.jp/event/detail.php?event_id=e000002948"
+    },
+    {
+      "index": 23,
+      "name": "解体前の特別企画「としまえん古城の塔と練馬城歴史探訪ツアー」",
+      "url": "https://www.nerimakanko.jp/tour/detail.php?tour_id=TO000000045",
+      "weekly_records": 1,
+      "status": "individually_reviewed",
+      "new_grade": "B",
+      "source_url": "https://www.nerimakanko.jp/event/detail.php?event_id=e000002957"
+    },
+    {
+      "index": 24,
+      "name": "没後70年 茂田井武とパリの画家たち　―Parisの破片(カケラ)― ＜同時開催＞ ちひろ 旅のたのしみ",
+      "url": "https://chihiro.jp/tokyo/exhibitions/2026/",
+      "weekly_records": 6,
+      "status": "individually_reviewed",
+      "new_grade": "A",
+      "source_url": "https://chihiro.jp/tokyo/exhibitions/2026/"
+    },
+    {
+      "index": 25,
+      "name": "牧野記念庭園花マルシェ",
+      "url": "https://www.city.nerima.tokyo.jp/kankomoyoshi/annai/fukei/makinokinenteien/makinomarushe.html",
+      "weekly_records": 1,
+      "status": "individually_reviewed",
+      "new_grade": "B",
+      "source_url": "https://www.nerimakanko.jp/event/detail.php?event_id=e000002966"
+    },
+    {
+      "index": 26,
+      "name": "中野×杉並×豊島アニメ・マンガフェス2026 in 杉並",
+      "url": "https://www.city.suginami.tokyo.jp/s033/event/28657.html",
+      "weekly_records": 1,
+      "status": "needs_historical_primary_evidence",
+      "reason": "元の公式詳細が404。終了した11/7〜8の開催内容を現在の本文では再取得できない。",
+      "retrieval": {
+        "url": "https://www.city.suginami.tokyo.jp/s033/event/28657.html",
+        "checked_at": "2026-11-14T16:52:19+09:00",
+        "status": "error",
+        "error": "HTTP Error 404: Not Found",
+        "http_status": 404,
+        "final_url": "https://www.city.suginami.tokyo.jp/s033/event/28657.html",
+        "response_server": "envoy",
+        "response_content_type": "text/html",
+        "response_title": "ページが見つかりません｜杉並区公式ホームページ",
+        "error_body_sha256": "d03e6253e2845041ec8c1fce6a86814344981f831f03e10e18aabfdba25863f6",
+        "error_body_truncated": true,
+        "cloudflare_challenge_detected": false,
+        "challenge_detected": false,
+        "response_cf_ray_present": false,
+        "error_kind": "official_page_not_found",
+        "retryable_http_error": false
+      },
+      "existing_records_kept": true
+    },
+    {
+      "index": 27,
+      "name": "あすなろまつり2026（あすなろ作業所）",
+      "url": "https://www.city.suginami.tokyo.jp/s036/event/28990.html",
+      "weekly_records": 1,
+      "status": "needs_historical_primary_evidence",
+      "reason": "元の公式詳細が404。終了した11/7の個別内容を現在の本文では再取得できない。",
+      "retrieval": {
+        "url": "https://www.city.suginami.tokyo.jp/s036/event/28990.html",
+        "checked_at": "2026-11-14T16:52:21+09:00",
+        "status": "error",
+        "error": "HTTP Error 404: Not Found",
+        "http_status": 404,
+        "final_url": "https://www.city.suginami.tokyo.jp/s036/event/28990.html",
+        "response_server": "envoy",
+        "response_content_type": "text/html",
+        "response_title": "ページが見つかりません｜杉並区公式ホームページ",
+        "error_body_sha256": "d03e6253e2845041ec8c1fce6a86814344981f831f03e10e18aabfdba25863f6",
+        "error_body_truncated": true,
+        "cloudflare_challenge_detected": false,
+        "challenge_detected": false,
+        "response_cf_ray_present": false,
+        "error_kind": "official_page_not_found",
+        "retryable_http_error": false
+      },
+      "existing_records_kept": true
+    },
+    {
+      "index": 28,
+      "name": "OTAふれあいフェスタ2026",
+      "url": "https://www.o-2.jp/event/otafureaifesta2026/",
+      "weekly_records": 1,
+      "status": "individually_reviewed",
+      "new_grade": "A",
+      "source_url": "https://www.o-2.jp/event/otafureaifesta2026/"
+    },
+    {
+      "index": 29,
+      "name": "わかばの家 第32回こどもまつり",
+      "url": "https://www.city.ota.tokyo.jp/seikatsu/fukushi/shougai/hoiku_kyoiku/hoiku/kodomo-matsuri_20261108.html",
+      "weekly_records": 1,
+      "status": "needs_historical_primary_evidence",
+      "reason": "元の公式詳細が404。検索索引には残るが、現在の公式本文は取得できない。",
+      "retrieval": {
+        "url": "https://www.city.ota.tokyo.jp/seikatsu/fukushi/shougai/hoiku_kyoiku/hoiku/kodomo-matsuri_20261108.html",
+        "checked_at": "2026-11-14T16:52:15+09:00",
+        "status": "error",
+        "error": "HTTP Error 404: Not Found",
+        "http_status": 404,
+        "final_url": "https://www.city.ota.tokyo.jp/seikatsu/fukushi/shougai/hoiku_kyoiku/hoiku/kodomo-matsuri_20261108.html",
+        "response_server": "envoy",
+        "response_content_type": "text/html",
+        "response_title": "大田区ホームページ：ページが見つかりません",
+        "error_body_sha256": "37b4049bd1b1e140f6d4bacba24e037655e3a7b8b714f7b3e528c150448ddc11",
+        "error_body_truncated": true,
+        "cloudflare_challenge_detected": false,
+        "challenge_detected": false,
+        "response_cf_ray_present": false,
+        "error_kind": "official_page_not_found",
+        "retryable_http_error": false
+      },
+      "existing_records_kept": true
+    },
+    {
+      "index": 30,
+      "name": "中野にぎわいフェスタ2026秋",
+      "url": "https://nigiwaifesta.com/",
+      "weekly_records": 1,
+      "status": "individually_reviewed",
+      "new_grade": "A",
+      "source_url": "https://nigiwaifesta.com/"
+    },
+    {
+      "index": 31,
+      "name": "目黒リバーサイドフェスティバル2026",
+      "url": "https://meguro-river.com/",
+      "weekly_records": 1,
+      "status": "individually_reviewed",
+      "new_grade": "A",
+      "source_url": "https://meguro-river.com/"
+    },
+    {
+      "index": 32,
+      "name": "てんぼうパーク×ときめきメモリアル Girl's Side ときめきスカイデート",
+      "url": "https://sunshinecity.jp/observatory/event/entry-38584.html",
+      "weekly_records": 1,
+      "status": "needs_historical_primary_evidence",
+      "reason": "終了した展望台コラボの公式URLが404。後日の催事を同一企画の根拠にしない。",
+      "retrieval": {
+        "url": "https://sunshinecity.jp/observatory/event/entry-38584.html",
+        "checked_at": "2026-11-14T16:51:27+09:00",
+        "status": "error",
+        "error": "HTTP Error 404: Not Found",
+        "http_status": 404,
+        "final_url": "https://sunshinecity.jp/observatory/event/entry-38584.html",
+        "response_server": "envoy",
+        "response_content_type": "text/html; charset=UTF-8",
+        "response_title": "イベント | 池袋 ・サンシャイン60展望台 てんぼうパーク",
+        "error_body_sha256": "f4a217d3a8810f68900b68d56483fdb4a643344830240565fc7a4fd3922570b0",
+        "error_body_truncated": true,
+        "cloudflare_challenge_detected": false,
+        "challenge_detected": false,
+        "response_cf_ray_present": true,
+        "error_kind": "ambiguous_http_404",
+        "retryable_http_error": false
+      },
+      "existing_records_kept": true
+    },
+    {
+      "index": 33,
+      "name": "森万里子:燦燦",
+      "url": "https://www.mori.art.museum/jp/exhibitions/marikomori/index.html",
+      "weekly_records": 6,
+      "status": "individually_reviewed",
+      "new_grade": "B",
+      "source_url": "https://www.mori.art.museum/jp/exhibitions/marikomori/index.html"
+    },
+    {
+      "index": 34,
+      "name": "国際美術展 TOKYO ATLAS",
+      "url": "https://tokyoatlas.jp/",
+      "weekly_records": 6,
+      "status": "individually_reviewed",
+      "new_grade": "B",
+      "source_url": "https://tokyoatlas.jp/"
+    },
+    {
+      "index": 35,
+      "name": "【企画展】「海を渡ってきた植物の物語」",
+      "url": "https://www.makinoteien.jp/",
+      "weekly_records": 6,
+      "status": "individually_reviewed",
+      "new_grade": "B",
+      "source_url": "https://www.makinoteien.jp/exhibition/%e3%80%90%e4%bc%81%e7%94%bb%e5%b1%95%e3%80%91%e3%80%8c%e6%b5%b7%e3%82%92%e6%b8%a1%e3%81%a3%e3%81%a6%e3%81%8d%e3%81%9f%e6%a4%8d%e7%89%a9%e3%81%ae%e7%89%a9%e8%aa%9e%e3%80%8d-2/"
+    },
+    {
+      "index": 36,
+      "name": "食の体験ワークショップ（なかの里・まち連携事業）",
+      "url": "https://www.city.tokyo-nakano.lg.jp/kanko/machirenkei/shotengai_sinmai.html",
+      "weekly_records": 1,
+      "status": "needs_historical_primary_evidence",
+      "reason": "満席・受付終了として掲載された11/7〜8の公式詳細が404。既存の受付終了表示を保持。",
+      "retrieval": {
+        "url": "https://www.city.tokyo-nakano.lg.jp/kanko/machirenkei/shotengai_sinmai.html",
+        "checked_at": "2026-11-14T16:52:29+09:00",
+        "status": "error",
+        "error": "HTTP Error 404: Not Found",
+        "http_status": 404,
+        "final_url": "https://www.city.tokyo-nakano.lg.jp/kanko/machirenkei/shotengai_sinmai.html",
+        "response_server": "envoy",
+        "response_content_type": "text/html",
+        "response_title": "お探しのページを表示できません",
+        "error_body_sha256": "1aaba2d1cbd1ba6a5ea4a79dc76ae32aa4f85718656e3c66930858067ab41adb",
+        "error_body_truncated": false,
+        "cloudflare_challenge_detected": false,
+        "challenge_detected": false,
+        "response_cf_ray_present": false,
+        "error_kind": "ambiguous_http_404",
+        "retryable_http_error": false
+      },
+      "existing_records_kept": true
+    },
+    {
+      "index": 37,
+      "name": "第三地区祭（向山）",
+      "url": "https://www.city.nerima.tokyo.jp/kankomoyoshi/annai/omatsuri/chikusai/20260616103208700.html",
+      "weekly_records": 1,
+      "status": "individually_reviewed",
+      "new_grade": "A",
+      "source_url": "https://www.city.nerima.tokyo.jp/kankomoyoshi/annai/omatsuri/chikusai/20260616103208700.html"
+    },
+    {
+      "index": 38,
+      "name": "石神井地区祭",
+      "url": "https://www.city.nerima.tokyo.jp/kankomoyoshi/annai/omatsuri/chikusai/20260616103208700.html",
+      "weekly_records": 1,
+      "status": "individually_reviewed",
+      "new_grade": "A",
+      "source_url": "https://www.city.nerima.tokyo.jp/kankomoyoshi/annai/omatsuri/chikusai/20260616103208700.html"
+    },
+    {
+      "index": 39,
+      "name": "旭町広場の祭典（第六地区祭）",
+      "url": "https://www.city.nerima.tokyo.jp/kankomoyoshi/annai/omatsuri/chikusai/20260616103208700.html",
+      "weekly_records": 1,
+      "status": "individually_reviewed",
+      "new_grade": "B",
+      "source_url": "https://www.city.nerima.tokyo.jp/kankomoyoshi/annai/omatsuri/chikusai/20260616103208700.html"
+    },
+    {
+      "index": 40,
+      "name": "谷原地区祭",
+      "url": "https://www.city.nerima.tokyo.jp/kankomoyoshi/annai/omatsuri/chikusai/20260616103208700.html",
+      "weekly_records": 1,
+      "status": "individually_reviewed",
+      "new_grade": "A",
+      "source_url": "https://www.city.nerima.tokyo.jp/kankomoyoshi/annai/omatsuri/chikusai/20260616103208700.html"
+    },
+    {
+      "index": 41,
+      "name": "第四地区祭（高松）",
+      "url": "https://www.city.nerima.tokyo.jp/kankomoyoshi/annai/omatsuri/chikusai/20260616103208700.html",
+      "weekly_records": 1,
+      "status": "individually_reviewed",
+      "new_grade": "A",
+      "source_url": "https://www.city.nerima.tokyo.jp/kankomoyoshi/annai/omatsuri/chikusai/20260616103208700.html"
+    },
+    {
+      "index": 42,
+      "name": "Kids meet × Studio oowa「こうえん」～あの子のスペースをつくる～",
+      "url": "https://www.inclusion-art.jp/archive/interactive/2026/20261010-390.html",
+      "weekly_records": 1,
+      "status": "individually_reviewed",
+      "new_grade": "A",
+      "source_url": "https://www.inclusion-art.jp/archive/interactive/2026/20261010-390.html"
+    },
+    {
+      "index": 43,
+      "name": "サンシャイン水族館 特別展「ざんねんないきもの展３」",
+      "url": "https://sunshinecity.jp/aquarium/event_performance/event/entry-36530.html",
+      "weekly_records": 3,
+      "status": "individually_reviewed",
+      "new_grade": "A",
+      "source_url": "https://sunshinecity.jp/aquarium/event_performance/event/entry-36530.html"
+    },
+    {
+      "index": 44,
+      "name": "すぎなみフェスタ2026（キッズタウン・スポーツ体験）",
+      "url": "https://www.sugifes.com/event/",
+      "weekly_records": 1,
+      "status": "individually_reviewed",
+      "new_grade": "A",
+      "source_url": "https://www.sugifes.com/event/"
+    },
+    {
+      "index": 45,
+      "name": "第4回やよいふくさく祭り",
+      "url": "https://nakanoshakyo.com/nakanoinfo/event/result/?did=14590",
+      "weekly_records": 1,
+      "status": "needs_historical_primary_evidence",
+      "reason": "HTTP200でも個別記事ではなく一覧へ戻る。開催済み記事の内容検証は再取得待ち。",
+      "retrieval": {
+        "url": "https://nakanoshakyo.com/nakanoinfo/event/result/?did=14590",
+        "checked_at": "2026-11-14T16:51:06+09:00",
+        "status": "checked",
+        "http_status": 200,
+        "final_url": "https://nakanoshakyo.com/nakanoinfo/event/index.php",
+        "content_type": "text/html; charset=UTF-8",
+        "bytes": 10977,
+        "sha256": "aaf0897374a5cccdc6b68a163bbb59efa2c6f36ce24181198f98718a85ea1140"
+      },
+      "existing_records_kept": true
+    },
+    {
+      "index": 46,
+      "name": "親子も！シニアも！まちあるきスタンプラリー",
+      "url": "https://nakanoshakyo.com/nakanoinfo/event/result/?did=14585",
+      "weekly_records": 1,
+      "status": "needs_historical_primary_evidence",
+      "reason": "HTTP200でも個別記事ではなく一覧へ戻る。開催済み記事の内容検証は再取得待ち。",
+      "retrieval": {
+        "url": "https://nakanoshakyo.com/nakanoinfo/event/result/?did=14585",
+        "checked_at": "2026-11-14T16:51:03+09:00",
+        "status": "checked",
+        "http_status": 200,
+        "final_url": "https://nakanoshakyo.com/nakanoinfo/event/index.php",
+        "content_type": "text/html; charset=UTF-8",
+        "bytes": 10977,
+        "sha256": "aaf0897374a5cccdc6b68a163bbb59efa2c6f36ce24181198f98718a85ea1140"
+      },
+      "existing_records_kept": true
+    },
+    {
+      "index": 47,
+      "name": "みちみちこみち2026 小道探偵と謎解き問答日本橋",
+      "url": "https://www.keepallsmiles.com/komichi2026",
+      "weekly_records": 4,
+      "status": "individually_reviewed",
+      "new_grade": "A",
+      "source_url": "https://www.keepallsmiles.com/komichi2026"
+    },
+    {
+      "index": 48,
+      "name": "第10回羽田航空博物館展 in HICity",
+      "url": "https://www.o-2.jp/en/event/hasmhicity2026/",
+      "weekly_records": 4,
+      "status": "individually_reviewed",
+      "new_grade": "B",
+      "source_url": "https://www.o-2.jp/en/event/hasmhicity2026/"
+    },
+    {
+      "index": 49,
+      "name": "ユアサエボシと戦後アヴァンギャルドの変身寓話集",
+      "url": "https://www.neribun.or.jp/event/museum.cgi?genre=2026",
+      "weekly_records": 6,
+      "status": "individually_reviewed",
+      "new_grade": "B",
+      "source_url": "https://www.neribun.or.jp/event/detail_m.cgi?id=202608151786784919"
+    },
+    {
+      "index": 50,
+      "name": "11月 いつでもものづくり",
+      "url": "https://www.imaginus-suginami.jp/events/2026/10/01/11852/",
+      "weekly_records": 4,
+      "status": "individually_reviewed",
+      "new_grade": "A",
+      "source_url": "https://www.imaginus-suginami.jp/events/2026/10/01/11852/"
+    },
+    {
+      "index": 51,
+      "name": "ねりまの森こどもフェスタ「中ノ宮竹林こどもまつり」",
+      "url": "https://www.city.nerima.tokyo.jp/kurashi/shigoto/midori/shokai/nerimanomori.html",
+      "weekly_records": 1,
+      "status": "individually_reviewed",
+      "new_grade": "A",
+      "source_url": "https://www.city.nerima.tokyo.jp/kurashi/shigoto/midori/shokai/nerimanomori.html"
+    },
+    {
+      "index": 52,
+      "name": "講演会「モノクローム表現を用いた絵本」",
+      "url": "https://www.kodomo.go.jp/event/exhibition/tenji2026-02",
+      "weekly_records": 1,
+      "status": "individually_reviewed",
+      "new_grade": "C",
+      "source_url": "https://www.kodomo.go.jp/event/exhibition/tenji2026-02"
+    },
+    {
+      "index": 53,
+      "name": "TOKYOカルチャーデビューPARK",
+      "url": "https://tokyo-culture-debut.rekibun.or.jp/park/",
+      "weekly_records": 1,
+      "status": "individually_reviewed",
+      "new_grade": "A",
+      "source_url": "https://tokyo-culture-debut.rekibun.or.jp/park/"
+    },
+    {
+      "index": 54,
+      "name": "秋の海の森まつり",
+      "url": "https://tokyo-kodomo-hp.metro.tokyo.lg.jp/event/",
+      "weekly_records": 1,
+      "status": "needs_historical_primary_evidence",
+      "reason": "現在の都公式一覧に当該名がなく、同日同会場の別イベントを同一視しない。",
+      "retrieval": {
+        "url": "https://tokyo-kodomo-hp.metro.tokyo.lg.jp/event/",
+        "checked_at": "2026-11-14T16:51:29+09:00",
+        "status": "checked",
+        "http_status": 200,
+        "final_url": "https://tokyo-kodomo-hp.metro.tokyo.lg.jp/event/",
+        "content_type": "text/html",
+        "bytes": 180809,
+        "sha256": "eb962024194ec94626e6f634eda9cfa4354451967340ab79e9e864352bc37554"
+      },
+      "existing_records_kept": true
+    },
+    {
+      "index": 55,
+      "name": "第2回 海の森でASOBO！Sai",
+      "url": "https://tokyo-kodomo-hp.metro.tokyo.lg.jp/event/",
+      "weekly_records": 1,
+      "status": "individually_reviewed",
+      "new_grade": "A",
+      "source_url": "https://tokyo-kodomo-hp.metro.tokyo.lg.jp/event/"
+    },
+    {
+      "index": 56,
+      "name": "子ども子育てフェスタかつしか2026",
+      "url": "https://www2.city.katsushika.lg.jp/kosodate/1000056/1023387/1031282.html",
+      "weekly_records": 1,
+      "status": "individually_reviewed",
+      "new_grade": "A",
+      "source_url": "https://www2.city.katsushika.lg.jp/kosodate/1000056/1023387/1031282.html"
+    },
+    {
+      "index": 57,
+      "name": "大田区制80周年記念事業 平和祈念花火2026 ～笑顔を未来につなぐ～",
+      "url": "https://www.city.ota.tokyo.jp/kanko/topics/heiwakinenhanabi.html",
+      "weekly_records": 1,
+      "status": "individually_reviewed",
+      "new_grade": "B",
+      "source_url": "https://www.city.ota.tokyo.jp/kanko/topics/heiwakinenhanabi.html"
+    },
+    {
+      "index": 58,
+      "name": "2026青森人の祭典",
+      "url": "https://www.tokyoaomorikenjinkai.org/pages/8627660/page_202501052146",
+      "weekly_records": 1,
+      "status": "needs_historical_primary_evidence",
+      "reason": "主催者の取得本文は催事名と出店募集終了のみ。個別プログラムの再確認は未完了。",
+      "retrieval": {
+        "url": "https://www.tokyoaomorikenjinkai.org/pages/8627660/page_202501052146",
+        "checked_at": "2026-11-14T16:52:58+09:00",
+        "status": "checked",
+        "http_status": 200,
+        "final_url": "https://www.tokyoaomorikenjinkai.org/pages/8627660/page_202501052146",
+        "content_type": "text/html; charset=utf-8",
+        "bytes": 31509,
+        "sha256": "8f55d10681385e874af23ece092c8e9a376151f17b1f9d4a2e4674612376b1e3"
+      },
+      "existing_records_kept": true
+    },
+    {
+      "index": 59,
+      "name": "煌めき☆アンフォレント2nd アジアツアー2026-27 「ねぇ宇宙を救うのはやっぱりお会計...？ じゃなくって、煌めき☆アンフォレント！！」東京",
+      "url": "https://x.com/kirafore_info/status/2099121743747055820",
+      "weekly_records": 1,
+      "status": "needs_historical_primary_evidence",
+      "reason": "主催者投稿の取得本文では当該11/15公演の会場・条件を再確認できない。",
+      "retrieval": {
+        "url": "https://x.com/kirafore_info/status/2099121743747055820",
+        "checked_at": "2026-11-14T16:53:00+09:00",
+        "status": "checked",
+        "http_status": 200,
+        "final_url": "https://x.com/kirafore_info/status/2099121743747055820",
+        "content_type": "text/html; charset=UTF-8",
+        "bytes": 169031,
+        "sha256": "6507bcbc9418bad5077fb6aeffa3349776ba788b01a81778f129fc9e65873672"
+      },
+      "existing_records_kept": true
+    },
+    {
+      "index": 60,
+      "name": "HIBIYA Magic Time Illumination 2026",
+      "url": "https://www.hibiya.tokyo-midtown.com/jp/event/7587/",
+      "weekly_records": 5,
+      "status": "individually_reviewed",
+      "new_grade": "B",
+      "source_url": "https://www.hibiya.tokyo-midtown.com/jp/event/7587/"
+    },
+    {
+      "index": 61,
+      "name": "Hibiya Art Park 2026 - Timeless Phenomena 確かにありそうなもの -",
+      "url": "https://www.tokyo-park.or.jp/special/flowerandlight/hibiya2026autumn/index.html",
+      "weekly_records": 3,
+      "status": "individually_reviewed",
+      "new_grade": "B",
+      "source_url": "https://www.tokyo-park.or.jp/special/flowerandlight/hibiya2026autumn/index.html"
+    },
+    {
+      "index": 62,
+      "name": "池袋GLOBAL RING音楽祭2026",
+      "url": "https://globalring-music.com/",
+      "weekly_records": 1,
+      "status": "individually_reviewed",
+      "new_grade": "B",
+      "source_url": "https://globalring-music.com/"
+    },
+    {
+      "index": 63,
+      "name": "祝）ACN presents代々木フォレスト・オブ・ライツ ～光の森～",
+      "url": "https://www.yoyogiforestoflights.tokyo/",
+      "weekly_records": 5,
+      "status": "individually_reviewed",
+      "new_grade": "B",
+      "source_url": "https://www.yoyogiforestoflights.tokyo/"
+    },
+    {
+      "index": 64,
+      "name": "フィエスタ・デ・エスパーニャ 2026",
+      "url": "https://spainfes.com",
+      "weekly_records": 1,
+      "status": "individually_reviewed",
+      "new_grade": "B",
+      "source_url": "https://spainfes.com"
+    },
+    {
+      "index": 65,
+      "name": "SANTA PARADE TOKYO2026",
+      "url": "https://santarun.jp/",
+      "weekly_records": 1,
+      "status": "individually_reviewed",
+      "new_grade": "B",
+      "source_url": "https://santarun.jp/entry"
+    },
+    {
+      "index": 66,
+      "name": "第71回秋の区民文化祭",
+      "url": "https://www.city.nerima.tokyo.jp/kankomoyoshi/shogaigakushu/kyogikai/kuminbunkasai.html",
+      "weekly_records": 1,
+      "status": "individually_reviewed",
+      "new_grade": "B",
+      "source_url": "https://www.city.nerima.tokyo.jp/kankomoyoshi/shogaigakushu/kyogikai/kuminbunkasai.html"
+    },
+    {
+      "index": 67,
+      "name": "環境（エコ）フェスタたいとう2026",
+      "url": "https://www.city.taito.lg.jp/kenchiku/kankyo/kankyogakushu/kankyofesta/ecofesta2026.html",
+      "weekly_records": 1,
+      "status": "individually_reviewed",
+      "new_grade": "A",
+      "source_url": "https://www.city.taito.lg.jp/kenchiku/kankyo/kankyogakushu/kankyofesta/ecofesta2026.html"
+    },
+    {
+      "index": 68,
+      "name": "MEET SUMIDA 2026 ～すみだの「人」「技」「もの」に出会う～",
+      "url": "https://sumida-artfest.jp/events/",
+      "weekly_records": 1,
+      "status": "individually_reviewed",
+      "new_grade": "A",
+      "source_url": "https://sumida-artfest.jp/programs/3986/"
+    },
+    {
+      "index": 69,
+      "name": "江戸の算術で遊ぼう！北斎の紙芝居と折り紙体験",
+      "url": "https://sumida-artfest.jp/events/",
+      "weekly_records": 1,
+      "status": "individually_reviewed",
+      "new_grade": "A",
+      "source_url": "https://sumida-artfest.jp/events/"
+    },
+    {
+      "index": 70,
+      "name": "EVをもっと身近に！＠カーメスト用賀馬事公苑",
+      "url": "https://kodomo-smile.metro.tokyo.lg.jp/events/setagayaku",
+      "weekly_records": 1,
+      "status": "individually_reviewed",
+      "new_grade": "A",
+      "source_url": "https://www.to-kousya.or.jp/action/ev_event.html"
+    },
+    {
+      "index": 71,
+      "name": "親子で学ぶはじめての自転車教室",
+      "url": "https://www.city.ota.tokyo.jp/event/calendar/list_calendar202611.html",
+      "weekly_records": 1,
+      "status": "individually_reviewed",
+      "new_grade": "A",
+      "source_url": "https://www.city.ota.tokyo.jp/seikatsu/sumaimachinami/kotsuanzen/event/oyakojitensha.html"
+    },
+    {
+      "index": 72,
+      "name": "第49回板橋農業まつり（令和8年度）",
+      "url": "https://www.city.itabashi.tokyo.jp/bousai/nougyo/event/matsuri/1066138.html",
+      "weekly_records": 1,
+      "status": "individually_reviewed",
+      "new_grade": "A",
+      "source_url": "https://www.city.itabashi.tokyo.jp/bousai/nougyo/event/matsuri/1066138.html"
+    },
+    {
+      "index": 73,
+      "name": "谷戸フェス2026",
+      "weekly_records": 1,
+      "status": "deferred_user_excluded_tamemap",
+      "reason": "ユーザー指定により、ためまっぷの再取得・評価変更を行わない。"
+    },
+    {
+      "index": 74,
+      "name": "親子リトミックコンサート",
+      "weekly_records": 1,
+      "status": "deferred_user_excluded_tamemap",
+      "reason": "ユーザー指定により、ためまっぷの再取得・評価変更を行わない。"
+    },
+    {
+      "index": 75,
+      "name": "NAKANO NEW FACE MARKET（中高生の販売体験）",
+      "url": "https://www.city.tokyo-nakano.lg.jp/event/kosodate/sogyokyoiku.html",
+      "weekly_records": 1,
+      "status": "individually_reviewed",
+      "new_grade": "B",
+      "source_url": "https://www.city.tokyo-nakano.lg.jp/event/kosodate/sogyokyoiku.html"
+    },
+    {
+      "index": 76,
+      "name": "北三こどもまつり",
+      "url": "https://www.city.shinjuku.lg.jp/kusei/kashiwagi01_000001_00042.html",
+      "weekly_records": 1,
+      "status": "individually_reviewed",
+      "new_grade": "B",
+      "source_url": "https://www.city.shinjuku.lg.jp/kusei/kashiwagi01_000001_00042.html"
+    },
+    {
+      "index": 77,
+      "name": "レッツゴー大久保地域センター",
+      "url": "https://www.city.shinjuku.lg.jp/kusei/kashiwagi01_000001_00042.html",
+      "weekly_records": 1,
+      "status": "individually_reviewed",
+      "new_grade": "B",
+      "source_url": "https://www.city.shinjuku.lg.jp/kusei/kashiwagi01_000001_00042.html"
+    },
+    {
+      "index": 78,
+      "name": "小学生のための編集教室「ぬりえで学ぶ色の基本」",
+      "url": "https://kodomo-smile.metro.tokyo.lg.jp/events/4231",
+      "weekly_records": 1,
+      "status": "individually_reviewed",
+      "new_grade": "A",
+      "source_url": "https://www.kokuchpro.com/event/877cecc8413810ccd217f10bd71f7ac8/"
+    },
+    {
+      "index": 79,
+      "name": "NIJIN教育万博2026（子ども体験・ワークショップ）",
+      "url": "https://expo.nijin.co.jp/venue-real/",
+      "weekly_records": 1,
+      "status": "individually_reviewed",
+      "new_grade": "A",
+      "source_url": "https://expo.nijin.co.jp/venue-real/"
+    },
+    {
+      "index": 80,
+      "name": "全国都市農業フェスティバル2027 プレイベント",
+      "url": "https://www.city.nerima.tokyo.jp/kankomoyoshi/nogyo/toshinou_festival/festival2027pre.html",
+      "weekly_records": 1,
+      "status": "individually_reviewed",
+      "new_grade": "B",
+      "source_url": "https://www.city.nerima.tokyo.jp/kankomoyoshi/nogyo/toshinou_festival/festival2027pre.html"
+    },
+    {
+      "index": 81,
+      "name": "えどがわパラスポーツ体験会inスポーツセンター（参加対象要確認）",
+      "url": "https://www.city.edogawa.tokyo.jp/e028/sports/sports/parasports/torikumi/jigyo/edopara.html",
+      "weekly_records": 1,
+      "status": "individually_reviewed",
+      "new_grade": "A",
+      "source_url": "https://www.city.edogawa.tokyo.jp/e028/sports/sports/parasports/torikumi/jigyo/edopara.html"
+    },
+    {
+      "index": 82,
+      "name": "第71回秋の区民文化祭 手工芸作家展",
+      "url": "https://www.city.nerima.tokyo.jp/kankomoyoshi/shogaigakushu/kyogikai/kuminbunkasai.html",
+      "weekly_records": 1,
+      "status": "individually_reviewed",
+      "new_grade": "B",
+      "source_url": "https://www.city.nerima.tokyo.jp/kankomoyoshi/shogaigakushu/kyogikai/kuminbunkasai.html"
+    },
+    {
+      "index": 83,
+      "name": "第71回秋の区民文化祭 日本舞踊の会",
+      "url": "https://www.city.nerima.tokyo.jp/kankomoyoshi/shogaigakushu/kyogikai/kuminbunkasai.html",
+      "weekly_records": 1,
+      "status": "individually_reviewed",
+      "new_grade": "B",
+      "source_url": "https://www.city.nerima.tokyo.jp/kankomoyoshi/shogaigakushu/kyogikai/kuminbunkasai.html"
+    },
+    {
+      "index": 84,
+      "name": "SUMIDA光のナイトガーデン（旧安田庭園）",
+      "url": "https://sumida-artfest.jp/programs/3990/",
+      "weekly_records": 4,
+      "status": "individually_reviewed",
+      "new_grade": "B",
+      "source_url": "https://sumida-artfest.jp/programs/3990/"
+    },
+    {
+      "index": 85,
+      "name": "謎の生物プラナリア大研究",
+      "url": "https://www.city.edogawa.tokyo.jp/event/2611puranaria.html",
+      "weekly_records": 1,
+      "status": "individually_reviewed",
+      "new_grade": "A",
+      "source_url": "https://www.city.edogawa.tokyo.jp/event/2611puranaria.html"
+    },
+    {
+      "index": 86,
+      "name": "光るキーホルダーをつくろう",
+      "url": "https://www.city.edogawa.tokyo.jp/event/2611keyholder.html",
+      "weekly_records": 1,
+      "status": "individually_reviewed",
+      "new_grade": "A",
+      "source_url": "https://www.city.edogawa.tokyo.jp/event/2611keyholder.html"
+    },
+    {
+      "index": 87,
+      "name": "工作とマジックに挑戦",
+      "url": "https://www.city.edogawa.tokyo.jp/event/2611kosaku.html",
+      "weekly_records": 1,
+      "status": "individually_reviewed",
+      "new_grade": "A",
+      "source_url": "https://www.city.edogawa.tokyo.jp/event/2611kosaku.html"
+    },
+    {
+      "index": 88,
+      "name": "熊谷守一美術館 特別開館 くまのこDAY",
+      "url": "https://www.city.toshima.lg.jp/129/bunka/bunka/shiryokan/2602150927.html",
+      "weekly_records": 1,
+      "status": "individually_reviewed",
+      "new_grade": "A",
+      "source_url": "https://www.city.toshima.lg.jp/129/bunka/bunka/shiryokan/2602150927.html"
+    },
+    {
+      "index": 89,
+      "name": "ねりまの森こどもフェスタ「落ち葉と森の素材あそび」",
+      "url": "https://www.city.nerima.tokyo.jp/kurashi/shigoto/midori/shokai/nerimanomori.html",
+      "weekly_records": 1,
+      "status": "individually_reviewed",
+      "new_grade": "A",
+      "source_url": "https://www.city.nerima.tokyo.jp/kurashi/shigoto/midori/shokai/nerimanomori.html"
+    },
+    {
+      "index": 90,
+      "name": "なかのひがし防災フェア",
+      "url": "https://library.city.tokyo-nakano.lg.jp/kids/event/?id=695",
+      "weekly_records": 1,
+      "status": "individually_reviewed",
+      "new_grade": "A",
+      "source_url": "https://library.city.tokyo-nakano.lg.jp/kids/event/?id=695"
+    },
+    {
+      "index": 91,
+      "name": "江古田図書館 乳幼児向け工作会",
+      "url": "https://library.city.tokyo-nakano.lg.jp/kids/event/?id=726",
+      "weekly_records": 1,
+      "status": "individually_reviewed",
+      "new_grade": "A",
+      "source_url": "https://library.city.tokyo-nakano.lg.jp/kids/event/?id=726"
+    },
+    {
+      "index": 92,
+      "name": "KASAI Super Fes（共育プラザ葛西館まつり）",
+      "url": "https://www.city.edogawa.tokyo.jp/event/super_fes.html",
+      "weekly_records": 1,
+      "status": "individually_reviewed",
+      "new_grade": "A",
+      "source_url": "https://www.city.edogawa.tokyo.jp/event/super_fes.html"
+    },
+    {
+      "index": 93,
+      "name": "ウオーキングフェスタえどがわ2026",
+      "url": "https://www.city.edogawa.tokyo.jp/event/261123walking.html",
+      "weekly_records": 1,
+      "status": "individually_reviewed",
+      "new_grade": "B",
+      "source_url": "https://www.city.edogawa.tokyo.jp/event/261123walking.html"
+    },
+    {
+      "index": 94,
+      "name": "イケビズフェスタ2026",
+      "url": "https://www.toshima-plaza.jp/news/2026/09/2026.html",
+      "weekly_records": 1,
+      "status": "individually_reviewed",
+      "new_grade": "A",
+      "source_url": "https://www.toshima-plaza.jp/news/2026/09/2026.html"
+    },
+    {
+      "index": 95,
+      "name": "上落合東部町会 餅つき大会",
+      "url": "https://www.city.shinjuku.lg.jp/kusei/kashiwagi01_000001_00042.html",
+      "weekly_records": 1,
+      "status": "individually_reviewed",
+      "new_grade": "B",
+      "source_url": "https://www.city.shinjuku.lg.jp/kusei/kashiwagi01_000001_00042.html"
+    },
+    {
+      "index": 96,
+      "name": "志のぶわいわいパーク28（創立115周年記念コンサート）",
+      "url": "https://shinobu-kg.com/park/",
+      "weekly_records": 1,
+      "status": "individually_reviewed",
+      "new_grade": "A",
+      "source_url": "https://shinobu-kg.com/park/"
+    },
+    {
+      "index": 97,
+      "name": "第一地区祭（豊玉南小学校）",
+      "url": "https://www.city.nerima.tokyo.jp/kankomoyoshi/annai/omatsuri/chikusai/20260616103208700.html",
+      "weekly_records": 1,
+      "status": "individually_reviewed",
+      "new_grade": "A",
+      "source_url": "https://www.city.nerima.tokyo.jp/kankomoyoshi/annai/omatsuri/chikusai/20260616103208700.html"
+    },
+    {
+      "index": 98,
+      "name": "LUMINA STUDIO第2回お披露目会（子どものピアノ・バレエ・ミュージカル）",
+      "url": "https://www.naka-lab.jp/events/4227ab33-4f6e-4373-b64a-f04c78f4aa47",
+      "weekly_records": 1,
+      "status": "individually_reviewed",
+      "new_grade": "B",
+      "source_url": "https://www.naka-lab.jp/events/4227ab33-4f6e-4373-b64a-f04c78f4aa47"
+    },
+    {
+      "index": 99,
+      "name": "MOA美術館墨田児童作品展",
+      "url": "https://sumida-artfest.jp/programs/4004/",
+      "weekly_records": 1,
+      "status": "individually_reviewed",
+      "new_grade": "B",
+      "source_url": "https://sumida-artfest.jp/programs/4004/"
+    },
+    {
+      "index": 100,
+      "name": "名探偵プリキュア！クイズラリー",
+      "url": "https://www.city.tokyo-nakano.lg.jp/kanko/city-promotion/animemangafest2026.html",
+      "weekly_records": 2,
+      "status": "individually_reviewed",
+      "new_grade": "A",
+      "source_url": "https://www.city.tokyo-nakano.lg.jp/kanko/city-promotion/animemangafest2026.html"
+    },
+    {
+      "index": 101,
+      "name": "おりがみヒコーキで科学する",
+      "url": "https://www.city.edogawa.tokyo.jp/event/2611origami.html",
+      "weekly_records": 1,
+      "status": "individually_reviewed",
+      "new_grade": "A",
+      "source_url": "https://www.city.edogawa.tokyo.jp/event/2611origami.html"
+    },
+    {
+      "index": 102,
+      "name": "こども向け石浜工房「ダンボールブックスタンド」",
+      "url": "https://www.city.taito.lg.jp/library/kodomo/event/event11/ishi-workshop-kodomo.html",
+      "weekly_records": 1,
+      "status": "individually_reviewed",
+      "new_grade": "A",
+      "source_url": "https://www.city.taito.lg.jp/library/kodomo/event/event11/ishi-workshop-kodomo.html"
+    },
+    {
+      "index": 103,
+      "name": "親子向け多言語ワークショップ「世界に通じる力を育てる」",
+      "url": "https://celulas.or.jp/?p=8175",
+      "weekly_records": 1,
+      "status": "individually_reviewed",
+      "new_grade": "A",
+      "source_url": "https://celulas.or.jp/?p=8175"
+    },
+    {
+      "index": 104,
+      "name": "第2回 世田谷こどもおしごとフェス！！",
+      "url": "https://setagaya.event-hub.jp/",
+      "weekly_records": 1,
+      "status": "individually_reviewed",
+      "new_grade": "A",
+      "source_url": "https://setagaya.event-hub.jp/"
+    },
+    {
+      "index": 105,
+      "name": "ねりまの森こどもフェスタ「モルックであそぼう」",
+      "url": "https://www.city.nerima.tokyo.jp/kurashi/shigoto/midori/shokai/nerimanomori.html",
+      "weekly_records": 1,
+      "status": "individually_reviewed",
+      "new_grade": "A",
+      "source_url": "https://www.city.nerima.tokyo.jp/kurashi/shigoto/midori/shokai/nerimanomori.html"
+    },
+    {
+      "index": 106,
+      "name": "第32回 新宿かしわまつり",
+      "url": "https://www.city.shinjuku.lg.jp/kusei/kashiwagi01_000001_00042.html",
+      "weekly_records": 1,
+      "status": "individually_reviewed",
+      "new_grade": "B",
+      "source_url": "https://www.city.shinjuku.lg.jp/kusei/kashiwagi01_000001_00042.html"
+    },
+    {
+      "index": 107,
+      "name": "ゴールボール体験会",
+      "url": "https://www.city.shinjuku.lg.jp/kusei/kashiwagi01_000001_00042.html",
+      "weekly_records": 1,
+      "status": "individually_reviewed",
+      "new_grade": "B",
+      "source_url": "https://www.city.shinjuku.lg.jp/kusei/kashiwagi01_000001_00042.html"
+    },
+    {
+      "index": 108,
+      "name": "第一地区祭（豊玉小学校）",
+      "url": "https://www.city.nerima.tokyo.jp/kankomoyoshi/annai/omatsuri/chikusai/20260616103208700.html",
+      "weekly_records": 1,
+      "status": "individually_reviewed",
+      "new_grade": "A",
+      "source_url": "https://www.city.nerima.tokyo.jp/kankomoyoshi/annai/omatsuri/chikusai/20260616103208700.html"
+    },
+    {
+      "index": 109,
+      "name": "ねりまの森こどもフェスタ「落ち葉祭り」",
+      "url": "https://www.city.nerima.tokyo.jp/kurashi/shigoto/midori/shokai/nerimanomori.html",
+      "weekly_records": 1,
+      "status": "individually_reviewed",
+      "new_grade": "A",
+      "source_url": "https://www.city.nerima.tokyo.jp/kurashi/shigoto/midori/shokai/nerimanomori.html"
+    },
+    {
+      "index": 110,
+      "name": "ねりまの森こどもフェスタ「森のおしごと体験」（大関山）",
+      "url": "https://www.city.nerima.tokyo.jp/kurashi/shigoto/midori/shokai/nerimanomori.html",
+      "weekly_records": 1,
+      "status": "individually_reviewed",
+      "new_grade": "A",
+      "source_url": "https://www.city.nerima.tokyo.jp/kurashi/shigoto/midori/shokai/nerimanomori.html"
+    },
+    {
+      "index": 111,
+      "name": "ねりまの森こどもフェスタ「森のおしごと体験」（南高松）",
+      "url": "https://www.city.nerima.tokyo.jp/kurashi/shigoto/midori/shokai/nerimanomori.html",
+      "weekly_records": 1,
+      "status": "individually_reviewed",
+      "new_grade": "A",
+      "source_url": "https://www.city.nerima.tokyo.jp/kurashi/shigoto/midori/shokai/nerimanomori.html"
+    },
+    {
+      "index": 112,
+      "name": "くりらぼ in 江東「オリジナル名刺をつくろう！」",
+      "url": "https://www.city.koto.lg.jp/281000/kurirabo4.html",
+      "weekly_records": 1,
+      "status": "individually_reviewed",
+      "new_grade": "A",
+      "source_url": "https://www.city.koto.lg.jp/281000/kurirabo4.html"
+    },
+    {
+      "index": 113,
+      "name": "おしりたんてい ぺたぺた焼き",
+      "url": "https://www.city.tokyo-nakano.lg.jp/kanko/city-promotion/animemangafest2026.html",
+      "weekly_records": 1,
+      "status": "individually_reviewed",
+      "new_grade": "A",
+      "source_url": "https://www.city.tokyo-nakano.lg.jp/kanko/city-promotion/animemangafest2026.html"
+    },
+    {
+      "index": 114,
+      "name": "名探偵プリキュア！ショー",
+      "url": "https://www.city.tokyo-nakano.lg.jp/kanko/city-promotion/animemangafest2026.html",
+      "weekly_records": 1,
+      "status": "individually_reviewed",
+      "new_grade": "A",
+      "source_url": "https://www.city.tokyo-nakano.lg.jp/kanko/city-promotion/animemangafest2026.html"
+    },
+    {
+      "index": 115,
+      "name": "アニメ特別上映会「白蛇伝」",
+      "url": "https://www.city.tokyo-nakano.lg.jp/kanko/city-promotion/animemangafest2026.html",
+      "weekly_records": 1,
+      "status": "individually_reviewed",
+      "new_grade": "B",
+      "source_url": "https://www.city.tokyo-nakano.lg.jp/kanko/city-promotion/animemangafest2026.html"
+    },
+    {
+      "index": 116,
+      "name": "アニメ特別上映会「ばなにゃ／ガンバの冒険」",
+      "url": "https://www.city.tokyo-nakano.lg.jp/kanko/city-promotion/animemangafest2026.html",
+      "weekly_records": 1,
+      "status": "individually_reviewed",
+      "new_grade": "A",
+      "source_url": "https://www.city.tokyo-nakano.lg.jp/kanko/city-promotion/animemangafest2026.html"
+    },
+    {
+      "index": 117,
+      "name": "アニメ特別上映会「カードファイト!! ヴァンガード Divinez」",
+      "url": "https://www.city.tokyo-nakano.lg.jp/kanko/city-promotion/animemangafest2026.html",
+      "weekly_records": 1,
+      "status": "individually_reviewed",
+      "new_grade": "B",
+      "source_url": "https://www.city.tokyo-nakano.lg.jp/kanko/city-promotion/animemangafest2026.html"
+    },
+    {
+      "index": 118,
+      "name": "アニメ特別上映会「ゲゲゲの鬼太郎 おばけナイター」",
+      "url": "https://www.city.tokyo-nakano.lg.jp/kanko/city-promotion/animemangafest2026.html",
+      "weekly_records": 1,
+      "status": "individually_reviewed",
+      "new_grade": "B",
+      "source_url": "https://www.city.tokyo-nakano.lg.jp/kanko/city-promotion/animemangafest2026.html"
+    },
+    {
+      "index": 119,
+      "name": "高校生アート作品展示・缶バッジ制作体験",
+      "url": "https://www.city.tokyo-nakano.lg.jp/kanko/city-promotion/animemangafest2026.html",
+      "weekly_records": 1,
+      "status": "individually_reviewed",
+      "new_grade": "A",
+      "source_url": "https://www.city.tokyo-nakano.lg.jp/kanko/city-promotion/animemangafest2026.html"
+    },
+    {
+      "index": 120,
+      "name": "カードファイト!! ヴァンガード 体験・対戦イベント",
+      "url": "https://www.city.tokyo-nakano.lg.jp/kanko/city-promotion/animemangafest2026.html",
+      "weekly_records": 1,
+      "status": "individually_reviewed",
+      "new_grade": "A",
+      "source_url": "https://www.city.tokyo-nakano.lg.jp/kanko/city-promotion/animemangafest2026.html"
+    },
+    {
+      "index": 121,
+      "name": "0歳からの・はじめてのオーケストラ 冬のスペシャルコンサート",
+      "url": "https://salonconcert.com/concert-event/261205nerima/",
+      "weekly_records": 1,
+      "status": "individually_reviewed",
+      "new_grade": "A",
+      "source_url": "https://salonconcert.com/concert-event/261205nerima/"
+    },
+    {
+      "index": 122,
+      "name": "稲わらでお正月飾りをつくろう（郷土博物館）",
+      "url": "https://www.city.suginami.tokyo.jp/s113/event/23878.html",
+      "weekly_records": 1,
+      "status": "individually_reviewed",
+      "new_grade": "A",
+      "source_url": "https://www.city.suginami.tokyo.jp/s113/event/23878.html"
+    },
+    {
+      "index": 123,
+      "name": "親子で学ぶはじめての自転車教室（第7回）",
+      "url": "https://www.city.ota.tokyo.jp/seikatsu/sumaimachinami/kotsuanzen/event/oyakojitensha.html",
+      "weekly_records": 1,
+      "status": "individually_reviewed",
+      "new_grade": "A",
+      "source_url": "https://www.city.ota.tokyo.jp/seikatsu/sumaimachinami/kotsuanzen/event/oyakojitensha.html"
+    },
+    {
+      "index": 124,
+      "name": "わくわく生きものたんけん隊～潮見さざなみ公園編～",
+      "url": "https://www.city.koto.lg.jp/380291/ekokkuru/event/r8/12/261212_wakuwakusazanami.html",
+      "weekly_records": 1,
+      "status": "individually_reviewed",
+      "new_grade": "A",
+      "source_url": "https://www.city.koto.lg.jp/380291/ekokkuru/event/r8/12/261212_wakuwakusazanami.html"
+    },
+    {
+      "index": 125,
+      "name": "五彩のツアー（12/12・12/13）",
+      "url": "https://sumida-artfest.jp/programs/7572/",
+      "weekly_records": 1,
+      "status": "individually_reviewed",
+      "new_grade": "B",
+      "source_url": "https://sumida-artfest.jp/programs/7572/"
+    },
+    {
+      "index": 126,
+      "name": "START Box 白鬚 オープンアトリエ",
+      "url": "https://startbox.jp/event/3246/",
+      "weekly_records": 1,
+      "status": "individually_reviewed",
+      "new_grade": "B",
+      "source_url": "https://startbox.jp/event/3246/"
+    },
+    {
+      "index": 127,
+      "name": "すみだ五彩 美音（びおん）アート＆コンサート",
+      "url": "https://sumida-artfest.jp/events/",
+      "weekly_records": 1,
+      "status": "individually_reviewed",
+      "new_grade": "B",
+      "source_url": "https://sumida-artfest.jp/events/"
+    }
+  ],
+  "tamemap_excluded": 2,
+  "reviewed_weekly_records": 196,
+  "unresolved_non_tamemap_records": 10
+}

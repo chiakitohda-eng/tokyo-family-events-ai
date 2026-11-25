@@ -1,0 +1,55 @@
+name: Audit approved v1.27 weekly-new-count app release (read-only)
+
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/audit-v127-weekly-count-release.yml']
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 16
+    steps:
+      - name: Checkout frozen isolated v1.27 candidate
+        uses: actions/checkout@v4
+        with:
+          ref: b4fbf70bc79aed1069825ff76db4d7488eb5e3ce
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Verify candidate is descended from current production and only eight agreed files changed
+        run: |
+          set -euo pipefail
+          test "$(git rev-parse HEAD)" = "b4fbf70bc79aed1069825ff76db4d7488eb5e3ce"
+          test "$(git ls-remote origin refs/heads/production | awk '{print $1}')" = "9efccbcfa31facd7b78ffbdddcdec4ab6d347752"
+          git merge-base --is-ancestor 9efccbcfa31facd7b78ffbdddcdec4ab6d347752 HEAD
+          git diff --name-only 9efccbcfa31facd7b78ffbdddcdec4ab6d347752 HEAD | sort > /tmp/v127-changed
+          printf '%s\n' package.json site/copy.html site/index.html site/recent-event-changes.js site/search.html site/update-history-display.js tests/recent_event_changes.test.mjs tests/update_history_display.test.mjs | sort > /tmp/v127-allowed
+          diff -u /tmp/v127-allowed /tmp/v127-changed
+          test "$(git ls-remote origin refs/heads/data-production | awk '{print $1}')" = "890cef441ec2dfcc6393989634eb080225d6d9c9"
+          echo 'PRODUCTION RELEASE SCOPE PASS: 8 files, zero event-data changes'
+      - name: Test exact new-event identity and carryover regression
+        run: |
+          node tests/recent_event_changes.test.mjs
+          node tests/update_history_display.test.mjs
+      - name: Run all released application regression tests
+        run: npm test
+      - name: Check all three pages request the new import revisions
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          for name in ('index.html','search.html','copy.html'):
+              content=Path('site',name).read_text(encoding='utf-8')
+              assert "recent-event-changes.js?v=20261108-weekly-identity" in content,name
+              if name=='index.html':
+                  assert "update-history-display.js?v=20261108-weekly-identity" in content
+          print('PASS cache bust for index/search/copy')
+          PY

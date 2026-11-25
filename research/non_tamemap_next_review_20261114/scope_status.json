@@ -1,0 +1,12 @@
+{
+  "reviewed_new_programs": 25,
+  "reviewed_new_weekly_records": 31,
+  "base_existing_records_preserved": 448,
+  "excluded_source": "tamemap",
+  "all_non_tamemap_candidates_complete": false,
+  "older_assessments_reviewed": 196,
+  "older_assessment_evidence_unavailable": 10,
+  "older_tamemap_deferred": 2,
+  "historical_ops_cleanup_complete": true,
+  "pending_app_paths_released": false
+}

@@ -1,0 +1,91 @@
+{
+  "source": "venue_official",
+  "calendar": "https://nakano-hiromatimirai.resv.jp/reserve/calendar.php?x=1634516751",
+  "retrievals": [
+    {
+      "url": "https://nakano-hiromatimirai.resv.jp/reserve/calendar.php?x=1634516751",
+      "checked_at": "2026-11-13T21:03:00+09:00",
+      "status": "checked",
+      "http_status": 200,
+      "final_url": "https://nakano-hiromatimirai.resv.jp/reserve/calendar.php?x=1634516751",
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 122498,
+      "sha256": "aadd8cfb9ad8065a1a949616599bcbc7c9f9d6376a80afe2f3ae113926a60b6d"
+    },
+    {
+      "url": "https://nakano-hiromatimirai.resv.jp/reserve/get_timetable_pc.php?view_mode=month&view_list=1&relation_mp=1&cur_year=2026&cur_month=11&cur_day=15&cur_mp_id=0&cur_staff_id=0&pager_current=1",
+      "final_url": "https://nakano-hiromatimirai.resv.jp/reserve/get_timetable_pc.php?view_mode=month&view_list=1&relation_mp=1&cur_year=2026&cur_month=11&cur_day=15&cur_mp_id=0&cur_staff_id=0&pager_current=1",
+      "checked_at": "2026-11-13T12:07:39.974151+00:00",
+      "http_status": 200,
+      "sha256": "ab449d73fc2a2c2dc57f84071dbb53dd8c9860dfa96dbb70ed4caa9d051c5df4"
+    }
+  ],
+  "details": [
+    {
+      "keyid": "7398",
+      "retrieval": {
+        "url": "https://nakano-hiromatimirai.resv.jp/reserve/calendar.php?x=1634516751",
+        "final_url": "https://nakano-hiromatimirai.resv.jp/reserve/calendar.php?x=1634516751",
+        "checked_at": "2026-11-13T12:07:40.384470+00:00",
+        "http_status": 200,
+        "sha256": "b4f304f4b0e5b725b9dbe8b55e291cff5afcbd84836125bdd770b9c577b9953c",
+        "detail_keyid": "7398",
+        "note": "通常Cookieを維持し公開カレンダーから閲覧した詳細。セッションURLの一時トークンを保存せず、本文とSHAを保存。予約送信なし。"
+      },
+      "text": "ご利用の際には、JavaScript と Cookie を有効にしてください。 | ご利用の際には、Cookie 及び サードパーティCookie を有効にしてください。 | iPhone/iPadの場合 | 1.　ホーム画面で「設定」アイコンを選択します。 | 2.　「Safari」を選択します。 | 3.　ページを下にスクロールしていき「 | サイト越えトラッキングを防ぐ」を「OFF」にします。 | 4.　「すべてのCookieをブロック」を「OFF」にします。 | 受付中 | 残 | 10 | 図画工作　11月～魔法つかいのほうき屋さん～ | 2026/11/15 (日)  10:00-11:00 | 1,000円 | 税込み | ※キャンセルの場合は開催日前日の午後9時までに体験学習センター管理事務所へご連絡ください。 | 無断欠席、当日キャンセルの場合には病欠であっても参加費をいただきます。 | [略称] 図画工作 | 魔法をかけた金の小板に、いろとりどりの布リボンを巻きつけたらできあがり！ | クリスマスオーナメントとしても素敵。いざという時には魔法をかけられるかもしれませんよ♪ | 参加費：1,000円（材料費込み） | 時間：10：00～11：00 | 講師：野中かおり（図画工作室 太陽のいろ） | 対象：3歳くらい～大人まで | 小学2年生以下は保護者同伴 | 持ち物：室内履き、持ち帰り用袋 | 定員：12名 | [担当] 野中かおり　（図画工作室 太陽のいろ） | 前の画面に戻る"
+    },
+    {
+      "keyid": "7399",
+      "retrieval": {
+        "url": "https://nakano-hiromatimirai.resv.jp/reserve/calendar.php?x=1634516751",
+        "final_url": "https://nakano-hiromatimirai.resv.jp/reserve/calendar.php?x=1634516751",
+        "checked_at": "2026-11-13T12:07:42.118045+00:00",
+        "http_status": 200,
+        "sha256": "b7f71cd70bb75a674b2111512a2e62eb182062541dcdcd5b0325a4d2bc61e3f0",
+        "detail_keyid": "7399",
+        "note": "通常Cookieを維持し公開カレンダーから閲覧した詳細。セッションURLの一時トークンを保存せず、本文とSHAを保存。予約送信なし。"
+      },
+      "text": "ご利用の際には、JavaScript と Cookie を有効にしてください。 | ご利用の際には、Cookie 及び サードパーティCookie を有効にしてください。 | iPhone/iPadの場合 | 1.　ホーム画面で「設定」アイコンを選択します。 | 2.　「Safari」を選択します。 | 3.　ページを下にスクロールしていき「 | サイト越えトラッキングを防ぐ」を「OFF」にします。 | 4.　「すべてのCookieをブロック」を「OFF」にします。 | 受付中 | 残 | 5 | ファミリーリトミック①　11月 | 2026/11/15 (日)  9:50-10:30 | 2,000円 | 税込み、1回分です | ※キャンセルの場合は開催日前日の午後9時までに体験学習センター管理事務所へお電話でご連絡ください。 | 無断欠席、当日キャンセルの場合には病欠であっても参加費をいただきます。 | [略称] リトミック① | 0歳～2歳未満クラス | こちらの講座は申し込みがゼロの場合は中止となる場合があります。 | 笑顔あふれる音楽体験！ | 季節のアクティビティで、親子でふれあいながら心と体を楽しく育みます。 | ご両親、ご兄弟そろっての参加も大歓迎！ | 参加費：2,000円（1回） | ご兄弟での参加はプラス1,000円 | 時間：9：50～10：30 | 対象：0歳首すわり頃～２歳未満のお子様と保護者 | 定員：8組 | ※メッセージ欄にお子様のお名前、年齢をご記入ください( | 必須 | ) | 例：○○ちゃん、1歳2ヶ月 | ご兄弟姉妹でのご参加はお好きなクラスにご参加いただけます | ※当日キャンセル・無断欠席をされますと、病欠であっても参加費をいただきます。ご注意ください。 | [担当] Love’it音楽教室 | [詳細URL] | https://loveit-music.net | 前の画面に戻る"
+    },
+    {
+      "keyid": "7400",
+      "retrieval": {
+        "url": "https://nakano-hiromatimirai.resv.jp/reserve/calendar.php?x=1634516751",
+        "final_url": "https://nakano-hiromatimirai.resv.jp/reserve/calendar.php?x=1634516751",
+        "checked_at": "2026-11-13T12:07:43.846776+00:00",
+        "http_status": 200,
+        "sha256": "3012d3374df15e9cf190c1abced74ad8e35bdc6840f95990fdff83201a4fd0a4",
+        "detail_keyid": "7400",
+        "note": "通常Cookieを維持し公開カレンダーから閲覧した詳細。セッションURLの一時トークンを保存せず、本文とSHAを保存。予約送信なし。"
+      },
+      "text": "ご利用の際には、JavaScript と Cookie を有効にしてください。 | ご利用の際には、Cookie 及び サードパーティCookie を有効にしてください。 | iPhone/iPadの場合 | 1.　ホーム画面で「設定」アイコンを選択します。 | 2.　「Safari」を選択します。 | 3.　ページを下にスクロールしていき「 | サイト越えトラッキングを防ぐ」を「OFF」にします。 | 4.　「すべてのCookieをブロック」を「OFF」にします。 | 受付中 | 残 | 2 | ファミリーリトミック②　11月 | 2026/11/15 (日)  10:50-11:30 | 2,000円 | 税込み、1回分です | ※キャンセルの場合は開催日前日の午後9時までに体験学習センター管理事務所へお電話でご連絡ください。 | 無断欠席、当日キャンセルの場合には病欠であっても参加費をいただきます。 | [略称] リトミック② | ２歳～未就学児クラス | 笑顔あふれる音楽体験！ | 季節のアクティビティで、親子で触れ合いながら心と体を楽しく育みます。 | ご両親、ご兄弟そろっての参加も大歓迎！ | 参加費：2,000円（1回） | ご兄弟での参加はプラス1,000円 | 時間：10：50～11：30 | 対象：2歳児～未就学児と保護者 | 定員：8組 | ※メッセージ欄にお子様のお名前、年齢をご記入ください( | 必須 | ) | 例：○○、2歳2ヶ月 | ご兄弟姉妹でのご参加はお好きなクラスにご参加いただけます | ※当日キャンセル・無断欠席をされますと、病欠であっても参加費をいただきます。ご注意ください。 | [担当] Love’it音楽教室 | [詳細URL] | https://loveit-music.net | 前の画面に戻る"
+    },
+    {
+      "keyid": "7388",
+      "retrieval": {
+        "url": "https://nakano-hiromatimirai.resv.jp/reserve/calendar.php?x=1634516751",
+        "final_url": "https://nakano-hiromatimirai.resv.jp/reserve/calendar.php?x=1634516751",
+        "checked_at": "2026-11-13T12:07:45.749246+00:00",
+        "http_status": 200,
+        "sha256": "addb7f2992cddf11f60cb469f3e6cf8d750118a8b1839190793fdfd57195bfd8",
+        "detail_keyid": "7388",
+        "note": "通常Cookieを維持し公開カレンダーから閲覧した詳細。セッションURLの一時トークンを保存せず、本文とSHAを保存。予約送信なし。"
+      },
+      "text": "ご利用の際には、JavaScript と Cookie を有効にしてください。 | ご利用の際には、Cookie 及び サードパーティCookie を有効にしてください。 | iPhone/iPadの場合 | 1.　ホーム画面で「設定」アイコンを選択します。 | 2.　「Safari」を選択します。 | 3.　ページを下にスクロールしていき「 | サイト越えトラッキングを防ぐ」を「OFF」にします。 | 4.　「すべてのCookieをブロック」を「OFF」にします。 | 受付中 | 残 | 13 | 笑顔で楽しくおどるケイキフラ2　11月 | 2026/11/21 (土)  10:00-10:45 | 1,500円 | 税込み | ※キャンセルの場合は開催日前日の午後9時までに体験学習センター管理事務所にお電話でご連絡ください。 | 無断欠席、当日キャンセルの場合は、病欠であっても参加費をいただきます。 | [略称] ケイキフラ2 | 初めてのお子様も安心。楽しく音楽に合わせて体を動かし、自然と笑顔になれるフラダンスを踊ります。 | 参加費：1,500円 | 時　間：10：00～10：45 | 講　師：アロヒラニ高橋 | 定　員：15名 | 対　象：年中～小学生 | 持ち物：パウスカート（フレアスカート） | 飲み物・室内履き(バレエシューズ等） | ※メッセージ欄にお子様のお名前、年齢をご記入ください | （例：○○ 、5歳） | ※保護者の同伴は1名まででお願いします | [担当] アロヒラニ高橋 | [詳細URL] | https://alohilani-hula.com/ | 前の画面に戻る"
+    },
+    {
+      "keyid": "7409",
+      "retrieval": {
+        "url": "https://nakano-hiromatimirai.resv.jp/reserve/calendar.php?x=1634516751",
+        "final_url": "https://nakano-hiromatimirai.resv.jp/reserve/calendar.php?x=1634516751",
+        "checked_at": "2026-11-13T12:07:47.655830+00:00",
+        "http_status": 200,
+        "sha256": "56e61c4dd842021beb3e9e84dbddabf45390c475a61046d29b2ce0a25076bee5",
+        "detail_keyid": "7409",
+        "note": "通常Cookieを維持し公開カレンダーから閲覧した詳細。セッションURLの一時トークンを保存せず、本文とSHAを保存。予約送信なし。"
+      },
+      "text": "ご利用の際には、JavaScript と Cookie を有効にしてください。 | ご利用の際には、Cookie 及び サードパーティCookie を有効にしてください。 | iPhone/iPadの場合 | 1.　ホーム画面で「設定」アイコンを選択します。 | 2.　「Safari」を選択します。 | 3.　ページを下にスクロールしていき「 | サイト越えトラッキングを防ぐ」を「OFF」にします。 | 4.　「すべてのCookieをブロック」を「OFF」にします。 | 受付中 | 残 | 8 | はじめてのキッズダンス　11月 | 2026/11/22 (日)  13:30-14:20 | 1,500円 | 税込み | [略称] キッズダンス | 「あいどるダンス」をもっと上手に踊りたい子集まれ！ | カッコいいポーズやステップをマスターします。2カ月1回の定期レッスンで、みんなのダンスがどんどん進化していきますよ！ | 講師：ニシゾノアスカ（ダンスインストラクター） | AKB48、NMB48振付アシスタント、きゃりーぱみゅぱみゅバックダンサー、CM撮影ポージング指導を手掛ける。 | 中野区、杉並区でキッズ専門ダンス教室主催。誰でも『踊れるように』をモットーに丁寧な指導を心がけています♪ | 参加費：1,500円 | 時間：13：30～14：20 | 対象：3～6歳（メッセージ欄にお子様のお名前・年齢をご記入ください（例：〇〇 5歳） | 持ち物：室内履き、飲み物、タオル、動きやすい服装 | 定員：20名（付き添いは1名まで） | 会場：体験学習室A ※受付は2階管理事務所窓口 | [担当] ニシゾノ アスカ（ダンスインストラクター） | 前の画面に戻る"
+    }
+  ],
+  "source_failures_remain_unresolved": true
+}

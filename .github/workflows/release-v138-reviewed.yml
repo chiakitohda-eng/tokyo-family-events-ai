@@ -1,0 +1,60 @@
+name: Validate approved v1.38 production candidate
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - '.github/workflows/release-v138-reviewed.yml'
+      - 'research/release_v138_20261115.json'
+permissions:
+  contents: read
+jobs:
+  review:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          path: scanner
+          fetch-depth: 0
+      - uses: actions/checkout@v4
+        with:
+          ref: 02346ccdc28c0ade85ec10446097987f2edbc862
+          path: candidate
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Verify exactly the approved production-based candidate
+        working-directory: candidate
+        run: |
+          python3 - <<'PYCODE'
+          from pathlib import Path
+          import json,hashlib,subprocess
+          spec=json.load(open('../scanner/research/release_v138_20261115.json'))
+          git=lambda *a:subprocess.check_output(['git',*a],text=True).strip()
+          assert git('rev-parse','HEAD')==spec['candidate_sha']
+          assert git('rev-parse','HEAD^')==spec['production_base_sha']
+          paths=git('diff','--name-only','HEAD^','HEAD').splitlines()
+          assert set(paths)==set(spec['approved_files'])
+          for n,digest in spec['approved_files'].items():assert hashlib.sha256(Path(n).read_bytes()).hexdigest()==digest,n
+          before=json.loads(git('show','HEAD^:site/data/discovery_sources.json'));after=json.load(open('site/data/discovery_sources.json'))
+          assert before['explicit_sources']==after['explicit_sources'][:-1]
+          assert after['explicit_sources'][-1]['id']=='shinjuku_sankaku_hiroba'
+          assert after['protected_source_ids']==before['protected_source_ids']+['shinjuku_sankaku_hiroba']
+          assert git('ls-remote','origin','refs/heads/data-production').split()[0]==spec['data_sha']
+          assert git('ls-remote','origin','refs/heads/data-staging').split()[0]==spec['data_sha']
+          print('PASS: exact ten approved files; 603-event data and unrelated app preserved')
+          PYCODE
+      - name: Test the actual isolated production candidate
+        working-directory: candidate
+        run: |
+          npm test
+          python3 -m unittest discover -s tests -p test_sankaku_event_listing.py
+      - name: Audit main control plane before promotion
+        working-directory: scanner
+        run: |
+          npm test
+          python3 tools/audit_environment_diff.py --strict

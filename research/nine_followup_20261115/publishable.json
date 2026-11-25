@@ -1,0 +1,279 @@
+{
+  "base_data_production_sha": "37288d43e28e9e7473ca75c3267432b97b57ee33",
+  "publication_state": "data_authorized_verified_fields_only",
+  "records": [
+    {
+      "review_key": "cambodia-water-festival",
+      "week": "2026-11-21",
+      "event": {
+        "id": "nine-followup-20261121-cambodia-water-festival",
+        "ward": "渋谷区",
+        "name": "第4回 カンボジア水祭り",
+        "url": "https://www.instagram.com/bmi_jp/p/DfZRH7kN5mx/",
+        "official_url": "https://www.instagram.com/bmi_jp/p/DfZRH7kN5mx/",
+        "source": "https://www.instagram.com/bmi_jp/p/DfZRH7kN5mx/",
+        "image": "",
+        "period": "11/21〜11/22",
+        "date_start": "2026-11-21",
+        "date_end": "2026-11-22",
+        "time": "11:00開始。終了は主催者18:00／公園管理者19:00と記載が異なります。来場前に公式案内で確認。",
+        "venue": "代々木公園 ケヤキ並木",
+        "price": "入場無料（飲食・物販の料金は未確認）",
+        "description": "カンボジア文化・料理・民芸品を紹介する国際交流イベント。主催者の2026年ポスターと公園管理者の当年案内で開催日・会場を照合。 対象：子ども専用の参加企画や細かな対象年齢は未記載。 雨天決行。申込の要否・飲食や物販の料金は未確認。終了時刻は公式間で差異があるため要確認。",
+        "categories": [
+          "文化・地域イベント"
+        ],
+        "family_fit": {
+          "grade": "B",
+          "overall": "B",
+          "rubric_version": "family-fit-v2",
+          "reason": "カンボジアの食や民芸・文化を家族で見比べ、地域や国による違いを話し合う機会になる。 一般向けの文化イベントで子ども専用の体験・年齢条件は未確認。終了時刻は主催者18:00、公園管理者19:00と記載が異なるため来場前に確認。",
+          "axes": {
+            "child_target": {
+              "grade": "unknown",
+              "reason": "子ども専用の参加企画や細かな対象年齢は未記載。"
+            },
+            "interactivity": {
+              "grade": "B",
+              "reason": "カンボジアの食や民芸・文化を家族で見比べ、地域や国による違いを話し合う機会になる。"
+            },
+            "age_fit": {
+              "grade": "unknown",
+              "reason": "子ども専用の参加企画や細かな対象年齢は未記載。 一般向けの文化イベントで子ども専用の体験・年齢条件は未確認。終了時刻は主催者18:00、公園管理者19:00と記載が異なるため来場前に確認。"
+            },
+            "stay_flexibility": {
+              "grade": "unknown",
+              "reason": "途中入退場・滞在時間の自由度は、明記された場合を除き要確認。"
+            },
+            "burden": {
+              "grade": "B",
+              "reason": "屋外のケヤキ並木で開催し、雨天決行。混雑・休憩設備やベビーカー対応は未記載。"
+            },
+            "cost": {
+              "grade": "B",
+              "reason": "主催者は入場無料と明記。飲食・物販の金額は未確認で、すべて無料とは案内しない。"
+            },
+            "reservation": {
+              "grade": "unknown",
+              "reason": "雨天決行。申込の要否・飲食や物販の料金は未確認。終了時刻は公式間で差異があるため要確認。"
+            },
+            "family_value": {
+              "grade": "B",
+              "reason": "カンボジアの食や民芸・文化を家族で見比べ、地域や国による違いを話し合う機会になる。"
+            }
+          },
+          "review": {
+            "schema_version": 1,
+            "method": "individual_evidence_review",
+            "reviewed_on": "2026-11-15",
+            "axes_checked": [
+              "child_target",
+              "interactivity",
+              "age_fit",
+              "stay_flexibility",
+              "burden",
+              "cost",
+              "reservation",
+              "family_value"
+            ],
+            "audience_basis": "unspecified",
+            "child_activity_confirmed": false,
+            "strengths": [
+              "カンボジアの食や民芸・文化を家族で見比べ、地域や国による違いを話し合う機会になる。"
+            ],
+            "limitations": [
+              "一般向けの文化イベントで子ども専用の体験・年齢条件は未確認。終了時刻は主催者18:00、公園管理者19:00と記載が異なるため来場前に確認。"
+            ],
+            "grade_comparison": "総合B：カンボジアの食や民芸・文化を家族で見比べ、地域や国による違いを話し合う機会になる。 一般向けの文化イベントで子ども専用の体験・年齢条件は未確認。終了時刻は主催者18:00、公園管理者19:00と記載が異なるため来場前に確認。",
+            "unsupported_axes": [
+              "child_target",
+              "age_fit",
+              "stay_flexibility",
+              "reservation"
+            ],
+            "evidence": [
+              {
+                "url": "https://www.instagram.com/bmi_jp/p/DfZRH7kN5mx/",
+                "quote": "第4回カンボジア水祭り 2026。11月21(土)・22(日)。入場無料。",
+                "checked_at": "2026-11-15T04:14:55.998337+00:00",
+                "sha256": "c01d3de7f74d51b218c3de1835d45f1cbc41468ea70d5de8789d764e98af89b8",
+                "capture_method": "normal_public_browser_render",
+                "hash_scope": "rendered_primary_poster_screenshot_png"
+              },
+              {
+                "url": "https://www.tokyo-park.or.jp/park/yoyogi/news/2026/11.html",
+                "quote": "第4回 カンボジア水祭り：11月21日(土)・22日(日) 11:00〜19:00、ケヤキ並木。",
+                "checked_at": "2026-11-15T11:16:41+09:00",
+                "sha256": "a479d7a724ad6b9396336a33571e5068e295171a574096bdb3b93987fb6c8f96"
+              }
+            ]
+          }
+        },
+        "reservation": {
+          "required": null,
+          "note": "雨天決行。申込の要否・飲食や物販の料金は未確認。終了時刻は公式間で差異があるため要確認。"
+        },
+        "indoor_outdoor": "屋外",
+        "ai": {
+          "checked_at": "2026-11-15",
+          "confidence": "high",
+          "discovery_query": "公園管理者が案内する主催者の2026年Instagram公開ポスターを通常ブラウザーで目視確認。既存604個票と日付・参加単位を照合。"
+        },
+        "discovery_sources": [
+          {
+            "channel": "ai_cross_search",
+            "kind": "official_body_review",
+            "url": "https://www.instagram.com/bmi_jp/p/DfZRH7kN5mx/"
+          }
+        ]
+      },
+      "verification": {
+        "id": "nine-followup-20261121-cambodia-water-festival",
+        "status": "verified",
+        "source": "https://www.instagram.com/bmi_jp/p/DfZRH7kN5mx/",
+        "source_kind": "official",
+        "verified_on": "2026-11-15",
+        "fields": {
+          "name": "pass",
+          "date": "pass",
+          "venue": "pass",
+          "time": "unknown",
+          "price": "pass",
+          "reservation": "unknown",
+          "official_url": "pass"
+        },
+        "corrections": {},
+        "note": "年・開催日・会場・入場無料・文化内容を主催者の公開ポスターで確認。終了時刻は主催者18時と管理者19時で不一致のため未確定のまま表示。過去の直接取得失敗を成功へ書き換えない。",
+        "evidence": [
+          {
+            "url": "https://www.instagram.com/bmi_jp/p/DfZRH7kN5mx/",
+            "checked_at": "2026-11-15T04:14:55.998337+00:00",
+            "sha256": "c01d3de7f74d51b218c3de1835d45f1cbc41468ea70d5de8789d764e98af89b8",
+            "capture_method": "normal_public_browser_render",
+            "hash_scope": "rendered_primary_poster_screenshot_png"
+          },
+          {
+            "url": "https://www.tokyo-park.or.jp/park/yoyogi/news/2026/11.html",
+            "checked_at": "2026-11-15T11:16:41+09:00",
+            "sha256": "a479d7a724ad6b9396336a33571e5068e295171a574096bdb3b93987fb6c8f96"
+          }
+        ]
+      },
+      "decision": {
+        "candidate_id": "nine-followup-20261121-cambodia-water-festival",
+        "name": "第4回 カンボジア水祭り",
+        "ward": "渋谷区",
+        "decision": "published",
+        "family_fit": {
+          "grade": "B",
+          "overall": "B",
+          "rubric_version": "family-fit-v2",
+          "reason": "カンボジアの食や民芸・文化を家族で見比べ、地域や国による違いを話し合う機会になる。 一般向けの文化イベントで子ども専用の体験・年齢条件は未確認。終了時刻は主催者18:00、公園管理者19:00と記載が異なるため来場前に確認。",
+          "axes": {
+            "child_target": {
+              "grade": "unknown",
+              "reason": "子ども専用の参加企画や細かな対象年齢は未記載。"
+            },
+            "interactivity": {
+              "grade": "B",
+              "reason": "カンボジアの食や民芸・文化を家族で見比べ、地域や国による違いを話し合う機会になる。"
+            },
+            "age_fit": {
+              "grade": "unknown",
+              "reason": "子ども専用の参加企画や細かな対象年齢は未記載。 一般向けの文化イベントで子ども専用の体験・年齢条件は未確認。終了時刻は主催者18:00、公園管理者19:00と記載が異なるため来場前に確認。"
+            },
+            "stay_flexibility": {
+              "grade": "unknown",
+              "reason": "途中入退場・滞在時間の自由度は、明記された場合を除き要確認。"
+            },
+            "burden": {
+              "grade": "B",
+              "reason": "屋外のケヤキ並木で開催し、雨天決行。混雑・休憩設備やベビーカー対応は未記載。"
+            },
+            "cost": {
+              "grade": "B",
+              "reason": "主催者は入場無料と明記。飲食・物販の金額は未確認で、すべて無料とは案内しない。"
+            },
+            "reservation": {
+              "grade": "unknown",
+              "reason": "雨天決行。申込の要否・飲食や物販の料金は未確認。終了時刻は公式間で差異があるため要確認。"
+            },
+            "family_value": {
+              "grade": "B",
+              "reason": "カンボジアの食や民芸・文化を家族で見比べ、地域や国による違いを話し合う機会になる。"
+            }
+          },
+          "review": {
+            "schema_version": 1,
+            "method": "individual_evidence_review",
+            "reviewed_on": "2026-11-15",
+            "axes_checked": [
+              "child_target",
+              "interactivity",
+              "age_fit",
+              "stay_flexibility",
+              "burden",
+              "cost",
+              "reservation",
+              "family_value"
+            ],
+            "audience_basis": "unspecified",
+            "child_activity_confirmed": false,
+            "strengths": [
+              "カンボジアの食や民芸・文化を家族で見比べ、地域や国による違いを話し合う機会になる。"
+            ],
+            "limitations": [
+              "一般向けの文化イベントで子ども専用の体験・年齢条件は未確認。終了時刻は主催者18:00、公園管理者19:00と記載が異なるため来場前に確認。"
+            ],
+            "grade_comparison": "総合B：カンボジアの食や民芸・文化を家族で見比べ、地域や国による違いを話し合う機会になる。 一般向けの文化イベントで子ども専用の体験・年齢条件は未確認。終了時刻は主催者18:00、公園管理者19:00と記載が異なるため来場前に確認。",
+            "unsupported_axes": [
+              "child_target",
+              "age_fit",
+              "stay_flexibility",
+              "reservation"
+            ],
+            "evidence": [
+              {
+                "url": "https://www.instagram.com/bmi_jp/p/DfZRH7kN5mx/",
+                "quote": "第4回カンボジア水祭り 2026。11月21(土)・22(日)。入場無料。",
+                "checked_at": "2026-11-15T04:14:55.998337+00:00",
+                "sha256": "c01d3de7f74d51b218c3de1835d45f1cbc41468ea70d5de8789d764e98af89b8",
+                "capture_method": "normal_public_browser_render",
+                "hash_scope": "rendered_primary_poster_screenshot_png"
+              },
+              {
+                "url": "https://www.tokyo-park.or.jp/park/yoyogi/news/2026/11.html",
+                "quote": "第4回 カンボジア水祭り：11月21日(土)・22日(日) 11:00〜19:00、ケヤキ並木。",
+                "checked_at": "2026-11-15T11:16:41+09:00",
+                "sha256": "a479d7a724ad6b9396336a33571e5068e295171a574096bdb3b93987fb6c8f96"
+              }
+            ]
+          }
+        },
+        "positive_signals": [
+          "family_value"
+        ],
+        "negative_signals": [],
+        "hard_exclusion": null,
+        "exclusion_type": null,
+        "primary_reason_code": "body_verified_backlog_addition",
+        "reason_codes": [
+          "body_verified_backlog_addition"
+        ],
+        "reasons": [
+          "カンボジアの食や民芸・文化を家族で見比べ、地域や国による違いを話し合う機会になる。",
+          "既存604個票と日付・会場・参加単位を照合し、同一の掲載がない。"
+        ],
+        "evidence": [
+          {
+            "url": "https://www.instagram.com/bmi_jp/p/DfZRH7kN5mx/",
+            "basis": "取得した主催者/自治体の本文、開催日と会場。"
+          }
+        ],
+        "override_reason": "",
+        "tradeoff_reason": ""
+      }
+    }
+  ],
+  "unresolved_field": "end_time_conflict"
+}

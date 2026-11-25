@@ -1,0 +1,250 @@
+{
+  "base_data_production_sha": "99d1082e560ab9469d93ef431af2704fed12e4da",
+  "records": [
+    {
+      "review_key": "nakano-kentei13",
+      "week": "2026-11-28",
+      "event": {
+        "id": "next-primary-20261129-nakano-kentei13",
+        "ward": "中野区",
+        "name": "第13回中野区検定",
+        "url": "https://www.nakano-kanko.com/event-info/event-3797/",
+        "official_url": "https://www.nakano-kanko.com/event-info/event-3797/",
+        "source": "https://www.nakano-kanko.com/event-info/event-3797/",
+        "image": "https://www.nakano-kanko.com/wp-content/uploads/nakanoku_kentei-1.jpg",
+        "period": "11/29",
+        "date_start": "2026-11-29",
+        "date_end": "2026-11-29",
+        "time": "9:30受付、9:50事前説明、10:00〜11:00試験",
+        "venue": "中野区産業振興センター",
+        "price": "一般1500円、高校生以上の学生1000円、小中学生500円（当日現金払い）",
+        "description": "中野の歴史や文化などをテーマにした60分の検定試験。小中学生料金あり。 対象：小中学生料金あり。具体的な最低年齢の記載は未確認。 10/1〜11/16先着100人。公式案内のQRコードからWEB登録、または平日9:00〜16:00に電話申込。残席未確認。9:50には着席。",
+        "categories": [
+          "文化・地域イベント"
+        ],
+        "family_fit": {
+          "grade": "B",
+          "overall": "B",
+          "rubric_version": "family-fit-v2",
+          "reason": "中野に関心のある小中学生以上が、地域の知識を確かめ親子で学ぶきっかけになる。 60分着席して問題を読む試験。幼い子の遊びではなく、読む力や地域の知識に合わせて選ぶ必要がある。",
+          "axes": {
+            "child_target": {
+              "grade": "B",
+              "reason": "小中学生料金あり。具体的な最低年齢の記載は未確認。"
+            },
+            "interactivity": {
+              "grade": "A",
+              "reason": "中野に関心のある小中学生以上が、地域の知識を確かめ親子で学ぶきっかけになる。"
+            },
+            "age_fit": {
+              "grade": "B",
+              "reason": "小中学生料金あり。具体的な最低年齢の記載は未確認。 60分着席して問題を読む試験。幼い子の遊びではなく、読む力や地域の知識に合わせて選ぶ必要がある。"
+            },
+            "stay_flexibility": {
+              "grade": "unknown",
+              "reason": "途中入退場・滞在時間の自由度は、明記された場合を除き要確認。"
+            },
+            "burden": {
+              "grade": "unknown",
+              "reason": "混雑、設備、休憩場所など未記載の条件は要確認。"
+            },
+            "cost": {
+              "grade": "B",
+              "reason": "一般1500円、高校生以上の学生1000円、小中学生500円（当日現金払い）"
+            },
+            "reservation": {
+              "grade": "B",
+              "reason": "10/1〜11/16先着100人。公式案内のQRコードからWEB登録、または平日9:00〜16:00に電話申込。残席未確認。9:50には着席。"
+            },
+            "family_value": {
+              "grade": "B",
+              "reason": "中野に関心のある小中学生以上が、地域の知識を確かめ親子で学ぶきっかけになる。"
+            }
+          },
+          "review": {
+            "schema_version": 1,
+            "method": "individual_evidence_review",
+            "reviewed_on": "2026-11-14",
+            "axes_checked": [
+              "child_target",
+              "interactivity",
+              "age_fit",
+              "stay_flexibility",
+              "burden",
+              "cost",
+              "reservation",
+              "family_value"
+            ],
+            "audience_basis": "age_eligible",
+            "child_activity_confirmed": true,
+            "strengths": [
+              "中野に関心のある小中学生以上が、地域の知識を確かめ親子で学ぶきっかけになる。"
+            ],
+            "limitations": [
+              "60分着席して問題を読む試験。幼い子の遊びではなく、読む力や地域の知識に合わせて選ぶ必要がある。"
+            ],
+            "grade_comparison": "総合B：中野に関心のある小中学生以上が、地域の知識を確かめ親子で学ぶきっかけになる。 60分着席して問題を読む試験。幼い子の遊びではなく、読む力や地域の知識に合わせて選ぶ必要がある。",
+            "unsupported_axes": [
+              "stay_flexibility",
+              "burden"
+            ],
+            "evidence": [
+              {
+                "url": "https://www.nakano-kanko.com/event-info/event-3797/",
+                "quote": "協会 > イベント > 中野駅南口 > 中野の☆になろう！第13回 中野区検定！ イベント情報 第13回 中野区検定 【申込期間】 2026年10月1日（木）～11月16日（月） 先着順受付（定員：100名） 【申込方法】 お申込み期間中に、QRコードよりWEBサイトにアクセスし登録 お電話での登録も可能です。 TEL：03-3228-5544（受付時間 平日 09:00～16:00） ◆検定料（当日会場現金払い） 一般：1,500円、高校生以上の学生：1,000円、小・中学生：500円 イベント期間 2026年11月29日 イベント時間 受付：09:30～ 事前説明会開始：09:50～（必ずご着席ください。） 試験：10:00～11:00（60分） 会場 中野駅南口 エリア 中野区産業振興センター 当日の天候や状況に応じてイベント（スケジュール）が変更・中止となっている場合もあります。 詳しくはイベントサイトやSNSなどの公式情報をご確認ください。",
+                "checked_at": "2026-11-14T18:38:05+09:00",
+                "sha256": "1e20a1322101948b5758a0e246b2eb9230952bbefa0c33c155fba1f35118d425"
+              }
+            ]
+          }
+        },
+        "reservation": {
+          "required": true,
+          "note": "10/1〜11/16先着100人。公式案内のQRコードからWEB登録、または平日9:00〜16:00に電話申込。残席未確認。9:50には着席。"
+        },
+        "indoor_outdoor": "",
+        "ai": {
+          "checked_at": "2026-11-14",
+          "confidence": "high",
+          "discovery_query": "ためまっぷを除く未照合候補の公式本文確認。既存479個票と参加単位・日付・会場を照合。"
+        },
+        "discovery_sources": [
+          {
+            "channel": "ai_cross_search",
+            "kind": "official_body_review",
+            "url": "https://www.nakano-kanko.com/event-info/event-3797/"
+          }
+        ]
+      },
+      "verification": {
+        "id": "next-primary-20261129-nakano-kentei13",
+        "status": "verified",
+        "source": "https://www.nakano-kanko.com/event-info/event-3797/",
+        "source_kind": "official_tourism",
+        "verified_on": "2026-11-14",
+        "fields": {
+          "name": "pass",
+          "date": "pass",
+          "venue": "pass",
+          "time": "pass",
+          "price": "pass",
+          "reservation": "pass",
+          "official_url": "pass"
+        },
+        "corrections": {},
+        "note": "名前・2026年の実施日・会場を本文/構造化日程で照合。日付クエリ・更新日・写真を開催事実の根拠にしない。未記載事項は未確認のまま。",
+        "evidence": [
+          {
+            "url": "https://www.nakano-kanko.com/event-info/event-3797/",
+            "checked_at": "2026-11-14T18:38:05+09:00",
+            "sha256": "1e20a1322101948b5758a0e246b2eb9230952bbefa0c33c155fba1f35118d425"
+          }
+        ]
+      },
+      "decision": {
+        "candidate_id": "next-primary-20261129-nakano-kentei13",
+        "name": "第13回中野区検定",
+        "ward": "中野区",
+        "decision": "published",
+        "family_fit": {
+          "grade": "B",
+          "overall": "B",
+          "rubric_version": "family-fit-v2",
+          "reason": "中野に関心のある小中学生以上が、地域の知識を確かめ親子で学ぶきっかけになる。 60分着席して問題を読む試験。幼い子の遊びではなく、読む力や地域の知識に合わせて選ぶ必要がある。",
+          "axes": {
+            "child_target": {
+              "grade": "B",
+              "reason": "小中学生料金あり。具体的な最低年齢の記載は未確認。"
+            },
+            "interactivity": {
+              "grade": "A",
+              "reason": "中野に関心のある小中学生以上が、地域の知識を確かめ親子で学ぶきっかけになる。"
+            },
+            "age_fit": {
+              "grade": "B",
+              "reason": "小中学生料金あり。具体的な最低年齢の記載は未確認。 60分着席して問題を読む試験。幼い子の遊びではなく、読む力や地域の知識に合わせて選ぶ必要がある。"
+            },
+            "stay_flexibility": {
+              "grade": "unknown",
+              "reason": "途中入退場・滞在時間の自由度は、明記された場合を除き要確認。"
+            },
+            "burden": {
+              "grade": "unknown",
+              "reason": "混雑、設備、休憩場所など未記載の条件は要確認。"
+            },
+            "cost": {
+              "grade": "B",
+              "reason": "一般1500円、高校生以上の学生1000円、小中学生500円（当日現金払い）"
+            },
+            "reservation": {
+              "grade": "B",
+              "reason": "10/1〜11/16先着100人。公式案内のQRコードからWEB登録、または平日9:00〜16:00に電話申込。残席未確認。9:50には着席。"
+            },
+            "family_value": {
+              "grade": "B",
+              "reason": "中野に関心のある小中学生以上が、地域の知識を確かめ親子で学ぶきっかけになる。"
+            }
+          },
+          "review": {
+            "schema_version": 1,
+            "method": "individual_evidence_review",
+            "reviewed_on": "2026-11-14",
+            "axes_checked": [
+              "child_target",
+              "interactivity",
+              "age_fit",
+              "stay_flexibility",
+              "burden",
+              "cost",
+              "reservation",
+              "family_value"
+            ],
+            "audience_basis": "age_eligible",
+            "child_activity_confirmed": true,
+            "strengths": [
+              "中野に関心のある小中学生以上が、地域の知識を確かめ親子で学ぶきっかけになる。"
+            ],
+            "limitations": [
+              "60分着席して問題を読む試験。幼い子の遊びではなく、読む力や地域の知識に合わせて選ぶ必要がある。"
+            ],
+            "grade_comparison": "総合B：中野に関心のある小中学生以上が、地域の知識を確かめ親子で学ぶきっかけになる。 60分着席して問題を読む試験。幼い子の遊びではなく、読む力や地域の知識に合わせて選ぶ必要がある。",
+            "unsupported_axes": [
+              "stay_flexibility",
+              "burden"
+            ],
+            "evidence": [
+              {
+                "url": "https://www.nakano-kanko.com/event-info/event-3797/",
+                "quote": "協会 > イベント > 中野駅南口 > 中野の☆になろう！第13回 中野区検定！ イベント情報 第13回 中野区検定 【申込期間】 2026年10月1日（木）～11月16日（月） 先着順受付（定員：100名） 【申込方法】 お申込み期間中に、QRコードよりWEBサイトにアクセスし登録 お電話での登録も可能です。 TEL：03-3228-5544（受付時間 平日 09:00～16:00） ◆検定料（当日会場現金払い） 一般：1,500円、高校生以上の学生：1,000円、小・中学生：500円 イベント期間 2026年11月29日 イベント時間 受付：09:30～ 事前説明会開始：09:50～（必ずご着席ください。） 試験：10:00～11:00（60分） 会場 中野駅南口 エリア 中野区産業振興センター 当日の天候や状況に応じてイベント（スケジュール）が変更・中止となっている場合もあります。 詳しくはイベントサイトやSNSなどの公式情報をご確認ください。",
+                "checked_at": "2026-11-14T18:38:05+09:00",
+                "sha256": "1e20a1322101948b5758a0e246b2eb9230952bbefa0c33c155fba1f35118d425"
+              }
+            ]
+          }
+        },
+        "positive_signals": [
+          "family_value"
+        ],
+        "negative_signals": [],
+        "hard_exclusion": null,
+        "exclusion_type": null,
+        "primary_reason_code": "body_verified_backlog_addition",
+        "reason_codes": [
+          "body_verified_backlog_addition"
+        ],
+        "reasons": [
+          "中野に関心のある小中学生以上が、地域の知識を確かめ親子で学ぶきっかけになる。",
+          "既存479個票と日付・会場・参加単位を照合し、同一の掲載がない。"
+        ],
+        "evidence": [
+          {
+            "url": "https://www.nakano-kanko.com/event-info/event-3797/",
+            "basis": "取得した主催者/自治体の本文、開催日と会場。"
+          }
+        ],
+        "override_reason": "",
+        "tradeoff_reason": ""
+      }
+    }
+  ]
+}

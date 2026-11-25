@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "as_of_jst": "2026-11-18",
+  "scope": "杉並区公式の12/19・12/20個別ページ8件（子どもが対象に含まれるもの）の個別評価",
+  "pages_committed_at": "research/2026-11-18-suginami-pages/",
+  "external_inquiries_sent": 0,
+  "published": [
+    {
+      "id": "verified-20261219-suginami-29249",
+      "name": "科学で遊ぼう！さいえんす縁日",
+      "url": "https://www.city.suginami.tokyo.jp/s022/event/29249.html",
+      "overall": "A",
+      "reason": "小学生以上（未就学児は保護者同伴）が体験して遊ぶ区内の科学縁日。無料・申込不要で、一部の出し物は台数や定員の制限がある。"
+    },
+    {
+      "id": "verified-20261219-suginami-28963",
+      "name": "クリスマス交流会 アフリカハープ コラ演奏会",
+      "url": "https://www.city.suginami.tokyo.jp/s023/event/28963.html",
+      "overall": "B",
+      "reason": "「どなたでも」参加でき乳幼児も無料の地域クリスマス会。演奏鑑賞が中心で、夕方開催・申込必須・定員45名の条件がある。"
+    },
+    {
+      "id": "verified-20261219-suginami-29140",
+      "name": "天文講座「ドーム型プラネタリウムで星空体験」",
+      "url": "https://www.city.suginami.tokyo.jp/s025/event/29140.html",
+      "overall": "B",
+      "reason": "4歳以上が参加できるドーム型プラネタリウム体験。各回約45分の入替制・途中退席不可で、往復はがき等の申込と抽選（各回20名）が必要。"
+    },
+    {
+      "id": "verified-20261220-suginami-29174",
+      "name": "【絵本ライブ】親と子でたのしむおはなし会28",
+      "url": "https://www.city.suginami.tokyo.jp/s116/event/29174.html",
+      "overall": "A",
+      "reason": "乳幼児から親子で参加できる図書館の絵本読み聞かせ会。約40分で参加しやすい一方、Eメール申込（12/16まで）と20組の定員がある。"
+    }
+  ],
+  "not_published": [
+    {
+      "id": "suginami-official-29120",
+      "url": "https://www.city.suginami.tokyo.jp/s121/event/29120.html",
+      "reason": "区内在住限定・抽選・申込は11/23まで。広域の子連れ外出向け掲載には条件が合わない。",
+      "status": "excluded_with_reason_not_deleted_nothing_previously_published"
+    },
+    {
+      "id": "suginami-official-29334",
+      "url": "https://www.city.suginami.tokyo.jp/s103/event/29334.html",
+      "reason": "区内在住・在勤・在学限定で、子ども向けの体験企画ではなく玩具修理の相談窓口。",
+      "status": "excluded_with_reason_not_deleted_nothing_previously_published"
+    },
+    {
+      "id": "suginami-official-29192",
+      "url": "https://www.city.suginami.tokyo.jp/s100/event/29192.html",
+      "reason": "未就学児不可・参加費3,000円・定員15名の成人向け吟行会。子連れ外出向けではない。",
+      "status": "excluded_with_reason_not_deleted_nothing_previously_published"
+    },
+    {
+      "id": "suginami-official-29029",
+      "url": "https://www.city.suginami.tokyo.jp/s111/event/29029.html",
+      "reason": "区内在住/在校の経験者（中高生）限定で申込は11/20まで。一般の子連れ向けではない。",
+      "status": "excluded_with_reason_not_deleted_nothing_previously_published"
+    }
+  ],
+  "note": "条件が変われば再評価する。掲載見送りは未公開候補の判断であり、既存掲載の削除ではない。"
+}

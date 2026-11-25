@@ -1,0 +1,5 @@
+page1 https://www.city.nerima.tokyo.jp/hokenfukushi/shogai/koryu/syogai_festival.html 200 23172 https://www.city.nerima.tokyo.jp/hokenfukushi/shogai/koryu/syogai_festival.html
+page2 https://www.city.nerima.tokyo.jp/hokenfukushi/shogai/oshirase/sibling.html 200 29673 https://www.city.nerima.tokyo.jp/hokenfukushi/shogai/oshirase/sibling.html
+page3 https://www.city.nerima.tokyo.jp/kankomoyoshi/nogyo/hureai/daikon/hikkonukibosyuu.html 200 20105 https://www.city.nerima.tokyo.jp/kankomoyoshi/nogyo/hureai/daikon/hikkonukibosyuu.html
+page4 https://www.city.nerima.tokyo.jp/kankomoyoshi/nogyo/toshinou_festival/festival2027pre.html 200 30549 https://www.city.nerima.tokyo.jp/kankomoyoshi/nogyo/toshinou_festival/festival2027pre.html
+page5 https://www.city.nerima.tokyo.jp/kankomoyoshi/annai/fukei/kouyamateien/kouyama.html 200 24441 https://www.city.nerima.tokyo.jp/kankomoyoshi/annai/fukei/kouyamateien/kouyama.html

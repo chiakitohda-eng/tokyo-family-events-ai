@@ -1,0 +1,3953 @@
+{
+  "schema_version": 1,
+  "kind": "registered_fixed_source_retrieval_and_link_leads",
+  "generated_at_jst": "2026-11-22T14:31:39+09:00",
+  "horizon": [
+    "2026-11-21",
+    "2026-12-27"
+  ],
+  "execution_environment": "github_actions",
+  "registered_source_count": 28,
+  "protected_legacy_source_count": 18,
+  "source_registry_digest": "16d925d665b6fc95422bf7c537c4f57aec8a446c8cf87fdb603bac027c35d138",
+  "summary": {
+    "registered": 28,
+    "reachable_all_registered_urls": 27,
+    "partial_errors": 0,
+    "source_errors": 1,
+    "full_event_row_parity_verified_by_this_report": 0,
+    "event_candidates_count": null,
+    "publication_gaps_confirmed": null
+  },
+  "sources": [
+    {
+      "source_id": "sumida",
+      "label": "墨田",
+      "origin": "legacy",
+      "required": true,
+      "group": "固定サイト",
+      "detail_adapter": null,
+      "base_url": "https://www.sumidaevent.com/",
+      "retrieval_status": "checked",
+      "status_label": "要個別照合",
+      "pages_expected": 1,
+      "pages_checked": 1,
+      "pages_failed": 0,
+      "observed_distinct_link_leads": 100,
+      "example_leads": [
+        {
+          "url": "https://www.sumidaevent.com",
+          "name": "錦糸公園・隅田公園イベント情報",
+          "observed_in": [
+            "https://www.sumidaevent.com/"
+          ]
+        },
+        {
+          "url": "https://x.com/event_fes",
+          "name": "Xで東京のイベント情報を見る",
+          "observed_in": [
+            "https://www.sumidaevent.com/"
+          ]
+        },
+        {
+          "url": "https://www.sumidaevent.com/sumida-gosai-art-festival-2026",
+          "name": "すみだ五彩の芸術祭",
+          "observed_in": [
+            "https://www.sumidaevent.com/"
+          ]
+        },
+        {
+          "url": "https://www.sumidaevent.com/sumida-family-festival-2026-autumn",
+          "name": "すみだファミリーフェスティバル2026秋",
+          "observed_in": [
+            "https://www.sumidaevent.com/"
+          ]
+        },
+        {
+          "url": "https://www.sumidaevent.com/sumida-bousai-festa-2026",
+          "name": "すみだ防災フェスタ2026",
+          "observed_in": [
+            "https://www.sumidaevent.com/"
+          ]
+        },
+        {
+          "url": "https://www.tokyofes.info",
+          "name": "東京イベント",
+          "observed_in": [
+            "https://www.sumidaevent.com/"
+          ]
+        },
+        {
+          "url": "https://www.asakusaevent.com",
+          "name": "東京｜浅草イベント",
+          "observed_in": [
+            "https://www.sumidaevent.com/"
+          ]
+        },
+        {
+          "url": "https://www.uenopark.info",
+          "name": "東京｜上野公園イベント",
+          "observed_in": [
+            "https://www.sumidaevent.com/"
+          ]
+        },
+        {
+          "url": "https://www.akihabaraevent.com",
+          "name": "東京｜秋葉原イベント",
+          "observed_in": [
+            "https://www.sumidaevent.com/"
+          ]
+        },
+        {
+          "url": "https://www.hibiyapark.info",
+          "name": "東京｜日比谷公園イベント",
+          "observed_in": [
+            "https://www.sumidaevent.com/"
+          ]
+        },
+        {
+          "url": "https://www.ikebukuropark.info",
+          "name": "東京｜池袋イベント",
+          "observed_in": [
+            "https://www.sumidaevent.com/"
+          ]
+        },
+        {
+          "url": "https://www.shinjukuevent.com",
+          "name": "東京｜新宿イベント",
+          "observed_in": [
+            "https://www.sumidaevent.com/"
+          ]
+        },
+        {
+          "url": "https://www.nakanoevent.com",
+          "name": "東京｜中野イベント",
+          "observed_in": [
+            "https://www.sumidaevent.com/"
+          ]
+        },
+        {
+          "url": "https://www.yoyogikoen.info",
+          "name": "東京｜代々木公園イベント",
+          "observed_in": [
+            "https://www.sumidaevent.com/"
+          ]
+        },
+        {
+          "url": "https://www.yoyogipark.info",
+          "name": "Yoyogi Park Events & Festivals",
+          "observed_in": [
+            "https://www.sumidaevent.com/"
+          ]
+        },
+        {
+          "url": "https://www.miyashitapark.info",
+          "name": "東京｜渋谷イベント",
+          "observed_in": [
+            "https://www.sumidaevent.com/"
+          ]
+        },
+        {
+          "url": "https://www.roppongievents.com",
+          "name": "東京｜六本木イベント",
+          "observed_in": [
+            "https://www.sumidaevent.com/"
+          ]
+        },
+        {
+          "url": "https://www.toyosuevent.com",
+          "name": "東京｜豊洲イベント",
+          "observed_in": [
+            "https://www.sumidaevent.com/"
+          ]
+        },
+        {
+          "url": "https://www.odaibapark.com",
+          "name": "東京｜お台場イベント",
+          "observed_in": [
+            "https://www.sumidaevent.com/"
+          ]
+        },
+        {
+          "url": "https://www.shinagawaevent.com",
+          "name": "東京｜品川イベント",
+          "observed_in": [
+            "https://www.sumidaevent.com/"
+          ]
+        }
+      ],
+      "new_arrival_post_leads_observed": 0,
+      "new_arrival_post_leads_are_unverified": true,
+      "new_arrival_samples": [],
+      "event_candidates_total": null,
+      "candidate_publication_parity": "未検証",
+      "published_count_from_source": null,
+      "excluded_count_from_source": null,
+      "duplicate_count_from_source": null,
+      "unreviewed_count_from_source": null,
+      "unverified_due_to_source_error": false,
+      "source_checks": [
+        {
+          "url": "https://www.sumidaevent.com/",
+          "checked_at": "2026-11-22T14:31:33+09:00",
+          "status": "checked",
+          "http_status": 200,
+          "final_url": "https://www.sumidaevent.com/",
+          "content_type": "text/html; charset=UTF-8",
+          "bytes": 118338,
+          "sha256": "e7c704a77677bcf4dfdb27a887f9d3028a24a44d1da04d3be446a4a402f1354c",
+          "page_title": "錦糸公園・隅田公園イベント情報｜墨田区の催し",
+          "observed_event_link_leads": 100
+        }
+      ],
+      "errors": [],
+      "audit_method": "registered URLs; HTML link lead observation; no inferred event dates",
+      "caveat": "接続成功は候補・掲載の全件照合完了を意味しません。"
+    },
+    {
+      "source_id": "asakusa",
+      "label": "浅草",
+      "origin": "legacy",
+      "required": true,
+      "group": "固定サイト",
+      "detail_adapter": null,
+      "base_url": "https://www.asakusaevent.com/",
+      "retrieval_status": "checked",
+      "status_label": "要個別照合",
+      "pages_expected": 1,
+      "pages_checked": 1,
+      "pages_failed": 0,
+      "observed_distinct_link_leads": 100,
+      "example_leads": [
+        {
+          "url": "https://www.asakusaevent.com",
+          "name": "浅草イベント情報",
+          "observed_in": [
+            "https://www.asakusaevent.com/"
+          ]
+        },
+        {
+          "url": "https://x.com/event_fes",
+          "name": "Xで東京のイベント情報を見る",
+          "observed_in": [
+            "https://www.asakusaevent.com/"
+          ]
+        },
+        {
+          "url": "https://www.asakusaevent.com/wasshoi-festival-asakusa-kokusaidori-2026",
+          "name": "WAっしょい祭りin浅草国際通り",
+          "observed_in": [
+            "https://www.asakusaevent.com/"
+          ]
+        },
+        {
+          "url": "https://www.tokyofes.info",
+          "name": "東京イベント",
+          "observed_in": [
+            "https://www.asakusaevent.com/"
+          ]
+        },
+        {
+          "url": "https://www.sumidaevent.com",
+          "name": "東京｜墨田イベント",
+          "observed_in": [
+            "https://www.asakusaevent.com/"
+          ]
+        },
+        {
+          "url": "https://www.uenopark.info",
+          "name": "東京｜上野公園イベント",
+          "observed_in": [
+            "https://www.asakusaevent.com/"
+          ]
+        },
+        {
+          "url": "https://www.akihabaraevent.com",
+          "name": "東京｜秋葉原イベント",
+          "observed_in": [
+            "https://www.asakusaevent.com/"
+          ]
+        },
+        {
+          "url": "https://www.hibiyapark.info",
+          "name": "東京｜日比谷公園イベント",
+          "observed_in": [
+            "https://www.asakusaevent.com/"
+          ]
+        },
+        {
+          "url": "https://www.ikebukuropark.info",
+          "name": "東京｜池袋イベント",
+          "observed_in": [
+            "https://www.asakusaevent.com/"
+          ]
+        },
+        {
+          "url": "https://www.shinjukuevent.com",
+          "name": "東京｜新宿イベント",
+          "observed_in": [
+            "https://www.asakusaevent.com/"
+          ]
+        },
+        {
+          "url": "https://www.nakanoevent.com",
+          "name": "東京｜中野イベント",
+          "observed_in": [
+            "https://www.asakusaevent.com/"
+          ]
+        },
+        {
+          "url": "https://www.yoyogikoen.info",
+          "name": "東京｜代々木公園イベント",
+          "observed_in": [
+            "https://www.asakusaevent.com/"
+          ]
+        },
+        {
+          "url": "https://www.yoyogipark.info",
+          "name": "Yoyogi Park Events & Festivals",
+          "observed_in": [
+            "https://www.asakusaevent.com/"
+          ]
+        },
+        {
+          "url": "https://www.miyashitapark.info",
+          "name": "東京｜渋谷イベント",
+          "observed_in": [
+            "https://www.asakusaevent.com/"
+          ]
+        },
+        {
+          "url": "https://www.roppongievents.com",
+          "name": "東京｜六本木イベント",
+          "observed_in": [
+            "https://www.asakusaevent.com/"
+          ]
+        },
+        {
+          "url": "https://www.toyosuevent.com",
+          "name": "東京｜豊洲イベント",
+          "observed_in": [
+            "https://www.asakusaevent.com/"
+          ]
+        },
+        {
+          "url": "https://www.odaibapark.com",
+          "name": "東京｜お台場イベント",
+          "observed_in": [
+            "https://www.asakusaevent.com/"
+          ]
+        },
+        {
+          "url": "https://www.shinagawaevent.com",
+          "name": "東京｜品川イベント",
+          "observed_in": [
+            "https://www.asakusaevent.com/"
+          ]
+        },
+        {
+          "url": "https://www.tachikawaevent.com",
+          "name": "東京｜立川イベント",
+          "observed_in": [
+            "https://www.asakusaevent.com/"
+          ]
+        },
+        {
+          "url": "https://x.com/yoyogi_fes",
+          "name": "代々木公園イベント情報｜公式X（@yoyogi_fes）",
+          "observed_in": [
+            "https://www.asakusaevent.com/"
+          ]
+        }
+      ],
+      "new_arrival_post_leads_observed": 0,
+      "new_arrival_post_leads_are_unverified": true,
+      "new_arrival_samples": [],
+      "event_candidates_total": null,
+      "candidate_publication_parity": "未検証",
+      "published_count_from_source": null,
+      "excluded_count_from_source": null,
+      "duplicate_count_from_source": null,
+      "unreviewed_count_from_source": null,
+      "unverified_due_to_source_error": false,
+      "source_checks": [
+        {
+          "url": "https://www.asakusaevent.com/",
+          "checked_at": "2026-11-22T14:31:33+09:00",
+          "status": "checked",
+          "http_status": 200,
+          "final_url": "https://www.asakusaevent.com/",
+          "content_type": "text/html; charset=UTF-8",
+          "bytes": 119051,
+          "sha256": "8bacf64d21f74367b6f22d091168e9a47ed58b56a7e8a94dcac80a0ec4af20b1",
+          "page_title": "浅草イベント情報｜浅草寺・花やしき周辺の催し",
+          "observed_event_link_leads": 100
+        }
+      ],
+      "errors": [],
+      "audit_method": "registered URLs; HTML link lead observation; no inferred event dates",
+      "caveat": "接続成功は候補・掲載の全件照合完了を意味しません。"
+    },
+    {
+      "source_id": "ueno",
+      "label": "上野公園",
+      "origin": "legacy",
+      "required": true,
+      "group": "固定サイト",
+      "detail_adapter": null,
+      "base_url": "https://www.uenopark.info/",
+      "retrieval_status": "checked",
+      "status_label": "要個別照合",
+      "pages_expected": 1,
+      "pages_checked": 1,
+      "pages_failed": 0,
+      "observed_distinct_link_leads": 100,
+      "example_leads": [
+        {
+          "url": "https://www.uenopark.info",
+          "name": "上野公園イベント＆フェス情報",
+          "observed_in": [
+            "https://www.uenopark.info/"
+          ]
+        },
+        {
+          "url": "https://x.com/event_fes",
+          "name": "Xで東京のイベント情報を見る",
+          "observed_in": [
+            "https://www.uenopark.info/"
+          ]
+        },
+        {
+          "url": "https://www.tokyoart.jp/cincinnati-art-museum-exhibition-ueno-2026",
+          "name": "シンシナティ美術館展 ～アメリカに渡ったヨーロッパの至宝～",
+          "observed_in": [
+            "https://www.uenopark.info/"
+          ]
+        },
+        {
+          "url": "https://www.tokyoart.jp/tate-turner-exhibition-ueno-2026",
+          "name": "テート美術館 ターナー展――崇高の絵画、現代美術との対話",
+          "observed_in": [
+            "https://www.uenopark.info/"
+          ]
+        },
+        {
+          "url": "https://www.tokyoart.jp/noguchi-hideyo-infectious-diseases-exhibition-2026",
+          "name": "野口英世生誕150年記念企画展「感染症への挑戦：過去・現在・未来」",
+          "observed_in": [
+            "https://www.uenopark.info/"
+          ]
+        },
+        {
+          "url": "https://www.tokyoart.jp/orsay-what-a-wonderful-world-tokyo-2026",
+          "name": "東京都美術館開館100周年記念 オルセー美術館所蔵 いまを生きる歓び",
+          "observed_in": [
+            "https://www.uenopark.info/"
+          ]
+        },
+        {
+          "url": "https://www.uenopark.info/2026/iga-ueno-ninja-festa-ueno-park-2026",
+          "name": "伊賀上野NINJAフェスタ2026 in 上野恩賜公園",
+          "observed_in": [
+            "https://www.uenopark.info/"
+          ]
+        },
+        {
+          "url": "https://www.uenopark.info/2026/shitamachi-halloween-2026-2",
+          "name": "シタマチ.ハロウィン2026 デジタルスタンプラリー",
+          "observed_in": [
+            "https://www.uenopark.info/"
+          ]
+        },
+        {
+          "url": "https://www.uenopark.info/2026/pandabashi-wanwan-halloween-2026",
+          "name": "パンダバシわんわんハロウィン2026",
+          "observed_in": [
+            "https://www.uenopark.info/"
+          ]
+        },
+        {
+          "url": "https://www.uenopark.info/2026/2026-sakaya-kakuuchi-fes",
+          "name": "第13回 酒屋角打ちフェス",
+          "observed_in": [
+            "https://www.uenopark.info/"
+          ]
+        },
+        {
+          "url": "https://www.uenopark.info/2026/aomoribito-festival-2026-ueno",
+          "name": "2026青森人の祭典",
+          "observed_in": [
+            "https://www.uenopark.info/"
+          ]
+        },
+        {
+          "url": "https://www.uenopark.info/museum",
+          "name": "上野公園周辺の美術館・博物館",
+          "observed_in": [
+            "https://www.uenopark.info/"
+          ]
+        },
+        {
+          "url": "https://www.tokyofes.info",
+          "name": "東京イベント",
+          "observed_in": [
+            "https://www.uenopark.info/"
+          ]
+        },
+        {
+          "url": "https://www.sumidaevent.com",
+          "name": "東京｜墨田イベント",
+          "observed_in": [
+            "https://www.uenopark.info/"
+          ]
+        },
+        {
+          "url": "https://www.asakusaevent.com",
+          "name": "東京｜浅草イベント",
+          "observed_in": [
+            "https://www.uenopark.info/"
+          ]
+        },
+        {
+          "url": "https://www.akihabaraevent.com",
+          "name": "東京｜秋葉原イベント",
+          "observed_in": [
+            "https://www.uenopark.info/"
+          ]
+        },
+        {
+          "url": "https://www.hibiyapark.info",
+          "name": "東京｜日比谷公園イベント",
+          "observed_in": [
+            "https://www.uenopark.info/"
+          ]
+        },
+        {
+          "url": "https://www.ikebukuropark.info",
+          "name": "東京｜池袋イベント",
+          "observed_in": [
+            "https://www.uenopark.info/"
+          ]
+        },
+        {
+          "url": "https://www.shinjukuevent.com",
+          "name": "東京｜新宿イベント",
+          "observed_in": [
+            "https://www.uenopark.info/"
+          ]
+        },
+        {
+          "url": "https://www.nakanoevent.com",
+          "name": "東京｜中野イベント",
+          "observed_in": [
+            "https://www.uenopark.info/"
+          ]
+        }
+      ],
+      "new_arrival_post_leads_observed": 0,
+      "new_arrival_post_leads_are_unverified": true,
+      "new_arrival_samples": [],
+      "event_candidates_total": null,
+      "candidate_publication_parity": "未検証",
+      "published_count_from_source": null,
+      "excluded_count_from_source": null,
+      "duplicate_count_from_source": null,
+      "unreviewed_count_from_source": null,
+      "unverified_due_to_source_error": false,
+      "source_checks": [
+        {
+          "url": "https://www.uenopark.info/",
+          "checked_at": "2026-11-22T14:31:34+09:00",
+          "status": "checked",
+          "http_status": 200,
+          "final_url": "https://www.uenopark.info/",
+          "content_type": "text/html; charset=UTF-8",
+          "bytes": 307809,
+          "sha256": "dd822b03f6f6e4f470ccc9cadbc46131ac3b030bfbc8946c7ab3236bc25c0370",
+          "page_title": "上野公園イベント＆フェス情報",
+          "observed_event_link_leads": 100
+        }
+      ],
+      "errors": [],
+      "audit_method": "registered URLs; HTML link lead observation; no inferred event dates",
+      "caveat": "接続成功は候補・掲載の全件照合完了を意味しません。"
+    },
+    {
+      "source_id": "akihabara",
+      "label": "秋葉原",
+      "origin": "legacy",
+      "required": true,
+      "group": "固定サイト",
+      "detail_adapter": null,
+      "base_url": "https://www.akihabaraevent.com/",
+      "retrieval_status": "checked",
+      "status_label": "要個別照合",
+      "pages_expected": 1,
+      "pages_checked": 1,
+      "pages_failed": 0,
+      "observed_distinct_link_leads": 100,
+      "example_leads": [
+        {
+          "url": "https://www.akihabaraevent.com",
+          "name": "秋葉原イベント情報",
+          "observed_in": [
+            "https://www.akihabaraevent.com/"
+          ]
+        },
+        {
+          "url": "https://x.com/event_fes",
+          "name": "Xで東京のイベント情報を見る",
+          "observed_in": [
+            "https://www.akihabaraevent.com/"
+          ]
+        },
+        {
+          "url": "https://www.akihabaraevent.com/sanchi-matsuri-2026-akihabara-udx-sticker-fair",
+          "name": "さん家祭り2026",
+          "observed_in": [
+            "https://www.akihabaraevent.com/"
+          ]
+        },
+        {
+          "url": "https://www.akihabaraevent.com/famitsu-40th-anniversary-fes-2026",
+          "name": "ファミ通40周年フェス",
+          "observed_in": [
+            "https://www.akihabaraevent.com/"
+          ]
+        },
+        {
+          "url": "https://www.akihabaraevent.com/famitsu-40th-fes-2026",
+          "name": "ファミ通40周年フェス",
+          "observed_in": [
+            "https://www.akihabaraevent.com/"
+          ]
+        },
+        {
+          "url": "https://www.akihabaraevent.com/potafes-2026-winter-akihabara",
+          "name": "ポタフェス 2026冬 秋葉原",
+          "observed_in": [
+            "https://www.akihabaraevent.com/"
+          ]
+        },
+        {
+          "url": "https://x.com/yoyogi_fes",
+          "name": "代々木公園イベント情報｜公式X（@yoyogi_fes）",
+          "observed_in": [
+            "https://www.akihabaraevent.com/"
+          ]
+        },
+        {
+          "url": "https://www.eventfestival.info",
+          "name": "全国イベント",
+          "observed_in": [
+            "https://www.akihabaraevent.com/"
+          ]
+        },
+        {
+          "url": "https://www.sapporoevents.com",
+          "name": "札幌イベント",
+          "observed_in": [
+            "https://www.akihabaraevent.com/"
+          ]
+        },
+        {
+          "url": "https://www.odoripark.info",
+          "name": "札幌｜大通公園イベント",
+          "observed_in": [
+            "https://www.akihabaraevent.com/"
+          ]
+        },
+        {
+          "url": "https://www.goryokakupark.com",
+          "name": "函館｜五稜郭公園イベント",
+          "observed_in": [
+            "https://www.akihabaraevent.com/"
+          ]
+        },
+        {
+          "url": "https://www.eventfestival.info/aomori",
+          "name": "青森｜青い海公園イベント",
+          "observed_in": [
+            "https://www.akihabaraevent.com/"
+          ]
+        },
+        {
+          "url": "https://www.eventfestival.info/morioka",
+          "name": "盛岡｜岩手公園イベント",
+          "observed_in": [
+            "https://www.akihabaraevent.com/"
+          ]
+        },
+        {
+          "url": "https://www.kotodaipark.com",
+          "name": "仙台｜勾当台公園イベント",
+          "observed_in": [
+            "https://www.akihabaraevent.com/"
+          ]
+        },
+        {
+          "url": "https://kaiseizanpark.com",
+          "name": "郡山｜開成山公園イベント",
+          "observed_in": [
+            "https://www.akihabaraevent.com/"
+          ]
+        },
+        {
+          "url": "https://www.eventfestival.info/ibaraki",
+          "name": "茨城イベント",
+          "observed_in": [
+            "https://www.akihabaraevent.com/"
+          ]
+        },
+        {
+          "url": "https://www.orionevent.info",
+          "name": "宇都宮イベント",
+          "observed_in": [
+            "https://www.akihabaraevent.com/"
+          ]
+        },
+        {
+          "url": "https://www.eventfestival.info/takasaki",
+          "name": "高崎イベント",
+          "observed_in": [
+            "https://www.akihabaraevent.com/"
+          ]
+        },
+        {
+          "url": "https://www.eventfestival.info/saitama",
+          "name": "埼玉イベント",
+          "observed_in": [
+            "https://www.akihabaraevent.com/"
+          ]
+        },
+        {
+          "url": "https://www.tokorozawaevent.com",
+          "name": "所沢イベント",
+          "observed_in": [
+            "https://www.akihabaraevent.com/"
+          ]
+        }
+      ],
+      "new_arrival_post_leads_observed": 0,
+      "new_arrival_post_leads_are_unverified": true,
+      "new_arrival_samples": [],
+      "event_candidates_total": null,
+      "candidate_publication_parity": "未検証",
+      "published_count_from_source": null,
+      "excluded_count_from_source": null,
+      "duplicate_count_from_source": null,
+      "unreviewed_count_from_source": null,
+      "unverified_due_to_source_error": false,
+      "source_checks": [
+        {
+          "url": "https://www.akihabaraevent.com/",
+          "checked_at": "2026-11-22T14:31:33+09:00",
+          "status": "checked",
+          "http_status": 200,
+          "final_url": "https://www.akihabaraevent.com/",
+          "content_type": "text/html; charset=UTF-8",
+          "bytes": 111311,
+          "sha256": "7177fb2423e360c558ff83cd8ef045913c0c9f549e44169d828f4e2b8bfa44e2",
+          "page_title": "秋葉原イベント情報｜ベルサール秋葉原・UDXの催し",
+          "observed_event_link_leads": 100
+        }
+      ],
+      "errors": [],
+      "audit_method": "registered URLs; HTML link lead observation; no inferred event dates",
+      "caveat": "接続成功は候補・掲載の全件照合完了を意味しません。"
+    },
+    {
+      "source_id": "hibiya",
+      "label": "日比谷公園",
+      "origin": "legacy",
+      "required": true,
+      "group": "固定サイト",
+      "detail_adapter": null,
+      "base_url": "https://www.hibiyapark.info/",
+      "retrieval_status": "checked",
+      "status_label": "要個別照合",
+      "pages_expected": 1,
+      "pages_checked": 1,
+      "pages_failed": 0,
+      "observed_distinct_link_leads": 100,
+      "example_leads": [
+        {
+          "url": "https://www.hibiyapark.info",
+          "name": "日比谷公園イベント＆フェス情報",
+          "observed_in": [
+            "https://www.hibiyapark.info/"
+          ]
+        },
+        {
+          "url": "https://x.com/event_fes",
+          "name": "Xで東京のイベント情報を見る",
+          "observed_in": [
+            "https://www.hibiyapark.info/"
+          ]
+        },
+        {
+          "url": "https://www.hibiyapark.info/2026/chiyoda-bosai-festa-2026",
+          "name": "千代田区防災フェスタ2026",
+          "observed_in": [
+            "https://www.hibiyapark.info/"
+          ]
+        },
+        {
+          "url": "https://www.futonrecords.com/classlog",
+          "name": "子どもの学校名・クラス・担任名を12年分記録できる無料アプリ「うちの子なん組？」はこちら",
+          "observed_in": [
+            "https://www.hibiyapark.info/"
+          ]
+        },
+        {
+          "url": "https://www.tokyofes.info",
+          "name": "東京イベント",
+          "observed_in": [
+            "https://www.hibiyapark.info/"
+          ]
+        },
+        {
+          "url": "https://www.sumidaevent.com",
+          "name": "東京｜墨田イベント",
+          "observed_in": [
+            "https://www.hibiyapark.info/"
+          ]
+        },
+        {
+          "url": "https://www.asakusaevent.com",
+          "name": "東京｜浅草イベント",
+          "observed_in": [
+            "https://www.hibiyapark.info/"
+          ]
+        },
+        {
+          "url": "https://www.uenopark.info",
+          "name": "東京｜上野公園イベント",
+          "observed_in": [
+            "https://www.hibiyapark.info/"
+          ]
+        },
+        {
+          "url": "https://www.akihabaraevent.com",
+          "name": "東京｜秋葉原イベント",
+          "observed_in": [
+            "https://www.hibiyapark.info/"
+          ]
+        },
+        {
+          "url": "https://www.ikebukuropark.info",
+          "name": "東京｜池袋イベント",
+          "observed_in": [
+            "https://www.hibiyapark.info/"
+          ]
+        },
+        {
+          "url": "https://www.shinjukuevent.com",
+          "name": "東京｜新宿イベント",
+          "observed_in": [
+            "https://www.hibiyapark.info/"
+          ]
+        },
+        {
+          "url": "https://www.nakanoevent.com",
+          "name": "東京｜中野イベント",
+          "observed_in": [
+            "https://www.hibiyapark.info/"
+          ]
+        },
+        {
+          "url": "https://www.yoyogikoen.info",
+          "name": "東京｜代々木公園イベント",
+          "observed_in": [
+            "https://www.hibiyapark.info/"
+          ]
+        },
+        {
+          "url": "https://www.yoyogipark.info",
+          "name": "Yoyogi Park Events & Festivals",
+          "observed_in": [
+            "https://www.hibiyapark.info/"
+          ]
+        },
+        {
+          "url": "https://www.miyashitapark.info",
+          "name": "東京｜渋谷イベント",
+          "observed_in": [
+            "https://www.hibiyapark.info/"
+          ]
+        },
+        {
+          "url": "https://www.roppongievents.com",
+          "name": "東京｜六本木イベント",
+          "observed_in": [
+            "https://www.hibiyapark.info/"
+          ]
+        },
+        {
+          "url": "https://www.toyosuevent.com",
+          "name": "東京｜豊洲イベント",
+          "observed_in": [
+            "https://www.hibiyapark.info/"
+          ]
+        },
+        {
+          "url": "https://www.odaibapark.com",
+          "name": "東京｜お台場イベント",
+          "observed_in": [
+            "https://www.hibiyapark.info/"
+          ]
+        },
+        {
+          "url": "https://www.shinagawaevent.com",
+          "name": "東京｜品川イベント",
+          "observed_in": [
+            "https://www.hibiyapark.info/"
+          ]
+        },
+        {
+          "url": "https://www.tachikawaevent.com",
+          "name": "東京｜立川イベント",
+          "observed_in": [
+            "https://www.hibiyapark.info/"
+          ]
+        }
+      ],
+      "new_arrival_post_leads_observed": 0,
+      "new_arrival_post_leads_are_unverified": true,
+      "new_arrival_samples": [],
+      "event_candidates_total": null,
+      "candidate_publication_parity": "未検証",
+      "published_count_from_source": null,
+      "excluded_count_from_source": null,
+      "duplicate_count_from_source": null,
+      "unreviewed_count_from_source": null,
+      "unverified_due_to_source_error": false,
+      "source_checks": [
+        {
+          "url": "https://www.hibiyapark.info/",
+          "checked_at": "2026-11-22T14:31:33+09:00",
+          "status": "checked",
+          "http_status": 200,
+          "final_url": "https://www.hibiyapark.info/",
+          "content_type": "text/html; charset=UTF-8",
+          "bytes": 121603,
+          "sha256": "9a4b97a0b69953804a97b42c3b16174b1658a02fe6ecdb05dd98bfddb9912e96",
+          "page_title": "日比谷公園イベント＆フェス情報",
+          "observed_event_link_leads": 100
+        }
+      ],
+      "errors": [],
+      "audit_method": "registered URLs; HTML link lead observation; no inferred event dates",
+      "caveat": "接続成功は候補・掲載の全件照合完了を意味しません。"
+    },
+    {
+      "source_id": "ikebukuro",
+      "label": "池袋",
+      "origin": "legacy",
+      "required": true,
+      "group": "固定サイト",
+      "detail_adapter": null,
+      "base_url": "https://www.ikebukuropark.info/",
+      "retrieval_status": "checked",
+      "status_label": "要個別照合",
+      "pages_expected": 1,
+      "pages_checked": 1,
+      "pages_failed": 0,
+      "observed_distinct_link_leads": 100,
+      "example_leads": [
+        {
+          "url": "https://www.ikebukuropark.info",
+          "name": "池袋イベント情報",
+          "observed_in": [
+            "https://www.ikebukuropark.info/"
+          ]
+        },
+        {
+          "url": "https://x.com/event_fes",
+          "name": "Xで東京のイベント情報を見る",
+          "observed_in": [
+            "https://www.ikebukuropark.info/"
+          ]
+        },
+        {
+          "url": "https://www.ikebukuropark.info/hozuki-animate-ikebukuro-15th-exhibition-2026",
+          "name": "『鬼灯の冷徹』連載開始15周年記念 アニメイト特別展示",
+          "observed_in": [
+            "https://www.ikebukuropark.info/"
+          ]
+        },
+        {
+          "url": "https://www.ikebukuropark.info/ikebukuro-halloween-cosplay-festival-2026",
+          "name": "池袋ハロウィンコスプレフェス2026 Powered by dwango",
+          "observed_in": [
+            "https://www.ikebukuropark.info/"
+          ]
+        },
+        {
+          "url": "https://www.ikebukuropark.info/tokyo-festival-2026",
+          "name": "東京舞台芸術祭 2026",
+          "observed_in": [
+            "https://www.ikebukuropark.info/"
+          ]
+        },
+        {
+          "url": "https://www.ikebukuropark.info/tachiuo-no-hi-sunshine-aquarium-2026",
+          "name": "11月11日タチウオの日制定記念イベント",
+          "observed_in": [
+            "https://www.ikebukuropark.info/"
+          ]
+        },
+        {
+          "url": "https://www.ikebukuropark.info/animate-girls-festival-2026",
+          "name": "アニメイトガールズフェスティバル2026",
+          "observed_in": [
+            "https://www.ikebukuropark.info/"
+          ]
+        },
+        {
+          "url": "https://www.ikebukuropark.info/minori-no-festival-2026",
+          "name": "令和8年度（第65回）農林水産祭「実りのフェスティバル」",
+          "observed_in": [
+            "https://www.ikebukuropark.info/"
+          ]
+        },
+        {
+          "url": "https://www.ikebukuropark.info/ikebukuro-global-ring-music-festival-2026",
+          "name": "池袋GLOBAL RING音楽祭2026",
+          "observed_in": [
+            "https://www.ikebukuropark.info/"
+          ]
+        },
+        {
+          "url": "https://www.ikebukuropark.info/egg-fes-in-tokyo-2026",
+          "name": "卵フェスin東京2026",
+          "observed_in": [
+            "https://www.ikebukuropark.info/"
+          ]
+        },
+        {
+          "url": "https://www.tokyofes.info",
+          "name": "東京イベント",
+          "observed_in": [
+            "https://www.ikebukuropark.info/"
+          ]
+        },
+        {
+          "url": "https://www.sumidaevent.com",
+          "name": "東京｜墨田イベント",
+          "observed_in": [
+            "https://www.ikebukuropark.info/"
+          ]
+        },
+        {
+          "url": "https://www.asakusaevent.com",
+          "name": "東京｜浅草イベント",
+          "observed_in": [
+            "https://www.ikebukuropark.info/"
+          ]
+        },
+        {
+          "url": "https://www.uenopark.info",
+          "name": "東京｜上野公園イベント",
+          "observed_in": [
+            "https://www.ikebukuropark.info/"
+          ]
+        },
+        {
+          "url": "https://www.akihabaraevent.com",
+          "name": "東京｜秋葉原イベント",
+          "observed_in": [
+            "https://www.ikebukuropark.info/"
+          ]
+        },
+        {
+          "url": "https://www.hibiyapark.info",
+          "name": "東京｜日比谷公園イベント",
+          "observed_in": [
+            "https://www.ikebukuropark.info/"
+          ]
+        },
+        {
+          "url": "https://www.shinjukuevent.com",
+          "name": "東京｜新宿イベント",
+          "observed_in": [
+            "https://www.ikebukuropark.info/"
+          ]
+        },
+        {
+          "url": "https://www.nakanoevent.com",
+          "name": "東京｜中野イベント",
+          "observed_in": [
+            "https://www.ikebukuropark.info/"
+          ]
+        },
+        {
+          "url": "https://www.yoyogikoen.info",
+          "name": "東京｜代々木公園イベント",
+          "observed_in": [
+            "https://www.ikebukuropark.info/"
+          ]
+        },
+        {
+          "url": "https://www.yoyogipark.info",
+          "name": "Yoyogi Park Events & Festivals",
+          "observed_in": [
+            "https://www.ikebukuropark.info/"
+          ]
+        }
+      ],
+      "new_arrival_post_leads_observed": 0,
+      "new_arrival_post_leads_are_unverified": true,
+      "new_arrival_samples": [],
+      "event_candidates_total": null,
+      "candidate_publication_parity": "未検証",
+      "published_count_from_source": null,
+      "excluded_count_from_source": null,
+      "duplicate_count_from_source": null,
+      "unreviewed_count_from_source": null,
+      "unverified_due_to_source_error": false,
+      "source_checks": [
+        {
+          "url": "https://www.ikebukuropark.info/",
+          "checked_at": "2026-11-22T14:31:33+09:00",
+          "status": "checked",
+          "http_status": 200,
+          "final_url": "https://www.ikebukuropark.info/",
+          "content_type": "text/html; charset=UTF-8",
+          "bytes": 157741,
+          "sha256": "d772ab8069d9ef5cc66a2090031674a405dadb0103dc1dc99762e8253c789a67",
+          "page_title": "池袋イベント情報｜西口公園やサンシャインシティの催し",
+          "observed_event_link_leads": 100
+        }
+      ],
+      "errors": [],
+      "audit_method": "registered URLs; HTML link lead observation; no inferred event dates",
+      "caveat": "接続成功は候補・掲載の全件照合完了を意味しません。"
+    },
+    {
+      "source_id": "shinjuku",
+      "label": "新宿",
+      "origin": "legacy",
+      "required": true,
+      "group": "固定サイト",
+      "detail_adapter": null,
+      "base_url": "https://www.shinjukuevent.com/",
+      "retrieval_status": "checked",
+      "status_label": "要個別照合",
+      "pages_expected": 1,
+      "pages_checked": 1,
+      "pages_failed": 0,
+      "observed_distinct_link_leads": 100,
+      "example_leads": [
+        {
+          "url": "https://www.shinjukuevent.com",
+          "name": "新宿イベント情報",
+          "observed_in": [
+            "https://www.shinjukuevent.com/"
+          ]
+        },
+        {
+          "url": "https://x.com/event_fes",
+          "name": "Xで東京のイベント情報を見る",
+          "observed_in": [
+            "https://www.shinjukuevent.com/"
+          ]
+        },
+        {
+          "url": "https://www.shinjukuevent.com/shinjuku-machi-fes-2026",
+          "name": "新宿まちフェス2026",
+          "observed_in": [
+            "https://www.shinjukuevent.com/"
+          ]
+        },
+        {
+          "url": "https://www.tokyofes.info",
+          "name": "東京イベント",
+          "observed_in": [
+            "https://www.shinjukuevent.com/"
+          ]
+        },
+        {
+          "url": "https://www.sumidaevent.com",
+          "name": "東京｜墨田イベント",
+          "observed_in": [
+            "https://www.shinjukuevent.com/"
+          ]
+        },
+        {
+          "url": "https://www.asakusaevent.com",
+          "name": "東京｜浅草イベント",
+          "observed_in": [
+            "https://www.shinjukuevent.com/"
+          ]
+        },
+        {
+          "url": "https://www.uenopark.info",
+          "name": "東京｜上野公園イベント",
+          "observed_in": [
+            "https://www.shinjukuevent.com/"
+          ]
+        },
+        {
+          "url": "https://www.akihabaraevent.com",
+          "name": "東京｜秋葉原イベント",
+          "observed_in": [
+            "https://www.shinjukuevent.com/"
+          ]
+        },
+        {
+          "url": "https://www.hibiyapark.info",
+          "name": "東京｜日比谷公園イベント",
+          "observed_in": [
+            "https://www.shinjukuevent.com/"
+          ]
+        },
+        {
+          "url": "https://www.ikebukuropark.info",
+          "name": "東京｜池袋イベント",
+          "observed_in": [
+            "https://www.shinjukuevent.com/"
+          ]
+        },
+        {
+          "url": "https://www.nakanoevent.com",
+          "name": "東京｜中野イベント",
+          "observed_in": [
+            "https://www.shinjukuevent.com/"
+          ]
+        },
+        {
+          "url": "https://www.yoyogikoen.info",
+          "name": "東京｜代々木公園イベント",
+          "observed_in": [
+            "https://www.shinjukuevent.com/"
+          ]
+        },
+        {
+          "url": "https://www.yoyogipark.info",
+          "name": "Yoyogi Park Events & Festivals",
+          "observed_in": [
+            "https://www.shinjukuevent.com/"
+          ]
+        },
+        {
+          "url": "https://www.miyashitapark.info",
+          "name": "東京｜渋谷イベント",
+          "observed_in": [
+            "https://www.shinjukuevent.com/"
+          ]
+        },
+        {
+          "url": "https://www.roppongievents.com",
+          "name": "東京｜六本木イベント",
+          "observed_in": [
+            "https://www.shinjukuevent.com/"
+          ]
+        },
+        {
+          "url": "https://www.toyosuevent.com",
+          "name": "東京｜豊洲イベント",
+          "observed_in": [
+            "https://www.shinjukuevent.com/"
+          ]
+        },
+        {
+          "url": "https://www.odaibapark.com",
+          "name": "東京｜お台場イベント",
+          "observed_in": [
+            "https://www.shinjukuevent.com/"
+          ]
+        },
+        {
+          "url": "https://www.shinagawaevent.com",
+          "name": "東京｜品川イベント",
+          "observed_in": [
+            "https://www.shinjukuevent.com/"
+          ]
+        },
+        {
+          "url": "https://www.tachikawaevent.com",
+          "name": "東京｜立川イベント",
+          "observed_in": [
+            "https://www.shinjukuevent.com/"
+          ]
+        },
+        {
+          "url": "https://www.futonrecords.com/classlog",
+          "name": "子どもの学校名・クラス・担任名を12年分記録できる無料アプリ「うちの子なん組？」はこちら",
+          "observed_in": [
+            "https://www.shinjukuevent.com/"
+          ]
+        }
+      ],
+      "new_arrival_post_leads_observed": 0,
+      "new_arrival_post_leads_are_unverified": true,
+      "new_arrival_samples": [],
+      "event_candidates_total": null,
+      "candidate_publication_parity": "未検証",
+      "published_count_from_source": null,
+      "excluded_count_from_source": null,
+      "duplicate_count_from_source": null,
+      "unreviewed_count_from_source": null,
+      "unverified_due_to_source_error": false,
+      "source_checks": [
+        {
+          "url": "https://www.shinjukuevent.com/",
+          "checked_at": "2026-11-22T14:31:33+09:00",
+          "status": "checked",
+          "http_status": 200,
+          "final_url": "https://www.shinjukuevent.com/",
+          "content_type": "text/html; charset=UTF-8",
+          "bytes": 117025,
+          "sha256": "519e92264ccd8c9a0b3dcfcc27df04d66039c4daf373782635f9d98d76a7d9b6",
+          "page_title": "新宿イベント情報｜大久保公園や新宿駅周辺の催し",
+          "observed_event_link_leads": 100
+        }
+      ],
+      "errors": [],
+      "audit_method": "registered URLs; HTML link lead observation; no inferred event dates",
+      "caveat": "接続成功は候補・掲載の全件照合完了を意味しません。"
+    },
+    {
+      "source_id": "nakano",
+      "label": "中野",
+      "origin": "legacy",
+      "required": true,
+      "group": "固定サイト",
+      "detail_adapter": null,
+      "base_url": "https://www.nakanoevent.com/",
+      "retrieval_status": "checked",
+      "status_label": "要個別照合",
+      "pages_expected": 1,
+      "pages_checked": 1,
+      "pages_failed": 0,
+      "observed_distinct_link_leads": 100,
+      "example_leads": [
+        {
+          "url": "https://www.nakanoevent.com",
+          "name": "中野イベント情報",
+          "observed_in": [
+            "https://www.nakanoevent.com/"
+          ]
+        },
+        {
+          "url": "https://x.com/event_fes",
+          "name": "Xで東京のイベント情報を見る",
+          "observed_in": [
+            "https://www.nakanoevent.com/"
+          ]
+        },
+        {
+          "url": "https://www.nakanoevent.com/yakiimo-fes-tokyo-2026",
+          "name": "やきいもフェス® TOKYO 2026",
+          "observed_in": [
+            "https://www.nakanoevent.com/"
+          ]
+        },
+        {
+          "url": "https://www.nakanoevent.com/2026-nakano-nigiwai-festa-autumn",
+          "name": "中野にぎわいフェスタ2026秋",
+          "observed_in": [
+            "https://www.nakanoevent.com/"
+          ]
+        },
+        {
+          "url": "https://www.nakanoevent.com/hitsujifesta-nakano-2026",
+          "name": "羊フェスタ2026 in なかのアンテナストリート",
+          "observed_in": [
+            "https://www.nakanoevent.com/"
+          ]
+        },
+        {
+          "url": "https://www.tokyofes.info",
+          "name": "東京イベント",
+          "observed_in": [
+            "https://www.nakanoevent.com/"
+          ]
+        },
+        {
+          "url": "https://www.sumidaevent.com",
+          "name": "東京｜墨田イベント",
+          "observed_in": [
+            "https://www.nakanoevent.com/"
+          ]
+        },
+        {
+          "url": "https://www.asakusaevent.com",
+          "name": "東京｜浅草イベント",
+          "observed_in": [
+            "https://www.nakanoevent.com/"
+          ]
+        },
+        {
+          "url": "https://www.uenopark.info",
+          "name": "東京｜上野公園イベント",
+          "observed_in": [
+            "https://www.nakanoevent.com/"
+          ]
+        },
+        {
+          "url": "https://www.akihabaraevent.com",
+          "name": "東京｜秋葉原イベント",
+          "observed_in": [
+            "https://www.nakanoevent.com/"
+          ]
+        },
+        {
+          "url": "https://www.hibiyapark.info",
+          "name": "東京｜日比谷公園イベント",
+          "observed_in": [
+            "https://www.nakanoevent.com/"
+          ]
+        },
+        {
+          "url": "https://www.ikebukuropark.info",
+          "name": "東京｜池袋イベント",
+          "observed_in": [
+            "https://www.nakanoevent.com/"
+          ]
+        },
+        {
+          "url": "https://www.shinjukuevent.com",
+          "name": "東京｜新宿イベント",
+          "observed_in": [
+            "https://www.nakanoevent.com/"
+          ]
+        },
+        {
+          "url": "https://www.yoyogikoen.info",
+          "name": "東京｜代々木公園イベント",
+          "observed_in": [
+            "https://www.nakanoevent.com/"
+          ]
+        },
+        {
+          "url": "https://www.yoyogipark.info",
+          "name": "Yoyogi Park Events & Festivals",
+          "observed_in": [
+            "https://www.nakanoevent.com/"
+          ]
+        },
+        {
+          "url": "https://www.miyashitapark.info",
+          "name": "東京｜渋谷イベント",
+          "observed_in": [
+            "https://www.nakanoevent.com/"
+          ]
+        },
+        {
+          "url": "https://www.roppongievents.com",
+          "name": "東京｜六本木イベント",
+          "observed_in": [
+            "https://www.nakanoevent.com/"
+          ]
+        },
+        {
+          "url": "https://www.toyosuevent.com",
+          "name": "東京｜豊洲イベント",
+          "observed_in": [
+            "https://www.nakanoevent.com/"
+          ]
+        },
+        {
+          "url": "https://www.odaibapark.com",
+          "name": "東京｜お台場イベント",
+          "observed_in": [
+            "https://www.nakanoevent.com/"
+          ]
+        },
+        {
+          "url": "https://www.shinagawaevent.com",
+          "name": "東京｜品川イベント",
+          "observed_in": [
+            "https://www.nakanoevent.com/"
+          ]
+        }
+      ],
+      "new_arrival_post_leads_observed": 0,
+      "new_arrival_post_leads_are_unverified": true,
+      "new_arrival_samples": [],
+      "event_candidates_total": null,
+      "candidate_publication_parity": "未検証",
+      "published_count_from_source": null,
+      "excluded_count_from_source": null,
+      "duplicate_count_from_source": null,
+      "unreviewed_count_from_source": null,
+      "unverified_due_to_source_error": false,
+      "source_checks": [
+        {
+          "url": "https://www.nakanoevent.com/",
+          "checked_at": "2026-11-22T14:31:33+09:00",
+          "status": "checked",
+          "http_status": 200,
+          "final_url": "https://www.nakanoevent.com/",
+          "content_type": "text/html; charset=UTF-8",
+          "bytes": 111755,
+          "sha256": "9de857e3533129d18da7d4ceba2f425587da1b6a022e93ff5fab165dbb062fd4",
+          "page_title": "中野イベント情報｜中野セントラルパーク・中野四季の森公園",
+          "observed_event_link_leads": 100
+        }
+      ],
+      "errors": [],
+      "audit_method": "registered URLs; HTML link lead observation; no inferred event dates",
+      "caveat": "接続成功は候補・掲載の全件照合完了を意味しません。"
+    },
+    {
+      "source_id": "yoyogi",
+      "label": "代々木公園",
+      "origin": "legacy",
+      "required": true,
+      "group": "固定サイト",
+      "detail_adapter": null,
+      "base_url": "https://www.yoyogikoen.info/",
+      "retrieval_status": "checked",
+      "status_label": "要個別照合",
+      "pages_expected": 1,
+      "pages_checked": 1,
+      "pages_failed": 0,
+      "observed_distinct_link_leads": 100,
+      "example_leads": [
+        {
+          "url": "https://www.yoyogikoen.info",
+          "name": "代々木公園イベント＆フェス情報",
+          "observed_in": [
+            "https://www.yoyogikoen.info/"
+          ]
+        },
+        {
+          "url": "https://www.yoyogikoen.info/cambodia-water-festival-2026",
+          "name": "第4回 カンボジア水祭り",
+          "observed_in": [
+            "https://www.yoyogikoen.info/"
+          ]
+        },
+        {
+          "url": "https://www.yoyogikoen.info/tokyo-women-children-festival-2026",
+          "name": "第4回TOKYO女性と子どものフェスティバル",
+          "observed_in": [
+            "https://www.yoyogikoen.info/"
+          ]
+        },
+        {
+          "url": "https://www.yoyogikoen.info/tokyo-snow-festival-2026",
+          "name": "東京雪祭2026",
+          "observed_in": [
+            "https://www.yoyogikoen.info/"
+          ]
+        },
+        {
+          "url": "https://www.yoyogikoen.info/turkish-food-festival-yoyogi-park-2026",
+          "name": "第5回 トルコフード フェスティバル",
+          "observed_in": [
+            "https://www.yoyogikoen.info/"
+          ]
+        },
+        {
+          "url": "https://www.yoyogikoen.info/loy-krathong-festival-yoyogi-park-2026",
+          "name": "第6回 ロイカトン フェスティバル",
+          "observed_in": [
+            "https://www.yoyogikoen.info/"
+          ]
+        },
+        {
+          "url": "https://www.yoyogikoen.info/jazz-festival-yoyogi-park-2026",
+          "name": "JAZZ FESTIVAL in Yoyogi park 2026",
+          "observed_in": [
+            "https://www.yoyogikoen.info/"
+          ]
+        },
+        {
+          "url": "https://www.yoyogikoen.info/yoyogi-park-festa-2026-2",
+          "name": "公園フェスタ",
+          "observed_in": [
+            "https://www.yoyogikoen.info/"
+          ]
+        },
+        {
+          "url": "https://www.yoyogikoen.info/shibuya-festival-2026",
+          "name": "渋谷フェスティバル2026",
+          "observed_in": [
+            "https://www.yoyogikoen.info/"
+          ]
+        },
+        {
+          "url": "https://www.yoyogikoen.info/philippine-festival-tokyo-2026",
+          "name": "フィリピンフェスティバル東京 2026",
+          "observed_in": [
+            "https://www.yoyogikoen.info/"
+          ]
+        },
+        {
+          "url": "https://www.yoyogikoen.info/meet-your-art-festival-annex-yoyogi-park-2026",
+          "name": "MEET YOUR ART FESTIVAL Annex",
+          "observed_in": [
+            "https://www.yoyogikoen.info/"
+          ]
+        },
+        {
+          "url": "https://www.yoyogikoen.info/27th-thai-festival-tokyo-2027",
+          "name": "第27回タイフェスティバル東京",
+          "observed_in": [
+            "https://www.yoyogikoen.info/"
+          ]
+        },
+        {
+          "url": "https://www.tokyofes.info",
+          "name": "東京イベント",
+          "observed_in": [
+            "https://www.yoyogikoen.info/"
+          ]
+        },
+        {
+          "url": "https://www.sumidaevent.com",
+          "name": "東京｜墨田イベント",
+          "observed_in": [
+            "https://www.yoyogikoen.info/"
+          ]
+        },
+        {
+          "url": "https://www.asakusaevent.com",
+          "name": "東京｜浅草イベント",
+          "observed_in": [
+            "https://www.yoyogikoen.info/"
+          ]
+        },
+        {
+          "url": "https://www.uenopark.info",
+          "name": "東京｜上野公園イベント",
+          "observed_in": [
+            "https://www.yoyogikoen.info/"
+          ]
+        },
+        {
+          "url": "https://www.akihabaraevent.com",
+          "name": "東京｜秋葉原イベント",
+          "observed_in": [
+            "https://www.yoyogikoen.info/"
+          ]
+        },
+        {
+          "url": "https://www.hibiyapark.info",
+          "name": "東京｜日比谷公園イベント",
+          "observed_in": [
+            "https://www.yoyogikoen.info/"
+          ]
+        },
+        {
+          "url": "https://www.ikebukuropark.info",
+          "name": "東京｜池袋イベント",
+          "observed_in": [
+            "https://www.yoyogikoen.info/"
+          ]
+        },
+        {
+          "url": "https://www.shinjukuevent.com",
+          "name": "東京｜新宿イベント",
+          "observed_in": [
+            "https://www.yoyogikoen.info/"
+          ]
+        }
+      ],
+      "new_arrival_post_leads_observed": 0,
+      "new_arrival_post_leads_are_unverified": true,
+      "new_arrival_samples": [],
+      "event_candidates_total": null,
+      "candidate_publication_parity": "未検証",
+      "published_count_from_source": null,
+      "excluded_count_from_source": null,
+      "duplicate_count_from_source": null,
+      "unreviewed_count_from_source": null,
+      "unverified_due_to_source_error": false,
+      "source_checks": [
+        {
+          "url": "https://www.yoyogikoen.info/",
+          "checked_at": "2026-11-22T14:31:34+09:00",
+          "status": "checked",
+          "http_status": 200,
+          "final_url": "https://www.yoyogikoen.info/",
+          "content_type": "text/html; charset=UTF-8",
+          "bytes": 273384,
+          "sha256": "561e5188a5c81ff98bdfcc11d7773bd7f353a01daa4e758fc0811b9c1486c7bd",
+          "page_title": "代々木公園イベント＆フェス情報",
+          "observed_event_link_leads": 100
+        }
+      ],
+      "errors": [],
+      "audit_method": "registered URLs; HTML link lead observation; no inferred event dates",
+      "caveat": "接続成功は候補・掲載の全件照合完了を意味しません。"
+    },
+    {
+      "source_id": "shibuya",
+      "label": "渋谷",
+      "origin": "legacy",
+      "required": true,
+      "group": "固定サイト",
+      "detail_adapter": null,
+      "base_url": "https://www.miyashitapark.info/",
+      "retrieval_status": "checked",
+      "status_label": "要個別照合",
+      "pages_expected": 1,
+      "pages_checked": 1,
+      "pages_failed": 0,
+      "observed_distinct_link_leads": 100,
+      "example_leads": [
+        {
+          "url": "https://www.miyashitapark.info",
+          "name": "渋谷イベント情報",
+          "observed_in": [
+            "https://www.miyashitapark.info/"
+          ]
+        },
+        {
+          "url": "https://x.com/event_fes",
+          "name": "Xで東京のイベント情報を見る",
+          "observed_in": [
+            "https://www.miyashitapark.info/"
+          ]
+        },
+        {
+          "url": "https://www.miyashitapark.info/shibuya-art-scramble-2026",
+          "name": "第18回渋谷芸術祭2026 ～SHIBUYA ART SCRAMBLE～",
+          "observed_in": [
+            "https://www.miyashitapark.info/"
+          ]
+        },
+        {
+          "url": "https://www.miyashitapark.info/super-welfare-school-shibuya-2026",
+          "name": "超福祉の学校@SHIBUYA 2026（展示体験）",
+          "observed_in": [
+            "https://www.miyashitapark.info/"
+          ]
+        },
+        {
+          "url": "https://www.tokyofes.info",
+          "name": "東京イベント",
+          "observed_in": [
+            "https://www.miyashitapark.info/"
+          ]
+        },
+        {
+          "url": "https://www.sumidaevent.com",
+          "name": "東京｜墨田イベント",
+          "observed_in": [
+            "https://www.miyashitapark.info/"
+          ]
+        },
+        {
+          "url": "https://www.asakusaevent.com",
+          "name": "東京｜浅草イベント",
+          "observed_in": [
+            "https://www.miyashitapark.info/"
+          ]
+        },
+        {
+          "url": "https://www.uenopark.info",
+          "name": "東京｜上野公園イベント",
+          "observed_in": [
+            "https://www.miyashitapark.info/"
+          ]
+        },
+        {
+          "url": "https://www.akihabaraevent.com",
+          "name": "東京｜秋葉原イベント",
+          "observed_in": [
+            "https://www.miyashitapark.info/"
+          ]
+        },
+        {
+          "url": "https://www.hibiyapark.info",
+          "name": "東京｜日比谷公園イベント",
+          "observed_in": [
+            "https://www.miyashitapark.info/"
+          ]
+        },
+        {
+          "url": "https://www.ikebukuropark.info",
+          "name": "東京｜池袋イベント",
+          "observed_in": [
+            "https://www.miyashitapark.info/"
+          ]
+        },
+        {
+          "url": "https://www.shinjukuevent.com",
+          "name": "東京｜新宿イベント",
+          "observed_in": [
+            "https://www.miyashitapark.info/"
+          ]
+        },
+        {
+          "url": "https://www.nakanoevent.com",
+          "name": "東京｜中野イベント",
+          "observed_in": [
+            "https://www.miyashitapark.info/"
+          ]
+        },
+        {
+          "url": "https://www.yoyogikoen.info",
+          "name": "東京｜代々木公園イベント",
+          "observed_in": [
+            "https://www.miyashitapark.info/"
+          ]
+        },
+        {
+          "url": "https://www.yoyogipark.info",
+          "name": "Yoyogi Park Events & Festivals",
+          "observed_in": [
+            "https://www.miyashitapark.info/"
+          ]
+        },
+        {
+          "url": "https://www.roppongievents.com",
+          "name": "東京｜六本木イベント",
+          "observed_in": [
+            "https://www.miyashitapark.info/"
+          ]
+        },
+        {
+          "url": "https://www.toyosuevent.com",
+          "name": "東京｜豊洲イベント",
+          "observed_in": [
+            "https://www.miyashitapark.info/"
+          ]
+        },
+        {
+          "url": "https://www.odaibapark.com",
+          "name": "東京｜お台場イベント",
+          "observed_in": [
+            "https://www.miyashitapark.info/"
+          ]
+        },
+        {
+          "url": "https://www.shinagawaevent.com",
+          "name": "東京｜品川イベント",
+          "observed_in": [
+            "https://www.miyashitapark.info/"
+          ]
+        },
+        {
+          "url": "https://www.tachikawaevent.com",
+          "name": "東京｜立川イベント",
+          "observed_in": [
+            "https://www.miyashitapark.info/"
+          ]
+        }
+      ],
+      "new_arrival_post_leads_observed": 0,
+      "new_arrival_post_leads_are_unverified": true,
+      "new_arrival_samples": [],
+      "event_candidates_total": null,
+      "candidate_publication_parity": "未検証",
+      "published_count_from_source": null,
+      "excluded_count_from_source": null,
+      "duplicate_count_from_source": null,
+      "unreviewed_count_from_source": null,
+      "unverified_due_to_source_error": false,
+      "source_checks": [
+        {
+          "url": "https://www.miyashitapark.info/",
+          "checked_at": "2026-11-22T14:31:34+09:00",
+          "status": "checked",
+          "http_status": 200,
+          "final_url": "https://www.miyashitapark.info/",
+          "content_type": "text/html; charset=UTF-8",
+          "bytes": 121933,
+          "sha256": "44b3604ca04a2db8895299d4d08f68bee094648c4ced761940894cc63ccc766c",
+          "page_title": "渋谷イベント情報｜宮下パーク・渋谷駅周辺の催し",
+          "observed_event_link_leads": 100
+        }
+      ],
+      "errors": [],
+      "audit_method": "registered URLs; HTML link lead observation; no inferred event dates",
+      "caveat": "接続成功は候補・掲載の全件照合完了を意味しません。"
+    },
+    {
+      "source_id": "roppongi",
+      "label": "六本木",
+      "origin": "legacy",
+      "required": true,
+      "group": "固定サイト",
+      "detail_adapter": null,
+      "base_url": "https://www.roppongievents.com/",
+      "retrieval_status": "checked",
+      "status_label": "要個別照合",
+      "pages_expected": 1,
+      "pages_checked": 1,
+      "pages_failed": 0,
+      "observed_distinct_link_leads": 100,
+      "example_leads": [
+        {
+          "url": "https://www.roppongievents.com",
+          "name": "六本木イベント情報",
+          "observed_in": [
+            "https://www.roppongievents.com/"
+          ]
+        },
+        {
+          "url": "https://x.com/event_fes",
+          "name": "Xで東京のイベント情報を見る",
+          "observed_in": [
+            "https://www.roppongievents.com/"
+          ]
+        },
+        {
+          "url": "https://www.roppongievents.com/deutschlandfest-tokyo-2026",
+          "name": "ドイツフェスティバル2026",
+          "observed_in": [
+            "https://www.roppongievents.com/"
+          ]
+        },
+        {
+          "url": "https://www.tokyofes.info",
+          "name": "東京イベント",
+          "observed_in": [
+            "https://www.roppongievents.com/"
+          ]
+        },
+        {
+          "url": "https://www.sumidaevent.com",
+          "name": "東京｜墨田イベント",
+          "observed_in": [
+            "https://www.roppongievents.com/"
+          ]
+        },
+        {
+          "url": "https://www.asakusaevent.com",
+          "name": "東京｜浅草イベント",
+          "observed_in": [
+            "https://www.roppongievents.com/"
+          ]
+        },
+        {
+          "url": "https://www.uenopark.info",
+          "name": "東京｜上野公園イベント",
+          "observed_in": [
+            "https://www.roppongievents.com/"
+          ]
+        },
+        {
+          "url": "https://www.akihabaraevent.com",
+          "name": "東京｜秋葉原イベント",
+          "observed_in": [
+            "https://www.roppongievents.com/"
+          ]
+        },
+        {
+          "url": "https://www.hibiyapark.info",
+          "name": "東京｜日比谷公園イベント",
+          "observed_in": [
+            "https://www.roppongievents.com/"
+          ]
+        },
+        {
+          "url": "https://www.ikebukuropark.info",
+          "name": "東京｜池袋イベント",
+          "observed_in": [
+            "https://www.roppongievents.com/"
+          ]
+        },
+        {
+          "url": "https://www.shinjukuevent.com",
+          "name": "東京｜新宿イベント",
+          "observed_in": [
+            "https://www.roppongievents.com/"
+          ]
+        },
+        {
+          "url": "https://www.nakanoevent.com",
+          "name": "東京｜中野イベント",
+          "observed_in": [
+            "https://www.roppongievents.com/"
+          ]
+        },
+        {
+          "url": "https://www.yoyogikoen.info",
+          "name": "東京｜代々木公園イベント",
+          "observed_in": [
+            "https://www.roppongievents.com/"
+          ]
+        },
+        {
+          "url": "https://www.yoyogipark.info",
+          "name": "Yoyogi Park Events & Festivals",
+          "observed_in": [
+            "https://www.roppongievents.com/"
+          ]
+        },
+        {
+          "url": "https://www.miyashitapark.info",
+          "name": "東京｜渋谷イベント",
+          "observed_in": [
+            "https://www.roppongievents.com/"
+          ]
+        },
+        {
+          "url": "https://www.toyosuevent.com",
+          "name": "東京｜豊洲イベント",
+          "observed_in": [
+            "https://www.roppongievents.com/"
+          ]
+        },
+        {
+          "url": "https://www.odaibapark.com",
+          "name": "東京｜お台場イベント",
+          "observed_in": [
+            "https://www.roppongievents.com/"
+          ]
+        },
+        {
+          "url": "https://www.shinagawaevent.com",
+          "name": "東京｜品川イベント",
+          "observed_in": [
+            "https://www.roppongievents.com/"
+          ]
+        },
+        {
+          "url": "https://www.tachikawaevent.com",
+          "name": "東京｜立川イベント",
+          "observed_in": [
+            "https://www.roppongievents.com/"
+          ]
+        },
+        {
+          "url": "https://www.futonrecords.com/classlog",
+          "name": "子どもの学校名・クラス・担任名を12年分記録できる無料アプリ「うちの子なん組？」はこちら",
+          "observed_in": [
+            "https://www.roppongievents.com/"
+          ]
+        }
+      ],
+      "new_arrival_post_leads_observed": 0,
+      "new_arrival_post_leads_are_unverified": true,
+      "new_arrival_samples": [],
+      "event_candidates_total": null,
+      "candidate_publication_parity": "未検証",
+      "published_count_from_source": null,
+      "excluded_count_from_source": null,
+      "duplicate_count_from_source": null,
+      "unreviewed_count_from_source": null,
+      "unverified_due_to_source_error": false,
+      "source_checks": [
+        {
+          "url": "https://www.roppongievents.com/",
+          "checked_at": "2026-11-22T14:31:34+09:00",
+          "status": "checked",
+          "http_status": 200,
+          "final_url": "https://www.roppongievents.com/",
+          "content_type": "text/html; charset=UTF-8",
+          "bytes": 162255,
+          "sha256": "9d751d77b59dcecef1aee35ff13ddc519db017c5af3e381ec91640ff4423440d",
+          "page_title": "六本木イベント情報｜六本木ヒルズ・麻布台ヒルズの催し",
+          "observed_event_link_leads": 100
+        }
+      ],
+      "errors": [],
+      "audit_method": "registered URLs; HTML link lead observation; no inferred event dates",
+      "caveat": "接続成功は候補・掲載の全件照合完了を意味しません。"
+    },
+    {
+      "source_id": "toyosu",
+      "label": "豊洲",
+      "origin": "legacy",
+      "required": true,
+      "group": "固定サイト",
+      "detail_adapter": null,
+      "base_url": "https://www.toyosuevent.com/",
+      "retrieval_status": "checked",
+      "status_label": "要個別照合",
+      "pages_expected": 1,
+      "pages_checked": 1,
+      "pages_failed": 0,
+      "observed_distinct_link_leads": 100,
+      "example_leads": [
+        {
+          "url": "https://www.toyosuevent.com",
+          "name": "豊洲イベント情報",
+          "observed_in": [
+            "https://www.toyosuevent.com/"
+          ]
+        },
+        {
+          "url": "https://x.com/event_fes",
+          "name": "Xで東京のイベント情報を見る",
+          "observed_in": [
+            "https://www.toyosuevent.com/"
+          ]
+        },
+        {
+          "url": "https://www.tokyofes.info",
+          "name": "東京イベント",
+          "observed_in": [
+            "https://www.toyosuevent.com/"
+          ]
+        },
+        {
+          "url": "https://www.sumidaevent.com",
+          "name": "東京｜墨田イベント",
+          "observed_in": [
+            "https://www.toyosuevent.com/"
+          ]
+        },
+        {
+          "url": "https://www.asakusaevent.com",
+          "name": "東京｜浅草イベント",
+          "observed_in": [
+            "https://www.toyosuevent.com/"
+          ]
+        },
+        {
+          "url": "https://www.uenopark.info",
+          "name": "東京｜上野公園イベント",
+          "observed_in": [
+            "https://www.toyosuevent.com/"
+          ]
+        },
+        {
+          "url": "https://www.akihabaraevent.com",
+          "name": "東京｜秋葉原イベント",
+          "observed_in": [
+            "https://www.toyosuevent.com/"
+          ]
+        },
+        {
+          "url": "https://www.hibiyapark.info",
+          "name": "東京｜日比谷公園イベント",
+          "observed_in": [
+            "https://www.toyosuevent.com/"
+          ]
+        },
+        {
+          "url": "https://www.ikebukuropark.info",
+          "name": "東京｜池袋イベント",
+          "observed_in": [
+            "https://www.toyosuevent.com/"
+          ]
+        },
+        {
+          "url": "https://www.shinjukuevent.com",
+          "name": "東京｜新宿イベント",
+          "observed_in": [
+            "https://www.toyosuevent.com/"
+          ]
+        },
+        {
+          "url": "https://www.nakanoevent.com",
+          "name": "東京｜中野イベント",
+          "observed_in": [
+            "https://www.toyosuevent.com/"
+          ]
+        },
+        {
+          "url": "https://www.yoyogikoen.info",
+          "name": "東京｜代々木公園イベント",
+          "observed_in": [
+            "https://www.toyosuevent.com/"
+          ]
+        },
+        {
+          "url": "https://www.yoyogipark.info",
+          "name": "Yoyogi Park Events & Festivals",
+          "observed_in": [
+            "https://www.toyosuevent.com/"
+          ]
+        },
+        {
+          "url": "https://www.miyashitapark.info",
+          "name": "東京｜渋谷イベント",
+          "observed_in": [
+            "https://www.toyosuevent.com/"
+          ]
+        },
+        {
+          "url": "https://www.roppongievents.com",
+          "name": "東京｜六本木イベント",
+          "observed_in": [
+            "https://www.toyosuevent.com/"
+          ]
+        },
+        {
+          "url": "https://www.odaibapark.com",
+          "name": "東京｜お台場イベント",
+          "observed_in": [
+            "https://www.toyosuevent.com/"
+          ]
+        },
+        {
+          "url": "https://www.shinagawaevent.com",
+          "name": "東京｜品川イベント",
+          "observed_in": [
+            "https://www.toyosuevent.com/"
+          ]
+        },
+        {
+          "url": "https://www.tachikawaevent.com",
+          "name": "東京｜立川イベント",
+          "observed_in": [
+            "https://www.toyosuevent.com/"
+          ]
+        },
+        {
+          "url": "https://x.com/yoyogi_fes",
+          "name": "代々木公園イベント情報｜公式X（@yoyogi_fes）",
+          "observed_in": [
+            "https://www.toyosuevent.com/"
+          ]
+        },
+        {
+          "url": "https://www.eventfestival.info",
+          "name": "全国イベント",
+          "observed_in": [
+            "https://www.toyosuevent.com/"
+          ]
+        }
+      ],
+      "new_arrival_post_leads_observed": 0,
+      "new_arrival_post_leads_are_unverified": true,
+      "new_arrival_samples": [],
+      "event_candidates_total": null,
+      "candidate_publication_parity": "未検証",
+      "published_count_from_source": null,
+      "excluded_count_from_source": null,
+      "duplicate_count_from_source": null,
+      "unreviewed_count_from_source": null,
+      "unverified_due_to_source_error": false,
+      "source_checks": [
+        {
+          "url": "https://www.toyosuevent.com/",
+          "checked_at": "2026-11-22T14:31:34+09:00",
+          "status": "checked",
+          "http_status": 200,
+          "final_url": "https://www.toyosuevent.com/",
+          "content_type": "text/html; charset=UTF-8",
+          "bytes": 117087,
+          "sha256": "83daaf377f1da4c8e393c9256b99bb83389c44d693ea571ad52c6c2284042e2d",
+          "page_title": "豊洲イベント情報｜今日の催しと今後の予定",
+          "observed_event_link_leads": 100
+        }
+      ],
+      "errors": [],
+      "audit_method": "registered URLs; HTML link lead observation; no inferred event dates",
+      "caveat": "接続成功は候補・掲載の全件照合完了を意味しません。"
+    },
+    {
+      "source_id": "odaiba",
+      "label": "お台場",
+      "origin": "legacy",
+      "required": true,
+      "group": "固定サイト",
+      "detail_adapter": null,
+      "base_url": "https://www.odaibapark.com/",
+      "retrieval_status": "checked",
+      "status_label": "要個別照合",
+      "pages_expected": 1,
+      "pages_checked": 1,
+      "pages_failed": 0,
+      "observed_distinct_link_leads": 100,
+      "example_leads": [
+        {
+          "url": "https://www.odaibapark.com",
+          "name": "お台場イベント＆フェス情報",
+          "observed_in": [
+            "https://www.odaibapark.com/"
+          ]
+        },
+        {
+          "url": "https://x.com/event_fes",
+          "name": "Xで東京のイベント情報を見る",
+          "observed_in": [
+            "https://www.odaibapark.com/"
+          ]
+        },
+        {
+          "url": "https://www.odaibapark.com/world-drinks-fest-2026",
+          "name": "世界のお酒フェス",
+          "observed_in": [
+            "https://www.odaibapark.com/"
+          ]
+        },
+        {
+          "url": "https://www.odaibapark.com/dream-yosacoy-festival-2026-odaiba-marunouchi-2",
+          "name": "第25回ドリーム夜さ来い祭り",
+          "observed_in": [
+            "https://www.odaibapark.com/"
+          ]
+        },
+        {
+          "url": "https://www.odaibapark.com/tokyo-nordic-walk-festa-odaiba-2026",
+          "name": "東京ノルディック・ウォークフェスタ2026 in お台場",
+          "observed_in": [
+            "https://www.odaibapark.com/"
+          ]
+        },
+        {
+          "url": "https://www.odaibapark.com/design-festa-vol-64-2026",
+          "name": "デザインフェスタ vol.64",
+          "observed_in": [
+            "https://www.odaibapark.com/"
+          ]
+        },
+        {
+          "url": "https://www.odaibapark.com/japan-wanko-festa-2026-autumn-odaiba",
+          "name": "ジャパンわんこフェスタ2026 秋 in お台場",
+          "observed_in": [
+            "https://www.odaibapark.com/"
+          ]
+        },
+        {
+          "url": "https://www.odaibapark.com/sakana-japan-festival-2026-odaiba",
+          "name": "SAKANA&JAPAN FESTIVAL（魚ジャパンフェス）2026 in お台場",
+          "observed_in": [
+            "https://www.odaibapark.com/"
+          ]
+        },
+        {
+          "url": "https://www.odaibapark.com/minato-machinaka-concert-arte-tokyo-2026",
+          "name": "MINATOまちなかコンサート×ARTE TOKYO（ピアノコンサート 音楽とワインで感じるパリのテロワール）",
+          "observed_in": [
+            "https://www.odaibapark.com/"
+          ]
+        },
+        {
+          "url": "https://www.tokyofes.info",
+          "name": "東京イベント",
+          "observed_in": [
+            "https://www.odaibapark.com/"
+          ]
+        },
+        {
+          "url": "https://www.sumidaevent.com",
+          "name": "東京｜墨田イベント",
+          "observed_in": [
+            "https://www.odaibapark.com/"
+          ]
+        },
+        {
+          "url": "https://www.asakusaevent.com",
+          "name": "東京｜浅草イベント",
+          "observed_in": [
+            "https://www.odaibapark.com/"
+          ]
+        },
+        {
+          "url": "https://www.uenopark.info",
+          "name": "東京｜上野公園イベント",
+          "observed_in": [
+            "https://www.odaibapark.com/"
+          ]
+        },
+        {
+          "url": "https://www.akihabaraevent.com",
+          "name": "東京｜秋葉原イベント",
+          "observed_in": [
+            "https://www.odaibapark.com/"
+          ]
+        },
+        {
+          "url": "https://www.hibiyapark.info",
+          "name": "東京｜日比谷公園イベント",
+          "observed_in": [
+            "https://www.odaibapark.com/"
+          ]
+        },
+        {
+          "url": "https://www.ikebukuropark.info",
+          "name": "東京｜池袋イベント",
+          "observed_in": [
+            "https://www.odaibapark.com/"
+          ]
+        },
+        {
+          "url": "https://www.shinjukuevent.com",
+          "name": "東京｜新宿イベント",
+          "observed_in": [
+            "https://www.odaibapark.com/"
+          ]
+        },
+        {
+          "url": "https://www.nakanoevent.com",
+          "name": "東京｜中野イベント",
+          "observed_in": [
+            "https://www.odaibapark.com/"
+          ]
+        },
+        {
+          "url": "https://www.yoyogikoen.info",
+          "name": "東京｜代々木公園イベント",
+          "observed_in": [
+            "https://www.odaibapark.com/"
+          ]
+        },
+        {
+          "url": "https://www.yoyogipark.info",
+          "name": "Yoyogi Park Events & Festivals",
+          "observed_in": [
+            "https://www.odaibapark.com/"
+          ]
+        }
+      ],
+      "new_arrival_post_leads_observed": 0,
+      "new_arrival_post_leads_are_unverified": true,
+      "new_arrival_samples": [],
+      "event_candidates_total": null,
+      "candidate_publication_parity": "未検証",
+      "published_count_from_source": null,
+      "excluded_count_from_source": null,
+      "duplicate_count_from_source": null,
+      "unreviewed_count_from_source": null,
+      "unverified_due_to_source_error": false,
+      "source_checks": [
+        {
+          "url": "https://www.odaibapark.com/",
+          "checked_at": "2026-11-22T14:31:34+09:00",
+          "status": "checked",
+          "http_status": 200,
+          "final_url": "https://www.odaibapark.com/",
+          "content_type": "text/html; charset=UTF-8",
+          "bytes": 129373,
+          "sha256": "4364babcdcb350309585e83a64928fd5ca9e9c38ce0f4f56d75d125c0d959e1e",
+          "page_title": "お台場イベント＆フェス情報｜野外ライブや週末の催し",
+          "observed_event_link_leads": 100
+        }
+      ],
+      "errors": [],
+      "audit_method": "registered URLs; HTML link lead observation; no inferred event dates",
+      "caveat": "接続成功は候補・掲載の全件照合完了を意味しません。"
+    },
+    {
+      "source_id": "shinagawa",
+      "label": "品川",
+      "origin": "legacy",
+      "required": true,
+      "group": "固定サイト",
+      "detail_adapter": null,
+      "base_url": "https://www.shinagawaevent.com/",
+      "retrieval_status": "checked",
+      "status_label": "要個別照合",
+      "pages_expected": 1,
+      "pages_checked": 1,
+      "pages_failed": 0,
+      "observed_distinct_link_leads": 100,
+      "example_leads": [
+        {
+          "url": "https://www.shinagawaevent.com",
+          "name": "品川・高輪ゲートウェイイベント情報",
+          "observed_in": [
+            "https://www.shinagawaevent.com/"
+          ]
+        },
+        {
+          "url": "https://x.com/event_fes",
+          "name": "Xで東京のイベント情報を見る",
+          "observed_in": [
+            "https://www.shinagawaevent.com/"
+          ]
+        },
+        {
+          "url": "https://www.shinagawaevent.com/tennoz-canal-fes-2026-autumn-winter",
+          "name": "天王洲キャナルフェス2026秋冬",
+          "observed_in": [
+            "https://www.shinagawaevent.com/"
+          ]
+        },
+        {
+          "url": "https://www.shinagawaevent.com/matsuri-art-exhibition-2026",
+          "name": "WHAT CAFE EXHIBITION vol.48：WHAT CAFE×宮本卯之助商店コラボ展示「Matsuri × Art Exhibition -祭の多面体-」",
+          "observed_in": [
+            "https://www.shinagawaevent.com/"
+          ]
+        },
+        {
+          "url": "https://www.shinagawaevent.com/2026-atsumare-ebara",
+          "name": "まちぐるみ文化イベント2026「あつまれ！えばら」",
+          "observed_in": [
+            "https://www.shinagawaevent.com/"
+          ]
+        },
+        {
+          "url": "https://www.tokyofes.info",
+          "name": "東京イベント",
+          "observed_in": [
+            "https://www.shinagawaevent.com/"
+          ]
+        },
+        {
+          "url": "https://www.sumidaevent.com",
+          "name": "東京｜墨田イベント",
+          "observed_in": [
+            "https://www.shinagawaevent.com/"
+          ]
+        },
+        {
+          "url": "https://www.asakusaevent.com",
+          "name": "東京｜浅草イベント",
+          "observed_in": [
+            "https://www.shinagawaevent.com/"
+          ]
+        },
+        {
+          "url": "https://www.uenopark.info",
+          "name": "東京｜上野公園イベント",
+          "observed_in": [
+            "https://www.shinagawaevent.com/"
+          ]
+        },
+        {
+          "url": "https://www.akihabaraevent.com",
+          "name": "東京｜秋葉原イベント",
+          "observed_in": [
+            "https://www.shinagawaevent.com/"
+          ]
+        },
+        {
+          "url": "https://www.hibiyapark.info",
+          "name": "東京｜日比谷公園イベント",
+          "observed_in": [
+            "https://www.shinagawaevent.com/"
+          ]
+        },
+        {
+          "url": "https://www.ikebukuropark.info",
+          "name": "東京｜池袋イベント",
+          "observed_in": [
+            "https://www.shinagawaevent.com/"
+          ]
+        },
+        {
+          "url": "https://www.shinjukuevent.com",
+          "name": "東京｜新宿イベント",
+          "observed_in": [
+            "https://www.shinagawaevent.com/"
+          ]
+        },
+        {
+          "url": "https://www.nakanoevent.com",
+          "name": "東京｜中野イベント",
+          "observed_in": [
+            "https://www.shinagawaevent.com/"
+          ]
+        },
+        {
+          "url": "https://www.yoyogikoen.info",
+          "name": "東京｜代々木公園イベント",
+          "observed_in": [
+            "https://www.shinagawaevent.com/"
+          ]
+        },
+        {
+          "url": "https://www.yoyogipark.info",
+          "name": "Yoyogi Park Events & Festivals",
+          "observed_in": [
+            "https://www.shinagawaevent.com/"
+          ]
+        },
+        {
+          "url": "https://www.miyashitapark.info",
+          "name": "東京｜渋谷イベント",
+          "observed_in": [
+            "https://www.shinagawaevent.com/"
+          ]
+        },
+        {
+          "url": "https://www.roppongievents.com",
+          "name": "東京｜六本木イベント",
+          "observed_in": [
+            "https://www.shinagawaevent.com/"
+          ]
+        },
+        {
+          "url": "https://www.toyosuevent.com",
+          "name": "東京｜豊洲イベント",
+          "observed_in": [
+            "https://www.shinagawaevent.com/"
+          ]
+        },
+        {
+          "url": "https://www.odaibapark.com",
+          "name": "東京｜お台場イベント",
+          "observed_in": [
+            "https://www.shinagawaevent.com/"
+          ]
+        }
+      ],
+      "new_arrival_post_leads_observed": 0,
+      "new_arrival_post_leads_are_unverified": true,
+      "new_arrival_samples": [],
+      "event_candidates_total": null,
+      "candidate_publication_parity": "未検証",
+      "published_count_from_source": null,
+      "excluded_count_from_source": null,
+      "duplicate_count_from_source": null,
+      "unreviewed_count_from_source": null,
+      "unverified_due_to_source_error": false,
+      "source_checks": [
+        {
+          "url": "https://www.shinagawaevent.com/",
+          "checked_at": "2026-11-22T14:31:34+09:00",
+          "status": "checked",
+          "http_status": 200,
+          "final_url": "https://www.shinagawaevent.com/",
+          "content_type": "text/html; charset=UTF-8",
+          "bytes": 133322,
+          "sha256": "fdeb8b6093fc43469dc2e08c0c1671c65c00f458001f7e30af7e546af949823a",
+          "page_title": "品川・高輪ゲートウェイイベント情報｜天王洲の催しも紹介",
+          "observed_event_link_leads": 100
+        }
+      ],
+      "errors": [],
+      "audit_method": "registered URLs; HTML link lead observation; no inferred event dates",
+      "caveat": "接続成功は候補・掲載の全件照合完了を意味しません。"
+    },
+    {
+      "source_id": "tachikawa",
+      "label": "立川",
+      "origin": "legacy",
+      "required": true,
+      "group": "固定サイト",
+      "detail_adapter": null,
+      "base_url": "https://www.tachikawaevent.com/",
+      "retrieval_status": "checked",
+      "status_label": "要個別照合",
+      "pages_expected": 1,
+      "pages_checked": 1,
+      "pages_failed": 0,
+      "observed_distinct_link_leads": 100,
+      "example_leads": [
+        {
+          "url": "https://www.tachikawaevent.com",
+          "name": "立川イベント情報",
+          "observed_in": [
+            "https://www.tachikawaevent.com/"
+          ]
+        },
+        {
+          "url": "https://x.com/event_fes",
+          "name": "Xで東京のイベント情報を見る",
+          "observed_in": [
+            "https://www.tachikawaevent.com/"
+          ]
+        },
+        {
+          "url": "https://www.tachikawaevent.com/green-grown-marche-autumn-harvest-2026",
+          "name": "GREEN GROWN MARCHE! 秋の収穫祭 2026",
+          "observed_in": [
+            "https://www.tachikawaevent.com/"
+          ]
+        },
+        {
+          "url": "https://www.tokyofes.info",
+          "name": "東京イベント",
+          "observed_in": [
+            "https://www.tachikawaevent.com/"
+          ]
+        },
+        {
+          "url": "https://www.sumidaevent.com",
+          "name": "東京｜墨田イベント",
+          "observed_in": [
+            "https://www.tachikawaevent.com/"
+          ]
+        },
+        {
+          "url": "https://www.asakusaevent.com",
+          "name": "東京｜浅草イベント",
+          "observed_in": [
+            "https://www.tachikawaevent.com/"
+          ]
+        },
+        {
+          "url": "https://www.uenopark.info",
+          "name": "東京｜上野公園イベント",
+          "observed_in": [
+            "https://www.tachikawaevent.com/"
+          ]
+        },
+        {
+          "url": "https://www.akihabaraevent.com",
+          "name": "東京｜秋葉原イベント",
+          "observed_in": [
+            "https://www.tachikawaevent.com/"
+          ]
+        },
+        {
+          "url": "https://www.hibiyapark.info",
+          "name": "東京｜日比谷公園イベント",
+          "observed_in": [
+            "https://www.tachikawaevent.com/"
+          ]
+        },
+        {
+          "url": "https://www.ikebukuropark.info",
+          "name": "東京｜池袋イベント",
+          "observed_in": [
+            "https://www.tachikawaevent.com/"
+          ]
+        },
+        {
+          "url": "https://www.shinjukuevent.com",
+          "name": "東京｜新宿イベント",
+          "observed_in": [
+            "https://www.tachikawaevent.com/"
+          ]
+        },
+        {
+          "url": "https://www.nakanoevent.com",
+          "name": "東京｜中野イベント",
+          "observed_in": [
+            "https://www.tachikawaevent.com/"
+          ]
+        },
+        {
+          "url": "https://www.yoyogikoen.info",
+          "name": "東京｜代々木公園イベント",
+          "observed_in": [
+            "https://www.tachikawaevent.com/"
+          ]
+        },
+        {
+          "url": "https://www.yoyogipark.info",
+          "name": "Yoyogi Park Events & Festivals",
+          "observed_in": [
+            "https://www.tachikawaevent.com/"
+          ]
+        },
+        {
+          "url": "https://www.miyashitapark.info",
+          "name": "東京｜渋谷イベント",
+          "observed_in": [
+            "https://www.tachikawaevent.com/"
+          ]
+        },
+        {
+          "url": "https://www.roppongievents.com",
+          "name": "東京｜六本木イベント",
+          "observed_in": [
+            "https://www.tachikawaevent.com/"
+          ]
+        },
+        {
+          "url": "https://www.toyosuevent.com",
+          "name": "東京｜豊洲イベント",
+          "observed_in": [
+            "https://www.tachikawaevent.com/"
+          ]
+        },
+        {
+          "url": "https://www.odaibapark.com",
+          "name": "東京｜お台場イベント",
+          "observed_in": [
+            "https://www.tachikawaevent.com/"
+          ]
+        },
+        {
+          "url": "https://www.shinagawaevent.com",
+          "name": "東京｜品川イベント",
+          "observed_in": [
+            "https://www.tachikawaevent.com/"
+          ]
+        },
+        {
+          "url": "https://www.futonrecords.com/classlog",
+          "name": "子どもの学校名・クラス・担任名を12年分記録できる無料アプリ「うちの子なん組？」はこちら",
+          "observed_in": [
+            "https://www.tachikawaevent.com/"
+          ]
+        }
+      ],
+      "new_arrival_post_leads_observed": 0,
+      "new_arrival_post_leads_are_unverified": true,
+      "new_arrival_samples": [],
+      "event_candidates_total": null,
+      "candidate_publication_parity": "未検証",
+      "published_count_from_source": null,
+      "excluded_count_from_source": null,
+      "duplicate_count_from_source": null,
+      "unreviewed_count_from_source": null,
+      "unverified_due_to_source_error": false,
+      "source_checks": [
+        {
+          "url": "https://www.tachikawaevent.com/",
+          "checked_at": "2026-11-22T14:31:34+09:00",
+          "status": "checked",
+          "http_status": 200,
+          "final_url": "https://www.tachikawaevent.com/",
+          "content_type": "text/html; charset=UTF-8",
+          "bytes": 118110,
+          "sha256": "08790591a004366196ce539700b0396d8622ae6c0934f2172d430d93a942eb84",
+          "page_title": "立川イベント情報｜昭和記念公園や市内各地の催し",
+          "observed_event_link_leads": 100
+        }
+      ],
+      "errors": [],
+      "audit_method": "registered URLs; HTML link lead observation; no inferred event dates",
+      "caveat": "接続成功は候補・掲載の全件照合完了を意味しません。"
+    },
+    {
+      "source_id": "iterrace",
+      "label": "アイテラス落合南長崎",
+      "origin": "legacy",
+      "required": true,
+      "group": "固定サイト",
+      "detail_adapter": null,
+      "base_url": "https://www.iterrace.jp/",
+      "retrieval_status": "checked",
+      "status_label": "要個別照合",
+      "pages_expected": 1,
+      "pages_checked": 1,
+      "pages_failed": 0,
+      "observed_distinct_link_leads": 1,
+      "example_leads": [
+        {
+          "url": "https://www.iterrace.jp/shop-restaurants-annex/shop-r_data.php",
+          "name": "こども写真城 スタジオアリス 落合南長崎店",
+          "observed_in": [
+            "https://www.iterrace.jp/"
+          ]
+        }
+      ],
+      "new_arrival_post_leads_observed": 0,
+      "new_arrival_post_leads_are_unverified": true,
+      "new_arrival_samples": [],
+      "event_candidates_total": null,
+      "candidate_publication_parity": "未検証",
+      "published_count_from_source": null,
+      "excluded_count_from_source": null,
+      "duplicate_count_from_source": null,
+      "unreviewed_count_from_source": null,
+      "unverified_due_to_source_error": false,
+      "source_checks": [
+        {
+          "url": "https://www.iterrace.jp/",
+          "checked_at": "2026-11-22T14:31:36+09:00",
+          "status": "checked",
+          "http_status": 200,
+          "final_url": "https://www.iterrace.jp/",
+          "content_type": "text/html; charset=UTF-8",
+          "bytes": 31893,
+          "sha256": "8b61ef6af904619367697ec6c1c2e348f854defee762e2f27e1fd76666237aee",
+          "page_title": "アイテラス落合南長崎：大江戸線「落合南長崎」駅直結　複合型ショッピングセンター",
+          "observed_event_link_leads": 2
+        }
+      ],
+      "errors": [],
+      "audit_method": "registered URLs; HTML link lead observation; no inferred event dates",
+      "caveat": "接続成功は候補・掲載の全件照合完了を意味しません。"
+    },
+    {
+      "source_id": "nerimakanko",
+      "label": "とっておきの練馬",
+      "origin": "legacy",
+      "required": true,
+      "group": "記事・月別",
+      "detail_adapter": "第二弾：月別・記事",
+      "base_url": "https://www.nerimakanko.jp/event/",
+      "retrieval_status": "checked",
+      "status_label": "要個別照合",
+      "pages_expected": 3,
+      "pages_checked": 3,
+      "pages_failed": 0,
+      "observed_distinct_link_leads": 9,
+      "example_leads": [
+        {
+          "url": "https://www.nerimakanko.jp/event",
+          "name": "temp_preferences_ecoイベント",
+          "observed_in": [
+            "https://www.nerimakanko.jp/event/",
+            "https://www.nerimakanko.jp/event/search.php?month=2026-11",
+            "https://www.nerimakanko.jp/event/search.php?month=2026-12"
+          ]
+        },
+        {
+          "url": "https://www.nerimakanko.jp/event/post",
+          "name": "イベント掲載希望の方はこちら",
+          "observed_in": [
+            "https://www.nerimakanko.jp/event/"
+          ]
+        },
+        {
+          "url": "https://www.nerimakanko.jp/event/annual.php",
+          "name": "年間イベントガイド",
+          "observed_in": [
+            "https://www.nerimakanko.jp/event/"
+          ]
+        },
+        {
+          "url": "https://www.nerimakanko.jp/event/detail.php",
+          "name": "光が丘公園フェスタ 開催日：2026年11月28日（土）、11月29日（日）",
+          "observed_in": [
+            "https://www.nerimakanko.jp/event/"
+          ]
+        },
+        {
+          "url": "https://www.nerimakanko.jp/event/search.php",
+          "name": "イベント検索",
+          "observed_in": [
+            "https://www.nerimakanko.jp/event/search.php?month=2026-11",
+            "https://www.nerimakanko.jp/event/search.php?month=2026-12"
+          ]
+        },
+        {
+          "url": "https://www.neribun.or.jp/event/detail_n.cgi",
+          "name": "https://www.neribun.or.jp/event/detail_n.cgi?id=202608081786175523",
+          "observed_in": [
+            "https://www.nerimakanko.jp/event/search.php?month=2026-11"
+          ]
+        },
+        {
+          "url": "https://www.city.nerima.tokyo.jp/kankomoyoshi/nogyo/toshinou_festival/festival2027pre.html",
+          "name": "https://www.city.nerima.tokyo.jp/kankomoyoshi/nogyo/toshinou_festival/festival2027pre.html",
+          "observed_in": [
+            "https://www.nerimakanko.jp/event/search.php?month=2026-11"
+          ]
+        },
+        {
+          "url": "https://www.shikinokaori-rose-garden.com/event/11343",
+          "name": "https://www.shikinokaori-rose-garden.com/event/11343/",
+          "observed_in": [
+            "https://www.nerimakanko.jp/event/search.php?month=2026-12"
+          ]
+        },
+        {
+          "url": "https://www.as-campusclub.org/lp/workshop",
+          "name": "https://www.as-campusclub.org/lp/workshop/",
+          "observed_in": [
+            "https://www.nerimakanko.jp/event/search.php?month=2026-12"
+          ]
+        }
+      ],
+      "new_arrival_post_leads_observed": 0,
+      "new_arrival_post_leads_are_unverified": true,
+      "new_arrival_samples": [],
+      "event_candidates_total": null,
+      "candidate_publication_parity": "未検証",
+      "published_count_from_source": null,
+      "excluded_count_from_source": null,
+      "duplicate_count_from_source": null,
+      "unreviewed_count_from_source": null,
+      "unverified_due_to_source_error": false,
+      "source_checks": [
+        {
+          "url": "https://www.nerimakanko.jp/event/",
+          "checked_at": "2026-11-22T14:31:36+09:00",
+          "status": "checked",
+          "http_status": 200,
+          "final_url": "https://www.nerimakanko.jp/event/",
+          "content_type": "text/html; charset=UTF-8",
+          "bytes": 60167,
+          "sha256": "32c4bca779b8e8b6400a32903228ad89b5ea5d19b09dc3f969135e3d8695af2f",
+          "page_title": "練馬区のイベント情報 | とっておきの練馬",
+          "observed_event_link_leads": 7
+        },
+        {
+          "url": "https://www.nerimakanko.jp/event/search.php?month=2026-11",
+          "checked_at": "2026-11-22T14:31:39+09:00",
+          "status": "checked",
+          "http_status": 200,
+          "final_url": "https://www.nerimakanko.jp/event/search.php?month=2026-11",
+          "content_type": "text/html; charset=UTF-8",
+          "bytes": 74651,
+          "sha256": "947f5acbbf5e3bffb66bbd0c520933a634b78326d54eaa4acdb48b3a84a7f200",
+          "page_title": "イベント検索 - 2026年11月   | イベント検索 | 練馬区のイベント情報 | とっておきの練馬",
+          "observed_event_link_leads": 4
+        },
+        {
+          "url": "https://www.nerimakanko.jp/event/search.php?month=2026-12",
+          "checked_at": "2026-11-22T14:31:38+09:00",
+          "status": "checked",
+          "http_status": 200,
+          "final_url": "https://www.nerimakanko.jp/event/search.php?month=2026-12",
+          "content_type": "text/html; charset=UTF-8",
+          "bytes": 73884,
+          "sha256": "1af860a7633b8527b0cc52af491501519f7d2f7bac0e51a28de8ce51991c2c06",
+          "page_title": "イベント検索 - 2026年12月   | イベント検索 | 練馬区のイベント情報 | とっておきの練馬",
+          "observed_event_link_leads": 4
+        }
+      ],
+      "errors": [],
+      "audit_method": "registered URLs; HTML link lead observation; no inferred event dates",
+      "caveat": "接続成功は候補・掲載の全件照合完了を意味しません。"
+    },
+    {
+      "source_id": "suginami_festival",
+      "label": "杉並区イベントカレンダー（お祭り）",
+      "origin": "legacy",
+      "required": true,
+      "group": "月別カレンダー",
+      "detail_adapter": null,
+      "base_url": "https://www.city.suginami.tokyo.jp/event/index.html",
+      "retrieval_status": "checked",
+      "status_label": "要個別照合",
+      "pages_expected": 2,
+      "pages_checked": 2,
+      "pages_failed": 0,
+      "observed_distinct_link_leads": 7,
+      "example_leads": [
+        {
+          "url": "https://www.city.suginami.tokyo.jp/kosodatekyouiku/index.html",
+          "name": "子ども・子育て・教育",
+          "observed_in": [
+            "https://www.city.suginami.tokyo.jp/cgi-bin/event_cal_multi/calendar.cgi?type=2&year=2026&month=11&event_category=5&siteid=1",
+            "https://www.city.suginami.tokyo.jp/cgi-bin/event_cal_multi/calendar.cgi?type=2&year=2026&month=12&event_category=5&siteid=1"
+          ]
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/sports/index.html",
+          "name": "スポーツ・文化",
+          "observed_in": [
+            "https://www.city.suginami.tokyo.jp/cgi-bin/event_cal_multi/calendar.cgi?type=2&year=2026&month=11&event_category=5&siteid=1",
+            "https://www.city.suginami.tokyo.jp/cgi-bin/event_cal_multi/calendar.cgi?type=2&year=2026&month=12&event_category=5&siteid=1"
+          ]
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/event/index.html",
+          "name": "イベント情報",
+          "observed_in": [
+            "https://www.city.suginami.tokyo.jp/cgi-bin/event_cal_multi/calendar.cgi?type=2&year=2026&month=11&event_category=5&siteid=1",
+            "https://www.city.suginami.tokyo.jp/cgi-bin/event_cal_multi/calendar.cgi?type=2&year=2026&month=12&event_category=5&siteid=1"
+          ]
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s100/event/23008.html",
+          "name": "落ち葉感謝祭2026直接会場へ",
+          "observed_in": [
+            "https://www.city.suginami.tokyo.jp/cgi-bin/event_cal_multi/calendar.cgi?type=2&year=2026&month=12&event_category=5&siteid=1"
+          ]
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s036/event/23030.html",
+          "name": "令和8年度障害者週間事業 ふれあいフェスタ2026（セシオン杉並）直接会場へ",
+          "observed_in": [
+            "https://www.city.suginami.tokyo.jp/cgi-bin/event_cal_multi/calendar.cgi?type=2&year=2026&month=12&event_category=5&siteid=1"
+          ]
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s022/event/28941.html",
+          "name": "コミふら本天沼ノエルフェスティバル直接会場へ",
+          "observed_in": [
+            "https://www.city.suginami.tokyo.jp/cgi-bin/event_cal_multi/calendar.cgi?type=2&year=2026&month=12&event_category=5&siteid=1"
+          ]
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s022/event/29249.html",
+          "name": "科学で遊ぼう！さいえんす縁日（荻窪地域区民センター）直接会場へ",
+          "observed_in": [
+            "https://www.city.suginami.tokyo.jp/cgi-bin/event_cal_multi/calendar.cgi?type=2&year=2026&month=12&event_category=5&siteid=1"
+          ]
+        }
+      ],
+      "new_arrival_post_leads_observed": 0,
+      "new_arrival_post_leads_are_unverified": true,
+      "new_arrival_samples": [],
+      "event_candidates_total": null,
+      "candidate_publication_parity": "未検証",
+      "published_count_from_source": null,
+      "excluded_count_from_source": null,
+      "duplicate_count_from_source": null,
+      "unreviewed_count_from_source": null,
+      "unverified_due_to_source_error": false,
+      "source_checks": [
+        {
+          "url": "https://www.city.suginami.tokyo.jp/cgi-bin/event_cal_multi/calendar.cgi?type=2&year=2026&month=11&event_category=5&siteid=1",
+          "checked_at": "2026-11-22T14:31:39+09:00",
+          "status": "checked",
+          "http_status": 200,
+          "final_url": "https://www.city.suginami.tokyo.jp/cgi-bin/event_cal_multi/calendar.cgi?type=2&year=2026&month=11&event_category=5&siteid=1",
+          "content_type": "text/html; charset=utf-8",
+          "bytes": 25859,
+          "sha256": "4317d2dd0c0cf130109f5e3987a2ac3daf4104635844535a38258d96f1c268c2",
+          "page_title": "イベントカレンダー｜杉並区公式ホームページ",
+          "observed_event_link_leads": 3
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/cgi-bin/event_cal_multi/calendar.cgi?type=2&year=2026&month=12&event_category=5&siteid=1",
+          "checked_at": "2026-11-22T14:31:39+09:00",
+          "status": "checked",
+          "http_status": 200,
+          "final_url": "https://www.city.suginami.tokyo.jp/cgi-bin/event_cal_multi/calendar.cgi?type=2&year=2026&month=12&event_category=5&siteid=1",
+          "content_type": "text/html; charset=utf-8",
+          "bytes": 28092,
+          "sha256": "ea41e16ec60bbc7cd6508a2c4bce6c89d6346031de856b84ad0e4d33b0d79f16",
+          "page_title": "イベントカレンダー｜杉並区公式ホームページ",
+          "observed_event_link_leads": 7
+        }
+      ],
+      "errors": [],
+      "audit_method": "registered URLs; HTML link lead observation; no inferred event dates",
+      "caveat": "接続成功は候補・掲載の全件照合完了を意味しません。"
+    },
+    {
+      "source_id": "nerima_district_festivals_2026",
+      "label": "練馬区公式 令和8年度地区祭開催日程",
+      "origin": "official_added",
+      "required": true,
+      "group": "年間日程",
+      "detail_adapter": "第一弾：年間公式日程",
+      "base_url": "https://www.city.nerima.tokyo.jp/kankomoyoshi/annai/omatsuri/chikusai/20260616103208700.html",
+      "retrieval_status": "checked",
+      "status_label": "要個別照合",
+      "pages_expected": 1,
+      "pages_checked": 1,
+      "pages_failed": 0,
+      "observed_distinct_link_leads": 6,
+      "example_leads": [
+        {
+          "url": "https://www.city.nerima.tokyo.jp/kankomoyoshi/annai/omatsuri/index.html",
+          "name": "ねりまのお祭り",
+          "observed_in": [
+            "https://www.city.nerima.tokyo.jp/kankomoyoshi/annai/omatsuri/chikusai/20260616103208700.html"
+          ]
+        },
+        {
+          "url": "https://www.city.nerima.tokyo.jp/kankomoyoshi/annai/omatsuri/chikusai/20250617103208700.html",
+          "name": "令和7年度 地区祭開催日程",
+          "observed_in": [
+            "https://www.city.nerima.tokyo.jp/kankomoyoshi/annai/omatsuri/chikusai/20260616103208700.html"
+          ]
+        },
+        {
+          "url": "https://www.city.nerima.tokyo.jp/kankomoyoshi/annai/omatsuri/chikusai/06617883202407240916.html",
+          "name": "令和6年度 地区祭開催日程",
+          "observed_in": [
+            "https://www.city.nerima.tokyo.jp/kankomoyoshi/annai/omatsuri/chikusai/20260616103208700.html"
+          ]
+        },
+        {
+          "url": "https://www.city.nerima.tokyo.jp/kankomoyoshi/annai/omatsuri/chikusai/066280102023072110.html",
+          "name": "令和5年度 地区祭開催日程",
+          "observed_in": [
+            "https://www.city.nerima.tokyo.jp/kankomoyoshi/annai/omatsuri/chikusai/20260616103208700.html"
+          ]
+        },
+        {
+          "url": "https://www.city.nerima.tokyo.jp/kankomoyoshi/annai/omatsuri/chikusai/r4chikusai.html",
+          "name": "令和4年度 地区祭開催日程",
+          "observed_in": [
+            "https://www.city.nerima.tokyo.jp/kankomoyoshi/annai/omatsuri/chikusai/20260616103208700.html"
+          ]
+        },
+        {
+          "url": "https://www.city.nerima.tokyo.jp/kankomoyoshi/annai/omatsuri/chikusai/r1-chikusainittei.html",
+          "name": "令和元年度 地区祭開催日程",
+          "observed_in": [
+            "https://www.city.nerima.tokyo.jp/kankomoyoshi/annai/omatsuri/chikusai/20260616103208700.html"
+          ]
+        }
+      ],
+      "new_arrival_post_leads_observed": 0,
+      "new_arrival_post_leads_are_unverified": true,
+      "new_arrival_samples": [],
+      "event_candidates_total": null,
+      "candidate_publication_parity": "未検証",
+      "published_count_from_source": null,
+      "excluded_count_from_source": null,
+      "duplicate_count_from_source": null,
+      "unreviewed_count_from_source": null,
+      "unverified_due_to_source_error": false,
+      "source_checks": [
+        {
+          "url": "https://www.city.nerima.tokyo.jp/kankomoyoshi/annai/omatsuri/chikusai/20260616103208700.html",
+          "checked_at": "2026-11-22T14:31:36+09:00",
+          "status": "checked",
+          "http_status": 200,
+          "final_url": "https://www.city.nerima.tokyo.jp/kankomoyoshi/annai/omatsuri/chikusai/20260616103208700.html",
+          "content_type": "text/html",
+          "bytes": 28272,
+          "sha256": "91a2e86bd1b7401bb8de463b2d3aea6973249bf855111fa1cec2614cb98fa798",
+          "page_title": "令和8年度　地区祭開催日程：練馬区公式ホームページ",
+          "observed_event_link_leads": 6
+        }
+      ],
+      "errors": [],
+      "audit_method": "registered URLs; HTML link lead observation; no inferred event dates",
+      "caveat": "接続成功は候補・掲載の全件照合完了を意味しません。"
+    },
+    {
+      "source_id": "nakano_official_tourism",
+      "label": "中野区観光協会・公式イベント",
+      "origin": "official",
+      "required": true,
+      "group": "記事・一覧",
+      "detail_adapter": "第二弾：記事・一覧",
+      "base_url": "https://www.nakano-kanko.com/event/",
+      "retrieval_status": "checked",
+      "status_label": "要個別照合",
+      "pages_expected": 1,
+      "pages_checked": 1,
+      "pages_failed": 0,
+      "observed_distinct_link_leads": 10,
+      "example_leads": [
+        {
+          "url": "https://www.nakano-kanko.com/event-info/event-3881",
+          "name": "イベントの詳細へ",
+          "observed_in": [
+            "https://www.nakano-kanko.com/event/"
+          ]
+        },
+        {
+          "url": "https://www.nakano-kanko.com/event-info/event-3888",
+          "name": "イベントの詳細へ",
+          "observed_in": [
+            "https://www.nakano-kanko.com/event/"
+          ]
+        },
+        {
+          "url": "https://www.nakano-kanko.com/event-info/event-3797",
+          "name": "イベントの詳細へ",
+          "observed_in": [
+            "https://www.nakano-kanko.com/event/"
+          ]
+        },
+        {
+          "url": "https://www.nakano-kanko.com/event-info/event-3930",
+          "name": "イベントの詳細へ",
+          "observed_in": [
+            "https://www.nakano-kanko.com/event/"
+          ]
+        },
+        {
+          "url": "https://www.nakano-kanko.com/event-info/event-3941",
+          "name": "イベントの詳細へ",
+          "observed_in": [
+            "https://www.nakano-kanko.com/event/"
+          ]
+        },
+        {
+          "url": "https://www.nakano-kanko.com/event-info/event-3935",
+          "name": "イベントの詳細へ",
+          "observed_in": [
+            "https://www.nakano-kanko.com/event/"
+          ]
+        },
+        {
+          "url": "https://www.nakano-kanko.com/event-info/event-3895",
+          "name": "イベントの詳細へ",
+          "observed_in": [
+            "https://www.nakano-kanko.com/event/"
+          ]
+        },
+        {
+          "url": "https://www.nakano-kanko.com/event-info/event-3846",
+          "name": "イベントの詳細へ",
+          "observed_in": [
+            "https://www.nakano-kanko.com/event/"
+          ]
+        },
+        {
+          "url": "https://www.nakano-kanko.com/event-info/event-3782",
+          "name": "イベントの詳細へ",
+          "observed_in": [
+            "https://www.nakano-kanko.com/event/"
+          ]
+        },
+        {
+          "url": "https://www.nakano-kanko.com/event-info/event-3839",
+          "name": "イベントの詳細へ",
+          "observed_in": [
+            "https://www.nakano-kanko.com/event/"
+          ]
+        }
+      ],
+      "new_arrival_post_leads_observed": 0,
+      "new_arrival_post_leads_are_unverified": true,
+      "new_arrival_samples": [],
+      "event_candidates_total": null,
+      "candidate_publication_parity": "未検証",
+      "published_count_from_source": null,
+      "excluded_count_from_source": null,
+      "duplicate_count_from_source": null,
+      "unreviewed_count_from_source": null,
+      "unverified_due_to_source_error": false,
+      "source_checks": [
+        {
+          "url": "https://www.nakano-kanko.com/event/",
+          "checked_at": "2026-11-22T14:31:36+09:00",
+          "status": "checked",
+          "http_status": 200,
+          "final_url": "https://www.nakano-kanko.com/event/",
+          "content_type": "text/html; charset=UTF-8",
+          "bytes": 84589,
+          "sha256": "1f0f634b369042d2a7ea450bb0de31ea9795825e66e81c250b5bb5edc07d5082",
+          "page_title": "イベント | 中野区観光協会",
+          "observed_event_link_leads": 10
+        }
+      ],
+      "errors": [],
+      "audit_method": "registered URLs; HTML link lead observation; no inferred event dates",
+      "caveat": "接続成功は候補・掲載の全件照合完了を意味しません。"
+    },
+    {
+      "source_id": "itabashi_official_festival",
+      "label": "板橋区公式・区民まつり",
+      "origin": "official",
+      "required": true,
+      "group": "区公式",
+      "detail_adapter": null,
+      "base_url": "https://www.city.itabashi.tokyo.jp/bunka/kanko/matsuri/index.html",
+      "retrieval_status": "checked",
+      "status_label": "要個別照合",
+      "pages_expected": 2,
+      "pages_checked": 2,
+      "pages_failed": 0,
+      "observed_distinct_link_leads": 2,
+      "example_leads": [
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/bunka/index.html",
+          "name": "文化・スポーツ・産業",
+          "observed_in": [
+            "https://www.city.itabashi.tokyo.jp/bunka/kanko/matsuri/index.html",
+            "https://www.city.itabashi.tokyo.jp/bunka/kanko/matsuri/1006858.html"
+          ]
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/bunka/kanko/1055151.html",
+          "name": "「ぐるっと板橋LINEスタンプラリー」開催について",
+          "observed_in": [
+            "https://www.city.itabashi.tokyo.jp/bunka/kanko/matsuri/index.html"
+          ]
+        }
+      ],
+      "new_arrival_post_leads_observed": 0,
+      "new_arrival_post_leads_are_unverified": true,
+      "new_arrival_samples": [],
+      "event_candidates_total": null,
+      "candidate_publication_parity": "未検証",
+      "published_count_from_source": null,
+      "excluded_count_from_source": null,
+      "duplicate_count_from_source": null,
+      "unreviewed_count_from_source": null,
+      "unverified_due_to_source_error": false,
+      "source_checks": [
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/bunka/kanko/matsuri/index.html",
+          "checked_at": "2026-11-22T14:31:35+09:00",
+          "status": "checked",
+          "http_status": 200,
+          "final_url": "https://www.city.itabashi.tokyo.jp/bunka/kanko/matsuri/index.html",
+          "content_type": "text/html",
+          "bytes": 17518,
+          "sha256": "7567b415a73c7876044f490c032b5d38fcf8f2eb89fb0149a45db0040de6b8df",
+          "page_title": "区民まつり｜板橋区公式ホームページ",
+          "observed_event_link_leads": 2
+        },
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/bunka/kanko/matsuri/1006858.html",
+          "checked_at": "2026-11-22T14:31:35+09:00",
+          "status": "checked",
+          "http_status": 200,
+          "final_url": "https://www.city.itabashi.tokyo.jp/bunka/kanko/matsuri/1006858.html",
+          "content_type": "text/html",
+          "bytes": 22062,
+          "sha256": "cd9619e0ccf459b7633035fece32d8e5111fe75ad06bbd3ad1d737bbf4604344",
+          "page_title": "板橋区民まつり｜板橋区公式ホームページ",
+          "observed_event_link_leads": 1
+        }
+      ],
+      "errors": [],
+      "audit_method": "registered URLs; HTML link lead observation; no inferred event dates",
+      "caveat": "接続成功は候補・掲載の全件照合完了を意味しません。"
+    },
+    {
+      "source_id": "itabashi_tourism_festival",
+      "label": "板橋区観光協会・区民まつり特集",
+      "origin": "official",
+      "required": true,
+      "group": "観光協会",
+      "detail_adapter": null,
+      "base_url": "https://itabashi-kanko.jp/",
+      "retrieval_status": "checked",
+      "status_label": "要個別照合",
+      "pages_expected": 1,
+      "pages_checked": 1,
+      "pages_failed": 0,
+      "observed_distinct_link_leads": 3,
+      "example_leads": [
+        {
+          "url": "https://itabashi-kanko.jp/event",
+          "name": "イベント情報",
+          "observed_in": [
+            "https://itabashi-kanko.jp/pickup/detail?id=1799"
+          ]
+        },
+        {
+          "url": "https://itabashi-kanko.jp/pickup/detail",
+          "name": "Ⓗスポーツひろば（都税事務所前）",
+          "observed_in": [
+            "https://itabashi-kanko.jp/pickup/detail?id=1799"
+          ]
+        },
+        {
+          "url": "https://www.itabashi-sa.or.jp",
+          "name": "公益財団法人 板橋区スポーツ協会",
+          "observed_in": [
+            "https://itabashi-kanko.jp/pickup/detail?id=1799"
+          ]
+        }
+      ],
+      "new_arrival_post_leads_observed": 0,
+      "new_arrival_post_leads_are_unverified": true,
+      "new_arrival_samples": [],
+      "event_candidates_total": null,
+      "candidate_publication_parity": "未検証",
+      "published_count_from_source": null,
+      "excluded_count_from_source": null,
+      "duplicate_count_from_source": null,
+      "unreviewed_count_from_source": null,
+      "unverified_due_to_source_error": false,
+      "source_checks": [
+        {
+          "url": "https://itabashi-kanko.jp/pickup/detail?id=1799",
+          "checked_at": "2026-11-22T14:31:36+09:00",
+          "status": "checked",
+          "http_status": 200,
+          "final_url": "https://itabashi-kanko.jp/pickup/detail?id=1799",
+          "content_type": "text/html;charset=UTF-8",
+          "bytes": 49618,
+          "sha256": "865532423f9703af2cb968845aa2625e33f0f4b6dc5877b8236b8f261d655d39",
+          "page_title": "第５５回板橋区民まつり特集｜体験する｜ぶらり、いたばし　板橋区観光協会",
+          "observed_event_link_leads": 3
+        }
+      ],
+      "errors": [],
+      "audit_method": "registered URLs; HTML link lead observation; no inferred event dates",
+      "caveat": "接続成功は候補・掲載の全件照合完了を意味しません。",
+      "official_alternatives": [
+        {
+          "source_id": "itabashi_official_festival",
+          "retrieval_status": "checked",
+          "base_url": "https://www.city.itabashi.tokyo.jp/bunka/kanko/matsuri/index.html",
+          "source_coverage_not_transferred": true
+        }
+      ],
+      "official_alternative_can_be_used_for_event_verification": true,
+      "failed_primary_source_stays_failed": true
+    },
+    {
+      "source_id": "tamemap_nakano",
+      "label": "ためまっぷなかの（地域イベントカレンダー）",
+      "origin": "manual",
+      "required": true,
+      "group": "地域カレンダー",
+      "detail_adapter": null,
+      "base_url": "https://pc.tamemap.net/1311401?lat=35.7089745&lng=139.6630981&level=5000&locale=ja",
+      "retrieval_status": "source_error",
+      "status_label": "取得失敗",
+      "pages_expected": 3,
+      "pages_checked": 0,
+      "pages_failed": 3,
+      "observed_distinct_link_leads": 0,
+      "example_leads": [],
+      "new_arrival_post_leads_observed": 0,
+      "new_arrival_post_leads_are_unverified": true,
+      "new_arrival_samples": [],
+      "event_candidates_total": null,
+      "candidate_publication_parity": "未検証",
+      "published_count_from_source": null,
+      "excluded_count_from_source": null,
+      "duplicate_count_from_source": null,
+      "unreviewed_count_from_source": null,
+      "unverified_due_to_source_error": true,
+      "source_checks": [
+        {
+          "url": "https://pc.tamemap.net/1311401/calendar/2026-11?lat=35.7089745&lng=139.6630981&level=5000&locale=ja",
+          "checked_at": "2026-11-22T14:31:35+09:00",
+          "status": "error",
+          "error": "HTTP Error 403: Forbidden",
+          "http_status": 403,
+          "final_url": "https://pc.tamemap.net/1311401/calendar/2026-11?lat=35.7089745&lng=139.6630981&level=5000&locale=ja",
+          "response_server": "cloudflare",
+          "response_content_type": "text/html; charset=UTF-8",
+          "response_title": "Just a moment...",
+          "error_body_sha256": "d7fdb452fd39433a2dd8109395a2e9af3321964e08ec6a2c10843cf02a45e0f5",
+          "error_body_truncated": true,
+          "cloudflare_challenge_detected": true,
+          "challenge_detected": true,
+          "response_cf_ray_present": true,
+          "error_kind": "security_challenge",
+          "retryable_http_error": false
+        },
+        {
+          "url": "https://pc.tamemap.net/1311401/calendar/2026-12?lat=35.7089745&lng=139.6630981&level=5000&locale=ja",
+          "checked_at": "2026-11-22T14:31:35+09:00",
+          "status": "error",
+          "error": "HTTP Error 403: Forbidden",
+          "http_status": 403,
+          "final_url": "https://pc.tamemap.net/1311401/calendar/2026-12?lat=35.7089745&lng=139.6630981&level=5000&locale=ja",
+          "response_server": "cloudflare",
+          "response_content_type": "text/html; charset=UTF-8",
+          "response_title": "Just a moment...",
+          "error_body_sha256": "3db8c44cb2e529f4734dfec3a8812624cd387b956befe373053180faff166a71",
+          "error_body_truncated": true,
+          "cloudflare_challenge_detected": true,
+          "challenge_detected": true,
+          "response_cf_ray_present": true,
+          "error_kind": "security_challenge",
+          "retryable_http_error": false
+        },
+        {
+          "url": "https://pc.tamemap.net/1311401/new_arrival?lat=35.7089745&lng=139.6630981&level=5000&locale=ja",
+          "checked_at": "2026-11-22T14:31:35+09:00",
+          "status": "error",
+          "error": "HTTP Error 403: Forbidden",
+          "http_status": 403,
+          "final_url": "https://pc.tamemap.net/1311401/new_arrival?lat=35.7089745&lng=139.6630981&level=5000&locale=ja",
+          "response_server": "cloudflare",
+          "response_content_type": "text/html; charset=UTF-8",
+          "response_title": "Just a moment...",
+          "error_body_sha256": "e8d3ec3a738b75bc26ae0c5c9534754eaaf6671519f3d6fcacf81d2662ee1985",
+          "error_body_truncated": true,
+          "cloudflare_challenge_detected": true,
+          "challenge_detected": true,
+          "response_cf_ray_present": true,
+          "error_kind": "security_challenge",
+          "retryable_http_error": false
+        }
+      ],
+      "errors": [
+        {
+          "url": "https://pc.tamemap.net/1311401/calendar/2026-11?lat=35.7089745&lng=139.6630981&level=5000&locale=ja",
+          "error": "HTTP Error 403: Forbidden"
+        },
+        {
+          "url": "https://pc.tamemap.net/1311401/calendar/2026-12?lat=35.7089745&lng=139.6630981&level=5000&locale=ja",
+          "error": "HTTP Error 403: Forbidden"
+        },
+        {
+          "url": "https://pc.tamemap.net/1311401/new_arrival?lat=35.7089745&lng=139.6630981&level=5000&locale=ja",
+          "error": "HTTP Error 403: Forbidden"
+        }
+      ],
+      "audit_method": "registered URLs; HTML link lead observation; no inferred event dates",
+      "caveat": "接続成功は候補・掲載の全件照合完了を意味しません。"
+    },
+    {
+      "source_id": "itabashi_times_event",
+      "label": "いたばしTIMES（イベント情報）",
+      "origin": "manual",
+      "required": true,
+      "group": "記事・一覧",
+      "detail_adapter": "第二弾：記事・一覧",
+      "base_url": "https://itabashi-times.com/category/event",
+      "retrieval_status": "checked",
+      "status_label": "要個別照合",
+      "pages_expected": 2,
+      "pages_checked": 2,
+      "pages_failed": 0,
+      "observed_distinct_link_leads": 1,
+      "example_leads": [
+        {
+          "url": "https://itabashi-times.com/category/event",
+          "name": "イベント情報",
+          "observed_in": [
+            "https://itabashi-times.com/category/event",
+            "https://itabashi-times.com/category/event/page/2"
+          ]
+        }
+      ],
+      "new_arrival_post_leads_observed": 0,
+      "new_arrival_post_leads_are_unverified": true,
+      "new_arrival_samples": [],
+      "event_candidates_total": null,
+      "candidate_publication_parity": "未検証",
+      "published_count_from_source": null,
+      "excluded_count_from_source": null,
+      "duplicate_count_from_source": null,
+      "unreviewed_count_from_source": null,
+      "unverified_due_to_source_error": false,
+      "source_checks": [
+        {
+          "url": "https://itabashi-times.com/category/event",
+          "checked_at": "2026-11-22T14:31:39+09:00",
+          "status": "checked",
+          "http_status": 200,
+          "final_url": "https://itabashi-times.com/category/event",
+          "content_type": "text/html; charset=UTF-8",
+          "bytes": 155425,
+          "sha256": "3e90153ef0fe4bf5be17e688d85166ab6dd0cdef6d52296e74aa6d7b08fd467d",
+          "page_title": "イベント情報 – いたばしTIMES Search First prev prev Last Search close",
+          "observed_event_link_leads": 1
+        },
+        {
+          "url": "https://itabashi-times.com/category/event/page/2",
+          "checked_at": "2026-11-22T14:31:39+09:00",
+          "status": "checked",
+          "http_status": 200,
+          "final_url": "https://itabashi-times.com/category/event/page/2",
+          "content_type": "text/html; charset=UTF-8",
+          "bytes": 153030,
+          "sha256": "44e66829606a1f9570c1b00d9a1eb6c14e2445d6a332a04a4dc5a4093446ae30",
+          "page_title": "イベント情報 – ページ 2 – いたばしTIMES Search First prev prev Last Search close",
+          "observed_event_link_leads": 1
+        }
+      ],
+      "errors": [],
+      "audit_method": "registered URLs; HTML link lead observation; no inferred event dates",
+      "caveat": "接続成功は候補・掲載の全件照合完了を意味しません。"
+    },
+    {
+      "source_id": "suginami_calendar_all",
+      "label": "杉並区公式イベントカレンダー（全ジャンル・日別巡回）",
+      "origin": "official_added",
+      "required": true,
+      "group": "日別カレンダー",
+      "detail_adapter": "第一弾：公式日別カレンダー",
+      "base_url": "https://www.city.suginami.tokyo.jp/event/index.html",
+      "retrieval_status": "checked",
+      "status_label": "要個別照合",
+      "pages_expected": 2,
+      "pages_checked": 2,
+      "pages_failed": 0,
+      "observed_distinct_link_leads": 8,
+      "example_leads": [
+        {
+          "url": "https://www.city.suginami.tokyo.jp/kosodatekyouiku/index.html",
+          "name": "子ども・子育て・教育",
+          "observed_in": [
+            "https://www.city.suginami.tokyo.jp/cgi-bin/event_cal_multi/calendar.cgi?type=2&year=2026&month=11",
+            "https://www.city.suginami.tokyo.jp/cgi-bin/event_cal_multi/calendar.cgi?type=2&year=2026&month=12"
+          ]
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/sports/index.html",
+          "name": "スポーツ・文化",
+          "observed_in": [
+            "https://www.city.suginami.tokyo.jp/cgi-bin/event_cal_multi/calendar.cgi?type=2&year=2026&month=11",
+            "https://www.city.suginami.tokyo.jp/cgi-bin/event_cal_multi/calendar.cgi?type=2&year=2026&month=12"
+          ]
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/event/index.html",
+          "name": "イベント情報",
+          "observed_in": [
+            "https://www.city.suginami.tokyo.jp/cgi-bin/event_cal_multi/calendar.cgi?type=2&year=2026&month=11",
+            "https://www.city.suginami.tokyo.jp/cgi-bin/event_cal_multi/calendar.cgi?type=2&year=2026&month=12"
+          ]
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s033/event/26970.html",
+          "name": "杉並アニメーションミュージアム第74回企画展 「シンエイ動画50周年」展直接会場へ",
+          "observed_in": [
+            "https://www.city.suginami.tokyo.jp/cgi-bin/event_cal_multi/calendar.cgi?type=2&year=2026&month=11"
+          ]
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s113/event/27522.html",
+          "name": "令和8年度区民参加型展示「昭和ノスタルジア 杉並の建物を描く」（郷土博物館分館）",
+          "observed_in": [
+            "https://www.city.suginami.tokyo.jp/cgi-bin/event_cal_multi/calendar.cgi?type=2&year=2026&month=11"
+          ]
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s045/event/27651.html",
+          "name": "「杉並区健康づくり推進期間」スポーツデビュー教室募集終了",
+          "observed_in": [
+            "https://www.city.suginami.tokyo.jp/cgi-bin/event_cal_multi/calendar.cgi?type=2&year=2026&month=11"
+          ]
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s100/event/28578.html",
+          "name": "企画展「近衞文麿の大礼服」（荻外荘公園）",
+          "observed_in": [
+            "https://www.city.suginami.tokyo.jp/cgi-bin/event_cal_multi/calendar.cgi?type=2&year=2026&month=12"
+          ]
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s113/event/28456.html",
+          "name": "令和8年度企画展「農村に生まれた小さな西洋 天沼教会と東京衛生病院の歩みからみる地域史」（郷土博物館分館）",
+          "observed_in": [
+            "https://www.city.suginami.tokyo.jp/cgi-bin/event_cal_multi/calendar.cgi?type=2&year=2026&month=12"
+          ]
+        }
+      ],
+      "new_arrival_post_leads_observed": 0,
+      "new_arrival_post_leads_are_unverified": true,
+      "new_arrival_samples": [],
+      "event_candidates_total": null,
+      "candidate_publication_parity": "未検証",
+      "published_count_from_source": null,
+      "excluded_count_from_source": null,
+      "duplicate_count_from_source": null,
+      "unreviewed_count_from_source": null,
+      "unverified_due_to_source_error": false,
+      "source_checks": [
+        {
+          "url": "https://www.city.suginami.tokyo.jp/cgi-bin/event_cal_multi/calendar.cgi?type=2&year=2026&month=11",
+          "checked_at": "2026-11-22T14:31:39+09:00",
+          "status": "checked",
+          "http_status": 200,
+          "final_url": "https://www.city.suginami.tokyo.jp/cgi-bin/event_cal_multi/calendar.cgi?type=2&year=2026&month=11",
+          "content_type": "text/html; charset=utf-8",
+          "bytes": 77930,
+          "sha256": "45444861e36ed42dc006e9c702574c932bdbae8112cbf308688ddb8ff44b5a3a",
+          "page_title": "イベントカレンダー｜杉並区公式ホームページ",
+          "observed_event_link_leads": 6
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/cgi-bin/event_cal_multi/calendar.cgi?type=2&year=2026&month=12",
+          "checked_at": "2026-11-22T14:31:39+09:00",
+          "status": "checked",
+          "http_status": 200,
+          "final_url": "https://www.city.suginami.tokyo.jp/cgi-bin/event_cal_multi/calendar.cgi?type=2&year=2026&month=12",
+          "content_type": "text/html; charset=utf-8",
+          "bytes": 74918,
+          "sha256": "18196ed3aa34f4ca1dc7945b7d99382626151c8d658fa1bda578f5bf3df2d074",
+          "page_title": "イベントカレンダー｜杉並区公式ホームページ",
+          "observed_event_link_leads": 5
+        }
+      ],
+      "errors": [],
+      "audit_method": "registered URLs; HTML link lead observation; no inferred event dates",
+      "caveat": "接続成功は候補・掲載の全件照合完了を意味しません。"
+    },
+    {
+      "source_id": "nerima_forest_festa_2026",
+      "label": "練馬区公式 ねりまの森こどもフェスタ（日別行）",
+      "origin": "official",
+      "required": false,
+      "group": "公式企画表",
+      "detail_adapter": "個別企画・日付照合",
+      "base_url": "https://www.city.nerima.tokyo.jp/kurashi/shigoto/midori/shokai/nerimanomori.html",
+      "retrieval_status": "checked",
+      "status_label": "要個別照合",
+      "pages_expected": 1,
+      "pages_checked": 1,
+      "pages_failed": 0,
+      "observed_distinct_link_leads": 13,
+      "example_leads": [
+        {
+          "url": "https://www.city.nerima.tokyo.jp/kurashi/shigoto/midori/shokai/nerimanomori.html",
+          "name": "イベント概要",
+          "observed_in": [
+            "https://www.city.nerima.tokyo.jp/kurashi/shigoto/midori/shokai/nerimanomori.html"
+          ]
+        },
+        {
+          "url": "https://www.city.nerima.tokyo.jp/kurashi/shigoto/midori/shokai/nerimanomori.files/2026morifesu.pdf",
+          "name": "ねりまの森こどもフェスタ2026チラシ（PDF：6,955KB）",
+          "observed_in": [
+            "https://www.city.nerima.tokyo.jp/kurashi/shigoto/midori/shokai/nerimanomori.html"
+          ]
+        },
+        {
+          "url": "https://www.city.nerima.tokyo.jp/kurashi/shigoto/midori/shokai/midorifesta_sonota.html",
+          "name": "ねりまみどりフェスタ イベント＆出展団体のご紹介【フォトギャラリー・スタンプラリー等】",
+          "observed_in": [
+            "https://www.city.nerima.tokyo.jp/kurashi/shigoto/midori/shokai/nerimanomori.html"
+          ]
+        },
+        {
+          "url": "https://www.city.nerima.tokyo.jp/kurashi/shigoto/midori/shokai/midorifesta_ikimono.html",
+          "name": "ねりまみどりフェスタ イベント＆出展団体のご紹介【生きものコーナー】",
+          "observed_in": [
+            "https://www.city.nerima.tokyo.jp/kurashi/shigoto/midori/shokai/nerimanomori.html"
+          ]
+        },
+        {
+          "url": "https://www.city.nerima.tokyo.jp/kurashi/shigoto/midori/shokai/midorifesta_gardenig.html",
+          "name": "ねりまみどりフェスタ イベント＆出展団体のご紹介【ガーデニングコーナー】",
+          "observed_in": [
+            "https://www.city.nerima.tokyo.jp/kurashi/shigoto/midori/shokai/nerimanomori.html"
+          ]
+        },
+        {
+          "url": "https://www.city.nerima.tokyo.jp/kurashi/shigoto/midori/shokai/midorifesta_manabi.html",
+          "name": "ねりまみどりフェスタ イベント＆出展団体のご紹介【展示・学びコーナー】",
+          "observed_in": [
+            "https://www.city.nerima.tokyo.jp/kurashi/shigoto/midori/shokai/nerimanomori.html"
+          ]
+        },
+        {
+          "url": "https://www.city.nerima.tokyo.jp/kurashi/shigoto/midori/shokai/midorifesta_kousaku.html",
+          "name": "ねりまみどりフェスタ イベント＆出展団体のご紹介【工作コーナー】",
+          "observed_in": [
+            "https://www.city.nerima.tokyo.jp/kurashi/shigoto/midori/shokai/nerimanomori.html"
+          ]
+        },
+        {
+          "url": "https://www.city.nerima.tokyo.jp/kurashi/shigoto/midori/shokai/midorifesta_taiken.html",
+          "name": "ねりまみどりフェスタ イベント＆出展団体のご紹介【アクティビティコーナー】",
+          "observed_in": [
+            "https://www.city.nerima.tokyo.jp/kurashi/shigoto/midori/shokai/nerimanomori.html"
+          ]
+        },
+        {
+          "url": "https://www.city.nerima.tokyo.jp/kurashi/shigoto/midori/shokai/midorifesta.html",
+          "name": "ねりまみどりフェスタを開催しました",
+          "observed_in": [
+            "https://www.city.nerima.tokyo.jp/kurashi/shigoto/midori/shokai/nerimanomori.html"
+          ]
+        },
+        {
+          "url": "https://www.city.nerima.tokyo.jp/kankomoyoshi/shogaigakushu/kyogikai/kuminbunkasai.html",
+          "name": "第71回（令和8年度秋季）区民文化祭",
+          "observed_in": [
+            "https://www.city.nerima.tokyo.jp/kurashi/shigoto/midori/shokai/nerimanomori.html"
+          ]
+        },
+        {
+          "url": "https://www.city.nerima.tokyo.jp/kankomoyoshi/nogyo/toshinou_festival/festival2027pre.html",
+          "name": "全国都市農業フェスティバル2027 プレイベント開催概要",
+          "observed_in": [
+            "https://www.city.nerima.tokyo.jp/kurashi/shigoto/midori/shokai/nerimanomori.html"
+          ]
+        },
+        {
+          "url": "https://www.city.nerima.tokyo.jp/hokenfukushi/hoken/kenkodukuri/undo/202610_stamprally.html",
+          "name": "「ねりまの散歩道をゆく！デジタル健康スタンプラリー2026」開催中です！",
+          "observed_in": [
+            "https://www.city.nerima.tokyo.jp/kurashi/shigoto/midori/shokai/nerimanomori.html"
+          ]
+        },
+        {
+          "url": "https://www.city.nerima.tokyo.jp/kusei/koho/hodo/h28/2807/280726-1.html",
+          "name": "【平成28年7月26日】日常生活でも役立つロープワークを覚えませんか～防災体験スペシャルデーに参加して防災グッズをもらおう～（事前のお知らせ）",
+          "observed_in": [
+            "https://www.city.nerima.tokyo.jp/kurashi/shigoto/midori/shokai/nerimanomori.html"
+          ]
+        }
+      ],
+      "new_arrival_post_leads_observed": 0,
+      "new_arrival_post_leads_are_unverified": true,
+      "new_arrival_samples": [],
+      "event_candidates_total": null,
+      "candidate_publication_parity": "未検証",
+      "published_count_from_source": null,
+      "excluded_count_from_source": null,
+      "duplicate_count_from_source": null,
+      "unreviewed_count_from_source": null,
+      "unverified_due_to_source_error": false,
+      "source_checks": [
+        {
+          "url": "https://www.city.nerima.tokyo.jp/kurashi/shigoto/midori/shokai/nerimanomori.html",
+          "checked_at": "2026-11-22T14:31:36+09:00",
+          "status": "checked",
+          "http_status": 200,
+          "final_url": "https://www.city.nerima.tokyo.jp/kurashi/shigoto/midori/shokai/nerimanomori.html",
+          "content_type": "text/html",
+          "bytes": 38567,
+          "sha256": "9fc41317bad31d0bf25d566811cd25e012efcbd1e92768bb79cf49e6862ec48d",
+          "page_title": "ねりまの森こどもフェスタ：練馬区公式ホームページ",
+          "observed_event_link_leads": 13
+        }
+      ],
+      "errors": [],
+      "audit_method": "registered URLs; HTML link lead observation; no inferred event dates",
+      "caveat": "接続成功は候補・掲載の全件照合完了を意味しません。"
+    },
+    {
+      "source_id": "shinjuku_sankaku_hiroba",
+      "label": "新宿住友ビル三角広場（会場公式）",
+      "origin": "official",
+      "required": false,
+      "group": "固定サイト",
+      "detail_adapter": null,
+      "base_url": "https://www.sumitomo-sankakuhiroba.jp/event/",
+      "retrieval_status": "checked",
+      "status_label": "要個別照合",
+      "pages_expected": 1,
+      "pages_checked": 1,
+      "pages_failed": 0,
+      "observed_distinct_link_leads": 1,
+      "example_leads": [
+        {
+          "url": "https://office-b.sumitomo-rd.co.jp/sankakuhiroba/contact",
+          "name": "イベント開催のお問い合わせはこちら",
+          "observed_in": [
+            "https://www.sumitomo-sankakuhiroba.jp/event/"
+          ]
+        }
+      ],
+      "new_arrival_post_leads_observed": 0,
+      "new_arrival_post_leads_are_unverified": true,
+      "new_arrival_samples": [],
+      "event_candidates_total": null,
+      "candidate_publication_parity": "未検証",
+      "published_count_from_source": null,
+      "excluded_count_from_source": null,
+      "duplicate_count_from_source": null,
+      "unreviewed_count_from_source": null,
+      "unverified_due_to_source_error": false,
+      "source_checks": [
+        {
+          "url": "https://www.sumitomo-sankakuhiroba.jp/event/",
+          "checked_at": "2026-11-22T14:31:36+09:00",
+          "status": "checked",
+          "http_status": 200,
+          "final_url": "https://www.sumitomo-sankakuhiroba.jp/event/",
+          "content_type": "text/html; charset=UTF-8",
+          "bytes": 66883,
+          "sha256": "74bdeae7bb2fec820f59b282e90d821786eff8550c03bd323c72a7845d3d7098",
+          "page_title": "イベント一覧｜【イベント情報】新宿住友ビル三角広場 | 新宿住友ビル三角広場",
+          "observed_event_link_leads": 1
+        }
+      ],
+      "errors": [],
+      "audit_method": "registered URLs; HTML link lead observation; no inferred event dates",
+      "caveat": "接続成功は候補・掲載の全件照合完了を意味しません。"
+    },
+    {
+      "source_id": "greensprings_tachikawa",
+      "label": "GREEN SPRINGS（立川・施設公式イベント）",
+      "origin": "official",
+      "required": false,
+      "group": "固定サイト",
+      "detail_adapter": null,
+      "base_url": "https://greensprings.jp/event/",
+      "retrieval_status": "checked",
+      "status_label": "要個別照合",
+      "pages_expected": 1,
+      "pages_checked": 1,
+      "pages_failed": 0,
+      "observed_distinct_link_leads": 3,
+      "example_leads": [
+        {
+          "url": "https://greensprings.jp/event",
+          "name": "EVENT",
+          "observed_in": [
+            "https://greensprings.jp/event/"
+          ]
+        },
+        {
+          "url": "https://greensprings.jp/event/11016",
+          "name": "2026.11.27.Fri - 2026.11.29.Sun 選りすぐりの窯元が集う空と大地の工藝マルシェ たちかわ陶器市",
+          "observed_in": [
+            "https://greensprings.jp/event/"
+          ]
+        },
+        {
+          "url": "https://greensprings.jp/event_space",
+          "name": "イベントスペース",
+          "observed_in": [
+            "https://greensprings.jp/event/"
+          ]
+        }
+      ],
+      "new_arrival_post_leads_observed": 0,
+      "new_arrival_post_leads_are_unverified": true,
+      "new_arrival_samples": [],
+      "event_candidates_total": null,
+      "candidate_publication_parity": "未検証",
+      "published_count_from_source": null,
+      "excluded_count_from_source": null,
+      "duplicate_count_from_source": null,
+      "unreviewed_count_from_source": null,
+      "unverified_due_to_source_error": false,
+      "source_checks": [
+        {
+          "url": "https://greensprings.jp/event/",
+          "checked_at": "2026-11-22T14:31:38+09:00",
+          "status": "checked",
+          "http_status": 200,
+          "final_url": "https://greensprings.jp/event/",
+          "content_type": "text/html; charset=UTF-8",
+          "bytes": 35978,
+          "sha256": "8088e6ed9e568698d3c192ad826e7b558cbac4584a9addae323069304e94f024",
+          "page_title": "イベント | GREEN SPRINGS（グリーンスプリングス）",
+          "observed_event_link_leads": 3
+        }
+      ],
+      "errors": [],
+      "audit_method": "registered URLs; HTML link lead observation; no inferred event dates",
+      "caveat": "接続成功は候補・掲載の全件照合完了を意味しません。"
+    }
+  ],
+  "read_only": true,
+  "disclaimer": "全28サイトのURL取得監査。記事候補やリンク数は全件候補数ではなく、公式開催日・採否・公開整合性の検証は別に必要。エラーは0件に変換しません。"
+}

@@ -1,0 +1,52 @@
+{
+  "verified_at": "2026-11-14T03:56:12.720549+00:00",
+  "base_data_production_sha": "033c9e12728f1fca18899b3b47d9a8ca62e3ab48",
+  "data_production_sha": "cdad50949ead6fe7fff2e8bb28e7c22bfbdd12fd",
+  "data_staging_sha": "cdad50949ead6fe7fff2e8bb28e7c22bfbdd12fd",
+  "data_release": "data-release/2026-11-14-r654",
+  "publication_run": 43553867066,
+  "publication_conclusion": "success",
+  "preflight_run": 43553530499,
+  "preflight_conclusion": "success",
+  "public_app_version": "1.33",
+  "app_production_unchanged": "e311ee769291a84ff7d6b070ac306f6da3b03977",
+  "public_data": {
+    "verified_at": "2026-11-14T03:54:12.942112+00:00",
+    "public_total": 408,
+    "event_facts_retained": 408,
+    "other_records_retained_exactly": 407,
+    "new_records": 0,
+    "assessment_corrections": 1,
+    "week_counts": {
+      "2026-11-07": 52,
+      "2026-11-14": 94,
+      "2026-11-21": 100,
+      "2026-11-28": 69,
+      "2026-12-05": 52,
+      "2026-12-12": 41
+    },
+    "files_compared": 76,
+    "all_candidate_files_match_public": true,
+    "history_retained": true
+  },
+  "public_browser": {
+    "url": "https://toodataa-ai.github.io/tokyo-family-events-ai/search.html?date=2026-11-14&q=%E9%89%84%E9%81%93%E4%B8%8A%E9%83%A8%E7%A9%BA%E9%96%93%E6%B4%BB%E7%94%A8&star=3&rating-proof=20261114",
+    "stars": 3,
+    "three_star_filter_returns_event": true,
+    "card_count": 1,
+    "mobile_no_overflow": true,
+    "card_text": "鉄道上部空間活用オープンハウス（こども向け体験・展示）今週追加\n🗓 11/15(日)\n−\nCanvaに追加\n中野区\n✓ 公式確認済み\n無料\n申込不要\n📍 中野区立令和小学校（中野区新井4-19-26）\n💰 無料\n鉄道上部空間の未来を生成AIでイメージするこども向け体験や、模型・パネル展示。体験・展示は申込不要・入退場自由。別のグループワークは申込終了。体験・展示の時間は公式案内で確認。\nAI判定: 子ども向けの画像作成体験に模型・シール投票を組み合わせ、親子で未来のまちを考えられる。無料・申込不要・入退場自由という家族利用の明確な強みがある。\n子連れ適性8軸を見る\n公式確認: 2026-11-14 ／ 検証ソース\n2026-11-13に本文の開催日・会場・主催/投稿者を個別確認。画像は内容の事実確認に使わず、未記載の時刻は空欄のまま。\n情報元: https://pc.tamemap.net/1311401/event/161805/2026-11-15?locale=ja"
+  },
+  "previous_normal_pages_run": {
+    "run": 43553590971,
+    "conclusion": "failure",
+    "staging_validation": "success",
+    "attempt1": "Pages artifact metadata temporarily reported no github-pages artifact despite upload success",
+    "attempt2": "Rerun produced multiple github-pages artifacts and deploy-pages rejected duplication",
+    "resolution": "Fresh formal data-only run654 succeeded; no validations disabled and no direct data-production write"
+  },
+  "initial_browser_check": "Star3 filter timed out immediately after deployment; subsequent normal search and repeated star3 filter both confirmed A/3 stars.",
+  "whole_source_review_complete": false,
+  "source_failures_changed": false,
+  "other_event_assessments_changed": false
+}

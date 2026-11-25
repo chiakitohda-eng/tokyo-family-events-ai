@@ -2,7 +2,7 @@
 <html lang="ja">
 <head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>イベント検索｜東京23区子連れイベントAI収集</title>
+<title>イベント検索｜東京子連れイベントAI収集</title>
 <link rel="stylesheet" href="styles.css?v=20261010-single-period">
 <link rel="stylesheet" href="canva-draft.css?v=1">
 </head>
@@ -10,7 +10,7 @@
 <section class="site-hero">
   <div class="hero-inner">
     <div class="site-topbar">
-      <a class="site-brand" href="index.html">東京23区子連れイベントAI収集</a>
+      <a class="site-brand" href="index.html">東京子連れイベントAI収集</a>
       <nav class="site-nav"><a href="index.html">トップ</a><button id="copyBtn">コピペ用リスト</button><a href="canva.html">Canva投稿ドラフト</a></nav>
     </div>
     <div class="hero-eyebrow">EVENT SEARCH</div>
@@ -67,12 +67,13 @@
   <div class="grid" id="grid"></div>
 </main>
 <footer>トップ画面で抽出ロジック・候補件数・掲載件数・除外理由を確認できます。検索画面では今週末以降の掲載イベントを表示し、過去の分も「日付指定」で検索できます。区・取得元・キーワード・オススメ度・料金・屋内外・予約要否で絞り込めます。</footer>
+<script src="thumb-fallback.js"></script>
 <script src="self-usage.js?v=20261028-1" defer></script>
 <script src="usage-metrics.js?v=20261028-today" defer></script>
 <script type="module">
 import {WARDS,defaultDate,saturdayOf,fmtRange,filterEvents,countsByWard,loadManifest,loadWeekend,loadDiscoverySources,escapeHtml,safeHttpUrl,buildCopyUrl,rollingWeekSlots,shortWeekendLabel,holidayPeriodSlots,holidayTabMeta,holidayRangeLabel,eventsOverlappingPeriod,verificationStateMeta,verificationSourceHeading,familyFitAxisRows,heroSeasonForDate,heroSeasonMeta,indoorOutdoorLabel,eventPriceCategory,eventPriceLabel,reservationLabel,reservationCategory,eventDiscoveryProvenance,mergeEventsAcrossWeeks} from './app.js?v=20261021-arts-venue-chain';
 import {createMultiFilterUI} from './multi-filter-ui.js?v=20261025-date-range-v1';
-import {loadChangeData,changeBadge,currentChangeCounts,changeKind} from './recent-event-changes.js?v=20261027-1';
+import {loadChangeData,changeBadge,currentChangeCounts,changeKind} from './recent-event-changes.js?v=20261108-weekly-identity';
 import {groupFestivalDisplayEvents,festivalDisplayChangeKind,festivalMemberSummary,groupedEventChangeCounts,NAKANO_FESTIVAL_GROUP_ID} from './festival-display-grouping.js?v=20261027-fest-parent';
 import {CANVA_FORMAT,readCanvaSelection,saveCanvaSelection} from './canva-draft-contract.js?v=20261024-fixed-cover-36-v1';
 
@@ -113,11 +114,12 @@ function provenanceBadge(prov){
   if(prov.channel==='both') return '<span class="badge provenance-badge prov-both">両方</span>';
   return '';
 }
-function renderChangeControls(){
+function renderChangeControls(scopeEvents){
   const bar=$('changeFilterBar');if(!bar||!currentData)return;
-  const counts=groupedEventChangeCounts(currentData.events,changes);
+  const base=scopeEvents||currentData.events;
+  const counts=groupedEventChangeCounts(base,changes);
   bar.innerHTML='<span class="change-filter-label">今週の掲載変更</span>'+
-    [['','すべて',groupFestivalDisplayEvents(currentData.events).length],['added','追加',counts.added],['updated','情報更新',counts.updated]]
+    [['','すべて',groupFestivalDisplayEvents(base).length],['added','追加',counts.added],['updated','情報更新',counts.updated]]
     .map(([key,label,count])=>'<button type="button" class="change-filter-btn'+(changeFilter===key?' active':'')+
       '" data-change-filter="'+key+'" aria-pressed="'+String(changeFilter===key)+'">'+label+' '+count+'件</button>').join('');
 }
@@ -136,8 +138,8 @@ function festivalProgramDetails(group){
 }
 function render(){
   if(!currentData)return;renderWeekTabs();renderChips(currentData);updateCanvaPickbar();
-  renderChangeControls();
   let filtered=filterEvents(currentData.events,{...currentFilters(),registry,decisionAudit:currentData.decision_audit});
+  renderChangeControls(filtered);
   if(changeFilter)filtered=filtered.filter(ev=>changeKind(ev,changes)===changeFilter);
   const displayed=groupFestivalDisplayEvents(filtered);
   $('rangeText').textContent=filterUI.filters().dates.length?`${filterUI.filters().dates.length}期間を指定`:'今週末以降';
@@ -147,7 +149,7 @@ function render(){
     const href=safeHttpUrl(ev.official_url||ev.url),img=safeHttpUrl(ev.image),grade=ev.family_fit?.overall||ev.family_fit?.grade||'C',state=verificationStateMeta(ev.verification?.status,ev.verification?.source_kind),verifyUrl=safeHttpUrl(ev.verification?.source);
     const verifyBadge=`<span class="badge ${state.className}">${escapeHtml(state.label)}</span>`;
     const verifyText=`<div class="source"><b>${verificationSourceHeading(ev.verification)}:</b> ${ev.verification?.verified_on?escapeHtml(ev.verification.verified_on)+' ／ ':''}${verifyUrl?`<a href="${escapeHtml(verifyUrl)}" target="_blank" rel="noopener">検証ソース</a>`:'検証ソース要確認'}${ev.verification?.note?`<br>${escapeHtml(ev.verification.note)}`:''}</div>`;
-    const thumb=img?`<img class="thumb event-list-thumb" src="${escapeHtml(img)}" alt="" loading="lazy" onerror="this.replaceWith(Object.assign(document.createElement('div'),{className:'thumb ph event-list-thumb',textContent:'${escapeHtml(ev.ward.slice(0,1))}'}))">`:`<div class="thumb ph event-list-thumb">${escapeHtml(ev.ward.slice(0,1))}</div>`;
+    const thumb=img?`<img class="thumb event-list-thumb" src="${escapeHtml(img)}" alt="" loading="lazy" onerror="this.outerHTML=ThumbFallback.html(JSON.parse(this.dataset.ev))" data-ev='${escapeHtml(JSON.stringify({name:ev.name,ward:ev.ward,description:ev.description,venue:ev.venue}))}'>`:ThumbFallback.html(ev);
     const title=href?`<a href="${escapeHtml(href)}" target="_blank" rel="noopener">${escapeHtml(ev.name||ev.url)}</a>`:escapeHtml(ev.name||ev.url);
     const environmentLabel=indoorOutdoorLabel(ev),priceText=eventPriceLabel(ev),priceClass=eventPriceCategory(ev),reservationText=reservationLabel(ev),reservationClass=reservationCategory(ev),prov=eventProvenance(ev),provBadge=provenanceBadge(prov);
     const festival=Boolean(ev._festival_group);

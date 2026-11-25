@@ -1,0 +1,23 @@
+{
+  "verified_at": "2026-11-14T09:39:09.187336+00:00",
+  "public_total": 479,
+  "old_records_unchanged": 448,
+  "added_records": 31,
+  "new_programs": 25,
+  "week_counts": {
+    "2026-11-07": 52,
+    "2026-11-14": 110,
+    "2026-11-21": 121,
+    "2026-11-28": 81,
+    "2026-12-05": 64,
+    "2026-12-12": 51
+  },
+  "files_compared": 86,
+  "all_files_match_candidate": true,
+  "history_preserved": true,
+  "candidate_sha": "99d1082e560ab9469d93ef431af2704fed12e4da",
+  "data_release": "data-release/2026-11-14-r663",
+  "pages_run": 43581456344,
+  "pages_conclusion": "success",
+  "read_only_ci_run": 43581267867
+}

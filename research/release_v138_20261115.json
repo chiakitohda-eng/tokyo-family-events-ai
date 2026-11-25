@@ -1,0 +1,127 @@
+{
+  "production_base_sha": "9aa067f0756bb900ff3f95e33f1dee7473e9c63f",
+  "candidate_sha": "02346ccdc28c0ade85ec10446097987f2edbc862",
+  "data_sha": "e9886705d9c6ce2cc21fdd276553df2a34849fd4",
+  "public_version": "1.38",
+  "approved_files": {
+    "package.json": "686370606c3a53acbc49cc29a40bfb0e24acdbad2a11e62cf011dd93f6cdc172",
+    "site/audit/pending_issues_catalog.json": "86efad3481c89ce1f10db76f57728eda1ce55651fe84708ee9a4142564197f4a",
+    "site/data/discovery_sources.json": "d51dcfdc13eeaaa2d415f5c6f37fa7029b40bc429392dd233ad9750a09d5e642",
+    "site/pending-issues.html": "6430d9c2ce9e2d5fc2af897181fdd76952ebdb27484aee40ce9e32971f44eb3d",
+    "site/pending-issues.js": "46b767cf8feb9f442fb37e3e0b1c009a0403c2c0a45318ce934654b3dd18f72f",
+    "tests/fixed_source_directory.test.mjs": "fdf82901901f18750e5c31741322228083d9136a059198747e72154507c52c14",
+    "tests/pending_issues_release.test.mjs": "1a6bec7719c98f605de7a8426a9f9a5d446d5eb5c057e2511bc89ba519f2e15d",
+    "tests/test_sankaku_event_listing.py": "b1e8e56b392e7a11ce5e5780bd52eaede3b7ff8bd02cfc66de10580cf209dda2",
+    "tools/holiday_after_collect.py": "c1e3dfb69ae2e7c197a1a8fcdc3ec6cc888e30cbe930068e8523a23e2b54f2b7",
+    "tools/sankaku_event_listing.py": "c61f8a6c60f398820d9127eb6fffd9a78db7f89a129f95ca5c35426feae207f0"
+  },
+  "user_authorization": "2026-11-15 本番リリースOK。直前に提示した上部集計削除・対応状況と三角広場の収集先/抽出処理。未承認の別ダッシュボード・アクセス履歴・過去画像は含めない。",
+  "preserved": "603 dated event records; all curation/history; production base outside exactly ten approved files",
+  "published": {
+    "release_id": "release/2026-11-15-r3",
+    "production_commit": "d2ee3226f64f42c56a5ed0ca61e3696769c4db21",
+    "successful_pages_run": 43665676887,
+    "deployed_at": "2026-11-15T02:02:05.581396+00:00",
+    "data_production_sha": "e9886705d9c6ce2cc21fdd276553df2a34849fd4",
+    "records_preserved": 603,
+    "collector_live_proof": {
+      "retrieval_status": "checked",
+      "candidate_count": 2,
+      "candidates": [
+        {
+          "candidate_id": "sankaku-d5d1b64875ca9674",
+          "name": "冬のあいぱく Premium TOKYO 2026",
+          "ward": "新宿区",
+          "discovery_url": "https://www.i-89.jp/",
+          "official_url": "https://www.i-89.jp/",
+          "source_id": "shinjuku_sankaku_hiroba",
+          "listing_url": "https://www.sumitomo-sankakuhiroba.jp/event/",
+          "date_start_hint": "2026-11-10",
+          "date_end_hint": "2026-11-17",
+          "matched_dates": [
+            "2026-11-15"
+          ],
+          "date_unverified": true,
+          "source_kind": "official_venue_external_organizer_candidate_only",
+          "image_hint": "https://www.sumitomo-sankakuhiroba.jp/wp-content/uploads/2026/10/イベントページ用.png"
+        },
+        {
+          "candidate_id": "sankaku-b741a78b90a5c6db",
+          "name": "ベルギービールウィークエンド2026 新宿",
+          "ward": "新宿区",
+          "discovery_url": "https://belgianbeerweekend.jp/shinjuku",
+          "official_url": "https://belgianbeerweekend.jp/shinjuku",
+          "source_id": "shinjuku_sankaku_hiroba",
+          "listing_url": "https://www.sumitomo-sankakuhiroba.jp/event/",
+          "date_start_hint": "2026-12-02",
+          "date_end_hint": "2026-12-06",
+          "matched_dates": [
+            "2026-12-05",
+            "2026-12-06"
+          ],
+          "date_unverified": true,
+          "source_kind": "official_venue_external_organizer_candidate_only",
+          "image_hint": "https://www.sumitomo-sankakuhiroba.jp/wp-content/uploads/2026/10/BBW26SJK_Sumitomo_Building_website_banner_600x400.png"
+        }
+      ],
+      "source_checks": {
+        "url": "https://www.sumitomo-sankakuhiroba.jp/event/",
+        "checked_at": "2026-11-15T10:58:13+09:00",
+        "sha256": "a1a199731507fb2948e5ccdf6efa0565d5eddb0c1c8cfa66841576b1497f6329",
+        "http_status": 200
+      }
+    },
+    "public_issue_browser": [
+      {
+        "width": 390,
+        "all_five_work_statuses_visible": true,
+        "work_details_closed": true,
+        "remaining": 2,
+        "completed": 3,
+        "status_and_category_filters": true,
+        "keyboard_toggle": true,
+        "omitted_initial_rows": 40,
+        "omitted_more_rows": 80,
+        "omitted_search_and_tabs": true,
+        "full_reason_and_source_preserved": true,
+        "historical_date_visible": true,
+        "no_overflow": true
+      },
+      {
+        "width": 1280,
+        "all_five_work_statuses_visible": true,
+        "work_details_closed": true,
+        "remaining": 2,
+        "completed": 3,
+        "status_and_category_filters": true,
+        "keyboard_toggle": true,
+        "omitted_initial_rows": 40,
+        "omitted_more_rows": 80,
+        "omitted_search_and_tabs": true,
+        "full_reason_and_source_preserved": true,
+        "historical_date_visible": true,
+        "no_overflow": true
+      }
+    ],
+    "public_aipaku_browser": [
+      {
+        "width": 390,
+        "aipaku_only_one_card": true,
+        "stars": 3,
+        "november15_and_current_prices_visible": true,
+        "separate_workshop_cost_and_cashless_visible": true,
+        "event_poster_loaded": true,
+        "no_overflow": true
+      },
+      {
+        "width": 1280,
+        "aipaku_only_one_card": true,
+        "stars": 3,
+        "november15_and_current_prices_visible": true,
+        "separate_workshop_cost_and_cashless_visible": true,
+        "event_poster_loaded": true,
+        "no_overflow": true
+      }
+    ]
+  }
+}

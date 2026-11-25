@@ -1,0 +1,39 @@
+name: Read-only fetch of unread dated candidate pages (79-lead pool)
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/fetch-leads6-20261119.yml']
+  workflow_dispatch: {}
+permissions:
+  contents: write
+jobs:
+  fetch:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          path: repo
+      - name: Fetch pages (no data or app change)
+        shell: bash
+        run: |
+          mkdir -p out
+          i=0
+          while read -r u; do
+            i=$((i+1))
+            curl -sS -L -m 40 -A "Mozilla/5.0 (compatible; family-events-audit)" -o "out/page$i.html" -w "page$i $u %{http_code} %{size_download} %{url_effective}\n" "$u" | tee -a out/STATUS.txt || echo "page$i $u FAIL" | tee -a out/STATUS.txt
+          done < repo/research/2026-11-19-audit/lead_urls3.txt
+          date -u +%FT%TZ > out/FETCHED_AT.txt
+      - name: Commit raw fetches to a research-only branch
+        shell: bash
+        run: |
+          cd repo
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout --orphan research/leads6-20261119
+          git rm -rf . >/dev/null 2>&1 || true
+          cp -r ../out/. .
+          git add -A
+          git commit -m "research: raw read-only fetches of discovery leads"
+          git push --force origin research/leads6-20261119

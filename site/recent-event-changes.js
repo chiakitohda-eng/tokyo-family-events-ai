@@ -20,7 +20,14 @@ export function recentEventChanges(history,{today=new Date(),lastWeekNewRows=[]}
   const rows=Array.isArray(history?.history)?history.history:[];
   for(const row of rows){
     if(!row||mondayOf(row.as_of_jst)!==week)continue;
-    if(yes(row.new_event_ids))row.new_event_ids.forEach(x=>added.add(x));
+    if(row.run_type==='verified_current_horizon_subset'){
+      // A published snapshot may contain preserved carryovers. Accept only an
+      // explicit, complete and unique ID list for this new rollover variant.
+      const n=row.newly_verified_or_announced_records;
+      const ids=row.new_event_ids;
+      if(Number.isInteger(n)&&n>=0&&yes(ids)&&ids.length===n&&new Set(ids).size===n)
+        ids.forEach(x=>added.add(x));
+    }else if(yes(row.new_event_ids))row.new_event_ids.forEach(x=>added.add(x));
     // The new official programme shard belongs only to the verified 6-week
     // horizon rollover. A carryover is NOT a new programme.
     if(row.run_type==='verified_horizon_subset'&&

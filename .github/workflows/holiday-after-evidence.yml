@@ -10,7 +10,10 @@ on:
   pull_request:
     paths:
       - "tools/holiday_after_collect.py"
+      - "tools/tamemap_calendar.py"
+      - "tests/test_tamemap_discovery.py"
       - "tests/test_holiday_after_collect.py"
+      - "tests/test_nerima_holiday_fallback.py"
       - "tests/test_holiday_after_review_packet.py"
       - "tools/holiday_after_review_packet.py"
       - ".github/workflows/holiday-after-evidence.yml"
@@ -24,7 +27,10 @@ on:
     branches: [main]
     paths:
       - "tools/holiday_after_collect.py"
+      - "tools/tamemap_calendar.py"
+      - "tests/test_tamemap_discovery.py"
       - "tests/test_holiday_after_collect.py"
+      - "tests/test_nerima_holiday_fallback.py"
       - ".github/workflows/holiday-after-evidence.yml"
       - "policy/nakano_supplemental_sources.json"
       - "tools/nakano_supplemental_discovery.py"
@@ -66,7 +72,9 @@ jobs:
           node-version: "22"
       - name: Verify evidence extractor regression tests
         run: |
+          python3 -m unittest discover -s scanner/tests -p 'test_tamemap_discovery.py' -v
           python3 -m unittest discover -s scanner/tests -p 'test_holiday_after_*.py' -v
+          python3 -m unittest discover -s scanner/tests -p 'test_nerima_holiday_fallback.py' -v
           python3 -m unittest discover -s scanner/tests -p 'test_nakano_supplemental_discovery.py' -v
           PYTHONPATH=scanner python3 -m unittest discover -s scanner/tests -p 'test_official_schedule_audit.py' -v
       - name: Verify released prompt policy
@@ -154,3 +162,5 @@ jobs:
           print("Read-only evidence exported. Publication BLOCKED by:", summary["blockers"])
           print("There is no push, data candidate, or Pages release in this audit workflow.")
           PY
+
+# re-run 2026-11-19 full six-week read-only source audit (no data change)

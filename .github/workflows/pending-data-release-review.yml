@@ -1,0 +1,52 @@
+name: Verify pending event data independently of staging app changes
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - 'tools/validate_pending_data_release_20261115.py'
+      - '.github/workflows/pending-data-release-review.yml'
+  workflow_dispatch: {}
+permissions:
+  contents: read
+jobs:
+  review:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          path: scanner
+          fetch-depth: 0
+      - uses: actions/checkout@v4
+        with:
+          ref: e9886705d9c6ce2cc21fdd276553df2a34849fd4
+          path: candidate
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: UI regression and evidence boundary tests
+        working-directory: scanner
+        run: |
+          npm test
+          python3 -m unittest discover -s tests -p test_aipaku_addition_gate.py
+          python3 tools/audit_environment_diff.py --strict
+      - name: Exact candidate and all old event facts/history/source debt
+        working-directory: candidate
+        run: |
+          python3 ../scanner/tools/validate_pending_data_release_20261115.py --base-ref 847e388e65b99e38a0f108ecc96009778b3fdcd2
+          python3 ../scanner/tools/validate_data.py --strict --min-image-coverage 0.70 site/data
+          python3 ../scanner/tools/validate_decisions.py --strict site/data
+          python3 ../scanner/tools/validate_rereview.py --strict site/data
+          python3 ../scanner/tools/audit_event_image_identity.py --strict site/data
+          python3 ../scanner/tools/validate_protected_events.py --base-ref 847e388e65b99e38a0f108ecc96009778b3fdcd2 site/data
+          python3 ../scanner/tools/validate_non_regression.py --base-ref 847e388e65b99e38a0f108ecc96009778b3fdcd2 site/data
+          python3 ../scanner/tools/validate_family_fit_quality.py --base-ref 847e388e65b99e38a0f108ecc96009778b3fdcd2
+      - name: Production refs remain unmodified before user review
+        working-directory: scanner
+        run: |
+          test "$(git ls-remote origin refs/heads/production | cut -f1)" = "9aa067f0756bb900ff3f95e33f1dee7473e9c63f"
+          test "$(git ls-remote origin refs/heads/data-production | cut -f1)" = "847e388e65b99e38a0f108ecc96009778b3fdcd2"

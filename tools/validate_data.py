@@ -7,6 +7,13 @@ WARDS = [
     '千代田区','中央区','港区','新宿区','文京区','台東区','墨田区','江東区','品川区','目黒区','大田区',
     '世田谷区','渋谷区','中野区','杉並区','豊島区','北区','荒川区','板橋区','練馬区','足立区','葛飾区','江戸川区'
 ]
+# Tama municipalities (non-23-ward). Event `ward` may be a ward or one of these cities.
+# Keep in sync with TAMA_CITIES in site/app.js. Weekly coverage.wards stays 23 wards only.
+TAMA_CITIES = [
+    '武蔵野市','三鷹市','調布市','府中市','小金井市','小平市','国分寺市','国立市','立川市','昭島市',
+    '日野市','西東京市','東久留米市','清瀬市','東村山市','狛江市','多摩市','稲城市','町田市','八王子市','浦安市'
+]
+AREAS = WARDS + TAMA_CITIES
 HTTP_RE = re.compile(r'^https?://', re.I)
 FIELD_STATES = {'pass','corrected','unknown','not_applicable'}
 CORE_VERIFIED_FIELDS = ('name','date','venue')
@@ -343,6 +350,15 @@ def validate_week(path, entry=None, strict=False, min_image_coverage=0.0, holida
         errors.append(f'{path}: coverage has invalid wards: {extra_cov}')
     if len(ward_rows) != len(wards):
         errors.append(f'{path}: duplicate/invalid coverage ward rows')
+    # Optional Tama coverage: coverage.municipalities rows use the same shape as ward rows
+    # (ward = city name, published_count). 23-ward rules above are unchanged.
+    munis = coverage.get('municipalities') or []
+    muni_rows = {row.get('ward'): row for row in munis if isinstance(row, dict)}
+    bad_munis = [m for m in muni_rows if m not in TAMA_CITIES]
+    if bad_munis:
+        errors.append(f'{path}: coverage.municipalities has invalid cities: {bad_munis}')
+    if len(muni_rows) != len(munis):
+        errors.append(f'{path}: duplicate/invalid coverage municipality rows')
 
     if strict:
         unchecked = [w for w in WARDS if ward_rows.get(w, {}).get('status') != 'checked']
@@ -362,6 +378,7 @@ def validate_week(path, entry=None, strict=False, min_image_coverage=0.0, holida
         errors.append(f"{path}: coverage.candidate_count={coverage.get('candidate_count')} < events={len(events)}")
 
     row_published = sum((ward_rows.get(w, {}).get('published_count') or 0) for w in WARDS)
+    row_published += sum((muni_rows.get(c, {}).get('published_count') or 0) for c in TAMA_CITIES)
     if row_published != len(events):
         errors.append(f'{path}: sum of ward published_count={row_published} != events={len(events)}')
 
@@ -378,7 +395,7 @@ def validate_week(path, entry=None, strict=False, min_image_coverage=0.0, holida
                 errors.append(f'{prefix}: missing required field {key}')
 
         ward = ev.get('ward')
-        if ward and ward not in WARDS:
+        if ward and ward not in AREAS:
             errors.append(f'{prefix}: invalid ward {ward}')
         elif ward:
             actual_by_ward[ward] += 1
@@ -436,8 +453,8 @@ def validate_week(path, entry=None, strict=False, min_image_coverage=0.0, holida
         if not ev.get('image'):
             warnings.append(f'{prefix}: thumbnail image is missing')
 
-    for ward in WARDS:
-        expected = ward_rows.get(ward, {}).get('published_count') or 0
+    for ward in WARDS + TAMA_CITIES:
+        expected = (ward_rows.get(ward) or muni_rows.get(ward) or {}).get('published_count') or 0
         actual = actual_by_ward[ward]
         if expected != actual:
             errors.append(f'{path}: {ward} published_count={expected} != actual events={actual}')

@@ -1,0 +1,44 @@
+{
+  "checked_on": "2026-11-14",
+  "root_cause": "Nested <object><a category> inside the outer article anchor overwrote a single parser slot. Preserve anchor stack and explicit title attributes.",
+  "before_fix_article_links": 0,
+  "ordinary_https_listings": [
+    {
+      "url": "https://itabashi-times.com/category/event",
+      "retrieval": {
+        "url": "https://itabashi-times.com/category/event",
+        "checked_at": "2026-11-14T08:06:03+09:00",
+        "status": "checked",
+        "http_status": 200,
+        "final_url": "https://itabashi-times.com/category/event",
+        "content_type": "text/html; charset=UTF-8",
+        "bytes": 155884,
+        "sha256": "43b89a8e26fabc0fc70bc07f7222662e2ba639b1389a54d729d51f3884e5093f"
+      },
+      "article_links_seen": 40,
+      "next_pages": [
+        "https://itabashi-times.com/category/event/page/2"
+      ]
+    },
+    {
+      "url": "https://itabashi-times.com/category/event/page/2",
+      "retrieval": {
+        "url": "https://itabashi-times.com/category/event/page/2",
+        "checked_at": "2026-11-14T08:06:09+09:00",
+        "status": "checked",
+        "http_status": 200,
+        "final_url": "https://itabashi-times.com/category/event/page/2",
+        "content_type": "text/html; charset=UTF-8",
+        "bytes": 152839,
+        "sha256": "fd16bf475b9fa09bf48170582d3ab8d04544f19e16dd68989fc1cbebf7b8f3a4"
+      },
+      "article_links_seen": 40,
+      "next_pages": [
+        "https://itabashi-times.com/category/event/page/3"
+      ]
+    }
+  ],
+  "articles_retrieved": 80,
+  "coverage_complete": false,
+  "note": "HTML抽出ゼロの不具合は修正。2一覧以外の全ページ・全記事の網羅性は主張しない。RSSを完全なHTML取得の代替成功とは扱わない。"
+}

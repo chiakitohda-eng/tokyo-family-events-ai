@@ -1,0 +1,30 @@
+{
+  "base_data_production_sha": "847e388e65b99e38a0f108ecc96009778b3fdcd2",
+  "staging_data_candidate_sha": "6fb1abd131411ba64bbb175667c3d8a0fc922d69",
+  "reviewed_units": 36,
+  "original_candidates": {
+    "reviewed": 24,
+    "staging_addition": 2,
+    "published_alias": 1,
+    "ended_or_registration_closed": 4,
+    "needs_primary_evidence": 17
+  },
+  "direct_followups": {
+    "reviewed": 2,
+    "staging_addition": 1,
+    "needs_primary_evidence": 1
+  },
+  "existing_assessments": {
+    "reviewed": 10,
+    "reconfirmed": 6,
+    "needs_primary_evidence": 4,
+    "grade_changes": 0
+  },
+  "staging_new_programmes": 3,
+  "staging_new_weekly_records": 4,
+  "production_records": 598,
+  "staging_records": 602,
+  "production_changed": false,
+  "all_source_bodies_verified": false,
+  "historical_46_failed_original_bodies_rewritten": false
+}

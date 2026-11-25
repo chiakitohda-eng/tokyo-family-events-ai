@@ -1,0 +1,73 @@
+name: Build clean non-NG release snapshot without any production change
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/prepare-clean-non-ng-release.yml'
+      - 'tools/prepare_clean_scoped_non_ng_20261117.py'
+  workflow_dispatch: {}
+permissions:
+  contents: write
+jobs:
+  clean:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: data-production
+          path: clean
+          fetch-depth: 0
+      - uses: actions/checkout@v4
+        with:
+          ref: data-production
+          path: baseline
+      - uses: actions/checkout@v4
+        with:
+          ref: candidate/scoped-non-ng-rollover-20261117
+          path: prepared
+          fetch-depth: 0
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          path: scanner
+      - uses: actions/checkout@v4
+        with:
+          ref: production
+          path: released
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Reconcile exact approved non-NG subset against immutable live baseline
+        run: |
+          set -euo pipefail
+          test "$(git -C baseline rev-parse HEAD)" = fc6bec505975c6dabbddd404f33cd7d9f3f525e9
+          test "$(git -C clean rev-parse HEAD)" = fc6bec505975c6dabbddd404f33cd7d9f3f525e9
+          python3 scanner/tools/prepare_clean_scoped_non_ng_20261117.py
+      - name: Strict standalone data structure, all eight-axis fit, no duplicate/NG, no previous removal
+        shell: bash
+        run: |
+          set -euo pipefail
+          cd clean
+          python3 ../released/tools/validate_data.py --min-image-coverage 0.70 site/data
+          python3 ../released/tools/validate_decisions.py --strict site/data
+          python3 ../released/tools/validate_rereview.py --strict site/data
+          python3 ../released/tools/audit_event_image_identity.py --strict site/data
+          python3 ../scanner/tools/validate_family_fit_quality.py --base-ref fc6bec505975c6dabbddd404f33cd7d9f3f525e9 --data-dir site/data
+          python3 ../released/tools/validate_protected_events.py --base-ref fc6bec505975c6dabbddd404f33cd7d9f3f525e9 site/data
+      - name: Save clean unpublished release candidate with all 607 earlier event IDs intact
+        working-directory: clean
+        shell: bash
+        run: |
+          set -euo pipefail
+          branch='candidate/clean-8-nonng-release-20261117'
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add site/data
+          git diff --cached --quiet && { echo 'No modified data'; exit 1; }
+          git commit -m "candidate: isolated 8 non-NG December dates and 42 official images, 14 event source rechecks, 607 preserved"
+          if git ls-remote --exit-code --heads origin "$branch" >/dev/null 2>&1; then
+            echo 'Existing immutable candidate branch found; never overwrite'; exit 1
+          fi
+          git push origin "HEAD:refs/heads/$branch"
+          echo "CLEAN_NON_G_CANDIDATE_SHA $(git rev-parse HEAD)"

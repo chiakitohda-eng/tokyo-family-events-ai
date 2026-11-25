@@ -1,0 +1,11 @@
+https://www.city.musashino.lg.jp/event_m.js
+https://www.city.musashino.lg.jp/event_city.js
+https://www.city.higashikurume.lg.jp/event_d.js
+https://www.city.tama.lg.jp/event.js
+https://www.city.kiyose.lg.jp/event.js
+https://www.city.kiyose.lg.jp/event_d.js
+https://www.city.kiyose.lg.jp/event_m.js
+https://www.city.kokubunji.tokyo.jp/event.js
+https://www.city.kokubunji.tokyo.jp/event_d.js
+https://www.city.kokubunji.tokyo.jp/event_m.js
+https://www.city.kunitachi.tokyo.jp/soshiki/Dept06/Div06/Sec03/gyomu/0486/9934.html

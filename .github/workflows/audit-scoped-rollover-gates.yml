@@ -1,0 +1,50 @@
+name: Audit 2026-11-17 eight-item production gate without publishing
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/audit-scoped-rollover-gates.yml']
+  workflow_dispatch: {}
+permissions:
+  contents: read
+jobs:
+  gates:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: candidate/scoped-non-ng-rollover-20261117
+          path: candidate
+          fetch-depth: 0
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          path: scanner
+      - uses: actions/checkout@v4
+        with:
+          ref: production
+          path: released
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Require independently evidenced eight-axis family-fit evaluations
+        continue-on-error: true
+        working-directory: candidate
+        run: python3 ../scanner/tools/validate_family_fit_quality.py --base-ref fc6bec505975c6dabbddd404f33cd7d9f3f525e9 --data-dir site/data
+      - name: Require standard STRICT published-event data and page source coverage
+        continue-on-error: true
+        working-directory: candidate
+        shell: bash
+        run: |
+          set +e
+          python3 ../released/tools/validate_data.py --strict --min-image-coverage 0.70 site/data >/tmp/strict.txt 2>&1
+          rc=$?
+          set -e
+          grep -E '^ERROR:|^FAILED:|^OK:' /tmp/strict.txt | head -90 || true
+          exit "$rc"
+      - name: Test existing protected-event gate against date rollover
+        continue-on-error: true
+        working-directory: candidate
+        run: python3 ../released/tools/validate_protected_events.py --base-ref fc6bec505975c6dabbddd404f33cd7d9f3f525e9 site/data
+      - name: Read-only audit complete no production branch changed
+        run: echo 'Diagnostics only. No data release attempted.'

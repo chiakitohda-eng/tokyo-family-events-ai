@@ -1,0 +1,48 @@
+name: Verify remaining-evidence event data without promoting app changes
+on:
+  # Historical 604-record addition; current changes use all-remaining-evidence-review.
+  workflow_dispatch: {}
+permissions:
+  contents: read
+jobs:
+  review:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          path: scanner
+          fetch-depth: 0
+      - uses: actions/checkout@v4
+        with:
+          ref: 4d35bec6ac7c2b857d6580bd1ec852744519b79a
+          path: candidate
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: UI regression and evidence boundary tests
+        working-directory: scanner
+        run: |
+          npm test
+          python3 -m unittest discover -s tests -p test_public_monthly_calendar.py
+          python3 tools/audit_environment_diff.py --strict
+      - name: Exact candidate and all old event facts/history/source debt
+        working-directory: candidate
+        run: |
+          python3 ../scanner/tools/validate_remaining_evidence_addition_20261115.py --base-ref e9886705d9c6ce2cc21fdd276553df2a34849fd4
+          python3 ../scanner/tools/validate_data.py --strict --min-image-coverage 0.70 site/data
+          python3 ../scanner/tools/validate_decisions.py --strict site/data
+          python3 ../scanner/tools/validate_rereview.py --strict site/data
+          python3 ../scanner/tools/audit_event_image_identity.py --strict site/data
+          python3 ../scanner/tools/validate_protected_events.py --base-ref e9886705d9c6ce2cc21fdd276553df2a34849fd4 site/data
+          python3 ../scanner/tools/validate_non_regression.py --base-ref e9886705d9c6ce2cc21fdd276553df2a34849fd4 site/data
+          python3 ../scanner/tools/validate_family_fit_quality.py --base-ref e9886705d9c6ce2cc21fdd276553df2a34849fd4
+      - name: Production application remains unchanged before data publication
+        working-directory: scanner
+        run: |
+          test "$(git ls-remote origin refs/heads/production | cut -f1)" = "d2ee3226f64f42c56a5ed0ca61e3696769c4db21"
+          test "$(git ls-remote origin refs/heads/data-production | cut -f1)" = "e9886705d9c6ce2cc21fdd276553df2a34849fd4"

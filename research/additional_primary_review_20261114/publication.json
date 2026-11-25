@@ -1,0 +1,200 @@
+{
+  "data_candidate_sha": "033c9e12728f1fca18899b3b47d9a8ca62e3ab48",
+  "base_data_production_sha": "89c9211fa561fcaabf9d03063d5b745978a52cf8",
+  "data_release": "data-release/2026-11-14-r650",
+  "data_pages_run": 43549900408,
+  "data_pages_conclusion": "success",
+  "app_production_sha": "e311ee769291a84ff7d6b070ac306f6da3b03977",
+  "app_release": "release/2026-11-14-r2",
+  "app_version": "1.33",
+  "app_pages_run": 43550173494,
+  "app_pages_conclusion": "success",
+  "preflight_run": 43549636655,
+  "preflight_conclusion": "success",
+  "production_changed_paths": [
+    "site/audit/pending_issues_catalog.json"
+  ],
+  "public_data": {
+    "verified_at": "2026-11-14T03:08:36.107973+00:00",
+    "public_total": 408,
+    "old_records_retained_exactly": 369,
+    "new_records": 39,
+    "week_counts": {
+      "2026-11-07": 52,
+      "2026-11-14": 94,
+      "2026-11-21": 100,
+      "2026-11-28": 69,
+      "2026-12-05": 52,
+      "2026-12-12": 41
+    },
+    "files_compared": 76,
+    "all_candidate_files_match_public": true,
+    "history_retained": true
+  },
+  "browser": [
+    {
+      "query": "めぐろ国際交流フェスティバル",
+      "date": "2026-11-14",
+      "card_count": 1,
+      "text": "めぐろ国際交流フェスティバル今週追加\n🗓 11/15\n−\nCanvaに追加\n目黒区\n✓ 公式確認済み\n無料\n申込不要\n📍 中目黒GT（上目黒2-1-3）\n🕒 11:00〜16:00\n💰 入場無料（飲食・物品購入は別途）\n多国籍料理、民族衣装、国際親子チームのよさこい、クイズラリー、絵本など。雨天決行。 対象：地域で暮らす人々に向けた交流イベント。細かな対象年齢は未記載。 直接会場へ。個別ブースの参加条件は現地で確認。\nAI判定: 異文化の展示・ステージとクイズを親子で楽しめる。\n子連れ適性8軸を見る\n公式確認: 2026-11-14 ／ 検証ソース\n名前・2026年の実施日・会場を本文/構造化日程で照合。日付クエリ・更新日・写真を開催事実の根拠にしない。未記載事項は未確認のまま。\n情報元: https://www.city.meguro.tokyo.jp/bunka/event/internationalfesr8.html"
+    },
+    {
+      "query": "めぐろ子ども音楽祭",
+      "date": "2026-11-21",
+      "card_count": 1,
+      "text": "令和8年度めぐろ子ども音楽祭今週追加\n🗓 11/21\n−\nCanvaに追加\n目黒区\n✓ 公式確認済み\n無料\n申込不要\n📍 めぐろパーシモンホール大ホール（八雲1-1-1）\n🕒 13:00〜16:00予定（12:30開場）\n💰 無料\n小学校7校の合唱・合奏と目黒吹奏楽団の公演。13時からと14時30分からの2部構成。客席からの撮影は不可。 対象：子どもの音楽活動の発表会。観覧年齢の制限は未記載。 入場整理券なし。直接会場へ。車いす席は先着順・事前問合せ。\nAI判定: 子どもたちの歌声と吹奏楽を家族で鑑賞できる。\n子連れ適性8軸を見る\n公式確認: 2026-11-14 ／ 検証ソース\n名前・2026年の実施日・会場を本文/構造化日程で照合。日付クエリ・更新日・写真を開催事実の根拠にしない。未記載事項は未確認のまま。\n情報元: https://www.city.meguro.tokyo.jp/bunka/event/ongakusai-.html"
+    },
+    {
+      "query": "本の探し方講座",
+      "date": "2026-11-28",
+      "card_count": 1,
+      "text": "本の探し方講座今週追加\n🗓 11/28\n−\nCanvaに追加\n中野区\n✓ 公式確認済み\n料金要確認\n要事前申込\n📍 江古田図書館2階会議室\n🕒 15:00〜16:00\n本の並べ方の仕組みを学び、実際に書架から本を探すゲームに挑戦。 対象：中学生以上。 11/7から江古田図書館カウンター・電話で先着10名。料金未記載。空きは申込時に確認。\nAI判定: 中学生以上の子どもが図書館で本を見つける力を身につけられる。\n子連れ適性8軸を見る\n公式確認: 2026-11-14 ／ 検証ソース\n名前・2026年の実施日・会場を本文/構造化日程で照合。日付クエリ・更新日・写真を開催事実の根拠にしない。未記載事項は未確認のまま。\n情報元: https://library.city.tokyo-nakano.lg.jp/event/?id=704"
+    },
+    {
+      "query": "狂言と玉すだれ",
+      "date": "2026-12-12",
+      "card_count": 1,
+      "text": "親子で体験！狂言と玉すだれ今週追加\n🗓 12/13\n−\nCanvaに追加\n目黒区\n✓ 公式確認済み\n無料\n要事前申込\n📍 めぐろパーシモンホール小ホール（八雲1-1-1）\n🕒 10:00〜12:00／13:30〜15:30（選択制）\n💰 無料\n狂言と玉すだれの鑑賞・体験。白足袋または白い靴下を持参。午前・午後どちらかを選択。 対象：目黒区内在住・在学の小学1〜6年生とその保護者。 11/16締切のオンライン申込。各回25組50名、応募多数時抽選、11/17結果通知。\nAI判定: 小学生と保護者が日本の伝統芸能を実際に体験できる。\n子連れ適性8軸を見る\n公式確認: 2026-11-14 ／ 検証ソース\n名前・2026年の実施日・会場を本文/構造化日程で照合。日付クエリ・更新日・写真を開催事実の根拠にしない。未記載事項は未確認のまま。\n情報元: https://www.city.meguro.tokyo.jp/bunka/event/kyogenr8.html"
+    },
+    {
+      "query": "明るい台所",
+      "date": "2026-11-21",
+      "card_count": 2,
+      "text": "北\n秋期企画展「明るい台所‐台所の移り変わりと北区‐」今週追加\n🗓 11/21〜11/23\n−\nCanvaに追加\n北区\n✓ 公式確認済み\n無料\n申込不要\n📍 北区飛鳥山博物館 特別展示室・ホワイエ（王子1-1-3）\n🕒 10:00〜17:00\n💰 無料\n古民家のかまどから赤羽台団地のダイニングキッチンへ、台所と家族の食卓の変化を紹介。 対象：どなたでも。 直接会場へ。月曜休館、11/23は開館・11/24休館（同館企画展案内で確認）。\nAI判定: 昔と今の台所や道具を比べ、家族の生活史について話せる。\n子連れ適性8軸を見る\n公式確認: 2026-11-14 ／ 検証ソース\n名前・2026年の実施日・会場を本文/構造化日程で照合。日付クエリ・更新日・写真を開催事実の根拠にしない。未記載事項は未確認のまま。\n情報元: https://www.city.kita.lg.jp/museum/exhibitions/1018327/1026687.html"
+    },
+    {
+      "query": "目黒と馬",
+      "date": "2026-11-21",
+      "card_count": 1,
+      "text": "秋季企画展「目黒と馬」今週追加\n🗓 11/21〜11/22\n−\nCanvaに追加\n目黒区\n✓ 公式確認済み\n無料\n申込不要\n📍 東山社会教育館202教室・ホール・廊下（東山3-24-2）\n🕒 9:30〜17:00\n💰 無料\n馬に由来する地名、馬頭観音、目黒競馬場などの歴史。12/4まではパネルのみ、12/5以降はパネルと資料を展示。月曜休館（11/23も掲載対象外）。 対象：一般向け展示。細かな対象年齢は未記載。 展示観覧。関連する解説会・屋外講座は別の参加企画。\nAI判定: 馬と地域の地名や歴史のつながりを親子で発見できる。\n子連れ適性8軸を見る\n公式確認: 2026-11-14 ／ 検証ソース\n名前・2026年の実施日・会場を本文/構造化日程で照合。日付クエリ・更新日・写真を開催事実の根拠にしない。未記載事項は未確認のまま。\n情報元: https://www.city.meguro.tokyo.jp/shougaigakushuu/event/kikakuten.html"
+    },
+    {
+      "pending_issues_total_408": true,
+      "mobile_no_overflow": true
+    }
+  ],
+  "thumbnail_checks": [
+    {
+      "url": "https://37sakana.jp/sjfesodaiba/images/img_sjfesodaiba_vis_01.webp?02",
+      "http_status": 200,
+      "content_type": "image/webp",
+      "bytes": 199104,
+      "sha256": "d1fa032f63fffc474df0d8ff759b6fa7978eb5e40e4d6a7fc6e9e5c7dd6e72f6"
+    },
+    {
+      "url": "https://library.city.tokyo-nakano.lg.jp/lib/images/news/libimg1792911937.png",
+      "http_status": 200,
+      "content_type": "image/png",
+      "bytes": 508789,
+      "sha256": "c4eede8c2a4b1ac3084c5b81027458409cfe35a2af50efc56cd74d2c79cc540e"
+    },
+    {
+      "url": "https://www.city.arakawa.tokyo.jp/images/46572/poster2026921134327.jpg",
+      "http_status": 200,
+      "content_type": "image/jpeg",
+      "bytes": 204712,
+      "sha256": "e831710201061759d0e446cd6a9acc18421f40bcac0913f687a1b64c71e226af"
+    },
+    {
+      "url": "https://www.city.kita.lg.jp/_res/projects/default_project/_page_/001/026/669/anatahadare2.jpg",
+      "http_status": 200,
+      "content_type": "image/jpeg",
+      "bytes": 104601,
+      "sha256": "b502b0e30375cbcb0e31beacbf80ab676cf1313469eb3cfff09b477dbf4198d0"
+    },
+    {
+      "url": "https://www.city.meguro.tokyo.jp/images/13041/chirashisyuusei_page-0001.jpg",
+      "http_status": 200,
+      "content_type": "image/jpeg",
+      "bytes": 201309,
+      "sha256": "c331f9c50d044aa4f8ed8d2b4bf3e078c54e7e0295b26bb2e4658823cd4e5815"
+    },
+    {
+      "url": "https://www.city.meguro.tokyo.jp/images/16934/s.jpg",
+      "http_status": 200,
+      "content_type": "image/jpeg",
+      "bytes": 204843,
+      "sha256": "dd356b4f9f402e856010728c41ac27e957bee62d859f33b9e413225259aa51d7"
+    },
+    {
+      "url": "https://www.city.meguro.tokyo.jp/images/20615/3.jpg",
+      "http_status": 200,
+      "content_type": "image/jpeg",
+      "bytes": 91779,
+      "sha256": "9c82cd07b5896f536a3e039573d8c9f100edfc03d20636eaa9807fd789c2b27c"
+    },
+    {
+      "url": "https://www.city.meguro.tokyo.jp/images/20939/mifa_2026_web_1920_1080_.jpg",
+      "http_status": 200,
+      "content_type": "image/jpeg",
+      "bytes": 57517,
+      "sha256": "c7f0aedeb75432cf0236b0044d2d1c7632159cd7098da8708c3572168ff9231d"
+    },
+    {
+      "url": "https://www.city.sumida.lg.jp/anzen_anshin/bousai/bousaikunren/fest.images/posuter.jpg",
+      "http_status": 200,
+      "content_type": "image/jpeg",
+      "bytes": 1154662,
+      "sha256": "c45e786b12e96c612011e106589c6b91c9a7f7b8b082851301ce1eae9e0ad31b"
+    },
+    {
+      "url": "https://www.city.taito.lg.jp/bunka_kanko/tiikidentou/jibasangyo/fashionzakkafest.images/ZAKKAKV.png",
+      "http_status": 200,
+      "content_type": "image/png",
+      "bytes": 351386,
+      "sha256": "6ce33be0e4a8b6fba916d81a4b71063083f71a17ff4d620f8ca4ed485526c8a3"
+    },
+    {
+      "url": "https://www.city.toshima.lg.jp/images/57562/20261014180700.jpg",
+      "http_status": 200,
+      "content_type": "image/jpeg",
+      "bytes": 122316,
+      "sha256": "84d716ce26ab2569d1a82fe89cbaec1223c6056c4ef1ada2cbfdce825f93d7b7"
+    },
+    {
+      "url": "https://www.kahaku.go.jp/event/albums/3997/abm00023659.webp",
+      "http_status": 200,
+      "content_type": "image/webp",
+      "bytes": 7846356,
+      "sha256": "9e93f0ba9ce4adf7bd37c9bd6f181caea3fb72ae6670a65d330f98207a1ce329"
+    },
+    {
+      "url": "https://www.nerimakanko.jp/img_data/e000002971.jpg?1791355971",
+      "http_status": 200,
+      "content_type": "image/jpeg",
+      "bytes": 378139,
+      "sha256": "7fbad75d6ffce063ebfb9e4e33f5c43f0e2bd044974ac8741361e9bd6f3c79f7"
+    }
+  ],
+  "unresolved": {
+    "whole_candidate_review_complete": false,
+    "github_tamemap_403_resolved": false,
+    "historical_suginami_preflight": {
+      "run": 43549636665,
+      "conclusion": "failure",
+      "reason": "Frozen October candidate preflight still fails HTTP404; not the current immutable data candidate, not changed or suppressed."
+    },
+    "existing_unclassified_app_paths": 115,
+    "existing_wrong_kind_paths": 1
+  },
+  "registry_pages_run": 43550448301,
+  "registry_pages_conclusion": "success",
+  "final_release_proof": {
+    "verified_at": "2026-11-14T03:43:13.595513+00:00",
+    "public_version": "1.33",
+    "public_release": "release/2026-11-14-r2",
+    "registry_pages_conclusion": "success",
+    "production_app_js_sha256": "0812d8687e352cba410b6d0ad1d0b7e650adf593f11db93f4379d794da613990",
+    "public_app_matches_production": true,
+    "public_catalog_matches_production": true,
+    "public_registry_matches_release_snapshot": true,
+    "public_total": 408
+  },
+  "final_environment_diff": {
+    "actual_count": 223,
+    "approved_count": 107,
+    "unclassified_count": 115,
+    "wrong_kind_count": 1,
+    "release_baseline_moved": false
+  }
+}

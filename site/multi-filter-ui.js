@@ -1,4 +1,5 @@
-import {WARDS,saturdayOf,holidayPeriodSlots,holidayTabMeta,filterEvents,countsByWard,escapeHtml,serializeEventFilters} from './app.js';
+import {groupFestivalDisplayEvents} from './festival-display-grouping.js?v=20261027-fest-parent';
+import {WARDS,AREAS,AREA_GROUPS,areaGroupOf,areaDisplayName,saturdayOf,holidayPeriodSlots,holidayTabMeta,filterEvents,countsByWard,escapeHtml,serializeEventFilters} from './app.js';
 
 // Shared multi-select UI for event search and copy list.
 // Empty selections mean "all". Within a group use OR; across groups use AND.
@@ -50,8 +51,8 @@ function initialState(params,periods){
     const p=periods.find(x=>legacyDate>=x.start&&legacyDate<=x.end);
     if(p)dates.add(p.start);
   }
-  const wards=validValues(params.getAll('w'),WARDS);
-  if(!wards.size && WARDS.includes(params.get('ward')))wards.add(params.get('ward'));
+  const wards=validValues(params.getAll('w'),AREAS);
+  if(!wards.size && AREAS.includes(params.get('ward')))wards.add(params.get('ward'));
   const state={dates,wards};
   for(const group of GROUPS){
     const allowed=group.items.map(x=>x[0]);
@@ -75,12 +76,15 @@ export function createMultiFilterUI({manifest,registry,onChange,getData}){
   const periods=holidayPeriodSlots(manifest,manifest.default);
   const params=new URLSearchParams(location.search);
   const state=initialState(params,periods);
+  // Area group: 23区 is the default; the group is kept out of `state` (a map of Sets).
+  let areaGroup=params.get('g')==='tama'||[...state.wards].some(w=>areaGroupOf(w)==='tama')?'tama':'ward';
+  for(const w of [...state.wards])if(areaGroupOf(w)!==areaGroup)state.wards.delete(w);
   const initialCustom=(params.has('from')||params.has('to'))
     ?validatedDateRange(params.get('from')||'',params.get('to')||'',periods):null;
   let customRange=initialCustom&&!initialCustom.error?initialCustom:null;
   if(customRange)state.dates.clear();
   const filters=()=>({
-    dates:[...state.dates],range:customRange,wards:[...state.wards],
+    dates:[...state.dates],range:customRange,wards:[...state.wards],areaGroup,
     ratings:[...state.ratings],prices:[...state.prices],
     environments:[...state.environments],reservations:[...state.reservations],
     sourceModes:[...state.sourceModes],
@@ -99,12 +103,17 @@ export function createMultiFilterUI({manifest,registry,onChange,getData}){
   }
   function renderWardChips(data){
     if(!data)return;
+    const group=AREA_GROUPS[areaGroup];
     const base=filterEvents(data.events,{...filters(),wards:[],registry,decisionAudit:data.decision_audit});
-    const counts=countsByWard(base),all=!state.wards.size;
-    $('chips').innerHTML=`<button type="button" class="chip ${all?'active':''}" data-ward="__all__" aria-pressed="${all}">すべて <span>${base.length}</span></button>`+
-      WARDS.map(ward=>{
+    // Count in display units (festival programmes folded into one card) so the chips match the result count.
+    const shown=groupFestivalDisplayEvents(base);
+    const counts=countsByWard(shown),all=!state.wards.size;
+    const tabs=`<span class="area-group-tabs" role="group" aria-label="地域">`+Object.entries(AREA_GROUPS).map(([key,g])=>
+      `<button type="button" class="chip area-group-chip ${key===areaGroup?'active':''}" data-area-group="${key}" aria-pressed="${key===areaGroup}">${escapeHtml(g.label)}</button>`).join('')+`</span>`;
+    $('chips').innerHTML=tabs+`<button type="button" class="chip ${all?'active':''}" data-ward="__all__" aria-pressed="${all}">すべて <span>${shown.length}</span></button>`+
+      group.areas.map(ward=>{
         const checked=state.wards.has(ward);
-        return `<label class="chip ${checked?'active':''} ${counts[ward]===0?'zero':''}"><input type="checkbox" data-ward="${escapeHtml(ward)}" ${checked?'checked':''}><span>${escapeHtml(ward)} ${counts[ward]}</span></label>`;
+        return `<label class="chip ${checked?'active':''} ${counts[ward]===0?'zero':''}"><input type="checkbox" data-ward="${escapeHtml(ward)}" ${checked?'checked':''}><span>${escapeHtml(areaDisplayName(ward))} ${counts[ward]}</span></label>`;
       }).join('');
   }
   function renderGroups(){
@@ -118,7 +127,8 @@ export function createMultiFilterUI({manifest,registry,onChange,getData}){
     const parts=[];
     if(customRange)parts.push(customRange.start+'〜'+customRange.end);
     else if(state.dates.size)parts.push('期間指定');
-    if(state.wards.size)parts.push('区'+state.wards.size);
+    if(areaGroup==='tama')parts.push('市部');
+    if(state.wards.size)parts.push(AREA_GROUPS[areaGroup].unit+state.wards.size);
     for(const group of GROUPS){if(state[group.key].size)parts.push(group.title+state[group.key].size);}
     $('filterSummary').textContent=parts.length?`（${parts.join('・')}）`:'（条件なし）';
     // Reset is available even if only the keyword search is active.
@@ -166,6 +176,7 @@ export function createMultiFilterUI({manifest,registry,onChange,getData}){
   }
   function reset(){
     for(const value of Object.values(state))value.clear();
+    areaGroup='ward';
     customRange=null;
     $('dateInput').value='';
     $('dateEndInput').value='';
@@ -184,6 +195,12 @@ export function createMultiFilterUI({manifest,registry,onChange,getData}){
   $('weekTabs').addEventListener('click',handleWeek);
   $('chips').addEventListener('change',handleWard);
   $('chips').addEventListener('click',e=>{
+    const tab=e.target.closest('button[data-area-group]');
+    if(tab){
+      const next=tab.dataset.areaGroup;
+      if(AREA_GROUPS[next]&&next!==areaGroup){areaGroup=next;state.wards.clear();notify();}
+      return;
+    }
     if(!e.target.closest('button[data-ward="__all__"]'))return;
     state.wards.clear();notify();
   });

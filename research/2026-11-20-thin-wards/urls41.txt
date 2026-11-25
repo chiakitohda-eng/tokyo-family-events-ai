@@ -1,0 +1,4 @@
+https://www.city.musashino.lg.jp/_template_/_site_/_default_/_res/js/event_calendar.js
+https://www.city.kunitachi.tokyo.jp/calendar.json
+https://www.city.kunitachi.tokyo.jp/cgi-bin/get_event_calendar.php?categoryNo=1
+https://www.city.kunitachi.tokyo.jp/material/calendar.js

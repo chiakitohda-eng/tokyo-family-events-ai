@@ -1,0 +1,82 @@
+{
+  "environment_kind": "managed_cloud_manual_recovery",
+  "generated_at_jst": "2026-11-13T06:42:19+09:00",
+  "source_id": "tamemap_nakano",
+  "horizon": [
+    "2026-11-07",
+    "2026-12-13"
+  ],
+  "publication_permitted": false,
+  "event_details_verified": false,
+  "required_github_actions_check_satisfied": false,
+  "note": "Independent manual recovery evidence; retain GitHub Actions failures separately.",
+  "summary": {
+    "pages_requested": 3,
+    "pages_checked": 3,
+    "pages_failed": 0,
+    "unverified_candidates": 430
+  },
+  "checks": [
+    {
+      "kind": "explicit",
+      "source_id": "tamemap_nakano",
+      "required": true,
+      "url": "https://pc.tamemap.net/1311401/calendar/2026-11?lat=35.7089745&lng=139.6630981&level=5000&locale=ja",
+      "target_start": "2026-11-07",
+      "target_end": "2026-12-13",
+      "checked_at": "2026-11-13T06:42:19+09:00",
+      "status": "checked",
+      "http_status": 200,
+      "final_url": "https://pc.tamemap.net/1311401/calendar/2026-11?lat=35.7089745&lng=139.6630981&level=5000&locale=ja",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 412472,
+      "sha256": "d311afb329e5e1d60c2498402e62c17357ba0e55f0f7d9e2133fbae96341e5a8",
+      "page_title": "ためまっぷなかの・月別カレンダー",
+      "candidate_status": "unverified_calendar_links",
+      "decision_reconciliation": "pending",
+      "candidate_link_count": 323,
+      "environment_kind": "managed_cloud_manual_recovery"
+    },
+    {
+      "kind": "explicit",
+      "source_id": "tamemap_nakano",
+      "required": true,
+      "url": "https://pc.tamemap.net/1311401/calendar/2026-12?lat=35.7089745&lng=139.6630981&level=5000&locale=ja",
+      "target_start": "2026-11-07",
+      "target_end": "2026-12-13",
+      "checked_at": "2026-11-13T06:42:18+09:00",
+      "status": "checked",
+      "http_status": 200,
+      "final_url": "https://pc.tamemap.net/1311401/calendar/2026-12?lat=35.7089745&lng=139.6630981&level=5000&locale=ja",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 252245,
+      "sha256": "188a35ba655c6d833cc9afcf3d135ededceb8b56a3631319ddf8786b84e0fe73",
+      "page_title": "ためまっぷなかの・月別カレンダー",
+      "candidate_status": "unverified_calendar_links",
+      "decision_reconciliation": "pending",
+      "candidate_link_count": 97,
+      "environment_kind": "managed_cloud_manual_recovery"
+    },
+    {
+      "kind": "explicit",
+      "source_id": "tamemap_nakano",
+      "required": true,
+      "url": "https://pc.tamemap.net/1311401/new_arrival?lat=35.7089745&lng=139.6630981&level=5000&locale=ja",
+      "target_start": "2026-11-07",
+      "target_end": "2026-12-13",
+      "checked_at": "2026-11-13T06:42:19+09:00",
+      "status": "checked",
+      "http_status": 200,
+      "final_url": "https://pc.tamemap.net/1311401/new_arrival?lat=35.7089745&lng=139.6630981&level=5000&locale=ja",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 104052,
+      "sha256": "225feef91bd891472595bf4c0eac3074c59c36b26c3968156e94a3262e636ae0",
+      "page_title": "ためまっぷなかの・新着一覧（投稿候補のみ）",
+      "individually_verified_event_count": null,
+      "candidate_status": "unverified_title_leads",
+      "new_arrival_is_partial_not_calendar_replacement": true,
+      "candidate_link_count": 10,
+      "environment_kind": "managed_cloud_manual_recovery"
+    }
+  ]
+}

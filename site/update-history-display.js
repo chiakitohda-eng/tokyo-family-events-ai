@@ -40,6 +40,12 @@ const isFiniteCount = n=>typeof n==='number'&&Number.isFinite(n)&&n>=0;
 function addedEventCount(row) {
   // A rolling update has carryovers; count ONLY genuinely new independent
   // participation units, never preserved carryover rows or entire week totals.
+  // Current-horizon rollover carries old records into the newly visible week.
+  // These are not newly found events; only independently verified additions count.
+  if(row.run_type==='verified_current_horizon_subset'){
+    return isFiniteCount(row.newly_verified_or_announced_records)
+      ? row.newly_verified_or_announced_records : 0;
+  }
   if(isFiniteCount(row.new_official_independent_records))return row.new_official_independent_records;
   if(isFiniteCount(row.added_weekly_records))return row.added_weekly_records;
   if(row.run_type==='holiday_after_update'&&isFiniteCount(row.added_unique))return row.added_unique;
@@ -66,7 +72,7 @@ export function summarizeUpdateHistory(history) {
       item.pendingSources=Math.max(item.pendingSources,row.unverified_required_source_failures);
     if(isFiniteCount(row.failed_required_source_urls))
       item.pendingSources=Math.max(item.pendingSources,row.failed_required_source_urls);
-    item.rollover ||=row.run_type==='verified_horizon_subset'||row.run_type==='holiday_after_update';
+    item.rollover ||=row.run_type==='verified_horizon_subset'||row.run_type==='verified_current_horizon_subset'||row.run_type==='holiday_after_update';
     item.correction ||=row.run_type==='published_data_correction';
     if(latestTime(row)>=item.latestTime){
       item.latestTime=latestTime(row);

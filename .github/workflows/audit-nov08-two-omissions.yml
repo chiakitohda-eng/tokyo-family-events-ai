@@ -1,0 +1,58 @@
+name: Verify 2026-11-08 two official event omission candidate (read only)
+
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/audit-nov08-two-omissions.yml']
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 18
+    steps:
+      - name: Checkout fixed candidate and all history
+        uses: actions/checkout@v4
+        with:
+          ref: 65e5a5288f31a0aecdbe7e097d636f99e83c7772
+          fetch-depth: 0
+      - name: Checkout immutable audit policy
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          path: staging-policy-src
+      - name: Checkout released validators
+        uses: actions/checkout@v4
+        with:
+          ref: production
+          path: released-src
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Require baseline production SHA and exact candidate
+        run: |
+          set -euo pipefail
+          test "$(git rev-parse HEAD)" = "65e5a5288f31a0aecdbe7e097d636f99e83c7772"
+          test "$(git ls-remote origin refs/heads/data-production | cut -f1)" = "890cef441ec2dfcc6393989634eb080225d6d9c9"
+      - name: Strictly verify only two independently sourced records and unchanged audit debt
+        run: |
+          python3 staging-policy-src/tools/validate_two_official_omissions_20261108.py \
+            --base-ref 890cef441ec2dfcc6393989634eb080225d6d9c9 \
+            --data-dir site/data
+      - name: Released data and decision contract, including image coverage
+        run: |
+          python3 released-src/tools/validate_data.py --strict --min-image-coverage 0.70 site/data
+          python3 released-src/tools/validate_decisions.py --strict site/data
+          python3 released-src/tools/validate_rereview.py --strict site/data
+      - name: Source-independent non-regression and previously protected ID integrity
+        run: |
+          python3 staging-policy-src/tools/validate_non_regression.py --base-ref 890cef441ec2dfcc6393989634eb080225d6d9c9 site/data
+          python3 staging-policy-src/tools/validate_protected_events.py --base-ref 890cef441ec2dfcc6393989634eb080225d6d9c9 site/data
+      - name: Run released application regression suite
+        run: cd released-src && npm test

@@ -1,0 +1,46 @@
+name: Verify reviewed environment differences and historical audit scope
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - '.github/staging-production-diff-baseline.json'
+      - '.github/workflows/suginami-phase1-preflight.yml'
+      - '.github/workflows/non-tamemap-ops-review.yml'
+      - 'tools/audit_environment_diff.py'
+      - 'tests/test_environment_diff_policy.py'
+      - 'research/non_tamemap_ops_review_20261114/**'
+  workflow_dispatch: {}
+permissions:
+  contents: read
+jobs:
+  review:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.sha || github.sha }}
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Audit exact tracked blobs against the reviewed production baseline
+        run: python3 tools/audit_environment_diff.py --base origin/production --strict
+      - name: Test classification and existing safety contracts
+        run: |
+          python3 -m unittest discover -s tests -p test_environment_diff_policy.py
+          npm test
+      - name: Historical October source failure remains a manual recheck, current gates stay required
+        run: |
+          python3 - <<'PYCODE'
+          from pathlib import Path
+          historical=Path('.github/workflows/suginami-phase1-preflight.yml').read_text()
+          assert 'workflow_dispatch:' in historical and 'pull_request:' not in historical and '  push:' not in historical
+          assert 'validate_suginami_phase1_addition.py --base-ref 6591c7c7a4429b11cf1f5572e0d52b7153180f30' in historical
+          current=Path('.github/workflows/deploy.yml').read_text()
+          for gate in ['validate_family_fit_quality.py','validate_protected_events.py','validate_non_regression.py','validate_older_family_fit_correction.py','validate_non_tamemap_addition.py']:
+              assert gate in current
+          print('PASS: historical trigger scope and current publication gates')
+          PYCODE

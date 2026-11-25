@@ -20,9 +20,12 @@ from urllib.parse import quote, urljoin, urlsplit
 from urllib.request import Request, urlopen
 import xml.etree.ElementTree as ET
 
+from http_source_diagnostics import diagnostic_for_http_error, diagnostic_for_html_challenge
 from nerima_annual_resolver import resolve_annual_schedule_urls
 from official_schedule_discovery import extract_candidates
 from nerima_forest_schedule import parse_schedule as parse_nerima_forest_schedule
+from sankaku_event_listing import parse_listing as parse_sankaku_listing
+from tamemap_calendar import calendar_leads as tamemap_calendar_leads
 
 JST = dt.timezone(dt.timedelta(hours=9))
 WARDS = [
@@ -135,10 +138,19 @@ class TamemapNewArrivalHTML(HTMLParser):
         self.heading_parts = []
         self.skip = 0
         self.awaiting_poster = False
+        self.detail_path = None
 
     def handle_starttag(self, tag, attrs):
         if tag in ("script", "style"):
             self.skip += 1
+        if tag == "a" and not self.skip:
+            attrs = dict(attrs)
+            # Read only the site's literal navigation target; never execute JS.
+            clicked = re.fullmatch(r"\s*addCommunityUrlClicked\(['\"](/1311401/event/\d+)['\"]\)\s*;?\s*",
+                                   attrs.get("onclick", ""))
+            href = attrs.get("href", "")
+            self.detail_path = (clicked[1] if clicked else
+                                href if re.fullmatch(r"/1311401/event/\d+", href) else None)
         if tag == "h3" and not self.skip:
             self.heading_parts = []
             self.in_heading = True
@@ -160,10 +172,12 @@ class TamemapNewArrivalHTML(HTMLParser):
     def handle_endtag(self, tag):
         if tag in ("script", "style"):
             self.skip = max(0, self.skip - 1)
+        if tag == "a":
+            self.detail_path = None
         if tag == "h3" and self.in_heading:
             name = " ".join(self.heading_parts).strip()
             if name and name not in ("イベントの新着一覧", "イベント情報", "地域イベント情報"):
-                self.entries.append({"name": name[:240]})
+                self.entries.append({"name": name[:240], "detail_path": self.detail_path})
                 self.awaiting_poster = True
             self.in_heading = False
             self.heading_parts = []
@@ -189,9 +203,11 @@ def tamemap_new_arrival_leads(body, url):
         identity = name + "|" + poster
         counts[identity] = counts.get(identity, 0) + 1
         suffix = "|" + str(counts[identity]) if counts[identity] > 1 else ""
+        detail = "https://pc.tamemap.net" + item["detail_path"] if item.get("detail_path") else None
         candidates.append({
-            "candidate_id": "tamemap-newarrival-" + digest(identity + suffix),
-            "name": name, "poster": poster, "discovery_url": url,
+            "candidate_id": "tamemap-newarrival-" + (item["detail_path"].rsplit("/", 1)[1] if detail else digest(identity + suffix)),
+            "name": name, "poster": poster, "discovery_url": detail or url,
+            "source_page": url, "detail_link_observed": bool(detail),
             "source_id": "tamemap_nakano", "candidate_type": "new_arrival_title_lead",
             "date_unverified": True, "matched_dates": [],
             "primary_source_verified": False, "publication_approved": False,
@@ -250,25 +266,32 @@ def fetch_url(url, fetcher=None, attempts=2):
                 raise ValueError("empty, truncated or non-200 response")
             if urlsplit(final_url).scheme != "https":
                 raise ValueError("redirected to non-HTTPS")
+            challenge = diagnostic_for_html_challenge(raw, final_url, status, content_type)
+            if challenge is not None:
+                return {"url": url, "checked_at": now(), "status": "error",
+                        "error": "security challenge response is not source content",
+                        **challenge}
             charset = "cp932" if "shift_jis" in content_type.lower() else "utf-8"
             try:
                 body = raw.decode(charset)
             except UnicodeDecodeError:
                 body = raw.decode("cp932")
-            return {**evidence, "status": "checked", "http_status": status,
-                    "final_url": final_url, "content_type": content_type,
+            # Never carry error headers from a previously failed retry into a
+            # successful 200. Only the final successful body is authoritative.
+            return {"url": url, "checked_at": now(), "status": "checked",
+                    "http_status": status, "final_url": final_url,
+                    "content_type": content_type,
                     "bytes": len(raw), "sha256": hashlib.sha256(raw).hexdigest(),
                     "body": body}
         except (HTTPError, URLError, OSError, ValueError, UnicodeError, TimeoutError) as error:
-            evidence["error"] = str(error)[:350]
+            # Each attempt owns its own status. A final transport/parse failure
+            # must not inherit an earlier 404/403 or trigger its fallback path.
+            evidence = {"url": url, "checked_at": now(), "status": "error",
+                        "error": str(error)[:350]}
             if isinstance(error, HTTPError):
-                evidence["http_status"] = error.code
-                evidence["response_server"] = error.headers.get("Server", "")
-                evidence["challenge_detected"] = (
-                    error.code == 403
-                    and evidence["response_server"].casefold() == "cloudflare"
-                    and b"Just a moment" in error.read(2048)
-                )
+                # Capture at most 4 KiB of *response metadata/signature*;
+                # do not retain the untrusted raw error HTML or discard 404s.
+                evidence.update(diagnostic_for_http_error(error))
             if attempt + 1 < attempts:
                 time.sleep(0.4 * (attempt + 1))
     return evidence
@@ -431,8 +454,66 @@ def build_jobs(plan):
                          "required": source["required"], "url": url,
                          "target_start": plan["target_start"],
                          "target_end": plan["target_end"],
+                         "holiday_dates": [h["date"] for h in plan.get("holiday_targets", [])],
                          "annual_listing_url": source.get("annual_listing_url")})
     return jobs
+
+
+
+# Two month-suffixed Nerima calendar routes returned HTTP 404 on 2026-11-09.
+# The official monthless pages are observed as HTTP 200 and show Nov 2026
+# calendar rows. For a DIFFERENT month, reject the monthless page unless its
+# own heading matches the requested year/month; do not fabricate date matches.
+NERIMA_HOLIDAY_INDEX_FALLBACKS = {
+    "nerima_monthly":
+        "https://www.city.nerima.tokyo.jp/kankomoyoshi/event/calendar/list_calendar.html",
+    "nerima_kids_monthly":
+        "https://www.city.nerima.tokyo.jp/nerimakids/event/calendar/list_calendar.html",
+}
+
+
+def nerima_holiday_calendar_fallback(job, previous, fetcher=None):
+    """Return unverified calendar leads, preserving original 404 as an error."""
+    fallback = NERIMA_HOLIDAY_INDEX_FALLBACKS.get(job.get("source_id"))
+    if (job.get("kind") != "holiday_calendar"
+            or previous.get("http_status") != 404
+            or not fallback):
+        return [], None
+    observed = fetch_url(fallback, fetcher)
+    proof = {
+        "fallback_url": fallback,
+        "fallback_status": observed["status"],
+        "fallback_http_status": observed.get("http_status"),
+        "original_source_status_remains": "error",
+        "original_http_status": 404,
+        "original_source_url": job["url"],
+        "calendar_month_matches_target": False,
+        "candidate_count": 0,
+        "event_details_verified": False,
+        "publication_permitted": False,
+        "decision_reconciliation": "pending",
+    }
+    if observed["status"] != "checked":
+        proof["fallback_error"] = observed.get("error", "official index unreachable")
+        return [], proof
+    day = dt.date.fromisoformat(job["holiday"])
+    # The monthless index changes with the current month. Reject any page
+    # whose heading does not identify the month containing this target holiday.
+    month_label = re.compile(
+        rf"{day.year}\s*年\s*0?{day.month}\s*月\s*カレンダー")
+    if not month_label.search(observed["body"]):
+        proof["fallback_error"] = "official index month mismatch; no candidate may be inferred"
+        return [], proof
+    proof["calendar_month_matches_target"] = True
+    proof["fallback_sha256"] = observed["sha256"]
+    try:
+        candidates = holiday_calendar_candidates(
+            observed["body"], fallback, job["holiday"], job["calendar_mode"])
+    except (ValueError, ET.ParseError) as error:
+        proof["fallback_error"] = "official calendar parse error: " + str(error)
+        return [], proof
+    proof["candidate_count"] = len(candidates)
+    return candidates, proof
 
 
 def inspect(job, fetcher=None):
@@ -441,6 +522,15 @@ def inspect(job, fetcher=None):
     evidence = fetch_url(job["url"], fetcher)
     result.update(public_row(evidence))
     if evidence["status"] != "checked":
+        leads, fallback_proof = nerima_holiday_calendar_fallback(job, evidence, fetcher)
+        if fallback_proof is not None:
+            result["official_calendar_index_fallback"] = fallback_proof
+            result["candidates"] = leads
+            result["calendar_day_candidate_links"] = len(leads)
+            result["candidate_link_count"] = len(leads)
+            # The original 404 remains error even when an official index was
+            # accessible; candidate links require independent event facts.
+            result["status"] = "error"
         return result
     try:
         if job["kind"] in ("ai_cross", "holiday_ai_cross"):
@@ -456,6 +546,22 @@ def inspect(job, fetcher=None):
             result["individually_verified_event_count"] = None
             result["candidate_status"] = "unverified_title_leads"
             result["new_arrival_is_partial_not_calendar_replacement"] = True
+        elif (job.get("source_id") == "tamemap_nakano" and
+              urlsplit(job["url"]).path.startswith("/1311401/calendar/")):
+            result["candidates"] = tamemap_calendar_leads(
+                evidence["body"], job["url"],
+                dt.date.fromisoformat(job["target_start"]) if job.get("target_start") else None,
+                dt.date.fromisoformat(job["target_end"]) if job.get("target_end") else None)
+            result["page_title"] = "ためまっぷなかの・月別カレンダー"
+            result["candidate_status"] = "unverified_calendar_links"
+            result["decision_reconciliation"] = "pending"
+        elif job.get("source_id") == "shinjuku_sankaku_hiroba":
+            result.update(parse_sankaku_listing(
+                evidence["body"], dt.date.fromisoformat(job["target_start"]),
+                dt.date.fromisoformat(job["target_end"]), job["url"],
+                holiday_dates=job.get("holiday_dates", [])))
+            result["page_title"] = "新宿住友ビル三角広場 イベント一覧"
+            result["candidate_status"] = "unverified_external_organizer_links"
         elif job.get("source_id") == "suginami_calendar_all":
             result["candidates"] = suginami_official_event_links(evidence["body"], job["url"])
             result["page_title"] = "杉並区公式イベントカレンダー"
@@ -600,7 +706,9 @@ def collect(plan, fetcher=None, max_workers=12, supplemental_config=None,
     holiday_calendar_checks = [
         {"source_id": r["source_id"], "ward": r["ward"], "date": r["holiday"],
          "status": r["status"], "url": r["url"],
-         "candidate_count": len(r["candidates"]), "error": r.get("error", "")}
+         "candidate_count": len(r["candidates"]), "error": r.get("error", ""),
+         "official_index_fallback": r.get("official_calendar_index_fallback"),
+         "original_status_not_masked": r["status"] != "checked"}
         for r in rows if r["kind"] == "holiday_calendar"
     ]
     raw_candidates = []

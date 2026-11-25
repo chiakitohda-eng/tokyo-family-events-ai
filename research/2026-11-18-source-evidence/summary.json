@@ -1,0 +1,326 @@
+{
+  "run_type": "holiday_after_update",
+  "as_of_jst": "2026-11-16",
+  "base_data_production_sha": "fc6bec505975c6dabbddd404f33cd7d9f3f525e9",
+  "prompt_version": "v1.15",
+  "read_only": true,
+  "publishable": false,
+  "request_count": 588,
+  "requests_success": 583,
+  "required_source_failures": [
+    {
+      "id": "tamemap_nakano",
+      "url": "https://pc.tamemap.net/1311401/calendar/2026-11?lat=35.7089745&lng=139.6630981&level=5000&locale=ja",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "tamemap_nakano",
+      "url": "https://pc.tamemap.net/1311401/calendar/2026-12?lat=35.7089745&lng=139.6630981&level=5000&locale=ja",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "tamemap_nakano",
+      "url": "https://pc.tamemap.net/1311401/new_arrival?lat=35.7089745&lng=139.6630981&level=5000&locale=ja",
+      "error": "HTTP Error 403: Forbidden"
+    }
+  ],
+  "required_source_failures_outstanding": [
+    {
+      "id": "tamemap_nakano",
+      "url": "https://pc.tamemap.net/1311401/calendar/2026-11?lat=35.7089745&lng=139.6630981&level=5000&locale=ja",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "tamemap_nakano",
+      "url": "https://pc.tamemap.net/1311401/calendar/2026-12?lat=35.7089745&lng=139.6630981&level=5000&locale=ja",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "tamemap_nakano",
+      "url": "https://pc.tamemap.net/1311401/new_arrival?lat=35.7089745&lng=139.6630981&level=5000&locale=ja",
+      "error": "HTTP Error 403: Forbidden"
+    }
+  ],
+  "approved_deferred_source_errors": [],
+  "nonblocking_known_issues": [],
+  "wards": {
+    "千代田区": {
+      "total_queries": 21,
+      "successful_queries": 21,
+      "official_home_checked": true,
+      "errors": []
+    },
+    "中央区": {
+      "total_queries": 21,
+      "successful_queries": 21,
+      "official_home_checked": true,
+      "errors": []
+    },
+    "港区": {
+      "total_queries": 21,
+      "successful_queries": 21,
+      "official_home_checked": true,
+      "errors": []
+    },
+    "新宿区": {
+      "total_queries": 21,
+      "successful_queries": 21,
+      "official_home_checked": true,
+      "errors": []
+    },
+    "文京区": {
+      "total_queries": 21,
+      "successful_queries": 21,
+      "official_home_checked": true,
+      "errors": []
+    },
+    "台東区": {
+      "total_queries": 21,
+      "successful_queries": 21,
+      "official_home_checked": true,
+      "errors": []
+    },
+    "墨田区": {
+      "total_queries": 21,
+      "successful_queries": 21,
+      "official_home_checked": true,
+      "errors": []
+    },
+    "江東区": {
+      "total_queries": 21,
+      "successful_queries": 21,
+      "official_home_checked": true,
+      "errors": []
+    },
+    "品川区": {
+      "total_queries": 21,
+      "successful_queries": 21,
+      "official_home_checked": true,
+      "errors": []
+    },
+    "目黒区": {
+      "total_queries": 21,
+      "successful_queries": 21,
+      "official_home_checked": true,
+      "errors": []
+    },
+    "大田区": {
+      "total_queries": 21,
+      "successful_queries": 21,
+      "official_home_checked": true,
+      "errors": []
+    },
+    "世田谷区": {
+      "total_queries": 21,
+      "successful_queries": 21,
+      "official_home_checked": true,
+      "errors": []
+    },
+    "渋谷区": {
+      "total_queries": 21,
+      "successful_queries": 21,
+      "official_home_checked": true,
+      "errors": []
+    },
+    "中野区": {
+      "total_queries": 21,
+      "successful_queries": 21,
+      "official_home_checked": true,
+      "errors": []
+    },
+    "杉並区": {
+      "total_queries": 21,
+      "successful_queries": 21,
+      "official_home_checked": true,
+      "errors": []
+    },
+    "豊島区": {
+      "total_queries": 21,
+      "successful_queries": 21,
+      "official_home_checked": true,
+      "errors": []
+    },
+    "北区": {
+      "total_queries": 21,
+      "successful_queries": 21,
+      "official_home_checked": true,
+      "errors": []
+    },
+    "荒川区": {
+      "total_queries": 21,
+      "successful_queries": 21,
+      "official_home_checked": true,
+      "errors": []
+    },
+    "板橋区": {
+      "total_queries": 21,
+      "successful_queries": 21,
+      "official_home_checked": true,
+      "errors": []
+    },
+    "練馬区": {
+      "total_queries": 21,
+      "successful_queries": 21,
+      "official_home_checked": true,
+      "errors": [
+        {
+          "url": "https://www.city.nerima.tokyo.jp/kankomoyoshi/event/calendar/list_calendar202611.html",
+          "error": "HTTP Error 404: Not Found"
+        },
+        {
+          "url": "https://www.city.nerima.tokyo.jp/nerimakids/event/calendar/list_calendar202611.html",
+          "error": "HTTP Error 404: Not Found"
+        }
+      ]
+    },
+    "足立区": {
+      "total_queries": 21,
+      "successful_queries": 21,
+      "official_home_checked": true,
+      "errors": []
+    },
+    "葛飾区": {
+      "total_queries": 21,
+      "successful_queries": 21,
+      "official_home_checked": true,
+      "errors": []
+    },
+    "江戸川区": {
+      "total_queries": 21,
+      "successful_queries": 21,
+      "official_home_checked": true,
+      "errors": []
+    }
+  },
+  "ward_failures": [
+    {
+      "ward": "練馬区",
+      "total_queries": 21,
+      "successful_queries": 21,
+      "official_home_checked": true,
+      "errors": [
+        {
+          "url": "https://www.city.nerima.tokyo.jp/kankomoyoshi/event/calendar/list_calendar202611.html",
+          "error": "HTTP Error 404: Not Found"
+        },
+        {
+          "url": "https://www.city.nerima.tokyo.jp/nerimakids/event/calendar/list_calendar202611.html",
+          "error": "HTTP Error 404: Not Found"
+        }
+      ]
+    }
+  ],
+  "annual_schedule": [
+    {
+      "status": "checked",
+      "source_id": "nerima_district_festivals_2026",
+      "official_row_count": 2,
+      "resolved_pages": [
+        {
+          "fiscal_year": 2026,
+          "resolved_url": "https://www.city.nerima.tokyo.jp/kankomoyoshi/annai/omatsuri/chikusai/20260616103208700.html",
+          "row_count": 2,
+          "checked_at": "2026-11-18T07:12:39+09:00",
+          "sha256": "985741ac14ef0492eaa28ded6bffffb24449142daae91cfce848cd132462e60c"
+        }
+      ],
+      "candidate_ids": [
+        "nerima-district-0275426b6920",
+        "nerima-district-cbea3481e03a"
+      ],
+      "decision_reconciliation": "pending"
+    }
+  ],
+  "holiday_calendar_checks": [
+    {
+      "source_id": "toshima_daily",
+      "ward": "豊島区",
+      "date": "2026-11-23",
+      "status": "checked",
+      "url": "https://www.city.toshima.lg.jp/cgi-bin/event_cal/calendar.cgi?day=23&month=11&type=3&year=2026",
+      "candidate_count": 7,
+      "error": "",
+      "official_index_fallback": null,
+      "original_status_not_masked": false
+    },
+    {
+      "source_id": "arakawa_daily",
+      "ward": "荒川区",
+      "date": "2026-11-23",
+      "status": "checked",
+      "url": "https://www.city.arakawa.tokyo.jp/cgi-bin/event_cal_multi/calendar.cgi?day=23&month=11&type=3&year=2026",
+      "candidate_count": 6,
+      "error": "",
+      "official_index_fallback": null,
+      "original_status_not_masked": false
+    },
+    {
+      "source_id": "nerima_monthly",
+      "ward": "練馬区",
+      "date": "2026-11-23",
+      "status": "error",
+      "url": "https://www.city.nerima.tokyo.jp/kankomoyoshi/event/calendar/list_calendar202611.html",
+      "candidate_count": 6,
+      "error": "HTTP Error 404: Not Found",
+      "official_index_fallback": {
+        "fallback_url": "https://www.city.nerima.tokyo.jp/kankomoyoshi/event/calendar/list_calendar.html",
+        "fallback_status": "checked",
+        "fallback_http_status": 200,
+        "original_source_status_remains": "error",
+        "original_http_status": 404,
+        "original_source_url": "https://www.city.nerima.tokyo.jp/kankomoyoshi/event/calendar/list_calendar202611.html",
+        "calendar_month_matches_target": true,
+        "candidate_count": 6,
+        "event_details_verified": false,
+        "publication_permitted": false,
+        "decision_reconciliation": "pending",
+        "fallback_sha256": "6d708221324ef8e157ace90ea6690f8d180d14d9a410fa0a67b8728b9d13116b"
+      },
+      "original_status_not_masked": true
+    },
+    {
+      "source_id": "nerima_kids_monthly",
+      "ward": "練馬区",
+      "date": "2026-11-23",
+      "status": "error",
+      "url": "https://www.city.nerima.tokyo.jp/nerimakids/event/calendar/list_calendar202611.html",
+      "candidate_count": 1,
+      "error": "HTTP Error 404: Not Found",
+      "official_index_fallback": {
+        "fallback_url": "https://www.city.nerima.tokyo.jp/nerimakids/event/calendar/list_calendar.html",
+        "fallback_status": "checked",
+        "fallback_http_status": 200,
+        "original_source_status_remains": "error",
+        "original_http_status": 404,
+        "original_source_url": "https://www.city.nerima.tokyo.jp/nerimakids/event/calendar/list_calendar202611.html",
+        "calendar_month_matches_target": true,
+        "candidate_count": 1,
+        "event_details_verified": false,
+        "publication_permitted": false,
+        "decision_reconciliation": "pending",
+        "fallback_sha256": "a4de4a4750c75aa16ea286af50011b106fbe5e41c773b968ee9f2c66cbf67cc3"
+      },
+      "original_status_not_masked": true
+    },
+    {
+      "source_id": "edogawa_daily",
+      "ward": "江戸川区",
+      "date": "2026-11-23",
+      "status": "checked",
+      "url": "https://www.city.edogawa.tokyo.jp/cgi-bin/event_cal_multi/calendar.cgi?day=23&month=11&siteid=6&type=3&year=2026",
+      "candidate_count": 9,
+      "error": "",
+      "official_index_fallback": null,
+      "original_status_not_masked": false
+    }
+  ],
+  "candidate_links_unverified": 821,
+  "supplemental_checked": 6,
+  "supplemental_failures": [],
+  "tamemap_source_still_required": true,
+  "blockers": [
+    "required_explicit_url_errors",
+    "incomplete_23_ward_search",
+    "unverified_candidate_decisions_and_official_event_facts"
+  ]
+}

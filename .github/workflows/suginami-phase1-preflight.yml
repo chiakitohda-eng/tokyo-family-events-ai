@@ -1,16 +1,7 @@
-name: Suginami phase1 official activity staged-data preflight (read-only)
+name: Historical Oct27 Suginami live-source recheck (manual, read-only)
+# Historical October candidate. A live 404 must remain a failure when rerun,
+# but this audit is not the gate for an unrelated current data deployment.
 on:
-  pull_request:
-    branches: [main]
-    paths:
-      - 'tools/validate_suginami_phase1_addition.py'
-      - '.github/workflows/deploy.yml'
-      - '.github/workflows/suginami-phase1-preflight.yml'
-  push:
-    branches: [main]
-    paths:
-      - 'tools/validate_suginami_phase1_addition.py'
-      - '.github/workflows/suginami-phase1-preflight.yml'
   workflow_dispatch: {}
 
 permissions:

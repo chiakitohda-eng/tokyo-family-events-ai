@@ -1,12 +1,3 @@
-# Verified Suginami official individual family activities. Add-only; baseline immutable.
-operation=verified-suginami-phase1
-base_data_production_sha=6591c7c7a4429b11cf1f5572e0d52b7153180f30
-candidate_sha=1d1687321f82279d6e46899f1fc453169bba5b1d
-source_id=suginami_calendar_all
-source_evidence_1=https://www.city.suginami.tokyo.jp/s113/event/22586.html
-source_evidence_2=https://www.city.suginami.tokyo.jp/s113/event/23878.html
-expected_new_event_ids=suginami-official-22586;suginami-official-23878
-approved_scope=two-new-official-verified-activity-shards;two-week-audits;append-only-history;manifest-counts
-expected_existing_event_removed=0
-expected_existing_event_changed=0
-preflight_workflow_run=40486016728
+operation=verified-lead45-addition-20261121
+candidate_sha=11862e512c87aaddec2b091b2b6735c1bacc702c
+base_data_production_sha=100bab3eea5a5011deea32fc6bb11840e500ccb8

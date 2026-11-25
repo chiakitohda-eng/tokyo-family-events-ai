@@ -1,0 +1,86 @@
+name: HTTP 404/403 classification, official index fallback and 20-source recheck (read only)
+on:
+  pull_request:
+    paths:
+      - 'tools/http_source_diagnostics.py'
+      - 'tools/holiday_after_collect.py'
+      - 'tools/followup_unresolved_617_urls_20261109.py'
+      - 'tools/recheck_failed_http_sources_20261109.py'
+      - 'tests/test_http_source_diagnostics.py'
+      - '.github/workflows/recheck-http-error-fallbacks.yml'
+  push:
+    branches: [main]
+    paths:
+      - 'tools/http_source_diagnostics.py'
+      - 'tools/holiday_after_collect.py'
+      - 'tools/followup_unresolved_617_urls_20261109.py'
+      - 'tools/recheck_failed_http_sources_20261109.py'
+      - 'tests/test_http_source_diagnostics.py'
+      - '.github/workflows/recheck-http-error-fallbacks.yml'
+  workflow_dispatch: {}
+permissions:
+  contents: read
+  actions: read
+jobs:
+  unit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 9
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Prove no false success when 403, 404, bad fallback, retry or route errors
+        run: |
+          python3 -m unittest discover -s tests -p 'test_http_source_diagnostics.py' -v
+          python3 -m unittest discover -s tests -p 'test_holiday_after_collect.py' -v
+          python3 -m unittest discover -s tests -p 'test_source_fallback_policy.py' -v
+  actual-http:
+    needs: unit
+    if: github.event_name != 'pull_request'
+    runs-on: ubuntu-latest
+    timeout-minutes: 16
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Get immutable 17 original failed URLs
+        uses: actions/download-artifact@v4
+        with:
+          artifact-ids: 13635440202
+          run-id: 42525057008
+          github-token: ${{ github.token }}
+          path: evidence
+      - name: Re-fetch 17 failed source links and 3 required Tamemap paths with error-body signatures
+        run: |
+          mkdir -p output
+          python3 tools/recheck_failed_http_sources_20261109.py \
+            --prior-summary evidence/unresolved-750-real-detail-fetch-status-and-evidence/summary.json \
+            --output output/source_http_recheck.json
+      - name: Check bounded, unresolved and source-data-safe response ledger
+        run: |
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          j=json.loads(Path('output/source_http_recheck.json').read_text())
+          assert j['rechecked_urls']==20 and j['original_detail_errors']==17 and j['required_tamemap_paths']==3
+          assert j['all_event_decisions_unresolved'] and j['no_source_registry_changes']
+          assert j['published_data_modified'] is False and j['no_bypass_of_cloudflare']
+          assert len({x['url'] for x in j['responses']})==20
+          assert all(x['individual_event_verified'] is False and
+                     x['original_status_not_masked_by_index'] is True
+                     for x in j['responses'])
+          assert all(x['official_index_fallback'] is None or
+                     x['official_index_fallback']['original_source_still_failed']
+                     for x in j['responses'])
+          print('20 true source statuses retained, no fabricated success')
+          PY
+      - name: Save actual 20 failed-source status / fallback diagnostics
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: source-http-403-404-fallback-recheck
+          path: output/
+          retention-days: 30
+          if-no-files-found: warn

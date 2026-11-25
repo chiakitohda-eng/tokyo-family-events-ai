@@ -1,0 +1,47 @@
+name: Verify next non-Tamemap additions and preserve all published records
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - 'tools/validate_non_tamemap_next_addition.py'
+      - 'tests/test_non_tamemap_next_gate.py'
+      - 'research/non_tamemap_next_review_20261114/**'
+      - '.github/workflows/non-tamemap-next-review.yml'
+  workflow_dispatch: {}
+permissions:
+  contents: read
+jobs:
+  review:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          path: scanner
+      - uses: actions/checkout@v4
+        with:
+          ref: 99d1082e560ab9469d93ef431af2704fed12e4da
+          path: candidate
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Regression suite including old-record and source-error preservation
+        working-directory: scanner
+        run: |
+          npm test
+          python3 -m unittest discover -s tests -p test_non_tamemap_next_gate.py
+      - name: Verify the frozen 27-file data candidate and all existing records
+        working-directory: candidate
+        run: |
+          python3 ../scanner/tools/validate_non_tamemap_next_addition.py --base-ref 273c8753a9d5ea09f38e580d4c51b4c87abd0189
+          python3 ../scanner/tools/validate_data.py --strict --min-image-coverage 0.70 site/data
+          python3 ../scanner/tools/validate_decisions.py --strict site/data
+          python3 ../scanner/tools/validate_rereview.py --strict site/data
+          python3 ../scanner/tools/audit_event_image_identity.py --strict site/data
+          python3 ../scanner/tools/validate_protected_events.py --base-ref 273c8753a9d5ea09f38e580d4c51b4c87abd0189 site/data
+          python3 ../scanner/tools/validate_non_regression.py --base-ref 273c8753a9d5ea09f38e580d4c51b4c87abd0189 site/data
+          python3 ../scanner/tools/validate_family_fit_quality.py --base-ref 273c8753a9d5ea09f38e580d4c51b4c87abd0189

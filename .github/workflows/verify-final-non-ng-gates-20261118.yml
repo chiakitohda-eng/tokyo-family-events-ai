@@ -1,0 +1,84 @@
+name: Read-only final strict production data gates for Nov18
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/verify-final-non-ng-gates-20261118.yml']
+  workflow_dispatch: {}
+permissions:
+  contents: read
+jobs:
+  all_guards:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: candidate/clean-8-nonng-release-20261117
+          path: candidate
+          fetch-depth: 0
+      - uses: actions/checkout@v4
+        with:
+          ref: production
+          path: released
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          path: scanner
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Test every strict gate against actual released static source registry, without publishing
+        shell: bash
+        run: |
+          set -euo pipefail
+          test "$(git -C candidate rev-parse HEAD)" = 6365d9f04eaf2e5633b63930ad1ff0ab5984f7f7
+          mkdir -p /tmp/final-guards
+          cp released/site/data/discovery_sources.json candidate/site/data/discovery_sources.json
+          cd candidate
+          set +e
+          python3 ../released/tools/validate_data.py --strict --min-image-coverage 0.70 site/data > /tmp/final-guards/strict-data.txt 2>&1
+          strict=$?
+          python3 ../scanner/tools/validate_official_schedule_audit.py site/data > /tmp/final-guards/official-source-reconciliation.txt 2>&1
+          official=$?
+          python3 ../scanner/tools/validate_family_fit_quality.py --base-ref fc6bec505975c6dabbddd404f33cd7d9f3f525e9 --data-dir site/data > /tmp/final-guards/family-fit.txt 2>&1
+          fit=$?
+          python3 ../released/tools/validate_protected_events.py --base-ref fc6bec505975c6dabbddd404f33cd7d9f3f525e9 site/data > /tmp/final-guards/protected.txt 2>&1
+          protect=$?
+          python3 ../released/tools/audit_event_image_identity.py --strict site/data > /tmp/final-guards/image-identity.txt 2>&1
+          image=$?
+          set -e
+          python3 - "$strict" "$official" "$fit" "$protect" "$image" <<'PY'
+          import collections,json,pathlib,re,sys
+          folder=pathlib.Path('/tmp/final-guards')
+          names=['strict-data','official-source-reconciliation','family-fit','protected','image-identity']
+          status=dict(zip(names,map(int,sys.argv[1:])))
+          outs={x:(folder/(x+'.txt')).read_text(errors='replace') for x in names}
+          e=[r for r in outs['strict-data'].splitlines() if r.startswith('ERROR:')]
+          o=[r for r in outs['official-source-reconciliation'].splitlines() if r.startswith('ERROR ')]
+          by_week=collections.Counter()
+          for row in o:
+            m=re.search(r'2026-\d{2}-\d{2}',row)
+            if m:by_week[m.group(0)]+=1
+          info={
+            'as_of_jst':'2026-11-18','candidate_sha':'6365d9f04eaf2e5633b63930ad1ff0ab5984f7f7',
+            'baseline_production_sha':'fc6bec505975c6dabbddd404f33cd7d9f3f525e9',
+            'using_released_25_required_source_policy':True,
+            'strict_data_exit':status['strict-data'],'strict_data_errors':len(e),'strict_data_error_lines':e,
+            'official_source_exit':status['official-source-reconciliation'],'official_source_errors':len(o),
+            'official_source_errors_by_week':by_week,
+            'official_source_error_preview':o[:35],
+            'individual_family_fit_exit':status['family-fit'],
+            'protected_data_exit':status['protected'],'image_identity_exit':status['image-identity'],
+            'certified_all_checks_passed':all(value==0 for value in status.values()),
+            'audit_only_no_source_policy_waivers':True,'production_branch_unchanged':True,
+          }
+          (folder/'summary.json').write_text(json.dumps(info,ensure_ascii=False,indent=2,default=dict)+'\n')
+          print('VERIFICATION_GATES',json.dumps({k:v for k,v in info.items() if k not in ('strict_data_error_lines','official_source_error_preview')},ensure_ascii=False,default=dict))
+          assert status['family-fit']==status['protected']==status['image-identity']==0
+          PY
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: non-ng-final-strict-gates-20261118
+          path: /tmp/final-guards/
+          if-no-files-found: error

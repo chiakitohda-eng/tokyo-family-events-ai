@@ -5,6 +5,13 @@ on:
     branches: [main]
     paths:
       - 'tools/fixed_source_coverage_v3.py'
+      - 'tools/tamemap_calendar.py'
+      - 'tools/collect_tamemap_recovery.py'
+      - 'tests/test_collect_tamemap_recovery.py'
+      - 'tools/holiday_after_collect.py'
+      - 'tools/http_source_diagnostics.py'
+      - 'tests/test_tamemap_discovery.py'
+      - 'tests/test_http_source_diagnostics.py'
       - 'tools/source_fallback_policy.py'
       - 'policy/source_fallbacks_v1.json'
       - 'tests/test_source_fallback_policy.py'
@@ -16,6 +23,13 @@ on:
     branches: [main]
     paths:
       - 'tools/fixed_source_coverage_v3.py'
+      - 'tools/tamemap_calendar.py'
+      - 'tools/collect_tamemap_recovery.py'
+      - 'tests/test_collect_tamemap_recovery.py'
+      - 'tools/holiday_after_collect.py'
+      - 'tools/http_source_diagnostics.py'
+      - 'tests/test_tamemap_discovery.py'
+      - 'tests/test_http_source_diagnostics.py'
       - 'tools/source_fallback_policy.py'
       - 'policy/source_fallbacks_v1.json'
       - 'tests/test_source_fallback_policy.py'
@@ -41,6 +55,9 @@ jobs:
           node-version: '22'
       - name: Registry, state and old-event preservation regressions
         run: |
+          npm test
+          python3 -m unittest discover -s tests -p 'test_tamemap_discovery.py'
+          python3 -m unittest discover -s tests -p 'test_http_source_diagnostics.py'
           python3 -m unittest discover -s tests -p 'test_fixed_source_coverage_v3.py'
           python3 -m unittest discover -s tests -p 'test_source_fallback_policy.py'
           node --check site/source-audit.js
@@ -49,7 +66,6 @@ jobs:
           python3 -m unittest discover -s tests -p 'test_listing_source_evidence_v2.py'
 
   snapshot:
-    if: github.event_name != 'pull_request'
     needs: [regression]
     runs-on: ubuntu-latest
     timeout-minutes: 18
@@ -60,7 +76,7 @@ jobs:
       - name: Checkout staging application audit code
         uses: actions/checkout@v4
         with:
-          ref: main
+          ref: ${{ github.event_name == 'pull_request' && github.event.pull_request.head.sha || 'main' }}
           fetch-depth: 2
       - name: Checkout read-only production event manifest (never write data)
         uses: actions/checkout@v4
@@ -70,7 +86,7 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-      - name: Probe all 26 registered sources without changing event records
+      - name: Probe every registered source without changing event records
         run: |
           mkdir -p site/audit
           python3 tools/fixed_source_coverage_v3.py \
@@ -86,11 +102,13 @@ jobs:
           path=Path('site/audit/fixed_sources.json')
           result=json.loads(path.read_text(encoding='utf-8'))
           assert result['read_only'] is True
-          assert result['summary']['registered']==26
+          registry=json.load(open('site/data/discovery_sources.json',encoding='utf-8'))
+          expected_ids=[s['id'] for s in registry['explicit_sources']]
+          assert result['summary']['registered']==len(expected_ids)
           assert result['summary']['full_event_row_parity_verified_by_this_report']==0
           assert result['summary']['event_candidates_count'] is None
           assert result['summary']['publication_gaps_confirmed'] is None
-          assert len(result['sources'])==26
+          assert [s['source_id'] for s in result['sources']]==expected_ids
           assert all(x['event_candidates_total'] is None for x in result['sources'])
           PY
       - name: Persist readable evidence for manual audit regardless of source errors
@@ -101,6 +119,7 @@ jobs:
           retention-days: 30
           if-no-files-found: error
       - name: Update ONLY public audit-status snapshot; never publish or delete events
+        if: github.event_name != 'pull_request'
         shell: bash
         run: |
           set -eu
@@ -115,6 +134,7 @@ jobs:
           git commit -m "audit: refresh registered source retrieval statuses"
           git push origin HEAD:refs/heads/main
       - name: Rebuild staging preview after bot-only status update
+        if: github.event_name != 'pull_request'
         env:
           GH_TOKEN: ${{ github.token }}
         run: gh workflow run deploy.yml --ref main
@@ -129,7 +149,7 @@ jobs:
               sys.exit("BLOCKER: source status missing")
           report=json.loads(f.read_text(encoding='utf-8'))
           summary=report['summary']
-          lines=["## 第三弾 固定サイト取得監査（26サイト・読取専用）",
+          lines=["## 第三弾 固定サイト取得監査（"+str(summary["registered"])+"サイト・読取専用）",
                  "- 取得確認: "+str(summary['reachable_all_registered_urls']),
                  "- 一部エラー: "+str(summary['partial_errors']),
                  "- 取得不能: "+str(summary['source_errors']),

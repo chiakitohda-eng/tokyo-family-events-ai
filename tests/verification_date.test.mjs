@@ -1,0 +1,10 @@
+import assert from 'node:assert/strict';
+import {applyVerification} from '../site/app.js';
+const events=[{id:'old'},{id:'new'},{id:'missing'}];
+const audit={verified_on:'2026-11-08',events:[{id:'old',status:'verified'},{id:'new',status:'verified',verified_on:'2026-11-14'}]};
+const result=applyVerification(events,audit);
+assert.equal(result[0].verification.verified_on,'2026-11-08');
+assert.equal(result[1].verification.verified_on,'2026-11-14');
+assert.equal(result[2].verification.status,'unverified');
+assert.equal(audit.verified_on,'2026-11-08');
+console.log('per-event verification dates preserve the original audit date');

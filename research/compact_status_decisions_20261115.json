@@ -1,0 +1,160 @@
+{
+  "scope": "compact disclosure lists for status and publication decisions",
+  "base_production_sha": "5d7f8b961e6c93e5a8950c426e3ffddac9a6d7aa",
+  "candidate_sha": "411702d051ca73204fc1e48924591f94c64ba713",
+  "version": "1.37",
+  "control_pr": 126,
+  "production_pr": 127,
+  "read_only_validation_run": 43647285437,
+  "staging_pages_run": 43647357226,
+  "local_browser": [
+    {
+      "width": 390,
+      "all_five_work_statuses_visible": true,
+      "work_details_closed": true,
+      "remaining": 2,
+      "completed": 3,
+      "status_and_category_filters": true,
+      "keyboard_toggle": true,
+      "omitted_initial_rows": 40,
+      "omitted_more_rows": 80,
+      "omitted_search_and_tabs": true,
+      "full_reason_and_source_preserved": true,
+      "historical_date_visible": true,
+      "no_overflow": true
+    },
+    {
+      "width": 1280,
+      "all_five_work_statuses_visible": true,
+      "work_details_closed": true,
+      "remaining": 2,
+      "completed": 3,
+      "status_and_category_filters": true,
+      "keyboard_toggle": true,
+      "omitted_initial_rows": 40,
+      "omitted_more_rows": 80,
+      "omitted_search_and_tabs": true,
+      "full_reason_and_source_preserved": true,
+      "historical_date_visible": true,
+      "no_overflow": true
+    }
+  ],
+  "status_counts": {
+    "remaining": 2,
+    "completed": 3,
+    "all_visible_rows": 5
+  },
+  "all_row_details_initially_closed": true,
+  "official_reason_and_links_preserved": true,
+  "historical_curation_rows": 310,
+  "historical_curation_sha256": "2d6814f2f57142916e58df8337e761d47420427632439fe1cc6b0681ee1170da",
+  "data_production_sha": "847e388e65b99e38a0f108ecc96009778b3fdcd2",
+  "data_staging_same_sha": true,
+  "published_event_records": 598,
+  "event_and_curation_record_mutation": "none",
+  "unrelated_ui_promoted": false,
+  "verified_at": "2026-11-14T22:22:09.130882+00:00",
+  "production_sha": "9aa067f0756bb900ff3f95e33f1dee7473e9c63f",
+  "app_pages_run": 43647527937,
+  "app_pages_result": "success",
+  "release_snapshot": "release/2026-11-15-r2",
+  "staging_browser": [
+    {
+      "width": 390,
+      "all_five_work_statuses_visible": true,
+      "work_details_closed": true,
+      "remaining": 2,
+      "completed": 3,
+      "status_and_category_filters": true,
+      "keyboard_toggle": true,
+      "omitted_initial_rows": 40,
+      "omitted_more_rows": 80,
+      "omitted_search_and_tabs": true,
+      "full_reason_and_source_preserved": true,
+      "historical_date_visible": true,
+      "no_overflow": true
+    },
+    {
+      "width": 1280,
+      "all_five_work_statuses_visible": true,
+      "work_details_closed": true,
+      "remaining": 2,
+      "completed": 3,
+      "status_and_category_filters": true,
+      "keyboard_toggle": true,
+      "omitted_initial_rows": 40,
+      "omitted_more_rows": 80,
+      "omitted_search_and_tabs": true,
+      "full_reason_and_source_preserved": true,
+      "historical_date_visible": true,
+      "no_overflow": true
+    }
+  ],
+  "public_browser": [
+    {
+      "width": 390,
+      "all_five_work_statuses_visible": true,
+      "work_details_closed": true,
+      "remaining": 2,
+      "completed": 3,
+      "status_and_category_filters": true,
+      "keyboard_toggle": true,
+      "omitted_initial_rows": 40,
+      "omitted_more_rows": 80,
+      "omitted_search_and_tabs": true,
+      "full_reason_and_source_preserved": true,
+      "historical_date_visible": true,
+      "no_overflow": true
+    },
+    {
+      "width": 1280,
+      "all_five_work_statuses_visible": true,
+      "work_details_closed": true,
+      "remaining": 2,
+      "completed": 3,
+      "status_and_category_filters": true,
+      "keyboard_toggle": true,
+      "omitted_initial_rows": 40,
+      "omitted_more_rows": 80,
+      "omitted_search_and_tabs": true,
+      "full_reason_and_source_preserved": true,
+      "historical_date_visible": true,
+      "no_overflow": true
+    }
+  ],
+  "public_files": {
+    "files_match_candidate": [
+      {
+        "path": "pending-issues.js",
+        "sha256": "e0c5c90504a5179f9c4327832ff84b74acc5eb05838232b871df92021ac54ce7"
+      },
+      {
+        "path": "pending-issues.css",
+        "sha256": "94032f7e72d2a585af49ee6b529f36c203096df7fd490fd8883571e01ad95304"
+      },
+      {
+        "path": "pending-issues.html",
+        "sha256": "6c31af0d60989f8b577061fb9b2fd2347f362534e4299cd9167514f04f9c6e6e"
+      },
+      {
+        "path": "omitted.js",
+        "sha256": "e6e3a5404dee9a0a22c071e9993122874e133d3e30724c715eb748259a251862"
+      },
+      {
+        "path": "omitted.css",
+        "sha256": "b2c898c6c7c926d77593cec9a091cb16becb2198bc9b2aa486e2957d6c1ba5ad"
+      },
+      {
+        "path": "omitted.html",
+        "sha256": "e2a509bbcfcef721169e86b5c637e3633ca4883aae5792ee32a398edf0e93ba7"
+      },
+      {
+        "path": "curation/suginami_review_20261022.json",
+        "sha256": "2d6814f2f57142916e58df8337e761d47420427632439fe1cc6b0681ee1170da"
+      }
+    ],
+    "public_event_manifest_unchanged": true,
+    "public_event_count": 598,
+    "historical_decisions_unchanged": 310
+  }
+}

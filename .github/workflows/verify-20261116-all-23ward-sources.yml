@@ -1,0 +1,100 @@
+name: Verify November 16 six-week full 23-ward and all required sources
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/verify-20261116-all-23ward-sources.yml'
+  workflow_dispatch: {}
+permissions:
+  contents: read
+jobs:
+  real_source_audit:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 32
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          path: scanner
+      - uses: actions/checkout@v4
+        with:
+          ref: production
+          path: released
+      - uses: actions/checkout@v4
+        with:
+          ref: data-production
+          path: data-src
+      - uses: actions/checkout@v4
+        with:
+          ref: candidate/clean-8-nonng-release-20261117
+          path: candidate
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Produce government-holiday verified historical November 16 rolling plan for Nov21-Dec27
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p /tmp/full-official-verification-20261118
+          python3 scanner/tools/rolling_horizon.py \
+            --as-of 2026-11-16 \
+            --manifest data-src/site/data/manifest.json \
+            --sources released/site/data/discovery_sources.json \
+            --base-data-production-sha "$(git -C data-src rev-parse HEAD)" \
+            --output /tmp/full-official-verification-20261118/plan.json \
+            > /tmp/full-official-verification-20261118/plan-stdout.json
+          python3 - <<'PY'
+          import json
+          p=json.load(open('/tmp/full-official-verification-20261118/plan.json'))
+          assert p['status']=='eligible' and p['publication_permitted']==False
+          assert [x['sat'] for x in p['weekends']]==['2026-11-21','2026-11-28','2026-12-05','2026-12-12','2026-12-19','2026-12-26']
+          required=[x for x in p['explicit_source_checks'] if x['required']]
+          assert len(required)==25, (len(required),[x['id'] for x in required])
+          print('PLANNED_INDEPENDENT_AUDIT',json.dumps({'weeks':[x['sat'] for x in p['weekends']],'required_sources':len(required),'source_urls':sum(map(lambda s:len(s['urls']),p['explicit_source_checks'])),'holidays':p['holiday_targets']}))
+          PY
+      - name: Actual independent full 23 ward x six weekend search and all required source URLs
+        id: crawl
+        continue-on-error: true
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 scanner/tools/holiday_after_collect.py \
+             --plan /tmp/full-official-verification-20261118/plan.json \
+             --output-dir /tmp/full-official-verification-20261118 \
+             --supplemental-config scanner/policy/nakano_supplemental_sources.json \
+             --exception-policy scanner/policy/temporary_source_exceptions.json \
+             --workers 20
+      - name: Reconcile every discovered candidate with currently approved records into read-only review worklist
+        if: always()
+        continue-on-error: true
+        shell: bash
+        run: |
+          if test -f /tmp/full-official-verification-20261118/summary.json; then
+            python3 scanner/tools/holiday_after_review_packet.py \
+              --plan /tmp/full-official-verification-20261118/plan.json \
+              --evidence-dir /tmp/full-official-verification-20261118 \
+              --published-data candidate/site/data \
+              --output /tmp/full-official-verification-20261118/review_packet.json
+          fi
+      - name: Preserve actual row-level evidence and error logs, never promote on HTTP 403
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: full-23ward-25source-20261118
+          path: /tmp/full-official-verification-20261118/
+          retention-days: 30
+          if-no-files-found: error
+      - name: Enforce transparency and deny publication from incomplete data crawl
+        if: always()
+        shell: bash
+        run: |
+          set -euo pipefail
+          test -f /tmp/full-official-verification-20261118/summary.json
+          python3 - <<'PY'
+          import json
+          x=json.load(open('/tmp/full-official-verification-20261118/summary.json'))
+          assert x['read_only'] and not x['publishable']
+          failures=x.get('required_source_failures_outstanding') or []
+          print('ALL_SOURCE_EVIDENCE_SUMMARY',json.dumps({'request_count':x.get('request_count'),'request_success':x.get('requests_success'),'ward_failures':len(x.get('ward_failures',[])),'required_source_errors':len(x.get('required_source_failures',[])),'source_blockers':failures,'candidate_links':x.get('candidate_links_unverified'),'blockers':x.get('blockers')},ensure_ascii=False))
+          assert x['base_data_production_sha']=='fc6bec505975c6dabbddd404f33cd7d9f3f525e9'
+          PY

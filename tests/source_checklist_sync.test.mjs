@@ -1,0 +1,10 @@
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+const reg=JSON.parse(fs.readFileSync(new URL('../site/data/discovery_sources.json',import.meta.url),'utf8'));
+const doc=fs.readFileSync(new URL('../docs/SOURCE_REGISTRY_CHECKLIST.md',import.meta.url),'utf8');
+const ids=[...reg.explicit_sources.map(s=>s.id),...reg.ai_exploration_sites.sites.map(s=>s.id)];
+const missing=ids.filter(id=>!doc.includes('`'+id+'`'));
+assert.deepEqual(missing,[],'every site on the page must be in docs/SOURCE_REGISTRY_CHECKLIST.md (run tools/gen_source_checklist.py)');
+const runbook=fs.readFileSync(new URL('../docs/RECURRING_UPDATE_RUNBOOK.md',import.meta.url),'utf8');
+assert.ok(runbook.includes('SOURCE_REGISTRY_CHECKLIST.md'),'runbook must require the checklist');
+console.log('source checklist sync: OK', ids.length);

@@ -1,0 +1,748 @@
+{
+  "base_data_production_sha": "bd4ec22347d0d5cac1df1fa9e47fdd9e07b7356d",
+  "reviewed_at": "2026-11-13",
+  "records": [
+    {
+      "tamemap_event_id": "160023",
+      "week": "2026-11-14",
+      "event": {
+        "id": "reviewed-20261115-nakano-160023",
+        "ward": "中野区",
+        "name": "図画工作「魔法つかいのほうき屋さん」",
+        "url": "https://nakano-hiromatimirai.resv.jp/reserve/calendar.php?x=1634516751",
+        "official_url": "https://nakano-hiromatimirai.resv.jp/reserve/calendar.php?x=1634516751",
+        "source": "https://nakano-hiromatimirai.resv.jp/reserve/calendar.php?x=1634516751",
+        "image": "https://pc.tamemap.net/tamemapapi/detail/2bcc09f8-5baa-4866-97b8-947bbc09a9fb.jpg",
+        "period": "11/15",
+        "date_start": "2026-11-15",
+        "date_end": "2026-11-15",
+        "time": "10:00〜11:00",
+        "venue": "広町みらい公園・体験学習センター",
+        "price": "1,000円（材料費込み）",
+        "description": "3歳くらいから大人まで。小学2年生以下は保護者同伴。金色の小枝に布リボンを巻いてクリスマスにも飾れる作品を作る。室内履き・持ち帰り用袋を持参。",
+        "categories": [
+          "工作",
+          "クリスマス"
+        ],
+        "family_fit": {
+          "grade": "B",
+          "overall": "B",
+          "rubric_version": "family-fit-v2",
+          "reason": "主催者予約ページと公園担当部署の投稿で、対象年齢・時刻・料金・申込条件を照合。",
+          "axes": {
+            "child_target": {
+              "grade": "A",
+              "reason": "3歳くらいから大人まで。小学2年生以下は保護者同伴。"
+            },
+            "interactivity": {
+              "grade": "A",
+              "reason": "布リボンを巻いて作品を作る手作業を体験できる。"
+            },
+            "age_fit": {
+              "grade": "A",
+              "reason": "3歳くらいから大人まで。小学2年生以下は保護者同伴。"
+            },
+            "stay_flexibility": {
+              "grade": "C",
+              "reason": "時刻を定めた事前申込制の講座。途中入退場の可否は未記載。"
+            },
+            "burden": {
+              "grade": "B",
+              "reason": "室内履き等の持参品と当日キャンセル料を事前確認。"
+            },
+            "cost": {
+              "grade": "B",
+              "reason": "主催者予約ページの参加費は1,000円（材料費込み）。"
+            },
+            "reservation": {
+              "grade": "C",
+              "reason": "事前申込・先着順、期限は11/14(土)。11/13閲覧時は受付中で空きあり、以後は変動。"
+            },
+            "family_value": {
+              "grade": "A",
+              "reason": "布リボンを巻いて作品を作る手作業を体験できる。対象年齢に合う子どもの休日の体験になる。"
+            }
+          }
+        },
+        "reservation": {
+          "required": true,
+          "note": "事前申込・先着順。申込期限は11/14(土)。11/13の主催者予約ページでは受付中（空きは変動）。公園公式カレンダーで該当日・講座を選んで最新状況を確認。キャンセルは前日21時までに管理事務所へ電話。当日キャンセル・無断欠席は病欠でも参加費が必要。"
+        },
+        "indoor_outdoor": "",
+        "ai": {
+          "checked_at": "2026-11-13",
+          "confidence": "high",
+          "discovery_query": "前回保留候補を公園公式予約カレンダーへ辿り、本文・年・日付・対象・料金・受付状況を再照合。既存216レコードに同日同会場同講座なし。"
+        },
+        "discovery_sources": [
+          {
+            "channel": "explicit",
+            "source_id": "tamemap_nakano",
+            "kind": "recovered_detail_review",
+            "url": "https://pc.tamemap.net/1311401/event/160023/2026-11-15"
+          }
+        ]
+      },
+      "verification": {
+        "id": "reviewed-20261115-nakano-160023",
+        "status": "verified",
+        "source": "https://nakano-hiromatimirai.resv.jp/reserve/calendar.php?x=1634516751",
+        "source_kind": "venue_official",
+        "fields": {
+          "name": "pass",
+          "date": "pass",
+          "venue": "pass",
+          "time": "pass",
+          "price": "pass",
+          "reservation": "pass",
+          "official_url": "pass"
+        },
+        "corrections": {},
+        "note": "2026年・講座名・時刻・料金・対象年齢・受付中を公園の予約詳細で確認。会場は公園維持・管理係の提供投稿で照合。画像は同一イベント投稿で観測した素材で、事実推測には使用しない。",
+        "evidence": [
+          {
+            "url": "https://nakano-hiromatimirai.resv.jp/reserve/calendar.php?x=1634516751",
+            "checked_at": "2026-11-13T12:07:40.384470+00:00",
+            "sha256": "b4f304f4b0e5b725b9dbe8b55e291cff5afcbd84836125bdd770b9c577b9953c",
+            "detail_keyid": "7398"
+          },
+          {
+            "url": "https://pc.tamemap.net/1311401/event/160023/2026-11-15?locale=ja",
+            "checked_at": "2026-11-13T07:43:34+09:00",
+            "sha256": "81aa113e91dea60ad2d6856932bcc2496c492b389679808c9f79c19b5911b74f"
+          }
+        ]
+      },
+      "decision": {
+        "candidate_id": "reviewed-20261115-nakano-160023",
+        "name": "図画工作「魔法つかいのほうき屋さん」",
+        "ward": "中野区",
+        "decision": "published",
+        "family_fit": {
+          "grade": "B",
+          "overall": "B",
+          "rubric_version": "family-fit-v2",
+          "reason": "主催者予約ページと公園担当部署の投稿で、対象年齢・時刻・料金・申込条件を照合。",
+          "axes": {
+            "child_target": {
+              "grade": "A",
+              "reason": "3歳くらいから大人まで。小学2年生以下は保護者同伴。"
+            },
+            "interactivity": {
+              "grade": "A",
+              "reason": "布リボンを巻いて作品を作る手作業を体験できる。"
+            },
+            "age_fit": {
+              "grade": "A",
+              "reason": "3歳くらいから大人まで。小学2年生以下は保護者同伴。"
+            },
+            "stay_flexibility": {
+              "grade": "C",
+              "reason": "時刻を定めた事前申込制の講座。途中入退場の可否は未記載。"
+            },
+            "burden": {
+              "grade": "B",
+              "reason": "室内履き等の持参品と当日キャンセル料を事前確認。"
+            },
+            "cost": {
+              "grade": "B",
+              "reason": "主催者予約ページの参加費は1,000円（材料費込み）。"
+            },
+            "reservation": {
+              "grade": "C",
+              "reason": "事前申込・先着順、期限は11/14(土)。11/13閲覧時は受付中で空きあり、以後は変動。"
+            },
+            "family_value": {
+              "grade": "A",
+              "reason": "布リボンを巻いて作品を作る手作業を体験できる。対象年齢に合う子どもの休日の体験になる。"
+            }
+          }
+        },
+        "positive_signals": [
+          "child_explicit",
+          "hands_on",
+          "daytime",
+          "family_venue"
+        ],
+        "negative_signals": [
+          "reservation_difficult"
+        ],
+        "hard_exclusion": null,
+        "exclusion_type": null,
+        "primary_reason_code": "child_hands_on_class",
+        "reason_codes": [
+          "child_hands_on_class"
+        ],
+        "reasons": [
+          "主催者予約詳細で2026年の日程・対象年齢・料金・受付中を確認。申込期限と当日キャンセル条件を案内して掲載。"
+        ],
+        "evidence": [
+          {
+            "url": "https://nakano-hiromatimirai.resv.jp/reserve/calendar.php?x=1634516751",
+            "basis": "主催者予約詳細keyid=7398と公園担当部署の提供投稿を照合。"
+          }
+        ],
+        "override_reason": "",
+        "tradeoff_reason": ""
+      }
+    },
+    {
+      "tamemap_event_id": "160164",
+      "week": "2026-11-14",
+      "event": {
+        "id": "reviewed-20261115-nakano-160164",
+        "ward": "中野区",
+        "name": "ファミリーリトミック（広町みらい公園）",
+        "url": "https://nakano-hiromatimirai.resv.jp/reserve/calendar.php?x=1634516751",
+        "official_url": "https://nakano-hiromatimirai.resv.jp/reserve/calendar.php?x=1634516751",
+        "source": "https://nakano-hiromatimirai.resv.jp/reserve/calendar.php?x=1634516751",
+        "image": "https://pc.tamemap.net/tamemapapi/detail/a8bf0a17-d4cc-4a36-a8ff-5c92ec58e9d7.jpg",
+        "period": "11/15",
+        "date_start": "2026-11-15",
+        "date_end": "2026-11-15",
+        "time": "①9:50〜10:30／②10:50〜11:30",
+        "venue": "広町みらい公園・体験学習センター",
+        "price": "1回2,000円、兄弟姉妹の追加参加は1,000円",
+        "description": "親子でふれあいながら季節の音楽を楽しむ。①は首すわり頃の0歳〜2歳未満と保護者、②は2歳〜未就学児と保護者。両親・兄弟姉妹での参加も可能。①は申込がゼロの場合中止の可能性あり。",
+        "categories": [
+          "音楽",
+          "親子体験"
+        ],
+        "family_fit": {
+          "grade": "B",
+          "overall": "B",
+          "rubric_version": "family-fit-v2",
+          "reason": "主催者予約ページと公園担当部署の投稿で、対象年齢・時刻・料金・申込条件を照合。",
+          "axes": {
+            "child_target": {
+              "grade": "A",
+              "reason": "首すわり頃の0歳〜2歳未満／2歳〜未就学児の年齢別クラス。"
+            },
+            "interactivity": {
+              "grade": "A",
+              "reason": "親子でふれあいながら音楽と季節の活動を楽しむ。"
+            },
+            "age_fit": {
+              "grade": "A",
+              "reason": "首すわり頃の0歳〜2歳未満／2歳〜未就学児の年齢別クラス。"
+            },
+            "stay_flexibility": {
+              "grade": "C",
+              "reason": "時刻を定めた事前申込制の講座。途中入退場の可否は未記載。"
+            },
+            "burden": {
+              "grade": "B",
+              "reason": "年齢別の40分講座。当日キャンセル・無断欠席は病欠でも参加費が必要。"
+            },
+            "cost": {
+              "grade": "B",
+              "reason": "主催者予約ページの参加費は1回2,000円、兄弟姉妹の追加参加は1,000円。"
+            },
+            "reservation": {
+              "grade": "C",
+              "reason": "事前申込・先着順、期限は11/14(土)。11/13閲覧時は受付中で空きあり、以後は変動。"
+            },
+            "family_value": {
+              "grade": "A",
+              "reason": "親子でふれあいながら音楽と季節の活動を楽しむ。対象年齢に合う子どもの休日の体験になる。"
+            }
+          }
+        },
+        "reservation": {
+          "required": true,
+          "note": "事前申込・先着順。申込期限は11/14(土)。11/13の主催者予約ページでは受付中（空きは変動）。公園公式カレンダーで該当日・講座を選んで最新状況を確認。キャンセルは前日21時までに管理事務所へ電話。当日キャンセル・無断欠席は病欠でも参加費が必要。"
+        },
+        "indoor_outdoor": "",
+        "ai": {
+          "checked_at": "2026-11-13",
+          "confidence": "high",
+          "discovery_query": "前回保留候補を公園公式予約カレンダーへ辿り、本文・年・日付・対象・料金・受付状況を再照合。既存216レコードに同日同会場同講座なし。"
+        },
+        "discovery_sources": [
+          {
+            "channel": "explicit",
+            "source_id": "tamemap_nakano",
+            "kind": "recovered_detail_review",
+            "url": "https://pc.tamemap.net/1311401/event/160164/2026-11-15"
+          }
+        ]
+      },
+      "verification": {
+        "id": "reviewed-20261115-nakano-160164",
+        "status": "verified",
+        "source": "https://nakano-hiromatimirai.resv.jp/reserve/calendar.php?x=1634516751",
+        "source_kind": "venue_official",
+        "fields": {
+          "name": "pass",
+          "date": "pass",
+          "venue": "pass",
+          "time": "pass",
+          "price": "pass",
+          "reservation": "pass",
+          "official_url": "pass"
+        },
+        "corrections": {},
+        "note": "2026年・講座名・時刻・料金・対象年齢・受付中を公園の予約詳細で確認。会場は公園維持・管理係の提供投稿で照合。画像は同一イベント投稿で観測した素材で、事実推測には使用しない。リトミックは同日2クラスを1参加企画として掲載。",
+        "evidence": [
+          {
+            "url": "https://nakano-hiromatimirai.resv.jp/reserve/calendar.php?x=1634516751",
+            "checked_at": "2026-11-13T12:07:42.118045+00:00",
+            "sha256": "b7f71cd70bb75a674b2111512a2e62eb182062541dcdcd5b0325a4d2bc61e3f0",
+            "detail_keyid": "7399"
+          },
+          {
+            "url": "https://nakano-hiromatimirai.resv.jp/reserve/calendar.php?x=1634516751",
+            "checked_at": "2026-11-13T12:07:43.846776+00:00",
+            "sha256": "3012d3374df15e9cf190c1abced74ad8e35bdc6840f95990fdff83201a4fd0a4",
+            "detail_keyid": "7400"
+          },
+          {
+            "url": "https://pc.tamemap.net/1311401/event/160164/2026-11-15?locale=ja",
+            "checked_at": "2026-11-13T07:43:36+09:00",
+            "sha256": "e6291aa1a1d858b4de92471585419e4a6c6acb329329dfc192abe6b0f6082a41"
+          }
+        ]
+      },
+      "decision": {
+        "candidate_id": "reviewed-20261115-nakano-160164",
+        "name": "ファミリーリトミック（広町みらい公園）",
+        "ward": "中野区",
+        "decision": "published",
+        "family_fit": {
+          "grade": "B",
+          "overall": "B",
+          "rubric_version": "family-fit-v2",
+          "reason": "主催者予約ページと公園担当部署の投稿で、対象年齢・時刻・料金・申込条件を照合。",
+          "axes": {
+            "child_target": {
+              "grade": "A",
+              "reason": "首すわり頃の0歳〜2歳未満／2歳〜未就学児の年齢別クラス。"
+            },
+            "interactivity": {
+              "grade": "A",
+              "reason": "親子でふれあいながら音楽と季節の活動を楽しむ。"
+            },
+            "age_fit": {
+              "grade": "A",
+              "reason": "首すわり頃の0歳〜2歳未満／2歳〜未就学児の年齢別クラス。"
+            },
+            "stay_flexibility": {
+              "grade": "C",
+              "reason": "時刻を定めた事前申込制の講座。途中入退場の可否は未記載。"
+            },
+            "burden": {
+              "grade": "B",
+              "reason": "年齢別の40分講座。当日キャンセル・無断欠席は病欠でも参加費が必要。"
+            },
+            "cost": {
+              "grade": "B",
+              "reason": "主催者予約ページの参加費は1回2,000円、兄弟姉妹の追加参加は1,000円。"
+            },
+            "reservation": {
+              "grade": "C",
+              "reason": "事前申込・先着順、期限は11/14(土)。11/13閲覧時は受付中で空きあり、以後は変動。"
+            },
+            "family_value": {
+              "grade": "A",
+              "reason": "親子でふれあいながら音楽と季節の活動を楽しむ。対象年齢に合う子どもの休日の体験になる。"
+            }
+          }
+        },
+        "positive_signals": [
+          "child_explicit",
+          "hands_on",
+          "daytime",
+          "family_venue"
+        ],
+        "negative_signals": [
+          "reservation_difficult"
+        ],
+        "hard_exclusion": null,
+        "exclusion_type": null,
+        "primary_reason_code": "child_hands_on_class",
+        "reason_codes": [
+          "child_hands_on_class"
+        ],
+        "reasons": [
+          "主催者予約詳細で2026年の日程・対象年齢・料金・受付中を確認。申込期限と当日キャンセル条件を案内して掲載。"
+        ],
+        "evidence": [
+          {
+            "url": "https://nakano-hiromatimirai.resv.jp/reserve/calendar.php?x=1634516751",
+            "basis": "主催者予約詳細keyid=7399,7400と公園担当部署の提供投稿を照合。"
+          }
+        ],
+        "override_reason": "",
+        "tradeoff_reason": ""
+      }
+    },
+    {
+      "tamemap_event_id": "160131",
+      "week": "2026-11-21",
+      "event": {
+        "id": "reviewed-20261121-nakano-160131",
+        "ward": "中野区",
+        "name": "笑顔で楽しくおどるケイキフラ",
+        "url": "https://nakano-hiromatimirai.resv.jp/reserve/calendar.php?x=1634516751",
+        "official_url": "https://nakano-hiromatimirai.resv.jp/reserve/calendar.php?x=1634516751",
+        "source": "https://nakano-hiromatimirai.resv.jp/reserve/calendar.php?x=1634516751",
+        "image": "https://pc.tamemap.net/tamemapapi/detail/ca9f25bd-d4b8-4fd1-b5d3-63eceff2fbab.jpg",
+        "period": "11/21",
+        "date_start": "2026-11-21",
+        "date_end": "2026-11-21",
+        "time": "10:00〜10:45",
+        "venue": "広町みらい公園・体験学習センター",
+        "price": "1,500円",
+        "description": "年中〜小学生を対象に、音楽に合わせて体を動かすフラダンス。初心者も参加可能。パウスカート（フレアスカート）・飲み物・室内履きを持参。保護者の同伴は1名まで。",
+        "categories": [
+          "ダンス",
+          "体験"
+        ],
+        "family_fit": {
+          "grade": "B",
+          "overall": "B",
+          "rubric_version": "family-fit-v2",
+          "reason": "主催者予約ページと公園担当部署の投稿で、対象年齢・時刻・料金・申込条件を照合。",
+          "axes": {
+            "child_target": {
+              "grade": "A",
+              "reason": "年中〜小学生を対象。保護者同伴は1名まで。"
+            },
+            "interactivity": {
+              "grade": "A",
+              "reason": "音楽に合わせて体を動かし、フラダンスを踊る。"
+            },
+            "age_fit": {
+              "grade": "A",
+              "reason": "年中〜小学生を対象。保護者同伴は1名まで。"
+            },
+            "stay_flexibility": {
+              "grade": "C",
+              "reason": "時刻を定めた事前申込制の講座。途中入退場の可否は未記載。"
+            },
+            "burden": {
+              "grade": "B",
+              "reason": "室内履き等の持参品と当日キャンセル料を事前確認。"
+            },
+            "cost": {
+              "grade": "B",
+              "reason": "主催者予約ページの参加費は1,500円。"
+            },
+            "reservation": {
+              "grade": "C",
+              "reason": "事前申込・先着順、期限は11/20(金)。11/13閲覧時は受付中で空きあり、以後は変動。"
+            },
+            "family_value": {
+              "grade": "A",
+              "reason": "音楽に合わせて体を動かし、フラダンスを踊る。対象年齢に合う子どもの休日の体験になる。"
+            }
+          }
+        },
+        "reservation": {
+          "required": true,
+          "note": "事前申込・先着順。申込期限は11/20(金)。11/13の主催者予約ページでは受付中（空きは変動）。公園公式カレンダーで該当日・講座を選んで最新状況を確認。キャンセルは前日21時までに管理事務所へ電話。当日キャンセル・無断欠席は病欠でも参加費が必要。"
+        },
+        "indoor_outdoor": "",
+        "ai": {
+          "checked_at": "2026-11-13",
+          "confidence": "high",
+          "discovery_query": "前回保留候補を公園公式予約カレンダーへ辿り、本文・年・日付・対象・料金・受付状況を再照合。既存216レコードに同日同会場同講座なし。"
+        },
+        "discovery_sources": [
+          {
+            "channel": "explicit",
+            "source_id": "tamemap_nakano",
+            "kind": "recovered_detail_review",
+            "url": "https://pc.tamemap.net/1311401/event/160131/2026-11-21"
+          }
+        ]
+      },
+      "verification": {
+        "id": "reviewed-20261121-nakano-160131",
+        "status": "verified",
+        "source": "https://nakano-hiromatimirai.resv.jp/reserve/calendar.php?x=1634516751",
+        "source_kind": "venue_official",
+        "fields": {
+          "name": "pass",
+          "date": "pass",
+          "venue": "pass",
+          "time": "pass",
+          "price": "pass",
+          "reservation": "pass",
+          "official_url": "pass"
+        },
+        "corrections": {},
+        "note": "2026年・講座名・時刻・料金・対象年齢・受付中を公園の予約詳細で確認。会場は公園維持・管理係の提供投稿で照合。画像は同一イベント投稿で観測した素材で、事実推測には使用しない。",
+        "evidence": [
+          {
+            "url": "https://nakano-hiromatimirai.resv.jp/reserve/calendar.php?x=1634516751",
+            "checked_at": "2026-11-13T12:07:45.749246+00:00",
+            "sha256": "addb7f2992cddf11f60cb469f3e6cf8d750118a8b1839190793fdfd57195bfd8",
+            "detail_keyid": "7388"
+          },
+          {
+            "url": "https://pc.tamemap.net/1311401/event/160131/2026-11-21?locale=ja",
+            "checked_at": "2026-11-13T07:43:53+09:00",
+            "sha256": "cf80fc720ef82605fb0f526e66f1bfaaaeb141bcf21b02f74d0541d68b7f1919"
+          }
+        ]
+      },
+      "decision": {
+        "candidate_id": "reviewed-20261121-nakano-160131",
+        "name": "笑顔で楽しくおどるケイキフラ",
+        "ward": "中野区",
+        "decision": "published",
+        "family_fit": {
+          "grade": "B",
+          "overall": "B",
+          "rubric_version": "family-fit-v2",
+          "reason": "主催者予約ページと公園担当部署の投稿で、対象年齢・時刻・料金・申込条件を照合。",
+          "axes": {
+            "child_target": {
+              "grade": "A",
+              "reason": "年中〜小学生を対象。保護者同伴は1名まで。"
+            },
+            "interactivity": {
+              "grade": "A",
+              "reason": "音楽に合わせて体を動かし、フラダンスを踊る。"
+            },
+            "age_fit": {
+              "grade": "A",
+              "reason": "年中〜小学生を対象。保護者同伴は1名まで。"
+            },
+            "stay_flexibility": {
+              "grade": "C",
+              "reason": "時刻を定めた事前申込制の講座。途中入退場の可否は未記載。"
+            },
+            "burden": {
+              "grade": "B",
+              "reason": "室内履き等の持参品と当日キャンセル料を事前確認。"
+            },
+            "cost": {
+              "grade": "B",
+              "reason": "主催者予約ページの参加費は1,500円。"
+            },
+            "reservation": {
+              "grade": "C",
+              "reason": "事前申込・先着順、期限は11/20(金)。11/13閲覧時は受付中で空きあり、以後は変動。"
+            },
+            "family_value": {
+              "grade": "A",
+              "reason": "音楽に合わせて体を動かし、フラダンスを踊る。対象年齢に合う子どもの休日の体験になる。"
+            }
+          }
+        },
+        "positive_signals": [
+          "child_explicit",
+          "hands_on",
+          "daytime",
+          "family_venue"
+        ],
+        "negative_signals": [
+          "reservation_difficult"
+        ],
+        "hard_exclusion": null,
+        "exclusion_type": null,
+        "primary_reason_code": "child_hands_on_class",
+        "reason_codes": [
+          "child_hands_on_class"
+        ],
+        "reasons": [
+          "主催者予約詳細で2026年の日程・対象年齢・料金・受付中を確認。申込期限と当日キャンセル条件を案内して掲載。"
+        ],
+        "evidence": [
+          {
+            "url": "https://nakano-hiromatimirai.resv.jp/reserve/calendar.php?x=1634516751",
+            "basis": "主催者予約詳細keyid=7388と公園担当部署の提供投稿を照合。"
+          }
+        ],
+        "override_reason": "",
+        "tradeoff_reason": ""
+      }
+    },
+    {
+      "tamemap_event_id": "160190",
+      "week": "2026-11-21",
+      "event": {
+        "id": "reviewed-20261122-nakano-160190",
+        "ward": "中野区",
+        "name": "はじめてのキッズダンス",
+        "url": "https://nakano-hiromatimirai.resv.jp/reserve/calendar.php?x=1634516751",
+        "official_url": "https://nakano-hiromatimirai.resv.jp/reserve/calendar.php?x=1634516751",
+        "source": "https://nakano-hiromatimirai.resv.jp/reserve/calendar.php?x=1634516751",
+        "image": "https://pc.tamemap.net/tamemapapi/detail/c6b16ac8-3232-40c3-a6fe-0d40d4255225.jpg",
+        "period": "11/22",
+        "date_start": "2026-11-22",
+        "date_end": "2026-11-22",
+        "time": "13:30〜14:20",
+        "venue": "広町みらい公園・体験学習センター 体験学習室A",
+        "price": "1,500円",
+        "description": "3〜6歳向けにポーズやステップを練習するダンス講座。室内履き・飲み物・タオルを用意し、動きやすい服装で参加。付き添いは1名まで。体験学習室Aで開催し、受付は2階管理事務所窓口。",
+        "categories": [
+          "ダンス",
+          "体験"
+        ],
+        "family_fit": {
+          "grade": "B",
+          "overall": "B",
+          "rubric_version": "family-fit-v2",
+          "reason": "主催者予約ページと公園担当部署の投稿で、対象年齢・時刻・料金・申込条件を照合。",
+          "axes": {
+            "child_target": {
+              "grade": "A",
+              "reason": "3〜6歳対象。付き添いは1名まで。"
+            },
+            "interactivity": {
+              "grade": "A",
+              "reason": "ポーズやステップを練習する参加型ダンス講座。"
+            },
+            "age_fit": {
+              "grade": "A",
+              "reason": "3〜6歳対象。付き添いは1名まで。"
+            },
+            "stay_flexibility": {
+              "grade": "C",
+              "reason": "時刻を定めた事前申込制の講座。途中入退場の可否は未記載。"
+            },
+            "burden": {
+              "grade": "B",
+              "reason": "室内履き等の持参品と当日キャンセル料を事前確認。"
+            },
+            "cost": {
+              "grade": "B",
+              "reason": "主催者予約ページの参加費は1,500円。"
+            },
+            "reservation": {
+              "grade": "C",
+              "reason": "事前申込・先着順、期限は11/21(土)。11/13閲覧時は受付中で空きあり、以後は変動。"
+            },
+            "family_value": {
+              "grade": "A",
+              "reason": "ポーズやステップを練習する参加型ダンス講座。対象年齢に合う子どもの休日の体験になる。"
+            }
+          }
+        },
+        "reservation": {
+          "required": true,
+          "note": "事前申込・先着順。申込期限は11/21(土)。11/13の主催者予約ページでは受付中（空きは変動）。公園公式カレンダーで該当日・講座を選んで最新状況を確認。"
+        },
+        "indoor_outdoor": "",
+        "ai": {
+          "checked_at": "2026-11-13",
+          "confidence": "high",
+          "discovery_query": "前回保留候補を公園公式予約カレンダーへ辿り、本文・年・日付・対象・料金・受付状況を再照合。既存216レコードに同日同会場同講座なし。"
+        },
+        "discovery_sources": [
+          {
+            "channel": "explicit",
+            "source_id": "tamemap_nakano",
+            "kind": "recovered_detail_review",
+            "url": "https://pc.tamemap.net/1311401/event/160190/2026-11-22"
+          }
+        ]
+      },
+      "verification": {
+        "id": "reviewed-20261122-nakano-160190",
+        "status": "verified",
+        "source": "https://nakano-hiromatimirai.resv.jp/reserve/calendar.php?x=1634516751",
+        "source_kind": "venue_official",
+        "fields": {
+          "name": "pass",
+          "date": "pass",
+          "venue": "pass",
+          "time": "pass",
+          "price": "pass",
+          "reservation": "pass",
+          "official_url": "pass"
+        },
+        "corrections": {},
+        "note": "2026年・講座名・時刻・料金・対象年齢・受付中を公園の予約詳細で確認。会場は公園維持・管理係の提供投稿で照合。画像は同一イベント投稿で観測した素材で、事実推測には使用しない。",
+        "evidence": [
+          {
+            "url": "https://nakano-hiromatimirai.resv.jp/reserve/calendar.php?x=1634516751",
+            "checked_at": "2026-11-13T12:07:47.655830+00:00",
+            "sha256": "56e61c4dd842021beb3e9e84dbddabf45390c475a61046d29b2ce0a25076bee5",
+            "detail_keyid": "7409"
+          },
+          {
+            "url": "https://pc.tamemap.net/1311401/event/160190/2026-11-22?locale=ja",
+            "checked_at": "2026-11-13T07:44:16+09:00",
+            "sha256": "7a8e670714df7a35c8425288889584a5f80796278a086f782effb233f92cbe00"
+          }
+        ]
+      },
+      "decision": {
+        "candidate_id": "reviewed-20261122-nakano-160190",
+        "name": "はじめてのキッズダンス",
+        "ward": "中野区",
+        "decision": "published",
+        "family_fit": {
+          "grade": "B",
+          "overall": "B",
+          "rubric_version": "family-fit-v2",
+          "reason": "主催者予約ページと公園担当部署の投稿で、対象年齢・時刻・料金・申込条件を照合。",
+          "axes": {
+            "child_target": {
+              "grade": "A",
+              "reason": "3〜6歳対象。付き添いは1名まで。"
+            },
+            "interactivity": {
+              "grade": "A",
+              "reason": "ポーズやステップを練習する参加型ダンス講座。"
+            },
+            "age_fit": {
+              "grade": "A",
+              "reason": "3〜6歳対象。付き添いは1名まで。"
+            },
+            "stay_flexibility": {
+              "grade": "C",
+              "reason": "時刻を定めた事前申込制の講座。途中入退場の可否は未記載。"
+            },
+            "burden": {
+              "grade": "B",
+              "reason": "室内履き等の持参品と当日キャンセル料を事前確認。"
+            },
+            "cost": {
+              "grade": "B",
+              "reason": "主催者予約ページの参加費は1,500円。"
+            },
+            "reservation": {
+              "grade": "C",
+              "reason": "事前申込・先着順、期限は11/21(土)。11/13閲覧時は受付中で空きあり、以後は変動。"
+            },
+            "family_value": {
+              "grade": "A",
+              "reason": "ポーズやステップを練習する参加型ダンス講座。対象年齢に合う子どもの休日の体験になる。"
+            }
+          }
+        },
+        "positive_signals": [
+          "child_explicit",
+          "hands_on",
+          "daytime",
+          "family_venue"
+        ],
+        "negative_signals": [
+          "reservation_difficult"
+        ],
+        "hard_exclusion": null,
+        "exclusion_type": null,
+        "primary_reason_code": "child_hands_on_class",
+        "reason_codes": [
+          "child_hands_on_class"
+        ],
+        "reasons": [
+          "主催者予約詳細で2026年の日程・対象年齢・料金・受付中を確認。申込期限と当日キャンセル条件を案内して掲載。"
+        ],
+        "evidence": [
+          {
+            "url": "https://nakano-hiromatimirai.resv.jp/reserve/calendar.php?x=1634516751",
+            "basis": "主催者予約詳細keyid=7409と公園担当部署の提供投稿を照合。"
+          }
+        ],
+        "override_reason": "",
+        "tradeoff_reason": ""
+      }
+    }
+  ]
+}

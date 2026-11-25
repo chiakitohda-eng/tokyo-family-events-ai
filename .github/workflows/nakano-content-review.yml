@@ -1,0 +1,44 @@
+name: Verify six reviewed Nakano additions without changing published data
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - 'tools/validate_nakano_review_addition.py'
+      - 'tests/test_nakano_review_gate.py'
+      - 'research/nakano_content_review_20261113/**'
+      - '.github/workflows/nakano-content-review.yml'
+  workflow_dispatch: {}
+permissions:
+  contents: read
+jobs:
+  review:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          path: scanner
+      - uses: actions/checkout@v4
+        with:
+          ref: bd4ec22347d0d5cac1df1fa9e47fdd9e07b7356d
+          path: candidate
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Regression suite including old-record and source-error preservation
+        working-directory: scanner
+        run: npm test
+      - name: Verify the frozen twelve-file data candidate and all existing records
+        working-directory: candidate
+        run: |
+          python3 ../scanner/tools/validate_nakano_review_addition.py --base-ref 0dc84f68a3cd4ec3e32b8a28e6fa541b86f1dbe8
+          python3 ../scanner/tools/validate_data.py --strict --min-image-coverage 0.70 site/data
+          python3 ../scanner/tools/validate_decisions.py --strict site/data
+          python3 ../scanner/tools/validate_rereview.py --strict site/data
+          python3 ../scanner/tools/audit_event_image_identity.py --strict site/data
+          python3 ../scanner/tools/validate_protected_events.py --base-ref 0dc84f68a3cd4ec3e32b8a28e6fa541b86f1dbe8 site/data
+          python3 ../scanner/tools/validate_non_regression.py --base-ref 0dc84f68a3cd4ec3e32b8a28e6fa541b86f1dbe8 site/data

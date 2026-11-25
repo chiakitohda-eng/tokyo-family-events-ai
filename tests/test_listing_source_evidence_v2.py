@@ -34,6 +34,20 @@ def snapshot():
 
 
 class Phase2Tests(unittest.TestCase):
+    def test_itabashi_nested_object_category_keeps_article_and_pagination(self):
+        p = Page()
+        p.feed('''<article><a href="/archives/kayaku-koukai2026.html"
+          title="火薬製造所跡 秋の一般公開 2026年11月22日">
+          <h3>火薬製造所跡 秋の一般公開</h3>
+          <object><a href="/category/event">イベント情報</a></object>
+          </a></article><a href="/category/event/page/2">2</a>''')
+        articles = extract_articles(p, ITABASHI, SOURCES["itabashi_times_event"])
+        self.assertEqual(len(articles), 1)
+        self.assertEqual(articles[0][0], "https://itabashi-times.com/archives/kayaku-koukai2026.html")
+        self.assertEqual(articles[0][1], "火薬製造所跡 秋の一般公開 2026年11月22日")
+        self.assertEqual(next_pages(p, ITABASHI, SOURCES["itabashi_times_event"]), [ITABASHI + "/page/2"])
+        self.assertTrue(any(a["label"] == "イベント情報" for a in p.links))
+
     def test_nakano_event_heading_and_generic_more_link(self):
         p = Page()
         p.feed(heading_event("MIYA SONIC 2026", "/event-info/event-3846/"))

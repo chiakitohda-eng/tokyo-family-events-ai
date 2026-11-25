@@ -1,0 +1,61 @@
+name: Verify all 851 non-Tamemap adjudications and preserve all published records
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - 'tools/validate_all_non_tamemap_addition.py'
+      - 'tests/test_all_non_tamemap_gate.py'
+      - 'research/all_non_tamemap_review_20261114/**'
+      - '.github/workflows/all-non-tamemap-review.yml'
+  workflow_dispatch: {}
+permissions:
+  contents: read
+jobs:
+  review:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          path: scanner
+      - uses: actions/checkout@v4
+        with:
+          ref: 847e388e65b99e38a0f108ecc96009778b3fdcd2
+          path: candidate
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Regression suite including old-record and source-error preservation
+        working-directory: scanner
+        run: |
+          npm test
+      - name: Verify the frozen 27-file data candidate and all existing records
+        working-directory: candidate
+        run: |
+          python3 -m unittest discover -s ../scanner/tests -p test_all_non_tamemap_gate.py
+          python3 ../scanner/tools/validate_all_non_tamemap_addition.py --base-ref d05e78f3550ec0f302ab5a3c6550414e7dce5391
+          python3 ../scanner/tools/validate_data.py --strict --min-image-coverage 0.70 site/data
+          python3 ../scanner/tools/validate_decisions.py --strict site/data
+          python3 ../scanner/tools/validate_rereview.py --strict site/data
+          python3 ../scanner/tools/audit_event_image_identity.py --strict site/data
+          python3 ../scanner/tools/validate_protected_events.py --base-ref d05e78f3550ec0f302ab5a3c6550414e7dce5391 site/data
+          python3 ../scanner/tools/validate_non_regression.py --base-ref d05e78f3550ec0f302ab5a3c6550414e7dce5391 site/data
+          python3 ../scanner/tools/validate_family_fit_quality.py --base-ref d05e78f3550ec0f302ab5a3c6550414e7dce5391
+      - uses: actions/checkout@v4
+        with:
+          ref: 8acf87c86dca2370ee075248645e1bfc5e2aeadb
+          path: app-candidate
+          fetch-depth: 0
+      - name: Verify isolated factual guidance refresh
+        working-directory: app-candidate
+        shell: bash
+        run: |
+          set -euo pipefail
+          test "$(git rev-parse HEAD^)" = "f05bfe3698c0d61ece44509c4c8d8597e058125f"
+          test "$(git diff --name-only HEAD^ HEAD)" = "site/audit/pending_issues_catalog.json"
+          git diff --quiet HEAD^ HEAD -- site/data prompts policy tools
+          npm test

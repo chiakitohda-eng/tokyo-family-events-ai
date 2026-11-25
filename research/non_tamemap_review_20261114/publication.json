@@ -1,0 +1,29 @@
+{
+  "verified_at": "2026-11-14T07:56:27.590483+00:00",
+  "public_total": 448,
+  "old_records_unchanged": 408,
+  "added_records": 40,
+  "new_programs": 29,
+  "week_counts": {
+    "2026-11-07": 52,
+    "2026-11-14": 107,
+    "2026-11-21": 116,
+    "2026-11-28": 73,
+    "2026-12-05": 57,
+    "2026-12-12": 43
+  },
+  "files_compared": 81,
+  "all_files_match_candidate": true,
+  "history_preserved": true,
+  "candidate_sha": "9dce04230d9a8a257f8ce6d035f66122250d5d69",
+  "base_data_production_sha": "6aac4355afd8da739885d4ce6f3c64e84c7e5514",
+  "pages_run": 43573187010,
+  "data_release": "data-release/2026-11-14-r658",
+  "production_app_unchanged": "e311ee769291a84ff7d6b070ac306f6da3b03977",
+  "app_version": "v1.33",
+  "main": "af21e15bcd2495bbff455f712d05e4d340e330c9",
+  "production": "e311ee769291a84ff7d6b070ac306f6da3b03977",
+  "data_staging": "9dce04230d9a8a257f8ce6d035f66122250d5d69",
+  "data_production": "9dce04230d9a8a257f8ce6d035f66122250d5d69",
+  "data_release_sha": "9dce04230d9a8a257f8ce6d035f66122250d5d69"
+}

@@ -42,6 +42,15 @@ class DiffGovernanceTests(unittest.TestCase):
         self.assertEqual(result["unclassified"], ["site/app.js"])
         self.assertEqual(result["site_or_prompt_differences"], ["site/app.js"])
 
+    def test_reviewed_staging_ui_is_reported_as_unreleased(self):
+        inventory=fixture()
+        inventory['allowed_differences'].append({'path':'site/staged-ui.js','kind':'staging_only','disposition':'intentional_staging_only','reason':'isolated staging feature','release_state':'pending_release'})
+        actual={'.github/release-trigger.txt':'different','research/history.json':'staging_only','site/staged-ui.js':'staging_only'}
+        result=audit.classify(actual,inventory)
+        self.assertEqual(result['pending_release_paths'],['site/staged-ui.js'])
+        self.assertEqual(result['unclassified'],[])
+        self.assertEqual(result['site_or_prompt_differences'],['site/staged-ui.js'])
+
     def test_kind_changed_requires_review(self):
         result = audit.classify({
             ".github/release-trigger.txt": "staging_only",

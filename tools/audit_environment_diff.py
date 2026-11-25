@@ -76,6 +76,7 @@ def classify(actual, inventory):
                      or path.startswith("prompts/"))
     return {
         "approved": matching,
+        "pending_release_paths": sorted(path for path in matching if approved[path].get("release_state") == "pending_release"),
         "unclassified": unclassified,
         "wrong_kind": wrong_kind,
         "resolved_allowlist": resolved,
@@ -145,6 +146,8 @@ def main(argv=None):
                   "but are NOT approved for production by this inventory.")
             for path in result["site_or_prompt_differences"]:
                 print(f"  PENDING APP CHANGE: {path}")
+        for path in result["pending_release_paths"]:
+            print(f"  REVIEWED STAGING ONLY, NOT APPROVED FOR RELEASE: {path}")
         print("Data branch is independent: compare data-staging and data-production "
               "using tools/validate_protected_events.py; this audit does not authorize deletions.")
     if args.strict and result["status"] != "approved_difference_only":

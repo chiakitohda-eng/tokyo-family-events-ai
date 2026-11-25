@@ -55,7 +55,7 @@ class Page(HTMLParser):
     def __init__(self):
         super().__init__(convert_charrefs=True)
         self.links, self.headings, self.texts = [], [], []
-        self.anchor, self.heading, self.skip = None, None, 0
+        self.anchors, self.heading, self.skip = [], None, 0
         self.rel_next = []
 
     def handle_starttag(self, tag, attrs):
@@ -67,9 +67,12 @@ class Page(HTMLParser):
         if tag in ("h1", "h2", "h3", "h4"):
             self.heading = []
         if tag == "a":
-            self.anchor = {"href": attrs.get("href", ""), "text": [],
+            # Itabashi cards contain a category link inside an <object> in
+            # the outer article anchor. A single current-anchor slot loses
+            # every article URL when that nested link starts.
+            self.anchors.append({"href": attrs.get("href", ""), "text": [],
                            "heading": self.headings[-1] if self.headings else "",
-                           "rel": attrs.get("rel", "")}
+                           "rel": attrs.get("rel", ""), "title": attrs.get("title", "")})
         if tag == "link" and "next" in attrs.get("rel", "").lower():
             self.rel_next.append(attrs.get("href", ""))
 
@@ -79,8 +82,8 @@ class Page(HTMLParser):
         value = " ".join(value.split())
         if not value:
             return
-        if self.anchor is not None:
-            self.anchor["text"].append(value)
+        if self.anchors:
+            self.anchors[-1]["text"].append(value)
         if self.heading is not None:
             self.heading.append(value)
         self.texts.append(value)
@@ -96,12 +99,11 @@ class Page(HTMLParser):
             if title:
                 self.headings.append(title)
             self.heading = None
-        if tag == "a" and self.anchor is not None:
-            a = self.anchor
-            a["label"] = " ".join(a["text"])
+        if tag == "a" and self.anchors:
+            a = self.anchors.pop()
+            a["label"] = a["title"] or " ".join(a["text"])
             a["nearby_text"] = " ".join(self.texts[-12:])[:900]
             self.links.append(a)
-            self.anchor = None
 
 
 def fetch(url, fetcher=None):

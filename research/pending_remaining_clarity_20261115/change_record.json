@@ -1,0 +1,143 @@
+{
+  "updated_at": "2026-11-15T04:51:14.014354+00:00",
+  "request": "残が何かを明確にしてサイト更新",
+  "work_status": "pending",
+  "unresolved_ids": [
+    "21",
+    "22",
+    "31",
+    "33",
+    "55",
+    "149",
+    "226",
+    "249",
+    "cambodia-water-festival"
+  ],
+  "unpublished": 8,
+  "published_with_unresolved_end_time": 1,
+  "outbound_contact_allowed": false,
+  "outbound_sent": 0,
+  "latest_user_contact_instruction": "「よいです」の後の「ダメです」を優先。外部問い合わせは行わない。",
+  "event_records_preserved": 605,
+  "details": [
+    {
+      "id": "21",
+      "name": "おかのうえプレイルーム「プレム」",
+      "blocker": "開催年・12月の休止予定",
+      "confirmed": "主催者の画像告知に11月28日（土）9:30〜11:30、ボクササイズ・ヨガ、無料・予約不要の記載があります。",
+      "missing": "11月28日の告知が2026年の開催か、12月休止のお知らせがプレムも対象か。",
+      "publication_impact": "開催年を確認できるまで、今年の開催分としては掲載を保留しています。",
+      "needed_evidence": "主催者が開催年を明記した案内、または当年の開催予定表。",
+      "publication_status": "未掲載・掲載保留"
+    },
+    {
+      "id": "22",
+      "name": "おもちゃDAY",
+      "blocker": "当年の継続・具体的な開催日",
+      "confirmed": "過去の公式案内は毎月第1土曜10:30〜16:00、キングス・カフェ、無料の木のおもちゃ遊びです。",
+      "missing": "2026年も継続しているか、12月5日の実施・休止と参加条件。",
+      "publication_impact": "今年の開催日が確定できず、新規掲載を保留しています。",
+      "needed_evidence": "会場運営法人の当年カレンダーや開催・休止の告知。",
+      "publication_status": "未掲載・掲載保留"
+    },
+    {
+      "id": "31",
+      "name": "にこにこランチ食堂",
+      "blocker": "具体的な開催日・同名企画の特定",
+      "confirmed": "過去の社協案内には、城山ふれあいの家さくら館2階、月1回不定期12:00〜13:30、大人300円・子ども無料とあります。",
+      "missing": "当年の具体的な実施日。同じ会場の「にこにこ茶屋」「城山みんなの食堂」と同一の企画か。",
+      "publication_impact": "日付と企画を特定できず、掲載を保留しています。",
+      "needed_evidence": "「にこにこランチ食堂」の名称・日付・会場がそろった当年の公式案内。",
+      "publication_status": "未掲載・掲載保留"
+    },
+    {
+      "id": "33",
+      "name": "はるさんのおしゃべりサロン",
+      "blocker": "子どもの参加条件・当年の実施日",
+      "confirmed": "社協の現行一覧では、第1土曜10:00〜12:00、宮二町会集会所、300円の茶話会です。",
+      "missing": "当年の具体的な開催日、子ども同伴の条件と家族で参加できる活動内容。",
+      "publication_impact": "子連れの参加条件を確認できず、掲載を保留しています。",
+      "needed_evidence": "社協が公開する対象者・活動内容・当年日程の案内。",
+      "publication_status": "未掲載・掲載保留"
+    },
+    {
+      "id": "55",
+      "name": "がきんちょ食堂",
+      "blocker": "開催日・会場・参加条件",
+      "confirmed": "足立区の公式案内には地域食堂として掲載され、会場は南花畑住区センター「等」となっています。",
+      "missing": "2026年11〜12月の実施日・会場・時刻・料金・対象・申込条件。主催者サイトの告知は閲覧できていません。",
+      "publication_impact": "日付と会場を確定できず、掲載を保留しています。",
+      "needed_evidence": "足立区または主催者が公開する、次回の日付と会場が明記されたチラシ。",
+      "publication_status": "未掲載・掲載保留"
+    },
+    {
+      "id": "149",
+      "name": "港区の高齢者入浴案内（元記事消失）",
+      "blocker": "元の記事が何の案内だったか",
+      "confirmed": "元の港区ページは見つかりません。現在の「高齢者無料入浴券」は70歳以上の区民向けの年間給付制度です。",
+      "missing": "元の記事が現行制度と同じか、別の開催行事か。個別行事なら日付・会場・対象条件。",
+      "publication_impact": "元の企画を特定できず、家族向けイベントとしての掲載を保留しています。",
+      "needed_evidence": "港区の公式移転案内・保存資料、または元の記事を特定できる公式説明。",
+      "publication_status": "未掲載・掲載保留"
+    },
+    {
+      "id": "226",
+      "name": "働く人の湯｜杉並区公式ホームページ",
+      "blocker": "浴場ごとの実施日・営業時間",
+      "confirmed": "杉並区と浴場組合の告知で「働く人の湯」を確認していますが、実施日は浴場によって異なります。",
+      "missing": "杉並区内の各浴場が実施する具体的な日付と営業時間。",
+      "publication_impact": "全浴場を11月23日開催として一括掲載せず、個別の開催確認を待っています。",
+      "needed_evidence": "対象浴場が日付と営業時間を明記した当年の公式告知。",
+      "publication_status": "未掲載・掲載保留"
+    },
+    {
+      "id": "249",
+      "name": "ハロウィンパレード フォトアルバム",
+      "blocker": "開催年",
+      "confirmed": "施設公式案内では、写真展示は10月31日〜11月15日、2階Exhibit Alley、10:00〜20:00（最終日は17:00まで）です。",
+      "missing": "この写真展示の開催年が2026年か。記事・チラシには年の明記を確認できていません。",
+      "publication_impact": "開催年を確定できず、今年の開催分としての掲載を保留しています。",
+      "needed_evidence": "施設が2026年の展示と明記した告知や開催記録。",
+      "publication_status": "未掲載・掲載保留"
+    },
+    {
+      "id": "cambodia-water-festival",
+      "name": "カンボジア水祭り",
+      "blocker": "終了時刻の不一致",
+      "confirmed": "主催者の2026年ポスターで11月21・22日、代々木公園ケヤキ並木、入場無料を確認し、本番へ掲載済みです。",
+      "missing": "主催者は18:00終了、公園管理者は19:00終了と案内しており、正しい終了時刻が未確定です。",
+      "publication_impact": "掲載済みです。画面に18:00／19:00の両記載と確認が必要なことを明示しています。",
+      "needed_evidence": "主催者または公園管理者が終了時刻の差異を解消した公式案内。",
+      "publication_status": "掲載済み・終了時刻未確定"
+    }
+  ],
+  "event_data_changes": false,
+  "local_browser_proof": [
+    {
+      "width": 390,
+      "unresolved_rows": 9,
+      "unpublished": 8,
+      "published_time_unresolved": 1,
+      "reviewed_history_rows": 11,
+      "all_rows_have_four_explicit_fields": true,
+      "all_details_initially_closed": true,
+      "external_contact_not_authorized_visible": true,
+      "keyboard_toggle": true,
+      "filters": true,
+      "no_overflow": true
+    },
+    {
+      "width": 1280,
+      "unresolved_rows": 9,
+      "unpublished": 8,
+      "published_time_unresolved": 1,
+      "reviewed_history_rows": 11,
+      "all_rows_have_four_explicit_fields": true,
+      "all_details_initially_closed": true,
+      "external_contact_not_authorized_visible": true,
+      "keyboard_toggle": true,
+      "filters": true,
+      "no_overflow": true
+    }
+  ]
+}

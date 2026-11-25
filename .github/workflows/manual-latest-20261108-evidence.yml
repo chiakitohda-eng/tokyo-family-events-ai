@@ -1,0 +1,120 @@
+name: Manual latest six-week evidence 2026-11-08
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/manual-latest-20261108-evidence.yml'
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+jobs:
+  evidence:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          path: scanner
+      - uses: actions/checkout@v4
+        with:
+          ref: production
+          path: released
+      - uses: actions/checkout@v4
+        with:
+          ref: data-production
+          path: data-src
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Verify released prompt governance
+        working-directory: released
+        run: node .github/scripts/validate-prompt-history.mjs
+      - name: Build manual current six-week plan
+        shell: bash
+        run: |
+          mkdir -p "$RUNNER_TEMP/latest-audit"
+          PYTHONPATH=scanner/tools python3 - "$RUNNER_TEMP/latest-audit/plan.json" <<'PY'
+          import datetime as dt, json, subprocess, sys
+          from pathlib import Path
+          from rolling_horizon import load_official_holidays, source_targets, HOLIDAY_PAGE, CSV_URL, TIERS
+          day=dt.date(2026,11,8)
+          first=dt.date(2026,11,14)
+          end=dt.date(2026,12,20)
+          manifest=json.load(open('data-src/site/data/manifest.json'))
+          sources=json.load(open('released/site/data/discovery_sources.json'))
+          from source_fallback_policy import apply_fallback_overlay
+          sources=apply_fallback_overlay(sources)
+          base=subprocess.check_output(['git','-C','data-src','rev-parse','HEAD'],text=True).strip()
+          holidays=load_official_holidays()
+          weeks=[]
+          prev={w.get('sat'):w for w in manifest.get('weekends',[])}
+          for i,tier in enumerate(TIERS):
+              sat=first+dt.timedelta(days=7*i); sun=sat+dt.timedelta(days=1)
+              prior=prev.get(sat.isoformat())
+              weeks.append({'sat':sat.isoformat(),'sun':sun.isoformat(),'file':sat.isoformat()+'.json',
+                            'horizon_index':i+1,'publication_tier':tier,'status':'pending',
+                            'action':'re_audit' if prior else 'discover_and_verify',
+                            'existing_file':prior.get('file') if prior else None})
+          holiday_targets=[{'date':d.isoformat(),'name':name,
+                            'day_type':'weekday_holiday' if d.weekday()<5 else 'weekend_holiday',
+                            'requires_independent_23_ward_search':d.weekday()<5}
+                           for d,name in sorted(holidays.items()) if day<=d<=end]
+          plan={'schema_version':1,'as_of_jst':day.isoformat(),'holiday_source':HOLIDAY_PAGE,
+                'holiday_csv':CSV_URL,'base_data_production_sha':base,'read_only':True,
+                'app_code_changes_allowed':False,'published_version_changes_allowed':False,
+                'status':'eligible','run_type':'manual_current_rollover',
+                'target_start':day.isoformat(),'target_end':end.isoformat(),
+                'rolling_horizon_weeks':6,'weekends':weeks,'holiday_targets':holiday_targets,
+                'explicit_source_checks':source_targets(sources,day,end),
+                'retired_week_starts':sorted(set(prev)-{w['sat'] for w in weeks}),
+                'candidate_status':'not_generated','publication_permitted':False,
+                'note':'User-requested current-date read-only evidence run; publication requires individual review and strict CI.'}
+          Path(sys.argv[1]).write_text(json.dumps(plan,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+          PY
+      - name: Crawl official and cross-search sources
+        continue-on-error: true
+        shell: bash
+        run: |
+          python3 scanner/tools/holiday_after_collect.py \
+            --plan "$RUNNER_TEMP/latest-audit/plan.json" \
+            --output-dir "$RUNNER_TEMP/latest-audit" \
+            --supplemental-config scanner/policy/nakano_supplemental_sources.json \
+            --workers 12
+      - name: Build reviewer packet
+        if: always()
+        shell: bash
+        run: |
+          if [ -f "$RUNNER_TEMP/latest-audit/summary.json" ] && [ -f "$RUNNER_TEMP/latest-audit/candidate_pool.json" ]; then
+            python3 scanner/tools/holiday_after_review_packet.py \
+              --plan "$RUNNER_TEMP/latest-audit/plan.json" \
+              --evidence-dir "$RUNNER_TEMP/latest-audit" \
+              --published-data data-src/site/data \
+              --output "$RUNNER_TEMP/latest-audit/review_packet.json"
+          fi
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: manual-latest-20261108-evidence
+          path: ${{ runner.temp }}/latest-audit/
+          retention-days: 30
+          if-no-files-found: error
+      - name: Summarize evidence
+        if: always()
+        shell: bash
+        run: |
+          python3 - "${{ runner.temp }}/latest-audit" <<'PY'
+          import json, pathlib, sys
+          p=pathlib.Path(sys.argv[1])
+          for name in ('plan','summary','review_packet'):
+              f=p/(name+'.json')
+              if f.exists():
+                  d=json.load(open(f))
+                  if name=='summary':
+                      print(json.dumps({k:v for k,v in d.items() if k not in ('wards','annual_schedule')},ensure_ascii=False))
+                  elif name=='review_packet':
+                      print('weeks',[(w['sat'],w['prior_published_count'],w['carryover_review_count'],w['suggested_discoveries_count']) for w in d['weeks']])
+          PY
