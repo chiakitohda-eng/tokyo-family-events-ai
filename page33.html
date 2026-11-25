@@ -1,0 +1,1124 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="format-detection" content="telephone=no">
+<meta name="viewport" content="width=device-width">
+<meta name="description" content="東京都小平市役所の公式ホームページです。市政の情報やくらし・手続き・施設の案内、小平の見どころやイベント情報などを配信しています。">
+<meta name="keywords" content="">
+<meta name="content_id" content="" >
+<meta name="topic" content="" >
+    <title>東京都小平市公式ホームページ</title>
+<link rel="shortcut icon" href="/favicon.ico">
+<link rel="stylesheet" href="/c_js/carousel.css">
+
+<link href="/c_css/index.css?ver2409" rel="stylesheet">
+<link href="/c_css/sp_index.css?ver2409" rel="stylesheet" id="sp_index_css">
+<link href="/c_css/print.css" rel="stylesheet" media="print" title="小平市スタイル">
+
+<script src="/c_js/jquery-3.6.1.min.js"></script>
+<script src="/c_js/init.js?ver2307"></script>
+<script src="/c_js/print.js"></script>
+<script src="/c_js/accordion.js?ver2403"></script>
+<script src="/c_js/jquery.matchHeight.js"></script>
+<script src="/c_js/gotop.js"></script>
+<script src="/c_js/event_sidebar.js"></script>
+<script src="/c_js/additional.js?ver2307"></script>
+<script src="/c_js/image_tooltip.js"></script>
+<!-- 翻訳用スクリプト -->
+<script src="//msta.j-server.com/MSTA/LUC2KODAIR/js/msta.js"></script>
+<!-- 伝えるウェブスクリプト -->
+<script src="https://tsutaeru.cloud/assets/snippet/js/tsutaeru.js?button=easy"></script>
+
+
+<script>
+
+$(function(){
+  $('#tab-menu li').on('click', function(){
+    if($(this).not('active')){
+      // タブメニュー
+      $(this).addClass('active').siblings('li').removeClass('active');
+      // タブの中身
+      var index = $('#tab-menu li').index(this);
+      $('#tab-box > div').eq(index).addClass('active').siblings('div').removeClass('active');
+    }
+  });
+
+  $('[contenteditable]').prop('contenteditable', false);
+
+  // adobeリンクの表示
+  $target = $('div.honbun');
+  $arr_a = $target.find('a[href]');
+  var flg = false;
+  $arr_a.each(function(){
+      if( /\.pdf$/.test( $(this).prop('href') ) ){
+        flg = true;
+        return true;
+      }
+  });
+
+  if(flg){
+    var adobe = $('<div>').addClass('getpdf clearfix').html('<p>PDFファイルをご覧いただくためには、Adobe Acrobat Reader（無料）が必要です。<a href="https://get.adobe.com/jp/reader/" target="_blank"><img alt="" src="/c_img/bnr_acrobat.png" width="158" height="39"><br>Adobe社のサイトからダウンロードできます。（新規ウィンドウが開きます）</a></p>');
+    $set_place = $('#related').length ? $('#related') : $('#contact');
+    $set_place.before( adobe );
+  }
+
+  $('iframe[name="gmap"]').closest('p').css({"width":"93%", "margin":"20px auto"});
+  $('iframe[name="ytplayer"]').prop("frameborder","0").css({"width":"100%"}).closest('p').css({"width":"93%", "margin":"20px auto"});
+
+});
+
+
+</script>
+
+<script src="/c_js/carousel.js"></script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112744368-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-112744368-1');
+</script>
+<!-- End Global site tag (gtag.js) - Google Analytics -->
+
+
+<script src="https://cdn-eas.readspeaker.com/script/10073/webReader/webReader.js?pids=wr&amp;disable=translation,lookup" type="text/javascript" id="rs_req_Init"></script>
+</head>
+
+<body>
+<noscript>
+  <p class="noscript">本サイトではJavaScriptを使用したコンテンツ・機能を提供しています。JavaScriptを有効にするとご利用いただけます。<br>JavaScriptが無効でメニューが利用できない場合は<a href="/kurashi/070/070018.html">サイトマップ</a>から各ページをご利用ください。</p>
+</noscript>
+<p id="top"><a href="#read_area" class="skip">本文へ移動</a></p>
+<!-- ▽ ヘッダー -->
+<div id="header">
+<div class="logo_area clearfix">
+<h1 class="logo"><a href="/"><img src="/c_img/logo_city.png" alt="小平市"></a></h1>
+
+</div><!-- /innter -->
+
+<div id="spmenu_area" class="clearfix">
+<div id="spmenu" class="navioff">
+<p class="sp"><a href="javascript:void(0)">メニュー</a></p>
+	<!-- ▽ ナビエリア -->
+	<div id="navi_area">
+<div id="menu" class="clearfix">
+  <a href="/kurashi/070/070018.html" class="disabilities">サイトマップ</a>
+<div id="assist" class="clearfix">
+<ul>
+<li class="text"><a href="/moji.html">文字サイズ・色合い</a></li>
+<li class="sound"><a href="https://app-eas.readspeaker.com/cgi-bin/rsent?customerid=10073&amp;lang=ja_jp&amp;readid=read_area,service_area,contents_area&amp;url=" onclick="readpage(this.href, 'xp1'); return false;" class="rs_href" rel="nofollow">音声読み上げ</a></li>
+<li class="language"><a href="https://tsutaeru.cloud/easy.php?uri=https://www.city.kodaira.tokyo.jp%2Findex.html">やさしい日本語</a></li>
+<li class="language"><a href="/kurashi/106/106706.html">foreign language</a></li>
+</ul>
+</div>
+</div>
+<div class="inner clearfix">
+	<div id="top_head_gnavi" class="clearfix">
+        <ul>
+                <li class="navi01"><a href="/kurashi/index01.html"><span>くらし・手続き・税・防災</span></a>
+                        <ul class="sub_gnavi">
+                  <li>
+            <a href="/kurashi/index01001.html">戸籍・住民票・印鑑・マイナンバー</a>
+          </li>
+                  <li>
+            <a href="/kurashi/index01002.html">引越しの手続き</a>
+          </li>
+                  <li>
+            <a href="/kurashi/index01003.html">結婚・離婚・おくやみ</a>
+          </li>
+                  <li>
+            <a href="/kurashi/index01004.html">国民健康保険</a>
+          </li>
+                  <li>
+            <a href="/kurashi/index01005.html">国民年金</a>
+          </li>
+                  <li>
+            <a href="/kurashi/index01006.html">市税を納める</a>
+          </li>
+                  <li>
+            <a href="/kurashi/index01007.html">住民税（個人・法人）</a>
+          </li>
+                  <li>
+            <a href="/kurashi/index01008.html">軽自動車税</a>
+          </li>
+                  <li>
+            <a href="/kurashi/index01009.html">固定資産税・都市計画税</a>
+          </li>
+                  <li>
+            <a href="/kurashi/index01010.html">交通・道路</a>
+          </li>
+                  <li>
+            <a href="/kurashi/index01011.html">防災</a>
+          </li>
+                  <li>
+            <a href="/kurashi/index01012.html">放射能関連情報</a>
+          </li>
+                  <li>
+            <a href="/kurashi/index01013.html">防犯</a>
+          </li>
+                  <li>
+            <a href="/kurashi/index01019.html">外国人</a>
+          </li>
+                  <li>
+            <a href="/kurashi/index01014.html">就職・退職</a>
+          </li>
+                  <li>
+            <a href="/kurashi/index01015.html">住宅・自動車</a>
+          </li>
+                  <li>
+            <a href="/kurashi/index01016.html">下水道</a>
+          </li>
+                  <li>
+            <a href="/kurashi/index01017.html">公売・公有財産売払い情報</a>
+          </li>
+                  <li>
+            <a href="/kurashi/index01018.html">建築</a>
+          </li>
+                </ul>
+                </li>
+            <li class="navi02"><a href="/kurashi/index02.html"><span>こども・教育</span></a>
+                        <ul class="sub_gnavi">
+                  <li>
+            <a href="/kurashi/index02001.html">妊娠がわかったら</a>
+          </li>
+                  <li>
+            <a href="/kurashi/index02002.html">赤ちゃんが生まれたら</a>
+          </li>
+                  <li>
+            <a href="/kurashi/index02003.html">こどもの健康</a>
+          </li>
+                  <li>
+            <a href="/kurashi/index02004.html">こどもの遊び場</a>
+          </li>
+                  <li>
+            <a href="/kurashi/index02005.html">手当、医療費助成</a>
+          </li>
+                  <li>
+            <a href="/kurashi/index02006.html">認可保育園・認定こども園・幼稚園</a>
+          </li>
+                  <li>
+            <a href="/kurashi/index02007.html">放課後のあずかり</a>
+          </li>
+                  <li>
+            <a href="/kurashi/index02016.html">放課後の活動</a>
+          </li>
+                  <li>
+            <a href="/kurashi/index02008.html">こどもの一時あずかり他 育児支援サービス</a>
+          </li>
+                  <li>
+            <a href="/kurashi/index02009.html">子育て、家族に関する相談</a>
+          </li>
+                  <li>
+            <a href="/kurashi/index02010.html">ひとり親の方への支援</a>
+          </li>
+                  <li>
+            <a href="/kurashi/index02011.html">青少年健全育成</a>
+          </li>
+                  <li>
+            <a href="/kurashi/index02012.html">刊行物・計画・調査　ほか</a>
+          </li>
+                  <li>
+            <a href="/kurashi/index02013.html">こどもの権利</a>
+          </li>
+                  <li>
+            <a href="/kurashi/index02015.html">もしものとき（発熱やケガなど）</a>
+          </li>
+                  <li>
+            <a href="/kurashi/index02014.html">教育委員会</a>
+          </li>
+                  <li>
+            <a href="/kurashi/index02017.html">小・中学生の皆さんへ</a>
+          </li>
+                </ul>
+                </li>
+            <li class="navi03"><a href="/kurashi/index03.html"><span>健康・福祉</span></a>
+                        <ul class="sub_gnavi">
+                  <li>
+            <a href="/kurashi/index03001.html">健康</a>
+          </li>
+                  <li>
+            <a href="/kurashi/index03002.html">高齢者</a>
+          </li>
+                  <li>
+            <a href="/kurashi/index03003.html">介護</a>
+          </li>
+                  <li>
+            <a href="/kurashi/index03004.html">障がい者</a>
+          </li>
+                  <li>
+            <a href="/kurashi/index03005.html">生活支援</a>
+          </li>
+                  <li>
+            <a href="/kurashi/index03006.html">地域福祉・その他</a>
+          </li>
+                </ul>
+                </li>
+            <li class="navi04"><a href="/kurashi/index04.html"><span>文化・スポーツ・市民活動</span></a>
+                        <ul class="sub_gnavi">
+                  <li>
+            <a href="/kurashi/index04001.html">文化・スポーツ・体験学習</a>
+          </li>
+                  <li>
+            <a href="/kurashi/index04002.html">地域・協働・市民活動・多文化共生</a>
+          </li>
+                  <li>
+            <a href="/kurashi/index04003.html">大学連携</a>
+          </li>
+                  <li>
+            <a href="/kurashi/index04004.html">公民館</a>
+          </li>
+                </ul>
+                </li>
+            <li class="navi05"><a href="/kurashi/index05.html"><span>ごみ・環境</span></a>
+                        <ul class="sub_gnavi">
+                  <li>
+            <a href="/kurashi/index05003.html">ごみ減量とリサイクル</a>
+          </li>
+                  <li>
+            <a href="/kurashi/index05001.html">資源とごみの出し方</a>
+          </li>
+                  <li>
+            <a href="/kurashi/index05004.html">計画・統計</a>
+          </li>
+                  <li>
+            <a href="/kurashi/index05002.html">粗大ごみの出し方</a>
+          </li>
+                  <li>
+            <a href="/kurashi/index05006.html">みどり・用水</a>
+          </li>
+                  <li>
+            <a href="/kurashi/index05007.html">環境</a>
+          </li>
+                  <li>
+            <a href="/kurashi/index05008.html">補助金</a>
+          </li>
+                  <li>
+            <a href="/kurashi/index05009.html">ペット・生き物</a>
+          </li>
+                </ul>
+                </li>
+            <li class="navi06"><a href="/kurashi/index06.html"><span>施設案内</span></a>
+                        <ul class="sub_gnavi">
+                  <li>
+            <a href="/kurashi/index06001.html">市内施設</a>
+          </li>
+                  <li>
+            <a href="/kurashi/index06002.html">子育て支援施設</a>
+          </li>
+                  <li>
+            <a href="/kurashi/index06003.html">福祉関連施設</a>
+          </li>
+                  <li>
+            <a href="/kurashi/index06004.html">体育・文化施設</a>
+          </li>
+                  <li>
+            <a href="/kurashi/index06045.html">小・中学校</a>
+          </li>
+                  <li>
+            <a href="/kurashi/index06005.html">公民館</a>
+          </li>
+                  <li>
+            <a href="/kurashi/index06006.html">図書館</a>
+          </li>
+                  <li>
+            <a href="/kurashi/index06007.html">公園</a>
+          </li>
+                  <li>
+            <a href="/kurashi/index06008.html">電話番号案内</a>
+          </li>
+                  <li>
+            <a href="/kurashi/index06009.html">郵便番号案内</a>
+          </li>
+                </ul>
+                </li>
+            <li class="navi07"><a href="/kurashi/index07.html"><span>市政情報</span></a>
+                        <ul class="sub_gnavi">
+                  <li>
+            <a href="/kurashi/index07001.html">市長室</a>
+          </li>
+                  <li>
+            <a href="/kurashi/index07002.html">市の紹介</a>
+          </li>
+                  <li>
+            <a href="/kurashi/index07003.html">市政全般</a>
+          </li>
+                  <li>
+            <a href="/kurashi/index07004.html">長期総合計画・統計資料</a>
+          </li>
+                  <li>
+            <a href="/kurashi/index07005.html">まちづくり・都市計画・開発</a>
+          </li>
+                  <li>
+            <a href="/kurashi/index07006.html">社会保障・税番号制度（マイナンバー制度）</a>
+          </li>
+                  <li>
+            <a href="/kurashi/index07007.html">職員採用情報</a>
+          </li>
+                  <li>
+            <a href="/kurashi/index07008.html">産業</a>
+          </li>
+                  <li>
+            <a href="/kurashi/index07009.html">男女共同参画</a>
+          </li>
+                  <li>
+            <a href="/kurashi/index07011.html">財政・行財政改革</a>
+          </li>
+                  <li>
+            <a href="/kurashi/index07012.html">選挙管理委員会</a>
+          </li>
+                  <li>
+            <a href="/kurashi/index07013.html">窓口</a>
+          </li>
+                  <li>
+            <a href="/kurashi/index07014.html">相談</a>
+          </li>
+                  <li>
+            <a href="/kurashi/index07015.html">市制施行周年事業</a>
+          </li>
+                  <li>
+            <a href="/kurashi/index07016.html">事業者向け</a>
+          </li>
+                </ul>
+                </li>
+        <li class="navi07"><a href="/event/"><span>イベント情報</span></a></li>
+
+</ul>
+	</div>
+	</div>
+	</div>
+	<!-- △ ナビエリア-->
+</div>
+
+<!-- ▽ 検索エリア -->
+<div id="spmenu_serch" class="clearfix">
+  <form method="post" action="/cgi-bin/searchform/search.cgi" name="search_form">
+    <input type="text" name="q" value="" class="text_box" title="キーワードを入力してください" autocomplete="off">
+    <input type="hidden" name="d" value="kodaira">
+    <input type="hidden" name="filetype" value="html">
+    <input type="hidden" name="sort" value="">
+    <input type="submit" value="検索" class="button">
+  </form>
+<div class="hint_box">
+<a href="/kurashi/026/026918.html">検索のヒント</a>
+</div>
+</div>
+<!-- △ 検索エリア-->
+
+</div>
+
+
+</div>
+<!-- △ ヘッダー -->
+  
+  <div class="inner read_control"><div id="xp1" class="rs_preserve rs_skip rs_splitbutton rs_addtools rs_exp"></div></div>
+<div id="read_area">
+
+    
+
+<!-- ▽ ナビエリア -->
+<div id="top_navi_area">
+
+<!-- 緊急災害情報はここに表示する -->
+
+<!-- ▽ キービジュアル -->
+<div id="key">
+
+<!-- ▼ slider -->
+<div id="key_slide" class="carousel">
+  <div class="carousel__navLayer">
+    <div class="carousel__stage">
+      <ul>
+            <li class="carousel__item">
+                              <a href="/kurashi/129/129944.html">
+            <img src="/images.bv/top-slideshow/att_0000254.jpg" width="960" alt="">
+          </a>
+                </li>
+                <li class="carousel__item">
+                              <a href="https://www.city.kodaira.tokyo.jp/special/sp04.html">
+            <img src="/images.bv/top-slideshow/att_0000201.png" width="960" alt="">
+          </a>
+                </li>
+          </ul>
+</div>
+</div>
+</div>
+<script>
+  new Carousel(
+    document.querySelector('#key_slide'),
+    {
+      pager: 'number',
+      loop: true,
+      autoPlayInterval: 4000,
+      effectDuration: 1000,
+      autoPlayControl: {
+        type: 'button',
+        onHTML: '再生',
+        offHTML: '停止'
+      }
+    }
+  );
+</script>
+<!-- ▲ slider -->
+
+</div>
+<!-- △ キービジュアル -->
+
+
+        <div id="weather_box">
+  <div class="inner clearfix">
+  <h2>気象情報</h2>
+  	<div class="text">
+  	<ul>
+    	<li><a href="https://plus.sugumail.com/usr/kodaira/doc?tag_id=2353" target="_blank">小平市の警報・注意報のお知らせ（外部リンク）</a></li>
+    	</ul>
+  	</div>
+  </div>
+  </div>
+  
+
+<div class="iza clearfix">
+  <h2 class="title">
+	いざという時に<span>（救急診療・防災情報など）</span>
+</h2>
+	<ul class="clearfix">
+	<li><a href="/kurashi/index03001008.html">休日・夜間<span class="sp_block">応急診療</span></a></li>
+	<li><a href="/kurashi/004/004587.html">AED設置場所</a></li>
+	<li><a href="/kurashi/026/026927.html">防災・防犯<span>（メール配信登録）</span></a></li>
+	</ul>
+</div>
+
+<div id="gnavi" class="clearfix">
+                <ul>
+                    <li class="navi01"><a href="/kurashi/index01.html"><span>くらし・手続き・税・防災</span></a>
+                                    <ul class="sub_gnavi rs_preserve">
+                          <li>
+                <a href="/kurashi/index01001.html">戸籍・住民票・印鑑・マイナンバー</a>
+              </li>
+                          <li>
+                <a href="/kurashi/index01002.html">引越しの手続き</a>
+              </li>
+                          <li>
+                <a href="/kurashi/index01003.html">結婚・離婚・おくやみ</a>
+              </li>
+                          <li>
+                <a href="/kurashi/index01004.html">国民健康保険</a>
+              </li>
+                          <li>
+                <a href="/kurashi/index01005.html">国民年金</a>
+              </li>
+                          <li>
+                <a href="/kurashi/index01006.html">市税を納める</a>
+              </li>
+                          <li>
+                <a href="/kurashi/index01007.html">住民税（個人・法人）</a>
+              </li>
+                          <li>
+                <a href="/kurashi/index01008.html">軽自動車税</a>
+              </li>
+                          <li>
+                <a href="/kurashi/index01009.html">固定資産税・都市計画税</a>
+              </li>
+                          <li>
+                <a href="/kurashi/index01010.html">交通・道路</a>
+              </li>
+                          <li>
+                <a href="/kurashi/index01011.html">防災</a>
+              </li>
+                          <li>
+                <a href="/kurashi/index01012.html">放射能関連情報</a>
+              </li>
+                          <li>
+                <a href="/kurashi/index01013.html">防犯</a>
+              </li>
+                          <li>
+                <a href="/kurashi/index01019.html">外国人</a>
+              </li>
+                          <li>
+                <a href="/kurashi/index01014.html">就職・退職</a>
+              </li>
+                          <li>
+                <a href="/kurashi/index01015.html">住宅・自動車</a>
+              </li>
+                          <li>
+                <a href="/kurashi/index01016.html">下水道</a>
+              </li>
+                          <li>
+                <a href="/kurashi/index01017.html">公売・公有財産売払い情報</a>
+              </li>
+                          <li>
+                <a href="/kurashi/index01018.html">建築</a>
+              </li>
+                        </ul>
+                        </li>
+                    <li class="navi02"><a href="/kurashi/index02.html"><span>こども・教育</span></a>
+                                    <ul class="sub_gnavi rs_preserve">
+                          <li>
+                <a href="/kurashi/index02001.html">妊娠がわかったら</a>
+              </li>
+                          <li>
+                <a href="/kurashi/index02002.html">赤ちゃんが生まれたら</a>
+              </li>
+                          <li>
+                <a href="/kurashi/index02003.html">こどもの健康</a>
+              </li>
+                          <li>
+                <a href="/kurashi/index02004.html">こどもの遊び場</a>
+              </li>
+                          <li>
+                <a href="/kurashi/index02005.html">手当、医療費助成</a>
+              </li>
+                          <li>
+                <a href="/kurashi/index02006.html">認可保育園・認定こども園・幼稚園</a>
+              </li>
+                          <li>
+                <a href="/kurashi/index02007.html">放課後のあずかり</a>
+              </li>
+                          <li>
+                <a href="/kurashi/index02016.html">放課後の活動</a>
+              </li>
+                          <li>
+                <a href="/kurashi/index02008.html">こどもの一時あずかり他 育児支援サービス</a>
+              </li>
+                          <li>
+                <a href="/kurashi/index02009.html">子育て、家族に関する相談</a>
+              </li>
+                          <li>
+                <a href="/kurashi/index02010.html">ひとり親の方への支援</a>
+              </li>
+                          <li>
+                <a href="/kurashi/index02011.html">青少年健全育成</a>
+              </li>
+                          <li>
+                <a href="/kurashi/index02012.html">刊行物・計画・調査　ほか</a>
+              </li>
+                          <li>
+                <a href="/kurashi/index02013.html">こどもの権利</a>
+              </li>
+                          <li>
+                <a href="/kurashi/index02015.html">もしものとき（発熱やケガなど）</a>
+              </li>
+                          <li>
+                <a href="/kurashi/index02014.html">教育委員会</a>
+              </li>
+                          <li>
+                <a href="/kurashi/index02017.html">小・中学生の皆さんへ</a>
+              </li>
+                        </ul>
+                        </li>
+                    <li class="navi03"><a href="/kurashi/index03.html"><span>健康・福祉</span></a>
+                                    <ul class="sub_gnavi rs_preserve">
+                          <li>
+                <a href="/kurashi/index03001.html">健康</a>
+              </li>
+                          <li>
+                <a href="/kurashi/index03002.html">高齢者</a>
+              </li>
+                          <li>
+                <a href="/kurashi/index03003.html">介護</a>
+              </li>
+                          <li>
+                <a href="/kurashi/index03004.html">障がい者</a>
+              </li>
+                          <li>
+                <a href="/kurashi/index03005.html">生活支援</a>
+              </li>
+                          <li>
+                <a href="/kurashi/index03006.html">地域福祉・その他</a>
+              </li>
+                        </ul>
+                        </li>
+                    <li class="navi04"><a href="/kurashi/index04.html"><span>文化・スポーツ・市民活動</span></a>
+                                    <ul class="sub_gnavi rs_preserve">
+                          <li>
+                <a href="/kurashi/index04001.html">文化・スポーツ・体験学習</a>
+              </li>
+                          <li>
+                <a href="/kurashi/index04002.html">地域・協働・市民活動・多文化共生</a>
+              </li>
+                          <li>
+                <a href="/kurashi/index04003.html">大学連携</a>
+              </li>
+                          <li>
+                <a href="/kurashi/index04004.html">公民館</a>
+              </li>
+                        </ul>
+                        </li>
+                    <li class="navi05"><a href="/kurashi/index05.html"><span>ごみ・環境</span></a>
+                                    <ul class="sub_gnavi rs_preserve">
+                          <li>
+                <a href="/kurashi/index05003.html">ごみ減量とリサイクル</a>
+              </li>
+                          <li>
+                <a href="/kurashi/index05001.html">資源とごみの出し方</a>
+              </li>
+                          <li>
+                <a href="/kurashi/index05004.html">計画・統計</a>
+              </li>
+                          <li>
+                <a href="/kurashi/index05002.html">粗大ごみの出し方</a>
+              </li>
+                          <li>
+                <a href="/kurashi/index05006.html">みどり・用水</a>
+              </li>
+                          <li>
+                <a href="/kurashi/index05007.html">環境</a>
+              </li>
+                          <li>
+                <a href="/kurashi/index05008.html">補助金</a>
+              </li>
+                          <li>
+                <a href="/kurashi/index05009.html">ペット・生き物</a>
+              </li>
+                        </ul>
+                        </li>
+                    <li class="navi06"><a href="/kurashi/index06.html"><span>施設案内</span></a>
+                                    <ul class="sub_gnavi rs_preserve">
+                          <li>
+                <a href="/kurashi/index06001.html">市内施設</a>
+              </li>
+                          <li>
+                <a href="/kurashi/index06002.html">子育て支援施設</a>
+              </li>
+                          <li>
+                <a href="/kurashi/index06003.html">福祉関連施設</a>
+              </li>
+                          <li>
+                <a href="/kurashi/index06004.html">体育・文化施設</a>
+              </li>
+                          <li>
+                <a href="/kurashi/index06045.html">小・中学校</a>
+              </li>
+                          <li>
+                <a href="/kurashi/index06005.html">公民館</a>
+              </li>
+                          <li>
+                <a href="/kurashi/index06006.html">図書館</a>
+              </li>
+                          <li>
+                <a href="/kurashi/index06007.html">公園</a>
+              </li>
+                          <li>
+                <a href="/kurashi/index06008.html">電話番号案内</a>
+              </li>
+                          <li>
+                <a href="/kurashi/index06009.html">郵便番号案内</a>
+              </li>
+                        </ul>
+                        </li>
+                    <li class="navi07"><a href="/kurashi/index07.html"><span>市政情報</span></a>
+                                    <ul class="sub_gnavi rs_preserve">
+                          <li>
+                <a href="/kurashi/index07001.html">市長室</a>
+              </li>
+                          <li>
+                <a href="/kurashi/index07002.html">市の紹介</a>
+              </li>
+                          <li>
+                <a href="/kurashi/index07003.html">市政全般</a>
+              </li>
+                          <li>
+                <a href="/kurashi/index07004.html">長期総合計画・統計資料</a>
+              </li>
+                          <li>
+                <a href="/kurashi/index07005.html">まちづくり・都市計画・開発</a>
+              </li>
+                          <li>
+                <a href="/kurashi/index07006.html">社会保障・税番号制度（マイナンバー制度）</a>
+              </li>
+                          <li>
+                <a href="/kurashi/index07007.html">職員採用情報</a>
+              </li>
+                          <li>
+                <a href="/kurashi/index07008.html">産業</a>
+              </li>
+                          <li>
+                <a href="/kurashi/index07009.html">男女共同参画</a>
+              </li>
+                          <li>
+                <a href="/kurashi/index07011.html">財政・行財政改革</a>
+              </li>
+                          <li>
+                <a href="/kurashi/index07012.html">選挙管理委員会</a>
+              </li>
+                          <li>
+                <a href="/kurashi/index07013.html">窓口</a>
+              </li>
+                          <li>
+                <a href="/kurashi/index07014.html">相談</a>
+              </li>
+                          <li>
+                <a href="/kurashi/index07015.html">市制施行周年事業</a>
+              </li>
+                          <li>
+                <a href="/kurashi/index07016.html">事業者向け</a>
+              </li>
+                        </ul>
+                        </li>
+            <li class="navi07"><a href="/event/"><span>イベント情報</span></a></li>
+</ul>
+</div>
+
+</div><!-- /inner -->
+</div>
+<!-- △ ナビエリア-->
+
+<!-- ▽ サービスエリア -->
+<div id="service_area">
+
+<div class="inner clearfix">
+
+<div class="life">
+  <div class="rbox clearfix">
+<h2>目的から探す</h2>
+<ul>
+<li class="life01"><a href="/life/01.html">妊娠・出産</a></li>
+<li class="life02"><a href="/life/02.html">入園・入学</a></li>
+<li class="life03"><a href="/life/03.html">就職・転職</a></li>
+<li class="life04"><a href="/life/04.html">引っ越し</a></li>
+<li class="life05"><a href="/life/05.html">高齢者支援<span>障がい者支援</span></a></li>
+<li class="life06"><a href="/life/06.html">冠婚葬祭</a></li>
+    <li class="life08"><a href="/kurashi/103/103733.html">各種相談</a></li>
+    <li class="life09"><a href="/kurashi/106/106270.html">若者応援</a></li>
+</ul>
+  </div>
+  <ul class="life_banner">
+    <li><a href="/kids/"><img src="/c_img/bnr_kids.jpg" alt="こだいらキッズぶるべーのさんぽみち"></a></li>
+    <li><a href="https://library.kodaira.ed.jp/" target="_blank"><img src="/c_img/bnr_library.png" alt="小平市立図書館"></a></li>
+    <li><a href="/dencyu/"><img src="/c_img/bnr_dencyu.png" alt="小平市平櫛田中彫刻美術館"></a></li>
+    <li><a href="/kurashi/070/070022.html"><img src="/c_img/bnr_sewarage.png" alt="小平市ふれあい下水道館"></a></li>
+  </ul>
+</div>
+
+<div class="s_right">
+<div class="online rbox clearfix navioff">
+<h2>オンラインサービス</h2>
+<div class="border">
+<h3>申請・予約をしたい</h3>
+<ul>
+<li><a href="/kurashi/000/000313.html">粗大ごみの収集を申込む</a></li>
+<li class="online_one"><a href="https://mynum.e-tumo.jp/mynumpo-kodaira-u/reserve/notice_initDisplayRedirect?method=all" target="_blank">マイナンバーカード<span>窓口予約システム</span></a></li>
+<li><a href="/kurashi/016/016011.html">電子申請サービス一覧</a></li>
+<li><a href="/kurashi/001/001382.html">公共施設予約システム（公共施設の予約などをする）</a></li>
+<li><a href="/shinsei/">小平市ホームページ内の<span>申請書や届出書を探す</span></a></li>
+<li><a href="/kurashi/118/118017.html">がん検診、健康診査、健康教室などを申込む</a></li>
+</ul>
+</div>
+<div>
+<h3>調べたい</h3>
+<ul>
+<li><a href="/map_search/">施設や避難場所などを探す</a></li>
+<li><a href="/reiki/reiki_menu.html">小平市例規類集<span>（条例や規則を探す）</span></a></li>
+<li><a href="https://chiiki-kaigo.casio.jp/Kodaira" target="_blank">医療機関や介護施設などを<span>探す</span></a></li>
+<li><a href="https://www.sonicweb-asp.jp/kodaira" target="_blank">道路や用途地域などを<span>調べる</span></a></li>
+<li><a href="/material_search.html">小平市ホームページ内の<span>資料を探す</span></a></li>
+<li><a href="https://chiiki-kaigo.casio.jp/Kodaira/info_services?category_id=1212" target="_blank">地域の居場所・<span>通いの場を探す</span></a></li>
+<li><a href="https://helpfeel.com/kodaira-information/" target="_blank">よく見られている質問や<span>言葉から探す</span></a></li>
+</ul>
+</div>
+</div>
+<div class="faq rbox clearfix">
+<h2><a href="/faq/"><span>よくある質問</span></a></h2>
+<p>手続きや書類の記入方法など、市民の方から寄せられることが多い質問をまとめています。</p>
+<p class="link"><a href="/faq/">よくある質問一覧へ</a></p>
+</div>
+</div><!-- right -->
+
+</div><!-- /inner -->
+
+</div>
+<!-- △ サービスエリア-->
+
+<!-- ▼ コンテンツエリア -->
+<div id="contents_area" class="top_index">
+
+<div class="inner clearfix">
+<!-- ▽ メイン -->
+<div class="main_area">
+
+<div class="news_box">
+<div class="clearfix">
+<h2>お知らせ</h2>
+<p class="golist"><a href="/news/"><span><span class="news_voice">お知らせ</span>一覧を見る</span></a></p>
+</div>
+
+<div class="sbox">
+<ul>
+<li><a href="/kurashi/131/131093.html"><img src="/c_img/icon_navi07.png" alt="市政情報">NEW!!令和9年4月採用試験(冬試験）（2026年11月20日）</a></li>
+<li><a href="/kurashi/129/129906.html"><img src="/c_img/icon_navi03.png" alt="健康・福祉">小平市高齢者スマートフォン購入費助成事業（2026年11月25日）</a><span class="new">NEW!</span></li>
+<li><a href="/kurashi/129/129779.html"><img src="/c_img/icon_navi03.png" alt="健康・福祉">令和8年熊本地震災害義援金の受付（2026年11月25日）</a><span class="new">NEW!</span></li>
+<li><a href="/event/131/131338.html"><img src="/c_img/icon_navi04.png" alt="文化・スポーツ・市民活動">第47回新春歩け歩けのつどい（2026年11月25日）</a><span class="new">NEW!</span></li>
+<li><a href="/event/131/131340.html"><img src="/c_img/icon_navi04.png" alt="文化・スポーツ・市民活動">たまろくとニュースポーツフェスタ（2026年11月25日）</a><span class="new">NEW!</span></li>
+<li><a href="/event/114/114692.html"><img src="/c_img/icon_navi04.png" alt="文化・スポーツ・市民活動">小平市・小金井市共催「こだいら・こがねい文化財めぐり」（2026年11月25日）</a><span class="new">NEW!</span></li>
+</ul>
+</div>
+</div><!-- news_box -->
+
+<div class="recommend_box clearfix">
+<h2>よく見られているページ</h2>
+
+<div class="sbox clearfix">
+    <ul>
+    <li><a href="/kurashi/108/108514.html">発熱などの症状が出たら</a></li>
+    <li><a href="https://www.city.kodaira.tokyo.jp/kurashi/index02014007.html">学校更新事業について</a></li>
+    <li><a href="/kurashi/109/109243.html">【重要】消費生活に関するトラブルにご注意ください</a></li>
+    <li><a href="/faq/101/101684.html">個人市民税・都民税の課税・非課税証明書をコンビニで取得することはできますか</a></li>
+    <li><a href="/kurashi/079/079596.html">窓口の利用状況案内　窓口混雑状況ナビ</a></li>
+    <li><a href="/kurashi/059/059423.html">おもな手続きのチェックシート</a></li>
+    </ul>
+</div>
+</div><!-- reccommend_box -->
+
+<div id="event_area" class="clearfix">
+<div class="event_box clearfix">
+<h2>イベント情報</h2>
+
+<div class="left_area">
+  <!-- calender -->
+  <div class="calender_area clearfix"></div><!-- calender area -->
+<ul class="golist">
+<li><a href="/event/"><span>イベント情報一覧をみる</span></a></li>
+</ul>
+</div><!-- left -->
+
+<div class="list_box">
+<dl>
+<dt class="today">2026年11月25日</dt>
+<dd><a href="/event/130/130305.html">12月定例会一般質問(11月25日)</a></dd>
+<dd><a href="/event/130/130343.html">令和8年度小平市事業承継セミナー　事業承継の第一歩</a></dd>
+<dd><a href="/event/130/130552.html">津田公民館　健康づくり講座　お灸で腰痛・ひざ痛のケア</a></dd>
+<dd><a href="/event/129/129926.html">【申込定員に達しました】AI時代の再就職プログラム</a></dd>
+<dd><a href="/event/114/114919.html">三市・東京学芸大学連携　地域教育スタートアップ講座</a></dd>
+<dd><a href="/event/128/128376.html">小川公民館　子育て支援講座【保育付き】　子育ては私のキャリア ～”わたし”をあきらめない子育て～</a></dd>
+<dd><a href="/event/128/128062.html">中央公民館　シニア講座　シルバー大学</a></dd>
+<dd><a href="/event/130/130694.html">中央エリアの整備に関するアンケート・パネル展示等のお知らせ</a></dd>
+</dl>
+</div>
+
+</div><!-- event_box -->
+<div class="burube">
+<img src="/c_img/burube02.png" alt="">
+</div>
+
+</div><!-- #event_area -->
+
+<div class="midokoro">
+<h2>関連コンテンツ</h2>
+<ul>
+<li><a href="/charm/charm.html">小平の観光</a></li>
+<li><a href="http://www.runekodaira.jp/" target="_blank">ルネこだいら（小平市民文化会館）</a></li>
+<li><a href="http://kodaira-furusatomura.jp/" target="_blank">小平ふるさと村</a></li>
+<li><a href="https://kodaira-tourism.com/" target="_blank">こだいら観光まちづくり協会</a></li>
+<li><a href="https://www.kifa-tokyo.jp/" target="_blank">小平市国際交流協会（KIFA）</a></li>
+<li><a href="https://kodaira-sa.org/" target="_blank">小平市スポーツ協会</a></li>
+</ul>
+</div><!-- midokoro-->
+
+<ul class="share">
+  <li>
+    <div class="line-it-button" data-lang="ja" data-type="share-a" data-env="REAL" data-url="https://www.city.kodaira.tokyo.jp/" data-color="default" data-size="small" data-count="false" data-ver="3" style="display: none;"></div>
+<script src="https://www.line-website.com/social-plugins/js/thirdparty/loader.min.js" async="async" defer="defer"></script>
+  </li>
+  <li>
+    <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-url="https://www.city.kodaira.tokyo.jp/" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+  </li>
+  <li>
+    <div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v16.0" nonce="yBa1nNS1"></script>
+    <div class="fb-share-button" data-href="https://www.city.kodaira.tokyo.jp/" data-layout="button" data-size="small"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.city.kodaira.tokyo.jp%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">シェアする</a></div>
+  </li>
+</ul>
+
+
+
+</div><!-- main-->
+<!-- △ メイン-->
+
+<!-- ▽ サブ -->
+<div class="sub_area">
+
+<div class="bbox">
+
+<ul class="base">
+<li class="mayor"><a href="/kurashi/index07001.html">市長室へようこそ</a></li>
+<li><a href="/gikai/">小平市議会</a></li>
+<li><a href="/kurashi/index02014.html">教育委員会</a></li>
+<li><a href="/kurashi/index07016.html">事業者向け情報</a></li>
+<li><a href="/kurashi/index07007.html">職員採用情報</a></li>
+</ul>
+</div><!-- bbox-->
+
+<div class="goiken">
+<div class="title"><h2><span>お聞かせください</span></h2></div>
+<ul>
+<li ><a href="/kurashi/003/003445.html">ご意見<span>・お問合せ</span></a></li>
+<li><a href="/pubcome/index.html">パブリック<span>コメント</span></a></li>
+<li><a href="/enquete/index.html">アンケート</a></li>
+</ul>
+</div>
+
+
+<div class="bbox">
+<ul class="koho">
+  <li class="paper"><a href="/kurashi/070/070092.html">メールマガジン</a></li>
+  <li class="app"><a href="/kurashi/044/044432.html">小平市公式アプリ配信中</a></li>
+  <li class="press"><a href="/kurashi/097/097231.html">プレスリリース</a></li>
+</ul>
+</div>
+
+<div class="bbox shiho">
+  <h2>市報こだいら</h2>
+  <p>2026年11月20日号 目次</p>
+  <a href="/shihou/131/131243.html" class="shiho_img clearfix">
+    <img src="/images.bv/latestissue/att_0230726.png" alt="市報こだいら最新号を見る">
+  </a>
+  <a href="/shihou/" class="shiho_back">バックナンバーをみる</a>
+</div>
+
+<ul class="sns_links">
+  <li>
+    <a href="https://page.line.me/kodairacity" target="_blank">
+      <img src="/c_img/icon_line_2023.png" alt="">
+      <span>LINE</span>
+    </a>
+  </li>
+  <li>
+    <a href="https://twitter.com/kodaira_tokyo" target="_blank">
+      <img src="/c_img/icon_x_2023.png" alt="">
+      <span>X</span>
+    </a>
+  </li>
+  <li>
+    <a href="https://www.facebook.com/koho.kodairacity/" target="_blank">
+      <img src="/c_img/icon_fb_2023.png" alt="">
+      <span>Facebook</span>
+    </a>
+  </li>
+  <li>
+    <a href="https://www.youtube.com/channel/UCp9YZtjCNcGOq3fQlln31Xg" target="_blank">
+      <img src="/c_img/icon_yt_2023.png" alt="">
+      <span>YouTube</span>
+    </a>
+  </li>
+  <li>
+    <a href="https://www.instagram.com/kodaira_city/" target="_blank">
+      <img src="/c_img/icon_ig_2024.png" alt="">
+      <span>Instagram</span>
+    </a>
+  </li>
+</ul>
+
+<!-- SNS-->
+<div class="bbox sns_box">
+<!-- タブメニュー -->
+<ul id="tab-menu" class="clearfix">
+  <li class="twitter active"><a href="javascript:void(0)">X</a></li>
+  <li class="facebook"><a href="javascript:void(0)">facebook</a></li>
+</ul><!-- /タブメニュー -->
+
+<!-- タブの中身 -->
+<div id="tab-box">
+<div class="twitter active">
+	  <a class="twitter-timeline" data-lang="ja" data-width="240" data-height="500" data-link-color="#1478B5" href="https://twitter.com/kodaira_tokyo?ref_src=twsrc%5Etfw">Tweets by kodaira_tokyo</a>
+		
+		<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+		
+  </div>
+<div class="facebook">
+	
+	<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v3.0';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+	
+	<div class="fb-page" data-href="https://www.facebook.com/koho.kodairacity/" data-tabs="timeline" data-width="240" data-height="500" data-small-header="true" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="false"><blockquote cite="https://www.facebook.com/koho.kodairacity/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/koho.kodairacity/">プチ田舎　東京都小平市</a></blockquote></div>
+</div>
+</div>
+<!-- ▲tab end -->
+<p class="link"><a href="/kurashi/070/070020.html">小平SNSについて</a></p>
+</div>
+
+
+<div class="population class">
+<h2>人口と世帯数</h2>
+<p class="date">2026年11月1日 現在</p>
+<div class="box clearfix">
+<p class="hito"><span>199,087</span>人</p>
+<p class="setai"><span>99,781</span>世帯</p>
+</div>
+<p class="about"><a href="/kurashi/index07002004.html">総人口と世帯数について</a></p>
+
+</div>
+
+</div><!-- sub-->
+<!-- △ サブ-->
+
+<div id="ad_area">
+<p class="left">有料広告欄</p>
+<p class="right"><a href="/kurashi/006/006678.html">広告掲載のご案内</a></p>
+    <ul>
+                <li><a rel="sponsored" href="https://www.tamashin.jp/"  target="_blank"><img src="/images.bv/top-banner/att_0000007.gif" alt="広告：お客さまの幸せづくり　多摩信用金庫"></a></li>
+                    <li><a rel="sponsored" href="http://www.jatm.or.jp/"  target="_blank"><img src="/images.bv/top-banner/att_0000018.gif" alt="広告：JA東京むさし　カワセミのムーちゃん"></a></li>
+                    <li><a rel="sponsored" href="https://m-sokuryous.com"  target="_blank"><img src="/images.bv/top-banner/att_0000020.gif" alt="広告：有限会社まつい測量事務所　境界しっかり"></a></li>
+                    <li><a rel="sponsored" href="https://www.tohsho-gr.co.jp/company/tohsho-kotsu/"  target="_blank"><img src="/images.bv/top-banner/att_0000025.gif" alt="広告：株式会社トーショーホールディングス"></a></li>
+                    <li><a rel="sponsored" href="https://www.ohnoya-funeral.com/plan/kodaira_shimin/"  target="_blank"><img src="/images.bv/top-banner/att_0000028.gif" alt="広告：株式会社メモリアルアートの大野屋"></a></li>
+                    <li><a rel="sponsored" href="https://souzoku-anshin.jp/"  target="_blank"><img src="/images.bv/top-banner/att_0000027.jpg" alt="広告：アシタエ税理士法人"></a></li>
+                    <li><a rel="sponsored" href="https://e-neco.com/"  target="_blank"><img src="/images.bv/top-banner/att_0000029.gif" alt="広告：株式会社えねこ"></a></li>
+                    <li><a rel="sponsored" href="https://www.city.kodaira.tokyo.jp/kurashi/006/006678.html"  target="_blank"><img src="/images.bv/top-banner/koukoku.gif" alt="ホームページバナー広告エリア"></a></li>
+        </ul>
+</div>
+
+</div><!-- /inner -->
+
+</div>
+<!-- ▲ コンテンツエリア-->
+<!-- ▼ footer -->
+<div id="footer_area">
+<div id="footer">
+
+<div class="inner clearfix">
+<img src="/c_img/footer_bg.png" alt="" class="footer_deco">
+<div class="text">
+<p class="logo"><span>小平市役所</span></p>
+<p>法人番号：2000020132110<br>
+〒187-8701　東京都小平市小川町2-1333</p>
+<p class="tel"><span>代表</span> 042-341-1211</p>
+</div>
+
+<div class="footer_link">
+<ul>
+  <li class="mado"><a href="/kurashi/004/004034.html">窓口案内</a></li>
+  <li class="trans"><a href="/kurashi/001/001132.html">交通案内</a></li>
+  <li class="mail"><a href="/kurashi/003/003445.html">お問合せ</a></li>
+</ul>
+</div>
+</div><!-- /inner -->
+
+</div>
+<!-- ▲ footer -->
+<div class="inner">
+<div class="footer_navi clearfix">
+<ul>
+  <li><a href="/kurashi/070/070007.html">各課の紹介</a></li>
+  <li><a href="/kurashi/026/026916.html">このサイトについて</a></li>
+  <li><a href="/kurashi/000/000240.html">リンク集</a></li>
+</ul>
+<p><a href="#" class="js-switchMode"><span>パソコン版はこちら</span></a></p>
+</div>
+
+<p class="copyright">&copy; Kodaira City, Tokyo.</p>
+</div>
+
+</div>
+<p id="gotoTop"><a href="#top"><img src="/special/images/gotop.png" alt="ページトップに戻る"/></a></p>
+<!-- ▲ footer_area -->
+
+
+<script async src="https://helpfeel.com/projects/js/helpfeel-element.js" data-project-name="kodaira-information"></script>​
+</body>
+</html>
