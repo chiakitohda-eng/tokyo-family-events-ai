@@ -1,62 +1,64 @@
-import assert from "node:assert/strict";
-import fs from "node:fs";
-import {prepareIssues,validateAudit,issueStatus,validateCatalog} from "../site/pending-issues-model.mjs";
-
-const get = path => fs.readFileSync(path,"utf8");
-const catalog = JSON.parse(get("site/audit/pending_issues_catalog.json"));
-assert.equal(validateCatalog(catalog),true);
-assert.deepEqual(catalog.issues.map(x=>x.id),[
-  "tamemap-nakano","itabashi-tourism","suginami-candidates","article-leads","weekly-update"]);
-for(const row of catalog.issues){
-  assert.ok(row.impact && row.now && row.workaround && row.next);
-  assert.match(row.issue_url,/^https:\/\/github\.com\/toodataa-ai\/tokyo-family-events-ai\/issues\/[0-9]+$/);
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import vm from 'node:vm';
+import {prepareIssues,validateCatalog,validateAudit,retrievalStatus} from '../site/pending-issues-model.mjs';
+const read=p=>fs.readFileSync(p,'utf8');
+const catalog=JSON.parse(read('site/audit/pending_issues_catalog.json'));
+const audit={schema_version:1,read_only:true,registered_source_count:26,generated_at_jst:'2026-11-14T21:00:00+09:00',summary:{full_event_row_parity_verified_by_this_report:0},sources:Array.from({length:26},(_,i)=>({source_id:i===0?'tamemap_nakano':i===1?'itabashi_tourism_festival':'fixture_'+i,retrieval_status:i===0?'source_error':'checked',candidate_publication_parity:'未検証'}))};
+assert.equal(validateCatalog(catalog),true);assert.equal(validateAudit(audit),true);
+const model=prepareIssues(catalog,audit);
+assert.equal(model.entries.length,5);
+assert.deepEqual(model.counts,{total:2,pending:1,deferred:1,completed:3,connection:1,verification:1});
+assert.deepEqual(model.remaining.map(e=>e.id),['tamemap-nakano','article-leads']);
+assert.deepEqual(model.completed.map(e=>e.id),['itabashi-tourism','suginami-candidates','weekly-update']);
+assert.ok(model.remaining.every(e=>e.work_status!=='completed'));
+assert.ok(model.completed.every(e=>e.completed_at && e.completed_scope && e.status.label==='対応完了'));
+assert.match(model.remaining[0].status.label,/保留/);
+assert.equal(model.remaining[0].retrieval_status.label,'自動取得できません');
+assert.equal(model.remaining[1].status.label,'公式根拠の確認待ち');
+// An HTTP success must not complete a deferred investigation or an unverified event.
+const healed=structuredClone(audit);healed.sources[0].retrieval_status='checked';
+const next=prepareIssues(catalog,healed);
+assert.deepEqual(next.counts,model.counts);
+assert.equal(next.remaining[0].work_status,'deferred');
+assert.equal(next.remaining[0].retrieval_status.label,'登録ページの接続を確認');
+assert.doesNotMatch(next.remaining[0].retrieval_status.label,/照合待ち/);
+// Failure to load the audit never erases the manually reviewed completion/holds.
+const unavailable=prepareIssues(catalog,null);
+assert.deepEqual(unavailable.counts,model.counts);
+assert.equal(unavailable.is_audit_current,false);
+assert.equal(unavailable.remaining[0].retrieval_status.label,'取得状況を確認できません');
+const allDone=structuredClone(catalog);
+for(const e of allDone.issues)Object.assign(e,{work_status:'completed',completed_at:'2026-11-14',completed_scope:'Fixture scope only'});
+assert.equal(prepareIssues(allDone,null).counts.total,0);
+assert.equal(prepareIssues(allDone,null).completed.length,5);
+// Missing/unknown work status fails closed instead of silently looking complete.
+for(const mutate of [c=>delete c.issues[0].work_status,c=>c.issues[0].work_status='unknown',c=>delete c.issues[1].completed_scope,c=>c.issues[1].completed_at='',c=>c.issues[0].issue_url='https://example.com/ads']){
+ const invalid=structuredClone(catalog);mutate(invalid);assert.throws(()=>validateCatalog(invalid));
 }
-const checks=Array.from({length:26},(_,i)=>({
-  source_id:i===0?"tamemap_nakano":i===1?"itabashi_tourism_festival":"other_source_"+i,
-  retrieval_status:i<2?"source_error":"checked",
-  candidate_publication_parity:"未検証",
-  pages_expected:i<2?3:1,
-  pages_checked:i<2?0:1
-}));
-checks[1].official_alternatives=[{source_id:"itabashi_official_festival",retrieval_status:"checked"}];
-const audit={
-  schema_version:1,read_only:true,registered_source_count:26,
-  generated_at_jst:"2026-10-28T00:30:40+09:00",
-  summary:{full_event_row_parity_verified_by_this_report:0},
-  sources:checks
-};
-assert.equal(validateAudit(audit),true);
-const result=prepareIssues(catalog,audit);
-assert.equal(result.counts.total,5);
-assert.equal(result.counts.connection,2);
-assert.equal(result.counts.verification,3);
-assert.equal(result.entries.find(x=>x.id==="tamemap-nakano").status.label,"自動取得できません");
-assert.match(result.entries.find(x=>x.id==="itabashi-tourism").status.detail,/自治体公式サイト/);
-assert.ok(result.entries.filter(x=>x.category==="verification").every(x=>x.status.label==="内容を確認中"));
-const unavailable=issueStatus(catalog.issues[0],null);
-assert.equal(unavailable.label,"取得状況を確認できません");
-const healed=structuredClone(audit);
-healed.sources[0].retrieval_status="checked";
-healed.sources[0].pages_checked=healed.sources[0].pages_expected;
-assert.equal(issueStatus(catalog.issues[0],healed).label,"接続を確認・内容の照合待ち");
-assert.doesNotMatch(issueStatus(catalog.issues[0],healed).label,/解決済み/);
-assert.equal(prepareIssues(catalog,null).is_audit_current,false);
+const page=read('site/pending-issues.html'),js=read('site/pending-issues.js');
+assert.doesNotMatch(page,/id="completedIssues"/);
+assert.match(js,/textNode\("details"/);
+assert.match(page,/完了分は残課題の件数に含めません/);
+assert.match(js,/model\.entries\.filter/);assert.match(js,/pendingStatusFilter/);
+assert.match(js,/textContent/);assert.doesNotMatch(js,/\.innerHTML\s*=/);
+assert.match(read('site/index.html'),/href="pending-issues\.html"/);
+for(const id of ['pendingIssueList','pendingCategoryFilter','pendingStatusFilter'])assert.ok(page.includes(`id="${id}"`));
+console.log('PASS: remaining/completed counts, explicit holds, independent audit changes, missing evidence and safe rendering');
 
-const home=get("site/index.html");
-const page=get("site/pending-issues.html");
-const js=get("site/pending-issues.js");
-const css=get("site/pending-issues.css");
-assert.match(home,/href="pending-issues\.html"/);
-assert.match(home,/現在の残課題・対応状況/);
-assert.match(home,/pending-issues\.css/);
-assert.match(js,/staging\/audit\/fixed_sources\.json/);
-assert.match(js,/replaceChildren/);
-assert.doesNotMatch(js,/\.innerHTML\s*=/);
-assert.match(css,/"Meiryo UI"/);
-assert.doesNotMatch(page,/href="source-audit\.html"/);
-for(const id of ["pendingTotal","pendingConnection","pendingVerification","pendingIntro",
-                 "pendingIssueList","pendingVisibleCount","pendingCheckedAt","pendingCategoryFilter"]){
- assert.match(page,new RegExp('id="'+id+'"'));
-}
-assert.match(page,/取得できなかったために既存情報を消すこともありません/);
-console.log("v1.24 approved pending-issues isolated public candidate: PASS");
+// Exercise the actual asynchronous load-failure handler, not only model fixtures.
+const nodes=new Map();
+const node=()=>({textContent:'—',children:[],replaceChildren(...children){this.children=children;}});
+const document={getElementById(id){if(!nodes.has(id))nodes.set(id,node());return nodes.get(id);},createElement:node};
+const context=vm.createContext({document,fetch:async()=>({ok:false,status:503}),console:{error(){},warn(){}}});
+const runtime=js.replace(/^import[^\n]+\n/,'').replace(/\ninit\(\);\s*$/,'\nglobalThis.initStatusPage=init;');
+vm.runInContext(runtime,context);await context.initStatusPage();
+assert.equal(nodes.get('pendingVisibleCount').textContent,'未確認');
+
+
+assert.match(nodes.get('pendingIssueList').children[0].textContent,/取得できません/);
+console.log('PASS: actual load failure keeps both lists unknown and does not access a missing model');
+
+assert.doesNotMatch(page,/全体の状況|id="pendingTotal"|id="pendingCompleted"|class="pending-issues-stats"/);
+assert.doesNotMatch(js,/model\.counts\./);
+console.log("PASS: no aggregate dashboard; direct task list with explicit status and preserved details");

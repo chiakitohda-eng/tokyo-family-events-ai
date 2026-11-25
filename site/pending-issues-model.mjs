@@ -9,7 +9,9 @@ export function validateCatalog(catalog) {
   }
   const seen = new Set();
   for (const entry of catalog.issues) {
-    if (!entry.id || seen.has(entry.id) || !ALLOWED_CATEGORIES.includes(entry.category) ||
+    if (!["pending","deferred","completed"].includes(entry.work_status) ||
+        (entry.work_status === "completed" && (!entry.completed_scope || !/^\d{4}-\d{2}-\d{2}$/.test(entry.completed_at || ""))) ||
+        !entry.id || seen.has(entry.id) || !ALLOWED_CATEGORIES.includes(entry.category) ||
         !entry.title || !entry.impact || !entry.now || !entry.workaround ||
         !entry.next || !entry.issue_url?.startsWith(ISSUE_PREFIX) ||
         !/^https:\/\/github\.com\/toodataa-ai\/tokyo-family-events-ai\/issues\/[0-9]+$/.test(entry.issue_url)) {
@@ -33,9 +35,9 @@ export function validateAudit(audit) {
       x.candidate_publication_parity === "未検証"));
 }
 
-export function issueStatus(entry, audit) {
+export function retrievalStatus(entry, audit) {
   if (entry.category !== "connection") {
-    return {label:"内容を確認中",detail:"個別イベントの確認が必要です。"};
+    return null;
   }
   if (!validateAudit(audit)) {
     return {label:"取得状況を確認できません",detail:"最新の監査情報が取得できていません。解消したとは判定しません。"};
@@ -45,7 +47,7 @@ export function issueStatus(entry, audit) {
     return {label:"取得状況を確認できません",detail:"対象サイトの監査結果が見つかりません。"};
   }
   if (row.retrieval_status === "checked") {
-    return {label:"接続を確認・内容の照合待ち",detail:"登録したページは取得できました。ただしイベントの掲載漏れが解消したという意味ではありません。"};
+    return {label:"登録ページの接続を確認",detail:"監査時点で登録ページを取得できました。作業の完了・保留とは別の接続結果です。"};
   }
   const alternatives = (row.official_alternatives || []).filter(x =>
     x.retrieval_status === "checked");
@@ -59,19 +61,27 @@ export function issueStatus(entry, audit) {
       : "自動でページを取得できていません。既存イベントが消えたという意味ではありません。"};
 }
 
+export function issueStatus(entry) {
+  if (entry.work_status === "completed") return {label:"対応完了",detail:entry.completed_scope};
+  if (entry.work_status === "deferred") return {label:"保留（指定により対象外）",detail:entry.next};
+  return {label:"公式根拠の確認待ち",detail:entry.next};
+}
+
 export function prepareIssues(catalog, audit) {
   validateCatalog(catalog);
   const report = validateAudit(audit) ? audit : null;
+  const entries = catalog.issues.map(e => ({...e, status:issueStatus(e),
+    retrieval_status:e.category === "connection" ? retrievalStatus(e,report) : null}));
+  const remaining = entries.filter(e => e.work_status !== "completed");
   return {
-    entries: catalog.issues.map(e => ({...e, status:issueStatus(e,report)})),
-    is_audit_current: Boolean(report),
-    audit_checked_at: report?.generated_at_jst || null,
-    catalog_reviewed_at: catalog.reviewed_at_jst || null,
-    counts: {
-      total: catalog.issues.length,
-      connection: catalog.issues.filter(x => x.category === "connection").length,
-      verification: catalog.issues.filter(x => x.category === "verification").length
-    }
+    entries, remaining, completed:entries.filter(e => e.work_status === "completed"),
+    is_audit_current:Boolean(report), audit_checked_at:report?.generated_at_jst || null,
+    catalog_reviewed_at:catalog.reviewed_at_jst || null,
+    counts:{total:remaining.length, pending:remaining.filter(e => e.work_status === "pending").length,
+      deferred:remaining.filter(e => e.work_status === "deferred").length,
+      completed:entries.length-remaining.length,
+      connection:remaining.filter(e => e.category === "connection").length,
+      verification:remaining.filter(e => e.category === "verification").length}
   };
 }
 

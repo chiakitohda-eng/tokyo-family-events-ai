@@ -3,6 +3,22 @@ export const WARDS = [
   '世田谷区','渋谷区','中野区','杉並区','豊島区','北区','荒川区','板橋区','練馬区','足立区','葛飾区','江戸川区'
 ];
 
+// Tama (non-23-ward) municipalities. The event field stays `ward` and holds a
+// ward or city name. Keep this list in sync with tools/validate_data.py.
+export const TAMA_CITIES = [
+  '武蔵野市','三鷹市','調布市','府中市','小金井市','小平市','国分寺市','国立市','立川市','昭島市',
+  '日野市','西東京市','東久留米市','清瀬市','東村山市','狛江市','多摩市','稲城市','町田市','八王子市','浦安市'
+];
+export const AREAS = [...WARDS, ...TAMA_CITIES];
+export const AREA_GROUPS = {
+  ward:{label:'23区',unit:'区',areas:WARDS},
+  tama:{label:'市部',unit:'市',areas:TAMA_CITIES}
+};
+// Display names for areas outside Tokyo (button text only; the stored `ward` stays '浦安市').
+export const AREA_DISPLAY_NAMES = {'浦安市':'千葉県浦安市'};
+export function areaDisplayName(name){ return AREA_DISPLAY_NAMES[name] || name; }
+export function areaGroupOf(name){ return TAMA_CITIES.includes(name) ? 'tama' : 'ward'; }
+
 export const PUBLICATION_TIERS = {
   full:{label:'本番',description:'今週〜2週間先。全掲載イベントを公式確認済み'},
   preview:{label:'先取り',description:'3〜4週間先。公式発表済み、詳細待ちを含む'},
@@ -349,9 +365,11 @@ export function filterEvents(events, filters={}){
   const reservation = filters.reservation || 'all';
   const sourceMode = ['ai_cross','explicit'].includes(filters.sourceMode) ? filters.sourceMode : 'all';
   const selected=(field)=>Array.isArray(filters[field])?filters[field]:[];
+  const areaGroup = ['ward','tama'].includes(filters.areaGroup) ? filters.areaGroup : '';
   const wards=selected('wards'),ratings=selected('ratings'),prices=selected('prices'),environments=selected('environments'),
     reservations=selected('reservations'),sourceModes=selected('sourceModes'),periods=selected('periods');
   return (events || []).filter(ev => {
+    if(areaGroup && areaGroupOf(ev.ward)!==areaGroup) return false;
     if(wards.length ? !wards.includes(ev.ward) : (ward!=='__all__' && ev.ward!==ward)) return false;
     if(q && !eventSearchText(ev).includes(q)) return false;
     const rating=recommendationStarCount(ev);
@@ -371,15 +389,16 @@ export function filterEvents(events, filters={}){
 }
 
 export function countsByWard(events){
-  const counts = Object.fromEntries(WARDS.map(w => [w,0]));
+  const counts = Object.fromEntries(AREAS.map(w => [w,0]));
   (events || []).forEach(ev => { if(ev.ward in counts) counts[ev.ward] += 1; });
   return counts;
 }
 
 export function readFiltersFromUrl(){
   const p = new URLSearchParams(location.search);
-  const ward = WARDS.includes(p.get('ward')) ? p.get('ward') : '__all__';
-  return {date:p.get('date')||'',ward,q:p.get('q')||'',recMin:p.get('rec')||'0',price:p.get('price')||'all',environment:p.get('env')||'all',reservation:p.get('reserve')||'all',sourceMode:['ai_cross','explicit'].includes(p.get('src'))?p.get('src'):'all'};
+  const ward = AREAS.includes(p.get('ward')) ? p.get('ward') : '__all__';
+  const areaGroup = p.get('g')==='tama' ? 'tama' : (areaGroupOf(ward)==='tama' && ward!=='__all__' ? 'tama' : 'ward');
+  return {areaGroup,date:p.get('date')||'',ward,q:p.get('q')||'',recMin:p.get('rec')||'0',price:p.get('price')||'all',environment:p.get('env')||'all',reservation:p.get('reserve')||'all',sourceMode:['ai_cross','explicit'].includes(p.get('src'))?p.get('src'):'all'};
 }
 
 export function serializeEventFilters(filters){
@@ -392,6 +411,8 @@ export function serializeEventFilters(filters){
   }else if(Array.isArray(filters.dates) && filters.dates.length){
     p.set('d',String(filters.dates[0]));
   }
+  // 23区 is the default group and is not serialized, so existing bookmarks stay unchanged.
+  if(filters.areaGroup==='tama') p.set('g','tama');
   const mappings=[['wards','w'],['ratings','star'],['prices','p'],['environments','e'],['reservations','r'],['sourceModes','s']];
   for(const [field,key] of mappings){
     if(Array.isArray(filters[field])) filters[field].forEach(value=>p.append(key,String(value)));
@@ -422,7 +443,7 @@ export function applyVerification(events, audit){
     const merged = {...ev,...c};
     if(c.family_fit) merged.family_fit={...(ev.family_fit||{}),...c.family_fit};
     if(c.reservation) merged.reservation={...(ev.reservation||{}),...c.reservation};
-    merged.verification={status:row.status||'unverified',source:row.source||'',source_kind:row.source_kind||'',fields:row.fields||{},note:row.note||'',verified_on:audit?.verified_on||''};
+    merged.verification={status:row.status||'unverified',source:row.source||'',source_kind:row.source_kind||'',fields:row.fields||{},note:row.note||'',verified_on:row.verified_on||audit?.verified_on||''};
     return merged;
   });
 }

@@ -840,3 +840,17 @@ body[data-season="winter"] .site-hero{background-position:center 47%}
 .festival-program span{overflow-wrap:anywhere}
 @media(max-width:680px){.festival-parent-tag{font-size:9px;margin-left:4px;padding:2px 5px}
   .festival-programs{padding:9px}.festival-program{padding:8px;font-size:10.5px}}
+.thumb.ph-cat{position:relative;font-size:0}
+.thumb.ph-cat .ph-disc{display:flex;align-items:center;justify-content:center;width:56px;height:56px;border-radius:50%;background:rgba(255,255,255,.7)}
+.thumb.ph-cat .ph-ward{position:absolute;left:8px;bottom:6px;font-size:11px;font-weight:700;line-height:1;color:currentColor;opacity:.85;letter-spacing:.02em}
+@media(max-width:640px){.thumb.ph-cat .ph-disc{width:46px;height:46px}.thumb.ph-cat svg{width:28px;height:28px}}
+
+/* 23区 / 多摩 group switch inside the ward chip row */
+.area-group-tabs{display:inline-flex;gap:4px;flex:0 0 auto;margin-right:6px;padding-right:8px;border-right:1px solid #d0d5dd}.area-group-chip{background:#eef2f6}.compact-ward-chips .area-group-chip{padding:3px 8px;font-size:10px}
+
+.visit-badge{display:inline-block;margin-left:4px;padding:0 6px;border-radius:999px;font-size:10px;font-weight:600;line-height:1.7;white-space:nowrap;border:1px solid transparent}
+.visit-read{background:#e8f5ec;color:#1d6b3a;border-color:#bfe0c9}
+.visit-nobody{background:#fff4dd;color:#8a5a00;border-color:#f0d9a3}
+.visit-failed{background:#fdeaea;color:#a12727;border-color:#f0bcbc}
+.visit-none{background:#f0f2f5;color:#5c6672;border-color:#dde1e6}
+@media (prefers-color-scheme:dark){.visit-read{background:#16301f;color:#8fd3a6;border-color:#2c5a3b}.visit-nobody{background:#38290b;color:#f0c36b;border-color:#6b5217}.visit-failed{background:#3a1717;color:#f19a9a;border-color:#6e2c2c}.visit-none{background:#23282e;color:#a7b0ba;border-color:#3a424b}}

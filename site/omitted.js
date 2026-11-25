@@ -36,23 +36,29 @@
     } catch (_) { return null; }
   }
   function createRow(row) {
-    const card = document.createElement('article');
+    const card = document.createElement('details');
     card.className = 'omit-result';
+    const summary = text('summary', '', 'omit-result-summary');
     const head = text('div', '', 'omit-result-head');
     head.appendChild(text('h3', row.title || '名称未確認'));
     const tag = text('span', human[row.status] || '判定待ち', 'omit-status-mark');
     if (row.status === '要確認' || row.status === '前回のみ・再取得要') tag.classList.add('pending');
     head.appendChild(tag);
-    card.appendChild(head);
+    summary.appendChild(head);
+    const reason = String(row.reason || '確認中').replace(/\s+/g, ' ').trim();
+    const preview = Array.from(reason);
+    summary.appendChild(text('p', '理由：' + preview.slice(0, 64).join('') + (preview.length > 64 ? '…' : ''), 'omit-reason-preview'));
+    card.appendChild(summary);
+    const content = text('div', '', 'omit-result-content');
     const facts = [row.date ? '開催日：' + row.date : null,
                    row.venue ? '会場：' + row.venue : null,
                    row.target ? '対象：' + row.target : null].filter(Boolean);
-    if (facts.length) card.appendChild(text('p', facts.join('\n'), 'omit-facts'));
+    if (facts.length) content.appendChild(text('p', facts.join('\n'), 'omit-facts'));
     const explanation = document.createElement('div');
     explanation.className = 'omit-reason';
     explanation.appendChild(text('b', '判定理由：'));
     explanation.appendChild(document.createTextNode(row.reason || '確認中'));
-    card.appendChild(explanation);
+    content.appendChild(explanation);
     const foot = text('div', '', 'omit-result-footer');
     const url = safeSourceUrl(row.official_url);
     if (url) {
@@ -64,7 +70,8 @@
     } else {
       foot.appendChild(text('small', '公式ページのリンク未取得。再確認待ち。'));
     }
-    card.appendChild(foot);
+    content.appendChild(foot);
+    card.appendChild(content);
     return card;
   }
   function filtered() {

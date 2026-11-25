@@ -576,3 +576,33 @@ const nonMatchingDate=mergeEventsAcrossWeeks([{events:[
 ]}]);
 assert.equal(nonMatchingDate.length,2,'independent events on different dates must not merge');
 console.log('actual verification venue correction chain A-B-C: OK');
+
+// --- 23区 / 多摩 area group (staging, 2026-11-21) ---
+{
+  const {AREAS,TAMA_CITIES,areaGroupOf,readFiltersFromUrl}=await import('../site/app.js');
+  assert.equal(TAMA_CITIES.length,21);
+  assert.equal(AREAS.length,44);
+  assert.equal(areaGroupOf('立川市'),'tama');
+  assert.equal(areaGroupOf('浦安市'),'tama');
+  const {areaDisplayName}=await import('../site/app.js');
+  assert.equal(areaDisplayName('浦安市'),'千葉県浦安市');
+  assert.equal(areaDisplayName('立川市'),'立川市');
+  assert.equal(areaGroupOf('杉並区'),'ward');
+  const mixed=[
+    {id:'w1',ward:'杉並区',name:'区のイベント',period:'11/21'},
+    {id:'t1',ward:'立川市',name:'立川のイベント',period:'11/21'}
+  ];
+  assert.equal(filterEvents(mixed,{}).length,2,'no group means all events (existing behaviour)');
+  assert.deepEqual(filterEvents(mixed,{areaGroup:'ward'}).map(e=>e.id),['w1']);
+  assert.deepEqual(filterEvents(mixed,{areaGroup:'tama'}).map(e=>e.id),['t1']);
+  assert.deepEqual(filterEvents(mixed,{areaGroup:'tama',wards:['立川市']}).map(e=>e.id),['t1']);
+  assert.equal(filterEvents(mixed,{areaGroup:'tama',wards:['杉並区']}).length,0);
+  const counts=countsByWard(mixed);
+  assert.equal(counts['立川市'],1);
+  assert.equal(counts['杉並区'],1);
+  // default group is not serialized; tama is
+  assert.equal(new URLSearchParams(serializeEventFilters({areaGroup:'ward',wards:['練馬区']})).has('g'),false);
+  const tama=new URLSearchParams(serializeEventFilters({areaGroup:'tama',wards:['立川市']}));
+  assert.equal(tama.get('g'),'tama');
+  assert.equal(tama.get('w'),'立川市');
+}

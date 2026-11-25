@@ -24,7 +24,7 @@ assert.match(html,/source\.origin==='legacy'/,'legacy section must include only 
 assert.doesNotMatch(html,/source\.origin!=='official'&&source\.origin!=='official_added'/,'non-official must not be mislabeled legacy');
 assert.match(html,/その他の固定サイト（要分類）/,'new origins must remain visible instead of being mislabeled');
 const originCounts = Object.groupBy(sources, source=>source.origin);
-assert.equal((originCounts.official||[]).length+(originCounts.official_added||[]).length,6,'keep previous official sources and the new Nerima forest source');
+assert.equal((originCounts.official||[]).length+(originCounts.official_added||[]).length,11,'keep previous official sources and add Shinjuku Sankaku venue, GREEN SPRINGS (Tachikawa), Futako-Tamagawa Rise and Chuo-sen RR (Suginami) and Hachilabo (Shibuya)' );
 assert.equal((originCounts.legacy||[]).length,18,'only 18 previous fixed sources');
 assert.equal((originCounts.manual||[]).length,2,'two newly added community sites');
 assert.ok((originCounts.manual||[]).some(source=>source.id==='tamemap_nakano'));
@@ -37,9 +37,37 @@ assert.match(html,/target="_blank" rel="noopener noreferrer"/);
 assert.match(html,/catch\(error\)[\s\S]*固定サイト一覧を取得できませんでした/);
 assert.match(css,/\.logic-fixed-sources-group ul/);
 assert.match(css,/@media\(max-width:520px\)[^{]*\{\.logic-fixed-sources/);
-for(const id of ['nakano_official_tourism','itabashi_official_festival','itabashi_tourism_festival','tamemap_nakano','itabashi_times_event']){
+for(const id of ['nakano_official_tourism','itabashi_official_festival','itabashi_tourism_festival','tamemap_nakano','itabashi_times_event','shinjuku_sankaku_hiroba','greensprings_tachikawa','futako_tamagawa_rise','chuosen_rr_suginami','hachilabo_shibuya']){
   assert.ok(sources.some(x=>x.id===id),'new official source included: '+id);
 }
 assert.ok(sources.some(x=>x.id==='nakano'),'legacy Nakano source retained');
 assert.ok(sources.some(x=>x.id==='nerima_district_festivals_2026'),'official Nerima table retained');
 console.log('Fixed-source directory visibility / dynamic source / mobile safeguards: OK ('+sources.length+' sources)');
+
+// AI exploration entry sites are listed separately from fixed sources (explicit_sources stays untouched).
+const aiSites=sourceConfig.ai_exploration_sites?.sites||[];
+assert.ok(aiSites.length>=90,'AI exploration sites must include wards, Tama cities, parks and facilities');
+const aiGroups=new Set(aiSites.map(x=>x.group));
+assert.equal(aiGroups.size,6,'AI sites use exactly six clean groups');
+assert.deepEqual(sourceConfig.ai_exploration_sites.group_order.slice().sort(),[...aiGroups].sort(),'group_order matches groups');
+assert.equal(new Set(aiSites.map(x=>x.id)).size,aiSites.length,'AI exploration site ids unique');
+assert.ok(aiSites.every(x=>x.label&&x.group&&/^https:\/\//.test(x.url)),'AI exploration sites need label, group and https url');
+assert.ok(aiSites.some(x=>x.id==='ai_yomiuriland')&&aiSites.some(x=>x.id==='ai_puroland'));
+assert.match(html,/ai_exploration_sites/);
+assert.match(html,/id="aiSourceDetails"/);
+assert.match(html,/id="aiSourceList"/);
+assert.match(html,/AI探索先サイト（候補探しの入口）一覧/);
+assert.match(html,/renderAiSources\(registry\)/);
+assert.ok(!sourceConfig.explicit_sources.some(x=>String(x.id).startsWith('ai_')),'AI sites must not be mixed into fixed sources');
+
+// Visit status (2026-11-22): every listed site shows how its last fetch went.
+{
+  assert.match(html,/function visitBadge\(/);
+  assert.match(html,/visit_status/);
+  const vs=sourceConfig.visit_status;
+  assert.ok(vs&&vs.checked_on&&vs.sites&&typeof vs.sites==='object','visit_status.sites must exist');
+  const ids=[...sourceConfig.explicit_sources.map(s=>s.id),...sourceConfig.ai_exploration_sites.sites.map(s=>s.id)];
+  const missing=ids.filter(id=>!vs.sites[id]);
+  assert.deepEqual(missing,[],'every listed site needs a visit state (use read/no_body/failed)');
+  assert.ok(Object.values(vs.sites).every(v=>['read','no_body','failed'].includes(v.state)));
+}

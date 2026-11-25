@@ -1,60 +1,71 @@
 {
   "schema_version": 1,
-  "reviewed_at_jst": "2026-10-28",
-  "overview": "イベント情報の取得や照合で、まだ確認・修正が必要なことをまとめています。表示中のイベントがすべて誤っているという意味ではありません。",
+  "reviewed_at_jst": "2026-11-15",
+  "overview": "現在の残課題と、対象範囲の対応が完了した記録を分けて表示します。完了した対応は残課題の件数に含めません。",
   "issue_status_source": "source_audit_for_connection; issue_tracking_for_review",
   "issues": [
     {
       "id": "tamemap-nakano",
       "category": "connection",
       "source_id": "tamemap_nakano",
-      "title": "ためまっぷなかのを自動で確認できない",
+      "title": "ためまっぷの追加調査は保留",
       "impact": "中野区の地域イベントを一部見つけられない可能性があります。",
-      "now": "月別カレンダーに加え、新着一覧も収集候補に登録しました。ただし自動取得はアクセス制限で止まっています。",
+      "now": "利用者の指定により、ためまっぷは現在の追加調査の対象外です。過去の取得失敗と既存の掲載は保持しています。",
       "workaround": "中野区公式カレンダーなど、別の情報源からも探しています。",
-      "next": "取得できる正規の方法を確認し、取得後は開催日や会場も個別に照合します。",
-      "issue_url": "https://github.com/toodataa-ai/tokyo-family-events-ai/issues/65"
+      "next": "調査を再開する指定があるまで保留します。未確認の内容を解決済みにはしません。",
+      "issue_url": "https://github.com/toodataa-ai/tokyo-family-events-ai/issues/65",
+      "work_status": "deferred"
     },
     {
       "id": "itabashi-tourism",
       "category": "connection",
       "source_id": "itabashi_tourism_festival",
-      "title": "板橋観光協会の案内ページにつながらない",
-      "impact": "観光協会独自の案内を確認できず、板橋区内のイベントを一部見逃す可能性があります。",
-      "now": "観光協会のページは取得できていません。別に登録した板橋区公式ページは確認できています。",
+      "title": "板橋区の収集済み候補の照合・追加",
+      "impact": "観光協会独自の案内を取得できない場合、板橋区内のイベントを一部見逃す可能性があります。",
+      "now": "観光協会と区公式の記事を照合し、根拠のそろった祭り・体験・図書館企画などを追加しました。固定候補の掲載済み・期間外・受付終了等の判定も完了しています。",
       "workaround": "板橋区の公式情報と、ほかの地域情報サイトを参照します。",
-      "next": "観光協会の復旧または正式な移転先を確認し、掲載内容を照合します。",
-      "issue_url": "https://github.com/toodataa-ai/tokyo-family-events-ai/issues/65"
+      "next": "新着情報と接続状態は、今回の完了記録とは別に確認します。",
+      "issue_url": "https://github.com/toodataa-ai/tokyo-family-events-ai/issues/65",
+      "work_status": "completed",
+      "completed_at": "2026-11-14",
+      "completed_scope": "11月14日に固定した851候補に含まれる、板橋区観光協会・区公式の収集済み記事。今後の新着記事や、サイト内の全記事の確認完了を意味しません。"
     },
     {
       "id": "suginami-candidates",
       "category": "verification",
-      "title": "杉並区のイベント候補をすべて照合しきれていない",
+      "title": "杉並区290候補の判定・確認できた企画の掲載",
       "impact": "公式サイトにある一部の催しが、現在の検索結果に含まれていない可能性があります。",
-      "now": "公式カレンダーから見つけた候補と、すでに載っているイベントを1件ずつ照合しています。",
+      "now": "以前の227候補に含まれていなかった記事も照合し、対象年齢と申込条件を企画ごとに整理して、根拠のそろった企画を本番へ反映しました。",
       "workaround": "すでに確認済みのイベントは引き続き掲載します。類似イベントの重複追加は避けます。",
-      "next": "日時・会場・対象年齢・申込みと、既存の掲載内容を照合してから追加可否を判断します。",
-      "issue_url": "https://github.com/toodataa-ai/tokyo-family-events-ai/issues/52"
+      "next": "根拠不足の保留は「公式根拠が足りない候補・評価の確認」にまとめています。",
+      "issue_url": "https://github.com/toodataa-ai/tokyo-family-events-ai/issues/52",
+      "work_status": "completed",
+      "completed_at": "2026-11-14",
+      "completed_scope": "固定851候補中の杉並区290候補について、掲載済み・追加・期間外・受付終了・保留への判定まで。保留候補の開催確認まで完了したという意味ではありません。"
     },
     {
       "id": "article-leads",
       "category": "verification",
-      "title": "中野・板橋・練馬で見つけた記事の確認が残っている",
-      "impact": "記事に載っている催しの中に、まだ検索へ反映できていないものがあるかもしれません。",
-      "now": "イベント一覧やまとめ記事から候補を収集していますが、記事を見つけただけでは開催が確定しません。",
-      "workaround": "区や主催者の案内で確かめられたイベントは、確認後に順次取り扱います。",
-      "next": "親イベントと内包企画の重複を防ぎ、主催者の一次情報と照合します。",
-      "issue_url": "https://github.com/toodataa-ai/tokyo-family-events-ai/issues/62"
+      "title": "公式根拠が足りない候補・評価の確認",
+      "impact": "開催日・年・会場・受付条件などを裏付けられない企画は、確認済みとして追加できません。一部の既存評価も再確認を保留しています。",
+      "now": "公式根拠の再照合で、ミュシャ・岩手フェア・目黒ダンス一般観覧とあいぱくの週別5件を本番データへ追加しました。既存6件の評価根拠も再確認し、総合評価A/Bの変更はありません。まごころマルシェは既存掲載と照合済みです。画面や収集処理の改修はステージング確認待ちです。",
+      "workaround": "代替の自治体・主催者情報で根拠がそろったものを掲載し、不明な年齢・料金・受付可否は推測しません。",
+      "next": "引き続き根拠待ちは元の24候補のうち17候補、直接追跡した1企画、既存評価4件です。開催終了・申込締切済みの4候補は追加見送りとして判定しました。取得失敗の元記録は保持し、代替根拠の確認を元ページの取得成功とは扱いません。確認済みのイベントデータは検証後に本番更新します。画面・収集処理の改修はステージング確認後に本番へ反映します。",
+      "issue_url": "https://github.com/toodataa-ai/tokyo-family-events-ai/issues/62",
+      "work_status": "pending"
     },
     {
       "id": "weekly-update",
       "category": "verification",
-      "title": "10月26日分のデータ更新に未完了の確認がある",
-      "impact": "この更新分について、見つけた候補がすべて検証・反映済みとはまだ言えません。",
-      "now": "10月26日の更新作業に未完了があるという記録が残っています。現在のイベント全件が未掲載という意味ではありません。",
+      "title": "既存掲載の保護・更新履歴と取得失敗の保持",
+      "impact": "取得失敗によって、既存の掲載が削除されたり、過去の失敗が成功へ書き換わったりすることを防ぎます。",
+      "now": "既存480個票を変更せず、99企画・週別118件を追加して合計598件としたことを実配信で照合しました。評価根拠や対象年齢・申込枠の混同を防ぐ検証も追加しています。",
       "workaround": "それ以前から掲載されているイベントは、取得失敗だけを理由に削除しないルールです。",
-      "next": "必要な参照元と候補の確認を再点検し、検証が済んだ部分から安全に更新します。",
-      "issue_url": "https://github.com/toodataa-ai/tokyo-family-events-ai/issues/41"
+      "next": "過去の取得失敗と根拠不足は記録を残し、現在の残課題で扱います。",
+      "issue_url": "https://github.com/toodataa-ai/tokyo-family-events-ai/issues/41",
+      "work_status": "completed",
+      "completed_at": "2026-11-14",
+      "completed_scope": "現在の更新で旧480個票と履歴・取得失敗が保持されることの検証。10月26日当時の取得失敗そのものを解消したという意味ではありません。"
     }
   ]
 }
