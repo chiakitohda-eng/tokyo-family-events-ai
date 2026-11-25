@@ -1,0 +1,4 @@
+page1 https://www.city.koganei.lg.jp/kankobunka/kankobunka_oshirase/D01010102023101.html 200 32991
+page2 https://www.city.nishitokyo.lg.jp/enjoy/kouminkan/kouza_johou/hibarigaoka/2026planetariumtheater.html 200 27688
+page3 https://www.city.nishitokyo.lg.jp/enjoy/bunkageijutushinkou/tamarokutofair/R8Paraart.html 200 29833
+page4 https://www.city.nishitokyo.lg.jp/siseizyoho/npo_kyodo/kikakuteian/R8/U29ishikorokurabu2.html 200 27513
