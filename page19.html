@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<title>文京区スポーツ協会</title>
+<!-- meta -->
+
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1">
+<meta name="keywords" content="文京区スポーツ協会,文京区,スポーツ,区民大会,教室,イベント" />
+<meta name="description" content="文京区スポーツ協会のWEBサイトです。加盟団体のご紹介、大会情報や教室・イベント等をご案内しております。">
+<meta name="copyright" content="Copyright (C) 文京区スポーツ協会." />
+<link rel="shortcut icon" href="https://bunkyo-sports.jp/img/favicon.ico" />
+<link rel="stylesheet" href="https://bunkyo-sports.jp/css/default.css" />
+<link rel="stylesheet" href="https://bunkyo-sports.jp/css/common.css" />
+
+<!-- opg -->
+<meta property="og:url" content="https://bunkyo-sports.jp/">
+<!-- <meta property="og:image" content=""> -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="文京区スポーツ協会">
+<meta property="og:site_name" content="文京区スポーツ協会">
+<meta property="og:description" content="文京区スポーツ協会のWEBサイトです。加盟団体のご紹介、大会情報や教室・イベント等をご案内しております。">
+<meta property="og:locale" content="ja_JP">
+
+
+<!--webフォント-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+
+<!-- font-awesome -->
+<link href="https://bunkyo-sports.jp/css/font-awesome.min.css" rel="stylesheet" />
+
+<!--レスポンシブの設定-->
+<!-- ※デフォルトのスタイル 1025px以上の画面サイズの場合 -->
+<link rel="stylesheet" media="screen and (min-width: 1052px)" href="https://bunkyo-sports.jp/css/module.css" />
+<!-- ※スマートフォン用のスタイル 1024px以下の画面サイズの場合 -->
+<link rel="stylesheet" media="screen and (max-width: 1051px)"  href="https://bunkyo-sports.jp/css/module_sp.css">
+<!-- ※デフォルトのスタイル 1025px以上の画面サイズの場合 -->
+<link rel="stylesheet" media="screen and (min-width: 1052px)" href="https://bunkyo-sports.jp/css/style.css" />
+<!-- ※スマートフォン用のスタイル 1024px以下の画面サイズの場合 -->
+<link rel="stylesheet" media="screen and (max-width: 1051px)"  href="https://bunkyo-sports.jp/css/style_sp.css">
+<!--レスポンシブの設定-->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+<script src="https://bunkyo-sports.jp/js/pagetop.js"></script>
+<script src="https://bunkyo-sports.jp/js/fontsize.js"></script>
+
+<!-- scrollreveal -->
+<!-- <script src="https://unpkg.com/scrollreveal"></script> -->
+<script src="https://bunkyo-sports.jp/js/scrollreveal.min.js"></script>
+<script>
+//下から出てくる
+$(function(){
+	var flBmov= {
+		delay: 600, //アニメーションの発生タイミング
+		distance: '30px', //要素の移動距離
+		duration: 1000, //すぴーど
+		origin: 'bottom' //要素が移動してくる方向
+	};
+	var flLmov= {
+		delay: 100, //アニメーションの発生タイミング
+		distance: '100px', //要素の移動距離
+		duration: 500, //すぴーど
+		origin: 'left' //要素が移動してくる方向
+	};
+	var flRmov= {
+		delay: 1000, //アニメーションの発生タイミング
+		distance: '600px', //要素の移動距離
+		duration: 500, //すぴーど
+		origin: 'right' //要素が移動してくる方向
+	};
+	ScrollReveal().reveal('.h2Title', flLmov);
+});
+</script>
+<!-- scrollreveal END -->
+
+<!-- btnJS -->
+<script type="text/javascript" charset="utf-8">
+$(document).ready(
+  function(){
+    $("a img") .hover(function(){
+       $(this).fadeTo("4000",0.6); // マウスオーバーで透明度を30%にする
+    },function(){
+       $(this).fadeTo("4000",1.0); // マウスアウトで透明度を100%に戻す
+    });
+  });
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script>
+$(function(){
+  $('a[href^="#"]').click(function(){
+    var adjust = 0;
+    var speed = 400;
+    var href= $(this).attr("href");
+    var target = $(href == "#" || href == "" ? 'html' : href);
+    var position = target.offset().top + adjust;
+    $('body,html').animate({scrollTop:position}, speed, 'swing');
+    return false;
+  });
+});
+</script>
+
+<!-- スライドメニューnew -->
+<!-- sidemenu -->
+<link rel="stylesheet" media="screen and (max-width: 1200px)" href="https://bunkyo-sports.jp/css/sidemenu.css">
+<script>
+$(function(){
+	$(".slide_btn").click(function(){
+		$("#category_list").slideToggle(200);
+	});
+});
+</script>
+
+<!-- logofadeIn -->
+<script>
+$(document).ready(function() {
+	$('#logo').fadeIn(1800);
+});
+</script>
+<style>
+#logo{display:none}
+</style>
+
+<!-- backstretch -->
+<script src="https://bunkyo-sports.jp/js/jquery.backstretch.min.js"></script>
+<script type="text/javascript">
+$(function(){
+$("#hero").backstretch([
+      "img/fv01.jpg"
+    , "img/fv02.jpg"
+    , "img/fv03.jpg"
+//      "img/main01@2x.jpg"
+//    , "img/main02@2x.jpg"
+  ], {duration: 3000, fade: 750});
+});
+</script><!-- metaEnd -->
+</head>
+
+<body>
+<!-- header -->
+<!-- header -->
+<!-- headOuter -->
+<div id="headOuter" class="clearfix">
+
+<header id="globalHeader" class="clearfix">
+
+<h1 id="logo"><a href="https://bunkyo-sports.jp/index.html">文京区スポーツ協会</a></h1>
+
+<div class="headRight">
+<div id="headRightTop" class="clearfix">
+
+<ul class="clearfix" id="headFont">
+<li>文字サイズ</li>
+<!--
+<li><a href="">大</a></li>
+<li><a href="">中</a></li>
+<li><a href="">小</a></li>
+-->
+<li><button onclick="changeFontSize(1.0)" data-fs="1.0">大</button></li>
+<li><button onclick="changeFontSize(0.9)" data-fs="0.9">中</button></li>
+<li><button onclick="changeFontSize(0.7)" data-fs="0.7">小</button></li>
+</ul>
+
+<ul  class="hiddenSp clearfix" id="headRTLink">
+<li><a href="https://bunkyo-sports.jp/sitemap.html"><i class="fa fa-sitemap "></i>サイトマップ</a></li>
+</ul>
+
+</div>
+
+
+
+<!-- gloNaviPC -->
+<nav class="hiddenSp">
+<ul id="menu" class="clearfix">
+<li><a href="https://bunkyo-sports.jp/about.html">協会について</a></li><li><a href="https://bunkyo-sports.jp/member.html">加盟団体</a></li><li><a href="https://bunkyo-sports.jp/events_r8/events.html">大会イベント等</a></li><li><a href="https://bunkyo-sports.jp/boys.html">スポーツ少年団</a></li><!--<li><a href="school.html">教室・講習会</a></li>--><li><a href="https://bunkyo-sports.jp/newsletter.html">会報誌</a></li>
+</ul>
+</nav>
+
+<!-- #category_list / -->
+<!-- SP_menu / -->
+<nav class="global_menu hiddenPc">
+<a class="slide_btn"><img src="https://bunkyo-sports.jp/img/menu.png" width="100%"></a>
+</nav>
+<!-- / SP_menu -->
+<nav id="category_list" class="hiddenPc">
+<ul class="lists clearfix">
+<li><a href="https://bunkyo-sports.jp/about.html">協会について</a></li>
+<li><a href="https://bunkyo-sports.jp/member.html">加盟団体</a></li>
+<li><a href="https://bunkyo-sports.jp/events_r8/events.html">大会イベント等</a></li>
+<li><a href="https://bunkyo-sports.jp/boys.html">スポーツ少年団</a></li>
+<!--<li><a href="school.html">教室・講習会</a></li>-->
+<li><a href="https://bunkyo-sports.jp/newsletter.html">会報誌</a></li>
+<li><a href="https://bunkyo-sports.jp/sitemap.html">サイトマップ</a></li>
+</ul>
+<p class="list_close slide_btn"><img src="https://bunkyo-sports.jp/img/close_modal.png" width="44" height="30" alt="メニューを閉じる"></p>
+</nav>
+<!-- /#category_list -->
+
+</div>
+
+
+</header>
+</div><!-- headOuterEnd -->
+<!-- headerEnd --><!-- headerEnd -->
+
+<!-- main -->
+<div id="mainIndex" class="clearfix">
+
+<section id="hero" class="has-dot-overlay has-dot-overlay--black has-dot-overlay--medium">
+</section>
+
+<!-- mainBlock -->
+<div class="mainWBlock clearfix indexM">
+
+	<div class="clearfix">
+		<div class="h2Box">
+		<h2 class="h2Title">NEWS<span class="h2Read">お知らせ</span></h2>
+		</div>
+		<div class="h2RightBox PT20">
+
+		<div class="newsBlock">
+
+<!-- newsBlock -->
+<div class="newsBlockTitle">2026</div>
+
+<!-- ニュース1つ分ここから -->
+<div class="newsBlockOne">
+	<time class="newsTime">2026/09/25</time><span class="newsTag">お知らせ</span>
+	<div class="newsTitleOne">子供ラジオ体操認定講習会のご案内</div>
+	<p class="newsText">
+開催日<br>
+10/3(土)　大塚地域活動センター<br>
+10/18(日) 磯川地域活動センター 多目的室B<br><br>
+詳しくは<a href="https://bunkyo-sports.jp/events_r8/school_radio.html">子供ラジオ体操 認定講習会 <i class="fa fa-chevron-circle-right "></i></a>
+</p>
+</div>
+
+<!-- ニュース1つ分ここから -->
+<div class="newsBlockOne">
+	<time class="newsTime">2026/09/10</time><span class="newsTag">お知らせ</span>
+	<div class="newsTitleOne">ローラースケート教室のご案内</div>
+	<p class="newsText">
+開 催 日：2026年9月～12月・毎月第2日曜日<br>
+①9月13日(日)<br>
+②10月11日(日)<br>
+③11月8日(日)<br>
+④12月13日(日)<br>
+会場：東京ドームローラースケートアリーナ<br>
+詳しくは、<a href="https://bunkyo-sports.jp/events_r8/school_roller.html">ローラースケート教室 <i class="fa fa-chevron-circle-right "></i></a>
+</p>
+</div>
+
+<!-- ニュース1つ分ここから -->
+<div class="newsBlockOne">
+	<time class="newsTime">2026/07/31</time><span class="newsTag">お知らせ</span>
+	<div class="newsTitleOne">10月31日（土) 区民陸上競技大会 中止のお知らせ</div>
+	<p class="newsText">
+10月31日（土曜日）に開催を予定しておりました「区民陸上競技大会」につきましては、<br>
+運営側の都合により中止といたします。<br>
+大変ご迷惑をおかけいたしますが、ご理解のほどお願い申し上げます。<br>
+<br>
+【お問合せ先】<br>
+文京区スポーツ振興課<br>
+TEL：03-5803-1308<br>
+MAIL：b251000@city.bunkyo.lg.jp <br>
+</p>
+</div>
+
+<!-- ニュース1つ分ここから -->
+<div class="newsBlockOne">
+	<time class="newsTime">2026/07/31</time><span class="newsTag">お知らせ</span>
+	<div class="newsTitleOne">11月8日(日) 区民水泳大会 中止のお知らせ</div>
+	<p class="newsText">
+11月8日（日曜日）に開催を予定しておりました「区民水泳大会」につきましては、<br>
+運営側の都合により中止といたします。<br>
+大変ご迷惑をおかけいたしますが、ご理解のほどお願い申し上げます。<br>
+<br>
+【お問合せ先】<br>
+文京区スポーツ振興課<br>
+TEL：03-5803-1308<br>
+MAIL：b251000@city.bunkyo.lg.jp<br>
+
+</p>
+</div>
+
+
+<!-- ニュース1つ分ここから -->
+<div class="newsBlockOne">
+	<time class="newsTime">2026/05/29</time><span class="newsTag">お知らせ</span>
+	<div class="newsTitleOne">文京区ラジオ体操講習会</div>
+	<p class="newsText">
+「文京区ラジオ体操講習会」行います。<br>夏休みが始まる前に受講してみませんか？<br>どなたでも参加可能です。<br>
+日程：令和８年６月２１日（日）１６時～（１５時４５分開場）<br>
+場所：江戸川橋体育館（小日向1-7-4）<br>
+持ち物：上履き（水分補給の準備をお願いします） <br><br>
+<a href="https://bunkyo-sports.jp/events_r8/pdf/events/radio/CCF_000180.pdf" target="_blank">ラジオ体操講習会 <i class="fa fa-file-pdf-o "></i></a><br><br>
+</p>
+</div>
+
+
+<div class="newsBlockTitle">2025</div>
+<!-- ニュース1つ分ここから -->
+<div class="newsBlockOne">
+	<time class="newsTime">2025/11/10</time><span class="newsTag">お知らせ</span>
+	<div class="newsTitleOne">11月9日(日) ソフトテニス秋季大会 順延のお知らせ</div>
+	<p class="newsText">
+11月9日(日)に開催を予定しておりました「ソフトテニス秋季大会」は天候不順のため、<br>
+11月24日(日)に順延となりました。<br>
+大会詳細につきましては、下記URLをご参照ください。<br>
+<a href="https://bunkyo-sports.jp/events_r7/events_softtennis_aff.html" target="_blank">https://bunkyo-sports.jp/events_r7/events_softtennis_aff.html</a>
+</p>
+</div>
+
+<!-- ニュース1つ分ここから -->
+<div class="newsBlockOne">
+	<time class="newsTime">2025/09/26</time><span class="newsTag">お知らせ</span>
+	<div class="newsTitleOne">「10月26日(日) 区民なぎなた大会 中止のお知らせ</div>
+	<p class="newsText">
+10月26日（日曜日）に開催を予定しておりました「区民なぎなた大会」につきましては、運営側の都合により中止といたします。<br>
+参加申込をいただいておりました方々には、大変ご迷惑をおかけいたしますが、ご理解のほどお願い申し上げます。<br>
+【お問合せ先】<br>
+文京区スポーツ振興課<br>
+TEL：03-5803-1308<br>
+MAIL：b251000@city.bunkyo.lg.jp<br>
+</p>
+</div>
+
+<!-- ニュース1つ分ここから -->
+<div class="newsBlockOne">
+	<time class="newsTime">2025/07/31</time><span class="newsTag">お知らせ</span>
+	<div class="newsTitleOne">夏休みだ！！ラジオ体操に行こう！</div>
+	<p class="newsText">
+<a href="https://bunkyo-sports.jp/events_r7/pdf/events/radio/senryu.pdf" target="_blank">第二回ラジオ体操川柳大募集 <i class="fa fa-file-pdf-o "></i></a><br>
+<a href="https://bunkyo-sports.jp/events_r7/pdf/events/radio/stamp.pdf" target="_blank">子どもスタンプチャレンジ2025 <i class="fa fa-file-pdf-o "></i></a><br>
+<a href="https://bunkyo-sports.jp/events_r7/pdf/events/radio/certification.pdf" target="_blank">ラジオ体操こども検定 <i class="fa fa-file-pdf-o "></i></a><br>
+</p>
+</div>
+
+<!-- / ニュース1つ分ここまで -->
+
+<!-- ニュース1つ分ここから -->
+<div class="newsBlockOne">
+	<time class="newsTime">2025/04/25</time><span class="newsTag">お知らせ</span>
+	<div class="newsTitleOne">名称変更について</div>
+	<p class="newsText">令和7年4月25日<br>
+文京区体育協会は、文京区スポーツ協会に名称を変更しました。<br>
+今後ともよろしくお願いいたします。
+</p>
+</div>
+
+<!-- / ニュース1つ分ここまで -->
+
+<!-- ニュース1つ分ここから -->
+<div class="newsBlockOne">
+	<time class="newsTime">2025/03/04</time><span class="newsTag">お知らせ</span>
+	<div class="newsTitleOne">文京区ボクシング大会について</div>
+	<p class="newsText">令和7年4月12日（土）に文京区ボクシング大会を実施いたします。<br>
+大会詳細につきましては、下記URLをご参照ください。 <br>
+<a href="https://bunkyo-sports.jp/events_r7/events_boxsing.html" target="_blank">https://bunkyo-sports.jp/events_r7/events_boxsing.html</a>
+</p>
+</div>
+
+<!-- / ニュース1つ分ここまで -->
+
+
+<!-- アコーディオン -->
+<div class="accordion">
+
+
+<!-- 1アコーディオンここから -->
+  <div class="accordion-item">
+    <input type="checkbox" id="ac2" class="accordion-toggle">
+    <label for="ac2" class="accordion-title">2024</label>
+    <div class="accordion-content">
+
+<!-- ニュース1つ分ここから -->
+<div class="newsBlockOne">
+	<time class="newsTime">2024/10/04</time><span class="newsTag">お知らせ</span>
+	<div class="newsTitleOne">10月27日(日) 区民バドミントン大会 延期のお知らせ</div>
+	<p class="newsText">10月27日（日曜日）に開催を予定しておりました「区民バドミントン大会」ですが、<br>
+衆議院議員選挙の実施に伴い、会場使用ができなくなりました。<br>
+ついては、10月27日（日曜日）の区民バドミントン大会は中止とし、2025年3月30日（日曜日）に延期いたします。<br>
+大会詳細については、改めてご案内いたします。<br>
+また、今回お申込みいただいた方には、参加費の返金をさせていただきます。<br>
+詳細につきましては改めてご案内いたします。<br>
+ご参加の皆様には大変申し訳ございませんが、ご理解のほどお願い申し上げます。
+<br><br>
+<b>2024/10/21<br>
+<font color="red">
+「区民バドミントン大会」中止に伴う参加費の返金については、文京区バドミントン協会よりご案内しております。<br>
+案内通知をご確認のうえ、返金の手続きをお願いいたします。<br>
+返金に関するお問い合わせは以下へお願いいたします。<br>
+文京区バドミントン協会：bunkyo.bdmntn.association@gmail.com<br>
+ご対応のほどよろしくお願い申し上げます。
+
+</b>
+</p>
+</div>
+
+<!-- / ニュース1つ分ここまで -->
+
+<!-- ニュース1つ分ここから -->
+<div class="newsBlockOne">
+	<time class="newsTime">2024/9/13</time><span class="newsTag">お知らせ</span>
+	<div class="newsTitleOne">9月15日(日) 区民大会ライフル射撃競技 中止のお知らせ</div>
+	<p class="newsText">9月15日（日曜日）に開催を予定しておりました「区民大会ライフル射撃競技」ですが、<br>
+環境省より当日の暑さ指数（WBGT）が31を超える予測が発表（9月13日正午現在）されております。<br>
+ついては、参加者の熱中症予防を図るため、9月15日（日曜日）の「区民大会ライフル射撃競技」は開催を中止いたします。<br>
+ご参加の皆様には大変申し訳ございません。ご理解のほどお願い申し上げます。
+</p>
+</div>
+
+<!-- / ニュース1つ分ここまで -->
+
+<!-- ニュース1つ分ここから -->
+<div class="newsBlockOne">
+	<time class="newsTime">2024/9/6</time><span class="newsTag">お知らせ</span>
+	<div class="newsTitleOne">10月06日(日) 区民水泳大会 中止のお知らせ</div>
+	<p class="newsText">10月6日（日曜日）に開催を予定しておりました「区民水泳大会」ですが、<br>文京ス
+ポーツセンターの大プールが設備の不具合により現在閉鎖しております。再開時期は未定となります。<br>
+ついては、10月6日（日曜日）の区民水泳大会は開催を中止いたします。<br>
+今回の中止に伴う、参加費の返金及び別日程での開催の可否につきましては、改めてご案内いたします。<br>
+ご参加の皆様には大変申し訳ございません。ご理解のほどお願い申し上げます。<br>
+【お問合せ先】<br>
+文京区スポーツ振興課<br>
+TEL：03-5803-1308<br>MAIL：b251000@city.bunkyo.lg.jp
+
+<br><br>
+<b>2024/10/15<br>
+<font color="red">
+「区民水泳大会」中止に伴う参加費の返金については、文京区水泳連盟よりご案内させていただきます。<br>
+フォームによる申請が必要となりますので、案内通知をご確認のうえ、返金の手続きをお願いいたします。<br>
+詳細については以下リンク先よりご確認ください。<br>
+　文京区水泳連盟HP：<a href="https://sites.google.com/view/bunkyosuiren" target="_blank">https://sites.google.com/view/bunkyosuiren</a>
+<br>
+ご対応のほどよろしくお願い申し上げます。</font>
+</b>
+
+</p>
+</div>
+
+<!-- / ニュース1つ分ここまで -->
+
+<!-- ニュース1つ分ここから -->
+<div class="newsBlockOne">
+	<time class="newsTime">2024/9/3</time><span class="newsTag">お知らせ</span>
+	<div class="newsTitleOne">9月29日(日) 区民ボウリング大会 中止のお知らせ</div>
+	<p class="newsText">9月29日（日曜日）に開催を予定しておりました「区民ボウリング大会」につきましては、運営側の都合により中止といたします。<br>
+参加申込をいただいておりました方々には、大変ご迷惑をおかけいたしますが、ご理解のほどお願い申し上げます。<br>
+【お問合せ先】<br>
+文京区スポーツ振興課<br>
+TEL：03-5803-1308<br>MAIL：b251000@city.bunkyo.lg.jp
+
+</p>
+</div>
+
+<!-- / ニュース1つ分ここまで -->
+
+<!-- ニュース1つ分ここから -->
+<div class="newsBlockOne">
+	<time class="newsTime">2024/7/26</time><span class="newsTag">お知らせ</span>
+	<div class="newsTitleOne">7月28日(日) 区民陸上競技大会 中止のお知らせ</div>
+	<p class="newsText">7月28日（日）に開催を予定しておりました「区民陸上競技大会」ですが、<br>環境省より当日の暑さ指数（WBGT）が31を超える予測が発表（7月26日正午現在）されております。<br>
+ついては、参加者の熱中症予防を図るため、7月28日（日）の区民陸上競技大会は開催を中止いたします。<br>
+参加費の返金等につきましは、改めてご案内いたします。<br>
+ご参加の皆様には大変申し訳ございません。ご理解のほどお願い申し上げます。<br>
+<br>
+2024/8/9<br>
+区民陸上競技大会中止に伴う参加費の返金については、現在、返金方法等について調整しております。<br>決定し次第、ご案内申し上げます。今しばらくお待ちいただけますよう、お願い申し上げます。
+<br><br>
+<b>2024/8/30<br>
+<font color="red">
+「区民陸上競技大会」中止に伴う参加費の返金については、文京区陸上競技連盟よりご案内させていただきます。<br>
+返金手続き申請書のご提出が必要となりますので、案内通知をご確認のうえ、返金の手続きをお願いいたします。<br>
+9月2日（月）までにご案内が届かない場合は文京区体育協会事務局（bz148425@bz01.plala.or.jp）までお問い合わせください。<br>
+ご対応のほどよろしくお願い申し上げます。</font>
+</b>
+</p>
+</div>
+<!-- / ニュース1つ分ここまで -->
+
+<!-- ニュース1つ分ここから -->
+<div class="newsBlockOne">
+	<time class="newsTime">2024/7/1</time><span class="newsTag">ニュース</span>
+	<div class="newsTitleOne">WEBサイトリリースのお知らせ</div>
+	<p class="newsText">文京区体育協会のWEBサイトを公開いたしました。体育協会の活動、大会情報等をご案内いたします。</p>
+</div>
+<!-- / ニュース1つ分ここまで -->
+
+    </div>
+  </div>
+<!-- 1アコーディオンここまで -->
+
+</div>
+<!-- アコーディオン -->
+
+
+
+
+
+
+
+<!-- ニュース1つ分ここから -->
+<!--
+<div class="newsBlockOne">
+	<time class="newsTime">2024/3/25</time><span class="newsTag">お知らせ</span>
+	<div class="newsTitleOne">文京区体育協会は60周年を迎えました</div>
+	<p class="newsText">テキストを入れてくださいテキストを入れてくださいテキストを入れてくださいテキストを入れてくださいテキストを入れてください。</p>
+</div>
+-->
+<!-- / ニュース1つ分ここまで -->
+
+<!-- ニュース1つ分ここから -->
+<!--
+<div class="newsBlockOne">
+	<time class="newsTime">2024/2/25</time><span class="newsTag">お知らせ</span>
+	<div class="newsTitleOne">サッカー大会 雨天延期のお知らせ</div>
+	<p class="newsText">テキストを入れてくださいテキストを入れてくださいテキストを入れてくださいテキストを入れてくださいテキストを入れてください。</p>
+</div>
+-->
+
+<!-- ニュース1つ分ここから -->
+<!--
+<div class="newsBlockOne">
+	<time class="newsTime">2024/1/1</time><span class="newsTag">ニュース</span>
+	<div class="newsTitleOne">WEBサイトリリースのお知らせ</div>
+	<p class="newsText">テキストを入れてくださいテキストを入れてくださいテキストを入れてくださいテキストを入れてくださいテキストを入れてください。</p>
+</div>
+-->
+<!-- / ニュース1つ分ここまで -->
+
+<!-- ニュース1つ分ここから -->
+<!--
+<div class="newsBlockOne">
+	<time class="newsTime">2024/2/25</time><span class="newsTag">お知らせ</span>
+	<div class="newsTitleOne"><font color="red">サッカー大会 雨天延期のお知らせ</font></div>
+	<p class="newsText">テキストを入れてくださいテキストを入れてくださいテキストを入れてくださいテキストを入れてくださいテキストを入れてください。</p>
+</div>
+-->
+<!-- / ニュース1つ分ここまで --><!-- newsBlockEnd -->
+
+		</div>		
+
+		</div>
+		</div>
+
+</div>
+<!-- / mainBlock -->
+
+
+<div class="aboutBg01">
+<!-- mainBlock -->
+<div class="mainBlock clearfix">
+	
+	<div class="clearfix">
+	<div class="h2Box">
+	<h2 class="h2Title">CONTENTS<span class="h2Read">コンテンツ</span></h2>
+	</div>
+	<div class="h2RightBox">
+
+	<!-- inlineBlock -->
+	<div class="inlineBlock1 clearfix">
+
+
+		<!-- 1 -->
+		<a href="events_r8/events.html" class="inlineBlockOne1 bgOne03">
+		<h4 class="inlineBlockTitle1">大会・イベント</h4>
+		<div class="inlineBlockLine1"></div>
+		<div class="inlineBlockText1">
+		区民体育大会や体育協会が主催する大会情報がご覧になれます。
+		</div>
+		</a>
+		<!-- 1END -->
+
+		<!-- 1 -->
+		<a href="member.html" class="inlineBlockOne1 bgOne02">
+		<h4 class="inlineBlockTitle1">加盟団体</h4>
+		<div class="inlineBlockLine1"></div>
+		<div class="inlineBlockText1">
+		小学生からシニアまで参加できます。体を動かしてスポーツを楽しみましょう。
+		</div>
+		</a>
+		<!-- 1END -->
+		
+		<!-- 1 -->
+		<a href="newsletter.html" class="inlineBlockOne1 bgOne01">
+		<h4 class="inlineBlockTitle1">会報誌</h4>
+		<div class="inlineBlockLine1"></div>
+		<div class="inlineBlockText1">
+		体育協会の会報誌をPDFで閲覧できます。
+		</div>
+		</a>
+		<!-- 1END -->
+		
+		
+	</div><!-- inlineBlockEND -->
+	</div>
+	</div>
+
+</div>
+</div>
+<!-- / mainBlock -->
+
+
+<!-- mainBlock -->
+<div class="mainBlock clearfix">
+
+<!-- inlineBlock -->
+<div class="inlineBlock3 clearfix">
+
+<!-- 3 -->
+<div class="inlineBlockOne3">
+<a href="https://www.tokyo-sports.or.jp/" target="_blank"><img src="img/bn_sportslogo.png" alt="公益財団法人東京都スポーツ協会"></a>
+</div>
+<!-- 3END -->
+
+<!-- 3
+<div class="inlineBlockOne3">
+<a href="https://www.city.bunkyo.lg.jp/bunkakankou/sports/index.html" target="_blank"><img src="img/bn_bunsportslogo.png" alt="文京区　文化・スポーツ施設"></a>
+</div>
+ -->
+
+<!-- 3 -->
+<div class="inlineBlockOne3">
+<a href="https://www.city.bunkyo.lg.jp/" target="_blank"><img src="img/bn_bunlogo.png" alt="文京区ホームページ"></a>
+</div>
+<!-- 3END -->
+
+</div><!-- inlineBlockEND -->
+
+</div>
+<!-- / mainBlock -->
+
+</div>
+<!-- / mainIndex -->
+
+<!-- footer -->
+<!-- footer -->
+<!-- page-top/ -->
+<div id="pageTop" class="clearfix"><a href="#top">PAGE TOP</a></div>
+<!-- /page-top -->
+<div class="aboutFT">
+</div>
+<footer>
+<div id="footOuter" class="clearfix">
+
+<div id="footLogoBox">
+<a href="https://bunkyo-sports.jp/index.html" class="footlogo">文京区スポーツ協会</a>
+</div>
+
+<div id="footLinks">
+	<div class="footList">
+	<ul>
+<li class="footMenu"><a href="https://bunkyo-sports.jp/index.html">ホーム</a></li>
+<li class="footMenu"><a href="https://bunkyo-sports.jp/about.html">協会について</a></li>
+<li class="footMenu"><a href="https://bunkyo-sports.jp/member.html">加盟団体</a></li>
+<li class="footMenu"><a href="https://bunkyo-sports.jp/boys.html">スポーツ少年団</a></li>
+<!-- 
+<li class="footMenu"><a href="school_list.html">教室・講習会</a></li>
+-->
+<li class="footMenu"><a href="https://bunkyo-sports.jp/events_r8/events.html">大会イベント等</a></li>
+<li class="footMenu"><a href="https://bunkyo-sports.jp/newsletter.html">会報誌</a></li>
+<li class="footMenu"><a href="https://bunkyo-sports.jp/document.html">役員専用</a></li>
+	</ul>
+	</div>
+</div>
+
+</div>
+</footer>
+
+<div id="footBtm">Copyright &copy; <script type="text/javascript">myDate = new Date() ;myYear = myDate.getFullYear ();document.write(myYear);</script> <a href="https://bunkyo-sports.jp/index.html">文京区スポーツ協会</a>. All Rights Reserved.</div>
+<!-- footerEnd --><!-- footerEnd -->
+</body>
+</html>
