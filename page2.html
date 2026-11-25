@@ -1,0 +1,145 @@
+const onFilter = () => {
+  const url = new URL(window.location.href);
+  const searchParamsCategories = url.searchParams.getAll("category");
+  const searchParamsAreas = url.searchParams.getAll("area");
+  const queries = searchParamsCategories.concat(searchParamsAreas);
+  if (queries.length) {
+    queries.forEach((query) => {
+      $(`.card-list_items li${"." + query}`).addClass("show");
+    });
+  } else {
+    $(".card-list_items li").addClass("show");
+  }
+
+  Array.from($(".side-category li")).forEach((ref) => {
+    if (
+      searchParamsCategories.includes(
+        ref.getAttribute("data-filter-category")
+      )
+    ) {
+      ref.classList.add("filter-active");
+    }
+  });
+
+  Array.from($(".side-area .side-area_items li")).forEach((ref) => {
+    if (searchParamsAreas.includes(ref.getAttribute("data-filter-area"))) {
+      ref.classList.add("filter-active");
+    }
+  });
+
+  if ($(".side-area_items").children(".filter-active").length) {
+    $(".side-area_items").slideDown();
+  }
+};
+
+$(function () {
+  onFilter();
+  const listItems = $("section.list ul li.show").length;
+  $("#resultNumber").text(listItems);
+  if (!listItems) {
+    const listItems = $("section.list ul").before(
+      //"<p class='no-search'>検索結果がありません</p>"
+    );
+  }
+  $("section.list ul").each(function () {
+    let num = 10,
+      closeNum = num - 1;
+    $("button.more").show();
+    if (listItems <= num) {
+      $("button.more").hide();
+    }
+    $(this)
+      .find("li:not(:lt(" + num + "))")
+      .hide();
+    $("button.more").click(function () {
+      num += 20;
+      $(this)
+        .parent()
+        .find("li:lt(" + num + ")")
+        .slideDown();
+      if (listItems <= num) {
+        $(this).hide();
+      }
+    });
+  });
+});
+//$(".side-area > li").click(function () {
+//$(this).toggleClass("active");
+//$(this).children("ul").slideToggle();
+//});
+
+$(".side-category li").click(function () {
+  $(this).toggleClass("filter-active");
+  const url = new URL(window.location.href);
+  if (
+    !url.searchParams
+      .getAll("category")
+      .includes($(this).attr("data-filter-category"))
+  ) {
+    url.searchParams.append(
+      "category",
+      $(this).attr("data-filter-category")
+    );
+    location.href = url;
+  } else {
+    url.searchParams.delete(
+      "category",
+      $(this).attr("data-filter-category")
+    );
+    location.href = url;
+  }
+});
+$(".side-area .side-area_items li").click(function (e) {
+  e.stopPropagation();
+  $(this).toggleClass("filter-active");
+  const url = new URL(window.location.href);
+  if (
+    !url.searchParams
+      .getAll("area")
+      .includes($(this).attr("data-filter-area"))
+  ) {
+    url.searchParams.append("area", $(this).attr("data-filter-area"));
+    location.href = url;
+  } else {
+    url.searchParams.delete("area", $(this).attr("data-filter-area"));
+    location.href = url;
+  }
+});
+
+$(function () {
+  const searchCategoryBox = [];
+  const searchAreaBox = [];
+  const catActives = $(".side-category li.filter-active");
+  Array.from(catActives).forEach((cat) => {
+    searchCategoryBox.push(
+      $(cat)
+        .text()
+        .replace(/[\n\s]/g, "")
+    );
+  });
+  const areaActives = $(".side-area li.filter-active");
+  Array.from(areaActives).forEach((area) => {
+    searchAreaBox.push(
+      $(area)
+        .text()
+        .replace(/[\n\s]/g, "")
+    );
+  });
+
+  if (searchCategoryBox.length) {
+    let html = "";
+    searchCategoryBox.forEach((text) => {
+      html = html + `「${text}」`;
+    });
+    html = html + "カテゴリの絞り込み結果";
+    document.getElementById("searchCat").innerHTML = html;
+  }
+  if (searchAreaBox.length) {
+    let html = "";
+    searchAreaBox.forEach((text) => {
+      html = html + `「${text}」`;
+    });
+    html = html + "の絞り込み結果";
+    document.getElementById("searchArea").innerHTML = html;
+  }
+});
