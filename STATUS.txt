@@ -1,0 +1,14 @@
+curl: (28) Connection timed out after 40001 milliseconds
+page1 https://www.toshima-mirai.or.jp/tabid216.html?pdid1=3603 000 0
+page1 https://www.toshima-mirai.or.jp/tabid216.html?pdid1=3603 FAIL
+page10 https://www.city.itabashi.tokyo.jp/event/index.html 404 2254
+page11 https://www.city.kita.tokyo.jp/event/index.html 404 3904
+page12 https://www.city.sumida.lg.jp/event_info/index.html 404 20380
+page2 https://www.city.edogawa.tokyo.jp/event/2612shimenawa.html 200 14516
+page3 https://www.city.edogawa.tokyo.jp/event/index.html 404 12171
+page4 https://www.city.edogawa.tokyo.jp/event/2610_beachcombing.html 200 14903
+page5 https://minato-monodukuri2026.jp 200 97959
+page6 https://www.city.minato.tokyo.jp/event/index.html 404 14562
+page7 https://www.city.minato.tokyo.jp/documents/182266/20261113104131.pdf 200 4484156
+page8 https://www.city.koto.lg.jp/380291/ekokkuru/event/index.html 404 10503
+page9 https://www.city.arakawa.tokyo.jp/event/index.html 404 14376
