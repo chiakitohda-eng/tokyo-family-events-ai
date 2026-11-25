@@ -1,0 +1,6 @@
+page1 https://www.city.tachikawa.lg.jp/event/e-kodomo/1028344.html 200 53686
+page2 https://www.city.tachikawa.lg.jp/event/e-sports/1022727.html 200 51420
+page3 https://www.city.tachikawa.lg.jp/event/e-other/1025621.html 200 51795
+page4 https://www.city.tachikawa.lg.jp/event/e-other/1028674.html 200 51199
+page5 https://www.city.tachikawa.lg.jp/event/e-kouza/1028583.html 200 59273
+page6 https://www.city.tachikawa.lg.jp/kurashi/shohiseikatsu/1024952/1028599.html 200 51511
