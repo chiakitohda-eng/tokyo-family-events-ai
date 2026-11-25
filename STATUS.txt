@@ -1,0 +1,6 @@
+page1 https://www.shibamatakawajin-machinamikan.jp/ 200 143346
+page2 https://www.shibamatakawajin-machinamikan.jp/workshop/ 200 130081
+page3 https://www.shibamatakawajin-machinamikan.jp/news/ 200 83730
+page4 https://www.shibamatakawajin-machinamikan.jp/event/ 404 55051
+page5 https://www.shibamatakawajin-machinamikan.jp/events/ 404 55051
+page6 https://www.shibamatakawajin-machinamikan.jp/info/ 404 55051
