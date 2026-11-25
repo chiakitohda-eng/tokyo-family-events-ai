@@ -1,0 +1,304 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>東京子連れイベントAI収集</title>
+<link rel="stylesheet" href="styles.css?v=20261017-fixed-source-directory">
+<link rel="stylesheet" href="pending-issues.css?v=20261028-1">
+<style>.site-usage-history-link{font-size:12px;color:#275f81;text-decoration:underline;text-underline-offset:3px;font-family:"Meiryo UI",Meiryo,sans-serif}</style>
+</head>
+<body class="home-page" data-season="winter">
+<section class="site-hero">
+  <div class="hero-inner">
+    <div class="site-topbar">
+      <a class="site-brand" href="index.html">東京子連れイベントAI収集</a>
+      <nav class="site-nav"><a href="search.html">イベント検索</a><a href="copy.html">コピペ用リスト</a><a href="omitted.html">掲載見送り一覧</a></nav>
+    </div>
+    <div class="hero-eyebrow">TOKYO FAMILY EVENTS / AI CURATION</div>
+    <h1>東京子連れイベントAI収集</h1>
+    <p class="hero-copy">AI横断探索と明示参照元探索を併用して、東京23区の子連れ候補を6週間先まで収集。取得経路・子連れ適性・公式確認・掲載判断まで監査できる形で残します。</p><a class="hero-photo-credit" id="heroPhotoCredit" href="https://unsplash.com/photos/a-group-of-people-standing-in-front-of-a-christmas-tree-bxPS1gNKJso" target="_blank" rel="noopener">背景写真: 冬・クリスマス / Unsplash</a>
+    <div class="hero-actions"><a class="hero-cta primary" href="search.html">イベントを探す</a><a class="hero-cta secondary" href="#logic">抽出ロジックを見る</a></div>
+  </div>
+</section>
+
+<main class="home-main">
+  <section class="home-section panel" aria-labelledby="statusTitle">
+    <div class="section-head">
+      <div><div class="eyebrow">DATA STATUS</div><h2 id="statusTitle">いまのデータ状況</h2><p id="statusScope">6週間分の監査データを読み込み中です。</p></div>
+    </div>
+    <div class="summary-grid">
+      <div class="summary-card" style="grid-column:1/-1"><b id="totalPublished">-</b><span>掲載イベント</span><small id="publishedCountScope">6週間・同一フェスの企画を統合後</small></div>
+    </div>
+    <div class="home-changes-summary" id="homeChangesSummary" aria-live="polite">今週の掲載変更を集計中です。</div>
+    <details class="update-history-details" id="updateHistoryDetails">
+      <summary><span>更新履歴</span><small id="updateHistorySummary">更新実績なし</small></summary>
+      <div class="update-history-list" id="updateHistoryList"><p>6週間データの更新はまだ完了していません。アプリの公開Version更新とは別の履歴です。</p></div>
+    </details>
+  </section>
+
+  <section class="home-section panel pending-issues-home" aria-labelledby="pendingIssuesHomeTitle">
+    <div>
+      <div class="eyebrow">CURRENT OPEN ITEMS</div>
+      <h2 id="pendingIssuesHomeTitle">現在の残課題・対応状況</h2>
+      <p>イベント情報を集める際の「つながらないサイト」や「確認がまだ終わっていない情報」を公開しています。何ができていないか、代わりの対応、今後の予定をわかりやすく確認できます。</p>
+    </div>
+    <a href="pending-issues.html">残課題一覧を見る</a>
+  </section>
+
+  <section class="home-section panel home-cta" aria-labelledby="omittedGuideTitle">
+    <div>
+      <div class="eyebrow">TRANSPARENT REVIEW</div>
+      <h2 id="omittedGuideTitle">掲載を見送ったイベントと、その理由</h2>
+      <p>杉並区公式カレンダーの2026年10月22日調査で、200件を「今回見送り」に分類しました。イベント名・開催日・見送り理由・公式ページのリンクを一覧で確認できます。審査中や既登録の候補も分けて掲載しています。</p>
+    </div>
+    <a href="omitted.html">掲載判断の一覧を見る</a>
+  </section>
+
+  <section class="home-section panel" id="logic" aria-labelledby="logicTitle">
+    <div class="section-head">
+      <div><div class="eyebrow">HOW IT WORKS</div><h2 id="logicTitle">AI横断探索と明示参照元を併用して、漏れを減らしながら根拠を残します</h2><p>登録サイトだけにもAI検索だけにも依存せず、2つの探索経路を統合して候補を作り、公式確認後に公開します。</p></div>
+    </div>
+    <div class="logic-flow">
+      <div class="logic-step"><span>1</span><b>AI横断探索</b><small>東京23区を1区ずつ、区公式・東京都・施設公式・観光協会・地域媒体・Webまで横断して未知の候補を探します。</small></div>
+      <div class="logic-step"><span>2</span><b>明示参照元探索</b><small>discovery_sources.json に登録した固定サイトを毎回確認。必須サイトと任意サイトを分け、新しい参照元も追加できます。</small></div>
+      <div class="logic-step"><span>3</span><b>候補統合＋誤重複ガード</b><small>同一URLだけでは重複にしません。名称に加え、地区・支部・開催日・時間・会場・詳細/チケットURLを照合し、別開催単位は別イベントとして保持。併催でも独立名称・内容があれば分けます。取得経路も残します。</small></div>
+      <div class="logic-step"><span>4</span><b>子連れ適性を8軸評価</b><small>対象年齢、体験性、年齢適合、滞在自由度、負担、費用、予約、家族価値を評価します。</small></div>
+      <div class="logic-step"><span>5</span><b>公式情報で再確認</b><small>名称・開催日・会場を中心に、自治体・主催者・会場などの公式情報で確認。近い週ほど厳密に再監査します。</small></div>
+      <div class="logic-step"><span>6</span><b>判断を監査して公開</b><small>掲載・除外・重複の判断、理由、根拠URLを保存し、検索・トップへ反映します。</small></div>
+    </div>
+    <div class="logic-guard"><b>二層探索＋互換ガード</b><span>AI横断探索を毎回実行しつつ、明示参照元も必ず確認。レガシー由来18系統は保護し、新しい固定サイトは追加可能です。取得経路はイベント詳細で確認できます。</span></div>
+    <details class="logic-fixed-sources" id="fixedSourceDetails">
+      <summary><span>固定サイト（登録済み参照元）一覧</span><small id="fixedSourceCount">読み込み中</small></summary>
+      <p class="logic-fixed-sources-note">イベント候補の探索先として登録されているサイトです。公式サイト・追加登録した地域情報サイト・従来からの固定サイトに分けて表示します。サイト名から参照先を開けます。</p>
+      <p class="logic-fixed-sources-note visit-legend">各サイトの横の表示は、実際に取得しに行った結果です。「取得できた」＝本文を読めた、「取得できたが本文なし」＝ページは開けたがイベント一覧が画面表示（JavaScript）で本文を読めなかった、「取得できなかった」＝接続できなかった・拒否された、「未確認」＝まだ記録がない。載っていることは、イベントを確認できたことを意味しません。</p>
+      <div id="fixedSourceList" aria-live="polite"><p>固定サイト情報を読み込み中です。</p></div>
+    </details>
+    <details class="logic-fixed-sources logic-ai-sources" id="aiSourceDetails">
+      <summary><span>AI探索先サイト（候補探しの入口）一覧</span><small id="aiSourceCount">読み込み中</small></summary>
+      <p class="logic-fixed-sources-note">固定サイトとは別のリストです。固定サイトは「毎回必ず確認する登録済みの参照元」、こちらは「AIが新しいイベント候補を探すときの入口にするサイト」で、毎回の確認は必須ではありません。掲載の根拠は、各イベントの公式ページで確認します。</p>
+      <p class="logic-fixed-sources-note visit-legend">各サイトの横の表示は、実際に取得しに行った結果です。「取得できた」＝本文を読めた、「取得できたが本文なし」＝ページは開けたがイベント一覧が画面表示（JavaScript）で本文を読めなかった、「取得できなかった」＝接続できなかった・拒否された、「未確認」＝まだ記録がない。載っていることは、イベントを確認できたことを意味しません。</p>
+      <div id="aiSourceList" aria-live="polite"><p>AI探索先サイト情報を読み込み中です。</p></div>
+    </details>
+
+    <div class="logic-subhead">
+      <div class="eyebrow">WEEKLY UPDATE</div>
+      <h3>毎日、6週間を差分更新します</h3>
+      <p>毎朝、土日祝も含めて毎日実行します。新しく見つかった公式情報があればその日のうちに追加し、見つからない日は何も変更しません。更新履歴は週ごとにまとめて表示します。</p>
+    </div>
+    <div class="logic-flow logic-update-flow">
+      <div class="logic-step"><span>1</span><b>毎日実行</b><small>毎朝10時台に、土日祝を含めて毎日実行。新しく追加できる情報がない日は何も変更しません。</small></div>
+      <div class="logic-step"><span>2</span><b>直近1〜2週を再探索</b><small>23区を再探索し、既存掲載も公式再監査。直前追加、中止・延期、時間・料金・申込などの変更を反映します。</small></div>
+      <div class="logic-step"><span>3</span><b>3〜5週先は差分探索</b><small>既存イベントの変更監査をしながら、新着候補を差分で探索。毎回ゼロから全件取り直す負荷を避けます。</small></div>
+      <div class="logic-step"><span>4</span><b>新しい6週目をフル探索</b><small>新たにローリング対象へ入った期間は、東京23区を1区ずつフル探索して新しい母集団を作ります。</small></div>
+      <div class="logic-step"><span>5</span><b>祝日を専用探索</b><small>6週間内の祝日は必ず別途確認。土日と離れた平日祝日も対象にし、期間が重なるだけで開催と断定しません。</small></div>
+      <div class="logic-step"><span>6</span><b>非退行・幻覚ガード</b><small>前回値を取得失敗だけで消さず、値変更は根拠を必須化。前年・別会場・同名別イベントの取り違えや推測補完も防ぎます。</small></div>
+      <div class="logic-step"><span>7</span><b>CI合格時だけ公開</b><small>非退行、データ整合、判断監査、回帰テストを自動検証。1つでも失敗したら既存サイトを維持し、不完全な更新は公開しません。</small></div>
+    </div>
+    <div class="logic-guard logic-guard-blue"><b>正本は最新版だけ</b><span>定期更新は最初に latest_prompt.json を解決し、そこが指す最新版完全版プロンプトだけを正本として実行します。古い固定ルールは持ち込みません。</span></div>
+  </section>
+
+  <section class="home-section panel home-cta">
+    <div><h2>条件を絞ってイベントを探す</h2><p>日付・区・キーワードで検索できます。検索画面でも同じデザインと監査情報を引き継ぎます。</p></div>
+    <a href="search.html">検索画面へ</a>
+  </section>
+  <section class="home-section panel release-history-panel" aria-labelledby="releaseHistoryTitle">
+    <div class="section-head release-history-head">
+      <div><div class="eyebrow">PUBLIC RELEASES</div><h2 id="releaseHistoryTitle">公開バージョン履歴</h2><p>実際にユーザー向け本番へ公開成功した版だけを記録します。ステージング上の途中コミットは含みません。</p></div>
+      <div class="current-release-badge"><span>現在公開中</span><b id="currentPublicVersion">-</b></div>
+    </div>
+    <details class="release-history-details">
+      <summary>過去の公開履歴を見る <small id="releaseHistoryCount"></small></summary>
+      <div class="release-history-list" id="releaseHistoryList"><p>公開履歴を読み込み中です。</p></div>
+    </details>
+  </section>
+</main>
+
+<section class="site-usage" aria-label="サイト利用状況">
+  <span class="site-usage-label">サイト利用状況（累計）</span>
+  <span class="site-usage-values" id="siteUsageValues" aria-live="polite">計測準備中</span>
+  <span class="site-usage-label">今日の利用状況（日本時間）</span>
+  <span class="site-usage-values" id="siteUsageToday" aria-live="polite">確認中です</span>
+  <a class="site-usage-history-link" href="usage-history.html">過去の利用状況・日別推移を見る</a>
+  <details class="site-usage-help"><summary>集計方法</summary>
+    <p>表示＝トップ・イベント検索・コピペ画面のページ表示数。イベントへ／コピペへ＝該当画面へのリンク操作数。コピー押下＝個別・一括のボタンを押した回数。コピー成功＝クリップボードへ正常にコピーできた操作数。セッション目安＝同じタブで同じ日に最初に閲覧した回数であり、人数ではありません。自動アクセス等により概算となります。ステージングは除外し、個人情報・検索内容は記録しません。 過去の日別履歴は別ページで確認できます。自分の記録は希望者がブラウザ内だけで有効にできます。</p>
+  </details>
+</section>
+<footer>GitHubの最新版完全版プロンプトを解決して探索し、候補・掲載・除外・重複を監査可能な形で保存します。</footer>
+<script src="self-usage.js?v=20261028-1" defer></script>
+<script src="usage-metrics.js?v=20261028-today" defer></script>
+<script type="module">
+import {loadManifest,loadWeekend,loadUpdateHistory,loadDiscoverySources,mergeEventsAcrossWeeks,heroSeasonForDate,heroSeasonMeta,escapeHtml,safeHttpUrl,holidayPeriodSlots,filterEvents,areaGroupOf} from './app.js?v=20261021-arts-venue-chain';
+import {currentAndFutureWindow} from './multi-filter-ui.js';
+import {summarizeUpdateHistory,formatJapaneseUpdateDate} from './update-history-display.js?v=20261108-weekly-identity';
+import {loadChangeData,currentChangeCounts} from './recent-event-changes.js?v=20261108-weekly-identity';
+import {groupFestivalDisplayEvents,groupedEventChangeCounts} from './festival-display-grouping.js?v=20261027-fest-parent';
+const $=id=>document.getElementById(id);
+function applyHeroSeason(dateStr){
+  const season=heroSeasonForDate(dateStr);
+  document.body.dataset.season=season;
+  const meta=heroSeasonMeta(season),credit=$('heroPhotoCredit');
+  if(credit){credit.href=meta.source;credit.textContent=`背景写真: ${meta.label} / Unsplash`;}
+}
+
+function formatUpdateDate(value){
+  if(!value) return '-';
+  const d=new Date(value);
+  if(Number.isNaN(d.getTime())) return value;
+  return d.toLocaleString('ja-JP',{year:'numeric',month:'numeric',day:'numeric',hour:'2-digit',minute:'2-digit'});
+}
+async function loadPublicReleases(){
+  const res=await fetch('data/production-releases.json',{cache:'no-store'});
+  if(!res.ok) throw new Error(`public release history load failed: ${res.status}`);
+  return res.json();
+}
+function formatReleaseDate(value){
+  if(!value) return '-';
+  const d=new Date(value);
+  if(Number.isNaN(d.getTime())) return value;
+  return d.toLocaleDateString('ja-JP',{year:'numeric',month:'numeric',day:'numeric'});
+}
+function renderPublicReleases(data){
+  const rows=Array.isArray(data?.releases)?[...data.releases].reverse():[];
+  const current=String(data?.current_public_version||'');
+  $('currentPublicVersion').textContent=current||'-';
+  $('releaseHistoryCount').textContent=rows.length?`全${rows.length}版`:'';
+  const list=$('releaseHistoryList');
+  if(!rows.length){
+    list.innerHTML='<p>公開履歴はまだありません。</p>';
+    return;
+  }
+  list.innerHTML=rows.map(row=>{
+    const version=escapeHtml(row.public_version||'-');
+    const isCurrent=String(row.public_version||'')===current;
+    return `<div class="release-history-item"><div><b>Version ${version}</b>${isCurrent?'<span class="release-current-tag">現在公開中</span>':''}</div><span>公開日 ${escapeHtml(formatReleaseDate(row.deployed_at))}</span>${row.note?`<small>${escapeHtml(row.note)}</small>`:''}</div>`;
+  }).join('');
+}
+
+const VISIT_STATES={read:['取得できた','visit-read'],no_body:['取得できたが本文なし','visit-nobody'],failed:['取得できなかった','visit-failed']};
+function visitBadge(data,id){
+  const v=data?.visit_status?.sites?.[id];
+  const meta=v&&VISIT_STATES[v.state];
+  if(!meta)return ' <span class="visit-badge visit-none">未確認</span>';
+  const title=escapeHtml([data.visit_status.checked_on,v.note].filter(Boolean).join(' / '));
+  return ` <span class="visit-badge ${meta[1]}" title="${title}">${meta[0]}</span>`;
+}
+function visitSummary(data,ids){
+  const map=data?.visit_status?.sites||{};
+  const n={read:0,no_body:0,failed:0,none:0};
+  ids.forEach(id=>{const st=map[id]?.state;n[VISIT_STATES[st]?st:'none']++;});
+  return `取得できた${n.read}・本文なし${n.no_body}・取得不可${n.failed}・未確認${n.none}`;
+}
+function renderFixedSources(data){
+  const all=Array.isArray(data?.explicit_sources)?data.explicit_sources:[];
+  const active=all.filter(source=>source && source.enabled===true);
+  const knownOrigins=['official','official_added','manual','legacy'];
+  const groups=[
+    {title:'自治体・観光協会などの公式サイト',items:active.filter(source=>source.origin==='official'||source.origin==='official_added')},
+    {title:'追加登録した地域情報サイト',items:active.filter(source=>source.origin==='manual')},
+    {title:'従来からの固定サイト',items:active.filter(source=>source.origin==='legacy')},
+    // Unrecognized origins must stay visible and be explicitly reclassified later.
+    {title:'その他の固定サイト（要分類）',items:active.filter(source=>!knownOrigins.includes(source.origin))}
+  ];
+  $('fixedSourceCount').textContent=`${active.length}サイト（${visitSummary(data,active.map(x=>x.id))}）`;
+  $('fixedSourceList').innerHTML=groups.filter(group=>group.items.length).map(group=>{
+    const entries=group.items.map(source=>{
+      // Only show safe URLs. A source label is not proof that each event is officially verified.
+      const url=safeHttpUrl(source.annual_listing_url||source.base_url||source.search_urls?.[0]);
+      const name=escapeHtml(source.annual_listing_label||source.label||source.id||'名称未設定');
+      const link=url?`<a href="${escapeHtml(url)}" target="_blank" rel="noopener noreferrer">${name}</a>`:`<span>${name}</span>`;
+      return `<li>${link}${visitBadge(data,source.id)}</li>`;
+    }).join('');
+    return `<div class="logic-fixed-sources-group"><h4>${escapeHtml(group.title)}（${group.items.length}サイト）</h4><ul>${entries}</ul></div>`;
+  }).join('');
+}
+
+function renderAiSources(data){
+  const cfg=data?.ai_exploration_sites||{};
+  const sites=Array.isArray(cfg.sites)?cfg.sites.filter(site=>site&&site.label):[];
+  const declared=Array.isArray(cfg.group_order)?cfg.group_order:[];
+  const names=[...declared.filter(name=>sites.some(site=>site.group===name)),...new Set(sites.map(site=>site.group||'その他').filter(name=>!declared.includes(name)))];
+  $('aiSourceCount').textContent=`${sites.length}サイト（${visitSummary(data,sites.map(x=>x.id))}）`;
+  $('aiSourceList').innerHTML=names.map(name=>{
+    const items=sites.filter(site=>(site.group||'その他')===name);
+    const entries=items.map(site=>{
+      const url=safeHttpUrl(site.url);
+      const label=escapeHtml(site.label);
+      return `<li>${url?`<a href="${escapeHtml(url)}" target="_blank" rel="noopener noreferrer">${label}</a>`:`<span>${label}</span>`}${visitBadge(data,site.id)}</li>`;
+    }).join('');
+    return `<div class="logic-fixed-sources-group"><h4>${escapeHtml(name)}（${items.length}サイト）</h4><ul>${entries}</ul></div>`;
+  }).join('')||'<p>AI探索先サイトは登録されていません。</p>';
+}
+
+async function loadFixedSourcesSection(){
+  try{
+    const registry=await loadDiscoverySources();
+    renderFixedSources(registry);
+    renderAiSources(registry);
+  }catch(error){
+    console.error('Fixed sources list unavailable',error);
+    $('fixedSourceCount').textContent='取得できませんでした';
+    $('fixedSourceList').innerHTML='<p>固定サイト一覧を取得できませんでした。ほかのイベント情報は引き続きご覧いただけます。</p>';
+    $('aiSourceCount').textContent='取得できませんでした';
+    $('aiSourceList').innerHTML='<p>AI探索先サイト一覧を取得できませんでした。</p>';
+  }
+}
+
+function renderUpdateHistory(data,visibleChanges=null){
+  const weeks=summarizeUpdateHistory(data?.history);
+  const list=$('updateHistoryList'),summary=$('updateHistorySummary');
+  if(!weeks.length){
+    summary.textContent='更新実績なし';
+    list.innerHTML='<p>掲載データの更新履歴はまだありません。</p>';
+    return;
+  }
+  // User-facing history is one compact Japanese line PER WEEK.
+  // Source logs and each immutable update record remain in JSON for auditing.
+  const latest=weeks[0];
+  summary.textContent=`最新: ${latest.label}（${latest.entries}回分を集約）`;
+  list.innerHTML=weeks.map(item=>{
+    const grouped=visibleChanges && item.week===visibleChanges.week && item.added>visibleChanges.added;
+    const summaryText=grouped
+      ? item.summary.replace('追加'+item.added+'件','追加'+item.added+'企画（表示'+visibleChanges.added+'件）')
+      : item.summary;
+    return `<div class="update-history-item update-history-item-weekly"><b>${escapeHtml(item.label)}</b><span>${escapeHtml(summaryText)}</span></div>`;
+  }).join('');
+}
+loadFixedSourcesSection();
+
+(async()=>{
+  try{
+    const [manifest,updateHistory,publicReleases]=await Promise.all([loadManifest(),loadUpdateHistory(),loadPublicReleases()]);
+    applyHeroSeason(manifest.default);
+    renderUpdateHistory(updateHistory);
+    renderPublicReleases(publicReleases);
+    const rows=await Promise.all((manifest.weekends||[]).map(w=>loadWeekend(manifest,w.sat)));
+    const dataRows=rows.map(x=>x.data).filter(Boolean);
+    const allEvents=mergeEventsAcrossWeeks(dataRows);
+    // Same unit and same window as the search page's default ("全期間 今週末から"): ended events are not counted.
+    const upcoming=groupFestivalDisplayEvents(filterEvents(allEvents,{periods:[currentAndFutureWindow(holidayPeriodSlots(manifest,manifest.default))]}));
+    const published=upcoming.length;
+    const wardCount=upcoming.filter(ev=>areaGroupOf(ev.ward)==='ward').length;
+    $('totalPublished').textContent=published.toLocaleString('ja-JP');
+    $('publishedCountScope').textContent=`今週末以降の掲載（23区 ${wardCount.toLocaleString('ja-JP')}件・市部 ${(published-wardCount).toLocaleString('ja-JP')}件）。検索の「全期間」と同じ数え方`;
+    const changeBox=$('homeChangesSummary');
+    try{
+      const changes=await loadChangeData({manifest,history:updateHistory});
+      const counts=groupedEventChangeCounts(allEvents,changes);
+      const latest=summarizeUpdateHistory(updateHistory?.history)[0];
+      const originalAdded=latest?.week===changes.week ? latest.added : counts.added;
+      const groupedNote=originalAdded>counts.added ? `（元の${originalAdded}企画をまとめて表示）` : '';
+      renderUpdateHistory(updateHistory,{week:changes.week,added:counts.added});
+      changeBox.innerHTML='<b>今週の掲載変更</b>'+
+        '<a href="search.html?changes=added" class="home-change-link">追加 <strong>'+counts.added+'件</strong>'+groupedNote+' を見る</a>'+
+        '<a href="search.html?changes=updated" class="home-change-link">情報更新 <strong>'+counts.updated+'件</strong> を見る</a>';
+    }catch(error){console.warn('今週の掲載変更一覧の取得に失敗',error);changeBox.textContent='今週の掲載変更は確認中です。';}
+    $('statusScope').textContent=`対象: 東京23区・${manifest.rolling_horizon_weeks||6}週間 ／ 更新 ${formatJapaneseUpdateDate(manifest.generated)}`;
+  }catch(e){
+    console.error(e);
+    $('statusScope').textContent='データ状況の読み込みに失敗しました。';
+  }
+})();
+</script>
+<!-- dedup-guard-v1.11 -->
+</body>
+</html>

@@ -1,0 +1,324 @@
+{
+  "sample": false,
+  "sat": "2026-11-28",
+  "sun": "2026-11-29",
+  "label": "11/28(土)〜11/29(日)",
+  "generated": "2026-11-14T23:31:38.638222+00:00",
+  "horizon_index": 2,
+  "publication_tier": "full",
+  "verification_file": "2026-11-28-verification.json",
+  "run_file": "2026-11-28-run.json",
+  "coverage": {
+    "sources_checked": 23,
+    "candidate_count": 206,
+    "duplicate_removed": 1,
+    "excluded_count": 16,
+    "published_count": 189,
+    "wards": [
+      {
+        "ward": "千代田区",
+        "status": "checked",
+        "queries": 3,
+        "sources_checked": 1,
+        "candidate_count": 3,
+        "published_count": 3,
+        "note": "Exact measured October19 holiday-after HTTP queries and official ward source logs."
+      },
+      {
+        "ward": "中央区",
+        "status": "checked",
+        "queries": 3,
+        "sources_checked": 1,
+        "candidate_count": 3,
+        "published_count": 3,
+        "note": "Exact measured October19 holiday-after HTTP queries and official ward source logs. 2026-11-19 公式個別ページ確認済み1件を非破壊追加。 2026-11-20 公式個別ページ確認済み1件を非破壊追加。"
+      },
+      {
+        "ward": "港区",
+        "status": "checked",
+        "queries": 3,
+        "sources_checked": 1,
+        "candidate_count": 6,
+        "published_count": 6,
+        "note": "Exact measured October19 holiday-after HTTP queries and official ward source logs. 2026-11-17主催者公式で新規1件を独立確認して追加。既存の実測検索カウントは不変。"
+      },
+      {
+        "ward": "新宿区",
+        "status": "checked",
+        "queries": 3,
+        "sources_checked": 1,
+        "candidate_count": 5,
+        "published_count": 5,
+        "note": "Exact measured October19 holiday-after HTTP queries and official ward source logs. 2026-11-08 個別公式確認の非破壊追加1件（従来の検索計測は不変）。 2026-11-08 個別公式確認の非破壊追加1件（従来の検索計測は不変）。 2026-11-19 公式イベントページ確認済み1件を非破壊追加（時間は公式Instagram参照）。 2026-11-19 公式個別ページ確認済み1件を非破壊追加。 2026-11-20 公式個別ページ確認済み1件を非破壊追加。"
+      },
+      {
+        "ward": "文京区",
+        "status": "checked",
+        "queries": 3,
+        "sources_checked": 1,
+        "candidate_count": 0,
+        "published_count": 0,
+        "note": "Exact measured October19 holiday-after HTTP queries and official ward source logs."
+      },
+      {
+        "ward": "台東区",
+        "status": "checked",
+        "queries": 3,
+        "sources_checked": 1,
+        "candidate_count": 8,
+        "published_count": 8,
+        "note": "Exact measured October19 holiday-after HTTP queries and official ward source logs. 2026/11/29独立公式確認済み新規1件を追加。従前の検索回数と取得成功数は不変。 2026-11-19 公式個別ページ確認済み1件を非破壊追加。 2026-11-19 公式個別ページ確認済み1件を非破壊追加。"
+      },
+      {
+        "ward": "墨田区",
+        "status": "checked",
+        "queries": 3,
+        "sources_checked": 1,
+        "candidate_count": 4,
+        "published_count": 4,
+        "note": "Exact measured October19 holiday-after HTTP queries and official ward source logs. 2026-11-20 公式個別ページ確認済み2件を非破壊追加。"
+      },
+      {
+        "ward": "江東区",
+        "status": "checked",
+        "queries": 3,
+        "sources_checked": 1,
+        "candidate_count": 5,
+        "published_count": 5,
+        "note": "Exact measured October19 holiday-after HTTP queries and official ward source logs. 2026-11-19 公式個別ページ確認済み1件を非破壊追加。 2026-11-20 公式個別ページ確認済み2件を非破壊追加。"
+      },
+      {
+        "ward": "品川区",
+        "status": "checked",
+        "queries": 3,
+        "sources_checked": 1,
+        "candidate_count": 2,
+        "published_count": 2,
+        "note": "Exact measured October19 holiday-after HTTP queries and official ward source logs. 2026-11-20 公式個別ページ確認済み1件を非破壊追加。"
+      },
+      {
+        "ward": "目黒区",
+        "status": "checked",
+        "queries": 3,
+        "sources_checked": 1,
+        "candidate_count": 4,
+        "published_count": 4,
+        "note": "Exact measured October19 holiday-after HTTP queries and official ward source logs. 2026-11-19 公式個別ページ確認済み1件を非破壊追加。"
+      },
+      {
+        "ward": "大田区",
+        "status": "checked",
+        "queries": 3,
+        "sources_checked": 1,
+        "candidate_count": 4,
+        "published_count": 4,
+        "note": "Exact measured October19 holiday-after HTTP queries and official ward source logs. 2026-11-19 公式個別ページ確認済み2件を非破壊追加。 2026-11-25 公式個別ページ確認済み1件を非破壊追加。"
+      },
+      {
+        "ward": "世田谷区",
+        "status": "checked",
+        "queries": 3,
+        "sources_checked": 1,
+        "candidate_count": 13,
+        "published_count": 13,
+        "note": "Exact measured October19 holiday-after HTTP queries and official ward source logs. 2026/11/29独立公式確認済み新規2件を追加。従前の検索回数と取得成功数は不変。 2026-11-19 公式個別ページ確認済み6件を非破壊追加。 2026-11-19 公式個別ページ確認済み2件を非破壊追加。 2026-11-21 公式個別ページ確認済み2件を非破壊追加。 2026-11-22 公式個別ページ確認済み1件を非破壊追加。"
+      },
+      {
+        "ward": "渋谷区",
+        "status": "checked",
+        "queries": 3,
+        "sources_checked": 1,
+        "candidate_count": 2,
+        "published_count": 2,
+        "note": "Exact measured October19 holiday-after HTTP queries and official ward source logs."
+      },
+      {
+        "ward": "中野区",
+        "status": "checked",
+        "queries": 3,
+        "sources_checked": 1,
+        "candidate_count": 21,
+        "published_count": 20,
+        "note": "Exact measured October19 holiday-after HTTP queries and official ward source logs. 2026-11-29中野区検定（家族共同参加イベントではない個人受験）の公式ページを確認し、候補として審査・掲載見送り。 2026/11/29独立公式確認済み新規1件を追加。従前の検索回数と取得成功数は不変。"
+      },
+      {
+        "ward": "杉並区",
+        "status": "checked",
+        "queries": 3,
+        "sources_checked": 1,
+        "candidate_count": 38,
+        "published_count": 38,
+        "note": "Exact measured October19 holiday-after HTTP queries and official ward source logs. 2026-11-19 公式個別ページ確認済み1件を非破壊追加。 2026-11-19 公式個別ページ確認済み3件を非破壊追加。 2026-11-19 公式個別ページ確認済み1件を非破壊追加。"
+      },
+      {
+        "ward": "豊島区",
+        "status": "checked",
+        "queries": 3,
+        "sources_checked": 1,
+        "candidate_count": 4,
+        "published_count": 4,
+        "note": "Exact measured October19 holiday-after HTTP queries and official ward source logs."
+      },
+      {
+        "ward": "北区",
+        "status": "checked",
+        "queries": 3,
+        "sources_checked": 1,
+        "candidate_count": 4,
+        "published_count": 4,
+        "note": "Exact measured October19 holiday-after HTTP queries and official ward source logs."
+      },
+      {
+        "ward": "荒川区",
+        "status": "checked",
+        "queries": 3,
+        "sources_checked": 1,
+        "candidate_count": 0,
+        "published_count": 0,
+        "note": "Exact measured October19 holiday-after HTTP queries and official ward source logs."
+      },
+      {
+        "ward": "板橋区",
+        "status": "checked",
+        "queries": 3,
+        "sources_checked": 1,
+        "candidate_count": 9,
+        "published_count": 9,
+        "note": "Exact measured October19 holiday-after HTTP queries and official ward source logs. 2026-11-19 公式個別ページ確認済み1件を非破壊追加。 2026-11-20 公式個別ページ確認済み3件を非破壊追加。"
+      },
+      {
+        "ward": "練馬区",
+        "status": "checked",
+        "queries": 3,
+        "sources_checked": 1,
+        "candidate_count": 13,
+        "published_count": 12,
+        "note": "Exact measured October19 holiday-after HTTP queries and official ward source logs. 2026-10-27公式森フェスタ日程表から11/29の1行を補完。旧探索実測は維持。 2026-11-19 公式個別ページ確認済み1件を非破壊追加。 2026-11-19 公式個別ページ確認済み1件を非破壊追加。 2026-11-20 同一イベントの二重掲載1件を重複として取り下げ（決定記録あり）。 2026-11-25 公式個別ページ確認済み1件を非破壊追加。"
+      },
+      {
+        "ward": "足立区",
+        "status": "checked",
+        "queries": 3,
+        "sources_checked": 1,
+        "candidate_count": 11,
+        "published_count": 11,
+        "note": "Exact measured October19 holiday-after HTTP queries and official ward source logs. 2026-11-19 公式個別ページ確認済み1件を非破壊追加。 2026-11-19 公式個別ページ確認済み1件を非破壊追加。 2026-11-20 公式個別ページ確認済み6件を非破壊追加。 2026-11-20 公式個別ページ確認済み3件を非破壊追加。"
+      },
+      {
+        "ward": "葛飾区",
+        "status": "checked",
+        "queries": 3,
+        "sources_checked": 1,
+        "candidate_count": 18,
+        "published_count": 18,
+        "note": "Exact measured October19 holiday-after HTTP queries and official ward source logs. 2026-11-20 公式個別ページ確認済み18件を非破壊追加。"
+      },
+      {
+        "ward": "江戸川区",
+        "status": "checked",
+        "queries": 3,
+        "sources_checked": 1,
+        "candidate_count": 5,
+        "published_count": 5,
+        "note": "Exact measured October19 holiday-after HTTP queries and official ward source logs. 2026/11/29独立公式確認済み新規1件を追加。従前の検索回数と取得成功数は不変。 2026-11-19 公式個別ページ確認済み2件を非破壊追加。 2026-11-19 公式個別ページ確認済み1件を非破壊追加。 2026-11-20 公式個別ページ確認済み1件を非破壊追加。"
+      }
+    ],
+    "municipalities": [
+      {
+        "ward": "府中市",
+        "candidate_count": 1,
+        "published_count": 1,
+        "note": "多摩拡張（v1.41）の初回。 2026-11-21 公式個別ページ確認済み1件を非破壊追加。"
+      },
+      {
+        "ward": "多摩市",
+        "candidate_count": 2,
+        "published_count": 2,
+        "note": "多摩拡張（v1.41）の初回。 2026-11-21 公式個別ページ確認済み2件を非破壊追加。"
+      },
+      {
+        "ward": "東久留米市",
+        "candidate_count": 1,
+        "published_count": 1,
+        "note": "多摩拡張（v1.41）の初回。 2026-11-21 公式個別ページ確認済み1件を非破壊追加。"
+      },
+      {
+        "ward": "東村山市",
+        "candidate_count": 1,
+        "published_count": 1,
+        "note": "多摩拡張（v1.41）の初回。 2026-11-21 公式個別ページ確認済み1件を非破壊追加。"
+      },
+      {
+        "ward": "立川市",
+        "candidate_count": 1,
+        "published_count": 1,
+        "note": "多摩拡張（v1.41）の初回。 2026-11-21 公式個別ページ確認済み1件を非破壊追加。"
+      },
+      {
+        "ward": "清瀬市",
+        "candidate_count": 1,
+        "published_count": 1,
+        "note": "多摩拡張（v1.41）の初回。 2026-11-21 公式個別ページ確認済み1件を非破壊追加。"
+      },
+      {
+        "ward": "武蔵野市",
+        "candidate_count": 1,
+        "published_count": 1,
+        "note": "多摩拡張（v1.41）の初回。 2026-11-21 公式個別ページ確認済み1件を非破壊追加。"
+      },
+      {
+        "ward": "狛江市",
+        "candidate_count": 1,
+        "published_count": 1,
+        "note": "多摩拡張（v1.41）の初回。 2026-11-21 公式個別ページ確認済み1件を非破壊追加。"
+      }
+    ]
+  },
+  "event_files": [
+    "2026-11-28-events-01.json",
+    "2026-11-28-events-manual-primary.json",
+    "2026-11-28-events-verified-continuity.json",
+    "2026-11-28-events-manual-festival-subprograms.json",
+    "2026-11-28-events-verified-subset-2026-11-29.json",
+    "2026-11-28-events-nerima-forest-20261027.json",
+    "2026-11-28-events-gap-recovery-20261108.json",
+    "2026-11-28-events-reviewed-backlog-20261114.json",
+    "2026-11-28-events-additional-primary-20261114.json",
+    "2026-11-28-events-non-tamemap-20261114.json",
+    "2026-11-28-events-non-tamemap-next-20261114.json",
+    "2026-11-28-events-non-tamemap-last-20261114.json",
+    "2026-11-28-events-all-non-tamemap-20261114.json",
+    "2026-11-28-events-evidence-recovery-20261115.json",
+    "2026-11-28-events-neighbors-official-20261117.json",
+    "2026-11-28-events-audit-20261119.json",
+    "2026-11-28-events-sankaku-20261119.json",
+    "2026-11-28-events-lead5-20261119.json",
+    "2026-11-28-events-lead7-20261119.json",
+    "2026-11-28-events-lead8-20261119.json",
+    "2026-11-28-events-lead9-20261119.json",
+    "2026-11-28-events-lead10-20261119.json",
+    "2026-11-28-events-lead11-20261119.json",
+    "2026-11-28-events-lead12-20261119.json",
+    "2026-11-28-events-lead13-20261119.json",
+    "2026-11-28-events-lead14-20261119.json",
+    "2026-11-28-events-lead15-20261120.json",
+    "2026-11-28-events-lead16-20261120.json",
+    "2026-11-28-events-lead17-20261120.json",
+    "2026-11-28-events-lead20-20261120.json",
+    "2026-11-28-events-lead22-20261120.json",
+    "2026-11-28-events-lead25-20261120.json",
+    "2026-11-28-events-lead26-20261120.json",
+    "2026-11-28-events-lead28-20261120.json",
+    "2026-11-28-events-lead24-20261121.json",
+    "2026-11-28-events-lead25-20261121.json",
+    "2026-11-28-events-lead26-20261121.json",
+    "2026-11-28-events-lead27-20261121.json",
+    "2026-11-28-events-lead28-20261121.json",
+    "2026-11-28-events-lead29-20261121.json",
+    "2026-11-28-events-lead39-20261121.json",
+    "2026-11-28-events-lead40-20261121.json",
+    "2026-11-28-events-lead42-20261122.json",
+    "2026-11-28-events-lead45-20261125.json"
+  ],
+  "events": []
+}

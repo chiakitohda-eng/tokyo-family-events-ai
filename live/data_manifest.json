@@ -1,0 +1,125 @@
+{
+  "schema_version": 2,
+  "generated": "2026-11-25T11:30:00+09:00",
+  "default": "2026-11-21",
+  "rolling_horizon_weeks": 6,
+  "publication_tiers": {
+    "full": "今週〜2週間先。全掲載イベントを公式確認済みにする",
+    "preview": "3〜4週間先。公式開催発表済みを先取りし詳細待ちを許容する",
+    "announcement": "5〜6週間先。日付・会場を公式確認できたイベントを早期掲載する"
+  },
+  "weekends": [
+    {
+      "sat": "2026-11-21",
+      "sun": "2026-11-22",
+      "label": "11/21(土)〜11/22(日)",
+      "file": "2026-11-21.json",
+      "count": 264,
+      "horizon_index": 1,
+      "publication_tier": "full"
+    },
+    {
+      "sat": "2026-11-28",
+      "sun": "2026-11-29",
+      "label": "11/28(土)〜11/29(日)",
+      "file": "2026-11-28.json",
+      "count": 189,
+      "horizon_index": 2,
+      "publication_tier": "full"
+    },
+    {
+      "sat": "2026-12-05",
+      "sun": "2026-12-06",
+      "label": "12/5(土)〜12/6(日)",
+      "file": "2026-12-05.json",
+      "count": 167,
+      "horizon_index": 3,
+      "publication_tier": "preview"
+    },
+    {
+      "sat": "2026-12-12",
+      "sun": "2026-12-13",
+      "label": "12/12(土)〜12/13(日)",
+      "file": "2026-12-12.json",
+      "count": 115,
+      "horizon_index": 4,
+      "publication_tier": "preview"
+    },
+    {
+      "sat": "2026-12-19",
+      "sun": "2026-12-20",
+      "label": "12/19(土)〜12/20(日)",
+      "file": "2026-12-19.json",
+      "count": 87,
+      "horizon_index": 5,
+      "publication_tier": "announcement"
+    },
+    {
+      "sat": "2026-12-26",
+      "sun": "2026-12-27",
+      "label": "12/26(土)〜12/27(日)",
+      "file": "2026-12-26.json",
+      "count": 23,
+      "horizon_index": 6,
+      "publication_tier": "announcement"
+    }
+  ],
+  "holiday_source": {
+    "label": "内閣府「国民の祝日」",
+    "url": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html",
+    "checked_at": "2026-10-08"
+  },
+  "holidays": [
+    {
+      "date": "2026-11-23",
+      "name": "勤労感謝の日",
+      "weekend_sat": "2026-11-21"
+    }
+  ],
+  "current_rollover": {
+    "as_of_jst": "2026-11-17",
+    "mode": "manual_evidence_checked_subset_rollover",
+    "base_data_production_sha": "fc6bec505975c6dabbddd404f33cd7d9f3f525e9",
+    "retired_week_starts": [
+      "2026-11-07",
+      "2026-11-14"
+    ],
+    "new_week_starts": [
+      "2026-12-19",
+      "2026-12-26"
+    ],
+    "scope_added_events": 8,
+    "required_source_failures_observed": 5,
+    "global_source_audit_complete": false,
+    "production_release_authorized_only_after_validation": true,
+    "full_23_ward_25_source_audit_complete": false,
+    "legacy_missing_source_errors_preserved": true,
+    "evidence_workflow_run_id": 44187635448,
+    "evidence_artifact_id": 14375267058,
+    "evidence_requests_sha256": "3459409ad644d4e6b3b387312098583a63c69eda2aee073ff65644fee08e502a",
+    "evidence_committed_copy": "research/2026-11-18-source-evidence/",
+    "unresolved_required_source_failures": 5,
+    "unverified_candidate_links": 821,
+    "source_failures_remain_unverified": true,
+    "ward_week_search_receipts_checked": 414
+  },
+  "verified_gap_recovery_20261108": {
+    "mode": "manual_official_subset",
+    "added_event_records": 11,
+    "prior_records_removed": 0,
+    "remaining_unverified_candidate_links": 844,
+    "unresolved_required_source_failures": 3,
+    "coverage_backlog_remaining": true
+  },
+  "previous_current_rollover": {
+    "as_of_jst": "2026-11-08",
+    "mode": "verified-current-horizon-subset",
+    "base_data_production_sha": "1d1687321f82279d6e46899f1fc453169bba5b1d",
+    "evidence_workflow_run_id": 42456012607,
+    "evidence_artifact_id": 13607681119,
+    "retired_week_start": "2026-10-31",
+    "new_week_start": "2026-12-12",
+    "unresolved_required_source_failures": 3,
+    "unverified_candidate_links": 844
+  }
+}
