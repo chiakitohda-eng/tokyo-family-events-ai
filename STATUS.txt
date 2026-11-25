@@ -1,0 +1,5 @@
+page1 https://shibu-cul.jp/hachilabo 200 81346
+page2 https://shibu-cul.jp/hachilabo/tenji 200 71375
+page3 https://shibu-cul.jp/event/52646 200 73122
+page4 https://shibu-cul.jp/event/53568 200 74396
+page5 https://shibu-cul.jp/event/53577 200 70049
