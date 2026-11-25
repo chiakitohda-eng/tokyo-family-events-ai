@@ -1,0 +1,28 @@
+curl: (28) Operation timed out after 40001 milliseconds with 0 bytes received
+page1 https://www.tokyodisneyresort.jp/treasure/christmas2026/tdl/ 000 0
+page1 https://www.tokyodisneyresort.jp/treasure/christmas2026/tdl/ FAIL
+page10 https://www.hanayashiki.net/event_this/ 200 14157
+page11 https://www.hanayashiki.net/information/ 200 13522
+page12 https://www.tokyo-zoo.net/ueno/events/index.html 200 412333
+page13 https://www.tokyo-zoo.net/inokashira/events/index.html 200 407013
+page14 https://www.tokyo-zoo.net/kasai/events/index.html 200 407649
+page15 https://www.tokyo-park.or.jp/event_search/index.html 200 70666
+page16 https://www.tokyo-park.or.jp/event_search/event_38.html 200 21247
+page17 https://www.tokyo-park.or.jp/park/koganei/news/2026/12_6_2026.html 200 532566
+page18 https://www.tokyo-park.or.jp/park/jindai/news/2026/park_info.html 200 22078
+page19 https://www.city.urayasu.lg.jp/event_calendar.html 200 30318
+curl: (28) Operation timed out after 40002 milliseconds with 0 bytes received
+page2 https://www.tokyodisneyresort.jp/treasure/christmas2026/tds/ 000 0
+page2 https://www.tokyodisneyresort.jp/treasure/christmas2026/tds/ FAIL
+page20 https://www.city.urayasu.lg.jp/kanko/index.html 200 29240
+curl: (28) Operation timed out after 40002 milliseconds with 0 bytes received
+page3 https://www.tokyodisneyresort.jp/en/topics/event/christmas2026/tdl.html 000 0
+page3 https://www.tokyodisneyresort.jp/en/topics/event/christmas2026/tdl.html FAIL
+curl: (28) Operation timed out after 40002 milliseconds with 0 bytes received
+page4 https://www.tokyodisneyresort.jp/tdl/event.html 000 0
+page4 https://www.tokyodisneyresort.jp/tdl/event.html FAIL
+page5 https://sunshinecity.jp/event/entry-39282.html 200 97848
+page6 https://sunshinecity.jp/event/entry-39223.html 200 94173
+page7 https://sunshinecity.jp/observatory/event/entry-39310.html 200 79156
+page8 https://sunshinecity.jp/observatory/event/entry-39380.html 200 134524
+page9 https://sunshinecity.jp/aquarium/event_performance/event/entry-39038.html 200 57855
