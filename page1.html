@@ -1,0 +1,1208 @@
+//------------------------------------------------------------------------------
+//  イベントカレンダーJS版
+//  Copyright (C) 2020 FUTUREINN CO., LTD. All Rights Reserved.
+//------------------------------------------------------------------------------
+(function(){
+  var $ = FI.jQuery;
+  var event_data;
+  // ▼▼▼イベントデータファイルを複数読む必要がある場合の処理 ▼▼▼
+  // データファイルの読み込み処理
+  var jqXHRs = [];
+  for (var i = 0; i < FI.event_data_files.length; i++) {
+    jqXHRs.push($.ajax({
+      url: FI.event_data_files[i],
+      type: 'GET',
+      dataType: 'script'
+    }));
+  }
+  var e_data_base;
+  var e_data_add;
+  $.when.apply($, jqXHRs).done(function(){
+    // すべて読み込んでから処理を行う
+    if (jqXHRs.length <= 1){
+        if (typeof arguments[0] != 'undefined'){
+            eval(arguments[0]);
+            e_data_base = event_data;
+        }
+    }else{
+        for (var i = 0; i < arguments.length; i++) {
+          event_data = {};
+          // jsの読み込みに成功した場合は読み込んだjsを実行し、データをマージする
+          if (typeof arguments[i][0] != 'undefined'){
+            eval(arguments[i][0]);
+            if (i == 0){
+              e_data_base = event_data;
+            }else{
+              e_data_add = event_data;
+              // イベント情報の配列のみデータを追加していき、他の配列については引数が同じ場合は上書きでマージを行う
+              e_data_add.events = $.merge(e_data_base.events,e_data_add.events);
+              $.extend(true,e_data_base,e_data_add);
+            }
+          }
+        }
+    }
+    event_data = e_data_base;
+    // ▲▲▲ イベントデータファイルを複数読む必要がある場合の処理 ▲▲▲
+
+    $(function(){
+      // event_data変数はevent_data.js内にグローバル変数として定義されている前提
+      if (typeof event_data == 'undefined' || !event_data) return;
+      // ▼▼▼ 設定項目 ▼▼▼
+      // 設定値
+      var CALENDAR_DEFAULT_TERM = 31; // カレンダー表示：初期表示時の表示件数（未来日表示日数）
+      var LIST_DEFAULT_COUNT = 20; // 一覧表示：初期表示件数
+      var LONG_EVENT_THRESHOLD = 7; // 長期開催イベントの切り分け期間設定値（[○]日以上）
+      var TERMINATION_THRESHOLD = 7; // 募集締め切り前日数設定値 [○日前]
+      var SEARCH_KEYWORD_OR = false; // キーワード検索をor検索とする場合はtrueに設定する。
+      var DAY_LABELS = ['日','月','火','水','木','金','土'];
+
+      // 検索条件項目設定
+      //データが存在しない項目については非表示処理を実行する
+       if (Object.keys(event_data.areas).length <= 0) {
+         $('div#moreconditions div.conditions:eq(0)').hide(); // エリア(地区)
+       }
+       if (Object.keys(event_data.targets).length <= 0) {
+         $('div#moreconditions div.conditions:eq(1)').hide(); // 対象者
+       }
+       if (Object.keys(event_data.places).length <= 0) {
+         $('div#moreconditions div.conditions:eq(2)').hide(); // 施設
+       }
+       if (Object.keys(event_data.applications).length <= 0) {
+         $('div#moreconditions div.conditions:eq(3)').hide(); // 事前申込
+       }
+       if (Object.keys(event_data.uds).length <= 0) {
+         $('div#moreconditions div.conditions:eq(4)').hide(); // ユニバーサルデザイン
+       }
+       if (Object.keys(event_data.expenses).length <= 0) {
+         $('div#moreconditions div.conditions:eq(5)').hide(); // 費用
+       }
+      // ▲▲▲ 設定項目 ▲▲▲
+
+
+
+
+
+      // (関数内)グローバル変数
+      var today = new Date(); today.setHours(0, 0, 0, 0);
+      var current = new Date(); current.setHours(0, 0, 0, 0);
+      var searchFilter;
+      var event_switch_c = $('#eventswitch');    // 表示切替ボタンソース(カレンダー表示用)
+      // 外部サイトのイベントに外部リンクアイコンをつける
+      var outerlink = '<img src=\"./_template_/_site_/_default_/_res/images/parts/newwin2.gif\" alt=\"外部リンク・新しいウィンドウで開きます\" width=\"12\" height=\"11\" class=\"external\">';
+      // 表示切替ボタンソース(一覧表示用)カレンダー表示用とはクラスactiveの表示箇所が異なるため、ソースを変更
+      var event_switch_l = $('#eventswitch').clone(true);
+      event_switch_l.find('li.listtype').addClass('active');
+      event_switch_l.find('li.datetype').removeClass('active');
+
+
+      // ▼▼▼ 検索フォーム設定 ▼▼▼
+      // 期間選択
+      for (var i=0; i<=12; i++) {
+        var tmp_date = new Date(today.getFullYear(), today.getMonth() + i, 1);
+        var y = tmp_date.getFullYear();
+        var m = tmp_date.getMonth();
+        var opt = '<option value="'+y+'/'+(m+1)+'">'+y+'年'+(m+1)+'</option>';
+        $('select#ym1').append(opt);
+        $('select#ym2').append(opt);
+      }
+      for (var i=1; i<=31; i++) {
+        var opt = '<option value="'+i+'">'+i+'</option>';
+        $('select#day1').append(opt);
+        $('select#day2').append(opt);
+      }
+      $('select#day1').val(today.getDate());
+      // 選択肢
+      $.each(event_data.categories, function(ix, v){
+        $('ul#choice_category').append('<li><input name="c'+ix+'" id="c'+ix+'" type="checkbox" value="'+ix+'"><label for="c'+ix+'">'+v+'</label></li>');
+      });
+      $.each(event_data.places, function(ix, v){
+        $('ul#choice_place').append('<li><input name="s'+ix+'" id="s'+ix+'" type="checkbox" value="'+ix+'"><label for="s'+ix+'">'+v+'</label></li>');
+      });
+      $.each(event_data.targets, function(ix, v){
+        $('ul#choice_target').append('<li><input name="t'+ix+'" id="t'+ix+'" type="checkbox" value="'+ix+'"><label for="t'+ix+'">'+v+'</label></li>');
+      });
+      $.each(event_data.areas, function(ix, v){
+        $('ul#choice_area').append('<li><input name="a'+ix+'" id="a'+ix+'" type="checkbox" value="'+ix+'"><label for="a'+ix+'">'+v+'</label></li>');
+      });
+      $.each(event_data.applications, function(ix, v){
+        $('ul#choice_application').append('<li><input name="j'+ix+'" id="j'+ix+'" type="checkbox" value="'+ix+'"><label for="j'+ix+'">'+v+'</label></li>');
+      });
+      $.each(event_data.uds, function(ix, v){
+        $('ul#choice_universal').append('<li><input name="u'+ix+'" id="u'+ix+'" type="checkbox" value="'+ix+'"><label for="u'+ix+'">'+v+'</label></li>');
+      });
+      $.each(event_data.expenses, function(ix, v){
+        $('ul#choice_expense').append('<li><input name="e'+ix+'" id="e'+ix+'" type="checkbox" value="'+ix+'"><label for="e'+ix+'">'+v+'</label></li>');
+      });
+      // ▲▲▲ 検索フォーム設定 ▲▲▲
+
+
+      // ▼▼▼ DOMイベント ▼▼▼
+      // イベント検索
+      $('input.eventsearch').on('click',function(){
+        // 検索フィルタを作成
+        if (!createSearchFilter()) return;
+        // 検索実行
+        scrollToTop();
+        if ($('div#ecalendar').is(':visible')) {
+          drawCalendar(current, searchFilter);
+        } else if ($('div#eventcardbox').is(':visible')) {
+          drawList(searchFilter);
+        }
+        $('.eventclose a').trigger('click');
+      });
+      // 検索条件クリアボタン
+      $('input.clearsearch').on('click',function(){
+        if ($('div#ecalendar').is(':visible')) {
+          $($('a.display_calendar')[0]).trigger('click');
+        } else if ($('div#eventcardbox').is(':visible')) {
+          $($('a.display_list')[0]).trigger('click');
+        }
+      });
+      // カレンダー表示
+      $(document).on('click','a.display_calendar',function(){
+        // 外部ページからアンカー指定でカレンダー表示に遷移した場合に、アンカーの位置に遷移するようにscrollToTopをコメントアウト
+        //scrollToTop();
+        current = today;
+        clearSearchFilter();
+        drawCalendar(current);
+        $('#ecalendar, #draw_all_events, ul#eventmonth_bottom, li.longterm, #longterm').show();
+        $('#eventcardbox, #display_more_events, #term_condition').hide();
+        $('#eventcardbox  #eventswitch').remove();
+        if($('#ecalendar #eventswitch').length <= 0){
+          $('#ecalendar h2#ecalendartitle').after(event_switch_c);
+        }
+
+        $('h1').html('イベントカレンダー');
+      });
+      // 一覧表示
+      $(document).on('click','a.display_list',function(){
+        clearSearchFilter();
+        $('#eventorder a:eq(0)').trigger('click'); // ソート用のリンク経由でイベント一覧を描画
+        $('#ecalendar, #draw_all_events, ul#eventmonth_bottom, li.longterm, #longterm').hide();
+        $('#eventcardbox, #term_condition').show();
+        $('#ecalendar #eventswitch').remove();
+        if($('#eventcardbox #eventswitch').length <= 0){
+          $('#eventcardbox h2#ecalendartitle2').after(event_switch_l);
+        }
+
+        if($('#eventhide li:not(.origin)').length > 0){
+          $('#display_more_events').show();
+        }else{
+          $('#display_more_events').hide();
+        }
+        $('h1').html('イベント一覧');
+      });
+      // 前月を見る
+      $('a.draw_prev_calendar').on('click',function(){
+        scrollToTop();
+        current = new Date(current.getFullYear(), current.getMonth() - 1, 1);
+        drawCalendar(current, searchFilter);
+      });
+      // 今月のカレンダー
+      $('a.draw_this_month_calendar').on('click',function(){
+        scrollToTop();
+        current = today;
+        drawCalendar(current, searchFilter);
+      });
+      // 翌月を見る
+      $('a.draw_next_calendar').on('click',function(){
+        scrollToTop();
+        current = new Date(current.getFullYear(), current.getMonth() + 1, 1);
+        drawCalendar(current, searchFilter);
+      });
+      // 全件表示
+      $('div#draw_all_events a').on('click',function(){
+        //scrollToTop();
+        $('table#calendar_table tr:not(#calendar_row)').show();
+        $('div#draw_all_events').hide()
+      });
+      // 並び替え
+      $('#eventorder a').on('click',function(){
+        //scrollToTop();
+        var $ul = $(this).parent().parent();
+        $ul.find('li').removeAttr('aria-current');
+        $ul.find('a').show();
+        $ul.find('em').hide();
+        $(this).parent().attr('aria-current', 'true');
+        $(this).hide();
+        $(this).next().show();
+        if(!searchFilter){
+          var filter = {};
+          filter['term_from'] = today; //一覧には今日以前のイベントは出さない
+          searchFilter = filter;
+        }
+        drawList(searchFilter);
+      });
+      function scrollToTop() {
+        $('body, html').animate({ scrollTop: 0 }, 500);
+      }
+      // さらにn件表示
+      $('div#display_more_events span').text(LIST_DEFAULT_COUNT);
+      $('div#display_more_events a').on('click',function(){
+        var $hide = $('div#eventhide ul');
+        //Masonry追加表示
+        var $elems = $hide.find('li.item:lt('+LIST_DEFAULT_COUNT+')');
+        if ($elems.length < 1) return;
+        $('#eventcard ul').append($elems).masonry('appended', $elems);
+        $($elems[0]).trigger('focus');
+        //追加表示ボタン表示制御
+        var hidden_num = $hide.find('li.item').length;
+        if (hidden_num > 0) {
+          $('div#display_more_events').show();
+          if (hidden_num < LIST_DEFAULT_COUNT) $('span#itemcount').text(hidden_num);
+        } else {
+          $('div#display_more_events').hide();
+        }
+      });
+      // 文字サイズ変更(_template_/_site_/_default_/_res/js/eventcal.jsより転記)
+      $('.fontsizes , .fontsize , .fontsizel').on('click',function(){
+        $grid.masonry({
+          itemSelector: '.item',
+          columnWidth: 286, 
+          gutter: 16,
+          isFitWidth: false
+        });
+      });
+      // ▲▲▲ DOMイベント ▲▲▲
+
+
+      // 初期表示
+      // Getパラメータの有無を確認
+      var param = location.search;
+      if (param){
+        // パラメータ内部の必要な情報を読み込みハッシュに格納
+        param_hash = readGetParameter(param)
+        // 表示に使用するパラメータを取得
+        var prev_flg = param_hash.prev ? param_hash.prev : 1; // 表示切替区分(1:カレンダー表示、2:一覧表示)
+        var sort = param_hash.sort ? param_hash.sort : 1;     // 一覧表示用並び替え区分(1:開催日順、2:イベント名順、3:カテゴリ順)
+        current = today;                                      // カレンダー表示の表示開始日
+        // 並び替え区分チェック 区分にない数値が設定されている場合は1に変更
+        if (!(sort >=1 && sort <= 3)){
+          sort = 1
+        }
+        // 日付チェック 年月日すべてが正常な数値の場合のみパラメータの日付に変更
+        if (param_hash.year && param_hash.month && param_hash.day){
+          var check_date = new Date(param_hash.year, param_hash.month-1, param_hash.day);  
+          if(check_date.getFullYear() ==  param_hash.year && check_date.getMonth() == param_hash.month - 1 && check_date.getDate() == param_hash.day){
+            current = new Date(param_hash.year, param_hash.month-1, param_hash.day); // カレンダー表示の表示開始日
+          }
+        }
+        if (prev_flg == 1 || !prev_flg) {
+          // カレンダー表示
+          // 外部ページからアンカー指定でカレンダー表示に遷移した場合に、アンカーの位置に遷移するようにscrollToTopをコメントアウト
+          //scrollToTop();
+          clearSearchFilter();
+          drawCalendar(current);
+          $('#ecalendar, #draw_all_events, ul#eventmonth_bottom, li.longterm, #longterm').show();
+          $('#eventcardbox, #display_more_events, #term_condition').hide();
+          $('#eventcardbox #eventswitch').remove();
+          if($('#ecalendar #eventswitch').length <= 0){
+            $('#ecalendar h2#ecalendartitle').after(event_switch_c);
+          }
+          $('h1').html('イベントカレンダー');
+        } else {
+          // 一覧表示
+          clearSearchFilter();
+          $('#eventorder a:eq(' + (sort - 1) + ')').trigger('click'); // ソート用のリンク経由でイベント一覧を描画
+          $('#ecalendar, #draw_all_events, ul#eventmonth_bottom, li.longterm, #longterm').hide();
+          $('#eventcardbox, #term_condition').show();
+          $('#ecalendar #eventswitch').remove();
+          if($('#eventcardbox #eventswitch').length <= 0){
+            $('#eventcardbox h2#ecalendartitle2').after(event_switch_l);
+          }
+          if($('#eventhide li:not(.origin)').length > 0){
+            $('#display_more_events').show();
+          }else{
+            $('#display_more_events').hide();
+          }
+          $('h1').html('イベント一覧');
+        }
+        // 検索ボックスにGetパラメータの内容を設定
+        var setsearch_flg = setSearchBox(param_hash);
+        
+        // 検索ボックスに設定する内容があった場合は検索を実行
+        if (setsearch_flg == true){
+          $('input.eventsearch').trigger('click');
+          
+          // エラーが表示されている場合検索ボックスを開く
+          if ($('div#esearch div#inputerror').css('display') == 'block') {
+            var $ul = $('#eventsearch');
+            $ul.css('left',0);
+            $('body').toggleClass('eventactive');
+            $ul.animate({'left' : 0 }, 250);
+            $('#esearch').show();
+            $('#esearchbtn button').attr('aria-expanded', 'true');
+            $('#esearchbox').attr('aria-hidden', 'false');
+          }
+        }
+      }else{
+        // Getパラメータがない場合は初期表示としてカレンダーを表示
+        $($('a.display_calendar')[0]).trigger('click');
+      }
+
+      // ▼▼▼ 関数定義 ▼▼▼
+      // getパラメータを読み込み
+      function readGetParameter(param) {
+        // パラメータ格納用変数を設定
+        var param_hash = {};
+
+        //パラメータがない時は処理しない
+        if (!param) return false;
+        //先頭の?を削除
+        param=param.substring(1);
+        //&単位で分割して配列に格納
+        var pair=param.split("&");
+        var i=temp="";
+        for (i=0; i < pair.length; i++) {
+          //配列の値を「=」で分割
+          temp=pair[i].split("=");
+          prmName = temp[0];
+          prmValue = temp[1];
+          // パラメータをハッシュに格納
+          param_hash[prmName]=prmValue;
+
+        }
+        prev_flg = param_hash.prev;
+        return param_hash;
+      }
+
+      // パラメータで読み込んだ検索項目の設定
+      function setSearchBox(param_hash) {
+        //パラメータがない時は処理しない
+        if (!param_hash) return false;
+        var ret = false;
+        //パラメータの項目名がselectまたはinputタグのidとして存在する場合はパラメータの値を反映する（チェックボックスの場合は値がinputタグのvalueの数値と一致していればチェックを付ける）
+        $.each(param_hash, function(key,value){
+          if (value){
+            //selectは日付選択のため、エリアが表示されている場合のみ項目を設定
+            if ($('select#'+key).length > 0 && ($('select#'+key).parents('#term_condition').css('display') == 'block')){
+              //値を格納する場合はURLデコードを行う
+              $('select#'+key).val(decodeURIComponent(value));
+              ret = true;
+            }else if($('input#'+key+'[type=text]').length > 0){
+              //値を格納する場合はURLデコードを行う
+              $('input#'+key+'[type=text]').val(decodeURIComponent(value));
+              ret = true;
+            }else if($('input#'+key+'[type=checkbox]').length > 0 && $('input#'+key+'[type=checkbox]').val() == value){
+              $('input#'+key+'[type=checkbox]').prop('checked', true);
+              ret = true;
+            }
+          }
+        });
+        return ret;
+      }
+
+      // 検索フィルタを作成
+      function createSearchFilter() {
+        var filter = {};
+        // フォームのエラー表示をクリア
+        var $box = $('div#esearch');
+        $box.find('div#inputerror').hide();
+        $box.find('div.conditions:eq(2)').removeClass('error');
+        $box.find('p.errortxt').hide();
+        // 検索条件チェック(イベント期間設定のみ)
+        var $term_cond = $('div#term_condition');
+        if ($term_cond.is(':visible')) {
+          // 期間 from
+          var ym1 = $term_cond.find('select#ym1').val();
+          var day1 = $term_cond.find('select#day1').val();
+          var ymd1 = strToDate(ym1 + '/' + day1);
+          filter['term_from'] = ymd1 ? ymd1 : today;
+          // 期間 to
+          var ym2 = $term_cond.find('select#ym2').val();
+          var ymd2 = strToDate(ym2 + '/1'); // 仮に月初の日を設定しておく
+          if (ymd2) {
+            var day2 = $term_cond.find('select#day2').val();
+            if (day2 > 0) {
+              ymd2.setDate(day2);
+              filter['term_to'] = ymd2;
+            } else {
+              // 日の指定が無いため末日を設定
+              filter['term_to'] = new Date(ymd2.getFullYear(), ymd2.getMonth() + 1, 0);
+            }
+          }
+          // 期間指定の整合性をチェック
+          if (filter['term_to'] && filter['term_to'] < filter['term_from']) {
+            // フォームにエラーを表示
+            $box.find('div#inputerror').show();
+            $box.find('div.conditions:eq(2)').addClass('error');
+            $box.find('p.errortxt').show();
+            return false;
+          }
+        }
+        // キーワード
+        var keyword = $('input#text').val();
+        if (keyword) {
+          //全角スペースのみキーワード分割を行う
+          filter['keyword'] = keyword.split('　');
+        }
+        // カテゴリ
+        filter['category'] = $('ul#choice_category input:checked').map(function(){
+          return $(this).val();
+        }).get();
+        // 地区
+        if ($('ul#choice_area').is(':visible')) {
+          filter['area'] = $('ul#choice_area input:checked').map(function(){
+            return $(this).val();
+          }).get();
+        }
+        // 対象者
+        if ($('ul#choice_target').is(':visible')) {
+          filter['target'] = $('ul#choice_target input:checked').map(function(){
+            return $(this).val();
+          }).get();
+        }
+        // 施設
+        if ($('ul#choice_place').is(':visible')) {
+          filter['place'] = $('ul#choice_place input:checked').map(function(){
+            return $(this).val();
+          }).get();
+        }
+        // 事前申込
+        if ($('ul#choice_application').is(':visible')) {
+          filter['application'] = $('ul#choice_application input:checked').map(function(){
+            return $(this).val();
+          }).get();
+        }
+        // ユニバーサルデザイン
+        if ($('ul#choice_universal').is(':visible')) {
+          filter['universal'] = $('ul#choice_universal input:checked').map(function(){
+            return $(this).val();
+          }).get();
+        }
+        // 費用
+        if ($('ul#choice_expense').is(':visible')) {
+          filter['expense'] = $('ul#choice_expense input:checked').map(function(){
+            return $(this).val();
+          }).get();
+        }
+        searchFilter = filter;
+        // 検索条件の表示
+        showSearchFilter();
+        return true;
+      }
+
+      // 検索条件の表示
+      function showSearchFilter() {
+        var $cond = $('#eventcondition').show();
+        $cond.find('dd, dt').hide();
+        $cond.find('dd').text();
+        // キーワード
+        if (searchFilter['keyword']) {
+          $cond.find('.econd_keyword').show();
+          $cond.find('dd.econd_keyword').text(searchFilter['keyword'].join('，'));
+        }
+        // カテゴリ
+        if (searchFilter['category'] && searchFilter['category'].length > 0) {
+          $cond.find('.econd_category').show();
+          $cond.find('dd.econd_category ul').empty();
+          $.each(searchFilter['category'], function(){
+            var $li = $('<li></li>');
+            $li.append(generateCategoryIcon(this));
+            $cond.find('dd.econd_category ul').append($li);
+          });
+        }
+        // 期間
+        if (searchFilter['term_from']) {
+          var term_text = dateToJpStr(searchFilter['term_from'])+' から ';
+          if (searchFilter['term_to']) term_text += dateToJpStr(searchFilter['term_to']);
+          $cond.find('.econd_term').show();
+          $cond.find('dd.econd_term').text(term_text);
+        }
+        // 対象
+        if (searchFilter['target'] && searchFilter['target'].length > 0) {
+          var target_text = $.map(searchFilter['target'], function(v, ix){
+            if (event_data.targets[v]) return event_data.targets[v];
+          }).join('，');
+          $cond.find('.econd_target').show();
+          $cond.find('dd.econd_target').text(target_text);
+        }
+        // 施設
+        if (searchFilter['place'] && searchFilter['place'].length > 0) {
+          var place_text = $.map(searchFilter['place'], function(v, ix){
+            if (event_data.places[v]) return event_data.places[v];
+          }).join('，');
+          $cond.find('.econd_place').show();
+          $cond.find('dd.econd_place').text(place_text);
+        }
+        // 事前申込み
+        if (searchFilter['application'] && searchFilter['application'].length > 0) {
+          var application_text = $.map(searchFilter['application'], function(v, ix){
+            if (event_data.applications[v]) return event_data.applications[v];
+          }).join('，');
+          $cond.find('.econd_application').show();
+          $cond.find('dd.econd_application').text(application_text);
+        }
+        // 地域
+        if (searchFilter['area'] && searchFilter['area'].length > 0) {
+          var area_text = $.map(searchFilter['area'], function(v, ix){
+            if (event_data.areas[v]) return event_data.areas[v];
+          }).join('，');
+          $cond.find('.econd_area').show();
+          $cond.find('dd.econd_area').text(area_text);
+        }
+        // ユニバーサルデザイン
+        if (searchFilter['universal'] && searchFilter['universal'].length > 0) {
+          var universal_text = $.map(searchFilter['universal'], function(v, ix){
+            if (event_data.uds[v]) return event_data.uds[v];
+          }).join('，');
+          $cond.find('.econd_universal').show();
+          $cond.find('dd.econd_universal').text(universal_text);
+        }
+        // 費用
+        if (searchFilter['expense'] && searchFilter['expense'].length > 0) {
+          var expense_text = $.map(searchFilter['expense'], function(v, ix){
+            if (event_data.expenses[v]) return event_data.expenses[v];
+          }).join('，');
+          $cond.find('.econd_expense').show();
+          $cond.find('dd.econd_expense').text(expense_text);
+        }
+      }
+
+      // 検索条件のクリア
+      function clearSearchFilter() {
+        searchFilter = null;
+        // フォームのエラーをクリア
+        var $box = $('div#esearch');
+        $box.find('div#inputerror').hide();
+        $box.find('div.conditions:eq(2)').removeClass('error');
+        $box.find('p.errortxt').hide();
+        // 検索条件表示を隠す
+        $('#eventcondition').hide();
+        // フォームの入力値をクリア
+        var $form = $('#esearchbox');
+        $form.find('input[type="text"]').val('');
+        $form.find('input[type="checkbox"]').prop('checked', false);
+        $form.find('select').prop('selectedIndex', 0);
+        $form.find('select#day1').val(today.getDate());
+      }
+
+      // 検索フィルタによる除外判定
+      function filterEvent(event, filter) {
+        // キーワード
+        if (filter['keyword']) {
+          var keyword_match = false;
+          $.each(filter['keyword'], function(ix, kw){
+            if (event.eventtitle && event.eventtitle.indexOf(kw) > -1) keyword_match = true;
+            if (event.description && event.description.indexOf(kw) > -1) keyword_match = true;
+            if (event.place2 && event.place2.indexOf(kw) > -1) keyword_match = true;
+          });
+          if (SEARCH_KEYWORD_OR && keyword_match) return true;
+          if (!keyword_match) return false;
+        }
+        // 期間
+        if (filter['term_from']) {
+          var term_match = false;
+          $.each(event.opendays, function(k,v){
+            var date = strToDate(v);
+            if (!date) return true;
+            if (filter['term_to']) { 
+              if (filter['term_from'] <= date && date <= filter['term_to']) {
+                term_match = true;
+              }
+            } else if (filter['term_from'] <= date) {
+              term_match = true;
+            }
+            if (term_match) return true;
+          });
+          if (!term_match) return false;
+        }
+        // カテゴリ
+        if (filter['category'] && filter['category'].length > 0) {
+          if (!event.category || !arrayMatch(event.category, filter['category'])) return false;
+        }
+        // 対象者
+        if (filter['target'] && filter['target'].length > 0) {
+          if (!event.target || !arrayMatch(event.target, filter['target'])) return false;
+        }
+        // 施設
+        if (filter['place'] && filter['place'].length > 0) {
+          if (!event.place || !(filter['place'].indexOf(event.place) > -1)) return false;
+        }
+        // 事前申込み
+        if (filter['application'] && filter['application'].length > 0) {
+          if (!event.application || !(filter['application'].indexOf(event.application) > -1)) return false;
+        }
+        // 地域
+        if (filter['area'] && filter['area'].length > 0) {
+          if (!event.area || !(filter['area'].indexOf(event.area) > -1)) return false;
+        }
+        // ユニバーサルデザイン
+        if (filter['universal'] && filter['universal'].length > 0) {
+          if (!event.universal || !arrayMatch(event.universal, filter['universal'])) return false;
+        }
+        // 費用
+        if (filter['expense'] && filter['expense'].length > 0) {
+          if (!event.expense || !(filter['expense'].indexOf(event.expense) > -1)) return false;
+        }
+        return true;
+      }
+      function arrayMatch(a, b) {
+        var match = false;
+        $.each(a, function(ix, item){
+          if (b.indexOf(item) > -1) {
+            match = true;
+            return false;
+          }
+        });
+        return match;
+      }
+
+      // カレンダー描画用関数
+      function drawCalendar(baseDate, filter) {
+        var $table = $('table#calendar_table'); // カレンダー表示用テーブル
+        $table.find('tr:not(#calendar_row)').remove();
+        $table.find('caption').text(baseDate.getFullYear()+'年'+(baseDate.getMonth()+1)+'月のイベント');
+        var longterm_list = []; // n日間以上連続して開催されるイベント ソート用
+        var $longterm = $('#longterm'); // n日間以上連続して開催されるイベント表示領域
+        $longterm.find('ul').empty();
+        $('span.longterm_threshold').text(LONG_EVENT_THRESHOLD);
+        $('div#draw_all_events').show(); // 全件表示ボタン
+
+        // カレンダーの枠を作成
+        var fromDate = new Date(baseDate.getFullYear(), baseDate.getMonth(), 1);
+        var toDate = new Date(fromDate.getFullYear(), fromDate.getMonth() + 1, 0);
+        var days = toDate.getDate() - fromDate.getDate() + 1;
+        var displayFrom = baseDate.getDate();
+        var displayTo = displayFrom + CALENDAR_DEFAULT_TERM - 1;
+        for (var i=0; i<days; i++) {
+          var date = new Date(fromDate.getFullYear(), fromDate.getMonth(), fromDate.getDate() + i);
+          $row = $table.find('#calendar_row').clone().show().removeAttr('id');
+          var wday = date.getDay();
+          var tmp_date_str = date.getFullYear()+'/'+('0'+(date.getMonth()+1)).slice(-2)+'/'+('0'+date.getDate()).slice(-2);
+          var wclass = 'day';
+          if (wday == 0) wclass = 'sun';
+          if (wday == 6) wclass = 'sat';
+          if (event_data.holidays.indexOf(tmp_date_str) > -1) wclass = 'sun';
+          $row.find('th').addClass(wclass);
+          $row.find('em').text(date.getDate());
+          $row.find('span.week').text(DAY_LABELS[wday]+'曜日');
+          $row.find('ul').attr('id', 'd'+date.getFullYear()+date.getMonth()+date.getDate());
+          if (date.getDate() < displayFrom || displayTo < date.getDate()) {
+            $row.hide();
+          }
+          $table.find('tbody').append($row);
+        }
+
+        // カレンダーにイベントを書き込む
+        $.each(event_data.events, function(){
+          var me = this;
+          if (filter && !filterEvent(me, filter)) return true; // フィルタリング検索
+          // 期間イベントの場合、開催期間が閾値を超える場合n日間以上連続して開催されるイベントに表示する
+          if (me.kikandays) {
+            var terms = [];
+            $.each(me.kikandays, function(ix, kikan){
+              var kikanFrom = strToDate(kikan.from), kikanTo = strToDate(kikan.to);
+              if (kikanFrom && kikanTo && kikanFrom <= toDate && kikanTo >= fromDate) {
+                if (kikan.term >= LONG_EVENT_THRESHOLD) {
+                  terms.push({from: kikanFrom, to: kikanTo});
+                } else {
+                  for (var i=0; i<kikan.term; i++) {
+                    // 開催期間が閾値を超えない場合は各開催日毎にカレンダーに表示する
+                    var date = new Date(kikanFrom.getFullYear(), kikanFrom.getMonth(), kikanFrom.getDate() + i);
+                    var $ul = $table.find('#d'+date.getFullYear()+date.getMonth()+date.getDate());
+                    if ($ul.length > 0) $ul.append(generateEventElementForCalendar(me, date));
+                  }
+                }
+              }
+            });
+            if (terms.length > 0) {
+              // ▼▼▼イベントデータファイルを複数読む必要がある場合の処理 ▼▼▼
+//                $longterm.find('ul').append(generateEventElementForLongterm(me, terms));
+              // ソートができるように対象データを配列に格納
+              longterm_list.push({li: generateEventElementForLongterm(me, terms), terms: terms});
+              // ▲▲▲イベントデータファイルを複数読む必要がある場合の処理 ▲▲▲
+            }
+            return true;
+          }
+          // 1日開催、定期開催の場合は各開催日毎にカレンダーに表示する
+          $.each(me.opendays, function(){
+            var date = strToDate(this);
+            if (!date || date < fromDate || date > toDate) return true;
+            var $ul = $table.find('#d'+date.getFullYear()+date.getMonth()+date.getDate());
+            if ($ul.length > 0) $ul.append(generateEventElementForCalendar(me, date));
+          });
+        });
+        // n日間以上連続して開催されるイベントの表示判定
+        if (longterm_list.length > 0) {
+          // ▼▼▼イベントデータファイルを複数読む必要がある場合の処理 ▼▼▼
+          // マージファイルのデータが混ざるように開始日の昇順でソート
+          longterm_list.sort(function(a, b){
+              // 開催日順
+              var a_date = a.terms[0].from;
+              var b_date = b.terms[0].from;
+              if (a_date < b_date) return -1;
+              if (a_date > b_date) return 1;
+            return 0;
+          });
+
+          $.each(longterm_list, function(ix, v){
+            $longterm.find('ul').append(v.li);
+          });
+          // ▲▲▲イベントデータファイルを複数読む必要がある場合の処理 ▲▲▲
+          $longterm.find('p:eq(0), ul').show();
+          $longterm.find('p:eq(1)').hide();
+        } else {
+          $longterm.find('p:eq(0), ul').hide();
+          $longterm.find('p:eq(1)').show();
+        }
+        // 募集締切り間近を描画
+        drawTermination(filter);
+      }
+
+      // イベント情報表示用のDOM要素を生成(カレンダー向け)
+      function generateEventElementForCalendar(event, date) {
+        var $li = $('<li><a></a></li>');
+        // 外部サイトのイベントに外部リンクアイコンをつける
+        if (event.outer){
+          $li.find('a').attr('href', event.url).attr('target','_blank').text(event.eventtitle).append(outerlink);
+        } else {
+          $li.find('a').attr('href', event.url).text(event.eventtitle);
+        }
+        // カテゴリ
+        $.each(event.category, function(){
+          if (event_data.categories[this]) {
+            $li.append(generateCategoryIcon(this));
+          }
+        });
+        // 募集終了
+        var offer_endday = event.offer_endday ? strToDate(event.offer_endday) : null;
+        if (event.offer || (offer_endday && offer_endday < today)) {
+          $li.append(generateIcon('boshuend', '募集終了'));
+        }else{
+          // 事前申込
+          if (event.application == '1') $li.append(generateIcon('app1', '事前申込必要'));
+          if (event.application == '3') $li.append(generateIcon('app1', '一部事前申込必要'));
+        }
+        // 開催期間(期間開催)
+        if (event.kikandays) {
+          $.each(event.kikandays, function(){
+            var from = this.from ? strToDate(this.from) : false;
+            var to = this.to ? strToDate(this.to) : false;
+            if (from && to && (to.getDate() - from.getDate() + 1) < LONG_EVENT_THRESHOLD &&
+                from <= date && date <= to) {
+              $li.append('<br><span class="ecate kaisaikikan">開催期間</span><span class="kikan">'+dateToJpStr(from)+'から'+dateToJpStr(to)+'まで</span>');
+            }
+          });
+        }
+        // 開催期間(定期開催)
+        if (event.regularstart && event.regularend && event.regularweek) {
+          var tmp_d = [];
+          $.each(event.regularweek, function(){
+            if (DAY_LABELS[this-1]) tmp_d.push(DAY_LABELS[this-1]+'曜日');
+          });
+          var r_st = dateToJpStr(strToDate(event.regularstart));
+          var r_en = dateToJpStr(strToDate(event.regularend));
+          $li.append('<br><span class="kikan">'+r_st+'から'+r_en+'までの毎週'+tmp_d.join('、')+'</span>');
+
+        }
+        // 期間備考
+        if (event.day_text) {
+          $.each(event.day_text, function(){
+            $li.append('<br>'+this);
+          });
+        }
+        return $li;
+      }
+
+      // イベント情報表示用のDOM要素を生成(n日間以上連続して開催されるイベント用)
+      function generateEventElementForLongterm(event, terms) {
+        var $li = $('<li></li>');
+        // 外部サイトのイベントに外部リンクアイコンをつける
+        if (event.outer){
+          $li.append($('<a></a>').attr('href', event.url).attr('target','_blank').text(event.eventtitle).append(outerlink));
+        } else {
+          $li.append($('<a></a>').attr('href', event.url).text(event.eventtitle));
+        }
+        // カテゴリ
+        $.each(event.category, function(){
+          if (event_data.categories[this]) {
+            $li.append(generateCategoryIcon(this));
+          }
+        });
+        // 募集終了
+        var offer_endday = event.offer_endday ? strToDate(event.offer_endday) : null;
+        if (event.offer || (offer_endday && offer_endday < today)) {
+          $li.append(generateIcon('boshuend', '募集終了'));
+        }else{
+          // 事前申込
+          if (event.application == '1') $li.append(generateIcon('app1', '事前申込必要'));
+          if (event.application == '3') $li.append(generateIcon('app1', '一部事前申込必要'));
+        }
+        // 期間
+        if (terms) {
+          $.each(terms, function(ix, v){
+            $li.append('<br><span class="ecate kaisaikikan">開催期間</span><span class="kikan">'+dateToJpStr(v.from)+'から'+dateToJpStr(v.to)+'まで');
+          });
+        }
+        return $li;
+      }
+
+      // 一覧表示
+      function drawList(filter) {
+        $('div#eventcard ul').remove();
+        var $ul = $('<ul class="clearfix"></ul>');
+        $('div#eventcard').append($ul);
+        var $hide = $('div#eventhide ul');
+        $hide.find('li.item').remove();
+        // フィルタリング検索
+        var tmp_ary = $.map(event_data.events, function(event){
+          if (!filter || filterEvent(event, filter)) return $.extend(true, {}, event);
+        });
+        $('#ecalendartitle2').text('イベント情報の一覧（'+tmp_ary.length+'件）');
+        // 並び替え
+        var sort_type = $('#eventorder li[aria-current="true"]').index();
+        tmp_ary.sort(function(a, b){
+          if (sort_type == 0) {
+            // 開催日順
+            //var a_date = Math.min.apply(null, a.opendays);
+            //var b_date = Math.min.apply(null, b.opendays);
+            var a_date = a.opendays[0];
+            var b_date = b.opendays[0];
+            if (a_date < b_date) return -1;
+            if (a_date > b_date) return 1;
+          } else if (sort_type == 1) {
+            // イベント名順
+            if (a.eventtitle < b.eventtitle) return -1;
+            if (a.eventtitle > b.eventtitle) return 1;
+          } else if (sort_type == 2) {
+            // カテゴリ
+            var a_cate = Math.min.apply(null, a.category);
+            var b_cate = Math.min.apply(null, b.category);
+            if (a_cate < b_cate) return -1;
+            if (a_cate > b_cate) return 1;
+          }
+          return 0;
+        });
+        // 要素生成
+        $.each(tmp_ary, function(ix, v){
+          if (ix < LIST_DEFAULT_COUNT) {
+            $ul.append(generateEventElementForList(v));
+          } else {
+            $hide.append(generateEventElementForList(v));
+          }
+        });
+        // Masonry設定(_template_/_site_/_default_/_res/js/eventcal.jsより転記)
+        if ($("body").hasClass("smpev")) {
+          $ul.imagesLoaded(function(){
+            $ul.masonry({
+              itemSelector: '.item',
+              columnWidth: '.item',
+              gutter: 20,
+              isFitWidth: true //スマホは中央寄せ
+            });
+          });
+        } else {
+          $ul.imagesLoaded(function(){
+            $ul.masonry({
+              itemSelector: '.item',
+              columnWidth: 286, 
+              gutter: 16,
+              isFitWidth: false
+            });
+          });
+        }
+        //追加表示ボタン表示制御
+        var hidden_num = $hide.find('li.item').length;
+        if (hidden_num > 0) {
+          $('div#display_more_events').show();
+          //再描画時にさらに〇件表示がデフォルトに戻るよう、デフォルトより件数が多い場合もボタンのテキストを書き換える
+          if (hidden_num < LIST_DEFAULT_COUNT) {
+            $('span#itemcount').text(hidden_num);
+          } else {
+            $('span#itemcount').text(LIST_DEFAULT_COUNT);
+          }
+        } else {
+          $('div#display_more_events').hide();
+        }
+        // 募集締切り間近を描画
+        drawTermination(filter);
+      }
+
+      // イベント情報表示用のDOM要素を生成(一覧表示向け)
+      function generateEventElementForList(event) {
+        var $li = $('div#eventhide li.origin').clone().removeClass('origin').addClass('item');
+        // 外部サイトのイベントに外部リンクアイコンをつける
+        if (event.outer){
+          $li.find('a').attr('href', event.url).attr('target','_blank');
+          $li.find('h3').text(event.eventtitle).append(outerlink);
+        } else {
+          $li.find('a').attr('href', event.url);
+          $li.find('h3').text(event.eventtitle);
+        }
+        var categorySpan = '<span class="ecate"></span>';
+        //イベント画像
+        if (event.img) {
+          $li.find('h3').after('<div class="thumb"><img src="' + event.img + '" alt="' + event.img_alt + '" width="' + event.img_width + '" height="' + event.img_height + '"></div>');
+        }
+        // カテゴリ
+        $.each(event.category, function(){
+          if (event_data.categories[this]) {
+            var $span = $(categorySpan);
+            $li.find('div.catelist').append($span.addClass('e'+this).text(event_data.categories[this]));
+          }
+        });
+        //内容
+        if (event.description) {
+          $li.find('div.catelist').after('<p>'+event.description+'</p>');
+        }
+        if (event.kikandays) {
+          // 開催期間(期間開催)
+          $li.find('dt').text('開催期間');
+          $.each(event.kikandays, function(){
+            var from = this.from ? strToDate(this.from) : false;
+            var to = this.to ? strToDate(this.to) : false;
+            if (from && to) {
+              $li.find('dd').append(dateToJpStr(from, true)+'から'+dateToJpStr(to, true)+'まで<br>');
+            }
+          });
+        } else if (event.regularstart && event.regularend && event.regularweek) {
+          // 開催期間(定期開催)
+          $li.find('dt').text('開催期間');
+          var tmp_d = [];
+          $.each(event.regularweek, function(){
+            if (DAY_LABELS[this-1]) tmp_d.push(DAY_LABELS[this-1]+'曜日');
+          });
+          var from = dateToJpStr(strToDate(event.regularstart), true);
+          var to = dateToJpStr(strToDate(event.regularend), true);
+          $li.find('dd').text(from+'から'+to+'までの毎週'+tmp_d.join('、'));
+        } else if (event.opendays) {
+          // 1日開催
+          $li.find('dt').text('開催日');
+          var openday_year = "";
+          $.each(event.opendays, function(){
+            var at = strToDate(this);
+            //年が同じ日付が複数ある場合は、2つ目以降は年を省略し、「、」でつなげて表示する
+            if (at) {
+              if (openday_year != at.getFullYear()){
+                if (openday_year != "") $li.find('dd').append('<br>');
+                $li.find('dd').append(dateToJpStr(at,true));
+                openday_year = at.getFullYear();
+              }else{
+                $li.find('dd').append('、' + dateToJpStr(at,true).replace(at.getFullYear()+'年',''));
+              }
+            }
+          });
+        }
+        // 期間備考
+        if (event.day_text) {
+          $.each(event.day_text, function(){
+            $li.find('dd').append(this+'<br>')
+          });
+        }
+        // 開催時間
+        if (event.times || event.time_texts) {
+          $li.find('dl').append('<dt>開催時間</dt>');
+          var $dd = $('<dd></dd>');
+          if (event.times) $dd.append(event.times.join('<br>'));
+          if (event.times && event.time_texts) $dd.append('<br>');
+          if (event.time_texts) $dd.append(event.time_texts);
+          $li.find('dl').append($dd);
+        }
+        // 会場
+        if (event.place2) {
+          $li.find('dl').append('<dt>開催場所</dt><dd>'+event.place2+'</dd>');
+        }
+        // 募集終了・事前申込
+        var offer_endday = event.offer_endday ? strToDate(event.offer_endday) : null;
+        if (event.offer || (offer_endday && offer_endday < today)) {
+          var $span = $(categorySpan);
+          $li.find('div.catelist2').append($span.addClass('boshuend').text('募集終了'));
+        } else{
+          if (event.application == '1') {
+            var $span = $(categorySpan);
+            $li.find('div.catelist2').append($span.addClass('app1').text('事前申込必要'));
+          }
+          if (event.application == '3') {
+            var $span = $(categorySpan);
+            $li.find('div.catelist2').append($span.addClass('app1').text('一部事前申込必要'));
+          }
+        }
+        return $li;
+      }
+
+      // 募集締切り間近のイベント表示
+      function drawTermination(filter) {
+        var termination_list = []; // 募集締切り間近のイベントデータ ソート用
+        var $termination = $('#termination');
+        $termination.find('ul').empty();
+
+        // 募集締切判定日付
+        var toDate = new Date(today.getFullYear(), today.getMonth(), today.getDate() + TERMINATION_THRESHOLD);
+        $.each(event_data.events, function(ix, event){
+          if (filter && !filterEvent(event, filter)) return true; // フィルタリング検索
+          var offer_endday = event.offer_endday ? strToDate(event.offer_endday) : null;
+          if (!event.offer && offer_endday && today <= offer_endday && offer_endday <= toDate) {
+            var $li = $('<li></li>');
+            // 外部サイトのイベントに外部リンクアイコンをつける
+            if (event.outer){
+              $li.append($('<a></a>').attr('href', event.url).attr('target','_blank').text(event.eventtitle).append(outerlink));
+            } else {
+              $li.append($('<a></a>').attr('href', event.url).text(event.eventtitle));
+            }
+            $li.append('<br><span class="ecate termination">申し込み締切日</span><span class="day">'+dateToJpStr(offer_endday, true)+'</span>');
+            // ▼▼▼イベントデータファイルを複数読む必要がある場合の処理 ▼▼▼
+//            $termination.find('ul').append($li);
+            // ソートができるように対象データを配列に格納
+            termination_list.push({offer_endday: offer_endday, li:$li});
+            // ▲▲▲イベントデータファイルを複数読む必要がある場合の処理 ▲▲▲
+          }
+        });
+
+        // 表示判定
+        if (termination_list.length > 0) {
+          // ▼▼▼イベントデータファイルを複数読む必要がある場合の処理 ▼▼▼
+          // マージファイルのデータが混ざるように開始日の昇順でソート
+          termination_list.sort(function(a, b){
+              // 募集締め切り昇順
+              var a_date = a.offer_endday;
+              var b_date = b.offer_endday;
+              if (a_date < b_date) return -1;
+              if (a_date > b_date) return 1;
+            return 0;
+          });
+          $.each(termination_list, function(ix, longterm){
+              $termination.find('ul').append(longterm.li);
+          });
+          // ▲▲▲イベントデータファイルを複数読む必要がある場合の処理 ▲▲▲
+          $termination.find('ul').show();
+          $termination.find('p').hide();
+        } else {
+          $termination.find('ul').hide();
+          $termination.find('p').show();
+        }
+      }
+
+      // 日付文字列(yyyy/mm/dd)からDateオブジェクトを生成
+      function strToDate(str) {
+        var tmp = (str+'').split('/');
+        if (tmp.length != 3) return false;
+        return new Date(parseInt(tmp[0]), parseInt(tmp[1]) - 1, parseInt(tmp[2]));
+      }
+
+      // Dateオブジェクトから日付文字列(yyyy年mm月dd日)を生成(第2引数がtrueの場合曜日付)
+      function dateToJpStr(date, dayLabel) {
+        return date.getFullYear()+'年'+(date.getMonth() + 1)+'月'+date.getDate()+'日'+(dayLabel ? '（'+DAY_LABELS[date.getDay()]+'曜日）' : '');
+      }
+
+      // イベント表示で利用するアイコン要素を生成
+      function generateIcon(className, text) {
+        var $span = $('<span class="ecate"></span>');
+        $span.addClass(className).text(text);
+        return $span;
+      }
+
+      // イベント表示で利用するアイコン要素を生成(カテゴリ向け)
+      function generateCategoryIcon(categoryCode) {
+        return generateIcon('e'+categoryCode, event_data.categories[categoryCode]);
+      }
+      // ▲▲▲ 関数定義 ▲▲▲
+
+
+      // ▼▼▼ _template_/_site_/_default_/_res/js/eventcal.jsより転記 ▼▼▼
+      var scrollpos;
+
+      //--------------------------------------------------------------------------
+      //初期処理
+      $('#wrap').addClass('eventwrap');
+
+      //--------------------------------------------------------------------------
+      //イベント検索開閉
+      $(document).ready(function () {
+        var $ul = $('#eventsearch');
+        var menuWidth = $ul.width();
+        
+        //エラー画面以外の場合、初期表示は閉じる
+        if($('body').hasClass('eventactive')){
+          $ul.css('left',0);
+        }else{
+          $('#esearch').hide();
+        }
+
+        //イベント検索の開閉
+        $('#esearchbtn button').on('click',function () {
+          $('body').toggleClass('eventactive');
+          
+          //開いているとき
+          if($('body').hasClass('eventactive')){
+            $ul.animate({'left' : 0 }, 250);
+            $('#esearch').show();
+            $('#esearchbtn button').attr('aria-expanded', 'true');
+            $('#esearchbox').attr('aria-hidden', 'false');
+            //閉じているとき
+          }else{
+            $ul.stop().animate({'left' : -menuWidth }, 250,function(){
+              $('#esearch').hide();
+            });
+            $('#esearchbtn button').attr('aria-expanded', 'false');
+            $('#esearchbox').attr('aria-hidden', 'true');
+          }
+        });
+        
+        //アンカーリンク,閉じるボタンをクリックしたら閉じる
+        $('#eventjump a,.eventclose a').on('click',function () {
+          $('body').removeClass('eventactive');
+          $ul.stop().animate({'left' : -menuWidth }, 250,function(){
+            $('#esearch').hide();
+          });
+          $('#esearchbtn button').attr('aria-expanded', 'false');
+          $('#esearchbox').attr('aria-hidden', 'true');
+        });
+        
+        //イベント検索を抜けたら閉じる
+        $('#ecalendartitle').on('focusin',function () {
+          $('body').removeClass('eventactive');
+          $('#esearchbtn button').attr('aria-expanded', 'false');
+          $('#esearchbox').attr('aria-hidden', 'true');
+          $ul.stop().animate({'left' : -menuWidth }, 250,function(){
+            $('#esearch').hide();
+          });
+        });
+
+      });
+
+      //--------------------------------------------------------------------------
+      //長期イベント、募集締切り
+      $(function(){
+        //スクロール
+        $("#eventjump a").on('click',function(){
+          $('html,body').animate({ scrollTop: $($(this).attr("href")).offset().top-35 }, 'slow','swing').trigger('focus');
+        });
+      });
+
+      //--------------------------------------------------------------------------
+      //イベント検索詳細条件の折りたたみ
+      $(function(){
+        $('.addconditions').each(function(){
+          var hnFlg = false;
+          var $ul = $(this).children('*').not('.plus,.minus,.disp');
+          if($(this).children('*').hasClass("plus") ){
+            $ul.hide();
+            hnFlg = false;
+          }
+          $('.plus,.minus',this).on('click',function(){
+            $(this).toggleClass("plus").toggleClass("minus");
+            hnFlg = !hnFlg;
+            if(hnFlg){
+              $(".addconditions p a").attr('aria-expanded', 'true');
+              $("#moreconditions").attr('aria-hidden', 'false');
+            }
+            $ul.slideToggle('normal', function() {
+              if(!hnFlg){
+                $(".addconditions p a").attr('aria-expanded', 'false');
+                $("#moreconditions").attr('aria-hidden', 'true');
+              }
+            });
+          });
+        });
+      });
+      // ▲▲▲ _template_/_site_/_default_/_res/js/eventcal.jsより転記 ▲▲▲
+    });
+  // ▼▼▼イベントデータファイルを複数読む必要がある場合の処理 ▼▼▼
+  })
+  // 一つでも失敗した時の処理
+  .fail(function() {
+      console.log('ajax error');
+  });
+  // ▲▲▲ イベントデータファイルを複数読む必要がある場合の処理 ▲▲▲
+})();
