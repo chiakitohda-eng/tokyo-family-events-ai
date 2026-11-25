@@ -1,0 +1,1900 @@
+<!DOCTYPE html>
+<html lang="ja" ng-app="NetCommonsApp">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<title>イベント情報★参加登録 - 数学月間の会SGK</title>
+
+		<link href="/nc_favicon.ico?1711026746" type="image/x-icon" rel="icon"/><link href="/nc_favicon.ico?1711026746" type="image/x-icon" rel="shortcut icon"/><meta name="description" content="CMS,Netcommons,NetCommons3,CakePHP"/><meta name="keywords" content="CMS,Netcommons,NetCommons3,CakePHP"/><meta name="robots" content="index,follow"/><meta name="copyright" content="Copyright © 2016"/><meta name="author" content="NetCommons"/>
+	<link rel="stylesheet" type="text/css" href="/components/bootstrap/dist/css/bootstrap.min.css?1711026724"/>
+	<link rel="stylesheet" type="text/css" href="/components/eonasdan-bootstrap-datetimepicker/build/css/bootstrap-datetimepicker.min.css?1711026728"/>
+	<link rel="stylesheet" type="text/css" href="/css/net_commons/style.css?1711026707"/>
+<link rel="stylesheet" type="text/css" href="/css/pages/style.css?1711026708"/><link rel="stylesheet" type="text/css" href="/css/boxes/style.css?1711026709"/><link rel="stylesheet" type="text/css" href="/css/workflow/style.css?1711026711"/><link rel="stylesheet" type="text/css" href="/css/photo_albums/photo_albums.css?1711026705"/><link rel="stylesheet" type="text/css" href="/css/registrations/registration.css?1711026709"/><link rel="stylesheet" type="text/css" href="/components/eonasdan-bootstrap-datetimepicker/build/css/bootstrap-datetimepicker.min.css?1711026728"/><link rel="stylesheet" type="text/css" href="/css/menus/style.css?1711026714"/><link rel="stylesheet" type="text/css" href="/css/categories/style.css?1711026718"/><link rel="stylesheet" type="text/css" href="/css/links/style.css?1711026716"/><link rel="stylesheet" type="text/css" href="/css/topics/style.css?1711026721"/><link rel="stylesheet" type="text/css" href="/css/frames/style.css?1711026709"/><link rel="stylesheet" type="text/css" href="/css/users/style.css?1711026709"/><link rel="stylesheet" type="text/css" href="/css/user_attributes/style.css?1711026713"/><link rel="stylesheet" type="text/css" href="/css/wysiwyg/style.css?1711026716"/>
+	<link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css?1711026723"/>
+	<link rel="stylesheet" type="text/css" href="/theme/Default/css/style.css?1711026698"/>
+
+	<script type="text/javascript" src="/components/jquery/dist/jquery.min.js?1711026729"></script>
+	<script type="text/javascript" src="/components/bootstrap/dist/js/bootstrap.min.js?1711026724"></script>
+	<script type="text/javascript" src="/components/angular/angular.min.js?1711026731"></script>
+	<script type="text/javascript" src="/components/angular-animate/angular-animate.js?1711026726"></script>
+	<script type="text/javascript" src="/components/angular-bootstrap/ui-bootstrap-tpls.min.js?1711026726"></script>
+	<script type="text/javascript" src="/js/net_commons/base.js?1711026707"></script>
+
+<script>
+NetCommonsApp.constant('NC3_URL', '');
+NetCommonsApp.constant('LOGIN_USER', {"id":null});
+NetCommonsApp.constant('TITLE_ICON_URL', '');
+</script>
+
+
+<script type="text/javascript" src="/js/boxes/boxes.js?1711026709"></script><script type="text/javascript" src="/js/net_commons/title_icon_picker.js?1711026707"></script><script type="text/javascript" src="/js/registrations/registrations.js?1711026709"></script><script type="text/javascript" src="/components/moment/min/moment.min.js?1711026727"></script><script type="text/javascript" src="/components/moment/min/moment-with-locales.min.js?1711026727"></script><script type="text/javascript" src="/components/eonasdan-bootstrap-datetimepicker/build/js/bootstrap-datetimepicker.min.js?1711026728"></script><script type="text/javascript" src="/components/angular-bootstrap-datetimepicker-directive/angular-bootstrap-datetimepicker-directive.js?1711026729"></script><script type="text/javascript">
+//<![CDATA[
+NetCommonsApp.requires.push('datetimepicker');
+NetCommonsApp.config(
+    [
+      'datetimepickerProvider',
+      function(datetimepickerProvider) {
+        datetimepickerProvider.setOptions({
+          locale: moment.locale('ja'),
+          format: 'YYYY-MM-DD HH:mm',
+          sideBySide: true,
+          stepping: 5
+        });
+      }
+    ]
+);
+
+//]]>
+</script><script type="text/javascript" src="/js/menus/menus.js?1711026714"></script><script type="text/javascript" src="/js/links/links.js?1711026716"></script><script type="text/javascript" src="/js/topics/topics.js?1711026721"></script><script type="text/javascript" src="/js/users/users.js?1711026710"></script><script type="text/x-mathjax-config">
+//<![CDATA[
+MathJax.Hub.Config({
+	skipStartupTypeset: true,
+	tex2jax: {
+		inlineMath: [['$$','$$'], ['\\\\(','\\\\)']],
+		displayMath: [['\\\\[','\\\\]']]
+	},
+	asciimath2jax: {
+		delimiters: [['$$','$$']]
+	}
+});
+
+//]]>
+</script><script type="text/javascript" src="/components/MathJax/MathJax.js?config=TeX-MML-AM_CHTML"></script><script type="text/javascript">
+//<![CDATA[
+$(document).ready(function(){
+	MathJax.Hub.Queue(['Typeset', MathJax.Hub, 'nc-container']);
+});
+
+//]]>
+</script>		<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-0EJRHZBGSW"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-0EJRHZBGSW');
+</script>
+
+	</head>
+
+	<body class=" body-nologgedin" ng-controller="NetCommons.base">
+		
+		
+
+<header id="nc-system-header" class="nc-system-header-nologgedin">
+	<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+		<div class="container clearfix text-nowrap">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#nc-system-header-navbar">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+
+				
+				<a href="/" class="navbar-brand">数学月間の会SGK</a>			</div>
+			<div id="nc-system-header-navbar" class="navbar-collapse collapse">
+				<ul class="nav navbar-nav navbar-right">
+					
+					
+					
+					
+					
+																		<li>
+								<a href="/auth/auto_user_regist/request">新規登録</a>							</li>
+												<li>
+							<a href="/auth/login">ログイン</a>						</li>
+					
+				</ul>
+			</div>
+		</div>
+	</nav>
+</header>
+
+
+<div id="loading" class="nc-loading" ng-show="sending" ng-cloak>
+	<img src="/img/net_commons/loading.svg?1711026707" alt=""/></div>
+
+		<main id="nc-container" class="container" ng-init="hashChange()">
+			
+<header id="container-header">
+	
+<div class="boxes-1">
+	<div id="box-17">
+<section class="frame panel-none nc-content-list plugin-access-counters">
+	
+	<div class="panel-body block">
+		
+<div>
+				<span class="label label-default">
+			3		</span>
+			<span class="label label-default">
+			0		</span>
+			<span class="label label-default">
+			0		</span>
+			<span class="label label-default">
+			7		</span>
+			<span class="label label-default">
+			9		</span>
+			<span class="label label-default">
+			1		</span>
+			<span class="label label-default">
+			3		</span>
+			<span class="label label-default">
+			3		</span>
+	</div>
+	</div>
+</section>
+
+<section class="frame panel-none nc-content-list plugin-announcements">
+	
+	<div class="panel-body block">
+		
+
+	<article>
+		<p><strong><img class="img-responsive nc3-img nc3-img-block pull-left" title="" src="https://sgk2005.org/wysiwyg/image/download/1/2178/big" alt="" width="892" height="126" /></strong> <img class="img-responsive nc3-img pull-left" title="" src="https://sgk2005.org/wysiwyg/image/download/1/2409/small" alt="" width="112" height="112" /></p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p><strong>　　　　　</strong></p>
+<p><strong>          数学月間の会SGKのURLは，https://sgk2005.org/　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　</strong></p>	</article>
+	</div>
+</section>
+
+<section class="frame panel panel-default nc-content-list plugin-menus">
+			<div class="panel-heading clearfix">
+						<span>メニュー</span>
+
+					</div>
+	
+	<div class="panel-body block">
+		<nav ng-controller="MenusController">
+<ul class="list-group nav nav-pills nav-justified menu-footer-tabs">
+	<li role="presentation" class="dropdown active" ng-click="linkClick('MenuFramesPageFooter3306')"><a href="#" id="MenuFramesPageFooter3306" title="イベント情報★参加登録" class="clearfix dropdown-toggle" data-toggle="dropdown" href="" role="button" aria-haspopup="true" aria-expanded="false"><span>イベント情報★参加登録</span> <span class="caret"></span></a><ul class="dropdown-menu"><li class="dropdown-header">イベント情報★参加登録</li><li role="separator" class="divider"></li></li><li><a href="/news_info/page_Event" id="MenuFramesPageFooter33085" class="clearfix menu-tree-0"><span class="pull-left">数学まつり情報★参加登録</span><span class="pull-right"><span class="glyphicon glyphicon-menu-right"> </span> </span></a></li><li><a href="/news_info/page_20221214231128" id="MenuFramesPageFooter33084" class="clearfix menu-tree-0"><span class="pull-left">数学月間講演会情報★参加登録</span><span class="pull-right"></span></a></li><li><a href="/news_info/page_20221214231128/sobraniedok" id="MenuFramesPageFooter33081" class="clearfix menu-tree-0"><span class="pull-left">会員用お知らせ★総会等</span><span class="pull-right"></span></a></li></ul></li><li role="presentation" class="dropdown" ng-click="linkClick('MenuFramesPageFooter33013')"><a href="/npo_sgk" id="MenuFramesPageFooter33013" title="NPO数学月間の会★入会" class="clearfix dropdown-toggle"><span>NPO数学月間の会★入会</span> <span class="caret"></span></a></li><li role="presentation" class="dropdown" ng-click="linkClick('MenuFramesPageFooter33019')"><a href="/lobby" id="MenuFramesPageFooter33019" title="みんなの広場" class="clearfix dropdown-toggle"><span>みんなの広場</span> <span class="caret"></span></a></li><li role="presentation" class="dropdown" ng-click="linkClick('MenuFramesPageFooter33076')"><a href="/page_20221213102333" id="MenuFramesPageFooter33076" title="数学月間活動の記録" class="clearfix dropdown-toggle"><span>数学月間活動の記録</span> <span class="caret"></span></a></li><li role="presentation" class="dropdown" ng-click="linkClick('MenuFramesPageFooter33021')"><a href="/maths_and_science" id="MenuFramesPageFooter33021" title="社会を支える数理科学" class="clearfix dropdown-toggle"><span>社会を支える数理科学</span> <span class="caret"></span></a></li><li role="presentation" class="dropdown" ng-click="linkClick('MenuFramesPageFooter33064')"><a href="/page_20210118114401" id="MenuFramesPageFooter33064" title="繰り返し模様の対称性" class="clearfix dropdown-toggle"><span>繰り返し模様の対称性</span> <span class="caret"></span></a></li><li role="presentation" class="dropdown" ng-click="linkClick('MenuFramesPageFooter33058')"><a href="/youtube" id="MenuFramesPageFooter33058" title="YouTubeチャンネル" class="clearfix dropdown-toggle"><span>YouTubeチャンネル</span> <span class="caret"></span></a></li><li role="presentation" class="dropdown" ng-click="linkClick('MenuFramesPageFooter33075')"><a href="/blog_magmag_note" id="MenuFramesPageFooter33075" title="SGK通信（毎週火曜日更新）" class="clearfix dropdown-toggle"><span>SGK通信（毎週火曜日更新）</span> <span class="caret"></span></a></li><li role="presentation" class="dropdown" ng-click="linkClick('MenuFramesPageFooter33016')"><a href="/blog" id="MenuFramesPageFooter33016" title="ブログ★美しい幾何学★Symmetry" class="clearfix dropdown-toggle"><span>ブログ★美しい幾何学★Symmetry</span> <span class="caret"></span></a></li></ul>
+</nav>	</div>
+</section>
+</div></div>
+</header>
+
+			<div class="row">
+				<div id="container-main" role="main" class="col-md-9 col-md-push-3">
+<div class="boxes-3">
+	<div id="box-73">
+<section id="frame-319" class="frame panel-none nc-content-list plugin-photo-albums">
+			<div class="panel-heading clearfix">
+						<span>フォトアルバム</span>
+
+					</div>
+	
+	<div class="panel-body block">
+		
+
+
+<div uib-carousel
+	active="0"
+	interval="5000"
+	>
+	<!-- Wrapper for slides -->
+				<div uib-slide
+			index="0"
+			actual="'/photo_albums/photo_album_photos/photo/227/bfd9075564e41910db6b783cddd11ae7/10' + '/thumb'"
+		>
+						<div
+				class="photo-albums-slide-photo"
+				style="
+					background-image:url('/photo_albums/photo_album_photos/photo/227/bfd9075564e41910db6b783cddd11ae7/10/big');
+					height:400px; background-size:contain;				"
+			>
+			</div>
+			<div class="carousel-caption">
+							</div>
+		</div>
+			<div uib-slide
+			index="1"
+			actual="'/photo_albums/photo_album_photos/photo/227/bfd9075564e41910db6b783cddd11ae7/11' + '/thumb'"
+		>
+						<div
+				class="photo-albums-slide-photo"
+				style="
+					background-image:url('/photo_albums/photo_album_photos/photo/227/bfd9075564e41910db6b783cddd11ae7/11/big');
+					height:400px; background-size:contain;				"
+			>
+			</div>
+			<div class="carousel-caption">
+							</div>
+		</div>
+			<div uib-slide
+			index="2"
+			actual="'/photo_albums/photo_album_photos/photo/227/bfd9075564e41910db6b783cddd11ae7/8' + '/thumb'"
+		>
+						<div
+				class="photo-albums-slide-photo"
+				style="
+					background-image:url('/photo_albums/photo_album_photos/photo/227/bfd9075564e41910db6b783cddd11ae7/8/big');
+					height:400px; background-size:contain;				"
+			>
+			</div>
+			<div class="carousel-caption">
+							</div>
+		</div>
+			<div uib-slide
+			index="3"
+			actual="'/photo_albums/photo_album_photos/photo/227/bfd9075564e41910db6b783cddd11ae7/7' + '/thumb'"
+		>
+						<div
+				class="photo-albums-slide-photo"
+				style="
+					background-image:url('/photo_albums/photo_album_photos/photo/227/bfd9075564e41910db6b783cddd11ae7/7/big');
+					height:400px; background-size:contain;				"
+			>
+			</div>
+			<div class="carousel-caption">
+							</div>
+		</div>
+			<div uib-slide
+			index="4"
+			actual="'/photo_albums/photo_album_photos/photo/227/bfd9075564e41910db6b783cddd11ae7/6' + '/thumb'"
+		>
+						<div
+				class="photo-albums-slide-photo"
+				style="
+					background-image:url('/photo_albums/photo_album_photos/photo/227/bfd9075564e41910db6b783cddd11ae7/6/big');
+					height:400px; background-size:contain;				"
+			>
+			</div>
+			<div class="carousel-caption">
+							</div>
+		</div>
+			<div uib-slide
+			index="5"
+			actual="'/photo_albums/photo_album_photos/photo/227/bfd9075564e41910db6b783cddd11ae7/4' + '/thumb'"
+		>
+						<div
+				class="photo-albums-slide-photo"
+				style="
+					background-image:url('/photo_albums/photo_album_photos/photo/227/bfd9075564e41910db6b783cddd11ae7/4/big');
+					height:400px; background-size:contain;				"
+			>
+			</div>
+			<div class="carousel-caption">
+							</div>
+		</div>
+			<div uib-slide
+			index="6"
+			actual="'/photo_albums/photo_album_photos/photo/227/bfd9075564e41910db6b783cddd11ae7/3' + '/thumb'"
+		>
+						<div
+				class="photo-albums-slide-photo"
+				style="
+					background-image:url('/photo_albums/photo_album_photos/photo/227/bfd9075564e41910db6b783cddd11ae7/3/big');
+					height:400px; background-size:contain;				"
+			>
+			</div>
+			<div class="carousel-caption">
+							</div>
+		</div>
+			<div uib-slide
+			index="7"
+			actual="'/photo_albums/photo_album_photos/photo/227/bfd9075564e41910db6b783cddd11ae7/5' + '/thumb'"
+		>
+						<div
+				class="photo-albums-slide-photo"
+				style="
+					background-image:url('/photo_albums/photo_album_photos/photo/227/bfd9075564e41910db6b783cddd11ae7/5/big');
+					height:400px; background-size:contain;				"
+			>
+			</div>
+			<div class="carousel-caption">
+							</div>
+		</div>
+			<div uib-slide
+			index="8"
+			actual="'/photo_albums/photo_album_photos/photo/227/bfd9075564e41910db6b783cddd11ae7/2' + '/thumb'"
+		>
+						<div
+				class="photo-albums-slide-photo"
+				style="
+					background-image:url('/photo_albums/photo_album_photos/photo/227/bfd9075564e41910db6b783cddd11ae7/2/big');
+					height:400px; background-size:contain;				"
+			>
+			</div>
+			<div class="carousel-caption">
+							</div>
+		</div>
+			<div uib-slide
+			index="9"
+			actual="'/photo_albums/photo_album_photos/photo/227/bfd9075564e41910db6b783cddd11ae7/1' + '/thumb'"
+		>
+						<div
+				class="photo-albums-slide-photo"
+				style="
+					background-image:url('/photo_albums/photo_album_photos/photo/227/bfd9075564e41910db6b783cddd11ae7/1/big');
+					height:400px; background-size:contain;				"
+			>
+			</div>
+			<div class="carousel-caption">
+							</div>
+		</div>
+	</div>
+
+<button class="close photo-albums-slide-modal-close"
+	type="button"
+	tooltip="終了"
+	ng-click="cancel()"
+>
+	<span class="glyphicon glyphicon-remove"></span>
+</button>
+	</div>
+</section>
+
+<section id="frame-412" class="frame panel panel-default nc-content-list plugin-announcements">
+			<div class="panel-heading clearfix">
+						<span>お知らせ</span>
+
+					</div>
+	
+	<div class="panel-body block">
+		
+
+	<article>
+		<p><span style="font-size:14pt;"><strong>数学月間2026秋のイベントおしらせ</strong></span></p>
+<p><span style="font-size:12pt;"><strong>▶企画講演会（第18回）10月23日（金）13:00～17:00</strong><br /></span><span style="font-size:12pt;">➊地震に関する話あれこれー地震理論の開祖Eulerから2011 March 11 JISHINNまで；佐々木建昭（筑波大学名誉教授）<br />❷分子分光学から温暖化ガスの地球規模観測へ一研究者の遍歴；井上元（元総合地球環境学研究所教授）</span></p>
+<p><span style="font-size:12pt;"><strong>▶ワークショップ 11月8日（日）13:00～16:00</strong><br /></span><span style="font-size:12pt;">➊「継ぎ手-釘を使わない建築構造物」；佐藤郁郎（宮城県立がんセンター研究所）　　　　　　　　<br />　展示協力；手嶋吉法（千葉工業大学）<br />ワークショップ内容は <a href="https://note.com/sgk2005/n/n4c58913fe63d">https://note.com/sgk2005/n/n4c58913fe63d</a> を参照ください</span></p>
+<p><span style="font-size:12pt;"><img class="img-responsive nc3-img" title="" src="https://sgk2005.org/wysiwyg/image/download/6/2811/medium" alt="" width="335" height="174" /></span></p>
+<p><span style="font-size:12pt;"><strong>▶企画講演会（第19回）11月29日（日）13:00～17:00</strong><br /></span><span style="font-size:12pt;">➊ピタゴラスの音律；　亀井喜久男（元愛知県立大学）<br />❷0と1で考える車と人の流れ；　岡本和也（平成国際大学）</span></p>
+<p><span style="font-size:12pt;">ワークショップ（11月8日）以外はリモートも併用します。<br />会場参加・リモート参加とも事前の参加登録をお願いいたします。<br /></span><span style="font-size:12pt;">参加登録は 数学月間の会HP https://sgk2005.org/ でできます（この下⇓）。<br /></span><span style="font-size:12pt;">各回の参加費：1,000円（ただし，会員および学生･生徒は無料）</span></p>
+<p><span style="font-size:16px;">場所：東大駒場キャンパス，数理科学研究科棟002教室<br /></span><span style="font-size:16px;">主催：NPO法人数学月間の会（理事長：岡本和夫）</span></p>
+<p><span style="font-size:16px;">問い合わせ先：sgktani@gmail.com</span></p>
+<p><img class="img-responsive nc3-img nc3-img-block" title="" src="https://sgk2005.org/wysiwyg/image/download/6/2813/big" alt="" width="518" height="371" /></p>	</article>
+	</div>
+</section>
+
+<section id="frame-413" class="frame panel panel-danger nc-content-list plugin-registrations">
+			<div class="panel-heading clearfix">
+						<span>登録フォーム</span>
+
+					</div>
+	
+	<div class="panel-body block">
+		この登録フォームには登録することはできません。	</div>
+</section>
+
+<section id="frame-414" class="frame panel panel-success nc-content-list plugin-registrations">
+			<div class="panel-heading clearfix">
+						<span>登録フォーム</span>
+
+					</div>
+	
+	<div class="panel-body block">
+		この登録フォームには登録することはできません。	</div>
+</section>
+
+<section id="frame-415" class="frame panel panel-info nc-content-list plugin-registrations">
+			<div class="panel-heading clearfix">
+						<span>登録フォーム</span>
+
+					</div>
+	
+	<div class="panel-body block">
+		<script type="text/javascript">
+//<![CDATA[
+NetCommonsApp.constant("registrationsMessages", {"newPageLabel": "ページ","newQuestionLabel": "新規項目","newChoiceLabel": "新規選択肢","newChoiceColumnLabel": "新規選択肢（列）","newChoiceOtherLabel": "その他","maxQuestionWarningMsg": "作成できる項目数は１フォームにつき50までです。50個を超えようとしています。","maxChoiceWarningMsg": "作成できる選択肢の数は１項目につき50までです。50個を超えようとしています。",});
+//]]>
+</script>
+<article id="nc-registrations-answer-415"
+		ng-controller="RegistrationsAnswer"
+		 ng-init="initialize(
+		 {&quot;id&quot;:&quot;288&quot;,&quot;key&quot;:&quot;07bd360c8209af14430ccbd8a278185f&quot;,&quot;languageId&quot;:&quot;2&quot;,&quot;isOrigin&quot;:true,&quot;isTranslation&quot;:false,&quot;isOriginalCopy&quot;:false,&quot;registrationId&quot;:&quot;288&quot;,&quot;pageTitle&quot;:null,&quot;routeNumber&quot;:&quot;0&quot;,&quot;pageSequence&quot;:&quot;0&quot;,&quot;createdUser&quot;:&quot;1&quot;,&quot;created&quot;:&quot;2026-11-13 01:40:04&quot;,&quot;modifiedUser&quot;:&quot;1&quot;,&quot;modified&quot;:&quot;2026-11-13 01:40:04&quot;,&quot;registrationQuestion&quot;:[{&quot;id&quot;:&quot;1251&quot;,&quot;key&quot;:&quot;ca2d7ed7b3ec10f1aec8fe77c6121b66&quot;,&quot;languageId&quot;:&quot;2&quot;,&quot;isOrigin&quot;:true,&quot;isTranslation&quot;:false,&quot;isOriginalCopy&quot;:false,&quot;questionSequence&quot;:&quot;0&quot;,&quot;questionValue&quot;:&quot;\u304a\u540d\u524d&quot;,&quot;questionType&quot;:&quot;3&quot;,&quot;description&quot;:&quot;&quot;,&quot;isRequire&quot;:true,&quot;questionTypeOption&quot;:&quot;0&quot;,&quot;isChoiceRandom&quot;:false,&quot;isChoiceHorizon&quot;:false,&quot;isSkip&quot;:false,&quot;isJump&quot;:false,&quot;isRange&quot;:true,&quot;min&quot;:&quot;1&quot;,&quot;max&quot;:&quot;10&quot;,&quot;isResultDisplay&quot;:false,&quot;resultDisplayType&quot;:&quot;0&quot;,&quot;registrationPageId&quot;:&quot;288&quot;,&quot;createdUser&quot;:&quot;1&quot;,&quot;created&quot;:&quot;2026-11-13 01:40:04&quot;,&quot;modifiedUser&quot;:&quot;1&quot;,&quot;modified&quot;:&quot;2026-11-13 01:40:04&quot;,&quot;registrationChoice&quot;:[]},{&quot;id&quot;:&quot;1252&quot;,&quot;key&quot;:&quot;5d5fc4b6dd19c275b25d322082ccf20e&quot;,&quot;languageId&quot;:&quot;2&quot;,&quot;isOrigin&quot;:true,&quot;isTranslation&quot;:false,&quot;isOriginalCopy&quot;:false,&quot;questionSequence&quot;:&quot;1&quot;,&quot;questionValue&quot;:&quot;\u30e1\u30fc\u30eb\u30a2\u30c9\u30ec\u30b9&quot;,&quot;questionType&quot;:&quot;9&quot;,&quot;description&quot;:&quot;&quot;,&quot;isRequire&quot;:true,&quot;questionTypeOption&quot;:null,&quot;isChoiceRandom&quot;:false,&quot;isChoiceHorizon&quot;:false,&quot;isSkip&quot;:false,&quot;isJump&quot;:false,&quot;isRange&quot;:false,&quot;min&quot;:null,&quot;max&quot;:null,&quot;isResultDisplay&quot;:false,&quot;resultDisplayType&quot;:&quot;0&quot;,&quot;registrationPageId&quot;:&quot;288&quot;,&quot;createdUser&quot;:&quot;1&quot;,&quot;created&quot;:&quot;2026-11-13 01:40:04&quot;,&quot;modifiedUser&quot;:&quot;1&quot;,&quot;modified&quot;:&quot;2026-11-13 01:40:04&quot;,&quot;registrationChoice&quot;:[]},{&quot;id&quot;:&quot;1253&quot;,&quot;key&quot;:&quot;cc268823796d6b8a993d187785e4cfbd&quot;,&quot;languageId&quot;:&quot;2&quot;,&quot;isOrigin&quot;:true,&quot;isTranslation&quot;:false,&quot;isOriginalCopy&quot;:false,&quot;questionSequence&quot;:&quot;2&quot;,&quot;questionValue&quot;:&quot;\u53c2\u52a0\u65b9\u6cd5&quot;,&quot;questionType&quot;:&quot;1&quot;,&quot;description&quot;:&quot;&quot;,&quot;isRequire&quot;:true,&quot;questionTypeOption&quot;:null,&quot;isChoiceRandom&quot;:false,&quot;isChoiceHorizon&quot;:true,&quot;isSkip&quot;:false,&quot;isJump&quot;:false,&quot;isRange&quot;:false,&quot;min&quot;:null,&quot;max&quot;:null,&quot;isResultDisplay&quot;:true,&quot;resultDisplayType&quot;:&quot;0&quot;,&quot;registrationPageId&quot;:&quot;288&quot;,&quot;createdUser&quot;:&quot;1&quot;,&quot;created&quot;:&quot;2026-11-13 01:40:04&quot;,&quot;modifiedUser&quot;:&quot;1&quot;,&quot;modified&quot;:&quot;2026-11-13 01:40:04&quot;,&quot;registrationChoice&quot;:[{&quot;id&quot;:&quot;1064&quot;,&quot;key&quot;:&quot;35b95abeeaaac040003cae16bc602a46&quot;,&quot;languageId&quot;:&quot;2&quot;,&quot;isOrigin&quot;:true,&quot;isTranslation&quot;:false,&quot;isOriginalCopy&quot;:false,&quot;matrixType&quot;:&quot;0&quot;,&quot;otherChoiceType&quot;:&quot;0&quot;,&quot;choiceSequence&quot;:&quot;0&quot;,&quot;choiceLabel&quot;:&quot;\u4f1a\u5834\u53c2\u52a0&quot;,&quot;choiceValue&quot;:&quot;\u4f1a\u5834\u53c2\u52a0&quot;,&quot;skipPageSequence&quot;:null,&quot;jumpRouteNumber&quot;:null,&quot;graphColor&quot;:&quot;#f38631&quot;,&quot;registrationQuestionId&quot;:&quot;1253&quot;,&quot;createdUser&quot;:&quot;1&quot;,&quot;created&quot;:&quot;2026-11-13 01:40:04&quot;,&quot;modifiedUser&quot;:&quot;1&quot;,&quot;modified&quot;:&quot;2026-11-13 01:40:04&quot;},{&quot;id&quot;:&quot;1065&quot;,&quot;key&quot;:&quot;e41770330c875def9fb89b6994349ff0&quot;,&quot;languageId&quot;:&quot;2&quot;,&quot;isOrigin&quot;:true,&quot;isTranslation&quot;:false,&quot;isOriginalCopy&quot;:false,&quot;matrixType&quot;:&quot;0&quot;,&quot;otherChoiceType&quot;:&quot;0&quot;,&quot;choiceSequence&quot;:&quot;1&quot;,&quot;choiceLabel&quot;:&quot;\u30ea\u30e2\u30fc\u30c8\u53c2\u52a0&quot;,&quot;choiceValue&quot;:&quot;\u30ea\u30e2\u30fc\u30c8\u53c2\u52a0&quot;,&quot;skipPageSequence&quot;:null,&quot;jumpRouteNumber&quot;:null,&quot;graphColor&quot;:&quot;#e0e4cd&quot;,&quot;registrationQuestionId&quot;:&quot;1253&quot;,&quot;createdUser&quot;:&quot;1&quot;,&quot;created&quot;:&quot;2026-11-13 01:40:04&quot;,&quot;modifiedUser&quot;:&quot;1&quot;,&quot;modified&quot;:&quot;2026-11-13 01:40:04&quot;}]},{&quot;id&quot;:&quot;1254&quot;,&quot;key&quot;:&quot;cd2243f3b692f931dd72089f567bbbeb&quot;,&quot;languageId&quot;:&quot;2&quot;,&quot;isOrigin&quot;:true,&quot;isTranslation&quot;:false,&quot;isOriginalCopy&quot;:false,&quot;questionSequence&quot;:&quot;3&quot;,&quot;questionValue&quot;:&quot;\u7a2e\u5225&quot;,&quot;questionType&quot;:&quot;1&quot;,&quot;description&quot;:&quot;&quot;,&quot;isRequire&quot;:true,&quot;questionTypeOption&quot;:null,&quot;isChoiceRandom&quot;:false,&quot;isChoiceHorizon&quot;:true,&quot;isSkip&quot;:false,&quot;isJump&quot;:false,&quot;isRange&quot;:false,&quot;min&quot;:null,&quot;max&quot;:null,&quot;isResultDisplay&quot;:true,&quot;resultDisplayType&quot;:&quot;0&quot;,&quot;registrationPageId&quot;:&quot;288&quot;,&quot;createdUser&quot;:&quot;1&quot;,&quot;created&quot;:&quot;2026-11-13 01:40:04&quot;,&quot;modifiedUser&quot;:&quot;1&quot;,&quot;modified&quot;:&quot;2026-11-13 01:40:04&quot;,&quot;registrationChoice&quot;:[{&quot;id&quot;:&quot;1066&quot;,&quot;key&quot;:&quot;e9cb8ce88748d46d67ed5c34e84291bb&quot;,&quot;languageId&quot;:&quot;2&quot;,&quot;isOrigin&quot;:true,&quot;isTranslation&quot;:false,&quot;isOriginalCopy&quot;:false,&quot;matrixType&quot;:&quot;0&quot;,&quot;otherChoiceType&quot;:&quot;0&quot;,&quot;choiceSequence&quot;:&quot;0&quot;,&quot;choiceLabel&quot;:&quot;\u4f1a\u54e1\uff08\u6b63\u4f1a\u54e1\u30fb\u8cdb\u52a9\u4f1a\u54e1\uff09&quot;,&quot;choiceValue&quot;:&quot;\u4f1a\u54e1\uff08\u6b63\u4f1a\u54e1\u30fb\u8cdb\u52a9\u4f1a\u54e1\uff09&quot;,&quot;skipPageSequence&quot;:null,&quot;jumpRouteNumber&quot;:null,&quot;graphColor&quot;:&quot;#f38631&quot;,&quot;registrationQuestionId&quot;:&quot;1254&quot;,&quot;createdUser&quot;:&quot;1&quot;,&quot;created&quot;:&quot;2026-11-13 01:40:04&quot;,&quot;modifiedUser&quot;:&quot;1&quot;,&quot;modified&quot;:&quot;2026-11-13 01:40:04&quot;},{&quot;id&quot;:&quot;1067&quot;,&quot;key&quot;:&quot;a6dfa649bd311ee846e20a4fef093755&quot;,&quot;languageId&quot;:&quot;2&quot;,&quot;isOrigin&quot;:true,&quot;isTranslation&quot;:false,&quot;isOriginalCopy&quot;:false,&quot;matrixType&quot;:&quot;0&quot;,&quot;otherChoiceType&quot;:&quot;0&quot;,&quot;choiceSequence&quot;:&quot;1&quot;,&quot;choiceLabel&quot;:&quot;\u5b66\u751f\u751f\u5f92&quot;,&quot;choiceValue&quot;:&quot;\u5b66\u751f\u751f\u5f92&quot;,&quot;skipPageSequence&quot;:null,&quot;jumpRouteNumber&quot;:null,&quot;graphColor&quot;:&quot;#69d2e7&quot;,&quot;registrationQuestionId&quot;:&quot;1254&quot;,&quot;createdUser&quot;:&quot;1&quot;,&quot;created&quot;:&quot;2026-11-13 01:40:04&quot;,&quot;modifiedUser&quot;:&quot;1&quot;,&quot;modified&quot;:&quot;2026-11-13 01:40:04&quot;},{&quot;id&quot;:&quot;1068&quot;,&quot;key&quot;:&quot;444c6731bde886425e101c355081142e&quot;,&quot;languageId&quot;:&quot;2&quot;,&quot;isOrigin&quot;:true,&quot;isTranslation&quot;:false,&quot;isOriginalCopy&quot;:false,&quot;matrixType&quot;:&quot;0&quot;,&quot;otherChoiceType&quot;:&quot;0&quot;,&quot;choiceSequence&quot;:&quot;2&quot;,&quot;choiceLabel&quot;:&quot;\u975e\u4f1a\u54e1&quot;,&quot;choiceValue&quot;:&quot;\u975e\u4f1a\u54e1&quot;,&quot;skipPageSequence&quot;:null,&quot;jumpRouteNumber&quot;:null,&quot;graphColor&quot;:&quot;#68e2a7&quot;,&quot;registrationQuestionId&quot;:&quot;1254&quot;,&quot;createdUser&quot;:&quot;1&quot;,&quot;created&quot;:&quot;2026-11-13 01:40:04&quot;,&quot;modifiedUser&quot;:&quot;1&quot;,&quot;modified&quot;:&quot;2026-11-13 01:40:04&quot;}]},{&quot;id&quot;:&quot;1255&quot;,&quot;key&quot;:&quot;2b50751cc0b15174d21dcf4b770a878c&quot;,&quot;languageId&quot;:&quot;2&quot;,&quot;isOrigin&quot;:true,&quot;isTranslation&quot;:false,&quot;isOriginalCopy&quot;:false,&quot;questionSequence&quot;:&quot;4&quot;,&quot;questionValue&quot;:&quot;\u9023\u7d61\u5148\u7b49&quot;,&quot;questionType&quot;:&quot;4&quot;,&quot;description&quot;:&quot;&quot;,&quot;isRequire&quot;:false,&quot;questionTypeOption&quot;:null,&quot;isChoiceRandom&quot;:false,&quot;isChoiceHorizon&quot;:false,&quot;isSkip&quot;:false,&quot;isJump&quot;:false,&quot;isRange&quot;:false,&quot;min&quot;:null,&quot;max&quot;:null,&quot;isResultDisplay&quot;:false,&quot;resultDisplayType&quot;:&quot;0&quot;,&quot;registrationPageId&quot;:&quot;288&quot;,&quot;createdUser&quot;:&quot;1&quot;,&quot;created&quot;:&quot;2026-11-13 01:40:04&quot;,&quot;modifiedUser&quot;:&quot;1&quot;,&quot;modified&quot;:&quot;2026-11-13 01:40:04&quot;,&quot;registrationChoice&quot;:[]}]},
+		 [])">
+
+	
+
+<h1>
+	
+		数学月間企画講演（第19回）11月29日	<small></small>
+	</h1>
+
+	
+	
+	<form action="/registrations/registration_answers/view/316/906460fa2d783eb43c7e8af8614d759c?frame_id=415" ng-submit="submit($event)" novalidate="novalidate" id="RegistrationAnswerViewForm" enctype="multipart/form-data" method="post" accept-charset="utf-8"><div style="display:none;"><input type="hidden" name="_method" value="POST"/><input type="hidden" name="data[_Token][key]" value="907ea0f7de95ea86ff33eade5f23b5d8ae8d440df78934483813e8a255cc71282de4f97f7dcbe5bcb2fb3a9de6ff455b3252bf3365a47c21c3e0f835ce72209f" id="Token1702616387" autocomplete="off"/></div><input type="hidden" name="data[Frame][id]" value="415" id="FrameId"/><input type="hidden" name="data[Block][id]" value="316" id="BlockId"/><input type="hidden" name="data[RegistrationPage][page_sequence]" value="0" id="RegistrationPagePageSequence"/><input type="hidden" name="data[RegistrationPage][route_number]" value="0" id="RegistrationPageRouteNumber"/>
+								<div class="form-group
+							">
+
+
+				<label class="control-label">
+					お名前												<strong class="text-danger h4">*</strong>									</label>
+
+				<p class="help-block">
+									</p>
+
+				<div class="form-group"><input name="data[RegistrationAnswer][ca2d7ed7b3ec10f1aec8fe77c6121b66][0][answer_value]" class="form-control" type="text" id="RegistrationAnswerCa2d7ed7b3ec10f1aec8fe77c6121b660AnswerValue"/></div><span class="help-block">1文字から10文字の入力をしてください。</span><div class="has-error"></div><input type="hidden" name="data[RegistrationAnswer][ca2d7ed7b3ec10f1aec8fe77c6121b66][0][registration_answer_summary_id]" id="RegistrationAnswerCa2d7ed7b3ec10f1aec8fe77c6121b660RegistrationAnswerSummaryId"/><input type="hidden" name="data[RegistrationAnswer][ca2d7ed7b3ec10f1aec8fe77c6121b66][0][registration_question_key]" value="ca2d7ed7b3ec10f1aec8fe77c6121b66" id="RegistrationAnswerCa2d7ed7b3ec10f1aec8fe77c6121b660RegistrationQuestionKey"/><input type="hidden" name="data[RegistrationAnswer][ca2d7ed7b3ec10f1aec8fe77c6121b66][0][id]" id="RegistrationAnswerCa2d7ed7b3ec10f1aec8fe77c6121b660Id"/><input type="hidden" name="data[RegistrationAnswer][ca2d7ed7b3ec10f1aec8fe77c6121b66][0][matrix_choice_key]" id="RegistrationAnswerCa2d7ed7b3ec10f1aec8fe77c6121b660MatrixChoiceKey"/>			</div>
+								<div class="form-group
+							">
+
+
+				<label class="control-label">
+					メールアドレス												<strong class="text-danger h4">*</strong>									</label>
+
+				<p class="help-block">
+									</p>
+
+				<input name="data[RegistrationAnswer][5d5fc4b6dd19c275b25d322082ccf20e][0][answer_value]" class="form-control" type="text" id="RegistrationAnswer5d5fc4b6dd19c275b25d322082ccf20e0AnswerValue"/><input name="data[RegistrationAnswer][5d5fc4b6dd19c275b25d322082ccf20e][0][answer_value_again]" class="form-control form-input-again" placeholder="確認のため、再度入力してください。" type="text" id="RegistrationAnswer5d5fc4b6dd19c275b25d322082ccf20e0AnswerValueAgain"/><div class="has-error"></div><input type="hidden" name="data[RegistrationAnswer][5d5fc4b6dd19c275b25d322082ccf20e][0][registration_answer_summary_id]" id="RegistrationAnswer5d5fc4b6dd19c275b25d322082ccf20e0RegistrationAnswerSummaryId"/><input type="hidden" name="data[RegistrationAnswer][5d5fc4b6dd19c275b25d322082ccf20e][0][registration_question_key]" value="5d5fc4b6dd19c275b25d322082ccf20e" id="RegistrationAnswer5d5fc4b6dd19c275b25d322082ccf20e0RegistrationQuestionKey"/><input type="hidden" name="data[RegistrationAnswer][5d5fc4b6dd19c275b25d322082ccf20e][0][id]" id="RegistrationAnswer5d5fc4b6dd19c275b25d322082ccf20e0Id"/><input type="hidden" name="data[RegistrationAnswer][5d5fc4b6dd19c275b25d322082ccf20e][0][matrix_choice_key]" id="RegistrationAnswer5d5fc4b6dd19c275b25d322082ccf20e0MatrixChoiceKey"/>			</div>
+								<div class="form-group
+							">
+
+
+				<label class="control-label">
+					参加方法												<strong class="text-danger h4">*</strong>									</label>
+
+				<p class="help-block">
+									</p>
+
+				<input type="hidden" name="data[RegistrationAnswer][cc268823796d6b8a993d187785e4cfbd][0][answer_value]" value="" id="RegistrationAnswerCc268823796d6b8a993d187785e4cfbd0AnswerValue"/><div class="radio radio-inline"><label class="control-label"><input type="radio" name="data[RegistrationAnswer][cc268823796d6b8a993d187785e4cfbd][0][answer_value]" id="RegistrationAnswerCc268823796d6b8a993d187785e4cfbd0AnswerValue35b95abeeaaac040003cae16bc602a46会場参加" value="|35b95abeeaaac040003cae16bc602a46:会場参加" />会場参加</label></div><div class="radio radio-inline"><label class="control-label"><input type="radio" name="data[RegistrationAnswer][cc268823796d6b8a993d187785e4cfbd][0][answer_value]" id="RegistrationAnswerCc268823796d6b8a993d187785e4cfbd0AnswerValueE41770330c875def9fb89b6994349ff0リモート参加" value="|e41770330c875def9fb89b6994349ff0:リモート参加" />リモート参加</label></div><div class="has-error"></div><input type="hidden" name="data[RegistrationAnswer][cc268823796d6b8a993d187785e4cfbd][0][registration_answer_summary_id]" id="RegistrationAnswerCc268823796d6b8a993d187785e4cfbd0RegistrationAnswerSummaryId"/><input type="hidden" name="data[RegistrationAnswer][cc268823796d6b8a993d187785e4cfbd][0][registration_question_key]" value="cc268823796d6b8a993d187785e4cfbd" id="RegistrationAnswerCc268823796d6b8a993d187785e4cfbd0RegistrationQuestionKey"/><input type="hidden" name="data[RegistrationAnswer][cc268823796d6b8a993d187785e4cfbd][0][id]" id="RegistrationAnswerCc268823796d6b8a993d187785e4cfbd0Id"/><input type="hidden" name="data[RegistrationAnswer][cc268823796d6b8a993d187785e4cfbd][0][matrix_choice_key]" id="RegistrationAnswerCc268823796d6b8a993d187785e4cfbd0MatrixChoiceKey"/>			</div>
+								<div class="form-group
+							">
+
+
+				<label class="control-label">
+					種別												<strong class="text-danger h4">*</strong>									</label>
+
+				<p class="help-block">
+									</p>
+
+				<input type="hidden" name="data[RegistrationAnswer][cd2243f3b692f931dd72089f567bbbeb][0][answer_value]" value="" id="RegistrationAnswerCd2243f3b692f931dd72089f567bbbeb0AnswerValue"/><div class="radio radio-inline"><label class="control-label"><input type="radio" name="data[RegistrationAnswer][cd2243f3b692f931dd72089f567bbbeb][0][answer_value]" id="RegistrationAnswerCd2243f3b692f931dd72089f567bbbeb0AnswerValueE9cb8ce88748d46d67ed5c34e84291bb会員正会員賛助会員" value="|e9cb8ce88748d46d67ed5c34e84291bb:会員（正会員・賛助会員）" />会員（正会員・賛助会員）</label></div><div class="radio radio-inline"><label class="control-label"><input type="radio" name="data[RegistrationAnswer][cd2243f3b692f931dd72089f567bbbeb][0][answer_value]" id="RegistrationAnswerCd2243f3b692f931dd72089f567bbbeb0AnswerValueA6dfa649bd311ee846e20a4fef093755学生生徒" value="|a6dfa649bd311ee846e20a4fef093755:学生生徒" />学生生徒</label></div><div class="radio radio-inline"><label class="control-label"><input type="radio" name="data[RegistrationAnswer][cd2243f3b692f931dd72089f567bbbeb][0][answer_value]" id="RegistrationAnswerCd2243f3b692f931dd72089f567bbbeb0AnswerValue444c6731bde886425e101c355081142e非会員" value="|444c6731bde886425e101c355081142e:非会員" />非会員</label></div><div class="has-error"></div><input type="hidden" name="data[RegistrationAnswer][cd2243f3b692f931dd72089f567bbbeb][0][registration_answer_summary_id]" id="RegistrationAnswerCd2243f3b692f931dd72089f567bbbeb0RegistrationAnswerSummaryId"/><input type="hidden" name="data[RegistrationAnswer][cd2243f3b692f931dd72089f567bbbeb][0][registration_question_key]" value="cd2243f3b692f931dd72089f567bbbeb" id="RegistrationAnswerCd2243f3b692f931dd72089f567bbbeb0RegistrationQuestionKey"/><input type="hidden" name="data[RegistrationAnswer][cd2243f3b692f931dd72089f567bbbeb][0][id]" id="RegistrationAnswerCd2243f3b692f931dd72089f567bbbeb0Id"/><input type="hidden" name="data[RegistrationAnswer][cd2243f3b692f931dd72089f567bbbeb][0][matrix_choice_key]" id="RegistrationAnswerCd2243f3b692f931dd72089f567bbbeb0MatrixChoiceKey"/>			</div>
+								<div class="form-group
+							">
+
+
+				<label class="control-label">
+					連絡先等									</label>
+
+				<p class="help-block">
+									</p>
+
+				<textarea name="data[RegistrationAnswer][2b50751cc0b15174d21dcf4b770a878c][0][answer_value]" div="form-inline" class="form-control" rows="5" id="RegistrationAnswer2b50751cc0b15174d21dcf4b770a878c0AnswerValue"></textarea><div class="has-error"></div><input type="hidden" name="data[RegistrationAnswer][2b50751cc0b15174d21dcf4b770a878c][0][registration_answer_summary_id]" id="RegistrationAnswer2b50751cc0b15174d21dcf4b770a878c0RegistrationAnswerSummaryId"/><input type="hidden" name="data[RegistrationAnswer][2b50751cc0b15174d21dcf4b770a878c][0][registration_question_key]" value="2b50751cc0b15174d21dcf4b770a878c" id="RegistrationAnswer2b50751cc0b15174d21dcf4b770a878c0RegistrationQuestionKey"/><input type="hidden" name="data[RegistrationAnswer][2b50751cc0b15174d21dcf4b770a878c][0][id]" id="RegistrationAnswer2b50751cc0b15174d21dcf4b770a878c0Id"/><input type="hidden" name="data[RegistrationAnswer][2b50751cc0b15174d21dcf4b770a878c][0][matrix_choice_key]" id="RegistrationAnswer2b50751cc0b15174d21dcf4b770a878c0MatrixChoiceKey"/>			</div>
+		
+
+	<div class="text-center">
+		<button class="btn btn-primary nc-btn-style" name="next_" type="submit">次へ <span class="glyphicon glyphicon-chevron-right"></span></button>	</div>
+	<input type="hidden" name="data[_NetCommonsTime][user_timezone]" id="_NetCommonsTimeUserTimezone"/><input type="hidden" name="data[_NetCommonsTime][convert_fields]" value="" id="_NetCommonsTimeConvertFields"/><div style="display:none;"><input type="hidden" name="data[_Token][fields]" value="9c855dbadc763233632308aa471a3e831ac8106b%3ABlock.id%7CFrame.id%7CRegistrationAnswer.2b50751cc0b15174d21dcf4b770a878c.0.id%7CRegistrationAnswer.2b50751cc0b15174d21dcf4b770a878c.0.matrix_choice_key%7CRegistrationAnswer.2b50751cc0b15174d21dcf4b770a878c.0.registration_answer_summary_id%7CRegistrationAnswer.2b50751cc0b15174d21dcf4b770a878c.0.registration_question_key%7CRegistrationAnswer.5d5fc4b6dd19c275b25d322082ccf20e.0.id%7CRegistrationAnswer.5d5fc4b6dd19c275b25d322082ccf20e.0.matrix_choice_key%7CRegistrationAnswer.5d5fc4b6dd19c275b25d322082ccf20e.0.registration_answer_summary_id%7CRegistrationAnswer.5d5fc4b6dd19c275b25d322082ccf20e.0.registration_question_key%7CRegistrationAnswer.ca2d7ed7b3ec10f1aec8fe77c6121b66.0.id%7CRegistrationAnswer.ca2d7ed7b3ec10f1aec8fe77c6121b66.0.matrix_choice_key%7CRegistrationAnswer.ca2d7ed7b3ec10f1aec8fe77c6121b66.0.registration_answer_summary_id%7CRegistrationAnswer.ca2d7ed7b3ec10f1aec8fe77c6121b66.0.registration_question_key%7CRegistrationAnswer.cc268823796d6b8a993d187785e4cfbd.0.id%7CRegistrationAnswer.cc268823796d6b8a993d187785e4cfbd.0.matrix_choice_key%7CRegistrationAnswer.cc268823796d6b8a993d187785e4cfbd.0.registration_answer_summary_id%7CRegistrationAnswer.cc268823796d6b8a993d187785e4cfbd.0.registration_question_key%7CRegistrationAnswer.cd2243f3b692f931dd72089f567bbbeb.0.id%7CRegistrationAnswer.cd2243f3b692f931dd72089f567bbbeb.0.matrix_choice_key%7CRegistrationAnswer.cd2243f3b692f931dd72089f567bbbeb.0.registration_answer_summary_id%7CRegistrationAnswer.cd2243f3b692f931dd72089f567bbbeb.0.registration_question_key%7CRegistrationPage.page_sequence%7CRegistrationPage.route_number%7C_NetCommonsTime.convert_fields%7C_NetCommonsTime.user_timezone" id="TokenFields2115097502" autocomplete="off"/><input type="hidden" name="data[_Token][unlocked]" value="next_" id="TokenUnlocked317343323" autocomplete="off"/></div></form>
+</article>
+	</div>
+</section>
+
+<section id="frame-409" class="frame panel panel-default nc-content-list plugin-announcements">
+			<div class="panel-heading clearfix">
+						<span>お知らせ</span>
+
+					</div>
+	
+	<div class="panel-body block">
+		
+
+	<article>
+		<p><span style="font-size:12pt;color:#ff0000;"><strong>終了しました。ご参加ありがとうございました。講演資料は「みんなの広場」にあります。</strong></span></p>
+<p><span style="font-size:12pt;"><strong>2026年度「数学月間懇話会（第22回）」</strong></span></p>
+<p>数学と社会の架け橋＝数学月間（7/22-8/22）期間中のイベント<br />日時●7月22日（水）13:00-17:00 <br />場所●東大（駒場）数理科学研究科棟002教室 <br />➊シャボン膜，シャボン玉，結晶の数学と応用； 小磯深幸（九州大学名誉教授） <br />（概要）シャボン膜の数理モデルは極小曲面と呼ばれます．極小曲面は，種々の界面現象や相対論におけるブラックホールの記述，ものづくり等に利用されています． <br />❷結晶空間とフーリエ変換；谷克彦（数学月間の会） <br />（概要）フーリエ級数は結晶構造解析や周期的な現象の解析で活躍しています．フーリエ変換で結ばれる双対空間は，結晶で起こるX線散乱などの現象の理解に重要です．</p>
+<p>13:00 開場，13:30～15:00 講演➊，15:00～16:30 講演❷，17:00 退室･移動<br />主催●NPO法人数学月間の会（理事長：岡本和夫）</p>
+<p>参加費●1,000円（ 学生・生徒，および，当会会員は無料）<br />●直接会場にお出で下さい．リモート参加は事前の参加登録が必要です．<br />当会ウエブサイトhttps://sgk2005.org/で登録できます．<br /> 多くの方々のご参加お待ちしています．</p>
+<p>●問い合わせ先 sgktani@gmail.com</p>	</article>
+	</div>
+</section>
+
+<section id="frame-410" class="frame panel panel-default nc-content-list plugin-registrations">
+			<div class="panel-heading clearfix">
+						<span>登録フォーム</span>
+
+					</div>
+	
+	<div class="panel-body block">
+		この登録フォームには登録することはできません。	</div>
+</section>
+
+<section id="frame-408" class="frame panel panel-default nc-content-list plugin-announcements">
+			<div class="panel-heading clearfix">
+						<span>お知らせ</span>
+
+					</div>
+	
+	<div class="panel-body block">
+		
+
+	<article>
+		<p><span style="font-size:14pt;"><strong> <span style="font-size:12pt;">フリートーク談話会のお知らせ</span></strong></span></p>
+<p>WhatsApp に「数学月間」というコミュニティを作り、その中に、いくつかのグループを作りました。<br />「サロン２」という談話室で、談話会を随時実施しています。</p>
+<p>講演会では、参加の皆様と十分なお話ができない欠点があり、<br />興味ある話題など、フリートークや気軽な意見交流を深めたいと考えています。</p>
+<p>談話会に参加される方は、ご自分のpcまたはスマホにWhatsAppをインストールし、<br />ご登録完了されたら、電話番号とお名前を、メールでご連絡ください。<br />こちらで、数学月間コミュニティ＞「サロン２」に登録します。</p>
+<p>「サロン２」は、火曜日（あるいは木曜日）の20:00～21:00（あるいは、16:00～17:00）に開催します。</p>
+<p>次回、第5回は、6月16日、16:00～17:00の予定です。<br />「サロン2」の登録者には、WhatAppのチャットを通じ、その都度アナウンスします。</p>
+<p><strong>■WhatsAppについて</strong><br />WhatsAppのコミュニティを利用すると、時間制限のないビデオ会議が32人規模で無料でできます。ビデオ会議中には画面共有もできます（画面共有の方法は以下のリンクをご覧ください）。WhatsAppの通信はエンドツーエンドの暗号化で保護されているそうです。<br /><a href="https://faq.whatsapp.com/1339237313658883/?helpref=hc_fnav&amp;cms_platform=android">https://faq.whatsapp.com/1339237313658883/?helpref=hc_fnav&amp;cms_platform=android</a></p>
+<p><br />■WhatsApp アプリのインストールとサインイン方法<br />スマホ用（android、iOS）、pc用（windows）など、ご自分の機種に合ったアプリを<br />以下のサイトで選択してインストールします。アプリにサインインする。<br />IDは電話番号ですので、登録には電話番号が必要です。<br /><a href="https://www.whatsapp.com/download">https://www.whatsapp.com/download</a></p>
+<p>WhatsAppは、1時間の画面共有での通信量は300MB/時（zoomの半分以下）程度ですが、<br />お使いの回線によっては不安定になることがあります。</p>	</article>
+	</div>
+</section>
+
+<section id="frame-402" class="frame panel panel-default nc-content-list plugin-announcements">
+			<div class="panel-heading clearfix">
+						<span>お知らせ</span>
+
+					</div>
+	
+	<div class="panel-body block">
+		
+
+	<article>
+		<p><span style="color:#ff0000;"><strong>終了しました</strong></span></p>
+<p><strong>数学月間企画講演会（第17回）のお知らせ</strong><br />数学と社会の架け橋＝数学月間の秋の企画講演会（講演題名は仮題）</p>
+<p>日時●11月9日（日）14:00-17:00　<br />場所●東大（駒場）数理科学研究科棟002教室<br />●量子コンピューティング；松原望（東大名誉教授）<br />　量子計算の基礎は初歩数理統計学---確率現象に「不思議」はない<br />●フィボナッチ数・２次形式・トポグラフ；佐藤郁郎（宮城県立がんセンター研究所）<br />高校生にもわかる話<br />主催●NPO法人数学月間の会（理事長：岡本和夫）<br />参加費●無料<br />●事前の参加登録が必要です。https://sgk2005.org/で登録できます（ログインの必要はありません）.　<br />多くの方々のご参加お待ちしています。<br />●問い合わせ先　sgktani@gmail.com</p>	</article>
+	</div>
+</section>
+
+<section id="frame-400" class="frame panel panel-default nc-content-list plugin-registrations">
+			<div class="panel-heading clearfix">
+						<span>登録フォーム</span>
+
+					</div>
+	
+	<div class="panel-body block">
+		<script type="text/javascript">
+//<![CDATA[
+NetCommonsApp.constant("registrationsMessages", {"newPageLabel": "ページ","newQuestionLabel": "新規項目","newChoiceLabel": "新規選択肢","newChoiceColumnLabel": "新規選択肢（列）","newChoiceOtherLabel": "その他","maxQuestionWarningMsg": "作成できる項目数は１フォームにつき50までです。50個を超えようとしています。","maxChoiceWarningMsg": "作成できる選択肢の数は１項目につき50までです。50個を超えようとしています。",});
+//]]>
+</script>
+<article id="nc-registrations-answer-400"
+		ng-controller="RegistrationsAnswer"
+		 ng-init="initialize(
+		 {&quot;id&quot;:&quot;253&quot;,&quot;key&quot;:&quot;10b2df03d274b28b054ffc78597a96bc&quot;,&quot;languageId&quot;:&quot;2&quot;,&quot;isOrigin&quot;:true,&quot;isTranslation&quot;:false,&quot;isOriginalCopy&quot;:false,&quot;registrationId&quot;:&quot;253&quot;,&quot;pageTitle&quot;:null,&quot;routeNumber&quot;:&quot;0&quot;,&quot;pageSequence&quot;:&quot;0&quot;,&quot;createdUser&quot;:&quot;1&quot;,&quot;created&quot;:&quot;2025-07-25 13:39:58&quot;,&quot;modifiedUser&quot;:&quot;1&quot;,&quot;modified&quot;:&quot;2025-07-25 13:39:58&quot;,&quot;registrationQuestion&quot;:[{&quot;id&quot;:&quot;1082&quot;,&quot;key&quot;:&quot;2b30196544936131ed036de01b9da05f&quot;,&quot;languageId&quot;:&quot;2&quot;,&quot;isOrigin&quot;:true,&quot;isTranslation&quot;:false,&quot;isOriginalCopy&quot;:false,&quot;questionSequence&quot;:&quot;0&quot;,&quot;questionValue&quot;:&quot;\u304a\u540d\u524d&quot;,&quot;questionType&quot;:&quot;3&quot;,&quot;description&quot;:&quot;&quot;,&quot;isRequire&quot;:true,&quot;questionTypeOption&quot;:&quot;0&quot;,&quot;isChoiceRandom&quot;:false,&quot;isChoiceHorizon&quot;:false,&quot;isSkip&quot;:false,&quot;isJump&quot;:false,&quot;isRange&quot;:true,&quot;min&quot;:&quot;2&quot;,&quot;max&quot;:&quot;10&quot;,&quot;isResultDisplay&quot;:false,&quot;resultDisplayType&quot;:&quot;0&quot;,&quot;registrationPageId&quot;:&quot;253&quot;,&quot;createdUser&quot;:&quot;1&quot;,&quot;created&quot;:&quot;2025-07-25 13:39:58&quot;,&quot;modifiedUser&quot;:&quot;1&quot;,&quot;modified&quot;:&quot;2025-07-25 13:39:58&quot;,&quot;registrationChoice&quot;:[]},{&quot;id&quot;:&quot;1083&quot;,&quot;key&quot;:&quot;4b289cf9bfd671d7c0a533607e61a9a3&quot;,&quot;languageId&quot;:&quot;2&quot;,&quot;isOrigin&quot;:true,&quot;isTranslation&quot;:false,&quot;isOriginalCopy&quot;:false,&quot;questionSequence&quot;:&quot;1&quot;,&quot;questionValue&quot;:&quot;\u30e1\u30fc\u30eb\u30a2\u30c9\u30ec\u30b9&quot;,&quot;questionType&quot;:&quot;9&quot;,&quot;description&quot;:&quot;&quot;,&quot;isRequire&quot;:false,&quot;questionTypeOption&quot;:null,&quot;isChoiceRandom&quot;:false,&quot;isChoiceHorizon&quot;:false,&quot;isSkip&quot;:false,&quot;isJump&quot;:false,&quot;isRange&quot;:false,&quot;min&quot;:null,&quot;max&quot;:null,&quot;isResultDisplay&quot;:false,&quot;resultDisplayType&quot;:&quot;0&quot;,&quot;registrationPageId&quot;:&quot;253&quot;,&quot;createdUser&quot;:&quot;1&quot;,&quot;created&quot;:&quot;2025-07-25 13:39:58&quot;,&quot;modifiedUser&quot;:&quot;1&quot;,&quot;modified&quot;:&quot;2025-07-25 13:39:58&quot;,&quot;registrationChoice&quot;:[]},{&quot;id&quot;:&quot;1084&quot;,&quot;key&quot;:&quot;1ea5f40be69de548611834cc353cab36&quot;,&quot;languageId&quot;:&quot;2&quot;,&quot;isOrigin&quot;:true,&quot;isTranslation&quot;:false,&quot;isOriginalCopy&quot;:false,&quot;questionSequence&quot;:&quot;2&quot;,&quot;questionValue&quot;:&quot;\u30e1\u30fc\u30eb\u306e\u306a\u3044\u5834\u5408\u306f\u9023\u7d61\u5148\uff0c\u6240\u5c5e\u7b49\uff0e\u81ea\u7531\u8a18\u8f09&quot;,&quot;questionType&quot;:&quot;3&quot;,&quot;description&quot;:&quot;&quot;,&quot;isRequire&quot;:false,&quot;questionTypeOption&quot;:&quot;0&quot;,&quot;isChoiceRandom&quot;:false,&quot;isChoiceHorizon&quot;:false,&quot;isSkip&quot;:false,&quot;isJump&quot;:false,&quot;isRange&quot;:false,&quot;min&quot;:null,&quot;max&quot;:null,&quot;isResultDisplay&quot;:false,&quot;resultDisplayType&quot;:&quot;0&quot;,&quot;registrationPageId&quot;:&quot;253&quot;,&quot;createdUser&quot;:&quot;1&quot;,&quot;created&quot;:&quot;2025-07-25 13:39:58&quot;,&quot;modifiedUser&quot;:&quot;1&quot;,&quot;modified&quot;:&quot;2025-07-25 13:39:58&quot;,&quot;registrationChoice&quot;:[]},{&quot;id&quot;:&quot;1085&quot;,&quot;key&quot;:&quot;28ee5587cb5e1da2b76348015163151e&quot;,&quot;languageId&quot;:&quot;2&quot;,&quot;isOrigin&quot;:true,&quot;isTranslation&quot;:false,&quot;isOriginalCopy&quot;:false,&quot;questionSequence&quot;:&quot;3&quot;,&quot;questionValue&quot;:&quot;\u4f1a\u54e1\u7a2e\u5225&quot;,&quot;questionType&quot;:&quot;2&quot;,&quot;description&quot;:&quot;&quot;,&quot;isRequire&quot;:false,&quot;questionTypeOption&quot;:null,&quot;isChoiceRandom&quot;:false,&quot;isChoiceHorizon&quot;:true,&quot;isSkip&quot;:false,&quot;isJump&quot;:false,&quot;isRange&quot;:false,&quot;min&quot;:null,&quot;max&quot;:null,&quot;isResultDisplay&quot;:true,&quot;resultDisplayType&quot;:&quot;0&quot;,&quot;registrationPageId&quot;:&quot;253&quot;,&quot;createdUser&quot;:&quot;1&quot;,&quot;created&quot;:&quot;2025-07-25 13:39:58&quot;,&quot;modifiedUser&quot;:&quot;1&quot;,&quot;modified&quot;:&quot;2025-07-25 13:39:58&quot;,&quot;registrationChoice&quot;:[{&quot;id&quot;:&quot;882&quot;,&quot;key&quot;:&quot;ed8e47c05ade3647935e273e7fd61c68&quot;,&quot;languageId&quot;:&quot;2&quot;,&quot;isOrigin&quot;:true,&quot;isTranslation&quot;:false,&quot;isOriginalCopy&quot;:false,&quot;matrixType&quot;:&quot;0&quot;,&quot;otherChoiceType&quot;:&quot;0&quot;,&quot;choiceSequence&quot;:&quot;0&quot;,&quot;choiceLabel&quot;:&quot;\u4f1a\u54e1&quot;,&quot;choiceValue&quot;:&quot;\u4f1a\u54e1&quot;,&quot;skipPageSequence&quot;:null,&quot;jumpRouteNumber&quot;:null,&quot;graphColor&quot;:&quot;#f38631&quot;,&quot;registrationQuestionId&quot;:&quot;1085&quot;,&quot;createdUser&quot;:&quot;1&quot;,&quot;created&quot;:&quot;2025-07-25 13:39:58&quot;,&quot;modifiedUser&quot;:&quot;1&quot;,&quot;modified&quot;:&quot;2025-07-25 13:39:58&quot;},{&quot;id&quot;:&quot;883&quot;,&quot;key&quot;:&quot;c197f90d5852492af5206026d9d9a1e8&quot;,&quot;languageId&quot;:&quot;2&quot;,&quot;isOrigin&quot;:true,&quot;isTranslation&quot;:false,&quot;isOriginalCopy&quot;:false,&quot;matrixType&quot;:&quot;0&quot;,&quot;otherChoiceType&quot;:&quot;0&quot;,&quot;choiceSequence&quot;:&quot;1&quot;,&quot;choiceLabel&quot;:&quot;\u975e\u4f1a\u54e1&quot;,&quot;choiceValue&quot;:&quot;\u975e\u4f1a\u54e1&quot;,&quot;skipPageSequence&quot;:null,&quot;jumpRouteNumber&quot;:null,&quot;graphColor&quot;:&quot;#e0e4cd&quot;,&quot;registrationQuestionId&quot;:&quot;1085&quot;,&quot;createdUser&quot;:&quot;1&quot;,&quot;created&quot;:&quot;2025-07-25 13:39:58&quot;,&quot;modifiedUser&quot;:&quot;1&quot;,&quot;modified&quot;:&quot;2025-07-25 13:39:58&quot;},{&quot;id&quot;:&quot;884&quot;,&quot;key&quot;:&quot;77e141cad49ceac76329dfc2cc1fb5f9&quot;,&quot;languageId&quot;:&quot;2&quot;,&quot;isOrigin&quot;:true,&quot;isTranslation&quot;:false,&quot;isOriginalCopy&quot;:false,&quot;matrixType&quot;:&quot;0&quot;,&quot;otherChoiceType&quot;:&quot;0&quot;,&quot;choiceSequence&quot;:&quot;2&quot;,&quot;choiceLabel&quot;:&quot;\u5b66\u751f\u30fb\u751f\u5f92&quot;,&quot;choiceValue&quot;:&quot;\u5b66\u751f\u30fb\u751f\u5f92&quot;,&quot;skipPageSequence&quot;:null,&quot;jumpRouteNumber&quot;:null,&quot;graphColor&quot;:&quot;#69d2e7&quot;,&quot;registrationQuestionId&quot;:&quot;1085&quot;,&quot;createdUser&quot;:&quot;1&quot;,&quot;created&quot;:&quot;2025-07-25 13:39:58&quot;,&quot;modifiedUser&quot;:&quot;1&quot;,&quot;modified&quot;:&quot;2025-07-25 13:39:58&quot;}]},{&quot;id&quot;:&quot;1086&quot;,&quot;key&quot;:&quot;547e53b09cbc11ab145eef9a75def7f1&quot;,&quot;languageId&quot;:&quot;2&quot;,&quot;isOrigin&quot;:true,&quot;isTranslation&quot;:false,&quot;isOriginalCopy&quot;:false,&quot;questionSequence&quot;:&quot;4&quot;,&quot;questionValue&quot;:&quot;\u53c2\u52a0\u65b9\u6cd5&quot;,&quot;questionType&quot;:&quot;1&quot;,&quot;description&quot;:&quot;&quot;,&quot;isRequire&quot;:true,&quot;questionTypeOption&quot;:null,&quot;isChoiceRandom&quot;:false,&quot;isChoiceHorizon&quot;:true,&quot;isSkip&quot;:false,&quot;isJump&quot;:false,&quot;isRange&quot;:false,&quot;min&quot;:null,&quot;max&quot;:null,&quot;isResultDisplay&quot;:true,&quot;resultDisplayType&quot;:&quot;0&quot;,&quot;registrationPageId&quot;:&quot;253&quot;,&quot;createdUser&quot;:&quot;1&quot;,&quot;created&quot;:&quot;2025-07-25 13:39:58&quot;,&quot;modifiedUser&quot;:&quot;1&quot;,&quot;modified&quot;:&quot;2025-07-25 13:39:58&quot;,&quot;registrationChoice&quot;:[{&quot;id&quot;:&quot;885&quot;,&quot;key&quot;:&quot;bf83d465003075a5dd53a4c42dcf6016&quot;,&quot;languageId&quot;:&quot;2&quot;,&quot;isOrigin&quot;:true,&quot;isTranslation&quot;:false,&quot;isOriginalCopy&quot;:false,&quot;matrixType&quot;:&quot;0&quot;,&quot;otherChoiceType&quot;:&quot;0&quot;,&quot;choiceSequence&quot;:&quot;0&quot;,&quot;choiceLabel&quot;:&quot;\u4f1a\u5834\u53c2\u52a0&quot;,&quot;choiceValue&quot;:&quot;\u4f1a\u5834\u53c2\u52a0&quot;,&quot;skipPageSequence&quot;:null,&quot;jumpRouteNumber&quot;:null,&quot;graphColor&quot;:&quot;#f38631&quot;,&quot;registrationQuestionId&quot;:&quot;1086&quot;,&quot;createdUser&quot;:&quot;1&quot;,&quot;created&quot;:&quot;2025-07-25 13:39:58&quot;,&quot;modifiedUser&quot;:&quot;1&quot;,&quot;modified&quot;:&quot;2025-07-25 13:39:58&quot;},{&quot;id&quot;:&quot;886&quot;,&quot;key&quot;:&quot;92f93add2035c12191766ddedc824fb6&quot;,&quot;languageId&quot;:&quot;2&quot;,&quot;isOrigin&quot;:true,&quot;isTranslation&quot;:false,&quot;isOriginalCopy&quot;:false,&quot;matrixType&quot;:&quot;0&quot;,&quot;otherChoiceType&quot;:&quot;0&quot;,&quot;choiceSequence&quot;:&quot;1&quot;,&quot;choiceLabel&quot;:&quot;\u30ea\u30e2\u30fc\u30c8\u53c2\u52a0&quot;,&quot;choiceValue&quot;:&quot;\u30ea\u30e2\u30fc\u30c8\u53c2\u52a0&quot;,&quot;skipPageSequence&quot;:null,&quot;jumpRouteNumber&quot;:null,&quot;graphColor&quot;:&quot;#e0e4cd&quot;,&quot;registrationQuestionId&quot;:&quot;1086&quot;,&quot;createdUser&quot;:&quot;1&quot;,&quot;created&quot;:&quot;2025-07-25 13:39:58&quot;,&quot;modifiedUser&quot;:&quot;1&quot;,&quot;modified&quot;:&quot;2025-07-25 13:39:58&quot;}]},{&quot;id&quot;:&quot;1087&quot;,&quot;key&quot;:&quot;ac97c07073e9b7ef9f2091fedbeb7bb7&quot;,&quot;languageId&quot;:&quot;2&quot;,&quot;isOrigin&quot;:true,&quot;isTranslation&quot;:false,&quot;isOriginalCopy&quot;:false,&quot;questionSequence&quot;:&quot;5&quot;,&quot;questionValue&quot;:&quot;\u53c2\u52a0\u65e5&quot;,&quot;questionType&quot;:&quot;2&quot;,&quot;description&quot;:&quot;&quot;,&quot;isRequire&quot;:true,&quot;questionTypeOption&quot;:null,&quot;isChoiceRandom&quot;:false,&quot;isChoiceHorizon&quot;:false,&quot;isSkip&quot;:false,&quot;isJump&quot;:false,&quot;isRange&quot;:false,&quot;min&quot;:null,&quot;max&quot;:null,&quot;isResultDisplay&quot;:true,&quot;resultDisplayType&quot;:&quot;0&quot;,&quot;registrationPageId&quot;:&quot;253&quot;,&quot;createdUser&quot;:&quot;1&quot;,&quot;created&quot;:&quot;2025-07-25 13:39:58&quot;,&quot;modifiedUser&quot;:&quot;1&quot;,&quot;modified&quot;:&quot;2025-07-25 13:39:58&quot;,&quot;registrationChoice&quot;:[{&quot;id&quot;:&quot;887&quot;,&quot;key&quot;:&quot;b1bda00a43a6a8c98d1cf228bd2faff7&quot;,&quot;languageId&quot;:&quot;2&quot;,&quot;isOrigin&quot;:true,&quot;isTranslation&quot;:false,&quot;isOriginalCopy&quot;:false,&quot;matrixType&quot;:&quot;0&quot;,&quot;otherChoiceType&quot;:&quot;0&quot;,&quot;choiceSequence&quot;:&quot;0&quot;,&quot;choiceLabel&quot;:&quot;\u7b2c16\u56de\uff0810\u67085\u65e5\uff09&quot;,&quot;choiceValue&quot;:&quot;\u7b2c16\u56de\uff0810\u67085\u65e5\uff09&quot;,&quot;skipPageSequence&quot;:null,&quot;jumpRouteNumber&quot;:null,&quot;graphColor&quot;:&quot;#f38631&quot;,&quot;registrationQuestionId&quot;:&quot;1087&quot;,&quot;createdUser&quot;:&quot;1&quot;,&quot;created&quot;:&quot;2025-07-25 13:39:58&quot;,&quot;modifiedUser&quot;:&quot;1&quot;,&quot;modified&quot;:&quot;2025-07-25 13:39:58&quot;},{&quot;id&quot;:&quot;888&quot;,&quot;key&quot;:&quot;e5acd5ec4a789b1f5ccaf1d400ffdc5b&quot;,&quot;languageId&quot;:&quot;2&quot;,&quot;isOrigin&quot;:true,&quot;isTranslation&quot;:false,&quot;isOriginalCopy&quot;:false,&quot;matrixType&quot;:&quot;0&quot;,&quot;otherChoiceType&quot;:&quot;0&quot;,&quot;choiceSequence&quot;:&quot;1&quot;,&quot;choiceLabel&quot;:&quot;\u7b2c17\u56de\uff0811\u67089\u65e5\uff09&quot;,&quot;choiceValue&quot;:&quot;\u7b2c17\u56de\uff0811\u67089\u65e5\uff09&quot;,&quot;skipPageSequence&quot;:null,&quot;jumpRouteNumber&quot;:null,&quot;graphColor&quot;:&quot;#e0e4cd&quot;,&quot;registrationQuestionId&quot;:&quot;1087&quot;,&quot;createdUser&quot;:&quot;1&quot;,&quot;created&quot;:&quot;2025-07-25 13:39:58&quot;,&quot;modifiedUser&quot;:&quot;1&quot;,&quot;modified&quot;:&quot;2025-07-25 13:39:58&quot;}]}]},
+		 [])">
+
+	
+
+<h1>
+	
+		企画講演参加登録（第16回）2025.10.5および（第17回）2025.11.9	<small>（第16回）2025.10.5および（第17回）2025.11.9</small>
+	</h1>
+
+	
+	
+	<form action="/registrations/registration_answers/view/299/207847bea9f6d211b2d6297ba13acaaf?frame_id=400" ng-submit="submit($event)" novalidate="novalidate" id="RegistrationAnswerViewForm" enctype="multipart/form-data" method="post" accept-charset="utf-8"><div style="display:none;"><input type="hidden" name="_method" value="POST"/><input type="hidden" name="data[_Token][key]" value="907ea0f7de95ea86ff33eade5f23b5d8ae8d440df78934483813e8a255cc71282de4f97f7dcbe5bcb2fb3a9de6ff455b3252bf3365a47c21c3e0f835ce72209f" id="Token2074010882" autocomplete="off"/></div><input type="hidden" name="data[Frame][id]" value="400" id="FrameId"/><input type="hidden" name="data[Block][id]" value="299" id="BlockId"/><input type="hidden" name="data[RegistrationPage][page_sequence]" value="0" id="RegistrationPagePageSequence"/><input type="hidden" name="data[RegistrationPage][route_number]" value="0" id="RegistrationPageRouteNumber"/>
+								<div class="form-group
+							">
+
+
+				<label class="control-label">
+					お名前												<strong class="text-danger h4">*</strong>									</label>
+
+				<p class="help-block">
+									</p>
+
+				<div class="form-group"><input name="data[RegistrationAnswer][2b30196544936131ed036de01b9da05f][0][answer_value]" class="form-control" type="text" id="RegistrationAnswer2b30196544936131ed036de01b9da05f0AnswerValue"/></div><span class="help-block">2文字から10文字の入力をしてください。</span><div class="has-error"></div><input type="hidden" name="data[RegistrationAnswer][2b30196544936131ed036de01b9da05f][0][registration_answer_summary_id]" id="RegistrationAnswer2b30196544936131ed036de01b9da05f0RegistrationAnswerSummaryId"/><input type="hidden" name="data[RegistrationAnswer][2b30196544936131ed036de01b9da05f][0][registration_question_key]" value="2b30196544936131ed036de01b9da05f" id="RegistrationAnswer2b30196544936131ed036de01b9da05f0RegistrationQuestionKey"/><input type="hidden" name="data[RegistrationAnswer][2b30196544936131ed036de01b9da05f][0][id]" id="RegistrationAnswer2b30196544936131ed036de01b9da05f0Id"/><input type="hidden" name="data[RegistrationAnswer][2b30196544936131ed036de01b9da05f][0][matrix_choice_key]" id="RegistrationAnswer2b30196544936131ed036de01b9da05f0MatrixChoiceKey"/>			</div>
+								<div class="form-group
+							">
+
+
+				<label class="control-label">
+					メールアドレス									</label>
+
+				<p class="help-block">
+									</p>
+
+				<input name="data[RegistrationAnswer][4b289cf9bfd671d7c0a533607e61a9a3][0][answer_value]" class="form-control" type="text" id="RegistrationAnswer4b289cf9bfd671d7c0a533607e61a9a30AnswerValue"/><input name="data[RegistrationAnswer][4b289cf9bfd671d7c0a533607e61a9a3][0][answer_value_again]" class="form-control form-input-again" placeholder="確認のため、再度入力してください。" type="text" id="RegistrationAnswer4b289cf9bfd671d7c0a533607e61a9a30AnswerValueAgain"/><div class="has-error"></div><input type="hidden" name="data[RegistrationAnswer][4b289cf9bfd671d7c0a533607e61a9a3][0][registration_answer_summary_id]" id="RegistrationAnswer4b289cf9bfd671d7c0a533607e61a9a30RegistrationAnswerSummaryId"/><input type="hidden" name="data[RegistrationAnswer][4b289cf9bfd671d7c0a533607e61a9a3][0][registration_question_key]" value="4b289cf9bfd671d7c0a533607e61a9a3" id="RegistrationAnswer4b289cf9bfd671d7c0a533607e61a9a30RegistrationQuestionKey"/><input type="hidden" name="data[RegistrationAnswer][4b289cf9bfd671d7c0a533607e61a9a3][0][id]" id="RegistrationAnswer4b289cf9bfd671d7c0a533607e61a9a30Id"/><input type="hidden" name="data[RegistrationAnswer][4b289cf9bfd671d7c0a533607e61a9a3][0][matrix_choice_key]" id="RegistrationAnswer4b289cf9bfd671d7c0a533607e61a9a30MatrixChoiceKey"/>			</div>
+								<div class="form-group
+							">
+
+
+				<label class="control-label">
+					メールのない場合は連絡先，所属等．自由記載									</label>
+
+				<p class="help-block">
+									</p>
+
+				<div class="form-group"><input name="data[RegistrationAnswer][1ea5f40be69de548611834cc353cab36][0][answer_value]" class="form-control" type="text" id="RegistrationAnswer1ea5f40be69de548611834cc353cab360AnswerValue"/></div><div class="has-error"></div><input type="hidden" name="data[RegistrationAnswer][1ea5f40be69de548611834cc353cab36][0][registration_answer_summary_id]" id="RegistrationAnswer1ea5f40be69de548611834cc353cab360RegistrationAnswerSummaryId"/><input type="hidden" name="data[RegistrationAnswer][1ea5f40be69de548611834cc353cab36][0][registration_question_key]" value="1ea5f40be69de548611834cc353cab36" id="RegistrationAnswer1ea5f40be69de548611834cc353cab360RegistrationQuestionKey"/><input type="hidden" name="data[RegistrationAnswer][1ea5f40be69de548611834cc353cab36][0][id]" id="RegistrationAnswer1ea5f40be69de548611834cc353cab360Id"/><input type="hidden" name="data[RegistrationAnswer][1ea5f40be69de548611834cc353cab36][0][matrix_choice_key]" id="RegistrationAnswer1ea5f40be69de548611834cc353cab360MatrixChoiceKey"/>			</div>
+								<div class="form-group
+							">
+
+
+				<label class="control-label">
+					会員種別									</label>
+
+				<p class="help-block">
+									</p>
+
+				<div class="form-input-outer"><input type="hidden" name="data[RegistrationAnswer][28ee5587cb5e1da2b76348015163151e][0][answer_value]" value="" id="RegistrationAnswer28ee5587cb5e1da2b76348015163151e0AnswerValue"/>
+
+<div class="checkbox-inline nc-checkbox"><input type="checkbox" name="data[RegistrationAnswer][28ee5587cb5e1da2b76348015163151e][0][answer_value][]" value="|ed8e47c05ade3647935e273e7fd61c68:会員" id="RegistrationAnswer28ee5587cb5e1da2b76348015163151e0AnswerValueEd8e47c05ade3647935e273e7fd61c68会員" /><label for="RegistrationAnswer28ee5587cb5e1da2b76348015163151e0AnswerValueEd8e47c05ade3647935e273e7fd61c68会員">会員</label></div>
+<div class="checkbox-inline nc-checkbox"><input type="checkbox" name="data[RegistrationAnswer][28ee5587cb5e1da2b76348015163151e][0][answer_value][]" value="|c197f90d5852492af5206026d9d9a1e8:非会員" id="RegistrationAnswer28ee5587cb5e1da2b76348015163151e0AnswerValueC197f90d5852492af5206026d9d9a1e8非会員" /><label for="RegistrationAnswer28ee5587cb5e1da2b76348015163151e0AnswerValueC197f90d5852492af5206026d9d9a1e8非会員">非会員</label></div>
+<div class="checkbox-inline nc-checkbox"><input type="checkbox" name="data[RegistrationAnswer][28ee5587cb5e1da2b76348015163151e][0][answer_value][]" value="|77e141cad49ceac76329dfc2cc1fb5f9:学生・生徒" id="RegistrationAnswer28ee5587cb5e1da2b76348015163151e0AnswerValue77e141cad49ceac76329dfc2cc1fb5f9学生生徒" /><label for="RegistrationAnswer28ee5587cb5e1da2b76348015163151e0AnswerValue77e141cad49ceac76329dfc2cc1fb5f9学生生徒">学生・生徒</label></div>
+</div><div class="has-error"></div><input type="hidden" name="data[RegistrationAnswer][28ee5587cb5e1da2b76348015163151e][0][registration_answer_summary_id]" id="RegistrationAnswer28ee5587cb5e1da2b76348015163151e0RegistrationAnswerSummaryId"/><input type="hidden" name="data[RegistrationAnswer][28ee5587cb5e1da2b76348015163151e][0][registration_question_key]" value="28ee5587cb5e1da2b76348015163151e" id="RegistrationAnswer28ee5587cb5e1da2b76348015163151e0RegistrationQuestionKey"/><input type="hidden" name="data[RegistrationAnswer][28ee5587cb5e1da2b76348015163151e][0][id]" id="RegistrationAnswer28ee5587cb5e1da2b76348015163151e0Id"/><input type="hidden" name="data[RegistrationAnswer][28ee5587cb5e1da2b76348015163151e][0][matrix_choice_key]" id="RegistrationAnswer28ee5587cb5e1da2b76348015163151e0MatrixChoiceKey"/>			</div>
+								<div class="form-group
+							">
+
+
+				<label class="control-label">
+					参加方法												<strong class="text-danger h4">*</strong>									</label>
+
+				<p class="help-block">
+									</p>
+
+				<input type="hidden" name="data[RegistrationAnswer][547e53b09cbc11ab145eef9a75def7f1][0][answer_value]" value="" id="RegistrationAnswer547e53b09cbc11ab145eef9a75def7f10AnswerValue"/><div class="radio radio-inline"><label class="control-label"><input type="radio" name="data[RegistrationAnswer][547e53b09cbc11ab145eef9a75def7f1][0][answer_value]" id="RegistrationAnswer547e53b09cbc11ab145eef9a75def7f10AnswerValueBf83d465003075a5dd53a4c42dcf6016会場参加" value="|bf83d465003075a5dd53a4c42dcf6016:会場参加" />会場参加</label></div><div class="radio radio-inline"><label class="control-label"><input type="radio" name="data[RegistrationAnswer][547e53b09cbc11ab145eef9a75def7f1][0][answer_value]" id="RegistrationAnswer547e53b09cbc11ab145eef9a75def7f10AnswerValue92f93add2035c12191766ddedc824fb6リモート参加" value="|92f93add2035c12191766ddedc824fb6:リモート参加" />リモート参加</label></div><div class="has-error"></div><input type="hidden" name="data[RegistrationAnswer][547e53b09cbc11ab145eef9a75def7f1][0][registration_answer_summary_id]" id="RegistrationAnswer547e53b09cbc11ab145eef9a75def7f10RegistrationAnswerSummaryId"/><input type="hidden" name="data[RegistrationAnswer][547e53b09cbc11ab145eef9a75def7f1][0][registration_question_key]" value="547e53b09cbc11ab145eef9a75def7f1" id="RegistrationAnswer547e53b09cbc11ab145eef9a75def7f10RegistrationQuestionKey"/><input type="hidden" name="data[RegistrationAnswer][547e53b09cbc11ab145eef9a75def7f1][0][id]" id="RegistrationAnswer547e53b09cbc11ab145eef9a75def7f10Id"/><input type="hidden" name="data[RegistrationAnswer][547e53b09cbc11ab145eef9a75def7f1][0][matrix_choice_key]" id="RegistrationAnswer547e53b09cbc11ab145eef9a75def7f10MatrixChoiceKey"/>			</div>
+								<div class="form-group
+							">
+
+
+				<label class="control-label">
+					参加日												<strong class="text-danger h4">*</strong>									</label>
+
+				<p class="help-block">
+									</p>
+
+				<div class="form-input-outer"><input type="hidden" name="data[RegistrationAnswer][ac97c07073e9b7ef9f2091fedbeb7bb7][0][answer_value]" value="" id="RegistrationAnswerAc97c07073e9b7ef9f2091fedbeb7bb70AnswerValue"/>
+
+<div class="checkbox nc-checkbox"><input type="checkbox" name="data[RegistrationAnswer][ac97c07073e9b7ef9f2091fedbeb7bb7][0][answer_value][]" value="|b1bda00a43a6a8c98d1cf228bd2faff7:第16回（10月5日）" id="RegistrationAnswerAc97c07073e9b7ef9f2091fedbeb7bb70AnswerValueB1bda00a43a6a8c98d1cf228bd2faff7第16回10月5日" /><label for="RegistrationAnswerAc97c07073e9b7ef9f2091fedbeb7bb70AnswerValueB1bda00a43a6a8c98d1cf228bd2faff7第16回10月5日">第16回（10月5日）</label></div>
+<div class="checkbox nc-checkbox"><input type="checkbox" name="data[RegistrationAnswer][ac97c07073e9b7ef9f2091fedbeb7bb7][0][answer_value][]" value="|e5acd5ec4a789b1f5ccaf1d400ffdc5b:第17回（11月9日）" id="RegistrationAnswerAc97c07073e9b7ef9f2091fedbeb7bb70AnswerValueE5acd5ec4a789b1f5ccaf1d400ffdc5b第17回11月9日" /><label for="RegistrationAnswerAc97c07073e9b7ef9f2091fedbeb7bb70AnswerValueE5acd5ec4a789b1f5ccaf1d400ffdc5b第17回11月9日">第17回（11月9日）</label></div>
+</div><div class="has-error"></div><input type="hidden" name="data[RegistrationAnswer][ac97c07073e9b7ef9f2091fedbeb7bb7][0][registration_answer_summary_id]" id="RegistrationAnswerAc97c07073e9b7ef9f2091fedbeb7bb70RegistrationAnswerSummaryId"/><input type="hidden" name="data[RegistrationAnswer][ac97c07073e9b7ef9f2091fedbeb7bb7][0][registration_question_key]" value="ac97c07073e9b7ef9f2091fedbeb7bb7" id="RegistrationAnswerAc97c07073e9b7ef9f2091fedbeb7bb70RegistrationQuestionKey"/><input type="hidden" name="data[RegistrationAnswer][ac97c07073e9b7ef9f2091fedbeb7bb7][0][id]" id="RegistrationAnswerAc97c07073e9b7ef9f2091fedbeb7bb70Id"/><input type="hidden" name="data[RegistrationAnswer][ac97c07073e9b7ef9f2091fedbeb7bb7][0][matrix_choice_key]" id="RegistrationAnswerAc97c07073e9b7ef9f2091fedbeb7bb70MatrixChoiceKey"/>			</div>
+		
+
+	<div class="text-center">
+		<button class="btn btn-primary nc-btn-style" name="next_" type="submit">次へ <span class="glyphicon glyphicon-chevron-right"></span></button>	</div>
+	<input type="hidden" name="data[_NetCommonsTime][user_timezone]" id="_NetCommonsTimeUserTimezone"/><input type="hidden" name="data[_NetCommonsTime][convert_fields]" value="" id="_NetCommonsTimeConvertFields"/><div style="display:none;"><input type="hidden" name="data[_Token][fields]" value="4c6b13c582126fd33ad692387108d98f7e44e847%3ABlock.id%7CFrame.id%7CRegistrationAnswer.1ea5f40be69de548611834cc353cab36.0.id%7CRegistrationAnswer.1ea5f40be69de548611834cc353cab36.0.matrix_choice_key%7CRegistrationAnswer.1ea5f40be69de548611834cc353cab36.0.registration_answer_summary_id%7CRegistrationAnswer.1ea5f40be69de548611834cc353cab36.0.registration_question_key%7CRegistrationAnswer.28ee5587cb5e1da2b76348015163151e.0.id%7CRegistrationAnswer.28ee5587cb5e1da2b76348015163151e.0.matrix_choice_key%7CRegistrationAnswer.28ee5587cb5e1da2b76348015163151e.0.registration_answer_summary_id%7CRegistrationAnswer.28ee5587cb5e1da2b76348015163151e.0.registration_question_key%7CRegistrationAnswer.2b30196544936131ed036de01b9da05f.0.id%7CRegistrationAnswer.2b30196544936131ed036de01b9da05f.0.matrix_choice_key%7CRegistrationAnswer.2b30196544936131ed036de01b9da05f.0.registration_answer_summary_id%7CRegistrationAnswer.2b30196544936131ed036de01b9da05f.0.registration_question_key%7CRegistrationAnswer.4b289cf9bfd671d7c0a533607e61a9a3.0.id%7CRegistrationAnswer.4b289cf9bfd671d7c0a533607e61a9a3.0.matrix_choice_key%7CRegistrationAnswer.4b289cf9bfd671d7c0a533607e61a9a3.0.registration_answer_summary_id%7CRegistrationAnswer.4b289cf9bfd671d7c0a533607e61a9a3.0.registration_question_key%7CRegistrationAnswer.547e53b09cbc11ab145eef9a75def7f1.0.id%7CRegistrationAnswer.547e53b09cbc11ab145eef9a75def7f1.0.matrix_choice_key%7CRegistrationAnswer.547e53b09cbc11ab145eef9a75def7f1.0.registration_answer_summary_id%7CRegistrationAnswer.547e53b09cbc11ab145eef9a75def7f1.0.registration_question_key%7CRegistrationAnswer.ac97c07073e9b7ef9f2091fedbeb7bb7.0.id%7CRegistrationAnswer.ac97c07073e9b7ef9f2091fedbeb7bb7.0.matrix_choice_key%7CRegistrationAnswer.ac97c07073e9b7ef9f2091fedbeb7bb7.0.registration_answer_summary_id%7CRegistrationAnswer.ac97c07073e9b7ef9f2091fedbeb7bb7.0.registration_question_key%7CRegistrationPage.page_sequence%7CRegistrationPage.route_number%7C_NetCommonsTime.convert_fields%7C_NetCommonsTime.user_timezone" id="TokenFields446938883" autocomplete="off"/><input type="hidden" name="data[_Token][unlocked]" value="next_" id="TokenUnlocked1198381641" autocomplete="off"/></div></form>
+</article>
+	</div>
+</section>
+
+<section id="frame-401" class="frame panel panel-default nc-content-list plugin-announcements">
+			<div class="panel-heading clearfix">
+						<span>お知らせ</span>
+
+					</div>
+	
+	<div class="panel-body block">
+		
+
+	<article>
+		<p>*************************************************************************<br /> ★ 令和7年度入会会員募集中です。<br /> ★ 会員各位には2025年度の年会費の納入をお願いいたします。<br />*************************************************************************</p>
+<p>会場地図</p>
+<p>  <img class="img-responsive nc3-img nc3-img-block" title="" src="https://sgk2005.org/wysiwyg/image/download/6/2787/big" alt="" /></p>	</article>
+	</div>
+</section>
+
+<section id="frame-397" class="frame panel panel-default nc-content-list plugin-registrations">
+			<div class="panel-heading clearfix">
+						<span>登録フォーム</span>
+
+					</div>
+	
+	<div class="panel-body block">
+		この登録フォームには登録することはできません。	</div>
+</section>
+
+<section id="frame-392" class="frame panel panel-danger nc-content-list plugin-registrations">
+			<div class="panel-heading clearfix">
+						<span>登録フォーム</span>
+
+					</div>
+	
+	<div class="panel-body block">
+		この登録フォームには登録することはできません。	</div>
+</section>
+
+<section id="frame-385" class="frame panel panel-success nc-content-list plugin-announcements">
+			<div class="panel-heading clearfix">
+						<span>イベントお知らせ</span>
+
+					</div>
+	
+	<div class="panel-body block">
+		
+
+	<article>
+		<p><span style="font-size:12pt;color:#ff0000;"><strong>終了しました。ご参加ありがとうございました。</strong></span></p>
+<p><span style="font-size:12pt;"><strong>◆数学月間企画講演会（第14回）</strong></span></p>
+<p><strong>日時●2024年10月12日（土），13:30-16:00（開場13:00）</strong><br />場所●東京大学駒場キャンパス，数理科学研究科棟002教室<br />（遠方の参加者のためにリモートwebexも併用します） </p>
+<p><strong>プログラム</strong></p>
+<p><strong> <span style="color:#ff0000;">「説明可能な」機械学習の新時代--------統計的学習でBlack Boxも解消</span></strong></p>
+<p><strong>講演</strong>●統計的学習による知識発見型モデル構築への実践紹介<br />　　　== AI電卓の自動機械学習による Kaggleへの挑戦 ==<br /><strong>講師</strong>●徐良為(工学博士)；SLW（Statistical Learning Workshop）代表，（株）NTTデータ数理システム非常勤顧問</p>
+<p><strong>司会討論</strong>●松原望（東京大学名誉教授）</p>
+<p><strong>参加費</strong>●無料</p>
+<p>参加登録が必要です：<strong>「企画講演会（第14回）2024.10.12」</strong>のフオームにご記入ください．</p>
+<p>AI分野発展の原動力は，コンピュータの進歩もありますが，<br /><strong>数学・統計学を基礎とする機械学習の進歩</strong>にあります．<br /><strong>Kaggleとは：</strong><br />色々なテーマで，AIとモデリングを競い合うコンペで，<br />1,900万人を超す機械学習ユーザーが参加しています</p>
+<p><strong><span style="color:#ff0000;"><a style="color:#ff0000;" href="https://sgk2005.org/cabinets/cabinet_files/download/39/60cc91b6b4ab567d0848f471ceef3fc5?frame_id=45">ちらし.pdfダウンロード</a></span></strong></p>
+<p>**********************************************************************<br />当日の予定：<br /><strong>テーマ●「説明可能な」機械学習の新時代===統計的学習でBlack Boxも解消===</strong><br />（開場13:00）<br />13:20（10分間）数学月間事始め　　谷克彦<br />13:30-15:00　 徐良為（工学博士）　SLW（Statistical Learning Workshop）代表<br />　　　　　　　　　　　　　　　　（株）NTTデータ数理システム非常勤顧問<br />トイレ休憩　　　　　　　　　<br />15:10-15:50　松原望（東京大学名誉教授）<br />15:50　理事長閉会挨拶　　岡本和夫<br />（イタリアントマトに移動16:20-17:30　時間の許す方だけ参加）　</p>
+<p>******************************************************************</p>
+<p><strong>企画講演テーマや数学まつりについてのご希望やご協力を募集中です</strong><br />◆中野ZERO子供カーニバルに協力●2025年3月予定</p>	</article>
+	</div>
+</section>
+
+<section id="frame-386" class="frame panel panel-success nc-content-list plugin-registrations">
+			<div class="panel-heading clearfix">
+						<span>登録フォーム</span>
+
+					</div>
+	
+	<div class="panel-body block">
+		この登録フォームには登録することはできません。	</div>
+</section>
+
+<section id="frame-382" class="frame panel panel-danger nc-content-list plugin-announcements">
+			<div class="panel-heading clearfix">
+						<span>イベントお知らせ</span>
+
+					</div>
+	
+	<div class="panel-body block">
+		
+
+	<article>
+		<p><span style="color:#ff0000;"><strong>終了しました．ご参加ありがとうございました．</strong></span></p>
+<p><strong>◆2024年度数学月間懇話会（第20回）</strong><br />数学と社会の架け橋＝数学月間（7/22-8/22）期間中のイベント</p>
+<p><strong>日時●7月22日（月）</strong>13:30-17:00（開場13:00）場所●東大（駒場）数理科学研究科棟002教室<br />●「差分法を通じて眺める連続と離散」齊藤宣一（東大数理科学研究科）<br />● 「世界の数学者ゆかりの地を訪ねて」仙田章雄（埼玉県立浦和第一女子高等学校）</p>
+<p><strong>日時●7月27日（土）</strong>14:00-16:00　リモートのみ（リモート立ち上げ13:00）<br />●「結晶格子と非周期タイル貼り」河野俊丈（明治大学）</p>
+<p><strong>日時●8月5日（月）</strong>13:30-17:00（開場13:00）場所●東大（駒場）数理科学研究科棟002教室<br />●「算数・数学と生活や社会のつながりを実感 体験できる授業と、 Do MATH 同志社中学校数学博物館」<br />園田毅（同志社中学校）<br /><strong>●</strong>「古代の数学エジプト紐と現代のピタゴラス三角形3分木」亀井喜久男（愛知県立大）</p>
+<p><strong>主催●</strong>NPO法人数学月間の会（理事長：岡本和夫）<br /><strong>参加費</strong>●1,000円（数学月間期間中有効）<br />ただし，当会会員および学生は無料<br />●事前の参加登録が必要です。https://sgk2005.org/で登録できます。<br />多くの方々のご参加お待ちしています。<br />●問い合わせ先　sgktani@gmail.com</p>
+<p><strong>*************************************************************************<br /></strong><strong> ★ 令和6年度入会会員募集中です。<br /></strong><strong> ★ 会員各位には2024年度の年会費の納入をお願いいたします。<br />*************************************************************************</strong></p>
+<p><strong>会場地図</strong></p>
+<p><strong><img class="img-responsive nc3-img nc3-img-block pull-left" title="" src="https://sgk2005.org/wysiwyg/image/download/6/2611/big" alt="" width="514" height="434" /></strong></p>	</article>
+	</div>
+</section>
+
+<section id="frame-383" class="frame panel panel-danger nc-content-list plugin-registrations">
+			<div class="panel-heading clearfix">
+						<span>登録フォーム</span>
+
+					</div>
+	
+	<div class="panel-body block">
+		この登録フォームには登録することはできません。	</div>
+</section>
+
+<section id="frame-381" class="frame panel panel-default nc-content-list plugin-announcements">
+			<div class="panel-heading clearfix">
+						<span>お知らせ</span>
+
+					</div>
+	
+	<div class="panel-body block">
+		
+
+	<article>
+		<p><strong>■令和5年度に実施したイベント*********<span style="color:#ff0000;">終了しました．ご参加ありがとうございます．</span></strong><br />（１）数学月間懇話会（第19回）<br />2023年7月22日（土），東大駒場キャンバス，数理科学研究棟002教室<br />●新型コロナの数理モデル研究について：総合司会●稲葉寿（東京学芸大）<br />●パンデミックで活躍する数理モデル；国谷紀良（神戸大学大学院システム情報学研究科）<br />●新型コロナウイルス感染症のデータサイエンスと政策科学；土谷隆（政策研究大学院大学）<br />（２）数学月間企画講演（第12回）<br />2023年11月18日（土），東大駒場キャンバス，数理科学研究科棟002教室<br />●固有値問題で解く日本の国民経済-大規模データ版； 松原望（東京大学名誉教授）<br />（３）数学月間企画講演（第13回）<br />2024年１月20日（土），東大駒場キャンパス，数理科学研究科棟002教室<br />●ロシアで発展した結晶群とその一般化，谷克彦（数学月間の会）<br />●超音速ノズル流の基礎と気体レーザーへの応用，佐藤浩之助（九州大学名誉教授）<br />（４）中野ZERO子供カーニバル協力<br />●2024年3月2日（土），対称性を学んで万華鏡を作ろう；谷克彦<br />●2024年3月3日（日），幾何学の源流エジプト紐で遊ぼう；亀井喜久男<br />●2024年3月10日（日），正12面体，星型小12面体を組み立てて仕組みを学ぼう；小梁修<br />＊講演会は集会（リモート併用）でした。これらの講演記録ビデオと資料は，<br />数学月間の会ウエブサイトに公開しています。ご利用ください。<br /><br /></p>	</article>
+	</div>
+</section>
+
+<section id="frame-365" class="frame panel panel-default nc-content-list plugin-announcements">
+			<div class="panel-heading clearfix">
+						<span>お知らせ</span>
+
+					</div>
+	
+	<div class="panel-body block">
+		
+
+	<article>
+		<p><strong> <span style="color:#ff0000;">中野ZERO「こどもカーニバル」の数学ワークショップは盛況裡に終了いたしました。<br />3日（4回）の数学ワークショップ全部に参加された熱心な親子もおられます。<br />次の企画でまたお会いしましょう。ご意見やご希望などいつでもお寄せください：sgktani@gmail.com　</span></strong></p>
+<p><strong><span style="color:#ff0000;">具体的な物（万華鏡、エジプト紐、正多面体）を舞台に、そこで現れる数学・算数に触れることから、<br />数学・算数への関心が高まります。これが自分で勉強する原動力になることを願っています。</span></strong></p>
+<p><span style="color:#ff0000;"><img class="img-responsive nc3-img pull-left" title="" src="https://sgk2005.org/wysiwyg/image/download/6/2584/medium" alt="" /></span></p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p><span style="color:#ff0000;">***************************2024.03.11</span></p>
+<p> <span style="font-size:12pt;"><strong>■数学ワークショップについて**************************************************</strong></span><br /><span style="font-size:12pt;"><strong>中野ZERO生涯学習課主催の「こどもカーニバル」</strong>に連携して，2024年3月の土日に実施します。</span><span style="font-size:12pt;">基礎に数学的内容をもつ参加型のワークショップです。</span></p>
+<p><span style="font-size:12pt;">ワークショップの良いテーマをお持ちの方の提案参加を募っています。<br />また，ボランティア･スタッフを募集しています。</span><span style="font-size:12pt;">ご協力をお願いいたします。<br /></span><span style="font-size:16px;">問い合わせ先： sgktani@gmail.com</span></p>
+<p><span style="font-size:16px;"><strong>■以下の企画が決定しました***************************************2023.12.01</strong></span></p>
+<p><span style="font-size:16px;"><strong>対象：小学4年以上（大人）  場所：中野ZERO学習室<br />主催：中野ZERO生涯学習課「こどもカーニバル」</strong></span></p>
+<p><span style="font-size:16px;"><strong>事前申込制です．</strong>12月中にチラシを配布し募集開始予定．<br />チラシができたらこのサイトでもお知らせします．<br />申込先は，生涯学習課になります．</span></p>
+<p><span style="font-size:16px;"><strong>NPO法人数学月間の会が実施する内容**************************</strong></span></p>
+<p><span style="font-size:16px;"> <strong>3月2日（土）対称性を学んで万華鏡を作ろう　［学習室２］　</strong></span></p>
+<p><span style="font-size:16px;"><strong>2回実施（午前10:00-11:30・午後14:00-15:30）料金800円</strong><br />    <span style="font-size:11pt;">  万華鏡の美しい映像が私たちの心をとらえる理由は，時間の流れとともに「透明な</span><br /><span style="font-size:11pt;">琉球色ガラス屑」の流れが映し出す「千変万化する一度きり」の映像に生命を感じ</span><br /><span style="font-size:11pt;">るからでもありましょう．万華鏡の舞台を生み出す仕組みは，「対称性」（規則的な</span><br /><span style="font-size:11pt;">繰り返し模様の数学）で理解できます．今回作る万華鏡は，回転対称１２回の打ち</span><br /><span style="font-size:11pt;">上げ花火のような映像が見られます．<a href="https://sgk2005.org/cabinets/cabinet_files/download/88/8a40fe393072d252cf2a579e720c8d0c?frame_id=126">テキスト：万華鏡の不思議</a></span></span></p>
+<p><img class="img-responsive nc3-img pull-left" title="" src="https://sgk2005.org/wysiwyg/image/download/6/2513/medium" alt="" width="207" height="155" /><img class="img-responsive nc3-img pull-left" title="" src="https://sgk2005.org/wysiwyg/image/download/6/2514/medium" alt="" width="152" height="152" /></p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p><span style="font-size:16px;"><strong>3月3日（日）幾何の源流エジプト紐であそぼう　［学習室２］</strong></span></p>
+<p><span style="font-size:16px;"><strong>2回実施（午前10:00-11:30・午後14:00-15:30）料金800円<br />    </strong><span style="font-size:11pt;">縄を張って測地したのは古代オリエントの知恵です．幾何学の源流に触れましょう．</span><br /><span style="font-size:11pt;">３辺の長さが決まれば３角形が決定します．色々な角度が作れます．検地や口分田</span><br /><span style="font-size:11pt;">などでも用いられた方法です．校庭でハンドボールのコートを描いたりもできます． </span><br /><span style="font-size:11pt;">手順を繰り返し，正方形，長方形，正３角形，正６角形などを作ったりしましょう．</span><br /><span style="font-size:11pt;">12 等分のエジプト紐でどのような角度が作れるのでしょうか．正 5 角形，正 8 角</span><br /><span style="font-size:11pt;">形を描くのはとても難しいです．</span></span></p>
+<p><span style="font-size:16px;"><span style="font-size:11pt;"><img class="img-responsive nc3-img pull-left" title="" src="https://sgk2005.org/wysiwyg/image/download/6/2515/medium" alt="" width="208" height="194" /></span></span></p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p><span style="font-size:16px;"><strong>3月10日（日）午前10:00-11:30　正12面体模型を作ろう   料金1,000円<br /></strong></span><span style="font-size:16px;"><strong> 　　　　　　 午後14:00-15:30　星型正12面体を作ろう　料金1,000円</strong></span></p>
+<p><span style="font-size:16px;">　<strong>［学習室４］</strong><br />    <span style="font-size:11pt;">プラトンの立体と呼ばれる凸正多面体が５つあることはご存じでしょう．美しい正</span><br /><span style="font-size:11pt;">多面体はこれだけではありません．美しい星型正多面体など色々あります． </span><br /><span style="font-size:11pt;">午前の組は，正 12 面体を組み立て，正 12 面体の体積を分割して理解します． </span><br /><span style="font-size:11pt;">午後の組は,星型小 12 面体を組み立てます．この組み立てはなかなか難しい．星</span><br /><span style="font-size:11pt;">型多面体は凸正多面体とは違い高次元にあり，不思議な美しさがあります．</span></span></p>
+<p> <span style="font-size:16px;"><span style="font-size:11pt;"><img class="img-responsive nc3-img nc3-img-block pull-left" title="" src="https://sgk2005.org/wysiwyg/image/download/6/2512/big" alt="" width="212" height="111" /></span></span></p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p><strong>■なかのZERO「こどもカーニバル」中間報告*************************2024.03.03</strong></p>
+<p><strong>中野ZERO「こどもカーニバル」の第1日目(3/2)，第2日目(3/3)が盛況裏に終了しました。</strong><br /><strong>数学月間の会からスタッフとして5人が参加しています。</strong><br /><strong>次回は第3日目（3/10）です。大人も子供もご参加ください。</strong><br /><strong>下の写真は2日目（3/3）の開始1時間前の西館入り口で撮影したものです。</strong></p>
+<p><strong>テキスト公開中：</strong></p>
+<p><strong>3月2日；<a href="https://sgk2005.org/cabinets/cabinet_files/download/88/19035ffb9740ad3623808c2cb241b473?frame_id=126">対称性を学んで万華鏡を作ろう.pdf：谷克彦</a></strong><br /><strong>3月3日；<a href="https://sgk2005.org/cabinets/cabinet_files/download/88/70d448614277631b7b7b16c18053f582?frame_id=126">幾何の源流エジプト紐で遊ぼう.pdf：亀井喜久男</a></strong></p>
+<p><strong>3月10日；（午前）正12面体模型を組み立てる；（午後）星型小12面体を組み立てる：小梁修</strong></p>
+<p> <img class="img-responsive nc3-img nc3-img-block pull-left" title="" src="https://sgk2005.org/wysiwyg/image/download/6/2568/big" alt="" /></p>
+<p> </p>	</article>
+	</div>
+</section>
+
+<section id="frame-374" class="frame panel panel-default nc-content-list plugin-announcements">
+			<div class="panel-heading clearfix">
+						<span>お知らせ</span>
+
+					</div>
+	
+	<div class="panel-body block">
+		
+
+	<article>
+		<p>中野ZERO「こどもカーニバル」ーーーーー</p>
+<p>このイベントへの参加申し込みは、主催の中野ZEROのウエブサイトにあります．　<a href="https://www.nicesacademia.jp/news/%E3%81%AA%E3%81%8B%E3%81%AEzero%E3%81%93%E3%81%A9%E3%82%82%E3%82%AB%E3%83%BC%E3%83%8B%E3%83%90%E3%83%AB2024/">https://www.nicesacademia.jp/news/%E3%81%AA%E3%81%8B%E3%81%AEzero%E3%81%93%E3%81%A9%E3%82%82%E3%82%AB%E3%83%BC%E3%83%8B%E3%83%90%E3%83%AB2024/</a></p>
+<p>申込は先着順なのでお急ぎください．</p>
+<p><img class="img-responsive nc3-img nc3-img-block" title="" src="https://sgk2005.org/wysiwyg/image/download/6/2547/big" alt="" /></p>	</article>
+	</div>
+</section>
+
+<section id="frame-367" class="frame panel panel-default nc-content-list plugin-announcements">
+			<div class="panel-heading clearfix">
+						<span>お知らせ</span>
+
+					</div>
+	
+	<div class="panel-body block">
+		
+
+	<article>
+		<p><span style="font-size:12pt;color:#ff0000;"><strong>終了しましたご参加ありがとうございます. </strong></span></p>
+<p><span style="font-size:12pt;"><strong>数学月間企画講演（第13回）のお知らせ</strong></span></p>
+<p><strong><span style="font-size:12pt;">日時●2024年１月20日（土），13:00-17:00<br /></span><span style="font-size:12pt;">場所●東京大学数理科学研究科棟002教室</span></strong><br /><span style="font-size:12pt;"><strong>プログラム●</strong></span><br /><span style="font-size:12pt;"><strong>●ロシアで発展した結晶群とその一般化，谷克彦（数学月間の会）</strong></span><br /><span style="font-size:12pt;"><strong>●超音速ノズル流の基礎と気体レーザーへの応用，佐藤浩之助（九州大学名誉教授）</strong></span></p>
+<p><span style="font-size:12pt;">（注意）当初アナウンスしたプログラムに変更があります（12月7日）．<br />講演：結晶格子と非周期タイル貼り，河野俊丈（明治大学総合数理学部教授）は，<br />講演者の都合により2024年夏の数学月間期間中の実施に変更しました．</span></p>
+<p> <span style="font-size:12pt;">主催●NPO法人数学月間の会（理事長：岡本和夫）</span></p>
+<p><span style="font-size:12pt;">参加費（会場およびリモート）●1,000円（ただし，学生･生徒，当会会員は無料）．</span><br /><span style="font-size:12pt;">●会場参加費は直接会場でお払いください．</span><br /><span style="font-size:12pt;">●遠方の方のためにWebexによるリモート中継も行います．<br /><strong><span style="color:#0000ff;">リモート参加費は，</span><span style="color:#0000ff;"><a style="color:#0000ff;" href="https://sgk2005.org/npo_sgk/page_kaihi">数学月間の会ゆうちょ口座</a></span></strong>に事前にお支払いください．<br />確認後，webexのパスコードをご連絡します．</span></p>
+<p><span style="font-size:12pt;"><strong><span style="color:#0000ff;"><a style="color:#0000ff;" href="https://sgk2005.org/news_info/page_20221214231128">参加登録（会場およびリモート共通）へ移動 ，ここをクリック</a>：</span></strong></span></p>
+<p> <img class="img-responsive nc3-img nc3-img-block pull-left" title="" src="https://sgk2005.org/wysiwyg/image/download/6/2509/big" alt="" width="121" height="121" /></p>
+<p><a href="https://sgk2005.org/news_info/page_20221214231128">https://sgk2005.org/news_info/page_20221214231128</a></p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p><span style="font-size:12pt;">■現在，NPO法人数学月間の会正会員（年会費2,000円）募集中です．</span><br /><span style="font-size:12pt;">詳細は<strong><a href="https://sgk2005.org/npo_sgk/page_20221213104200"> https://sgk2005.org/npo_sgk/page_20221213104200</a> </strong></span></p>
+<p><span style="font-size:12pt;">問い合わせ先：　sgktani@gmail.com</span></p>
+<p> </p>	</article>
+	</div>
+</section>
+
+<section id="frame-364" class="frame panel panel-default nc-content-list plugin-announcements">
+			<div class="panel-heading clearfix">
+						<span>お知らせ</span>
+
+					</div>
+	
+	<div class="panel-body block">
+		
+
+	<article>
+		<p><span style="font-size:12pt;color:#ff0000;"><strong>終了しました</strong></span></p>
+<p><span style="font-size:12pt;"><strong>数学月間企画講演（第12回）のお知らせ</strong></span></p>
+<p><span style="font-size:12pt;"><strong>日時●11月18日（土），13:30ー16:00（開場13:00）</strong></span><br /><span style="font-size:12pt;"><strong>場所●東大駒場キャンバス，数理科学研究科棟002教室</strong></span><br /><span style="font-size:12pt;"><strong>テーマ●固有値問題で解く日本の国民経済-大規模データ版</strong></span><br /><span style="font-size:12pt;"><strong>13:30-15:00講演● 松原望（東京大学名誉教授）</strong></span><br /><span style="font-size:12pt;"><strong>15:10-16:00討論（質問と解説）</strong></span></p>
+<p><span style="font-size:12pt;">主催●NPO法人数学月間の会（理事長：岡本和夫）</span></p>
+<p><span style="font-size:12pt;">会場参加費●1,000円（学生・生徒，および，当会会員は無料）．直接会場でお払いください．<br /></span><br /><span style="font-size:12pt;">●遠方の方のためにWebexによるリモート中継も行います．<br /></span><span style="font-size:12pt;">リモート参加費●1,000円（学生・生徒，および，当会会員は無料）．<br /></span></p>
+<p><span style="color:#0000ff;font-size:12pt;"><strong><a style="color:#0000ff;" href="https://sgk2005.org/news_info/page_20221214231128">参加登録（会場およびリモート共通）へ ここをクリック．</a></strong></span></p>
+<p><span style="font-size:12pt;"><strong><span style="color:#0000ff;">リモート参加費1,000円は，</span><span style="color:#0000ff;"><a style="color:#0000ff;" href="https://sgk2005.org/npo_sgk/page_kaihi">数学月間の会ゆうちょ口座</a></span></strong>に事前にお支払い下さい．<br />webexのパスコードをご連絡します．</span></p>
+<p> 問い合わせ● sgktani@gmail.com</p>	</article>
+	</div>
+</section>
+
+<section id="frame-353" class="frame panel panel-default nc-content-list plugin-announcements">
+			<div class="panel-heading clearfix">
+						<span>お知らせ</span>
+
+					</div>
+	
+	<div class="panel-body block">
+		
+
+	<article>
+		<p><span style="font-family:'“メイリオ”', Meiryo, sans-serif;font-size:12pt;color:#000000;">2023年の<a href="https://sgk2005.org/news_info/page_20221214231128">「数学月間懇話会（第19回）」</a>は久しぶりで集会実施の見込みです。<br /></span><span style="font-family:'“メイリオ”', Meiryo, sans-serif;font-size:12pt;color:#000000;">日時：７月22日（土）13:00-17:00，</span><span style="color:#000000;font-family:'“メイリオ”', Meiryo, sans-serif;"><span style="font-size:16px;">場所：東大駒場<br /></span></span><span style="color:#000000;font-family:'“メイリオ”', Meiryo, sans-serif;"><span style="font-size:16px;">Covid-19コロナ関連の2件の講演です。</span></span></p>
+<p><span style="font-size:16px;"><strong><span style="color:#000000;font-family:'“メイリオ”', Meiryo, sans-serif;"><a href="https://sgk2005.org/news_info/page_20221214231128">詳細お知らせ，および，参加登録へ</a></span></strong></span></p>
+<p><span style="color:#000000;font-family:'“メイリオ”', Meiryo, sans-serif;"><span style="font-size:16px;">ーーーーーーーーーーーーーーーーーーーーーーーーーーー<br /></span></span><span style="color:#ff0000;font-family:'“メイリオ”', Meiryo, sans-serif;"><span style="font-size:16px;">終了しました。講演動画は数学月間YouTubeチャンネルで公開しています。</span></span></p>	</article>
+	</div>
+</section>
+
+<section id="frame-358" class="frame panel panel-default nc-content-list plugin-announcements">
+			<div class="panel-heading clearfix">
+						<span>お知らせ</span>
+
+					</div>
+	
+	<div class="panel-body block">
+		
+
+	<article>
+		<p><span style="font-size:12pt;"><strong>NPO法人数学月間の会は、日本学術会議公開シンポジウム「数学教育の変遷」8月２日を後援しています。<a href="https://www.scj.go.jp/ja/event/2023/346-s-0802.html">https://www.scj.go.jp/ja/event/2023/346-s-0802.html</a></strong></span></p>
+<p><span style="font-size:12pt;"><strong>・<a href="https://www.scj.go.jp/ja/event/2023/link/346-s-0802_link_2.html">公開シンポジウム「数学教育の変遷～数理・データサイエンス・AI時代における数学教育の変革及び女性人材の登用に向けて」記録動画へのリンク</a>（掲載期間：2023年12月31日まで）</strong></span></p>
+<p><img class="img-responsive nc3-img nc3-img-block pull-left" title="" src="https://sgk2005.org/wysiwyg/image/download/6/2466/biggest" alt="" /></p>	</article>
+	</div>
+</section>
+
+<section id="frame-339" class="frame panel panel-default nc-content-list plugin-announcements">
+			<div class="panel-heading clearfix">
+						<span>お知らせ</span>
+
+					</div>
+	
+	<div class="panel-body block">
+		
+
+	<article>
+		<p>本日3月14日は，国際数学日だそうです。<br />イベント情報を教えていただきました。</p>
+<p>以下のリンクからストリーミングが見られます。<br />完全に無料で，サインアップする必要はありません。<br /><a href="https://www.idm314.org/2023-global-event-program">https://www.idm314.org/2023-global-event-program</a></p>
+<p>今日は中野の生涯学習センターへ打ち合わせに行きます。</p>	</article>
+	</div>
+</section>
+
+<section id="frame-338" class="frame panel panel-default nc-content-list plugin-announcements">
+			<div class="panel-heading clearfix">
+						<span>お知らせ</span>
+
+					</div>
+	
+	<div class="panel-body block">
+		
+
+	<article>
+		<p>■RIMS 共同研究(公開型)　教育数学の一側面 – 高等教育における数学の多様性と普遍性 –</p>
+<p>京都大学数理解析研究所の共同利用事業の一つとして下記のように共同研究 (公開型) を催しますので, ご案内申し上げます.Hybrid 形式で行いますので、2 ページ目の zoom 配信の事前登録、対面参加の登録にご協力をお願い申し上げます。</p>
+<p>岡本和夫 (東京大学)<br />蟹江幸博 (元三重大学)<br />清水勇二 (国際基督教大学)</p>
+<p>日時: 令和 5 年 3 月 6 日 (月) 13:10 ∼ 9 日 (木) 17:00<br />会場: 京都大学数理解析研究所 111 号室 (ハイブリッド開催)</p>
+<p>♣ zoom ミーティング事前登録:<br />https://zoom.us/meeting/register/tJEvceqoqzwsH9LVctAYBkvUjI3duZCg52Ge<br />登録後、ミーティング参加に関する情報の確認メールが届きます。<br />♣ 対面参加登録(zoom ミーティングに同時に登録可能です):<br />https://forms.gle/M5uwxzv8aaHvc4nh7</p>	</article>
+	</div>
+</section>
+
+<section id="frame-337" class="frame panel panel-default nc-content-list plugin-announcements">
+			<div class="panel-heading clearfix">
+						<span>お知らせ</span>
+
+					</div>
+	
+	<div class="panel-body block">
+		
+
+	<article>
+		<p>■3月13日（月）13:00-17:00　談話会・東京大学数理科学講演会<br />https://www.ms.u-tokyo.ac.jp/seminar/colloquium/index.html<br />稲葉寿 氏 (東京大学大学院数理科学研究科) 14:30-15:30<br />人口と感染症の数理４０年―希望は果たされたか？― (JAPANESE)</p>
+<p>他2件</p>	</article>
+	</div>
+</section>
+
+<section id="frame-336" class="frame panel panel-default nc-content-list plugin-announcements">
+			<div class="panel-heading clearfix">
+						<span>お知らせ</span>
+
+					</div>
+	
+	<div class="panel-body block">
+		
+
+	<article>
+		<p>■3月17日(金)13:00-18:00に，統計数理研主催の<br />「公開シンポジウム：COVID-19とデータ科学」が開催されます（オンライン；参加費無料）。<br />大曲貴夫先生（国際感染症センター）と中谷友樹先生（東北大学）他<br />ご関心おありの方は、ぜひご参加ください。<br />なおプログラムや参加登録については以下のページをご確認ください：<br />https://www.ism.ac.jp/events/2023/meeting0317.html</p>	</article>
+	</div>
+</section>
+
+<section id="frame-195" class="frame panel panel-info nc-content-list plugin-announcements">
+			<div class="panel-heading clearfix">
+						<span>2022年度秋の企画講演会</span>
+
+					</div>
+	
+	<div class="panel-body block">
+		
+
+	<article>
+		<p><span style="color:#ff0000;">終了しました．ご参加有難うございます．－－－</span></p>
+<p><strong>■企画講演リモートWebex実施のお知らせ</strong></p>
+<p><strong>●第11回　9月24日，15:30-17:00<br />　中西達夫（株・モーション）「なぜ深層学習を思いつかなかったか」</strong></p>
+<p><strong>●第12回　10月1日，15:30-17:00<br />　海野啓明（元仙台電波高専）「４次元折り紙とその基本的性質」</strong></p>
+<p><strong>●第13回　10月8日，15:30-17:00<br />　松原望（東大名誉教授）「教育数学」は革命か</strong></p>
+<p>主催●NPO数学月間の会（理事長岡本和夫）<br />参加費●無料．事前の参加登録が必要です．<br />参加登録されると，WebexのURLをメールでご連絡します．</p>
+<p>参加登録は以下のフォームでお願いいたします．<br />不具合等の連絡先　sgktani@gmail.com</p>
+<p>ーーーーーーーーーーーーーーーーーーーーーーーー</p>
+<p>10月8日，午後に予定していた<br />東大(駒場)数理科学研究科棟002教室での以下の講演会を<br />「数学まつり」の準備との兼合いでリモートに変更しました．</p>
+<p>13:30-15:00　中西達夫「なぜ深層学習を思いつかなかったか」<br />15:10-16:40　松原望「教育数学」は革命か </p>	</article>
+	</div>
+</section>
+
+<section id="frame-187" class="frame panel panel-danger nc-content-list plugin-announcements">
+			<div class="panel-heading clearfix">
+						<span>2022年度（第18回）「数学月間懇話会」</span>
+
+					</div>
+	
+	<div class="panel-body block">
+		
+
+	<article>
+		<p><span style="font-size:12pt;font-family:'“メイリオ”', Meiryo, sans-serif;"><strong><span style="color:#ff0000;">終了しました．ご参加有難うございます．－－－</span></strong></span></p>
+<p><span style="font-size:12pt;"><strong><span style="font-family:'“メイリオ”', Meiryo, sans-serif;">数学月間懇話会（第18回）のお知らせ</span></strong></span></p>
+<p><span style="font-family:'“メイリオ”', Meiryo, sans-serif;">2022年度の「数学と社会の架け橋＝数学月間」（2022.7.22～8.22）の期間内に，</span><br /><span style="font-family:'“メイリオ”', Meiryo, sans-serif;">次の４つの講演をZOOMにて実施します．どなたもお気軽にご参加ください．</span><br /><span style="font-family:'“メイリオ”', Meiryo, sans-serif;">時間は，各回15:20-17:00を予定しています：</span></p>
+<p><span style="font-size:12pt;"><strong><span style="font-family:'“メイリオ”', Meiryo, sans-serif;">7月22日　関孝和314年祭；真島秀行（元お茶の水女子大）</span></strong></span><br /><span style="font-size:12pt;"><strong><span style="font-family:'“メイリオ”', Meiryo, sans-serif;">7月30日　複素数を計測するーMRIの画像再構成；橋本雄幸（杏林大）</span></strong></span><br /><span style="font-size:12pt;"><strong><span style="font-family:'“メイリオ”', Meiryo, sans-serif;">8月 6日　ソリトンとセルオートマトン；時弘哲治（武蔵野大）</span></strong></span><br /><span style="font-size:12pt;"><strong><span style="font-family:'“メイリオ”', Meiryo, sans-serif;">8月22日　結晶群，黒白群，色付き空間群；谷克彦（数学月間の会）</span></strong></span><br /><br /><span style="font-family:'“メイリオ”', Meiryo, sans-serif;">主催●NPO数学月間の会（理事長岡本和夫）</span><br /><span style="font-family:'“メイリオ”', Meiryo, sans-serif;">参加費●無料．事前の参加登録が必要です．</span><br /><span style="font-family:'“メイリオ”', Meiryo, sans-serif;">参加登録されると，開催日の1週間前に，ZOOMのURLをメールでご連絡します．</span></p>
+<p><span style="font-family:'“メイリオ”', Meiryo, sans-serif;">参加登録は以下のフォームでお願いいたします．</span></p>
+<p><span style="font-family:'“メイリオ”', Meiryo, sans-serif;">不具合等の連絡先　sgktani@gmail.com</span></p>	</article>
+	</div>
+</section>
+
+<section id="frame-188" class="frame panel panel-danger nc-content-list plugin-announcements">
+			<div class="panel-heading clearfix">
+						<span>お知らせ　中野区＜数学まつ＞</span>
+
+					</div>
+	
+	<div class="panel-body block">
+		
+
+	<article>
+		<p><strong><span style="color:#ff0000;">決定しました．数学まつり（第1回）を10月16日に実施します．</span></strong></p>
+<p>7月24日(日）中野区役所会議室にて<a href="https://www.city.tokyo-nakano.lg.jp/dept/172000/d001131.html">公開プレゼンテーション</a>が実施されました．</p>
+<p>その時用いた提出資料<a href="https://sgk2005.saloon.jp/cabinets/cabinet_files/download/42/2199f30965b7cb3c48267df008c16cf6?frame_id=49">①A4×4枚.pdf</a>，<a href="https://sgk2005.saloon.jp/bbses/bbs_articles/view/83/e9f767590802b74a6348d8f9ba455f03?frame_id=133">②パワーポイント.pptx</a></p>
+<p> </p>	</article>
+	</div>
+</section>
+
+<section id="frame-182" class="frame panel panel-danger nc-content-list plugin-announcements">
+			<div class="panel-heading clearfix">
+						<span>お知らせ</span>
+
+					</div>
+	
+	<div class="panel-body block">
+		
+
+	<article>
+		<p><span style="color:#ff0000;">終了しましたーご参加有難うございました．</span></p>
+<p>正会員各位</p>
+<p>特定非営利活動法人数学月間の会の令和4年度総会は，5月14日(土）16:00-17:00に，ZOOMにて開催いたします．正会員各位には，メールまたは郵送にて関連資料をお送りしてあります．資料をご確認の上ご参加ください．当日のZOOM総会に出席できない場合は，委任状または書面表決書を5月12日までにご提出ください．</p>	</article>
+	</div>
+</section>
+
+<section id="frame-171" class="frame panel panel-danger nc-content-list plugin-announcements">
+			<div class="panel-heading clearfix">
+						<span>企画講演（第10回）</span>
+
+					</div>
+	
+	<div class="panel-body block">
+		
+
+	<article>
+		<p><span style="font-size:14pt;"><span style="color:#ff0000;">終了しました</span>（31名参加）ーー</span></p>
+<p><span style="font-size:14pt;">数学月間企画講演（第10回）2021.12.18, 15:30-17:00<br /></span><span style="font-size:14pt;background-color:#ffffff;color:#0000ff;">4次元図形歴史秘話<br /></span><span style="font-size:14pt;background-color:#ffffff;color:#000000;">宮崎興二（京大名誉教授）</span></p>
+<p><span style="font-size:14pt;background-color:#ffffff;color:#000000;">参加費● 無料．ただし，事前の参加登録が必要です．<br />主催● NPO法人数学月間の会（理事長：岡本和夫）<br />実施方法● ZOOMによるリモート実施<br />参加登録● 以下のウエブサイトで参加登録できます：<br />ウエブサイト●https://sgk2005.saloon.jp/ 数学月間の会ホームページ<br />登録いただくと一週間前までにZoomのURLをお知らせします．</span></p>	</article>
+	</div>
+</section>
+
+<section id="frame-168" class="frame panel panel-info nc-content-list plugin-announcements">
+			<div class="panel-heading clearfix">
+						<span>企画講演（第９回）</span>
+
+					</div>
+	
+	<div class="panel-body block">
+		
+
+	<article>
+		<p><span style="color:#ff0000;">終了しました．ご参加有難うございます．－－－</span></p>
+<p>実施日時● 9月18日，15:00ー16:30<br />ゾムツールとVR，ミノカズヤ（IMAGINARY）</p>
+<p>参加費● 無料．事前の参加登録が必要です．<br />主催● NPO法人数学月間の会（理事長：岡本和夫）<br />実施方法● ZOOMによるリモート実施<br />参加登録● 数学月間の会ホームページ http://sgk2005.saloon.jp の以下のサイトで出来ます．</p>
+<p>NTT，DOORを用いたバーチャルな世界を体験できます．</p>	</article>
+	</div>
+</section>
+
+<section id="frame-320" class="frame panel-none nc-content-list plugin-announcements">
+			<div class="panel-heading clearfix">
+						<span>企画講演（第８回）2021.10.23イマジナリーキューブのパズルと数理</span>
+
+					</div>
+	
+	<div class="panel-body block">
+		
+
+	<article>
+		<p><span style="color:#ff0000;">終了しました．ご参加有難うございます．－－－</span></p>
+<p>数学月間企画講演（第８回）<br />実施日時● 10月23日，16:00ー17:30<br />演題，講師●「イマジナリーキューブのパズルと数理」，立木秀樹（京大）　</p>
+<p>参加費● 無料．ただし，事前の参加登録が必要です．<br />主催● NPO法人数学月間の会（理事長：岡本和夫）<br />実施方法● ZOOMによるリモート実施<br />参加方法● 氏名，メールアドレスを以下のウエブサイトに登録する：<br />ウエブサイト●http://sgk2005.saloon.jp/ 数学月間の会ホームページ<br />登録いただくとZoomのURLをお知らせします．</p>	</article>
+	</div>
+</section>
+
+<section id="frame-321" class="frame panel-none nc-content-list plugin-announcements">
+			<div class="panel-heading clearfix">
+						<span>企画講演（第7回）2021.10.02  重力レンズと特異点理論</span>
+
+					</div>
+	
+	<div class="panel-body block">
+		
+
+	<article>
+		<p><span style="color:#ff0000;">終了しました．ご参加有難うございます．－－－</span></p>
+<p>数学月間企画講演（第７回）<br />実施日時● 10月2日，15:30ー17:00<br />演題，講師● 「重力レンズと特異点理論」，河野俊丈（明治大学）</p>
+<p>参加費● 無料．ただし，事前の参加登録が必要です．<br />主催● NPO法人数学月間の会（理事長：岡本和夫）<br />実施方法● ZOOMによるリモート<br />参加登録方法● 氏名，メールアドレスをこのウエブサイトに登録する：<br />後日ZOOMのURLをお知らせします．</p>	</article>
+	</div>
+</section>
+
+<section id="frame-322" class="frame panel panel-default nc-content-list plugin-announcements">
+			<div class="panel-heading clearfix">
+						<span>企画講演（第6回）2021.9.29  パズルがひらめくとき</span>
+
+					</div>
+	
+	<div class="panel-body block">
+		
+
+	<article>
+		<p><span style="color:#ff0000;">終了しました．ご参加有難うございます．－－－</span></p>
+<p>数学月間企画講演（第６回）<br />実施日時● 9月29日，15:00ー16:30<br />演題，講師● 「パズルがひらめくとき」，小谷善行（パズル懇話会会長）　<br />参加費● 無料．ただし，事前の参加登録が必要です．<br />主催● NPO法人数学月間の会（理事長：岡本和夫）<br />実施方法● ZOOMによるリモート<br />参加登録方法● 氏名，メールアドレスをこのウエブサイトに登録する：<br />後日ZOOMのURLをお知らせします．</p>
+<p>ウエブサイト●http://sgk2005.saloon.jp/ 数学月間の会ホームページ．<br />詳細は上記ウエブサイトをご覧ください．<br />問い合せ●sgktani@gmail.com</p>	</article>
+	</div>
+</section>
+
+<section id="frame-323" class="frame panel panel-default nc-content-list plugin-announcements">
+			<div class="panel-heading clearfix">
+						<span>企画講演（第5回）2021.9.18  ゾムツールとVR（バーチャル会議室）</span>
+
+					</div>
+	
+	<div class="panel-body block">
+		
+
+	<article>
+		<p><span style="color:#ff0000;">終了しました．ご参加有難うございます．－－－</span></p>
+<p>実施日時● 9月18日，15:00ー16:30<br />ゾムツールとVR，ミノカズヤ（IMAGINARY）</p>
+<p>参加費● 無料．事前の参加登録が必要です．<br />主催● NPO法人数学月間の会（理事長：岡本和夫）<br />実施方法● ZOOMによるリモート実施<br />参加登録● 数学月間の会ホームページ http://sgk2005.saloon.jp の以下のサイトで出来ます．</p>
+<p>NTT，DOORを用いたバーチャルな世界を体験できます．</p>	</article>
+	</div>
+</section>
+
+<section id="frame-101" class="frame panel panel-default nc-content-list plugin-announcements">
+			<div class="panel-heading clearfix">
+						<span>お知らせ</span>
+
+					</div>
+	
+	<div class="panel-body block">
+		
+
+	<article>
+		<p><span style="color:#ff0000;">お陰様で盛況裡に終了しました－－－</span></p>
+<p><strong>数学月間懇話会（第17回）のお知らせ</strong></p>
+<p><strong>2021.7.22～8.22の数学月間期間内に，次の４つの講演をZOOMにて実施します．<br /></strong></p>
+<p><strong>・7/22(15:00－16:30）目付字・目付絵の数理トリックとその400年史，秋山久義（パズル研究家）<br />・7/31(15:00－16:30）新型コロナウイルス感染症と統計数理，土谷隆（政策研究大学院大学）<br />・8/7(15:00－16:30） 回折対称の上昇，松本崧生（金沢大学名誉教授）<br />・8/14(15:00－16:30）スマホやタブレットで数値計算，山崎純一（元 大学非常勤講師）<br /></strong></p>
+<p><strong>主催●NPO数学月間の会（理事長岡本和夫）<br />参加費●無料．</strong><strong>事前の参加登録が必要です．<br /></strong><strong>参加登録されると，ZOOMのURLをお知らせします．<br /></strong></p>
+<p><strong>参加登録は以下のフォームでお願いいたします．</strong></p>
+<p><strong><span style="color:#0000ff;"> 数学月間の会SGKのバーチャル・ルーム（作製：ミノカズヤさん）を</span></strong><strong><span style="color:#0000ff;">作りました．<br />自由に操作してお楽しみください．　<a href="https://door.ntt/scenes/sNwUpc8">https://door.ntt/scenes/sNwUpc8</a></span></strong></p>
+<p><strong><span style="color:#0000ff;">8月7日用のバーチャル・ルーム　<a href="https://s.door.ntt/C6EokS6">https://s.door.ntt/C6EokS6</a></span></strong></p>	</article>
+	</div>
+</section>
+
+<section id="frame-151" class="frame panel panel-default nc-content-list plugin-announcements">
+			<div class="panel-heading clearfix">
+						<span>お知らせ</span>
+
+					</div>
+	
+	<div class="panel-body block">
+		
+
+	<article>
+		<p><span style="color:#ff0000;">お陰様で無事終了ー</span></p>
+<p>NPO法人数学月間の会総会のお知らせ（理事長：岡本和夫）</p>
+<p>正会員各位<br />●6月26日,17:00－18:00に，ZOOMで総会を行います．<br />●審議事項<br />第1号議案　令和２年度事業報告及び決算案の承認<br />第2号議案　令和３年度事業計画および予算案の承認<br />●その他　活動についての意見交換<br />－－－－－－－<br />お知らせは正会員に6月18日に，メール（あるいは郵送）し，<br />総会への参加方法（以下のフォーム）の回答を，25日までに，メールまたは郵便でもらいました．<br />**********************回答フォーム*******************************************<br />●お名前（　　　　　）<br />●参加方法：以下の①，②，③　のどれか１つを選びお書きください．<br />①ZOOMで総会に参加し議決権を行使する．<br />②メールで議決権を行使する．<br />　第1号議案：　賛成　　反対　　　その他（コメント）<br />　第2号議案：　賛成　　反対　　　その他（コメント）<br />③委任状を提出する．議決権を（　　　）に委任します．<br />　被委任者が参加しなかった場合は議長に委任されたものとします．<br />******************************************************************************</p>
+<p>正会員22（委任状及び賛成メールを含む）/37人の参加を得て成立．<br />満場一致をもって，各議案を意義なく可決しました．</p>	</article>
+	</div>
+</section>
+
+<section id="frame-152" class="frame panel panel-default nc-content-list plugin-announcements">
+			<div class="panel-heading clearfix">
+						<span>お知らせ</span>
+
+					</div>
+	
+	<div class="panel-body block">
+		
+
+	<article>
+		<p><span style="color:#ff0000;">お陰様で30人の参加を得て無事終了しました．</span></p>
+<p>数学月間企画講演（第４回）のお知らせ<br />「虹の数学」を高校・大学で講義して<br />真島秀行（お茶の水女子大）<br />3月27日（土），15:00～17:00，無料，</p>
+<p>ZOOMにてリモートで実施します．<br />参加登録されると，ZOOMのURLをお知らせします．<br />covid19で自粛生活の日々ですが，皆様のご参加お待ちします．<br />以下のフォームで参加登録をお願いいたします．</p>
+<p><img class="img-responsive nc3-img pull-left" title="" src="https://sgk2005.org/wysiwyg/image/download/6/1765/medium" alt="" /></p>	</article>
+	</div>
+</section>
+
+<section id="frame-147" class="frame panel panel-default nc-content-list plugin-announcements">
+			<div class="panel-heading clearfix">
+						<span>お知らせ</span>
+
+					</div>
+	
+	<div class="panel-body block">
+		
+
+	<article>
+		<p><span style="color:#ff0000;">お陰様で27名の参加を得て無事終了しました．</span></p>
+<p>数学月間企画講演（第3回）のお知らせ<br />「3Dジグソーパズルのデザインと数学」<br />手嶋吉法（千葉工業大学）</p>
+<p>12月26日（土），15:00～17:00，無料，</p>
+<p>ZOOMにてリモートで実施します．<br />参加登録されると，1週間前までにZOOMのURLをお知らせします．</p>
+<p>クリスマスの翌日は，今年最後の数学月間イベントです．ご参加ください． <img class="img-responsive nc3-img pull-left" title="" src="https://sgk2005.org/wysiwyg/image/download/6/1517/medium" alt="" /></p>	</article>
+	</div>
+</section>
+
+<section id="frame-139" class="frame panel panel-default nc-content-list plugin-announcements">
+			<div class="panel-heading clearfix">
+						<span>お知らせ</span>
+
+					</div>
+	
+	<div class="panel-body block">
+		
+
+	<article>
+		<p><span style="color:#ff0000;">お陰様で無事終了ー54名ご参加ありがとうございます．</span></p>
+<p>数学月間懇話会は，例年2020.7.22に実施していますが，今年（第16回）は集会ができないので，ZOOMを用いリモート（参加無料）で行います．数学月間期間（7/22～8/22)に次のよう実施します：</p>
+<p>7月22日，15:00～16:30，AstronomyとAstronautics（ケプラーから宇宙エレベータまで），八坂哲雄（九州大学名誉教授）<br />7月23日，15:00～16:30，Do★MATH同志社中学校数学博物館の紹介，園田毅（同志社中）<br />7月29日，14:00～15:30，感染症の数理モデル，稲葉寿（東大）<br />8月22日，15;00～16:30，X線や中性子で見る表面・界面，桜井健次（元物質・材料研究機構）</p>
+<p>主催●NPO法人数学月間の会<br />参加方法●（無料ですが要申込）</p>	</article>
+	</div>
+</section>
+
+<section id="frame-118" class="frame panel panel-default nc-content-list plugin-announcements">
+			<div class="panel-heading clearfix">
+						<span>お知らせ</span>
+
+					</div>
+	
+	<div class="panel-body block">
+		
+
+	<article>
+		<p><strong><span style="color:#ff0000;">お陰様で無事終了ー</span></strong></p>
+<p>NPO法人数学月間の会総会のお知らせ（理事長：岡本和夫）</p>
+<p>正会員各位　●6月26日,20:00－21:00に，ZOOMで総会を行います．<br />●審議事項<br />第1号議案　2019年度事業報告及び決算案の承認<br />第2号議案　2020年度事業計画および予算案の承認<br />第3号議案　役員の選任<br />ーーーーーーーーーーーーーーーーーーーー<br />お知らせは正会員に6月18日に，メール（あるいは郵送）し，<br />総会への参加方法（以下のフォーム）の回答を，メール または郵便でもらいました．</p>
+<p>**********************回答フォーム*******************************************<br />●お名前（　　　　　）<br />●参加方法：以下の①，②，③　のどれか１つを選びお書きください．<br />①ZOOMで総会に参加し議決権を行使する．<br />②メールで議決権を行使する． <br />　第1号議案：　賛成　　反対　　　その他（コメント）<br />　第2号議案：　賛成　　反対　　　その他（コメント）<br />　第3号議案：　賛成　　反対　　　その他（コメント）<br />③委任状を提出する．議決権を（　　　）に委任します．<br />　被委任者が参加しなかった場合は議長に委任されたものとします．<br />**********************************************************************</p>
+<p>正会員26（委任状及び賛成メールを含む）/36人の参加を得て成立．<br />満場一致をもって，各議案を意義なく可決しました．</p>
+<p>本年度の数学月間懇話会はZOOMで実施し参加無料とすることになりました．</p>
+<p>*********************************************************************</p>
+<p>本年度の年会費未納の会員は，指定口座にお振込みお願いいたします．</p>	</article>
+	</div>
+</section>
+
+<section id="frame-28" class="frame panel-none nc-content-list plugin-announcements">
+	
+	<div class="panel-body block">
+		
+
+	<article>
+		<p><span style="color:#ff0000;"><strong>終了しましたー</strong></span></p>
+<p>22人参加で無事終了</p>
+<p><img class="img-responsive nc3-img nc3-img-block pull-left" title="" src="https://sgk2005.org/wysiwyg/image/download/6/1114/big" alt="" /></p>	</article>
+	</div>
+</section>
+
+<section id="frame-103" class="frame panel-none nc-content-list plugin-announcements">
+	
+	<div class="panel-body block">
+		
+
+	<article>
+		<p><strong><span style="color:#ff0000;">終了しました---</span></strong></p>
+<p><strong>■秋葉忠利さんの「数学書として憲法を読む」の出版記念パーティ</strong></p>
+<p>12月4日の６時から秋葉忠利さんの「数学書として憲法を読む」の出版記念パーティが，霞が関ビル35階　東海大学校友会館「レストラン・けやき」で開催されました．100人ほど集まり楽しいパーティでした．田中康夫さんや阿部知子さんも来られました．<br />折しも，PISAテストで15歳の読解力の低下が指摘されていますが，国民もマスコミも読解力のない社会になりました．論点を次々にずらしたり，揚げ足取りで本論から逸脱させたり，部分否定と全否定をすり替えたり，必要条件と十分条件を区別しなかったり，みな詭弁への道で，まともな議論になりません．論理的な普通の読解力で憲法を読むというこの本のアイデアは画期的な問題提起と思います．一読をお勧めします．<br />数学月間の会から4名が参加しました．</p>	</article>
+	</div>
+</section>
+
+<section id="frame-104" class="frame panel-none nc-content-list plugin-announcements">
+	
+	<div class="panel-body block">
+		
+
+	<article>
+		<p><strong><span style="color:#ff0000;">終了しました---</span></strong></p>
+<p><strong><span style="color:#000000;">■東京ジャーミイのチャリティ・バザーにて，万華鏡のワークショップを開催（11月30日）</span></strong></p>
+<p><span style="color:#000000;"><a href="https://tokyocamii.org/ja/notice/2034/?fbclid=IwAR0rZIzh-tADQl3oC6z1HayNUyeKtkX5_mEmTk9H-Degu2nYktbkxNsotuU">https://tokyocamii.org/ja/notice/2034/?fbclid=IwAR0rZIzh-tADQl3oC6z1HayNUyeKtkX5_mEmTk9H-Degu2nYktbkxNsotuU</a></span></p>
+<p>3回クラスを開催し，分数型（24/11,24/11,12）の万華鏡を60人が作りました．</p>
+<p><img class="img-responsive nc3-img pull-left" title="" src="https://sgk2005.org/wysiwyg/image/download/6/667/medium" alt="" width="473" height="267" /></p>	</article>
+	</div>
+</section>
+
+<section id="frame-107" class="frame panel-none nc-content-list plugin-announcements">
+	
+	<div class="panel-body block">
+		
+
+	<article>
+		<p><span style="color:#ff0000;"><strong>終了しました---</strong></span></p>
+<p><span style="color:#000000;"><strong>■東京ジャーミイ11月の特別公開文化講座（11月16日）<br />「ジャーミイの模様の幾何学　～美しいものには理由がある～」</strong></span></p>
+<p><span style="color:#000000;"><a href="https://tokyocamii.org/ja/lectures/1264/?fbclid=IwAR3qRAI-VsnEYrl7WDMs4azUx4QdTpQsFFpHOY5Rg4bE9hkJbQu6Pdhj-YU">https://tokyocamii.org/ja/lectures/1264/?fbclid=IwAR3qRAI-VsnEYrl7WDMs4azUx4QdTpQsFFpHOY5Rg4bE9hkJbQu6Pdhj-YU</a></span></p>
+<p><span style="color:#000000;">150人を超す参加者があり嬉しい悲鳴ですが，立ち見や配布資料の不足がでました．</span></p>	</article>
+	</div>
+</section>
+
+<section id="frame-108" class="frame panel-none nc-content-list plugin-announcements">
+	
+	<div class="panel-body block">
+		
+
+	<article>
+		<p><span style="color:#ff0000;"><strong>終了しました---</strong></span></p>
+<p><span style="color:#000000;">参加２０人で活発な質疑が行われました．<strong><br />■数学月間企画講演会（１）</strong></span></p>
+<p><span style="color:#000000;"><strong><img class="img-responsive nc3-img nc3-img-block pull-left" title="" src="https://sgk2005.org/wysiwyg/image/download/6/669/big" alt="" width="555" height="418" /></strong></span></p>	</article>
+	</div>
+</section>
+
+<section id="frame-111" class="frame panel-none nc-content-list plugin-announcements">
+	
+	<div class="panel-body block">
+		
+
+	<article>
+		<p><strong><span style="color:#ff0000;">終了しました---</span></strong></p>
+<p><span style="color:#000000;"><strong>■とっとり・サイエンス・ワールド・2019</strong></span></p>
+<p><span style="color:#000000;"><strong>・2019.7.28.　in米子<br />　とっとりサイエンスワールドin米子は，全来訪者891人だそうです．万華鏡は120人です．<br /></strong></span></p>
+<p><span style="color:#000000;"><strong>・2019.8.4　in鳥取<br />　とっとりサイエンスワールドin鳥取は，多くの高校生，中学生ボランティアが参加し，全入場者は1,086人とか．<br />　万華鏡は120人が作った．<br /></strong></span></p>
+<p><span style="color:#000000;"><strong>・2019.8.25　in倉吉<br />　とっとりサイエンスワールドin倉吉は，1,090人の参加で盛況でした．万華鏡は30人x5回実施．<br /></strong></span></p>
+<p> </p>	</article>
+	</div>
+</section>
+
+<section id="frame-112" class="frame panel-none nc-content-list plugin-announcements">
+	
+	<div class="panel-body block">
+		
+
+	<article>
+		<p><strong><span style="color:#ff0000;">終了しました---</span></strong></p>
+<p><span style="color:#000000;"><strong>■数学月間懇話会（第15回）</strong></span></p>
+<p><span style="color:#000000;">7月22日の数学月間懇話会は，教室定員の40人の参加で楽しく盛り上がりました．秋葉忠利（前広島市長）さんの講演で，憲法を公理体系として読みいろいろな定理を導くという発想は面白い．例えば，改正不可条項が導けます．都合に合わせた憲法改正はできないようになっているのですよ．きちんと憲法遵守を考えよう．<br /><img class="img-responsive nc3-img pull-left" title="" src="https://sgk2005.org/wysiwyg/image/download/6/673/medium" alt="" /><br /></span></p>
+<p> </p>
+<p> </p>
+<p><span style="color:#000000;"><strong><img class="img-responsive nc3-img nc3-img-block pull-left" title="" src="https://sgk2005.org/wysiwyg/image/download/6/671/big" alt="" width="455" height="341" /></strong></span></p>	</article>
+	</div>
+</section>
+
+<section id="frame-114" class="frame panel-none nc-content-list plugin-announcements">
+	
+	<div class="panel-body block">
+		
+
+	<article>
+		<p><span style="color:#ff0000;"><strong>終了しました---</strong></span></p>
+<p><span style="color:#000000;"><strong>■総会</strong></span></p>
+<p><img class="img-responsive nc3-img nc3-img-block pull-left" title="" src="https://sgk2005.org/wysiwyg/image/download/6/677/big" alt="" /></p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p><span style="color:#000000;"><strong>総会議決を受けて，お陰様で6月25日に，提出書類の投函準備が整いました．都庁必着は28日です．</strong></span></p>
+<p><span style="color:#000000;"><strong><img class="img-responsive nc3-img nc3-img-block pull-left" title="" src="https://sgk2005.org/wysiwyg/image/download/6/676/big" alt="" width="625" height="468" /></strong></span></p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p><span style="color:#000000;"><strong>なお，理事会は6月10日に実施しました．<br /></strong></span></p>	</article>
+	</div>
+</section>
+
+<section id="frame-113" class="frame panel-none nc-content-list plugin-announcements">
+	
+	<div class="panel-body block">
+		
+
+	<article>
+		<p><strong><span style="background-color:#ffffff;color:#ff0000;">終了しました---<br /><span style="color:#000000;">■万華鏡ワークショップ</span><br /></span></strong></p>
+<p><strong><span style="background-color:#ffffff;color:#ff0000;"><img class="img-responsive nc3-img nc3-img-block pull-left" title="" src="https://sgk2005.org/wysiwyg/image/download/6/674/big" alt="" /></span></strong></p>	</article>
+	</div>
+</section>
+</div></div>
+</div>
+				
+<div id="container-major" class="col-md-3 col-md-pull-9">
+	
+<div class="boxes-2">
+	<div id="box-18">
+<section class="frame panel panel-danger nc-content-list plugin-links">
+			<div class="panel-heading clearfix">
+						<span>リンクリスト</span>
+
+					</div>
+	
+	<div class="panel-body block">
+		
+<div class="nc-content-list" ng-controller="LinksIndex"
+	 ng-init="initialize({&quot;Frame&quot;:{&quot;id&quot;:&quot;281&quot;},&quot;Block&quot;:{&quot;id&quot;:&quot;16&quot;},&quot;Link&quot;:{&quot;id&quot;:null,&quot;key&quot;:null},&quot;_Token&quot;:{&quot;key&quot;:&quot;907ea0f7de95ea86ff33eade5f23b5d8ae8d440df78934483813e8a255cc71282de4f97f7dcbe5bcb2fb3a9de6ff455b3252bf3365a47c21c3e0f835ce72209f&quot;,&quot;fields&quot;:&quot;b7498b89aa939633d7832036b96de5075f01eb03%3ABlock.id%7CFrame.id&quot;,&quot;unlocked&quot;:&quot;Link.id&quot;}})">
+
+		
+		<header class="text-right">
+			
+					</header>
+
+		
+<div class="btn-group nc-input-dropdown links-index-dropdown">
+	<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+		<div class="clearfix">
+			<div class="pull-left">
+				数学関連リンク			</div>
+			<div class="pull-right">
+				<span class="caret"> </span>
+			</div>
+		</div>
+	</button>
+	<ul class="dropdown-menu" role="menu">
+		<li class="divider"> </li>
+																				<li>
+							<span class="nc-dropdown-block">
+								<strong></strong>
+							</span>
+						</li>
+					
+											<li>
+							<div class="nc-dropdown-block">
+								
+<a href="http://www.ams.org/samplings/math-awareness-month/mam" onclick="return false;" ng-click="clickLink($event, '5', '3c5076223c38b2e778cec551fb68db67')" target="_blank">Mathematics Awareness Month</a>
+	<span class="badge" id="nc-badge-281-5">
+		13	</span>
+
+								
+							</div>
+						</li>
+											<li>
+							<div class="nc-dropdown-block">
+								
+<a href="http://www.nippyo.co.jp/blog_susemi/keijiban" onclick="return false;" ng-click="clickLink($event, '6', '314e65387fff14ac9836c3fd9a5f5c57')" target="_blank">数セミメディアガイド(イベント情報) | 数学セミナー詳細情報</a>
+	<span class="badge" id="nc-badge-281-6">
+		25	</span>
+
+								
+							</div>
+						</li>
+											<li>
+							<div class="nc-dropdown-block">
+								
+<a href="http://mathsoc.jp/" onclick="return false;" ng-click="clickLink($event, '7', 'ff604293a6f837fa0dd0241c920eb327')" target="_blank">The Mathematical Society of Japan (MSJ)</a>
+	<span class="badge" id="nc-badge-281-7">
+		8	</span>
+
+								
+							</div>
+						</li>
+											<li>
+							<div class="nc-dropdown-block">
+								
+<a href="http://www.mag2.com/m/0001633088.html" onclick="return false;" ng-click="clickLink($event, '8', '35e72e219326dc120036dcf9cb5175ea')" target="_blank">まぐまぐメルマガ_数学月間SGK通信</a>
+	<span class="badge" id="nc-badge-281-8">
+		12	</span>
+
+								
+							</div>
+						</li>
+											<li>
+							<div class="nc-dropdown-block">
+								
+<a href="http://www.sugaku-bunka.org/%E6%95%B0%E5%AD%A6%E6%9C%88%E9%96%93%E3%81%AE%E4%BC%9A/" onclick="return false;" ng-click="clickLink($event, '9', '4b5f3c51df79db4136b86a4b1a960769')" target="_blank">数学月間の会 - 日本数学協会</a>
+	<span class="badge" id="nc-badge-281-9">
+		68	</span>
+
+								
+							</div>
+						</li>
+											<li>
+							<div class="nc-dropdown-block">
+								
+<a href="http://aozoragakuen.sakura.ne.jp/" onclick="return false;" ng-click="clickLink($event, '10', '37bdba4cca7ab944262dac720374245d')" target="_blank">青空学園数学科</a>
+	<span class="badge" id="nc-badge-281-10">
+		24	</span>
+
+								
+							</div>
+						</li>
+											<li>
+							<div class="nc-dropdown-block">
+								
+<a href="http://math1.edu.mie-u.ac.jp/kanie/" onclick="return false;" ng-click="clickLink($event, '11', '9f748e741048acfaf4e4c71f5ca31d0a')" target="_blank">蟹江研究室ホームページ(旧)</a>
+	<span class="badge" id="nc-badge-281-11">
+		18	</span>
+
+								
+							</div>
+						</li>
+											<li>
+							<div class="nc-dropdown-block">
+								
+<a href="http://kanielabo.org/edmath/index.htm" onclick="return false;" ng-click="clickLink($event, '30', '9f2f0685dd270683bed4a850a90dccda')" target="_blank">教育数学_蟹江ラボ</a>
+	<span class="badge" id="nc-badge-281-30">
+		2	</span>
+
+								
+							</div>
+						</li>
+											<li>
+							<div class="nc-dropdown-block">
+								
+<a href="https://sgk2005.org/" onclick="return false;" ng-click="clickLink($event, '12', 'bf5c1e5778363e6b3019803304308774')" target="_blank">数学月間の会（旧HP）</a>
+	<span class="badge" id="nc-badge-281-12">
+		49	</span>
+
+								
+							</div>
+						</li>
+											<li>
+							<div class="nc-dropdown-block">
+								
+<a href="https://rikunora.hatenablog.com/" onclick="return false;" ng-click="clickLink($event, '13', '3474c067225d5fe2ad5926194accf5ae')" target="_blank">小人さんの妄想</a>
+	<span class="badge" id="nc-badge-281-13">
+		21	</span>
+
+								
+							</div>
+						</li>
+											<li>
+							<div class="nc-dropdown-block">
+								
+<a href="http://www.mathstatmonth.org/" onclick="return false;" ng-click="clickLink($event, '14', '3c41a1faaada6dda53b202cd7466fb1d')" target="_blank">MSAM</a>
+	<span class="badge" id="nc-badge-281-14">
+		3	</span>
+
+								
+							</div>
+						</li>
+											<li>
+							<div class="nc-dropdown-block">
+								
+<a href="http://www.fairfax-mathcircle.org/" onclick="return false;" ng-click="clickLink($event, '15', '30601d6e87e25257715ab8e2bc3a09d0')" target="_blank">FMC</a>
+	<span class="badge" id="nc-badge-281-15">
+		1	</span>
+
+								
+							</div>
+						</li>
+											<li>
+							<div class="nc-dropdown-block">
+								
+<a href="https://www.nationalmathfestival.org/more-math/" onclick="return false;" ng-click="clickLink($event, '16', '2e0bcc3a87b408202a776b11d95bf5c1')" target="_blank">NMF</a>
+	<span class="badge" id="nc-badge-281-16">
+		2	</span>
+
+								
+							</div>
+						</li>
+											<li>
+							<div class="nc-dropdown-block">
+								
+<a href="https://www.sukyoken.jp/" onclick="return false;" ng-click="clickLink($event, '17', 'e380105eb56acc0ef7e1e065be83e152')" target="_blank">数学教育研究会</a>
+	<span class="badge" id="nc-badge-281-17">
+		21	</span>
+
+								
+							</div>
+						</li>
+											<li>
+							<div class="nc-dropdown-block">
+								
+<a href="http://polyhedra.html.xdomain.jp/" onclick="return false;" ng-click="clickLink($event, '18', '35668f7eee59573547761f3df00166ab')" target="_blank">多面体の一覧表（出原 理）</a>
+	<span class="badge" id="nc-badge-281-18">
+		4	</span>
+
+								
+							</div>
+						</li>
+											<li>
+							<div class="nc-dropdown-block">
+								
+<a href="https://npo-ista.org/" onclick="return false;" ng-click="clickLink($event, '20', '5f89341717c1c2d70f411c47766436b8')" target="_blank">NPOイスタ（ISTA)</a>
+	<span class="badge" id="nc-badge-281-20">
+		5	</span>
+
+								
+							</div>
+						</li>
+											<li>
+							<div class="nc-dropdown-block">
+								
+<a href="https://www.collegium.or.jp/~kutomi/index.php" onclick="return false;" ng-click="clickLink($event, '22', 'f109539bdb4b8aebe112d5de8f70f897')" target="_blank">久富望さんのHP（教材研究）</a>
+	<span class="badge" id="nc-badge-281-22">
+		5	</span>
+
+								
+							</div>
+						</li>
+											<li>
+							<div class="nc-dropdown-block">
+								
+<a href="https://old.elementy.ru/" onclick="return false;" ng-click="clickLink($event, '23', '7378b167c23a1e31547886995b27e6c2')" target="_blank">ロシアの科学elements</a>
+	<span class="badge" id="nc-badge-281-23">
+		0	</span>
+
+								
+							</div>
+						</li>
+											<li>
+							<div class="nc-dropdown-block">
+								
+<a href="http://kvant.mccme.ru/rub/12.htm" onclick="return false;" ng-click="clickLink($event, '24', '0b09649e8f4191ef353c255e20f593f4')" target="_blank">ロシアの科学kvant</a>
+	<span class="badge" id="nc-badge-281-24">
+		0	</span>
+
+								
+							</div>
+						</li>
+											<li>
+							<div class="nc-dropdown-block">
+								
+<a href="http://eqworld.ipmnet.ru/index.htm" onclick="return false;" ng-click="clickLink($event, '25', '02a165f7593cbcfbd16a65e009f41f2e')" target="_blank">Mathematical Equations - EqWorld</a>
+	<span class="badge" id="nc-badge-281-25">
+		1	</span>
+
+								
+							</div>
+						</li>
+											<li>
+							<div class="nc-dropdown-block">
+								
+<a href="https://old.elementy.ru/catalog?type=29" onclick="return false;" ng-click="clickLink($event, '28', 'ba254e317df69a4d69ea85164739b1c2')" target="_blank">ロシアの数学科学</a>
+	<span class="badge" id="nc-badge-281-28">
+		3	</span>
+
+								
+							</div>
+						</li>
+											<li>
+							<div class="nc-dropdown-block">
+								
+<a href="https://old.elementy.ru/" onclick="return false;" ng-click="clickLink($event, '27', '12f81c16b37632744b9ba8b7bd6ab179')" target="_blank">ロシアの科学elements</a>
+	<span class="badge" id="nc-badge-281-27">
+		1	</span>
+
+								
+							</div>
+						</li>
+											<li>
+							<div class="nc-dropdown-block">
+								
+<a href="http://kvant.mccme.ru/rub/12.htm" onclick="return false;" ng-click="clickLink($event, '29', '5e76fafefe5625381ebc4c2670d9c57f')" target="_blank">ロシア雑誌kvantアーカイブ</a>
+	<span class="badge" id="nc-badge-281-29">
+		1	</span>
+
+								
+							</div>
+						</li>
+											<li>
+							<div class="nc-dropdown-block">
+								
+<a href="https://etudes.ru/" onclick="return false;" ng-click="clickLink($event, '32', '02c4d38dc103969d3e72cd4c84f250b8')" target="_blank">ロシアの美しい数学</a>
+	<span class="badge" id="nc-badge-281-32">
+		9	</span>
+
+								
+							</div>
+						</li>
+					
+					<li class="divider"> </li>
+										</ul>
+</div>
+</div>
+	</div>
+</section>
+</div><div id="box-72">
+<section class="frame panel panel-info nc-content-list plugin-menus">
+			<div class="panel-heading clearfix">
+						<span>メニュー</span>
+
+					</div>
+	
+	<div class="panel-body block">
+		<nav ng-controller="MenusController"><div class="list-group"><a href="/news_info" id="MenuFramesPageMajor2586" class="list-group-item clearfix menu-tree-0 active"><span class="pull-left">イベント情報★参加登録</span><span class="pull-right"><span class="glyphicon glyphicon-menu-down"> </span> </span></a><a href="/news_info/page_Event" id="MenuFramesPageMajor25885" class="list-group-item clearfix menu-tree-1"><span class="pull-left">数学まつり情報★参加登録</span><span class="pull-right"><span class="glyphicon glyphicon-menu-right"> </span> </span></a><a href="/news_info/page_20221214231128" id="MenuFramesPageMajor25884" class="list-group-item clearfix menu-tree-1"><span class="pull-left">数学月間講演会情報★参加登録</span><span class="pull-right"></span></a><a href="/news_info/page_20221214231128/sobraniedok" id="MenuFramesPageMajor25881" class="list-group-item clearfix menu-tree-1"><span class="pull-left">会員用お知らせ★総会等</span><span class="pull-right"></span></a></div></nav>	</div>
+</section>
+
+<section class="frame panel panel-default nc-content-list plugin-topics">
+			<div class="panel-heading clearfix">
+						<span>新着</span>
+
+					</div>
+	
+	<div class="panel-body block">
+		
+
+<header>
+			
+<span class="btn-group">
+	<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+		7日分		<span class="caret"></span>
+	</button>
+	<ul class="dropdown-menu" role="menu">
+					<li>
+				<a href="/topics/topics/index/days:1?frame_id=332">1日分</a>			</li>
+					<li>
+				<a href="/topics/topics/index/days:3?frame_id=332">3日分</a>			</li>
+					<li>
+				<a href="/topics/topics/index/days:7?frame_id=332">7日分</a>			</li>
+					<li>
+				<a href="/topics/topics/index/days:14?frame_id=332">14日分</a>			</li>
+					<li>
+				<a href="/topics/topics/index/days:30?frame_id=332">30日分</a>			</li>
+			</ul>
+</span>
+	
+	
+	</header>
+
+
+<article id="topic-frame-332"
+			ng-controller="TopicsController" ng-init="initialize({&quot;named&quot;:{&quot;page&quot;:&quot;1&quot;},&quot;paging&quot;:{&quot;page&quot;:1,&quot;current&quot;:1,&quot;count&quot;:1,&quot;prevPage&quot;:false,&quot;nextPage&quot;:false,&quot;pageCount&quot;:1,&quot;limit&quot;:100,&quot;queryScope&quot;:null},&quot;params&quot;:{&quot;frame_id&quot;:&quot;332&quot;}}); hashChange();" ng-cloak>
+			
+<article class="topic-row-outer">
+	<div class="clearfix">
+		<div class="pull-left topic-title">
+			<a href="https://sgk2005.org/cabinets/cabinet_files/view/88/4d7c8306730c73ef366943236d78af6f?frame_id=126" ng-click="link($event)">
+				数学月間2026-11-8 継手と仕口　手嶋_compressed.pdf			</a>
+		</div>
+
+		<div class="pull-left topic-status" ng-show="">
+					</div>
+
+					<div class="pull-left topic-plugin-name">
+				<span class="label label-default">
+					キャビネット				</span>
+			</div>
+		
+		
+					<div class="pull-left topic-room-name">
+				会員の交流広場			</div>
+		
+							
+			</div>
+		<div class="media">
+		<div class="media-body">
+					</div>
+			</div>
+	</article>
+	
+	
+<article class="topic-row-outer" ng-repeat="item in topics track by $index">
+	<div class="clearfix">
+		<div class="pull-left topic-title">
+			<a ng-href="{{item.Topic.url}}" ng-click="link($event)">
+				{{item.Topic.display_title}}
+			</a>
+		</div>
+
+		<div class="pull-left topic-status" ng-show="(item.Topic.display_status !== '')">
+			<span ng-bind-html="item.Topic.display_status | ncHtmlContent"></span>
+		</div>
+
+					<div class="pull-left topic-plugin-name">
+				<span class="label label-default">
+					{{item.Plugin.display_name}}
+				</span>
+			</div>
+		
+		
+					<div class="pull-left topic-room-name">
+				{{item.RoomsLanguage.display_name}}
+			</div>
+		
+					<div class="pull-left topic-category-name" ng-show="item.CategoriesLanguage.name">
+				{{item.CategoriesLanguage.display_name}}
+			</div>
+		
+			</div>
+
+		<div class="media">
+		<div class="media-body">
+					</div>
+					<div class="media-right" ng-show="item.Topic.thumbnail_path">
+				<a ng-href="{{item.Topic.url}}" ng-click="link($event)">
+					<img class="topic-thumbnail" ng-src="{{item.Topic.thumbnail_url}}" alt="">
+				</a>
+			</div>
+			</div>
+	</article>
+
+	<div class="form-group" ng-show="paging.nextPage">
+		<button type="button" class="btn btn-info btn-block btn-sm" ng-click="more()">
+			もっと見る		</button>
+	</div>
+</article>
+	</div>
+</section>
+</div></div>
+</div>
+
+
+							</div>
+
+			
+<footer id="container-footer" role="contentinfo">
+	
+<div class="boxes-5">
+	<div id="box-20"></div></div>
+</footer>
+
+		</main>
+
+		<footer id="nc-system-footer" role="contentinfo">
+	<div class="box-footer">
+		<div class="copyright">Powered by NetCommons</div>
+	</div>
+</footer>
+
+<script type="text/javascript">
+$(function() {
+	$(document).on('keypress', 'input:not(.allow-submit)', function(event) {
+		return event.which !== 13;
+	});
+	$('article > blockquote').css('display', 'none');
+	$('<button class="btn btn-default nc-btn-blockquote"><span class="glyphicon glyphicon-option-horizontal" aria-hidden="true"></span> </button>')
+		.insertBefore('article > blockquote').on('click', function(event) {
+			$(this).next('blockquote').toggle();
+		});
+});
+</script>
+
+			</body>
+</html>
