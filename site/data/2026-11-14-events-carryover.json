@@ -23,41 +23,78 @@
     "family_fit": {
       "grade": "A",
       "overall": "A",
-      "rubric_version": "family-fit-v1",
-      "reason": "生き物を題材にした親子向け展示で、家族のおでかけ目的として明確。",
+      "rubric_version": "family-fit-v2",
+      "reason": "子どもに親しまれる本と本物の生き物の生態を見比べ、親子で驚きや発見を楽しめる。 展示観察が中心で触る体験とは案内されていない。料金とチケットの条件は詳細案内の確認が必要。",
       "axes": {
         "child_target": {
           "grade": "A",
-          "reason": "子ども・親子が楽しみやすい生き物展示。"
+          "reason": "子ども・親子のための内容を明記。 子どもに親しまれる本と本物の生き物の生態を見比べ、親子で驚きや発見を楽しめる。"
         },
         "interactivity": {
           "grade": "B",
-          "reason": "生体展示を見ながら発見・学びを楽しめる。"
+          "reason": "子どもに親しまれる本と本物の生き物の生態を見比べ、親子で驚きや発見を楽しめる。"
         },
         "age_fit": {
           "grade": "A",
-          "reason": "幼児・小学生を含む家族で楽しみやすい。"
+          "reason": "子どもに親しまれる本と本物の生き物の生態を見比べ、親子で驚きや発見を楽しめる。 展示観察が中心で触る体験とは案内されていない。料金とチケットの条件は詳細案内の確認が必要。"
         },
         "stay_flexibility": {
           "grade": "A",
-          "reason": "館内展示で滞在時間を調整しやすい。"
+          "reason": "展示・複数の活動や立ち寄る範囲を家族で選びやすい形式。 展示観察が中心で触る体験とは案内されていない。料金とチケットの条件は詳細案内の確認が必要。"
         },
         "burden": {
-          "grade": "A",
-          "reason": "屋内中心で天候の影響を受けにくい。"
+          "grade": "unknown",
+          "reason": "混雑・待ち時間・休憩や安全設備についての具体的根拠はなく、未記載を低負担とは判断しない。"
         },
         "cost": {
-          "grade": "B",
-          "reason": "特別展の入場料金が必要。"
+          "grade": "unknown",
+          "reason": "料金の十分な記載がなく、無料とは判断しない。"
         },
         "reservation": {
-          "grade": "B",
-          "reason": "入場条件はあるが大きな予約障壁は未確認。"
+          "grade": "unknown",
+          "reason": "入場・チケット条件は公式サイトで確認。 展示観察が中心で触る体験とは案内されていない。料金とチケットの条件は詳細案内の確認が必要。"
         },
         "family_value": {
           "grade": "A",
-          "reason": "生き物への興味と学びにつながる家族体験。"
+          "reason": "子どもに親しまれる本と本物の生き物の生態を見比べ、親子で驚きや発見を楽しめる。 展示観察が中心で触る体験とは案内されていない。料金とチケットの条件は詳細案内の確認が必要。"
         }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-14",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "child_program",
+        "child_activity_confirmed": false,
+        "strengths": [
+          "子どもに親しまれる本と本物の生き物の生態を見比べ、親子で驚きや発見を楽しめる。"
+        ],
+        "limitations": [
+          "展示観察が中心で触る体験とは案内されていない。料金とチケットの条件は詳細案内の確認が必要。"
+        ],
+        "grade_comparison": "総合A：子どもに親しまれる本と本物の生き物の生態を見比べ、親子で驚きや発見を楽しめる。 展示観察が中心で触る体験とは案内されていない。料金とチケットの条件は詳細案内の確認が必要。",
+        "unsupported_axes": [
+          "burden",
+          "cost",
+          "reservation"
+        ],
+        "evidence": [
+          {
+            "url": "https://sunshinecity.jp/aquarium/event_performance/event/entry-36530.html",
+            "quote": " Japanese English 简体中文 繁體中文 한국어 2026/03/13(金)～2026/11/23(月) サンシャイン水族館 特別展「ざんねんないきもの展３」 累計発行部数546万部超えの大人気書籍「ざんねんないきもの事典」とコラボした特別展。 “一生懸命なのにどこかざんねん”、“ざんねんだけど、愛おしい”個性豊かな生き物たちの生態を、サンシャイン水族館ならではの展示でお楽しみください。 詳細情報 開催期間 2026/03/13(金)～2026/11/23(月) 開催場所 サンシャイン水族館 行き方を見る 料金 このイベントをシェアする おすすめ情報 loading... レストラン < % item.title %> < % item.location %>",
+            "checked_at": "2026-11-14T16:51:25+09:00",
+            "sha256": "8b435e21b185f3caa4bc824f009118b47868c048285c6fe26003e8ed057f98fd"
+          }
+        ]
       }
     },
     "reservation": {

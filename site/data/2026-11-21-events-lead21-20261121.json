@@ -1,0 +1,320 @@
+[
+  {
+    "id": "verified-20261121-chiyoda-tokyo-shukakusai",
+    "ward": "千代田区",
+    "name": "TOKYO周穫祭2026（東京国際フォーラム）",
+    "url": "https://tokyo-syuukaku-sai.jp/",
+    "official_url": "https://tokyo-syuukaku-sai.jp/",
+    "source": "https://tokyo-syuukaku-sai.jp/",
+    "image": "https://tokyo-syuukaku-sai.jp/assets/img/ogp/2026/ja.png",
+    "period": "11/21(土)",
+    "date_start": "2026-11-21",
+    "date_end": "2026-11-21",
+    "time": "10:00〜18:00",
+    "venue": "東京国際フォーラム 地上広場・ロビーギャラリー（東京都千代田区丸の内3丁目5番1号）",
+    "price": "ワークショップは参加費無料（公式サイト）。入場料の記載なし",
+    "description": "東京都と東京観光財団が都内の観光協会等と開く、観光とグルメのイベント。特産品・ご当地グルメ、360度VR体験、足湯、職人の実演、スタンプラリーのほか、11/21はネームプレート作り・ヒノキのお箸作り・ストラップ作りの親子でも楽しめるワークショップ（参加費無料、会場で抽選券を受け取り抽選）がある。",
+    "categories": [
+      "まつり・イベント",
+      "体験・ワークショップ"
+    ],
+    "indoor_outdoor": "屋内・屋外",
+    "reservation": {
+      "required": null,
+      "note": "入場の事前申込の記載なし。ワークショップは会場で抽選券を受け取り1日3回の抽選に応募（9歳以下は保護者1名と一緒に参加、1組1回まで）。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "公式サイトと東京都の報道発表に親子でも楽しめるワークショップがあると記載があり、11/21はネームプレート作り・ヒノキのお箸作り・ストラップ作りを体験できる。",
+      "axes": {
+        "child_target": {
+          "grade": "B",
+          "reason": "東京都の報道発表に「親子でも楽しめるワークショップ」とあるが、全体は幅広い年代向けの観光イベント"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "ワークショップ、足湯、VR体験、溶岩ウォーク、スタンプラリーなど体験が多い"
+        },
+        "age_fit": {
+          "grade": "B",
+          "reason": "9歳以下は保護者1名と参加と明記。ワークショップはお子さまから大人まで"
+        },
+        "stay_flexibility": {
+          "grade": "A",
+          "reason": "終日の開催で好きなブースを選べる"
+        },
+        "burden": {
+          "grade": "B",
+          "reason": "ワークショップは抽選で、当選しても集合時間に遅れると参加できない"
+        },
+        "cost": {
+          "grade": "unknown",
+          "reason": "ワークショップは参加費無料だが、入場料の記載がない"
+        },
+        "reservation": {
+          "grade": "unknown",
+          "reason": "入場の事前申込の記載がなく、ワークショップは会場での抽選"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "工芸品づくりなどの体験と飲食・実演を親子で一か所で楽しめる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-21",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "all_ages",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "親子でも楽しめるワークショップが無料",
+          "VR・足湯・実演・スタンプラリーなど体験が多い"
+        ],
+        "limitations": [
+          "ワークショップは抽選で当たらない場合がある",
+          "入場料や各ブースの費用が公式ページに明記されていない"
+        ],
+        "grade_comparison": "総合B：11/21は東京国際フォーラムで10:00〜18:00に体験を選べ、ネームプレート作りなど3種の無料ワークショップがあるが、抽選制で、入場料の記載がない。",
+        "unsupported_axes": [
+          "cost",
+          "reservation"
+        ],
+        "evidence": [
+          {
+            "url": "https://tokyo-syuukaku-sai.jp/",
+            "quote": "1名につき保護者1名と一緒にご参加ください。",
+            "checked_at": "2026-11-21",
+            "sha256": "4996b5cff694dcf1d76bd60fd929d51f2fffb05c28afd682debe677cbcdccc56",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://tokyo-syuukaku-sai.jp/",
+            "quote": "抽選券の配布・抽選は1日3回、時間を分けて行います。",
+            "checked_at": "2026-11-21",
+            "sha256": "65e55838e379b7f411dcd69278ddd2d51f68b1be2785a78b823c7d01ee738ac0",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://tokyo-syuukaku-sai.jp/",
+            "quote": "高級木材でネームプレートをつくろう",
+            "checked_at": "2026-11-21",
+            "sha256": "856ddffe6848c69d874ab8c42dd28abd83b49985ad9d73233d2573cff5d760c8",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://tokyo-syuukaku-sai.jp/",
+            "quote": "東京の木で作る、ヒノキのお箸作り",
+            "checked_at": "2026-11-21",
+            "sha256": "8000a6aea566b4df20de43824674b87033265b25eadf6f9d8e3adcbf395e1a05",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.metro.tokyo.lg.jp/information/press/2026/08/2026082612",
+            "quote": "令和8年11月21日（土曜日）10時00分～18時00分",
+            "checked_at": "2026-11-21",
+            "sha256": "ff066986452cc8103248c3e073c11059ad4fa5b429ccf82adb2d6d1757a8e264",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。"
+          },
+          {
+            "url": "https://www.metro.tokyo.lg.jp/information/press/2026/08/2026082612",
+            "quote": "東京国際フォーラム　地上広場・ロビーギャラリー（東京都千代田区丸の内3丁目5番1号）",
+            "checked_at": "2026-11-21",
+            "sha256": "e0d8ef08fc10fff759fd19e287c3caf9ac114b9457f4fa4ffb7a7055241288d4",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。"
+          },
+          {
+            "url": "https://www.metro.tokyo.lg.jp/information/press/2026/08/2026082612",
+            "quote": "親子でも楽しめるワークショップ（工芸品の製作体験等）",
+            "checked_at": "2026-11-21",
+            "sha256": "e5ddc3b80777d570c8508a203ea8e3b8df6fda1fce23c5b1a5edb1e4008f25d1",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-21",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  },
+  {
+    "id": "verified-20261122-chiyoda-tokyo-shukakusai",
+    "ward": "千代田区",
+    "name": "TOKYO周穫祭2026（東京国際フォーラム）",
+    "url": "https://tokyo-syuukaku-sai.jp/",
+    "official_url": "https://tokyo-syuukaku-sai.jp/",
+    "source": "https://tokyo-syuukaku-sai.jp/",
+    "image": "https://tokyo-syuukaku-sai.jp/assets/img/ogp/2026/ja.png",
+    "period": "11/22(日)",
+    "date_start": "2026-11-22",
+    "date_end": "2026-11-22",
+    "time": "10:00〜17:00",
+    "venue": "東京国際フォーラム 地上広場・ロビーギャラリー（東京都千代田区丸の内3丁目5番1号）",
+    "price": "ワークショップは参加費無料（公式サイト）。入場料の記載なし",
+    "description": "東京都と東京観光財団が都内の観光協会等と開く、観光とグルメのイベント。特産品・ご当地グルメ、360度VR体験、足湯、職人の実演、スタンプラリーのほか、11/22は食品サンプル作り・花の小物入れ作り・黒曜石キャンドル作りの親子でも楽しめるワークショップ（参加費無料、会場で抽選券を受け取り抽選）がある。",
+    "categories": [
+      "まつり・イベント",
+      "体験・ワークショップ"
+    ],
+    "indoor_outdoor": "屋内・屋外",
+    "reservation": {
+      "required": null,
+      "note": "入場の事前申込の記載なし。ワークショップは会場で抽選券を受け取り1日3回の抽選に応募（9歳以下は保護者1名と一緒に参加、1組1回まで）。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "公式サイトと東京都の報道発表に親子でも楽しめるワークショップがあると記載があり、11/22は食品サンプル作り・花の小物入れ作り・黒曜石キャンドル作りを体験できる。",
+      "axes": {
+        "child_target": {
+          "grade": "B",
+          "reason": "東京都の報道発表に「親子でも楽しめるワークショップ」とあるが、全体は幅広い年代向けの観光イベント"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "ワークショップ、足湯、VR体験、溶岩ウォーク、スタンプラリーなど体験が多い"
+        },
+        "age_fit": {
+          "grade": "B",
+          "reason": "9歳以下は保護者1名と参加と明記。ワークショップはお子さまから大人まで"
+        },
+        "stay_flexibility": {
+          "grade": "A",
+          "reason": "終日の開催で好きなブースを選べる"
+        },
+        "burden": {
+          "grade": "B",
+          "reason": "ワークショップは抽選で、当選しても集合時間に遅れると参加できない"
+        },
+        "cost": {
+          "grade": "unknown",
+          "reason": "ワークショップは参加費無料だが、入場料の記載がない"
+        },
+        "reservation": {
+          "grade": "unknown",
+          "reason": "入場の事前申込の記載がなく、ワークショップは会場での抽選"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "工芸品づくりなどの体験と飲食・実演を親子で一か所で楽しめる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-21",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "all_ages",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "親子でも楽しめるワークショップが無料",
+          "VR・足湯・実演・スタンプラリーなど体験が多い"
+        ],
+        "limitations": [
+          "ワークショップは抽選で当たらない場合がある",
+          "入場料や各ブースの費用が公式ページに明記されていない"
+        ],
+        "grade_comparison": "総合B：11/22は東京国際フォーラムで10:00〜17:00に体験を選べ、食品サンプル作りなど3種の無料ワークショップがあるが、抽選制で、入場料の記載がない。",
+        "unsupported_axes": [
+          "cost",
+          "reservation"
+        ],
+        "evidence": [
+          {
+            "url": "https://tokyo-syuukaku-sai.jp/",
+            "quote": "1名につき保護者1名と一緒にご参加ください。",
+            "checked_at": "2026-11-21",
+            "sha256": "4996b5cff694dcf1d76bd60fd929d51f2fffb05c28afd682debe677cbcdccc56",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://tokyo-syuukaku-sai.jp/",
+            "quote": "抽選券の配布・抽選は1日3回、時間を分けて行います。",
+            "checked_at": "2026-11-21",
+            "sha256": "65e55838e379b7f411dcd69278ddd2d51f68b1be2785a78b823c7d01ee738ac0",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://tokyo-syuukaku-sai.jp/",
+            "quote": "食品サンプルづくり「かき氷」",
+            "checked_at": "2026-11-21",
+            "sha256": "a684980f581092ba8f07689427c0c3e6c85c13b1d70cb7da96072a8bea764263",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://tokyo-syuukaku-sai.jp/",
+            "quote": "着物のはぎれでつくる花の小物入れ",
+            "checked_at": "2026-11-21",
+            "sha256": "b45cbe80378d6c20e995b97cc6a97b81c723c3ce908df95dbc979dc8e260dc9c",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.metro.tokyo.lg.jp/information/press/2026/08/2026082612",
+            "quote": "令和8年11月22日（日曜日）10時00分～17時00分",
+            "checked_at": "2026-11-21",
+            "sha256": "db49c8faefefd6bc8c45cce27f596754fae5ba21e36666daeae64ef49c0c07a4",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。"
+          },
+          {
+            "url": "https://www.metro.tokyo.lg.jp/information/press/2026/08/2026082612",
+            "quote": "東京国際フォーラム　地上広場・ロビーギャラリー（東京都千代田区丸の内3丁目5番1号）",
+            "checked_at": "2026-11-21",
+            "sha256": "e0d8ef08fc10fff759fd19e287c3caf9ac114b9457f4fa4ffb7a7055241288d4",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。"
+          },
+          {
+            "url": "https://www.metro.tokyo.lg.jp/information/press/2026/08/2026082612",
+            "quote": "親子でも楽しめるワークショップ（工芸品の製作体験等）",
+            "checked_at": "2026-11-21",
+            "sha256": "e5ddc3b80777d570c8508a203ea8e3b8df6fda1fce23c5b1a5edb1e4008f25d1",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-21",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  }
+]

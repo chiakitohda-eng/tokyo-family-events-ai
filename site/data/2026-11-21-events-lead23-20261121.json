@@ -1,0 +1,150 @@
+[
+  {
+    "id": "verified-20261121-edogawa-kasai-micro-daisakusen",
+    "ward": "江戸川区",
+    "name": "マイクロ大作戦 〜ミライの海を守ろう〜（葛西海浜公園）",
+    "url": "https://kasaikaihinpark.com/event/%e5%b8%b0%e3%81%a3%e3%81%a6%e3%81%8d%e3%81%9f%ef%bc%81%e3%83%9e%e3%82%a4%e3%83%97%e3%83%a9%e6%8e%a2%e6%a4%9c%e9%9a%8a%ef%bc%81/",
+    "official_url": "https://kasaikaihinpark.com/event/%e5%b8%b0%e3%81%a3%e3%81%a6%e3%81%8d%e3%81%9f%ef%bc%81%e3%83%9e%e3%82%a4%e3%83%97%e3%83%a9%e6%8e%a2%e6%a4%9c%e9%9a%8a%ef%bc%81/",
+    "source": "https://kasaikaihinpark.com/event/%e5%b8%b0%e3%81%a3%e3%81%a6%e3%81%8d%e3%81%9f%ef%bc%81%e3%83%9e%e3%82%a4%e3%83%97%e3%83%a9%e6%8e%a2%e6%a4%9c%e9%9a%8a%ef%bc%81/",
+    "image": "",
+    "period": "11/21(土)",
+    "date_start": "2026-11-21",
+    "date_end": "2026-11-21",
+    "time": "11:00〜15:00",
+    "venue": "都立葛西海浜公園 西なぎさ（江戸川区臨海町）",
+    "price": "無料",
+    "description": "砂浜でごみを探すプラごみビンゴ（全年齢、各回20組）と、海に見立てたプールで魚の形の網を使う「すくえ！海ゴミバスターズ」（3歳以上、予約不要）で、海洋プラスチックごみを遊びながら学ぶ体験型イベント。専門学校の学生が運営し、参加無料・当日参加。",
+    "categories": [
+      "自然・公園",
+      "体験・ワークショップ"
+    ],
+    "indoor_outdoor": "屋外",
+    "reservation": {
+      "required": false,
+      "note": "当日参加。海ゴミバスターズは予約・受付不要で随時参加。プラごみビンゴは各回20組（原則2名1組）。"
+    },
+    "family_fit": {
+      "grade": "A",
+      "overall": "A",
+      "rubric_version": "family-fit-v2",
+      "reason": "小さな子どもから大人まで家族で参加でき、3歳以上が遊びながら海のごみ問題を学べる無料の体験。当日参加で、プラごみビンゴは各回20組の定員制。",
+      "axes": {
+        "child_target": {
+          "grade": "A",
+          "reason": "「小さなお子様から大人の方まで、ご家族で」と明記され、3歳以上が遊べるゲームがある"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "ビンゴ・網ですくうゲームなど参加型"
+        },
+        "age_fit": {
+          "grade": "A",
+          "reason": "海ゴミバスターズは3歳以上、ビンゴは全年齢と明記"
+        },
+        "stay_flexibility": {
+          "grade": "A",
+          "reason": "海ゴミバスターズは11:00〜14:30に随時参加できる"
+        },
+        "burden": {
+          "grade": "B",
+          "reason": "屋外開催で小雨決行・荒天中止。ビンゴは回ごとの定員制"
+        },
+        "cost": {
+          "grade": "A",
+          "reason": "参加費無料"
+        },
+        "reservation": {
+          "grade": "A",
+          "reason": "当日参加で、予約・受付は不要"
+        },
+        "family_value": {
+          "grade": "A",
+          "reason": "無料で家族が遊びながら海の環境を学べる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-21",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "child_program",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "無料・当日参加で3歳以上が遊べる",
+          "家族で参加できる"
+        ],
+        "limitations": [
+          "屋外で荒天中止",
+          "プラごみビンゴは各回20組の定員制"
+        ],
+        "grade_comparison": "総合A：家族向けの無料の体験で当日参加できる。屋外・荒天中止とビンゴの定員制が条件。",
+        "unsupported_axes": [],
+        "evidence": [
+          {
+            "url": "https://kasaikaihinpark.com/event/%e5%b8%b0%e3%81%a3%e3%81%a6%e3%81%8d%e3%81%9f%ef%bc%81%e3%83%9e%e3%82%a4%e3%83%97%e3%83%a9%e6%8e%a2%e6%a4%9c%e9%9a%8a%ef%bc%81/",
+            "quote": "2026 年 11 月 15 日（日）・11 月 21 日（土） 各日11時～15時",
+            "checked_at": "2026-11-21",
+            "sha256": "e6926de9660cb225691adb262f3d307bf18b057c165736a9306a6e6c71a86080",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://kasaikaihinpark.com/event/%e5%b8%b0%e3%81%a3%e3%81%a6%e3%81%8d%e3%81%9f%ef%bc%81%e3%83%9e%e3%82%a4%e3%83%97%e3%83%a9%e6%8e%a2%e6%a4%9c%e9%9a%8a%ef%bc%81/",
+            "quote": "小さなお子様から大人の方まで、 ご家族でお楽しみいただけます。",
+            "checked_at": "2026-11-21",
+            "sha256": "cc65df79b2e93424f226fbf42506041b1b9889fd886ba408de32a14ec49b5f06",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://kasaikaihinpark.com/event/%e5%b8%b0%e3%81%a3%e3%81%a6%e3%81%8d%e3%81%9f%ef%bc%81%e3%83%9e%e3%82%a4%e3%83%97%e3%83%a9%e6%8e%a2%e6%a4%9c%e9%9a%8a%ef%bc%81/",
+            "quote": "場所 都立葛西海浜公園 西なぎさ",
+            "checked_at": "2026-11-21",
+            "sha256": "6e9ab2b779d4794cb74f6d1705c7b0403a1f03f87c47b9cd29bd7ecdc7b942f0",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://kasaikaihinpark.com/event/%e5%b8%b0%e3%81%a3%e3%81%a6%e3%81%8d%e3%81%9f%ef%bc%81%e3%83%9e%e3%82%a4%e3%83%97%e3%83%a9%e6%8e%a2%e6%a4%9c%e9%9a%8a%ef%bc%81/",
+            "quote": "実施時間： 11:00〜14:30(予約・受付不要で随時参加できます。)",
+            "checked_at": "2026-11-21",
+            "sha256": "03f92fa0d8106aa5513c1b015eab2a0005d1e984e08699ed6c234ea9976f3731",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://kasaikaihinpark.com/event/%e5%b8%b0%e3%81%a3%e3%81%a6%e3%81%8d%e3%81%9f%ef%bc%81%e3%83%9e%e3%82%a4%e3%83%97%e3%83%a9%e6%8e%a2%e6%a4%9c%e9%9a%8a%ef%bc%81/",
+            "quote": "対象：3 歳以上 定員：制限なし",
+            "checked_at": "2026-11-21",
+            "sha256": "44efe7e8f14c1619bb9c5ad67670ce9bc52295a81dc65cb9cf3756e8f777c8eb",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://kasaikaihinpark.com/event/%e5%b8%b0%e3%81%a3%e3%81%a6%e3%81%8d%e3%81%9f%ef%bc%81%e3%83%9e%e3%82%a4%e3%83%97%e3%83%a9%e6%8e%a2%e6%a4%9c%e9%9a%8a%ef%bc%81/",
+            "quote": "参加費 無料 持ち物 持ち物 タオル、飲料水",
+            "checked_at": "2026-11-21",
+            "sha256": "d0c906f5ea79ad544d33e0b97b611688c0fdda7eef7d79174cd70a36e129b96e",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-21",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  }
+]

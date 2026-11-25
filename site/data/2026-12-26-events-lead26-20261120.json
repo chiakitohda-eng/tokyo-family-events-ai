@@ -1,0 +1,145 @@
+[
+  {
+    "id": "verified-20261227-mizunokagaku-clown_rio",
+    "ward": "江東区",
+    "name": "クラウン・リオのパフォーマンスショー（東京都水の科学館）",
+    "url": "https://www.mizunokagaku.jp/event/261227_clown_rio/",
+    "official_url": "https://www.mizunokagaku.jp/event/261227_clown_rio/",
+    "source": "https://www.mizunokagaku.jp/event/261227_clown_rio/",
+    "image": "",
+    "period": "12/27(日)",
+    "date_start": "2026-12-27",
+    "date_end": "2026-12-27",
+    "time": "①11:00〜 ②13:30〜",
+    "venue": "東京都水の科学館（江東区有明3-1-8）",
+    "price": "",
+    "description": "バルーンアート、ジャグリング、水のマジックが楽しめるミニサーカス。 小学生以下の子どもと保護者向けの催しで、整理券（各回の1時間前から配布、予約不可）が必要。",
+    "categories": [
+      "科学",
+      "水",
+      "体験"
+    ],
+    "indoor_outdoor": "屋内",
+    "reservation": {
+      "required": false,
+      "note": "予約不可。各回1時間前から1Fインフォメーションで整理券を配布。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "12/27(日)開催。クラウン・リオのパフォーマンスショーは、小学生以下のお子様を対象に、保護者同伴で参加する催し（各回先着60名）。",
+      "axes": {
+        "child_target": {
+          "grade": "A",
+          "reason": "対象が小学生以下のお子様と明記され、保護者同伴で参加する子ども向けの催し"
+        },
+        "interactivity": {
+          "grade": "B",
+          "reason": "ステージや紙芝居を見て楽しむのが中心"
+        },
+        "age_fit": {
+          "grade": "A",
+          "reason": "対象が小学生以下のお子様と明記"
+        },
+        "stay_flexibility": {
+          "grade": "B",
+          "reason": "①11:00〜、②13:30〜の2回など、時間が決まっている"
+        },
+        "burden": {
+          "grade": "B",
+          "reason": "整理券が必要で、定員（各回先着60名）に達すると参加できない"
+        },
+        "cost": {
+          "grade": "unknown",
+          "reason": "このページに参加費の記載がない"
+        },
+        "reservation": {
+          "grade": "B",
+          "reason": "予約はできず、各回の1時間前から整理券を配布（各回先着60名）"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "親子で楽しみながら水について学べる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-20",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "child_program",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "小学生以下向けで保護者と参加できる",
+          "水の科学館の催しで学びがある"
+        ],
+        "limitations": [
+          "参加費の記載がない",
+          "整理券が必要で定員がある"
+        ],
+        "grade_comparison": "総合B（12/27(日)）：小学生以下向けで学びのある催しだが、整理券が必要で定員が限られる。",
+        "unsupported_axes": [
+          "cost"
+        ],
+        "evidence": [
+          {
+            "url": "https://www.mizunokagaku.jp/event/261227_clown_rio/",
+            "quote": "開催日：2026年12月27日(日)",
+            "checked_at": "2026-11-20",
+            "sha256": "293efa4b2452153a28a39b4d752063f1a4b501d1e80f13faf8cba5f8aecd3e4f",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.mizunokagaku.jp/event/261227_clown_rio/",
+            "quote": "※当イベントは小学生以下のお子様を対象としております。",
+            "checked_at": "2026-11-20",
+            "sha256": "4fc362c02fbba3f6f228bf281c95bdcf40ee3603910889a3eb9f751db38edf21",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.mizunokagaku.jp/event/261227_clown_rio/",
+            "quote": "会場：1Fオリエンテーションルーム",
+            "checked_at": "2026-11-20",
+            "sha256": "b9f58814738e6ec0f28977f4450e52e8e2bc246f400dd82c2162dfaf1742090e",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.mizunokagaku.jp/event/261227_clown_rio/",
+            "quote": "各回1時間前から1Fインフォメーションにて整理券を配布いたします。",
+            "checked_at": "2026-11-20",
+            "sha256": "b85b5776b46925dd914ba1d839e6df4851566ea984e82473cbfc875d4e837911",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.mizunokagaku.jp/event/261227_clown_rio/",
+            "quote": "開催時間：①11:00～②13:30～",
+            "checked_at": "2026-11-20",
+            "sha256": "4b9f7501cc20d65474695da37c8a2d41af5eaa56f5a1f728ab8d6ca74f84b623",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-20",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  }
+]

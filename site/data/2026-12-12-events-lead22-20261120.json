@@ -1,0 +1,134 @@
+[
+  {
+    "id": "verified-20261213-adachi-shikahama-ohanashi",
+    "ward": "足立区",
+    "name": "おはなし会（足立区立鹿浜図書館・12月）",
+    "url": "https://kodomo-smile.metro.tokyo.lg.jp/events/3381",
+    "official_url": "https://kodomo-smile.metro.tokyo.lg.jp/events/3381",
+    "source": "https://kodomo-smile.metro.tokyo.lg.jp/events/3381",
+    "image": "",
+    "period": "12/13(日)（毎月第2日曜）",
+    "date_start": "2026-12-13",
+    "date_end": "2026-12-13",
+    "time": "14:00〜14:30",
+    "venue": "足立区立鹿浜図書館（足立区鹿浜6-8-1）",
+    "price": "無料",
+    "description": "絵本の読み聞かせなどのおはなし会。小学生以下の子どもと保護者が対象で、当日受付・定員10人。",
+    "categories": [
+      "絵本・読み聞かせ",
+      "図書館"
+    ],
+    "indoor_outdoor": "屋内",
+    "reservation": {
+      "required": false,
+      "note": "当日受付。定員10人。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "原則毎月第2日曜日に開かれる、小学生以下の子どもと保護者のためのおはなし会。当日受付で、定員は10人。",
+      "axes": {
+        "child_target": {
+          "grade": "A",
+          "reason": "小学生以下の子どもと保護者を対象にしたおはなし会"
+        },
+        "interactivity": {
+          "grade": "B",
+          "reason": "聞いて楽しむ読み聞かせが中心"
+        },
+        "age_fit": {
+          "grade": "A",
+          "reason": "対象が小学生以下と明記"
+        },
+        "stay_flexibility": {
+          "grade": "B",
+          "reason": "14:00〜14:30の30分のみ"
+        },
+        "burden": {
+          "grade": "A",
+          "reason": "近所の図書館で、当日受付"
+        },
+        "cost": {
+          "grade": "A",
+          "reason": "参加費の記載なし（公共図書館の行事）"
+        },
+        "reservation": {
+          "grade": "A",
+          "reason": "当日受付で予約不要"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "絵本の時間を親子で過ごせる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-20",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "child_program",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "当日受付で気軽",
+          "小学生以下が対象"
+        ],
+        "limitations": [
+          "定員10人と少ない",
+          "30分だけの短い行事"
+        ],
+        "grade_comparison": "総合B：当日受付で気軽に参加できる小学生以下向けの会だが、定員10人で時間も短い。",
+        "unsupported_axes": [],
+        "evidence": [
+          {
+            "url": "https://kodomo-smile.metro.tokyo.lg.jp/events/3381",
+            "quote": "2026年8月9日（日）原則毎月第2日曜日14:00～14:30",
+            "checked_at": "2026-11-20",
+            "sha256": "0981b1f310f2005252f9150921958480e6b6025cfaad7cc8b47917eb238f3213",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://kodomo-smile.metro.tokyo.lg.jp/events/3381",
+            "quote": "小学生以下の子どもと保護者",
+            "checked_at": "2026-11-20",
+            "sha256": "710ecf66bb391b940044b8df70a6746be7ba0befedd6b97711a26817f0ef5d41",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://kodomo-smile.metro.tokyo.lg.jp/events/3381",
+            "quote": "足立区立鹿浜図書館住所：東京",
+            "checked_at": "2026-11-20",
+            "sha256": "9b658df3cb8bda12827520e28edccf9cc54941d9c4c26e7084fe361e00d07bae",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://kodomo-smile.metro.tokyo.lg.jp/events/3381",
+            "quote": "受付方法：当日受付■定員：10人",
+            "checked_at": "2026-11-20",
+            "sha256": "c9c7f8f22775054c6ba69c6461f8315df6a53c692bf403c93e31b9a40aeb45be",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-20",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  }
+]

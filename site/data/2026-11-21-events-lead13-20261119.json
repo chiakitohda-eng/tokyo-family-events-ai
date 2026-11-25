@@ -1,0 +1,395 @@
+[
+  {
+    "id": "verified-20261121-ota-ikegami-densha-asobo",
+    "ward": "大田区",
+    "name": "池上児童館 電車で遊ぼう",
+    "url": "https://www.city.ota.tokyo.jp/event/jidoukan/ikegamijidoukan_1310.files/114.pdf",
+    "official_url": "https://www.city.ota.tokyo.jp/event/jidoukan/ikegamijidoukan_1310.files/114.pdf",
+    "source": "https://www.city.ota.tokyo.jp/event/jidoukan/ikegamijidoukan_1310.files/114.pdf",
+    "image": "",
+    "period": "11/21(土)",
+    "date_start": "2026-11-21",
+    "date_end": "2026-11-21",
+    "time": "10:30〜11:30",
+    "venue": "池上児童館（遊戯室）",
+    "price": "参加費の記載なし",
+    "description": "たくさんの電車のおもちゃで遊べる、乳幼児ファミリー向けの遊び場。",
+    "categories": [
+      "親子",
+      "子ども"
+    ],
+    "indoor_outdoor": "屋内",
+    "reservation": {
+      "required": false,
+      "note": "申込の案内はない。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "たくさんの電車のおもちゃで遊べる、乳幼児ファミリー向けの遊び場。参加費の記載なし。申込の案内はなく、当日参加できる。",
+      "axes": {
+        "child_target": {
+          "grade": "A",
+          "reason": "乳幼児ファミリーが対象"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "電車のおもちゃで自由に遊ぶ"
+        },
+        "age_fit": {
+          "grade": "A",
+          "reason": "乳幼児ファミリーと明記"
+        },
+        "stay_flexibility": {
+          "grade": "B",
+          "reason": "10:30〜11:30"
+        },
+        "burden": {
+          "grade": "A",
+          "reason": "申込の案内はなく、気軽に行ける"
+        },
+        "cost": {
+          "grade": "unknown",
+          "reason": "参加費の記載がない"
+        },
+        "reservation": {
+          "grade": "A",
+          "reason": "申込の案内はない"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "電車好きの子が遊べる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-19",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "child_program",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "電車のおもちゃ",
+          "申込の案内なし"
+        ],
+        "limitations": [
+          "参加費の記載なし"
+        ],
+        "grade_comparison": "総合B：11/21(土)の池上児童館で10:30〜11:30の開催。参加費の記載なし。申込不要で気軽に参加できる。",
+        "unsupported_axes": [
+          "cost"
+        ],
+        "evidence": [
+          {
+            "url": "https://www.city.ota.tokyo.jp/event/jidoukan/ikegamijidoukan_1310.files/114.pdf",
+            "quote": "大田区池上5-9-9電話・ＦＡＸ/03-3751-6603",
+            "checked_at": "2026-11-19",
+            "sha256": "5c32ec74e679f348f97cbfc0e101b87cd3a56b85e5a366b335162d505191cf79",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "大田区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.ota.tokyo.jp/event/jidoukan/ikegamijidoukan_1310.files/114.pdf",
+            "quote": "電車で遊ぼう(遊戯室)木曜日9:00～11:3021日土曜日10:30～11:30",
+            "checked_at": "2026-11-19",
+            "sha256": "dad6ec501682c6af2a77558db4ba5130e3d4722ddd6f9d840ebfffc0461dcd21",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "大田区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.ota.tokyo.jp/event/jidoukan/ikegamijidoukan_1310.files/114.pdf",
+            "quote": "たくさんの電車のおもちゃで遊べます☆",
+            "checked_at": "2026-11-19",
+            "sha256": "8bb9562a19a1d3402bb8388290dd151731c8245a44fb91e5afab9feb094e68a6",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "大田区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-19",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  },
+  {
+    "id": "verified-20261121-ota-tokumochi-ohanashi",
+    "ward": "大田区",
+    "name": "徳持児童館 ファミリータイム「おはなし会」",
+    "url": "https://www.city.ota.tokyo.jp/event/jidoukan/tokumoti_1309.files/115.pdf",
+    "official_url": "https://www.city.ota.tokyo.jp/event/jidoukan/tokumoti_1309.files/115.pdf",
+    "source": "https://www.city.ota.tokyo.jp/event/jidoukan/tokumoti_1309.files/115.pdf",
+    "image": "",
+    "period": "11/21(土)",
+    "date_start": "2026-11-21",
+    "date_end": "2026-11-21",
+    "time": "11:00〜11:30",
+    "venue": "徳持児童館",
+    "price": "参加費の記載なし",
+    "description": "ボランティアによる読み聞かせを楽しむ、どなたでも参加できるおはなし会。",
+    "categories": [
+      "絵本",
+      "親子"
+    ],
+    "indoor_outdoor": "屋内",
+    "reservation": {
+      "required": true,
+      "note": "11/2から来館で申込。定員15組程度。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "ボランティアによる読み聞かせを楽しむ、どなたでも参加できるおはなし会。参加費の記載なし。事前の申込が必要。",
+      "axes": {
+        "child_target": {
+          "grade": "A",
+          "reason": "乳幼児ファミリーが参加できる"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "読み聞かせを聞く"
+        },
+        "age_fit": {
+          "grade": "unknown",
+          "reason": "対象年齢の目安は明記がない"
+        },
+        "stay_flexibility": {
+          "grade": "B",
+          "reason": "11:00〜11:30"
+        },
+        "burden": {
+          "grade": "B",
+          "reason": "定員15組程度で来館申込"
+        },
+        "cost": {
+          "grade": "unknown",
+          "reason": "参加費の記載がない"
+        },
+        "reservation": {
+          "grade": "B",
+          "reason": "11/2から来館で申込"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "絵本の時間を親子で楽しめる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-19",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "child_program",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "読み聞かせ"
+        ],
+        "limitations": [
+          "定員15組程度",
+          "参加費の記載なし"
+        ],
+        "grade_comparison": "総合B：11/21(土)の徳持児童館で11:00〜11:30の開催。参加費の記載なし。申込が必要で、定員がある。",
+        "unsupported_axes": [
+          "age_fit",
+          "cost"
+        ],
+        "evidence": [
+          {
+            "url": "https://www.city.ota.tokyo.jp/event/jidoukan/tokumoti_1309.files/115.pdf",
+            "quote": "大田区池上8-13-4徳持児童館電話・ＦＡＸ/03-3751-9914",
+            "checked_at": "2026-11-19",
+            "sha256": "c2a270c5250e6b10056bdcd88480ace19eda67a3c5fe01058be1200b74f5bb6f",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "大田区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.ota.tokyo.jp/event/jidoukan/tokumoti_1309.files/115.pdf",
+            "quote": "ファミリータイム「おはなし会」",
+            "checked_at": "2026-11-19",
+            "sha256": "b5769cd1ddbbc3c0c8bfe0842b992498955977b8ab589a70e480d1710a12aaca",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "大田区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.ota.tokyo.jp/event/jidoukan/tokumoti_1309.files/115.pdf",
+            "quote": "21日(土)11：00～11：30",
+            "checked_at": "2026-11-19",
+            "sha256": "c7d3005a0dbff608e2aebd49c9563a9a7a2206696c93d556314b8bceb4050434",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "大田区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.ota.tokyo.jp/event/jidoukan/tokumoti_1309.files/115.pdf",
+            "quote": "11/2（月）から来館にて申込み受付定員15組程度ボランティアによる読み聞かせ",
+            "checked_at": "2026-11-19",
+            "sha256": "b0ee8424953670d6ee4a66b3c942a1c3c97fb4312c3a8d768380a24fa471df63",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "大田区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-19",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  },
+  {
+    "id": "verified-20261121-ota-minamimagome-family-time",
+    "ward": "大田区",
+    "name": "南馬込児童館 ファミリータイム（土曜日）",
+    "url": "https://www.city.ota.tokyo.jp/event/jidoukan/minamimagome_1310.files/109.pdf",
+    "official_url": "https://www.city.ota.tokyo.jp/event/jidoukan/minamimagome_1310.files/109.pdf",
+    "source": "https://www.city.ota.tokyo.jp/event/jidoukan/minamimagome_1310.files/109.pdf",
+    "image": "",
+    "period": "11/21(土)",
+    "date_start": "2026-11-21",
+    "date_end": "2026-11-21",
+    "time": "11:00〜11:20",
+    "venue": "南馬込児童館",
+    "price": "参加費の記載なし",
+    "description": "体操・手遊び・ふれあい遊びなどを楽しむ、乳幼児ファミリー向けの土曜の活動。",
+    "categories": [
+      "親子",
+      "子ども"
+    ],
+    "indoor_outdoor": "屋内",
+    "reservation": {
+      "required": false,
+      "note": "定例行事はいつでもどなたでも参加できる。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "体操・手遊び・ふれあい遊びなどを楽しむ、乳幼児ファミリー向けの土曜の活動。参加費の記載なし。申込の案内はなく、当日参加できる。",
+      "axes": {
+        "child_target": {
+          "grade": "A",
+          "reason": "乳幼児ファミリーが対象"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "体操・手遊び・ふれあい遊び"
+        },
+        "age_fit": {
+          "grade": "A",
+          "reason": "乳幼児ファミリーと明記"
+        },
+        "stay_flexibility": {
+          "grade": "B",
+          "reason": "11:00〜11:20"
+        },
+        "burden": {
+          "grade": "A",
+          "reason": "定例行事はいつでも参加できる"
+        },
+        "cost": {
+          "grade": "unknown",
+          "reason": "参加費の記載がない"
+        },
+        "reservation": {
+          "grade": "A",
+          "reason": "申込の案内はない"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "土曜に親子で参加できる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-19",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "child_program",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "土曜開催",
+          "申込の案内なし"
+        ],
+        "limitations": [
+          "短時間（20分）",
+          "参加費の記載なし"
+        ],
+        "grade_comparison": "総合B：11/21(土)の南馬込児童館で11:00〜11:20の開催。参加費の記載なし。申込不要で気軽に参加できる。",
+        "unsupported_axes": [
+          "cost"
+        ],
+        "evidence": [
+          {
+            "url": "https://www.city.ota.tokyo.jp/event/jidoukan/minamimagome_1310.files/109.pdf",
+            "quote": "南馬込児童館乳幼児向け１１月号大田区南馬込1-59-21",
+            "checked_at": "2026-11-19",
+            "sha256": "7c40ce853ad149f18bf04a5506588d0eab6a47fd54fcf55ae3b0995ff0522b6b",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "大田区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.ota.tokyo.jp/event/jidoukan/minamimagome_1310.files/109.pdf",
+            "quote": "ファミリータイム21日（土曜日）時間：11：00～11：20対象：乳幼児ファミリー",
+            "checked_at": "2026-11-19",
+            "sha256": "bc08ec1e49f2c9fa83993575eb4d4dddc21751c592f13ee7bf301251ed59b42e",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "大田区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.ota.tokyo.jp/event/jidoukan/minamimagome_1310.files/109.pdf",
+            "quote": "内容：体操・手遊び・ふれあい遊び等",
+            "checked_at": "2026-11-19",
+            "sha256": "2e17c9d591562c4d982baf3453cd9f9f7af07657c5e1ccb1aed6bb18e60df998",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "大田区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.ota.tokyo.jp/event/jidoukan/minamimagome_1310.files/109.pdf",
+            "quote": "定例行事はいつでもどなたでも参加できます！",
+            "checked_at": "2026-11-19",
+            "sha256": "4ab4ff858a44b1ac1ca6363a3d319df70569ca08b0b0ef586cef2e1ea80b66cb",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "大田区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-19",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  }
+]

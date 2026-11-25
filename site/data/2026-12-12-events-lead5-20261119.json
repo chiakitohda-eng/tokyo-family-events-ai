@@ -1,0 +1,152 @@
+[
+  {
+    "id": "verified-20261212-adachi-seibutsuen-night",
+    "ward": "足立区",
+    "name": "足立区生物園 夜間特別開園 in 光の祭典",
+    "url": "https://www.city.adachi.tokyo.jp/k-iji/event/seibutsuen_yakankaien.html",
+    "official_url": "https://www.city.adachi.tokyo.jp/k-iji/event/seibutsuen_yakankaien.html",
+    "source": "https://www.city.adachi.tokyo.jp/k-iji/event/seibutsuen_yakankaien.html",
+    "image": "https://www.city.adachi.tokyo.jp/images/70167/seibutsuen2.jpg",
+    "period": "11/28〜12/20の土日（11/28・29、12/5・6、12/12・13、12/19・20）",
+    "date_start": "2026-12-12",
+    "date_end": "2026-12-13",
+    "time": "17:00〜21:00（最終入園20:30）",
+    "venue": "足立区生物園（足立区保木間2丁目17番1号 元渕江公園内）",
+    "price": "入園料が必要（金額は公式ページに記載なし）",
+    "description": "光の祭典の開催期間に合わせて、生物園を夜間に特別開園。小学生以下は保護者同伴、事前申込不要。",
+    "categories": [
+      "体験・ワークショップ",
+      "公園・自然"
+    ],
+    "indoor_outdoor": "屋内",
+    "reservation": {
+      "required": false,
+      "note": "事前の申し込みは不要。直接会場へ。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "夜に生物園を楽しめる特別開園。どなたでも入れ、小学生以下は保護者同伴。入園料が必要で、事前申込は不要。",
+      "axes": {
+        "child_target": {
+          "grade": "B",
+          "reason": "どなたでも入れ、小学生以下は保護者同伴と案内されている"
+        },
+        "interactivity": {
+          "grade": "B",
+          "reason": "生き物の観察が中心で、体験内容の詳細は公式ページにない"
+        },
+        "age_fit": {
+          "grade": "unknown",
+          "reason": "対象年齢の目安は公式案内に明記がない"
+        },
+        "stay_flexibility": {
+          "grade": "A",
+          "reason": "17時〜21時の間、好きな時間に入園できる"
+        },
+        "burden": {
+          "grade": "B",
+          "reason": "夜の開催で、天候や感染症等でプログラムが変更・中止になる場合がある"
+        },
+        "cost": {
+          "grade": "B",
+          "reason": "入園料が必要（金額は公式ページにない）"
+        },
+        "reservation": {
+          "grade": "A",
+          "reason": "事前の申し込みは不要"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "夜の生物園を家族で楽しめる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-19",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "all_ages",
+        "child_activity_confirmed": false,
+        "strengths": [
+          "申込不要で夜の生物園に入れる"
+        ],
+        "limitations": [
+          "入園料が必要（金額は公式ページにない）",
+          "夜間の開催",
+          "プログラムが変更・中止になる場合がある"
+        ],
+        "grade_comparison": "総合B：申込不要で気軽に行けるが、費用の金額と体験内容の詳細は公式ページにない。",
+        "unsupported_axes": [
+          "age_fit"
+        ],
+        "evidence": [
+          {
+            "url": "https://www.city.adachi.tokyo.jp/k-iji/event/seibutsuen_yakankaien.html",
+            "quote": "光の祭典の開催期間に合わせて、生物園を夜間に特別開園します。",
+            "checked_at": "2026-11-19",
+            "sha256": "b321d6ec9c9f123e45bb766341ff50af4ae217feedee8f5861fdaee394fa8855",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "足立区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.adachi.tokyo.jp/k-iji/event/seibutsuen_yakankaien.html",
+            "quote": "開催日時2026年11月28日（土曜日）から2026年11月29日（日曜日）2026年12月5日（土曜日）から2026年12月6日（日曜日）",
+            "checked_at": "2026-11-19",
+            "sha256": "181b212ad81b08ed29c40420ac318f2258b2aa8ceb21c3d5c45e8e814aae879c",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "足立区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.adachi.tokyo.jp/k-iji/event/seibutsuen_yakankaien.html",
+            "quote": "各日、午後5時から午後9時※最終入園は午後8時30分",
+            "checked_at": "2026-11-19",
+            "sha256": "7cc717f827c2c54381cc618e8ef4817c16aaf0efc161530376fc759de0ea1b13",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "足立区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.adachi.tokyo.jp/k-iji/event/seibutsuen_yakankaien.html",
+            "quote": "足立区保木間二丁目17番1号（元渕江公園内）",
+            "checked_at": "2026-11-19",
+            "sha256": "e18e79fda31e8d0fe36143bb74beeebe249c78d83d0607d0db7cd813d22ac9c9",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "足立区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.adachi.tokyo.jp/k-iji/event/seibutsuen_yakankaien.html",
+            "quote": "対象どなたでも※小学生以下の方は保護者の同伴が必要です。",
+            "checked_at": "2026-11-19",
+            "sha256": "66079628c325262d50a4381fe9712a7a17cd3ed9c91a0eb73576c0379e153c74",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "足立区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.adachi.tokyo.jp/k-iji/event/seibutsuen_yakankaien.html",
+            "quote": "費用入園料が必要です。申込方法事前の申し込みは不要です。",
+            "checked_at": "2026-11-19",
+            "sha256": "a71f397a614d31519acab7a1e6b3ac1851105be0db982d435df0b463e7655d84",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "足立区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-19",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  }
+]

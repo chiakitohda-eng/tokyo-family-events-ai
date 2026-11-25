@@ -1,0 +1,150 @@
+[
+  {
+    "id": "verified-20261121-chofu-jindai-konomi-kusanomi-ten-2026",
+    "ward": "調布市",
+    "name": "木の実・草の実展（神代植物公園）",
+    "url": "https://www.tokyo-park.or.jp/park/jindai/news/2026/11_19_12_6.html",
+    "official_url": "https://www.tokyo-park.or.jp/park/jindai/news/2026/11_19_12_6.html",
+    "source": "https://www.tokyo-park.or.jp/park/jindai/news/2026/11_19_12_6.html",
+    "image": "https://www.tokyo-park.or.jp/park/jindai/assets/2026kinomikusanomi_poster.webp",
+    "period": "11/19(木)〜12/6(日)（開催中）",
+    "date_start": "2026-11-21",
+    "date_end": "2026-12-06",
+    "time": "神代植物公園の開園時間（9:30〜17:00）",
+    "venue": "神代植物公園 植物会館展示室（調布市深大寺元町）",
+    "price": "展示の別料金の記載なし。入園料が必要（大人500円・65歳以上250円・中学生200円、小学生以下無料）",
+    "description": "さまざまな種類のドングリや、珍しい木の実・草の実を展示する、神代植物公園の毎年人気の展示。大人から子どもまで楽しめる内容。",
+    "categories": [
+      "展示",
+      "公園・自然"
+    ],
+    "indoor_outdoor": "屋内",
+    "reservation": {
+      "required": false,
+      "note": "予約の記載なし。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "ドングリや木の実・草の実を並べた展示で、大人から子どもまで楽しめる。屋内の展示室で見られ、小学生以下は入園料が無料。展示のための別料金の記載はない。",
+      "axes": {
+        "child_target": {
+          "grade": "B",
+          "reason": "大人から子どもまでが対象"
+        },
+        "interactivity": {
+          "grade": "C",
+          "reason": "展示を見て楽しむ内容が中心"
+        },
+        "age_fit": {
+          "grade": "B",
+          "reason": "年齢の限定はない"
+        },
+        "stay_flexibility": {
+          "grade": "A",
+          "reason": "約3週間と長く、開園時間内で好きな時間に行ける"
+        },
+        "burden": {
+          "grade": "B",
+          "reason": "公園内を歩く必要がある"
+        },
+        "cost": {
+          "grade": "B",
+          "reason": "入園料が必要（小学生以下は無料）"
+        },
+        "reservation": {
+          "grade": "A",
+          "reason": "予約の記載なし"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "公園の散策と合わせて、季節の自然を学べる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-21",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "all_ages",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "小学生以下は入園料が無料",
+          "屋内の展示で、天候に左右されない"
+        ],
+        "limitations": [
+          "展示を見る内容が中心で、体験は少ない",
+          "大人には入園料が必要"
+        ],
+        "grade_comparison": "総合B：季節の自然を見て学べる展示。小学生以下は無料だが、体験は少ない。",
+        "unsupported_axes": [],
+        "evidence": [
+          {
+            "url": "https://www.tokyo-park.or.jp/park/jindai/news/2026/11_19_12_6.html",
+            "quote": "期間：11月19日(木)～12月6日(日)",
+            "checked_at": "2026-11-21",
+            "sha256": "2fcba7727e1e80c21877af00d9e99dbf1d3a17092da1824a20273cec0bcadb5f",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.tokyo-park.or.jp/park/jindai/news/2026/11_19_12_6.html",
+            "quote": "場所：植物会館展示室（画像をクリックすると拡大できます）",
+            "checked_at": "2026-11-21",
+            "sha256": "86f5669689f70dcf39f5e2be18813837ad511b75d682f5bbbbae7db152adba65",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.tokyo-park.or.jp/park/jindai/news/2026/11_19_12_6.html",
+            "quote": "大人から子どもまで楽しめる内容となっています。",
+            "checked_at": "2026-11-21",
+            "sha256": "85aee19fa2d5f19a574025a6013fbbe903282802e10cc6a847263033d94d8d35",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.tokyo-park.or.jp/park/jindai/news/2026/11_19_12_6.html",
+            "quote": "さまざまな種類のドングリや、珍しい木の実・草の実の数々を展示します！",
+            "checked_at": "2026-11-21",
+            "sha256": "41302581467c761e2981823f60e17e615534720fc6eb948cece687772f7fdd84",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.tokyo-park.or.jp/park/jindai/",
+            "quote": "入園料一般・大人500円（団体：400円）",
+            "checked_at": "2026-11-21",
+            "sha256": "2278b7e05e31a7739543a0bf234de01a0a4a68918c24e25ef96eabd141b145a2",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。"
+          },
+          {
+            "url": "https://www.tokyo-park.or.jp/park/jindai/",
+            "quote": "開園時間午前9時30分～午後5時",
+            "checked_at": "2026-11-21",
+            "sha256": "09c7339859b68ba264d72e871e0e974b71e2018e7125ed97faa8faf5c7338493",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-21",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  }
+]

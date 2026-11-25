@@ -1,0 +1,288 @@
+[
+  {
+    "id": "verified-20261121-edo-wonder-lab-bunkyo",
+    "ward": "文京区",
+    "name": "江戸ワンダー・ラボ（千駄木・養源寺）",
+    "url": "https://www.yasosuke.co.jp/edowonderlabo11event",
+    "official_url": "https://www.yasosuke.co.jp/edowonderlabo11event",
+    "source": "https://www.yasosuke.co.jp/edowonderlabo11event",
+    "image": "",
+    "period": "11/21(土)",
+    "date_start": "2026-11-21",
+    "date_end": "2026-11-21",
+    "time": "11:00〜15:00（プログラムにより時間が異なる）",
+    "venue": "千駄木・養源寺（文京区千駄木）",
+    "price": "500円〜2,000円（プログラムごと。当日払い）",
+    "description": "江戸時代をテーマにした子ども向けワークショップ。伊能忠敬の測量体験と和算のほか、張り子絵付け（1,000円）、からくり屏風づくり（500円）などを体験できる。小学生は保護者と参加する。",
+    "categories": [
+      "ワークショップ",
+      "伝統文化",
+      "工作"
+    ],
+    "indoor_outdoor": "屋内",
+    "reservation": {
+      "required": null,
+      "note": "お申込みフォームあり。張り子絵付けは当日受付も可能だが、事前予約を推奨。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "11/21の会場（千駄木・養源寺）で開かれる、江戸時代をテーマにした子ども向けのワークショップ群。小学校低学年向けの張り子絵付けや工作から、高学年向けの測量・和綴じ体験まで選べる。",
+      "axes": {
+        "child_target": {
+          "grade": "B",
+          "reason": "小学校低学年・高学年向けのレベル表示があるワークショップ"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "工作や体験型の学びが中心"
+        },
+        "age_fit": {
+          "grade": "B",
+          "reason": "プログラムごとに低学年・高学年のレベルが示されている"
+        },
+        "stay_flexibility": {
+          "grade": "B",
+          "reason": "プログラムごとに時間が決まっているが、張り子は随時受付"
+        },
+        "burden": {
+          "grade": "B",
+          "reason": "小学生は保護者の同伴が必要"
+        },
+        "cost": {
+          "grade": "B",
+          "reason": "500円〜2,000円（プログラムごと）"
+        },
+        "reservation": {
+          "grade": "unknown",
+          "reason": "申込フォームはあるが、予約が必須かはページに明記がない"
+        },
+        "family_value": {
+          "grade": "A",
+          "reason": "親子で江戸の文化・算数・ものづくりを体験できる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-20",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "child_program",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "複数のプログラムから選べる",
+          "小学校低学年から参加できる"
+        ],
+        "limitations": [
+          "プログラムごとに料金と時間が異なる",
+          "予約の要否が明記されていない"
+        ],
+        "grade_comparison": "総合B（11/21(土)）：親子で江戸文化を学べる体験が選べるが、プログラムごとに料金と時間が異なり、予約の要否が分からない。",
+        "unsupported_axes": [
+          "reservation"
+        ],
+        "evidence": [
+          {
+            "url": "https://www.yasosuke.co.jp/edowonderlabo11event",
+            "quote": "日程：2026年11月21日（土）会場：千駄木・養源寺",
+            "checked_at": "2026-11-20",
+            "sha256": "f4fcf730fb0584a169acc3ca9ef5a5d7494729ebb325e771849bebf3f78f2f1d",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.yasosuke.co.jp/edowonderlabo11event",
+            "quote": "11時～15時張り子絵付け（狐面・犬張り子・干支未／1000円材料費込）",
+            "checked_at": "2026-11-20",
+            "sha256": "f7677ce575f9506da470c1da8fdd67cfb5ff322cf02ccbe0ecb7625336cd757c",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.yasosuke.co.jp/edowonderlabo11event",
+            "quote": "14時～14時45分からくり屏風づくり（500円材料費込）",
+            "checked_at": "2026-11-20",
+            "sha256": "c78707bd847f8385622e5d948f8f3cf72f774f7ccde895c8ce5e5d0297c37fb7",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.yasosuke.co.jp/edowonderlabo11event",
+            "quote": "小学生のお子様は必ず保護者の方が一緒にご参加ください。",
+            "checked_at": "2026-11-20",
+            "sha256": "bd12aeaa2116d05443e5e082e9acdd8663779e47ea4b3a6428402189d9ea90a6",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.yasosuke.co.jp/edowonderlabo11event",
+            "quote": "当日も受付可能ですが、数に限りがあるため、事前予約をおすすめします。",
+            "checked_at": "2026-11-20",
+            "sha256": "6192f0980b01fe6274d551614038b887adbe0a24d04aa1b8c52ce041439b28ac",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-20",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  },
+  {
+    "id": "verified-20261122-edo-wonder-lab-taito",
+    "ward": "台東区",
+    "name": "江戸ワンダー・ラボ（上野・宋雲院）",
+    "url": "https://www.yasosuke.co.jp/edowonderlabo11event",
+    "official_url": "https://www.yasosuke.co.jp/edowonderlabo11event",
+    "source": "https://www.yasosuke.co.jp/edowonderlabo11event",
+    "image": "",
+    "period": "11/22(日)",
+    "date_start": "2026-11-22",
+    "date_end": "2026-11-22",
+    "time": "11:00〜15:00（プログラムにより時間が異なる）",
+    "venue": "上野・宋雲院（台東区上野）",
+    "price": "500円〜2,000円（プログラムごと。当日払い）",
+    "description": "江戸時代をテーマにした子ども向けワークショップ。江戸の本屋体験（和綴じ本づくり）と和算のほか、張り子絵付け（1,000円）、からくり屏風づくり（500円）などを体験できる。小学生は保護者と参加する。",
+    "categories": [
+      "ワークショップ",
+      "伝統文化",
+      "工作"
+    ],
+    "indoor_outdoor": "屋内",
+    "reservation": {
+      "required": null,
+      "note": "お申込みフォームあり。張り子絵付けは当日受付も可能だが、事前予約を推奨。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "11/22の会場（上野・宋雲院）で開かれる、江戸時代をテーマにした子ども向けのワークショップ群。小学校低学年向けの張り子絵付けや工作から、高学年向けの測量・和綴じ体験まで選べる。",
+      "axes": {
+        "child_target": {
+          "grade": "B",
+          "reason": "小学校低学年・高学年向けのレベル表示があるワークショップ"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "工作や体験型の学びが中心"
+        },
+        "age_fit": {
+          "grade": "B",
+          "reason": "プログラムごとに低学年・高学年のレベルが示されている"
+        },
+        "stay_flexibility": {
+          "grade": "B",
+          "reason": "プログラムごとに時間が決まっているが、張り子は随時受付"
+        },
+        "burden": {
+          "grade": "B",
+          "reason": "小学生は保護者の同伴が必要"
+        },
+        "cost": {
+          "grade": "B",
+          "reason": "500円〜2,000円（プログラムごと）"
+        },
+        "reservation": {
+          "grade": "unknown",
+          "reason": "申込フォームはあるが、予約が必須かはページに明記がない"
+        },
+        "family_value": {
+          "grade": "A",
+          "reason": "親子で江戸の文化・算数・ものづくりを体験できる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-20",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "child_program",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "複数のプログラムから選べる",
+          "小学校低学年から参加できる"
+        ],
+        "limitations": [
+          "プログラムごとに料金と時間が異なる",
+          "予約の要否が明記されていない"
+        ],
+        "grade_comparison": "総合B（11/22(日)）：親子で江戸文化を学べる体験が選べるが、プログラムごとに料金と時間が異なり、予約の要否が分からない。",
+        "unsupported_axes": [
+          "reservation"
+        ],
+        "evidence": [
+          {
+            "url": "https://www.yasosuke.co.jp/edowonderlabo11event",
+            "quote": "日程：2026年11月22日（日）会場：上野・宋雲院",
+            "checked_at": "2026-11-20",
+            "sha256": "869d3b5802d4cf18cd7935e502cb3703cd309aea0a6e4509ab5eb0049b6975b9",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.yasosuke.co.jp/edowonderlabo11event",
+            "quote": "11時～15時張り子絵付け（狐面・犬張り子・干支未／1000円材料費込）",
+            "checked_at": "2026-11-20",
+            "sha256": "f7677ce575f9506da470c1da8fdd67cfb5ff322cf02ccbe0ecb7625336cd757c",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.yasosuke.co.jp/edowonderlabo11event",
+            "quote": "14時～14時45分からくり屏風づくり（500円材料費込）",
+            "checked_at": "2026-11-20",
+            "sha256": "c78707bd847f8385622e5d948f8f3cf72f774f7ccde895c8ce5e5d0297c37fb7",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.yasosuke.co.jp/edowonderlabo11event",
+            "quote": "小学生のお子様は必ず保護者の方が一緒にご参加ください。",
+            "checked_at": "2026-11-20",
+            "sha256": "bd12aeaa2116d05443e5e082e9acdd8663779e47ea4b3a6428402189d9ea90a6",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.yasosuke.co.jp/edowonderlabo11event",
+            "quote": "当日も受付可能ですが、数に限りがあるため、事前予約をおすすめします。",
+            "checked_at": "2026-11-20",
+            "sha256": "6192f0980b01fe6274d551614038b887adbe0a24d04aa1b8c52ce041439b28ac",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-20",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  }
+]

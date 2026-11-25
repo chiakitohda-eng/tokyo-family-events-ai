@@ -1,0 +1,439 @@
+[
+  {
+    "id": "verified-20261128-suginami-narita-shukakusai",
+    "ward": "杉並区",
+    "name": "成田西ふれあい農業公園「収穫祭」",
+    "url": "https://www.city.suginami.tokyo.jp/s121/event/29068.html",
+    "official_url": "https://www.city.suginami.tokyo.jp/s121/event/29068.html",
+    "source": "https://www.city.suginami.tokyo.jp/s121/event/29068.html",
+    "image": "",
+    "period": "11/28(土)",
+    "date_start": "2026-11-28",
+    "date_end": "2026-11-28",
+    "time": "10:30〜12:30",
+    "venue": "成田西ふれあい農業公園（杉並区成田西3丁目18番9号）",
+    "price": "無料（けんちん汁・焼きイモは各200円）",
+    "description": "収穫を感謝する収穫祭。けんちん汁や焼きいもの販売、野菜の即売、くわ体験やワークショップ、なみすけも登場。",
+    "categories": [
+      "体験・ワークショップ",
+      "自然・農体験"
+    ],
+    "indoor_outdoor": "屋外",
+    "reservation": {
+      "required": false,
+      "note": "当日直接会場へ。小学生以下は保護者同伴。"
+    },
+    "family_fit": {
+      "grade": "A",
+      "overall": "A",
+      "rubric_version": "family-fit-v2",
+      "reason": "農業公園の収穫祭で、くわ体験やワークショップがあり、小学生以下は保護者同伴。入場無料・申込不要。",
+      "axes": {
+        "child_target": {
+          "grade": "B",
+          "reason": "どなたでも参加でき、小学生以下は保護者同伴と案内されている"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "くわ体験・ワークショップなど参加型の体験がある"
+        },
+        "age_fit": {
+          "grade": "B",
+          "reason": "小学生以下は保護者同伴。年齢の下限は明記がない"
+        },
+        "stay_flexibility": {
+          "grade": "B",
+          "reason": "開催は2時間。サツマイモ焼きなどは時間・整理券あり"
+        },
+        "burden": {
+          "grade": "B",
+          "reason": "野菜販売は先着・整理券の回がある"
+        },
+        "cost": {
+          "grade": "A",
+          "reason": "入場無料（飲食は各200円）"
+        },
+        "reservation": {
+          "grade": "A",
+          "reason": "当日直接会場へ（申込不要）"
+        },
+        "family_value": {
+          "grade": "A",
+          "reason": "農体験と地域の収穫祭を無料で家族で楽しめる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-19",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "child_program",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "無料・申込不要で農体験とワークショップ"
+        ],
+        "limitations": [
+          "開催は2時間",
+          "焼きイモ等は整理券あり"
+        ],
+        "grade_comparison": "総合A：参加型の農体験が無料・申込不要。時間が短く、一部は整理券制。",
+        "unsupported_axes": [],
+        "evidence": [
+          {
+            "url": "https://www.city.suginami.tokyo.jp/s121/event/29068.html",
+            "quote": "2026年11月28日（土曜日）開催時間午前10時30分から午後0時30分まで",
+            "checked_at": "2026-11-19",
+            "sha256": "4f83fb8251b559ad019bff8b72d732ed7de7f611720566efa32a2178d4e0ac6d",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "杉並区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.suginami.tokyo.jp/s121/event/29068.html",
+            "quote": "成田西ふれあい農業公園杉並区成田西3丁目18番9号",
+            "checked_at": "2026-11-19",
+            "sha256": "9e747dc3f0884187edc6735f0d94bc1c32048dfb4f71a11ea3f3df805e4d79ee",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "杉並区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.suginami.tokyo.jp/s121/event/29068.html",
+            "quote": "対象者どなたでも小学生以下は保護者同伴",
+            "checked_at": "2026-11-19",
+            "sha256": "edfcd642d64ffc0215e944cadcf4082791a260d9dc6d027e786b111c5094384b",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "杉並区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.suginami.tokyo.jp/s121/event/29068.html",
+            "quote": "当日直接会場へお越しください。費用無料",
+            "checked_at": "2026-11-19",
+            "sha256": "6af25c9921536fd77849724cd110ff8d65058846bfadadfe81d27138352d0fd6",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "杉並区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.suginami.tokyo.jp/s121/event/29068.html",
+            "quote": "けんちん汁や焼いもの販売、野菜の即売会、くわ体験やワークショップ",
+            "checked_at": "2026-11-19",
+            "sha256": "71810a0ef45834e8e9bf0a3890007780e561486aff29bc7904986d09f1ff62a1",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "杉並区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.suginami.tokyo.jp/s121/event/29068.html",
+            "quote": "なみすけもやって来ます！",
+            "checked_at": "2026-11-19",
+            "sha256": "c27d88b2062548836d2d6932beea45b29dd55e44904ceae4c750cd608dd1b08e",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "杉並区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-19",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  },
+  {
+    "id": "verified-20261128-taito-uguisudani-imohori",
+    "ward": "台東区",
+    "name": "鶯谷公園アーバンファーミング「おいもで お・も・い・で」みんなでお芋掘り",
+    "url": "https://www.city.taito.lg.jp/kenchiku/koumin/katsuyou/torikumi.html",
+    "official_url": "https://www.city.taito.lg.jp/kenchiku/koumin/katsuyou/torikumi.html",
+    "source": "https://www.city.taito.lg.jp/kenchiku/koumin/katsuyou/torikumi.html",
+    "image": "",
+    "period": "11/28(土)",
+    "date_start": "2026-11-28",
+    "date_end": "2026-11-28",
+    "time": "第一部10:00集合／第二部11:00集合",
+    "venue": "区立鶯谷公園（台東区根岸1丁目3番17号）",
+    "price": "無料",
+    "description": "ご家族でお芋掘り。サツマイモ・大根・かぶ・ミズナを収穫（持ち帰り可）。サツマイモのつるでリース作りも。申込制（抽選）。",
+    "categories": [
+      "体験・ワークショップ",
+      "自然・農体験"
+    ],
+    "indoor_outdoor": "屋外",
+    "reservation": {
+      "required": true,
+      "note": "申込締切11/20、定員を超えた場合は抽選（結果11/24通知）。家族2〜4人、17歳以下のみの参加不可。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "家族で参加するお芋掘りとリース作り。無料だが、申込制（締切11/20・定員超過は抽選）で家族2〜4人の条件がある。",
+      "axes": {
+        "child_target": {
+          "grade": "A",
+          "reason": "「ご家族で」お芋掘りに参加する企画で、17歳以下のみの参加は不可"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "お芋掘り・リース作りワークショップなど体験が中心"
+        },
+        "age_fit": {
+          "grade": "B",
+          "reason": "家族2〜4人での参加が条件。年齢の目安は明記がない"
+        },
+        "stay_flexibility": {
+          "grade": "B",
+          "reason": "第一部・第二部の集合時刻が決まっている"
+        },
+        "burden": {
+          "grade": "C",
+          "reason": "申込制で、定員30組・抽選。雨天は29日に延期予定"
+        },
+        "cost": {
+          "grade": "A",
+          "reason": "参加費無料"
+        },
+        "reservation": {
+          "grade": "C",
+          "reason": "事前申込が必要（締切11/20、抽選）"
+        },
+        "family_value": {
+          "grade": "A",
+          "reason": "農体験を無料で家族で楽しめる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-19",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "child_program",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "無料で家族向けの農体験",
+          "収穫物のプレゼントあり"
+        ],
+        "limitations": [
+          "事前申込・抽選",
+          "申込締切は11/20",
+          "雨天は翌日延期"
+        ],
+        "grade_comparison": "総合B：内容と費用は良いが、事前申込・抽選で当日参加できない。",
+        "unsupported_axes": [],
+        "evidence": [
+          {
+            "url": "https://www.city.taito.lg.jp/kenchiku/koumin/katsuyou/torikumi.html",
+            "quote": "令和8年11月28日（土曜日）第一部午前10時集合第二部午前11時集合",
+            "checked_at": "2026-11-19",
+            "sha256": "2623c811257c90a0f6b0df185512f7f835ac960ee291d8a895c2627b996f5828",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "台東区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.taito.lg.jp/kenchiku/koumin/katsuyou/torikumi.html",
+            "quote": "区立鶯谷公園台東区根岸1丁目3番17号",
+            "checked_at": "2026-11-19",
+            "sha256": "fc41645894185e1dd142d316f6807753dd4007a4a202090a268a5a851fe6c894",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "台東区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.taito.lg.jp/kenchiku/koumin/katsuyou/torikumi.html",
+            "quote": "ご家族で、お芋掘りにご参加しませんか。",
+            "checked_at": "2026-11-19",
+            "sha256": "fbae0ade2939c7424567cc2232d3a10f02f7df562b801be74a9b09bf221efa02",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "台東区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.taito.lg.jp/kenchiku/koumin/katsuyou/torikumi.html",
+            "quote": "サツマイモのツルを使ったクリスマスリース作りのワークショップ",
+            "checked_at": "2026-11-19",
+            "sha256": "05659181addfa5475eeb414ba2db2171a7f9bb9054c3d835d4f168f7459637e1",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "台東区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.taito.lg.jp/kenchiku/koumin/katsuyou/torikumi.html",
+            "quote": "申込定員：各部15組、計30組",
+            "checked_at": "2026-11-19",
+            "sha256": "90e8a733bafd772c3181ecccb4596fe6a7442bfd0d036b08f6e379d5fc8dc426",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "台東区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.taito.lg.jp/kenchiku/koumin/katsuyou/torikumi.html",
+            "quote": "申込締切は11月20日（金曜日）です。",
+            "checked_at": "2026-11-19",
+            "sha256": "0c0c562949f2059041793899d43fb81e9e21fb0a65de8e1a934e0d7475418737",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "台東区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-19",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  },
+  {
+    "id": "verified-20261128-nerima-hikarigaoka-park-festa",
+    "ward": "練馬区",
+    "name": "光が丘公園フェスタ",
+    "url": "https://www.nerimakanko.jp/event/detail.php?event_id=e000003035",
+    "official_url": "https://www.nerimakanko.jp/event/detail.php?event_id=e000003035",
+    "source": "https://www.nerimakanko.jp/event/detail.php?event_id=e000003035",
+    "image": "https://www.nerimakanko.jp/img_data/e000003035.jpg",
+    "period": "11/28(土)・11/29(日)",
+    "date_start": "2026-11-28",
+    "date_end": "2026-11-29",
+    "time": "10:00〜16:00",
+    "venue": "都立光が丘公園 けやき広場（練馬区光が丘4丁目1-1）",
+    "price": "参加無料",
+    "description": "落葉やどんぐりを使った遊び・工作、はたらく車大集合、動物とのふれあい、名物のメロンパン。28日・29日で内容が一部異なる。雨天決行。",
+    "categories": [
+      "体験・ワークショップ",
+      "公園・自然"
+    ],
+    "indoor_outdoor": "屋外",
+    "reservation": {
+      "required": false,
+      "note": "申込の記載なし。雨天決行。"
+    },
+    "family_fit": {
+      "grade": "A",
+      "overall": "A",
+      "rubric_version": "family-fit-v2",
+      "reason": "落葉やどんぐりの工作、はたらく車、動物とのふれあいがある子ども・家族向けの公園イベント。参加無料・雨天決行で、2日間の開催。",
+      "axes": {
+        "child_target": {
+          "grade": "A",
+          "reason": "子ども・家族向けのカテゴリで、工作や遊び、はたらく車、動物がある"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "落葉やどんぐりを使った遊びや工作などの体験"
+        },
+        "age_fit": {
+          "grade": "unknown",
+          "reason": "対象年齢は公式案内に明記がない"
+        },
+        "stay_flexibility": {
+          "grade": "A",
+          "reason": "10時〜16時の2日間で、都合のよい時間に参加できる"
+        },
+        "burden": {
+          "grade": "B",
+          "reason": "屋外開催。雨天決行。28日・29日で内容が一部異なる"
+        },
+        "cost": {
+          "grade": "A",
+          "reason": "参加無料"
+        },
+        "reservation": {
+          "grade": "A",
+          "reason": "申込の記載なし（当日参加できる見込み）"
+        },
+        "family_value": {
+          "grade": "A",
+          "reason": "工作・はたらく車・動物を無料で家族で楽しめる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-19",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "child_program",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "無料で2日間開催、工作・はたらく車・動物"
+        ],
+        "limitations": [
+          "屋外・雨天決行",
+          "28日と29日で内容が異なる"
+        ],
+        "grade_comparison": "総合A：家族向けの内容が豊富で、無料・2日間開催。屋外のため天候の影響がある。",
+        "unsupported_axes": [
+          "age_fit"
+        ],
+        "evidence": [
+          {
+            "url": "https://www.nerimakanko.jp/event/detail.php?event_id=e000003035",
+            "quote": "2026年11月28日（土）、11月29日（日）10：00～16：00",
+            "checked_at": "2026-11-19",
+            "sha256": "82531b76ad7f302c56f7f78c0b11e693eb2197f230b22fb7d50fd4143c379357",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "練馬区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.nerimakanko.jp/event/detail.php?event_id=e000003035",
+            "quote": "都立光が丘公園けやき広場",
+            "checked_at": "2026-11-19",
+            "sha256": "44aa0003fdcdac499f5d4defd3525f8ad41e12d003237629f44611472a76de2e",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "練馬区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.nerimakanko.jp/event/detail.php?event_id=e000003035",
+            "quote": "落葉やどんぐりを使った遊びや工作で秋の公園をたのしもう！",
+            "checked_at": "2026-11-19",
+            "sha256": "c13ee98754197a406b7d04c1e40aba10defbd8b944533a47e72b2317a3f20837",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "練馬区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.nerimakanko.jp/event/detail.php?event_id=e000003035",
+            "quote": "はたらく車大集合のほか、かわいい動物たちにも会えるよ。",
+            "checked_at": "2026-11-19",
+            "sha256": "af73c0be67d38cff738ad5eb783543c7a0cc2284d6999a5be0edc9ffac5b714f",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "練馬区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.nerimakanko.jp/event/detail.php?event_id=e000003035",
+            "quote": "料金参加無料主催者光が丘公園サービスセンター",
+            "checked_at": "2026-11-19",
+            "sha256": "c0aa57fa8c3598462b4d2cd0aa5e4c3bc77139d88bec83fd0368497a783bded3",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "練馬区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-19",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  }
+]

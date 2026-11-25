@@ -1,0 +1,1129 @@
+[
+  {
+    "id": "verified-20261205-fukasawa-pan-youji-2026",
+    "ward": "世田谷区",
+    "name": "深沢児童館 みんなのひろば「あそぼうパンって何じゃらホイ!?」",
+    "url": "https://www.city.setagaya.lg.jp/03073/34290.html",
+    "official_url": "https://www.city.setagaya.lg.jp/03073/34290.html",
+    "source": "https://www.city.setagaya.lg.jp/03073/34290.html",
+    "image": "",
+    "period": "12/5(土)",
+    "date_start": "2026-12-05",
+    "date_end": "2026-12-05",
+    "time": "午前10時30分〜正午頃",
+    "venue": "深沢中村公園（世田谷区深沢4-36-23、現地集合・解散）",
+    "price": "1組100円（保護者・子どもが増える場合は1人50円追加）",
+    "description": "公園で炭火を使ってパンを焼く、幼児親子向けの深沢児童館の体験行事。",
+    "categories": [
+      "体験・ワークショップ",
+      "公園・自然"
+    ],
+    "indoor_outdoor": "屋外",
+    "reservation": {
+      "required": true,
+      "note": "申込期間は11/21〜12/3。10組程度。"
+    },
+    "family_fit": {
+      "grade": "A",
+      "overall": "A",
+      "rubric_version": "family-fit-v2",
+      "reason": "12/5(土)開催。幼児と保護者が屋外の炭火で一緒にパンを焼く体験で、1組100円で参加できる。定員は10組程度。",
+      "axes": {
+        "child_target": {
+          "grade": "A",
+          "reason": "対象は「幼児とその保護者 10組程度」"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "内容：公園で炭火を使ってパンを焼く、幼児親子向けの深沢児童館の体験行事。"
+        },
+        "age_fit": {
+          "grade": "A",
+          "reason": "年齢の目安は幼児とその保護者 10組程度"
+        },
+        "stay_flexibility": {
+          "grade": "unknown",
+          "reason": "途中の出入りや滞在時間の自由度は公式案内に明記がない"
+        },
+        "burden": {
+          "grade": "B",
+          "reason": "定員10組程度で、12/3までの申込が必要"
+        },
+        "cost": {
+          "grade": "B",
+          "reason": "1組100円の少額負担"
+        },
+        "reservation": {
+          "grade": "B",
+          "reason": "事前の申込や整理券が必要"
+        },
+        "family_value": {
+          "grade": "A",
+          "reason": "炭火でパンを焼く親子の体験"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-25",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "child_program",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "炭火でパンを焼く親子の体験"
+        ],
+        "limitations": [
+          "定員10組程度で、12/3までの申込が必要"
+        ],
+        "grade_comparison": "総合A（12/5(土)・深沢児童館 みんなのひろば「）：炭火でパンを焼く親子の体験。注意点は「定員10組程度で、12/3までの申込が必要」こと。",
+        "unsupported_axes": [
+          "stay_flexibility"
+        ],
+        "evidence": [
+          {
+            "url": "https://www.city.setagaya.lg.jp/03073/34290.html",
+            "quote": "日程2026年12月5日（土曜日）",
+            "checked_at": "2026-11-25",
+            "sha256": "06fe2dbbaed49f36ab577cbeee81d39a6d2470e4091af73f9bd926d4df3fc8d2",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-25にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.setagaya.lg.jp/03073/34290.html",
+            "quote": "対象幼児とその保護者10組程度",
+            "checked_at": "2026-11-25",
+            "sha256": "c996e728d9a15dc5898723e9569080c3bffaa8bd229020ad1882da1517f2f916",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-25にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.setagaya.lg.jp/03073/34290.html",
+            "quote": "1組100円申し込み時に持ってきてください。",
+            "checked_at": "2026-11-25",
+            "sha256": "02aa746a3b853dc572d00b437e011747fc3e3839cfcfef576066653cd95f147e",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-25にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.setagaya.lg.jp/03073/34290.html",
+            "quote": "おくらの前で炭火でパンを焼いてみよう！",
+            "checked_at": "2026-11-25",
+            "sha256": "b854db7632892de669dfca06fcdd19256ef74cefae7cef4a59ed76b95ada65a5",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-25にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-25",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  },
+  {
+    "id": "verified-20261205-fukasawa-pan-teens-2026",
+    "ward": "世田谷区",
+    "name": "深沢児童館 TEENSプロジェクト「あそぼうパンで年忘れ」",
+    "url": "https://www.city.setagaya.lg.jp/03073/34414.html",
+    "official_url": "https://www.city.setagaya.lg.jp/03073/34414.html",
+    "source": "https://www.city.setagaya.lg.jp/03073/34414.html",
+    "image": "",
+    "period": "12/5(土)",
+    "date_start": "2026-12-05",
+    "date_end": "2026-12-05",
+    "time": "午後2時〜4時",
+    "venue": "深沢中村公園（世田谷区深沢4-36-23、現地集合・解散）",
+    "price": "無料",
+    "description": "小学6年生から中高生世代が炭火でパンを焼いて食べる児童館の行事。",
+    "categories": [
+      "体験・ワークショップ"
+    ],
+    "indoor_outdoor": "屋外",
+    "reservation": {
+      "required": true,
+      "note": "11/28から申込。アレルギー確認あり。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "12/5(土)開催。小6から中高生世代限定でパンを焼いて食べる無料の体験。対象の年齢が高く、申込が必要。",
+      "axes": {
+        "child_target": {
+          "grade": "A",
+          "reason": "対象は「小学6年生〜中高生世代」"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "内容：小学6年生から中高生世代が炭火でパンを焼いて食べる児童館の行事。"
+        },
+        "age_fit": {
+          "grade": "A",
+          "reason": "年齢の目安は小学6年生〜中高生世代"
+        },
+        "stay_flexibility": {
+          "grade": "unknown",
+          "reason": "途中の出入りや滞在時間の自由度は公式案内に明記がない"
+        },
+        "burden": {
+          "grade": "B",
+          "reason": "小学5年生以下は対象外で、申込が必要"
+        },
+        "cost": {
+          "grade": "A",
+          "reason": "公式ページで費用は無料"
+        },
+        "reservation": {
+          "grade": "B",
+          "reason": "事前の申込や整理券が必要"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "無料で調理を体験できる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-25",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "child_program",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "無料で調理を体験できる"
+        ],
+        "limitations": [
+          "小学5年生以下は対象外で、申込が必要"
+        ],
+        "grade_comparison": "総合B（12/5(土)・深沢児童館 TEENSプロジ）：無料で調理を体験できる。注意点は「小学5年生以下は対象外で、申込が必要」こと。",
+        "unsupported_axes": [
+          "stay_flexibility"
+        ],
+        "evidence": [
+          {
+            "url": "https://www.city.setagaya.lg.jp/03073/34414.html",
+            "quote": "日程2026年12月5日（土曜日）",
+            "checked_at": "2026-11-25",
+            "sha256": "06fe2dbbaed49f36ab577cbeee81d39a6d2470e4091af73f9bd926d4df3fc8d2",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-25にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.setagaya.lg.jp/03073/34414.html",
+            "quote": "対象小学6年生～中高生世代",
+            "checked_at": "2026-11-25",
+            "sha256": "cbbf96683f70ca8d7d16d7fb98f72c38e634da800243d2961776ca1b36519a4c",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-25にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.setagaya.lg.jp/03073/34414.html",
+            "quote": "あそぼうパンを焼いて食べて、2026年を締めくくろう！",
+            "checked_at": "2026-11-25",
+            "sha256": "098a9a1e806d3b7ab9dddb8c314cca56f90b9a252887d11a7dac7b2190d4e4f3",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-25にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-25",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  },
+  {
+    "id": "verified-20261205-wakabayashi-ornament-2026",
+    "ward": "世田谷区",
+    "name": "若林児童館 なっぴーとつくる！もこもこ毛糸でつくるリースのオーナメント",
+    "url": "https://www.city.setagaya.lg.jp/03062/34837.html",
+    "official_url": "https://www.city.setagaya.lg.jp/03062/34837.html",
+    "source": "https://www.city.setagaya.lg.jp/03062/34837.html",
+    "image": "",
+    "period": "12/5(土)",
+    "date_start": "2026-12-05",
+    "date_end": "2026-12-05",
+    "time": "午後3時〜4時30分",
+    "venue": "若林児童館3階つくる部屋（世田谷区）",
+    "price": "無料",
+    "description": "毛糸とビーズでリースのオーナメントを作る小学生以上向けの工作。",
+    "categories": [
+      "工作",
+      "クリスマス"
+    ],
+    "indoor_outdoor": "屋内",
+    "reservation": {
+      "required": true,
+      "note": "11/28午後2時から申込。定員超過時は抽選。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "12/5(土)開催。小学生以上が毛糸を編んで飾りを作る無料の工作。定員12名で申込開始時に超過すると抽選。",
+      "axes": {
+        "child_target": {
+          "grade": "A",
+          "reason": "対象は「小学1年生以上 定員12名」"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "内容：毛糸とビーズでリースのオーナメントを作る小学生以上向けの工作。"
+        },
+        "age_fit": {
+          "grade": "A",
+          "reason": "年齢の目安は小学1年生以上 定員12名"
+        },
+        "stay_flexibility": {
+          "grade": "unknown",
+          "reason": "途中の出入りや滞在時間の自由度は公式案内に明記がない"
+        },
+        "burden": {
+          "grade": "B",
+          "reason": "定員12名で抽選になる場合がある"
+        },
+        "cost": {
+          "grade": "A",
+          "reason": "公式ページで費用は無料"
+        },
+        "reservation": {
+          "grade": "B",
+          "reason": "事前の申込や整理券が必要"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "無料で季節の飾りを作れる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-25",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "child_program",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "無料で季節の飾りを作れる"
+        ],
+        "limitations": [
+          "定員12名で抽選になる場合がある"
+        ],
+        "grade_comparison": "総合B（12/5(土)・若林児童館 なっぴーとつくる）：無料で季節の飾りを作れる。注意点は「定員12名で抽選になる場合がある」こと。",
+        "unsupported_axes": [
+          "stay_flexibility"
+        ],
+        "evidence": [
+          {
+            "url": "https://www.city.setagaya.lg.jp/03062/34837.html",
+            "quote": "日程2026年12月5日（土曜日）",
+            "checked_at": "2026-11-25",
+            "sha256": "06fe2dbbaed49f36ab577cbeee81d39a6d2470e4091af73f9bd926d4df3fc8d2",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-25にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.setagaya.lg.jp/03062/34837.html",
+            "quote": "対象小学1年生以上定員12名",
+            "checked_at": "2026-11-25",
+            "sha256": "b28a5652c8d6c164634cb4879a874f7c45969ec39912d3bf94792f6edb66362f",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-25にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.setagaya.lg.jp/03062/34837.html",
+            "quote": "毛糸を編んでビーズを付けてかわいいリースのオーナメントをつくろう！",
+            "checked_at": "2026-11-25",
+            "sha256": "fe154a51e4323965586bc63f3eda24c9887b744d92e8b8bf18a7d12787f7a6b4",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-25にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-25",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  },
+  {
+    "id": "verified-20261205-soshigaya-cardgame-2026",
+    "ward": "世田谷区",
+    "name": "祖師谷児童館「カードゲームであそぼう！」",
+    "url": "https://www.city.setagaya.lg.jp/03080/36981.html",
+    "official_url": "https://www.city.setagaya.lg.jp/03080/36981.html",
+    "source": "https://www.city.setagaya.lg.jp/03080/36981.html",
+    "image": "",
+    "period": "12/5(土)",
+    "date_start": "2026-12-05",
+    "date_end": "2026-12-05",
+    "time": "午後3時〜5時",
+    "venue": "祖師谷児童館（世田谷区）",
+    "price": "無料",
+    "description": "地域のゲームサークルといろいろなカードゲームで遊ぶ児童館の行事。",
+    "categories": [
+      "子ども",
+      "ボードゲーム"
+    ],
+    "indoor_outdoor": "屋内",
+    "reservation": {
+      "required": false,
+      "note": "申込不要。直接来館。"
+    },
+    "family_fit": {
+      "grade": "A",
+      "overall": "A",
+      "rubric_version": "family-fit-v2",
+      "reason": "12/5(土)開催。地域サークルと一緒に遊べるカードゲームの会で、無料・申込不要。小学生から中高生が対象。",
+      "axes": {
+        "child_target": {
+          "grade": "A",
+          "reason": "対象は「小学1年生〜中高生世代」"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "内容：地域のゲームサークルといろいろなカードゲームで遊ぶ児童館の行事。"
+        },
+        "age_fit": {
+          "grade": "A",
+          "reason": "年齢の目安は小学1年生〜中高生世代"
+        },
+        "stay_flexibility": {
+          "grade": "unknown",
+          "reason": "途中の出入りや滞在時間の自由度は公式案内に明記がない"
+        },
+        "burden": {
+          "grade": "B",
+          "reason": "未就学児は対象外"
+        },
+        "cost": {
+          "grade": "A",
+          "reason": "公式ページで費用は無料"
+        },
+        "reservation": {
+          "grade": "A",
+          "reason": "事前申込は不要と確認できる"
+        },
+        "family_value": {
+          "grade": "A",
+          "reason": "無料で申込なしに立ち寄れる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-25",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "child_program",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "無料で申込なしに立ち寄れる"
+        ],
+        "limitations": [
+          "未就学児は対象外"
+        ],
+        "grade_comparison": "総合A（12/5(土)・祖師谷児童館「カードゲームで）：無料で申込なしに立ち寄れる。注意点は「未就学児は対象外」こと。",
+        "unsupported_axes": [
+          "stay_flexibility"
+        ],
+        "evidence": [
+          {
+            "url": "https://www.city.setagaya.lg.jp/03080/36981.html",
+            "quote": "日程2026年12月5日（土曜日）",
+            "checked_at": "2026-11-25",
+            "sha256": "06fe2dbbaed49f36ab577cbeee81d39a6d2470e4091af73f9bd926d4df3fc8d2",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-25にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.setagaya.lg.jp/03080/36981.html",
+            "quote": "対象小学1年生から中高生世代",
+            "checked_at": "2026-11-25",
+            "sha256": "3bd0a3d5785149024d79f56119181b56728906208ef4f9a63015000a4c294934",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-25にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.setagaya.lg.jp/03080/36981.html",
+            "quote": "地域のゲームサークル「ロンド」さんと、いろいろなカードゲームであそぼう！",
+            "checked_at": "2026-11-25",
+            "sha256": "07bd8ea9192709c6e1bcf8e057ca5520a16e6a13b3bc5e27122123eea6929f8d",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-25にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-25",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  },
+  {
+    "id": "verified-20261205-soshigaya-music-caravan-2026",
+    "ward": "世田谷区",
+    "name": "祖師谷児童館「Music Caravanウィンターコンサート」",
+    "url": "https://www.city.setagaya.lg.jp/03080/37088.html",
+    "official_url": "https://www.city.setagaya.lg.jp/03080/37088.html",
+    "source": "https://www.city.setagaya.lg.jp/03080/37088.html",
+    "image": "",
+    "period": "12/5(土)",
+    "date_start": "2026-12-05",
+    "date_end": "2026-12-05",
+    "time": "午前10時30分〜11時30分",
+    "venue": "祖師谷児童館遊戯室（世田谷区）",
+    "price": "無料",
+    "description": "大学の音楽サークルによる、歌や踊りも楽しめる児童館のコンサート。",
+    "categories": [
+      "音楽",
+      "親子"
+    ],
+    "indoor_outdoor": "屋内",
+    "reservation": {
+      "required": null,
+      "note": "受付は11/21から当日まで。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "12/5(土)開催。赤ちゃんから参加でき、演奏を聴いて歌に合わせて踊れる無料のコンサート。対象は全世代向け。",
+      "axes": {
+        "child_target": {
+          "grade": "B",
+          "reason": "対象は「どなたでも（乳幼児は保護者同伴）」"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "内容：大学の音楽サークルによる、歌や踊りも楽しめる児童館のコンサート。"
+        },
+        "age_fit": {
+          "grade": "B",
+          "reason": "年齢の目安はどなたでも（乳幼児は保護者同伴）"
+        },
+        "stay_flexibility": {
+          "grade": "unknown",
+          "reason": "途中の出入りや滞在時間の自由度は公式案内に明記がない"
+        },
+        "burden": {
+          "grade": "B",
+          "reason": "全世代向けで子ども専用の行事ではない"
+        },
+        "cost": {
+          "grade": "A",
+          "reason": "公式ページで費用は無料"
+        },
+        "reservation": {
+          "grade": "unknown",
+          "reason": "申込の要否が公式ページにない"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "赤ちゃん連れで楽しめる無料の演奏"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-25",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "all_ages",
+        "child_activity_confirmed": false,
+        "strengths": [
+          "赤ちゃん連れで楽しめる無料の演奏"
+        ],
+        "limitations": [
+          "全世代向けで子ども専用の行事ではない"
+        ],
+        "grade_comparison": "総合B（12/5(土)・祖師谷児童館「Music C）：赤ちゃん連れで楽しめる無料の演奏。注意点は「全世代向けで子ども専用の行事ではない」こと。",
+        "unsupported_axes": [
+          "stay_flexibility",
+          "reservation"
+        ],
+        "evidence": [
+          {
+            "url": "https://www.city.setagaya.lg.jp/03080/37088.html",
+            "quote": "日程2026年12月5日（土曜日）",
+            "checked_at": "2026-11-25",
+            "sha256": "06fe2dbbaed49f36ab577cbeee81d39a6d2470e4091af73f9bd926d4df3fc8d2",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-25にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.setagaya.lg.jp/03080/37088.html",
+            "quote": "対象どなたでもどうぞ（乳幼児は保護者同伴）",
+            "checked_at": "2026-11-25",
+            "sha256": "476ba08b49a1a99bb25d464319f458a8ac0a5ea2c22511d1d50a1a79bf7b71af",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-25にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.setagaya.lg.jp/03080/37088.html",
+            "quote": "赤ちゃんからおじいちゃん・おばあちゃんまで、ぜひご参加ください",
+            "checked_at": "2026-11-25",
+            "sha256": "8066a409b4cd623eb5255666eb0659b99e0eab67f4d31d7e5c7a8b5ace9105b8",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-25にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-25",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  },
+  {
+    "id": "verified-20261205-hananoki-kousaku-2026",
+    "ward": "葛飾区",
+    "name": "花の木児童館「どようびおたのしみ工作！」（12月）",
+    "url": "https://www.city.katsushika.lg.jp/event/1000114/1000781/1044078.html",
+    "official_url": "https://www.city.katsushika.lg.jp/event/1000114/1000781/1044078.html",
+    "source": "https://www.city.katsushika.lg.jp/event/1000114/1000781/1044078.html",
+    "image": "",
+    "period": "12/5(土)",
+    "date_start": "2026-12-05",
+    "date_end": "2026-12-05",
+    "time": "午後2時〜午後4時",
+    "venue": "花の木児童館（葛飾区）",
+    "price": "参加費の記載なし",
+    "description": "プラバンやスライム、季節の工作などを楽しむ土曜午後の児童館工作。",
+    "categories": [
+      "工作",
+      "子ども"
+    ],
+    "indoor_outdoor": "屋内",
+    "reservation": {
+      "required": false,
+      "note": "当日直接来館。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "12/5(土)開催。土曜の午後に当日参加できる小学生向けの工作。何を作るかは当日で、費用の記載はない。",
+      "axes": {
+        "child_target": {
+          "grade": "A",
+          "reason": "対象は「小学生以上」"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "内容：プラバンやスライム、季節の工作などを楽しむ土曜午後の児童館工作。"
+        },
+        "age_fit": {
+          "grade": "A",
+          "reason": "年齢の目安は小学生以上"
+        },
+        "stay_flexibility": {
+          "grade": "unknown",
+          "reason": "途中の出入りや滞在時間の自由度は公式案内に明記がない"
+        },
+        "burden": {
+          "grade": "B",
+          "reason": "工作の内容は当日まで分からず、費用の記載がない"
+        },
+        "cost": {
+          "grade": "unknown",
+          "reason": "費用の記載が公式ページにない"
+        },
+        "reservation": {
+          "grade": "A",
+          "reason": "事前申込は不要と確認できる"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "当日参加で工作を楽しめる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-25",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "child_program",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "当日参加で工作を楽しめる"
+        ],
+        "limitations": [
+          "工作の内容は当日まで分からず、費用の記載がない"
+        ],
+        "grade_comparison": "総合B（12/5(土)・花の木児童館「どようびおたの）：当日参加で工作を楽しめる。注意点は「工作の内容は当日まで分からず、費用の記載がない」こと。",
+        "unsupported_axes": [
+          "stay_flexibility",
+          "cost"
+        ],
+        "evidence": [
+          {
+            "url": "https://www.city.katsushika.lg.jp/event/1000114/1000781/1044078.html",
+            "quote": "土曜日の午後「どようびおたのしみ工作！」があります。",
+            "checked_at": "2026-11-25",
+            "sha256": "69b4056e3899de6b7534824505546daec781956ab340c9685186b6cb82014c0a",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-25にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.katsushika.lg.jp/event/1000114/1000781/1044078.html",
+            "quote": "実施日・曜日12月5日（土曜日）",
+            "checked_at": "2026-11-25",
+            "sha256": "8812794fd493c9af67427621d0fb88870e06ffb2158cbfe86315a93ba1e9160e",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-25にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.katsushika.lg.jp/event/1000114/1000781/1044078.html",
+            "quote": "対象小学生以上申込方法当日直接おいでください。",
+            "checked_at": "2026-11-25",
+            "sha256": "eeb0632abfc1419f1056b72e33ab929bca32199f9970179ef04000420c9151cf",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-25にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-25",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  },
+  {
+    "id": "verified-20261206-soshigaya-esports-2026",
+    "ward": "世田谷区",
+    "name": "祖師谷児童館「eスポーツであそぼう！」",
+    "url": "https://www.city.setagaya.lg.jp/03080/36975.html",
+    "official_url": "https://www.city.setagaya.lg.jp/03080/36975.html",
+    "source": "https://www.city.setagaya.lg.jp/03080/36975.html",
+    "image": "",
+    "period": "12/6(日)",
+    "date_start": "2026-12-06",
+    "date_end": "2026-12-06",
+    "time": "午後1時30分〜3時",
+    "venue": "祖師谷児童館（世田谷区）",
+    "price": "参加費の記載なし",
+    "description": "児童館の道具でカートのゲームを楽しむ小学生から中高生向けの会。",
+    "categories": [
+      "子ども",
+      "イベント"
+    ],
+    "indoor_outdoor": "屋内",
+    "reservation": {
+      "required": false,
+      "note": "申込不要。当日時間までに来館。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "12/6(日)開催。申込不要で児童館の機器を使ってカートゲームを遊べる。費用の記載はなく、内容はゲーム中心。",
+      "axes": {
+        "child_target": {
+          "grade": "A",
+          "reason": "対象は「小学1年生〜中高生世代」"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "内容：児童館の道具でカートのゲームを楽しむ小学生から中高生向けの会。"
+        },
+        "age_fit": {
+          "grade": "A",
+          "reason": "年齢の目安は小学1年生〜中高生世代"
+        },
+        "stay_flexibility": {
+          "grade": "unknown",
+          "reason": "途中の出入りや滞在時間の自由度は公式案内に明記がない"
+        },
+        "burden": {
+          "grade": "B",
+          "reason": "費用の記載がなく、未就学児は対象外"
+        },
+        "cost": {
+          "grade": "unknown",
+          "reason": "費用の記載が公式ページにない"
+        },
+        "reservation": {
+          "grade": "A",
+          "reason": "事前申込は不要と確認できる"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "道具を持たずに参加できる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-25",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "child_program",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "道具を持たずに参加できる"
+        ],
+        "limitations": [
+          "費用の記載がなく、未就学児は対象外"
+        ],
+        "grade_comparison": "総合B（12/6(日)・祖師谷児童館「eスポーツであ）：道具を持たずに参加できる。注意点は「費用の記載がなく、未就学児は対象外」こと。",
+        "unsupported_axes": [
+          "stay_flexibility",
+          "cost"
+        ],
+        "evidence": [
+          {
+            "url": "https://www.city.setagaya.lg.jp/03080/36975.html",
+            "quote": "日程2026年12月6日（日曜日）",
+            "checked_at": "2026-11-25",
+            "sha256": "bace8a7b2408730e1a88d885ef55904cc911ff272ff70278d09ff02c899dc453",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-25にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.setagaya.lg.jp/03080/36975.html",
+            "quote": "対象小学1年生から中高生世代",
+            "checked_at": "2026-11-25",
+            "sha256": "3bd0a3d5785149024d79f56119181b56728906208ef4f9a63015000a4c294934",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-25にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.setagaya.lg.jp/03080/36975.html",
+            "quote": "今回は、カート（車）のゲーム！道具はすべて児童館のものを使います。",
+            "checked_at": "2026-11-25",
+            "sha256": "b976ab7d1a46df5788c223df3346f2311f65dace31a93f4cdabf942afa462c79",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-25にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-25",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  },
+  {
+    "id": "verified-20261206-ariake-nordic-2026",
+    "ward": "江東区",
+    "name": "ノルディックウォーキング体験会（有明親水海浜公園）",
+    "url": "https://www.tptc.co.jp/park/02_07/event/detail/2488",
+    "official_url": "https://www.tptc.co.jp/park/02_07/event/detail/2488",
+    "source": "https://www.tptc.co.jp/park/02_07/event/detail/2488",
+    "image": "https://www.tptc.co.jp/cms/tptc/park/pages/park/02_07/20261206_event_walking.jpg",
+    "period": "12/6(日)",
+    "date_start": "2026-12-06",
+    "date_end": "2026-12-06",
+    "time": "10時／13時／15時の各回1時間",
+    "venue": "有明親水海浜公園 記念広場集合（江東区）",
+    "price": "無料",
+    "description": "講師にポールの使い方を教わり、園内を約3km歩く無料の体験会。",
+    "categories": [
+      "スポーツ",
+      "公園・自然"
+    ],
+    "indoor_outdoor": "屋外",
+    "reservation": {
+      "required": true,
+      "note": "申込フォームで先着順（12/5 16時まで）。空きがあれば当日受付。各回20名。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "12/6(日)開催。小学生は保護者と一緒に参加でき、道具は貸出で無料。ウォーキング中心で子ども専用の内容ではない。",
+      "axes": {
+        "child_target": {
+          "grade": "B",
+          "reason": "対象は「小学生以上（小学生は保護者同伴）」"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "内容：講師にポールの使い方を教わり、園内を約3km歩く無料の体験会。"
+        },
+        "age_fit": {
+          "grade": "B",
+          "reason": "年齢の目安は小学生以上（小学生は保護者同伴）"
+        },
+        "stay_flexibility": {
+          "grade": "unknown",
+          "reason": "途中の出入りや滞在時間の自由度は公式案内に明記がない"
+        },
+        "burden": {
+          "grade": "B",
+          "reason": "子ども向け専用ではなく約3km歩く"
+        },
+        "cost": {
+          "grade": "A",
+          "reason": "公式ページで費用は無料"
+        },
+        "reservation": {
+          "grade": "B",
+          "reason": "事前の申込や整理券が必要"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "無料で道具を借りて家族で歩ける"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-25",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "age_eligible",
+        "child_activity_confirmed": false,
+        "strengths": [
+          "無料で道具を借りて家族で歩ける"
+        ],
+        "limitations": [
+          "子ども向け専用ではなく約3km歩く"
+        ],
+        "grade_comparison": "総合B（12/6(日)・ノルディックウォーキング体験）：無料で道具を借りて家族で歩ける。注意点は「子ども向け専用ではなく約3km歩く」こと。",
+        "unsupported_axes": [
+          "stay_flexibility"
+        ],
+        "evidence": [
+          {
+            "url": "https://www.tptc.co.jp/park/02_07/event/detail/2488",
+            "quote": "〇令和8年12月6日(日)",
+            "checked_at": "2026-11-25",
+            "sha256": "13d8777a0d25669d1c7414108e42cc4ff331f6e829cb186491795357b5ace608",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-25にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.tptc.co.jp/park/02_07/event/detail/2488",
+            "quote": "小学生以上(小学生は、保護者の方とご一緒にご参加ください)",
+            "checked_at": "2026-11-25",
+            "sha256": "c96b17f58e8734f4d81271a1553e5390b429e5ba9e984acd7848b8e3b961230d",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-25にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.tptc.co.jp/park/02_07/event/detail/2488",
+            "quote": "お一人でも、ご家族・ご友人同士でも、お気軽にお申込みください。",
+            "checked_at": "2026-11-25",
+            "sha256": "9df6c9565e9dc7c157cd297f22f8195d5b133886c64ad0c9f95de846cff85118",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-25にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-25",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  },
+  {
+    "id": "verified-20261206-tamagawa-geinou-2026",
+    "ward": "狛江市",
+    "name": "第25回多摩川流域郷土芸能フェスティバル",
+    "url": "https://www.city.komae.tokyo.jp/events/index.cfm/detail.4.147104.html",
+    "official_url": "https://www.city.komae.tokyo.jp/events/index.cfm/detail.4.147104.html",
+    "source": "https://www.city.komae.tokyo.jp/events/index.cfm/detail.4.147104.html",
+    "image": "",
+    "period": "12/6(日)",
+    "date_start": "2026-12-06",
+    "date_end": "2026-12-06",
+    "time": "12時〜17時（終了予定、開場11時30分）",
+    "venue": "狛江エコルマホール（狛江市）",
+    "price": "入場無料",
+    "description": "多摩川流域の自治体の郷土芸能が集まる舞台。同日に駅前で物産展もある。",
+    "categories": [
+      "伝統文化",
+      "地域イベント"
+    ],
+    "indoor_outdoor": "屋内",
+    "reservation": {
+      "required": null,
+      "note": "申込の記載なし。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "12/6(日)開催。入場無料で流域各地の郷土芸能を舞台で見られる。子ども向けの案内はなく、鑑賞中心の長時間の催し。",
+      "axes": {
+        "child_target": {
+          "grade": "B",
+          "reason": "対象は「対象の記載なし」"
+        },
+        "interactivity": {
+          "grade": "B",
+          "reason": "内容：多摩川流域の自治体の郷土芸能が集まる舞台。同日に駅前で物産展もある。"
+        },
+        "age_fit": {
+          "grade": "B",
+          "reason": "対象年齢の指定は公式ページにない"
+        },
+        "stay_flexibility": {
+          "grade": "unknown",
+          "reason": "途中の出入りや滞在時間の自由度は公式案内に明記がない"
+        },
+        "burden": {
+          "grade": "B",
+          "reason": "子ども向けの案内がなく鑑賞が中心"
+        },
+        "cost": {
+          "grade": "A",
+          "reason": "入場無料と公式ページに記載"
+        },
+        "reservation": {
+          "grade": "unknown",
+          "reason": "申込の要否が公式ページにない"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "無料で地域の伝統芸能に触れられる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-25",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "unspecified",
+        "child_activity_confirmed": false,
+        "strengths": [
+          "無料で地域の伝統芸能に触れられる"
+        ],
+        "limitations": [
+          "子ども向けの案内がなく鑑賞が中心"
+        ],
+        "grade_comparison": "総合B（12/6(日)・第25回多摩川流域郷土芸能フ）：無料で地域の伝統芸能に触れられる。注意点は「子ども向けの案内がなく鑑賞が中心」こと。",
+        "unsupported_axes": [
+          "stay_flexibility",
+          "reservation"
+        ],
+        "evidence": [
+          {
+            "url": "https://www.city.komae.tokyo.jp/events/index.cfm/detail.4.147104.html",
+            "quote": "12月６日（日）12時～17時（終了予定）（開場11時30分）",
+            "checked_at": "2026-11-25",
+            "sha256": "dc15fb4781c51f9d7dd5dccc69303741f9449f002be9dc664c088340b0d6ae70",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-25にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.komae.tokyo.jp/events/index.cfm/detail.4.147104.html",
+            "quote": "多彩な郷土芸能を体験できる貴重な機会です。",
+            "checked_at": "2026-11-25",
+            "sha256": "34b17eb3c99bce3fcf604db8d651e7f09717a8abbfe6619032a7e854a4bb39c2",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-25にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.komae.tokyo.jp/events/index.cfm/detail.4.147104.html",
+            "quote": "料金入場無料内容12：00～開会セレモニー",
+            "checked_at": "2026-11-25",
+            "sha256": "ca4804ebc6636cc94a721dfaf5850b6ac410f6b2d2614a4a982021d98f1fe5b6",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-25にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-25",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  }
+]

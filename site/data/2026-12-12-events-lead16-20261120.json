@@ -1,0 +1,298 @@
+[
+  {
+    "id": "verified-20261212-adachi-kuwabukuro-donguri",
+    "ward": "足立区",
+    "name": "【桑袋ビオトープ公園】ドングリクラフト",
+    "url": "https://www.city.adachi.tokyo.jp/k-iji/event/20261110kuwabukuro_donguri.html",
+    "official_url": "https://www.city.adachi.tokyo.jp/k-iji/event/20261110kuwabukuro_donguri.html",
+    "source": "https://www.city.adachi.tokyo.jp/k-iji/event/20261110kuwabukuro_donguri.html",
+    "image": "https://www.city.adachi.tokyo.jp/images/70098/kuwabukuro3.jpg",
+    "period": "12/12(土)",
+    "date_start": "2026-12-12",
+    "date_end": "2026-12-12",
+    "time": "9:30〜11:30／13:00〜15:30",
+    "venue": "桑袋ビオトープ公園",
+    "price": "無料",
+    "description": "ドングリを使ってコマやネックレスを作るクラフト。3歳以上が対象で、就学前は保護者の参加が必要。事前申込不要で、時間内に随時受付。無料。",
+    "categories": [
+      "工作",
+      "公園"
+    ],
+    "indoor_outdoor": "屋内・屋外",
+    "reservation": {
+      "required": false,
+      "note": "事前申込不要。開催時間内に随時受付。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "12/12(土)の午前9:30〜11:30と午後1:00〜3:30に、桑袋ビオトープ公園でドングリのコマやネックレスを作れる。3歳以上が対象で、無料、申込不要。",
+      "axes": {
+        "child_target": {
+          "grade": "B",
+          "reason": "3歳以上が対象で、就学前は保護者の参加が必要と明記"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "ドングリでコマやネックレスを作る工作"
+        },
+        "age_fit": {
+          "grade": "B",
+          "reason": "3歳以上が対象"
+        },
+        "stay_flexibility": {
+          "grade": "A",
+          "reason": "時間内に随時参加でき、滞在時間を選べる"
+        },
+        "burden": {
+          "grade": "A",
+          "reason": "事前申込が不要"
+        },
+        "cost": {
+          "grade": "A",
+          "reason": "無料"
+        },
+        "reservation": {
+          "grade": "A",
+          "reason": "事前申込不要で、時間内に随時受付"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "公園で自然素材の工作を楽しめる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-20",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "age_eligible",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "無料・申込不要で随時参加",
+          "ドングリでコマやネックレスを作る"
+        ],
+        "limitations": [
+          "3歳以上が対象",
+          "天候等で変更・中止の場合あり"
+        ],
+        "grade_comparison": "総合B：12/12(土)の桑袋ビオトープ公園で、9:30〜11:30と13:00〜15:30にドングリクラフトを実施。無料、申込不要。",
+        "unsupported_axes": [],
+        "evidence": [
+          {
+            "url": "https://www.city.adachi.tokyo.jp/k-iji/event/20261110kuwabukuro_donguri.html",
+            "quote": "ドングリを使ってコマやネックレスを作ります。",
+            "checked_at": "2026-11-20",
+            "sha256": "ccc271ae9fae63f3c33b9c8a2f7e1470efc4045e7fb95996e6b2f11c02f1027d",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "足立区公式イベントページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.adachi.tokyo.jp/k-iji/event/20261110kuwabukuro_donguri.html",
+            "quote": "11月1日から令和9年1月31日：午前9時30分から午前11時30分／午後1時から午後3時30分",
+            "checked_at": "2026-11-20",
+            "sha256": "8b22a8532107ea0c445ef94aefb6f70713fdef534ac3196fa4806526ef878be3",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "足立区公式イベントページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.adachi.tokyo.jp/k-iji/event/20261110kuwabukuro_donguri.html",
+            "quote": "2026年11月1日（日曜日）から2027年3月31日（水曜日）",
+            "checked_at": "2026-11-20",
+            "sha256": "9d313c0dd9779f7b2976877fff10a4d02fca9ac6f5ee14f3421552fcd00102f7",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "足立区公式イベントページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.adachi.tokyo.jp/k-iji/event/20261110kuwabukuro_donguri.html",
+            "quote": "名称桑袋ビオトープ公園所在地足立区花畑八丁目2番2号",
+            "checked_at": "2026-11-20",
+            "sha256": "9f97fd404f9df807a0de8584023f94e5019d74428e12d61051ef1e7083045839",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "足立区公式イベントページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.adachi.tokyo.jp/k-iji/event/20261110kuwabukuro_donguri.html",
+            "quote": "対象3歳以上の方※就学前の子どもは保護者の参加が必要です。",
+            "checked_at": "2026-11-20",
+            "sha256": "7a0d1dac08b7617c28406d09cf86c21d19892ab880cf0da5eb4af26f3e1747be",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "足立区公式イベントページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.adachi.tokyo.jp/k-iji/event/20261110kuwabukuro_donguri.html",
+            "quote": "費用無料申込方法事前の申し込みは不要です。",
+            "checked_at": "2026-11-20",
+            "sha256": "b73b0436fe154626a43a333535788567c513778fcc1d1f8f9186e336f54fd6b9",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "足立区公式イベントページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-20",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  },
+  {
+    "id": "verified-20261213-adachi-kuwabukuro-donguri",
+    "ward": "足立区",
+    "name": "【桑袋ビオトープ公園】ドングリクラフト",
+    "url": "https://www.city.adachi.tokyo.jp/k-iji/event/20261110kuwabukuro_donguri.html",
+    "official_url": "https://www.city.adachi.tokyo.jp/k-iji/event/20261110kuwabukuro_donguri.html",
+    "source": "https://www.city.adachi.tokyo.jp/k-iji/event/20261110kuwabukuro_donguri.html",
+    "image": "https://www.city.adachi.tokyo.jp/images/70098/kuwabukuro3.jpg",
+    "period": "12/13(日)",
+    "date_start": "2026-12-13",
+    "date_end": "2026-12-13",
+    "time": "9:30〜11:30／13:00〜15:30",
+    "venue": "桑袋ビオトープ公園",
+    "price": "無料",
+    "description": "ドングリを使ってコマやネックレスを作るクラフト。3歳以上が対象で、就学前は保護者の参加が必要。事前申込不要で、時間内に随時受付。無料。",
+    "categories": [
+      "工作",
+      "公園"
+    ],
+    "indoor_outdoor": "屋内・屋外",
+    "reservation": {
+      "required": false,
+      "note": "事前申込不要。開催時間内に随時受付。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "12/13(日)の午前9:30〜11:30と午後1:00〜3:30に、桑袋ビオトープ公園でドングリのコマやネックレスを作れる。3歳以上が対象で、無料、申込不要。",
+      "axes": {
+        "child_target": {
+          "grade": "B",
+          "reason": "3歳以上が対象で、就学前は保護者の参加が必要と明記"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "ドングリでコマやネックレスを作る工作"
+        },
+        "age_fit": {
+          "grade": "B",
+          "reason": "3歳以上が対象"
+        },
+        "stay_flexibility": {
+          "grade": "A",
+          "reason": "時間内に随時参加でき、滞在時間を選べる"
+        },
+        "burden": {
+          "grade": "A",
+          "reason": "事前申込が不要"
+        },
+        "cost": {
+          "grade": "A",
+          "reason": "無料"
+        },
+        "reservation": {
+          "grade": "A",
+          "reason": "事前申込不要で、時間内に随時受付"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "公園で自然素材の工作を楽しめる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-20",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "age_eligible",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "無料・申込不要で随時参加",
+          "ドングリでコマやネックレスを作る"
+        ],
+        "limitations": [
+          "3歳以上が対象",
+          "天候等で変更・中止の場合あり"
+        ],
+        "grade_comparison": "総合B：12/13(日)の桑袋ビオトープ公園で、9:30〜11:30と13:00〜15:30にドングリクラフトを実施。無料、申込不要。",
+        "unsupported_axes": [],
+        "evidence": [
+          {
+            "url": "https://www.city.adachi.tokyo.jp/k-iji/event/20261110kuwabukuro_donguri.html",
+            "quote": "ドングリを使ってコマやネックレスを作ります。",
+            "checked_at": "2026-11-20",
+            "sha256": "ccc271ae9fae63f3c33b9c8a2f7e1470efc4045e7fb95996e6b2f11c02f1027d",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "足立区公式イベントページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.adachi.tokyo.jp/k-iji/event/20261110kuwabukuro_donguri.html",
+            "quote": "11月1日から令和9年1月31日：午前9時30分から午前11時30分／午後1時から午後3時30分",
+            "checked_at": "2026-11-20",
+            "sha256": "8b22a8532107ea0c445ef94aefb6f70713fdef534ac3196fa4806526ef878be3",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "足立区公式イベントページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.adachi.tokyo.jp/k-iji/event/20261110kuwabukuro_donguri.html",
+            "quote": "2026年11月1日（日曜日）から2027年3月31日（水曜日）",
+            "checked_at": "2026-11-20",
+            "sha256": "9d313c0dd9779f7b2976877fff10a4d02fca9ac6f5ee14f3421552fcd00102f7",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "足立区公式イベントページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.adachi.tokyo.jp/k-iji/event/20261110kuwabukuro_donguri.html",
+            "quote": "名称桑袋ビオトープ公園所在地足立区花畑八丁目2番2号",
+            "checked_at": "2026-11-20",
+            "sha256": "9f97fd404f9df807a0de8584023f94e5019d74428e12d61051ef1e7083045839",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "足立区公式イベントページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.adachi.tokyo.jp/k-iji/event/20261110kuwabukuro_donguri.html",
+            "quote": "対象3歳以上の方※就学前の子どもは保護者の参加が必要です。",
+            "checked_at": "2026-11-20",
+            "sha256": "7a0d1dac08b7617c28406d09cf86c21d19892ab880cf0da5eb4af26f3e1747be",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "足立区公式イベントページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.adachi.tokyo.jp/k-iji/event/20261110kuwabukuro_donguri.html",
+            "quote": "費用無料申込方法事前の申し込みは不要です。",
+            "checked_at": "2026-11-20",
+            "sha256": "b73b0436fe154626a43a333535788567c513778fcc1d1f8f9186e336f54fd6b9",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "足立区公式イベントページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-20",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  }
+]

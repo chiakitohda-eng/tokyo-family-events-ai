@@ -1,0 +1,153 @@
+[
+  {
+    "id": "verified-20261205-minato-monodukuri-fair",
+    "ward": "港区",
+    "name": "みつかるみらいMINATO 第11回港区ものづくり・商業観光フェア（札の辻スクエア）",
+    "url": "https://minato-monodukuri2026.jp",
+    "official_url": "https://minato-monodukuri2026.jp",
+    "source": "https://minato-monodukuri2026.jp",
+    "image": "",
+    "period": "12/5(土)",
+    "date_start": "2026-12-05",
+    "date_end": "2026-12-05",
+    "time": "10:00〜17:30",
+    "venue": "札の辻スクエア（港区芝5-36-4）",
+    "price": "入場無料（一部の体験は有料）",
+    "description": "ものづくりや商業の体験ブースが並ぶ港区のフェア。ミニ四駆や万華鏡づくり、サイエンスワークショップなどの体験コンテンツがある。事前申込の受付は終了しており、事前申込不要の企画ブースに当日参加できる。",
+    "categories": [
+      "ものづくり",
+      "体験",
+      "地域イベント"
+    ],
+    "indoor_outdoor": "屋内",
+    "reservation": {
+      "required": null,
+      "note": "事前申込コンテンツの受付は終了。事前申込不要の企画ブースは当日参加できる。"
+    },
+    "family_fit": {
+      "grade": "C",
+      "overall": "C",
+      "rubric_version": "family-fit-v2",
+      "reason": "港区のものづくり・商業観光フェアで、ミニ四駆の組み立て、万華鏡づくり、サイエンスワークショップなどの体験がある。事前申込分の受付は終了し、事前申込不要の企画ブースが当日参加できる。",
+      "axes": {
+        "child_target": {
+          "grade": "B",
+          "reason": "ミニ四駆や万華鏡づくりなど、子どもが参加できる体験コンテンツがある"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "ものづくり体験が中心"
+        },
+        "age_fit": {
+          "grade": "unknown",
+          "reason": "対象年齢の目安が明記されていない"
+        },
+        "stay_flexibility": {
+          "grade": "A",
+          "reason": "10:00〜17:30の間に出入りできる"
+        },
+        "burden": {
+          "grade": "B",
+          "reason": "公共交通機関での来場が必要で、混雑の可能性がある"
+        },
+        "cost": {
+          "grade": "A",
+          "reason": "入場無料（一部の体験は有料）"
+        },
+        "reservation": {
+          "grade": "C",
+          "reason": "事前申込コンテンツは受付終了。事前申込不要の企画ブースのみ当日参加"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "親子でものづくりを体験できる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-20",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "all_ages",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "入場無料",
+          "ものづくり体験が多い"
+        ],
+        "limitations": [
+          "事前申込コンテンツは受付終了",
+          "対象年齢の目安がない"
+        ],
+        "grade_comparison": "総合C：入場無料でものづくり体験が楽しめるが、事前申込分は受付終了で、対象年齢の目安もない。",
+        "unsupported_axes": [
+          "age_fit"
+        ],
+        "evidence": [
+          {
+            "url": "https://minato-monodukuri2026.jp",
+            "quote": "開催日時令和8年(2026年)12月5日（土）",
+            "checked_at": "2026-11-20",
+            "sha256": "eba0e90112b962365418c24649e0542e1846632b764586de68193eeeee5d9abd",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://minato-monodukuri2026.jp",
+            "quote": "場所札の辻スクエア住所東京都",
+            "checked_at": "2026-11-20",
+            "sha256": "e7fefa5c78d84e172f84593b203de15bfa6e25675a1b9fefc46935e6c7de2ab3",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://minato-monodukuri2026.jp",
+            "quote": "時間10:00～17:30",
+            "checked_at": "2026-11-20",
+            "sha256": "50d21db76baef82dc87fbccab73aa37b03a0d2fb12a1f05c598e3f671514ef61",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://minato-monodukuri2026.jp",
+            "quote": "事前申込受付終了のお知らせ",
+            "checked_at": "2026-11-20",
+            "sha256": "a02d3e87efcd6cbc226e545520ca7aef7071c28df7e0ae7cf6ab56e510ba71db",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://minato-monodukuri2026.jp",
+            "quote": "事前申込不要！企画ブース",
+            "checked_at": "2026-11-20",
+            "sha256": "0f7a8f7a04c1442fd50cb9cafc0ca4de196bf6e5ff1f6c5568f1874db7ca18ee",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://minato-monodukuri2026.jp",
+            "quote": "ミニ四駆『組み立て・走行』体験会",
+            "checked_at": "2026-11-20",
+            "sha256": "d4c70994894a25076659e80f65485f17b2344bd2d5b2d41e6c00a097bd2a2bfb",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-20",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  }
+]

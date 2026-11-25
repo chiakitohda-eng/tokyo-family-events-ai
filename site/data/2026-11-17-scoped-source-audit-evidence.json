@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "as_of_jst": "2026-11-17",
+  "scope": "manual_non_ng_subset_rollover",
+  "user_instruction": "NG以外は最後まで進めてください",
+  "official_audit_run_url": "https://github.com/toodataa-ai/tokyo-family-events-ai/actions/runs/44097710578",
+  "immutable_source_artifact_id": 14334562500,
+  "measured": {
+    "required_source_id_count": 25,
+    "required_and_optional_source_url_checks": 34,
+    "source_urls_http200": 32,
+    "source_urls_http403": 2,
+    "url_errors": [
+      "https://pc.tamemap.net/1311401/calendar/2026-11?lat=35.7089745&lng=139.6630981&level=5000&locale=ja",
+      "https://pc.tamemap.net/1311401/calendar/2026-12?lat=35.7089745&lng=139.6630981&level=5000&locale=ja"
+    ],
+    "source_of_both_errors": "tamemap_nakano",
+    "official_ward_homepage_plus_search_requests": 46,
+    "successful_ward_requests": 46,
+    "candidate_facts_validated_independently": 8,
+    "carried_event_individual_http200_and_dated_venue_rechecks": 14,
+    "all_23_wards_full_coverage": false,
+    "all_25_required_sources_successful": false,
+    "all_official_calendar_rows_reconciled": false
+  },
+  "decision": "These 8 events are individually evidenced; six NG pending records excluded. The incomplete global discovery run and Tamemap 403s are explicitly retained as blockers for any claim of a full refresh. Data-only manual subset is distinct from a full six-week official-crawl certification.",
+  "prior_production_records_preserved": 607,
+  "old_event_field_changes_except_authorized_42_images": 0,
+  "explicit_source_registry_unchanged": true,
+  "do_not_relabel_http403_as_checked": true,
+  "skip_full_coverage_claim": true,
+  "as_of_production_base": "fc6bec505975c6dabbddd404f33cd7d9f3f525e9"
+}

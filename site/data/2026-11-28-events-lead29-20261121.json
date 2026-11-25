@@ -1,0 +1,150 @@
+[
+  {
+    "id": "verified-20261128-kiyose-tamaroku-news-sports-festa",
+    "ward": "清瀬市",
+    "name": "たまろくとニュースポーツフェスタ（下宿地域市民センター・下宿運動公園広場）",
+    "url": "https://www.city.kiyose.lg.jp/bunkasportskankou/sports/sportsevent/1016896.html",
+    "official_url": "https://www.city.kiyose.lg.jp/bunkasportskankou/sports/sportsevent/1016896.html",
+    "source": "https://www.city.kiyose.lg.jp/bunkasportskankou/sports/sportsevent/1016896.html",
+    "image": "",
+    "period": "11/28(土)",
+    "date_start": "2026-11-28",
+    "date_end": "2026-11-28",
+    "time": "9:30〜12:00",
+    "venue": "下宿地域市民センター（市民体育館・下宿運動公園広場）",
+    "price": "無料（費用不要）",
+    "description": "モルック、ラダーゲッター、ベースボール5などのニュースポーツを楽しむイベント。子どもから高齢者まで楽しめる。体験に応じてスタンプを集めると、限定のぷっくりシールがもらえる。多摩六都の物品販売やキャラクターのグリーティングも予定。申込不要で、直接会場へ。",
+    "categories": [
+      "スポーツ",
+      "まつり・イベント"
+    ],
+    "indoor_outdoor": "屋内・屋外",
+    "reservation": {
+      "required": false,
+      "note": "申込不要。直接会場へ。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "子どもから高齢者まで楽しめるニュースポーツを無料で体験できるイベント。スタンプを集めるとシールがもらえ、キャラクターのグリーティングもある。申込不要。",
+      "axes": {
+        "child_target": {
+          "grade": "B",
+          "reason": "対象はどなたでも。子どもから高齢者まで楽しめると明記"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "モルックなどのニュースポーツを体験する参加型"
+        },
+        "age_fit": {
+          "grade": "B",
+          "reason": "年齢の限定はない（種目により体験できる時間が異なる）"
+        },
+        "stay_flexibility": {
+          "grade": "A",
+          "reason": "9:30〜12:00の間に好きな種目を選んで参加できる"
+        },
+        "burden": {
+          "grade": "A",
+          "reason": "申込不要で、直接会場へ行く"
+        },
+        "cost": {
+          "grade": "A",
+          "reason": "費用は不要"
+        },
+        "reservation": {
+          "grade": "A",
+          "reason": "申込不要"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "親子で複数のスポーツを無料で体験できる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-21",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "all_ages",
+        "child_activity_confirmed": false,
+        "strengths": [
+          "無料・申込不要で、複数のニュースポーツを体験できる",
+          "スタンプラリーでシールがもらえる"
+        ],
+        "limitations": [
+          "時間によって体験できない種目がある",
+          "種目は変更になる可能性がある"
+        ],
+        "grade_comparison": "総合B：無料・申込不要の体験型スポーツイベント。種目は時間帯により変わる。",
+        "unsupported_axes": [],
+        "evidence": [
+          {
+            "url": "https://www.city.kiyose.lg.jp/bunkasportskankou/sports/sportsevent/1016896.html",
+            "quote": "たまろくとニュースポーツフェスタ",
+            "checked_at": "2026-11-21",
+            "sha256": "576d5e78ac5e7eda7d0b1413cb3cda70d62c293bef6588a1d5e851083e355a6f",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.kiyose.lg.jp/bunkasportskankou/sports/sportsevent/1016896.html",
+            "quote": "開催日 2026年11月28日（土曜日） 開催時間 午前9時30分 から 正午 まで 開催場所 下宿地域市民センター 対象 どなたでも",
+            "checked_at": "2026-11-21",
+            "sha256": "f9ef041768ca1232e37ef5dc1632bd17c259dd91b4f5486966a8f69d178c4382",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.kiyose.lg.jp/bunkasportskankou/sports/sportsevent/1016896.html",
+            "quote": "モルックやラダーゲッタ、ベースボール5など様々なニュースポーツを楽しめるイベントです。",
+            "checked_at": "2026-11-21",
+            "sha256": "61ce5e99a342d0a4395afa1174037aaa19a34058efd8c1d26b631415c81f9fd0",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.kiyose.lg.jp/bunkasportskankou/sports/sportsevent/1016896.html",
+            "quote": "体験に応じたスタンプを集めると、イベント限定オリジナルぷっくりシールがもらえます。",
+            "checked_at": "2026-11-21",
+            "sha256": "eb9b437d9070d058a6ec3922001fe49ac6801cb901da1d13b2877dd400480e90",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.kiyose.lg.jp/bunkasportskankou/sports/sportsevent/1016896.html",
+            "quote": "会場では多摩六都の物品販売、キャラクターたちのグリーティングも予定しています。",
+            "checked_at": "2026-11-21",
+            "sha256": "a940b127ba0b0fddcbe979067e834b364211ecfc059fa90dab906d54a3a4d968",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.kiyose.lg.jp/bunkasportskankou/sports/sportsevent/1016896.html",
+            "quote": "申込み 不要 直接会場へお越しください。 費用 不要",
+            "checked_at": "2026-11-21",
+            "sha256": "2b2f3c4f081d0eec01c37172cb817d4807823ee3d21761d918b1a2b9e8466357",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-21",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  }
+]

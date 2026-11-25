@@ -1,0 +1,273 @@
+[
+  {
+    "id": "verified-20261121-sumida-solamachi-xmasmarket-2026",
+    "ward": "墨田区",
+    "name": "絵本の中のクリスマスマーケットin東京スカイツリータウン2026",
+    "url": "https://www.tokyo-solamachi.jp/event/20261105_xmasmarket/",
+    "official_url": "https://www.tokyo-solamachi.jp/event/20261105_xmasmarket/",
+    "source": "https://www.tokyo-solamachi.jp/event/20261105_xmasmarket/",
+    "image": "https://www.tokyo-solamachi.jp/img/event/20261105_xmasmarket/main01.jpg",
+    "period": "11/5(木)〜12/25(金)（開催中）",
+    "date_start": "2026-11-21",
+    "date_end": "2026-12-25",
+    "time": "11:00〜22:00（L.O.21:00）",
+    "venue": "東京スカイツリータウン 4F スカイアリーナ（墨田区押上1-1-2）",
+    "price": "参加費は無料（飲食・物販は有料）",
+    "description": "東京スカイツリータウンの冬の風物詩、クリスマスマーケット。ヨーロッパ式の木の小屋（ヒュッテ）15棟が並び、雪だるま・サンタ・トナカイをモチーフにしたクリスマスグルメや、会場限定のマグカップなどを楽しめる。飲食エリアのため、補助犬を除くペットは同伴できない。",
+    "categories": [
+      "まつり・イベント"
+    ],
+    "indoor_outdoor": "屋内・屋外",
+    "reservation": {
+      "required": false,
+      "note": "予約の記載なし。参加費は無料。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "ヨーロッパ風の小屋が並ぶクリスマスマーケット。参加費は無料で、クリスマスらしいグルメと雰囲気を家族で楽しめる。飲食や買い物は別に費用がかかる。",
+      "axes": {
+        "child_target": {
+          "grade": "B",
+          "reason": "対象はどなたでも。絵本がテーマの家族向けの会場"
+        },
+        "interactivity": {
+          "grade": "B",
+          "reason": "見て歩いて、飲食を楽しむ内容が中心"
+        },
+        "age_fit": {
+          "grade": "B",
+          "reason": "年齢の限定はない"
+        },
+        "stay_flexibility": {
+          "grade": "A",
+          "reason": "約1か月半と長く、11:00〜22:00で好きな時間に行ける"
+        },
+        "burden": {
+          "grade": "B",
+          "reason": "混む日があり、飲食エリアはペット同伴不可"
+        },
+        "cost": {
+          "grade": "A",
+          "reason": "参加費は無料（飲食・物販は別）"
+        },
+        "reservation": {
+          "grade": "A",
+          "reason": "予約の記載なし"
+        },
+        "family_value": {
+          "grade": "A",
+          "reason": "商業施設の中で、クリスマスの雰囲気を楽しめる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-21",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "all_ages",
+        "child_activity_confirmed": false,
+        "strengths": [
+          "参加費が無料で、期間が長い",
+          "雪だるまやサンタをモチーフにした、見た目も楽しいメニューがある"
+        ],
+        "limitations": [
+          "飲食や買い物は別に費用がかかる",
+          "混む日があり、飲食エリアはペット同伴不可"
+        ],
+        "grade_comparison": "総合B：無料で入れる、家族向けのクリスマスマーケット。飲食や買い物は別料金。",
+        "unsupported_axes": [],
+        "evidence": [
+          {
+            "url": "https://www.tokyo-solamachi.jp/event/20261105_xmasmarket/",
+            "quote": "期間：2026年11月5日～2026年12月25日",
+            "checked_at": "2026-11-21",
+            "sha256": "a4332ec43484e9311e88e72ec3558d429f49fff90a8051202a988a96233cd520",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.tokyo-solamachi.jp/event/20261105_xmasmarket/",
+            "quote": "会場には15棟のヨーロッパ式ヒュッテ（木の小屋）が並びます。",
+            "checked_at": "2026-11-21",
+            "sha256": "f5508998a18999df20d819f0bc1e137d699c0d11e6439a26a26da0ed7e23f0ac",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.tokyo-solamachi.jp/event/20261105_xmasmarket/",
+            "quote": "開催時間11:00～22:00（L.O.21:00）場所4Fスカイアリーナ",
+            "checked_at": "2026-11-21",
+            "sha256": "2e8ee8d561540052d6799e4f9539f8b49ad6b19b142bb784dbe5e283330cab27",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.tokyo-solamachi.jp/event/20261105_xmasmarket/",
+            "quote": "4Fスカイアリーナフロアガイド参加費無料",
+            "checked_at": "2026-11-21",
+            "sha256": "5e7b4a30ba88ccad639082fc979f871530587a3fb393b7ca02b81fb6569bfbe9",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-21",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  },
+  {
+    "id": "verified-20261121-minato-joypolis-digitareal-illumination-2026",
+    "ward": "港区",
+    "name": "デジタリアルイルミネーション2026（東京ジョイポリス）",
+    "url": "https://tokyo-joypolis.com/event/index.html",
+    "official_url": "https://tokyo-joypolis.com/event/index.html",
+    "source": "https://tokyo-joypolis.com/event/index.html",
+    "image": "https://tokyo-joypolis.com/event/illumination2026/images/thumb_illumination.jpg",
+    "period": "11/20(土)〜2027/2/11(木・祝)（開催中）",
+    "date_start": "2026-11-21",
+    "date_end": "2027-02-11",
+    "time": "東京ジョイポリスの営業時間内（営業時間は公式サイトで確認）",
+    "venue": "東京ジョイポリス（港区台場1-6-1 デックス東京ビーチ内）館内",
+    "price": "入場券は大人（18歳以上）1,700円・小中高生1,400円。未就学児は入場無料。アトラクションは別料金（パスポートは大人6,000円・小中高生5,000円）",
+    "description": "お台場の屋内型アミューズメント施設「東京ジョイポリス」の館内を飾る、期間限定のイルミネーション。館内で楽しめる。アトラクションはパスポートか回数券が別に必要。",
+    "categories": [
+      "まつり・イベント",
+      "テーマパーク・遊園地"
+    ],
+    "indoor_outdoor": "屋内",
+    "reservation": {
+      "required": false,
+      "note": "予約の記載なし。入場券（またはパスポート）の購入が必要。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "屋内のアミューズメント施設で楽しむ冬のイルミネーション。入場料が必要で、アトラクションは別料金。未就学児は入場無料。",
+      "axes": {
+        "child_target": {
+          "grade": "B",
+          "reason": "対象はどなたでも。アトラクション中心の施設"
+        },
+        "interactivity": {
+          "grade": "B",
+          "reason": "イルミネーションに加え、アトラクションも利用できる"
+        },
+        "age_fit": {
+          "grade": "B",
+          "reason": "未就学児は入場無料だが、アトラクションには身長制限がある"
+        },
+        "stay_flexibility": {
+          "grade": "A",
+          "reason": "約2.5か月と長く、好きな日に行ける"
+        },
+        "burden": {
+          "grade": "A",
+          "reason": "屋内で、冬の寒さや雨を気にせず過ごせる"
+        },
+        "cost": {
+          "grade": "C",
+          "reason": "入場券（小中高生1,400円〜）に加え、アトラクションは別料金"
+        },
+        "reservation": {
+          "grade": "A",
+          "reason": "予約の記載なし"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "屋内でイルミネーションとアトラクションを一緒に楽しめる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-21",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "all_ages",
+        "child_activity_confirmed": false,
+        "strengths": [
+          "屋内で、寒さや雨を気にせず楽しめる",
+          "未就学児は入場無料"
+        ],
+        "limitations": [
+          "入場料に加えてアトラクションは別料金で、費用がかさむ",
+          "アトラクションには身長制限がある"
+        ],
+        "grade_comparison": "総合B：屋内で天候に左右されないが、入場料とアトラクション料金がかかる。",
+        "unsupported_axes": [],
+        "evidence": [
+          {
+            "url": "https://tokyo-joypolis.com/event/index.html",
+            "quote": "寒い冬は暖かい館内でイルミネーション☆",
+            "checked_at": "2026-11-21",
+            "sha256": "3c3aa1ceffbc5eeb5be2c5e85d31e910854e6140cad3ffa7f76b24ef674af6c5",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://tokyo-joypolis.com/event/index.html",
+            "quote": "開催期間：2026年11月20日（土）～2027年2月11日（木・祝）",
+            "checked_at": "2026-11-21",
+            "sha256": "c4728e1f2e0b6d8780ca092b077bd54357b979aa10464ddaa708b47d27903774",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://tokyo-joypolis.com/event/index.html",
+            "quote": "煌びやかに彩られた館内で、期間限定のイベントを楽しもう♪",
+            "checked_at": "2026-11-21",
+            "sha256": "b621ce86a262fe6198183a793a02a629e8e06d4d6f768d8a6b555e0c716d47db",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://tokyo-joypolis.com/ticket/index.html",
+            "quote": "入場券大人（18歳以上）1,700円小・中・高生1,400円",
+            "checked_at": "2026-11-21",
+            "sha256": "2bdc77b71d5e06a1535700d410650a680ccc039dd74f04970c8b462a1714e799",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。"
+          },
+          {
+            "url": "https://tokyo-joypolis.com/ticket/index.html",
+            "quote": "未就学児身長110cm未満のかたアトラクションのご利用には保護者の同伴が必要です。",
+            "checked_at": "2026-11-21",
+            "sha256": "48d1364831ada2d726219edcde1ffe85904200d33b659c30bb4c8652de866ab3",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-21",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  }
+]

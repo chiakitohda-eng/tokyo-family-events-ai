@@ -20,43 +20,76 @@
       "親子"
     ],
     "family_fit": {
-      "rubric_version": "family-fit-v2",
       "grade": "A",
       "overall": "A",
-      "reason": "街と歴史の学び",
+      "rubric_version": "family-fit-v2",
+      "reason": "商店街の謎を親子で相談して解き、歩きながら日本橋の街を発見できる無料ラリー。 90〜120分が目安で読み解き・歩行の負担はある。幼児は保護者の手助けが必要で、買い物券は数量限定。",
       "axes": {
         "child_target": {
-          "grade": "A",
-          "reason": "家族参加歓迎の謎解き"
+          "grade": "B",
+          "reason": "一般の対象・年齢上の参加資格・子どもの出展と、来場する子ども専用の企画を区別する。 商店街の謎を親子で相談して解き、歩きながら日本橋の街を発見できる無料ラリー。"
         },
         "interactivity": {
           "grade": "A",
-          "reason": "謎を解きながら街を探索"
+          "reason": "商店街の謎を親子で相談して解き、歩きながら日本橋の街を発見できる無料ラリー。"
         },
         "age_fit": {
-          "grade": "A",
-          "reason": "小さな子どもは大人の補助が必要"
+          "grade": "B",
+          "reason": "商店街の謎を親子で相談して解き、歩きながら日本橋の街を発見できる無料ラリー。 90〜120分が目安で読み解き・歩行の負担はある。幼児は保護者の手助けが必要で、買い物券は数量限定。"
         },
         "stay_flexibility": {
-          "grade": "B",
-          "reason": "90〜120分で途中休憩可"
+          "grade": "A",
+          "reason": "展示・複数の活動や立ち寄る範囲を家族で選びやすい形式。 90〜120分が目安で読み解き・歩行の負担はある。幼児は保護者の手助けが必要で、買い物券は数量限定。"
         },
         "burden": {
           "grade": "B",
-          "reason": "長めの徒歩移動・天候"
+          "reason": "90〜120分が目安で読み解き・歩行の負担はある。幼児は保護者の手助けが必要で、買い物券は数量限定。"
         },
         "cost": {
           "grade": "A",
-          "reason": "無料"
+          "reason": "参加無料（先着の買い物券は配布条件あり）"
         },
         "reservation": {
           "grade": "A",
-          "reason": "予約不要・先着配布"
+          "reason": "予約不要。日本橋案内所で謎解き用紙を受け取る。 90〜120分が目安で読み解き・歩行の負担はある。幼児は保護者の手助けが必要で、買い物券は数量限定。"
         },
         "family_value": {
           "grade": "A",
-          "reason": "街と歴史の学び"
+          "reason": "商店街の謎を親子で相談して解き、歩きながら日本橋の街を発見できる無料ラリー。 90〜120分が目安で読み解き・歩行の負担はある。幼児は保護者の手助けが必要で、買い物券は数量限定。"
         }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-14",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "all_ages",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "商店街の謎を親子で相談して解き、歩きながら日本橋の街を発見できる無料ラリー。"
+        ],
+        "limitations": [
+          "90〜120分が目安で読み解き・歩行の負担はある。幼児は保護者の手助けが必要で、買い物券は数量限定。"
+        ],
+        "grade_comparison": "総合A：商店街の謎を親子で相談して解き、歩きながら日本橋の街を発見できる無料ラリー。 90〜120分が目安で読み解き・歩行の負担はある。幼児は保護者の手助けが必要で、買い物券は数量限定。",
+        "unsupported_axes": [],
+        "evidence": [
+          {
+            "url": "https://www.keepallsmiles.com/komichi2026",
+            "quote": "深みへ ​ ​ 参加費 無料 ​さらに200円のお買い物券付き‼️ 開催期間 2026年 10月1日〜11月30日 ​ 参加方法 日本橋案内所にお越しください （コレド室町地下） ​予約不要です 当サイト下部に案内があります ​ おしらせ 先着5000名に 200円お買物券 プレゼント（利用期限2027年1月末） ​ イベント内容 日本橋北詰商店会のエリアを巡る謎解きイベントです。所要時間90分～120分程度。近隣にはカフェやレストランをはじめショッピング施設も充実。謎解きをしながら日本橋の魅力に触れる事ができるイベントになっております。是非、カップルで、ご家族で、お友達と、おひとり様でもご参加をお待ちしております。 ​ ​ ​ ​ ​ ​日本橋案内所はコレド室町１の地下、地下鉄銀座線の三越前駅改札の近くにあります。 日本橋案内所の受付で「ぶらり謎歩き2026」LINE画面を見せるか「日本橋北詰商店会の謎解きをお願いします」とご希望をお伝えください。 ​ ※200円お買物券付きA4マップは日本橋案内所のみで配布しています。LINE画面のクーポンは日本橋案内所スタッフに提示するためのものです。 ​ ・謎解き用紙A3中折り ・200円券付きA4マップ ​ ２点を受け取ったら注意事項を読んでスタートしてください。 ​ ​ ​ 主催 日本橋北詰商店会 ​ 制作 株式会社オールスマイルズ 謎：けーおん ​デザイン：山口タカシ ​ ​ ​ ​ お問い合わせ 03-6873-5772 （サニサニーピクニック） bottom of page",
+            "checked_at": "2026-11-14T16:52:41+09:00",
+            "sha256": "ba7a87f3b02ab81cdbff7294695ee0aa903dbae25b30343c48d6661c0c120cb3"
+          }
+        ]
       }
     },
     "reservation": {
@@ -92,43 +125,79 @@
       "博物館"
     ],
     "family_fit": {
+      "grade": "B",
+      "overall": "B",
       "rubric_version": "family-fit-v2",
-      "grade": "A",
-      "overall": "A",
-      "reason": "航空の歴史と模型に触れる",
+      "reason": "航空写真や資料を見比べ、飛行機好きの親子が羽田空港の歴史を学べる。 展示本体と特定日の工作・関連催事は別。普段の観覧で必ず実技体験できるとは判断しない。",
       "axes": {
         "child_target": {
-          "grade": "A",
-          "reason": "飛行機好きの子どもと家族向け"
+          "grade": "B",
+          "reason": "一般の対象・年齢上の参加資格・子どもの出展と、来場する子ども専用の企画を区別する。 航空写真や資料を見比べ、飛行機好きの親子が羽田空港の歴史を学べる。"
         },
         "interactivity": {
-          "grade": "A",
-          "reason": "航空資料の見学と関連催事"
+          "grade": "B",
+          "reason": "航空写真や資料を見比べ、飛行機好きの親子が羽田空港の歴史を学べる。"
         },
         "age_fit": {
           "grade": "B",
-          "reason": "幼児も見学可能・工作は年齢制限"
+          "reason": "航空写真や資料を見比べ、飛行機好きの親子が羽田空港の歴史を学べる。 展示本体と特定日の工作・関連催事は別。普段の観覧で必ず実技体験できるとは判断しない。"
         },
         "stay_flexibility": {
           "grade": "B",
-          "reason": "展示を自由に回れる"
+          "reason": "実施時刻・順路や時間枠に合わせる参加形式。予約制だけで途中退出不可とは判断しない。 展示本体と特定日の工作・関連催事は別。普段の観覧で必ず実技体験できるとは判断しない。"
         },
         "burden": {
-          "grade": "B",
-          "reason": "施設休館・関連プログラムに注意"
+          "grade": "unknown",
+          "reason": "混雑・待ち時間・休憩や安全設備についての具体的根拠はなく、未記載を低負担とは判断しない。"
         },
         "cost": {
-          "grade": "A",
-          "reason": "展示は無料、一部体験は条件別"
+          "grade": "B",
+          "reason": "展示入場無料でも一部関連体験は別条件。"
         },
         "reservation": {
           "grade": "unknown",
-          "reason": "工作など個別予約が必要"
+          "reason": "展示観覧は原則自由。ラジオ工作など一部関連プログラムは予約制。 展示本体と特定日の工作・関連催事は別。普段の観覧で必ず実技体験できるとは判断しない。"
         },
         "family_value": {
-          "grade": "A",
-          "reason": "航空の歴史と模型に触れる"
+          "grade": "B",
+          "reason": "航空写真や資料を見比べ、飛行機好きの親子が羽田空港の歴史を学べる。 展示本体と特定日の工作・関連催事は別。普段の観覧で必ず実技体験できるとは判断しない。"
         }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-14",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "all_ages",
+        "child_activity_confirmed": false,
+        "strengths": [
+          "航空写真や資料を見比べ、飛行機好きの親子が羽田空港の歴史を学べる。"
+        ],
+        "limitations": [
+          "展示本体と特定日の工作・関連催事は別。普段の観覧で必ず実技体験できるとは判断しない。"
+        ],
+        "grade_comparison": "総合B：航空写真や資料を見比べ、飛行機好きの親子が羽田空港の歴史を学べる。 展示本体と特定日の工作・関連催事は別。普段の観覧で必ず実技体験できるとは判断しない。",
+        "unsupported_axes": [
+          "burden",
+          "reservation"
+        ],
+        "evidence": [
+          {
+            "url": "https://www.o-2.jp/en/event/hasmhicity2026/",
+            "quote": " October 24th (Sat) 10:00-16:45, 25th (Sun) 10:00-15:00 First time at Haneda! \"Passenger Aircraft Plastic Model Festival in Haneda 26\" [Free Admission] ③ November 28th (Sat) and 29th (Sun), 11:00-16:00 \"2nd Haneda Airline Fan Meeting\" - Sale of aviation goods by individual artists, etc. Event Details http://hasm.or.jp/hasm/archives/15028 Organizer Non-profit organization Haneda Aerospace Science Museum Promotion Council (NPO HASM) For details, exhibition contents, and event inquiries, please contact us. CLICK HERE Return to Events list",
+            "checked_at": "2026-11-14T16:52:52+09:00",
+            "sha256": "822f01627f09da96affe0f863461d710e3e22e2fe6c81d59ac56dd10bc290f32"
+          }
+        ]
       }
     },
     "reservation": {

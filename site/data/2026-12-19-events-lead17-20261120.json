@@ -1,0 +1,248 @@
+[
+  {
+    "id": "verified-20261219-katsushika-kawajin-shogatsu",
+    "ward": "葛飾区",
+    "name": "い草が香る正月飾り",
+    "url": "https://www.shibamatakawajin-machinamikan.jp/workshop/%e3%80%9012%e6%9c%8819%e6%97%a5%ef%bc%88%e5%9c%9f%ef%bc%89%e3%83%bb20%e6%97%a5%ef%bc%88%e6%97%a5%ef%bc%89%e3%80%91%e3%81%84%e8%8d%89%e3%81%8c%e9%a6%99%e3%82%8b%e6%ad%a3%e6%9c%88%e9%a3%be%e3%82%8a/",
+    "official_url": "https://www.shibamatakawajin-machinamikan.jp/workshop/%e3%80%9012%e6%9c%8819%e6%97%a5%ef%bc%88%e5%9c%9f%ef%bc%89%e3%83%bb20%e6%97%a5%ef%bc%88%e6%97%a5%ef%bc%89%e3%80%91%e3%81%84%e8%8d%89%e3%81%8c%e9%a6%99%e3%82%8b%e6%ad%a3%e6%9c%88%e9%a3%be%e3%82%8a/",
+    "source": "https://www.shibamatakawajin-machinamikan.jp/workshop/%e3%80%9012%e6%9c%8819%e6%97%a5%ef%bc%88%e5%9c%9f%ef%bc%89%e3%83%bb20%e6%97%a5%ef%bc%88%e6%97%a5%ef%bc%89%e3%80%91%e3%81%84%e8%8d%89%e3%81%8c%e9%a6%99%e3%82%8b%e6%ad%a3%e6%9c%88%e9%a3%be%e3%82%8a/",
+    "image": "",
+    "period": "12/19(土)",
+    "date_start": "2026-12-19",
+    "date_end": "2026-12-19",
+    "time": "10:00〜12:00／13:30〜16:00",
+    "venue": "柴又川甚まちなみ館 2階体験コーナー",
+    "price": "800円",
+    "description": "熊本県産のい草を使った畳の端で正月飾りを作る体験。所要約20分で、時間内は出入り自由。どなたでも参加でき、当日受付。",
+    "categories": [
+      "工作",
+      "体験"
+    ],
+    "indoor_outdoor": "屋内",
+    "reservation": {
+      "required": false,
+      "note": "当日受付。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "12/19(土)、柴又川甚まちなみ館でい草が香る正月飾り。対象がどなたでも。料金は800円。当日受付。",
+      "axes": {
+        "child_target": {
+          "grade": "B",
+          "reason": "対象がどなたでも"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "体験・参加型の内容"
+        },
+        "age_fit": {
+          "grade": "B",
+          "reason": "対象がどなたでも"
+        },
+        "stay_flexibility": {
+          "grade": "B",
+          "reason": "10:00〜12:00／13:30〜16:00"
+        },
+        "burden": {
+          "grade": "A",
+          "reason": "当日受付。"
+        },
+        "cost": {
+          "grade": "B",
+          "reason": "800円"
+        },
+        "reservation": {
+          "grade": "A",
+          "reason": "当日受付。"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "熊本県産のい草を使った畳の端で正月飾りを作る体験。所要約20分で、時間内は出入り"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-20",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "all_ages",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "約20分で作れる",
+          "出入り自由で当日参加できる"
+        ],
+        "limitations": [
+          "参加費800円"
+        ],
+        "grade_comparison": "総合B：12/19(土)の柴又川甚まちなみ館 2階体験コーナーで10:00〜12:00／13:30〜16:00の開催（い草が香る正月飾り）。800円。当日受付。",
+        "unsupported_axes": [],
+        "evidence": [
+          {
+            "url": "https://www.shibamatakawajin-machinamikan.jp/workshop/%e3%80%9012%e6%9c%8819%e6%97%a5%ef%bc%88%e5%9c%9f%ef%bc%89%e3%83%bb20%e6%97%a5%ef%bc%88%e6%97%a5%ef%bc%89%e3%80%91%e3%81%84%e8%8d%89%e3%81%8c%e9%a6%99%e3%82%8b%e6%ad%a3%e6%9c%88%e9%a3%be%e3%82%8a/",
+            "quote": "熊本県産のい草を使った畳の端を使い、正月飾りを作ります。",
+            "checked_at": "2026-11-20",
+            "sha256": "afa7e0c4a846c1724aba7d2658255af29f37c8562623bfb187c7e2e75f4c601f",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "柴又川甚まちなみ館公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.shibamatakawajin-machinamikan.jp/workshop/%e3%80%9012%e6%9c%8819%e6%97%a5%ef%bc%88%e5%9c%9f%ef%bc%89%e3%83%bb20%e6%97%a5%ef%bc%88%e6%97%a5%ef%bc%89%e3%80%91%e3%81%84%e8%8d%89%e3%81%8c%e9%a6%99%e3%82%8b%e6%ad%a3%e6%9c%88%e9%a3%be%e3%82%8a/",
+            "quote": "日程2026年12月19日（土）・20日（日）時間①10：00～12：00②13：30～16：00",
+            "checked_at": "2026-11-20",
+            "sha256": "5735ae3d53051f28a6c938445f8c56f9df14672bff2a6f62686ed55441a6a216",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "柴又川甚まちなみ館公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.shibamatakawajin-machinamikan.jp/workshop/%e3%80%9012%e6%9c%8819%e6%97%a5%ef%bc%88%e5%9c%9f%ef%bc%89%e3%83%bb20%e6%97%a5%ef%bc%88%e6%97%a5%ef%bc%89%e3%80%91%e3%81%84%e8%8d%89%e3%81%8c%e9%a6%99%e3%82%8b%e6%ad%a3%e6%9c%88%e9%a3%be%e3%82%8a/",
+            "quote": "場所柴又川甚まちなみ館2F体験コーナー対象どなたでも定員なし参加費800円持ち物お飲み物申込当日受付",
+            "checked_at": "2026-11-20",
+            "sha256": "52b8e2badd4e09bf6cb16daf3c8e6d4a44994b26a652db493e096ecb17ddae06",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "柴又川甚まちなみ館公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-20",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  },
+  {
+    "id": "verified-20261220-katsushika-kawajin-shogatsu",
+    "ward": "葛飾区",
+    "name": "い草が香る正月飾り",
+    "url": "https://www.shibamatakawajin-machinamikan.jp/workshop/%e3%80%9012%e6%9c%8819%e6%97%a5%ef%bc%88%e5%9c%9f%ef%bc%89%e3%83%bb20%e6%97%a5%ef%bc%88%e6%97%a5%ef%bc%89%e3%80%91%e3%81%84%e8%8d%89%e3%81%8c%e9%a6%99%e3%82%8b%e6%ad%a3%e6%9c%88%e9%a3%be%e3%82%8a/",
+    "official_url": "https://www.shibamatakawajin-machinamikan.jp/workshop/%e3%80%9012%e6%9c%8819%e6%97%a5%ef%bc%88%e5%9c%9f%ef%bc%89%e3%83%bb20%e6%97%a5%ef%bc%88%e6%97%a5%ef%bc%89%e3%80%91%e3%81%84%e8%8d%89%e3%81%8c%e9%a6%99%e3%82%8b%e6%ad%a3%e6%9c%88%e9%a3%be%e3%82%8a/",
+    "source": "https://www.shibamatakawajin-machinamikan.jp/workshop/%e3%80%9012%e6%9c%8819%e6%97%a5%ef%bc%88%e5%9c%9f%ef%bc%89%e3%83%bb20%e6%97%a5%ef%bc%88%e6%97%a5%ef%bc%89%e3%80%91%e3%81%84%e8%8d%89%e3%81%8c%e9%a6%99%e3%82%8b%e6%ad%a3%e6%9c%88%e9%a3%be%e3%82%8a/",
+    "image": "",
+    "period": "12/20(日)",
+    "date_start": "2026-12-20",
+    "date_end": "2026-12-20",
+    "time": "10:00〜12:00／13:30〜16:00",
+    "venue": "柴又川甚まちなみ館 2階体験コーナー",
+    "price": "800円",
+    "description": "熊本県産のい草を使った畳の端で正月飾りを作る体験。所要約20分で、時間内は出入り自由。どなたでも参加でき、当日受付。",
+    "categories": [
+      "工作",
+      "体験"
+    ],
+    "indoor_outdoor": "屋内",
+    "reservation": {
+      "required": false,
+      "note": "当日受付。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "12/20(日)、柴又川甚まちなみ館でい草が香る正月飾り。対象がどなたでも。料金は800円。当日受付。",
+      "axes": {
+        "child_target": {
+          "grade": "B",
+          "reason": "対象がどなたでも"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "体験・参加型の内容"
+        },
+        "age_fit": {
+          "grade": "B",
+          "reason": "対象がどなたでも"
+        },
+        "stay_flexibility": {
+          "grade": "B",
+          "reason": "10:00〜12:00／13:30〜16:00"
+        },
+        "burden": {
+          "grade": "A",
+          "reason": "当日受付。"
+        },
+        "cost": {
+          "grade": "B",
+          "reason": "800円"
+        },
+        "reservation": {
+          "grade": "A",
+          "reason": "当日受付。"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "熊本県産のい草を使った畳の端で正月飾りを作る体験。所要約20分で、時間内は出入り"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-20",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "all_ages",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "約20分で作れる",
+          "出入り自由で当日参加できる"
+        ],
+        "limitations": [
+          "参加費800円"
+        ],
+        "grade_comparison": "総合B：12/20(日)の柴又川甚まちなみ館 2階体験コーナーで10:00〜12:00／13:30〜16:00の開催（い草が香る正月飾り）。800円。当日受付。",
+        "unsupported_axes": [],
+        "evidence": [
+          {
+            "url": "https://www.shibamatakawajin-machinamikan.jp/workshop/%e3%80%9012%e6%9c%8819%e6%97%a5%ef%bc%88%e5%9c%9f%ef%bc%89%e3%83%bb20%e6%97%a5%ef%bc%88%e6%97%a5%ef%bc%89%e3%80%91%e3%81%84%e8%8d%89%e3%81%8c%e9%a6%99%e3%82%8b%e6%ad%a3%e6%9c%88%e9%a3%be%e3%82%8a/",
+            "quote": "熊本県産のい草を使った畳の端を使い、正月飾りを作ります。",
+            "checked_at": "2026-11-20",
+            "sha256": "afa7e0c4a846c1724aba7d2658255af29f37c8562623bfb187c7e2e75f4c601f",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "柴又川甚まちなみ館公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.shibamatakawajin-machinamikan.jp/workshop/%e3%80%9012%e6%9c%8819%e6%97%a5%ef%bc%88%e5%9c%9f%ef%bc%89%e3%83%bb20%e6%97%a5%ef%bc%88%e6%97%a5%ef%bc%89%e3%80%91%e3%81%84%e8%8d%89%e3%81%8c%e9%a6%99%e3%82%8b%e6%ad%a3%e6%9c%88%e9%a3%be%e3%82%8a/",
+            "quote": "日程2026年12月19日（土）・20日（日）時間①10：00～12：00②13：30～16：00",
+            "checked_at": "2026-11-20",
+            "sha256": "5735ae3d53051f28a6c938445f8c56f9df14672bff2a6f62686ed55441a6a216",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "柴又川甚まちなみ館公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.shibamatakawajin-machinamikan.jp/workshop/%e3%80%9012%e6%9c%8819%e6%97%a5%ef%bc%88%e5%9c%9f%ef%bc%89%e3%83%bb20%e6%97%a5%ef%bc%88%e6%97%a5%ef%bc%89%e3%80%91%e3%81%84%e8%8d%89%e3%81%8c%e9%a6%99%e3%82%8b%e6%ad%a3%e6%9c%88%e9%a3%be%e3%82%8a/",
+            "quote": "場所柴又川甚まちなみ館2F体験コーナー対象どなたでも定員なし参加費800円持ち物お飲み物申込当日受付",
+            "checked_at": "2026-11-20",
+            "sha256": "52b8e2badd4e09bf6cb16daf3c8e6d4a44994b26a652db493e096ecb17ddae06",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "柴又川甚まちなみ館公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-20",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  }
+]

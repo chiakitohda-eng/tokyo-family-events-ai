@@ -1,0 +1,438 @@
+[
+  {
+    "id": "verified-20261121-inagi-yomiuriland-xmas-2026",
+    "ward": "稲城市",
+    "name": "よみランXmas！2026 ～ブライトフル メモリーズ～（よみうりランド）",
+    "url": "https://www.yomiuriland.com/event/christmas2026/",
+    "official_url": "https://www.yomiuriland.com/event/christmas2026/",
+    "source": "https://www.yomiuriland.com/event/christmas2026/",
+    "image": "",
+    "period": "11/21(土)〜12/25(金)（ショー・グリーティングは土日祝と12/24・25）",
+    "date_start": "2026-11-21",
+    "date_end": "2026-12-25",
+    "time": "ダンスショー15:30・18:30ほか、グリーティング13:00（内容により異なる）",
+    "venue": "よみうりランド（稲城市矢野口4015-1）太陽の広場・フラッグストリート・波のプールほか",
+    "price": "ショー・グリーティング・噴水ショーは無料（別途入園料）。入園料込みのワンデーパスは、おとな5,900円・中高生4,700円・小学生4,100円・3歳以上の未就学児2,500円（通常価格。公式オンライン価格は各400円安い）",
+    "description": "遊園地「よみうりランド」で開く、クリスマスのイベント。グッド＆ラッキーのホーリーダンスショー、小学生以下にキャンディーをプレゼントするグリーティング、クリスマス特別版の噴水ショー、サンタの演奏、アトラクションのクラフトラリーなどがある。ショーなどは無料だが、園内に入るには入園料が必要。雨天中止のショーがある。",
+    "categories": [
+      "まつり・イベント",
+      "テーマパーク・遊園地"
+    ],
+    "indoor_outdoor": "屋内・屋外",
+    "reservation": {
+      "required": false,
+      "note": "予約の記載なし。入園券（ワンデーパス等）の購入が必要。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "グッド＆ラッキーのダンスショーや、小学生以下へのキャンディーのプレゼントがあるクリスマスの遊園地イベント。ショーは無料だが入園料が必要で、屋外中心。",
+      "axes": {
+        "child_target": {
+          "grade": "B",
+          "reason": "遊園地のイベントで対象はどなたでも。小学生以下へのキャンディーのプレゼントがある"
+        },
+        "interactivity": {
+          "grade": "B",
+          "reason": "ショーやアトラクションラリーなど、見る・乗る内容が中心"
+        },
+        "age_fit": {
+          "grade": "B",
+          "reason": "年齢の限定はない（未就学児の入園は2,500円）"
+        },
+        "stay_flexibility": {
+          "grade": "A",
+          "reason": "期間中の好きな時間に、ショーの時刻に合わせて回れる"
+        },
+        "burden": {
+          "grade": "B",
+          "reason": "屋外のショーが多く、寒さと混雑に注意"
+        },
+        "cost": {
+          "grade": "C",
+          "reason": "入園料が必要（小学生4,100円、未就学児2,500円など）"
+        },
+        "reservation": {
+          "grade": "A",
+          "reason": "予約の記載なし（入園券を購入）"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "クリスマスのショーとアトラクションを一日で楽しめる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-21",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "all_ages",
+        "child_activity_confirmed": false,
+        "strengths": [
+          "ショーやグリーティングは無料で、アトラクションとあわせて一日楽しめる",
+          "小学生以下にキャンディーのプレゼントがある"
+        ],
+        "limitations": [
+          "入園料が必要で、家族だと費用がかさむ",
+          "屋外のショーは雨天中止があり、寒さにも注意が必要"
+        ],
+        "grade_comparison": "総合B：クリスマスのショーが無料で見られる遊園地イベント。入園料が必要で、屋外中心。",
+        "unsupported_axes": [],
+        "evidence": [
+          {
+            "url": "https://www.yomiuriland.com/event/christmas2026/",
+            "quote": "よみランXmas！2026 ～ブライトフル メモリーズ～ ダンスショーやアトラクションラリー、クリスマスフードなどが盛りだくさん！",
+            "checked_at": "2026-11-21",
+            "sha256": "290e8239933c397c6c0234c8b7ff806b5cdd3ffe2c8081c87e6a2943d7c34c17",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.yomiuriland.com/event/christmas2026/",
+            "quote": "グッド＆ラッキー、ダンサーが光り輝くステージからお届けするクリスマス限定のダンスショーです！ 期間 11/21(土)～12/20(日)の土日祝日及び12/24(木)、25(金) 時間 15:30、18:30",
+            "checked_at": "2026-11-21",
+            "sha256": "fb5cd03b48ecf71c627b120e2be6fb41f8d53db672dbc5ef33cbd6e1540cb04f",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.yomiuriland.com/event/christmas2026/",
+            "quote": "ダンスパフォーマンスと小学生以下のお子さまへキャンディーをプレゼントするグリーティングです。",
+            "checked_at": "2026-11-21",
+            "sha256": "dd4206f7890176270c85369662fa70f50f858f28f73293300fca12b8dd9cfaa5",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.yomiuriland.com/event/christmas2026/",
+            "quote": "場所 太陽の広場 料金 無料※別途、入園料が必要です。",
+            "checked_at": "2026-11-21",
+            "sha256": "84f076851f79e0ed8fdd52588bce90b9f87fb52772f1379d78072f32dddac7d8",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.yomiuriland.com/event/christmas2026/",
+            "quote": "噴水ショー「ラ・フォンテーヌ」クリスマス特別バージョン 大迫力の噴水ショーを、クリスマスの特別な演出でお楽しみいただけます。 期間 11/21(土)～12/25(金)",
+            "checked_at": "2026-11-21",
+            "sha256": "5e55deac29445f995f24fbd7639c3e0bb2f0e366939c877e24c9b5bdb5a68da2",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.yomiuriland.com/charge/",
+            "quote": "ワンデーパス 入園＋アトラクション乗り放題＋HANA・BIYORI入園",
+            "checked_at": "2026-11-21",
+            "sha256": "e4ff6409d355a73136c7c5c9389acb67b07a688d47443f207c2f2725aa5bc623",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。"
+          },
+          {
+            "url": "https://www.yomiuriland.com/charge/",
+            "quote": "おとな（18歳～64歳） 中高生 小学生/ シニア（65歳以上） 未就学児 （3歳以上～小学生未満） 通常価格 5,900円 4,700円 4,100円 2,500円",
+            "checked_at": "2026-11-21",
+            "sha256": "51cac3c1de3fc01ed43d2ab4a600e9270a8acf943fee49e93aca160527875a87",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-21",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  },
+  {
+    "id": "verified-20261121-inagi-yomiuriland-kamenrider-ten",
+    "ward": "稲城市",
+    "name": "仮面ライダー生誕55周年記念 ゴーゴー・レッツゴー！仮面ライダー展（よみうりランド）",
+    "url": "https://www.yomiuriland.com/event/55letsgo_kamen-rider/",
+    "official_url": "https://www.yomiuriland.com/event/55letsgo_kamen-rider/",
+    "source": "https://www.yomiuriland.com/event/55letsgo_kamen-rider/",
+    "image": "",
+    "period": "11/21(土)〜1/11(月・祝)",
+    "date_start": "2026-11-21",
+    "date_end": "2027-01-11",
+    "time": "遊園地の営業時間に準じる（イベント会場の最終入場20:00）",
+    "venue": "よみうりランド（稲城市矢野口4015-1）グッジョバ!!スペース",
+    "price": "展示の入場券は、中学生以上1,200円、3歳〜小学生800円（別途、遊園地の入園料が必要）",
+    "description": "仮面ライダーの55年の歴史をたどる展示。歴代の仮面ライダー37人の立像や、撮影で使われた武器・小道具などが並ぶ。展示会場の入口の券売機で入場券を買う。よみうりランドの入園料は別に必要。",
+    "categories": [
+      "展示・博物館",
+      "テーマパーク・遊園地"
+    ],
+    "indoor_outdoor": "屋内",
+    "reservation": {
+      "required": false,
+      "note": "予約の記載なし。展示会場入口の券売機で入場券を購入。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "仮面ライダーの歴代のヒーローや撮影の小道具を見られる展示。3歳〜小学生は800円で入れる。別途、遊園地の入園料が必要で、見る展示が中心。",
+      "axes": {
+        "child_target": {
+          "grade": "B",
+          "reason": "対象はどなたでも。仮面ライダー好きの子どもが楽しめる展示"
+        },
+        "interactivity": {
+          "grade": "C",
+          "reason": "立像や小道具を見る展示が中心"
+        },
+        "age_fit": {
+          "grade": "B",
+          "reason": "3歳以上から料金が設定されている"
+        },
+        "stay_flexibility": {
+          "grade": "A",
+          "reason": "遊園地の営業時間内に好きな時間に見られる"
+        },
+        "burden": {
+          "grade": "A",
+          "reason": "展示会場の入口の券売機で買える"
+        },
+        "cost": {
+          "grade": "C",
+          "reason": "展示800〜1,200円に加え、遊園地の入園料が必要"
+        },
+        "reservation": {
+          "grade": "A",
+          "reason": "予約の記載なし"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "遊園地とあわせて、好きなヒーローの展示を楽しめる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-21",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "all_ages",
+        "child_activity_confirmed": false,
+        "strengths": [
+          "約2か月と期間が長く、好きな日に行ける",
+          "3歳〜小学生は800円と子ども料金がある"
+        ],
+        "limitations": [
+          "遊園地の入園料が別に必要で、費用が高め",
+          "展示を見る内容が中心"
+        ],
+        "grade_comparison": "総合B：仮面ライダー好きの子向けの展示。入園料と合わせると費用がかかる。",
+        "unsupported_axes": [],
+        "evidence": [
+          {
+            "url": "https://www.yomiuriland.com/event/55letsgo_kamen-rider/",
+            "quote": "1971年4月3日の放送開始から今年で55周年を迎えた「仮面ライダー」の歴史を辿れる展示イベント",
+            "checked_at": "2026-11-21",
+            "sha256": "42c02fa77581791fd90a4a967bb80ea4677833e99fa0a313fa7b0ada3a18eeda",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.yomiuriland.com/event/55letsgo_kamen-rider/",
+            "quote": "日程 2026年11月21日(土)～2027年1月11日(月祝) 時間 遊園地営業時間に準ずる(イベント会場最終入場20:00)",
+            "checked_at": "2026-11-21",
+            "sha256": "3fecb317da7ed67388b4d52a1efeb2c4aa1df339c3b2796aaae61c61260603d7",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.yomiuriland.com/event/55letsgo_kamen-rider/",
+            "quote": "初代の仮面ライダー1号から、現在テレビシリーズが放送中の仮面ライダーマイスに至る歴代の仮面ライダー総勢37人",
+            "checked_at": "2026-11-21",
+            "sha256": "d72b9e66b34caf3b22ecbdf1eb580007f50c5d0a6070891ab6cc932739525eda",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.yomiuriland.com/event/55letsgo_kamen-rider/",
+            "quote": "◆別途遊園地入園料が必要です。 ◆展示会場入口の券売機でご購入ください。 入場券 中学生以上 1,200円 3歳～小学生 800円",
+            "checked_at": "2026-11-21",
+            "sha256": "fbc66d6be0ee3dda95a679ab0448458ed9d3ccc57d273b00c44f4c556a77e11f",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.yomiuriland.com/charge/",
+            "quote": "ワンデーパス 入園＋アトラクション乗り放題＋HANA・BIYORI入園",
+            "checked_at": "2026-11-21",
+            "sha256": "e4ff6409d355a73136c7c5c9389acb67b07a688d47443f207c2f2725aa5bc623",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。"
+          },
+          {
+            "url": "https://www.yomiuriland.com/charge/",
+            "quote": "おとな（18歳～64歳） 中高生 小学生/ シニア（65歳以上） 未就学児 （3歳以上～小学生未満） 通常価格 5,900円 4,700円 4,100円 2,500円",
+            "checked_at": "2026-11-21",
+            "sha256": "51cac3c1de3fc01ed43d2ab4a600e9270a8acf943fee49e93aca160527875a87",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-21",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  },
+  {
+    "id": "verified-20261121-inagi-yomiuriland-jewellumination-2026",
+    "ward": "稲城市",
+    "name": "ジュエルミネーション（よみうりランド）",
+    "url": "https://www.yomiuriland.com/jewellumination/",
+    "official_url": "https://www.yomiuriland.com/jewellumination/",
+    "source": "https://www.yomiuriland.com/jewellumination/",
+    "image": "",
+    "period": "2027/4/4まで（10/29から開催中）",
+    "date_start": "2026-11-21",
+    "date_end": "2027-04-04",
+    "time": "夕方から夜（営業時間・カレンダーは公式サイトで確認）。アフターパスは15:00から入園",
+    "venue": "よみうりランド（稲城市矢野口4015-1）",
+    "price": "夕方から入るアフターパス（入園＋アトラクション乗り放題）は、おとな3,100円・中高生2,500円・小学生2,200円・3歳以上の未就学児1,500円（通常価格。公式オンライン価格は各300円安い）",
+    "description": "世界的な照明デザイナー石井幹子さんがプロデュースする、よみうりランドのイルミネーション。今シーズンは新色が登場。ジュエルミネーション開催日の15:00から入園できるアフターパスがある。",
+    "categories": [
+      "まつり・イベント",
+      "テーマパーク・遊園地"
+    ],
+    "indoor_outdoor": "屋外",
+    "reservation": {
+      "required": false,
+      "note": "予約の記載なし。入園券（アフターパス・ワンデーパス等）の購入が必要。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "よみうりランドで、約半年にわたり開かれるイルミネーション。夕方から入れるアフターパスがあり、小学生2,200円、未就学児1,500円。屋外で夜の寒さに注意。",
+      "axes": {
+        "child_target": {
+          "grade": "B",
+          "reason": "対象はどなたでも。遊園地の夜のイルミネーション"
+        },
+        "interactivity": {
+          "grade": "C",
+          "reason": "見て歩く内容が中心（アトラクションも利用できる）"
+        },
+        "age_fit": {
+          "grade": "B",
+          "reason": "年齢の限定はなく、未就学児の料金もある"
+        },
+        "stay_flexibility": {
+          "grade": "A",
+          "reason": "期間が長く、15:00から好きな時間に入れる"
+        },
+        "burden": {
+          "grade": "B",
+          "reason": "屋外で、夜の寒さと帰りの時間に注意"
+        },
+        "cost": {
+          "grade": "C",
+          "reason": "入園料が必要（アフターパス：小学生2,200円、未就学児1,500円など）"
+        },
+        "reservation": {
+          "grade": "A",
+          "reason": "予約の記載なし"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "遊園地のアトラクションとイルミネーションを一緒に楽しめる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-21",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "all_ages",
+        "child_activity_confirmed": false,
+        "strengths": [
+          "期間が長く、アフターパスで夕方から安く入れる",
+          "アトラクションとイルミネーションを同じ日に楽しめる"
+        ],
+        "limitations": [
+          "入園料が必要で、費用がかかる",
+          "屋外で夜は冷え、帰りが遅くなる"
+        ],
+        "grade_comparison": "総合B：長期間のイルミネーション。夕方から入るアフターパスで費用を抑えられるが、屋外で夜の寒さに注意。",
+        "unsupported_axes": [],
+        "evidence": [
+          {
+            "url": "https://www.yomiuriland.com/jewellumination/",
+            "quote": "2026-2027 Season 開催中",
+            "checked_at": "2026-11-21",
+            "sha256": "a9108b109975cea1c544a8c6af7764e3dc23a7a0aaf7e099d1b6ecbc68eb789f",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.yomiuriland.com/event/",
+            "quote": "10月 29日 ~ 4月 4日 今シーズンは新色登場！世界的照明デザイナー石井幹子プロデュース「ジュエルミネーション」開催中",
+            "checked_at": "2026-11-21",
+            "sha256": "ad673b86e15e3834f780d69eb974bccf4d88c2c7f05693ec3eecb35dac0978c5",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。"
+          },
+          {
+            "url": "https://www.yomiuriland.com/charge/",
+            "quote": "アフターパス ジュエルミネーション開催日の15:00～の入園＋アトラクション乗り放題 観覧車「Sky-Go-LAND」ほか一部アトラクション除く",
+            "checked_at": "2026-11-21",
+            "sha256": "c16337552e467e98c1ef47053ba35ad407d815d56c9ebaf1922f14295275f59c",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。"
+          },
+          {
+            "url": "https://www.yomiuriland.com/charge/",
+            "quote": "おとな（18歳～64歳） 中高生 小学生/ シニア（65歳以上） 未就学児 （3歳以上～小学生未満） 通常価格 3,100円 2,500円 2,200円 1,500円",
+            "checked_at": "2026-11-21",
+            "sha256": "3dd3a96e2da18fd355d255bccd8c344d6951d2e299ec7f2bf895a51fbaf9473d",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-21",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  }
+]

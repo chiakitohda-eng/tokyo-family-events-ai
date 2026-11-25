@@ -1,0 +1,122 @@
+[
+  {
+    "id": "evidence-recovery-20261128-kita-iwate-fair",
+    "ward": "北区",
+    "name": "岩手-野田村-釜石市-北区連携マルシェ 岩手フェア",
+    "url": "https://kita-kei-kyo.org/iwate/iwate-fair2026.html",
+    "official_url": "https://kita-kei-kyo.org/iwate/iwate-fair2026.html",
+    "source": "https://kita-kei-kyo.org/iwate/iwate-fair2026.html",
+    "image": "https://kita-kei-kyo.org/iwate/img/shop_list.png",
+    "period": "11/28〜11/29",
+    "date_start": "2026-11-28",
+    "date_end": "2026-11-29",
+    "time": "参加店舗により異なる（公式の店舗一覧を確認）",
+    "venue": "北区内の参加飲食店・小売店（赤羽・十条・王子ほか）",
+    "price": "飲食・物品購入は店舗別料金",
+    "description": "岩手の農林水産物・特産品の販売や岩手の食材を使ったメニューを、区内の参加店舗で提供。会期11/9〜11/29。 対象：年齢条件は未記載。 来店前に個別店舗の営業日・時刻・利用条件を確認。11/23は祝日休業の店もあるためこの掲載日程には含めない。",
+    "categories": [
+      "文化・地域イベント"
+    ],
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "親子で岩手の食や産地の違いを見つけ、利用する店舗・料理を選べる。 店舗ごとに営業時間・休業日が異なる。日曜休業の店もあり、すべての店舗が両日開くわけではない。子ども専用企画は未確認。",
+      "axes": {
+        "child_target": {
+          "grade": "unknown",
+          "reason": "年齢条件は未記載。"
+        },
+        "interactivity": {
+          "grade": "B",
+          "reason": "親子で岩手の食や産地の違いを見つけ、利用する店舗・料理を選べる。"
+        },
+        "age_fit": {
+          "grade": "unknown",
+          "reason": "年齢条件は未記載。 店舗ごとに営業時間・休業日が異なる。日曜休業の店もあり、すべての店舗が両日開くわけではない。子ども専用企画は未確認。"
+        },
+        "stay_flexibility": {
+          "grade": "B",
+          "reason": "立ち寄る店舗は選べるが、各店舗の営業時間・休業日に従う。"
+        },
+        "burden": {
+          "grade": "unknown",
+          "reason": "混雑、設備、休憩場所など未記載の条件は要確認。"
+        },
+        "cost": {
+          "grade": "B",
+          "reason": "飲食・物品購入は店舗別料金"
+        },
+        "reservation": {
+          "grade": "unknown",
+          "reason": "来店前に個別店舗の営業日・時刻・利用条件を確認。11/23は祝日休業の店もあるためこの掲載日程には含めない。"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "親子で岩手の食や産地の違いを見つけ、利用する店舗・料理を選べる。"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-15",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "unspecified",
+        "child_activity_confirmed": false,
+        "strengths": [
+          "親子で岩手の食や産地の違いを見つけ、利用する店舗・料理を選べる。"
+        ],
+        "limitations": [
+          "店舗ごとに営業時間・休業日が異なる。日曜休業の店もあり、すべての店舗が両日開くわけではない。子ども専用企画は未確認。"
+        ],
+        "grade_comparison": "総合B：親子で岩手の食や産地の違いを見つけ、利用する店舗・料理を選べる。 店舗ごとに営業時間・休業日が異なる。日曜休業の店もあり、すべての店舗が両日開くわけではない。子ども専用企画は未確認。",
+        "unsupported_axes": [
+          "child_target",
+          "age_fit",
+          "burden",
+          "reservation"
+        ],
+        "evidence": [
+          {
+            "url": "https://kita-kei-kyo.org/iwate/iwate-fair2026.html",
+            "quote": "岩手フェア2026 | 岩手-野田村-釜石市-北区連携マルシェ 2026年11月9日（月）～11月29日(日)の期間中、赤羽・十条・王子地区を中心とした北区全域で「岩手-野田村-釜石市-北区連携マルシェ 岩手フェア」を開催します。 区内の飲食店・小売店などが、岩手の農林水産物・特産品の販売や岩手の食材を用いたメニュー・岩手風メニューを用意して、岩手の魅力を伝えます。 店舗画像をクリック・タップすると、地図が開きます。 ※参加店舗は順次追加します。 カフェマッカラン （喫茶店） 岩手産小麦「銀河のちから」と岩手産菜たね油を使ったシフォンケーキ 住所：北区桐ヶ丘2-11-36 営業時間：11:00～18:00（休：月曜・火曜） TEL：03-3907-7811 MOTOHASHI〜おむすび〜 （おむすび屋） 岩手県北上市稲瀬町産 玄米おむすび各種 住所：北区赤羽北3-22-4 営業時間：9時〜15時 （休：日曜・祭日） TEL：03-3907-1838 お好み焼きキャベツ （お好み焼き・もんじゃ焼き） 岩手 紅木豚（コウボクトン）の豚玉焼き 住所：赤羽1-67-54-1F 営業時間：17：30～24：30（LO 23：30） (休：月曜、祝日の場合は営業) TEL：03-3903-0875 麺屋龍 （居酒屋） 野田塩ラーメン1180円・春雨と鶏団子のスープ590円 どちらも岩手県の野田塩を使ったメニューです！ 住所：北区赤羽1-54-4 営業時間：17:00～26:00 TEL：050-1058-2519 大吉飯店 （中華料理店） 岩手産銀河のしずくを使った認定揚州炒飯 手切りザーサイ・杏仁豆腐・スープ付 住所：北区上十条2-7-12 営業時間：平日・土曜 11:30～14:30(LO.14:00)、 17:00～21:30(LO.21:00) 日・祭日 11:00～14:30(LO.14:00)、17:00?21:00(LO.20:00) [休：月曜、隔週火曜(主に第2・第3火曜)] TEL：03-3909-0463 江戸玉川屋 （製麺・麺類小売店） 岩手そばの販売 住所：北区豊島7-5-12 営業時間：10時～18時（日曜日、祝日定休） TEL：03-3913-5705 飛鳥山テラス （食品小売、カフェ） 岩手産のお菓子、食材を販売中 住所：北区滝野川1-60-6-1F 営業時間：11:00～18:30 (日曜・月曜定休) TEL：03-6903-4395 わら焼きモンドラゴン （居酒屋） 岩手産、あわびの精を使ったガパオ 住所：北区王子一丁目5-11 トーショー第2ビル2階 営業時間：18:00-23:00 休：月曜・祭日 TEL：080-3054-1414 VIEW＆KITCHEN QUAD17（クアドイチナナ） （レストラン） 盛岡冷麺 quad17スタイル 盛岡冷麺ならではの弾力と、すっきりとした味わいを、QUAD17らしくスタイリッシュに仕上げました。 北とぴあで楽しむ、ちょっと特別な一杯。 住所：北区王子1-11-1 17階 営業時間：10:00～17:00 [不定休] TEL：070-9030-3172 本格炭火焼鳥 清志郎 （焼き鳥屋） たこわさ・岩手県地酒 浜千鳥 住所：北区田端1-19-12 営業時間：16:30～22:00(L.O.21:30)（休：日曜） TEL：03-5842-1687 「いわて食でつながろうフェア2026」同時開催中！ ▲",
+            "checked_at": "2026-11-15T07:34:49+09:00",
+            "sha256": "a21b31f9e6f3bead4247b24efd81889fbc2dadb77e09dfdb865de982d87fc81c"
+          },
+          {
+            "url": "https://www.city.kita.lg.jp/living/community/1017287/1002202.html",
+            "quote": "北区掲示板情報｜東京都北区 当ホームページではjavascriptを使用しています。 javascriptの使用を有効にしなければ、一部の機能が正確に動作しない恐れがあります。お手数ですがjavascriptの使用を有効にしてください。 エンターキーを押すと、ナビゲーション部分をスキップし本文へ移動します。 緊急情報 閲覧支援 文字サイズ・配色の変更 読み上げ ふりがな ふりがなをけす やさしい日本語 もとのページをみる Select Language Afrikaans Albanian Amharic Arabic Armenian Assamese Aymara Azerbaijani Bambara Bashkir Basque Belarusian Bengali Bhojpuri Bosnian Bulgarian Catalan Cebuano Chinese (Simplified) Chinese (Traditional) Corsican Croatian Czech Danish Dari language Dhivehi Dutch English Esperanto Estonian Ewe Fijian Filipino (Tagalog) Finnish French Frisian Galician Georgian German Greek Gujarati Haitian Creole Hausa Hawaiian Hebrew Hindi Hmong Hmong Daw Hungarian Icelandic Igbo Ilocano Indonesian Inuktitut Irish Italian Javanese Kannada Kazakh Khmer Kinyarwanda Korean Kurdish Kyrgyz Lao Latvian Lingala Lithuanian Luganda Luxembourgish Macedonian Maithili Malagasy Malay Malayalam Maltese Maori Marathi Mongolian Myanmar (Burmese) Nepali Norwegian Nyanja (Chichewa) Odia (Oriya) Oromo Pashto Persian Polish Portuguese (Portugal, Brazil) Punjabi Queretaro Otomi Romanian Russian Samoan Scots Gaelic Serbian Shona Sindhi Sinhala (Sinhalese) Slovak Slovenian Somali Sotho Spanish Sundanese Swahili Swedish Tahitian Tajik Tamil Tatar Telugu Thai Tibetan Tigrinya Tongan Turkish Turkmen Twi (Akan) Ukrainian Urdu Uyghur Uzbek Vietnamese Welsh Xhosa Yiddish Yoruba Yucatec language Zulu 閉じる AIチャットボット 緊急情報 北区防災ポータル 閉じる 町会・自治会ポータルサイト メニュー ページ番号は半角数字7桁で入力してください。 閉じる ここから本文です。 北区掲示板情報 ページ番号1002202 更新日： 2026年11月2日 印刷 大きな文字で印刷 令和8年11月上旬のポスター 本ページは、北区掲示板を補完し、区主催事業等の情報を広く区民の皆さんにお知らせすることを目的に作成しています。 実際の掲示板や、この北区掲示板情報は、北区主催・共催、又は町会・自治会のお知らせ等を掲示しています。 なお、区内全域に関わるポスター等のみを掲載しており、実際の掲示板情報と完全に一致しているわけではありません。区内掲示板には、このページに掲載されているお知らせ以外のポスター等も掲示されています。 このページは毎月2回（1日頃、16日頃）更新し、区内の掲示板に掲示中のポスター等をお知らせし",
+            "checked_at": "2026-11-15T07:32:37+09:00",
+            "sha256": "46bbe7a926d052e4fd2687315de617076a7b23d5161e4e39f6ef395e73af4f91"
+          }
+        ]
+      }
+    },
+    "reservation": {
+      "required": null,
+      "note": "来店前に個別店舗の営業日・時刻・利用条件を確認。11/23は祝日休業の店もあるためこの掲載日程には含めない。"
+    },
+    "indoor_outdoor": "",
+    "ai": {
+      "checked_at": "2026-11-15",
+      "confidence": "high",
+      "discovery_query": "ためまっぷを除く未照合候補の公式本文確認。既存598個票と参加単位・日付・会場を照合。"
+    },
+    "discovery_sources": [
+      {
+        "channel": "ai_cross_search",
+        "kind": "official_body_review",
+        "url": "https://kita-kei-kyo.org/iwate/iwate-fair2026.html"
+      }
+    ]
+  }
+]

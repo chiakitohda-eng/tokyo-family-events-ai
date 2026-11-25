@@ -1,0 +1,431 @@
+[
+  {
+    "id": "verified-20261121-mizunokagaku-suitekikun_dance",
+    "ward": "江東区",
+    "name": "水滴くん♪のうたをみんなで踊ろう！（東京都水の科学館）",
+    "url": "https://www.mizunokagaku.jp/event/261121_suitekikun_dance/",
+    "official_url": "https://www.mizunokagaku.jp/event/261121_suitekikun_dance/",
+    "source": "https://www.mizunokagaku.jp/event/261121_suitekikun_dance/",
+    "image": "https://www.mizunokagaku.jp/wp/wp-content/uploads/2026/10/HTVv85PacAA-YQ-.jpg",
+    "period": "11/21(土)",
+    "date_start": "2026-11-21",
+    "date_end": "2026-11-21",
+    "time": "①11:00〜 ②13:30〜",
+    "venue": "東京都水の科学館（江東区有明3-1-8）",
+    "price": "",
+    "description": "東京都水道局職員が作詞作曲した「水滴くん♪のうた」に合わせて、親子で踊るステージ。 小学生以下の子どもと保護者向けの催しで、整理券（各回の1時間前から配布、予約不可）が必要。",
+    "categories": [
+      "科学",
+      "水",
+      "体験"
+    ],
+    "indoor_outdoor": "屋内",
+    "reservation": {
+      "required": false,
+      "note": "予約不可。各回1時間前から1Fインフォメーションで整理券を配布。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "11/21(土)開催。水滴くん♪のうたをみんなで踊ろう！は、小学生以下のお子様を対象に、保護者同伴で参加する催し（各回先着10名）。",
+      "axes": {
+        "child_target": {
+          "grade": "A",
+          "reason": "対象が小学生以下のお子様と明記され、保護者同伴で参加する子ども向けの催し"
+        },
+        "interactivity": {
+          "grade": "B",
+          "reason": "ステージや紙芝居を見て楽しむのが中心"
+        },
+        "age_fit": {
+          "grade": "A",
+          "reason": "対象が小学生以下のお子様と明記"
+        },
+        "stay_flexibility": {
+          "grade": "B",
+          "reason": "①11:00〜、②13:30〜の2回など、時間が決まっている"
+        },
+        "burden": {
+          "grade": "B",
+          "reason": "整理券が必要で、定員（各回先着10名）に達すると参加できない"
+        },
+        "cost": {
+          "grade": "unknown",
+          "reason": "このページに参加費の記載がない"
+        },
+        "reservation": {
+          "grade": "C",
+          "reason": "予約はできず、各回の1時間前から整理券を配布（各回先着10名）"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "親子で楽しみながら水について学べる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-20",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "child_program",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "小学生以下向けで保護者と参加できる",
+          "水の科学館の催しで学びがある"
+        ],
+        "limitations": [
+          "参加費の記載がない",
+          "整理券が必要で定員がある"
+        ],
+        "grade_comparison": "総合B（11/21(土)）：小学生以下向けで学びのある催しだが、整理券が必要で定員が限られる。",
+        "unsupported_axes": [
+          "cost"
+        ],
+        "evidence": [
+          {
+            "url": "https://www.mizunokagaku.jp/event/261121_suitekikun_dance/",
+            "quote": "開催日：2026年11月21日(土)",
+            "checked_at": "2026-11-20",
+            "sha256": "d8f1952486762a4562566b0ecfc93fa89ee724de9b9f75dd076c1190f0255731",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.mizunokagaku.jp/event/261121_suitekikun_dance/",
+            "quote": "対象：小学生以下のお子様",
+            "checked_at": "2026-11-20",
+            "sha256": "87f61fb7b1a0546ddb46d7d8c18b3cc89d0493ebc56666f4ea2037fccbf471c3",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.mizunokagaku.jp/event/261121_suitekikun_dance/",
+            "quote": "会場：1Fオリエンテーションルーム",
+            "checked_at": "2026-11-20",
+            "sha256": "b9f58814738e6ec0f28977f4450e52e8e2bc246f400dd82c2162dfaf1742090e",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.mizunokagaku.jp/event/261121_suitekikun_dance/",
+            "quote": "各回1時間前から1Fインフォメーションにて整理券を配布いたします。",
+            "checked_at": "2026-11-20",
+            "sha256": "b85b5776b46925dd914ba1d839e6df4851566ea984e82473cbfc875d4e837911",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.mizunokagaku.jp/event/261121_suitekikun_dance/",
+            "quote": "開催時間：①11:00～②13:30～",
+            "checked_at": "2026-11-20",
+            "sha256": "4b9f7501cc20d65474695da37c8a2d41af5eaa56f5a1f728ab8d6ca74f84b623",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-20",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  },
+  {
+    "id": "verified-20261122-mizunokagaku-nankyoku_blizzard",
+    "ward": "江東区",
+    "name": "体感！南極ブリザード（東京都水の科学館）",
+    "url": "https://www.mizunokagaku.jp/event/261122_nankyoku_blizzard/",
+    "official_url": "https://www.mizunokagaku.jp/event/261122_nankyoku_blizzard/",
+    "source": "https://www.mizunokagaku.jp/event/261122_nankyoku_blizzard/",
+    "image": "",
+    "period": "11/22(日)",
+    "date_start": "2026-11-22",
+    "date_end": "2026-11-22",
+    "time": "①11:00〜 ②13:30〜",
+    "venue": "東京都水の科学館（江東区有明3-1-8）",
+    "price": "",
+    "description": "部屋の中に南極のような環境を作り、水の驚きの変化を目の前で体感する実験ショー。講師はアインシュタインラボ。 小学生以下の子どもと保護者向けの催しで、整理券（各回の1時間前から配布、予約不可）が必要。",
+    "categories": [
+      "科学",
+      "水",
+      "体験"
+    ],
+    "indoor_outdoor": "屋内",
+    "reservation": {
+      "required": false,
+      "note": "予約不可。各回1時間前から1Fインフォメーションで整理券を配布。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "11/22(日)開催。体感！南極ブリザードは、小学生以下のお子様を対象に、保護者同伴で参加する催し（各回先着60名）。",
+      "axes": {
+        "child_target": {
+          "grade": "A",
+          "reason": "対象が小学生以下のお子様と明記され、保護者同伴で参加する子ども向けの催し"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "実験や工作、体験に参加できる"
+        },
+        "age_fit": {
+          "grade": "A",
+          "reason": "対象が小学生以下のお子様と明記"
+        },
+        "stay_flexibility": {
+          "grade": "B",
+          "reason": "①11:00〜、②13:30〜の2回など、時間が決まっている"
+        },
+        "burden": {
+          "grade": "B",
+          "reason": "整理券が必要で、定員（各回先着60名）に達すると参加できない"
+        },
+        "cost": {
+          "grade": "unknown",
+          "reason": "このページに参加費の記載がない"
+        },
+        "reservation": {
+          "grade": "B",
+          "reason": "予約はできず、各回の1時間前から整理券を配布（各回先着60名）"
+        },
+        "family_value": {
+          "grade": "A",
+          "reason": "親子で水や科学を学び、体験できる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-20",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "child_program",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "小学生以下向けで保護者と参加できる",
+          "水の科学館の催しで学びがある"
+        ],
+        "limitations": [
+          "参加費の記載がない",
+          "整理券が必要で定員がある"
+        ],
+        "grade_comparison": "総合B（11/22(日)）：小学生以下向けで学びのある催しだが、整理券が必要で定員が限られる。",
+        "unsupported_axes": [
+          "cost"
+        ],
+        "evidence": [
+          {
+            "url": "https://www.mizunokagaku.jp/event/261122_nankyoku_blizzard/",
+            "quote": "開催日：2026年11月22日(日)",
+            "checked_at": "2026-11-20",
+            "sha256": "50aa73aa4930aafaa7830d498809ceb8427a136d4e193b1d223f9442c904c63d",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.mizunokagaku.jp/event/261122_nankyoku_blizzard/",
+            "quote": "対象：小学生以下のお子様",
+            "checked_at": "2026-11-20",
+            "sha256": "87f61fb7b1a0546ddb46d7d8c18b3cc89d0493ebc56666f4ea2037fccbf471c3",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.mizunokagaku.jp/event/261122_nankyoku_blizzard/",
+            "quote": "会場：1Fオリエンテーションルーム",
+            "checked_at": "2026-11-20",
+            "sha256": "b9f58814738e6ec0f28977f4450e52e8e2bc246f400dd82c2162dfaf1742090e",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.mizunokagaku.jp/event/261122_nankyoku_blizzard/",
+            "quote": "各回1時間前から1Fインフォメーションにて整理券を配布いたします。",
+            "checked_at": "2026-11-20",
+            "sha256": "b85b5776b46925dd914ba1d839e6df4851566ea984e82473cbfc875d4e837911",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.mizunokagaku.jp/event/261122_nankyoku_blizzard/",
+            "quote": "開催時間：①11:00～②13:30～",
+            "checked_at": "2026-11-20",
+            "sha256": "4b9f7501cc20d65474695da37c8a2d41af5eaa56f5a1f728ab8d6ca74f84b623",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-20",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  },
+  {
+    "id": "verified-20261123-mizunokagaku-kendamashow",
+    "ward": "江東区",
+    "name": "けん玉ショー＆ワークショップ（東京都水の科学館）",
+    "url": "https://www.mizunokagaku.jp/event/261123_kendamashow/",
+    "official_url": "https://www.mizunokagaku.jp/event/261123_kendamashow/",
+    "source": "https://www.mizunokagaku.jp/event/261123_kendamashow/",
+    "image": "",
+    "period": "11/23(月・祝)",
+    "date_start": "2026-11-23",
+    "date_end": "2026-11-23",
+    "time": "①11:00〜 ②13:30〜",
+    "venue": "東京都水の科学館（江東区有明3-1-8）",
+    "price": "",
+    "description": "ギネス世界記録を持つ演者のけん玉ショーと、けん玉を体験できるワークショップ。 小学生以下の子どもと保護者向けの催しで、整理券（各回の1時間前から配布、予約不可）が必要。",
+    "categories": [
+      "科学",
+      "水",
+      "体験"
+    ],
+    "indoor_outdoor": "屋内",
+    "reservation": {
+      "required": false,
+      "note": "予約不可。各回1時間前から1Fインフォメーションで整理券を配布。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "11/23(月・祝)開催。けん玉ショー＆ワークショップは、小学生以下のお子様を対象に、保護者同伴で参加する催し（各回先着50名）。",
+      "axes": {
+        "child_target": {
+          "grade": "A",
+          "reason": "対象が小学生以下のお子様と明記され、保護者同伴で参加する子ども向けの催し"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "実験や工作、体験に参加できる"
+        },
+        "age_fit": {
+          "grade": "A",
+          "reason": "対象が小学生以下のお子様と明記"
+        },
+        "stay_flexibility": {
+          "grade": "B",
+          "reason": "①11:00〜、②13:30〜の2回など、時間が決まっている"
+        },
+        "burden": {
+          "grade": "B",
+          "reason": "整理券が必要で、定員（各回先着50名）に達すると参加できない"
+        },
+        "cost": {
+          "grade": "unknown",
+          "reason": "このページに参加費の記載がない"
+        },
+        "reservation": {
+          "grade": "B",
+          "reason": "予約はできず、各回の1時間前から整理券を配布（各回先着50名）"
+        },
+        "family_value": {
+          "grade": "A",
+          "reason": "親子で水や科学を学び、体験できる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-20",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "child_program",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "小学生以下向けで保護者と参加できる",
+          "水の科学館の催しで学びがある"
+        ],
+        "limitations": [
+          "参加費の記載がない",
+          "整理券が必要で定員がある"
+        ],
+        "grade_comparison": "総合B（11/23(月・祝)）：小学生以下向けで学びのある催しだが、整理券が必要で定員が限られる。",
+        "unsupported_axes": [
+          "cost"
+        ],
+        "evidence": [
+          {
+            "url": "https://www.mizunokagaku.jp/event/261123_kendamashow/",
+            "quote": "開催日：2026年11月23日(月・祝)",
+            "checked_at": "2026-11-20",
+            "sha256": "f6009005e52e5cc7ca4a175ce64213758062092369c6b4b15f73035c876c4d7c",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.mizunokagaku.jp/event/261123_kendamashow/",
+            "quote": "対象：小学生以下のお子様",
+            "checked_at": "2026-11-20",
+            "sha256": "87f61fb7b1a0546ddb46d7d8c18b3cc89d0493ebc56666f4ea2037fccbf471c3",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.mizunokagaku.jp/event/261123_kendamashow/",
+            "quote": "会場：1Fオリエンテーションルーム",
+            "checked_at": "2026-11-20",
+            "sha256": "b9f58814738e6ec0f28977f4450e52e8e2bc246f400dd82c2162dfaf1742090e",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.mizunokagaku.jp/event/261123_kendamashow/",
+            "quote": "各回1時間前から1Fインフォメーションにて整理券を配布いたします。",
+            "checked_at": "2026-11-20",
+            "sha256": "b85b5776b46925dd914ba1d839e6df4851566ea984e82473cbfc875d4e837911",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.mizunokagaku.jp/event/261123_kendamashow/",
+            "quote": "開催時間：①11:00～②13:30～",
+            "checked_at": "2026-11-20",
+            "sha256": "4b9f7501cc20d65474695da37c8a2d41af5eaa56f5a1f728ab8d6ca74f84b623",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-20",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  }
+]

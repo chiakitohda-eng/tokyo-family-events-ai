@@ -1,0 +1,150 @@
+[
+  {
+    "id": "verified-20261205-inagi-giants-hometown-fes-2026",
+    "ward": "稲城市",
+    "name": "GIANTS HOMETOWN fes 2026（ジャイアンツタウンスタジアム）",
+    "url": "https://www.city.hino.lg.jp/bunka/kigyo/1027368/1029740.html",
+    "official_url": "https://www.city.hino.lg.jp/bunka/kigyo/1027368/1029740.html",
+    "source": "https://www.city.hino.lg.jp/bunka/kigyo/1027368/1029740.html",
+    "image": "",
+    "period": "12/5(土)",
+    "date_start": "2026-12-05",
+    "date_end": "2026-12-05",
+    "time": "午前の部10:00〜12:00（周辺7市の在住・在学・在勤の方）／午後の部13:00〜16:00（どなたでも）",
+    "venue": "ジャイアンツタウンスタジアム（稲城市矢野口3228 南山95街区1号）",
+    "price": "無料（無料シャトルバスあり）",
+    "description": "読売ジャイアンツの新ファーム球場で、ウォーミングアップ・トスバッティング・ピッチング・ノックなどの選手なりきり体験や、アナウンス・カメラマンなどのお仕事体験、現役選手から学ぶ投げ方教室などを行う。事前申込は不要で、当日受付。午前の部は周辺7市（稲城・府中・調布・多摩・狛江・立川・日野）の在住・在学・在勤の方、午後の部はどなたでも参加できる。",
+    "categories": [
+      "スポーツ",
+      "体験・ワークショップ"
+    ],
+    "indoor_outdoor": "屋外",
+    "reservation": {
+      "required": false,
+      "note": "事前申込不要（当日受付）。体験によっては当日配布の抽選券・定員（各回3〜10名）がある。"
+    },
+    "family_fit": {
+      "grade": "A",
+      "overall": "A",
+      "rubric_version": "family-fit-v2",
+      "reason": "周辺7市の子どもたちを対象にした、プロ野球選手の体験やお仕事体験が無料でできるスポーツイベント。午後の部はどなたでも参加でき、事前申込は不要。",
+      "axes": {
+        "child_target": {
+          "grade": "A",
+          "reason": "周辺自治体の子どもたちを対象にしたスポーツイベントと明記"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "ウォーミングアップ・ピッチング・ノック・お仕事体験などの参加型"
+        },
+        "age_fit": {
+          "grade": "B",
+          "reason": "年齢の限定はなく、体験ごとに定員がある"
+        },
+        "stay_flexibility": {
+          "grade": "A",
+          "reason": "午後の部は13:00〜16:00の間に好きな体験を選べる"
+        },
+        "burden": {
+          "grade": "B",
+          "reason": "体験によっては抽選券・定員があり、屋外で待つ時間がある"
+        },
+        "cost": {
+          "grade": "A",
+          "reason": "無料（無料シャトルバスもある）"
+        },
+        "reservation": {
+          "grade": "A",
+          "reason": "事前申込不要（当日受付）"
+        },
+        "family_value": {
+          "grade": "A",
+          "reason": "プロ野球の球場で、親子で本格的な体験を無料でできる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-21",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "child_program",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "無料・事前申込不要で、プロの球場で体験できる",
+          "午後の部はどなたでも参加でき、無料シャトルバスがある"
+        ],
+        "limitations": [
+          "体験ごとに定員（各回3〜10名）や抽選券があり、人気の体験は参加できない場合がある",
+          "午前の部は周辺7市の在住・在学・在勤の方のみ"
+        ],
+        "grade_comparison": "総合A：無料・申込不要でプロの球場の体験ができる子ども向けイベント。人気の体験は定員に注意。",
+        "unsupported_axes": [],
+        "evidence": [
+          {
+            "url": "https://www.city.hino.lg.jp/bunka/kigyo/1027368/1029740.html",
+            "quote": "「GIANTS HOMETOWN fes 2026」開催！ジャイアンツタウンスタジアム周辺自治体7市の子どもたちを対象にスポーツイベントを開催します！",
+            "checked_at": "2026-11-21",
+            "sha256": "8ff003c9d1f0fd4391fb48bb55b765b39ee662d8da835fbbe82e8e3810d5ab3f",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.hino.lg.jp/bunka/kigyo/1027368/1029740.html",
+            "quote": "日時 令和8年12月5日（土曜日） （1）午前の部：午前10時から正午 （2）午後の部：午後1時から午後4時",
+            "checked_at": "2026-11-21",
+            "sha256": "47e69ab19c09e7db47567e7cbb26d73c835721b098b76eec7d812410b8c8f57c",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.hino.lg.jp/bunka/kigyo/1027368/1029740.html",
+            "quote": "場所 ジャイアンツタウンスタジアム（稲城市矢野口3228南山95街区1号） 対象 （1）午前の部：周辺自治体7市在住・在学・在勤の方 （2）午後の部：どなたでも 申込 事前申込不要（当日受付）",
+            "checked_at": "2026-11-21",
+            "sha256": "49ce73854d58e6e9c0b314bab7b32f3fa13db401804d577ed48897c3599210d1",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.hino.lg.jp/bunka/kigyo/1027368/1029740.html",
+            "quote": "プロ野球選手が使用するグラウンドでジャイアンツの選手さながらの体験が楽しめます。",
+            "checked_at": "2026-11-21",
+            "sha256": "bd768c3bb9a5cc8ac315c93c0039c046ba9a487e7cbc1077c6b2bbfb51780218",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.hino.lg.jp/bunka/kigyo/1027368/1029740.html",
+            "quote": "サブグラウンドを一般開放し、さまざまなスポーツを無料で体験することができます。",
+            "checked_at": "2026-11-21",
+            "sha256": "825170a8d1f43feb82cbf765c7f295631a1dd2352d8ee85652913384d63e8423",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.hino.lg.jp/bunka/kigyo/1027368/1029740.html",
+            "quote": "無料シャトルバス 当日は、京王相模原線「京王よみうりランド駅」より無料シャトルバスを運行します。",
+            "checked_at": "2026-11-21",
+            "sha256": "dfd8a3f41269abfebf02ea2eefff4d9999ff620563046b267ca2b435660148b3",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-21",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  }
+]

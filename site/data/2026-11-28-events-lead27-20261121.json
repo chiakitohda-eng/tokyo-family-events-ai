@@ -1,0 +1,134 @@
+[
+  {
+    "id": "verified-20261128-higashimurayama-akitsu-chirorin-shukakusai",
+    "ward": "東村山市",
+    "name": "秋津ちろりん村「収穫祭」",
+    "url": "https://www.city.higashimurayama.tokyo.jp/event/main/omatsuri/tirorinsyuukakusai.html",
+    "official_url": "https://www.city.higashimurayama.tokyo.jp/event/main/omatsuri/tirorinsyuukakusai.html",
+    "source": "https://www.city.higashimurayama.tokyo.jp/event/main/omatsuri/tirorinsyuukakusai.html",
+    "image": "",
+    "period": "11/28(土)",
+    "date_start": "2026-11-28",
+    "date_end": "2026-11-28",
+    "time": "10:00〜12:00",
+    "venue": "秋津ちろりん村（東村山市秋津町1-9）",
+    "price": "品目ごとに数百円程度（野菜の種類により金額が異なる）",
+    "description": "ボランティアが育てた大根や白菜などの収穫体験と野菜の販売。対象はどなたでも。申込不要で当日直接行ける。小雨決行で、荒天時は12/5に延期。駐車場は20台程度。",
+    "categories": [
+      "体験・ワークショップ",
+      "自然・公園"
+    ],
+    "indoor_outdoor": "屋外",
+    "reservation": {
+      "required": false,
+      "note": "申込不要。当日直接現地へ。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "大根や白菜の収穫体験ができる、申込不要・どなたでも参加できる農園のイベント。2時間の枠で、費用は購入する野菜の分。",
+      "axes": {
+        "child_target": {
+          "grade": "B",
+          "reason": "対象はどなたでも。子ども専用ではない"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "大根や白菜の収穫を体験できる"
+        },
+        "age_fit": {
+          "grade": "B",
+          "reason": "年齢の限定はなく、子どもも参加できる"
+        },
+        "stay_flexibility": {
+          "grade": "B",
+          "reason": "10:00〜12:00の2時間枠"
+        },
+        "burden": {
+          "grade": "A",
+          "reason": "申込不要で、当日直接行ける"
+        },
+        "cost": {
+          "grade": "A",
+          "reason": "野菜の購入分のみ。品目ごとに数百円程度"
+        },
+        "reservation": {
+          "grade": "A",
+          "reason": "申込不要"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "野菜の収穫を家族で体験できる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-21",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "all_ages",
+        "child_activity_confirmed": false,
+        "strengths": [
+          "申込不要で、当日直接行ける",
+          "収穫を体験でき、野菜を買って帰れる"
+        ],
+        "limitations": [
+          "子ども専用の企画ではない",
+          "2時間の枠で、荒天時は12/5に延期"
+        ],
+        "grade_comparison": "総合B：気軽に行ける収穫体験。子ども向けの企画ではないが、家族で参加しやすい。",
+        "unsupported_axes": [],
+        "evidence": [
+          {
+            "url": "https://www.city.higashimurayama.tokyo.jp/event/main/omatsuri/tirorinsyuukakusai.html",
+            "quote": "日時 令和8年11月28日（土曜） 午前10時から正午まで （注記1）事前の申し込みは不要です。当日直接現地にお越しください。",
+            "checked_at": "2026-11-21",
+            "sha256": "e3e4072b5cede96c4693745a07a3f46364124a597716b871af19188f222e5c16",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.higashimurayama.tokyo.jp/event/main/omatsuri/tirorinsyuukakusai.html",
+            "quote": "場所 秋津ちろりん村 住所：東村山市秋津町1丁目9番地",
+            "checked_at": "2026-11-21",
+            "sha256": "41939bdc4cd9428e7fb30d210aaa9b58b7e6070a3ae11700797dd5ec3fbe3d3e",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.higashimurayama.tokyo.jp/event/main/omatsuri/tirorinsyuukakusai.html",
+            "quote": "ちろりん村のボランティアが丹精込めて作った大根や白菜等の収穫体験や、野菜の販売を行います。",
+            "checked_at": "2026-11-21",
+            "sha256": "840f43a990fe745ce0cf23fa6d8714be072b2b30ce7bf13c9de43dd1d60ed013",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.higashimurayama.tokyo.jp/event/main/omatsuri/tirorinsyuukakusai.html",
+            "quote": "参加対象者 どなたでも 費用 品目ごと数百円程度 （注記）野菜の種類により金額が異なります。",
+            "checked_at": "2026-11-21",
+            "sha256": "f67cc101df88fc7484997dbe7010f3c8d0463f633eafcd58f62f2c0d67b54b14",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-21",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  }
+]

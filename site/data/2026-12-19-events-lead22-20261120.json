@@ -1,0 +1,288 @@
+[
+  {
+    "id": "verified-20261219-shibuya-funsportnexus",
+    "ward": "渋谷区",
+    "name": "fun sport nexus（国立オリンピック記念青少年総合センター）",
+    "url": "https://funsportnexus.org/202612orisen/",
+    "official_url": "https://funsportnexus.org/202612orisen/",
+    "source": "https://funsportnexus.org/202612orisen/",
+    "image": "",
+    "period": "12/19(土)",
+    "date_start": "2026-12-19",
+    "date_end": "2026-12-19",
+    "time": "10:00〜16:00ごろ（プログラムにより異なる）",
+    "venue": "国立オリンピック記念青少年総合センター（渋谷区代々木神園町3-1）",
+    "price": "無料",
+    "description": "あそびをキーワードに、かけっこ、ぱん食い競走、バスケットボール、ダンス、柔道の転び方教室、将棋などを無料で体験できるスポーツイベント。自由参加と事前申込制のプログラムがある。",
+    "categories": [
+      "スポーツ",
+      "体験",
+      "無料"
+    ],
+    "indoor_outdoor": "屋内・屋外",
+    "reservation": {
+      "required": null,
+      "note": "自由参加（申込不要）と事前申込制のプログラムがある。申込制も定員に達していなければ当日参加可能。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "12/19に、かけっこ教室やぱん食い競走、バスケットボールなどのスポーツ体験を無料で楽しめる。自由参加のプログラムが多く、事前申込制のものもある。",
+      "axes": {
+        "child_target": {
+          "grade": "B",
+          "reason": "学年を示した子ども向けプログラムも含む全年齢向けのスポーツ体験"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "走る、踊る、球技など体を動かす体験が中心"
+        },
+        "age_fit": {
+          "grade": "unknown",
+          "reason": "プログラムごとに対象学年が異なり、全体の目安はない"
+        },
+        "stay_flexibility": {
+          "grade": "A",
+          "reason": "自由参加のプログラムが多く、好きな時間に参加できる"
+        },
+        "burden": {
+          "grade": "B",
+          "reason": "プログラムによって事前申込が必要"
+        },
+        "cost": {
+          "grade": "A",
+          "reason": "参加費無料"
+        },
+        "reservation": {
+          "grade": "B",
+          "reason": "自由参加と事前申込制が混在"
+        },
+        "family_value": {
+          "grade": "A",
+          "reason": "親子で多彩なスポーツを無料で体験できる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-20",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "all_ages",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "参加費無料",
+          "自由参加のプログラムが多い"
+        ],
+        "limitations": [
+          "プログラムにより事前申込が必要",
+          "対象学年がプログラムごとに異なる"
+        ],
+        "grade_comparison": "総合B（12/19）：無料で多彩なスポーツ体験ができ自由参加も多いが、一部は事前申込で対象学年も異なる。",
+        "unsupported_axes": [
+          "age_fit"
+        ],
+        "evidence": [
+          {
+            "url": "https://funsportnexus.org/202612orisen/",
+            "quote": "2026.12.19（土）-20（日）／国立オリンピック記念青少年総合センター",
+            "checked_at": "2026-11-20",
+            "sha256": "4de5e2ad02e6cae74525adb034055f1539670af75ba8f1583db552e518ca8048",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://funsportnexus.org/202612orisen/",
+            "quote": "参加費無料なのでお気軽にご参加ください！",
+            "checked_at": "2026-11-20",
+            "sha256": "a3afa3a48b633d1705d7af42988f758011569b1029fa07016af5fda7b0fd81f5",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://funsportnexus.org/202612orisen/",
+            "quote": "事前申込制のプログラムもあります。",
+            "checked_at": "2026-11-20",
+            "sha256": "b35f22d190aa22e7f065b4d928e2101560646f5379068c8cd6e25c6e20df58a0",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://funsportnexus.org/202612orisen/",
+            "quote": "スポあんぱん食い競走スポーツ安全協会／ぱん食い競走協会10:00-11:00／13:00-14:00中央広場",
+            "checked_at": "2026-11-20",
+            "sha256": "0c38f523f5f72f105d2dc88ab1cccdb18d0487a31c261bf099715939cc912adf",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://funsportnexus.org/202612orisen/",
+            "quote": "サンロッカーズ11:30-12:30",
+            "checked_at": "2026-11-20",
+            "sha256": "41affba3f717f45404a1c515fa3febf7073c8bd93d6624d3071fd8e80b03a7cb",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-20",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  },
+  {
+    "id": "verified-20261220-shibuya-funsportnexus",
+    "ward": "渋谷区",
+    "name": "fun sport nexus（国立オリンピック記念青少年総合センター）",
+    "url": "https://funsportnexus.org/202612orisen/",
+    "official_url": "https://funsportnexus.org/202612orisen/",
+    "source": "https://funsportnexus.org/202612orisen/",
+    "image": "",
+    "period": "12/20(日)",
+    "date_start": "2026-12-20",
+    "date_end": "2026-12-20",
+    "time": "10:00〜16:00ごろ（プログラムにより異なる）",
+    "venue": "国立オリンピック記念青少年総合センター（渋谷区代々木神園町3-1）",
+    "price": "無料",
+    "description": "あそびをキーワードに、かけっこ、ぱん食い競走、バスケットボール、ダンス、柔道の転び方教室、将棋などを無料で体験できるスポーツイベント。自由参加と事前申込制のプログラムがある。",
+    "categories": [
+      "スポーツ",
+      "体験",
+      "無料"
+    ],
+    "indoor_outdoor": "屋内・屋外",
+    "reservation": {
+      "required": null,
+      "note": "自由参加（申込不要）と事前申込制のプログラムがある。申込制も定員に達していなければ当日参加可能。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "12/20に、かけっこ教室やぱん食い競走、バスケットボールなどのスポーツ体験を無料で楽しめる。自由参加のプログラムが多く、事前申込制のものもある。",
+      "axes": {
+        "child_target": {
+          "grade": "B",
+          "reason": "学年を示した子ども向けプログラムも含む全年齢向けのスポーツ体験"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "走る、踊る、球技など体を動かす体験が中心"
+        },
+        "age_fit": {
+          "grade": "unknown",
+          "reason": "プログラムごとに対象学年が異なり、全体の目安はない"
+        },
+        "stay_flexibility": {
+          "grade": "A",
+          "reason": "自由参加のプログラムが多く、好きな時間に参加できる"
+        },
+        "burden": {
+          "grade": "B",
+          "reason": "プログラムによって事前申込が必要"
+        },
+        "cost": {
+          "grade": "A",
+          "reason": "参加費無料"
+        },
+        "reservation": {
+          "grade": "B",
+          "reason": "自由参加と事前申込制が混在"
+        },
+        "family_value": {
+          "grade": "A",
+          "reason": "親子で多彩なスポーツを無料で体験できる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-20",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "all_ages",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "参加費無料",
+          "自由参加のプログラムが多い"
+        ],
+        "limitations": [
+          "プログラムにより事前申込が必要",
+          "対象学年がプログラムごとに異なる"
+        ],
+        "grade_comparison": "総合B（12/20）：無料で多彩なスポーツ体験ができ自由参加も多いが、一部は事前申込で対象学年も異なる。",
+        "unsupported_axes": [
+          "age_fit"
+        ],
+        "evidence": [
+          {
+            "url": "https://funsportnexus.org/202612orisen/",
+            "quote": "2026.12.19（土）-20（日）／国立オリンピック記念青少年総合センター",
+            "checked_at": "2026-11-20",
+            "sha256": "4de5e2ad02e6cae74525adb034055f1539670af75ba8f1583db552e518ca8048",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://funsportnexus.org/202612orisen/",
+            "quote": "参加費無料なのでお気軽にご参加ください！",
+            "checked_at": "2026-11-20",
+            "sha256": "a3afa3a48b633d1705d7af42988f758011569b1029fa07016af5fda7b0fd81f5",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://funsportnexus.org/202612orisen/",
+            "quote": "事前申込制のプログラムもあります。",
+            "checked_at": "2026-11-20",
+            "sha256": "b35f22d190aa22e7f065b4d928e2101560646f5379068c8cd6e25c6e20df58a0",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://funsportnexus.org/202612orisen/",
+            "quote": "スポあんぱん食い競走スポーツ安全協会／ぱん食い競走協会10:00-11:00／13:00-14:00中央広場",
+            "checked_at": "2026-11-20",
+            "sha256": "0c38f523f5f72f105d2dc88ab1cccdb18d0487a31c261bf099715939cc912adf",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://funsportnexus.org/202612orisen/",
+            "quote": "サンロッカーズ11:30-12:30",
+            "checked_at": "2026-11-20",
+            "sha256": "41affba3f717f45404a1c515fa3febf7073c8bd93d6624d3071fd8e80b03a7cb",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-20",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  }
+]

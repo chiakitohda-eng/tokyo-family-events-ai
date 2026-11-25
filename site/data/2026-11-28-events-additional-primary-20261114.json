@@ -1,0 +1,791 @@
+[
+  {
+    "id": "primary-20261128-meguro-horse-exhibit",
+    "ward": "目黒区",
+    "name": "秋季企画展「目黒と馬」",
+    "url": "https://www.city.meguro.tokyo.jp/shougaigakushuu/event/kikakuten.html",
+    "official_url": "https://www.city.meguro.tokyo.jp/shougaigakushuu/event/kikakuten.html",
+    "source": "https://www.city.meguro.tokyo.jp/shougaigakushuu/event/kikakuten.html",
+    "image": "https://www.city.meguro.tokyo.jp/images/13041/chirashisyuusei_page-0001.jpg",
+    "period": "11/28〜11/29",
+    "date_start": "2026-11-28",
+    "date_end": "2026-11-29",
+    "time": "9:30〜17:00",
+    "venue": "東山社会教育館202教室・ホール・廊下（東山3-24-2）",
+    "price": "無料",
+    "description": "馬に由来する地名、馬頭観音、目黒競馬場などの歴史。12/4まではパネルのみ、12/5以降はパネルと資料を展示。月曜休館（11/23も掲載対象外）。 対象：一般向け展示。細かな対象年齢は未記載。 展示観覧。関連する解説会・屋外講座は別の参加企画。",
+    "categories": [
+      "文化・地域イベント"
+    ],
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "馬と地名・競馬場など、地域の歴史を親子でたどれる無料の展示。 11月はパネル中心で、乗馬や動物とのふれあいがある催しとは評価しない。",
+      "axes": {
+        "child_target": {
+          "grade": "unknown",
+          "reason": "子どもを主対象とする明記は確認できない。 11月はパネル中心で、乗馬や動物とのふれあいがある催しとは評価しない。"
+        },
+        "interactivity": {
+          "grade": "B",
+          "reason": "馬と地名・競馬場など、地域の歴史を親子でたどれる無料の展示。"
+        },
+        "age_fit": {
+          "grade": "B",
+          "reason": "11月はパネル中心で、乗馬や動物とのふれあいがある催しとは評価しない。"
+        },
+        "stay_flexibility": {
+          "grade": "unknown",
+          "reason": "途中入退場・滞在時間の自由度は、明記された場合を除き要確認。"
+        },
+        "burden": {
+          "grade": "unknown",
+          "reason": "混雑、設備、休憩場所など未記載の条件は要確認。"
+        },
+        "cost": {
+          "grade": "A",
+          "reason": "無料"
+        },
+        "reservation": {
+          "grade": "A",
+          "reason": "展示観覧。関連する解説会・屋外講座は別の参加企画。"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "馬と地名・競馬場など、地域の歴史を親子でたどれる無料の展示。"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-14",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "unspecified",
+        "child_activity_confirmed": false,
+        "strengths": [
+          "馬と地名・競馬場など、地域の歴史を親子でたどれる無料の展示。"
+        ],
+        "limitations": [
+          "11月はパネル中心で、乗馬や動物とのふれあいがある催しとは評価しない。"
+        ],
+        "grade_comparison": "総合B：馬と地名・競馬場など、地域の歴史を親子でたどれる無料の展示。 11月はパネル中心で、乗馬や動物とのふれあいがある催しとは評価しない。",
+        "unsupported_axes": [
+          "child_target",
+          "stay_flexibility",
+          "burden"
+        ],
+        "evidence": [
+          {
+            "url": "https://www.city.meguro.tokyo.jp/shougaigakushuu/event/kikakuten.html",
+            "quote": " 令和8年度 秋季企画展 「目黒と馬」 目黒は馬に由来する地名という説があり、また区内の駒沢や衾といった地名も同様に馬に関連する地名とされます。世田谷区との区境には「葦毛塚」があるほか、区内各所には「馬頭観音」が多く建立され、古くから馬と密接であった土地でした。 また、かつて区内には駒沢練兵場や陸軍騎兵学校、そして目黒競馬場があり、競馬については現在も中央競馬の重賞・目黒記念(G2)が行われています。 こうした「目黒」と「馬」について、歴史的な視点を中心に着目し、午年である2026年の最後に馬と歩んだ目黒の歴史を紹介します。 展示の紹介 「目黒」の名前の起こり 現在当たり前のように使われている「目黒」という地名。これが「馬」と関連した地名であることはあまり知られていないように思われます。 馬がどのようにして、目黒という地名に関連するようになったか、また、区内の地名で馬に関する言い伝えが由来となっている駒場・衾を紹介します。 馬の蹄鉄 目黒競馬場の様子 目黒区と馬にまつわるランドマーク 区内に多数ある「馬頭観音」、世田谷区との区境にある源頼朝ゆかりの「葦毛塚」、近代に建てられた駒沢練兵場など陸軍関係施設、そして「目黒競馬場」。 これらの目黒と馬にまつわるランドマークについて、建てられた経緯と現在の様子、そして現在の目黒に与えた影響について説明していきます。 開催概要 会期 令和8年11月17日(火曜日)から令和9年1月8日(金曜日)まで パネルのみ展示 :11月17日(火曜日)から12月4日(金曜日)まで 上記パネルと資料展示 :12月5日(土曜日)から令和9年1月8日(金曜日)まで 開館時間 午前9時30分から午後5時まで 休館日 月曜日、年末年始(12月29日から1月4日まで) 会場 東山社会教育館 202教室、ホール、廊下 目黒区東山三丁目24番2号(東山地区センター2階) アクセス 東急田園都市線「池尻大橋駅」下車、東口から徒歩7分 東急バス黒09、渋31系「寿福寺前」バス停徒歩10分 東急バス渋31、41、42系「菅刈小学校」バス停徒歩10分 東急バス渋05、11、12、21、22、23、24、31、32、41、42、82系「大橋」バス停徒歩10分 案内図 入",
+            "checked_at": "2026-11-14T13:25:51+09:00",
+            "sha256": "29d4fc79ba52fcadf958a4590fe3b804094d39a6f1d1b4b1c43ffca307bd0a5b"
+          }
+        ]
+      }
+    },
+    "reservation": {
+      "required": false,
+      "note": "展示観覧。関連する解説会・屋外講座は別の参加企画。"
+    },
+    "indoor_outdoor": "",
+    "ai": {
+      "checked_at": "2026-11-14",
+      "confidence": "high",
+      "discovery_query": "既取得候補の残件を公式本文で追加照合。既存369個票との同日・参加単位重複を確認。"
+    },
+    "discovery_sources": [
+      {
+        "channel": "ai_cross_search",
+        "kind": "official_body_review",
+        "url": "https://www.city.meguro.tokyo.jp/shougaigakushuu/event/kikakuten.html"
+      }
+    ]
+  },
+  {
+    "id": "primary-20261128-kita-keene",
+    "ward": "北区",
+    "name": "企画展「ドナルド・キーン、あなたは誰？」",
+    "url": "https://www.city.kita.lg.jp/culture-tourism-sports/culture/1018312/1010307/1026669.html",
+    "official_url": "https://www.city.kita.lg.jp/culture-tourism-sports/culture/1018312/1010307/1026669.html",
+    "source": "https://www.city.kita.lg.jp/culture-tourism-sports/culture/1018312/1010307/1026669.html",
+    "image": "https://www.city.kita.lg.jp/_res/projects/default_project/_page_/001/026/669/anatahadare2.jpg",
+    "period": "11/28〜11/29",
+    "date_start": "2026-11-28",
+    "date_end": "2026-11-29",
+    "time": "7:30〜22:00",
+    "venue": "ジェイトエル3階ギャラリー（上十条2-27-1 ジェイトモール）",
+    "price": "無料",
+    "description": "日本文学研究者ドナルド・キーンの人生と業績を、パネルやゲームで紹介。会期10/30〜11/30、休館11/16。 対象：一般向け展示。ゲームの細かな対象年齢は未記載。 直接会場へ。11/16休館。子どもの滞在時間は家族で調整。",
+    "categories": [
+      "文化・地域イベント"
+    ],
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "日本文学研究者の人生をパネルとゲームでたどれる。 ゲームの難易度や対象年齢は未記載で、文学への関心や読解に応じて楽しみ方が変わる。",
+      "axes": {
+        "child_target": {
+          "grade": "unknown",
+          "reason": "子どもを主対象とする明記は確認できない。 ゲームの難易度や対象年齢は未記載で、文学への関心や読解に応じて楽しみ方が変わる。"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "日本文学研究者の人生をパネルとゲームでたどれる。"
+        },
+        "age_fit": {
+          "grade": "B",
+          "reason": "ゲームの難易度や対象年齢は未記載で、文学への関心や読解に応じて楽しみ方が変わる。"
+        },
+        "stay_flexibility": {
+          "grade": "unknown",
+          "reason": "途中入退場・滞在時間の自由度は、明記された場合を除き要確認。"
+        },
+        "burden": {
+          "grade": "unknown",
+          "reason": "混雑、設備、休憩場所など未記載の条件は要確認。"
+        },
+        "cost": {
+          "grade": "A",
+          "reason": "無料"
+        },
+        "reservation": {
+          "grade": "A",
+          "reason": "直接会場へ。11/16休館。子どもの滞在時間は家族で調整。"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "日本文学研究者の人生をパネルとゲームでたどれる。"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-14",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "unspecified",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "日本文学研究者の人生をパネルとゲームでたどれる。"
+        ],
+        "limitations": [
+          "ゲームの難易度や対象年齢は未記載で、文学への関心や読解に応じて楽しみ方が変わる。"
+        ],
+        "grade_comparison": "総合B：日本文学研究者の人生をパネルとゲームでたどれる。 ゲームの難易度や対象年齢は未記載で、文学への関心や読解に応じて楽しみ方が変わる。",
+        "unsupported_axes": [
+          "child_target",
+          "stay_flexibility",
+          "burden"
+        ],
+        "evidence": [
+          {
+            "url": "https://www.city.kita.lg.jp/culture-tourism-sports/culture/1018312/1010307/1026669.html",
+            "quote": " 企画展「ドナルド・キーン、あなたは誰?」 ページ番号1026669 更新日: 2026年9月17日 印刷 大きな文字で印刷 ドナルド・キーン先生が96歳でご逝去されてから、早くも7年の月日が経ちました。長いご生涯を日本文学・日本文化研究に捧げられたキーン先生は、1974年11月に北区西ケ原に移り住み、人生の半分近い歳月を北区の住人として過ごされ、この地から数多くのご著作を世に送りだされました。 今回の展示は、キーン先生の人生とその業績を、パネルやゲームを通してご紹介します。 会期 令和8年10月30日(金曜日)~11月30日(月曜日) 【観覧時間】午前7時30分~午後10時 【休館日】11月16日(月曜日) 【観覧料】無料 ※申込は不要ですので、直接会場にお越しください。 会場 ジェイトエル3階ギャラリー 住所:東京都北区上十条2-27-1 ジェイトモール ドナルド・キーン先生 添付ファイル チラシ (PDF 411.2KB) PDFファイルをご覧いただくには、「Adobe(R) Reader(R)」が必要です。お持ちでない方は アドビシステムズ社のサイト(新しいウィンドウ) からダウンロード(無料)してください。 お問い合わせ 産業経済文化部 文化施策推進課 〒114-8503 東京都北区王子1-11-1(北とぴあ11階) 電話:03-5390-0093 産業経済文化部 文化施策推進課へのお問い合わせは専用フォームをご利用ください。 このページの先頭へ戻る 前のページへ戻る トップページへ戻る",
+            "checked_at": "2026-11-14T13:25:36+09:00",
+            "sha256": "c6ebecde31be08cedd25d00cd3cd84cb7185d910ef5cf1ec7f59f085ef9cd05f"
+          }
+        ]
+      }
+    },
+    "reservation": {
+      "required": false,
+      "note": "直接会場へ。11/16休館。子どもの滞在時間は家族で調整。"
+    },
+    "indoor_outdoor": "",
+    "ai": {
+      "checked_at": "2026-11-14",
+      "confidence": "high",
+      "discovery_query": "既取得候補の残件を公式本文で追加照合。既存369個票との同日・参加単位重複を確認。"
+    },
+    "discovery_sources": [
+      {
+        "channel": "ai_cross_search",
+        "kind": "official_body_review",
+        "url": "https://www.city.kita.lg.jp/culture-tourism-sports/culture/1018312/1010307/1026669.html"
+      }
+    ]
+  },
+  {
+    "id": "primary-20261128-kita-ur",
+    "ward": "北区",
+    "name": "URまちとくらしのミュージアム出張展示",
+    "url": "https://www.city.kita.lg.jp/museum/events/1018658/1026912.html",
+    "official_url": "https://www.city.kita.lg.jp/museum/events/1018658/1026912.html",
+    "source": "https://www.city.kita.lg.jp/museum/events/1018658/1026912.html",
+    "image": "",
+    "period": "11/28〜11/29",
+    "date_start": "2026-11-28",
+    "date_end": "2026-11-29",
+    "time": "10:00〜17:00",
+    "venue": "北区飛鳥山博物館 ホワイエ（王子1-1-3）",
+    "price": "無料",
+    "description": "スターハウス型の移動式展示コーナー。 対象：どなたでも。 直接会場へ。月曜休館、11/23は開館・11/24休館（同館企画展案内で確認）。",
+    "categories": [
+      "文化・地域イベント"
+    ],
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "スターハウス型の展示で住まいの形や暮らしを親子で比べられる。 移動式の展示コーナーであり、遊具や模型に触る企画があるとは案内されていない。",
+      "axes": {
+        "child_target": {
+          "grade": "B",
+          "reason": "一般にも開かれる対象で、子ども専用という根拠にはしない。 移動式の展示コーナーであり、遊具や模型に触る企画があるとは案内されていない。"
+        },
+        "interactivity": {
+          "grade": "B",
+          "reason": "スターハウス型の展示で住まいの形や暮らしを親子で比べられる。"
+        },
+        "age_fit": {
+          "grade": "B",
+          "reason": "移動式の展示コーナーであり、遊具や模型に触る企画があるとは案内されていない。"
+        },
+        "stay_flexibility": {
+          "grade": "unknown",
+          "reason": "途中入退場・滞在時間の自由度は、明記された場合を除き要確認。"
+        },
+        "burden": {
+          "grade": "unknown",
+          "reason": "混雑、設備、休憩場所など未記載の条件は要確認。"
+        },
+        "cost": {
+          "grade": "A",
+          "reason": "無料"
+        },
+        "reservation": {
+          "grade": "A",
+          "reason": "直接会場へ。月曜休館、11/23は開館・11/24休館（同館企画展案内で確認）。"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "スターハウス型の展示で住まいの形や暮らしを親子で比べられる。"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-14",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "all_ages",
+        "child_activity_confirmed": false,
+        "strengths": [
+          "スターハウス型の展示で住まいの形や暮らしを親子で比べられる。"
+        ],
+        "limitations": [
+          "移動式の展示コーナーであり、遊具や模型に触る企画があるとは案内されていない。"
+        ],
+        "grade_comparison": "総合B：スターハウス型の展示で住まいの形や暮らしを親子で比べられる。 移動式の展示コーナーであり、遊具や模型に触る企画があるとは案内されていない。",
+        "unsupported_axes": [
+          "stay_flexibility",
+          "burden"
+        ],
+        "evidence": [
+          {
+            "url": "https://www.city.kita.lg.jp/museum/events/1018658/1026912.html",
+            "quote": " 【申込不要】URまちとくらしのミュージアム出張展示(北区飛鳥山博物館) ページ番号1026912 更新日: 2026年11月8日 印刷 大きな文字で印刷 イベントカテゴリ: 講演・講座・教室 開催エリア:王子 赤羽台にある「URまちとくらしのミュージアムから、スターハウス型の移動式展示コーナーがやってきます。 開催期間 2026年11月3日(火曜日)から2026年12月6日(日曜日)まで 開催時間 午前10時 から 午後5時 まで 開催場所 ホワイエ 対象 どなたでも 費用 無料 その他 11月6日(金曜日)は、当館にて夜間開館を実施しております。お時間にご注意ください。 関連情報 秋期企画展「明るい台所‐台所の移り変わりと北区‐」(北区飛鳥山博物館) お問い合わせ 教育委員会事務局教育振興部 飛鳥山博物館 管理運営係 〒114-0002 東京都北区王子1-1-3 飛鳥山公園内 電話:03-3916-1133 教育委員会事務局教育振興部 飛鳥山博物館 管理運営係へのお問い合わせは専用フォームをご利用ください。 このページの先頭へ戻る 前のページへ戻る トップページへ戻る",
+            "checked_at": "2026-11-14T13:25:39+09:00",
+            "sha256": "28d8ad1af821d183ec12c501564e5d00ab0a37d231781de47365e7a678d34193"
+          }
+        ]
+      }
+    },
+    "reservation": {
+      "required": false,
+      "note": "直接会場へ。月曜休館、11/23は開館・11/24休館（同館企画展案内で確認）。"
+    },
+    "indoor_outdoor": "",
+    "ai": {
+      "checked_at": "2026-11-14",
+      "confidence": "high",
+      "discovery_query": "既取得候補の残件を公式本文で追加照合。既存369個票との同日・参加単位重複を確認。"
+    },
+    "discovery_sources": [
+      {
+        "channel": "ai_cross_search",
+        "kind": "official_body_review",
+        "url": "https://www.city.kita.lg.jp/museum/events/1018658/1026912.html"
+      }
+    ]
+  },
+  {
+    "id": "primary-20261128-kita-kitchen",
+    "ward": "北区",
+    "name": "秋期企画展「明るい台所‐台所の移り変わりと北区‐」",
+    "url": "https://www.city.kita.lg.jp/museum/exhibitions/1018327/1026687.html",
+    "official_url": "https://www.city.kita.lg.jp/museum/exhibitions/1018327/1026687.html",
+    "source": "https://www.city.kita.lg.jp/museum/exhibitions/1018327/1026687.html",
+    "image": "",
+    "period": "11/28〜11/29",
+    "date_start": "2026-11-28",
+    "date_end": "2026-11-29",
+    "time": "10:00〜17:00",
+    "venue": "北区飛鳥山博物館 特別展示室・ホワイエ（王子1-1-3）",
+    "price": "無料",
+    "description": "古民家のかまどから赤羽台団地のダイニングキッチンへ、台所と家族の食卓の変化を紹介。 対象：どなたでも。 直接会場へ。月曜休館、11/23は開館・11/24休館（同館企画展案内で確認）。",
+    "categories": [
+      "文化・地域イベント"
+    ],
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "かまどから団地の台所まで、生活道具の変化を家族で観察できる。 見比べる展示が中心で、料理・道具操作の体験を行うとは案内されていない。",
+      "axes": {
+        "child_target": {
+          "grade": "B",
+          "reason": "一般にも開かれる対象で、子ども専用という根拠にはしない。 見比べる展示が中心で、料理・道具操作の体験を行うとは案内されていない。"
+        },
+        "interactivity": {
+          "grade": "B",
+          "reason": "かまどから団地の台所まで、生活道具の変化を家族で観察できる。"
+        },
+        "age_fit": {
+          "grade": "B",
+          "reason": "見比べる展示が中心で、料理・道具操作の体験を行うとは案内されていない。"
+        },
+        "stay_flexibility": {
+          "grade": "unknown",
+          "reason": "途中入退場・滞在時間の自由度は、明記された場合を除き要確認。"
+        },
+        "burden": {
+          "grade": "unknown",
+          "reason": "混雑、設備、休憩場所など未記載の条件は要確認。"
+        },
+        "cost": {
+          "grade": "A",
+          "reason": "無料"
+        },
+        "reservation": {
+          "grade": "A",
+          "reason": "直接会場へ。月曜休館、11/23は開館・11/24休館（同館企画展案内で確認）。"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "かまどから団地の台所まで、生活道具の変化を家族で観察できる。"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-14",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "all_ages",
+        "child_activity_confirmed": false,
+        "strengths": [
+          "かまどから団地の台所まで、生活道具の変化を家族で観察できる。"
+        ],
+        "limitations": [
+          "見比べる展示が中心で、料理・道具操作の体験を行うとは案内されていない。"
+        ],
+        "grade_comparison": "総合B：かまどから団地の台所まで、生活道具の変化を家族で観察できる。 見比べる展示が中心で、料理・道具操作の体験を行うとは案内されていない。",
+        "unsupported_axes": [
+          "stay_flexibility",
+          "burden"
+        ],
+        "evidence": [
+          {
+            "url": "https://www.city.kita.lg.jp/museum/exhibitions/1018327/1026687.html",
+            "quote": " 秋期企画展「明るい台所‐台所の移り変わりと北区‐」(北区飛鳥山博物館) ページ番号1026687 更新日: 2026年11月8日 印刷 大きな文字で印刷 イベントカテゴリ: 催し 開催エリア:王子 現代はライフスタイルに応じ、日々の食事をめぐる光景も多様になっています。しかしながら、少し前の時代、「家で料理を作り、家族で食べる」これが生活の基本スタイルでした。今回の展示では、こうした食をめぐる生活の変化を台所(キッチン)の移り変わりを中心にご紹介します。展示では、かまどでご飯を炊いた古民家の台所から赤羽台団地のダイニングキッチンまで、時代とともに台所が変わっていく様子や、それとともに変わっていく家族の食卓の在りようなどをお伝えします。 協力:UR都市機構 開催期間 2026年10月27日(火曜日)から2026年12月6日(日曜日)まで 休館日:毎週月曜日(11月23日を除く)、11月24日(火曜日) 開催時間 午前10時 から 午後5時 まで 特別夜間開館:11月6日(金曜日)は夜間開館を行います。当日は、午後8時まで開館時間を延長します。 開催場所 特別展示室・ホワイエ 対象 どなたでも 費用 観覧無料 その他 本展示には関連イベントがあります。詳細は関連情報のリンクからご確認ください。 関連情報 【申込不要】URまちとくらしのミュージアム出張展示(北区飛鳥山博物館) 【申込不要】秋期企画展展示解説会(北区飛鳥山博物館) 【11月19日締切】野外講座「団地と古民家現地見学会」(北区飛鳥山博物館) お問い合わせ 教育委員会事務局教育振興部 飛鳥山博物館 管理運営係 〒114-0002 東京都北区王子1-1-3 飛鳥山公園内 電話:03-3916-1133 教育委員会事務局教育振興部 飛鳥山博物館 管理運営係へのお問い合わせは専用フォームをご利用ください。 このページの先頭へ戻る 前のページへ戻る トップページへ戻る",
+            "checked_at": "2026-11-14T13:25:41+09:00",
+            "sha256": "a240f59a47d34cc21e1d417cfe50411f5348662930a2f7a32bcee06f3e43a20a"
+          }
+        ]
+      }
+    },
+    "reservation": {
+      "required": false,
+      "note": "直接会場へ。月曜休館、11/23は開館・11/24休館（同館企画展案内で確認）。"
+    },
+    "indoor_outdoor": "",
+    "ai": {
+      "checked_at": "2026-11-14",
+      "confidence": "high",
+      "discovery_query": "既取得候補の残件を公式本文で追加照合。既存369個票との同日・参加単位重複を確認。"
+    },
+    "discovery_sources": [
+      {
+        "channel": "ai_cross_search",
+        "kind": "official_body_review",
+        "url": "https://www.city.kita.lg.jp/museum/exhibitions/1018327/1026687.html"
+      }
+    ]
+  },
+  {
+    "id": "primary-20261128-taito-noguchi",
+    "ward": "台東区",
+    "name": "野口英世生誕150年記念企画展「感染症への挑戦：過去・現在・未来」",
+    "url": "https://www.kahaku.go.jp/tenji-event/nid00003997.html",
+    "official_url": "https://www.kahaku.go.jp/tenji-event/nid00003997.html",
+    "source": "https://www.kahaku.go.jp/tenji-event/nid00003997.html",
+    "image": "https://www.kahaku.go.jp/event/albums/3997/abm00023659.webp",
+    "period": "11/28〜11/29",
+    "date_start": "2026-11-28",
+    "date_end": "2026-11-29",
+    "time": "9:00〜17:00（入館16:30まで）",
+    "venue": "国立科学博物館 上野本館 日本館1階企画展示室",
+    "price": "一般・大学生630円、高校生以下・65歳以上無料",
+    "description": "野口英世の生涯と感染症研究の歴史・未来を紹介。実際に顕微鏡をのぞけるコーナーも。会期2026/10/27〜2027/2/28。 対象：細かな対象年齢は未記載。展示の説明が子どもに合うか保護者が判断。 常設展示入館料で観覧可。月曜休館だが11/23は開館。講演会・映画会の申込は展示とは別枠。入館の事前手続は公式案内で確認。",
+    "categories": [
+      "文化・地域イベント"
+    ],
+    "family_fit": {
+      "grade": "A",
+      "overall": "A",
+      "rubric_version": "family-fit-v2",
+      "reason": "実際に顕微鏡をのぞく観察と資料を組み合わせ、親子で感染症と科学を学べる。 専門用語の理解は子どもによる。映画会・講演会は展示とは別枠で、申込条件を流用しない。",
+      "axes": {
+        "child_target": {
+          "grade": "unknown",
+          "reason": "子どもを主対象とする明記は確認できない。 専門用語の理解は子どもによる。映画会・講演会は展示とは別枠で、申込条件を流用しない。"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "実際に顕微鏡をのぞく観察と資料を組み合わせ、親子で感染症と科学を学べる。"
+        },
+        "age_fit": {
+          "grade": "B",
+          "reason": "専門用語の理解は子どもによる。映画会・講演会は展示とは別枠で、申込条件を流用しない。"
+        },
+        "stay_flexibility": {
+          "grade": "unknown",
+          "reason": "途中入退場・滞在時間の自由度は、明記された場合を除き要確認。"
+        },
+        "burden": {
+          "grade": "unknown",
+          "reason": "混雑、設備、休憩場所など未記載の条件は要確認。"
+        },
+        "cost": {
+          "grade": "B",
+          "reason": "一般・大学生630円、高校生以下・65歳以上無料"
+        },
+        "reservation": {
+          "grade": "unknown",
+          "reason": "常設展示入館料で観覧可。月曜休館だが11/23は開館。講演会・映画会の申込は展示とは別枠。入館の事前手続は公式案内で確認。"
+        },
+        "family_value": {
+          "grade": "A",
+          "reason": "実際に顕微鏡をのぞく観察と資料を組み合わせ、親子で感染症と科学を学べる。"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-14",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "unspecified",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "実際に顕微鏡をのぞく観察と資料を組み合わせ、親子で感染症と科学を学べる。"
+        ],
+        "limitations": [
+          "専門用語の理解は子どもによる。映画会・講演会は展示とは別枠で、申込条件を流用しない。"
+        ],
+        "grade_comparison": "総合A：実際に顕微鏡をのぞく観察と資料を組み合わせ、親子で感染症と科学を学べる。 専門用語の理解は子どもによる。映画会・講演会は展示とは別枠で、申込条件を流用しない。",
+        "unsupported_axes": [
+          "child_target",
+          "stay_flexibility",
+          "burden",
+          "reservation"
+        ],
+        "evidence": [
+          {
+            "url": "https://www.kahaku.go.jp/tenji-event/nid00003997.html",
+            "quote": "5章 感染症研究の現在と未来 感染症研究は未来の社会を支える重要な基盤です。人間と病原体との関係、 そして科学の果たす役割について考えます。 イベント 講演会 野口英世生誕150年記念企画展「感染症への挑戦:過去・現在・未来」開催を記念して講演会を開催します。 本展監修者と野口英世記念会関係者が登壇し、本展のみどころや展示に込めた思いを紹介します。それぞれの立場から本展に関連する話題をお届けします。 開催日時 2026年12月12日(土)13時~15時 登壇者 細矢 剛(国立科学博物館)、倉根 一郎(公益財団法人 野口英世記念会)、森田 鉄平(公益財団法人 野口英世記念会) 申込方法 WEB申込(申込期間2026年11月5日~11月23日 23時) 講演会(WEB申込) (HTML) (リンクを新しいタブで開きます) 映画上映会 マリー=モニク・ロバン監督映画「なぜ新型ウイルスが次々と世界を襲うのか」(日本語字幕)(2020年製作/110分/フランス)を上映します。 開催日時 2026 年 11月 22 日 ( 日)13時~15時 申込方法 WEB申込 (申込期間2026年10月22日~11月8日 23時) 映画上映会(WEB申込) (HTML) (リンクを新しいタブで開きます) 開催概要 企画展名称 野口英世生誕150年記念企画展「感染症への挑戦:過去・現在・未来」 開催期間 2026(令和8)年10月27日(火)~2027(令和9)年2月28日(日) 開催場所 国立科学博物館(東京・上野公園) 日本館1階企画展示室 開館時間 9時~17時 ※入館は閉館時刻の30分前まで 休館日 月曜日(月曜日が祝日の場合は翌火曜日)、11月4日(水)、12月28日(月)~1月1日(金・祝) ※ただし、11月2日(月)、11月23日(月・祝)、1月11日(月・祝)、2月15日(月)は開館 入館料 一般・大学生630円(団体510円) ※常設展示入館料のみでご覧いただけます ※団体は20名以上 ※高校生以下および65歳以上は無料 主催 国立科学博物館/公益財団法人 野口英世記念会 公益財団法人 野口英世記念会(本展共催者) 野口英世の追悼会に出席した関係者が“後世に科学者野口英世の業",
+            "checked_at": "2026-11-14T13:27:02+09:00",
+            "sha256": "26a7c939a9d1f1f267ae09b5abf18bfed14fca0dc824d07f49c6ef9ed6e2d7dc"
+          }
+        ]
+      }
+    },
+    "reservation": {
+      "required": null,
+      "note": "常設展示入館料で観覧可。月曜休館だが11/23は開館。講演会・映画会の申込は展示とは別枠。入館の事前手続は公式案内で確認。"
+    },
+    "indoor_outdoor": "",
+    "ai": {
+      "checked_at": "2026-11-14",
+      "confidence": "high",
+      "discovery_query": "既取得候補の残件を公式本文で追加照合。既存369個票との同日・参加単位重複を確認。"
+    },
+    "discovery_sources": [
+      {
+        "channel": "ai_cross_search",
+        "kind": "official_body_review",
+        "url": "https://www.kahaku.go.jp/tenji-event/nid00003997.html"
+      }
+    ]
+  },
+  {
+    "id": "primary-20261128-toshima-retro",
+    "ward": "豊島区",
+    "name": "くらしのなかの「伝える」～あのころの看板や雑貨たち～",
+    "url": "https://www.city.toshima.lg.jp/499/2608101426.html",
+    "official_url": "https://www.city.toshima.lg.jp/499/2608101426.html",
+    "source": "https://www.city.toshima.lg.jp/499/2608101426.html",
+    "image": "https://www.city.toshima.lg.jp/images/57562/20261014180700.jpg",
+    "period": "11/28〜11/29",
+    "date_start": "2026-11-28",
+    "date_end": "2026-11-29",
+    "time": "10:00〜18:00（入館17:30まで）",
+    "venue": "トキワ荘通り昭和レトロ館（豊島区立昭和歴史文化記念館）",
+    "price": "無料",
+    "description": "昭和の看板・雑貨など100点以上。公衆電話のダイヤルを回したり、伝言板にチョークで書き込む体験も。 対象：どなたでも。 申込不要。月曜休館、祝日の場合は翌平日休館。11/23開館。10/25の関連ワークショップは終了済み。",
+    "categories": [
+      "親子・地域体験"
+    ],
+    "family_fit": {
+      "grade": "A",
+      "overall": "A",
+      "rubric_version": "family-fit-v2",
+      "reason": "公衆電話のダイヤルを回し、伝言板に書く実物体験を無料で親子が共有できる。 10月の関連ワークショップは終了済み。今回の会期中の体験は電話・伝言板の展示に限定して評価する。",
+      "axes": {
+        "child_target": {
+          "grade": "B",
+          "reason": "一般にも開かれる対象で、子ども専用という根拠にはしない。 10月の関連ワークショップは終了済み。今回の会期中の体験は電話・伝言板の展示に限定して評価する。"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "公衆電話のダイヤルを回し、伝言板に書く実物体験を無料で親子が共有できる。"
+        },
+        "age_fit": {
+          "grade": "B",
+          "reason": "10月の関連ワークショップは終了済み。今回の会期中の体験は電話・伝言板の展示に限定して評価する。"
+        },
+        "stay_flexibility": {
+          "grade": "unknown",
+          "reason": "途中入退場・滞在時間の自由度は、明記された場合を除き要確認。"
+        },
+        "burden": {
+          "grade": "unknown",
+          "reason": "混雑、設備、休憩場所など未記載の条件は要確認。"
+        },
+        "cost": {
+          "grade": "A",
+          "reason": "無料"
+        },
+        "reservation": {
+          "grade": "A",
+          "reason": "申込不要。月曜休館、祝日の場合は翌平日休館。11/23開館。10/25の関連ワークショップは終了済み。"
+        },
+        "family_value": {
+          "grade": "A",
+          "reason": "公衆電話のダイヤルを回し、伝言板に書く実物体験を無料で親子が共有できる。"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-14",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "all_ages",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "公衆電話のダイヤルを回し、伝言板に書く実物体験を無料で親子が共有できる。"
+        ],
+        "limitations": [
+          "10月の関連ワークショップは終了済み。今回の会期中の体験は電話・伝言板の展示に限定して評価する。"
+        ],
+        "grade_comparison": "総合A：公衆電話のダイヤルを回し、伝言板に書く実物体験を無料で親子が共有できる。 10月の関連ワークショップは終了済み。今回の会期中の体験は電話・伝言板の展示に限定して評価する。",
+        "unsupported_axes": [
+          "stay_flexibility",
+          "burden"
+        ],
+        "evidence": [
+          {
+            "url": "https://www.city.toshima.lg.jp/499/2608101426.html",
+            "quote": " トキワ荘通り昭和レトロ館企画展「くらしのなかの『伝える』~あのころの看板や雑貨たち~」 直接会場へ 開催日 令和8年10月24日(土曜日)~12月6日(日曜日) ※毎週月曜日(祝日の場合は翌平日)は休館 開催時間 午前10時から午後6時まで(入館は午後5時30分まで) 場所 トキワ荘通り昭和レトロ館(豊島区立昭和歴史文化記念館) 交通アクセス <電車の場合> 西武池袋線椎名町駅・東長崎駅より徒歩13分 都営大江戸線落合南長崎駅より徒歩8分 <バスの場合> 都営バス[池65・白61・練68]/国際興業バス・関東バス[池11]南長崎二丁目停留所より徒歩3分 ※当館には駐車場、駐輪場がございません。 (駐輪場はトキワ荘マンガミュージアム駐輪場をご利用いただけます。) 内容 今回の企画展では、かつて駅にあった伝言板や赤い公衆電話のほか、店舗や商品の魅力を多くの人に『伝える』役割を持つホーロー看板や商品パッケージなど、100以上のまちかどで見かけた昭和時代のアナログな『伝える』ものを紹介します。 公衆電話エリアでは、赤い公衆電話など計5台を展示し、初代から現代に至るまでの変遷を解説とともに振り返るほか、直接触ってダイヤルを回す体験ができます。 また、昔の駅舎や待合室をイメージした空間には、チョークで自由に書き込める伝言板を設置。 当時の人々が伝言板を使って行っていたコミュニケーションをお楽しみいただけます。 スマートフォンもEメールLINEもGPS(位置情報)もない時代の「伝える」方法は、 ちょっと不便だけれども、言葉のぬくもりを感じるものでもありました。 展示をご覧になる年代により、思うこと感じることはさまざまだと思いますが、 ここでは昭和という時代のあたりまえの光景を楽しんでみましょう。 対象 どなたでも 費用 無料 主催・共催・後援など 主催:豊島区 申込み方法 申し込み不要です。 いつでも、お気軽に足をお運びください。 関連イベント ~たどる、あそぶ、つくる~鬼ごっこでこどもの遊びをたどる 子どもの遊びといえば「鬼ごっこ」。鬼ごっこはいつからある遊びで、どんな鬼ごっこをしてきたのかを、アンケート集計や資料で紹介します。 会期中には「新しい鬼ごっこ」を作って楽しむワーク",
+            "checked_at": "2026-11-14T13:27:02+09:00",
+            "sha256": "be416ceddc17c32f12e89ba2471e0c2570f8fca0fabeaac6496094da09e1dcb1"
+          }
+        ]
+      }
+    },
+    "reservation": {
+      "required": false,
+      "note": "申込不要。月曜休館、祝日の場合は翌平日休館。11/23開館。10/25の関連ワークショップは終了済み。"
+    },
+    "indoor_outdoor": "",
+    "ai": {
+      "checked_at": "2026-11-14",
+      "confidence": "high",
+      "discovery_query": "既取得候補の残件を公式本文で追加照合。既存369個票との同日・参加単位重複を確認。"
+    },
+    "discovery_sources": [
+      {
+        "channel": "ai_cross_search",
+        "kind": "official_body_review",
+        "url": "https://www.city.toshima.lg.jp/499/2608101426.html"
+      }
+    ]
+  },
+  {
+    "id": "primary-20261128-nakano-bookfinding",
+    "ward": "中野区",
+    "name": "本の探し方講座",
+    "url": "https://library.city.tokyo-nakano.lg.jp/event/?id=704",
+    "official_url": "https://library.city.tokyo-nakano.lg.jp/event/?id=704",
+    "source": "https://library.city.tokyo-nakano.lg.jp/event/?id=704",
+    "image": "https://library.city.tokyo-nakano.lg.jp/lib/images/news/libimg1792911937.png",
+    "period": "11/28",
+    "date_start": "2026-11-28",
+    "date_end": "2026-11-28",
+    "time": "15:00〜16:00",
+    "venue": "江古田図書館2階会議室",
+    "price": "",
+    "description": "本の並べ方の仕組みを学び、実際に書架から本を探すゲームに挑戦。 対象：中学生以上。 11/7から江古田図書館カウンター・電話で先着10名。料金未記載。空きは申込時に確認。",
+    "categories": [
+      "文化・地域イベント"
+    ],
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "中学生以上が本の並び方を学び、実際に棚から探すゲームに取り組める。 図書館利用に関心のある中学生以上向けの実用講座で、小学生以下の親子の遊びには対象が合わない。",
+      "axes": {
+        "child_target": {
+          "grade": "B",
+          "reason": "年齢等の参加条件として子どもも含むが、子ども専用企画とは区別する。 図書館利用に関心のある中学生以上向けの実用講座で、小学生以下の親子の遊びには対象が合わない。"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "中学生以上が本の並び方を学び、実際に棚から探すゲームに取り組める。"
+        },
+        "age_fit": {
+          "grade": "B",
+          "reason": "図書館利用に関心のある中学生以上向けの実用講座で、小学生以下の親子の遊びには対象が合わない。"
+        },
+        "stay_flexibility": {
+          "grade": "unknown",
+          "reason": "途中入退場・滞在時間の自由度は、明記された場合を除き要確認。"
+        },
+        "burden": {
+          "grade": "unknown",
+          "reason": "混雑、設備、休憩場所など未記載の条件は要確認。"
+        },
+        "cost": {
+          "grade": "unknown",
+          "reason": "料金の記載を確認できないため、無料とは判断しない。"
+        },
+        "reservation": {
+          "grade": "B",
+          "reason": "11/7から江古田図書館カウンター・電話で先着10名。料金未記載。空きは申込時に確認。"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "中学生以上が本の並び方を学び、実際に棚から探すゲームに取り組める。"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-14",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "age_eligible",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "中学生以上が本の並び方を学び、実際に棚から探すゲームに取り組める。"
+        ],
+        "limitations": [
+          "図書館利用に関心のある中学生以上向けの実用講座で、小学生以下の親子の遊びには対象が合わない。"
+        ],
+        "grade_comparison": "総合B：中学生以上が本の並び方を学び、実際に棚から探すゲームに取り組める。 図書館利用に関心のある中学生以上向けの実用講座で、小学生以下の親子の遊びには対象が合わない。",
+        "unsupported_axes": [
+          "stay_flexibility",
+          "burden",
+          "cost"
+        ],
+        "evidence": [
+          {
+            "url": "https://library.city.tokyo-nakano.lg.jp/event/?id=704",
+            "quote": " ホーム イベント一覧 イベント詳細 本の探し方講座 江古田 一般 2026年11月28日 本の探し方講座について 開催日時 2026年11月28日(土曜日)15時から16時 場所 江古田図書館 2階 会議室 対象 中学生以上 定員 10名(予約申込制/先着順) 詳細内容 探している本があるのに、図書館のどの棚にあるかわからず見つけられない。そんな経験はありませんか? 図書館を便利に使いたい、自力で本を探したい、見つけたい、そんな人におすすめの講座です。 図書館の本の並べ方(排架)の仕組みを大公開! 実際に書架から本を探す、本探しゲームも行います。 楽しみながら図書館に詳しくなって、図書館を使いこなしましょう! 申込み 11月7日(土曜日)より江古田図書館カウンター、または電話にて受付 問合せ 中野区立江古田図書館(03-3319-9301) ログイン LINE",
+            "checked_at": "2026-11-14T13:24:32+09:00",
+            "sha256": "292630e115b651c528ee17d123540be029c5ea74204cfb343cf9de037632870a"
+          }
+        ]
+      }
+    },
+    "reservation": {
+      "required": true,
+      "note": "11/7から江古田図書館カウンター・電話で先着10名。料金未記載。空きは申込時に確認。"
+    },
+    "indoor_outdoor": "",
+    "ai": {
+      "checked_at": "2026-11-14",
+      "confidence": "high",
+      "discovery_query": "既取得候補の残件を公式本文で追加照合。既存369個票との同日・参加単位重複を確認。"
+    },
+    "discovery_sources": [
+      {
+        "channel": "ai_cross_search",
+        "kind": "official_body_review",
+        "url": "https://library.city.tokyo-nakano.lg.jp/event/?id=704"
+      }
+    ]
+  }
+]

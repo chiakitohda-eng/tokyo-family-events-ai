@@ -1,0 +1,152 @@
+[
+  {
+    "id": "verified-20261121-sumida-smile-festival",
+    "ward": "墨田区",
+    "name": "令和8年度すみだスマイル・フェスティバル",
+    "url": "https://www.city.sumida.lg.jp/kenko_fukushi/syougai/rikai_sokushin/syougaisya-syuukan/smile2026.html",
+    "official_url": "https://www.city.sumida.lg.jp/kenko_fukushi/syougai/rikai_sokushin/syougaisya-syuukan/smile2026.html",
+    "source": "https://www.city.sumida.lg.jp/kenko_fukushi/syougai/rikai_sokushin/syougaisya-syuukan/smile2026.html",
+    "image": "https://www.city.sumida.lg.jp/kenko_fukushi/syougai/rikai_sokushin/syougaisya-syuukan/smile2026.images/R8chirashi.jpeg",
+    "period": "11/21(土)",
+    "date_start": "2026-11-21",
+    "date_end": "2026-11-21",
+    "time": "10:00〜15:00",
+    "venue": "すみだ生涯学習センター（墨田区東向島）",
+    "price": null,
+    "description": "障害者週間のフェスティバル。工作・ポチ袋ワークショップ、補助犬ふれあい、ダンス教室、ステージなど。一部は事前申込。",
+    "categories": [
+      "体験・ワークショップ",
+      "地域交流"
+    ],
+    "indoor_outdoor": "屋内",
+    "reservation": {
+      "required": null,
+      "note": "ワークショップや体験コーナーはどなたでも参加可。コンサート・ダンス教室・ポチ袋などは事前申込。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "誰でも参加できるフェスティバルで、工作・補助犬ふれあい・お子さん向けダンス教室などがある。費用の記載はなく、一部は事前申込。",
+      "axes": {
+        "child_target": {
+          "grade": "B",
+          "reason": "障害者週間のフェスティバルで、お子さん向けのコーナーがある"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "工作ワークショップ・補助犬ふれあい・ダンス教室など参加型が多い"
+        },
+        "age_fit": {
+          "grade": "unknown",
+          "reason": "対象年齢は公式案内に明記がない"
+        },
+        "stay_flexibility": {
+          "grade": "A",
+          "reason": "10時〜15時で、各コーナーは12時〜15時の間に自由に回れる"
+        },
+        "burden": {
+          "grade": "B",
+          "reason": "コンサート・ダンス教室・ポチ袋は事前申込が必要"
+        },
+        "cost": {
+          "grade": "unknown",
+          "reason": "参加費は公式案内に明記がない"
+        },
+        "reservation": {
+          "grade": "B",
+          "reason": "一部のみ事前申込。それ以外は当日参加可"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "工作や補助犬ふれあいを家族で体験できる区の催し"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-19",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "all_ages",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "工作・補助犬ふれあいなど家族で参加できるコーナー"
+        ],
+        "limitations": [
+          "費用が未記載",
+          "一部は事前申込"
+        ],
+        "grade_comparison": "総合B：参加型コーナーは多いが、費用が未記載で一部は事前申込が必要。",
+        "unsupported_axes": [
+          "age_fit",
+          "cost"
+        ],
+        "evidence": [
+          {
+            "url": "https://www.city.sumida.lg.jp/kenko_fukushi/syougai/rikai_sokushin/syougaisya-syuukan/smile2026.html",
+            "quote": "■日時：11月21日（土曜日）10時～15時",
+            "checked_at": "2026-11-19",
+            "sha256": "2b3a088058ba8ea5c4524876d0f515d1320b7a22acfc1a4852566281b980e8b2",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "墨田区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.sumida.lg.jp/kenko_fukushi/syougai/rikai_sokushin/syougaisya-syuukan/smile2026.html",
+            "quote": "■実施場所：すみだ生涯学習センター",
+            "checked_at": "2026-11-19",
+            "sha256": "eb027d20071c39adaaca38895486108d1d81b96aa6247f3c75dc58bc2d993dc1",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "墨田区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.sumida.lg.jp/kenko_fukushi/syougai/rikai_sokushin/syougaisya-syuukan/smile2026.html",
+            "quote": "ワークショップや体験コーナーはどなたでも参加が可能です。",
+            "checked_at": "2026-11-19",
+            "sha256": "3041f77423df5978790da45397393b63e950a40cb23dac79adf7b3b4bac57522",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "墨田区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.sumida.lg.jp/kenko_fukushi/syougai/rikai_sokushin/syougaisya-syuukan/smile2026.html",
+            "quote": "誰でもコンサート（お子さんから大人まで）",
+            "checked_at": "2026-11-19",
+            "sha256": "801d2ca78884e03cdb9c21e2a9dbdb223abc74c849f6c666970bac938fe66a7a",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "墨田区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.sumida.lg.jp/kenko_fukushi/syougai/rikai_sokushin/syougaisya-syuukan/smile2026.html",
+            "quote": "かんたん工作ワークショップクリスマスリースのブローチや手作りおもちゃを作ります。",
+            "checked_at": "2026-11-19",
+            "sha256": "3228f9d38ce3e1ce03a665a623a1255a8cc4ef1600446cb9b6a0d7956ebdb9e7",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "墨田区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.sumida.lg.jp/kenko_fukushi/syougai/rikai_sokushin/syougaisya-syuukan/smile2026.html",
+            "quote": "補助犬（盲導犬、介助犬、聴導犬）とふれあえる！一緒に写真撮影も可",
+            "checked_at": "2026-11-19",
+            "sha256": "dd6a5c7cff34a87bc2c029481fd9d8f93fc11a8717eeff578d7541df49e3deb1",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "墨田区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-19",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  }
+]

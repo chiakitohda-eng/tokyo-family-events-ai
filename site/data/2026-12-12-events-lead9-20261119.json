@@ -1,0 +1,251 @@
+[
+  {
+    "id": "verified-20261212-setagaya-kamimachi-saturday",
+    "ward": "世田谷区",
+    "name": "上町児童館 のサタデーひろば（お楽しみ会）",
+    "url": "https://www.city.setagaya.lg.jp/03065/36891.html",
+    "official_url": "https://www.city.setagaya.lg.jp/03065/36891.html",
+    "source": "https://www.city.setagaya.lg.jp/03065/36891.html",
+    "image": "https://www.city.setagaya.lg.jp/images/36891/shiroba.jpg",
+    "period": "12/12(土)",
+    "date_start": "2026-12-12",
+    "date_end": "2026-12-12",
+    "time": "10:30〜11:30",
+    "venue": "上町児童館",
+    "price": "無料",
+    "description": "体操や遊具で遊ぶ乳幼児親子向けのひろば。12/12はお楽しみ会もある。パパママ一緒の参加も歓迎。",
+    "categories": [
+      "体験・ワークショップ"
+    ],
+    "indoor_outdoor": "屋内",
+    "reservation": {
+      "required": false,
+      "note": "申込の記載なし（乳幼児とその保護者が参加できるひろば）。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "体操や遊具で遊ぶ乳幼児親子向けのひろば。無料。申込不要で、当日参加できる。",
+      "axes": {
+        "child_target": {
+          "grade": "A",
+          "reason": "乳幼児とその保護者が対象"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "体操や遊具で体を動かす"
+        },
+        "age_fit": {
+          "grade": "A",
+          "reason": "乳幼児向けと明記"
+        },
+        "stay_flexibility": {
+          "grade": "B",
+          "reason": "10:30〜11:30"
+        },
+        "burden": {
+          "grade": "B",
+          "reason": "お楽しみ会の内容は当日のお知らせ"
+        },
+        "cost": {
+          "grade": "A",
+          "reason": "無料"
+        },
+        "reservation": {
+          "grade": "unknown",
+          "reason": "申込の要否は明記がない"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "土曜に親子で遊べる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-19",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "child_program",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "土曜開催",
+          "無料"
+        ],
+        "limitations": [
+          "申込の要否は明記がない"
+        ],
+        "grade_comparison": "総合B：12/12(土)の上町児童館で10:30〜11:30の開催。無料。申込不要で気軽に参加できる。",
+        "unsupported_axes": [
+          "reservation"
+        ],
+        "evidence": [
+          {
+            "url": "https://www.city.setagaya.lg.jp/03065/36891.html",
+            "quote": "上町児童館のサタデーひろば募集中募集終了事前申込必要表示しない体操をしたり遊具を使ったりして遊ぼう！初めての方やパパママ一緒の参加も大歓迎です。",
+            "checked_at": "2026-11-19",
+            "sha256": "d587d09b742c36c2ffc3221228864534de9a8abde92a65dee29b19ff85bb2e75",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "世田谷区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.setagaya.lg.jp/03065/36891.html",
+            "quote": "日程2026年11月14日（土曜日）2026年12月12日（土曜日）12月12日はお楽しみ会もやるよ♪時間午前10時30分~11時30分",
+            "checked_at": "2026-11-19",
+            "sha256": "1892cde58053a5914c6829c7e17a2849e57bbae4810c4dba245e7fd3a2bd614d",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "世田谷区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.setagaya.lg.jp/03065/36891.html",
+            "quote": "場所・会場上町児童館対象乳幼児とその保護者費用・料金無料",
+            "checked_at": "2026-11-19",
+            "sha256": "99fb73d5223f62eecb42614813617eaf02da1a2cded49cd5d0e4b6299918d78a",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "世田谷区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-19",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  },
+  {
+    "id": "verified-20261213-setagaya-futakotamagawa-xmas-concert",
+    "ward": "世田谷区",
+    "name": "みんなでたのしもう！クリスマスコンサート（二子玉川地区）",
+    "url": "https://www.city.setagaya.lg.jp/03660/35905.html",
+    "official_url": "https://www.city.setagaya.lg.jp/03660/35905.html",
+    "source": "https://www.city.setagaya.lg.jp/03660/35905.html",
+    "image": "https://www.city.setagaya.lg.jp/images/35905/xmasconcert2026_chirashi.jpg",
+    "period": "12/13(日)",
+    "date_start": "2026-12-13",
+    "date_end": "2026-12-13",
+    "time": "14:00〜15:45（予定）",
+    "venue": "二子玉川小学校体育館",
+    "price": "無料",
+    "description": "地域の中学・高校の吹奏楽部やゲストによる演奏を楽しめるクリスマスコンサート。どなたでも参加できる。",
+    "categories": [
+      "ショー・観劇",
+      "イベント・まつり"
+    ],
+    "indoor_outdoor": "屋内",
+    "reservation": {
+      "required": false,
+      "note": "申込不要。当日直接会場へ。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "地域の中学・高校の吹奏楽部やゲストによる演奏を楽しめるクリスマスコンサート。無料。申込不要で、当日参加できる。",
+      "axes": {
+        "child_target": {
+          "grade": "B",
+          "reason": "小さな子どもから大人まで楽しめる演奏"
+        },
+        "interactivity": {
+          "grade": "B",
+          "reason": "演奏を聴いて楽しむ"
+        },
+        "age_fit": {
+          "grade": "unknown",
+          "reason": "対象年齢の目安は明記がない"
+        },
+        "stay_flexibility": {
+          "grade": "B",
+          "reason": "14:00〜15:45（予定）"
+        },
+        "burden": {
+          "grade": "B",
+          "reason": "開演14時、終演15時45分予定"
+        },
+        "cost": {
+          "grade": "A",
+          "reason": "無料"
+        },
+        "reservation": {
+          "grade": "A",
+          "reason": "事前申込不要"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "親子でクリスマスの演奏を楽しめる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-19",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "child_program",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "無料・申込不要",
+          "地域の吹奏楽部の演奏"
+        ],
+        "limitations": [
+          "対象年齢の目安は不明"
+        ],
+        "grade_comparison": "総合B：12/13(日)の二子玉川小学校体育館で14:00〜15:45（予定）の開催。無料。申込不要で気軽に参加できる。",
+        "unsupported_axes": [
+          "age_fit"
+        ],
+        "evidence": [
+          {
+            "url": "https://www.city.setagaya.lg.jp/03660/35905.html",
+            "quote": "「みんなでたのしもう！クリスマスコンサート」を開催します（二子玉川地区）募集中募集終了事前申込必要表示するクリスマスをいっしょに楽しみましょう！今年で4回目となる、「みんなでたのしもう！クリスマスコンサート」。今年も地域の学校やゲストによる演奏をおとどけいたします！カテゴリイベント・講座対象者小学１年生｜小学２年生｜小学３年生｜小学４年生｜小学５年生｜小学６年生中学１年生｜中学２年生｜中学３年生幼",
+            "checked_at": "2026-11-19",
+            "sha256": "f745968a38bc2b2634fc8816040eb5122fe000b05c5d42731a1b02c1172205ad",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "世田谷区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.setagaya.lg.jp/03660/35905.html",
+            "quote": "日程2026年12月13日（日曜日）時間開場：13時30分開演：14時終演：15時45分（予定）",
+            "checked_at": "2026-11-19",
+            "sha256": "2926cf1df8b7c81883913f63166edd0fae63c5b3b3e9f86c441aacea774c3271",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "世田谷区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.setagaya.lg.jp/03660/35905.html",
+            "quote": "場所・会場二子玉川小学校体育館Googleマップで地図を開く対象どなたでも費用・料金無料申し込み方法申し込み不要です。当日、直接会場へお越しください。",
+            "checked_at": "2026-11-19",
+            "sha256": "36e6377ef203efa30e491eba0750e5eb9c13f3c0cee2ad48b3b9a691e190853e",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "世田谷区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-19",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  }
+]

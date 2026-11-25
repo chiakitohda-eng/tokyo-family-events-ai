@@ -1,0 +1,877 @@
+[
+  {
+    "id": "verified-20261121-setagaya-todoroki-papamo-rhythm",
+    "ward": "世田谷区",
+    "name": "等々力児童館 パパも気軽に！PaPaMo「わっくわっく！リトミック」",
+    "url": "https://www.city.setagaya.lg.jp/03070/24025.html",
+    "official_url": "https://www.city.setagaya.lg.jp/03070/24025.html",
+    "source": "https://www.city.setagaya.lg.jp/03070/24025.html",
+    "image": "",
+    "period": "11/21(土)",
+    "date_start": "2026-11-21",
+    "date_end": "2026-11-21",
+    "time": "10:30〜11:30",
+    "venue": "等々力児童館 グランドもしくは遊戯室",
+    "price": "参加費の記載なし",
+    "description": "ピアノとヴァイオリンの音色に合わせて楽しむリトミック。0歳〜未就学児と保護者が対象の親子ひろば。",
+    "categories": [
+      "体験・ワークショップ",
+      "音楽"
+    ],
+    "indoor_outdoor": "屋内",
+    "reservation": {
+      "required": true,
+      "note": "7日から児童館窓口で受付（翌日から電話可）。リトミックは15組。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "ピアノとヴァイオリンの音色に合わせて楽しむリトミック。参加費の記載なし。事前の申込が必要。",
+      "axes": {
+        "child_target": {
+          "grade": "A",
+          "reason": "0歳から未就学児とその保護者が対象"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "リトミックで体を動かして楽しむ"
+        },
+        "age_fit": {
+          "grade": "A",
+          "reason": "1歳児から未就学児と明記"
+        },
+        "stay_flexibility": {
+          "grade": "B",
+          "reason": "10:30〜11:30"
+        },
+        "burden": {
+          "grade": "C",
+          "reason": "申込が必要で、15組"
+        },
+        "cost": {
+          "grade": "unknown",
+          "reason": "参加費の記載がない"
+        },
+        "reservation": {
+          "grade": "C",
+          "reason": "児童館窓口で申込（電話可）"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "親子で音楽を楽しめる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-19",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "child_program",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "親子で参加できる音楽体験"
+        ],
+        "limitations": [
+          "申込が必要で15組",
+          "参加費の記載がない"
+        ],
+        "grade_comparison": "総合B：11/21(土)の等々力児童館 グランドもしくは遊戯室で10:30〜11:30の開催。参加費の記載なし。申込が必要で、定員がある。",
+        "unsupported_axes": [
+          "cost"
+        ],
+        "evidence": [
+          {
+            "url": "https://www.city.setagaya.lg.jp/03070/24025.html",
+            "quote": "等々力児童館パパも気軽に！PaPaMo募集中募集終了事前申込必要表示しないパパも歓迎！パパじゃなくても、ママも祖父母もシッターさんも里親さんももちろん大歓迎！",
+            "checked_at": "2026-11-19",
+            "sha256": "2dfffd4a3bdec441e5148d7b289973d15f46b135457f8909da98b9d80e256689",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "世田谷区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.setagaya.lg.jp/03070/24025.html",
+            "quote": "日程2026年11月21日（土曜日）2026年12月12日（土曜日）時間午前10時30分から11時30分",
+            "checked_at": "2026-11-19",
+            "sha256": "2a9a57054bd467d490ad58749fb78fd8182931739c24005af8409f58bb60a861",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "世田谷区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.setagaya.lg.jp/03070/24025.html",
+            "quote": "場所・会場等々力児童館グランドもしくは遊戯室対象0歳から未就学のお子さんとその保護者申し込み方法下記の内容をご参照ください。",
+            "checked_at": "2026-11-19",
+            "sha256": "5cfe992143726352a417c28412835e9670cff2d0729e6603ddf2ffc0a5a125e2",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "世田谷区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-19",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  },
+  {
+    "id": "verified-20261121-setagaya-ikejiri-matcha",
+    "ward": "世田谷区",
+    "name": "池尻児童館「お抹茶を楽しもう」",
+    "url": "https://www.city.setagaya.lg.jp/03061/36833.html",
+    "official_url": "https://www.city.setagaya.lg.jp/03061/36833.html",
+    "source": "https://www.city.setagaya.lg.jp/03061/36833.html",
+    "image": "https://www.city.setagaya.lg.jp/images/36833/omattya.jpg",
+    "period": "11/21(土)",
+    "date_start": "2026-11-21",
+    "date_end": "2026-11-21",
+    "time": "13:30〜15:00",
+    "venue": "池尻児童館 図書室",
+    "price": "参加費の記載なし",
+    "description": "「芽吹きの会」が教えてくれる、お抹茶とおかしを味わう催し。親子での参加も歓迎で、おすわりができる子から。",
+    "categories": [
+      "体験・ワークショップ"
+    ],
+    "indoor_outdoor": "屋内",
+    "reservation": {
+      "required": false,
+      "note": "申込の記載なし。先着30名。受付は14:30まで。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "「芽吹きの会」が教えてくれる、お抹茶とおかしを味わう催し。参加費の記載なし。申込の案内はなく、当日参加できる。",
+      "axes": {
+        "child_target": {
+          "grade": "B",
+          "reason": "親子での参加も歓迎する児童館の催し"
+        },
+        "interactivity": {
+          "grade": "B",
+          "reason": "お抹茶とおかしを味わう"
+        },
+        "age_fit": {
+          "grade": "A",
+          "reason": "おすわりができる子からと明記"
+        },
+        "stay_flexibility": {
+          "grade": "B",
+          "reason": "13:30〜15:00"
+        },
+        "burden": {
+          "grade": "B",
+          "reason": "先着30名"
+        },
+        "cost": {
+          "grade": "unknown",
+          "reason": "参加費の記載がない"
+        },
+        "reservation": {
+          "grade": "unknown",
+          "reason": "申込の要否は明記がない"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "親子で日本の文化に触れられる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-19",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "child_program",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "親子歓迎"
+        ],
+        "limitations": [
+          "先着30名",
+          "参加費の記載がない"
+        ],
+        "grade_comparison": "総合B：11/21(土)の池尻児童館 図書室で13:30〜15:00の開催。参加費の記載なし。申込不要で気軽に参加できる。",
+        "unsupported_axes": [
+          "cost",
+          "reservation"
+        ],
+        "evidence": [
+          {
+            "url": "https://www.city.setagaya.lg.jp/03061/36833.html",
+            "quote": "池尻児童館お抹茶を楽しもう募集中募集終了事前申込必要表示しないおいしいお抹茶とおかしをめしあがれ！親子での参加も大歓迎！「芽吹きの会」のみなさんが、教えてくださいます。",
+            "checked_at": "2026-11-19",
+            "sha256": "2732632341517d51229b710d91f23db950f14bf8cced25ed314ccdfe5f4f7dc9",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "世田谷区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.setagaya.lg.jp/03061/36833.html",
+            "quote": "日程2026年11月21日（土曜日）時間午後1時30分から3時【受付】午後2時30分まで",
+            "checked_at": "2026-11-19",
+            "sha256": "096d444610d4bc26a45fb16c4844405decad57dc562a1c3f67eaf5b55c423efb",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "世田谷区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.setagaya.lg.jp/03061/36833.html",
+            "quote": "場所・会場池尻児童館図書室対象おすわりができるお子さまから。先着30名",
+            "checked_at": "2026-11-19",
+            "sha256": "86f0e589fd98c36186853432fc9081eeb803185f881f39b8b891dc425217d9f5",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "世田谷区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-19",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  },
+  {
+    "id": "verified-20261123-setagaya-soshigaya-michiasobi",
+    "ward": "世田谷区",
+    "name": "祖師谷児童館「祖師谷みちとの遭遇」（みちあそび）",
+    "url": "https://www.city.setagaya.lg.jp/03080/36450.html",
+    "official_url": "https://www.city.setagaya.lg.jp/03080/36450.html",
+    "source": "https://www.city.setagaya.lg.jp/03080/36450.html",
+    "image": "",
+    "period": "11/23(月・祝)",
+    "date_start": "2026-11-23",
+    "date_end": "2026-11-23",
+    "time": "13:00〜15:00",
+    "venue": "祖師谷商店街けやきロード",
+    "price": "参加費の記載なし",
+    "description": "むかしなつかしい道あそびを楽しむ催し。乳幼児から大人までどなたでも参加できる。当日、児童館は休み。",
+    "categories": [
+      "体験・ワークショップ",
+      "イベント・まつり"
+    ],
+    "indoor_outdoor": "屋外",
+    "reservation": {
+      "required": false,
+      "note": "申込はありません。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "むかしなつかしい道あそびを楽しむ催し。参加費の記載なし。申込の案内はなく、当日参加できる。",
+      "axes": {
+        "child_target": {
+          "grade": "A",
+          "reason": "乳幼児から大人までどなたでも"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "みちあそびで体を動かす"
+        },
+        "age_fit": {
+          "grade": "A",
+          "reason": "乳幼児から大人までと明記"
+        },
+        "stay_flexibility": {
+          "grade": "B",
+          "reason": "13:00〜15:00"
+        },
+        "burden": {
+          "grade": "B",
+          "reason": "屋外の商店街で開催"
+        },
+        "cost": {
+          "grade": "unknown",
+          "reason": "参加費の記載がない"
+        },
+        "reservation": {
+          "grade": "A",
+          "reason": "事前申込の案内はない"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "祝日に親子で昔あそびができる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-19",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "child_program",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "申込不要",
+          "乳幼児から参加できる"
+        ],
+        "limitations": [
+          "参加費の記載がない"
+        ],
+        "grade_comparison": "総合B：11/23(月・祝)の祖師谷商店街けやきロードで13:00〜15:00の開催。参加費の記載なし。申込不要で気軽に参加できる。",
+        "unsupported_axes": [
+          "cost"
+        ],
+        "evidence": [
+          {
+            "url": "https://www.city.setagaya.lg.jp/03080/36450.html",
+            "quote": "祖師谷児童館11月「祖師谷みちとの遭遇」募集中募集終了事前申込必要表示しない",
+            "checked_at": "2026-11-19",
+            "sha256": "fbefb7e2da427c16a260d4fd7665c70f5669c5ac47d37ba12c2c7421d141ae79",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "世田谷区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.setagaya.lg.jp/03080/36450.html",
+            "quote": "日程2026年11月23日（月曜日）当日、児童館はお休みです。時間午後1時から午後3時",
+            "checked_at": "2026-11-19",
+            "sha256": "415eb732079e870ea30a45c583d5e97516e824b9217bdd9a26be9f70f91db11a",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "世田谷区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.setagaya.lg.jp/03080/36450.html",
+            "quote": "場所・会場祖師谷商店街けやきロード主催：祖師谷みちとの遭遇プロジェクト対象乳幼児から大人までどなたでもお気軽にどうぞ！申し込み方法申込みはありません。",
+            "checked_at": "2026-11-19",
+            "sha256": "a14777e8000326463d3b56a0c2d8ee55e6068d4a98a8028db2cc22de00f468ea",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "世田谷区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-19",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  },
+  {
+    "id": "verified-20261121-arakawa-kumanomae-kumaputtostudio",
+    "ward": "荒川区",
+    "name": "熊野前ひろば館 親子ふれあいママ講座・パパとあそぼう！コラボ「くまぷっちスタジオ〜ひつじモコモコ〜」",
+    "url": "https://www.city.arakawa.tokyo.jp/a036/kumanomae/papatoasobou.html",
+    "official_url": "https://www.city.arakawa.tokyo.jp/a036/kumanomae/papatoasobou.html",
+    "source": "https://www.city.arakawa.tokyo.jp/a036/kumanomae/papatoasobou.html",
+    "image": "",
+    "period": "11/21(土)",
+    "date_start": "2026-11-21",
+    "date_end": "2026-11-21",
+    "time": "10:30〜11:30",
+    "venue": "熊野前ひろば館 多目的室",
+    "price": "参加費の記載なし",
+    "description": "かわいい背景の前で保護者が撮影する、未就学児と保護者向けの写真講座。パパ・ママ・祖父母どなたでも参加できる。",
+    "categories": [
+      "体験・ワークショップ"
+    ],
+    "indoor_outdoor": "屋内",
+    "reservation": {
+      "required": false,
+      "note": "当日自由参加。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "かわいい背景の前で保護者が撮影する、未就学児と保護者向けの写真講座。参加費の記載なし。申込の案内はなく、当日参加できる。",
+      "axes": {
+        "child_target": {
+          "grade": "A",
+          "reason": "未就学児とその保護者が対象"
+        },
+        "interactivity": {
+          "grade": "B",
+          "reason": "記念撮影の写真講座"
+        },
+        "age_fit": {
+          "grade": "A",
+          "reason": "未就学児と明記"
+        },
+        "stay_flexibility": {
+          "grade": "B",
+          "reason": "10:30〜11:30"
+        },
+        "burden": {
+          "grade": "A",
+          "reason": "当日自由参加"
+        },
+        "cost": {
+          "grade": "unknown",
+          "reason": "参加費の記載がない"
+        },
+        "reservation": {
+          "grade": "A",
+          "reason": "事前申込の案内はない"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "親子の記念写真を撮れる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-19",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "child_program",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "当日自由参加",
+          "パパ・祖父母も参加できる"
+        ],
+        "limitations": [
+          "参加費の記載がない"
+        ],
+        "grade_comparison": "総合B：11/21(土)の熊野前ひろば館 多目的室で10:30〜11:30の開催。参加費の記載なし。申込不要で気軽に参加できる。",
+        "unsupported_axes": [
+          "cost"
+        ],
+        "evidence": [
+          {
+            "url": "https://www.city.arakawa.tokyo.jp/a036/kumanomae/papatoasobou.html",
+            "quote": "熊野前ひろば館親子ふれあいママ講座・パパとあそぼう！コラボ！「くまぷっちスタジオ～ひつじモコモコ～」パパ、ママ、じいじ、ばあば、どなたでも参加できます！みんなで遊びに来てください。今回は親子ふれあいママ講座「くまぷっちスタジオ～ひつじモコモコ～」とコラボ開催です。",
+            "checked_at": "2026-11-19",
+            "sha256": "33551e9584b0546bfa9da149ac3a5e2945a8473b0f1093224d7212a683e888be",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "荒川区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.arakawa.tokyo.jp/a036/kumanomae/papatoasobou.html",
+            "quote": "開催日日付2026年11月21日（土曜日）時間午前10時30分から11時30分まで受付時間午前10時15分から10時45分まで",
+            "checked_at": "2026-11-19",
+            "sha256": "4995ef927a6af921738c626c2f4fe52b0a7e0f56d077ef5229405bf09a701e6e",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "荒川区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.arakawa.tokyo.jp/a036/kumanomae/papatoasobou.html",
+            "quote": "場所熊野前ひろば館多目的室内容写真講座（保護者による写真撮影）です。新しい年が明るく元気に過ごせるよう願いを込めて記念撮影を撮りましょう。講師の先生が、かわいい背景を用意してくれます。対象者未就学児とその保護者出演者（講師）中島涼子氏（ねぞうアート、ごろりんアート）持ち物タオル、飲み物、カメラやスマートフォンなど写真が撮れるもの申し込み当日自由参加くまぷっちスタジオ～ひつじモコモコ～（PDF：534KB）",
+            "checked_at": "2026-11-19",
+            "sha256": "b99b034ba3797fd4bffb98cd0b4c5cfb4ea8377cab849e9b31f52b297f01aa30",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "荒川区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-19",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  },
+  {
+    "id": "verified-20261122-katsushika-otanoshimi-trainday",
+    "ward": "葛飾区",
+    "name": "わくわくドキドキ お楽しみトレインデー（新宿交通公園）",
+    "url": "https://www.city.katsushika.lg.jp/event/1000107/1000586.html",
+    "official_url": "https://www.city.katsushika.lg.jp/event/1000107/1000586.html",
+    "source": "https://www.city.katsushika.lg.jp/event/1000107/1000586.html",
+    "image": "https://www.city.katsushika.lg.jp/_res/projects/default_project/_page_/001/000/586/wakuwakutorein.jpg",
+    "period": "11/22(日)",
+    "date_start": "2026-11-22",
+    "date_end": "2026-11-22",
+    "time": "10:00〜12:00／13:00〜16:00（雨天中止）",
+    "venue": "新宿交通公園",
+    "price": "就学前無料（大人の付き添いが必要）、小学生1回30円、中学生以上1回100円",
+    "description": "園内をいつもと違う電車が走り、乗って楽しめる催し。どの新幹線が走るかは当日のお楽しみ。",
+    "categories": [
+      "公園・自然",
+      "乗り物"
+    ],
+    "indoor_outdoor": "屋外",
+    "reservation": {
+      "required": false,
+      "note": "事前申込不要。直接会場へ。雨天中止。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "園内をいつもと違う電車が走り、乗って楽しめる催し。就学前無料（大人の付き添いが必要）、小学生1回30円、中学生以上1回100円。申込の案内はなく、当日参加できる。",
+      "axes": {
+        "child_target": {
+          "grade": "A",
+          "reason": "就学前児童から小学生まで楽しめる"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "電車に乗って楽しめる"
+        },
+        "age_fit": {
+          "grade": "A",
+          "reason": "就学前児童・小学生の料金区分がある"
+        },
+        "stay_flexibility": {
+          "grade": "B",
+          "reason": "10:00〜12:00／13:00〜16:00（雨天中止）"
+        },
+        "burden": {
+          "grade": "B",
+          "reason": "屋外で雨天中止"
+        },
+        "cost": {
+          "grade": "B",
+          "reason": "就学前は無料、小学生は1回30円"
+        },
+        "reservation": {
+          "grade": "A",
+          "reason": "事前申込不要"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "電車好きの子どもに向く"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-19",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "child_program",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "就学前は無料",
+          "申込不要"
+        ],
+        "limitations": [
+          "雨天中止",
+          "小学生以上は有料"
+        ],
+        "grade_comparison": "総合B：11/22(日)の新宿交通公園で10:00〜12:00／13:00〜16:00（雨天中止）の開催。就学前無料（大人の付き添いが必要）、小学生1回30円、中学生以上1回100円。申込不要で気軽に参加できる。",
+        "unsupported_axes": [],
+        "evidence": [
+          {
+            "url": "https://www.city.katsushika.lg.jp/event/1000107/1000586.html",
+            "quote": "わくわくドキドキお楽しみトレインデーページ番号1000586更新日令和8年5月12日印刷大きな文字で印刷緊急事態宣言が発令された際には、中止となる場合があります。イベントカテゴリ：催事・イベントどの新幹線が走るかは当日のお楽しみ！お楽しみトレインデー（無断転載禁止）",
+            "checked_at": "2026-11-19",
+            "sha256": "650dad4ce4a10bbe7ff60d48b222691253f3caa5d2347be5b9d9c5ad6f7badd4",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "葛飾区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.katsushika.lg.jp/event/1000107/1000586.html",
+            "quote": "開催日令和8年5月24日（日曜日）、7月26日（日曜日）、9月27日（日曜日）、10月25日（日曜日）、11月22日（日曜日）、12月27日（日曜日）令和9年1月24日（日曜日）、3月28日（日曜日）時間午前10時から正午まで、午後1時から午後4時まで（雨天中止）（午前の最終は午前11時45分発、午後の最終は午後3時55分発です。）",
+            "checked_at": "2026-11-19",
+            "sha256": "247e1e6e35d25aaec6a46e9e60ea6836e7ac6d594d5e0678a1fed3b4d3c02435",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "葛飾区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.katsushika.lg.jp/event/1000107/1000586.html",
+            "quote": "会場新宿交通公園対象どなたでも内容園内をいつもと違う電車が、皆さまを乗せて走ります。どんなトレインが走るかは当日のお楽しみです。トレインの種類に関するお問い合わせはご遠慮ください。料金就学前児童（無料。大人の方の付き添いが必要です。）小学生（1回30円）、中学生以上（1回100円）事前申込不要（直接会場へお越しください）",
+            "checked_at": "2026-11-19",
+            "sha256": "63f4a8759c16a08bde90d52c6ee0f09823f22f9e9554794e253c56583e273dea",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "葛飾区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-19",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  },
+  {
+    "id": "verified-20261121-katsushika-nishikameari-plarail",
+    "ward": "葛飾区",
+    "name": "西亀有児童館「プラレール広場」（11/21）",
+    "url": "https://www.city.katsushika.lg.jp/event/1000114/1000796/1043520.html",
+    "official_url": "https://www.city.katsushika.lg.jp/event/1000114/1000796/1043520.html",
+    "source": "https://www.city.katsushika.lg.jp/event/1000114/1000796/1043520.html",
+    "image": "https://www.city.katsushika.lg.jp/_res/projects/default_project/_page_/001/043/520/nisikamearimonn.jpg",
+    "period": "11/21(土)",
+    "date_start": "2026-11-21",
+    "date_end": "2026-11-21",
+    "time": "10:00〜11:45",
+    "venue": "西亀有児童館 ホール",
+    "price": "参加費の記載なし",
+    "description": "ホールいっぱいに広げたレールの上で、好きな電車を走らせて遊べる乳幼児と保護者向けの広場。",
+    "categories": [
+      "体験・ワークショップ",
+      "乗り物"
+    ],
+    "indoor_outdoor": "屋内",
+    "reservation": {
+      "required": false,
+      "note": "事前申込不要。当日受付。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "ホールいっぱいに広げたレールの上で、好きな電車を走らせて遊べる乳幼児と保護者向けの広場。参加費の記載なし。申込の案内はなく、当日参加できる。",
+      "axes": {
+        "child_target": {
+          "grade": "A",
+          "reason": "乳幼児と保護者が対象"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "レールの上で電車を走らせて遊ぶ"
+        },
+        "age_fit": {
+          "grade": "A",
+          "reason": "乳幼児向けと明記"
+        },
+        "stay_flexibility": {
+          "grade": "B",
+          "reason": "10:00〜11:45"
+        },
+        "burden": {
+          "grade": "A",
+          "reason": "当日受付で負担が小さい"
+        },
+        "cost": {
+          "grade": "unknown",
+          "reason": "参加費の記載がない"
+        },
+        "reservation": {
+          "grade": "A",
+          "reason": "事前申込不要"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "電車好きの乳幼児に向く"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-19",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "child_program",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "当日受付",
+          "電車遊び"
+        ],
+        "limitations": [
+          "参加費の記載がない"
+        ],
+        "grade_comparison": "総合B：11/21(土)の西亀有児童館 ホールで10:00〜11:45の開催。参加費の記載なし。申込不要で気軽に参加できる。",
+        "unsupported_axes": [
+          "cost"
+        ],
+        "evidence": [
+          {
+            "url": "https://www.city.katsushika.lg.jp/event/1000114/1000796/1043520.html",
+            "quote": "西亀有児童館令和8年11月の行事予定",
+            "checked_at": "2026-11-19",
+            "sha256": "7499c11dbb164d0dbc9d73e095e469ea8153e5ea14d230ea4199982e4d2d3277",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "葛飾区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.katsushika.lg.jp/event/1000114/1000796/1043520.html",
+            "quote": "プラレール広場ホールいっぱいに広げたレールの上に好きな電車を走らせよう！新幹線や特急、ローカル線や貨物車も走ります。ぐるぐると登って降りるタワーも登場します。",
+            "checked_at": "2026-11-19",
+            "sha256": "0e9023cbdafe768a8fc9212a01233a4427ca52dd093cdd1258651cfb423614da",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "葛飾区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.katsushika.lg.jp/event/1000114/1000796/1043520.html",
+            "quote": "実施日・曜日11月20日（金曜日）・21日（土曜日）時間午後3時から午後4時30分時間内にいつでも遊ぶことができます。内容ホールいっぱいに広げたレールの上に好きな電車を走らせよう！新幹線や特急、ローカル線や貨物車も走ります。ぐるぐると登って降りるタワーも登場します。対象乳幼児と保護者事前申込不要申込方法当日受付",
+            "checked_at": "2026-11-19",
+            "sha256": "8eeb1c6eec4892f8cc56499468ddc9ecdb3039793d4e0247b60229eec02fb236",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "葛飾区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-19",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  },
+  {
+    "id": "verified-20261122-bunkyo-motomachi-fes",
+    "ward": "文京区",
+    "name": "もとまちフェス2026",
+    "url": "https://www.city.bunkyo.lg.jp/kuseijouhou/kouhou/houdou/r08/11/p008303.html",
+    "official_url": "https://www.city.bunkyo.lg.jp/kuseijouhou/kouhou/houdou/r08/11/p008303.html",
+    "source": "https://www.city.bunkyo.lg.jp/kuseijouhou/kouhou/houdou/r08/11/p008303.html",
+    "image": "https://www.city.bunkyo.lg.jp/images/13872/photo1.jpg",
+    "period": "11/22(日)",
+    "date_start": "2026-11-22",
+    "date_end": "2026-11-22",
+    "time": "10:00〜15:00",
+    "venue": "元町ウェルネスパーク・文京区立元町公園（文京区本郷1丁目）",
+    "price": "参加費の記載なし",
+    "description": "親子体操、縁日、運動会、ボッチャ体験、工作、マルシェなど、施設と公園で楽しむ地域の催し。スタンプラリーでお菓子がもらえる。",
+    "categories": [
+      "イベント・まつり",
+      "体験・ワークショップ"
+    ],
+    "indoor_outdoor": "屋内・屋外",
+    "reservation": {
+      "required": false,
+      "note": "一部の体験は当日申込（先着順）。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "親子体操、縁日、運動会、ボッチャ体験、工作、マルシェなど、施設と公園で楽しむ地域の催し。参加費の記載なし。申込の案内はなく、当日参加できる。",
+      "axes": {
+        "child_target": {
+          "grade": "B",
+          "reason": "親子で参加できる体験・縁日・運動会などが多い"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "親子体操や縁日、工作などの体験が多い"
+        },
+        "age_fit": {
+          "grade": "unknown",
+          "reason": "対象年齢の目安は明記がない"
+        },
+        "stay_flexibility": {
+          "grade": "B",
+          "reason": "10:00〜15:00"
+        },
+        "burden": {
+          "grade": "B",
+          "reason": "10:00〜15:00の間、自由に回れる"
+        },
+        "cost": {
+          "grade": "unknown",
+          "reason": "参加費の記載がない"
+        },
+        "reservation": {
+          "grade": "B",
+          "reason": "一部の体験は当日申込（先着順）"
+        },
+        "family_value": {
+          "grade": "A",
+          "reason": "一日親子で回れる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-19",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "child_program",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "親子体操・縁日・工作",
+          "スタンプラリー"
+        ],
+        "limitations": [
+          "一部の体験は先着順",
+          "参加費の記載がない"
+        ],
+        "grade_comparison": "総合B：11/22(日)の元町ウェルネスパーク・文京区立元町公園で10:00〜15:00の開催。参加費の記載なし。申込不要で気軽に参加できる。",
+        "unsupported_axes": [
+          "age_fit",
+          "cost"
+        ],
+        "evidence": [
+          {
+            "url": "https://www.city.bunkyo.lg.jp/kuseijouhou/kouhou/houdou/r08/11/p008303.html",
+            "quote": "「もとまちフェス2026」を開催します【事前PR】いつ令和8年11月22日（日曜日）午前10時～午後3時どこで元町ウェルネスパーク（文京区本郷一丁目1番19号）及び文京区立元町公園（文京区本郷一丁目1番1号）",
+            "checked_at": "2026-11-19",
+            "sha256": "944508b49e78a3f5acf9e3a59e9011d483886fb95fe57d121de5afc91566e7ef",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "文京区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.bunkyo.lg.jp/kuseijouhou/kouhou/houdou/r08/11/p008303.html",
+            "quote": "内容元町ウェルネスパーク及び元町公園を活用した施設一体イベントとして、「もとまちフェス2026」を開催いたします。本イベントは、区、順天堂、施設に入居する事業者や近隣町会が力を合わせて、地域の賑わいを創出するため、リニューアルオープンした昨年から、毎年開催しております。今年度は、各入居施設が実施するアクティビティープログラムや見学型のブース、体験型のブースに加え、「もとまちマルシェ＆もとまちキッチン」と評した飲食、物販ブースを元町公園に8店舗展開いたします。",
+            "checked_at": "2026-11-19",
+            "sha256": "e66d06a9ce312610f93fe5f90e2a33e55de5ab7a45065d1a4eaa073dd7019746",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "文京区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.bunkyo.lg.jp/kuseijouhou/kouhou/houdou/r08/11/p008303.html",
+            "quote": "※1当日申込みが必要（先着順）※スタンプラリーを実施［お菓子をプレゼント（なくなり次第終了）］PhotoGallery（昨年度の様子）",
+            "checked_at": "2026-11-19",
+            "sha256": "ddf02560238e13edf852df98353c681daec319342db2645f2b7d83eb94da661e",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "文京区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-19",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  }
+]

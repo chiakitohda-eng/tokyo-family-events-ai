@@ -1,0 +1,136 @@
+[
+  {
+    "id": "verified-20261220-arakawa-gassyotai-teiki164",
+    "ward": "荒川区",
+    "name": "東京荒川少年少女合唱隊 第164回定期演奏会",
+    "url": "https://www.city.arakawa.tokyo.jp/a015/event/teikiensoukai164.html",
+    "official_url": "https://www.city.arakawa.tokyo.jp/a015/event/teikiensoukai164.html",
+    "source": "https://www.city.arakawa.tokyo.jp/a015/event/teikiensoukai164.html",
+    "image": "https://www.city.arakawa.tokyo.jp/images/46619/akt_concert_20261220_omote.jpg",
+    "period": "12/20(日)",
+    "date_start": "2026-12-20",
+    "date_end": "2026-12-20",
+    "time": "開演14:00（開場13:30）",
+    "venue": "サンパール荒川 大ホール",
+    "price": "大人1,000円、小中学生500円（ACC友の会会員は各1割引）",
+    "description": "東京荒川少年少女合唱隊の定期演奏会。「風の谷のナウシカ」「君をのせて」「もののけ姫」「トトロメドレー」「クリスマスソング集」などを歌う。チケットは町屋文化センター、サンパール荒川で販売。",
+    "categories": [
+      "コンサート",
+      "音楽・ステージ"
+    ],
+    "indoor_outdoor": "屋内",
+    "reservation": {
+      "required": true,
+      "note": "チケット販売は町屋文化センターとサンパール荒川。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "少年少女合唱隊が出演し、ジブリ作品やクリスマスソングを歌う12/20の演奏会で、小中学生の料金が公式ページにある。",
+      "axes": {
+        "child_target": {
+          "grade": "C",
+          "reason": "子どもが出演する演奏会で、観客の対象年齢は明記がない"
+        },
+        "interactivity": {
+          "grade": "C",
+          "reason": "観賞中心の演奏会"
+        },
+        "age_fit": {
+          "grade": "unknown",
+          "reason": "観客の対象年齢の目安は明記がない"
+        },
+        "stay_flexibility": {
+          "grade": "C",
+          "reason": "開演14時からの座席制の公演で時間は固定"
+        },
+        "burden": {
+          "grade": "B",
+          "reason": "大ホールの座席制でチケットの事前購入が要る"
+        },
+        "cost": {
+          "grade": "B",
+          "reason": "小中学生500円、大人1,000円"
+        },
+        "reservation": {
+          "grade": "B",
+          "reason": "チケットの事前購入が必要"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "親しみのある曲を子どもの合唱で家族で聴ける"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-21",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "performers_are_children",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "小中学生500円の料金設定",
+          "ジブリ曲とクリスマスソング"
+        ],
+        "limitations": [
+          "観賞中心で参加型ではない",
+          "チケットの事前購入が必要"
+        ],
+        "grade_comparison": "総合B：12/20の座席制の演奏会で、小中学生500円。観賞中心で対象年齢の明記はなく、チケットの事前購入が要る。",
+        "unsupported_axes": [
+          "age_fit"
+        ],
+        "evidence": [
+          {
+            "url": "https://www.city.arakawa.tokyo.jp/a015/event/teikiensoukai164.html",
+            "quote": "サンパール荒川　大ホール",
+            "checked_at": "2026-11-21",
+            "sha256": "c775fd423c3d5cbbba6693fdefbba4e41ec87b4819202ec3552c9f6491bf733c",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "荒川区公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.arakawa.tokyo.jp/a015/event/teikiensoukai164.html",
+            "quote": "大人　1,000円　小中学生　500円",
+            "checked_at": "2026-11-21",
+            "sha256": "393b117f713127525ba030950844466d750a8ed67096c00d5e523d8ba10bf79e",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "荒川区公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.arakawa.tokyo.jp/a015/event/teikiensoukai164.html",
+            "quote": "トトロメドレー　クリスマスソング集",
+            "checked_at": "2026-11-21",
+            "sha256": "52dd310725e165d8fafcee89c8d4e5db4a6b82cc424cf9570925964e10a1e3f2",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "荒川区公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.arakawa.tokyo.jp/a015/event/teikiensoukai164.html",
+            "quote": "チケット販売：町屋文化センター、サンパール荒川",
+            "checked_at": "2026-11-21",
+            "sha256": "854035b3e5cfc41f65cb4fe62374c4809f9a3771c53ea758a6af4f4d44afda8e",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "荒川区公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-21",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  }
+]

@@ -17,7 +17,14 @@
         "official_url": "pass"
       },
       "corrections": {},
-      "note": "v1.5完全再探索で公式・主催者等の根拠と開催情報を再突合。"
+      "note": "v1.5完全再探索で公式・主催者等の根拠と開催情報を再突合。",
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "A",
+        "to": "A",
+        "reason": "白黒や少ない色で描かれた絵本を見比べ、親子が色と物語の表現を発見できる。 触って作る体験は未記載。祝日も休館で、関連講演会の中学生以上条件を展示の条件に流用しない。",
+        "source": "https://www.kodomo.go.jp/event/exhibition/tenji2026-02"
+      }
     },
     {
       "id": "v15-17eb13b65dda",
@@ -34,7 +41,14 @@
         "official_url": "pass"
       },
       "corrections": {},
-      "note": "v1.5完全再探索で公式・主催者等の根拠と開催情報を再突合。"
+      "note": "v1.5完全再探索で公式・主催者等の根拠と開催情報を再突合。",
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "A",
+        "to": "A",
+        "reason": "8K・360度映像やARで生き物を観察でき、子どもの探究成果も紹介する無料の科学展示。 個別関連講座の受付は展示とは別。混雑や機器の待ち時間は確認できない。",
+        "source": "https://sp.minato-kagaku.tokyo/event-2026autumnexhibition/"
+      }
     },
     {
       "id": "v15-237c930495e3",
@@ -52,7 +66,14 @@
       },
       "corrections": {},
       "note": "v1.5完全再探索で公式・主催者等の根拠と開催情報を再突合。",
-      "review_note": "2026-10-27 official municipality/organizer detail page re-reviewed for exact date, place and participation unit; unknown secondary details retained unknown."
+      "review_note": "2026-10-27 official municipality/organizer detail page re-reviewed for exact date, place and participation unit; unknown secondary details retained unknown.",
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "A",
+        "to": "B",
+        "reason": "複数のミュージアムを巡ってスタンプを集め、親子で港区の文化を発見できる。 全体が子ども専用の企画ではなく、対象・料金・開館日は施設ごとに違う。巡る範囲を家族で選びたい。",
+        "source": "https://www.city.minato.tokyo.jp/bungeishinkou/minakore/home.html"
+      }
     },
     {
       "id": "v15-0c99233f00d9",
@@ -70,7 +91,14 @@
       },
       "corrections": {},
       "note": "v1.5完全再探索で公式・主催者等の根拠と開催情報を再突合。",
-      "review_note": "2026-10-27 official municipality/organizer detail page re-reviewed for exact date, place and participation unit; unknown secondary details retained unknown."
+      "review_note": "2026-10-27 official municipality/organizer detail page re-reviewed for exact date, place and participation unit; unknown secondary details retained unknown.",
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "A",
+        "to": "A",
+        "reason": "大きなマリンバを囲み、子どもと家族が音や身体の表現に参加できる。 入退場自由で申込不要だが、マレットの本数に限りがあり、混雑時には待つ場合がある。",
+        "source": "https://www.inclusion-art.jp/archive/event/2026/20261107-422.html"
+      }
     },
     {
       "id": "v15-c21605707e5f",
@@ -87,7 +115,14 @@
         "official_url": "pass"
       },
       "corrections": {},
-      "note": "v1.5完全再探索で公式・主催者等の根拠と開催情報を再突合。"
+      "note": "v1.5完全再探索で公式・主催者等の根拠と開催情報を再突合。",
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "A",
+        "to": "B",
+        "reason": "紙芝居の原画や台本を親子で見比べ、地域と物語の歴史を学べる無料展示。 子ども向け上演や制作とは別の資料展示。歴史解説を読むには保護者の手助けが必要な場合がある。",
+        "source": "https://www.city.toshima.lg.jp/129/2609101123.html"
+      }
     },
     {
       "id": "v15-8d59fcc6e04c",
@@ -104,7 +139,14 @@
         "official_url": "pass"
       },
       "corrections": {},
-      "note": "v1.5完全再探索で公式・主催者等の根拠と開催情報を再突合。"
+      "note": "v1.5完全再探索で公式・主催者等の根拠と開催情報を再突合。",
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "B",
+        "to": "A",
+        "reason": "親子向けの4コママンガ制作や試し読みで、物語を楽しみながら子育てについて話し合える。 展示の一部は子育て支援・保護者向け解説。乳幼児専用の制作内容や混雑は未記載。",
+        "source": "https://www.city.toshima.lg.jp/467/2607241454.html"
+      }
     },
     {
       "id": "v15-ad3a6e817eea",
@@ -121,7 +163,14 @@
         "official_url": "pass"
       },
       "corrections": {},
-      "note": "v1.5完全再探索で公式・主催者等の根拠と開催情報を再突合。"
+      "note": "v1.5完全再探索で公式・主催者等の根拠と開催情報を再突合。",
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "A",
+        "to": "B",
+        "reason": "紙芝居の実演と児童文化の解説で、家族が物語や地域の出版史に触れられる。 90分の講演を含む事前申込企画。実演があることだけでは幼児向けの公演とは判断しない。",
+        "source": "https://www.city.toshima.lg.jp/129/2609101123.html"
+      }
     },
     {
       "id": "v15-d18ca8b4095f",
@@ -139,7 +188,14 @@
       },
       "corrections": {},
       "note": "v1.5完全再探索で公式・主催者等の根拠と開催情報を再突合。",
-      "review_note": "2026-10-27 official municipality/organizer detail page re-reviewed for exact date, place and participation unit; unknown secondary details retained unknown."
+      "review_note": "2026-10-27 official municipality/organizer detail page re-reviewed for exact date, place and participation unit; unknown secondary details retained unknown.",
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "B",
+        "to": "B",
+        "reason": "中村橋のまちと記憶をアートで見つめ、親子で街の風景について話し合える。 美術館内展示と街の展示で期間が異なる。子ども専用体験は個別の企画案内が必要。",
+        "source": "https://www.nerimakanko.jp/event/detail.php?event_id=e000002865"
+      }
     },
     {
       "id": "v15-066e0211371b",
@@ -159,7 +215,14 @@
       },
       "corrections": {},
       "note": "v1.5完全再探索で公式・主催者等の根拠と開催情報を再突合。",
-      "review_note": "2026-10-27 official municipality/organizer detail page re-reviewed for exact date, place and participation unit; unknown secondary details retained unknown."
+      "review_note": "2026-10-27 official municipality/organizer detail page re-reviewed for exact date, place and participation unit; unknown secondary details retained unknown.",
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "B",
+        "to": "B",
+        "reason": "古民家・商店街・ギャラリーなど街全体の表現を選んで巡り、家族で地域の文化を発見できる。 費用・予約・対象・会場はプログラムごとに異なる。催事全体を無料や全日開催の体験とは扱わない。",
+        "source": "https://sumida-artfest.jp"
+      }
     },
     {
       "id": "v15-a08482b834d0",
@@ -178,7 +241,14 @@
         "official_url": "pass"
       },
       "corrections": {},
-      "note": "v1.5完全再探索で公式・主催者等の根拠と開催情報を再突合。"
+      "note": "v1.5完全再探索で公式・主催者等の根拠と開催情報を再突合。",
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "B",
+        "to": "B",
+        "reason": "ラジオ番組のトークと弾き語りを、番組や音楽に関心のある家族で鑑賞できる。 3900円の有料公演で90分の着席鑑賞が中心。子ども向け進行や対象年齢の記載は確認できない。",
+        "source": "https://www.j-wave.co.jp/topics/entry_popworld10th/"
+      }
     },
     {
       "id": "v15-4422de70baf9",
@@ -197,7 +267,14 @@
         "official_url": "pass"
       },
       "corrections": {},
-      "note": "v1.5完全再探索で公式・主催者等の根拠と開催情報を再突合。"
+      "note": "v1.5完全再探索で公式・主催者等の根拠と開催情報を再突合。",
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "B",
+        "to": "B",
+        "reason": "ゲーム文化の展示やゲストステージを、ゲームに関心のある親子が共有できる。 試遊できる機器・年齢条件を一律には確認できず、子どもの実技体験としてAにはしない。",
+        "source": "https://www.famitsu.com/special/content/40th/"
+      }
     },
     {
       "id": "v15-cd3125911fbb",
@@ -216,7 +293,14 @@
         "official_url": "pass"
       },
       "corrections": {},
-      "note": "v1.5完全再探索で公式・主催者等の根拠と開催情報を再突合。"
+      "note": "v1.5完全再探索で公式・主催者等の根拠と開催情報を再突合。",
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "B",
+        "to": "B",
+        "reason": "池袋の店の料理を選んで比べ、家族で地域の食とステージを楽しめる。 キッズエリアはあるが催事全体の中心は有料の飲食。個別体験やアレルギー・混雑条件は確認が必要。",
+        "source": "https://iwgp-gourmet.com/"
+      }
     },
     {
       "id": "v15-73d0f4071fd2",
@@ -235,7 +319,14 @@
         "official_url": "pass"
       },
       "corrections": {},
-      "note": "v1.5完全再探索で公式・主催者等の根拠と開催情報を再突合。"
+      "note": "v1.5完全再探索で公式・主催者等の根拠と開催情報を再突合。",
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "B",
+        "to": "B",
+        "reason": "街の謎解きや期間限定コラボを選び、新宿の街を親子で発見できる。 駅長撮影やスタンプ制作のファンストリートは10/24の別日程。11/7〜8に同じ体験があるとは扱わない。",
+        "source": "https://www.kanko-shinjuku.jp/festival2026/-/index.html"
+      }
     },
     {
       "id": "v15-0e0487bb0380",
@@ -254,7 +345,14 @@
         "official_url": "pass"
       },
       "corrections": {},
-      "note": "v1.5完全再探索で公式・主催者等の根拠と開催情報を再突合。"
+      "note": "v1.5完全再探索で公式・主催者等の根拠と開催情報を再突合。",
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "B",
+        "to": "B",
+        "reason": "焼き芋や料理の違いを親子で比べ、地域の食を一緒に楽しめる。 中心は有料飲食で、入場無料だけでは低予算や子ども専用体験とは判断できない。",
+        "source": "https://yakiimofes.jp/"
+      }
     },
     {
       "id": "v15-b40aaae361c9",
@@ -273,7 +371,14 @@
         "official_url": "pass"
       },
       "corrections": {},
-      "note": "v1.5完全再探索で公式・主催者等の根拠と開催情報を再突合。"
+      "note": "v1.5完全再探索で公式・主催者等の根拠と開催情報を再突合。",
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "A",
+        "to": "B",
+        "reason": "羊肉・羊毛・クラフトなど異なる角度から羊の文化に触れ、親子で発見を共有できる。 主な内容は飲食・販売で、子ども向け体験の詳しい条件は未確認。羊という題材だけで3つ星とはしない。",
+        "source": "https://hitsujifesta.com/"
+      }
     },
     {
       "id": "v15-fca71dbd0a51",
@@ -292,7 +397,14 @@
         "official_url": "pass"
       },
       "corrections": {},
-      "note": "v1.5完全再探索で公式・主催者等の根拠と開催情報を再突合。"
+      "note": "v1.5完全再探索で公式・主催者等の根拠と開催情報を再突合。",
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "B",
+        "to": "B",
+        "reason": "地域のステージや交流を選んで楽しみ、親子で渋谷の文化に触れられる。 参加枠ごとの体験内容・料金・年齢は別途確認が必要で、全企画を子ども向けとは判断しない。",
+        "source": "https://www.shibuya-fes.online/"
+      }
     },
     {
       "id": "v15-ff5e3837cd8c",
@@ -311,7 +423,14 @@
         "official_url": "pass"
       },
       "corrections": {},
-      "note": "v1.5完全再探索で公式・主催者等の根拠と開催情報を再突合。"
+      "note": "v1.5完全再探索で公式・主催者等の根拠と開催情報を再突合。",
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "B",
+        "to": "B",
+        "reason": "街の複数会場で現代アートを見比べ、家族で表現や街の変化を話し合える。 会場と企画によって料金・日程が違う。子ども向けの実技体験や途中入退場の詳細は未確認。",
+        "source": "https://shibuyaartscramble.tokyo/"
+      }
     },
     {
       "id": "v15-17dcd2343678",
@@ -330,7 +449,14 @@
         "official_url": "pass"
       },
       "corrections": {},
-      "note": "v1.5完全再探索で公式・主催者等の根拠と開催情報を再突合。"
+      "note": "v1.5完全再探索で公式・主催者等の根拠と開催情報を再突合。",
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "B",
+        "to": "B",
+        "reason": "距離別のコースで歩き方を体験し、親子で屋外の運動を共有できる。 事前申込と参加費・レンタル代が必要。子どもの対象年齢、体格に合うポールや歩行距離の確認が必要。",
+        "source": "https://www.nordic-walk.or.jp/"
+      }
     },
     {
       "id": "v15-355e6f0319e5",
@@ -349,7 +475,14 @@
         "official_url": "pass"
       },
       "corrections": {},
-      "note": "v1.5完全再探索で公式・主催者等の根拠と開催情報を再突合。"
+      "note": "v1.5完全再探索で公式・主催者等の根拠と開催情報を再突合。",
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "A",
+        "to": "A",
+        "reason": "親しみやすい絵本の色と本物の生き物を見比べ、擬態探しや塗り絵を親子で楽しめる。 水族館入館料が必要で、観察場所の混雑・待ち時間は未記載。関連の有料体験は別受付の場合がある。",
+        "source": "https://www.aquarium.gr.jp/news/events/31639"
+      }
     },
     {
       "id": "v15-283fd886ff84",
@@ -368,7 +501,14 @@
         "official_url": "pass"
       },
       "corrections": {},
-      "note": "v1.5完全再探索で公式・主催者等の根拠と開催情報を再突合。"
+      "note": "v1.5完全再探索で公式・主催者等の根拠と開催情報を再突合。",
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "B",
+        "to": "A",
+        "reason": "ラリーブックを持って公園や図書館で自然のミッションに挑戦し、子どもが自分で発見できる。 複数施設を歩くため天候・移動距離への配慮が必要。景品や受付時間は現地案内で確認。",
+        "source": "https://www.nerimakanko.jp/event/detail.php?event_id=e000002940"
+      }
     },
     {
       "id": "v15-9ac12cf18b5c",
@@ -387,7 +527,14 @@
         "official_url": "pass"
       },
       "corrections": {},
-      "note": "v1.5完全再探索で公式・主催者等の根拠と開催情報を再突合。"
+      "note": "v1.5完全再探索で公式・主催者等の根拠と開催情報を再突合。",
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "A",
+        "to": "A",
+        "reason": "カードの木の実や花・虫を探してシールを集め、子どもが身近な秋の自然を観察できる。 虫や植物には触れ方への配慮が必要。休園日と景品・受付の条件を確認して参加したい。",
+        "source": "https://www.nerimakanko.jp/event/detail.php?event_id=e000002941"
+      }
     },
     {
       "id": "v15-6a06bd1125af",
@@ -406,7 +553,14 @@
         "official_url": "pass"
       },
       "corrections": {},
-      "note": "v1.5完全再探索で公式・主催者等の根拠と開催情報を再突合。"
+      "note": "v1.5完全再探索で公式・主催者等の根拠と開催情報を再突合。",
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "B",
+        "to": "B",
+        "reason": "秋バラの色や香りを比べ、日替わりのマーケットと合わせて親子で楽しめる。 キッズデーや演奏は指定日の別企画。期間中のどの日にも同じ子ども体験があるとは判断しない。",
+        "source": "https://www.shikinokaori-rose-garden.com/"
+      }
     },
     {
       "id": "v15-b233b389bbd2",
@@ -425,7 +579,14 @@
         "official_url": "pass"
       },
       "corrections": {},
-      "note": "v1.5完全再探索で公式・主催者等の根拠と開催情報を再突合。"
+      "note": "v1.5完全再探索で公式・主催者等の根拠と開催情報を再突合。",
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "A",
+        "to": "A",
+        "reason": "親子が雑木林の生き物を探し、拾った実で万華鏡を作る自然体験。 親子2000円で追加料金あり。屋外の活動と制作があるため、服装や天候・歩行負担への配慮が必要。",
+        "source": "https://www.nerimakanko.jp/event/detail.php?event_id=e000002948"
+      }
     },
     {
       "id": "v15-babeed2fcead",
@@ -444,7 +605,14 @@
         "official_url": "pass"
       },
       "corrections": {},
-      "note": "v1.5完全再探索で公式・主催者等の根拠と開催情報を再突合。"
+      "note": "v1.5完全再探索で公式・主催者等の根拠と開催情報を再突合。",
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "B",
+        "to": "B",
+        "reason": "としまえんの塔の外観と城跡を現地で見比べ、親子で地域の歴史を学べる。 2〜2時間半の有料ツアーで、建物内部への入場や子ども向け進行は案内されていない。",
+        "source": "https://www.nerimakanko.jp/event/detail.php?event_id=e000002957"
+      }
     },
     {
       "id": "v15-bc7734cd6fa7",
@@ -477,6 +645,13 @@
           "reason": "当該同時開催展示を確認できる開催年別の公式ページへ変更",
           "source": "https://chihiro.jp/tokyo/exhibitions/2026/"
         }
+      },
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "A",
+        "to": "A",
+        "reason": "絵本に親しむ家族が原画の色と旅の風景を見比べ、世代を越えて物語を話し合える。 鑑賞中心で、子どもの制作体験が常設されているとは判断しない。大人の入館料と休館日を確認したい。",
+        "source": "https://chihiro.jp/tokyo/exhibitions/2026/"
       }
     },
     {
@@ -496,7 +671,14 @@
         "official_url": "pass"
       },
       "corrections": {},
-      "note": "v1.5完全再探索で公式・主催者等の根拠と開催情報を再突合。"
+      "note": "v1.5完全再探索で公式・主催者等の根拠と開催情報を再突合。",
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "B",
+        "to": "B",
+        "reason": "花や植物の販売に加え、キーワードラリーで親子が庭園の自然を発見できる。 飲食・植物の購入は別途。子ども専用の制作体験やラリー景品の数は未記載。",
+        "source": "https://www.nerimakanko.jp/event/detail.php?event_id=e000002966"
+      }
     },
     {
       "id": "v15-08e4ca0aaaea",
@@ -515,7 +697,14 @@
         "official_url": "pass"
       },
       "corrections": {},
-      "note": "v1.5完全再探索で公式・主催者等の根拠と開催情報を再突合。"
+      "note": "v1.5完全再探索で公式・主催者等の根拠と開催情報を再突合。",
+      "assessment_review": {
+        "reviewed_on": "2026-11-15",
+        "from": "A",
+        "to": "A",
+        "reason": "アニメ制作体験やキャラクターとの撮影を子ども・親子で選べる。 来場者数の上限は設けない案内で、混雑時はスタッフの誘導に従う。個別体験の年齢条件を確認。",
+        "source": "https://sam.or.jp/event-list/sugi_ani_expo2026"
+      }
     },
     {
       "id": "v15-bdb7fcbca1d9",
@@ -534,7 +723,14 @@
         "official_url": "pass"
       },
       "corrections": {},
-      "note": "v1.5完全再探索で公式・主催者等の根拠と開催情報を再突合。"
+      "note": "v1.5完全再探索で公式・主催者等の根拠と開催情報を再突合。",
+      "assessment_review": {
+        "reviewed_on": "2026-11-15",
+        "from": "B",
+        "to": "B",
+        "reason": "主催者の2026年掲示で、ステージ、なみすけ撮影会、バザー・模擬店が確認でき、家族で地域の祭りを共有できる。 一般向けの催しで子ども専用体験は未確認。撮影会は当日10時からの整理券が必要。料金・会場設備・混雑条件の明記は未確認。",
+        "source": "https://suginami.goguynet.jp/wp-content/uploads/sites/69/2026/11/IMG_0389-1.jpeg"
+      }
     },
     {
       "id": "v15-9d45772cb3d6",
@@ -553,7 +749,14 @@
         "official_url": "pass"
       },
       "corrections": {},
-      "note": "v1.5完全再探索で公式・主催者等の根拠と開催情報を再突合。"
+      "note": "v1.5完全再探索で公式・主催者等の根拠と開催情報を再突合。",
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "A",
+        "to": "A",
+        "reason": "複数の会場に地域ブースと体験があり、親子で興味のある遊びや活動を選べる。 4会場間の移動・混雑に配慮が必要。個別体験の料金や受付は会場案内で確認。",
+        "source": "https://www.o-2.jp/event/otafureaifesta2026/"
+      }
     },
     {
       "id": "v15-8fd7f8c017c9",
@@ -572,7 +775,14 @@
         "official_url": "pass"
       },
       "corrections": {},
-      "note": "v1.5完全再探索で公式・主催者等の根拠と開催情報を再突合。"
+      "note": "v1.5完全再探索で公式・主催者等の根拠と開催情報を再突合。",
+      "assessment_review": {
+        "reviewed_on": "2026-11-15",
+        "from": "A",
+        "to": "A",
+        "reason": "子どもを対象とするゲーム・遊び・イベントコーナーがあり、地域の子どもも午後の部に参加できる。 午前は施設の対象サービス利用児のみ。地域の子どもは11:30〜14:00の午後枠。模擬店や販売品の料金・予約要否は本文で確認できない。",
+        "source": "https://www.city.ota.tokyo.jp/seikatsu/fukushi/shougai/hoiku_kyoiku/hoiku/kodomo-matsuri_20261108.html"
+      }
     },
     {
       "id": "v15-41134e91ddc0",
@@ -592,7 +802,14 @@
       },
       "corrections": {},
       "note": "v1.5完全再探索で公式・主催者等の根拠と開催情報を再突合。",
-      "review_note": "2026-10-27 official municipality/organizer detail page re-reviewed for exact date, place and participation unit; unknown secondary details retained unknown."
+      "review_note": "2026-10-27 official municipality/organizer detail page re-reviewed for exact date, place and participation unit; unknown secondary details retained unknown.",
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "A",
+        "to": "A",
+        "reason": "街の祭りを巡り、子どもも楽しめる地域の遊びやステージを家族で選べる。 複数会場で実施時刻・参加費・受付が異なる。各企画の予約不要を催事全体に一律適用しない。",
+        "source": "https://nigiwaifesta.com/"
+      }
     },
     {
       "id": "v15-3e409ca87678",
@@ -612,7 +829,14 @@
       },
       "corrections": {},
       "note": "v1.5完全再探索で公式・主催者等の根拠と開催情報を再突合。",
-      "review_note": "2026-10-27 official municipality/organizer detail page re-reviewed for exact date, place and participation unit; unknown secondary details retained unknown."
+      "review_note": "2026-10-27 official municipality/organizer detail page re-reviewed for exact date, place and participation unit; unknown secondary details retained unknown.",
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "A",
+        "to": "A",
+        "reason": "子どもがツクる街・制服試着・スポーツ体験など、子どもが役割を持って参加できる。 個別体験の対象や定員は異なる。混雑と材料費・飲食費は会場案内で確認したい。",
+        "source": "https://meguro-river.com/"
+      }
     },
     {
       "id": "r16-896541e2bda1",
@@ -631,7 +855,14 @@
         "official_url": "pass"
       },
       "corrections": {},
-      "note": "v1.6除外再審査で公式・主催者情報を再確認し掲載へ復活。"
+      "note": "v1.6除外再審査で公式・主催者情報を再確認し掲載へ復活。",
+      "assessment_review": {
+        "reviewed_on": "2026-11-15",
+        "from": "B",
+        "to": "B",
+        "reason": "展望台のキャラクター装飾・写真スポットやスタンプラリーを親子の関心に応じて楽しめる。 子ども専用の企画ではない。展望台入場料のほかラリー800円や購入品の費用が必要。",
+        "source": "https://prtimes.jp/main/html/rd/p/000001168.000020364.html"
+      }
     },
     {
       "id": "r16-d75e00cb003d",
@@ -650,7 +881,14 @@
         "official_url": "pass"
       },
       "corrections": {},
-      "note": "v1.6除外再審査で公式・主催者情報を再確認し掲載へ復活。"
+      "note": "v1.6除外再審査で公式・主催者情報を再確認し掲載へ復活。",
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "B",
+        "to": "B",
+        "reason": "写真・映像・立体やインスタレーションを親子で見比べ、アートと技術の関係を考えられる。 一般向けの現代美術展で、体験作品には個別の参加条件がある。大人の休日料金は3000円で費用を比較したい。",
+        "source": "https://www.mori.art.museum/jp/exhibitions/marikomori/index.html"
+      }
     },
     {
       "id": "r16-d775e4024280",
@@ -669,7 +907,14 @@
         "official_url": "pass"
       },
       "corrections": {},
-      "note": "v1.6除外再審査で公式・主催者情報を再確認し掲載へ復活。"
+      "note": "v1.6除外再審査で公式・主催者情報を再確認し掲載へ復活。",
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "B",
+        "to": "B",
+        "reason": "台場・青海・天王洲の多様な作品を選んで巡り、親子で場所と表現の違いを楽しめる。 複数会場の移動や屋外の天候に配慮が必要。個別プログラムには有料・予約制のものがある。",
+        "source": "https://tokyoatlas.jp/"
+      }
     },
     {
       "id": "r16-8ae6a8849eb3",
@@ -688,7 +933,14 @@
         "official_url": "pass"
       },
       "corrections": {},
-      "note": "v1.6除外再審査で公式・主催者情報を再確認し掲載へ復活。"
+      "note": "v1.6除外再審査で公式・主催者情報を再確認し掲載へ復活。",
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "A",
+        "to": "B",
+        "reason": "海を渡った植物の細かな絵を見比べ、庭園の植物と合わせて親子で自然史を学べる。 植物画と歴史資料が中心で子ども専用の仕掛けは未記載。説明を読むには年齢に応じた補助が必要。",
+        "source": "https://www.makinoteien.jp/exhibition/%e3%80%90%e4%bc%81%e7%94%bb%e5%b1%95%e3%80%91%e3%80%8c%e6%b5%b7%e3%82%92%e6%b8%a1%e3%81%a3%e3%81%a6%e3%81%8d%e3%81%9f%e6%a4%8d%e7%89%a9%e3%81%ae%e7%89%a9%e8%aa%9e%e3%80%8d-2/"
+      }
     },
     {
       "id": "nerima-district-a8fccde4ce8f",
@@ -705,7 +957,14 @@
         "official_url": "pass"
       },
       "corrections": {},
-      "note": "2026-10-10練馬区公式日程表で確認。料金・予約要否の記載なし。雨天条件は説明に記載。"
+      "note": "2026-10-10練馬区公式日程表で確認。料金・予約要否の記載なし。雨天条件は説明に記載。",
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "A",
+        "to": "A",
+        "reason": "向山小のストラックアウトやバルーンなど、子どもが自分で遊べる地域のお祭り。 体験ごとの料金・受付や混雑は未記載。学校会場というだけで負担が低いとは断定しない。",
+        "source": "https://www.city.nerima.tokyo.jp/kankomoyoshi/annai/omatsuri/chikusai/20260616103208700.html"
+      }
     },
     {
       "id": "nerima-district-1f959942fee3",
@@ -722,7 +981,14 @@
         "official_url": "pass"
       },
       "corrections": {},
-      "note": "2026-10-10練馬区公式日程表で確認。料金・予約要否の記載なし。雨天条件は説明に記載。"
+      "note": "2026-10-10練馬区公式日程表で確認。料金・予約要否の記載なし。雨天条件は説明に記載。",
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "A",
+        "to": "A",
+        "reason": "石神井公園の子どもコーナーと地域のステージを親子で選んで楽しめる。 雨天時は翌日順延の条件がある。模擬店の費用や各コーナーの定員は別途確認。",
+        "source": "https://www.city.nerima.tokyo.jp/kankomoyoshi/annai/omatsuri/chikusai/20260616103208700.html"
+      }
     },
     {
       "id": "nerima-district-9e0bb2dfe3aa",
@@ -739,7 +1005,14 @@
         "official_url": "pass"
       },
       "corrections": {},
-      "note": "2026-10-10練馬区公式日程表で確認。料金・予約要否の記載なし。雨天条件は説明に記載。"
+      "note": "2026-10-10練馬区公式日程表で確認。料金・予約要否の記載なし。雨天条件は説明に記載。",
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "A",
+        "to": "B",
+        "reason": "地域団体のステージや展示・模擬店を親子で巡り、地域の活動に触れられる。 団体発表やPTA出店があることと子どもの実技体験は別。遊べる内容・費用の詳細は未記載。",
+        "source": "https://www.city.nerima.tokyo.jp/kankomoyoshi/annai/omatsuri/chikusai/20260616103208700.html"
+      }
     },
     {
       "id": "nerima-district-0c0bb4893c78",
@@ -756,7 +1029,14 @@
         "official_url": "pass"
       },
       "corrections": {},
-      "note": "2026-10-10練馬区公式日程表で確認。料金・予約要否の記載なし。雨天条件は説明に記載。"
+      "note": "2026-10-10練馬区公式日程表で確認。料金・予約要否の記載なし。雨天条件は説明に記載。",
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "A",
+        "to": "A",
+        "reason": "谷原地区祭の子どもコーナー・体験コーナーで、親子が活動を選んで参加できる。 小雨決行の屋外移動と混雑に配慮したい。料金・定員・申込の詳細は案内にない。",
+        "source": "https://www.city.nerima.tokyo.jp/kankomoyoshi/annai/omatsuri/chikusai/20260616103208700.html"
+      }
     },
     {
       "id": "nerima-district-5775c9d606f8",
@@ -773,7 +1053,14 @@
         "official_url": "pass"
       },
       "corrections": {},
-      "note": "2026-10-10練馬区公式日程表で確認。料金・予約要否の記載なし。雨天条件は説明に記載。"
+      "note": "2026-10-10練馬区公式日程表で確認。料金・予約要否の記載なし。雨天条件は説明に記載。",
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "A",
+        "to": "A",
+        "reason": "高松地区祭のゲームや踊りに触れ、子どもと保護者が地域文化と防災を楽しめる。 雨天時は規模縮小。模擬店やゲームの費用・受付条件は個別確認が必要。",
+        "source": "https://www.city.nerima.tokyo.jp/kankomoyoshi/annai/omatsuri/chikusai/20260616103208700.html"
+      }
     },
     {
       "id": "fx-20261107-nakano-food-workshop",
@@ -793,7 +1080,14 @@
       },
       "corrections": {},
       "note": "中野区2026-10-08更新の公式ページを2026-10-17に直接照合。11/7-8各10:00-10:45/14:00-14:45、小中学生対象、無料。全回満席・新規予約受付終了を明記。",
-      "checked_at": "2026-10-17"
+      "checked_at": "2026-10-17",
+      "assessment_review": {
+        "reviewed_on": "2026-11-15",
+        "from": "A",
+        "to": "A",
+        "reason": "小学生〜中学生が、おにぎり作りと新米の食べ比べを通して産地や食文化を体験できる。 各回10名・45分の予約制。小学生は保護者の引率が必要で、全回定員到達による予約終了を公式本文が明記している。",
+        "source": "https://www.city.tokyo-nakano.lg.jp/kanko/machirenkei/shotengai_sinmai.html"
+      }
     },
     {
       "id": "v15-51c3d03b1d28",
@@ -809,7 +1103,14 @@
         "reservation": "pass"
       },
       "corrections": {},
-      "note": "v1.5完全再探索で公式・主催者等の根拠と開催情報を再突合。（2026-10-20ローリング引継再確認）主催者公式で10月10日～11月8日、交流スペースのプログラム期間を確認。元の公開ID・審査結果を継承。"
+      "note": "v1.5完全再探索で公式・主催者等の根拠と開催情報を再突合。（2026-10-20ローリング引継再確認）主催者公式で10月10日～11月8日、交流スペースのプログラム期間を確認。元の公開ID・審査結果を継承。",
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "A",
+        "to": "A",
+        "reason": "触り心地や光など子ども一人ひとりの好みを手掛かりに、障害の有無を問わず参加できる場。 刺激への感じ方や必要な補助は子どもによって異なる。障害を扱う内容という理由だけで負担Cにはしない。",
+        "source": "https://www.inclusion-art.jp/archive/interactive/2026/20261010-390.html"
+      }
     },
     {
       "id": "legacy-gap-2026-10-10-zannen3",
@@ -825,7 +1126,14 @@
         "reservation": "pass"
       },
       "corrections": {},
-      "note": "レガシー照合で未収載を検知。公式ページで対象週末の開催を確認して追加。（2026-10-20ローリング引継再確認）サンシャイン水族館公式で3月13日～11月23日、展示開催期間を確認。休業日・営業時間は公式案内を参照。"
+      "note": "レガシー照合で未収載を検知。公式ページで対象週末の開催を確認して追加。（2026-10-20ローリング引継再確認）サンシャイン水族館公式で3月13日～11月23日、展示開催期間を確認。休業日・営業時間は公式案内を参照。",
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "A",
+        "to": "A",
+        "reason": "子どもに親しまれる本と本物の生き物の生態を見比べ、親子で驚きや発見を楽しめる。 展示観察が中心で触る体験とは案内されていない。料金とチケットの条件は詳細案内の確認が必要。",
+        "source": "https://sunshinecity.jp/aquarium/event_performance/event/entry-36530.html"
+      }
     },
     {
       "id": "official-2026-suginami-festa",
@@ -843,7 +1151,14 @@
       },
       "corrections": {},
       "note": "2026-10-20公式照合: 2026年11月7・8日、桃井原っぱ公園。主催者掲載のステージ・キッズタウン参加費で確認。。全体会場は当日来場。各体験の参加・受付条件は公式案内を確認。",
-      "review_note": "2026-10-27 official municipality/organizer detail page re-reviewed for exact date, place and participation unit; unknown secondary details retained unknown."
+      "review_note": "2026-10-27 official municipality/organizer detail page re-reviewed for exact date, place and participation unit; unknown secondary details retained unknown.",
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "A",
+        "to": "A",
+        "reason": "子どもの仕事体験や初心者でも参加できるスポーツがあり、自分で役割や動きを試せる。 キッズタウン300円・パルクール500円など一部有料。混雑や体験ごとの受付・終了時刻に配慮が必要。",
+        "source": "https://www.sugifes.com/event/"
+      }
     },
     {
       "id": "official-2026-yayoi-fukusaku",
@@ -861,7 +1176,14 @@
       },
       "corrections": {},
       "note": "2026-10-20公式照合: 中野区社協公開の主催施設告知で11月7日、10:30～14:00、弥生町4-36-15、入場無料と申込不要確認。。申込不要。",
-      "review_note": "2026-10-27 official municipality/organizer detail page re-reviewed for exact date, place and participation unit; unknown secondary details retained unknown."
+      "review_note": "2026-10-27 official municipality/organizer detail page re-reviewed for exact date, place and participation unit; unknown secondary details retained unknown.",
+      "assessment_review": {
+        "reviewed_on": "2026-11-15",
+        "from": "A",
+        "to": "A",
+        "reason": "児童館の魚つり・吹き矢、輪投げ・ボウリング・スライム作りを子どもが体験できる。 児童館館庭は午前中のみ。無料遊びと100円のくじ等は区別し、一部体験は人数制限あり。",
+        "source": "https://yayoi-fukusakumatsuri.wepage.com"
+      }
     },
     {
       "id": "official-2026-shirasagi-stamp",
@@ -879,7 +1201,14 @@
       },
       "corrections": {},
       "note": "2026-10-20公式照合: 中野区社会福祉協議会の公開案内で11月7日14〜16時、無料、しらさぎ桜苑受付、申込締切11月3日。。電話・申し込みフォームで事前申込。締切11月3日（火・祝）。",
-      "review_note": "2026-10-27 official municipality/organizer detail page re-reviewed for exact date, place and participation unit; unknown secondary details retained unknown."
+      "review_note": "2026-10-27 official municipality/organizer detail page re-reviewed for exact date, place and participation unit; unknown secondary details retained unknown.",
+      "assessment_review": {
+        "reviewed_on": "2026-11-15",
+        "from": "A",
+        "to": "A",
+        "reason": "親子を明示した地域のまち歩きで、ゆかりのスポットのスタンプ集めとミッションに子どもが参加できる。 申込締切は11/3で終了。11/7 14〜16時・最終受付15:30、屋外で小雨決行・荒天中止。移動距離・対象年齢の明記はない。",
+        "source": "https://nakanoshakyo.com/nakanoinfo/event/result/?did=14585"
+      }
     },
     {
       "id": "official-2026-nihonbashi-komichi",
@@ -897,7 +1226,14 @@
       },
       "corrections": {},
       "note": "2026-10-20公式照合: 日本橋北詰商店会の制作会社公式案内で10月1日～11月30日、無料・予約不要、案内所受付を確認。。予約不要。日本橋案内所で謎解き用紙を受け取る。",
-      "review_note": "2026-10-27 official municipality/organizer detail page re-reviewed for exact date, place and participation unit; unknown secondary details retained unknown."
+      "review_note": "2026-10-27 official municipality/organizer detail page re-reviewed for exact date, place and participation unit; unknown secondary details retained unknown.",
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "A",
+        "to": "A",
+        "reason": "商店街の謎を親子で相談して解き、歩きながら日本橋の街を発見できる無料ラリー。 90〜120分が目安で読み解き・歩行の負担はある。幼児は保護者の手助けが必要で、買い物券は数量限定。",
+        "source": "https://www.keepallsmiles.com/komichi2026"
+      }
     },
     {
       "id": "official-2026-haneda-museum",
@@ -915,7 +1251,14 @@
       },
       "corrections": {},
       "note": "2026-10-20公式照合: 大田区観光協会公式の2026開催情報で9月5日～11月29日、羽田イノベーションシティ Zone C 2Fと11月28〜29日の併催日程を確認。。展示観覧は原則自由。ラジオ工作など一部関連プログラムは予約制。",
-      "review_note": "2026-10-27 official municipality/organizer detail page re-reviewed for exact date, place and participation unit; unknown secondary details retained unknown."
+      "review_note": "2026-10-27 official municipality/organizer detail page re-reviewed for exact date, place and participation unit; unknown secondary details retained unknown.",
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "A",
+        "to": "B",
+        "reason": "航空写真や資料を見比べ、飛行機好きの親子が羽田空港の歴史を学べる。 展示本体と特定日の工作・関連催事は別。普段の観覧で必ず実技体験できるとは判断しない。",
+        "source": "https://www.o-2.jp/en/event/hasmhicity2026/"
+      }
     },
     {
       "id": "ongoing-20261107-v15-97ee0aaed408",
@@ -947,7 +1290,14 @@
           "source": "https://www.neribun.or.jp/event/detail_m.cgi?id=202608151786784919"
         }
       },
-      "review_evidence_url": "https://www.neribun.or.jp/event/detail_m.cgi?id=202608151786784919"
+      "review_evidence_url": "https://www.neribun.or.jp/event/detail_m.cgi?id=202608151786784919",
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "C",
+        "to": "B",
+        "reason": "絵や表現の変身を見比べ、親子で想像や作品の物語を話し合う鑑賞の機会。 怪物・仮面・戦争の記憶に関わる表現を含み、怖さへの感じ方や解説への理解に配慮したい。子ども専用の制作企画ではない。",
+        "source": "https://www.neribun.or.jp/event/detail_m.cgi?id=202608151786784919"
+      }
     },
     {
       "id": "ongoing-20261107-v15-daa813b5a665",
@@ -964,7 +1314,14 @@
         "official_url": "pass"
       },
       "corrections": {},
-      "note": "2026-10-20主催/自治体再確認: 主催者11月イベント一覧とイベント記事の大見出しは11/1～30・毎日予約不要。記事内旧10月開催概要は内部矛盾のため注意点として残す。 ※公式個別ページの開催概要欄は旧10月日付が残存。公式一覧と個別見出しを優先し、現地日程確認を推奨。"
+      "note": "2026-10-20主催/自治体再確認: 主催者11月イベント一覧とイベント記事の大見出しは11/1～30・毎日予約不要。記事内旧10月開催概要は内部矛盾のため注意点として残す。 ※公式個別ページの開催概要欄は旧10月日付が残存。公式一覧と個別見出しを優先し、現地日程確認を推奨。",
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "A",
+        "to": "A",
+        "reason": "小さな子どもがメニューを選び、10〜30分で作って持ち帰れる予約不要の制作体験。 有料でアクリルチャーム1200円〜、スクイーズ550円〜など。待ち時間が発生する場合があり、未就学児は保護者同伴。",
+        "source": "https://www.imaginus-suginami.jp/events/2026/10/01/11852/"
+      }
     },
     {
       "id": "nerima-forest-20261108-nakanomiya",
@@ -981,7 +1338,14 @@
         "official_url": "pass"
       },
       "corrections": {},
-      "note": "2026-09-30更新の練馬区公式表。写真は企画固有と確認できないため使用しない。"
+      "note": "2026-09-30更新の練馬区公式表。写真は企画固有と確認できないため使用しない。",
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "A",
+        "to": "A",
+        "reason": "竹林で輪投げや宝探しを楽しみ、子どもが自然の中で遊びを選べるまつり。 雨天中止など天候条件と屋外の足元に配慮が必要。一部有料の企画がある。",
+        "source": "https://www.city.nerima.tokyo.jp/kurashi/shigoto/midori/shokai/nerimanomori.html"
+      }
     }
   ],
   "summary": {

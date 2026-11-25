@@ -1,0 +1,113 @@
+[
+  {
+    "id": "evidence2-20261213-minnano-kitchen",
+    "ward": "中野区",
+    "name": "みんなのキッチン（親子食堂）",
+    "url": "https://calendar.google.com/calendar/ical/kodomohot.nakano%40gmail.com/public/basic.ics",
+    "official_url": "https://calendar.google.com/calendar/ical/kodomohot.nakano%40gmail.com/public/basic.ics",
+    "source": "https://calendar.google.com/calendar/ical/kodomohot.nakano%40gmail.com/public/basic.ics",
+    "image": "",
+    "period": "12/13",
+    "date_start": "2026-12-13",
+    "date_end": "2026-12-13",
+    "time": "11:30〜13:00",
+    "venue": "中部すこやか福祉センター 仲町ホール（中央3-19-1）",
+    "price": "子ども無料、大人300円",
+    "description": "みんなのカフェ運営会による親子食堂。会食・居場所の活動。 対象：親子食堂。細かな対象年齢は未記載。 事前申込不要。食物アレルギー対応なし。主催ネットワークの公開カレンダーで変更・休止を確認。",
+    "categories": [
+      "親子・地域体験"
+    ],
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "子どもを対象に含む親子食堂で、一緒に食事をしながら地域の人と交流できる。 食事・交流が中心で、遊びや制作体験は未確認。食物アレルギーには対応していない。公開カレンダーの毎月第2日曜の継続予定に基づき、来場前に変更・休止を確認。",
+      "axes": {
+        "child_target": {
+          "grade": "A",
+          "reason": "親子食堂。細かな対象年齢は未記載。"
+        },
+        "interactivity": {
+          "grade": "B",
+          "reason": "子どもを対象に含む親子食堂で、一緒に食事をしながら地域の人と交流できる。"
+        },
+        "age_fit": {
+          "grade": "B",
+          "reason": "親子食堂。細かな対象年齢は未記載。 食事・交流が中心で、遊びや制作体験は未確認。食物アレルギーには対応していない。公開カレンダーの毎月第2日曜の継続予定に基づき、来場前に変更・休止を確認。"
+        },
+        "stay_flexibility": {
+          "grade": "unknown",
+          "reason": "途中入退場・滞在時間の自由度は、明記された場合を除き要確認。"
+        },
+        "burden": {
+          "grade": "B",
+          "reason": "食物アレルギーには対応していない。会場設備・混雑の記載は未確認。"
+        },
+        "cost": {
+          "grade": "B",
+          "reason": "子ども無料、大人300円"
+        },
+        "reservation": {
+          "grade": "A",
+          "reason": "事前申込不要。食物アレルギー対応なし。主催ネットワークの公開カレンダーで変更・休止を確認。"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "子どもを対象に含む親子食堂で、一緒に食事をしながら地域の人と交流できる。"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-15",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "child_program",
+        "child_activity_confirmed": false,
+        "strengths": [
+          "子どもを対象に含む親子食堂で、一緒に食事をしながら地域の人と交流できる。"
+        ],
+        "limitations": [
+          "食事・交流が中心で、遊びや制作体験は未確認。食物アレルギーには対応していない。公開カレンダーの毎月第2日曜の継続予定に基づき、来場前に変更・休止を確認。"
+        ],
+        "grade_comparison": "総合B：子どもを対象に含む親子食堂で、一緒に食事をしながら地域の人と交流できる。 食事・交流が中心で、遊びや制作体験は未確認。食物アレルギーには対応していない。公開カレンダーの毎月第2日曜の継続予定に基づき、来場前に変更・休止を確認。",
+        "unsupported_axes": [
+          "stay_flexibility"
+        ],
+        "evidence": [
+          {
+            "url": "https://calendar.google.com/calendar/ical/kodomohot.nakano%40gmail.com/public/basic.ics",
+            "quote": " 東京都中野区中央３丁目１９−１ 中部すこやか福祉センター SEQUENCE: 2 STATUS: CONFIRMED SUMMARY: みんなのカフェ運営会「みんなのキッチン」（会食：親子食堂）/11:30-13:00 TRANSP: OPAQUE",
+            "checked_at": "2026-11-15T02:57:43.212566+00:00",
+            "sha256": "0894484ddfd6b836057b5ac0184a0de37b741b14f20ef93f028bdf6b8391865f"
+          }
+        ]
+      }
+    },
+    "reservation": {
+      "required": false,
+      "note": "事前申込不要。食物アレルギー対応なし。主催ネットワークの公開カレンダーで変更・休止を確認。"
+    },
+    "indoor_outdoor": "",
+    "ai": {
+      "checked_at": "2026-11-15",
+      "confidence": "high",
+      "discovery_query": "根拠待ち候補19を、主催ネットワーク公式サイトの埋込公開カレンダー・明示された継続規則と例外日で照合。既存603個票との重複なし。"
+    },
+    "discovery_sources": [
+      {
+        "channel": "ai_cross_search",
+        "kind": "official_body_review",
+        "url": "https://calendar.google.com/calendar/ical/kodomohot.nakano%40gmail.com/public/basic.ics"
+      }
+    ]
+  }
+]

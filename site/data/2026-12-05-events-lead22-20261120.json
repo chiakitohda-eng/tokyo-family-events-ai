@@ -1,0 +1,292 @@
+[
+  {
+    "id": "verified-20261205-nerima-chihiro-warabeuta",
+    "ward": "練馬区",
+    "name": "わらべうたあそび（ちひろ美術館・東京）",
+    "url": "https://chihiro.jp/tokyo/events/94213/",
+    "official_url": "https://chihiro.jp/tokyo/events/94213/",
+    "source": "https://chihiro.jp/tokyo/events/94213/",
+    "image": "",
+    "period": "12/5(土)",
+    "date_start": "2026-12-05",
+    "date_end": "2026-12-05",
+    "time": "11:00〜11:40",
+    "venue": "ちひろ美術館・東京（練馬区下石神井4-7-2）",
+    "price": "1組500円（入館料別。子ども無料）",
+    "description": "リズムにあわせて体を動かしたり、声を出して歌ったりする、0〜2歳児と保護者のための「わらべうた」あそび。10組20名で要事前予約。",
+    "categories": [
+      "音楽",
+      "乳幼児",
+      "美術館"
+    ],
+    "indoor_outdoor": "屋内",
+    "reservation": {
+      "required": true,
+      "note": "要事前予約（11/5 10時から受付）。10組20名。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "0〜2歳児と保護者が、リズムに合わせて体を動かし、わらべうたを歌って楽しむ。参加費は1組500円で、10組限定の要事前予約。",
+      "axes": {
+        "child_target": {
+          "grade": "A",
+          "reason": "対象が0〜2歳児と保護者と明記された乳幼児向けのプログラム"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "体を動かして歌うあそびに参加できる"
+        },
+        "age_fit": {
+          "grade": "A",
+          "reason": "対象が0〜2歳児と明記"
+        },
+        "stay_flexibility": {
+          "grade": "B",
+          "reason": "11:00〜11:40の短い1回のみ"
+        },
+        "burden": {
+          "grade": "B",
+          "reason": "定員10組で、事前予約が必要"
+        },
+        "cost": {
+          "grade": "B",
+          "reason": "1組500円と入館料が別にかかる"
+        },
+        "reservation": {
+          "grade": "C",
+          "reason": "要事前予約で定員が少ない"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "親子で歌と体を動かすあそびを楽しめる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-20",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "child_program",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "0〜2歳の親子向け",
+          "短時間で参加しやすい"
+        ],
+        "limitations": [
+          "10組限定の要事前予約",
+          "入館料が別にかかる"
+        ],
+        "grade_comparison": "総合B：0〜2歳の親子に合う内容だが、10組限定の要事前予約で入館料も別にかかる。",
+        "unsupported_axes": [],
+        "evidence": [
+          {
+            "url": "https://chihiro.jp/tokyo/events/94213/",
+            "quote": "2026年12月5日(土)11:00-11:40",
+            "checked_at": "2026-11-20",
+            "sha256": "8684daf79cf3c058d6fe8ac5d987fe0ccdfb6e3b0290c9d9e736d966be067755",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://chihiro.jp/tokyo/events/94213/",
+            "quote": "0～2歳児と保護者【定員】1",
+            "checked_at": "2026-11-20",
+            "sha256": "05ced3981352ad852f0754734e1d92d7ecabebdbc8a1c933f8a725c5d1366bf5",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://chihiro.jp/tokyo/events/94213/",
+            "quote": "10組20名【参加費】1組5",
+            "checked_at": "2026-11-20",
+            "sha256": "b08f26c6564753f0e99f1c4986ecbccca55d008489b6b872778d821fe73d7794",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://chihiro.jp/tokyo/events/94213/",
+            "quote": "1組500円（入館料別／子ども無料、保護者割引あり）",
+            "checked_at": "2026-11-20",
+            "sha256": "12d1d1ac98503bef36230b24258d55877ecabf07151385c8392fd596bde9777c",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://chihiro.jp/tokyo/events/94213/",
+            "quote": "要事前予約（11/5（木）10時より、公式サイト、TEL.03-3995-0612にて）",
+            "checked_at": "2026-11-20",
+            "sha256": "534fa0355a86f01e4edd6b021b40d133cbedea0823601ff72c1e2dc0986bc78c",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://chihiro.jp/tokyo/events/94213/",
+            "quote": "リズムにあわせて体を動かしたり、声を出して歌ったり。",
+            "checked_at": "2026-11-20",
+            "sha256": "396711d05bd01d0b43bfce294e2486efe03de9468877174603169ceadae1b30a",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-20",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  },
+  {
+    "id": "verified-20261205-bunkyo-noma-ornament",
+    "ward": "文京区",
+    "name": "親子でクリスマスオーナメントづくり（community space＆cafe noma）",
+    "url": "https://kodomo-smile.metro.tokyo.lg.jp/events/4258",
+    "official_url": "https://kodomo-smile.metro.tokyo.lg.jp/events/4258",
+    "source": "https://kodomo-smile.metro.tokyo.lg.jp/events/4258",
+    "image": "https://kodomo-smile.metro.tokyo.lg.jp/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MjE1OTIsInB1ciI6ImJsb2JfaWQifX0=--a840344de12fb85e3a6f78cce4d398c167d51af1/%E3%82%AF%E3%83%AA%E3%82%B9%E3%83%9E%E3%82%B9%E3%82%AA%E3%83%BC%E3%83%8A%E3%83%A1%E3%83%B3%E3%83%88%E3%82%AB%E3%83%90%E3%83%BC%E7%94%BB%E5%83%8F%E7%94%A8.png",
+    "period": "12/5(土)",
+    "date_start": "2026-12-05",
+    "date_end": "2026-12-05",
+    "time": "10:30〜11:30",
+    "venue": "community space＆cafe noma（文京区小石川2-6-9 101）",
+    "price": "1組1,000円",
+    "description": "カラフルな超軽量粘土を混ぜて形づくり、世界にひとつのクリスマスオーナメントを作る。幼児または小学生の親子が対象で、先着5組。",
+    "categories": [
+      "工作",
+      "クリスマス",
+      "体験・ワークショップ"
+    ],
+    "indoor_outdoor": "屋内",
+    "reservation": {
+      "required": true,
+      "note": "先着5組。参加方法の詳細は申込ページ。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "粘土を混ぜて形を作り、クリスマスのオーナメントを親子で作る。対象は幼児または小学生の親子で、先着5組・1組1,000円。",
+      "axes": {
+        "child_target": {
+          "grade": "A",
+          "reason": "幼児または小学生の親子を対象にした工作"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "粘土で自分の作品を作れる"
+        },
+        "age_fit": {
+          "grade": "A",
+          "reason": "対象が幼児または小学生と明記"
+        },
+        "stay_flexibility": {
+          "grade": "B",
+          "reason": "10:30〜11:30の1回のみ"
+        },
+        "burden": {
+          "grade": "B",
+          "reason": "先着5組と少人数で、会場はカフェスペース"
+        },
+        "cost": {
+          "grade": "B",
+          "reason": "1組1,000円"
+        },
+        "reservation": {
+          "grade": "B",
+          "reason": "先着5組の申込制"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "親子で作品を作って飾れる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-20",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "child_program",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "親子で作って持ち帰れる",
+          "小さな子も参加できる"
+        ],
+        "limitations": [
+          "先着5組と定員が少ない",
+          "開催は10:30〜11:30の1回のみ"
+        ],
+        "grade_comparison": "総合B：幼児から小学生の親子で作品を作れるが、先着5組と定員が少なく1回のみ。",
+        "unsupported_axes": [],
+        "evidence": [
+          {
+            "url": "https://kodomo-smile.metro.tokyo.lg.jp/events/4258",
+            "quote": "2026年12月5日10：30～11：30",
+            "checked_at": "2026-11-20",
+            "sha256": "22f095a6ef801ba4c82d28cd9aa8e7ab7fb45319285dcac8903c003643701bb0",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://kodomo-smile.metro.tokyo.lg.jp/events/4258",
+            "quote": "対象：幼児～小学生の親子参加費：1組1,000円",
+            "checked_at": "2026-11-20",
+            "sha256": "18e308c6686589e19ecc2c14f24128337695f26b5a39f78475c0deac7214a409",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://kodomo-smile.metro.tokyo.lg.jp/events/4258",
+            "quote": "幼児または小学生の親子開催エ",
+            "checked_at": "2026-11-20",
+            "sha256": "abf36aab0507f90583b68c7dfee5a4b79585cd6351786af1185806a226f4b15f",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://kodomo-smile.metro.tokyo.lg.jp/events/4258",
+            "quote": "communityspace＆cafenoma",
+            "checked_at": "2026-11-20",
+            "sha256": "5de86beec746014a20d0101e06f68cd1081af601adcd0a630e931a1a2b23889e",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://kodomo-smile.metro.tokyo.lg.jp/events/4258",
+            "quote": "先着５組様お申し込みの詳細は",
+            "checked_at": "2026-11-20",
+            "sha256": "1187ffa75e93997a22b6710bb0b79e4b7c3d235c1ee90069556f2bc940d8fe59",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-20",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  }
+]

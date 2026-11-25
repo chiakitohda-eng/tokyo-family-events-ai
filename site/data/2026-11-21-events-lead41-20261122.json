@@ -1,0 +1,136 @@
+[
+  {
+    "id": "verified-20261121-tachikawa-greensprings-illumination-2026",
+    "ward": "立川市",
+    "name": "GREEN SPRINGS ILLUMINATION／2026 たちかわイルミネーション（GREEN SPRINGS）",
+    "url": "https://greensprings.jp/event/10991/",
+    "official_url": "https://greensprings.jp/event/10991/",
+    "source": "https://greensprings.jp/event/10991/",
+    "image": "https://greensprings.jp/wp/wp-content/uploads/2024/11/mk_20240105_2136_rs-scaled.jpg",
+    "period": "〜2/14(日)の毎日（11/1から開催中）",
+    "date_start": "2026-11-21",
+    "date_end": "2027-02-14",
+    "time": "点灯時間は公式ページに記載なし",
+    "venue": "GREEN SPRINGS 2F 街区内（立川市緑町3-1）",
+    "price": "公式ページに観覧料の記載なし（要確認）",
+    "description": "立川のGREEN SPRINGSで、エントランスから芝生広場まで木々や空中のカラフルな光でライトアップする冬のイルミネーション。会期は2027年2月14日まで（芝生広場のみ11/3から）。隣接するサンサンロードの「2026 たちかわイルミネーション」（約60万球、〜2027/1/17）と連携している。",
+    "categories": [
+      "まつり・イベント",
+      "自然・散歩"
+    ],
+    "indoor_outdoor": "屋外",
+    "reservation": {
+      "required": false,
+      "note": "申込・予約の記載なし。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "立川のGREEN SPRINGSで2027年2月14日まで続く冬のイルミネーション。エントランスから芝生広場まで光で彩られ、家族で夜の散歩ができる。点灯時間と観覧料は公式ページに記載がない。",
+      "axes": {
+        "child_target": {
+          "grade": "B",
+          "reason": "対象の限定はなく、家族で見て歩ける"
+        },
+        "interactivity": {
+          "grade": "C",
+          "reason": "見て歩く内容が中心"
+        },
+        "age_fit": {
+          "grade": "B",
+          "reason": "年齢の限定はない"
+        },
+        "stay_flexibility": {
+          "grade": "A",
+          "reason": "期間が長く、好きな時間に立ち寄れる"
+        },
+        "burden": {
+          "grade": "B",
+          "reason": "屋外のため、夜間の寒さと帰りの時間に注意"
+        },
+        "cost": {
+          "grade": "unknown",
+          "reason": "公式ページに観覧料の記載がない"
+        },
+        "reservation": {
+          "grade": "A",
+          "reason": "申込・予約の記載なし"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "冬の夜に家族でイルミネーションを楽しめる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-22",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "all_ages",
+        "child_activity_confirmed": false,
+        "strengths": [
+          "期間が長く、好きな時間に立ち寄れる",
+          "隣の「たちかわイルミネーション」と合わせて回れる"
+        ],
+        "limitations": [
+          "点灯時間と観覧料が公式ページに記載がない",
+          "屋外で夜間のため、防寒と帰りの時間に注意"
+        ],
+        "grade_comparison": "総合B：長期間開催の冬のイルミネーション。体験型ではなく、点灯時間と料金は要確認。",
+        "unsupported_axes": [
+          "cost"
+        ],
+        "evidence": [
+          {
+            "url": "https://greensprings.jp/event/10991/",
+            "quote": "GREEN SPRINGS ILLUMINATION／2026 たちかわイルミネーション",
+            "checked_at": "2026-11-22",
+            "sha256": "d0f3f5983eba29bc8cc782438e96ba2188b8d5e25895dce0631a87cd71dc6d8e",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-22にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://greensprings.jp/event/10991/",
+            "quote": "エントランスから芝生広場まで、鮮やかにライトアップされた木々や空中で輝くカラフルな光が華やかに彩ります。",
+            "checked_at": "2026-11-22",
+            "sha256": "603cc3ad6074f2f241ac90eed44198935eca68e01085f59968116782b73f2c11",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-22にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://greensprings.jp/event/10991/",
+            "quote": "会期：2026年11月1日(日)〜 2027年2月14日(日)※芝生広場のみ11月3日(火)～",
+            "checked_at": "2026-11-22",
+            "sha256": "aea05578a07313bb86ed5ec44705a7e01f7b603551a2fe6a20b51176267d0829",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-22にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://greensprings.jp/event/10991/",
+            "quote": "場所：GREEN SPRINGS 2F 街区内",
+            "checked_at": "2026-11-22",
+            "sha256": "601d2fae3f34e8ea0659a9b20e1d23d02e59e4a07b66ef91fc1c963a121ea68c",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-22にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-22",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  }
+]

@@ -1,0 +1,126 @@
+[
+  {
+    "id": "verified-20261121-bunkyo-dome-cinema-christmas-20261219",
+    "ward": "文京区",
+    "name": "Tokyo Dome City Cinema Christmas 2026（東京ドームシティ）",
+    "url": "https://www.tokyo-dome.co.jp/illumination/event/christmas",
+    "official_url": "https://www.tokyo-dome.co.jp/illumination/event/christmas",
+    "source": "https://www.tokyo-dome.co.jp/illumination/event/christmas",
+    "image": "https://www.tokyo-dome.co.jp/files/tdc/202610/illumination/img_event_cinema.jpg",
+    "period": "12/19(土)・20(日)",
+    "date_start": "2026-12-19",
+    "date_end": "2026-12-20",
+    "time": "サンタグリーティング12:30・15:30・18:00（各日3回）、焚き火演出とマシュマロ焼き17:00〜21:00",
+    "venue": "東京ドームシティ ラクーアガーデン（芝生広場）（文京区後楽1-3-61）",
+    "price": "無料（サンタグリーティングは、東京ドームシティの店舗で税込2,500円以上の購入が条件）",
+    "description": "芝生広場で楽しむ、クリスマスの屋外シネマイベント。『キャット・イン・ザ・ハット』のフォトスポットや関連映像の上映のほか、名作映画（パディントンなど）を上映する。サンタグリーティング（各回先着60組）と、焚き火を囲むマシュマロ焼き体験もある。雨天決行・荒天中止。",
+    "categories": [
+      "まつり・イベント",
+      "舞台・音楽"
+    ],
+    "indoor_outdoor": "屋外",
+    "reservation": {
+      "required": false,
+      "note": "観覧は予約の記載なし。サンタグリーティングは、各回30分前に会場で整理券を配布（店舗で2,500円以上の購入が条件）。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "無料の屋外映画とサンタグリーティングなどがある、東京ドームシティのクリスマスイベント。冬の夜の屋外で、寒さに注意。",
+      "axes": {
+        "child_target": {
+          "grade": "B",
+          "reason": "家族向けの映画（パディントンなど）を上映。対象はどなたでも"
+        },
+        "interactivity": {
+          "grade": "B",
+          "reason": "映画を見たり、焚き火やマシュマロ焼きを楽しんだりできる"
+        },
+        "age_fit": {
+          "grade": "B",
+          "reason": "年齢の限定はない"
+        },
+        "stay_flexibility": {
+          "grade": "A",
+          "reason": "2日間、好きな時間に立ち寄れる"
+        },
+        "burden": {
+          "grade": "B",
+          "reason": "冬の夜の屋外で、寒さと混雑に注意"
+        },
+        "cost": {
+          "grade": "A",
+          "reason": "観覧は無料（サンタグリーティングは店舗で2,500円以上の購入が条件）"
+        },
+        "reservation": {
+          "grade": "A",
+          "reason": "観覧に予約は不要"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "遊園地やショッピングと合わせて、クリスマスの雰囲気を楽しめる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-21",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "all_ages",
+        "child_activity_confirmed": false,
+        "strengths": [
+          "映画やフォトスポットを無料で楽しめる",
+          "焚き火とマシュマロ焼きなど、冬ならではの体験がある"
+        ],
+        "limitations": [
+          "屋外で冬の夜は寒い",
+          "サンタグリーティングは購入条件と整理券が必要"
+        ],
+        "grade_comparison": "総合B：無料で楽しめる屋外のクリスマス映画イベント。寒さ対策が必要。",
+        "unsupported_axes": [],
+        "evidence": [
+          {
+            "url": "https://www.tokyo-dome.co.jp/illumination/event/christmas",
+            "quote": "2026年12月19日(土)・20日(日)無料ラクーアガーデン（芝生広場）",
+            "checked_at": "2026-11-21",
+            "sha256": "7db6dc4e44769566454f119bb368c721dc4082f7da0cc1d697a2061b7bdc3915",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.tokyo-dome.co.jp/illumination/event/christmas",
+            "quote": "ラクーアガーデンの芝生広場にて、屋外で映画を楽しめるシネマイベントを開催します。",
+            "checked_at": "2026-11-21",
+            "sha256": "f03d6434ddbc0543642c7a7e518e5d140c4417c95f3b7c79acf5562b9ae51ab1",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.tokyo-dome.co.jp/illumination/event/christmas",
+            "quote": "クリスマスの特別な夜を彩る焚火台を設置。",
+            "checked_at": "2026-11-21",
+            "sha256": "7a30e1aa731a12d1f1a4bf60e4da3fcc26539657dbfe6f0223987a2179862fa8",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-21",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  }
+]

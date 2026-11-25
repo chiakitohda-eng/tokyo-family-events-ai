@@ -1,0 +1,136 @@
+[
+  {
+    "id": "verified-20261128-musashino-inokashira-zoo-ochiba-oekaki-2026",
+    "ward": "武蔵野市",
+    "name": "植物担当職員による「落ち葉でお絵描き」（井の頭自然文化園）",
+    "url": "https://www.tokyo-zoo.net/inokashira/news/13683/index.html",
+    "official_url": "https://www.tokyo-zoo.net/inokashira/news/13683/index.html",
+    "source": "https://www.tokyo-zoo.net/inokashira/news/13683/index.html",
+    "image": "https://www.tokyo-zoo.net/image/inokashira/news/11011/29517_01.jpg",
+    "period": "11/28(土)",
+    "date_start": "2026-11-28",
+    "date_end": "2026-11-28",
+    "time": "14:00〜14:30",
+    "venue": "井の頭自然文化園 動物園（本園）資料館2階 集会室（武蔵野市御殿山1-17-6）",
+    "price": "公式ページに金額の明記なし（来園前に要確認）",
+    "description": "色とりどりの落ち葉を使って絵を描く、植物担当職員によるイベント。未就学児から小学校低学年のお子さんでも楽しめる。定員は25組程度。",
+    "categories": [
+      "体験・ワークショップ",
+      "公園・自然"
+    ],
+    "indoor_outdoor": "屋内",
+    "reservation": {
+      "required": false,
+      "note": "申込の記載なし。定員は25組程度。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "未就学児から小学校低学年でも楽しめる、落ち葉を使ったお絵描き。30分で終わり、屋内で行う。定員は25組程度で、料金は公式ページに金額の記載がない。",
+      "axes": {
+        "child_target": {
+          "grade": "A",
+          "reason": "未就学児から小学校低学年が楽しめる内容"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "落ち葉を使って自分で絵を描く"
+        },
+        "age_fit": {
+          "grade": "A",
+          "reason": "未就学児から小学校低学年と、対象がはっきりしている"
+        },
+        "stay_flexibility": {
+          "grade": "C",
+          "reason": "14:00〜14:30の30分だけ"
+        },
+        "burden": {
+          "grade": "B",
+          "reason": "屋内で30分と短いが、定員は25組程度"
+        },
+        "cost": {
+          "grade": "unknown",
+          "reason": "公式ページに金額の記載がない"
+        },
+        "reservation": {
+          "grade": "B",
+          "reason": "申込の記載はないが、定員は25組程度"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "自然の材料で、動物園の資料館で絵を楽しめる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-21",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "child_program",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "未就学児から小学校低学年が楽しめる",
+          "屋内で、落ち葉を使って自由に描ける"
+        ],
+        "limitations": [
+          "14:00〜14:30の30分だけで、定員は25組程度",
+          "料金は公式ページに記載がなく、来園前の確認が必要"
+        ],
+        "grade_comparison": "総合B：幼児から低学年向けの短い自然工作。時間が短く、定員があり、料金は要確認。",
+        "unsupported_axes": [
+          "cost"
+        ],
+        "evidence": [
+          {
+            "url": "https://www.tokyo-zoo.net/inokashira/news/13683/index.html",
+            "quote": "色とりどりの落ち葉を使って、お絵描きをするイベントです。",
+            "checked_at": "2026-11-21",
+            "sha256": "736a350907f6fe1444ddca28847a3bb54f4779bf2df7b7642f13ec397653cfa1",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.tokyo-zoo.net/inokashira/news/13683/index.html",
+            "quote": "未就学児から小学校低学年のお子さんでも楽しめます。",
+            "checked_at": "2026-11-21",
+            "sha256": "cdca7f090b8d6f9b804adaae1396705c4cd35e0129bea462856c5b996e90ebab",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.tokyo-zoo.net/inokashira/news/13683/index.html",
+            "quote": "2026年11月28日（土）14時〜14時30分",
+            "checked_at": "2026-11-21",
+            "sha256": "8357c648e543abd75a349528612d37fd611f5c1bdf88b6af0b37503f772a8e6a",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.tokyo-zoo.net/inokashira/news/13683/index.html",
+            "quote": "動物園（本園）資料館2階集会室",
+            "checked_at": "2026-11-21",
+            "sha256": "8509ad852b42bbc34fa06a511299dcd63df3e34d5c52d31a5c466c1502a80eee",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-21",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  }
+]

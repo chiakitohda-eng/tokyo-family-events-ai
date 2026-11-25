@@ -1,0 +1,282 @@
+[
+  {
+    "id": "verified-20261205-suginami-higashihara-xmas-market",
+    "ward": "杉並区",
+    "name": "大人も子供も楽しめるクリスマスマーケット（コミュニティふらっと東原）",
+    "url": "https://www.city.suginami.tokyo.jp/s020/event/28883.html",
+    "official_url": "https://www.city.suginami.tokyo.jp/s020/event/28883.html",
+    "source": "https://www.city.suginami.tokyo.jp/s020/event/28883.html",
+    "image": "",
+    "period": "12/5(土)",
+    "date_start": "2026-12-05",
+    "date_end": "2026-12-05",
+    "time": "10:30〜14:30",
+    "venue": "コミュニティふらっと東原（杉並区下井草1-23-23）",
+    "price": "一部有料",
+    "description": "ミニコンサート、クリスマスワークショップ、クリスマスゲーム、親子参加プログラム、雑貨・食品の販売がある多世代向けのクリスマスイベント。一部は事前申込が必要。",
+    "categories": [
+      "体験・ワークショップ",
+      "音楽・ステージ"
+    ],
+    "indoor_outdoor": "屋内",
+    "reservation": {
+      "required": null,
+      "note": "一部（親子参加型プログラム、ワークショップ等）は事前申し込みが必要。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "親子参加プログラムやクリスマスワークショップ、ゲームがある多世代向けのイベント。一部有料で、親子参加型プログラムなどは事前申込が必要。",
+      "axes": {
+        "child_target": {
+          "grade": "B",
+          "reason": "どなたでも参加でき、親子で参加するプログラムがある"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "ワークショップやゲーム、親子参加プログラムなどの参加型"
+        },
+        "age_fit": {
+          "grade": "unknown",
+          "reason": "対象年齢は公式案内に明記がない"
+        },
+        "stay_flexibility": {
+          "grade": "A",
+          "reason": "10時30分〜14時30分の間で参加できる"
+        },
+        "burden": {
+          "grade": "B",
+          "reason": "親子参加型プログラムやワークショップは事前申込が必要"
+        },
+        "cost": {
+          "grade": "B",
+          "reason": "一部有料"
+        },
+        "reservation": {
+          "grade": "B",
+          "reason": "一部のみ事前申込が必要"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "クリスマスの催しを家族で楽しめる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-19",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "child_program",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "親子参加プログラムとクリスマスワークショップ"
+        ],
+        "limitations": [
+          "一部有料",
+          "一部は事前申込が必要"
+        ],
+        "grade_comparison": "総合B：親子向けの内容があるが、一部有料で一部は事前申込が必要。",
+        "unsupported_axes": [
+          "age_fit"
+        ],
+        "evidence": [
+          {
+            "url": "https://www.city.suginami.tokyo.jp/s020/event/28883.html",
+            "quote": "開催日2026年12月5日（土曜日）開催時間午前10時30分から午後2時30分まで",
+            "checked_at": "2026-11-19",
+            "sha256": "54b5b79fe2d38d95b5579011ae446e0a3240d4f1aac4201c7680d7e647093c43",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "杉並区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.suginami.tokyo.jp/s020/event/28883.html",
+            "quote": "開催場所コミュニティふらっと東原杉並区下井草1-23-23",
+            "checked_at": "2026-11-19",
+            "sha256": "23c9eed86ca2134ebf54f3589d28f1b9d8c70423832293b9eb131f8e908c1e92",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "杉並区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.suginami.tokyo.jp/s020/event/28883.html",
+            "quote": "ミニコンサート、クリスマスワークショップ、クリスマスゲームなど、多世代が楽しめるクリスマスイベントです。",
+            "checked_at": "2026-11-19",
+            "sha256": "b0ca5a85cb57fb0e1a9f9ef3f4890c0e8e9a9a8a89ae2434f2a5c031aa35fcaf",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "杉並区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.suginami.tokyo.jp/s020/event/28883.html",
+            "quote": "クリスマスコンサート、親子で参加プログラム、ワークショップ、雑貨・食品の販売など。",
+            "checked_at": "2026-11-19",
+            "sha256": "afbe6b40c80238327d34a65cf2bba283e28fa0be5c4365366109482f6c0ead0d",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "杉並区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.suginami.tokyo.jp/s020/event/28883.html",
+            "quote": "一部事前申し込み必要（親子参加型プログラム、ワークショップ等）。",
+            "checked_at": "2026-11-19",
+            "sha256": "5b0e1fa1b601a04086f322d30639a8ac54e62f90d5def03568c4acc8a20e43a7",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "杉並区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-19",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  },
+  {
+    "id": "verified-20261206-suginami-bremen-concert",
+    "ward": "杉並区",
+    "name": "音楽と絵画とお話でつづるブレーメンの音楽隊（杉並公会堂）",
+    "url": "https://www.city.suginami.tokyo.jp/s030/event/28895.html",
+    "official_url": "https://www.city.suginami.tokyo.jp/s030/event/28895.html",
+    "source": "https://www.city.suginami.tokyo.jp/s030/event/28895.html",
+    "image": "",
+    "period": "12/6(日)",
+    "date_start": "2026-12-06",
+    "date_end": "2026-12-06",
+    "time": "11:00〜12:00／14:00〜15:00（2回公演）",
+    "venue": "杉並公会堂 小ホール（杉並区上荻1丁目23番15号）",
+    "price": "一般2,000円／中学生以下1,000円（1歳以下ひざ上無料）",
+    "description": "グリム童話「ブレーメンの音楽隊」を、フルート・バイオリン・電子ピアノの演奏と語りで届ける親子向けのコンサート。0歳から入場可。チケット制（定員160名）。",
+    "categories": [
+      "音楽・ステージ",
+      "絵本・お話"
+    ],
+    "indoor_outdoor": "屋内",
+    "reservation": {
+      "required": true,
+      "note": "チケット販売サイト（テケト）でのお申し込み。定員160名、申込順。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "グリム童話を演奏と語りで楽しむ家族向けのコンサート。0歳から入場できるが、チケット制で有料。",
+      "axes": {
+        "child_target": {
+          "grade": "A",
+          "reason": "0歳から入場できる、子ども向けの童話コンサート"
+        },
+        "interactivity": {
+          "grade": "B",
+          "reason": "主に鑑賞型のコンサート"
+        },
+        "age_fit": {
+          "grade": "A",
+          "reason": "0歳から入場可と明記（1歳以下はひざ上無料）"
+        },
+        "stay_flexibility": {
+          "grade": "B",
+          "reason": "各回1時間の2回公演"
+        },
+        "burden": {
+          "grade": "C",
+          "reason": "チケットの事前購入が必要"
+        },
+        "cost": {
+          "grade": "C",
+          "reason": "一般2,000円・中学生以下1,000円"
+        },
+        "reservation": {
+          "grade": "C",
+          "reason": "チケット販売サイトでの申込が必要（定員160名）"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "小さな子どもと一緒に童話の世界を楽しめる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-19",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "child_program",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "0歳から入場できる童話コンサート"
+        ],
+        "limitations": [
+          "有料のチケット制",
+          "定員160名"
+        ],
+        "grade_comparison": "総合B：0歳から楽しめるが、有料・チケット制で事前の購入が必要。",
+        "unsupported_axes": [],
+        "evidence": [
+          {
+            "url": "https://www.city.suginami.tokyo.jp/s030/event/28895.html",
+            "quote": "グリム童話「ブレーメンの音楽隊」。フルート、バイオリン、電子ピアノによる演奏と語りに加え、",
+            "checked_at": "2026-11-19",
+            "sha256": "b0b9dad9d4b2e5bb45bd62ad0b1c1bb9b45e315759fd856d2853dab6ef50c318",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "杉並区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.suginami.tokyo.jp/s030/event/28895.html",
+            "quote": "開催日2026年12月6日（日曜日）開催時間【午前の部】午前11時から正午【午後の部】午後2時から午後3時",
+            "checked_at": "2026-11-19",
+            "sha256": "770fe732dc768fbd8b869998767fc9eba984cf6690de53d4841c963be3a3cc8c",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "杉並区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.suginami.tokyo.jp/s030/event/28895.html",
+            "quote": "対象者どなたでも0歳から入場可",
+            "checked_at": "2026-11-19",
+            "sha256": "95fec12069ea2c441a27ff1d1c813d431838cc4b0e89e3b8cda0bdafa5f84343",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "杉並区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.suginami.tokyo.jp/s030/event/28895.html",
+            "quote": "開催場所杉並公会堂小ホール杉並区上荻1丁目23番15号",
+            "checked_at": "2026-11-19",
+            "sha256": "8912a4a1779df13a194b65859d96b2ebd0af42a39b1e0bce2e6651896d151ccf",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "杉並区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.suginami.tokyo.jp/s030/event/28895.html",
+            "quote": "一般：2,000円子ども（中学生以下）：1,000円1歳以下ひざ上無料",
+            "checked_at": "2026-11-19",
+            "sha256": "97a26f8257de7ebd9f17f5f8097f5ac8e669ef1b0c29acf0af855c0ad937ce85",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "杉並区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-19",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  }
+]

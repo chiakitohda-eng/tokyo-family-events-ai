@@ -1,0 +1,142 @@
+[
+  {
+    "id": "verified-20261206-kiyose-museum-theater6-sumikko",
+    "ward": "清瀬市",
+    "name": "ミュージアム・シアター6 映画「すみっコぐらし ツギハギ工場のふしぎなコ」（郷土博物館）",
+    "url": "https://www.city.kiyose.lg.jp/bunkasportskankou/bunka/kyoudo/1002770/1016841.html",
+    "official_url": "https://www.city.kiyose.lg.jp/bunkasportskankou/bunka/kyoudo/1002770/1016841.html",
+    "source": "https://www.city.kiyose.lg.jp/bunkasportskankou/bunka/kyoudo/1002770/1016841.html",
+    "image": "",
+    "period": "12/6(日)",
+    "date_start": "2026-12-06",
+    "date_end": "2026-12-06",
+    "time": "10:30〜（上映70分）",
+    "venue": "清瀬市郷土博物館 映像展示室",
+    "price": "無料（入場無料）",
+    "description": "劇場版アニメ「映画 すみっコぐらし ツギハギ工場のふしぎなコ」（70分）をDVDで上映する。映画鑑賞が初めてのお子さまも気軽に参加できる。申込不要で、直接会場へ。定員は40席程度。",
+    "categories": [
+      "舞台・音楽",
+      "まつり・イベント"
+    ],
+    "indoor_outdoor": "屋内",
+    "reservation": {
+      "required": false,
+      "note": "申込不要。直接会場へ。定員40席程度。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "子どもに人気のキャラクター映画「すみっコぐらし」を無料で上映する博物館の映画会。映画鑑賞が初めての子も歓迎で、申込不要。定員40席程度。",
+      "axes": {
+        "child_target": {
+          "grade": "B",
+          "reason": "対象はどなたでも。映画鑑賞が初めての子も歓迎と明記"
+        },
+        "interactivity": {
+          "grade": "C",
+          "reason": "映画の鑑賞が中心"
+        },
+        "age_fit": {
+          "grade": "B",
+          "reason": "年齢の限定はなく、70分の上映"
+        },
+        "stay_flexibility": {
+          "grade": "B",
+          "reason": "10:30からの上映1回（70分）"
+        },
+        "burden": {
+          "grade": "A",
+          "reason": "申込不要で、直接会場へ行く"
+        },
+        "cost": {
+          "grade": "A",
+          "reason": "入場無料"
+        },
+        "reservation": {
+          "grade": "A",
+          "reason": "申込不要（定員40席程度）"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "子ども向けのアニメ映画を無料で見られる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-21",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "all_ages",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "無料・申込不要で、子ども向けのアニメ映画を見られる",
+          "映画が初めての子も歓迎と明記"
+        ],
+        "limitations": [
+          "定員が40席程度で、満席の場合は入れない",
+          "映画の鑑賞が中心で、上映は70分"
+        ],
+        "grade_comparison": "総合B：無料・申込不要の子ども向け映画会。鑑賞中心で、定員が少ない。",
+        "unsupported_axes": [],
+        "evidence": [
+          {
+            "url": "https://www.city.kiyose.lg.jp/bunkasportskankou/bunka/kyoudo/1002770/1016841.html",
+            "quote": "令和8年度 ミュージアム・シアター6",
+            "checked_at": "2026-11-21",
+            "sha256": "0a2b6d52142871666bb3f9da6422168072234494dc54b7a6014277eabf92d133",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.kiyose.lg.jp/bunkasportskankou/bunka/kyoudo/1002770/1016841.html",
+            "quote": "開催日 2026年12月6日（日曜日） 開催時間 午前10時30分～ 開催場所 郷土博物館 映像展示室 ※直接会場へ 対象 どなたでも",
+            "checked_at": "2026-11-21",
+            "sha256": "d5975466b839df37cf111fedd2e117c5c90bed3d99ff24ca21bd12c5ee2a0bfe",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.kiyose.lg.jp/bunkasportskankou/bunka/kyoudo/1002770/1016841.html",
+            "quote": "『映画 すみっコぐらし ツギハギ工場のふしぎなコ 』70分",
+            "checked_at": "2026-11-21",
+            "sha256": "ab3fc46a630f63e60428f78400ae42a2911c223527e25fc2cd289cea08125774",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.kiyose.lg.jp/bunkasportskankou/bunka/kyoudo/1002770/1016841.html",
+            "quote": "映画鑑賞が初めてのお子さまも、ぜひお気軽にご参加ください。",
+            "checked_at": "2026-11-21",
+            "sha256": "a5aeae1c5c24aff92921331c9534fe1de8bd9054903b1af4cc8070dd87b3e31e",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.kiyose.lg.jp/bunkasportskankou/bunka/kyoudo/1002770/1016841.html",
+            "quote": "費用 不要 入場無料 定員 40席程度",
+            "checked_at": "2026-11-21",
+            "sha256": "64f16155bb0e8f10a40d4e988242c91d61ed14b02e9b7d854468f031b092a7a3",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-21",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  }
+]

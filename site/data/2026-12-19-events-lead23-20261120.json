@@ -1,0 +1,433 @@
+[
+  {
+    "id": "verified-20261219-toshima-hinemos-concert",
+    "ward": "豊島区",
+    "name": "ヒネモスが贈る、音楽のクリスマスプレゼント！（としま区民センター）",
+    "url": "https://www.toshima-mirai.or.jp/tabid216.html?pdid1=3603",
+    "official_url": "https://www.toshima-mirai.or.jp/tabid216.html?pdid1=3603",
+    "source": "https://www.toshima-mirai.or.jp/tabid216.html?pdid1=3603",
+    "image": "https://www.toshima-mirai.or.jp/Portals/0/images/performance/2612/WinterWonderLand_f-s.jpg",
+    "period": "12/19(土)",
+    "date_start": "2026-12-19",
+    "date_end": "2026-12-19",
+    "time": "14:00開演（13:30開場／15:30終演予定）",
+    "venue": "としま区民センター 8F 多目的ホール（豊島区東池袋1-20-10）",
+    "price": "おとな1,800円／こども（3歳〜小学生）500円（2歳以下無料）",
+    "description": "奇想天外おもちゃの楽隊「ヒネモス」による、0歳から楽しめるクリスマスコンサート。各回200名。チケットは発売中。",
+    "categories": [
+      "音楽",
+      "クリスマス",
+      "コンサート"
+    ],
+    "indoor_outdoor": "屋内",
+    "reservation": {
+      "required": true,
+      "note": "チケット制（としまチケットセンター等で発売中）。各回200名。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "12/19(土)開催。おもちゃや楽器、ガラクタで奏でるヒネモスのクリスマスコンサートで、0歳から入場できる。こどもは500円、2歳以下は無料。",
+      "axes": {
+        "child_target": {
+          "grade": "B",
+          "reason": "0歳から入場でき、こどもの料金も設定された公演（こども専用の公演ではない）"
+        },
+        "interactivity": {
+          "grade": "B",
+          "reason": "音楽公演を鑑賞して楽しむのが中心"
+        },
+        "age_fit": {
+          "grade": "A",
+          "reason": "対象が0歳からおとなまでと明記"
+        },
+        "stay_flexibility": {
+          "grade": "B",
+          "reason": "14:00開演で、終演は15:30ごろ"
+        },
+        "burden": {
+          "grade": "B",
+          "reason": "チケットが必要で、各回200名"
+        },
+        "cost": {
+          "grade": "B",
+          "reason": "おとな1,800円、こども500円"
+        },
+        "reservation": {
+          "grade": "B",
+          "reason": "チケット制"
+        },
+        "family_value": {
+          "grade": "A",
+          "reason": "0歳から家族そろってクリスマスの音楽を楽しめる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-20",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "all_ages",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "0歳から入場できる",
+          "こどもは500円と手頃"
+        ],
+        "limitations": [
+          "チケットの購入が必要",
+          "鑑賞が中心の公演"
+        ],
+        "grade_comparison": "総合B（12/19(土)）：0歳から家族で楽しめるクリスマス公演だが、チケット制で鑑賞が中心。",
+        "unsupported_axes": [],
+        "evidence": [
+          {
+            "url": "https://www.toshima-mirai.or.jp/tabid216.html?pdid1=3603",
+            "quote": "日程2026年12月19日(土曜)・20日(日曜)各日14時開演(13時30分開場／15時30分終演予定)",
+            "checked_at": "2026-11-20",
+            "sha256": "3a51d60fd9258bd1a17f32a676fc7335b2273c9e32fdbc7497b1d152c6a85809",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.toshima-mirai.or.jp/tabid216.html?pdid1=3603",
+            "quote": "対象0歳からおとなまで定員各",
+            "checked_at": "2026-11-20",
+            "sha256": "9ed642caae5ae0a71fc4ee6b18a6e6f88cd116e8cf2a2703002275b734bce1fa",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.toshima-mirai.or.jp/tabid216.html?pdid1=3603",
+            "quote": "定員各回200名場所としま区",
+            "checked_at": "2026-11-20",
+            "sha256": "4210dabbe1d533d363c1731aecee15a7cee620552828180f65188a155b12c27f",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.toshima-mirai.or.jp/tabid216.html?pdid1=3603",
+            "quote": "場所としま区民センター8F多目的ホール",
+            "checked_at": "2026-11-20",
+            "sha256": "1e0fb9526d19ced80fa28c5738d47f7ee38af504b64bb41aeb0c1ec113dfe12c",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.toshima-mirai.or.jp/tabid216.html?pdid1=3603",
+            "quote": "こども（3歳から小学生）※2歳以下は無料500円",
+            "checked_at": "2026-11-20",
+            "sha256": "32089156f786c77c354dbe51cb651d3675fa7c9af31ed7bbff4cd4b3d4b76e03",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-20",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  },
+  {
+    "id": "verified-20261220-toshima-hinemos-concert",
+    "ward": "豊島区",
+    "name": "ヒネモスが贈る、音楽のクリスマスプレゼント！（としま区民センター）",
+    "url": "https://www.toshima-mirai.or.jp/tabid216.html?pdid1=3603",
+    "official_url": "https://www.toshima-mirai.or.jp/tabid216.html?pdid1=3603",
+    "source": "https://www.toshima-mirai.or.jp/tabid216.html?pdid1=3603",
+    "image": "https://www.toshima-mirai.or.jp/Portals/0/images/performance/2612/WinterWonderLand_f-s.jpg",
+    "period": "12/20(日)",
+    "date_start": "2026-12-20",
+    "date_end": "2026-12-20",
+    "time": "14:00開演（13:30開場／15:30終演予定）",
+    "venue": "としま区民センター 8F 多目的ホール（豊島区東池袋1-20-10）",
+    "price": "おとな1,800円／こども（3歳〜小学生）500円（2歳以下無料）",
+    "description": "奇想天外おもちゃの楽隊「ヒネモス」による、0歳から楽しめるクリスマスコンサート。各回200名。チケットは発売中。",
+    "categories": [
+      "音楽",
+      "クリスマス",
+      "コンサート"
+    ],
+    "indoor_outdoor": "屋内",
+    "reservation": {
+      "required": true,
+      "note": "チケット制（としまチケットセンター等で発売中）。各回200名。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "12/20(日)開催。おもちゃや楽器、ガラクタで奏でるヒネモスのクリスマスコンサートで、0歳から入場できる。こどもは500円、2歳以下は無料。",
+      "axes": {
+        "child_target": {
+          "grade": "B",
+          "reason": "0歳から入場でき、こどもの料金も設定された公演（こども専用の公演ではない）"
+        },
+        "interactivity": {
+          "grade": "B",
+          "reason": "音楽公演を鑑賞して楽しむのが中心"
+        },
+        "age_fit": {
+          "grade": "A",
+          "reason": "対象が0歳からおとなまでと明記"
+        },
+        "stay_flexibility": {
+          "grade": "B",
+          "reason": "14:00開演で、終演は15:30ごろ"
+        },
+        "burden": {
+          "grade": "B",
+          "reason": "チケットが必要で、各回200名"
+        },
+        "cost": {
+          "grade": "B",
+          "reason": "おとな1,800円、こども500円"
+        },
+        "reservation": {
+          "grade": "B",
+          "reason": "チケット制"
+        },
+        "family_value": {
+          "grade": "A",
+          "reason": "0歳から家族そろってクリスマスの音楽を楽しめる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-20",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "all_ages",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "0歳から入場できる",
+          "こどもは500円と手頃"
+        ],
+        "limitations": [
+          "チケットの購入が必要",
+          "鑑賞が中心の公演"
+        ],
+        "grade_comparison": "総合B（12/20(日)）：0歳から家族で楽しめるクリスマス公演だが、チケット制で鑑賞が中心。",
+        "unsupported_axes": [],
+        "evidence": [
+          {
+            "url": "https://www.toshima-mirai.or.jp/tabid216.html?pdid1=3603",
+            "quote": "日程2026年12月19日(土曜)・20日(日曜)各日14時開演(13時30分開場／15時30分終演予定)",
+            "checked_at": "2026-11-20",
+            "sha256": "3a51d60fd9258bd1a17f32a676fc7335b2273c9e32fdbc7497b1d152c6a85809",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.toshima-mirai.or.jp/tabid216.html?pdid1=3603",
+            "quote": "対象0歳からおとなまで定員各",
+            "checked_at": "2026-11-20",
+            "sha256": "9ed642caae5ae0a71fc4ee6b18a6e6f88cd116e8cf2a2703002275b734bce1fa",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.toshima-mirai.or.jp/tabid216.html?pdid1=3603",
+            "quote": "定員各回200名場所としま区",
+            "checked_at": "2026-11-20",
+            "sha256": "4210dabbe1d533d363c1731aecee15a7cee620552828180f65188a155b12c27f",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.toshima-mirai.or.jp/tabid216.html?pdid1=3603",
+            "quote": "場所としま区民センター8F多目的ホール",
+            "checked_at": "2026-11-20",
+            "sha256": "1e0fb9526d19ced80fa28c5738d47f7ee38af504b64bb41aeb0c1ec113dfe12c",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.toshima-mirai.or.jp/tabid216.html?pdid1=3603",
+            "quote": "こども（3歳から小学生）※2歳以下は無料500円",
+            "checked_at": "2026-11-20",
+            "sha256": "32089156f786c77c354dbe51cb651d3675fa7c9af31ed7bbff4cd4b3d4b76e03",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-20",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  },
+  {
+    "id": "verified-20261219-edogawa-kodomomirai-shimenawa",
+    "ward": "江戸川区",
+    "name": "親子でしめ縄づくり（江戸川区子ども未来館）",
+    "url": "https://www.city.edogawa.tokyo.jp/event/2612shimenawa.html",
+    "official_url": "https://www.city.edogawa.tokyo.jp/event/2612shimenawa.html",
+    "source": "https://www.city.edogawa.tokyo.jp/event/2612shimenawa.html",
+    "image": "https://www.city.edogawa.tokyo.jp/images/75115/12191shimenawa.jpg",
+    "period": "12/19(土)",
+    "date_start": "2026-12-19",
+    "date_end": "2026-12-19",
+    "time": "10:00〜12:00",
+    "venue": "江戸川区子ども未来館（江戸川区篠崎町3-12-10）",
+    "price": "無料",
+    "description": "稲わらを使って、お正月に歳神様を迎えるしめ縄の作り方を親子で学んで作る。小学3〜6年生とその保護者が対象で、定員8組の抽選。申込期間は11/13〜12/8。",
+    "categories": [
+      "工作",
+      "伝統文化",
+      "体験・ワークショップ"
+    ],
+    "indoor_outdoor": "屋内",
+    "reservation": {
+      "required": true,
+      "note": "事前申込制（11/13〜12/8）。定員8組の抽選。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "小学3〜6年生とその保護者が、稲わらでお正月用のしめ縄を作る体験。参加費は無料だが、定員8組の抽選制。",
+      "axes": {
+        "child_target": {
+          "grade": "A",
+          "reason": "小学3〜6年生とその保護者を対象にした親子向けの講座"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "稲わらでしめ縄を実際に作る体験"
+        },
+        "age_fit": {
+          "grade": "A",
+          "reason": "対象が小学3〜6年生と明記"
+        },
+        "stay_flexibility": {
+          "grade": "B",
+          "reason": "10:00〜12:00の2時間で、時間が決まっている"
+        },
+        "burden": {
+          "grade": "B",
+          "reason": "定員8組の抽選で、事前申込が必要"
+        },
+        "cost": {
+          "grade": "A",
+          "reason": "参加費無料"
+        },
+        "reservation": {
+          "grade": "C",
+          "reason": "事前申込で定員8組の抽選"
+        },
+        "family_value": {
+          "grade": "A",
+          "reason": "親子で日本の正月飾りの作り方を学び、持ち帰れる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-20",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "child_program",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "小学生と保護者向けで無料",
+          "しめ縄を作って持ち帰れる"
+        ],
+        "limitations": [
+          "定員8組の抽選",
+          "対象が小学3〜6年生に限られる"
+        ],
+        "grade_comparison": "総合B：小学生と保護者向けの無料の体験だが、定員8組の抽選制で申込が必要。",
+        "unsupported_axes": [],
+        "evidence": [
+          {
+            "url": "https://www.city.edogawa.tokyo.jp/event/2612shimenawa.html",
+            "quote": "開催日時2026年12月19日（土曜日）10時00分から12時00分",
+            "checked_at": "2026-11-20",
+            "sha256": "9f57cbd741fe2fcc3c5a0f61e6e7e29683fcff0e9ea8d1bee10be4258927cda5",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.edogawa.tokyo.jp/event/2612shimenawa.html",
+            "quote": "申し込み期間2026年11月13日（金曜日）から2026年12月8日（火曜日）",
+            "checked_at": "2026-11-20",
+            "sha256": "c008cea161c1375e1b4ef2d2c52139bce13ab243c9a7c839bbc0a410287c1dc9",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.edogawa.tokyo.jp/event/2612shimenawa.html",
+            "quote": "小学校3年生から6年生までとその保護者",
+            "checked_at": "2026-11-20",
+            "sha256": "c70b588e600e1f114f42329babf196a9dfbfaed48a52d913db7b592550cbe6b6",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.edogawa.tokyo.jp/event/2612shimenawa.html",
+            "quote": "定員8組（抽選）費用無料問合",
+            "checked_at": "2026-11-20",
+            "sha256": "0f488b7b3dc714fd87345f2384ebafe7be03364df226ef454a9f3bd898bb22bb",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.edogawa.tokyo.jp/event/2612shimenawa.html",
+            "quote": "費用無料問合せ子ども未来館（",
+            "checked_at": "2026-11-20",
+            "sha256": "e5836fd57da93574dea779d47c5a0f9453964ce2ecf579ff60eb6986212582e8",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.edogawa.tokyo.jp/event/2612shimenawa.html",
+            "quote": "江戸川区篠崎町三丁目12番10号",
+            "checked_at": "2026-11-20",
+            "sha256": "043d68d626f7e165ecae957673ec48a84318b6ee370c3556a45f48bbb25648a2",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-20",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  }
+]

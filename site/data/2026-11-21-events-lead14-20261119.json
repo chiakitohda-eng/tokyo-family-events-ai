@@ -1,0 +1,144 @@
+[
+  {
+    "id": "verified-20261123-koto-midori-kosodate-kameido",
+    "ward": "江東区",
+    "name": "みどりの子育てひろば「秋の自然たんけん隊@亀戸」",
+    "url": "https://www.city.koto.lg.jp/011501/kuse/koho/kuho/r08/text/110103.html",
+    "official_url": "https://www.city.koto.lg.jp/011501/kuse/koho/kuho/r08/text/110103.html",
+    "source": "https://www.city.koto.lg.jp/011501/kuse/koho/kuho/r08/text/110103.html",
+    "image": "https://www.city.koto.lg.jp/011501/kuse/koho/kuho/r08/text/images/01_145.jpg",
+    "period": "11/23(月・祝)",
+    "date_start": "2026-11-23",
+    "date_end": "2026-11-23",
+    "time": "10:00〜11:30",
+    "venue": "亀戸中央公園B地区",
+    "price": "参加費の記載なし",
+    "description": "公園を探検しながら秋の自然を見つける、1歳以上の幼児と保護者向けのおさんぽ会。講師はNPOマザーツリー自然学校。",
+    "categories": [
+      "公園・自然",
+      "親子"
+    ],
+    "indoor_outdoor": "屋外",
+    "reservation": {
+      "required": true,
+      "note": "11/5から申込フォームで。定員50人程度（申込順）。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "公園を探検しながら秋の自然を見つける、1歳以上の幼児と保護者向けのおさんぽ会。参加費の記載なし。事前の申込が必要。",
+      "axes": {
+        "child_target": {
+          "grade": "A",
+          "reason": "1歳以上の幼児と保護者が対象"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "公園を探検して自然を探す"
+        },
+        "age_fit": {
+          "grade": "A",
+          "reason": "1歳以上の幼児と明記"
+        },
+        "stay_flexibility": {
+          "grade": "B",
+          "reason": "10:00〜11:30"
+        },
+        "burden": {
+          "grade": "B",
+          "reason": "定員50人程度で、申込フォームから申込"
+        },
+        "cost": {
+          "grade": "unknown",
+          "reason": "参加費の記載がない"
+        },
+        "reservation": {
+          "grade": "B",
+          "reason": "11/5から申込フォーム"
+        },
+        "family_value": {
+          "grade": "A",
+          "reason": "自然の中で親子で歩ける"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-19",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "child_program",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "自然たんけん",
+          "講師つき"
+        ],
+        "limitations": [
+          "申込フォーム",
+          "参加費の記載なし"
+        ],
+        "grade_comparison": "総合B：11/23(月・祝)の亀戸中央公園B地区で10:00〜11:30の開催。参加費の記載なし。申込が必要で、定員がある。",
+        "unsupported_axes": [
+          "cost"
+        ],
+        "evidence": [
+          {
+            "url": "https://www.city.koto.lg.jp/011501/kuse/koho/kuho/r08/text/110103.html",
+            "quote": "みどりの子育てひろば「秋の自然たんけん隊@亀戸」自然の中でこどもを育む「みどりの子育てひろば」のおさんぽ会です。公園を探検しながら秋の自然を見つけましょう。【日時】11月23日（月曜日・祝日）10時00分～11時30分",
+            "checked_at": "2026-11-19",
+            "sha256": "999b6aaa1456aa04d3964b95a50e0dc40ad022a7c36e40bec6761f7f6fb55fdb",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "江東区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.koto.lg.jp/011501/kuse/koho/kuho/r08/text/110103.html",
+            "quote": "【日時】11月23日（月曜日・祝日）10時00分～11時30分",
+            "checked_at": "2026-11-19",
+            "sha256": "ac0335f5c93daacaacf7b882ed1a2103f48d8291e1e0944d683694f4d0ded4f5",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "江東区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.koto.lg.jp/011501/kuse/koho/kuho/r08/text/110103.html",
+            "quote": "【場所】亀戸中央公園B地区（亀戸8丁目22番）【対象】1歳以上の幼児と保護者",
+            "checked_at": "2026-11-19",
+            "sha256": "4197e1aec1ca10100f34544af3bad3e7c2d4ef07b242ecb5804846e6adb951f5",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "江東区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.koto.lg.jp/011501/kuse/koho/kuho/r08/text/110103.html",
+            "quote": "【対象】1歳以上の幼児と保護者【定員】50人程度（申込順）",
+            "checked_at": "2026-11-19",
+            "sha256": "5bafe372ea7140b798eb3edf4f9abce8ec968cf12cef96933a270ea56ab42479",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "江東区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.koto.lg.jp/011501/kuse/koho/kuho/r08/text/110103.html",
+            "quote": "【申し込み】11月5日（木曜日）から申込フォーム（外部サイトへリンク）（別ウィンドウで開きます）で",
+            "checked_at": "2026-11-19",
+            "sha256": "1872cb7fcfab66ec4bbc94f92b4410a3aafc6ded5e472f6bb8191b096f653964",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "江東区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-19",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  }
+]

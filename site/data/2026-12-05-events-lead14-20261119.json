@@ -1,0 +1,136 @@
+[
+  {
+    "id": "verified-20261205-koto-tatsumi-family-day-crystal",
+    "ward": "江東区",
+    "name": "辰巳児童館 ファミリーデー「科学工作～結晶をそだてよう～」",
+    "url": "https://www.city.koto.lg.jp/011501/kuse/koho/kuho/r08/text/111102.html",
+    "official_url": "https://www.city.koto.lg.jp/011501/kuse/koho/kuho/r08/text/111102.html",
+    "source": "https://www.city.koto.lg.jp/011501/kuse/koho/kuho/r08/text/111102.html",
+    "image": "",
+    "period": "12/5(土)",
+    "date_start": "2026-12-05",
+    "date_end": "2026-12-05",
+    "time": "10:30〜11:30",
+    "venue": "辰巳児童館（区報に会場の明記なし）",
+    "price": "参加費の記載なし",
+    "description": "結晶についての話を聞き、結晶がそだつセットを工作する、年長児〜高校生世代向けのファミリーデー。",
+    "categories": [
+      "体験・ワークショップ",
+      "工作"
+    ],
+    "indoor_outdoor": "屋内",
+    "reservation": {
+      "required": true,
+      "note": "11/21 9時から辰巳児童館に電話・窓口で申込。定員20人（申込順）。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "結晶についての話を聞き、結晶がそだつセットを工作する、年長児〜高校生世代向けのファミリーデー。参加費の記載なし。事前の申込が必要。",
+      "axes": {
+        "child_target": {
+          "grade": "A",
+          "reason": "年長児〜高校生世代が対象（小学生以下は保護者同伴）"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "結晶の話を聞いて工作する"
+        },
+        "age_fit": {
+          "grade": "A",
+          "reason": "年長児以上と明記"
+        },
+        "stay_flexibility": {
+          "grade": "B",
+          "reason": "10:30〜11:30"
+        },
+        "burden": {
+          "grade": "C",
+          "reason": "定員20人で、申込が必要"
+        },
+        "cost": {
+          "grade": "unknown",
+          "reason": "参加費の記載がない"
+        },
+        "reservation": {
+          "grade": "C",
+          "reason": "11/21から電話・窓口で申込"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "親子で科学工作ができる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-19",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "child_program",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "科学工作",
+          "保護者同伴"
+        ],
+        "limitations": [
+          "定員20人",
+          "参加費の記載なし"
+        ],
+        "grade_comparison": "総合B：12/5(土)の辰巳児童館で10:30〜11:30の開催。参加費の記載なし。申込が必要で、定員がある。",
+        "unsupported_axes": [
+          "cost"
+        ],
+        "evidence": [
+          {
+            "url": "https://www.city.koto.lg.jp/011501/kuse/koho/kuho/r08/text/111102.html",
+            "quote": "辰巳児童館ファミリーデー「科学工作～結晶をそだてよう～」",
+            "checked_at": "2026-11-19",
+            "sha256": "9c6796edf75d5ad569276b4a371b29ab4a08fe834db710779b8d9dc9b1bc33d5",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "江東区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.koto.lg.jp/011501/kuse/koho/kuho/r08/text/111102.html",
+            "quote": "【日時】12月5日（土曜日）10時30分～11時30分【対象】年長児～小・中学生、高校生世代（注釈）小学生以下は要保護者同伴",
+            "checked_at": "2026-11-19",
+            "sha256": "43011e8483ac9f4fb405aa281742ec4fa3dfd8bfe6246f4f170453ed7f140493",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "江東区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.koto.lg.jp/011501/kuse/koho/kuho/r08/text/111102.html",
+            "quote": "【定員】20人（申込順）【内容】結晶についての話と、結晶がそだつセットの工作",
+            "checked_at": "2026-11-19",
+            "sha256": "54606cc416fbcdb9ab87bcc4eb2062428dd13cdea99c31ff28d906df4397cc12",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "江東区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.koto.lg.jp/011501/kuse/koho/kuho/r08/text/111102.html",
+            "quote": "【申し込み】11月21日（土曜日）9時00分から辰巳児童館に電話・窓口で",
+            "checked_at": "2026-11-19",
+            "sha256": "3c4e9db68c8a916025ac1b9554f3a22314dfc2b2ac1548c46749880d4408a8a8",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "江東区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-19",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  }
+]

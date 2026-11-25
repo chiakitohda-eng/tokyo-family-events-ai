@@ -1,0 +1,141 @@
+[
+  {
+    "id": "verified-20261129-fuchu-oshitate-kodomo-kagaku",
+    "ward": "府中市",
+    "name": "子ども科学体験（押立文化センター）",
+    "url": "https://www.city.fuchu.tokyo.jp/bunka/bunkacenter/oshitate/kodomokagakutaikenn.html",
+    "official_url": "https://www.city.fuchu.tokyo.jp/bunka/bunkacenter/oshitate/kodomokagakutaikenn.html",
+    "source": "https://www.city.fuchu.tokyo.jp/bunka/bunkacenter/oshitate/kodomokagakutaikenn.html",
+    "image": "",
+    "period": "11/29(日)",
+    "date_start": "2026-11-29",
+    "date_end": "2026-11-29",
+    "time": "10:00〜11:30",
+    "venue": "押立文化センター 2階 講堂（府中市）",
+    "price": "無料",
+    "description": "万華鏡、はねとびピンポン玉、くるくる磁石人形を作る科学工作の体験。中学生以下が対象（未就学児は保護者同伴）。事前申込は不要で、受付は10:00〜11:30、材料がなくなり次第終了。",
+    "categories": [
+      "体験・ワークショップ",
+      "工作"
+    ],
+    "indoor_outdoor": "屋内",
+    "reservation": {
+      "required": false,
+      "note": "事前申込不要。当日10:00〜11:30に会場で受付。材料がなくなり次第終了。"
+    },
+    "family_fit": {
+      "grade": "A",
+      "overall": "A",
+      "rubric_version": "family-fit-v2",
+      "reason": "中学生以下（未就学児は保護者同伴）が対象の無料の科学工作体験。事前申込不要で、材料がなくなり次第終了する。",
+      "axes": {
+        "child_target": {
+          "grade": "A",
+          "reason": "対象は中学生以下で、未就学児は保護者同伴と明記"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "万華鏡やはねとびピンポン玉などを自分で作る体験"
+        },
+        "age_fit": {
+          "grade": "A",
+          "reason": "中学生以下と対象年齢が明記されている"
+        },
+        "stay_flexibility": {
+          "grade": "B",
+          "reason": "10:00〜11:30の受付時間内に参加。材料がなくなり次第終了"
+        },
+        "burden": {
+          "grade": "A",
+          "reason": "事前申込不要で、当日会場へ行けばよい"
+        },
+        "cost": {
+          "grade": "A",
+          "reason": "費用は無料"
+        },
+        "reservation": {
+          "grade": "A",
+          "reason": "事前申込不要"
+        },
+        "family_value": {
+          "grade": "A",
+          "reason": "子どもが科学工作を作って持ち帰れる無料の体験"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-21",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "child_program",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "無料・事前申込不要で、中学生以下が工作を体験できる"
+        ],
+        "limitations": [
+          "材料がなくなり次第終了するため、早めの来場が安心",
+          "作った物を持ち帰る袋の持参が必要"
+        ],
+        "grade_comparison": "総合A：対象が子どもで、無料・申込不要。材料がなくなり次第終了する点だけが制約。",
+        "unsupported_axes": [],
+        "evidence": [
+          {
+            "url": "https://www.city.fuchu.tokyo.jp/bunka/bunkacenter/oshitate/kodomokagakutaikenn.html",
+            "quote": "令和8年11月29日（日曜日）午前10時から午前11時30分",
+            "checked_at": "2026-11-21",
+            "sha256": "4dbdbb09ddb2cc30961fcf5261435518ede1cbe208e329c82943b7e12366e16f",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.fuchu.tokyo.jp/bunka/bunkacenter/oshitate/kodomokagakutaikenn.html",
+            "quote": "押立文化センター 2階 講堂",
+            "checked_at": "2026-11-21",
+            "sha256": "4044f4788381a37a931cffecae98eb9cd9169cea9abce76dc838f257f38d56bf",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.fuchu.tokyo.jp/bunka/bunkacenter/oshitate/kodomokagakutaikenn.html",
+            "quote": "中学生以下(未就学児は保護者同伴）",
+            "checked_at": "2026-11-21",
+            "sha256": "e6cdc824df3a3eca076189120819757aa54917b88f7b9377fd6170dc4043cd16",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.fuchu.tokyo.jp/bunka/bunkacenter/oshitate/kodomokagakutaikenn.html",
+            "quote": "費用 無料 内容 万華鏡 はねとびピンポン玉 くるくる磁石人形",
+            "checked_at": "2026-11-21",
+            "sha256": "272637d0fc25eeb69b5ec6c644d2ec7f39c8a29a32581b7a5643a1bfa40f0573",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.fuchu.tokyo.jp/bunka/bunkacenter/oshitate/kodomokagakutaikenn.html",
+            "quote": "事前申し込みは不要です。当日、会場へお越しください。",
+            "checked_at": "2026-11-21",
+            "sha256": "280b30dd547928eb1d5058775a2bad8d4d9b9340d29963ff965ef9a876dc9bf8",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-21",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  }
+]

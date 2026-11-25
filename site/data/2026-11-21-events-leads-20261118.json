@@ -1,0 +1,299 @@
+[
+  {
+    "id": "verified-20261123-toshima-wanpaku-matsuri",
+    "ward": "豊島区",
+    "name": "第54回としま子どものつどい「ワンパクまつり」",
+    "url": "https://www.city.toshima.lg.jp/231/2609151435.html",
+    "official_url": "https://www.city.toshima.lg.jp/231/2609151435.html",
+    "source": "https://www.city.toshima.lg.jp/231/2609151435.html",
+    "image": "",
+    "period": "11/23(月・祝)",
+    "date_start": "2026-11-23",
+    "date_end": "2026-11-23",
+    "time": "10:00〜14:30",
+    "venue": "豊島区立総合体育場",
+    "price": "入場・体験無料（一部有料）",
+    "description": "はしご車体験・白バイ体験・木工教室・世界遺産クイズ・サッカー体験・防災コーナーなどを楽しむ子ども向けまつり。対象は18歳まで。雨天縮小。",
+    "categories": [
+      "体験・ワークショップ",
+      "親子・地域体験"
+    ],
+    "indoor_outdoor": "屋内・屋外",
+    "reservation": {
+      "required": false,
+      "note": "当日直接会場へ。コーナーにより整理券・年齢制限あり。"
+    },
+    "family_fit": {
+      "grade": "A",
+      "overall": "A",
+      "rubric_version": "family-fit-v2",
+      "reason": "18歳までを対象に、はしご車・白バイ・木工などを体験できる子ども向けまつり。入場無料・申込不要で、コーナーにより整理券や年齢制限がある。",
+      "axes": {
+        "child_target": {
+          "grade": "A",
+          "reason": "「としま子どものつどい」で対象は18歳まで。子ども向けの体験が中心"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "はしご車体験・白バイ体験・木工教室・サッカー体験など参加型が中心"
+        },
+        "age_fit": {
+          "grade": "B",
+          "reason": "18歳までが対象だが、コーナーごとに年齢制限がある"
+        },
+        "stay_flexibility": {
+          "grade": "A",
+          "reason": "10:00〜14:30のあいだ、当日直接会場へ行ける"
+        },
+        "burden": {
+          "grade": "B",
+          "reason": "コーナーにより整理券が必要。雨天は縮小開催"
+        },
+        "cost": {
+          "grade": "A",
+          "reason": "入場・体験無料（一部有料）"
+        },
+        "reservation": {
+          "grade": "A",
+          "reason": "当日直接会場へ（申込不要）"
+        },
+        "family_value": {
+          "grade": "A",
+          "reason": "消防・警察・防災などの体験を無料で家族で楽しめる区内の子ども向けまつり"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-18",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "child_program",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "子ども向けの体験が豊富で入場無料・申込不要"
+        ],
+        "limitations": [
+          "コーナーにより整理券・年齢制限",
+          "雨天縮小"
+        ],
+        "grade_comparison": "総合A：子ども向け体験が中心で無料・申込不要。整理券や年齢制限は一部コーナーに限られる。",
+        "unsupported_axes": [],
+        "evidence": [
+          {
+            "url": "https://www.city.toshima.lg.jp/231/2609151435.html",
+            "quote": "11月23日(祝)※雨天縮小",
+            "checked_at": "2026-11-18",
+            "sha256": "069ac1a9d238c2f08e64ad37b83f6f0b544c3160a1547c6267a91fe668d9ff82",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "豊島区公式ページ（2026-11-18にHTTP200で取得、research/2026-11-18-leads-triage/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.toshima.lg.jp/231/2609151435.html",
+            "quote": "午前10時～午後2時30分",
+            "checked_at": "2026-11-18",
+            "sha256": "4dcdf1679dc40b0c4486c0e1dc7ac9d9daefd6b927c6c9ea774a0e7fc931fef0",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "豊島区公式ページ（2026-11-18にHTTP200で取得、research/2026-11-18-leads-triage/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.toshima.lg.jp/231/2609151435.html",
+            "quote": "場所豊島区立総合体育場内容",
+            "checked_at": "2026-11-18",
+            "sha256": "3ea9d432d466098e141cba99448260625e5905854a534b5834c36cf56bce44a6",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "豊島区公式ページ（2026-11-18にHTTP200で取得、research/2026-11-18-leads-triage/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.toshima.lg.jp/231/2609151435.html",
+            "quote": "はしご車体験、白バイ体験、木工教室",
+            "checked_at": "2026-11-18",
+            "sha256": "79b3ba237a2538d5698f2beecc0a1e86ab2ac45f71b19fcf53e376cf49a7c1bc",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "豊島区公式ページ（2026-11-18にHTTP200で取得、research/2026-11-18-leads-triage/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.toshima.lg.jp/231/2609151435.html",
+            "quote": "対象18歳まで費用入場・体験無料（一部有料）",
+            "checked_at": "2026-11-18",
+            "sha256": "a4e1521f4a86bd4fbb8d011cff23dbdff3b2a20572a400092a99df8b26ad96ad",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "豊島区公式ページ（2026-11-18にHTTP200で取得、research/2026-11-18-leads-triage/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.toshima.lg.jp/231/2609151435.html",
+            "quote": "申込み方法当日直接会場へ",
+            "checked_at": "2026-11-18",
+            "sha256": "61bea428af68c2b8adbc835707cd27441ba9442cb92ccdb4219158a5ffffd34f",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "豊島区公式ページ（2026-11-18にHTTP200で取得、research/2026-11-18-leads-triage/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-18",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  },
+  {
+    "id": "verified-20261123-arakawa-film-rocket-stars",
+    "ward": "荒川区",
+    "name": "星空観察会とフィルムロケット工作（荒川自然公園）",
+    "url": "https://www.city.arakawa.tokyo.jp/a042/koen/koen/sizenkouen2.html",
+    "official_url": "https://www.city.arakawa.tokyo.jp/a042/koen/koen/sizenkouen2.html",
+    "source": "https://www.city.arakawa.tokyo.jp/a042/koen/koen/sizenkouen2.html",
+    "image": "https://www.city.arakawa.tokyo.jp/images/46984/hosizora.jpg",
+    "period": "11/23(月・祝)",
+    "date_start": "2026-11-23",
+    "date_end": "2026-11-23",
+    "time": "工作13:00〜16:00／観察会17:30〜19:30",
+    "venue": "荒川自然公園野球場",
+    "price": "工作200円／観察会無料",
+    "description": "フィルムケースでロケットを作って飛ばす工作と、望遠鏡で月や惑星を見る星空観察会。誰でも自由参加で申込不要。",
+    "categories": [
+      "体験・ワークショップ",
+      "自然・科学"
+    ],
+    "indoor_outdoor": "屋外",
+    "reservation": {
+      "required": false,
+      "note": "申込不要。工作は定員80名。中止時は荒川自然公園ホームページで案内。"
+    },
+    "family_fit": {
+      "grade": "A",
+      "overall": "A",
+      "rubric_version": "family-fit-v2",
+      "reason": "ロケット工作と望遠鏡での天体観察を体験できる公園イベント。誰でも自由参加・申込不要で、工作は200円・定員80名。",
+      "axes": {
+        "child_target": {
+          "grade": "B",
+          "reason": "対象は「誰でも自由参加」。工作・観察は子どもが楽しめる内容"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "ロケットを作って飛ばす工作と、望遠鏡での観察が体験できる"
+        },
+        "age_fit": {
+          "grade": "unknown",
+          "reason": "対象年齢は公式案内に明記がない"
+        },
+        "stay_flexibility": {
+          "grade": "A",
+          "reason": "工作13:00〜16:00と観察会17:30〜19:30が別枠で、都合のよい時間帯に参加できる"
+        },
+        "burden": {
+          "grade": "B",
+          "reason": "観察会は夕方〜夜間。工作は定員80名で、中止の場合がある"
+        },
+        "cost": {
+          "grade": "A",
+          "reason": "工作200円・観察会無料"
+        },
+        "reservation": {
+          "grade": "A",
+          "reason": "申込不要"
+        },
+        "family_value": {
+          "grade": "A",
+          "reason": "工作と星空観察を低価格で親子で体験できる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-18",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "child_program",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "工作と天体観察を低価格・申込不要で体験"
+        ],
+        "limitations": [
+          "工作は定員80名",
+          "観察会は夜間・天候により中止の場合あり",
+          "対象年齢は未記載"
+        ],
+        "grade_comparison": "総合A：体験内容と費用・申込の条件が良好。対象年齢が未記載で夜間枠がある点が制約。",
+        "unsupported_axes": [
+          "age_fit"
+        ],
+        "evidence": [
+          {
+            "url": "https://www.city.arakawa.tokyo.jp/a042/koen/koen/sizenkouen2.html",
+            "quote": "2026年11月23日（月曜日）13時00分から2026年11月23日（月曜日）19時30分",
+            "checked_at": "2026-11-18",
+            "sha256": "4d2adfca79625309d7f9a72e29cfa02674ddfe88bb9dd0ea1708d1cb79c556ab",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "荒川区公式ページ（2026-11-18にHTTP200で取得、research/2026-11-18-leads-triage/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.arakawa.tokyo.jp/a042/koen/koen/sizenkouen2.html",
+            "quote": "場所荒川自然公園野球場内容",
+            "checked_at": "2026-11-18",
+            "sha256": "e40a224971289d9179e6ce01e86c409d80fc47f3dbafc8f56e48ad505a53e2ad",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "荒川区公式ページ（2026-11-18にHTTP200で取得、research/2026-11-18-leads-triage/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.arakawa.tokyo.jp/a042/koen/koen/sizenkouen2.html",
+            "quote": "フィルムケースを使ってロケットを作り、飛ばします。",
+            "checked_at": "2026-11-18",
+            "sha256": "5b3502a395fcf32734ce9ec4e87135c54a1007094ffa3a1b675e2089bdff86f4",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "荒川区公式ページ（2026-11-18にHTTP200で取得、research/2026-11-18-leads-triage/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.arakawa.tokyo.jp/a042/koen/koen/sizenkouen2.html",
+            "quote": "誰でも自由参加定員工作：80名",
+            "checked_at": "2026-11-18",
+            "sha256": "fe2bc37e4f5dc88ad4e13d5b3eb8a3da9450decaae8b331692a0d7f84ac257ce",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "荒川区公式ページ（2026-11-18にHTTP200で取得、research/2026-11-18-leads-triage/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.arakawa.tokyo.jp/a042/koen/koen/sizenkouen2.html",
+            "quote": "費用工作：200円観察会：無料",
+            "checked_at": "2026-11-18",
+            "sha256": "053fe72f28841c3c1148fe2b1c59bfe4ca0b311a5b7d270f69e80a9ca4834e10",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "荒川区公式ページ（2026-11-18にHTTP200で取得、research/2026-11-18-leads-triage/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.arakawa.tokyo.jp/a042/koen/koen/sizenkouen2.html",
+            "quote": "申し込み不要問合せ荒川自然公園",
+            "checked_at": "2026-11-18",
+            "sha256": "6739a7c4f35468632ec2f6a86887363af221b9c0ff3cadd6f5c52ef14f41061d",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "荒川区公式ページ（2026-11-18にHTTP200で取得、research/2026-11-18-leads-triage/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-18",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  }
+]

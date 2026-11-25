@@ -1,0 +1,422 @@
+[
+  {
+    "id": "verified-20261121-tama-puroland-illumination-xmas-2026",
+    "ward": "多摩市",
+    "name": "Puroland Illumination Christmas（サンリオピューロランド）",
+    "url": "https://www.puroland.jp/event-campaign/2026_christmas/",
+    "official_url": "https://www.puroland.jp/event-campaign/2026_christmas/",
+    "source": "https://www.puroland.jp/event-campaign/2026_christmas/",
+    "image": "https://www.puroland.jp/wp-content/uploads/2026/10/2026_christmas_KV-840x630.jpg",
+    "period": "11/6(金)〜12/25(金)（開催中）",
+    "date_start": "2026-11-21",
+    "date_end": "2026-12-25",
+    "time": "パスポートの営業時間内（営業時間・休館日は公式サイトで確認）",
+    "venue": "サンリオピューロランド（多摩市落合1-31）館内",
+    "price": "入館にはパスポートが必要。デイパスポートは大人3,900円〜・小人（3〜17歳）・シニア2,800円〜（来場日により変わる。2歳以下は無料）",
+    "description": "サンリオキャラクターのテーマパークで開く、クリスマスのイルミネーション期間。ハローキティ、キキ＆ララと一緒にサンタさんのおてつだいをするイルミネーション、「くまのがっこう」とのコラボ、スタンプラリー、絵本の読み聞かせ、クリスマスのダンスなどがある。",
+    "categories": [
+      "まつり・イベント",
+      "テーマパーク・遊園地"
+    ],
+    "indoor_outdoor": "屋内",
+    "reservation": {
+      "required": false,
+      "note": "来場予約と、パスポートの購入が必要（公式サイトで事前に購入・予約する）。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "サンリオのキャラクターに会える、屋内のクリスマスのイルミネーション期間。パスポートが必要で、来場日により料金が変わる。",
+      "axes": {
+        "child_target": {
+          "grade": "B",
+          "reason": "子ども向けの人気キャラクターの施設で、対象はどなたでも"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "スタンプラリーやダンスなど、参加できる内容が多い"
+        },
+        "age_fit": {
+          "grade": "B",
+          "reason": "3歳以上は小人料金で、2歳以下は無料"
+        },
+        "stay_flexibility": {
+          "grade": "B",
+          "reason": "期間が長く、好きな日に行ける"
+        },
+        "burden": {
+          "grade": "B",
+          "reason": "来場予約が必要で、混む日がある"
+        },
+        "cost": {
+          "grade": "C",
+          "reason": "パスポートが必要（小人2,800円〜、大人3,900円〜）"
+        },
+        "reservation": {
+          "grade": "C",
+          "reason": "来場予約とパスポートの購入が必要"
+        },
+        "family_value": {
+          "grade": "A",
+          "reason": "屋内で、天候に関係なく家族で楽しめる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-21",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "all_ages",
+        "child_activity_confirmed": false,
+        "strengths": [
+          "屋内で、雨や寒さを気にせず楽しめる",
+          "スタンプラリーやダンスなど、子どもが参加できる内容が多い"
+        ],
+        "limitations": [
+          "パスポートが必要で、家族だと費用がかさむ",
+          "来場予約が必要で、日によって料金が変わる"
+        ],
+        "grade_comparison": "総合B：屋内で天候に左右されないが、パスポートと来場予約が必要で費用がかかる。",
+        "unsupported_axes": [],
+        "evidence": [
+          {
+            "url": "https://www.puroland.jp/event-campaign/2026_christmas/",
+            "quote": "開催期間2026/11/06～2026/12/25",
+            "checked_at": "2026-11-21",
+            "sha256": "3aebfb068fe1fe02a9992067389e7c2fbddc505194024eba0f0858fd740730f4",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.puroland.jp/event-campaign/2026_christmas/",
+            "quote": "ピューロランドのみんなが、サンタさんのおてつだいをしているみたい…！",
+            "checked_at": "2026-11-21",
+            "sha256": "d28f59628f5e2639668235a8c9632a09f774ef22ce48c967f4e91e6b2b257472",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.puroland.jp/event-campaign/2026_christmas/",
+            "quote": "スタンプを押して、クリスマスツリーをかざりつけるおてつだいをしよう★",
+            "checked_at": "2026-11-21",
+            "sha256": "26572e31e9415a65307dc5a6b84ebc772f0e5928bf1409f5f8e9d031a5b04124",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.puroland.jp/passport/list/",
+            "quote": "パスポートチケット料金は、ご来場日により異なります",
+            "checked_at": "2026-11-21",
+            "sha256": "5f1e91897f26de59f7853609725f14e46ad5aaa1d58f9a786a363c157ea96e57",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。"
+          },
+          {
+            "url": "https://www.puroland.jp/passport/list/",
+            "quote": "デイパスポート(開館〜閉館)アフタヌーンパスポート14時からの入場大人3,900円〜2,800円〜小人・シニア2,800円〜2,500円〜",
+            "checked_at": "2026-11-21",
+            "sha256": "c750eeb66a684013de1376457c1d5810fa69143c0ef1339def81fa84b8bd262c",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-21",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  },
+  {
+    "id": "verified-20261121-bunkyo-asobono-ahiru-taicho-20261110",
+    "ward": "文京区",
+    "name": "アヒル隊長×アソボ～ノ！（東京ドームシティ アソボ～ノ！）",
+    "url": "https://www.tokyo-dome.co.jp/asobono/event/7854",
+    "official_url": "https://www.tokyo-dome.co.jp/asobono/event/7854",
+    "source": "https://www.tokyo-dome.co.jp/asobono/event/7854",
+    "image": "https://www.tokyo-dome.co.jp/files/facilities/asobono/event/ahirutaichou/Asobono_ahirut_banner_4x3.jpg",
+    "period": "11/10(火)〜12/18(金)（アヒル隊長グリーティングは11/23(月・祝)・26(木)）",
+    "date_start": "2026-11-21",
+    "date_end": "2026-12-18",
+    "time": "グリーティング11:45〜・12:45〜（各20〜30分）",
+    "venue": "東京ドームシティ アソボ～ノ！（文京区後楽1-3-61）",
+    "price": "入館料が必要。こども（6か月〜小学生）60分950〜1,300円、おとな（中学生以上）入館料950〜1,300円（日により料金区分が変わる）",
+    "description": "子ども向けの遊び場「アソボ～ノ！」で、アヒル隊長25周年のコラボ。アヒル隊長のグリーティングと撮影、限定のぬりえ、館内に隠れたアヒル隊長を探すゲームがある。グリーティングは11/23と11/26の各2回。",
+    "categories": [
+      "体験・ワークショップ",
+      "まつり・イベント"
+    ],
+    "indoor_outdoor": "屋内",
+    "reservation": {
+      "required": false,
+      "note": "予約の記載なし。入館料が必要（料金区分は日により異なる）。"
+    },
+    "family_fit": {
+      "grade": "A",
+      "overall": "A",
+      "rubric_version": "family-fit-v2",
+      "reason": "子ども向けの屋内の遊び場で、アヒル隊長のグリーティングや、ぬりえ・探しゲームを楽しめる。入館料が必要。",
+      "axes": {
+        "child_target": {
+          "grade": "A",
+          "reason": "子ども向けの屋内の遊び場（6か月〜小学生）"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "グリーティングの撮影、ぬりえ、探しゲームに参加できる"
+        },
+        "age_fit": {
+          "grade": "A",
+          "reason": "6か月から小学生までが対象の遊び場"
+        },
+        "stay_flexibility": {
+          "grade": "B",
+          "reason": "60分から利用でき、延長もできる"
+        },
+        "burden": {
+          "grade": "A",
+          "reason": "屋内で、天候に左右されない"
+        },
+        "cost": {
+          "grade": "C",
+          "reason": "入館料が必要（こども60分950〜1,300円など）"
+        },
+        "reservation": {
+          "grade": "A",
+          "reason": "予約の記載なし"
+        },
+        "family_value": {
+          "grade": "A",
+          "reason": "雨の日でも、子どもが体を動かして遊べる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-21",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "child_program",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "子ども向けの屋内の遊び場で、天候に左右されない",
+          "グリーティングやぬりえ、探しゲームなどコラボ企画が多い"
+        ],
+        "limitations": [
+          "入館料が必要で、おとなも料金がかかる",
+          "グリーティングは11/23と11/26のみ（各日2回）"
+        ],
+        "grade_comparison": "総合A：子ども向けの屋内の遊び場でのコラボ企画。入館料は日により変わる。",
+        "unsupported_axes": [],
+        "evidence": [
+          {
+            "url": "https://www.tokyo-dome.co.jp/asobono/event/7854",
+            "quote": "2026年11月10日(火)～2026年12月18日(金)",
+            "checked_at": "2026-11-21",
+            "sha256": "ea30294acc9bc2c16b2da1b1ffdb7fe00cc33e17652182d3cce9234ffff39cd7",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.tokyo-dome.co.jp/asobono/event/7854",
+            "quote": "①11月15日(日)②11月23日(月・祝)③11月26日(木)",
+            "checked_at": "2026-11-21",
+            "sha256": "799e1e5ab1667708d74f6c4cfb737d0ca228f0fd803a54b29342c854bca051b6",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.tokyo-dome.co.jp/asobono/event/7854",
+            "quote": "館内５カ所にアヒル隊長が隠れているよ！",
+            "checked_at": "2026-11-21",
+            "sha256": "d0782b94561f48eed3086ac5b960c6ef970906b1edac4ff4058b0334609ba4ac",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.tokyo-dome.co.jp/asobono/schedule-price",
+            "quote": "種別ABCDこども60分950円1,100円1,200円1,300円",
+            "checked_at": "2026-11-21",
+            "sha256": "061559733e56d2a54ccd00fca9eafbc092e78e270221c0719630d9c84086d5da",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。"
+          },
+          {
+            "url": "https://www.tokyo-dome.co.jp/asobono/schedule-price",
+            "quote": "おとな入館料950円1,100円1,200円1,300円",
+            "checked_at": "2026-11-21",
+            "sha256": "4a91a341fb81286dea39f5f61c04b401932ec6fbd7386cd2cdcb0ec64debb6f5",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-21",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  },
+  {
+    "id": "verified-20261121-hino-tamazoo-africa-fair-20261122",
+    "ward": "日野市",
+    "name": "第12回都立動物園アフリカフェア（多摩動物公園）",
+    "url": "https://www.tokyo-zoo.net/tama/news/12878/index.html",
+    "official_url": "https://www.tokyo-zoo.net/tama/news/12878/index.html",
+    "source": "https://www.tokyo-zoo.net/tama/news/12878/index.html",
+    "image": "https://www.tokyo-zoo.net/image/tama/news/12878/11.jpg",
+    "period": "11/22(日)・23(月・祝)",
+    "date_start": "2026-11-22",
+    "date_end": "2026-11-23",
+    "time": "アフリカ各国紹介ブース 11/22は11:30〜16:00・11/23は9:30〜16:00。アフリカ音楽・ダンスの公演は日により異なる",
+    "venue": "多摩動物公園（日野市程久保7-1-1）",
+    "price": "参加は無料（入園料が必要：一般600円、中学生200円、65歳以上300円。小学生以下と都内在住・在学の中学生は無料）",
+    "description": "アフリカ各国の大使館や団体が出展する紹介ブース、アフリカ音楽・ダンスの公演（11/23は小さな子どもも一緒に踊れる参加型）、園内のスタンプラリー（各日先着800名に記念品）などがある、動物園のアフリカフェア。",
+    "categories": [
+      "まつり・イベント",
+      "自然・公園"
+    ],
+    "indoor_outdoor": "屋内・屋外",
+    "reservation": {
+      "required": false,
+      "note": "予約の記載なし。入園料が必要（小学生以下は無料）。"
+    },
+    "family_fit": {
+      "grade": "A",
+      "overall": "A",
+      "rubric_version": "family-fit-v2",
+      "reason": "動物園で開く、アフリカの音楽・ダンス・スタンプラリーなどのイベント。小学生以下は入園無料で、11/23は子どもも一緒に踊れる公演がある。",
+      "axes": {
+        "child_target": {
+          "grade": "B",
+          "reason": "動物園のイベントで対象はどなたでも。子どもも参加できる内容が多い"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "音楽やダンスに参加でき、スタンプラリーもある"
+        },
+        "age_fit": {
+          "grade": "A",
+          "reason": "小さな子どもも楽しめる（小学生以下は入園無料）"
+        },
+        "stay_flexibility": {
+          "grade": "A",
+          "reason": "2日間、好きな時間に回れる"
+        },
+        "burden": {
+          "grade": "B",
+          "reason": "広い園内を歩くため、体力が必要"
+        },
+        "cost": {
+          "grade": "A",
+          "reason": "小学生以下は無料、一般600円で費用が低い"
+        },
+        "reservation": {
+          "grade": "A",
+          "reason": "予約の記載なし"
+        },
+        "family_value": {
+          "grade": "A",
+          "reason": "動物を見ながら、アフリカの文化も体験できる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-21",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "all_ages",
+        "child_activity_confirmed": false,
+        "strengths": [
+          "小学生以下は入園無料で、費用が低い",
+          "音楽・ダンス・スタンプラリーと、動物の見学を一緒に楽しめる"
+        ],
+        "limitations": [
+          "広い園内を歩くため、小さな子どもは疲れやすい",
+          "11/22は開催当日（日曜）で、公演の一部は終了している場合がある"
+        ],
+        "grade_comparison": "総合A：小学生以下は入園無料の動物園で、アフリカの音楽・ダンス・スタンプラリーを楽しめる。",
+        "unsupported_axes": [],
+        "evidence": [
+          {
+            "url": "https://www.tokyo-zoo.net/tama/news/12878/index.html",
+            "quote": "2026年11月22日（日）、23日（月・祝）",
+            "checked_at": "2026-11-21",
+            "sha256": "67bc590abf55e302182c636300fe0ed5104fec92bf0dfc79bf515a5dbda1df42",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.tokyo-zoo.net/tama/news/12878/index.html",
+            "quote": "アフリカ各国紹介ブース「アフリカン・ディスカバリー」",
+            "checked_at": "2026-11-21",
+            "sha256": "02de20b80824ae293e8445db243e53b1234edd1a5a013a4b6aa0c9a9dde0d975",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.tokyo-zoo.net/tama/news/12878/index.html",
+            "quote": "小さなお子様から大人まで、手拍子やダンスでいっしょに盛り上がれる参加型のステージです。",
+            "checked_at": "2026-11-21",
+            "sha256": "0c2ba7e543d2b1e04f00d1855fe211a989ca5a6e2088158f8b0e8e4eb75847be",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.tokyo-zoo.net/tama/visitor-info/tickets/index.html",
+            "quote": "通常入園料は600円（65歳以上300円、中学生200円）。",
+            "checked_at": "2026-11-21",
+            "sha256": "49b1f1091098cd88a9add4edb58c88e2cd86db2c89a8a022df0faf33121dd041",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。"
+          },
+          {
+            "url": "https://www.tokyo-zoo.net/tama/visitor-info/tickets/index.html",
+            "quote": "小学生以下および「都内在住・在学の中学生」は無料。",
+            "checked_at": "2026-11-21",
+            "sha256": "d8b581104bffdd7f03caa52923667d916951998d73a71fe652fb268c07e83ffd",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-21",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  }
+]

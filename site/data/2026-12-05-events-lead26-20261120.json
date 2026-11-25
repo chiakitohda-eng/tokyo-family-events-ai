@@ -1,0 +1,288 @@
+[
+  {
+    "id": "verified-20261205-mizunokagaku-kamishibai_koguma",
+    "ward": "江東区",
+    "name": "紙芝居「こぐまのみぃちゃんと水の森」（東京都水の科学館）",
+    "url": "https://www.mizunokagaku.jp/event/261205_kamishibai_koguma/",
+    "official_url": "https://www.mizunokagaku.jp/event/261205_kamishibai_koguma/",
+    "source": "https://www.mizunokagaku.jp/event/261205_kamishibai_koguma/",
+    "image": "",
+    "period": "12/5(土)",
+    "date_start": "2026-12-05",
+    "date_end": "2026-12-05",
+    "time": "①11:00〜 ②13:30〜",
+    "venue": "東京都水の科学館（江東区有明3-1-8）",
+    "price": "",
+    "description": "水の科学館スタッフによる紙芝居。水道水源林を舞台にさまざまな動物が登場する。 小学生以下の子どもと保護者向けの催しで、整理券（各回の1時間前から配布、予約不可）が必要。",
+    "categories": [
+      "科学",
+      "水",
+      "体験"
+    ],
+    "indoor_outdoor": "屋内",
+    "reservation": {
+      "required": false,
+      "note": "予約不可。各回1時間前から1Fインフォメーションで整理券を配布。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "12/5(土)開催。紙芝居「こぐまのみぃちゃんと水の森」は、小学生以下のお子様を対象に、保護者同伴で参加する催し（各回50名）。",
+      "axes": {
+        "child_target": {
+          "grade": "A",
+          "reason": "対象が小学生以下のお子様と明記され、保護者同伴で参加する子ども向けの催し"
+        },
+        "interactivity": {
+          "grade": "B",
+          "reason": "ステージや紙芝居を見て楽しむのが中心"
+        },
+        "age_fit": {
+          "grade": "A",
+          "reason": "対象が小学生以下のお子様と明記"
+        },
+        "stay_flexibility": {
+          "grade": "B",
+          "reason": "①11:00〜、②13:30〜の2回など、時間が決まっている"
+        },
+        "burden": {
+          "grade": "B",
+          "reason": "整理券が必要で、定員（各回50名）に達すると参加できない"
+        },
+        "cost": {
+          "grade": "unknown",
+          "reason": "このページに参加費の記載がない"
+        },
+        "reservation": {
+          "grade": "B",
+          "reason": "予約はできず、各回の1時間前から整理券を配布（各回50名）"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "親子で楽しみながら水について学べる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-20",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "child_program",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "小学生以下向けで保護者と参加できる",
+          "水の科学館の催しで学びがある"
+        ],
+        "limitations": [
+          "参加費の記載がない",
+          "整理券が必要で定員がある"
+        ],
+        "grade_comparison": "総合B（12/5(土)）：小学生以下向けで学びのある催しだが、整理券が必要で定員が限られる。",
+        "unsupported_axes": [
+          "cost"
+        ],
+        "evidence": [
+          {
+            "url": "https://www.mizunokagaku.jp/event/261205_kamishibai_koguma/",
+            "quote": "開催日：2026年12月5日(土)",
+            "checked_at": "2026-11-20",
+            "sha256": "42150c44b8dd13e6bdcc68f79ca4f8db444d491e50e81edb1a5113ea41565c96",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.mizunokagaku.jp/event/261205_kamishibai_koguma/",
+            "quote": "対象：小学生以下のお子様",
+            "checked_at": "2026-11-20",
+            "sha256": "87f61fb7b1a0546ddb46d7d8c18b3cc89d0493ebc56666f4ea2037fccbf471c3",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.mizunokagaku.jp/event/261205_kamishibai_koguma/",
+            "quote": "会場：1Fオリエンテーションルーム",
+            "checked_at": "2026-11-20",
+            "sha256": "b9f58814738e6ec0f28977f4450e52e8e2bc246f400dd82c2162dfaf1742090e",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.mizunokagaku.jp/event/261205_kamishibai_koguma/",
+            "quote": "各回1時間前から1Fインフォメーションにて整理券を配布いたします。",
+            "checked_at": "2026-11-20",
+            "sha256": "b85b5776b46925dd914ba1d839e6df4851566ea984e82473cbfc875d4e837911",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.mizunokagaku.jp/event/261205_kamishibai_koguma/",
+            "quote": "開催時間：①11:00～②13:30～",
+            "checked_at": "2026-11-20",
+            "sha256": "4b9f7501cc20d65474695da37c8a2d41af5eaa56f5a1f728ab8d6ca74f84b623",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-20",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  },
+  {
+    "id": "verified-20261206-mizunokagaku-kids_scienseshow",
+    "ward": "江東区",
+    "name": "子どもサイエンスチャレンジ「実験ショーで知る東京都水道局の仕事」（東京都水の科学館）",
+    "url": "https://www.mizunokagaku.jp/event/261206_kids_scienseshow/",
+    "official_url": "https://www.mizunokagaku.jp/event/261206_kids_scienseshow/",
+    "source": "https://www.mizunokagaku.jp/event/261206_kids_scienseshow/",
+    "image": "",
+    "period": "12/6(日)",
+    "date_start": "2026-12-06",
+    "date_end": "2026-12-06",
+    "time": "①11:00〜 ②13:30〜",
+    "venue": "東京都水の科学館（江東区有明3-1-8）",
+    "price": "",
+    "description": "水の実験を通じて、東京都水道局がどんな仕事をしているのかを学ぶ。 小学生以下の子どもと保護者向けの催しで、整理券（各回の1時間前から配布、予約不可）が必要。",
+    "categories": [
+      "科学",
+      "水",
+      "体験"
+    ],
+    "indoor_outdoor": "屋内",
+    "reservation": {
+      "required": false,
+      "note": "予約不可。各回1時間前から1Fインフォメーションで整理券を配布。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "12/6(日)開催。子どもサイエンスチャレンジ「実験ショーで知る東京都水道局の仕事」は、小学生以下のお子様を対象に、保護者同伴で参加する催し（各回先着10名）。",
+      "axes": {
+        "child_target": {
+          "grade": "A",
+          "reason": "対象が小学生以下のお子様と明記され、保護者同伴で参加する子ども向けの催し"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "実験や工作、体験に参加できる"
+        },
+        "age_fit": {
+          "grade": "A",
+          "reason": "対象が小学生以下のお子様と明記"
+        },
+        "stay_flexibility": {
+          "grade": "B",
+          "reason": "①11:00〜、②13:30〜の2回など、時間が決まっている"
+        },
+        "burden": {
+          "grade": "B",
+          "reason": "整理券が必要で、定員（各回先着10名）に達すると参加できない"
+        },
+        "cost": {
+          "grade": "unknown",
+          "reason": "このページに参加費の記載がない"
+        },
+        "reservation": {
+          "grade": "C",
+          "reason": "予約はできず、各回の1時間前から整理券を配布（各回先着10名）"
+        },
+        "family_value": {
+          "grade": "A",
+          "reason": "親子で水や科学を学び、体験できる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-20",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "child_program",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "小学生以下向けで保護者と参加できる",
+          "水の科学館の催しで学びがある"
+        ],
+        "limitations": [
+          "参加費の記載がない",
+          "整理券が必要で定員がある"
+        ],
+        "grade_comparison": "総合B（12/6(日)）：小学生以下向けで学びのある催しだが、整理券が必要で定員が限られる。",
+        "unsupported_axes": [
+          "cost"
+        ],
+        "evidence": [
+          {
+            "url": "https://www.mizunokagaku.jp/event/261206_kids_scienseshow/",
+            "quote": "開催日：2026年12月6日(日)",
+            "checked_at": "2026-11-20",
+            "sha256": "368201351f03356b337e3f62eed721b34fae32355bc4e6567122f446fc9b0bd3",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.mizunokagaku.jp/event/261206_kids_scienseshow/",
+            "quote": "対象：小学生以下のお子様",
+            "checked_at": "2026-11-20",
+            "sha256": "87f61fb7b1a0546ddb46d7d8c18b3cc89d0493ebc56666f4ea2037fccbf471c3",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.mizunokagaku.jp/event/261206_kids_scienseshow/",
+            "quote": "会場：1Fオリエンテーションルーム",
+            "checked_at": "2026-11-20",
+            "sha256": "b9f58814738e6ec0f28977f4450e52e8e2bc246f400dd82c2162dfaf1742090e",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.mizunokagaku.jp/event/261206_kids_scienseshow/",
+            "quote": "各回1時間前から1Fインフォメーションにて整理券を配布いたします。",
+            "checked_at": "2026-11-20",
+            "sha256": "b85b5776b46925dd914ba1d839e6df4851566ea984e82473cbfc875d4e837911",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.mizunokagaku.jp/event/261206_kids_scienseshow/",
+            "quote": "開催時間：①11:00～②13:30～",
+            "checked_at": "2026-11-20",
+            "sha256": "4b9f7501cc20d65474695da37c8a2d41af5eaa56f5a1f728ab8d6ca74f84b623",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-20",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  }
+]

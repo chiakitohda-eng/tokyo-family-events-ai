@@ -1,0 +1,354 @@
+[
+  {
+    "id": "verified-20261121-setagaya-futakotamagawa-rise-winter-illumination-2026",
+    "ward": "世田谷区",
+    "name": "二子玉川ライズ ウィンターイルミネーション",
+    "url": "https://www.rise.sc/eventnews/detail/?cd=001513",
+    "official_url": "https://www.rise.sc/eventnews/detail/?cd=001513",
+    "source": "https://www.rise.sc/eventnews/detail/?cd=001513",
+    "image": "https://www.rise.sc/uploads/images/resized/0x0/rise/000008/000008/cb6dc22c.png",
+    "period": "〜2/28(日)の毎日（11/7から開催中）",
+    "date_start": "2026-11-21",
+    "date_end": "2027-02-28",
+    "time": "16:00〜23:00",
+    "venue": "リボンストリート周辺・オークモール・バーズモール（二子玉川ライズ、世田谷区玉川2-21-1）",
+    "price": "公式ページに観覧料の記載なし（要確認）",
+    "description": "LED約11.4万球のシャンパンゴールドの光とボールライトで、二子玉川ライズのまち並みを彩る冬のイルミネーション。",
+    "categories": [
+      "まつり・イベント",
+      "自然・散歩"
+    ],
+    "indoor_outdoor": "屋外",
+    "reservation": {
+      "required": false,
+      "note": "申込・予約の記載なし。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "二子玉川ライズのまち並みで2027年2月28日まで続く冬のイルミネーション。約11.4万球で、16時から23時まで点灯する。",
+      "axes": {
+        "child_target": {
+          "grade": "B",
+          "reason": "対象の限定はなく、家族で楽しめる"
+        },
+        "interactivity": {
+          "grade": "C",
+          "reason": "見て楽しむ内容が中心"
+        },
+        "age_fit": {
+          "grade": "B",
+          "reason": "年齢の限定はない"
+        },
+        "stay_flexibility": {
+          "grade": "A",
+          "reason": "期間が長く、好きな時間に行ける"
+        },
+        "burden": {
+          "grade": "B",
+          "reason": "屋外のため、寒さと混雑に注意"
+        },
+        "cost": {
+          "grade": "unknown",
+          "reason": "公式ページに記載がない"
+        },
+        "reservation": {
+          "grade": "A",
+          "reason": "申込・予約の記載なし。当日行ける"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "家族で楽しめる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-22",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "all_ages",
+        "child_activity_confirmed": false,
+        "strengths": [
+          "期間が長く、好きな時間に立ち寄れる",
+          "ツリーやスケートリンクと合わせて回れる"
+        ],
+        "limitations": [
+          "観覧料が公式ページに記載がない",
+          "屋外で夜間のため、防寒と帰りの時間に注意"
+        ],
+        "grade_comparison": "総合B：長期間のイルミネーション。観覧料は要確認。",
+        "unsupported_axes": [
+          "cost"
+        ],
+        "evidence": [
+          {
+            "url": "https://www.rise.sc/eventnews/detail/?cd=001513",
+            "quote": "LED約11.4万球が放つシャンパンゴールドの輝き",
+            "checked_at": "2026-11-22",
+            "sha256": "70e4af5802c6d1e02ec61ac7e3bf3b0bd588211a9fa7f0bc85e5144ae4fa065e",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-22にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.rise.sc/eventnews/detail/?cd=001513",
+            "quote": "2026年11月7日（土）～2027年2月28日（日）",
+            "checked_at": "2026-11-22",
+            "sha256": "17b84c9bc71189007eb14cf19cdd8c2e4a526682a137ec40c63b17bd3b3a5730",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-22にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-22",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  },
+  {
+    "id": "verified-20261121-setagaya-futakotamagawa-rise-christmas-tree-2026",
+    "ward": "世田谷区",
+    "name": "二子玉川ライズ クリスマス2026「CHRISTMAS WORLD TREE」",
+    "url": "https://www.rise.sc/eventnews/detail/?cd=001509",
+    "official_url": "https://www.rise.sc/eventnews/detail/?cd=001509",
+    "source": "https://www.rise.sc/eventnews/detail/?cd=001509",
+    "image": "https://www.rise.sc/uploads/images/resized/0x0/rise/000008/000008/dfa1b482.jpg",
+    "period": "〜12/25(金)の毎日（11/7から点灯）",
+    "date_start": "2026-11-21",
+    "date_end": "2026-12-25",
+    "time": "16:00〜23:00に15分ごとに音と光の演出",
+    "venue": "ガレリア（二子玉川ライズ、世田谷区玉川2-21-1）",
+    "price": "公式ページに観覧料の記載なし（要確認）",
+    "description": "高さ約9m・約2万6千球のクリスマスツリーがガレリアに登場し、15分ごとに音と光の特別演出がある。",
+    "categories": [
+      "まつり・イベント"
+    ],
+    "indoor_outdoor": "屋外",
+    "reservation": {
+      "required": false,
+      "note": "申込・予約の記載なし。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "ガレリアの高さ約9mのツリーが、12月25日まで点灯する。16時から15分ごとに音と光の演出がある。",
+      "axes": {
+        "child_target": {
+          "grade": "B",
+          "reason": "対象の限定はなく、家族で楽しめる"
+        },
+        "interactivity": {
+          "grade": "C",
+          "reason": "見て楽しむ内容が中心"
+        },
+        "age_fit": {
+          "grade": "B",
+          "reason": "年齢の限定はない"
+        },
+        "stay_flexibility": {
+          "grade": "A",
+          "reason": "期間が長く、好きな時間に行ける"
+        },
+        "burden": {
+          "grade": "A",
+          "reason": "短時間で気軽に立ち寄れる"
+        },
+        "cost": {
+          "grade": "unknown",
+          "reason": "公式ページに記載がない"
+        },
+        "reservation": {
+          "grade": "A",
+          "reason": "申込・予約の記載なし。当日行ける"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "家族で楽しめる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-22",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "all_ages",
+        "child_activity_confirmed": false,
+        "strengths": [
+          "15分ごとの演出で、短い時間でも立ち寄れる",
+          "ツリーとイルミネーションを合わせて見られる"
+        ],
+        "limitations": [
+          "観覧料が公式ページに記載がない",
+          "夕方以降は人が多い可能性がある"
+        ],
+        "grade_comparison": "総合B：短時間で見られるクリスマスツリー。料金は要確認。",
+        "unsupported_axes": [
+          "cost"
+        ],
+        "evidence": [
+          {
+            "url": "https://www.rise.sc/eventnews/detail/?cd=001509",
+            "quote": "高さ約9ｍ・約2万6千球の光をまとうツリーがガレリアに登場。",
+            "checked_at": "2026-11-22",
+            "sha256": "f611698cf1a448fb4bbb650d3217a8cc3c68ddb46cdfbbf2827a95ea77565748",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-22にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.rise.sc/eventnews/detail/?cd=001509",
+            "quote": "点灯期間：2026年11月7日（土）～12月25日（金）",
+            "checked_at": "2026-11-22",
+            "sha256": "ae3f10f15fa0402615ca0a253933d2b8004c1f068cb18a1806bdfb56313a4b57",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-22にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-22",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  },
+  {
+    "id": "verified-20261121-setagaya-futakotamagawa-rise-clear-sky-science-live",
+    "ward": "世田谷区",
+    "name": "東京の空について考えよう！Clear Skyサイエンスライブ",
+    "url": "https://www.rise.sc/eventnews/detail/?cd=001566",
+    "official_url": "https://www.rise.sc/eventnews/detail/?cd=001566",
+    "source": "https://www.rise.sc/eventnews/detail/?cd=001566",
+    "image": "https://www.rise.sc/uploads/images/resized/0x0/rise/000008/000008/134d99e5.png",
+    "period": "11/23(月・祝)",
+    "date_start": "2026-11-23",
+    "date_end": "2026-11-23",
+    "time": "13:00〜、15:00〜（各回）",
+    "venue": "ガレリア（二子玉川ライズ、世田谷区玉川2-21-1）",
+    "price": "公式ページに参加費の記載なし（要確認）",
+    "description": "サイエンスアーティストの市岡元気先生と、東京の空について楽しく学べるサイエンスライブ。ブースイベントに参加するとノベルティがもらえる。",
+    "categories": [
+      "科学・自然",
+      "体験・ワークショップ"
+    ],
+    "indoor_outdoor": "屋内",
+    "reservation": {
+      "required": false,
+      "note": "申込・予約の記載なし。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "ガレリアで11/23の13時と15時に開く、東京の空について学ぶサイエンスライブ。ブースの参加でノベルティがもらえる。",
+      "axes": {
+        "child_target": {
+          "grade": "B",
+          "reason": "対象の限定はなく、家族で楽しめる"
+        },
+        "interactivity": {
+          "grade": "B",
+          "reason": "ステージを見ながら参加できる部分がある"
+        },
+        "age_fit": {
+          "grade": "B",
+          "reason": "年齢の限定はない"
+        },
+        "stay_flexibility": {
+          "grade": "C",
+          "reason": "決まった日・回に合わせる必要がある"
+        },
+        "burden": {
+          "grade": "A",
+          "reason": "短時間で気軽に立ち寄れる"
+        },
+        "cost": {
+          "grade": "unknown",
+          "reason": "公式ページに記載がない"
+        },
+        "reservation": {
+          "grade": "A",
+          "reason": "申込・予約の記載なし。当日行ける"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "家族で楽しめる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-22",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "child_program",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "実験形式のサイエンスライブで、子どもも見て学べる",
+          "ブース参加でノベルティがもらえる"
+        ],
+        "limitations": [
+          "2回のみの開催で、参加費は公式ページに記載がない"
+        ],
+        "grade_comparison": "総合B：1日限りのサイエンスライブ。参加費は要確認。",
+        "unsupported_axes": [
+          "cost"
+        ],
+        "evidence": [
+          {
+            "url": "https://www.rise.sc/eventnews/detail/?cd=001566",
+            "quote": "YouTubeなどで活躍しているサイエンスアーティスト、市岡元気先生と一緒に東京の空について楽しく学べるサイエンスライブを開催します！",
+            "checked_at": "2026-11-22",
+            "sha256": "0fe36166b11cd0c5726096d6c24e5a664179fcdec265432f66a3ecc9078ef7f8",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-22にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.rise.sc/eventnews/detail/?cd=001566",
+            "quote": "11月23日（月・祝）13:00～、15:00～",
+            "checked_at": "2026-11-22",
+            "sha256": "5801940260ae65ded8b10d773e84a25aa1c9e7c443e434ccd2438279789a2460",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-22にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-22",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  }
+]

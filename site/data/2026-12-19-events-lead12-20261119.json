@@ -1,0 +1,1134 @@
+[
+  {
+    "id": "verified-20261219-setagaya-seijo-sakura-candle",
+    "ward": "世田谷区",
+    "name": "成城さくら児童館 親子のキャンドルづくり",
+    "url": "https://www.city.setagaya.lg.jp/03078/36774.html",
+    "official_url": "https://www.city.setagaya.lg.jp/03078/36774.html",
+    "source": "https://www.city.setagaya.lg.jp/03078/36774.html",
+    "image": "https://www.city.setagaya.lg.jp/images/36774/hpkeisaiyou.jpg",
+    "period": "12/19(土)",
+    "date_start": "2026-12-19",
+    "date_end": "2026-12-19",
+    "time": "10:30〜11:30",
+    "venue": "成城さくら児童館 2階工作室",
+    "price": "無料",
+    "description": "冬の夜を彩るキャンドルを親子で一緒につくる、幼児と保護者向けの工作イベント。",
+    "categories": [
+      "体験・ワークショップ",
+      "工作"
+    ],
+    "indoor_outdoor": "屋内",
+    "reservation": {
+      "required": true,
+      "note": "12/5午前11:30から先着順（電話申込可）。6組12人程度。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "冬の夜を彩るキャンドルを親子で一緒につくる、幼児と保護者向けの工作イベント。無料。事前の申込が必要。",
+      "axes": {
+        "child_target": {
+          "grade": "A",
+          "reason": "幼児と保護者が対象"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "親子でキャンドルを作る"
+        },
+        "age_fit": {
+          "grade": "A",
+          "reason": "幼児と保護者と明記"
+        },
+        "stay_flexibility": {
+          "grade": "B",
+          "reason": "10:30〜11:30"
+        },
+        "burden": {
+          "grade": "C",
+          "reason": "先着6組12人程度で、事前申込が必要"
+        },
+        "cost": {
+          "grade": "A",
+          "reason": "無料"
+        },
+        "reservation": {
+          "grade": "C",
+          "reason": "12/5から先着順で電話申込可"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "親子で作品を持ち帰れる工作"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-19",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "child_program",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "親子で工作",
+          "無料"
+        ],
+        "limitations": [
+          "6組と少人数",
+          "事前申込が必要"
+        ],
+        "grade_comparison": "総合B：12/19(土)の成城さくら児童館 2階工作室で10:30〜11:30の開催。無料。申込が必要で、定員がある。",
+        "unsupported_axes": [],
+        "evidence": [
+          {
+            "url": "https://www.city.setagaya.lg.jp/03078/36774.html",
+            "quote": "成城さくら児童館【12月】親子のキャンドルづくり募集中募集終了事前申込必要表示しない冬の夜を彩るキャンドルを親子で一緒につくります。",
+            "checked_at": "2026-11-19",
+            "sha256": "3643db672ec42d537897810e34c012bf31fc1ab70e7a82b2de2aa5f96da0cdbc",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "世田谷区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.setagaya.lg.jp/03078/36774.html",
+            "quote": "日程2026年12月19日（土曜日）時間午前10時30分から11時30分",
+            "checked_at": "2026-11-19",
+            "sha256": "569e3593e49ed5617e7f95d9b5774a1b7bda9b22dc4e39871536af5925948340",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "世田谷区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.setagaya.lg.jp/03078/36774.html",
+            "quote": "場所・会場成城さくら児童館2階工作室対象幼児と保護者6組12人程度費用・料金無料申し込み方法令和8年12月5日(土曜日)午前11時30分から先着順（電話申込可）申込期間：2026年12月05日から",
+            "checked_at": "2026-11-19",
+            "sha256": "20c7b3caf21aa2320ac39b6fbb205a89303d906dd34b7f584167723aeed51fe4",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "世田谷区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-19",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  },
+  {
+    "id": "verified-20261219-setagaya-kasuya-baton",
+    "ward": "世田谷区",
+    "name": "粕谷児童館 バトンをまわそう！",
+    "url": "https://www.city.setagaya.lg.jp/03085/36978.html",
+    "official_url": "https://www.city.setagaya.lg.jp/03085/36978.html",
+    "source": "https://www.city.setagaya.lg.jp/03085/36978.html",
+    "image": "https://www.city.setagaya.lg.jp/images/36978/baton.jpg",
+    "period": "12/19(土)",
+    "date_start": "2026-12-19",
+    "date_end": "2026-12-19",
+    "time": "13:30〜14:30",
+    "venue": "粕谷児童館 プレイルーム",
+    "price": "無料",
+    "description": "バトントワーリングに挑戦。地域のお姉さんと一緒に練習する、小学1年生〜中高生世代向けの体験。",
+    "categories": [
+      "体験・ワークショップ",
+      "スポーツ"
+    ],
+    "indoor_outdoor": "屋内",
+    "reservation": {
+      "required": false,
+      "note": "当日直接、開催時間までに来館。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "バトントワーリングに挑戦。無料。申込の案内はなく、当日参加できる。",
+      "axes": {
+        "child_target": {
+          "grade": "A",
+          "reason": "小学1年生から中高生世代が対象"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "バトンを実際に回して練習する"
+        },
+        "age_fit": {
+          "grade": "A",
+          "reason": "小学1年生から中高生世代と明記"
+        },
+        "stay_flexibility": {
+          "grade": "B",
+          "reason": "13:30〜14:30"
+        },
+        "burden": {
+          "grade": "A",
+          "reason": "当日直接参加でき、バトンは貸出"
+        },
+        "cost": {
+          "grade": "A",
+          "reason": "無料"
+        },
+        "reservation": {
+          "grade": "A",
+          "reason": "当日直接参加"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "地域の人から習える体験"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-19",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "child_program",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "当日参加",
+          "バトン貸出"
+        ],
+        "limitations": [
+          "対象は小学生以上"
+        ],
+        "grade_comparison": "総合B：12/19(土)の粕谷児童館 プレイルームで13:30〜14:30の開催。無料。申込不要で気軽に参加できる。",
+        "unsupported_axes": [],
+        "evidence": [
+          {
+            "url": "https://www.city.setagaya.lg.jp/03085/36978.html",
+            "quote": "粕谷児童館12月「バトンをまわそう！」募集中募集終了事前申込必要表示しないバトントワーリングに挑戦！地域のお姉さんとバトンを回せるように一緒に練習しましょう。協力：あやかさん（KingsBatonStadio所属）",
+            "checked_at": "2026-11-19",
+            "sha256": "d9661f182f8b6f9885686930192647498067ae17225a90c3bf62041a27cd586c",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "世田谷区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.setagaya.lg.jp/03085/36978.html",
+            "quote": "日程2026年12月19日（土曜日）時間午後1時30分から2時30分",
+            "checked_at": "2026-11-19",
+            "sha256": "4763a84d1f95796a4744cc144ae2db08cddf6dc4526ea0f4eb351b2ba3fb5f58",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "世田谷区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.setagaya.lg.jp/03085/36978.html",
+            "quote": "場所・会場粕谷児童館プレイルーム対象小学1年生から中高生世代まで費用・料金無料申し込み方法当日直接開催時間までにお越しください",
+            "checked_at": "2026-11-19",
+            "sha256": "077a583a19ad643124273aeaaf78b980912f533a0d4f6c039bd9c28d59814e74",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "世田谷区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-19",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  },
+  {
+    "id": "verified-20261220-setagaya-todoroki-jinchi-survival",
+    "ward": "世田谷区",
+    "name": "等々力児童館 紅白陣地とりサバイバル！",
+    "url": "https://www.city.setagaya.lg.jp/03070/36968.html",
+    "official_url": "https://www.city.setagaya.lg.jp/03070/36968.html",
+    "source": "https://www.city.setagaya.lg.jp/03070/36968.html",
+    "image": "",
+    "period": "12/20(日)",
+    "date_start": "2026-12-20",
+    "date_end": "2026-12-20",
+    "time": "14:00〜15:30",
+    "venue": "等々力児童館 グランド（雨天時は遊戯室）",
+    "price": "参加費の記載なし",
+    "description": "チームに分かれて陣地取りゲームで遊ぶ、小学1年生以上向けの体を動かすイベント。",
+    "categories": [
+      "スポーツ",
+      "子ども"
+    ],
+    "indoor_outdoor": "屋外",
+    "reservation": {
+      "required": true,
+      "note": "12/16から当日まで受付。参加する本人が児童館に来館。20名程度。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "チームに分かれて陣地取りゲームで遊ぶ、小学1年生以上向けの体を動かすイベント。参加費の記載なし。事前の申込が必要。",
+      "axes": {
+        "child_target": {
+          "grade": "A",
+          "reason": "小学1年生以上が対象"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "チーム戦の陣地取りゲーム"
+        },
+        "age_fit": {
+          "grade": "A",
+          "reason": "小学1年生以上と明記"
+        },
+        "stay_flexibility": {
+          "grade": "B",
+          "reason": "14:00〜15:30"
+        },
+        "burden": {
+          "grade": "B",
+          "reason": "20名程度で、事前に来館して申込"
+        },
+        "cost": {
+          "grade": "unknown",
+          "reason": "参加費の記載がない"
+        },
+        "reservation": {
+          "grade": "B",
+          "reason": "12/16から当日まで受付"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "体を思い切り動かせる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-19",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "child_program",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "体を動かして遊べる",
+          "雨天は遊戯室"
+        ],
+        "limitations": [
+          "20名程度",
+          "参加費の記載なし"
+        ],
+        "grade_comparison": "総合B：12/20(日)の等々力児童館 グランドで14:00〜15:30の開催。参加費の記載なし。申込が必要で、定員がある。",
+        "unsupported_axes": [
+          "cost"
+        ],
+        "evidence": [
+          {
+            "url": "https://www.city.setagaya.lg.jp/03070/36968.html",
+            "quote": "等々力児童館紅白陣地とりサバイバル！募集中募集終了事前申込必要表示しないチームに分かれて、陣地取りゲームをして遊ぼう！",
+            "checked_at": "2026-11-19",
+            "sha256": "1dd9d9231657cecacf713e01f4a1a826e854b1dcbcf2e4cbb6ba3750b7d05ed1",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "世田谷区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.setagaya.lg.jp/03070/36968.html",
+            "quote": "日程2026年12月20日（日曜日）時間午後2時から3時30分",
+            "checked_at": "2026-11-19",
+            "sha256": "3dc5c1ac928554d59f5d60ccf275a6674b80ca7594713fae2bf6bf93490b3a2d",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "世田谷区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.setagaya.lg.jp/03070/36968.html",
+            "quote": "場所・会場等々力児童館グランド対象小学1年生以上20名程度申し込み方法12月16日(水曜日)から当日まで受付。参加する本人が児童館に来てください。",
+            "checked_at": "2026-11-19",
+            "sha256": "a2000158964c500b26b282747457ba86c5559587b19b940f4c966fbd9e6591e2",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "世田谷区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-19",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  },
+  {
+    "id": "verified-20261219-setagaya-daita-candle",
+    "ward": "世田谷区",
+    "name": "代田児童館 かんたん工作「キャンドルづくり」",
+    "url": "https://www.city.setagaya.lg.jp/03067/36758.html",
+    "official_url": "https://www.city.setagaya.lg.jp/03067/36758.html",
+    "source": "https://www.city.setagaya.lg.jp/03067/36758.html",
+    "image": "https://www.city.setagaya.lg.jp/images/36758/daibirdasobo.jpg",
+    "period": "12/19(土)",
+    "date_start": "2026-12-19",
+    "date_end": "2026-12-19",
+    "time": "10:30〜12:00",
+    "venue": "代田児童館 工作室",
+    "price": "費用・料金なし",
+    "description": "ホイップしたパラフィンをこねて好きな形のキャンドルを作る、小学1年生〜中高生世代向けの工作（12/15〜19に実施、19日は土曜の午前）。",
+    "categories": [
+      "体験・ワークショップ",
+      "工作"
+    ],
+    "indoor_outdoor": "屋内",
+    "reservation": {
+      "required": true,
+      "note": "12/5午後5時から。定員を大幅に超えた場合は抽選。行事申込みカードを持って本人が来館。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "ホイップしたパラフィンをこねて好きな形のキャンドルを作る、小学1年生〜中高生世代向けの工作（12/15〜19に実施、19日は土曜の午前）。費用・料金なし。事前の申込が必要。",
+      "axes": {
+        "child_target": {
+          "grade": "A",
+          "reason": "小学1年生から中高生世代が対象"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "自分でパラフィンをこねてキャンドルを作る"
+        },
+        "age_fit": {
+          "grade": "A",
+          "reason": "小学1年生から中高生世代と明記"
+        },
+        "stay_flexibility": {
+          "grade": "B",
+          "reason": "10:30〜12:00"
+        },
+        "burden": {
+          "grade": "C",
+          "reason": "各回8名程度で、定員超過時は抽選"
+        },
+        "cost": {
+          "grade": "A",
+          "reason": "無料"
+        },
+        "reservation": {
+          "grade": "C",
+          "reason": "12/5から受付、超過時は抽選"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "作品を持ち帰れる工作"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-19",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "child_program",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "手作りキャンドル",
+          "費用なし"
+        ],
+        "limitations": [
+          "各回8名程度",
+          "抽選の場合がある"
+        ],
+        "grade_comparison": "総合B：12/19(土)の代田児童館 工作室で10:30〜12:00の開催。費用・料金なし。申込が必要で、定員がある。",
+        "unsupported_axes": [],
+        "evidence": [
+          {
+            "url": "https://www.city.setagaya.lg.jp/03067/36758.html",
+            "quote": "代田児童館かんたん工作「キャンドルづくり」募集中募集終了事前申込必要表示しないホイップしたパラフィンを自分の手でこねて好きな形のキャンドルを作っちゃおう！自分だけのキャンドルを作ります。",
+            "checked_at": "2026-11-19",
+            "sha256": "a3445ad6497c2122e8b05313b01602e52a05aef90d14825878628b56dd6ff318",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "世田谷区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.setagaya.lg.jp/03067/36758.html",
+            "quote": "日程2026年12月15日（火曜日）から2026年12月19日（土曜日）時間15日（火曜日）、17日（木曜日）、18日（金曜日）は午後3時30分から5時30分16日（水曜日）は午後2時から4時と午後4時から6時19日（土曜日）は午前10時30分から正午",
+            "checked_at": "2026-11-19",
+            "sha256": "7b57fb0a493b441c200ceb23b7ada13f5d278904730bd4d80e329994914d9323",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "世田谷区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.setagaya.lg.jp/03067/36758.html",
+            "quote": "場所・会場工作室対象小学校1年生から中高生世代各回8名程度費用・料金なし申し込み方法12月5日（土曜日）午後5時から午後5時の時点で定員を大幅に超えた場合は抽選をします。12月号お知らせについている行事申込みカードを持って参加する本人がきてね。申込期間：2026年12月05日から",
+            "checked_at": "2026-11-19",
+            "sha256": "0bc492bf02af1cbeeac2c70d9c574eb5f2c1f62390e4e9a8f74968d7efa68d50",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "世田谷区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-19",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  },
+  {
+    "id": "verified-20261219-edogawa-kamiisshiki-magic",
+    "ward": "江戸川区",
+    "name": "マジック（上一色コミュニティセンター）",
+    "url": "https://www.city.edogawa.tokyo.jp/event/261215magic.html",
+    "official_url": "https://www.city.edogawa.tokyo.jp/event/261215magic.html",
+    "source": "https://www.city.edogawa.tokyo.jp/event/261215magic.html",
+    "image": "https://www.city.edogawa.tokyo.jp/images/75061/majic.jpg",
+    "period": "12/19(土)",
+    "date_start": "2026-12-19",
+    "date_end": "2026-12-19",
+    "time": "10:00〜11:00",
+    "venue": "上一色コミュニティセンター",
+    "price": "無料",
+    "description": "不思議なマジックや和妻で楽しませてくれる、地域のコミュニティセンターのマジックショー。",
+    "categories": [
+      "ショー・観劇",
+      "地域イベント"
+    ],
+    "indoor_outdoor": "屋内",
+    "reservation": {
+      "required": false,
+      "note": "申込不要。定員50人（先着順）。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "不思議なマジックや和妻で楽しませてくれる、地域のコミュニティセンターのマジックショー。無料。申込の案内はなく、当日参加できる。",
+      "axes": {
+        "child_target": {
+          "grade": "A",
+          "reason": "子どもも楽しめるマジックショー"
+        },
+        "interactivity": {
+          "grade": "B",
+          "reason": "マジックを鑑賞する"
+        },
+        "age_fit": {
+          "grade": "unknown",
+          "reason": "対象年齢の目安は明記がない"
+        },
+        "stay_flexibility": {
+          "grade": "B",
+          "reason": "10:00〜11:00"
+        },
+        "burden": {
+          "grade": "A",
+          "reason": "申込不要で気軽に参加"
+        },
+        "cost": {
+          "grade": "A",
+          "reason": "無料"
+        },
+        "reservation": {
+          "grade": "A",
+          "reason": "申込不要（先着50人）"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "親子で気軽に楽しめる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-19",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "child_program",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "無料",
+          "申込不要"
+        ],
+        "limitations": [
+          "定員50人（先着順）"
+        ],
+        "grade_comparison": "総合B：12/19(土)の上一色コミュニティセンターで10:00〜11:00の開催。無料。申込不要で気軽に参加できる。",
+        "unsupported_axes": [
+          "age_fit"
+        ],
+        "evidence": [
+          {
+            "url": "https://www.city.edogawa.tokyo.jp/event/261215magic.html",
+            "quote": "マジック（上一色コミュニティセンター）わくわく！ドキドキ！マジック不思議なマジックでみんなを笑顔に！和妻もやります！！",
+            "checked_at": "2026-11-19",
+            "sha256": "b344db7d71e52afd048eb638fd319f9f50bbd137023f7d600ea5fac4e4afa6c0",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "江戸川区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.edogawa.tokyo.jp/event/261215magic.html",
+            "quote": "開催日時2026年12月19日（土曜日）10時00分から11時00分",
+            "checked_at": "2026-11-19",
+            "sha256": "5907b75b13750bf8c3f8e26b7de35cdc27fc8de8da1e663c9230d55cc6d857ef",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "江戸川区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.edogawa.tokyo.jp/event/261215magic.html",
+            "quote": "場所上一色コミュニティセンター",
+            "checked_at": "2026-11-19",
+            "sha256": "2739a0145363284afbd8e2804f734ca8ca415742bb486cd26d4e8c624803b8b7",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "江戸川区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-19",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  },
+  {
+    "id": "verified-20261219-meguro-higashiyama-english",
+    "ward": "目黒区",
+    "name": "東山児童館 乳幼児のつどい「英語で遊ぼう」",
+    "url": "https://www.city.meguro.tokyo.jp/houkago/event/higashiyama_nyu_tudoi261219.html",
+    "official_url": "https://www.city.meguro.tokyo.jp/houkago/event/higashiyama_nyu_tudoi261219.html",
+    "source": "https://www.city.meguro.tokyo.jp/houkago/event/higashiyama_nyu_tudoi261219.html",
+    "image": "https://www.city.meguro.tokyo.jp/images/20725/higashiyama.jpg",
+    "period": "12/19(土)",
+    "date_start": "2026-12-19",
+    "date_end": "2026-12-19",
+    "time": "0・1歳10:00〜10:45／2〜5歳11:00〜11:45",
+    "venue": "東山児童館 1階プレイルーム",
+    "price": "参加費の記載なし",
+    "description": "ネイティブティーチャーと英語を使ったレクリエーションを楽しむ、0〜5歳児と保護者向けのつどい。",
+    "categories": [
+      "親子",
+      "体験・ワークショップ"
+    ],
+    "indoor_outdoor": "屋内",
+    "reservation": {
+      "required": true,
+      "note": "12/5から電話（03-3791-4613）または来館で申込。各30組。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "ネイティブティーチャーと英語を使ったレクリエーションを楽しむ、0〜5歳児と保護者向けのつどい。参加費の記載なし。事前の申込が必要。",
+      "axes": {
+        "child_target": {
+          "grade": "A",
+          "reason": "0〜5歳児と保護者が対象"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "英語でレクリエーションを楽しむ"
+        },
+        "age_fit": {
+          "grade": "A",
+          "reason": "0・1歳と2〜5歳で時間を分けている"
+        },
+        "stay_flexibility": {
+          "grade": "B",
+          "reason": "0・1歳10:00〜10:45／2〜5歳11:00〜11:45"
+        },
+        "burden": {
+          "grade": "B",
+          "reason": "各30組で、事前申込制"
+        },
+        "cost": {
+          "grade": "unknown",
+          "reason": "参加費の記載がない"
+        },
+        "reservation": {
+          "grade": "B",
+          "reason": "電話または来館で申込"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "親子で英語に触れられる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-19",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "child_program",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "年齢別の時間枠",
+          "英語遊び"
+        ],
+        "limitations": [
+          "事前申込制",
+          "参加費の記載なし"
+        ],
+        "grade_comparison": "総合B：12/19(土)の東山児童館 1階プレイルームで0・1歳10:00〜10:45／2〜5歳11:00〜11:45の開催。参加費の記載なし。申込が必要で、定員がある。",
+        "unsupported_axes": [
+          "cost"
+        ],
+        "evidence": [
+          {
+            "url": "https://www.city.meguro.tokyo.jp/houkago/event/higashiyama_nyu_tudoi261219.html",
+            "quote": "東山児童館乳幼児のつどい「英語で遊ぼう」（12月19日開催）東山児童館イメージキャラクターの東山カンタ",
+            "checked_at": "2026-11-19",
+            "sha256": "7df8c2d28419ed83da141bb7112b0b2433eb587cec7cbdd638256f98b99e2cc5",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "目黒区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.meguro.tokyo.jp/houkago/event/higashiyama_nyu_tudoi261219.html",
+            "quote": "日にち令和8年12月19日（土曜日）",
+            "checked_at": "2026-11-19",
+            "sha256": "4ee892fa4d8a9c43c5d743c99c23c528f4bae6d9ed3af0abeb28cc9521532c7f",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "目黒区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.meguro.tokyo.jp/houkago/event/higashiyama_nyu_tudoi261219.html",
+            "quote": "対象・時間・定員対象時間定員0歳児、1歳児午前10時から午前10時45分まで30組2歳児から5歳児まで午前11時から午前11時45分まで30組",
+            "checked_at": "2026-11-19",
+            "sha256": "d89f9a6aff2ca370cb4dd0f9268792ff2cf962d62a740e1e96cba37986f4c956",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "目黒区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.meguro.tokyo.jp/houkago/event/higashiyama_nyu_tudoi261219.html",
+            "quote": "会場東山児童館1階プレイルーム",
+            "checked_at": "2026-11-19",
+            "sha256": "643e45ffae578abee6e5a1f49cc679fafcc3fe6ab401202df0c4e27b41ee8dd9",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "目黒区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-19",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  },
+  {
+    "id": "verified-20261219-meguro-tairamachi-baby-xmas",
+    "ward": "目黒区",
+    "name": "平町児童館 ベビー活動「クリスマスお楽しみ会」",
+    "url": "https://www.city.meguro.tokyo.jp/houkago/event/tairamati-baby261219.html",
+    "official_url": "https://www.city.meguro.tokyo.jp/houkago/event/tairamati-baby261219.html",
+    "source": "https://www.city.meguro.tokyo.jp/houkago/event/tairamati-baby261219.html",
+    "image": "https://www.city.meguro.tokyo.jp/images/20749/tairamati2.png",
+    "period": "12/19(土)",
+    "date_start": "2026-12-19",
+    "date_end": "2026-12-19",
+    "time": "9:45〜10:30／10:45〜11:30",
+    "venue": "平町児童館 地下1階多目的スペース",
+    "price": "参加費の記載なし",
+    "description": "クリスマスにちなんだゲームやお話を楽しむ、令和8年4月2日以降生まれの乳児と保護者向けのベビー活動。",
+    "categories": [
+      "親子",
+      "ショー・観劇"
+    ],
+    "indoor_outdoor": "屋内",
+    "reservation": {
+      "required": true,
+      "note": "11/25から電話（03-3723-3750）または来館で申込。各回20組程度（先着）。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "クリスマスにちなんだゲームやお話を楽しむ、令和8年4月2日以降生まれの乳児と保護者向けのベビー活動。参加費の記載なし。事前の申込が必要。",
+      "axes": {
+        "child_target": {
+          "grade": "A",
+          "reason": "乳児と保護者が対象"
+        },
+        "interactivity": {
+          "grade": "B",
+          "reason": "ゲームやお話を楽しむ"
+        },
+        "age_fit": {
+          "grade": "A",
+          "reason": "令和8年4月2日以降生まれの乳児と明記"
+        },
+        "stay_flexibility": {
+          "grade": "B",
+          "reason": "9:45〜10:30／10:45〜11:30"
+        },
+        "burden": {
+          "grade": "B",
+          "reason": "20組程度で、先着申込"
+        },
+        "cost": {
+          "grade": "unknown",
+          "reason": "参加費の記載がない"
+        },
+        "reservation": {
+          "grade": "B",
+          "reason": "11/25から電話または来館で申込"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "乳児連れで参加できるクリスマス会"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-19",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "child_program",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "乳児向け",
+          "プレママ・プレパパも見学可"
+        ],
+        "limitations": [
+          "先着20組程度",
+          "参加費の記載なし"
+        ],
+        "grade_comparison": "総合B：12/19(土)の平町児童館 地下1階多目的スペースで9:45〜10:30／10:45〜11:30の開催。参加費の記載なし。申込が必要で、定員がある。",
+        "unsupported_axes": [
+          "cost"
+        ],
+        "evidence": [
+          {
+            "url": "https://www.city.meguro.tokyo.jp/houkago/event/tairamati-baby261219.html",
+            "quote": "平町児童館ベビー活動「クリスマスお楽しみ会」（12月19日開催）平町児童館のイメージキャラクターのたいらん",
+            "checked_at": "2026-11-19",
+            "sha256": "99b1dfab64a868b28a711f078e7e5ea8fc5fe39c1df8c73a0eb873cf577983fb",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "目黒区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.meguro.tokyo.jp/houkago/event/tairamati-baby261219.html",
+            "quote": "日時令和8年12月19日（土曜日）午前9時45分から10時30分まで午前10時45分から11時30分まで",
+            "checked_at": "2026-11-19",
+            "sha256": "d790b825dc86b05220df4504f075a4db815bad82e21011294a5a07e4440a174a",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "目黒区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.meguro.tokyo.jp/houkago/event/tairamati-baby261219.html",
+            "quote": "会場平町児童館地下1階多目的スペース",
+            "checked_at": "2026-11-19",
+            "sha256": "091baba4dd79e6610913bfb0035269ec47aa20d26220202a53976b8f33a278c9",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "目黒区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-19",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  },
+  {
+    "id": "verified-20261219-meguro-higashine-xmas",
+    "ward": "目黒区",
+    "name": "東根住区センター児童館 乳幼児のつどい「クリスマス会」",
+    "url": "https://www.city.meguro.tokyo.jp/houkago/event/higasine-tudoi261219.html",
+    "official_url": "https://www.city.meguro.tokyo.jp/houkago/event/higasine-tudoi261219.html",
+    "source": "https://www.city.meguro.tokyo.jp/houkago/event/higasine-tudoi261219.html",
+    "image": "https://www.city.meguro.tokyo.jp/images/20797/1219.jpg",
+    "period": "12/19(土)",
+    "date_start": "2026-12-19",
+    "date_end": "2026-12-19",
+    "time": "10:30〜11:10",
+    "venue": "東根住区センター児童館 地下1階レクリエーションホール",
+    "price": "参加費の記載なし",
+    "description": "クリスマスをテーマにした演奏会を楽しむ、0〜5歳児と保護者向けのつどい。",
+    "categories": [
+      "親子",
+      "音楽"
+    ],
+    "indoor_outdoor": "屋内",
+    "reservation": {
+      "required": true,
+      "note": "12/1から電話（03-3487-8510）または3階受付で申込。25組（先着）。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "クリスマスをテーマにした演奏会を楽しむ、0〜5歳児と保護者向けのつどい。参加費の記載なし。事前の申込が必要。",
+      "axes": {
+        "child_target": {
+          "grade": "A",
+          "reason": "0〜5歳児と保護者が対象"
+        },
+        "interactivity": {
+          "grade": "B",
+          "reason": "演奏会を楽しむ"
+        },
+        "age_fit": {
+          "grade": "A",
+          "reason": "0〜5歳児と明記"
+        },
+        "stay_flexibility": {
+          "grade": "B",
+          "reason": "10:30〜11:10"
+        },
+        "burden": {
+          "grade": "B",
+          "reason": "25組で、先着申込"
+        },
+        "cost": {
+          "grade": "unknown",
+          "reason": "参加費の記載がない"
+        },
+        "reservation": {
+          "grade": "B",
+          "reason": "12/1から電話または受付で申込"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "親子でクリスマスの演奏を楽しめる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-19",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "child_program",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "0〜5歳児向け",
+          "演奏会"
+        ],
+        "limitations": [
+          "先着25組",
+          "参加費の記載なし"
+        ],
+        "grade_comparison": "総合B：12/19(土)の東根住区センター児童館 地下1階レクリエーションホールで10:30〜11:10の開催。参加費の記載なし。申込が必要で、定員がある。",
+        "unsupported_axes": [
+          "cost"
+        ],
+        "evidence": [
+          {
+            "url": "https://www.city.meguro.tokyo.jp/houkago/event/higasine-tudoi261219.html",
+            "quote": "東根住区センター児童館乳幼児のつどい「クリスマス会」（12月19日開催）",
+            "checked_at": "2026-11-19",
+            "sha256": "80bc8c6384e1f32ba50dba3fdd622225bce9337376519b89aed09af401c9a719",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "目黒区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.meguro.tokyo.jp/houkago/event/higasine-tudoi261219.html",
+            "quote": "日時令和8年12月19日（土曜日）午前10時30分から午前11時10分まで",
+            "checked_at": "2026-11-19",
+            "sha256": "8439b2f10f87f20b3ccce8a6fc94cfc00dc865edbfa490fe850c739912a4b631",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "目黒区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.meguro.tokyo.jp/houkago/event/higasine-tudoi261219.html",
+            "quote": "会場東根住区センター児童館地下1階レクリエーションホール",
+            "checked_at": "2026-11-19",
+            "sha256": "ef78287a9e5750de156188117f0ba0aaf0d89c020481d6239dd4896de20ec722",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "目黒区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-19",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  },
+  {
+    "id": "verified-20261220-arakawa-ogu-library-xmas",
+    "ward": "荒川区",
+    "name": "尾久図書館 ちょっと特別なクリスマスのおはなし会",
+    "url": "https://www.city.arakawa.tokyo.jp/a019/toshokan/ogu2026/ogu202612kurisumasu.html",
+    "official_url": "https://www.city.arakawa.tokyo.jp/a019/toshokan/ogu2026/ogu202612kurisumasu.html",
+    "source": "https://www.city.arakawa.tokyo.jp/a019/toshokan/ogu2026/ogu202612kurisumasu.html",
+    "image": "https://www.city.arakawa.tokyo.jp/images/46692/202612kurisumasu.png",
+    "period": "12/20(日)",
+    "date_start": "2026-12-20",
+    "date_end": "2026-12-20",
+    "time": "15:00〜",
+    "venue": "尾久図書館 1階みんなのひろば",
+    "price": "無料",
+    "description": "大型絵本や紙芝居、パネルシアター、ハンドベルの演奏を楽しむ、小学生までの子どもと保護者向けのクリスマス会。",
+    "categories": [
+      "絵本",
+      "図書館"
+    ],
+    "indoor_outdoor": "屋内",
+    "reservation": {
+      "required": true,
+      "note": "当日14:30から、みんなのひろば前で整理券を配布。定員30名。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "大型絵本や紙芝居、パネルシアター、ハンドベルの演奏を楽しむ、小学生までの子どもと保護者向けのクリスマス会。無料。事前の申込が必要。",
+      "axes": {
+        "child_target": {
+          "grade": "A",
+          "reason": "小学生までの子どもと保護者が対象"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "絵本・紙芝居・パネルシアター・ハンドベル"
+        },
+        "age_fit": {
+          "grade": "A",
+          "reason": "小学生までと明記"
+        },
+        "stay_flexibility": {
+          "grade": "B",
+          "reason": "15:00〜"
+        },
+        "burden": {
+          "grade": "B",
+          "reason": "当日の整理券（定員30名）が必要"
+        },
+        "cost": {
+          "grade": "A",
+          "reason": "無料"
+        },
+        "reservation": {
+          "grade": "B",
+          "reason": "当日14:30から整理券を配布"
+        },
+        "family_value": {
+          "grade": "A",
+          "reason": "親子でクリスマスのおはなしを楽しめる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-19",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "child_program",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "無料",
+          "絵本と音楽"
+        ],
+        "limitations": [
+          "定員30名",
+          "整理券が必要"
+        ],
+        "grade_comparison": "総合B：12/20(日)の尾久図書館 1階みんなのひろばで15:00〜の開催。無料。申込が必要で、定員がある。",
+        "unsupported_axes": [],
+        "evidence": [
+          {
+            "url": "https://www.city.arakawa.tokyo.jp/a019/toshokan/ogu2026/ogu202612kurisumasu.html",
+            "quote": "尾久図書館ちょっと特別なクリスマスのおはなし会クリスマスにまつわるおはなしの大型絵本や紙芝居を、みんなで楽しむ時間です。",
+            "checked_at": "2026-11-19",
+            "sha256": "673f748963e63892d18cb1e0307b0681ee8ff41117066db6f13d6f81df2ce8fe",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "荒川区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.arakawa.tokyo.jp/a019/toshokan/ogu2026/ogu202612kurisumasu.html",
+            "quote": "開催日日付2026年12月20日（日曜日）時間午後3時から場所尾久図書館1階みんなのひろば",
+            "checked_at": "2026-11-19",
+            "sha256": "6275528dff758284524ef34f6c456567efd532790ecfb1b178eebaa2a59339e3",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "荒川区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.arakawa.tokyo.jp/a019/toshokan/ogu2026/ogu202612kurisumasu.html",
+            "quote": "場所尾久図書館1階みんなのひろば",
+            "checked_at": "2026-11-19",
+            "sha256": "bec6b3cfbf739ae3c2f1d8197dd9fb6632f5fedd7b35718331875051e58a0058",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "荒川区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-19",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  }
+]

@@ -1,0 +1,142 @@
+[
+  {
+    "id": "verified-20261206-tachikawa-pre-nishiki-matsuri",
+    "ward": "立川市",
+    "name": "第17回プレ錦まつり（錦学習館）",
+    "url": "https://www.city.tachikawa.lg.jp/event/e-kouza/1028609.html",
+    "official_url": "https://www.city.tachikawa.lg.jp/event/e-kouza/1028609.html",
+    "source": "https://www.city.tachikawa.lg.jp/event/e-kouza/1028609.html",
+    "image": "",
+    "period": "12/6(日)",
+    "date_start": "2026-12-06",
+    "date_end": "2026-12-06",
+    "time": "10:00〜15:00",
+    "venue": "錦学習館（立川市錦町3-12-25）",
+    "price": "無料",
+    "description": "東京学芸大学の学生と、クイズやゲームを通して地域を楽しく学ぶまつり。「ものれーるつくれーる」（小学2年生まで）など、つくって遊ぶコーナーがある。一部の催しは事前申込が必要で、定員は各回7〜10人。ステージ出演もある。",
+    "categories": [
+      "まつり・イベント",
+      "体験・ワークショップ"
+    ],
+    "indoor_outdoor": "屋内",
+    "reservation": {
+      "required": true,
+      "note": "一部の催しは事前申込が必要（11/10 9:00から電子申請）。それ以外は申込不要の随時参加。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "クイズやゲーム、工作など、子どもが楽しめるコーナーがある無料のまつり。一部の催しは事前申込（定員各回7〜10人）が必要で、対象年齢が決まっているものがある。",
+      "axes": {
+        "child_target": {
+          "grade": "B",
+          "reason": "対象はどなたでも。小学2年生までなど、子ども向けのコーナーがある"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "クイズ、ゲーム、工作などの参加型のコーナー"
+        },
+        "age_fit": {
+          "grade": "B",
+          "reason": "コーナーごとに対象年齢が異なる"
+        },
+        "stay_flexibility": {
+          "grade": "A",
+          "reason": "10:00〜15:00の間に随時参加できるコーナーがある"
+        },
+        "burden": {
+          "grade": "B",
+          "reason": "一部は事前申込が必要で、定員が少ない"
+        },
+        "cost": {
+          "grade": "A",
+          "reason": "無料"
+        },
+        "reservation": {
+          "grade": "B",
+          "reason": "一部の催しは事前申込が必要"
+        },
+        "family_value": {
+          "grade": "A",
+          "reason": "地域の学生と遊びながら学べる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-21",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "all_ages",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "無料で、クイズやゲーム、工作など体験コーナーが多い",
+          "随時参加できるコーナーがある"
+        ],
+        "limitations": [
+          "一部の催しは事前申込が必要で、定員が7〜10人と少ない",
+          "コーナーごとに対象年齢が決まっている"
+        ],
+        "grade_comparison": "総合B：無料で遊べるまつり。事前申込が必要なコーナーは定員が少ない。",
+        "unsupported_axes": [],
+        "evidence": [
+          {
+            "url": "https://www.city.tachikawa.lg.jp/event/e-kouza/1028609.html",
+            "quote": "開催日 2026年12月6日（日曜日） 開催時間 午前10時 から 午後3時 まで 開催場所 錦学習館",
+            "checked_at": "2026-11-21",
+            "sha256": "cabc8b63d5b9341cbb10f07f3e16ddebfb80975b2005632557f956a7db7514ea",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.tachikawa.lg.jp/event/e-kouza/1028609.html",
+            "quote": "対象 どなたでも 一部の催しは対象年齢の設定がございます。 ハッシュタグ #無料",
+            "checked_at": "2026-11-21",
+            "sha256": "7692876fa547b790051ce8dfe3cbf0f6dfcec6b12740484bba0c148d4aec9c23",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.tachikawa.lg.jp/event/e-kouza/1028609.html",
+            "quote": "東京学芸大学の学生と、クイズやゲームなどを通して楽しく地域について学びます。",
+            "checked_at": "2026-11-21",
+            "sha256": "9d2e1777be75b09092099e4075bdb6e512231ecc5bd9b59b03c8de3d08a57f99",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.tachikawa.lg.jp/event/e-kouza/1028609.html",
+            "quote": "【ものれーるつくれーる（要事前申込）】 対象：小学2年生まで",
+            "checked_at": "2026-11-21",
+            "sha256": "03ce929898ada73f4f215fd1cb4106c0915dbe639ea3bec2215940177e3899f7",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.tachikawa.lg.jp/event/e-kouza/1028609.html",
+            "quote": "申込み 一部必要 事前申し込みが必要な催しは、11月10日（火曜日）午前9時から下記のフォームから電子申請でお申し込みください。",
+            "checked_at": "2026-11-21",
+            "sha256": "a11ee479c5547269b870c2d7a583ffa6d3155d1244e05c256bfccced54861818",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-21",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  }
+]

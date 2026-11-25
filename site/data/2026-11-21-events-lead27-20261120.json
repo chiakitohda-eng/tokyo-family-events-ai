@@ -1,0 +1,695 @@
+[
+  {
+    "id": "verified-20261122-tohaku-nurie",
+    "ward": "台東区",
+    "name": "キッズぬりえ（東京国立博物館）",
+    "url": "https://www.tnm.jp/modules/r_event/index.php?controller=dtl&cid=15&id=11808",
+    "official_url": "https://www.tnm.jp/modules/r_event/index.php?controller=dtl&cid=15&id=11808",
+    "source": "https://www.tnm.jp/modules/r_event/index.php?controller=dtl&cid=15&id=11808",
+    "image": "https://www.tnm.jp/uploads/fckeditor/uid000418_202609111507402f3fb349.jpg",
+    "period": "11/22(日)",
+    "date_start": "2026-11-22",
+    "date_end": "2026-11-22",
+    "time": "10:00〜16:00（随時参加可、最終受付15:45）",
+    "venue": "東京国立博物館 平成館 ファミリースペース（台東区上野公園13-9）",
+    "price": "参加費無料",
+    "description": "ファミリースペースで休憩しながら、東博オリジナルのぬりえを楽しむ。11月は《犬型埴輪》《埴輪 踊る人々》のぬりえ。 毎月第4日曜日のトーハクプチキッズデーの催しで、当日受付。",
+    "categories": [
+      "博物館",
+      "工作",
+      "体験"
+    ],
+    "indoor_outdoor": "屋内",
+    "reservation": {
+      "required": false,
+      "note": "当日受付。随時参加できる。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "11/22開催。トーハクプチキッズデーの催し「キッズぬりえ」で、参加費は無料。当日受付で随時参加できる。",
+      "axes": {
+        "child_target": {
+          "grade": "A",
+          "reason": "子ども向けの「プチキッズデー」の催しとして実施される"
+        },
+        "interactivity": {
+          "grade": "B",
+          "reason": "ぬりえを楽しむ内容"
+        },
+        "age_fit": {
+          "grade": "A",
+          "reason": "幼児から小学生まで楽しめる内容"
+        },
+        "stay_flexibility": {
+          "grade": "A",
+          "reason": "当日、随時参加できる"
+        },
+        "burden": {
+          "grade": "A",
+          "reason": "当日受付で、予約が不要"
+        },
+        "cost": {
+          "grade": "A",
+          "reason": "参加費無料"
+        },
+        "reservation": {
+          "grade": "A",
+          "reason": "予約不要の当日受付"
+        },
+        "family_value": {
+          "grade": "A",
+          "reason": "親子でぬりえを楽しみながら休憩できる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-20",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "child_program",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "予約不要で随時参加できる",
+          "子ども向けのプチキッズデーの催し"
+        ],
+        "limitations": [
+          "資料や席に限りがある",
+          "毎月第4日曜日の催し"
+        ],
+        "grade_comparison": "総合B（キッズぬりえ）：予約不要で随時参加できる子ども向けプログラムだが、席や材料に限りがある。",
+        "unsupported_axes": [],
+        "evidence": [
+          {
+            "url": "https://www.tnm.jp/modules/r_event/index.php?controller=dtl&cid=15&id=11808",
+            "quote": "トーハクプチキッズデー（毎月第4日曜日、12月20日）",
+            "checked_at": "2026-11-20",
+            "sha256": "dae5321aa754251b89ed78f7882539ceafe6f74edfe9d67eb216bbc29a185e73",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.tnm.jp/modules/r_event/index.php?controller=dtl&cid=15&id=11808",
+            "quote": "日程2026年11月22日（日）",
+            "checked_at": "2026-11-20",
+            "sha256": "fea9165f5ecb6f8f67806322fab3a9e9eb0bf1b4f5d2648b77e09b9a5d98a945",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.tnm.jp/modules/r_event/index.php?controller=dtl&cid=15&id=11808",
+            "quote": "参加費無料〒110-8712",
+            "checked_at": "2026-11-20",
+            "sha256": "141343af5d8009616fba2c7ad0b7a3c1a8dfad2902fe78ec38078420a5bccb81",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.tnm.jp/modules/r_event/index.php?controller=dtl&cid=15&id=11808",
+            "quote": "会場平成館-ファミリースペース",
+            "checked_at": "2026-11-20",
+            "sha256": "584d185452878c663c49221a2bbdaeaefb3bdc31b9e91b0281b66164f195c3d7",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.tnm.jp/modules/r_event/index.php?controller=dtl&cid=15&id=11808",
+            "quote": "ファミリースペースで休憩しながら、東博オリジナルのぬりえを楽しんでみませんか。",
+            "checked_at": "2026-11-20",
+            "sha256": "c97fe809949633b097e1fd4a28617269e12f8aa4cda8f2e6011ad990a18e575a",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-20",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  },
+  {
+    "id": "verified-20261122-tohaku-canbadge",
+    "ward": "台東区",
+    "name": "プチキッズデー 缶バッジづくり（東京国立博物館）",
+    "url": "https://www.tnm.jp/modules/r_event/index.php?controller=dtl&cid=15&id=11833",
+    "official_url": "https://www.tnm.jp/modules/r_event/index.php?controller=dtl&cid=15&id=11833",
+    "source": "https://www.tnm.jp/modules/r_event/index.php?controller=dtl&cid=15&id=11833",
+    "image": "https://www.tnm.jp/uploads/fckeditor/event/202611/uid000412_202609182007590e3c9627.jpg",
+    "period": "11/22(日)",
+    "date_start": "2026-11-22",
+    "date_end": "2026-11-22",
+    "time": "10:00〜12:00、13:00〜16:00（随時参加可、最終受付15:45）",
+    "venue": "東京国立博物館 平成館 ファミリースペース（台東区上野公園13-9）",
+    "price": "",
+    "description": "博物館の作品やイラスト、千代紙などから1枚選んで、オリジナルの缶バッジを作る。自分で絵を描くこともできる。 毎月第4日曜日のトーハクプチキッズデーの催しで、当日受付。",
+    "categories": [
+      "博物館",
+      "工作",
+      "体験"
+    ],
+    "indoor_outdoor": "屋内",
+    "reservation": {
+      "required": false,
+      "note": "当日受付。随時参加できる。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "11/22開催。トーハクプチキッズデーの催し「プチキッズデー 缶バッジづくり」。当日受付で随時参加できる。",
+      "axes": {
+        "child_target": {
+          "grade": "A",
+          "reason": "子ども向けの「プチキッズデー」の催しとして実施される"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "ぬりえや工作、探検に参加できる"
+        },
+        "age_fit": {
+          "grade": "A",
+          "reason": "幼児から小学生まで楽しめる内容"
+        },
+        "stay_flexibility": {
+          "grade": "A",
+          "reason": "当日、随時参加できる"
+        },
+        "burden": {
+          "grade": "A",
+          "reason": "当日受付で、予約が不要"
+        },
+        "cost": {
+          "grade": "unknown",
+          "reason": "このページに参加費の記載がない"
+        },
+        "reservation": {
+          "grade": "A",
+          "reason": "予約不要の当日受付"
+        },
+        "family_value": {
+          "grade": "A",
+          "reason": "缶バッジを作って持ち帰れる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-20",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "child_program",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "予約不要で随時参加できる",
+          "子ども向けのプチキッズデーの催し"
+        ],
+        "limitations": [
+          "資料や席に限りがある",
+          "毎月第4日曜日の催し"
+        ],
+        "grade_comparison": "総合B（プチキッズデー 缶バッジづくり）：予約不要で随時参加できる子ども向けプログラムだが、席や材料に限りがある。",
+        "unsupported_axes": [
+          "cost"
+        ],
+        "evidence": [
+          {
+            "url": "https://www.tnm.jp/modules/r_event/index.php?controller=dtl&cid=15&id=11833",
+            "quote": "トーハクプチキッズデー（毎月第4日曜日、12月20日）",
+            "checked_at": "2026-11-20",
+            "sha256": "dae5321aa754251b89ed78f7882539ceafe6f74edfe9d67eb216bbc29a185e73",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.tnm.jp/modules/r_event/index.php?controller=dtl&cid=15&id=11833",
+            "quote": "日程2026年11月22日（日）",
+            "checked_at": "2026-11-20",
+            "sha256": "fea9165f5ecb6f8f67806322fab3a9e9eb0bf1b4f5d2648b77e09b9a5d98a945",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.tnm.jp/modules/r_event/index.php?controller=dtl&cid=15&id=11833",
+            "quote": "会場平成館-ファミリースペース",
+            "checked_at": "2026-11-20",
+            "sha256": "584d185452878c663c49221a2bbdaeaefb3bdc31b9e91b0281b66164f195c3d7",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.tnm.jp/modules/r_event/index.php?controller=dtl&cid=15&id=11833",
+            "quote": "東京国立博物館の作品やイラスト、千代紙などから1枚選んで、オリジナルの缶バッジを作れます。",
+            "checked_at": "2026-11-20",
+            "sha256": "6449ebcd7536eaaab673cbda93bff4c2f8444f9d796884d09b5ef30ede9f6fb1",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-20",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  },
+  {
+    "id": "verified-20261122-tohaku-papercraft",
+    "ward": "台東区",
+    "name": "ペーパークラフト かさねてつくるおひめさま（東京国立博物館）",
+    "url": "https://www.tnm.jp/modules/r_event/index.php?controller=dtl&cid=15&id=11834",
+    "official_url": "https://www.tnm.jp/modules/r_event/index.php?controller=dtl&cid=15&id=11834",
+    "source": "https://www.tnm.jp/modules/r_event/index.php?controller=dtl&cid=15&id=11834",
+    "image": "https://www.tnm.jp/uploads/fckeditor/event/202611/uid000412_202609182013348f37d8f6.jpg",
+    "period": "11/22(日)",
+    "date_start": "2026-11-22",
+    "date_end": "2026-11-22",
+    "time": "10:00〜16:00（随時参加可、最終受付15:45）",
+    "venue": "東京国立博物館 平成館 ファミリースペース（台東区上野公園13-9）",
+    "price": "",
+    "description": "ぬりえと工作で、きものを着たおひめさまを作る。作品は屏風やくらしの道具と一緒に飾れる。 毎月第4日曜日のトーハクプチキッズデーの催しで、当日受付。",
+    "categories": [
+      "博物館",
+      "工作",
+      "体験"
+    ],
+    "indoor_outdoor": "屋内",
+    "reservation": {
+      "required": false,
+      "note": "当日受付。随時参加できる。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "11/22開催。トーハクプチキッズデーの催し「ペーパークラフト かさねてつくるおひめさま」。当日受付で随時参加できる。",
+      "axes": {
+        "child_target": {
+          "grade": "A",
+          "reason": "子ども向けの「プチキッズデー」の催しとして実施される"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "ぬりえや工作、探検に参加できる"
+        },
+        "age_fit": {
+          "grade": "A",
+          "reason": "幼児から小学生まで楽しめる内容"
+        },
+        "stay_flexibility": {
+          "grade": "A",
+          "reason": "当日、随時参加できる"
+        },
+        "burden": {
+          "grade": "A",
+          "reason": "当日受付で、予約が不要"
+        },
+        "cost": {
+          "grade": "unknown",
+          "reason": "このページに参加費の記載がない"
+        },
+        "reservation": {
+          "grade": "A",
+          "reason": "予約不要の当日受付"
+        },
+        "family_value": {
+          "grade": "A",
+          "reason": "ぬりえと工作をして持ち帰れる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-20",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "child_program",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "予約不要で随時参加できる",
+          "子ども向けのプチキッズデーの催し"
+        ],
+        "limitations": [
+          "資料や席に限りがある",
+          "毎月第4日曜日の催し"
+        ],
+        "grade_comparison": "総合B（ペーパークラフト かさねてつくるおひめさま）：予約不要で随時参加できる子ども向けプログラムだが、席や材料に限りがある。",
+        "unsupported_axes": [
+          "cost"
+        ],
+        "evidence": [
+          {
+            "url": "https://www.tnm.jp/modules/r_event/index.php?controller=dtl&cid=15&id=11834",
+            "quote": "トーハクプチキッズデー（毎月第4日曜日、12月20日）",
+            "checked_at": "2026-11-20",
+            "sha256": "dae5321aa754251b89ed78f7882539ceafe6f74edfe9d67eb216bbc29a185e73",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.tnm.jp/modules/r_event/index.php?controller=dtl&cid=15&id=11834",
+            "quote": "日程2026年11月22日（日）",
+            "checked_at": "2026-11-20",
+            "sha256": "fea9165f5ecb6f8f67806322fab3a9e9eb0bf1b4f5d2648b77e09b9a5d98a945",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.tnm.jp/modules/r_event/index.php?controller=dtl&cid=15&id=11834",
+            "quote": "会場平成館-ファミリースペース",
+            "checked_at": "2026-11-20",
+            "sha256": "584d185452878c663c49221a2bbdaeaefb3bdc31b9e91b0281b66164f195c3d7",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.tnm.jp/modules/r_event/index.php?controller=dtl&cid=15&id=11834",
+            "quote": "ぬりえと工作をして、おひめさまを作ってみましょう。",
+            "checked_at": "2026-11-20",
+            "sha256": "448c5a6e6bd2439ce39c9e2c3c2291ea7c77bb034c99423e0a35cd89d5d4c516",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-20",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  },
+  {
+    "id": "verified-20261122-tohaku-tanken",
+    "ward": "台東区",
+    "name": "トーハク本館たんけん（東京国立博物館）",
+    "url": "https://www.tnm.jp/modules/r_event/index.php?controller=dtl&cid=15&id=11840",
+    "official_url": "https://www.tnm.jp/modules/r_event/index.php?controller=dtl&cid=15&id=11840",
+    "source": "https://www.tnm.jp/modules/r_event/index.php?controller=dtl&cid=15&id=11840",
+    "image": "https://www.tnm.jp/uploads/fckeditor/event/202607/uid000452_202606061640252b981a03.png",
+    "period": "11/22(日)",
+    "date_start": "2026-11-22",
+    "date_end": "2026-11-22",
+    "time": "なくなり次第配布終了",
+    "venue": "東京国立博物館 本館9室（配布場所）（台東区上野公園13-9）",
+    "price": "参加費無料",
+    "description": "「たんけんブック」を持って、本館のたてもののデザインを探しながら家族や友だちと探検する。すべてのミッションをクリアすると缶バッジがもらえる。 毎月第4日曜日のトーハクプチキッズデーの催しで、当日受付。",
+    "categories": [
+      "博物館",
+      "工作",
+      "体験"
+    ],
+    "indoor_outdoor": "屋内",
+    "reservation": {
+      "required": false,
+      "note": "当日受付。随時参加できる。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "11/22開催。トーハクプチキッズデーの催し「トーハク本館たんけん」で、参加費は無料。当日受付で随時参加できる。",
+      "axes": {
+        "child_target": {
+          "grade": "A",
+          "reason": "子ども向けの「プチキッズデー」の催しとして実施される"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "ぬりえや工作、探検に参加できる"
+        },
+        "age_fit": {
+          "grade": "A",
+          "reason": "幼児から小学生まで楽しめる内容"
+        },
+        "stay_flexibility": {
+          "grade": "A",
+          "reason": "当日、随時参加できる"
+        },
+        "burden": {
+          "grade": "A",
+          "reason": "当日受付で、予約が不要"
+        },
+        "cost": {
+          "grade": "A",
+          "reason": "参加費無料"
+        },
+        "reservation": {
+          "grade": "A",
+          "reason": "予約不要の当日受付"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "家族で本館を探検しながらデザインを学べる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-20",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "child_program",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "予約不要で随時参加できる",
+          "子ども向けのプチキッズデーの催し"
+        ],
+        "limitations": [
+          "資料や席に限りがある",
+          "毎月第4日曜日の催し"
+        ],
+        "grade_comparison": "総合B（トーハク本館たんけん）：予約不要で随時参加できる子ども向けプログラムだが、席や材料に限りがある。",
+        "unsupported_axes": [],
+        "evidence": [
+          {
+            "url": "https://www.tnm.jp/modules/r_event/index.php?controller=dtl&cid=15&id=11840",
+            "quote": "トーハクプチキッズデー（毎月第4日曜日、12月20日）",
+            "checked_at": "2026-11-20",
+            "sha256": "dae5321aa754251b89ed78f7882539ceafe6f74edfe9d67eb216bbc29a185e73",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.tnm.jp/modules/r_event/index.php?controller=dtl&cid=15&id=11840",
+            "quote": "日程2026年11月22日（日）",
+            "checked_at": "2026-11-20",
+            "sha256": "fea9165f5ecb6f8f67806322fab3a9e9eb0bf1b4f5d2648b77e09b9a5d98a945",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.tnm.jp/modules/r_event/index.php?controller=dtl&cid=15&id=11840",
+            "quote": "参加費無料〒110-8712",
+            "checked_at": "2026-11-20",
+            "sha256": "141343af5d8009616fba2c7ad0b7a3c1a8dfad2902fe78ec38078420a5bccb81",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.tnm.jp/modules/r_event/index.php?controller=dtl&cid=15&id=11840",
+            "quote": "配布場所本館9室参加費無料〒",
+            "checked_at": "2026-11-20",
+            "sha256": "2d803216331f6b026841ac55255c789b03788fff494e4bc0ce6fcf640d671cd8",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.tnm.jp/modules/r_event/index.php?controller=dtl&cid=15&id=11840",
+            "quote": "「トーハク本館たんけんブック」をもって、たてもののデザインに注目しながら、家族やお友だちと本館をたんけんしよう！",
+            "checked_at": "2026-11-20",
+            "sha256": "6b6fd6d78c2f29d51c76543d3f7f76c85d9999206dacbadb0912d11c650b29a4",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-20",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  },
+  {
+    "id": "verified-20261122-tohaku-kimono",
+    "ward": "台東区",
+    "name": "きもののもようコレクション～秋草のもよう～（東京国立博物館）",
+    "url": "https://www.tnm.jp/modules/r_event/index.php?controller=dtl&cid=15&id=11844",
+    "official_url": "https://www.tnm.jp/modules/r_event/index.php?controller=dtl&cid=15&id=11844",
+    "source": "https://www.tnm.jp/modules/r_event/index.php?controller=dtl&cid=15&id=11844",
+    "image": "https://www.tnm.jp/uploads/fckeditor/uid000474_20261009153127361b6c20.jpg",
+    "period": "11/22(日)",
+    "date_start": "2026-11-22",
+    "date_end": "2026-11-22",
+    "time": "10:00〜16:00（随時参加可、最終受付15:45）",
+    "venue": "東京国立博物館 本館C室ほか（本館2階18室・20室）（台東区上野公園13-9）",
+    "price": "参加費無料",
+    "description": "展示室できものの秋草のもようを探し、見つけたもようをヒントに自分だけのきものデザインを完成させる。 毎月第4日曜日のトーハクプチキッズデーの催しで、当日受付。",
+    "categories": [
+      "博物館",
+      "工作",
+      "体験"
+    ],
+    "indoor_outdoor": "屋内",
+    "reservation": {
+      "required": false,
+      "note": "当日受付。随時参加できる。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "11/22開催。トーハクプチキッズデーの催し「きもののもようコレクション～秋草のもよう～」で、参加費は無料。当日受付で随時参加できる。",
+      "axes": {
+        "child_target": {
+          "grade": "A",
+          "reason": "子ども向けの「プチキッズデー」の催しとして実施される"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "ぬりえや工作、探検に参加できる"
+        },
+        "age_fit": {
+          "grade": "B",
+          "reason": "小学3年生以上が推奨"
+        },
+        "stay_flexibility": {
+          "grade": "A",
+          "reason": "当日、随時参加できる"
+        },
+        "burden": {
+          "grade": "A",
+          "reason": "当日受付で、予約が不要"
+        },
+        "cost": {
+          "grade": "A",
+          "reason": "参加費無料"
+        },
+        "reservation": {
+          "grade": "A",
+          "reason": "予約不要の当日受付"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "展示を観察しながら自分のデザインを作れる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-20",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "child_program",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "予約不要で随時参加できる",
+          "子ども向けのプチキッズデーの催し"
+        ],
+        "limitations": [
+          "資料や席に限りがある",
+          "毎月第4日曜日の催し"
+        ],
+        "grade_comparison": "総合B（きもののもようコレクション～秋草のもよう～）：予約不要で随時参加できる子ども向けプログラムだが、席や材料に限りがある。",
+        "unsupported_axes": [],
+        "evidence": [
+          {
+            "url": "https://www.tnm.jp/modules/r_event/index.php?controller=dtl&cid=15&id=11844",
+            "quote": "トーハクプチキッズデー（毎月第4日曜日、12月20日）",
+            "checked_at": "2026-11-20",
+            "sha256": "dae5321aa754251b89ed78f7882539ceafe6f74edfe9d67eb216bbc29a185e73",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.tnm.jp/modules/r_event/index.php?controller=dtl&cid=15&id=11844",
+            "quote": "日程2026年11月22日（日）",
+            "checked_at": "2026-11-20",
+            "sha256": "fea9165f5ecb6f8f67806322fab3a9e9eb0bf1b4f5d2648b77e09b9a5d98a945",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.tnm.jp/modules/r_event/index.php?controller=dtl&cid=15&id=11844",
+            "quote": "参加費無料対象小学3年生以上",
+            "checked_at": "2026-11-20",
+            "sha256": "b642b2e42e9ff79ce1907a2b036f183c7279f693012ffc1c40b8743512987b56",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.tnm.jp/modules/r_event/index.php?controller=dtl&cid=15&id=11844",
+            "quote": "会場本館-C室参加費無料対象",
+            "checked_at": "2026-11-20",
+            "sha256": "5d0ee618c7a7590aef6396b066a16ba4e9f23d5938db7c9aebfbf2917c81d937",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.tnm.jp/modules/r_event/index.php?controller=dtl&cid=15&id=11844",
+            "quote": "展示室でもようを見つけて、自分だけのきものデザインをつくろう！",
+            "checked_at": "2026-11-20",
+            "sha256": "776ffe68d594c45f62f8698ce78952b1d58fb1de9f9746d7aae8895d9e80f11f",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-20",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  }
+]

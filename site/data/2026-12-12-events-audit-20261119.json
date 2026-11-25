@@ -1,0 +1,144 @@
+[
+  {
+    "id": "verified-20261213-suginami-cesion-christmas",
+    "ward": "杉並区",
+    "name": "セシオンクリスマス会（セシオン杉並）",
+    "url": "https://www.city.suginami.tokyo.jp/s024/event/29061.html",
+    "official_url": "https://www.city.suginami.tokyo.jp/s024/event/29061.html",
+    "source": "https://www.city.suginami.tokyo.jp/s024/event/29061.html",
+    "image": "",
+    "period": "12/13(日)",
+    "date_start": "2026-12-13",
+    "date_end": "2026-12-13",
+    "time": "11:00〜15:00",
+    "venue": "セシオン杉並 展示室（杉並区梅里1丁目22番32号）",
+    "price": null,
+    "description": "ゴスペルクワイヤの演奏、子どもたちのダンス・チアダンス、人形劇を友達や家族と楽しむクリスマス会。入退場自由・申込不要。",
+    "categories": [
+      "音楽・ステージ",
+      "地域交流"
+    ],
+    "indoor_outdoor": "屋内",
+    "reservation": {
+      "required": false,
+      "note": "入退場自由（事前申し込み不要）。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "ゴスペルや子どものダンス、人形劇を楽しむクリスマス会。入退場自由で申込不要。費用の記載はない。",
+      "axes": {
+        "child_target": {
+          "grade": "B",
+          "reason": "子どもたちの出演や人形劇があり、家族で楽しめる"
+        },
+        "interactivity": {
+          "grade": "B",
+          "reason": "主に鑑賞型のステージ"
+        },
+        "age_fit": {
+          "grade": "unknown",
+          "reason": "対象年齢は公式案内に明記がない"
+        },
+        "stay_flexibility": {
+          "grade": "A",
+          "reason": "入退場自由で、休憩中も展示室に入れる"
+        },
+        "burden": {
+          "grade": "A",
+          "reason": "室内で、申込不要"
+        },
+        "cost": {
+          "grade": "unknown",
+          "reason": "費用は公式案内に明記がない"
+        },
+        "reservation": {
+          "grade": "A",
+          "reason": "入退場自由（事前申し込み不要）"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "クリスマスのステージを家族で気軽に見られる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-19",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "all_ages",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "入退場自由・申込不要の室内ステージ"
+        ],
+        "limitations": [
+          "鑑賞型が中心",
+          "費用が未記載"
+        ],
+        "grade_comparison": "総合B：気軽に立ち寄れる室内ステージ。体験要素は少ない。",
+        "unsupported_axes": [
+          "age_fit",
+          "cost"
+        ],
+        "evidence": [
+          {
+            "url": "https://www.city.suginami.tokyo.jp/s024/event/29061.html",
+            "quote": "2026年12月13日（日曜日）開催時間午前11時から午後3時まで",
+            "checked_at": "2026-11-19",
+            "sha256": "4cb476188f28add373864977b6fc29b83c29703f58df803fbbd75e928331e7ae",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "杉並区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.suginami.tokyo.jp/s024/event/29061.html",
+            "quote": "セシオン杉並展示室杉並区梅里1丁目22番32号",
+            "checked_at": "2026-11-19",
+            "sha256": "bec76c84209f00a0f468afc3fcb04f792bca6f59cfc71b1741c06a0dff240f83",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "杉並区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.suginami.tokyo.jp/s024/event/29061.html",
+            "quote": "ゴスペルクワイヤの演奏、子どもたちによるパフォーマンス、人形劇",
+            "checked_at": "2026-11-19",
+            "sha256": "928fbff812c7b5ce8c83e9df7026cb80f33d6dbac97090c236c5f498839fb4dc",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "杉並区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.suginami.tokyo.jp/s024/event/29061.html",
+            "quote": "入退場自由（事前申し込み不要）",
+            "checked_at": "2026-11-19",
+            "sha256": "849785d4fdffc655487792118a543b0f0c1858a104257685930d73729c34add6",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "杉並区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.suginami.tokyo.jp/s024/event/29061.html",
+            "quote": "当日直接会場へお越しください。",
+            "checked_at": "2026-11-19",
+            "sha256": "262d4c787ebcfd42b4055ef49b14adeaa1f618a5fd580b3fb709745fdedfd665",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "杉並区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-19",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  }
+]

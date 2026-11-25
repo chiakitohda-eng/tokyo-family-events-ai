@@ -1,0 +1,283 @@
+{
+  "sample": false,
+  "sat": "2026-12-19",
+  "sun": "2026-12-20",
+  "label": "12/19(土)〜12/20(日)",
+  "generated": "2026-11-16",
+  "horizon_index": 5,
+  "publication_tier": "announcement",
+  "verification_file": "2026-12-19-verification.json",
+  "run_file": "2026-12-19-run.json",
+  "coverage": {
+    "sources_checked": 23,
+    "candidate_count": 87,
+    "duplicate_removed": 0,
+    "excluded_count": 0,
+    "published_count": 87,
+    "wards": [
+      {
+        "ward": "千代田区",
+        "status": "checked",
+        "queries": 3,
+        "sources_checked": 1,
+        "candidate_count": 0,
+        "published_count": 0,
+        "note": "2026-11-18実測: 週別検索3件と区公式トップの取得に成功。個別の掲載はイベント単位の公式確認済みのみ。"
+      },
+      {
+        "ward": "中央区",
+        "status": "checked",
+        "queries": 3,
+        "sources_checked": 1,
+        "candidate_count": 0,
+        "published_count": 0,
+        "note": "2026-11-18実測: 週別検索3件と区公式トップの取得に成功。個別の掲載はイベント単位の公式確認済みのみ。"
+      },
+      {
+        "ward": "港区",
+        "status": "checked",
+        "queries": 3,
+        "sources_checked": 1,
+        "candidate_count": 0,
+        "published_count": 0,
+        "note": "2026-11-18実測: 週別検索3件と区公式トップの取得に成功。個別の掲載はイベント単位の公式確認済みのみ。"
+      },
+      {
+        "ward": "新宿区",
+        "status": "checked",
+        "queries": 3,
+        "sources_checked": 1,
+        "candidate_count": 2,
+        "published_count": 2,
+        "note": "2026-11-18実測: 週別検索3件と区公式トップの取得に成功。個別の掲載はイベント単位の公式確認済みのみ。 2026-11-20 公式個別ページ確認済み2件を非破壊追加。"
+      },
+      {
+        "ward": "文京区",
+        "status": "checked",
+        "queries": 3,
+        "sources_checked": 1,
+        "candidate_count": 1,
+        "published_count": 1,
+        "note": "2026-11-18実測: 週別検索3件と区公式トップの取得に成功。個別の掲載はイベント単位の公式確認済みのみ。 2026-11-21 公式個別ページ確認済み1件を非破壊追加。"
+      },
+      {
+        "ward": "台東区",
+        "status": "checked",
+        "queries": 3,
+        "sources_checked": 1,
+        "candidate_count": 2,
+        "published_count": 2,
+        "note": "2026-11-18実測: 週別検索3件と区公式トップの取得に成功。個別の掲載はイベント単位の公式確認済みのみ。 2026-11-20 公式個別ページ確認済み2件を非破壊追加。"
+      },
+      {
+        "ward": "墨田区",
+        "status": "checked",
+        "queries": 3,
+        "sources_checked": 1,
+        "candidate_count": 3,
+        "published_count": 3,
+        "note": "2026-11-18実測: 週別検索3件と区公式トップの取得に成功。個別の掲載はイベント単位の公式確認済みのみ。 2026-11-20 公式個別ページ確認済み1件を非破壊追加。 2026-11-20 公式個別ページ確認済み2件を非破壊追加。"
+      },
+      {
+        "ward": "江東区",
+        "status": "checked",
+        "queries": 3,
+        "sources_checked": 1,
+        "candidate_count": 5,
+        "published_count": 5,
+        "note": "2026-11-18実測: 週別検索3件と区公式トップの取得に成功。個別の掲載はイベント単位の公式確認済みのみ。 2026-11-19 公式個別ページ確認済み3件を非破壊追加。 2026-11-20 公式個別ページ確認済み2件を非破壊追加。"
+      },
+      {
+        "ward": "品川区",
+        "status": "checked",
+        "queries": 3,
+        "sources_checked": 1,
+        "candidate_count": 1,
+        "published_count": 1,
+        "note": "2026-11-18実測: 週別検索3件と区公式トップの取得に成功。個別の掲載はイベント単位の公式確認済みのみ。 2026-11-20 公式個別ページ確認済み1件を非破壊追加。"
+      },
+      {
+        "ward": "目黒区",
+        "status": "checked",
+        "queries": 3,
+        "sources_checked": 1,
+        "candidate_count": 5,
+        "published_count": 5,
+        "note": "2026-11-18実測: 週別検索3件と区公式トップの取得に成功。個別の掲載はイベント単位の公式確認済みのみ。 2026-11-19 公式個別ページ確認済み3件を非破壊追加。 2026-11-22 公式個別ページ確認済み2件を非破壊追加。"
+      },
+      {
+        "ward": "大田区",
+        "status": "checked",
+        "queries": 3,
+        "sources_checked": 1,
+        "candidate_count": 2,
+        "published_count": 2,
+        "note": "2026-11-18実測: 週別検索3件と区公式トップの取得に成功。個別の掲載はイベント単位の公式確認済みのみ。 2026-11-20 公式個別ページ確認済み1件を非破壊追加。 2026-11-20 公式個別ページ確認済み1件を非破壊追加。"
+      },
+      {
+        "ward": "世田谷区",
+        "status": "checked",
+        "queries": 3,
+        "sources_checked": 1,
+        "candidate_count": 16,
+        "published_count": 16,
+        "note": "2026-11-18実測: 週別検索3件と区公式トップの取得に成功。個別の掲載はイベント単位の公式確認済みのみ。 2026-11-19 公式個別ページ確認済み4件を非破壊追加。 2026-11-22 公式個別ページ確認済み1件を非破壊追加。 2026-11-25 公式個別ページ確認済み11件を非破壊追加。"
+      },
+      {
+        "ward": "渋谷区",
+        "status": "checked",
+        "queries": 3,
+        "sources_checked": 1,
+        "candidate_count": 5,
+        "published_count": 5,
+        "note": "2026-11-18実測: 週別検索3件と区公式トップの取得に成功。個別の掲載はイベント単位の公式確認済みのみ。 2026-11-20 公式個別ページ確認済み2件を非破壊追加。 2026-11-22 公式個別ページ確認済み3件を非破壊追加。"
+      },
+      {
+        "ward": "中野区",
+        "status": "checked",
+        "queries": 3,
+        "sources_checked": 1,
+        "candidate_count": 4,
+        "published_count": 4,
+        "note": "2026-11-18実測: 週別検索3件と区公式トップの取得に成功。個別の掲載はイベント単位の公式確認済みのみ。 ただし必須参照元 tamemap_nakano の3URLはHTTP403で取得不能（checkedにはしない）。"
+      },
+      {
+        "ward": "杉並区",
+        "status": "checked",
+        "queries": 3,
+        "sources_checked": 1,
+        "candidate_count": 4,
+        "published_count": 4,
+        "note": "2026-11-18実測: 週別検索3件と区公式トップの取得に成功。個別の掲載はイベント単位の公式確認済みのみ。 杉並区公式の個別ページ確認済み4件を掲載（2026-11-18）。"
+      },
+      {
+        "ward": "豊島区",
+        "status": "checked",
+        "queries": 3,
+        "sources_checked": 1,
+        "candidate_count": 2,
+        "published_count": 2,
+        "note": "2026-11-18実測: 週別検索3件と区公式トップの取得に成功。個別の掲載はイベント単位の公式確認済みのみ。 2026-11-20 公式個別ページ確認済み2件を非破壊追加。"
+      },
+      {
+        "ward": "北区",
+        "status": "checked",
+        "queries": 3,
+        "sources_checked": 1,
+        "candidate_count": 0,
+        "published_count": 0,
+        "note": "2026-11-18実測: 週別検索3件と区公式トップの取得に成功。個別の掲載はイベント単位の公式確認済みのみ。"
+      },
+      {
+        "ward": "荒川区",
+        "status": "checked",
+        "queries": 3,
+        "sources_checked": 1,
+        "candidate_count": 3,
+        "published_count": 3,
+        "note": "2026-11-18実測: 週別検索3件と区公式トップの取得に成功。個別の掲載はイベント単位の公式確認済みのみ。 2026-11-19 公式個別ページ確認済み1件を非破壊追加。 2026-11-21 公式個別ページ確認済み1件を非破壊追加。 2026-11-25 公式個別ページ確認済み1件を非破壊追加。"
+      },
+      {
+        "ward": "板橋区",
+        "status": "checked",
+        "queries": 3,
+        "sources_checked": 1,
+        "candidate_count": 2,
+        "published_count": 2,
+        "note": "2026-11-18実測: 週別検索3件と区公式トップの取得に成功。個別の掲載はイベント単位の公式確認済みのみ。 2026-11-20 公式個別ページ確認済み2件を非破壊追加。"
+      },
+      {
+        "ward": "練馬区",
+        "status": "checked",
+        "queries": 3,
+        "sources_checked": 1,
+        "candidate_count": 0,
+        "published_count": 0,
+        "note": "2026-11-18実測: 週別検索3件と区公式トップの取得に成功。個別の掲載はイベント単位の公式確認済みのみ。 ただし月別の旧公式カレンダー2URLはHTTP404（失敗のまま記録）。"
+      },
+      {
+        "ward": "足立区",
+        "status": "checked",
+        "queries": 3,
+        "sources_checked": 1,
+        "candidate_count": 19,
+        "published_count": 19,
+        "note": "2026-11-18実測: 週別検索3件と区公式トップの取得に成功。個別の掲載はイベント単位の公式確認済みのみ。 2026-11-19 公式個別ページ確認済み1件を非破壊追加。 2026-11-19 公式個別ページ確認済み1件を非破壊追加。 2026-11-20 公式個別ページ確認済み12件を非破壊追加。 2026-11-20 公式個別ページ確認済み2件を非破壊追加。 2026-11-20 公式個別ページ確認済み1件を非破壊追加。 2026-11-25 公式個別ページ確認済み2件を非破壊追加。"
+      },
+      {
+        "ward": "葛飾区",
+        "status": "checked",
+        "queries": 3,
+        "sources_checked": 1,
+        "candidate_count": 2,
+        "published_count": 2,
+        "note": "2026-11-18実測: 週別検索3件と区公式トップの取得に成功。個別の掲載はイベント単位の公式確認済みのみ。 2026-11-20 公式個別ページ確認済み2件を非破壊追加。"
+      },
+      {
+        "ward": "江戸川区",
+        "status": "checked",
+        "queries": 3,
+        "sources_checked": 1,
+        "candidate_count": 5,
+        "published_count": 5,
+        "note": "2026-11-18実測: 週別検索3件と区公式トップの取得に成功。個別の掲載はイベント単位の公式確認済みのみ。 2026-11-19 公式個別ページ確認済み1件を非破壊追加。 2026-11-19 公式個別ページ確認済み1件を非破壊追加。 2026-11-20 公式個別ページ確認済み1件を非破壊追加。 2026-11-20 公式個別ページ確認済み1件を非破壊追加。 2026-11-22 公式個別ページ確認済み1件を非破壊追加。"
+      }
+    ],
+    "municipalities": [
+      {
+        "ward": "武蔵野市",
+        "candidate_count": 1,
+        "published_count": 1,
+        "note": "多摩拡張（v1.41）の初回。 2026-11-21 公式個別ページ確認済み1件を非破壊追加。"
+      },
+      {
+        "ward": "調布市",
+        "candidate_count": 1,
+        "published_count": 1,
+        "note": "多摩拡張（v1.41）の初回。 2026-11-21 公式個別ページ確認済み1件を非破壊追加。"
+      },
+      {
+        "ward": "立川市",
+        "candidate_count": 1,
+        "published_count": 1,
+        "note": "多摩拡張（v1.41）の初回。 2026-11-21 公式個別ページ確認済み1件を非破壊追加。"
+      },
+      {
+        "ward": "三鷹市",
+        "candidate_count": 1,
+        "published_count": 1,
+        "note": "多摩拡張（v1.41）の初回。 2026-11-25 公式個別ページ確認済み1件を非破壊追加。"
+      }
+    ]
+  },
+  "event_files": [
+    "2026-12-19-events-non-ng-verified-only-20261117.json",
+    "2026-12-19-events-suginami-official-20261118.json",
+    "2026-12-19-events-lead5-20261119.json",
+    "2026-12-19-events-lead6-20261119.json",
+    "2026-12-19-events-lead12-20261119.json",
+    "2026-12-19-events-lead14-20261119.json",
+    "2026-12-19-events-lead15-20261120.json",
+    "2026-12-19-events-lead16-20261120.json",
+    "2026-12-19-events-lead17-20261120.json",
+    "2026-12-19-events-lead20-20261120.json",
+    "2026-12-19-events-lead21-20261120.json",
+    "2026-12-19-events-lead22-20261120.json",
+    "2026-12-19-events-lead23-20261120.json",
+    "2026-12-19-events-lead24-20261120.json",
+    "2026-12-19-events-lead25-20261120.json",
+    "2026-12-19-events-lead26-20261120.json",
+    "2026-12-19-events-lead28-20261120.json",
+    "2026-12-19-events-lead29-20261120.json",
+    "2026-12-19-events-lead20-20261121.json",
+    "2026-12-19-events-lead26-20261121.json",
+    "2026-12-19-events-lead27-20261121.json",
+    "2026-12-19-events-lead33-20261121.json",
+    "2026-12-19-events-lead34-20261121.json",
+    "2026-12-19-events-lead38-20261121.json",
+    "2026-12-19-events-lead42-20261122.json",
+    "2026-12-19-events-lead44-20261123.json",
+    "2026-12-19-events-lead45-20261125.json"
+  ],
+  "events": []
+}

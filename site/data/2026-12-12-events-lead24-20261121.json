@@ -1,0 +1,293 @@
+[
+  {
+    "id": "verified-20261212-setagaya-soshigaya-xmas-tree",
+    "ward": "世田谷区",
+    "name": "クリスマスツリー作り（小学生以下・祖師谷公園）",
+    "url": "https://www.tokyo-park.or.jp/park/soshigaya/news/2026/park_info_29.html",
+    "official_url": "https://www.tokyo-park.or.jp/park/soshigaya/news/2026/park_info_29.html",
+    "source": "https://www.tokyo-park.or.jp/park/soshigaya/news/2026/park_info_29.html",
+    "image": "https://www.tokyo-park.or.jp/park/soshigaya/assets/%EF%BC%92%EF%BC%90%EF%BC%92%EF%BC%96%E5%B9%B4%E3%82%AF%E3%83%AA%E3%82%B9%E3%83%9E%E3%82%B9%E3%83%84%E3%83%AA%E3%83%BC%E4%BD%9C%E3%82%8A%EF%BC%86%E3%82%AF%E3%83%AA%E3%82%B9%E3%83%9E%E3%82%B9%E3%83%84%E3%83%AA%E3%83%BC%E4%BD%9C%E3%82%8A%E3%83%81%E3%83%A9%E3%82%B7_1_1.jpg",
+    "period": "12/12(土)",
+    "date_start": "2026-12-12",
+    "date_end": "2026-12-12",
+    "time": "①10:00〜11:00／②13:00〜14:00",
+    "venue": "祖師谷公園（世田谷区、詳細な集合場所はポスター・チラシに記載）",
+    "price": "参加費1回1,500円",
+    "description": "小学生以下が参加するクリスマスツリー作り（未就学児は保護者同伴）。各回10名で、WEBで申し込み、締切後に抽選（締切は12/3）。同じ公園で12/5にある中学生以上向けのリース作りとは別の企画。",
+    "categories": [
+      "体験・ワークショップ",
+      "工作"
+    ],
+    "indoor_outdoor": "",
+    "reservation": {
+      "required": true,
+      "note": "WEB申込・締切後に抽選。ツリー作りの締切は12/3(木)。"
+    },
+    "family_fit": {
+      "grade": "A",
+      "overall": "A",
+      "rubric_version": "family-fit-v2",
+      "reason": "小学生以下（未就学児は保護者同伴）が対象のクリスマスツリー作りで、参加費1,500円・WEB申込・抽選。各回10名と少人数。",
+      "axes": {
+        "child_target": {
+          "grade": "A",
+          "reason": "対象は小学生以下で、未就学児は保護者同伴"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "クリスマスツリーを作る工作体験"
+        },
+        "age_fit": {
+          "grade": "A",
+          "reason": "小学生以下と対象年齢が明記されている"
+        },
+        "stay_flexibility": {
+          "grade": "B",
+          "reason": "各回1時間の枠で、開始時刻に参加"
+        },
+        "burden": {
+          "grade": "B",
+          "reason": "事前のWEB申込と抽選が必要で、各回10名と少人数"
+        },
+        "cost": {
+          "grade": "B",
+          "reason": "参加費1回1,500円"
+        },
+        "reservation": {
+          "grade": "B",
+          "reason": "WEB申込・抽選（締切12/3）"
+        },
+        "family_value": {
+          "grade": "A",
+          "reason": "子どもが自分でツリーを作って持ち帰れる体験"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-21",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "child_program",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "小学生以下向けの工作で、未就学児も保護者同伴で参加できる"
+        ],
+        "limitations": [
+          "抽選で各回10名と少人数",
+          "参加費1,500円が必要",
+          "集合場所などの詳細はポスター・チラシに記載"
+        ],
+        "grade_comparison": "総合A：小学生以下向けの工作で内容が子どもに合うが、有料・抽選・少人数が条件。",
+        "unsupported_axes": [],
+        "evidence": [
+          {
+            "url": "https://www.tokyo-park.or.jp/park/soshigaya/news/2026/park_info_29.html",
+            "quote": "【クリスマスツリー作り (小学生以下) ※未就学児は保護者同伴】",
+            "checked_at": "2026-11-21",
+            "sha256": "8ad6a2df4fc0c3b44ee6c7b9b6e6b976492ae9f52b663f68a0c1288771c13364",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.tokyo-park.or.jp/park/soshigaya/news/2026/park_info_29.html",
+            "quote": "12 月 12 日 (土) ① 10 時 00 分 ～ 11 時 00 分 10名 ② 13 時 00 分 ～ 14 時 00 分 10名",
+            "checked_at": "2026-11-21",
+            "sha256": "fb7ef8844ce8652791ee554f87e4718b703bb5822294a645fa282b4308f8d8e4",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.tokyo-park.or.jp/park/soshigaya/news/2026/park_info_29.html",
+            "quote": "参加費 各回 1,500 円",
+            "checked_at": "2026-11-21",
+            "sha256": "eb172c82c2d01b4ddb67c89b7a0cd356ee2e5bb35460833091c0553e630c8af3",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.tokyo-park.or.jp/park/soshigaya/news/2026/park_info_29.html",
+            "quote": "※今回、WEBでお申込み ! 締切後抽選となります。",
+            "checked_at": "2026-11-21",
+            "sha256": "710d66b259f1c4ed0ff318ba89549fa24ea12e6d32dfc15ba778ee22faee34f0",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.tokyo-park.or.jp/park/soshigaya/news/2026/park_info_29.html",
+            "quote": "「クリスマスツリー作り(小学生以下)※未就学児は保護者同伴」 締切 : 12月 3日(木)",
+            "checked_at": "2026-11-21",
+            "sha256": "9abc970efb5cdbfdeeea5014dbdf18e3316bc4405d6df66ed77919a0f947a458",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-21",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  },
+  {
+    "id": "verified-20261213-edogawa-shinozaki-fureai-festival",
+    "ward": "江戸川区",
+    "name": "篠崎公園ふれあいフェスティバル",
+    "url": "https://www.tokyo-park.or.jp/park/shinozaki/news/2026/8_12_13.html",
+    "official_url": "https://www.tokyo-park.or.jp/park/shinozaki/news/2026/8_12_13.html",
+    "source": "https://www.tokyo-park.or.jp/park/shinozaki/news/2026/8_12_13.html",
+    "image": "https://www.tokyo-park.or.jp/park/shinozaki/assets/%E7%AF%A0%E5%B4%8E%E5%85%AC%E5%9C%92%E3%81%B5%E3%82%8C%E3%81%82%E3%81%84%E3%83%95%E3%82%A7%E3%82%B9%E3%83%86%E3%82%A3%E3%83%90%E3%83%AB2026.png",
+    "period": "12/13(日)",
+    "date_start": "2026-12-13",
+    "date_end": "2026-12-13",
+    "time": "10:00〜15:00",
+    "venue": "篠崎公園",
+    "price": "ちゃんこは無料配布（先着200名）。入場料や他のコーナーの費用の記載なし",
+    "description": "相撲体験、ちゃんこの無料配布、キッズトレイン、ストラックアウト、公園のはたらく車に乗る体験、消防・警察コーナー（消防ミニカー・パトカー）、親子の靴ひもアクセサリー作りなど。雨天延期は12/20(日)。",
+    "categories": [
+      "まつり・イベント",
+      "体験・ワークショップ"
+    ],
+    "indoor_outdoor": "屋外",
+    "reservation": {
+      "required": null,
+      "note": "押し花レジン工作・寄せ植え講座は事前受付制。相撲体験は先着30名（13:00受付）、靴ひもアクセサリーは先着30組。それ以外は申込の記載なし。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "キッズトレイン、相撲体験、はたらく車、親子の靴ひもアクセサリー作りなど子どもが体験できるコーナーが多い公園のお祭り。入場料や費用は一部しか記載がない。",
+      "axes": {
+        "child_target": {
+          "grade": "B",
+          "reason": "子ども向けのコーナーが多いが、イベント全体は誰でも参加できるお祭り"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "相撲体験・はたらく車・ストラックアウト・工作など体験が多い"
+        },
+        "age_fit": {
+          "grade": "B",
+          "reason": "小学4〜6年生のバスケ大会など年齢指定のコーナーがあり、全体の対象年齢は未記載"
+        },
+        "stay_flexibility": {
+          "grade": "A",
+          "reason": "10:00〜15:00の間に好きなコーナーを回れる"
+        },
+        "burden": {
+          "grade": "B",
+          "reason": "屋外開催で、一部は先着や事前受付が必要"
+        },
+        "cost": {
+          "grade": "unknown",
+          "reason": "ちゃんこ無料配布以外の費用の記載がない"
+        },
+        "reservation": {
+          "grade": "B",
+          "reason": "一部は事前受付・先着制で、その他は申込の記載なし"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "相撲・乗り物・工作など子どもが楽しめるコーナーを一度に回れる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-21",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "all_ages",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "キッズトレインや相撲体験など子ども向けコーナーが多い",
+          "ちゃんこの無料配布がある"
+        ],
+        "limitations": [
+          "入場料や各コーナーの費用が明記されていない",
+          "一部は先着・事前受付制",
+          "雨天は12/20に延期"
+        ],
+        "grade_comparison": "総合B：子ども向けコーナーが多い公園のお祭りだが、費用の記載が一部のみで、先着・事前受付のコーナーがある。",
+        "unsupported_axes": [
+          "cost"
+        ],
+        "evidence": [
+          {
+            "url": "https://www.tokyo-park.or.jp/park/shinozaki/news/2026/8_12_13.html",
+            "quote": "開催日時：令和8年12月13日(日) 10時00分～15時00分",
+            "checked_at": "2026-11-21",
+            "sha256": "0c68110b020ead549873e1e82b5267a40717799acc60adf4dd2d64d9a13c40fa",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.tokyo-park.or.jp/park/shinozaki/news/2026/8_12_13.html",
+            "quote": "※雨天延期：延期日12月20 日（日)",
+            "checked_at": "2026-11-21",
+            "sha256": "5d6c93293040e2831935860d0c24a3eb68739b3e8863c4e508811f0419e6fd0b",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.tokyo-park.or.jp/park/shinozaki/news/2026/8_12_13.html",
+            "quote": "①相撲体験：本物のお相撲さんと相撲をしてみよう。先着30名、受付13：00～",
+            "checked_at": "2026-11-21",
+            "sha256": "9fb13feedc49cd4e61a11df4b3ced3819be2f8feea8c6e6656703953b51fc30c",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.tokyo-park.or.jp/park/shinozaki/news/2026/8_12_13.html",
+            "quote": "⑦靴ひもアクセサリー作り：親子で靴ひもを編みキーチャームを作ろう★1組2本まで。(先着30組)",
+            "checked_at": "2026-11-21",
+            "sha256": "9d2f64de6ec02c0d6fd05b0433b70747bff102aaae3cfd3913ae8b971d9cf9d0",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.tokyo-park.or.jp/park/shinozaki/news/2026/8_12_13.html",
+            "quote": "⑧キッズトレイン：芝山の周りをトレインが走るよ。",
+            "checked_at": "2026-11-21",
+            "sha256": "f1e5a75b4e365abb570eb13ee9ccab1572d9fd756745214b9beeb91cc127ef25",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.tokyo-park.or.jp/park/shinozaki/news/2026/8_12_13.html",
+            "quote": "⑩公園のはたらく車：公園の職員とおそろいの制服を着てパワーカートや草刈機に乗ってみよう☆",
+            "checked_at": "2026-11-21",
+            "sha256": "60d30cdd4bd5a4c55deccc90c2d92d15cf4c5b6a470e6aa08d1b4e2bc8f1f160",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-21",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  }
+]

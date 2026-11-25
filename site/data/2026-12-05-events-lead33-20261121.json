@@ -1,0 +1,135 @@
+[
+  {
+    "id": "verified-20261121-tachikawa-showakinen-sippofesta-20261205",
+    "ward": "立川市",
+    "name": "Sippo Festa（しっぽフェスタ）2026 冬（国営昭和記念公園）",
+    "url": "https://www.showakinen-koen.jp/event/76869/",
+    "official_url": "https://www.showakinen-koen.jp/event/76869/",
+    "source": "https://www.showakinen-koen.jp/event/76869/",
+    "image": "https://www.showakinen-koen.jp/wp-content/uploads/2026/11/1105.jpg",
+    "period": "12/5(土)・6(日) 10:00〜16:00",
+    "date_start": "2026-12-05",
+    "date_end": "2026-12-06",
+    "time": "10:00〜16:00",
+    "venue": "国営昭和記念公園 みどりの文化ゾーン ゆめひろば（無料エリア）（立川市緑町3173）",
+    "price": "無料（一部有料プログラムあり。駐車場料金は別）",
+    "description": "「愛犬と一緒に遊ぶ・学ぶ・思い出を作る」総合ペットイベント。エクストリーム全国決勝大会やわんわんネームビンゴなどのプログラムと、犬用品の販売がある。雨天決行・荒天中止。",
+    "categories": [
+      "まつり・イベント",
+      "自然・公園"
+    ],
+    "indoor_outdoor": "屋外",
+    "reservation": {
+      "required": false,
+      "note": "予約の記載なし。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "犬と遊び・学ぶ屋外のペットイベント。無料エリアで開かれ、参加費は無料（一部有料プログラムあり）。犬を飼っていない子どもは見て楽しむ内容。",
+      "axes": {
+        "child_target": {
+          "grade": "B",
+          "reason": "子ども向けではなく、どなたでも参加できるペットイベント"
+        },
+        "interactivity": {
+          "grade": "B",
+          "reason": "犬のプログラムを見たり、参加したりできる"
+        },
+        "age_fit": {
+          "grade": "B",
+          "reason": "年齢の限定はない"
+        },
+        "stay_flexibility": {
+          "grade": "A",
+          "reason": "2日間、10:00〜16:00に好きな時間に行ける"
+        },
+        "burden": {
+          "grade": "B",
+          "reason": "屋外で、冬の寒さに注意"
+        },
+        "cost": {
+          "grade": "A",
+          "reason": "参加費は無料（一部有料、駐車場は別）"
+        },
+        "reservation": {
+          "grade": "A",
+          "reason": "予約の記載なし"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "犬が好きな子どもと、公園で過ごせる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-21",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "all_ages",
+        "child_activity_confirmed": false,
+        "strengths": [
+          "無料エリアで開かれ、参加費が無料",
+          "2日間あり、好きな時間に行ける"
+        ],
+        "limitations": [
+          "屋外で冬の寒さに注意",
+          "子ども向けのプログラムとは限らない",
+          "一部有料のプログラムがある"
+        ],
+        "grade_comparison": "総合B：犬好きの家族向けの無料の屋外イベント。子ども向けの内容とは限らない。",
+        "unsupported_axes": [],
+        "evidence": [
+          {
+            "url": "https://www.showakinen-koen.jp/event/76869/",
+            "quote": "「愛犬と一緒に遊ぶ・学ぶ・思い出を作る」総合ペットイベントで",
+            "checked_at": "2026-11-21",
+            "sha256": "dba9d1e1c3bdd19c527756df20f25b84ebaa36be8d482762eab31375b7db8d67",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.showakinen-koen.jp/event/76869/",
+            "quote": "12月5日（土）、6日（日）10：00～16：00",
+            "checked_at": "2026-11-21",
+            "sha256": "9e45f2c6f7e887cb18b305055f5c7444cb239040035b8c59029d8d559905706d",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.showakinen-koen.jp/event/76869/",
+            "quote": "場所みどりの文化ゾーンゆめひろば（無料エリア）",
+            "checked_at": "2026-11-21",
+            "sha256": "e273566317f4cbfc8b195ebf9be7b0bfd8dc33bf14251a73e221c5e62906513c",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.showakinen-koen.jp/event/76869/",
+            "quote": "参加費無料※一部有料のプログラムがあります。",
+            "checked_at": "2026-11-21",
+            "sha256": "964b1db92b1515989ba0540561002fe5c3f2183c2fd132f72b81a01cf8075e5c",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-21",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  }
+]

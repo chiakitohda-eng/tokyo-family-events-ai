@@ -1,0 +1,434 @@
+[
+  {
+    "id": "confirmed-20261219-nakano-rock-experience",
+    "ward": "中野区",
+    "name": "今日から君もロックミュージシャン！ギター・ドラム・ベース体験",
+    "url": "https://www.city.tokyo-nakano.lg.jp/kurashi/bunka/bunka/kodomowakamono_bunka/shinkoukikin/kikin01-2.html",
+    "official_url": "https://www.city.tokyo-nakano.lg.jp/kurashi/bunka/bunka/kodomowakamono_bunka/shinkoukikin/kikin01-2.html",
+    "source": "https://www.city.tokyo-nakano.lg.jp/kurashi/bunka/bunka/kodomowakamono_bunka/shinkoukikin/kikin01-2.html",
+    "image": "",
+    "period": "12/19",
+    "date_start": "2026-12-19",
+    "date_end": "2026-12-19",
+    "time": "10:30〜11:30／13:00〜14:00／15:00〜16:00（3回・同一内容）",
+    "venue": "中野区役所1階 ナカノバ（中野区中野4-11-19）",
+    "price": "公式案内に金額明記なし（申込前に要確認）",
+    "description": "プロの演奏家とギター・ドラム・ベースに触れる参加型音楽体験。5〜18歳対象、中野区在住・在勤・在学に限定。",
+    "categories": [
+      "体験・ワークショップ",
+      "親子・地域体験"
+    ],
+    "indoor_outdoor": "",
+    "reservation": {
+      "required": true,
+      "note": "12月7日までLoGoフォームから要申込。定員各回約30名、超過時抽選。中野区在住・在勤・在学の5〜18歳限定。"
+    },
+    "family_fit": {
+      "grade": "A",
+      "overall": "A",
+      "rubric_version": "family-fit-v2",
+      "reason": "5〜18歳の子どもが楽器演奏を体験する区公式企画。区内在住・在勤・在学の限定と12月7日の申込締切がある。",
+      "axes": {
+        "child_target": {
+          "grade": "A",
+          "reason": "5〜18歳の子どもが楽器演奏を体験する区公式企画"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "5〜18歳の子どもが楽器演奏を体験する区公式企画"
+        },
+        "age_fit": {
+          "grade": "A",
+          "reason": "5〜18歳の子どもが楽器演奏を体験する区公式企画。対象の詳細は公式告知を参照。"
+        },
+        "stay_flexibility": {
+          "grade": "unknown",
+          "reason": "途中の出入りや参加時間の自由度は公式の個別開催案内では明記されていない。"
+        },
+        "burden": {
+          "grade": "B",
+          "reason": "区内在住・在勤・在学の限定と12月7日の申込締切がある"
+        },
+        "cost": {
+          "grade": "unknown",
+          "reason": "公式案内に金額明記なし（申込前に要確認）"
+        },
+        "reservation": {
+          "grade": "B",
+          "reason": "12月7日までLoGoフォームから要申込。定員各回約30名、超過時抽選。中野区在住・在勤・在学の5〜18歳限定。"
+        },
+        "family_value": {
+          "grade": "A",
+          "reason": "5〜18歳の子どもが楽器演奏を体験する区公式企画"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-17",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "child_program",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "5〜18歳の子どもが楽器演奏を体験する区公式企画"
+        ],
+        "limitations": [
+          "区内在住・在勤・在学の限定と12月7日の申込締切がある"
+        ],
+        "grade_comparison": "総合A：5〜18歳の子どもが楽器演奏を体験する区公式企画。区内在住・在勤・在学の限定と12月7日の申込締切がある。",
+        "unsupported_axes": [
+          "stay_flexibility"
+        ],
+        "evidence": [
+          {
+            "url": "https://www.city.tokyo-nakano.lg.jp/kurashi/bunka/bunka/kodomowakamono_bunka/shinkoukikin/kikin01-2.html",
+            "quote": "2026年12月19日（土曜日）",
+            "checked_at": "2026-11-17",
+            "sha256": "d828c248662dc09d66963f4c800d60eea4a41ac121393cb51ee6247d9f71e40b",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式または主催者名義の2026年掲載情報を取得。引用文字列だけのUTF-8 SHA-256。月別一覧の日付が必要な候補は別途 indexUrl に保存。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-17",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  },
+  {
+    "id": "confirmed-20261220-nakano-ikebana",
+    "ward": "中野区",
+    "name": "いけ花ワークショップ～お正月の花をいけよう～",
+    "url": "https://www.city.tokyo-nakano.lg.jp/kurashi/bunka/bunka/kodomowakamono_bunka/shinkoukikin/kikin05.html",
+    "official_url": "https://www.city.tokyo-nakano.lg.jp/kurashi/bunka/bunka/kodomowakamono_bunka/shinkoukikin/kikin05.html",
+    "source": "https://www.city.tokyo-nakano.lg.jp/kurashi/bunka/bunka/kodomowakamono_bunka/shinkoukikin/kikin05.html",
+    "image": "",
+    "period": "12/20",
+    "date_start": "2026-12-20",
+    "date_end": "2026-12-20",
+    "time": "11:00〜12:30／14:00〜15:30（2回・同一内容）",
+    "venue": "中野区役所1階 ナカノバ（中野区中野4-11-19）",
+    "price": "公式案内に金額明記なし（申込前に要確認）",
+    "description": "一葉式いけばな家元による正月向けいけ花体験。作品は12月27日頃まで区役所で展示され、使用花材・用具は持ち帰れない。",
+    "categories": [
+      "体験・ワークショップ",
+      "親子・地域体験"
+    ],
+    "indoor_outdoor": "",
+    "reservation": {
+      "required": true,
+      "note": "12月9日までLoGoフォーム。各回約20名、定員超過時抽選。中野区在住・在勤・在学の10〜18歳限定。保護者同伴は1名まで。"
+    },
+    "family_fit": {
+      "grade": "A",
+      "overall": "A",
+      "rubric_version": "family-fit-v2",
+      "reason": "10〜18歳の子どもが生け花を制作する区公式体験。対象が区内関係者に限定され、作品・材料は持ち帰れない。",
+      "axes": {
+        "child_target": {
+          "grade": "A",
+          "reason": "10〜18歳の子どもが生け花を制作する区公式体験"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "10〜18歳の子どもが生け花を制作する区公式体験"
+        },
+        "age_fit": {
+          "grade": "A",
+          "reason": "10〜18歳の子どもが生け花を制作する区公式体験。対象の詳細は公式告知を参照。"
+        },
+        "stay_flexibility": {
+          "grade": "unknown",
+          "reason": "途中の出入りや参加時間の自由度は公式の個別開催案内では明記されていない。"
+        },
+        "burden": {
+          "grade": "B",
+          "reason": "対象が区内関係者に限定され、作品・材料は持ち帰れない"
+        },
+        "cost": {
+          "grade": "unknown",
+          "reason": "公式案内に金額明記なし（申込前に要確認）"
+        },
+        "reservation": {
+          "grade": "B",
+          "reason": "12月9日までLoGoフォーム。各回約20名、定員超過時抽選。中野区在住・在勤・在学の10〜18歳限定。保護者同伴は1名まで。"
+        },
+        "family_value": {
+          "grade": "A",
+          "reason": "10〜18歳の子どもが生け花を制作する区公式体験"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-17",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "child_program",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "10〜18歳の子どもが生け花を制作する区公式体験"
+        ],
+        "limitations": [
+          "対象が区内関係者に限定され、作品・材料は持ち帰れない"
+        ],
+        "grade_comparison": "総合A：10〜18歳の子どもが生け花を制作する区公式体験。対象が区内関係者に限定され、作品・材料は持ち帰れない。",
+        "unsupported_axes": [
+          "stay_flexibility"
+        ],
+        "evidence": [
+          {
+            "url": "https://www.city.tokyo-nakano.lg.jp/kurashi/bunka/bunka/kodomowakamono_bunka/shinkoukikin/kikin05.html",
+            "quote": "2026年12月20日（日曜日）",
+            "checked_at": "2026-11-17",
+            "sha256": "16e628107ce60bad668e705681b842a9f938fcdbf9e039667da18c929076d470",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式または主催者名義の2026年掲載情報を取得。引用文字列だけのUTF-8 SHA-256。月別一覧の日付が必要な候補は別途 indexUrl に保存。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-17",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  },
+  {
+    "id": "tamemap-20261219-nakano-family-rhythm",
+    "ward": "中野区",
+    "name": "ファミリーリトミック（12月19日）",
+    "url": "https://pc.tamemap.net/1311401/event/160164?locale=ja",
+    "official_url": "https://pc.tamemap.net/1311401/event/160164?locale=ja",
+    "source": "https://pc.tamemap.net/1311401/event/160164?locale=ja",
+    "image": "",
+    "period": "12/19",
+    "date_start": "2026-12-19",
+    "date_end": "2026-12-19",
+    "time": "主催者の12月19日個別時刻は未取得（開催枠は申込時に確認）",
+    "venue": "広町みらい公園（中野区弥生町6丁目1-7）",
+    "price": "1,000円以上（掲載カテゴリ。正確な料金・人数条件は予約ページで要確認）",
+    "description": "親子でリズム遊びや楽器に触れる参加型リトミック。ためまっぷの2026年12月19日月別一覧に掲載、個別の開催時刻と予約枠は要確認。",
+    "categories": [
+      "体験・ワークショップ",
+      "親子・地域体験"
+    ],
+    "indoor_outdoor": "",
+    "reservation": {
+      "required": true,
+      "note": "主催者の公園申込サイトから要予約・先着順。通常は開催月の前月15日から受付開始。12月19日の空席は未確認。"
+    },
+    "family_fit": {
+      "grade": "A",
+      "overall": "A",
+      "rubric_version": "family-fit-v2",
+      "reason": "親子で音楽体験に参加できる公園指定管理者の企画。個別の12月19日開催時刻と予約空席が公式個別ページで未確認。",
+      "axes": {
+        "child_target": {
+          "grade": "A",
+          "reason": "親子で音楽体験に参加できる公園指定管理者の企画"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "親子で音楽体験に参加できる公園指定管理者の企画"
+        },
+        "age_fit": {
+          "grade": "B",
+          "reason": "親子で音楽体験に参加できる公園指定管理者の企画。対象の詳細は公式告知を参照。"
+        },
+        "stay_flexibility": {
+          "grade": "unknown",
+          "reason": "途中の出入りや参加時間の自由度は公式の個別開催案内では明記されていない。"
+        },
+        "burden": {
+          "grade": "B",
+          "reason": "個別の12月19日開催時刻と予約空席が公式個別ページで未確認"
+        },
+        "cost": {
+          "grade": "unknown",
+          "reason": "1,000円以上（掲載カテゴリ。正確な料金・人数条件は予約ページで要確認）"
+        },
+        "reservation": {
+          "grade": "B",
+          "reason": "主催者の公園申込サイトから要予約・先着順。通常は開催月の前月15日から受付開始。12月19日の空席は未確認。"
+        },
+        "family_value": {
+          "grade": "A",
+          "reason": "親子で音楽体験に参加できる公園指定管理者の企画"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-17",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "child_program",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "親子で音楽体験に参加できる公園指定管理者の企画"
+        ],
+        "limitations": [
+          "個別の12月19日開催時刻と予約空席が公式個別ページで未確認"
+        ],
+        "grade_comparison": "総合A：親子で音楽体験に参加できる公園指定管理者の企画。個別の12月19日開催時刻と予約空席が公式個別ページで未確認。",
+        "unsupported_axes": [
+          "stay_flexibility"
+        ],
+        "evidence": [
+          {
+            "url": "https://pc.tamemap.net/1311401/event/160164?locale=ja",
+            "quote": "笑顔があふれる音楽体験！季節のアクティビティで、親子でふれあいながら心と体を楽しく育みます。",
+            "checked_at": "2026-11-17",
+            "sha256": "7d758ff9566a8ca6c9d9d9eb13f54d948d4813c7b1b244e3206526f90c206316",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式または主催者名義の2026年掲載情報を取得。引用文字列だけのUTF-8 SHA-256。月別一覧の日付が必要な候補は別途 indexUrl に保存。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-17",
+      "calendar_index_url": "https://pc.tamemap.net/1311401/calendar/2026-12?lat=35.7073&level=5000&lng=139.675&locale=ja",
+      "source_claim": "announced",
+      "global_23_ward_source_audit_complete": false
+    }
+  },
+  {
+    "id": "tamemap-20261220-nakano-forest-choir",
+    "ward": "中野区",
+    "name": "森のファミリー合唱団（12月20日）",
+    "url": "https://www.city.tokyo-nakano.lg.jp/kurashi/bunka/bunka/kodomowakamono_bunka/nakano_ninteijigyo/nintei03.html",
+    "official_url": "https://www.city.tokyo-nakano.lg.jp/kurashi/bunka/bunka/kodomowakamono_bunka/nakano_ninteijigyo/nintei03.html",
+    "source": "https://www.city.tokyo-nakano.lg.jp/kurashi/bunka/bunka/kodomowakamono_bunka/nakano_ninteijigyo/nintei03.html",
+    "image": "",
+    "period": "12/20",
+    "date_start": "2026-12-20",
+    "date_end": "2026-12-20",
+    "time": "9:30〜11:00（毎週日曜）",
+    "venue": "えごたいえ（中野区江古田3-14-1 プライムメゾン江古田の杜ウェスト1階）",
+    "price": "1家族1,000円（1回の練習と楽譜代込み）。体験参加は初回1回無料",
+    "description": "幼児からシニアまで家族で参加できる地域の合唱練習。中野区認定事業の公式案内では毎週日曜9:30〜11:00、ためまっぷの12月20日一覧にも掲載。",
+    "categories": [
+      "体験・ワークショップ",
+      "親子・地域体験"
+    ],
+    "indoor_outdoor": "",
+    "reservation": {
+      "required": false,
+      "note": "随時受付。中野区公式案内の主催団体ZEROキッズへのメール・電話で事前に参加確認を推奨。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "幼児から大人まで家族で歌う参加型の定期音楽活動。継続活動であり、当日の参加枠・体験希望は主催団体に確認が必要。",
+      "axes": {
+        "child_target": {
+          "grade": "B",
+          "reason": "幼児から大人まで家族で歌う参加型の定期音楽活動"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "幼児から大人まで家族で歌う参加型の定期音楽活動"
+        },
+        "age_fit": {
+          "grade": "A",
+          "reason": "幼児から大人まで家族で歌う参加型の定期音楽活動。対象の詳細は公式告知を参照。"
+        },
+        "stay_flexibility": {
+          "grade": "unknown",
+          "reason": "途中の出入りや参加時間の自由度は公式の個別開催案内では明記されていない。"
+        },
+        "burden": {
+          "grade": "B",
+          "reason": "継続活動であり、当日の参加枠・体験希望は主催団体に確認が必要"
+        },
+        "cost": {
+          "grade": "B",
+          "reason": "1家族1,000円（1回の練習と楽譜代込み）。体験参加は初回1回無料"
+        },
+        "reservation": {
+          "grade": "B",
+          "reason": "随時受付。中野区公式案内の主催団体ZEROキッズへのメール・電話で事前に参加確認を推奨。"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "幼児から大人まで家族で歌う参加型の定期音楽活動"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-17",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "child_program",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "幼児から大人まで家族で歌う参加型の定期音楽活動"
+        ],
+        "limitations": [
+          "継続活動であり、当日の参加枠・体験希望は主催団体に確認が必要"
+        ],
+        "grade_comparison": "総合B：幼児から大人まで家族で歌う参加型の定期音楽活動。継続活動であり、当日の参加枠・体験希望は主催団体に確認が必要。",
+        "unsupported_axes": [
+          "stay_flexibility"
+        ],
+        "evidence": [
+          {
+            "url": "https://www.city.tokyo-nakano.lg.jp/kurashi/bunka/bunka/kodomowakamono_bunka/nakano_ninteijigyo/nintei03.html",
+            "quote": "毎週日曜日9時30分～11時",
+            "checked_at": "2026-11-17",
+            "sha256": "c92e77a3b61fb1958bd4efa847f5b130fe97509fbd53dc995216a023008e9848",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式または主催者名義の2026年掲載情報を取得。引用文字列だけのUTF-8 SHA-256。月別一覧の日付が必要な候補は別途 indexUrl に保存。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-17",
+      "calendar_index_url": "https://pc.tamemap.net/1311401/calendar/2026-12?lat=35.7073&level=5000&lng=139.675&locale=ja",
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  }
+]

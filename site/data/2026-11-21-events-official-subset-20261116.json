@@ -1,0 +1,131 @@
+[
+  {
+    "id": "candidate-20261121-kids-street-itabashi",
+    "ward": "板橋区",
+    "name": "キッズストリートいたばし",
+    "url": "https://city-itabashi-sdgs.jp/story/partnersstory/index.php?c=partnersstory_view&pk=1791382568",
+    "official_url": "https://city-itabashi-sdgs.jp/story/partnersstory/index.php?c=partnersstory_view&pk=1791382568",
+    "source": "https://city-itabashi-sdgs.jp/story/partnersstory/index.php?c=partnersstory_view&pk=1791382568",
+    "image": "https://city-itabashi-sdgs.jp/assets/img/bnr_ehon_clm2.webp",
+    "period": "11/21",
+    "date_start": "2026-11-21",
+    "date_end": "2026-11-21",
+    "time": "10:00〜15:00",
+    "venue": "高島平緑地",
+    "price": "参加無料",
+    "description": "子どもが店員となる職業体験を中心に、キッズカフェ、リユースショップ、ステージ企画など。主催：ちゃいるどまーけっと。無料・予約不要で当日参加可能。屋外開催のため天候や混雑については最新情報を確認。",
+    "categories": [
+      "体験・ワークショップ"
+    ],
+    "family_fit": {
+      "grade": "A",
+      "overall": "A",
+      "rubric_version": "family-fit-v2",
+      "reason": "子ども自身がお店の店員となって接客や運営を体験できる職業体験イベント。参加無料・予約不要と主催者が明記。",
+      "axes": {
+        "child_target": {
+          "grade": "A",
+          "reason": "子どもたちが主役となって実際の仕事を体験する企画と公式に明記。"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "子どもが主役の実体験型イベント。仕事を選んで接客や運営を体験できる。"
+        },
+        "age_fit": {
+          "grade": "unknown",
+          "reason": "体験ごとの参加年齢の下限・上限は主催者公式の記事では未記載。参加内容ごとに要確認。"
+        },
+        "stay_flexibility": {
+          "grade": "unknown",
+          "reason": "途中退出・滞在時間の自由度は公式情報に明記されていないため要確認。"
+        },
+        "burden": {
+          "grade": "B",
+          "reason": "屋外の緑地で開催。天候、混雑、選ぶ仕事による負担は参加前に確認が必要。"
+        },
+        "cost": {
+          "grade": "A",
+          "reason": "参加無料"
+        },
+        "reservation": {
+          "grade": "A",
+          "reason": "主催者が参加無料、予約不要、当日参加と明記。"
+        },
+        "family_value": {
+          "grade": "A",
+          "reason": "子どもが主役の実体験型イベント。仕事を選んで接客や運営を体験できる。"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-17",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "child_program",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "子ども自身が店員になり、11種類の仕事などを体験できる。",
+          "主催者公式で参加無料・予約不要と確認できる。"
+        ],
+        "limitations": [
+          "体験ごとの年齢条件と滞在・途中退出については公式記事に明示されていない。",
+          "屋外開催のため天候や混雑に注意する必要がある。"
+        ],
+        "grade_comparison": "総合A：子ども自身が主体的に職業や店員を体験でき、参加無料・予約不要。体験ごとの対象年齢や天候は要確認。",
+        "unsupported_axes": [
+          "stay_flexibility",
+          "age_fit"
+        ],
+        "evidence": [
+          {
+            "url": "https://city-itabashi-sdgs.jp/story/partnersstory/index.php?c=partnersstory_view&pk=1791382568",
+            "quote": "2026年11月21日（土）、高島平緑地にて「キッズストリートいたばし」を開催します。",
+            "checked_at": "2026-11-17",
+            "sha256": "1be1b8ea60b9b8ff7b03e9f5f1fc972a4250dbedb1eef5a17c5ec8309f3b8ddb",
+            "hash_scope": "exact_utf8_quote"
+          },
+          {
+            "url": "https://city-itabashi-sdgs.jp/story/partnersstory/index.php?c=partnersstory_view&pk=1791382568",
+            "quote": "参加費は無料、予約不要で、当日参加できます。",
+            "checked_at": "2026-11-17",
+            "sha256": "338638e179a4557d893e33d99ed4989e8df9d413ad27f769ca8006886dd2177e",
+            "hash_scope": "exact_utf8_quote"
+          },
+          {
+            "url": "https://city-itabashi-sdgs.jp/story/partnersstory/index.php?c=partnersstory_view&pk=1791382568",
+            "quote": "子どもたちが主役となり、実際のお仕事を体験できるイベントです。",
+            "checked_at": "2026-11-17",
+            "sha256": "9e460eb7530d9b7ff2c058d552f580cd1a01d5aac179a1a62f7d55060f4b8cbe",
+            "hash_scope": "exact_utf8_quote"
+          }
+        ]
+      }
+    },
+    "reservation": {
+      "required": false,
+      "note": "予約不要・当日参加"
+    },
+    "indoor_outdoor": "屋外",
+    "ai": {
+      "checked_at": "2026-11-16",
+      "confidence": "high",
+      "discovery_query": "2026年11月16日・候補限定で公式本文の日時/会場/参加条件を実読。23区全探索の完了証跡ではない。"
+    },
+    "discovery_sources": [
+      {
+        "channel": "ai_cross",
+        "kind": "official_source_direct",
+        "url": "https://city-itabashi-sdgs.jp/story/partnersstory/index.php?c=partnersstory_view&pk=1791382568"
+      }
+    ]
+  }
+]

@@ -1,0 +1,154 @@
+[
+  {
+    "id": "verified-20261220-jonanjima-skateboard-class",
+    "ward": "大田区",
+    "name": "スケートボード教室 12月（城南島海浜公園）",
+    "url": "https://tokyo-south-seaside-parks.com/event/%e3%82%b9%e3%82%b1%e3%83%bc%e3%83%88%e3%83%9c%e3%83%bc%e3%83%89%e6%95%99%e5%ae%a4%e3%80%8012%e6%9c%88",
+    "official_url": "https://tokyo-south-seaside-parks.com/event/%e3%82%b9%e3%82%b1%e3%83%bc%e3%83%88%e3%83%9c%e3%83%bc%e3%83%89%e6%95%99%e5%ae%a4%e3%80%8012%e6%9c%88",
+    "source": "https://tokyo-south-seaside-parks.com/event/%e3%82%b9%e3%82%b1%e3%83%bc%e3%83%88%e3%83%9c%e3%83%bc%e3%83%89%e6%95%99%e5%ae%a4%e3%80%8012%e6%9c%88",
+    "image": "https://tokyo-south-seaside-parks.com/wp-content/uploads/2026/04/20260517スケボー教室城南-960x720.jpg",
+    "period": "12/20(日)",
+    "date_start": "2026-12-20",
+    "date_end": "2026-12-20",
+    "time": "13:00〜15:00",
+    "venue": "城南島海浜公園 アスファルト広場（初心者・中級クラス）",
+    "price": "初心者・中級クラス500円（上級クラス3,000円）",
+    "description": "日本スケートボード協会公認インストラクターが乗り方を教える教室。初めての人から参加でき、ヘルメット着用が必須で、道具のレンタルもある。事前予約制。",
+    "categories": [
+      "スポーツ",
+      "スケートボード",
+      "体験"
+    ],
+    "indoor_outdoor": "屋外",
+    "reservation": {
+      "required": true,
+      "note": "事前予約制（Webフォーム）。11/16から受付。"
+    },
+    "family_fit": {
+      "grade": "C",
+      "overall": "C",
+      "rubric_version": "family-fit-v2",
+      "reason": "12/20開催。公認インストラクターに教わる初心者・中級向けのスケートボード教室で、参加費は500円。ヘルメット着用が必須で、事前予約が必要。",
+      "axes": {
+        "child_target": {
+          "grade": "unknown",
+          "reason": "子ども向けとは明記されていない"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "スケートボードに実際に乗って学ぶ"
+        },
+        "age_fit": {
+          "grade": "unknown",
+          "reason": "対象年齢が明記されていない"
+        },
+        "stay_flexibility": {
+          "grade": "B",
+          "reason": "13:00〜15:00の時間が決まっている"
+        },
+        "burden": {
+          "grade": "C",
+          "reason": "ヘルメット着用が必須で、道具の持参またはレンタルが必要"
+        },
+        "cost": {
+          "grade": "B",
+          "reason": "初心者・中級クラスは500円、レンタルは別料金"
+        },
+        "reservation": {
+          "grade": "B",
+          "reason": "事前予約制"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "初めてのスポーツ体験として参加できる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-20",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "unspecified",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "初めてでも参加できる",
+          "公認インストラクターが指導"
+        ],
+        "limitations": [
+          "対象年齢の記載がない",
+          "ヘルメット着用が必須で事前予約が必要"
+        ],
+        "grade_comparison": "総合C：初心者向けで費用も手頃だが、子どもの対象年齢が明記されておらず、予約と装備が必要。",
+        "unsupported_axes": [
+          "child_target",
+          "age_fit"
+        ],
+        "evidence": [
+          {
+            "url": "https://tokyo-south-seaside-parks.com/event/%e3%82%b9%e3%82%b1%e3%83%bc%e3%83%88%e3%83%9c%e3%83%bc%e3%83%89%e6%95%99%e5%ae%a4%e3%80%8012%e6%9c%88",
+            "quote": "毎月第3日曜日（6月・11月を除く）13時～15時",
+            "checked_at": "2026-11-20",
+            "sha256": "478be1b01d38ab49b6d9a6a05215e28de3408d1b8fc790967643688924d64a01",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://tokyo-south-seaside-parks.com/event/%e3%82%b9%e3%82%b1%e3%83%bc%e3%83%88%e3%83%9c%e3%83%bc%e3%83%89%e6%95%99%e5%ae%a4%e3%80%8012%e6%9c%88",
+            "quote": "スケートボードに初めて乗る方から、もっと楽しみたい方まで",
+            "checked_at": "2026-11-20",
+            "sha256": "be041f9c3fac7ca85322f593a5dea4f6f9c6837404c626a64a5ac8d29a49a68a",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://tokyo-south-seaside-parks.com/event/%e3%82%b9%e3%82%b1%e3%83%bc%e3%83%88%e3%83%9c%e3%83%bc%e3%83%89%e6%95%99%e5%ae%a4%e3%80%8012%e6%9c%88",
+            "quote": "参加費：５００円（税・保険料込み、当日現金払い）",
+            "checked_at": "2026-11-20",
+            "sha256": "821c712fed9ef3a92ff5e0ce88eb5d794624d2fde50f52cc474636cacd7d37ba",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://tokyo-south-seaside-parks.com/event/%e3%82%b9%e3%82%b1%e3%83%bc%e3%83%88%e3%83%9c%e3%83%bc%e3%83%89%e6%95%99%e5%ae%a4%e3%80%8012%e6%9c%88",
+            "quote": "事前予約制のスケートボード教室です。",
+            "checked_at": "2026-11-20",
+            "sha256": "c985813398fa83d0eb6d53a9ac34b7e66b23d0c516e434601a6425aa71509baa",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://tokyo-south-seaside-parks.com/event/%e3%82%b9%e3%82%b1%e3%83%bc%e3%83%88%e3%83%9c%e3%83%bc%e3%83%89%e6%95%99%e5%ae%a4%e3%80%8012%e6%9c%88",
+            "quote": "ヘルメット（安全の為、着用必須）",
+            "checked_at": "2026-11-20",
+            "sha256": "e5ce4c2cbcca958c84e32f56fae28d745c35466949c328529ce2d870537d864a",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://tokyo-south-seaside-parks.com/event/%e3%82%b9%e3%82%b1%e3%83%bc%e3%83%88%e3%83%9c%e3%83%bc%e3%83%89%e6%95%99%e5%ae%a4%e3%80%8012%e6%9c%88",
+            "quote": "11月16日(月)より受付開始です。",
+            "checked_at": "2026-11-20",
+            "sha256": "2bd3c14a438ec7f2bf00c058ce5595e85b1bc3cc2952581c6088fe90f8f68dfb",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-20",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  }
+]

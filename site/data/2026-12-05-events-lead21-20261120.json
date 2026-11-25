@@ -1,0 +1,283 @@
+[
+  {
+    "id": "verified-20261205-nakano-nogata-edit",
+    "ward": "中野区",
+    "name": "小学生のための編集教室「世界の図書館と本を知ろう！」（野方図書館）",
+    "url": "https://kodomo-smile.metro.tokyo.lg.jp/events/4269",
+    "official_url": "https://kodomo-smile.metro.tokyo.lg.jp/events/4269",
+    "source": "https://kodomo-smile.metro.tokyo.lg.jp/events/4269",
+    "image": "https://kodomo-smile.metro.tokyo.lg.jp/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MjE2NTYsInB1ciI6ImJsb2JfaWQifX0=--d08d578f52744a2bf7fbfa6ec634495d4ae7a60d/%E3%80%90%E3%81%93%E3%81%A9%E3%82%82%E3%81%AE%E7%B7%A8%E9%9B%86%E6%95%99%E5%AE%A4%E3%80%9120251220%E3%82%A2%E3%83%B3%E3%83%87%E3%83%AB%E3%82%BB%E3%83%B3%E3%83%87%E3%83%B3%E3%83%9E%E3%83%BC%E3%82%AF220%20(A4).jpg",
+    "period": "12/5(土)",
+    "date_start": "2026-12-05",
+    "date_end": "2026-12-05",
+    "time": "10:00〜12:00（受付9:45〜）",
+    "venue": "中野区立野方図書館（中野区野方3-19-5）",
+    "price": "無料",
+    "description": "世界の図書館や日本語と外国語の絵本の違いを見て、デンマーク語の絵本を作るワークショップ。小学生対象、定員30名で事前予約（定員に満たない場合は当日受付あり）。",
+    "categories": [
+      "ワークショップ",
+      "図書館",
+      "本・絵本"
+    ],
+    "indoor_outdoor": "屋内",
+    "reservation": {
+      "required": true,
+      "note": "事前予約（定員30名）。定員に満たない場合は当日受付も行う。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "小学生を対象に、世界の図書館や絵本を知り、デンマーク語の絵本を作るワークショップ。参加費無料で、定員30名の事前予約制。",
+      "axes": {
+        "child_target": {
+          "grade": "A",
+          "reason": "対象が小学生と明記された子ども向けの教室"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "絵本づくりのワークショップに参加できる"
+        },
+        "age_fit": {
+          "grade": "B",
+          "reason": "対象は小学生で、学年の細かい目安はない"
+        },
+        "stay_flexibility": {
+          "grade": "B",
+          "reason": "10〜12時の2時間で、時間が決まっている"
+        },
+        "burden": {
+          "grade": "B",
+          "reason": "定員30名の事前予約が必要"
+        },
+        "cost": {
+          "grade": "A",
+          "reason": "参加費無料"
+        },
+        "reservation": {
+          "grade": "B",
+          "reason": "事前予約。定員に満たない場合は当日受付あり"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "図書館で本と世界に触れる学びの体験"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-20",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "child_program",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "小学生向けで無料",
+          "絵本づくりを体験できる"
+        ],
+        "limitations": [
+          "事前予約制で定員30名",
+          "2時間の拘束がある"
+        ],
+        "grade_comparison": "総合B：小学生向けで無料の絵本づくり教室だが、定員30名の事前予約制。",
+        "unsupported_axes": [],
+        "evidence": [
+          {
+            "url": "https://kodomo-smile.metro.tokyo.lg.jp/events/4269",
+            "quote": "2026年12月5日（土曜日）10:00～12:00受付は9:45から",
+            "checked_at": "2026-11-20",
+            "sha256": "e91b64b9732f4ec2989760afac888677b51a526e33149f4666053a7f806032d9",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://kodomo-smile.metro.tokyo.lg.jp/events/4269",
+            "quote": "対象小学生定員30名（事前予約）",
+            "checked_at": "2026-11-20",
+            "sha256": "448531f4560fff1abf920b3eeacd0ad4337250b5e2034098e491887e2c72d06e",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://kodomo-smile.metro.tokyo.lg.jp/events/4269",
+            "quote": "中野区立野方図書館東京都中野",
+            "checked_at": "2026-11-20",
+            "sha256": "2bc7e5a6788a36f07e67514e0c4e541996c631a77c62594b057ba8d33781628c",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://kodomo-smile.metro.tokyo.lg.jp/events/4269",
+            "quote": "参加費無料●定員30名（事前予約）",
+            "checked_at": "2026-11-20",
+            "sha256": "a153e9567be21551b6f8a6714586647a2d9157b99e590cc1789cd8a709ac3f73",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://kodomo-smile.metro.tokyo.lg.jp/events/4269",
+            "quote": "定員に満たない場合は当日受付も行います",
+            "checked_at": "2026-11-20",
+            "sha256": "68725e5fa07d99954fae8815f11bf57cff794a22bbf6d19e68bfa89cde7c1208",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-20",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  },
+  {
+    "id": "verified-20261205-ota-kawasaki-robot-operate",
+    "ward": "大田区",
+    "name": "カワサキロボットエンジニアになろう！ 操作編（羽田イノベーションシティ）",
+    "url": "https://kodomo-smile.metro.tokyo.lg.jp/events/4261",
+    "official_url": "https://kodomo-smile.metro.tokyo.lg.jp/events/4261",
+    "source": "https://kodomo-smile.metro.tokyo.lg.jp/events/4261",
+    "image": "",
+    "period": "12/5(土)・6(日)",
+    "date_start": "2026-12-05",
+    "date_end": "2026-12-05",
+    "time": "11:00〜12:00／14:00〜15:00",
+    "venue": "羽田イノベーションシティ B棟2階 カワサキロボットスクール（大田区羽田空港1-1-4）",
+    "price": "500円",
+    "description": "本物の産業用ロボットの操作を体験し、制服を着た記念撮影もできる。小学3〜6年生対象、事前予約制。子どもだけでの参加は不可。",
+    "categories": [
+      "科学・ロボット",
+      "体験・ワークショップ"
+    ],
+    "indoor_outdoor": "屋内",
+    "reservation": {
+      "required": true,
+      "note": "事前予約制。お子様のみでの参加はできません。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "本物の産業用ロボットの操作を体験できる小学3〜6年生向けの教室。参加費500円で、事前予約制。",
+      "axes": {
+        "child_target": {
+          "grade": "A",
+          "reason": "小学3〜6年生を対象にした子ども向けイベント"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "実機のロボットを操作できる"
+        },
+        "age_fit": {
+          "grade": "A",
+          "reason": "操作編は小学3〜6年生と明記"
+        },
+        "stay_flexibility": {
+          "grade": "B",
+          "reason": "各1時間の回で、時間が決まっている"
+        },
+        "burden": {
+          "grade": "B",
+          "reason": "保護者の同行が必要で、事前予約が必要"
+        },
+        "cost": {
+          "grade": "A",
+          "reason": "操作編は500円"
+        },
+        "reservation": {
+          "grade": "B",
+          "reason": "事前予約制"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "ものづくりと技術への興味を親子で広げられる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-20",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "child_program",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "本物のロボットを操作できる",
+          "500円と手頃"
+        ],
+        "limitations": [
+          "小学3〜6年生に限られる",
+          "事前予約が必要"
+        ],
+        "grade_comparison": "総合B：本物の産業用ロボットを動かせて参加費も手頃だが、対象学年が限られ事前予約が必要。",
+        "unsupported_axes": [],
+        "evidence": [
+          {
+            "url": "https://kodomo-smile.metro.tokyo.lg.jp/events/4261",
+            "quote": "【操作編】12/5(土）～6(日）11：00～12：00、14：00～15：00",
+            "checked_at": "2026-11-20",
+            "sha256": "34663e0a83e1242a5521c758598980f86bca7495c899ec371b8ef8e64f2e8374",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://kodomo-smile.metro.tokyo.lg.jp/events/4261",
+            "quote": "プログラミング編：小学3年生～中学生操作編：小学3年生～6年生",
+            "checked_at": "2026-11-20",
+            "sha256": "e545b43c4ff27588d9e49a66f82983ec5f9093b58e01c5781d3bff19a89662c9",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://kodomo-smile.metro.tokyo.lg.jp/events/4261",
+            "quote": "操作編：500円プログラミン",
+            "checked_at": "2026-11-20",
+            "sha256": "b35a3ef2145916b6034bad84dcef7a3ab8c9ba35434830898e59fc7ff77b4c8e",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://kodomo-smile.metro.tokyo.lg.jp/events/4261",
+            "quote": "事前予約制お申し込みの詳細は",
+            "checked_at": "2026-11-20",
+            "sha256": "8791d1fd78ed5f8bf1e8175afe990b0b4c584cd325144fc3e39e7a2d6a4c76c7",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://kodomo-smile.metro.tokyo.lg.jp/events/4261",
+            "quote": "お子様のみでの参加はできません。",
+            "checked_at": "2026-11-20",
+            "sha256": "d6e2d1b5ab56bc98860825e41e836cfdbe4ef29e5d4cb9bced5eda998b1b5cc4",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-20",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  }
+]

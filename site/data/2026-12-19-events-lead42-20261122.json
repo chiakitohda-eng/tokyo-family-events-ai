@@ -1,0 +1,126 @@
+[
+  {
+    "id": "verified-20261219-setagaya-futakotamagawa-rise-skate-class",
+    "ward": "世田谷区",
+    "name": "二子玉川ライズ スケートガーデン スケート教室",
+    "url": "https://www.rise.sc/eventnews/detail/?cd=001539",
+    "official_url": "https://www.rise.sc/eventnews/detail/?cd=001539",
+    "source": "https://www.rise.sc/eventnews/detail/?cd=001539",
+    "image": "https://www.rise.sc/uploads/images/resized/0x0/rise/000008/000008/4a3b3525.png",
+    "period": "12/19〜2/27の教室日（はじめて・初級・親子ほか）",
+    "date_start": "2026-12-19",
+    "date_end": "2027-02-27",
+    "time": "9:30〜10:30が中心（親子教室は11:30〜12:30の回もあり）",
+    "venue": "二子玉川ライズ 中央広場（世田谷区玉川2-21-1）",
+    "price": "1回3,000円〜（はじめて教室。親子教室は大人1名＋子ども1名で5,000円、貸靴代含む）",
+    "description": "未経験の3歳以上が受けられる「はじめて教室」と、3歳以上〜小学校低学年の「親子教室」などがあるスケート教室。",
+    "categories": [
+      "体験・ワークショップ",
+      "スポーツ・体を動かす"
+    ],
+    "indoor_outdoor": "屋外",
+    "reservation": {
+      "required": true,
+      "note": "予約サイトで12/2 10:00から順次受付。各回の定員は先着15〜40名（親子教室は15組）。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "スケート未経験の3歳以上向けの教室と、大人1名＋子ども1名で参加する親子教室がある。12/2から予約サイトで順次受付。",
+      "axes": {
+        "child_target": {
+          "grade": "A",
+          "reason": "子ども・家族向けの内容"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "体験や参加ができる"
+        },
+        "age_fit": {
+          "grade": "A",
+          "reason": "幼児から参加できる"
+        },
+        "stay_flexibility": {
+          "grade": "C",
+          "reason": "決まった日・回に合わせる必要がある"
+        },
+        "burden": {
+          "grade": "B",
+          "reason": "屋外のため、寒さと混雑に注意"
+        },
+        "cost": {
+          "grade": "C",
+          "reason": "有料で、費用がかかる"
+        },
+        "reservation": {
+          "grade": "C",
+          "reason": "事前予約が必要"
+        },
+        "family_value": {
+          "grade": "A",
+          "reason": "子どもが楽しめる体験がある"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-22",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "child_program",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "3歳以上の未経験から参加できる",
+          "親子で参加できる教室がある"
+        ],
+        "limitations": [
+          "事前予約が必要で定員が小さい",
+          "1回3,000円〜と費用がかかる"
+        ],
+        "grade_comparison": "総合B：未経験の幼児から参加できる子ども向けの教室。事前予約と1回3,000円〜の費用が条件。",
+        "unsupported_axes": [],
+        "evidence": [
+          {
+            "url": "https://www.rise.sc/eventnews/detail/?cd=001539",
+            "quote": "二子玉川ライズ スケートガーデン スケート教室",
+            "checked_at": "2026-11-22",
+            "sha256": "cde26efe69ec65672ffa84d70ad8533a24424fa96828b5152366b8edf06c5e30",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-22にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.rise.sc/eventnews/detail/?cd=001539",
+            "quote": "■お父さんお母さんとお子さんが一緒に楽しめる教室",
+            "checked_at": "2026-11-22",
+            "sha256": "2b1ca178e874829d53f617ee287391248202e749f674d3f7d76d53c13ff7785d",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-22にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.rise.sc/eventnews/detail/?cd=001539",
+            "quote": "・参加資格：3歳以上のスケート未経験、初心者の方",
+            "checked_at": "2026-11-22",
+            "sha256": "086e24ec211312e0bb46179fbebbb5e088dfae0cfaed73d7944332d8989adb30",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-22にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-22",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  }
+]

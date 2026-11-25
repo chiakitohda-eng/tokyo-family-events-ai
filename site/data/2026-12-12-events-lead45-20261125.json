@@ -1,0 +1,996 @@
+[
+  {
+    "id": "verified-20261212-tsurumaki-dodge-2026",
+    "ward": "世田谷区",
+    "name": "弦巻児童館 ドッジボールDAY（12/12）",
+    "url": "https://www.city.setagaya.lg.jp/03063/31542.html",
+    "official_url": "https://www.city.setagaya.lg.jp/03063/31542.html",
+    "source": "https://www.city.setagaya.lg.jp/03063/31542.html",
+    "image": "https://www.city.setagaya.lg.jp/images/31542/dojibo-ru.jpg",
+    "period": "12/12(土)",
+    "date_start": "2026-12-12",
+    "date_end": "2026-12-12",
+    "time": "午後3時30分〜5時",
+    "venue": "弦巻区民センター中庭（雨天時はゆうぎ室、世田谷区）",
+    "price": "無料",
+    "description": "区民センターの中庭でみんなで楽しむドッジボール。初めての子も参加できる。",
+    "categories": [
+      "スポーツ",
+      "子ども"
+    ],
+    "indoor_outdoor": "屋内・屋外",
+    "reservation": {
+      "required": false,
+      "note": "申込不要。当日直接。"
+    },
+    "family_fit": {
+      "grade": "A",
+      "overall": "A",
+      "rubric_version": "family-fit-v2",
+      "reason": "12/12(土)開催。初めてでも参加できる屋外のドッジボールで、無料・申込不要。小学生から中高生が対象。",
+      "axes": {
+        "child_target": {
+          "grade": "A",
+          "reason": "対象は「小学1年生〜中高生世代」"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "内容：区民センターの中庭でみんなで楽しむドッジボール。初めての子も参加できる。"
+        },
+        "age_fit": {
+          "grade": "A",
+          "reason": "年齢の目安は小学1年生〜中高生世代"
+        },
+        "stay_flexibility": {
+          "grade": "unknown",
+          "reason": "途中の出入りや滞在時間の自由度は公式案内に明記がない"
+        },
+        "burden": {
+          "grade": "B",
+          "reason": "未就学児は対象外で雨天時は内容が変わる"
+        },
+        "cost": {
+          "grade": "A",
+          "reason": "公式ページで費用は無料"
+        },
+        "reservation": {
+          "grade": "A",
+          "reason": "事前申込は不要と確認できる"
+        },
+        "family_value": {
+          "grade": "A",
+          "reason": "無料で申込なしに体を動かせる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-25",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "child_program",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "無料で申込なしに体を動かせる"
+        ],
+        "limitations": [
+          "未就学児は対象外で雨天時は内容が変わる"
+        ],
+        "grade_comparison": "総合A（12/12(土)・弦巻児童館 ドッジボールDA）：無料で申込なしに体を動かせる。注意点は「未就学児は対象外で雨天時は内容が変わる」こと。",
+        "unsupported_axes": [
+          "stay_flexibility"
+        ],
+        "evidence": [
+          {
+            "url": "https://www.city.setagaya.lg.jp/03063/31542.html",
+            "quote": "2026年12月11日（金曜日）から2026年12月12日（土曜日）",
+            "checked_at": "2026-11-25",
+            "sha256": "607c73dfddf5a2dfaa6f1ab21523f7a8ba5bee3a37c2633d6349ee54dd3b4dc4",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-25にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.setagaya.lg.jp/03063/31542.html",
+            "quote": "ドッジボールが好きな人もはじめての人もみんなでたのしもう！",
+            "checked_at": "2026-11-25",
+            "sha256": "9dc4a8c72b2597ccf43d295badc3496bfeeef9e79ec58d514dfd2f23afeb3712",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-25にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.setagaya.lg.jp/03063/31542.html",
+            "quote": "対象小学生1年生から中高生世代",
+            "checked_at": "2026-11-25",
+            "sha256": "11757b68db899d091a6b94c894e5aacf84ad6d251a9c4d2e41fb61cb274e3692",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-25にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-25",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  },
+  {
+    "id": "verified-20261212-soshigaya-dodge-2026",
+    "ward": "世田谷区",
+    "name": "祖師谷児童館 そしがやスポーツ「ドッジボール」（12/12）",
+    "url": "https://www.city.setagaya.lg.jp/03080/37019.html",
+    "official_url": "https://www.city.setagaya.lg.jp/03080/37019.html",
+    "source": "https://www.city.setagaya.lg.jp/03080/37019.html",
+    "image": "",
+    "period": "12/12(土)",
+    "date_start": "2026-12-12",
+    "date_end": "2026-12-12",
+    "time": "午後4時〜5時",
+    "venue": "祖師谷児童館前ぞうさん広場（雨天時は遊戯室、世田谷区）",
+    "price": "無料",
+    "description": "児童館対抗大会の前に、選手と一緒に練習するドッジボールの時間。",
+    "categories": [
+      "スポーツ"
+    ],
+    "indoor_outdoor": "屋内・屋外",
+    "reservation": {
+      "required": false,
+      "note": "申込不要。直接来館。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "12/12(土)開催。無料で選手と一緒にドッジボールを練習できる。大会前の練習が目的で、時間は1時間。",
+      "axes": {
+        "child_target": {
+          "grade": "A",
+          "reason": "対象は「小学1年生〜中高生世代」"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "内容：児童館対抗大会の前に、選手と一緒に練習するドッジボールの時間。"
+        },
+        "age_fit": {
+          "grade": "A",
+          "reason": "年齢の目安は小学1年生〜中高生世代"
+        },
+        "stay_flexibility": {
+          "grade": "unknown",
+          "reason": "途中の出入りや滞在時間の自由度は公式案内に明記がない"
+        },
+        "burden": {
+          "grade": "B",
+          "reason": "大会前の練習の位置づけで1時間のみ"
+        },
+        "cost": {
+          "grade": "A",
+          "reason": "公式ページで費用は無料"
+        },
+        "reservation": {
+          "grade": "A",
+          "reason": "事前申込は不要と確認できる"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "申込なしで練習に加われる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-25",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "child_program",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "申込なしで練習に加われる"
+        ],
+        "limitations": [
+          "大会前の練習の位置づけで1時間のみ"
+        ],
+        "grade_comparison": "総合B（12/12(土)・祖師谷児童館 そしがやスポー）：申込なしで練習に加われる。注意点は「大会前の練習の位置づけで1時間のみ」こと。",
+        "unsupported_axes": [
+          "stay_flexibility"
+        ],
+        "evidence": [
+          {
+            "url": "https://www.city.setagaya.lg.jp/03080/37019.html",
+            "quote": "2026年12月9日（水曜日）から2026年12月12日（土曜日）",
+            "checked_at": "2026-11-25",
+            "sha256": "16648c1ee5d891188291492e528a0c4425bb3761e673810718b62733b2ebcc71",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-25にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.setagaya.lg.jp/03080/37019.html",
+            "quote": "対象小学1年生から中高生世代",
+            "checked_at": "2026-11-25",
+            "sha256": "3bd0a3d5785149024d79f56119181b56728906208ef4f9a63015000a4c294934",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-25にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.setagaya.lg.jp/03080/37019.html",
+            "quote": "選手のみんなといっしょにドッジボールをしよう！",
+            "checked_at": "2026-11-25",
+            "sha256": "f5c7f1d4f39000d356359d1150f42b9473df14e13102fabfb1f183b5e0a2d391",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-25にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-25",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  },
+  {
+    "id": "verified-20261212-todoroki-greenfriends-2026",
+    "ward": "世田谷区",
+    "name": "等々力児童館 グリーンフレンズ（花壇づくり、12/12）",
+    "url": "https://www.city.setagaya.lg.jp/03070/36784.html",
+    "official_url": "https://www.city.setagaya.lg.jp/03070/36784.html",
+    "source": "https://www.city.setagaya.lg.jp/03070/36784.html",
+    "image": "https://www.city.setagaya.lg.jp/images/36784/oshirase.png",
+    "period": "12/12(土)",
+    "date_start": "2026-12-12",
+    "date_end": "2026-12-12",
+    "time": "午後2時〜3時",
+    "venue": "等々力児童館脇の花壇（世田谷区）",
+    "price": "参加費の記載なし",
+    "description": "児童館脇の花壇に花を植えて育てる、誰でも参加できる活動。",
+    "categories": [
+      "自然",
+      "体験・ワークショップ"
+    ],
+    "indoor_outdoor": "屋外",
+    "reservation": {
+      "required": false,
+      "note": "申込不要。雨天中止。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "12/12(土)開催。乳幼児親子から誰でも花の世話に参加できる屋外活動。費用の記載はなく、雨天は中止。",
+      "axes": {
+        "child_target": {
+          "grade": "B",
+          "reason": "対象は「どなたでも（乳幼児は保護者同伴）」"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "内容：児童館脇の花壇に花を植えて育てる、誰でも参加できる活動。"
+        },
+        "age_fit": {
+          "grade": "B",
+          "reason": "年齢の目安はどなたでも（乳幼児は保護者同伴）"
+        },
+        "stay_flexibility": {
+          "grade": "unknown",
+          "reason": "途中の出入りや滞在時間の自由度は公式案内に明記がない"
+        },
+        "burden": {
+          "grade": "B",
+          "reason": "雨天中止で費用の記載がない"
+        },
+        "cost": {
+          "grade": "unknown",
+          "reason": "費用の記載が公式ページにない"
+        },
+        "reservation": {
+          "grade": "A",
+          "reason": "事前申込は不要と確認できる"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "花に触れながら親子で作業できる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-25",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "all_ages",
+        "child_activity_confirmed": false,
+        "strengths": [
+          "花に触れながら親子で作業できる"
+        ],
+        "limitations": [
+          "雨天中止で費用の記載がない"
+        ],
+        "grade_comparison": "総合B（12/12(土)・等々力児童館 グリーンフレン）：花に触れながら親子で作業できる。注意点は「雨天中止で費用の記載がない」こと。",
+        "unsupported_axes": [
+          "stay_flexibility",
+          "cost"
+        ],
+        "evidence": [
+          {
+            "url": "https://www.city.setagaya.lg.jp/03070/36784.html",
+            "quote": "児童館脇の花壇をお花でいっぱいにしよう",
+            "checked_at": "2026-11-25",
+            "sha256": "bf854cd965fe85f77ad9821ac7fd68f1271b53977a6f4ca4609412aaf92abf48",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-25にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.setagaya.lg.jp/03070/36784.html",
+            "quote": "日程2026年12月12日（土曜日）",
+            "checked_at": "2026-11-25",
+            "sha256": "5fff53120972315eaa225920579a47be3d8ff43d940a0bf61dccd2a2b0a242cb",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-25にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.setagaya.lg.jp/03070/36784.html",
+            "quote": "どなたでも(乳幼児さんは保護者と一緒に)",
+            "checked_at": "2026-11-25",
+            "sha256": "3e4544cf9a36a2f682b905d3ce9086785cfa59c9a08e64bfef66d6eedfab3b97",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-25にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-25",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  },
+  {
+    "id": "verified-20261212-soshigaya-xmas-concert-2026",
+    "ward": "世田谷区",
+    "name": "祖師谷児童館 ファミリーひろば「クリスマスコンサート」",
+    "url": "https://www.city.setagaya.lg.jp/03080/37087.html",
+    "official_url": "https://www.city.setagaya.lg.jp/03080/37087.html",
+    "source": "https://www.city.setagaya.lg.jp/03080/37087.html",
+    "image": "",
+    "period": "12/12(土)",
+    "date_start": "2026-12-12",
+    "date_end": "2026-12-12",
+    "time": "午前10時30分〜11時30分",
+    "venue": "祖師谷児童館遊戯室（世田谷区）",
+    "price": "無料",
+    "description": "歌や遊びを交えて親子で楽しむ乳幼児向けのクリスマスコンサート。",
+    "categories": [
+      "音楽",
+      "クリスマス"
+    ],
+    "indoor_outdoor": "屋内",
+    "reservation": {
+      "required": true,
+      "note": "11/28午前10時から申込。先着20組程度。"
+    },
+    "family_fit": {
+      "grade": "A",
+      "overall": "A",
+      "rubric_version": "family-fit-v2",
+      "reason": "12/12(土)開催。未就学児親子向けに歌と遊びのあるコンサートを無料で開く。先着20組程度で申込が必要。",
+      "axes": {
+        "child_target": {
+          "grade": "A",
+          "reason": "対象は「就学前の乳幼児とその保護者」"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "内容：歌や遊びを交えて親子で楽しむ乳幼児向けのクリスマスコンサート。"
+        },
+        "age_fit": {
+          "grade": "A",
+          "reason": "年齢の目安は就学前の乳幼児とその保護者"
+        },
+        "stay_flexibility": {
+          "grade": "unknown",
+          "reason": "途中の出入りや滞在時間の自由度は公式案内に明記がない"
+        },
+        "burden": {
+          "grade": "B",
+          "reason": "先着20組程度で申込が必要"
+        },
+        "cost": {
+          "grade": "A",
+          "reason": "公式ページで費用は無料"
+        },
+        "reservation": {
+          "grade": "B",
+          "reason": "事前の申込や整理券が必要"
+        },
+        "family_value": {
+          "grade": "A",
+          "reason": "乳幼児が参加して楽しめる演奏"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-25",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "child_program",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "乳幼児が参加して楽しめる演奏"
+        ],
+        "limitations": [
+          "先着20組程度で申込が必要"
+        ],
+        "grade_comparison": "総合A（12/12(土)・祖師谷児童館 ファミリーひろ）：乳幼児が参加して楽しめる演奏。注意点は「先着20組程度で申込が必要」こと。",
+        "unsupported_axes": [
+          "stay_flexibility"
+        ],
+        "evidence": [
+          {
+            "url": "https://www.city.setagaya.lg.jp/03080/37087.html",
+            "quote": "日程2026年12月12日（土曜日）",
+            "checked_at": "2026-11-25",
+            "sha256": "5fff53120972315eaa225920579a47be3d8ff43d940a0bf61dccd2a2b0a242cb",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-25にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.setagaya.lg.jp/03080/37087.html",
+            "quote": "対象就学前の乳幼児とその保護者：先着20組程度",
+            "checked_at": "2026-11-25",
+            "sha256": "50c351b7245be082fa33fe6197559a6eaf609bcf2aa5bcf3c50388ab5a7a8fd1",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-25にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.setagaya.lg.jp/03080/37087.html",
+            "quote": "歌や遊びなど家族みんなで楽しめます。",
+            "checked_at": "2026-11-25",
+            "sha256": "568161d485247d88cd737c83c709065a43347b6f3dd2cabab19162e3d74e5ab6",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-25にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-25",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  },
+  {
+    "id": "verified-20261212-greensprings-bbq-2026",
+    "ward": "立川市",
+    "name": "TOKYO AMERICAN BBQ EXPERIENCE（GREEN SPRINGS）",
+    "url": "https://greensprings.jp/event/11055/",
+    "official_url": "https://greensprings.jp/event/11055/",
+    "source": "https://greensprings.jp/event/11055/",
+    "image": "https://greensprings.jp/wp/wp-content/uploads/2026/11/kaneko.png",
+    "period": "12/12(土)〜12/13(日)",
+    "date_start": "2026-12-12",
+    "date_end": "2026-12-13",
+    "time": "12日11時〜19時、13日11時〜17時",
+    "venue": "GREEN SPRINGS パブリックスクエア（立川市緑町3-1）",
+    "price": "参加費の記載なし",
+    "description": "全国のアメリカンBBQの店が集まる屋外の食の催し。",
+    "categories": [
+      "食",
+      "地域イベント"
+    ],
+    "indoor_outdoor": "屋外",
+    "reservation": {
+      "required": null,
+      "note": "申込の記載なし。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "12/12(土)開催。開放的な広場で家族と本格BBQを食べ比べられる。飲食が中心で子ども向けの企画や料金の記載はない。",
+      "axes": {
+        "child_target": {
+          "grade": "B",
+          "reason": "対象は「ご家族・ご友人向け（年齢指定なし）」"
+        },
+        "interactivity": {
+          "grade": "C",
+          "reason": "内容：全国のアメリカンBBQの店が集まる屋外の食の催し。"
+        },
+        "age_fit": {
+          "grade": "B",
+          "reason": "年齢の目安はご家族・ご友人向け（年齢指定なし）"
+        },
+        "stay_flexibility": {
+          "grade": "unknown",
+          "reason": "途中の出入りや滞在時間の自由度は公式案内に明記がない"
+        },
+        "burden": {
+          "grade": "B",
+          "reason": "料金と子ども向け企画の記載がない"
+        },
+        "cost": {
+          "grade": "unknown",
+          "reason": "費用の記載が公式ページにない"
+        },
+        "reservation": {
+          "grade": "unknown",
+          "reason": "申込の要否が公式ページにない"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "屋外の広場で家族と食事を楽しめる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-25",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "unspecified",
+        "child_activity_confirmed": false,
+        "strengths": [
+          "屋外の広場で家族と食事を楽しめる"
+        ],
+        "limitations": [
+          "料金と子ども向け企画の記載がない"
+        ],
+        "grade_comparison": "総合B（12/12(土)・TOKYO AMERICAN）：屋外の広場で家族と食事を楽しめる。注意点は「料金と子ども向け企画の記載がない」こと。",
+        "unsupported_axes": [
+          "stay_flexibility",
+          "cost",
+          "reservation"
+        ],
+        "evidence": [
+          {
+            "url": "https://greensprings.jp/event/11055/",
+            "quote": "2026年12月12日（土）11:00〜19:00、13日（日）11:00〜17:00",
+            "checked_at": "2026-11-25",
+            "sha256": "a59e3c35daa077acf7112790deafad111dcc5c4805c91d0f10f1e94a61f8f45e",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-25にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://greensprings.jp/event/11055/",
+            "quote": "ご家族やご友人とともに、本場アメリカのBBQカルチャーを体感する特別な2日間をお楽しみください！",
+            "checked_at": "2026-11-25",
+            "sha256": "da49926d7888c692f47a9662f6e6dcf21d93cd873a4daf3c6f6a502b15170392",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-25にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-25",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  },
+  {
+    "id": "verified-20261212-showakinen-wreath-2026",
+    "ward": "立川市",
+    "name": "親子deワークショップ「クリスマスのリース」（国営昭和記念公園）",
+    "url": "https://www.showakinen-koen.jp/event/77216/",
+    "official_url": "https://www.showakinen-koen.jp/event/77216/",
+    "source": "https://www.showakinen-koen.jp/event/77216/",
+    "image": "https://www.showakinen-koen.jp/wp-content/uploads/2026/11/bfd95e58-0f8e-434c-8326-bca16112e8b0.jpg",
+    "period": "12/12(土)",
+    "date_start": "2026-12-12",
+    "date_end": "2026-12-12",
+    "time": "午前の部10時30分〜12時／午後の部13時30分〜15時",
+    "venue": "国営昭和記念公園 花みどり文化センター研修室（立川市）",
+    "price": "各回2,500円（2人1組）",
+    "description": "園内の植物を使い、親子でクリスマスのリースを作る講座。",
+    "categories": [
+      "工作",
+      "クリスマス"
+    ],
+    "indoor_outdoor": "屋内",
+    "reservation": {
+      "required": true,
+      "note": "Web申込・先着順（12/7まで）。各回10組。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "12/12(土)開催。親子で園の植物を学びながらリースを作れる。1組2,500円で定員があり、12/7までの申込が必要。",
+      "axes": {
+        "child_target": {
+          "grade": "A",
+          "reason": "対象は「中学生までの子どもと大人の2人1組」"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "内容：園内の植物を使い、親子でクリスマスのリースを作る講座。"
+        },
+        "age_fit": {
+          "grade": "A",
+          "reason": "年齢の目安は中学生までの子どもと大人の2人1組"
+        },
+        "stay_flexibility": {
+          "grade": "unknown",
+          "reason": "途中の出入りや滞在時間の自由度は公式案内に明記がない"
+        },
+        "burden": {
+          "grade": "B",
+          "reason": "参加費と定員があり12/7までの申込が必要"
+        },
+        "cost": {
+          "grade": "B",
+          "reason": "1組2,500円の材料込み参加費"
+        },
+        "reservation": {
+          "grade": "B",
+          "reason": "事前の申込や整理券が必要"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "本物の枝を使う親子の制作"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-25",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "child_program",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "本物の枝を使う親子の制作"
+        ],
+        "limitations": [
+          "参加費と定員があり12/7までの申込が必要"
+        ],
+        "grade_comparison": "総合B（12/12(土)・親子deワークショップ「クリ）：本物の枝を使う親子の制作。注意点は「参加費と定員があり12/7までの申込が必要」こと。",
+        "unsupported_axes": [
+          "stay_flexibility"
+        ],
+        "evidence": [
+          {
+            "url": "https://www.showakinen-koen.jp/event/77216/",
+            "quote": "親子で参加するみどりや自然素材にふれられるワークショップです。",
+            "checked_at": "2026-11-25",
+            "sha256": "b68dafac6de64d9426969d30a4a3c32fac3aeb715addc175dcc5542eaaa8fb6a",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-25にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.showakinen-koen.jp/event/77216/",
+            "quote": "定員各回10組（2人1組）",
+            "checked_at": "2026-11-25",
+            "sha256": "a4961ce18c9bb82e583ddd81ef99bb09aa8451633125fa31eb313e8c3eb6205f",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-25にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.showakinen-koen.jp/event/77216/",
+            "quote": "受付期間：12月7日(月)まで。",
+            "checked_at": "2026-11-25",
+            "sha256": "1b7f771e11de7ad1311e0f1f691180e37b73e1a47971e427f25b1146775a4c22",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-25にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.showakinen-koen.jp/event/77216/",
+            "quote": "12月12日(土)クリスマスのリース",
+            "checked_at": "2026-11-25",
+            "sha256": "4839568b1fbf0a96f9f79d8407deb6c2ddcf1ccdd19d84ba36fbb99266ffa4cf",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-25にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-25",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  },
+  {
+    "id": "verified-20261213-shoin-michiasobi-2026",
+    "ward": "世田谷区",
+    "name": "みちあそび（松陰神社通り商店街）",
+    "url": "https://www.city.setagaya.lg.jp/03063/37132.html",
+    "official_url": "https://www.city.setagaya.lg.jp/03063/37132.html",
+    "source": "https://www.city.setagaya.lg.jp/03063/37132.html",
+    "image": "",
+    "period": "12/13(日)",
+    "date_start": "2026-12-13",
+    "date_end": "2026-12-13",
+    "time": "時間の記載なし（公式ページで確認）",
+    "venue": "松陰神社通り商店街とその近隣（世田谷区）",
+    "price": "無料",
+    "description": "商店街の道でみんなで遊ぶ催し。弦巻児童館は駒回しなどで参加する。",
+    "categories": [
+      "地域イベント",
+      "子ども"
+    ],
+    "indoor_outdoor": "屋外",
+    "reservation": {
+      "required": false,
+      "note": "申込不要。直接来場。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "12/13(日)開催。商店街で駒回しなどの遊びに無料で参加できる。開催全体の時間は記載がなく、対象年齢の指定もない。",
+      "axes": {
+        "child_target": {
+          "grade": "B",
+          "reason": "対象は「対象の記載なし（児童館が参加）」"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "内容：商店街の道でみんなで遊ぶ催し。弦巻児童館は駒回しなどで参加する。"
+        },
+        "age_fit": {
+          "grade": "B",
+          "reason": "対象年齢の指定は公式ページにない"
+        },
+        "stay_flexibility": {
+          "grade": "unknown",
+          "reason": "途中の出入りや滞在時間の自由度は公式案内に明記がない"
+        },
+        "burden": {
+          "grade": "B",
+          "reason": "全体の開催時間と対象の記載がない"
+        },
+        "cost": {
+          "grade": "A",
+          "reason": "公式ページで費用は無料"
+        },
+        "reservation": {
+          "grade": "A",
+          "reason": "事前申込は不要と確認できる"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "無料で道遊びや駒回しができる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-25",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "unspecified",
+        "child_activity_confirmed": false,
+        "strengths": [
+          "無料で道遊びや駒回しができる"
+        ],
+        "limitations": [
+          "全体の開催時間と対象の記載がない"
+        ],
+        "grade_comparison": "総合B（12/13(日)・みちあそび（松陰神社通り商店）：無料で道遊びや駒回しができる。注意点は「全体の開催時間と対象の記載がない」こと。",
+        "unsupported_axes": [
+          "stay_flexibility"
+        ],
+        "evidence": [
+          {
+            "url": "https://www.city.setagaya.lg.jp/03063/37132.html",
+            "quote": "商店街でみんなであそぼう！",
+            "checked_at": "2026-11-25",
+            "sha256": "c11dab7a79b5b043c2b3b5c71e483e1009381c77b1ff111958d0042842753cf0",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-25にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.setagaya.lg.jp/03063/37132.html",
+            "quote": "日程2026年12月13日（日曜日）",
+            "checked_at": "2026-11-25",
+            "sha256": "efdcf670e0b5db07b3015a48aa4b1f274022fbb0c038ab978e6f7f7ec1d55c7c",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-25にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.setagaya.lg.jp/03063/37132.html",
+            "quote": "弦巻児童館は正午からごご3じに駒回しなどで参加します！",
+            "checked_at": "2026-11-25",
+            "sha256": "cbb96ca4ad7810b02e635d307011c6f2cd6dc54d1caeaac43b33835467624403",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-25にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-25",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  },
+  {
+    "id": "verified-20261213-kiyose-matsubokkuri-2026",
+    "ward": "清瀬市",
+    "name": "【工作おはなし会】まつぼっくりツリーをつくろう！（竹丘地域市民センター）",
+    "url": "https://www.city.kiyose.lg.jp/bunkasportskankou/bunka/toshokan/1016809.html",
+    "official_url": "https://www.city.kiyose.lg.jp/bunkasportskankou/bunka/toshokan/1016809.html",
+    "source": "https://www.city.kiyose.lg.jp/bunkasportskankou/bunka/toshokan/1016809.html",
+    "image": "https://www.city.kiyose.lg.jp/_res/projects/default_project/_page_/001/016/809/libimg1795404687.jpg",
+    "period": "12/13(日)",
+    "date_start": "2026-12-13",
+    "date_end": "2026-12-13",
+    "time": "午前10時30分〜11時30分",
+    "venue": "竹丘地域市民センター 第2会議室（清瀬市）",
+    "price": "参加費不要",
+    "description": "まつぼっくりをビーズや羊毛で飾り、小さなツリーを作る図書館の工作会。",
+    "categories": [
+      "工作",
+      "おはなし会"
+    ],
+    "indoor_outdoor": "屋内",
+    "reservation": {
+      "required": false,
+      "note": "申込不要。募集15名。"
+    },
+    "family_fit": {
+      "grade": "A",
+      "overall": "A",
+      "rubric_version": "family-fit-v2",
+      "reason": "12/13(日)開催。2歳から小学生が無料・申込不要で季節の工作を楽しめる。募集は15名。",
+      "axes": {
+        "child_target": {
+          "grade": "A",
+          "reason": "対象は「2歳〜小学生（未就学児は保護者同伴）」"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "内容：まつぼっくりをビーズや羊毛で飾り、小さなツリーを作る図書館の工作会。"
+        },
+        "age_fit": {
+          "grade": "A",
+          "reason": "年齢の目安は2歳〜小学生（未就学児は保護者同伴）"
+        },
+        "stay_flexibility": {
+          "grade": "unknown",
+          "reason": "途中の出入りや滞在時間の自由度は公式案内に明記がない"
+        },
+        "burden": {
+          "grade": "B",
+          "reason": "募集15名で定員がある"
+        },
+        "cost": {
+          "grade": "A",
+          "reason": "費用は不要と公式ページに記載"
+        },
+        "reservation": {
+          "grade": "A",
+          "reason": "事前申込は不要と確認できる"
+        },
+        "family_value": {
+          "grade": "A",
+          "reason": "無料・申込不要の親子工作"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-25",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "child_program",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "無料・申込不要の親子工作"
+        ],
+        "limitations": [
+          "募集15名で定員がある"
+        ],
+        "grade_comparison": "総合A（12/13(日)・【工作おはなし会】まつぼっく）：無料・申込不要の親子工作。注意点は「募集15名で定員がある」こと。",
+        "unsupported_axes": [
+          "stay_flexibility"
+        ],
+        "evidence": [
+          {
+            "url": "https://www.city.kiyose.lg.jp/bunkasportskankou/bunka/toshokan/1016809.html",
+            "quote": "まつぼっくりをビーズや羊毛フェルトでかざり、手のひらサイズの小さなツリーを作ります！",
+            "checked_at": "2026-11-25",
+            "sha256": "6a799c175c85b129753668d89140c13f2ed646932a638417cea6cbc10dcb2dc6",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-25にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.kiyose.lg.jp/bunkasportskankou/bunka/toshokan/1016809.html",
+            "quote": "（2才～小学生。未就学児は保護者同伴）",
+            "checked_at": "2026-11-25",
+            "sha256": "16ec21f50db94aadeb3c5d685f8cc103bb6aa18ce7b6abcf1432e441ff127ce5",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-25にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.kiyose.lg.jp/bunkasportskankou/bunka/toshokan/1016809.html",
+            "quote": "申込みは不要ですので、お気軽にご参加ください。",
+            "checked_at": "2026-11-25",
+            "sha256": "2575f46ee99f9cd5a7d2a3f8808ef09c89a075b6c9ff8f07acb42fc751cf7a7c",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-25にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-25",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  }
+]

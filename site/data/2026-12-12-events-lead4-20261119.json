@@ -1,0 +1,142 @@
+[
+  {
+    "id": "verified-20261213-suginami-motoamanuma-noel",
+    "ward": "杉並区",
+    "name": "コミふら本天沼ノエルフェスティバル",
+    "url": "https://www.city.suginami.tokyo.jp/s022/event/28941.html",
+    "official_url": "https://www.city.suginami.tokyo.jp/s022/event/28941.html",
+    "source": "https://www.city.suginami.tokyo.jp/s022/event/28941.html",
+    "image": "",
+    "period": "12/13(日)",
+    "date_start": "2026-12-13",
+    "date_end": "2026-12-13",
+    "time": "10:00〜14:00",
+    "venue": "コミュニティふらっと本天沼（杉並区本天沼2丁目12番10号）",
+    "price": "一部有料",
+    "description": "クリスマス音楽イベント、オーナメント作りなどのワークショップ、縁日・屋台がある冬のクリスマスイベント。子どもから大人まで参加でき、ワークショップのみ事前申込制。",
+    "categories": [
+      "体験・ワークショップ",
+      "音楽・ステージ"
+    ],
+    "indoor_outdoor": "屋内",
+    "reservation": {
+      "required": null,
+      "note": "当日直接会場へ。ワークショップのみ事前申込制。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "オーナメント作りのワークショップや縁日・屋台がある、子どもから大人まで楽しめるクリスマスイベント。一部有料で、ワークショップのみ事前申込制。",
+      "axes": {
+        "child_target": {
+          "grade": "B",
+          "reason": "子どもから大人まで楽しめると案内されている"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "オーナメント作りなどのワークショップや縁日の参加型"
+        },
+        "age_fit": {
+          "grade": "B",
+          "reason": "子どもから大人までと案内。細かな年齢条件は明記がない"
+        },
+        "stay_flexibility": {
+          "grade": "A",
+          "reason": "10時〜14時の間、好きな時間に回れる"
+        },
+        "burden": {
+          "grade": "B",
+          "reason": "ワークショップは事前申込制"
+        },
+        "cost": {
+          "grade": "B",
+          "reason": "一部有料"
+        },
+        "reservation": {
+          "grade": "B",
+          "reason": "ワークショップのみ事前申込制。それ以外は当日直接会場へ"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "クリスマスの縁日とワークショップを家族で楽しめる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-19",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "all_ages",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "オーナメント作りと縁日・屋台",
+          "当日直接行ける"
+        ],
+        "limitations": [
+          "一部有料",
+          "ワークショップは事前申込制"
+        ],
+        "grade_comparison": "総合B：参加型で気軽に行けるが、ワークショップは事前申込制で一部有料。",
+        "unsupported_axes": [],
+        "evidence": [
+          {
+            "url": "https://www.city.suginami.tokyo.jp/s022/event/28941.html",
+            "quote": "開催日2026年12月13日（日曜日）開催時間午前10時から午後2時まで",
+            "checked_at": "2026-11-19",
+            "sha256": "36327d6ce886ad199f4ec84de4867d8c9dedc980fa4e8872ec8bd3a1ddf52b41",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "杉並区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.suginami.tokyo.jp/s022/event/28941.html",
+            "quote": "開催場所コミュニティふらっと本天沼杉並区本天沼2丁目12番10号",
+            "checked_at": "2026-11-19",
+            "sha256": "c51294d8ce339cdabcec5afda1c4dfe7778dbb423f37449907cd65cbe14321a5",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "杉並区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.suginami.tokyo.jp/s022/event/28941.html",
+            "quote": "クリスマス音楽イベントをはじめ、オーナメント作りなどのワークショップなど",
+            "checked_at": "2026-11-19",
+            "sha256": "705d9ea1776ae537f61dc4319537195febc9770c186d7d53ac4e0aba1a75cc90",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "杉並区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.suginami.tokyo.jp/s022/event/28941.html",
+            "quote": "縁日や屋台もクリスマス一色で充実。子どもから大人まで一日中楽しめます。",
+            "checked_at": "2026-11-19",
+            "sha256": "8c98fb04ff8d163eacfc4cf18b7b25d4d70cf1456289daff089048f1d30e4b33",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "杉並区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.suginami.tokyo.jp/s022/event/28941.html",
+            "quote": "申し込み当日直接会場へお越しください。ワークショップのみ事前申込制です。",
+            "checked_at": "2026-11-19",
+            "sha256": "d6f9f55eefbb1b6facab65dd8da011d31fc6a7abcdfd939c887a29fc865f33ac",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "杉並区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-19",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  }
+]

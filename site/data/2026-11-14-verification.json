@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "verified_on": "2026-10-20",
+  "verified_on": "2026-11-08",
   "events": [
     {
       "id": "v15-ad2f72f74ab7",
@@ -17,7 +17,14 @@
         "official_url": "pass"
       },
       "corrections": {},
-      "note": "v1.5完全再探索で公式・主催者等の根拠と開催情報を再突合。"
+      "note": "v1.5完全再探索で公式・主催者等の根拠と開催情報を再突合。",
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "A",
+        "to": "A",
+        "reason": "白黒や少ない色で描かれた絵本を見比べ、親子が色と物語の表現を発見できる。 触って作る体験は未記載。祝日も休館で、関連講演会の中学生以上条件を展示の条件に流用しない。",
+        "source": "https://www.kodomo.go.jp/event/exhibition/tenji2026-02"
+      }
     },
     {
       "id": "v15-807d5cac25fd",
@@ -34,7 +41,14 @@
         "official_url": "pass"
       },
       "corrections": {},
-      "note": "v1.5完全再探索で公式・主催者等の根拠と開催情報を再突合。"
+      "note": "v1.5完全再探索で公式・主催者等の根拠と開催情報を再突合。",
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "A",
+        "to": "C",
+        "reason": "絵本や美術に関心のある中学生以上が、モノクローム表現の専門的な解説を学べる。 主に中学生以上を対象とする2時間の講演で、幼児・小学生向けではない。公式の申込受付は終了している。",
+        "source": "https://www.kodomo.go.jp/event/exhibition/tenji2026-02"
+      }
     },
     {
       "id": "v15-a5b2a88d2c98",
@@ -51,13 +65,20 @@
         "official_url": "pass"
       },
       "corrections": {},
-      "note": "v1.5完全再探索で公式・主催者等の根拠と開催情報を再突合。"
+      "note": "v1.5完全再探索で公式・主催者等の根拠と開催情報を再突合。",
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "A",
+        "to": "A",
+        "reason": "0〜18歳を対象に、工作・音楽・アートから子どもが自分の好きな文化を選んで体験できる。 個別プログラムは対象や受付終了時刻が異なり、一部有料。授乳・おむつ替え・ベビーカー置場が用意される。",
+        "source": "https://tokyo-culture-debut.rekibun.or.jp/park/"
+      }
     },
     {
       "id": "v15-dbcd6b0db9e1",
-      "status": "announced",
-      "source": "https://tokyo-kodomo-hp.metro.tokyo.lg.jp/event/",
-      "source_kind": "public_official",
+      "status": "verified",
+      "source": "https://www.kouwan.metro.tokyo.lg.jp/kanko/park/uminomori/akinoumonomori2026",
+      "source_kind": "official",
       "fields": {
         "name": "pass",
         "date": "pass",
@@ -68,13 +89,20 @@
         "official_url": "pass"
       },
       "corrections": {},
-      "note": "v1.5完全再探索で公式・主催者等の根拠と開催情報を再突合。"
+      "note": "2026-11-08 full-tier recheck: current official/organizer page reconfirmed date, venue and participation basis.",
+      "assessment_review": {
+        "reviewed_on": "2026-11-15",
+        "from": "A",
+        "to": "A",
+        "reason": "動物とのふれあい、スポーツ・ふわふわ遊具・工作や自然探索を親子で選べる。 申込不要の無料企画と、別枠の事前申込制の森林体験は区別。屋外で天候や混雑に配慮。",
+        "source": "https://www.kouwan.metro.tokyo.lg.jp/kanko/park/uminomori/akinoumonomori2026"
+      }
     },
     {
       "id": "v15-bf81ae6846bf",
-      "status": "announced",
-      "source": "https://tokyo-kodomo-hp.metro.tokyo.lg.jp/event/",
-      "source_kind": "public_official",
+      "status": "verified",
+      "source": "https://www.metro.tokyo.lg.jp/information/press/2026/09/2026091515",
+      "source_kind": "official",
       "fields": {
         "name": "pass",
         "date": "pass",
@@ -85,7 +113,14 @@
         "official_url": "pass"
       },
       "corrections": {},
-      "note": "v1.5完全再探索で公式・主催者等の根拠と開催情報を再突合。"
+      "note": "2026-11-08 full-tier recheck: current official/organizer page reconfirmed date, venue and participation basis.",
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "A",
+        "to": "A",
+        "reason": "家族で身体を動かし、アウトドア道具を使いながら日常に役立つ防災を体験できる。 屋外のため天候や防寒に配慮。個別体験の対象・費用・受付条件は詳細案内の確認が必要。",
+        "source": "https://tokyo-kodomo-hp.metro.tokyo.lg.jp/event/"
+      }
     },
     {
       "id": "v15-649ee1f437c7",
@@ -102,7 +137,14 @@
         "official_url": "pass"
       },
       "corrections": {},
-      "note": "v1.5完全再探索で公式・主催者等の根拠と開催情報を再突合。"
+      "note": "v1.5完全再探索で公式・主催者等の根拠と開催情報を再突合。",
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "A",
+        "to": "A",
+        "reason": "子ども向けワークショップと地域の子育て情報があり、親子で遊びと交流を選べる。 一部有料・予約制のワークショップがある。11/14と11/21では会場が違うため混同しない。",
+        "source": "https://www2.city.katsushika.lg.jp/kosodate/1000056/1023387/1031282.html"
+      }
     },
     {
       "id": "v15-ad038b9864ee",
@@ -119,7 +161,14 @@
         "official_url": "pass"
       },
       "corrections": {},
-      "note": "v1.5完全再探索で公式・主催者等の根拠と開催情報を再突合。"
+      "note": "v1.5完全再探索で公式・主催者等の根拠と開催情報を再突合。",
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "B",
+        "to": "B",
+        "reason": "30分の花火を家族で鑑賞し、平和や地域の節目について話す機会になる。 河川敷の夕方で防寒・帰路の混雑と大きな音に配慮が必要。子ども向けの実技体験ではない。",
+        "source": "https://www.city.ota.tokyo.jp/kanko/topics/heiwakinenhanabi.html"
+      }
     },
     {
       "id": "v15-7b30b706f728",
@@ -136,7 +185,14 @@
         "official_url": "pass"
       },
       "corrections": {},
-      "note": "v1.5完全再探索で公式・主催者等の根拠と開催情報を再突合。"
+      "note": "v1.5完全再探索で公式・主催者等の根拠と開催情報を再突合。",
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "A",
+        "to": "B",
+        "reason": "紙芝居の原画や台本を親子で見比べ、地域と物語の歴史を学べる無料展示。 子ども向け上演や制作とは別の資料展示。歴史解説を読むには保護者の手助けが必要な場合がある。",
+        "source": "https://www.city.toshima.lg.jp/129/2609101123.html"
+      }
     },
     {
       "id": "v15-2d67ff511d00",
@@ -153,13 +209,20 @@
         "official_url": "pass"
       },
       "corrections": {},
-      "note": "v1.5完全再探索で公式・主催者等の根拠と開催情報を再突合。"
+      "note": "v1.5完全再探索で公式・主催者等の根拠と開催情報を再突合。",
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "B",
+        "to": "A",
+        "reason": "親子向けの4コママンガ制作や試し読みで、物語を楽しみながら子育てについて話し合える。 展示の一部は子育て支援・保護者向け解説。乳幼児専用の制作内容や混雑は未記載。",
+        "source": "https://www.city.toshima.lg.jp/467/2607241454.html"
+      }
     },
     {
       "id": "v15-43179f997df8",
-      "status": "announced",
-      "source": "https://www.neribun.or.jp/event/museum.cgi?genre=2026",
-      "source_kind": "organizer_official",
+      "status": "verified",
+      "source": "https://www.neribun.or.jp/event/detail_m.cgi?id=202608151786784919",
+      "source_kind": "official",
       "fields": {
         "name": "pass",
         "date": "pass",
@@ -170,13 +233,20 @@
         "official_url": "pass"
       },
       "corrections": {},
-      "note": "v1.5完全再探索で公式・主催者等の根拠と開催情報を再突合。"
+      "note": "2026-11-08 full-tier recheck: current official/organizer page reconfirmed date, venue and participation basis.",
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "C",
+        "to": "B",
+        "reason": "絵や表現の変身を見比べ、親子で想像や作品の物語を話し合う鑑賞の機会。 怪物・仮面・戦争の記憶に関わる表現を含み、怖さへの感じ方や解説への理解に配慮したい。子ども専用の制作企画ではない。",
+        "source": "https://www.neribun.or.jp/event/detail_m.cgi?id=202608151786784919"
+      }
     },
     {
       "id": "v15-974166027816",
-      "status": "announced",
-      "source": "https://sumida-artfest.jp",
-      "source_kind": "organizer_official",
+      "status": "verified",
+      "source": "https://sumida-artfest.jp/",
+      "source_kind": "official",
       "fields": {
         "name": "pass",
         "date": "pass",
@@ -189,7 +259,14 @@
         "official_url": "pass"
       },
       "corrections": {},
-      "note": "v1.5完全再探索で公式・主催者等の根拠と開催情報を再突合。"
+      "note": "2026-11-08 full-tier recheck: current official/organizer page reconfirmed date, venue and participation basis.",
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "B",
+        "to": "B",
+        "reason": "古民家・商店街・ギャラリーなど街全体の表現を選んで巡り、家族で地域の文化を発見できる。 費用・予約・対象・会場はプログラムごとに異なる。催事全体を無料や全日開催の体験とは扱わない。",
+        "source": "https://sumida-artfest.jp"
+      }
     },
     {
       "id": "v15-76d7806297bb",
@@ -208,7 +285,14 @@
         "official_url": "pass"
       },
       "corrections": {},
-      "note": "v1.5完全再探索で公式・主催者等の根拠と開催情報を再突合。"
+      "note": "v1.5完全再探索で公式・主催者等の根拠と開催情報を再突合。",
+      "assessment_review": {
+        "reviewed_on": "2026-11-15",
+        "from": "B",
+        "to": "B",
+        "reason": "青森の食・物産と三味線・民謡民舞・ねぶた囃子を親子で見比べて地域文化に触れられる。 一般向けの物産・舞台企画で、子ども専用の体験は未確認。食品等の購入費と混雑を見込む。",
+        "source": "https://www.town.tsuruta.lg.jp/event/2026aomoribito.html"
+      }
     },
     {
       "id": "v15-d489193d95be",
@@ -227,7 +311,14 @@
         "official_url": "pass"
       },
       "corrections": {},
-      "note": "v1.5完全再探索で公式・主催者等の根拠と開催情報を再突合。"
+      "note": "v1.5完全再探索で公式・主催者等の根拠と開催情報を再突合。",
+      "assessment_review": {
+        "reviewed_on": "2026-11-15",
+        "from": "B",
+        "to": "B",
+        "reason": "昼間の80分の屋外音楽公演を、音楽に関心のある親子が鑑賞する選択肢になる。 子ども専用の公演ではない。一般無料でも別途1ドリンクが必要で金額・未成年条件は未確認。音量・混雑に配慮。",
+        "source": "https://kirafore-fc.bitfan.id/contents/459046"
+      }
     },
     {
       "id": "v15-8bc88232815c",
@@ -246,7 +337,14 @@
         "official_url": "pass"
       },
       "corrections": {},
-      "note": "v1.5完全再探索で公式・主催者等の根拠と開催情報を再突合。"
+      "note": "v1.5完全再探索で公式・主催者等の根拠と開催情報を再突合。",
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "B",
+        "to": "B",
+        "reason": "ツリーの色と音楽、広場の光の変化を短い立ち寄りでも家族で楽しめる。 夕方以降で防寒と混雑への配慮が必要。エリアごとに開催期間が異なり、子ども専用の制作体験はない。",
+        "source": "https://www.hibiya.tokyo-midtown.com/jp/event/7587/"
+      }
     },
     {
       "id": "v15-960da7fa214c",
@@ -265,7 +363,14 @@
         "official_url": "pass"
       },
       "corrections": {},
-      "note": "v1.5完全再探索で公式・主催者等の根拠と開催情報を再突合。"
+      "note": "v1.5完全再探索で公式・主催者等の根拠と開催情報を再突合。",
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "B",
+        "to": "B",
+        "reason": "公園の風景と現代アートを見比べ、親子で普段と違う景色を発見できる。 個別の参加型プログラムは実施日指定・数量限定。すべての日に同じ体験ができるとは扱わない。",
+        "source": "https://www.tokyo-park.or.jp/special/flowerandlight/hibiya2026autumn/index.html"
+      }
     },
     {
       "id": "v15-e8ca460c237c",
@@ -284,7 +389,14 @@
         "official_url": "pass"
       },
       "corrections": {},
-      "note": "v1.5完全再探索で公式・主催者等の根拠と開催情報を再突合。"
+      "note": "v1.5完全再探索で公式・主催者等の根拠と開催情報を再突合。",
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "B",
+        "to": "B",
+        "reason": "アカペラと学生の吹奏楽を、親子で立ち寄りながら鑑賞できる音楽祭。 学生が出演することと子ども向けの公演は別。屋外の音量・防寒・混雑と演目ごとの時間に配慮したい。",
+        "source": "https://globalring-music.com/"
+      }
     },
     {
       "id": "v15-5e0e43c28e84",
@@ -303,7 +415,14 @@
         "official_url": "pass"
       },
       "corrections": {},
-      "note": "v1.5完全再探索で公式・主催者等の根拠と開催情報を再突合。"
+      "note": "v1.5完全再探索で公式・主催者等の根拠と開催情報を再突合。",
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "A",
+        "to": "B",
+        "reason": "17の光のゾーンを歩いて巡り、家族で自然と光・音の演出を共有できる。 夜の約1.8kmの散策で防寒と歩行負担がある。有料の日時指定入場で、未就学児無料だけでは子連れ向け3つ星とは判断しない。",
+        "source": "https://www.yoyogiforestoflights.tokyo/"
+      }
     },
     {
       "id": "v15-ddf5454b98f8",
@@ -322,7 +441,14 @@
         "official_url": "pass"
       },
       "corrections": {},
-      "note": "v1.5完全再探索で公式・主催者等の根拠と開催情報を再突合。"
+      "note": "v1.5完全再探索で公式・主催者等の根拠と開催情報を再突合。",
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "B",
+        "to": "B",
+        "reason": "スペインの料理や舞踊・音楽を選び、親子で異文化を楽しめる。 主な内容は飲食とステージで購入費は別途。子ども専用の体験や混雑・休憩条件は個別確認が必要。",
+        "source": "https://spainfes.com"
+      }
     },
     {
       "id": "v15-82e894d92f20",
@@ -341,7 +467,14 @@
         "official_url": "pass"
       },
       "corrections": {},
-      "note": "v1.5完全再探索で公式・主催者等の根拠と開催情報を再突合。"
+      "note": "v1.5完全再探索で公式・主催者等の根拠と開催情報を再突合。",
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "A",
+        "to": "B",
+        "reason": "サンタの衣装で一緒に歩き、親子が楽しみながら寄付や助け合いを考える機会。 子どもを支援する趣旨と参加者の年齢条件は別。チケット料金・歩行距離・子どもの参加条件は詳細案内で確認したい。",
+        "source": "https://santarun.jp/entry"
+      }
     },
     {
       "id": "v15-71e23d5de02c",
@@ -360,7 +493,14 @@
         "official_url": "pass"
       },
       "corrections": {},
-      "note": "v1.5完全再探索で公式・主催者等の根拠と開催情報を再突合。"
+      "note": "v1.5完全再探索で公式・主催者等の根拠と開催情報を再突合。",
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "A",
+        "to": "A",
+        "reason": "親しみやすい絵本の色と本物の生き物を見比べ、擬態探しや塗り絵を親子で楽しめる。 水族館入館料が必要で、観察場所の混雑・待ち時間は未記載。関連の有料体験は別受付の場合がある。",
+        "source": "https://www.aquarium.gr.jp/news/events/31639"
+      }
     },
     {
       "id": "v15-2925b1dfd722",
@@ -379,7 +519,14 @@
         "official_url": "pass"
       },
       "corrections": {},
-      "note": "v1.5完全再探索で公式・主催者等の根拠と開催情報を再突合。"
+      "note": "v1.5完全再探索で公式・主催者等の根拠と開催情報を再突合。",
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "B",
+        "to": "A",
+        "reason": "ラリーブックを持って公園や図書館で自然のミッションに挑戦し、子どもが自分で発見できる。 複数施設を歩くため天候・移動距離への配慮が必要。景品や受付時間は現地案内で確認。",
+        "source": "https://www.nerimakanko.jp/event/detail.php?event_id=e000002940"
+      }
     },
     {
       "id": "v15-d435b737b0fe",
@@ -398,7 +545,14 @@
         "official_url": "pass"
       },
       "corrections": {},
-      "note": "v1.5完全再探索で公式・主催者等の根拠と開催情報を再突合。"
+      "note": "v1.5完全再探索で公式・主催者等の根拠と開催情報を再突合。",
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "A",
+        "to": "A",
+        "reason": "カードの木の実や花・虫を探してシールを集め、子どもが身近な秋の自然を観察できる。 虫や植物には触れ方への配慮が必要。休園日と景品・受付の条件を確認して参加したい。",
+        "source": "https://www.nerimakanko.jp/event/detail.php?event_id=e000002941"
+      }
     },
     {
       "id": "v15-7a658d4d9456",
@@ -417,7 +571,14 @@
         "official_url": "pass"
       },
       "corrections": {},
-      "note": "v1.5完全再探索で公式・主催者等の根拠と開催情報を再突合。"
+      "note": "v1.5完全再探索で公式・主催者等の根拠と開催情報を再突合。",
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "B",
+        "to": "B",
+        "reason": "秋バラの色や香りを比べ、日替わりのマーケットと合わせて親子で楽しめる。 キッズデーや演奏は指定日の別企画。期間中のどの日にも同じ子ども体験があるとは判断しない。",
+        "source": "https://www.shikinokaori-rose-garden.com/"
+      }
     },
     {
       "id": "v15-83cfaa4db36c",
@@ -436,7 +597,14 @@
         "official_url": "pass"
       },
       "corrections": {},
-      "note": "v1.5完全再探索で公式・主催者等の根拠と開催情報を再突合。"
+      "note": "v1.5完全再探索で公式・主催者等の根拠と開催情報を再突合。",
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "B",
+        "to": "B",
+        "reason": "地域の作品展示や音楽・舞踊を親子で選び、身近な文化活動に触れられる。 企画ごとに開催日・会場・参加費が異なる。全体の会期中いつでもすべての催しがあるとは扱わない。",
+        "source": "https://www.city.nerima.tokyo.jp/kankomoyoshi/shogaigakushu/kyogikai/kuminbunkasai.html"
+      }
     },
     {
       "id": "v15-0c6fcb6bf768",
@@ -469,6 +637,13 @@
           "reason": "当該同時開催展示を確認できる開催年別の公式ページへ変更",
           "source": "https://chihiro.jp/tokyo/exhibitions/2026/"
         }
+      },
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "A",
+        "to": "A",
+        "reason": "絵本に親しむ家族が原画の色と旅の風景を見比べ、世代を越えて物語を話し合える。 鑑賞中心で、子どもの制作体験が常設されているとは判断しない。大人の入館料と休館日を確認したい。",
+        "source": "https://chihiro.jp/tokyo/exhibitions/2026/"
       }
     },
     {
@@ -488,13 +663,20 @@
         "official_url": "pass"
       },
       "corrections": {},
-      "note": "v1.5完全再探索で公式・主催者等の根拠と開催情報を再突合。"
+      "note": "v1.5完全再探索で公式・主催者等の根拠と開催情報を再突合。",
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "A",
+        "to": "A",
+        "reason": "手回し発電の魚つり・素材を使う工作・お仕事体験で、子どもが環境のしくみを試せる。 エコフェススタディは別途事前申込・先着順。全体の入場無料と個別講座の参加条件を区別する。",
+        "source": "https://www.city.taito.lg.jp/kenchiku/kankyo/kankyogakushu/kankyofesta/ecofesta2026.html"
+      }
     },
     {
       "id": "v15-a09d13a8ee25",
-      "status": "announced",
-      "source": "https://sumida-artfest.jp/events/",
-      "source_kind": "organizer_official",
+      "status": "verified",
+      "source": "https://sumida-artfest.jp/programs/3986/",
+      "source_kind": "official",
       "fields": {
         "name": "pass",
         "date": "pass",
@@ -507,13 +689,20 @@
         "official_url": "pass"
       },
       "corrections": {},
-      "note": "v1.5完全再探索で公式・主催者等の根拠と開催情報を再突合。"
+      "note": "2026-11-08 full-tier recheck: current official/organizer page reconfirmed date, venue and participation basis.",
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "A",
+        "to": "A",
+        "reason": "すみだのものづくりの技に触れ、展示と制作体験で親子が地域の産業を発見できる。 各ワークショップの年齢・料金・受付は個別に確認が必要。全体の展示を子ども専用とは判断しない。",
+        "source": "https://sumida-artfest.jp/programs/3986/"
+      }
     },
     {
       "id": "v15-d94b3ac9893d",
-      "status": "announced",
-      "source": "https://sumida-artfest.jp/events/",
-      "source_kind": "organizer_official",
+      "status": "verified",
+      "source": "https://hokusai-museum.jp/modules/Event/events/view/5082?lang=ja",
+      "source_kind": "official",
       "fields": {
         "name": "pass",
         "date": "pass",
@@ -526,13 +715,20 @@
         "official_url": "pass"
       },
       "corrections": {},
-      "note": "v1.5完全再探索で公式・主催者等の根拠と開催情報を再突合。"
+      "note": "2026-11-08 full-tier recheck: current official/organizer page reconfirmed date, venue and participation basis.",
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "A",
+        "to": "A",
+        "reason": "紙芝居・折り紙・江戸の算術を組み合わせ、子どもが作りながら文化と数に触れられる。 読み取りや数の理解には年齢に応じた補助が必要。料金・定員・受付の詳細は個別案内を確認したい。",
+        "source": "https://sumida-artfest.jp/events/"
+      }
     },
     {
       "id": "v15-beb844967090",
-      "status": "announced",
-      "source": "https://kodomo-smile.metro.tokyo.lg.jp/events/setagayaku",
-      "source_kind": "public_official",
+      "status": "verified",
+      "source": "https://www.to-kousya.or.jp/action/ev_event.html",
+      "source_kind": "official",
       "fields": {
         "name": "pass",
         "date": "pass",
@@ -545,13 +741,20 @@
         "official_url": "pass"
       },
       "corrections": {},
-      "note": "v1.5完全再探索で公式・主催者等の根拠と開催情報を再突合。"
+      "note": "2026-11-08 full-tier recheck: current official/organizer page reconfirmed date, venue and participation basis.",
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "A",
+        "to": "A",
+        "reason": "ミニソーラーカー工作や子ども向けアトラクションで、子ども自身が電気やエネルギーを楽しく試せる。 EV運転の試乗と子どもの体験を区別する。試乗には免許証が必要でチャイルドシートの用意はなく、工作の各受付は確認したい。",
+        "source": "https://www.to-kousya.or.jp/action/ev_event.html"
+      }
     },
     {
       "id": "v15-f60029928c5d",
-      "status": "announced",
-      "source": "https://www.city.ota.tokyo.jp/event/calendar/list_calendar202611.html",
-      "source_kind": "organizer_official",
+      "status": "verified",
+      "source": "https://www.city.ota.tokyo.jp/seikatsu/sumaimachinami/kotsuanzen/event/oyakojitensha.html",
+      "source_kind": "official",
       "fields": {
         "name": "pass",
         "date": "pass",
@@ -564,7 +767,14 @@
         "official_url": "pass"
       },
       "corrections": {},
-      "note": "v1.5完全再探索で公式・主催者等の根拠と開催情報を再突合。"
+      "note": "2026-11-08 full-tier recheck: current official/organizer page reconfirmed date, venue and participation basis.",
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "A",
+        "to": "A",
+        "reason": "初心者の子どもと保護者が一緒に乗り方を練習できる自転車教室。 11/15回は区内在住4歳〜小学生の子ども本人の参加、保護者の伴走不要。自分の自転車・ヘルメットと事前点検票が必要で11/12受付終了。",
+        "source": "https://www.city.ota.tokyo.jp/seikatsu/sumaimachinami/kotsuanzen/event/oyakojitensha.html"
+      }
     },
     {
       "id": "r16-339f77d64052",
@@ -583,7 +793,14 @@
         "official_url": "pass"
       },
       "corrections": {},
-      "note": "v1.6除外再審査で公式・主催者情報を再確認し掲載へ復活。"
+      "note": "v1.6除外再審査で公式・主催者情報を再確認し掲載へ復活。",
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "B",
+        "to": "B",
+        "reason": "写真・映像・立体やインスタレーションを親子で見比べ、アートと技術の関係を考えられる。 一般向けの現代美術展で、体験作品には個別の参加条件がある。大人の休日料金は3000円で費用を比較したい。",
+        "source": "https://www.mori.art.museum/jp/exhibitions/marikomori/index.html"
+      }
     },
     {
       "id": "r16-c2c59cbaf1f6",
@@ -602,7 +819,14 @@
         "official_url": "pass"
       },
       "corrections": {},
-      "note": "v1.6除外再審査で公式・主催者情報を再確認し掲載へ復活。"
+      "note": "v1.6除外再審査で公式・主催者情報を再確認し掲載へ復活。",
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "B",
+        "to": "B",
+        "reason": "台場・青海・天王洲の多様な作品を選んで巡り、親子で場所と表現の違いを楽しめる。 複数会場の移動や屋外の天候に配慮が必要。個別プログラムには有料・予約制のものがある。",
+        "source": "https://tokyoatlas.jp/"
+      }
     },
     {
       "id": "r16-409d89a4c6f1",
@@ -621,7 +845,14 @@
         "official_url": "pass"
       },
       "corrections": {},
-      "note": "v1.6除外再審査で公式・主催者情報を再確認し掲載へ復活。"
+      "note": "v1.6除外再審査で公式・主催者情報を再確認し掲載へ復活。",
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "A",
+        "to": "B",
+        "reason": "海を渡った植物の細かな絵を見比べ、庭園の植物と合わせて親子で自然史を学べる。 植物画と歴史資料が中心で子ども専用の仕掛けは未記載。説明を読むには年齢に応じた補助が必要。",
+        "source": "https://www.makinoteien.jp/exhibition/%e3%80%90%e4%bc%81%e7%94%bb%e5%b1%95%e3%80%91%e3%80%8c%e6%b5%b7%e3%82%92%e6%b8%a1%e3%81%a3%e3%81%a6%e3%81%8d%e3%81%9f%e6%a4%8d%e7%89%a9%e3%81%ae%e7%89%a9%e8%aa%9e%e3%80%8d-2/"
+      }
     },
     {
       "id": "fx-20261114-itabashi-agriculture-festival",
@@ -641,7 +872,14 @@
       },
       "corrections": {},
       "note": "2026-10-07更新の板橋区公式告知に開催日・会場・時間あり。募集終了した事前申込企画を一般観覧と区別。 個別確認日: 2026-10-17。",
-      "checked_at": "2026-10-17"
+      "checked_at": "2026-10-17",
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "A",
+        "to": "A",
+        "reason": "農業や食に触れる会場を巡り、親子で地域の野菜や農作業を学べる祭り。 一部の収穫体験などの事前募集は終了。雨天時の実施状況は公式が案内する当日のページで必ず確認したい。",
+        "source": "https://www.city.itabashi.tokyo.jp/bousai/nougyo/event/matsuri/1066138.html"
+      }
     },
     {
       "id": "fx-20261114-nakano-yato-fes",
@@ -697,13 +935,20 @@
         "reservation": "pass"
       },
       "corrections": {},
-      "note": "レガシー照合で未収載を検知。公式ページで対象週末の開催を確認して追加。（2026-10-20ローリング引継再確認）サンシャイン水族館公式で3月13日～11月23日、展示開催期間を確認。休業日・営業時間は公式案内を参照。"
+      "note": "レガシー照合で未収載を検知。公式ページで対象週末の開催を確認して追加。（2026-10-20ローリング引継再確認）サンシャイン水族館公式で3月13日～11月23日、展示開催期間を確認。休業日・営業時間は公式案内を参照。",
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "A",
+        "to": "A",
+        "reason": "子どもに親しまれる本と本物の生き物の生態を見比べ、親子で驚きや発見を楽しめる。 展示観察が中心で触る体験とは案内されていない。料金とチケットの条件は詳細案内の確認が必要。",
+        "source": "https://sunshinecity.jp/aquarium/event_performance/event/entry-36530.html"
+      }
     },
     {
       "id": "official-2026-nihonbashi-komichi",
-      "status": "announced",
+      "status": "verified",
       "source": "https://www.keepallsmiles.com/komichi2026",
-      "source_kind": "organizer_official",
+      "source_kind": "official",
       "fields": {
         "name": "pass",
         "date": "pass",
@@ -714,13 +959,20 @@
         "official_url": "pass"
       },
       "corrections": {},
-      "note": "2026-10-20公式照合: 日本橋北詰商店会の制作会社公式案内で10月1日～11月30日、無料・予約不要、案内所受付を確認。。予約不要。日本橋案内所で謎解き用紙を受け取る。"
+      "note": "2026-11-08 full-tier recheck: current official/organizer page reconfirmed date, venue and participation basis.",
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "A",
+        "to": "A",
+        "reason": "商店街の謎を親子で相談して解き、歩きながら日本橋の街を発見できる無料ラリー。 90〜120分が目安で読み解き・歩行の負担はある。幼児は保護者の手助けが必要で、買い物券は数量限定。",
+        "source": "https://www.keepallsmiles.com/komichi2026"
+      }
     },
     {
       "id": "official-2026-haneda-museum",
-      "status": "announced",
+      "status": "verified",
       "source": "https://www.o-2.jp/en/event/hasmhicity2026/",
-      "source_kind": "official_tourism",
+      "source_kind": "official",
       "fields": {
         "name": "pass",
         "date": "pass",
@@ -731,7 +983,14 @@
         "official_url": "pass"
       },
       "corrections": {},
-      "note": "2026-10-20公式照合: 大田区観光協会公式の2026開催情報で9月5日～11月29日、羽田イノベーションシティ Zone C 2Fと11月28〜29日の併催日程を確認。。展示観覧は原則自由。ラジオ工作など一部関連プログラムは予約制。"
+      "note": "2026-11-08 full-tier recheck: current official/organizer page reconfirmed date, venue and participation basis.",
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "A",
+        "to": "B",
+        "reason": "航空写真や資料を見比べ、飛行機好きの親子が羽田空港の歴史を学べる。 展示本体と特定日の工作・関連催事は別。普段の観覧で必ず実技体験できるとは判断しない。",
+        "source": "https://www.o-2.jp/en/event/hasmhicity2026/"
+      }
     },
     {
       "id": "ongoing-20261114-v15-237c930495e3",
@@ -748,7 +1007,14 @@
         "official_url": "pass"
       },
       "corrections": {},
-      "note": "2026-10-20主催/自治体再確認: 港区公式は区内の参加美術館・博物館を回るスタンプラリーを10/15～12/20と明記。施設ごとの休館日に実施しない。"
+      "note": "2026-10-20主催/自治体再確認: 港区公式は区内の参加美術館・博物館を回るスタンプラリーを10/15～12/20と明記。施設ごとの休館日に実施しない。",
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "A",
+        "to": "B",
+        "reason": "複数のミュージアムを巡ってスタンプを集め、親子で港区の文化を発見できる。 全体が子ども専用の企画ではなく、対象・料金・開館日は施設ごとに違う。巡る範囲を家族で選びたい。",
+        "source": "https://www.city.minato.tokyo.jp/bungeishinkou/minakore/home.html"
+      }
     },
     {
       "id": "ongoing-20261114-v15-daa813b5a665",
@@ -765,13 +1031,2775 @@
         "official_url": "pass"
       },
       "corrections": {},
-      "note": "2026-10-20主催/自治体再確認: 主催者11月イベント一覧とイベント記事の大見出しは11/1～30・毎日予約不要。記事内旧10月開催概要は内部矛盾のため注意点として残す。 ※公式個別ページの開催概要欄は旧10月日付が残存。公式一覧と個別見出しを優先し、現地日程確認を推奨。"
+      "note": "2026-10-20主催/自治体再確認: 主催者11月イベント一覧とイベント記事の大見出しは11/1～30・毎日予約不要。記事内旧10月開催概要は内部矛盾のため注意点として残す。 ※公式個別ページの開催概要欄は旧10月日付が残存。公式一覧と個別見出しを優先し、現地日程確認を推奨。",
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "A",
+        "to": "A",
+        "reason": "小さな子どもがメニューを選び、10〜30分で作って持ち帰れる予約不要の制作体験。 有料でアクリルチャーム1200円〜、スクイーズ550円〜など。待ち時間が発生する場合があり、未就学児は保護者同伴。",
+        "source": "https://www.imaginus-suginami.jp/events/2026/10/01/11852/"
+      }
+    },
+    {
+      "id": "gap-20261114-nakano-new-face-market",
+      "status": "verified",
+      "source": "https://www.city.tokyo-nakano.lg.jp/event/kosodate/sogyokyoiku.html",
+      "source_kind": "public_official",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "unknown",
+        "reservation": "unknown",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "2026-11-08主催・自治体の公式公開情報により日程と開催会場を確認。",
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "B",
+        "to": "B",
+        "reason": "中高生の接客や商品を家族で見て買い、子どもたちの挑戦や地域の店を応援できる。 来場する子どもが販売を体験する募集枠ではない。商品購入は有料で、売り切れ次第終了。",
+        "source": "https://www.city.tokyo-nakano.lg.jp/event/kosodate/sogyokyoiku.html"
+      }
+    },
+    {
+      "id": "gap-20261114-shinjuku-hokusan-kids",
+      "status": "verified",
+      "source": "https://www.city.shinjuku.lg.jp/kusei/kashiwagi01_000001_00042.html",
+      "source_kind": "public_official",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "unknown",
+        "reservation": "unknown",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "2026-11-08主催・自治体の公式公開情報により日程と開催会場を確認。",
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "A",
+        "to": "B",
+        "reason": "子ども向けの地域の集まりで、焼き芋や駄菓子を楽しみながら交流できる。 区公式の内容は食べ物の案内が中心。子どもが自分で作る・運動する体験や細かな費用は確認できない。",
+        "source": "https://www.city.shinjuku.lg.jp/kusei/kashiwagi01_000001_00042.html"
+      }
+    },
+    {
+      "id": "gap-20261114-shinjuku-okubo-center",
+      "status": "verified",
+      "source": "https://www.city.shinjuku.lg.jp/kusei/kashiwagi01_000001_00042.html",
+      "source_kind": "public_official",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "unknown",
+        "reservation": "unknown",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "2026-11-08主催・自治体の公式公開情報により日程と開催会場を確認。",
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "B",
+        "to": "B",
+        "reason": "地域と小学生の発表を鑑賞し、パントマイムという表現に家族で触れられる。 小学生が出演することと子ども向けの参加講座は区別する。講座の対象・費用・受付は未記載。",
+        "source": "https://www.city.shinjuku.lg.jp/kusei/kashiwagi01_000001_00042.html"
+      }
+    },
+    {
+      "id": "verified-20261114-nakano-nogata-editing",
+      "status": "verified",
+      "source": "https://kodomo-smile.metro.tokyo.lg.jp/events/4231",
+      "source_kind": "public_official",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "pass",
+        "reservation": "pass",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "2026-11-08 東京都こどもスマイル掲載（11/4更新）および主催NPO告知により開催日時、対象、無料、会場、定員・予約条件を個別検証。",
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "A",
+        "to": "A",
+        "reason": "小学生がぬりえで色の特徴と情報の伝え方を学び、実際に表現できる無料教室。 2時間の活動で道具の持参と事前申込が必要。主催団体が登録した11/14の個別ページで対象と内容を確認。",
+        "source": "https://www.kokuchpro.com/event/877cecc8413810ccd217f10bd71f7ac8/"
+      }
+    },
+    {
+      "id": "verified-20261115-itabashi-zoo-park-festa",
+      "status": "verified",
+      "source": "https://itabashi-park-zoo.com/cat_main/%EF%BC%92%EF%BC%90%EF%BC%92%EF%BC%96%E5%B9%B4%E3%80%80zoo%E3%83%91%E3%83%BC%E3%82%AF%E3%83%95%E3%82%A7%E3%82%B9%E3%82%BF%E3%81%AE%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B/",
+      "source_kind": "organizer_official",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "unknown",
+        "price": "unknown",
+        "reservation": "unknown",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "2026-11-01主催者の開催告知で11/15開催、悪天候延期、動物園本園と体験内容を確認。開始終了時刻・料金・予約要否は未発表として保持。",
+      "verified_on": "2026-11-14",
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "A",
+        "to": "A",
+        "reason": "動物ふれあい・親子乗馬・工作が揃い、親子の体験を具体的に選べる。 乗馬は年齢など個別条件があり、雨天延期と各企画の受付を確認する。",
+        "source": "https://itabashi-park-zoo.com/cat_main/%EF%BC%92%EF%BC%90%EF%BC%92%EF%BC%96%E5%B9%B4%E3%80%80zoo%E3%83%91%E3%83%BC%E3%82%AF%E3%83%95%E3%82%A7%E3%82%B9%E3%82%BF%E3%81%AE%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B/"
+      }
+    },
+    {
+      "id": "reviewed-20261114-nakano-162208",
+      "status": "verified",
+      "source": "https://pc.tamemap.net/1311401/event/162208/2026-11-14?locale=ja",
+      "source_kind": "organizer_provided_partner",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "unknown",
+        "price": "pass",
+        "reservation": "pass",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "2026-11-13に本文の開催日・会場・主催/投稿者を個別確認。画像は内容の事実確認に使わず、未記載の時刻は空欄のまま。",
+      "evidence": [
+        {
+          "url": "https://pc.tamemap.net/1311401/event/162208/2026-11-14?locale=ja",
+          "checked_at": "2026-11-13T07:43:14+09:00",
+          "sha256": "458f2f2168bf38df76bd830a4d46ce3d81b2980fb98f1b6a5bff19c0b6684a6d"
+        }
+      ],
+      "verified_on": "2026-11-14",
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "B",
+        "to": "B",
+        "reason": "芋煮を囲んで季節の食と地域交流を共有できる。 主な内容は食事と交流で、子どもが取り組む体験や遊びは案内されていない。",
+        "source": "https://pc.tamemap.net/1311401/event/162208/2026-11-14?locale=ja"
+      }
+    },
+    {
+      "id": "reviewed-20261114-nakano-163281",
+      "status": "verified",
+      "source": "https://pc.tamemap.net/1311401/event/163281/2026-11-14?locale=ja",
+      "source_kind": "organizer_provided_partner",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "pass",
+        "reservation": "pass",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "2026-11-13に本文の開催日・会場・主催/投稿者を個別確認。画像は内容の事実確認に使わず、未記載の時刻は空欄のまま。",
+      "evidence": [
+        {
+          "url": "https://pc.tamemap.net/1311401/event/163281/2026-11-14?locale=ja",
+          "checked_at": "2026-11-13T07:43:16+09:00",
+          "sha256": "6ed0bbed2401c2c3ab51fd7eafbea7b9703ab2dc7ac105c59953d5e05da8c37c"
+        }
+      ],
+      "verified_on": "2026-11-14",
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "B",
+        "to": "B",
+        "reason": "絵本の読み聞かせ・工作・ショーを家族で楽しめる。 ガザの写真展示も含むため、子どもに見せる内容は保護者の事前確認が必要。",
+        "source": "https://pc.tamemap.net/1311401/event/163281/2026-11-14?locale=ja"
+      }
+    },
+    {
+      "id": "reviewed-20261115-nakano-161805",
+      "status": "verified",
+      "source": "https://www.city.tokyo-nakano.lg.jp/machizukuri/machizukuri/oshirase/TetsudoJobu.html",
+      "source_kind": "public_official",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "unknown",
+        "price": "pass",
+        "reservation": "pass",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "2026-11-13に本文の開催日・会場・主催/投稿者を個別確認。画像は内容の事実確認に使わず、未記載の時刻は空欄のまま。",
+      "evidence": [
+        {
+          "url": "https://pc.tamemap.net/1311401/event/161805/2026-11-15?locale=ja",
+          "checked_at": "2026-11-13T07:43:40+09:00",
+          "sha256": "4fc8a0ec34236f0a4d28c525d9b6a3a9729c95b85fa68f613e6d336587ac099f"
+        },
+        {
+          "url": "https://www.city.tokyo-nakano.lg.jp/machizukuri/machizukuri/oshirase/TetsudoJobu.html",
+          "checked_at": "2026-11-14T12:43:40+09:00",
+          "sha256": "4ed3bb83c77da1eba5a48e8325ecd90059dd4341571e0cd40768184f5ed1b8c1"
+        }
+      ],
+      "verified_on": "2026-11-14",
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "A",
+        "to": "A",
+        "reason": "子ども向けの生成AI画像作成・模型・シール投票を親子で共有できる。 混雑や待ち時間は未記載。別枠のグループワークは受付終了で、自由参加の体験・展示だけを評価する。",
+        "source": "https://www.city.tokyo-nakano.lg.jp/machizukuri/machizukuri/oshirase/TetsudoJobu.html"
+      }
+    },
+    {
+      "id": "reviewed-20261115-nakano-160023",
+      "status": "verified",
+      "source": "https://nakano-hiromatimirai.resv.jp/reserve/calendar.php?x=1634516751",
+      "source_kind": "venue_official",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "pass",
+        "reservation": "pass",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "2026年・講座名・時刻・料金・対象年齢・受付中を公園の予約詳細で確認。会場は公園維持・管理係の提供投稿で照合。画像は同一イベント投稿で観測した素材で、事実推測には使用しない。",
+      "evidence": [
+        {
+          "url": "https://nakano-hiromatimirai.resv.jp/reserve/calendar.php?x=1634516751",
+          "checked_at": "2026-11-13T12:07:40.384470+00:00",
+          "sha256": "b4f304f4b0e5b725b9dbe8b55e291cff5afcbd84836125bdd770b9c577b9953c",
+          "detail_keyid": "7398"
+        },
+        {
+          "url": "https://pc.tamemap.net/1311401/event/160023/2026-11-15?locale=ja",
+          "checked_at": "2026-11-13T07:43:34+09:00",
+          "sha256": "81aa113e91dea60ad2d6856932bcc2496c492b389679808c9f79c19b5911b74f"
+        }
+      ],
+      "verified_on": "2026-11-14",
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "B",
+        "to": "A",
+        "reason": "3歳頃から保護者と布リボンを使い、持ち帰れる作品を作る1時間の工作。 小学2年生以下は保護者同伴。材料費と当日取消料があり、空き確認が必要。",
+        "source": "https://nakano-hiromatimirai.resv.jp/reserve/calendar.php?x=1634516751"
+      }
+    },
+    {
+      "id": "reviewed-20261115-nakano-160164",
+      "status": "verified",
+      "source": "https://nakano-hiromatimirai.resv.jp/reserve/calendar.php?x=1634516751",
+      "source_kind": "venue_official",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "pass",
+        "reservation": "pass",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "2026年・講座名・時刻・料金・対象年齢・受付中を公園の予約詳細で確認。会場は公園維持・管理係の提供投稿で照合。画像は同一イベント投稿で観測した素材で、事実推測には使用しない。リトミックは同日2クラスを1参加企画として掲載。",
+      "evidence": [
+        {
+          "url": "https://nakano-hiromatimirai.resv.jp/reserve/calendar.php?x=1634516751",
+          "checked_at": "2026-11-13T12:07:42.118045+00:00",
+          "sha256": "b7f71cd70bb75a674b2111512a2e62eb182062541dcdcd5b0325a4d2bc61e3f0",
+          "detail_keyid": "7399"
+        },
+        {
+          "url": "https://nakano-hiromatimirai.resv.jp/reserve/calendar.php?x=1634516751",
+          "checked_at": "2026-11-13T12:07:43.846776+00:00",
+          "sha256": "3012d3374df15e9cf190c1abced74ad8e35bdc6840f95990fdff83201a4fd0a4",
+          "detail_keyid": "7400"
+        },
+        {
+          "url": "https://pc.tamemap.net/1311401/event/160164/2026-11-15?locale=ja",
+          "checked_at": "2026-11-13T07:43:36+09:00",
+          "sha256": "e6291aa1a1d858b4de92471585419e4a6c6acb329329dfc192abe6b0f6082a41"
+        }
+      ],
+      "verified_on": "2026-11-14",
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "B",
+        "to": "A",
+        "reason": "0歳から未就学児まで年齢別に、親子で音楽と身体のふれあいを楽しめる40分の教室。 親子組料金と兄弟追加料金があり、年齢別の枠・予約状況・取消条件を確認する。",
+        "source": "https://nakano-hiromatimirai.resv.jp/reserve/calendar.php?x=1634516751"
+      }
+    },
+    {
+      "id": "reviewed-20261114-nakano-159581",
+      "status": "verified",
+      "source": "https://pc.tamemap.net/1311401/event/159581/2026-11-14?locale=ja",
+      "source_kind": "organizer_provided_partner",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "unknown",
+        "price": "unknown",
+        "reservation": "pass",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "名前・2026年の開催日・会場を主催者投稿の本文/機械可読日付で確認。本文にない時刻や費用・申込要否は推測せず空欄/要確認。問合せ受付時間・別月/別事業の時刻は流用しない。画像は同じイベント投稿で観測した表示素材で、事実判断には使用しない。",
+      "evidence": [
+        {
+          "url": "https://pc.tamemap.net/1311401/event/159581/2026-11-14?locale=ja",
+          "checked_at": "2026-11-13T21:40:20+09:00",
+          "sha256": "7e92329326a149eb007acb98a79b6f6acd8436419d0dceab9146f9f2d2764830"
+        }
+      ],
+      "verified_on": "2026-11-14",
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "B",
+        "to": "A",
+        "reason": "子どもと母親が一緒に音楽に合わせて踊る、明示された親子の参加体験。 細かな年齢・時刻・料金は未記載。スカート貸出だけは事前連絡が必要。",
+        "source": "https://pc.tamemap.net/1311401/event/159581/2026-11-14?locale=ja"
+      }
+    },
+    {
+      "id": "reviewed-20261115-nakano-160408",
+      "status": "verified",
+      "source": "https://pc.tamemap.net/1311401/event/160408/2026-11-15?locale=ja",
+      "source_kind": "organizer_provided_partner",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "unknown",
+        "price": "pass",
+        "reservation": "pass",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "名前・2026年の開催日・会場を主催者投稿の本文/機械可読日付で確認。本文にない時刻や費用・申込要否は推測せず空欄/要確認。問合せ受付時間・別月/別事業の時刻は流用しない。画像は同じイベント投稿で観測した表示素材で、事実判断には使用しない。",
+      "evidence": [
+        {
+          "url": "https://pc.tamemap.net/1311401/event/160408/2026-11-15?locale=ja",
+          "checked_at": "2026-11-13T21:40:22+09:00",
+          "sha256": "1c03d73798b29faca9c442d1880ed8f531b1e31074d850fb08fdf30bb5888b92"
+        }
+      ],
+      "verified_on": "2026-11-14",
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "B",
+        "to": "B",
+        "reason": "子ども向けの日曜児童館開放として家族の居場所になる。 当日の遊び内容・利用室・対象年齢が未記載で、別事業の条件を当てはめられない。",
+        "source": "https://pc.tamemap.net/1311401/event/160408/2026-11-15?locale=ja"
+      }
+    },
+    {
+      "id": "final-20261114-nakano-162251",
+      "status": "verified",
+      "source": "https://pc.tamemap.net/1311401/event/162251/2026-11-14?locale=ja",
+      "source_kind": "organizer_provided_partner",
+      "verified_on": "2026-11-14",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "unknown",
+        "price": "pass",
+        "reservation": "pass",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "名前・2026年の実施日・会場を本文/構造化日程で照合。日付クエリ・更新日・写真を開催事実の根拠にしない。未記載事項は未確認のまま。",
+      "evidence": [
+        {
+          "url": "https://pc.tamemap.net/1311401/event/162251/2026-11-14?locale=ja",
+          "checked_at": "2026-11-13T07:42:57+09:00",
+          "sha256": "1595b35d0b1233f48791a3120d047cfc665d4b5e9a7a2934ce7e597c3147ba54"
+        }
+      ],
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "B",
+        "to": "B",
+        "reason": "書や絵の表現を家族で見比べられる無料の展示。 鑑賞する内容は確認できるが、子どもが制作する企画や年齢別の案内は確認できない。",
+        "source": "https://pc.tamemap.net/1311401/event/162251/2026-11-14?locale=ja"
+      }
+    },
+    {
+      "id": "final-20261114-nakano-160837",
+      "status": "verified",
+      "source": "https://library.city.tokyo-nakano.lg.jp/event/?id=671",
+      "source_kind": "official",
+      "verified_on": "2026-11-14",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "pass",
+        "reservation": "unknown",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "名前・2026年の実施日・会場を本文/構造化日程で照合。日付クエリ・更新日・写真を開催事実の根拠にしない。未記載事項は未確認のまま。",
+      "evidence": [
+        {
+          "url": "https://library.city.tokyo-nakano.lg.jp/event/?id=671",
+          "checked_at": "2026-11-14T08:11:42+09:00",
+          "sha256": "21c4d0f088a0c92626a3aeaf81085776e764fcdf4fc0eee1a8ea5352901b327e"
+        }
+      ],
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "B",
+        "to": "B",
+        "reason": "小学生以下の読書をポイントで応援し、親子で本を選ぶきっかけになる。 本を15冊借りる継続型キャンペーンで、単独の遊び・体験イベントとは性格が異なる。",
+        "source": "https://library.city.tokyo-nakano.lg.jp/event/?id=671"
+      }
+    },
+    {
+      "id": "final-20261115-nakano-161735",
+      "status": "verified",
+      "source": "https://pc.tamemap.net/1311401/event/161735/2026-11-15?locale=ja",
+      "source_kind": "organizer_provided_partner",
+      "verified_on": "2026-11-14",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "unknown",
+        "price": "pass",
+        "reservation": "pass",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "名前・2026年の実施日・会場を本文/構造化日程で照合。日付クエリ・更新日・写真を開催事実の根拠にしない。未記載事項は未確認のまま。",
+      "evidence": [
+        {
+          "url": "https://pc.tamemap.net/1311401/event/161735/2026-11-15?locale=ja",
+          "checked_at": "2026-11-13T07:43:38+09:00",
+          "sha256": "c6f10995adf46db31837c666f2a77ad5940872cd8952e948ba5c1d10672ae0c3"
+        }
+      ],
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "B",
+        "to": "B",
+        "reason": "子ども・家族の見学体験を受け入れる合気道教室。 具体的な対象年齢や運動の安全条件が未記載で、どの子も同じ内容を体験できるとは判断しない。",
+        "source": "https://pc.tamemap.net/1311401/event/161735/2026-11-15?locale=ja"
+      }
+    },
+    {
+      "id": "final-20261115-nakano-162703",
+      "status": "verified",
+      "source": "https://pc.tamemap.net/1311401/event/162703/2026-11-15?locale=ja",
+      "source_kind": "organizer_provided_partner",
+      "verified_on": "2026-11-14",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "unknown",
+        "price": "pass",
+        "reservation": "pass",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "名前・2026年の実施日・会場を本文/構造化日程で照合。日付クエリ・更新日・写真を開催事実の根拠にしない。未記載事項は未確認のまま。",
+      "evidence": [
+        {
+          "url": "https://pc.tamemap.net/1311401/event/162703/2026-11-15?locale=ja",
+          "checked_at": "2026-11-13T07:43:45+09:00",
+          "sha256": "830d55a89a1318c734bc20f44fc33bb60b9af3e51fe1e5931145c51fd62e1c38"
+        }
+      ],
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "B",
+        "to": "A",
+        "reason": "発達に課題のある子どもと家族がゲーム・会話・休息を自由に選べる親子の居場所。 対象の細かな条件、会の時刻、費用と定員は申込時に確認。診断等を推測して参加条件を足さない。",
+        "source": "https://pc.tamemap.net/1311401/event/162703/2026-11-15?locale=ja"
+      }
+    },
+    {
+      "id": "final-20261114-suginami-26970",
+      "status": "verified",
+      "source": "https://www.city.suginami.tokyo.jp/s033/event/26970.html",
+      "source_kind": "official",
+      "verified_on": "2026-11-14",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "pass",
+        "reservation": "pass",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "名前・2026年の実施日・会場を本文/構造化日程で照合。日付クエリ・更新日・写真を開催事実の根拠にしない。未記載事項は未確認のまま。",
+      "evidence": [
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s033/event/26970.html",
+          "checked_at": "2026-10-27T18:43:22+09:00",
+          "sha256": "9900625219009fb336a60d90084a7e1a079670af808d22f4cedc9901c24ee105"
+        }
+      ],
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "B",
+        "to": "A",
+        "reason": "ドラえもん・クレヨンしんちゃんなど世代に親しみのあるアニメを、無料で一緒に見つけて鑑賞できる。 制作体験や上映の実施を、この展示の案内だけで保証しない。月曜・臨時休館に注意。",
+        "source": "https://www.city.suginami.tokyo.jp/s033/event/26970.html"
+      }
+    },
+    {
+      "id": "final-20261114-suginami-27137",
+      "status": "verified",
+      "source": "https://www.city.suginami.tokyo.jp/s113/event/27137.html",
+      "source_kind": "official",
+      "verified_on": "2026-11-14",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "pass",
+        "reservation": "pass",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "名前・2026年の実施日・会場を本文/構造化日程で照合。日付クエリ・更新日・写真を開催事実の根拠にしない。未記載事項は未確認のまま。",
+      "evidence": [
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s113/event/27137.html",
+          "checked_at": "2026-10-27T18:43:23+09:00",
+          "sha256": "2049db249a7161eaffe9a58cfa8351cadc637c9821c1b07f3e7e8268b8379224"
+        }
+      ],
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "B",
+        "to": "B",
+        "reason": "与謝野晶子の作品と愛用品から文学や地域の歴史を親子で学べる。 短歌や文学資料への関心と読解が楽しみ方を左右する一般展示で、幼児向け体験とは異なる。",
+        "source": "https://www.city.suginami.tokyo.jp/s113/event/27137.html"
+      }
+    },
+    {
+      "id": "final-20261114-suginami-27274",
+      "status": "verified",
+      "source": "https://www.city.suginami.tokyo.jp/s092/event/27274.html",
+      "source_kind": "official",
+      "verified_on": "2026-11-14",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "unknown",
+        "price": "unknown",
+        "reservation": "pass",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "名前・2026年の実施日・会場を本文/構造化日程で照合。日付クエリ・更新日・写真を開催事実の根拠にしない。未記載事項は未確認のまま。",
+      "evidence": [
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s092/event/27274.html",
+          "checked_at": "2026-10-27T18:43:23+09:00",
+          "sha256": "1563e0e722fe0f0a940fb70512a7bc73daff931213ceaaf68e52f86ba945ec7e"
+        }
+      ],
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "B",
+        "to": "A",
+        "reason": "なみすけのAR撮影とアート探しを、短い区間から家族のペースで楽しめる。 全周は約5〜6km。スマートフォンは保護者が扱い、歩きながらの操作を避ける。",
+        "source": "https://www.city.suginami.tokyo.jp/s092/event/27274.html"
+      }
+    },
+    {
+      "id": "final-20261114-suginami-27522",
+      "status": "verified",
+      "source": "https://www.city.suginami.tokyo.jp/s113/event/27522.html",
+      "source_kind": "official",
+      "verified_on": "2026-11-14",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "pass",
+        "reservation": "pass",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "名前・2026年の実施日・会場を本文/構造化日程で照合。日付クエリ・更新日・写真を開催事実の根拠にしない。未記載事項は未確認のまま。",
+      "evidence": [
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s113/event/27522.html",
+          "checked_at": "2026-10-27T18:43:24+09:00",
+          "sha256": "79a180970c69fced35cc16acece985d232bb831c6be8499f9f23dcdc0f33d489"
+        }
+      ],
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "B",
+        "to": "B",
+        "reason": "昭和の街並みのイラストを見比べ、身近な地域の変化を家族で話せる。 主な内容は原画鑑賞で、子ども向けの制作や遊びの参加企画は確認できない。",
+        "source": "https://www.city.suginami.tokyo.jp/s113/event/27522.html"
+      }
+    },
+    {
+      "id": "final-20261115-suginami-27604",
+      "status": "verified",
+      "source": "https://www.city.suginami.tokyo.jp/s113/event/27604.html",
+      "source_kind": "official",
+      "verified_on": "2026-11-14",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "pass",
+        "reservation": "pass",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "名前・2026年の実施日・会場を本文/構造化日程で照合。日付クエリ・更新日・写真を開催事実の根拠にしない。未記載事項は未確認のまま。",
+      "evidence": [
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s113/event/27604.html",
+          "checked_at": "2026-10-27T18:43:25+09:00",
+          "sha256": "13f32195af7b1a83605c7a6d23ecfdf756d0f732e5e6bec120d6c40cc544c1b5"
+        }
+      ],
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "B",
+        "to": "B",
+        "reason": "里神楽・祭囃子・和太鼓という複数の地域芸能を無料で鑑賞できる。 13〜17時の公演で、子ども向け進行や途中入退場の扱いは未記載。",
+        "source": "https://www.city.suginami.tokyo.jp/s113/event/27604.html"
+      }
+    },
+    {
+      "id": "final-20261115-suginami-28061",
+      "status": "verified",
+      "source": "https://www.city.suginami.tokyo.jp/s113/event/28061.html",
+      "source_kind": "official",
+      "verified_on": "2026-11-14",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "pass",
+        "reservation": "pass",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "名前・2026年の実施日・会場を本文/構造化日程で照合。日付クエリ・更新日・写真を開催事実の根拠にしない。未記載事項は未確認のまま。",
+      "evidence": [
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s113/event/28061.html",
+          "checked_at": "2026-10-27T18:43:28+09:00",
+          "sha256": "bcf562e8d289b9ae2e352e7a968dac6d96db2c9b92f76c0eb7c419ebc7a7ac3f"
+        }
+      ],
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "B",
+        "to": "B",
+        "reason": "昔の生活技術を実際の手仕事の実演として観察できる。 来場者自身が作れるとは案内されていないため、工作体験として評価しない。",
+        "source": "https://www.city.suginami.tokyo.jp/s113/event/28061.html"
+      }
+    },
+    {
+      "id": "final-20261114-suginami-28241",
+      "status": "verified",
+      "source": "https://www.city.suginami.tokyo.jp/s038/event/28241.html",
+      "source_kind": "official",
+      "verified_on": "2026-11-14",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "pass",
+        "reservation": "pass",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "名前・2026年の実施日・会場を本文/構造化日程で照合。日付クエリ・更新日・写真を開催事実の根拠にしない。未記載事項は未確認のまま。",
+      "evidence": [
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s038/event/28241.html",
+          "checked_at": "2026-10-27T18:43:31+09:00",
+          "sha256": "7b6463bcb7a164fb48ed65cd688f6f150fac8397b229ecd085d836bcb4d30681"
+        }
+      ],
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "B",
+        "to": "C",
+        "reason": "歌に関心のある年長の子どもには、シャンソンの表現を学ぶ機会になりうる。 原語やソロも含む90分の一般向けレッスンで、幼児・小学生に合う内容や指導は確認できない。",
+        "source": "https://www.city.suginami.tokyo.jp/s038/event/28241.html"
+      }
+    },
+    {
+      "id": "final-20261114-suginami-28456",
+      "status": "verified",
+      "source": "https://www.city.suginami.tokyo.jp/s113/event/28456.html",
+      "source_kind": "official",
+      "verified_on": "2026-11-14",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "pass",
+        "reservation": "pass",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "名前・2026年の実施日・会場を本文/構造化日程で照合。日付クエリ・更新日・写真を開催事実の根拠にしない。未記載事項は未確認のまま。",
+      "evidence": [
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s113/event/28456.html",
+          "checked_at": "2026-10-27T18:43:33+09:00",
+          "sha256": "73c3a4c9f3c5be8a3776790794638abb0068421bba122ae5d04425a5c0080b1d"
+        },
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s113/event/27522.html",
+          "basis": "同じ郷土博物館分館の公式休館日案内。"
+        }
+      ],
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "B",
+        "to": "B",
+        "reason": "写真や資料で天沼の教会・病院と商店街の歴史をたどれる。 地域史の説明を読む一般展示であり、小さい子が遊べる企画や触れる資料は案内されていない。",
+        "source": "https://www.city.suginami.tokyo.jp/s113/event/28456.html"
+      }
+    },
+    {
+      "id": "final-20261114-suginami-28459",
+      "status": "verified",
+      "source": "https://www.city.suginami.tokyo.jp/s113/event/28459.html",
+      "source_kind": "official",
+      "verified_on": "2026-11-14",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "pass",
+        "reservation": "pass",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "名前・2026年の実施日・会場を本文/構造化日程で照合。日付クエリ・更新日・写真を開催事実の根拠にしない。未記載事項は未確認のまま。",
+      "evidence": [
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s113/event/28459.html",
+          "checked_at": "2026-10-27T18:43:33+09:00",
+          "sha256": "0c3bfcc7892cc3967210b63a15770973dcb56aa35ad051ee148c718fab3aea0c"
+        }
+      ],
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "B",
+        "to": "B",
+        "reason": "子どもの着物の柄と昔の暮らしを、家族で比較して話せる。 子どもを題材にした展示であり、来場する子ども向けの着付け・制作体験があるとは判断しない。",
+        "source": "https://www.city.suginami.tokyo.jp/s113/event/28459.html"
+      }
+    },
+    {
+      "id": "final-20261115-suginami-28496",
+      "status": "verified",
+      "source": "https://www.city.suginami.tokyo.jp/s103/event/28496.html",
+      "source_kind": "official",
+      "verified_on": "2026-11-14",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "pass",
+        "reservation": "pass",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "名前・2026年の実施日・会場を本文/構造化日程で照合。日付クエリ・更新日・写真を開催事実の根拠にしない。未記載事項は未確認のまま。",
+      "evidence": [
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s103/event/28496.html",
+          "checked_at": "2026-10-27T18:43:33+09:00",
+          "sha256": "ec99ae90ccd75c99a800ebf51128ffbc63ec8ee7cb24cc5159a164fc9921c2d2"
+        }
+      ],
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "B",
+        "to": "B",
+        "reason": "大切なおもちゃを持ち込んで修理・再利用につなげられる。 修理サービスであり、子どもが修理を体験・見学できる範囲は明記されていない。",
+        "source": "https://www.city.suginami.tokyo.jp/s103/event/28496.html"
+      }
+    },
+    {
+      "id": "final-20261114-suginami-28540",
+      "status": "verified",
+      "source": "https://www.city.suginami.tokyo.jp/s020/event/28540.html",
+      "source_kind": "official",
+      "verified_on": "2026-11-14",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "pass",
+        "reservation": "pass",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "名前・2026年の実施日・会場を本文/構造化日程で照合。日付クエリ・更新日・写真を開催事実の根拠にしない。未記載事項は未確認のまま。",
+      "evidence": [
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s020/event/28540.html",
+          "checked_at": "2026-11-14T07:48:37+09:00",
+          "sha256": "9db9ac3c2b6863679c9c394bc6748ffa9926929b2776d24065243d3b7e7c8b9d"
+        }
+      ],
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "B",
+        "to": "B",
+        "reason": "壊れたおもちゃを直し、親子で物を大切にするきっかけになる。 1人1点の修理受付であり、子どもの工作教室としては案内されていない。",
+        "source": "https://www.city.suginami.tokyo.jp/s020/event/28540.html"
+      }
+    },
+    {
+      "id": "final-20261115-suginami-28541",
+      "status": "verified",
+      "source": "https://www.city.suginami.tokyo.jp/s020/event/28541.html",
+      "source_kind": "official",
+      "verified_on": "2026-11-14",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "pass",
+        "reservation": "pass",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "名前・2026年の実施日・会場を本文/構造化日程で照合。日付クエリ・更新日・写真を開催事実の根拠にしない。未記載事項は未確認のまま。",
+      "evidence": [
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s020/event/28541.html",
+          "checked_at": "2026-11-14T07:48:38+09:00",
+          "sha256": "812b94ccf64ae6bcd2cc0667830d30585601ed27373e15138f1cdb3590a8e575"
+        }
+      ],
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "B",
+        "to": "A",
+        "reason": "無料の工作とゲームに加えて発表・展示・模擬店を選べる、参加型の地域まつり。 飲食等の購入費は別途。混雑や個別の工作の細かな条件は現地で確認する。",
+        "source": "https://www.city.suginami.tokyo.jp/s020/event/28541.html"
+      }
+    },
+    {
+      "id": "final-20261115-suginami-28568",
+      "status": "verified",
+      "source": "https://www.city.suginami.tokyo.jp/s025/event/28568.html",
+      "source_kind": "official",
+      "verified_on": "2026-11-14",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "pass",
+        "reservation": "pass",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "名前・2026年の実施日・会場を本文/構造化日程で照合。日付クエリ・更新日・写真を開催事実の根拠にしない。未記載事項は未確認のまま。",
+      "evidence": [
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s025/event/28568.html",
+          "checked_at": "2026-11-14T07:48:45+09:00",
+          "sha256": "6db33f94e6f00dd3bcc9cbfac9252f2aecf49475d6897b6c05c3084517bdfbcb"
+        }
+      ],
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "B",
+        "to": "B",
+        "reason": "囃子・地域の発表・もちつきや地元野菜を、家族で見て味わえる。 もちつき等への子どもの参加範囲は未記載で、見学・試食・買い物の催しとして評価する。",
+        "source": "https://www.city.suginami.tokyo.jp/s025/event/28568.html"
+      }
+    },
+    {
+      "id": "final-20261114-suginami-28578",
+      "status": "verified",
+      "source": "https://www.city.suginami.tokyo.jp/s100/event/28578.html",
+      "source_kind": "official",
+      "verified_on": "2026-11-14",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "pass",
+        "reservation": "pass",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "名前・2026年の実施日・会場を本文/構造化日程で照合。日付クエリ・更新日・写真を開催事実の根拠にしない。未記載事項は未確認のまま。",
+      "evidence": [
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s100/event/28578.html",
+          "checked_at": "2026-10-27T18:43:35+09:00",
+          "sha256": "72f71e4a253882a216d2ea02a5c4ae6c458eae572604e1a2faab7426e2e84e41"
+        }
+      ],
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "B",
+        "to": "B",
+        "reason": "大礼服の刺繍や復元資料から衣服と歴史を家族で見比べられる。 衣服資料を読む・見る展示が中心で、衣装を着る体験や子ども用解説は確認できない。",
+        "source": "https://www.city.suginami.tokyo.jp/s100/event/28578.html"
+      }
+    },
+    {
+      "id": "final-20261114-nerima-walk-rally",
+      "status": "verified",
+      "source": "https://www.city.nerima.tokyo.jp/hokenfukushi/hoken/kenkodukuri/undo/202610_stamprally.html",
+      "source_kind": "official",
+      "verified_on": "2026-11-14",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "unknown",
+        "price": "pass",
+        "reservation": "pass",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "名前・2026年の実施日・会場を本文/構造化日程で照合。日付クエリ・更新日・写真を開催事実の根拠にしない。未記載事項は未確認のまま。",
+      "evidence": [
+        {
+          "url": "https://www.city.nerima.tokyo.jp/hokenfukushi/hoken/kenkodukuri/undo/202610_stamprally.html",
+          "checked_at": "2026-11-14T07:53:35+09:00",
+          "sha256": "f9866bc026f939d1548292a10dfd1a597c4e12da6fe36920650ad10eef78ea66"
+        }
+      ],
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "B",
+        "to": "B",
+        "reason": "景観ポイントと健康クイズを、日を分けて家族で巡れる。 全地点で約2〜2時間半の歩行とアプリ操作が必要で、子ども向けの短い専用コースは未記載。",
+        "source": "https://www.city.nerima.tokyo.jp/hokenfukushi/hoken/kenkodukuri/undo/202610_stamprally.html"
+      }
+    },
+    {
+      "id": "final-20261114-nakano-162738",
+      "status": "verified",
+      "source": "https://www.city.tokyo-nakano.lg.jp/kurashi/bunka/manabu/rekishiminzoku/kikakutenji/chiikiten1027.html",
+      "source_kind": "official",
+      "verified_on": "2026-11-14",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "pass",
+        "reservation": "pass",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "名前・2026年の実施日・会場を本文/構造化日程で照合。日付クエリ・更新日・写真を開催事実の根拠にしない。未記載事項は未確認のまま。",
+      "evidence": [
+        {
+          "url": "https://www.city.tokyo-nakano.lg.jp/kurashi/bunka/manabu/rekishiminzoku/kikakutenji/chiikiten1027.html",
+          "checked_at": "2026-11-14T08:11:43+09:00",
+          "sha256": "ccf9c179a69971e7c3e7020a7a858f508e0a2a0a0f9d031f7ff7afe3b3a195ed"
+        },
+        {
+          "url": "https://www.city.tokyo-nakano.lg.jp/kurashi/bunka/manabu/rekishiminzoku/kouza/rekimin_syogi.html",
+          "basis": "同資料館の利用時間・休館日。"
+        }
+      ],
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "B",
+        "to": "B",
+        "reason": "昔と今の写真や生活道具を比べ、住む町の歴史を共有できる。 観察中心の地域展示で、道具に触れる体験や小さい子への案内は確認できない。",
+        "source": "https://www.city.tokyo-nakano.lg.jp/kurashi/bunka/manabu/rekishiminzoku/kikakutenji/chiikiten1027.html"
+      }
+    },
+    {
+      "id": "final-20261114-nakano-163067",
+      "status": "verified",
+      "source": "https://www.city.tokyo-nakano.lg.jp/kurashi/bunka/manabu/rekishiminzoku/kikakutenji/rekimin_kikaku1103.html",
+      "source_kind": "official",
+      "verified_on": "2026-11-14",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "pass",
+        "reservation": "pass",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "名前・2026年の実施日・会場を本文/構造化日程で照合。日付クエリ・更新日・写真を開催事実の根拠にしない。未記載事項は未確認のまま。",
+      "evidence": [
+        {
+          "url": "https://www.city.tokyo-nakano.lg.jp/kurashi/bunka/manabu/rekishiminzoku/kikakutenji/rekimin_kikaku1103.html",
+          "checked_at": "2026-11-14T08:11:45+09:00",
+          "sha256": "f1969e8dca5530422a39961495b5057219992671f169c15fcea3d2c1247f7df6"
+        },
+        {
+          "url": "https://www.city.tokyo-nakano.lg.jp/kurashi/bunka/manabu/rekishiminzoku/kouza/rekimin_syogi.html",
+          "basis": "同資料館の利用時間・休館日。"
+        }
+      ],
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "B",
+        "to": "B",
+        "reason": "浮世絵の色・役者・構図を親子で見比べられる無料展示。 歌舞伎や浮世絵の背景への関心が楽しみ方を左右し、子ども向けの制作は未記載。",
+        "source": "https://www.city.tokyo-nakano.lg.jp/kurashi/bunka/manabu/rekishiminzoku/kikakutenji/rekimin_kikaku1103.html"
+      }
+    },
+    {
+      "id": "final-20261114-itabashi-shogetsuin",
+      "status": "verified",
+      "source": "https://www.city.itabashi.tokyo.jp/bunka/bunkazi/1021971/1054043.html",
+      "source_kind": "official",
+      "verified_on": "2026-11-14",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "unknown",
+        "reservation": "pass",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "名前・2026年の実施日・会場を本文/構造化日程で照合。日付クエリ・更新日・写真を開催事実の根拠にしない。未記載事項は未確認のまま。",
+      "evidence": [
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/bunka/bunkazi/1021971/1054043.html",
+          "checked_at": "2026-11-14T08:11:39+09:00",
+          "sha256": "b8426ffd6074ad665ac169d57ec5aef601997f80144d486a430149369252a574"
+        }
+      ],
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "B",
+        "to": "B",
+        "reason": "普段と異なる文化財や碑・樹木を見て、地域の歴史に触れられる。 見学範囲や費用の詳細が未記載で、子どもの体験参加まで案内されているわけではない。",
+        "source": "https://www.city.itabashi.tokyo.jp/bunka/bunkazi/1021971/1054043.html"
+      }
+    },
+    {
+      "id": "final-20261115-itabashi-eisa",
+      "status": "verified",
+      "source": "https://youza.jp/archives/2407",
+      "source_kind": "official",
+      "verified_on": "2026-11-14",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "unknown",
+        "reservation": "pass",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "名前・2026年の実施日・会場を本文/構造化日程で照合。日付クエリ・更新日・写真を開催事実の根拠にしない。未記載事項は未確認のまま。",
+      "evidence": [
+        {
+          "url": "https://youza.jp/archives/2407",
+          "checked_at": "2026-11-14T08:11:34+09:00",
+          "sha256": "62a8a33358a3a6cd0131c2c143638b7343cdab88b3302514ade03e40389e8794"
+        }
+      ],
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "B",
+        "to": "B",
+        "reason": "商店街で沖縄のエイサーを鑑賞し、地域文化を家族で共有できる。 演舞は16時からで、子どもの踊り体験とは別。音や沿道の混雑の程度は未記載。",
+        "source": "https://youza.jp/archives/2407"
+      }
+    },
+    {
+      "id": "final-20261115-itabashi-johoku",
+      "status": "verified",
+      "source": "https://v0-jokubunkasai-event.vercel.app/",
+      "source_kind": "official",
+      "verified_on": "2026-11-14",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "unknown",
+        "price": "pass",
+        "reservation": "pass",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "名前・2026年の実施日・会場を本文/構造化日程で照合。日付クエリ・更新日・写真を開催事実の根拠にしない。未記載事項は未確認のまま。",
+      "evidence": [
+        {
+          "url": "https://v0-jokubunkasai-event.vercel.app/",
+          "checked_at": "2026-11-14T08:11:31+09:00",
+          "sha256": "16228b666e9f56d54656dbbfa462908e5eac5021d8ed4f79ed6bb6655a5ece0a"
+        }
+      ],
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "B",
+        "to": "B",
+        "reason": "音楽・アート・キッズダンスを含む文化祭を家族で鑑賞できる予定。 具体的な時間と子どもが参加するプログラムの詳細は未発表で、出演と来場体験を混同しない。",
+        "source": "https://v0-jokubunkasai-event.vercel.app/"
+      }
+    },
+    {
+      "id": "final-20261114-itabashi-bologna",
+      "status": "verified",
+      "source": "https://www.city.itabashi.tokyo.jp/library/bologna/fair/2000287/2000998.html",
+      "source_kind": "official",
+      "verified_on": "2026-11-14",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "pass",
+        "reservation": "pass",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "名前・2026年の実施日・会場を本文/構造化日程で照合。日付クエリ・更新日・写真を開催事実の根拠にしない。未記載事項は未確認のまま。",
+      "evidence": [
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/library/bologna/fair/2000287/2000998.html",
+          "checked_at": "2026-11-14T08:11:38+09:00",
+          "sha256": "df51de22d133ca3cfc95bfd98d40099fc29c805dab049e1e6fbf8fb449e80d9d"
+        }
+      ],
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "B",
+        "to": "A",
+        "reason": "世界の絵本を一緒に読み、絵本マップへの参加もできる無料の図書館企画。 読み聞かせは別の時間指定企画。展示の全てに日本語訳があるとは推測しない。",
+        "source": "https://www.city.itabashi.tokyo.jp/library/bologna/fair/2000287/2000998.html"
+      }
+    },
+    {
+      "id": "final-20261114-itabashi-bologna-story",
+      "status": "verified",
+      "source": "https://www.city.itabashi.tokyo.jp/library/bologna/fair/2000287/2000998.html",
+      "source_kind": "official",
+      "verified_on": "2026-11-14",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "pass",
+        "reservation": "pass",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "名前・2026年の実施日・会場を本文/構造化日程で照合。日付クエリ・更新日・写真を開催事実の根拠にしない。未記載事項は未確認のまま。",
+      "evidence": [
+        {
+          "url": "https://www.city.itabashi.tokyo.jp/library/bologna/fair/2000287/2000998.html",
+          "checked_at": "2026-11-14T08:11:38+09:00",
+          "sha256": "df51de22d133ca3cfc95bfd98d40099fc29c805dab049e1e6fbf8fb449e80d9d"
+        }
+      ],
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "B",
+        "to": "A",
+        "reason": "多言語の絵本を聞く30分のおはなし会で、子どもと保護者が一緒に物語に触れられる。 日によって言語・絵本が異なるため、希望の内容は当日の案内で確認する。",
+        "source": "https://www.city.itabashi.tokyo.jp/library/bologna/fair/2000287/2000998.html"
+      }
+    },
+    {
+      "id": "final-20261115-nerima-recorder",
+      "status": "verified",
+      "source": "https://www.neribun.or.jp/event/detail_n.cgi?id=202607011782885407",
+      "source_kind": "venue_official",
+      "verified_on": "2026-11-14",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "pass",
+        "reservation": "pass",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "名前・2026年の実施日・会場を本文/構造化日程で照合。日付クエリ・更新日・写真を開催事実の根拠にしない。未記載事項は未確認のまま。",
+      "evidence": [
+        {
+          "url": "https://www.neribun.or.jp/event/detail_n.cgi?id=202607011782885407",
+          "checked_at": "2026-11-14T07:53:30+09:00",
+          "sha256": "ae06d43092b9618d94f1076cd01b11325877e59c0a8bf5b007a49260a91e0436"
+        }
+      ],
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "B",
+        "to": "B",
+        "reason": "小学生以上がリコーダーと木管楽器の生演奏やトークを楽しめる。 未就学児は入場できず、指定席での鑑賞公演。小学生以上という条件だけで子ども専用公演とは判断しない。",
+        "source": "https://www.neribun.or.jp/event/detail_n.cgi?id=202607011782885407"
+      }
+    },
+    {
+      "id": "final-20261114-nakano-162160",
+      "status": "verified",
+      "source": "https://pc.tamemap.net/1311401/event/162160/2026-11-14?locale=ja",
+      "source_kind": "organizer_provided_partner",
+      "verified_on": "2026-11-14",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "unknown",
+        "price": "pass",
+        "reservation": "pass",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "名前・2026年の実施日・会場を本文/構造化日程で照合。日付クエリ・更新日・写真を開催事実の根拠にしない。未記載事項は未確認のまま。",
+      "evidence": [
+        {
+          "url": "https://pc.tamemap.net/1311401/event/162160/2026-11-14?locale=ja",
+          "checked_at": "2026-11-13T07:42:54+09:00",
+          "sha256": "1b135134b2040e7e2df9d55d42cab6199fb19db60a6eca64ef880b6390cb50cf"
+        }
+      ],
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "B",
+        "to": "B",
+        "reason": "古着を選び、家族で衣類のリユースに参加できる。 中心は古着の持ち帰りで、子どもサイズの在庫や参加型ワークショップは保証されない。",
+        "source": "https://pc.tamemap.net/1311401/event/162160/2026-11-14?locale=ja"
+      }
+    },
+    {
+      "id": "final-20261114-nakano-163523",
+      "status": "verified",
+      "source": "https://pc.tamemap.net/1311401/event/163523/2026-11-14?locale=ja",
+      "source_kind": "organizer_provided_partner",
+      "verified_on": "2026-11-14",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "unknown",
+        "price": "pass",
+        "reservation": "unknown",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "名前・2026年の実施日・会場を本文/構造化日程で照合。日付クエリ・更新日・写真を開催事実の根拠にしない。未記載事項は未確認のまま。",
+      "evidence": [
+        {
+          "url": "https://pc.tamemap.net/1311401/event/163523/2026-11-14?locale=ja",
+          "checked_at": "2026-11-13T07:43:06+09:00",
+          "sha256": "1a8f6f52a5ac69e852057b97ea349ca119d2d5b502828a5aef38b1d1bc74c830"
+        }
+      ],
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "B",
+        "to": "C",
+        "reason": "大学生との会話や健康の話に関心のある家族には、地域交流の機会になる。 健康相談と講師の話が中心で、子ども向けの活動や理解できる内容の根拠は不足している。",
+        "source": "https://pc.tamemap.net/1311401/event/163523/2026-11-14?locale=ja"
+      }
+    },
+    {
+      "id": "final-20261115-suginami-onsen-koto",
+      "status": "verified",
+      "source": "https://www.city.suginami.tokyo.jp/s016/event/27464.html",
+      "source_kind": "official",
+      "verified_on": "2026-11-14",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "unknown",
+        "price": "pass",
+        "reservation": "pass",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "名前・2026年の実施日・会場を本文/構造化日程で照合。日付クエリ・更新日・写真を開催事実の根拠にしない。未記載事項は未確認のまま。",
+      "evidence": [
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s016/event/27464.html",
+          "checked_at": "2026-11-14T07:48:19+09:00",
+          "sha256": "ea9934ebdeb378cd031441ecb3c3e3f01373d86efa9a1b17781393fcf61724c4"
+        }
+      ],
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "B",
+        "to": "B",
+        "reason": "年齢別料金で家族が地域の銭湯と温泉文化を楽しめる特別日。 入浴の湯温・利用上の細かな条件は未記載。遊具や子ども向けプログラムのある施設とは案内されていない。",
+        "source": "https://www.city.suginami.tokyo.jp/s016/event/27464.html"
+      }
+    },
+    {
+      "id": "final-20261114-suginami-29219",
+      "status": "verified",
+      "source": "https://www.city.suginami.tokyo.jp/s092/event/29219.html",
+      "source_kind": "official",
+      "verified_on": "2026-11-14",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "pass",
+        "reservation": "pass",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "名前・2026年の実施日・会場を本文/構造化日程で照合。日付クエリ・更新日・写真を開催事実の根拠にしない。未記載事項は未確認のまま。",
+      "evidence": [
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s092/event/29219.html",
+          "checked_at": "2026-10-27T18:43:38+09:00",
+          "sha256": "c05d377ec2bf136fa2c67446b2e26ac998b95cd99d32fd4a326c07a26f391d60"
+        }
+      ],
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "B",
+        "to": "B",
+        "reason": "自然とまちづくりの講演やポスターを、関心のある部分だけ親子で選べる。 専門家の講演・活動報告が中心で、子ども向けの実験や遊びは案内されていない。",
+        "source": "https://www.city.suginami.tokyo.jp/s092/event/29219.html"
+      }
+    },
+    {
+      "id": "final-20261115-nakano-162185",
+      "status": "verified",
+      "source": "https://pc.tamemap.net/1311401/event/162185/2026-11-15?locale=ja",
+      "source_kind": "organizer_provided_partner",
+      "verified_on": "2026-11-14",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "pass",
+        "reservation": "pass",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "名前・2026年の実施日・会場を本文/構造化日程で照合。日付クエリ・更新日・写真を開催事実の根拠にしない。未記載事項は未確認のまま。",
+      "evidence": [
+        {
+          "url": "https://pc.tamemap.net/1311401/event/162185/2026-11-15?locale=ja",
+          "checked_at": "2026-11-13T07:43:51+09:00",
+          "sha256": "de20a8d60dca25023973d8a11a9e734a5fa19acb2634235bd8a1c74522264469"
+        }
+      ],
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "B",
+        "to": "C",
+        "reason": "お金に関心のある年長の子どもと保護者が、家計や資産形成について考えるきっかけになる。 一般向けの家計管理・資産形成が中心で、幼児・小学生向けの内容や子どもの参加条件は未記載。",
+        "source": "https://pc.tamemap.net/1311401/event/162185/2026-11-15?locale=ja"
+      }
+    },
+    {
+      "id": "primary-20261115-meguro-international",
+      "status": "verified",
+      "source": "https://www.city.meguro.tokyo.jp/bunka/event/internationalfesr8.html",
+      "source_kind": "official",
+      "verified_on": "2026-11-14",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "pass",
+        "reservation": "pass",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "名前・2026年の実施日・会場を本文/構造化日程で照合。日付クエリ・更新日・写真を開催事実の根拠にしない。未記載事項は未確認のまま。",
+      "evidence": [
+        {
+          "url": "https://www.city.meguro.tokyo.jp/bunka/event/internationalfesr8.html",
+          "checked_at": "2026-11-14T11:29:26+09:00",
+          "sha256": "27e2f0bddb5bb0973ba272a2e36493880bc44ec6fe254d99f69c55c9db63020b"
+        }
+      ],
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "B",
+        "to": "A",
+        "reason": "民族衣装・国際親子チームのステージに、絵本・クイズラリーが加わる多彩な無料交流企画。 飲食・物品は別料金。個別ブースの対象年齢や混雑は確認し、全ての体験を無条件に参加可とは扱わない。",
+        "source": "https://www.city.meguro.tokyo.jp/bunka/event/internationalfesr8.html"
+      }
+    },
+    {
+      "id": "primary-20261115-nerima-sweets",
+      "status": "verified",
+      "source": "https://www.nerimakanko.jp/event/detail.php?event_id=e000002971",
+      "source_kind": "official_tourism",
+      "verified_on": "2026-11-14",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "unknown",
+        "reservation": "unknown",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "名前・2026年の実施日・会場を本文/構造化日程で照合。日付クエリ・更新日・写真を開催事実の根拠にしない。未記載事項は未確認のまま。",
+      "evidence": [
+        {
+          "url": "https://www.nerimakanko.jp/event/detail.php?event_id=e000002971",
+          "checked_at": "2026-11-14T11:29:49+09:00",
+          "sha256": "252966c9ad8a71346d8d5110245726f260e1a694515ebda6c7277768f593b0d0"
+        }
+      ],
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "B",
+        "to": "B",
+        "reason": "地域の菓子・野菜・グルメを親子で選び、食文化を楽しめる。 主な内容は販売。別枠のお茶会の子ども条件・1000円を、フェスタ全体に適用しない。",
+        "source": "https://www.nerimakanko.jp/event/detail.php?event_id=e000002971"
+      }
+    },
+    {
+      "id": "primary-20261114-kita-keene",
+      "status": "verified",
+      "source": "https://www.city.kita.lg.jp/culture-tourism-sports/culture/1018312/1010307/1026669.html",
+      "source_kind": "official",
+      "verified_on": "2026-11-14",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "pass",
+        "reservation": "pass",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "名前・2026年の実施日・会場を本文/構造化日程で照合。日付クエリ・更新日・写真を開催事実の根拠にしない。未記載事項は未確認のまま。",
+      "evidence": [
+        {
+          "url": "https://www.city.kita.lg.jp/culture-tourism-sports/culture/1018312/1010307/1026669.html",
+          "checked_at": "2026-11-14T11:34:24+09:00",
+          "sha256": "c6ebecde31be08cedd25d00cd3cd84cb7185d910ef5cf1ec7f59f085ef9cd05f"
+        }
+      ],
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "B",
+        "to": "B",
+        "reason": "日本文学研究者の人生をパネルとゲームでたどれる。 ゲームの難易度や対象年齢は未記載で、文学への関心や読解に応じて楽しみ方が変わる。",
+        "source": "https://www.city.kita.lg.jp/culture-tourism-sports/culture/1018312/1010307/1026669.html"
+      }
+    },
+    {
+      "id": "primary-20261115-arakawa-yuinomori",
+      "status": "verified",
+      "source": "https://www.city.arakawa.tokyo.jp/a018/event/2026reading-promotion/teens_festival.html",
+      "source_kind": "official",
+      "verified_on": "2026-11-14",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "pass",
+        "reservation": "pass",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "名前・2026年の実施日・会場を本文/構造化日程で照合。日付クエリ・更新日・写真を開催事実の根拠にしない。未記載事項は未確認のまま。",
+      "evidence": [
+        {
+          "url": "https://www.city.arakawa.tokyo.jp/a018/event/2026reading-promotion/teens_festival.html",
+          "checked_at": "2026-11-14T11:34:31+09:00",
+          "sha256": "83495db558b8ed6e911d679f2fc11f9e67180b1d3493cffe732b4c66bde91426"
+        }
+      ],
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "B",
+        "to": "A",
+        "reason": "読み聞かせ・なぞとき・カプセルトイで本探し・しおり釣りを、無料で自由に楽しめる。 ティーンズは企画スタッフの年齢で、参加者の限定条件ではない。各ブースの混雑は未記載。",
+        "source": "https://www.city.arakawa.tokyo.jp/a018/event/2026reading-promotion/teens_festival.html"
+      }
+    },
+    {
+      "id": "primary-20261114-kita-ur",
+      "status": "verified",
+      "source": "https://www.city.kita.lg.jp/museum/events/1018658/1026912.html",
+      "source_kind": "official",
+      "verified_on": "2026-11-14",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "pass",
+        "reservation": "pass",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "名前・2026年の実施日・会場を本文/構造化日程で照合。日付クエリ・更新日・写真を開催事実の根拠にしない。未記載事項は未確認のまま。",
+      "evidence": [
+        {
+          "url": "https://www.city.kita.lg.jp/museum/events/1018658/1026912.html",
+          "checked_at": "2026-11-14T11:34:44+09:00",
+          "sha256": "28d8ad1af821d183ec12c501564e5d00ab0a37d231781de47365e7a678d34193"
+        },
+        {
+          "url": "https://www.city.kita.lg.jp/museum/exhibitions/1018327/1026687.html",
+          "basis": "同じ博物館の公式休館日案内。11/23開館、11/24休館。"
+        }
+      ],
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "B",
+        "to": "B",
+        "reason": "スターハウス型の展示で住まいの形や暮らしを親子で比べられる。 移動式の展示コーナーであり、遊具や模型に触る企画があるとは案内されていない。",
+        "source": "https://www.city.kita.lg.jp/museum/events/1018658/1026912.html"
+      }
+    },
+    {
+      "id": "primary-20261114-kita-kitchen",
+      "status": "verified",
+      "source": "https://www.city.kita.lg.jp/museum/exhibitions/1018327/1026687.html",
+      "source_kind": "official",
+      "verified_on": "2026-11-14",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "pass",
+        "reservation": "pass",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "名前・2026年の実施日・会場を本文/構造化日程で照合。日付クエリ・更新日・写真を開催事実の根拠にしない。未記載事項は未確認のまま。",
+      "evidence": [
+        {
+          "url": "https://www.city.kita.lg.jp/museum/exhibitions/1018327/1026687.html",
+          "checked_at": "2026-11-14T11:34:45+09:00",
+          "sha256": "a240f59a47d34cc21e1d417cfe50411f5348662930a2f7a32bcee06f3e43a20a"
+        },
+        {
+          "url": "https://www.city.kita.lg.jp/museum/exhibitions/1018327/1026687.html",
+          "basis": "同じ博物館の公式休館日案内。11/23開館、11/24休館。"
+        }
+      ],
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "B",
+        "to": "B",
+        "reason": "かまどから団地の台所まで、生活道具の変化を家族で観察できる。 見比べる展示が中心で、料理・道具操作の体験を行うとは案内されていない。",
+        "source": "https://www.city.kita.lg.jp/museum/exhibitions/1018327/1026687.html"
+      }
+    },
+    {
+      "id": "primary-20261114-taito-noguchi",
+      "status": "verified",
+      "source": "https://www.kahaku.go.jp/tenji-event/nid00003997.html",
+      "source_kind": "venue_official",
+      "verified_on": "2026-11-14",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "pass",
+        "reservation": "unknown",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "名前・2026年の実施日・会場を本文/構造化日程で照合。日付クエリ・更新日・写真を開催事実の根拠にしない。未記載事項は未確認のまま。",
+      "evidence": [
+        {
+          "url": "https://www.kahaku.go.jp/tenji-event/nid00003997.html",
+          "checked_at": "2026-11-14T11:34:53+09:00",
+          "sha256": "26a7c939a9d1f1f267ae09b5abf18bfed14fca0dc824d07f49c6ef9ed6e2d7dc"
+        }
+      ],
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "B",
+        "to": "A",
+        "reason": "実際に顕微鏡をのぞく観察と資料を組み合わせ、親子で感染症と科学を学べる。 専門用語の理解は子どもによる。映画会・講演会は展示とは別枠で、申込条件を流用しない。",
+        "source": "https://www.kahaku.go.jp/tenji-event/nid00003997.html"
+      }
+    },
+    {
+      "id": "primary-20261115-sumida-disaster",
+      "status": "verified",
+      "source": "https://www.city.sumida.lg.jp/anzen_anshin/bousai/bousaikunren/fest.html",
+      "source_kind": "official",
+      "verified_on": "2026-11-14",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "unknown",
+        "reservation": "unknown",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "名前・2026年の実施日・会場を本文/構造化日程で照合。日付クエリ・更新日・写真を開催事実の根拠にしない。未記載事項は未確認のまま。",
+      "evidence": [
+        {
+          "url": "https://www.city.sumida.lg.jp/anzen_anshin/bousai/bousaikunren/fest.html",
+          "checked_at": "2026-11-14T11:34:55+09:00",
+          "sha256": "00885d5c66a7d4ee6e9a1c0355d87154751cefd9c545f5d117418894f2b7d4c9"
+        }
+      ],
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "B",
+        "to": "B",
+        "reason": "特殊車両・起震車・防災展示を見ながら、家族で災害への備えを考えられる。 起震車などを子どもが利用できる条件や個別プログラムが未記載で、全ての体験ができるとは保証しない。",
+        "source": "https://www.city.sumida.lg.jp/anzen_anshin/bousai/bousaikunren/fest.html"
+      }
+    },
+    {
+      "id": "primary-20261114-toshima-retro",
+      "status": "verified",
+      "source": "https://www.city.toshima.lg.jp/499/2608101426.html",
+      "source_kind": "official",
+      "verified_on": "2026-11-14",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "pass",
+        "reservation": "pass",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "名前・2026年の実施日・会場を本文/構造化日程で照合。日付クエリ・更新日・写真を開催事実の根拠にしない。未記載事項は未確認のまま。",
+      "evidence": [
+        {
+          "url": "https://www.city.toshima.lg.jp/499/2608101426.html",
+          "checked_at": "2026-11-14T11:35:07+09:00",
+          "sha256": "be416ceddc17c32f12e89ba2471e0c2570f8fca0fabeaac6496094da09e1dcb1"
+        }
+      ],
+      "assessment_review": {
+        "reviewed_on": "2026-11-14",
+        "from": "B",
+        "to": "A",
+        "reason": "公衆電話のダイヤルを回し、伝言板に書く実物体験を無料で親子が共有できる。 10月の関連ワークショップは終了済み。今回の会期中の体験は電話・伝言板の展示に限定して評価する。",
+        "source": "https://www.city.toshima.lg.jp/499/2608101426.html"
+      }
+    },
+    {
+      "id": "remaining-20261115-asakusa-wasshoi",
+      "status": "verified",
+      "source": "https://www.shitamachi-bunka.com/B4-20261115.pdf",
+      "source_kind": "official",
+      "verified_on": "2026-11-14",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "pass",
+        "reservation": "pass",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "名前・2026年の実施日・会場を本文/構造化日程で照合。日付クエリ・更新日・写真を開催事実の根拠にしない。未記載事項は未確認のまま。",
+      "evidence": [
+        {
+          "url": "https://www.shitamachi-bunka.com/B4-20261115.pdf",
+          "checked_at": "2026-11-14T07:27:04.847412+00:00",
+          "sha256": "ca4616dccc2eee6a3d4564c4fa1253bda0b8148941bf95368beffe97ad7f1522"
+        }
+      ]
+    },
+    {
+      "id": "remaining-20261115-adachi-lfesta-play",
+      "status": "verified",
+      "source": "https://www.city.adachi.tokyo.jp/sankaku/r8l-festa.html",
+      "source_kind": "official",
+      "verified_on": "2026-11-14",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "pass",
+        "reservation": "pass",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "名前・2026年の実施日・会場を本文/構造化日程で照合。日付クエリ・更新日・写真を開催事実の根拠にしない。未記載事項は未確認のまま。",
+      "evidence": [
+        {
+          "url": "https://www.city.adachi.tokyo.jp/sankaku/r8l-festa.html",
+          "checked_at": "2026-11-14T16:26:29+09:00",
+          "sha256": "d44d84abfc7fc4bcf97a61513f2fb9c5f5ed59f1120e6f52cf729e210a85cdce"
+        },
+        {
+          "url": "https://www.city.adachi.tokyo.jp/documents/77308/lfesta2026.pdf",
+          "checked_at": "2026-11-14T07:40:23.104076+00:00",
+          "sha256": "18f7e81cdd86319d7a12c52134a5a02f150419f011f2e31d63322df5c6aa82c3"
+        }
+      ]
+    },
+    {
+      "id": "remaining-20261115-adachi-lfesta-english",
+      "status": "verified",
+      "source": "https://www.city.adachi.tokyo.jp/sankaku/r8l-festa.html",
+      "source_kind": "official",
+      "verified_on": "2026-11-14",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "unknown",
+        "reservation": "pass",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "名前・2026年の実施日・会場を本文/構造化日程で照合。日付クエリ・更新日・写真を開催事実の根拠にしない。未記載事項は未確認のまま。",
+      "evidence": [
+        {
+          "url": "https://www.city.adachi.tokyo.jp/sankaku/r8l-festa.html",
+          "checked_at": "2026-11-14T16:26:29+09:00",
+          "sha256": "d44d84abfc7fc4bcf97a61513f2fb9c5f5ed59f1120e6f52cf729e210a85cdce"
+        }
+      ]
+    },
+    {
+      "id": "remaining-20261115-adachi-lfesta-story",
+      "status": "verified",
+      "source": "https://www.city.adachi.tokyo.jp/documents/77308/lfesta2026.pdf",
+      "source_kind": "official",
+      "verified_on": "2026-11-14",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "unknown",
+        "reservation": "pass",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "名前・2026年の実施日・会場を本文/構造化日程で照合。日付クエリ・更新日・写真を開催事実の根拠にしない。未記載事項は未確認のまま。",
+      "evidence": [
+        {
+          "url": "https://www.city.adachi.tokyo.jp/documents/77308/lfesta2026.pdf",
+          "checked_at": "2026-11-14T07:40:23.104076+00:00",
+          "sha256": "18f7e81cdd86319d7a12c52134a5a02f150419f011f2e31d63322df5c6aa82c3"
+        },
+        {
+          "url": "https://www.city.adachi.tokyo.jp/sankaku/r8l-festa.html",
+          "checked_at": "2026-11-14T16:26:29+09:00",
+          "sha256": "d44d84abfc7fc4bcf97a61513f2fb9c5f5ed59f1120e6f52cf729e210a85cdce"
+        }
+      ]
+    },
+    {
+      "id": "remaining-20261115-arakawa-tram-rally",
+      "status": "verified",
+      "source": "https://www.city.arakawa.tokyo.jp/a022/event/r8_digitalstamprally.html",
+      "source_kind": "official",
+      "verified_on": "2026-11-14",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "unknown",
+        "price": "pass",
+        "reservation": "pass",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "名前・2026年の実施日・会場を本文/構造化日程で照合。日付クエリ・更新日・写真を開催事実の根拠にしない。未記載事項は未確認のまま。",
+      "evidence": [
+        {
+          "url": "https://www.city.arakawa.tokyo.jp/a022/event/r8_digitalstamprally.html",
+          "checked_at": "2026-11-14T16:26:34+09:00",
+          "sha256": "e084cd3653db29611c0d19dee50b11ce47c4350bc04607c5fc2e5ddaeb56f228"
+        }
+      ]
+    },
+    {
+      "id": "remaining-20261115-edogawa-chrysanthemum",
+      "status": "verified",
+      "source": "https://www.city.edogawa.tokyo.jp/event/makko1107.html",
+      "source_kind": "official",
+      "verified_on": "2026-11-14",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "pass",
+        "reservation": "pass",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "名前・2026年の実施日・会場を本文/構造化日程で照合。日付クエリ・更新日・写真を開催事実の根拠にしない。未記載事項は未確認のまま。",
+      "evidence": [
+        {
+          "url": "https://www.city.edogawa.tokyo.jp/event/makko1107.html",
+          "checked_at": "2026-11-14T16:26:33+09:00",
+          "sha256": "ba4c5683151db527d0593c34040f3cd518c04bbac566f6222f93ab48b66c16f8"
+        },
+        {
+          "url": "https://www.city.edogawa.tokyo.jp/e004/kuseijoho/kohokocho/promotion/culture/makkotei.html",
+          "checked_at": "2026-11-14T16:40:20+09:00",
+          "sha256": "e6a36e164b0bba3047a6e1b1c0f8d53cf1f83916aa8a7dac6070f3c018bfeb48"
+        }
+      ]
+    },
+    {
+      "id": "remaining-20261115-cincinnati-art",
+      "status": "verified",
+      "source": "https://www.cincinnati-art2026.jp/outline.html",
+      "source_kind": "official",
+      "verified_on": "2026-11-14",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "pass",
+        "reservation": "unknown",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "名前・2026年の実施日・会場を本文/構造化日程で照合。日付クエリ・更新日・写真を開催事実の根拠にしない。未記載事項は未確認のまま。",
+      "evidence": [
+        {
+          "url": "https://www.cincinnati-art2026.jp/outline.html",
+          "checked_at": "2026-11-14T16:27:07+09:00",
+          "sha256": "f76a3c8f8ef8d4e72dfc143d5732fd0be1bbe358e81a1a99b0b1154b99014a2f"
+        },
+        {
+          "url": "https://www.cincinnati-art2026.jp/ticket.html",
+          "checked_at": "2026-11-14T16:27:10+09:00",
+          "sha256": "abe5cd53e44e8ca86a5a00b93cf4ecfffb9d033153146fe1c5828a16dbd441e4"
+        }
+      ]
+    },
+    {
+      "id": "remaining-20261115-designfesta64",
+      "status": "verified",
+      "source": "https://designfesta.com/",
+      "source_kind": "official",
+      "verified_on": "2026-11-14",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "pass",
+        "reservation": "pass",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "名前・2026年の実施日・会場を本文/構造化日程で照合。日付クエリ・更新日・写真を開催事実の根拠にしない。未記載事項は未確認のまま。",
+      "evidence": [
+        {
+          "url": "https://designfesta.com/",
+          "checked_at": "2026-11-14T16:26:42+09:00",
+          "sha256": "488cc10dbd1767b6d58ca0c13ef7599332cecf26d1c647fc5159b6576e9bc9d9"
+        },
+        {
+          "url": "https://designfesta.com/about-ticket/",
+          "checked_at": "2026-11-14T16:27:12+09:00",
+          "sha256": "d2016a957d909d27f8c65558188dfbfae60a847e65280bc1617cefd54f285377"
+        }
+      ]
+    },
+    {
+      "id": "remaining-20261115-what-matsuri-art",
+      "status": "verified",
+      "source": "https://cafe.warehouseofart.org/exhibition/vol-48_matsuri-x-art-exhibition",
+      "source_kind": "official",
+      "verified_on": "2026-11-14",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "pass",
+        "reservation": "unknown",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "名前・2026年の実施日・会場を本文/構造化日程で照合。日付クエリ・更新日・写真を開催事実の根拠にしない。未記載事項は未確認のまま。",
+      "evidence": [
+        {
+          "url": "https://cafe.warehouseofart.org/exhibition/vol-48_matsuri-x-art-exhibition",
+          "checked_at": "2026-11-14T16:26:40+09:00",
+          "sha256": "84f0cdf22d4f38e9e8e205e413b2f1b3ca121a7ffd97a9ab41d81c785c01ac85"
+        }
+      ]
+    },
+    {
+      "id": "remaining-20261115-toshima-4koma-museum",
+      "status": "verified",
+      "source": "https://www.city.toshima.lg.jp/424/2609250940.html",
+      "source_kind": "official",
+      "verified_on": "2026-11-14",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "pass",
+        "reservation": "unknown",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "名前・2026年の実施日・会場を本文/構造化日程で照合。日付クエリ・更新日・写真を開催事実の根拠にしない。未記載事項は未確認のまま。",
+      "evidence": [
+        {
+          "url": "https://www.city.toshima.lg.jp/424/2609250940.html",
+          "checked_at": "2026-11-14T16:26:46+09:00",
+          "sha256": "01a34e56cfc77a35399bcd2e8642e2067e81bdb76f9585f9f3487fb67016d907"
+        },
+        {
+          "url": "https://www.city.toshima.lg.jp/467/2606091600.html",
+          "checked_at": "2026-11-14T16:26:49+09:00",
+          "sha256": "1d3d0a280354a8c5760db8f5120ea02431529bde2f09e2b2621998e13ac132f0"
+        }
+      ]
+    },
+    {
+      "id": "remaining-20261115-toshima-4koma-retro",
+      "status": "verified",
+      "source": "https://www.city.toshima.lg.jp/424/2609250940.html",
+      "source_kind": "official",
+      "verified_on": "2026-11-14",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "pass",
+        "reservation": "pass",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "名前・2026年の実施日・会場を本文/構造化日程で照合。日付クエリ・更新日・写真を開催事実の根拠にしない。未記載事項は未確認のまま。",
+      "evidence": [
+        {
+          "url": "https://www.city.toshima.lg.jp/424/2609250940.html",
+          "checked_at": "2026-11-14T16:26:46+09:00",
+          "sha256": "01a34e56cfc77a35399bcd2e8642e2067e81bdb76f9585f9f3487fb67016d907"
+        }
+      ]
+    },
+    {
+      "id": "remaining-20261115-toshima-tsunoda",
+      "status": "verified",
+      "source": "https://www.city.toshima.lg.jp/467/2606091600.html",
+      "source_kind": "official",
+      "verified_on": "2026-11-14",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "pass",
+        "reservation": "pass",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "名前・2026年の実施日・会場を本文/構造化日程で照合。日付クエリ・更新日・写真を開催事実の根拠にしない。未記載事項は未確認のまま。",
+      "evidence": [
+        {
+          "url": "https://www.city.toshima.lg.jp/467/2606091600.html",
+          "checked_at": "2026-11-14T16:26:49+09:00",
+          "sha256": "1d3d0a280354a8c5760db8f5120ea02431529bde2f09e2b2621998e13ac132f0"
+        }
+      ]
+    },
+    {
+      "id": "remaining-20261115-nerima-edokuri-rally",
+      "status": "verified",
+      "source": "https://www.nerimakanko.jp/event/detail.php?event_id=e000003007",
+      "source_kind": "official_tourism",
+      "verified_on": "2026-11-14",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "unknown",
+        "price": "pass",
+        "reservation": "unknown",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "名前・2026年の実施日・会場を本文/構造化日程で照合。日付クエリ・更新日・写真を開催事実の根拠にしない。未記載事項は未確認のまま。",
+      "evidence": [
+        {
+          "url": "https://www.nerimakanko.jp/event/detail.php?event_id=e000003007",
+          "checked_at": "2026-11-14T16:27:02+09:00",
+          "sha256": "34f7d832df356fc82821aacf6b819dfb51fc4967685da34adaca8200e33d0b2e"
+        }
+      ]
+    },
+    {
+      "id": "next-primary-20261115-turner-exhibition",
+      "status": "verified",
+      "source": "https://turner2026-27.exhibit.jp/outline/index.html",
+      "source_kind": "organizer_official",
+      "verified_on": "2026-11-14",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "pass",
+        "reservation": "unknown",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "名前・2026年の実施日・会場を本文/構造化日程で照合。日付クエリ・更新日・写真を開催事実の根拠にしない。未記載事項は未確認のまま。",
+      "evidence": [
+        {
+          "url": "https://turner2026-27.exhibit.jp/outline/index.html",
+          "checked_at": "2026-11-14T18:03:29+09:00",
+          "sha256": "65184cea827e1f386b8bdff700f11011ec4e5e34d44acc0a469eef23bd866214"
+        },
+        {
+          "url": "https://turner2026-27.exhibit.jp/ticket/",
+          "checked_at": "2026-11-14T16:27:14+09:00",
+          "sha256": "14c696d2a09d4d217cdc4dfaabf1a2db91366849a5751f00d010e673624a013c"
+        },
+        {
+          "url": "https://turner2026-27.exhibit.jp/",
+          "checked_at": "2026-11-14T16:26:43+09:00",
+          "sha256": "5af23decf6dbf6f7de91fc4cc6b7579af84efb0e29804f160ac0b09ca47151c5"
+        }
+      ]
+    },
+    {
+      "id": "next-primary-20261115-hozuki-animate",
+      "status": "verified",
+      "source": "https://event.amnibus.com/hozuki-animate/",
+      "source_kind": "organizer_official",
+      "verified_on": "2026-11-14",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "unknown",
+        "price": "unknown",
+        "reservation": "unknown",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "名前・2026年の実施日・会場を本文/構造化日程で照合。日付クエリ・更新日・写真を開催事実の根拠にしない。未記載事項は未確認のまま。",
+      "evidence": [
+        {
+          "url": "https://event.amnibus.com/hozuki-animate/",
+          "checked_at": "2026-11-14T16:26:42+09:00",
+          "sha256": "e44d8a4c79a4906a6fd04c96b5ea442edbab6342bfcd7ef35a58e86b09ee206a"
+        }
+      ]
+    },
+    {
+      "id": "next-primary-20261115-nerima-flute-lecture",
+      "status": "verified",
+      "source": "https://6aa824c291af9b846bd1e300--lecture-concert-1115.netlify.app",
+      "source_kind": "organizer_official",
+      "verified_on": "2026-11-14",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "pass",
+        "reservation": "pass",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "名前・2026年の実施日・会場を本文/構造化日程で照合。日付クエリ・更新日・写真を開催事実の根拠にしない。未記載事項は未確認のまま。",
+      "evidence": [
+        {
+          "url": "https://6aa824c291af9b846bd1e300--lecture-concert-1115.netlify.app",
+          "checked_at": "2026-11-14T16:26:54+09:00",
+          "sha256": "37550a0057098d368891d1660fe03f8520d6ebadaef5edeae5f28bb86d93dfb1"
+        },
+        {
+          "url": "https://www.nerimakanko.jp/event/detail.php?event_id=e000002980",
+          "checked_at": "2026-11-14T16:27:00+09:00",
+          "sha256": "2d2880b722e89264efc499b0950a4abf06c881d6277fc514ecc5c98cbb6b2225"
+        }
+      ]
+    },
+    {
+      "id": "all-reviewed-20261115-sugi-221",
+      "status": "verified",
+      "source": "https://www.city.suginami.tokyo.jp/s022/event/29644.html",
+      "source_kind": "official",
+      "verified_on": "2026-11-14",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "pass",
+        "reservation": "pass",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "名前・2026年の実施日・会場を本文/構造化日程で照合。日付クエリ・更新日・写真を開催事実の根拠にしない。未記載事項は未確認のまま。",
+      "evidence": [
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s022/event/29644.html",
+          "checked_at": "2026-11-14T19:49:08+09:00",
+          "sha256": "28a20b5d25ad5572f421e336702c6c5fae651b560a1a03707e0769cad7f086da"
+        }
+      ]
+    },
+    {
+      "id": "all-reviewed-20261115-sugi-638",
+      "status": "verified",
+      "source": "https://www.city.suginami.tokyo.jp/s033/event/28971.html",
+      "source_kind": "official",
+      "verified_on": "2026-11-14",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "pass",
+        "reservation": "pass",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "名前・2026年の実施日・会場を本文/構造化日程で照合。日付クエリ・更新日・写真を開催事実の根拠にしない。未記載事項は未確認のまま。",
+      "evidence": [
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s033/event/28971.html",
+          "checked_at": "2026-11-14T19:49:45+09:00",
+          "sha256": "15f441ec61c26fa174f11023585e685d13d536f90f749ae2dc7fd4676c814cb3"
+        }
+      ]
+    },
+    {
+      "id": "all-reviewed-20261115-sugi-739",
+      "status": "verified",
+      "source": "https://www.city.suginami.tokyo.jp/s093/event/28814.html",
+      "source_kind": "official",
+      "verified_on": "2026-11-14",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "unknown",
+        "reservation": "unknown",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "名前・2026年の実施日・会場を本文/構造化日程で照合。日付クエリ・更新日・写真を開催事実の根拠にしない。未記載事項は未確認のまま。",
+      "evidence": [
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s093/event/28814.html",
+          "checked_at": "2026-11-14T19:50:34+09:00",
+          "sha256": "e089671cd14367b4e75f01bbc939671ab1bdef5e75c99f5cbc7b9ee37edb80e8"
+        }
+      ]
+    },
+    {
+      "id": "all-reviewed-20261115-sugi-815",
+      "status": "verified",
+      "source": "https://www.city.suginami.tokyo.jp/s116/event/28800.html",
+      "source_kind": "official",
+      "verified_on": "2026-11-14",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "pass",
+        "reservation": "pass",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "名前・2026年の実施日・会場を本文/構造化日程で照合。日付クエリ・更新日・写真を開催事実の根拠にしない。未記載事項は未確認のまま。",
+      "evidence": [
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s116/event/28800.html",
+          "checked_at": "2026-11-14T19:51:23+09:00",
+          "sha256": "22ca3676df9b81904397bcc188aadccfceb1fd3d51b96bee186920b4e70fdfe8"
+        }
+      ]
+    },
+    {
+      "id": "all-reviewed-20261115-sugi-825",
+      "status": "verified",
+      "source": "https://www.city.suginami.tokyo.jp/s118/event/28799.html",
+      "source_kind": "official",
+      "verified_on": "2026-11-14",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "pass",
+        "reservation": "pass",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "名前・2026年の実施日・会場を本文/構造化日程で照合。日付クエリ・更新日・写真を開催事実の根拠にしない。未記載事項は未確認のまま。",
+      "evidence": [
+        {
+          "url": "https://www.city.suginami.tokyo.jp/s118/event/28799.html",
+          "checked_at": "2026-11-14T19:58:08+09:00",
+          "sha256": "a64ef40b0919b6762aab407fd8fd7e078b9654291e8a88fa4d286d4b7eca185a"
+        }
+      ]
+    },
+    {
+      "id": "all-reviewed-20261115-edogawa-zenyoji-kiku",
+      "status": "verified",
+      "source": "https://www.city.edogawa.tokyo.jp/event/59yogokikkataikai.html",
+      "source_kind": "official",
+      "verified_on": "2026-11-14",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "pass",
+        "reservation": "pass",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "名前・2026年の実施日・会場を本文/構造化日程で照合。日付クエリ・更新日・写真を開催事実の根拠にしない。未記載事項は未確認のまま。",
+      "evidence": [
+        {
+          "url": "https://www.city.edogawa.tokyo.jp/event/59yogokikkataikai.html",
+          "checked_at": "2026-11-14T19:58:02+09:00",
+          "sha256": "8c6b2fc55c02696fa1912c9f4a556b929f3e3a3f7095ccf23e4735e89338617c"
+        }
+      ]
+    },
+    {
+      "id": "all-reviewed-20261115-meguro-playpark",
+      "status": "verified",
+      "source": "https://www.city.meguro.tokyo.jp/houkago/kosodatekyouiku/kosodate/sugekarikouen_playpark.html",
+      "source_kind": "official",
+      "verified_on": "2026-11-14",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "pass",
+        "reservation": "pass",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "名前・2026年の実施日・会場を本文/構造化日程で照合。日付クエリ・更新日・写真を開催事実の根拠にしない。未記載事項は未確認のまま。",
+      "evidence": [
+        {
+          "url": "https://www.city.meguro.tokyo.jp/houkago/kosodatekyouiku/kosodate/sugekarikouen_playpark.html",
+          "checked_at": "2026-11-14T19:58:12+09:00",
+          "sha256": "e33821c00cedbd58e7644be2e06bcaad7cbf3e8fafb8ed879ff5476354f88cad"
+        }
+      ]
+    },
+    {
+      "id": "all-reviewed-20261115-meguro-free-space",
+      "status": "verified",
+      "source": "https://www.city.meguro.tokyo.jp/houkago/kosodatekyouiku/kosodate/sugekariju-ku_freespace.html",
+      "source_kind": "official",
+      "verified_on": "2026-11-14",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "pass",
+        "reservation": "pass",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "名前・2026年の実施日・会場を本文/構造化日程で照合。日付クエリ・更新日・写真を開催事実の根拠にしない。未記載事項は未確認のまま。",
+      "evidence": [
+        {
+          "url": "https://www.city.meguro.tokyo.jp/houkago/kosodatekyouiku/kosodate/sugekariju-ku_freespace.html",
+          "checked_at": "2026-11-14T19:58:16+09:00",
+          "sha256": "d9cfdb9b352379866c83deb92b5fe13136b82da11562c3223827674edbcb9701"
+        }
+      ]
+    },
+    {
+      "id": "all-reviewed-20261115-meguro-scout-rally",
+      "status": "verified",
+      "source": "https://www.city.meguro.tokyo.jp/shougaigakushuu/event/boysukautoyamate08.html",
+      "source_kind": "official",
+      "verified_on": "2026-11-14",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "unknown",
+        "reservation": "unknown",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "名前・2026年の実施日・会場を本文/構造化日程で照合。日付クエリ・更新日・写真を開催事実の根拠にしない。未記載事項は未確認のまま。",
+      "evidence": [
+        {
+          "url": "https://www.city.meguro.tokyo.jp/shougaigakushuu/event/boysukautoyamate08.html",
+          "checked_at": "2026-11-14T07:47:01+09:00",
+          "sha256": "3b2b5f1650daf7ee8aa6e81b7e0dc3418ca48e986e93075300068f109c16485e"
+        },
+        {
+          "url": "https://www.city.meguro.tokyo.jp/cgi-bin/event_cal_multi/calendar.cgi?day=15&event_area=2&month=11&type=3&year=2026",
+          "checked_at": "2026-11-14T20:05:25+09:00",
+          "sha256": "55eba1491e5db0c86295f9b4d5d64678d8520360ae1948687c5f6c6d0c80bc6b"
+        }
+      ]
+    },
+    {
+      "id": "all-reviewed-20261115-orsay-exhibition",
+      "status": "verified",
+      "source": "https://www.tobikan.jp/exhibition/2026_orsay.html",
+      "source_kind": "official",
+      "verified_on": "2026-11-14",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "pass",
+        "reservation": "pass",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "名前・2026年の実施日・会場を本文/構造化日程で照合。日付クエリ・更新日・写真を開催事実の根拠にしない。未記載事項は未確認のまま。",
+      "evidence": [
+        {
+          "url": "https://www.tobikan.jp/exhibition/2026_orsay.html",
+          "checked_at": "2026-11-14T20:05:26+09:00",
+          "sha256": "087b0c1815b7af8eef5a3f93818261d66517683053ec37ca991db5e1be4f12c5"
+        },
+        {
+          "url": "https://art.nikkei.com/orsay2627/outline/",
+          "checked_at": "2026-11-14T20:05:25+09:00",
+          "sha256": "6364e865a5cc4caa94d83f344d9d7df77004f787316b8b25f934f99060abd15d"
+        },
+        {
+          "url": "https://art.nikkei.com/orsay2627/",
+          "checked_at": "2026-11-14T19:58:07+09:00",
+          "sha256": "5207636536964b74b85ccb18a669514a71e10c144d746aac54bc0a5e6fd0a365"
+        }
+      ]
+    },
+    {
+      "id": "all-reviewed-20261115-nakano-drug-lecture",
+      "status": "verified",
+      "source": "https://www.city.tokyo-nakano.lg.jp/event/kenko/38kumintaikai.html",
+      "source_kind": "official",
+      "verified_on": "2026-11-14",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "unknown",
+        "reservation": "unknown",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "名前・2026年の実施日・会場を本文/構造化日程で照合。日付クエリ・更新日・写真を開催事実の根拠にしない。未記載事項は未確認のまま。",
+      "evidence": [
+        {
+          "url": "https://www.city.tokyo-nakano.lg.jp/event/kenko/38kumintaikai.html",
+          "checked_at": "2026-11-14T20:17:26+09:00",
+          "sha256": "f316834837de492cc9d35dcc61cb95f2ec754d6670128366c04f953ad8b149e3"
+        }
+      ]
+    },
+    {
+      "id": "all-reviewed-20261115-nakano-drug-posters",
+      "status": "verified",
+      "source": "https://www.city.tokyo-nakano.lg.jp/event/kenko/38kumintaikai.html",
+      "source_kind": "official",
+      "verified_on": "2026-11-14",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "unknown",
+        "price": "unknown",
+        "reservation": "unknown",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "名前・2026年の実施日・会場を本文/構造化日程で照合。日付クエリ・更新日・写真を開催事実の根拠にしない。未記載事項は未確認のまま。",
+      "evidence": [
+        {
+          "url": "https://www.city.tokyo-nakano.lg.jp/event/kenko/38kumintaikai.html",
+          "checked_at": "2026-11-14T20:17:26+09:00",
+          "sha256": "f316834837de492cc9d35dcc61cb95f2ec754d6670128366c04f953ad8b149e3"
+        }
+      ]
+    },
+    {
+      "id": "all-reviewed-20261115-tachiuo-base",
+      "status": "verified",
+      "source": "https://sunshinecity.jp/aquarium/event_performance/event/entry-38802.html",
+      "source_kind": "official",
+      "verified_on": "2026-11-14",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "pass",
+        "reservation": "unknown",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "名前・2026年の実施日・会場を本文/構造化日程で照合。日付クエリ・更新日・写真を開催事実の根拠にしない。未記載事項は未確認のまま。",
+      "evidence": [
+        {
+          "url": "https://sunshinecity.jp/aquarium/event_performance/event/entry-38802.html",
+          "checked_at": "2026-11-14T16:26:45+09:00",
+          "sha256": "18dadd2ae62ed3c93c672e8e1bdd5107c91a44889305a582a9392034120fca14"
+        }
+      ]
+    },
+    {
+      "id": "all-reviewed-20261115-tachiuo-tour",
+      "status": "verified",
+      "source": "https://sunshinecity.jp/aquarium/event_performance/event/entry-38802.html",
+      "source_kind": "official",
+      "verified_on": "2026-11-14",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "pass",
+        "reservation": "pass",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "名前・2026年の実施日・会場を本文/構造化日程で照合。日付クエリ・更新日・写真を開催事実の根拠にしない。未記載事項は未確認のまま。",
+      "evidence": [
+        {
+          "url": "https://sunshinecity.jp/aquarium/event_performance/event/entry-38802.html",
+          "checked_at": "2026-11-14T16:26:45+09:00",
+          "sha256": "18dadd2ae62ed3c93c672e8e1bdd5107c91a44889305a582a9392034120fca14"
+        }
+      ]
+    },
+    {
+      "id": "all-reviewed-20261115-nakano-tree-lecture",
+      "status": "verified",
+      "source": "https://www.city.tokyo-nakano.lg.jp/kurashi/bohan/syohiseikatsu/oshirase/20261009syouhiseikatuten.html",
+      "source_kind": "official",
+      "verified_on": "2026-11-14",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "pass",
+        "reservation": "unknown",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "名前・2026年の実施日・会場を本文/構造化日程で照合。日付クエリ・更新日・写真を開催事実の根拠にしない。未記載事項は未確認のまま。",
+      "evidence": [
+        {
+          "url": "https://www.city.tokyo-nakano.lg.jp/kurashi/bohan/syohiseikatsu/oshirase/20261009syouhiseikatuten.html",
+          "checked_at": "2026-11-14T20:17:30+09:00",
+          "sha256": "10b821b64450925f9db610cdc5318865cef31f9945235854e6bbc273ae4b42bc"
+        }
+      ]
+    },
+    {
+      "id": "all-reviewed-20261115-shibuya-culture-shodo",
+      "status": "verified",
+      "source": "https://www.city.shibuya.tokyo.jp/contents/koho-news/1622/20261101_bunka.html",
+      "source_kind": "official",
+      "verified_on": "2026-11-14",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "unknown",
+        "reservation": "pass",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "名前・2026年の実施日・会場を本文/構造化日程で照合。日付クエリ・更新日・写真を開催事実の根拠にしない。未記載事項は未確認のまま。",
+      "evidence": [
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/contents/koho-news/1622/20261101_bunka.html",
+          "checked_at": "2026-11-14T19:58:02+09:00",
+          "sha256": "21ad6357f79f0679f185fec9bf79c8f850620e4c901216fd59ab75b63ef3083f"
+        }
+      ]
+    },
+    {
+      "id": "all-reviewed-20261115-shibuya-culture-sakura",
+      "status": "verified",
+      "source": "https://www.city.shibuya.tokyo.jp/contents/koho-news/1622/20261101_bunka.html",
+      "source_kind": "official",
+      "verified_on": "2026-11-14",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "unknown",
+        "reservation": "pass",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "名前・2026年の実施日・会場を本文/構造化日程で照合。日付クエリ・更新日・写真を開催事実の根拠にしない。未記載事項は未確認のまま。",
+      "evidence": [
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/contents/koho-news/1622/20261101_bunka.html",
+          "checked_at": "2026-11-14T19:58:02+09:00",
+          "sha256": "21ad6357f79f0679f185fec9bf79c8f850620e4c901216fd59ab75b63ef3083f"
+        }
+      ]
+    },
+    {
+      "id": "all-reviewed-20261115-shibuya-culture-densho",
+      "status": "verified",
+      "source": "https://www.city.shibuya.tokyo.jp/contents/koho-news/1622/20261101_bunka.html",
+      "source_kind": "official",
+      "verified_on": "2026-11-14",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "unknown",
+        "reservation": "pass",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "名前・2026年の実施日・会場を本文/構造化日程で照合。日付クエリ・更新日・写真を開催事実の根拠にしない。未記載事項は未確認のまま。",
+      "evidence": [
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/contents/koho-news/1622/20261101_bunka.html",
+          "checked_at": "2026-11-14T19:58:02+09:00",
+          "sha256": "21ad6357f79f0679f185fec9bf79c8f850620e4c901216fd59ab75b63ef3083f"
+        }
+      ]
+    },
+    {
+      "id": "all-reviewed-20261115-shibuya-culture-flowers",
+      "status": "verified",
+      "source": "https://www.city.shibuya.tokyo.jp/contents/koho-news/1622/20261101_bunka.html",
+      "source_kind": "official",
+      "verified_on": "2026-11-14",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "unknown",
+        "reservation": "pass",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "名前・2026年の実施日・会場を本文/構造化日程で照合。日付クエリ・更新日・写真を開催事実の根拠にしない。未記載事項は未確認のまま。",
+      "evidence": [
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/contents/koho-news/1622/20261101_bunka.html",
+          "checked_at": "2026-11-14T19:58:02+09:00",
+          "sha256": "21ad6357f79f0679f185fec9bf79c8f850620e4c901216fd59ab75b63ef3083f"
+        }
+      ]
+    },
+    {
+      "id": "all-reviewed-20261115-leonids2026",
+      "status": "verified",
+      "source": "https://shibu-cul.jp/event/leonoid2026",
+      "source_kind": "official",
+      "verified_on": "2026-11-14",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "pass",
+        "reservation": "pass",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "名前・2026年の実施日・会場を本文/構造化日程で照合。日付クエリ・更新日・写真を開催事実の根拠にしない。未記載事項は未確認のまま。",
+      "evidence": [
+        {
+          "url": "https://shibu-cul.jp/event/leonoid2026",
+          "checked_at": "2026-11-14T20:05:31+09:00",
+          "sha256": "c85ef1767b51e3ee7e8a9a28d964324401714559bc5be6b6a95c65baf4470517"
+        }
+      ]
+    },
+    {
+      "id": "all-reviewed-20261115-shoto-road",
+      "status": "verified",
+      "source": "https://www.city.shibuya.tokyo.jp/contents/koho-news/1622/20261101_bunka.html",
+      "source_kind": "official",
+      "verified_on": "2026-11-14",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "pass",
+        "reservation": "unknown",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "名前・2026年の実施日・会場を本文/構造化日程で照合。日付クエリ・更新日・写真を開催事実の根拠にしない。未記載事項は未確認のまま。",
+      "evidence": [
+        {
+          "url": "https://www.city.shibuya.tokyo.jp/contents/koho-news/1622/20261101_bunka.html",
+          "checked_at": "2026-11-14T19:58:02+09:00",
+          "sha256": "21ad6357f79f0679f185fec9bf79c8f850620e4c901216fd59ab75b63ef3083f"
+        },
+        {
+          "url": "https://shoto-museum.jp/",
+          "checked_at": "2026-11-14T20:05:34+09:00",
+          "sha256": "7e8f8c17a934e7e038867cacecdd431cb90b99add806999080cb9bf3cb93ac08"
+        }
+      ]
+    },
+    {
+      "id": "all-reviewed-20261115-tokyo-food-fair18",
+      "status": "verified",
+      "source": "https://www.metro.tokyo.lg.jp/information/press/2026/10/2026101531",
+      "source_kind": "official",
+      "verified_on": "2026-11-14",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "pass",
+        "reservation": "pass",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "名前・2026年の実施日・会場を本文/構造化日程で照合。日付クエリ・更新日・写真を開催事実の根拠にしない。未記載事項は未確認のまま。",
+      "evidence": [
+        {
+          "url": "https://www.metro.tokyo.lg.jp/information/press/2026/10/2026101531",
+          "checked_at": "2026-11-14T20:17:33+09:00",
+          "sha256": "d43d6d3fb91c2ec288867f9f8ed663ca463c80c95f86f4cc896f29f520957f60"
+        }
+      ]
+    },
+    {
+      "id": "aipaku-20261115-winter-aipaku-tokyo",
+      "status": "verified",
+      "source": "https://www.i-89.jp/",
+      "source_kind": "official",
+      "verified_on": "2026-11-15",
+      "fields": {
+        "name": "pass",
+        "date": "pass",
+        "venue": "pass",
+        "time": "pass",
+        "price": "pass",
+        "reservation": "pass",
+        "official_url": "pass"
+      },
+      "corrections": {},
+      "note": "名前・2026年の実施日・会場を本文/構造化日程で照合。日付クエリ・更新日・写真を開催事実の根拠にしない。未記載事項は未確認のまま。",
+      "evidence": [
+        {
+          "url": "https://www.i-89.jp/",
+          "checked_at": "2026-11-15T08:40:40+09:00",
+          "sha256": "ffd0e8c0e42e285212d2ed3873fad55c17afed0c0472a832eb69a1e8df54ef07"
+        },
+        {
+          "url": "https://www.sumitomo-sankakuhiroba.jp/event/",
+          "checked_at": "2026-11-15T08:40:40+09:00",
+          "sha256": "a1a199731507fb2948e5ccdf6efa0565d5eddb0c1c8cfa66841576b1497f6329"
+        },
+        {
+          "url": "https://prtimes.jp/main/html/rd/p/000000068.000065431.html",
+          "checked_at": "2026-11-15T08:40:39+09:00",
+          "sha256": "726ac95bfd03ef65abeed783928ae6e84820d44fac83f5db86512a305819e010"
+        },
+        {
+          "url": "https://prtimes.jp/main/html/rd/p/000000070.000065431.html",
+          "checked_at": "2026-11-15T08:40:41+09:00",
+          "sha256": "f4ccee569a859d5dc40e9f3a87dbebbb1853633d7bbb77df5e2777edb20c159d"
+        }
+      ]
     }
   ],
   "summary": {
-    "total": 41,
-    "verified": 31,
-    "announced": 10,
+    "total": 133,
+    "verified": 133,
+    "announced": 0,
     "corrected": 0
   }
 }

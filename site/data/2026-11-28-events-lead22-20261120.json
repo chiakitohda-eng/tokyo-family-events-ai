@@ -1,0 +1,135 @@
+[
+  {
+    "id": "verified-20261128-chuo-fes-contest",
+    "ward": "中央区",
+    "name": "第4回FESコンテスト 小学生審査員の募集（KABUTO ONE）",
+    "url": "https://faincation.com/news/21129",
+    "official_url": "https://faincation.com/news/21129",
+    "source": "https://faincation.com/news/21129",
+    "image": "https://faincation.com/wp/wp-content/uploads/2026/10/91d8e068a46c09f80ef66892ce20c3b8.png",
+    "period": "11/28(土)",
+    "date_start": "2026-11-28",
+    "date_end": "2026-11-28",
+    "time": "14:00〜17:00",
+    "venue": "KABUTO ONE（中央区日本橋兜町7-1）",
+    "price": "無料",
+    "description": "小学1〜6年生の児童とその保護者が対象の、コンテスト表彰式への参加。ゆうちょ銀行の特別体験ブースもある。参加は事前の申込が必要。",
+    "categories": [
+      "体験",
+      "金融教育",
+      "イベント"
+    ],
+    "indoor_outdoor": "屋内",
+    "reservation": {
+      "required": true,
+      "note": "定員に達し次第締切。公式LINEの友だち追加が必要。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "小学1〜6年生の児童とその保護者を対象にした、コンテストの表彰式と特別体験ブース。参加費は無料で、事前の申込が必要。",
+      "axes": {
+        "child_target": {
+          "grade": "A",
+          "reason": "小学1〜6年生の児童とその保護者を対象にしたイベント"
+        },
+        "interactivity": {
+          "grade": "B",
+          "reason": "表彰式への参加と体験ブースが中心"
+        },
+        "age_fit": {
+          "grade": "A",
+          "reason": "対象が小学1〜6年生と明記"
+        },
+        "stay_flexibility": {
+          "grade": "B",
+          "reason": "14:00〜17:00の時間が決まっている"
+        },
+        "burden": {
+          "grade": "B",
+          "reason": "事前の申込と公式LINEの友だち追加が必要"
+        },
+        "cost": {
+          "grade": "A",
+          "reason": "参加費無料"
+        },
+        "reservation": {
+          "grade": "B",
+          "reason": "事前申込。定員に達し次第締切"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "親子でお金や社会について学ぶきっかけになる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-20",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "child_program",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "小学生と保護者が対象で無料",
+          "特別体験ブースがある"
+        ],
+        "limitations": [
+          "事前申込が必要",
+          "表彰式が中心で参加型の内容は限られる"
+        ],
+        "grade_comparison": "総合B：小学生と保護者向けで無料だが、表彰式が中心で事前申込も必要。",
+        "unsupported_axes": [],
+        "evidence": [
+          {
+            "url": "https://faincation.com/news/21129",
+            "quote": "2026年11月28日（土）14:00～17:00",
+            "checked_at": "2026-11-20",
+            "sha256": "f1ed5211cbbe7494ad2a38542cfcebb4053cf532f8377108ad60e02a92cd3fcc",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://faincation.com/news/21129",
+            "quote": "小学1年生から6年生までの児童とその保護者",
+            "checked_at": "2026-11-20",
+            "sha256": "12c94ccbb538f78fc322574b1a5206790cf72a3ee1f5b2b4a20382142678f5b4",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://faincation.com/news/21129",
+            "quote": "表彰式：ホール（4階）交流会",
+            "checked_at": "2026-11-20",
+            "sha256": "b3acf8cdf93760d0381cd763e08830716e66030135cee089e235ef2fdd6aa44e",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://faincation.com/news/21129",
+            "quote": "KABUTOONE（東京都中央区日本橋兜町7-1）",
+            "checked_at": "2026-11-20",
+            "sha256": "68d031cdf18c6983b18c939b2ef99bf2c127d0a64666965a8d54e02cdb89c827",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-20",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  }
+]

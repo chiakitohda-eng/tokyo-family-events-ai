@@ -1,0 +1,127 @@
+[
+  {
+    "id": "verified-20261213-edogawa-bunkageijutsusai-ongakusai",
+    "ward": "江戸川区",
+    "name": "第2回江戸川区文化芸術祭 音楽祭",
+    "url": "https://www.city.edogawa.tokyo.jp/event/261213grandart_ongakusai.html",
+    "official_url": "https://www.city.edogawa.tokyo.jp/event/261213grandart_ongakusai.html",
+    "source": "https://www.city.edogawa.tokyo.jp/event/261213grandart_ongakusai.html",
+    "image": "https://www.city.edogawa.tokyo.jp/images/73696/ongaku-1.jpg",
+    "period": "12/13(日)",
+    "date_start": "2026-12-13",
+    "date_end": "2026-12-13",
+    "time": "13:00開演（開場12:30）",
+    "venue": "タワーホール船堀 大ホール（5階）",
+    "price": "無料",
+    "description": "オーケストラ、合唱、ハーモニカ、琴、三味線、マンドリンなど多彩なアンサンブルを楽しめる、区内最大の音楽イベント。",
+    "categories": [
+      "音楽・ステージ",
+      "文化・地域イベント"
+    ],
+    "indoor_outdoor": "屋内",
+    "reservation": {
+      "required": false,
+      "note": "申込不要。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "オーケストラ、合唱、ハーモニカ、琴、三味線、マンドリンなど多彩なアンサンブルを楽しめる、区内最大の音楽イベント。無料。申込の案内はなく、当日参加できる。",
+      "axes": {
+        "child_target": {
+          "grade": "B",
+          "reason": "どなたでも楽しめる音楽イベント"
+        },
+        "interactivity": {
+          "grade": "B",
+          "reason": "生演奏を客席で鑑賞する"
+        },
+        "age_fit": {
+          "grade": "unknown",
+          "reason": "対象年齢の目安は明記がない"
+        },
+        "stay_flexibility": {
+          "grade": "B",
+          "reason": "13:00開演（開場12:30）"
+        },
+        "burden": {
+          "grade": "B",
+          "reason": "客席での鑑賞が中心"
+        },
+        "cost": {
+          "grade": "A",
+          "reason": "無料"
+        },
+        "reservation": {
+          "grade": "A",
+          "reason": "申込不要"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "多彩な生演奏を無料で楽しめる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-19",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "child_program",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "無料",
+          "申込不要"
+        ],
+        "limitations": [
+          "鑑賞が中心で、幼児連れは配慮が必要"
+        ],
+        "grade_comparison": "総合B：12/13(日)のタワーホール船堀 大ホールで13:00開演（開場12:30）の開催。無料。申込不要で気軽に参加できる。",
+        "unsupported_axes": [
+          "age_fit"
+        ],
+        "evidence": [
+          {
+            "url": "https://www.city.edogawa.tokyo.jp/event/261213grandart_ongakusai.html",
+            "quote": "第2回江戸川区文化芸術祭音楽祭区内最大の音楽イベントです。オーケストラ、合唱、ハーモニカ、琴、三味線、マンドリンなど多彩なアンサンブルをお楽しみください。響け！江戸川のハーモニー♪",
+            "checked_at": "2026-11-19",
+            "sha256": "a6c6c88da0e9502fe982ccf31d322b0a62e1ecdc5d5310ecd7c59b47885d182d",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "江戸川区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.edogawa.tokyo.jp/event/261213grandart_ongakusai.html",
+            "quote": "開催日時2026年12月13日（日曜日）開場：12時30分開演：13時00分",
+            "checked_at": "2026-11-19",
+            "sha256": "5718cdc5c754bf48a8964f59d19f32866251086bfc0a5a9ebdf0c97a4d058dbd",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "江戸川区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.edogawa.tokyo.jp/event/261213grandart_ongakusai.html",
+            "quote": "場所タワーホール船堀大ホール（5階）",
+            "checked_at": "2026-11-19",
+            "sha256": "2a3d043186769d46e60fef09be449fcc46c62667bb8984027fe580be84ef02b1",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "江戸川区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-19",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  }
+]

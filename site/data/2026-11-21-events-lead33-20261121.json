@@ -1,0 +1,283 @@
+[
+  {
+    "id": "verified-20261121-tachikawa-showakinen-craft-leaf-2026",
+    "ward": "立川市",
+    "name": "こどもの森クラフト教室「葉っぱでアート」（国営昭和記念公園）",
+    "url": "https://www.showakinen-koen.jp/event/25743/",
+    "official_url": "https://www.showakinen-koen.jp/event/25743/",
+    "source": "https://www.showakinen-koen.jp/event/25743/",
+    "image": "https://www.showakinen-koen.jp/wp-content/uploads/2024/03/IMG_4563C.jpg",
+    "period": "11/23(祝)・28・29、12/5・6・12・13（土日祝。各月の第3土日は除く）",
+    "date_start": "2026-11-23",
+    "date_end": "2026-12-13",
+    "time": "受付10:30〜11:30、13:00〜14:30",
+    "venue": "国営昭和記念公園 こどもの森木工房（立川市緑町3173）",
+    "price": "300円（別途入園料）",
+    "description": "園内の葉っぱを組み合わせて、小枝の額に飾る「葉っぱアート」を作る工作教室。当日受付で、先着順・入替制（一度に入れるのは9名）。制作は子どもが自分で行い、保護者は木工房の周りで待つ。",
+    "categories": [
+      "体験・ワークショップ",
+      "工作"
+    ],
+    "indoor_outdoor": "屋内",
+    "reservation": {
+      "required": false,
+      "note": "当日受付（先着順・入室定員9名・随時入替制）。事前予約は不要。"
+    },
+    "family_fit": {
+      "grade": "A",
+      "overall": "A",
+      "rubric_version": "family-fit-v2",
+      "reason": "小学生・中学生向けの工作教室。当日受付で、300円（入園料別）。保護者は木工房の周りで待つ形で、親子で一緒に作る内容ではない。",
+      "axes": {
+        "child_target": {
+          "grade": "A",
+          "reason": "対象は小学生・中学生"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "葉っぱを選んで組み合わせる工作"
+        },
+        "age_fit": {
+          "grade": "B",
+          "reason": "小学生・中学生が対象で、未就学児は対象外"
+        },
+        "stay_flexibility": {
+          "grade": "B",
+          "reason": "受付時間内に来れば参加できる（入替制）"
+        },
+        "burden": {
+          "grade": "B",
+          "reason": "先着順で、混む日は待つことがある"
+        },
+        "cost": {
+          "grade": "A",
+          "reason": "300円と手頃（入園料は別）"
+        },
+        "reservation": {
+          "grade": "A",
+          "reason": "事前予約は不要（当日受付）"
+        },
+        "family_value": {
+          "grade": "A",
+          "reason": "公園で遊ぶ日に、自分だけの作品を作れる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-21",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "child_program",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "小中学生が自分で作れる工作で、予約がいらない",
+          "参加費が300円と手頃"
+        ],
+        "limitations": [
+          "入園料が別に必要",
+          "先着順・入替制で、混む日は待つことがある",
+          "対象は小学生・中学生で、未就学児は対象外"
+        ],
+        "grade_comparison": "総合A：小中学生向けで当日受付、300円と手頃な工作教室。入園料は別。",
+        "unsupported_axes": [],
+        "evidence": [
+          {
+            "url": "https://www.showakinen-koen.jp/event/25743/",
+            "quote": "園内の葉っぱを使って、すてきな葉っぱアートを作ろう！",
+            "checked_at": "2026-11-21",
+            "sha256": "58f4b6490ff44405bdb537478227dd3b09c156ea31966d71dd445cf954a59956",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.showakinen-koen.jp/event/25743/",
+            "quote": "10月3日(土)～12月13日（日）の土日祝日",
+            "checked_at": "2026-11-21",
+            "sha256": "e7de87bd878cdda28643066b5cbedc0bed58f872ac153f9c80ed6d6f1a34755a",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.showakinen-koen.jp/event/25743/",
+            "quote": "※各月の第3土曜日と第3日曜日を除く",
+            "checked_at": "2026-11-21",
+            "sha256": "7217e29e56ee01fad39d94daed4350b254c1fc482fe6ec6f7c738689ab5f1139",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.showakinen-koen.jp/event/25743/",
+            "quote": "参加費300円（入園料別）",
+            "checked_at": "2026-11-21",
+            "sha256": "fe6bfae6c49acd3592a7180070b1ffb757bf2868c27903b8bccb7f9c6a9bc860",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.showakinen-koen.jp/event/25743/",
+            "quote": "対象小学生・中学生協力立川市クラフト同好会",
+            "checked_at": "2026-11-21",
+            "sha256": "be1fa01703bdb54216959688e383c0479c0583fdfb1f34537812f26ccd537369",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-21",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  },
+  {
+    "id": "verified-20261121-tachikawa-showakinen-greenexpo-20261123",
+    "ward": "立川市",
+    "name": "GREEN×EXPO 2027ってなんだろう？ Vol.5 ペーパークラフト・缶バッジづくり（国営昭和記念公園）",
+    "url": "https://www.showakinen-koen.jp/event/77455/",
+    "official_url": "https://www.showakinen-koen.jp/event/77455/",
+    "source": "https://www.showakinen-koen.jp/event/77455/",
+    "image": "https://www.showakinen-koen.jp/wp-content/uploads/2026/11/f335fc68fdb36ab92931f4d0adff894e.jpg",
+    "period": "11/23(月・祝) 9:30〜16:00（パネル展示は29日まで）",
+    "date_start": "2026-11-23",
+    "date_end": "2026-11-23",
+    "time": "9:30〜16:00",
+    "venue": "国営昭和記念公園 総合案内所（立川市緑町3173、あけぼの口から徒歩1分）",
+    "price": "無料（駐車料は別途）",
+    "description": "2027年3月に横浜で開かれる「GREEN×EXPO 2027」のマスコット「トゥンクトゥンク」のペーパークラフト（先着100名）と缶バッジ（先着250名）を作るワークショップ。1回5〜15分で、ハサミを使わず小さな子どもでも作れる。パネル展示は11/29まで。",
+    "categories": [
+      "体験・ワークショップ",
+      "工作"
+    ],
+    "indoor_outdoor": "屋外",
+    "reservation": {
+      "required": false,
+      "note": "当日受付（先着順）。事前予約は不要。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "無料で、5〜15分でできるペーパークラフトと缶バッジづくり。小さな子どもでも作れるが、先着順で数に限りがある。",
+      "axes": {
+        "child_target": {
+          "grade": "B",
+          "reason": "子ども向けとは限らないが、小さな子どもでも作れる内容"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "作って持ち帰る体験"
+        },
+        "age_fit": {
+          "grade": "A",
+          "reason": "ハサミを使わず、小さな子どもでも作れる"
+        },
+        "stay_flexibility": {
+          "grade": "B",
+          "reason": "9:30〜16:00の間で好きな時間に参加できる"
+        },
+        "burden": {
+          "grade": "B",
+          "reason": "先着順（100名・250名）で、遅いと終わる"
+        },
+        "cost": {
+          "grade": "A",
+          "reason": "無料（駐車料は別）"
+        },
+        "reservation": {
+          "grade": "A",
+          "reason": "事前予約は不要（当日受付）"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "公園で遊ぶついでに、短時間で記念品を作れる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-21",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "all_ages",
+        "child_activity_confirmed": false,
+        "strengths": [
+          "無料で、5〜15分の短い体験",
+          "ハサミを使わず、小さな子どもでも作れる"
+        ],
+        "limitations": [
+          "先着順で、数に限りがある",
+          "駐車料や入園料は別に必要な場合がある"
+        ],
+        "grade_comparison": "総合B：無料の短時間の工作体験。先着順で、遅い時間は終わる場合がある。",
+        "unsupported_axes": [],
+        "evidence": [
+          {
+            "url": "https://www.showakinen-koen.jp/event/77455/",
+            "quote": "ハサミを使わないので、小さなお子様でも簡単に作ることが出来ます。",
+            "checked_at": "2026-11-21",
+            "sha256": "bd2977b1fcb57ffcc99ac3187a93691fe778d535f93a11776cff2867a3eb2f1c",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.showakinen-koen.jp/event/77455/",
+            "quote": "5～15分程度先着100名",
+            "checked_at": "2026-11-21",
+            "sha256": "728e787ee8ce78a1ec76b0fd411a5079362f0b270580cf0828376dfef1fe9343",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.showakinen-koen.jp/event/77455/",
+            "quote": "5～15分程度先着250名",
+            "checked_at": "2026-11-21",
+            "sha256": "2c4b3b99c253f3563f93ee2b4b047466b9299cff80f6016367846ca3f0793123",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.showakinen-koen.jp/event/77455/",
+            "quote": "2026年11月23日（月祝）9：30～16：00",
+            "checked_at": "2026-11-21",
+            "sha256": "1f89463c8e5a99ca45052d1ae36eb83b55813b3b558efbd8ca31d22e1a5a602d",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.showakinen-koen.jp/event/77455/",
+            "quote": "参加費無料※駐車料は別途必要。",
+            "checked_at": "2026-11-21",
+            "sha256": "9199b818af59a77d9371aaafcea7d62180e341229f9aee9b9988aef4a75b2670",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-21",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  }
+]

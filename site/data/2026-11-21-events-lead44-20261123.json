@@ -1,0 +1,256 @@
+[
+  {
+    "id": "verified-20261121-shibuya-hachilabo-space-exhibition-2026",
+    "ward": "渋谷区",
+    "name": "《特別展》ハチラボ宇宙展（こども科学センター・ハチラボ）",
+    "url": "https://shibu-cul.jp/hachilabo/tenji",
+    "official_url": "https://shibu-cul.jp/hachilabo/tenji",
+    "source": "https://shibu-cul.jp/hachilabo/tenji",
+    "image": "",
+    "period": "11/17(火)〜1/17(日)",
+    "date_start": "2026-11-17",
+    "date_end": "2027-01-17",
+    "time": "時間の記載なし（公式ページで確認）",
+    "venue": "こども科学センター・ハチラボ（渋谷区桜丘町23-21、渋谷区文化総合センター大和田3F）",
+    "price": "無料",
+    "description": "渋谷の科学館ハチラボで開く、宇宙をテーマにした体験型の特別展。見て、さわって、考える展示で、入館料は無料。",
+    "categories": [
+      "科学・自然",
+      "体験・ワークショップ"
+    ],
+    "indoor_outdoor": "屋内",
+    "reservation": {
+      "required": false,
+      "note": "展示の観覧に申込の記載なし。"
+    },
+    "family_fit": {
+      "grade": "A",
+      "overall": "A",
+      "rubric_version": "family-fit-v2",
+      "reason": "宇宙をテーマにした体験型の特別展。入館無料で、小さな子から小・中学生まで、展示で遊びながら学べる。開館時間は公式ページに記載がない。",
+      "axes": {
+        "child_target": {
+          "grade": "A",
+          "reason": "子ども向けの内容（公式ページに年齢の目安がある）"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "つくる・実験するなど体験ができる"
+        },
+        "age_fit": {
+          "grade": "A",
+          "reason": "未就学児から参加できる"
+        },
+        "stay_flexibility": {
+          "grade": "A",
+          "reason": "期間が長く、好きな日に行ける"
+        },
+        "burden": {
+          "grade": "A",
+          "reason": "屋内で短時間。気軽に参加できる"
+        },
+        "cost": {
+          "grade": "A",
+          "reason": "無料"
+        },
+        "reservation": {
+          "grade": "A",
+          "reason": "展示の観覧に申込の記載なし"
+        },
+        "family_value": {
+          "grade": "A",
+          "reason": "子どもが楽しめる体験がある"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-23",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "child_program",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "入館無料で、2027年1月17日まで長く開いている",
+          "見て・さわって・考える体験型の展示"
+        ],
+        "limitations": [
+          "開館時間は公式ページに記載がなく、休館日がある"
+        ],
+        "grade_comparison": "総合A：入館無料で2027年1月17日まで長く開き、宇宙をテーマに見て・さわって・考えられる。時間は公式ページで確認が必要。",
+        "unsupported_axes": [],
+        "evidence": [
+          {
+            "url": "https://shibu-cul.jp/hachilabo/tenji",
+            "quote": "２０２６年１１月１７日（火）～２０２７年１月１７日（日）",
+            "checked_at": "2026-11-23",
+            "sha256": "cd2277b83b02ae9ad14676b6805fd8500bd008e08403483d89bed82a2934c168",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-23にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://shibu-cul.jp/hachilabo/tenji",
+            "quote": "見て、さわって、考える、体験型の展示を行っています。",
+            "checked_at": "2026-11-23",
+            "sha256": "e9901836deb232a672ec211313acae6acc600742c0c88bb86eb62d8ed20c0476",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-23にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://shibu-cul.jp/hachilabo",
+            "quote": "入館料はどなたでも無料で",
+            "checked_at": "2026-11-23",
+            "sha256": "75d52c4779f6f7d838b69af0ccffd61f43e5d41efa848545d4625a53f71e9a36",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-23にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。"
+          },
+          {
+            "url": "https://shibu-cul.jp/hachilabo",
+            "quote": "小さなお子様連れから小・中学生まで楽しく遊んで学べる施設です",
+            "checked_at": "2026-11-23",
+            "sha256": "8b2c7a441570c96c68a21827116d1b9a67658e50c0637b1ad186038c22082490",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-23にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-23",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  },
+  {
+    "id": "verified-20261121-shibuya-hachilabo-space-mobile-2026",
+    "ward": "渋谷区",
+    "name": "【ひらめきワークショップ】宇宙モビール（ハチラボ）",
+    "url": "https://shibu-cul.jp/event/52646#space-mobile",
+    "official_url": "https://shibu-cul.jp/event/52646#space-mobile",
+    "source": "https://shibu-cul.jp/event/52646#space-mobile",
+    "image": "",
+    "period": "11/1(日)〜11/29(日)",
+    "date_start": "2026-11-01",
+    "date_end": "2026-11-29",
+    "time": "平日13:30・15:00／土日祝11:30・13:30・15:00（各回20分）",
+    "venue": "こども科学センター・ハチラボ（渋谷区桜丘町23-21、渋谷区文化総合センター大和田3F）",
+    "price": "無料",
+    "description": "宇宙展に合わせた約20分のミニワークショップで、宇宙モビールをつくる。未就学児から参加でき、無料。",
+    "categories": [
+      "科学・自然",
+      "体験・ワークショップ"
+    ],
+    "indoor_outdoor": "屋内",
+    "reservation": {
+      "required": true,
+      "note": "要申込（先着順）。開催日の1週間前0:00から受付。申込はp-gakushu.jp/hachilabo。"
+    },
+    "family_fit": {
+      "grade": "A",
+      "overall": "A",
+      "rubric_version": "family-fit-v2",
+      "reason": "11/29まで、未就学児から参加できる20分の工作。無料で、短時間で気軽に体験できる。",
+      "axes": {
+        "child_target": {
+          "grade": "A",
+          "reason": "子ども向けの内容（公式ページに年齢の目安がある）"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "つくる・実験するなど体験ができる"
+        },
+        "age_fit": {
+          "grade": "A",
+          "reason": "未就学児から参加できる"
+        },
+        "stay_flexibility": {
+          "grade": "B",
+          "reason": "日や時間帯を選べるが、回ごとの申込が必要"
+        },
+        "burden": {
+          "grade": "A",
+          "reason": "屋内で短時間。気軽に参加できる"
+        },
+        "cost": {
+          "grade": "A",
+          "reason": "無料"
+        },
+        "reservation": {
+          "grade": "C",
+          "reason": "事前申込（先着順または抽選）が必要"
+        },
+        "family_value": {
+          "grade": "A",
+          "reason": "子どもが楽しめる体験がある"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-23",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "child_program",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "宇宙展に合わせたモビールづくりを、未就学児から体験できる",
+          "11/1〜11/29の毎日開く"
+        ],
+        "limitations": [
+          "各回4名と少人数で、開催日の1週間前から先着順の申込が必要"
+        ],
+        "grade_comparison": "総合A：宇宙展に合わせた、未就学児から参加できる無料の20分工作。11/29までで、先着順の申込が必要。",
+        "unsupported_axes": [],
+        "evidence": [
+          {
+            "url": "https://shibu-cul.jp/event/52646#space-mobile",
+            "quote": "●開催期間：11月1日（日）～11月29日（日）",
+            "checked_at": "2026-11-23",
+            "sha256": "db4600ad616d954cfd1638f800fdf1b47250651ada4d66eb05b71178e491ba4b",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-23にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://shibu-cul.jp/event/52646#space-mobile",
+            "quote": "●推奨年齢：未就学児～（小3以下は保護者同伴）",
+            "checked_at": "2026-11-23",
+            "sha256": "6d841cf6e37e836a85f80c1181da0ba56845c454ae38b09a1cd1de8172826712",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-23にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://shibu-cul.jp/event/52646#space-mobile",
+            "quote": "●申込：開催日の一週間前の0:00から先着順",
+            "checked_at": "2026-11-23",
+            "sha256": "a0aaff6a53e96d853bb1bd580d8b4a5113d06735876a2ac8255d2f65124ce487",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-23にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-23",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  }
+]

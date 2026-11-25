@@ -1,0 +1,128 @@
+[
+  {
+    "id": "verified-20261212-minato-plaza-shinmei-festival",
+    "ward": "港区",
+    "name": "プラザ神明フェスティバル2026",
+    "url": "https://www.city.minato.tokyo.jp/kouhou/event/261212-purazashinmei.html",
+    "official_url": "https://www.city.minato.tokyo.jp/kouhou/event/261212-purazashinmei.html",
+    "source": "https://www.city.minato.tokyo.jp/kouhou/event/261212-purazashinmei.html",
+    "image": "https://www.city.minato.tokyo.jp/images/182271/20261113115101.png",
+    "period": "12/12(土)",
+    "date_start": "2026-12-12",
+    "date_end": "2026-12-12",
+    "time": "時間は公式ページに記載なし",
+    "venue": "プラザ神明",
+    "price": "無料（食事代は自己負担）",
+    "description": "各種展示・体験コーナー・ステージ発表などがある、どなたでも参加できる地域のフェスティバル。",
+    "categories": [
+      "イベント・まつり",
+      "体験・ワークショップ"
+    ],
+    "indoor_outdoor": "屋内",
+    "reservation": {
+      "required": false,
+      "note": "当日直接会場へ。一部のイベントは申し込みが必要。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "各種展示・体験コーナー・ステージ発表などがある、どなたでも参加できる地域のフェスティバル。無料（食事代は自己負担）。申込の案内はなく、当日参加できる。",
+      "axes": {
+        "child_target": {
+          "grade": "B",
+          "reason": "どなたでも参加できる地域のフェスティバル"
+        },
+        "interactivity": {
+          "grade": "B",
+          "reason": "体験コーナーやステージ発表"
+        },
+        "age_fit": {
+          "grade": "unknown",
+          "reason": "対象年齢の目安は明記がない"
+        },
+        "stay_flexibility": {
+          "grade": "B",
+          "reason": "時間は公式ページに記載なし"
+        },
+        "burden": {
+          "grade": "B",
+          "reason": "開始時間の記載がない"
+        },
+        "cost": {
+          "grade": "A",
+          "reason": "無料（食事代は自己負担）"
+        },
+        "reservation": {
+          "grade": "B",
+          "reason": "当日直接会場へ。一部は申込が必要"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "親子で体験コーナーを回れる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-19",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "child_program",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "無料",
+          "体験コーナーがある"
+        ],
+        "limitations": [
+          "開始時間の記載がない",
+          "一部のイベントは申込が必要"
+        ],
+        "grade_comparison": "総合B：12/12(土)のプラザ神明で時間は公式ページに記載なしの開催。無料（食事代は自己負担）。申込不要で気軽に参加できる。",
+        "unsupported_axes": [
+          "age_fit"
+        ],
+        "evidence": [
+          {
+            "url": "https://www.city.minato.tokyo.jp/kouhou/event/261212-purazashinmei.html",
+            "quote": "プラザ神明フェスティバル2026",
+            "checked_at": "2026-11-19",
+            "sha256": "21b69a57dc3cb8920001425d547eedbdc8d57c2d7818eaeb9b901e4c10bbd99e",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "港区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.minato.tokyo.jp/kouhou/event/261212-purazashinmei.html",
+            "quote": "イベント詳細各種展示・体験コーナー・ステージ発表等対象どなたでも開催場所プラザ神明（ステージ観覧は靴の履き替えが必要です。室内履き・靴袋を持参してください）費用無料（食事代は自己負担）申込・予約当日直接会場へ（一部のイベントは申し込みが必要です。電話または直接、神明いきいきプラザへ）。",
+            "checked_at": "2026-11-19",
+            "sha256": "2212f8b37de4a82a082ee59a1ecc658f2a6d0e02a4d8a24d8123dc293449a929",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "港区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.minato.tokyo.jp/cgi-bin/event_cal_multi/calendar.cgi?type=3&year=2026&month=12&day=12",
+            "quote": "プラザ神明フェスティバル20262026年12月12日（土曜日）",
+            "checked_at": "2026-11-19",
+            "sha256": "8a43681ba11ce82e745ef9b805f0e128654ce8556b88aea469fe5f7bb468db17",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "港区公式イベントカレンダーの日別ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。開催日の確認用。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-19",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  }
+]

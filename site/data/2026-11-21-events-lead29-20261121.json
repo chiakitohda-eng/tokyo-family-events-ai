@@ -1,0 +1,266 @@
+[
+  {
+    "id": "verified-20261123-tama-news-sports-taiken",
+    "ward": "多摩市",
+    "name": "ニュースポーツ体験教室（リフォームプライス多摩アリーナ）",
+    "url": "https://www.city.tama.lg.jp/kenkofukushi/1008238/sports/joho/suisin/1014545/1018413.html",
+    "official_url": "https://www.city.tama.lg.jp/kenkofukushi/1008238/sports/joho/suisin/1014545/1018413.html",
+    "source": "https://www.city.tama.lg.jp/kenkofukushi/1008238/sports/joho/suisin/1014545/1018413.html",
+    "image": "",
+    "period": "11/23(月・祝)",
+    "date_start": "2026-11-23",
+    "date_end": "2026-11-23",
+    "time": "9:20〜11:30",
+    "venue": "リフォームプライス多摩アリーナ（総合体育館）第1スポーツホール",
+    "price": "無料（費用不要）",
+    "description": "ネオテニス、ボッチャ、モルックなどのニュースポーツを体験する教室。年齢や運動経験に関係なく楽しめる内容で、対象は小学生以上。申込不要で、当日会場へ行く。室内シューズ、タオル、飲み物が必要。",
+    "categories": [
+      "スポーツ",
+      "体験・ワークショップ"
+    ],
+    "indoor_outdoor": "屋内",
+    "reservation": {
+      "required": false,
+      "note": "申込不要。当日会場へ。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "小学生以上が対象の、ネオテニス・ボッチャ・モルックを体験できる無料の教室。申込不要で、年齢や運動経験を問わない。",
+      "axes": {
+        "child_target": {
+          "grade": "B",
+          "reason": "対象は小学生以上で、子どもから大人まで参加できる"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "ネオテニス・ボッチャ・モルックを体験する参加型"
+        },
+        "age_fit": {
+          "grade": "B",
+          "reason": "対象は小学生以上（未就学児は対象外）"
+        },
+        "stay_flexibility": {
+          "grade": "B",
+          "reason": "9:20〜11:30の1回"
+        },
+        "burden": {
+          "grade": "A",
+          "reason": "申込不要で、当日会場へ行く"
+        },
+        "cost": {
+          "grade": "A",
+          "reason": "費用は不要"
+        },
+        "reservation": {
+          "grade": "A",
+          "reason": "申込不要"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "親子で新しいスポーツを無料で体験できる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-21",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "all_ages",
+        "child_activity_confirmed": false,
+        "strengths": [
+          "無料・申込不要で、道具を使った体験ができる",
+          "年齢や運動経験を問わない"
+        ],
+        "limitations": [
+          "対象は小学生以上で、未就学児は対象外",
+          "室内シューズ・タオル・飲み物の持参が必要"
+        ],
+        "grade_comparison": "総合B：無料・申込不要のスポーツ体験。小学生以上向けで、未就学児は参加できない。",
+        "unsupported_axes": [],
+        "evidence": [
+          {
+            "url": "https://www.city.tama.lg.jp/kenkofukushi/1008238/sports/joho/suisin/1014545/1018413.html",
+            "quote": "ニュースポーツ体験教室～子どもから大人まで、誰でも楽しめるスポーツ体験～",
+            "checked_at": "2026-11-21",
+            "sha256": "e5f6af99314ee25e8fcd42b656ed53f4d6342385244ffe7c041e4ddc87a7ba41",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.tama.lg.jp/kenkofukushi/1008238/sports/joho/suisin/1014545/1018413.html",
+            "quote": "開催日 2026年11月23日（月曜日） 2027年1月10日（日曜日） 、3月20日（土曜日） 開催時間 午前9時20分 から 午前11時30分 まで",
+            "checked_at": "2026-11-21",
+            "sha256": "30c6817f11b01f560d52883e33a8e29c508549639caf6075cded6b0ff05db6a7",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.tama.lg.jp/kenkofukushi/1008238/sports/joho/suisin/1014545/1018413.html",
+            "quote": "開催場所 リフォームプライス多摩アリーナ（総合体育館）第1スポーツホール 対象 小学生以上 内容 ネオテニス / ボッチャ / モルック等",
+            "checked_at": "2026-11-21",
+            "sha256": "aa7ab9e1c5c82873331fd83146bed3c1fdb5e4216eb9410b11c9f70b534b49d3",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.tama.lg.jp/kenkofukushi/1008238/sports/joho/suisin/1014545/1018413.html",
+            "quote": "申込み 不要 ※当日会場にお越しください。 費用 不要",
+            "checked_at": "2026-11-21",
+            "sha256": "001924e033eb72e741e7890bb30c5f9326fa717b934df67711e984511725ce96",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-21",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  },
+  {
+    "id": "verified-20261121-tama-center-illumination-2026",
+    "ward": "多摩市",
+    "name": "多摩センターイルミネーション2026（パルテノン大通り周辺）",
+    "url": "https://www.city.tama.lg.jp/kurashi/machi/tamacenter/1011236/1013499.html",
+    "official_url": "https://www.city.tama.lg.jp/kurashi/machi/tamacenter/1011236/1013499.html",
+    "source": "https://www.city.tama.lg.jp/kurashi/machi/tamacenter/1011236/1013499.html",
+    "image": "",
+    "period": "〜1/11(月)の毎日（11/14から開催中）",
+    "date_start": "2026-11-21",
+    "date_end": "2027-01-11",
+    "time": "16:30〜22:30（ハローキティバルーンイルミは20:30まで）",
+    "venue": "多摩センターパルテノン大通り周辺",
+    "price": "無料（費用不要）",
+    "description": "多摩センター駅前のパルテノン大通り周辺で行われる冬のイルミネーション。開催期間は2026年11月14日から2027年1月11日まで。ハローキティバルーンイルミの点灯は20:30まで。クスノキイルミネーションは2027年2月28日まで点灯する。",
+    "categories": [
+      "まつり・イベント",
+      "自然・散歩"
+    ],
+    "indoor_outdoor": "屋外",
+    "reservation": {
+      "required": false,
+      "note": "申込の記載なし。費用は不要。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "多摩センター駅前で、2027年1月11日まで毎日点灯する無料のイルミネーション。ハローキティのバルーンイルミもあり、家族で夜の散歩ができる。",
+      "axes": {
+        "child_target": {
+          "grade": "B",
+          "reason": "対象の限定はなく、ハローキティのバルーンイルミがある"
+        },
+        "interactivity": {
+          "grade": "C",
+          "reason": "見て歩く内容が中心"
+        },
+        "age_fit": {
+          "grade": "B",
+          "reason": "年齢の限定はない"
+        },
+        "stay_flexibility": {
+          "grade": "A",
+          "reason": "期間中の16:30〜22:30に、好きな時間に立ち寄れる"
+        },
+        "burden": {
+          "grade": "B",
+          "reason": "屋外で、夜間の寒さと帰りの時間に注意"
+        },
+        "cost": {
+          "grade": "A",
+          "reason": "費用は不要"
+        },
+        "reservation": {
+          "grade": "A",
+          "reason": "申込の記載なし"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "冬の夜に家族で無料のイルミネーションを楽しめる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-21",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "all_ages",
+        "child_activity_confirmed": false,
+        "strengths": [
+          "無料で、期間が長く、好きな時間に立ち寄れる",
+          "ハローキティのバルーンイルミがある"
+        ],
+        "limitations": [
+          "屋外で夜間のため、防寒と帰りの時間に注意",
+          "バルーンイルミの点灯は20:30まで"
+        ],
+        "grade_comparison": "総合B：無料で立ち寄りやすい冬のイルミネーション。体験型ではなく、屋外で夜の開催。",
+        "unsupported_axes": [],
+        "evidence": [
+          {
+            "url": "https://www.city.tama.lg.jp/kurashi/machi/tamacenter/1011236/1013499.html",
+            "quote": "多摩センターイルミネーション2026 点灯スケジュール",
+            "checked_at": "2026-11-21",
+            "sha256": "13279301028a6820a818560f7790450d9dce7587eef760a371240a181b8e3396",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.tama.lg.jp/kurashi/machi/tamacenter/1011236/1013499.html",
+            "quote": "開催期間 2026年11月14日（土曜日）から2027年1月11日（月曜日）まで",
+            "checked_at": "2026-11-21",
+            "sha256": "be0464c797f11dbabed7706d5743b114fa65f4b5b000200581a7ccc2749499aa",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.tama.lg.jp/kurashi/machi/tamacenter/1011236/1013499.html",
+            "quote": "開催時間 午後4時30分 から 午後10時30分 まで ※ハローキティバルーンイルミの点灯時間は20時30分まで",
+            "checked_at": "2026-11-21",
+            "sha256": "a60733bed641723c1ce9e74f69b46a0e3a1c4636390d9bdd35f3657f47428469",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.tama.lg.jp/kurashi/machi/tamacenter/1011236/1013499.html",
+            "quote": "開催場所 多摩センターパルテノン大通り周辺 費用 不要",
+            "checked_at": "2026-11-21",
+            "sha256": "8b12241c8ffa0aa6a5c544b20c00510c92ded56734f5da9f056730e5dfe6e5c0",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-21",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  }
+]

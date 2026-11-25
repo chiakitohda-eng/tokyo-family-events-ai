@@ -1,0 +1,135 @@
+[
+  {
+    "id": "verified-20261205-edogawa-volunteer-festival",
+    "ward": "江戸川区",
+    "name": "2026えどがわボランティアフェスティバル",
+    "url": "https://www.city.edogawa.tokyo.jp/event/261205volunteer.html",
+    "official_url": "https://www.city.edogawa.tokyo.jp/event/261205volunteer.html",
+    "source": "https://www.city.edogawa.tokyo.jp/event/261205volunteer.html",
+    "image": "",
+    "period": "12/5(土)",
+    "date_start": "2026-12-05",
+    "date_end": "2026-12-05",
+    "time": "10:00〜15:00",
+    "venue": "タワーホール船堀 1階展示ホール・2階平安",
+    "price": "無料",
+    "description": "ボランティア団体の活動紹介、ステージ発表、フリーマーケットなどがある地域のフェスティバル。",
+    "categories": [
+      "祭り",
+      "地域交流"
+    ],
+    "indoor_outdoor": "屋内",
+    "reservation": {
+      "required": false,
+      "note": "申込不要。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "ボランティア団体の活動紹介、ステージ発表、フリーマーケットなどがある地域のフェスティバル。無料。申込の案内はなく、当日参加できる。",
+      "axes": {
+        "child_target": {
+          "grade": "B",
+          "reason": "地域の家族連れが参加できるフェスティバル"
+        },
+        "interactivity": {
+          "grade": "B",
+          "reason": "ステージ発表や活動紹介を見て回る"
+        },
+        "age_fit": {
+          "grade": "unknown",
+          "reason": "対象年齢の目安は明記がない"
+        },
+        "stay_flexibility": {
+          "grade": "B",
+          "reason": "10:00〜15:00"
+        },
+        "burden": {
+          "grade": "A",
+          "reason": "申込不要で出入り自由"
+        },
+        "cost": {
+          "grade": "A",
+          "reason": "無料"
+        },
+        "reservation": {
+          "grade": "A",
+          "reason": "申込不要"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "ステージやフリマを家族で見られる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-19",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "child_program",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "申込不要",
+          "無料"
+        ],
+        "limitations": [
+          "子ども向け企画の詳細は公式ページに記載なし"
+        ],
+        "grade_comparison": "総合B：12/5(土)のタワーホール船堀 1階展示ホール・2階平安で10:00〜15:00の開催。無料。申込不要で気軽に参加できる。",
+        "unsupported_axes": [
+          "age_fit"
+        ],
+        "evidence": [
+          {
+            "url": "https://www.city.edogawa.tokyo.jp/event/261205volunteer.html",
+            "quote": "2026えどがわボランティアフェスティバル",
+            "checked_at": "2026-11-19",
+            "sha256": "ba9b51a8bfddab36984a0c69bf96dcc26c3b7b0e85db147b2ce5be180cb1c63a",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "江戸川区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.edogawa.tokyo.jp/event/261205volunteer.html",
+            "quote": "開催日時2026年12月5日（土曜日）10時00分から15時00分",
+            "checked_at": "2026-11-19",
+            "sha256": "434b03c80477a7c2b81efd83f977f19636b256616d98c7b5aab1a767fdb08fad",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "江戸川区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.edogawa.tokyo.jp/event/261205volunteer.html",
+            "quote": "場所タワーホール船堀1階展示ホール・2階平安",
+            "checked_at": "2026-11-19",
+            "sha256": "70f55db3bb8128e307adfbbaf144b29b72d17484a192643687107c657261e1bf",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "江戸川区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.edogawa.tokyo.jp/event/261205volunteer.html",
+            "quote": "内容ボランティア団体による活動紹介、ステージ発表、フリーマーケットほか",
+            "checked_at": "2026-11-19",
+            "sha256": "fa48910da378823d0fbd794bad778c44211ace624e27f6a8405c198e4d150c72",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "江戸川区公式ページ（2026-11-19にHTTP200で取得、research/2026-11-19-audit/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-19",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  }
+]

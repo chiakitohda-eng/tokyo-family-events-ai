@@ -1,0 +1,436 @@
+[
+  {
+    "id": "verified-20261205-minato-ogimama-book-christmas",
+    "ward": "港区",
+    "name": "尾木ママと親子で楽しむ 本と出会うクリスマス",
+    "url": "https://kodomo-smile.metro.tokyo.lg.jp/stp/kodomo_ambassador/r8_ogisan_event.html",
+    "official_url": "https://kodomo-smile.metro.tokyo.lg.jp/stp/kodomo_ambassador/r8_ogisan_event.html",
+    "source": "https://kodomo-smile.metro.tokyo.lg.jp/stp/kodomo_ambassador/r8_ogisan_event.html",
+    "image": "https://kodomo-smile.metro.tokyo.lg.jp/images/kodomo_ambassador/img_ogimama.png",
+    "period": "12/5(土)",
+    "date_start": "2026-12-05",
+    "date_end": "2026-12-05",
+    "time": "第1部13:00〜14:00／第2部15:00〜16:00",
+    "venue": "BUNKITSU TOKYO Gallery B（港区高輪2-21-2 NEWoMan高輪 South 5F）",
+    "price": "参加費無料",
+    "description": "東京都こどもスマイルムーブメントの親子ワークショップ。第1部は未就学児（3〜6歳）と保護者で絵本の読み聞かせとクリスマスカード作り、第2部は小学1〜3年生（4〜6年生も可）と保護者で絵本をきっかけに親子で語り合う。各回15組、事前応募・抽選制（締切11/24）。",
+    "categories": [
+      "体験・ワークショップ",
+      "本・読み聞かせ"
+    ],
+    "indoor_outdoor": "屋内",
+    "reservation": {
+      "required": true,
+      "note": "事前応募・抽選制。応募締切は11/24（火）、抽選結果は11/26以降にメール連絡予定。都内在住・在勤・在学のいずれかに該当する方が対象。"
+    },
+    "family_fit": {
+      "grade": "A",
+      "overall": "A",
+      "rubric_version": "family-fit-v2",
+      "reason": "未就学児〜小学生と保護者が一緒に参加する、絵本の読み聞かせとカード作りのワークショップで参加費無料。事前応募・抽選制で定員は各回15組。",
+      "axes": {
+        "child_target": {
+          "grade": "A",
+          "reason": "未就学児（3〜6歳）と小学1〜3年生の親子向けのワークショップ"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "クリスマスカード作りや親子の対話など参加型の内容"
+        },
+        "age_fit": {
+          "grade": "A",
+          "reason": "第1部は3〜6歳、第2部は小学1〜3年生と対象年齢が明記されている"
+        },
+        "stay_flexibility": {
+          "grade": "B",
+          "reason": "各部1時間で、開始時刻に遅れると参加できない場合がある"
+        },
+        "burden": {
+          "grade": "B",
+          "reason": "事前応募・抽選制で、当選後も開始時刻までに集合が必要"
+        },
+        "cost": {
+          "grade": "A",
+          "reason": "参加費無料"
+        },
+        "reservation": {
+          "grade": "B",
+          "reason": "事前応募・抽選制（締切11/24）で定員は各回15組"
+        },
+        "family_value": {
+          "grade": "A",
+          "reason": "親子で絵本とカード作りを無料で楽しめる。会場周辺に託児サービスもある"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-21",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "child_program",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "参加費無料で、親子で読み聞かせとカード作りを体験できる",
+          "同じフロアに授乳室・おむつ交換室がある"
+        ],
+        "limitations": [
+          "事前応募・抽選制で当たらない場合がある",
+          "都内在住・在勤・在学が対象で、各回15組と少人数"
+        ],
+        "grade_comparison": "総合A：未就学児〜小学生の親子向けで無料。抽選制・少人数が条件。",
+        "unsupported_axes": [],
+        "evidence": [
+          {
+            "url": "https://kodomo-smile.metro.tokyo.lg.jp/stp/kodomo_ambassador/r8_ogisan_event.html",
+            "quote": "12月5日(土) 第一部 13:00~14:00 第二部 15:00~16:00",
+            "checked_at": "2026-11-21",
+            "sha256": "b2598d705d1209a0f6d3ebb236b1d59b4be57c237c50f1755a82be8fe85ada54",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://kodomo-smile.metro.tokyo.lg.jp/stp/kodomo_ambassador/r8_ogisan_event.html",
+            "quote": "BUNKITSU TOKYO Gallery B",
+            "checked_at": "2026-11-21",
+            "sha256": "4911ab0ce6ed672712c301da9ea0b3abe62c538a57bf2c03015fcd6b622ac6bf",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://kodomo-smile.metro.tokyo.lg.jp/stp/kodomo_ambassador/r8_ogisan_event.html",
+            "quote": "参加費 無料【注意】事前応募、抽選制",
+            "checked_at": "2026-11-21",
+            "sha256": "21adad141ec2f0ca838c0590f549cc4726fcdb0316bca6a301f6aee80006a1c7",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://kodomo-smile.metro.tokyo.lg.jp/stp/kodomo_ambassador/r8_ogisan_event.html",
+            "quote": "応募締切 令和8年11月24日（火）",
+            "checked_at": "2026-11-21",
+            "sha256": "303a6e7cb1cd0ad7733b3b8a11ae852c93c67d26f038af3719471459202a0421",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://kodomo-smile.metro.tokyo.lg.jp/stp/kodomo_ambassador/r8_ogisan_event.html",
+            "quote": "第1部 未就学児（3〜6歳）、第2部 小学1〜3年生 （小学4〜6年生も参加可）",
+            "checked_at": "2026-11-21",
+            "sha256": "968a6465430fdff1327b153feb013d96ec41392de48942a2f914a61b89db9f7f",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://kodomo-smile.metro.tokyo.lg.jp/stp/kodomo_ambassador/r8_ogisan_event.html",
+            "quote": "都内在住・在勤・在学のいずれかに該当する方",
+            "checked_at": "2026-11-21",
+            "sha256": "fd8c77633e5702e9be3650fa3d0c40e6950f21a3d784e486a5b8d388ab56c7b1",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://kodomo-smile.metro.tokyo.lg.jp/stp/kodomo_ambassador/r8_ogisan_event.html",
+            "quote": "お子様と保護者の方が一緒にご参加いただくことを前提としたプログラム",
+            "checked_at": "2026-11-21",
+            "sha256": "a310f04981ed2482bdf47ffb0357d210d22f520891b3a95c96c2b4046a578ae5",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-21",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  },
+  {
+    "id": "verified-20261205-chiyoda-human-rights-festa",
+    "ward": "千代田区",
+    "name": "ヒューマンライツ・フェスタ東京2026（東京国際フォーラム）",
+    "url": "https://www.hrf-tokyo-2026.metro.tokyo.lg.jp/",
+    "official_url": "https://www.hrf-tokyo-2026.metro.tokyo.lg.jp/",
+    "source": "https://www.hrf-tokyo-2026.metro.tokyo.lg.jp/",
+    "image": "https://www.hrf-tokyo-2026.metro.tokyo.lg.jp/assets/img/ogp.png",
+    "period": "12/5(土)",
+    "date_start": "2026-12-05",
+    "date_end": "2026-12-05",
+    "time": "10:00〜16:00",
+    "venue": "東京国際フォーラム（JR有楽町駅国際フォーラム口改札から徒歩1分）",
+    "price": "参加費無料",
+    "description": "東京都が開く人権啓発イベント。トークショー、お笑い・音楽ライブ、車いすバスケや点字などの体験コーナーなどがあり、東京国際フォーラム会場は1歳以上の未就学児の無料託児（7名・先着順、事務局へ連絡）もある。日ごとの出演者・体験内容は公式サイトで確認。",
+    "categories": [
+      "まつり・イベント",
+      "体験・ワークショップ"
+    ],
+    "indoor_outdoor": "屋内",
+    "reservation": {
+      "required": null,
+      "note": "一部プログラムは事前抽選（申込締切11/23）だが、当日席もある。入場自体の事前申込の記載なし。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "公式サイトに「おとなから子どもまで」とあり、体験コーナーや無料託児（1歳以上の未就学児）があるが、全体は幅広い年代向けの人権啓発イベント。",
+      "axes": {
+        "child_target": {
+          "grade": "B",
+          "reason": "「おとなから子どもまで」と案内されるが、子ども専用の企画ではない"
+        },
+        "interactivity": {
+          "grade": "B",
+          "reason": "車いすバスケ体験・点字体験など体験コーナーがあるが、ステージ鑑賞も多い"
+        },
+        "age_fit": {
+          "grade": "B",
+          "reason": "託児は1歳以上の未就学児が対象で、年齢別の案内は限られる"
+        },
+        "stay_flexibility": {
+          "grade": "B",
+          "reason": "10:00から終日開催で、プログラムを選んで参加できる"
+        },
+        "burden": {
+          "grade": "B",
+          "reason": "一部プログラムは事前抽選が優先で、当日席もある"
+        },
+        "cost": {
+          "grade": "A",
+          "reason": "参加費無料"
+        },
+        "reservation": {
+          "grade": "B",
+          "reason": "事前抽選のプログラムがあるが、当日席もある"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "無料で体験とステージを家族で楽しめ、託児もある"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-21",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "all_ages",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "参加費無料で、体験コーナーと無料託児がある"
+        ],
+        "limitations": [
+          "一部は事前抽選が優先で、日ごとの内容は公式サイトで要確認",
+          "子ども専用のイベントではない"
+        ],
+        "grade_comparison": "総合B：12/5(土)は東京国際フォーラムで無料で参加でき、体験コーナーや託児があるが、幅広い年代向けで一部は事前抽選。",
+        "unsupported_axes": [],
+        "evidence": [
+          {
+            "url": "https://www.hrf-tokyo-2026.metro.tokyo.lg.jp/",
+            "quote": "2026年12月5日（土） 10：00～16：00 ／東京国際フォーラム",
+            "checked_at": "2026-11-21",
+            "sha256": "321f74ab6c4cac902af9a174edeac4af8ccd212f663decd87cb208f2dcddaa32",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.hrf-tokyo-2026.metro.tokyo.lg.jp/",
+            "quote": "主 催 東京都 参加費 無 料 PDFダウンロード",
+            "checked_at": "2026-11-21",
+            "sha256": "2376d8f08e7f4d2eb38660f7492fc1fdf63c22b574c668792302a5c57fee8d7c",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.hrf-tokyo-2026.metro.tokyo.lg.jp/",
+            "quote": "おとなから子どもまで、 楽しみながら",
+            "checked_at": "2026-11-21",
+            "sha256": "e4cee3d245e8e2e876b10b4b53ae1bcc56ad9bdea75745227273d0e1cda8fb5a",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.hrf-tokyo-2026.metro.tokyo.lg.jp/",
+            "quote": "東京国際フォーラム会場は託児を受け付けております。",
+            "checked_at": "2026-11-21",
+            "sha256": "1aa59f47b98bbdcdfd153859cffbbf102f7a62424767368e76f2954c5a998563",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.hrf-tokyo-2026.metro.tokyo.lg.jp/",
+            "quote": "※当日席もご用意しております。",
+            "checked_at": "2026-11-21",
+            "sha256": "71b7b2f3f81c85fe519d9e831f762c47a2aa6df773bfa46de3ee93797b6749ea",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-21",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  },
+  {
+    "id": "verified-20261206-chiyoda-human-rights-festa",
+    "ward": "千代田区",
+    "name": "ヒューマンライツ・フェスタ東京2026（東京国際フォーラム）",
+    "url": "https://www.hrf-tokyo-2026.metro.tokyo.lg.jp/",
+    "official_url": "https://www.hrf-tokyo-2026.metro.tokyo.lg.jp/",
+    "source": "https://www.hrf-tokyo-2026.metro.tokyo.lg.jp/",
+    "image": "https://www.hrf-tokyo-2026.metro.tokyo.lg.jp/assets/img/ogp.png",
+    "period": "12/6(日)",
+    "date_start": "2026-12-06",
+    "date_end": "2026-12-06",
+    "time": "10:00〜15:30",
+    "venue": "東京国際フォーラム（JR有楽町駅国際フォーラム口改札から徒歩1分）",
+    "price": "参加費無料",
+    "description": "東京都が開く人権啓発イベント。トークショー、お笑い・音楽ライブ、車いすバスケや点字などの体験コーナーなどがあり、東京国際フォーラム会場は1歳以上の未就学児の無料託児（7名・先着順、事務局へ連絡）もある。日ごとの出演者・体験内容は公式サイトで確認。",
+    "categories": [
+      "まつり・イベント",
+      "体験・ワークショップ"
+    ],
+    "indoor_outdoor": "屋内",
+    "reservation": {
+      "required": null,
+      "note": "一部プログラムは事前抽選（申込締切11/23）だが、当日席もある。入場自体の事前申込の記載なし。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "公式サイトに「おとなから子どもまで」とあり、体験コーナーや無料託児（1歳以上の未就学児）があるが、全体は幅広い年代向けの人権啓発イベント。",
+      "axes": {
+        "child_target": {
+          "grade": "B",
+          "reason": "「おとなから子どもまで」と案内されるが、子ども専用の企画ではない"
+        },
+        "interactivity": {
+          "grade": "B",
+          "reason": "車いすバスケ体験・点字体験など体験コーナーがあるが、ステージ鑑賞も多い"
+        },
+        "age_fit": {
+          "grade": "B",
+          "reason": "託児は1歳以上の未就学児が対象で、年齢別の案内は限られる"
+        },
+        "stay_flexibility": {
+          "grade": "B",
+          "reason": "10:00から終日開催で、プログラムを選んで参加できる"
+        },
+        "burden": {
+          "grade": "B",
+          "reason": "一部プログラムは事前抽選が優先で、当日席もある"
+        },
+        "cost": {
+          "grade": "A",
+          "reason": "参加費無料"
+        },
+        "reservation": {
+          "grade": "B",
+          "reason": "事前抽選のプログラムがあるが、当日席もある"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "無料で体験とステージを家族で楽しめ、託児もある"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-21",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "all_ages",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "参加費無料で、体験コーナーと無料託児がある"
+        ],
+        "limitations": [
+          "一部は事前抽選が優先で、日ごとの内容は公式サイトで要確認",
+          "子ども専用のイベントではない"
+        ],
+        "grade_comparison": "総合B：12/6(日)は東京国際フォーラムで無料で参加でき、体験コーナーや託児があるが、幅広い年代向けで一部は事前抽選。",
+        "unsupported_axes": [],
+        "evidence": [
+          {
+            "url": "https://www.hrf-tokyo-2026.metro.tokyo.lg.jp/",
+            "quote": "2026年12月6日（日） 10：00～15：30 ／東京国際フォーラム",
+            "checked_at": "2026-11-21",
+            "sha256": "8ae5c1bf13f1780a2f1b1e91f197a898ba8eaa6db00ab1ab709625973c89c824",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.hrf-tokyo-2026.metro.tokyo.lg.jp/",
+            "quote": "主 催 東京都 参加費 無 料 PDFダウンロード",
+            "checked_at": "2026-11-21",
+            "sha256": "2376d8f08e7f4d2eb38660f7492fc1fdf63c22b574c668792302a5c57fee8d7c",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.hrf-tokyo-2026.metro.tokyo.lg.jp/",
+            "quote": "おとなから子どもまで、 楽しみながら",
+            "checked_at": "2026-11-21",
+            "sha256": "e4cee3d245e8e2e876b10b4b53ae1bcc56ad9bdea75745227273d0e1cda8fb5a",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.hrf-tokyo-2026.metro.tokyo.lg.jp/",
+            "quote": "東京国際フォーラム会場は託児を受け付けております。",
+            "checked_at": "2026-11-21",
+            "sha256": "1aa59f47b98bbdcdfd153859cffbbf102f7a62424767368e76f2954c5a998563",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.hrf-tokyo-2026.metro.tokyo.lg.jp/",
+            "quote": "※当日席もご用意しております。",
+            "checked_at": "2026-11-21",
+            "sha256": "71b7b2f3f81c85fe519d9e831f762c47a2aa6df773bfa46de3ee93797b6749ea",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-21",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  }
+]

@@ -1,0 +1,290 @@
+[
+  {
+    "id": "verified-20261128-sumida-aquarium-kingyo",
+    "ward": "墨田区",
+    "name": "きんぎょ色合わせ（すみだ水族館）",
+    "url": "https://www.sumida-aquarium.com/event/fu355-12q/",
+    "official_url": "https://www.sumida-aquarium.com/event/fu355-12q/",
+    "source": "https://www.sumida-aquarium.com/event/fu355-12q/",
+    "image": "",
+    "period": "11/28(土)",
+    "date_start": "2026-11-28",
+    "date_end": "2026-11-28",
+    "time": "10:00〜17:00（最終受付16:30）",
+    "venue": "すみだ水族館 5階アクアアカデミー（墨田区押上1-1-2）",
+    "price": "参加無料（水族館の入場料は別途必要）",
+    "description": "金魚の形の台紙に色紙をちぎって貼り、ちぎり絵で金魚の模様を作るワークショップ。完成した金魚は持ち帰れる。当日受付で、参加は無料（入場料は別途必要）。",
+    "categories": [
+      "水族館",
+      "工作",
+      "体験"
+    ],
+    "indoor_outdoor": "屋内",
+    "reservation": {
+      "required": false,
+      "note": "当日受付。定員になり次第終了。"
+    },
+    "family_fit": {
+      "grade": "C",
+      "overall": "C",
+      "rubric_version": "family-fit-v2",
+      "reason": "11/28(土)開催。すみだ水族館の無料ワークショップ「きんぎょ色合わせ」で、当日受付で参加できる。水族館の入場料は別に必要。",
+      "axes": {
+        "child_target": {
+          "grade": "unknown",
+          "reason": "子ども向けとは明記されていない"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "工作を作って参加できる"
+        },
+        "age_fit": {
+          "grade": "unknown",
+          "reason": "対象年齢が明記されていない"
+        },
+        "stay_flexibility": {
+          "grade": "A",
+          "reason": "10:00〜17:00の間に好きな時間に参加でき、短時間で終わる"
+        },
+        "burden": {
+          "grade": "B",
+          "reason": "定員になり次第終了となる場合がある"
+        },
+        "cost": {
+          "grade": "B",
+          "reason": "ワークショップは無料だが、水族館の入場料が必要"
+        },
+        "reservation": {
+          "grade": "A",
+          "reason": "予約不要の当日受付"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "水族館で工作をして持ち帰れる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-20",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "unspecified",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "ワークショップは無料で予約不要",
+          "好きな時間に参加できる"
+        ],
+        "limitations": [
+          "対象年齢の記載がない",
+          "水族館の入場料が必要"
+        ],
+        "grade_comparison": "総合C（きんぎょ色合わせ・11/28(土)）：無料で予約不要の工作だが、対象年齢の記載がなく、入場料が別に必要。",
+        "unsupported_axes": [
+          "child_target",
+          "age_fit"
+        ],
+        "evidence": [
+          {
+            "url": "https://www.sumida-aquarium.com/event/fu355-12q/",
+            "quote": "開催期間2026年11月17日（火）～2026年12月10日（木）",
+            "checked_at": "2026-11-20",
+            "sha256": "e16564d56f9b95778d00477042bc2a47a59e48b08eee23260c65589a6c9db848",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.sumida-aquarium.com/event/fu355-12q/",
+            "quote": "土日祝日：午前10時～午後5時（最終受付：午後4時30分）",
+            "checked_at": "2026-11-20",
+            "sha256": "3da9fd048773ee0a8e8f2ee69de214a898b236725abdc29b93e1b01403c3465a",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.sumida-aquarium.com/event/fu355-12q/",
+            "quote": "参加費無料入場料は別途必要となります。",
+            "checked_at": "2026-11-20",
+            "sha256": "fec76af179454f2dca5195d0f75b47fae1a229a4e802049f2cd28cae24d3656b",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.sumida-aquarium.com/event/fu355-12q/",
+            "quote": "参加方法当日受付ワークショッ",
+            "checked_at": "2026-11-20",
+            "sha256": "050aba7f58ce9ee3548684c5f5ae442ad20e93762974cf0f81b4a20621303787",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.sumida-aquarium.com/event/fu355-12q/",
+            "quote": "金魚の形をした台紙に赤・白・黒など5色の色紙をちぎって貼り付け",
+            "checked_at": "2026-11-20",
+            "sha256": "778f43f73545925115caca8b91ac1cfa8ec2c51c4fbed1d068606feb9f49abcd",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-20",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  },
+  {
+    "id": "verified-20261129-sumida-aquarium-kingyo",
+    "ward": "墨田区",
+    "name": "きんぎょ色合わせ（すみだ水族館）",
+    "url": "https://www.sumida-aquarium.com/event/fu355-12q/",
+    "official_url": "https://www.sumida-aquarium.com/event/fu355-12q/",
+    "source": "https://www.sumida-aquarium.com/event/fu355-12q/",
+    "image": "",
+    "period": "11/29(日)",
+    "date_start": "2026-11-29",
+    "date_end": "2026-11-29",
+    "time": "10:00〜17:00（最終受付16:30）",
+    "venue": "すみだ水族館 5階アクアアカデミー（墨田区押上1-1-2）",
+    "price": "参加無料（水族館の入場料は別途必要）",
+    "description": "金魚の形の台紙に色紙をちぎって貼り、ちぎり絵で金魚の模様を作るワークショップ。完成した金魚は持ち帰れる。当日受付で、参加は無料（入場料は別途必要）。",
+    "categories": [
+      "水族館",
+      "工作",
+      "体験"
+    ],
+    "indoor_outdoor": "屋内",
+    "reservation": {
+      "required": false,
+      "note": "当日受付。定員になり次第終了。"
+    },
+    "family_fit": {
+      "grade": "C",
+      "overall": "C",
+      "rubric_version": "family-fit-v2",
+      "reason": "11/29(日)開催。すみだ水族館の無料ワークショップ「きんぎょ色合わせ」で、当日受付で参加できる。水族館の入場料は別に必要。",
+      "axes": {
+        "child_target": {
+          "grade": "unknown",
+          "reason": "子ども向けとは明記されていない"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "工作を作って参加できる"
+        },
+        "age_fit": {
+          "grade": "unknown",
+          "reason": "対象年齢が明記されていない"
+        },
+        "stay_flexibility": {
+          "grade": "A",
+          "reason": "10:00〜17:00の間に好きな時間に参加でき、短時間で終わる"
+        },
+        "burden": {
+          "grade": "B",
+          "reason": "定員になり次第終了となる場合がある"
+        },
+        "cost": {
+          "grade": "B",
+          "reason": "ワークショップは無料だが、水族館の入場料が必要"
+        },
+        "reservation": {
+          "grade": "A",
+          "reason": "予約不要の当日受付"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "水族館で工作をして持ち帰れる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-20",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "unspecified",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "ワークショップは無料で予約不要",
+          "好きな時間に参加できる"
+        ],
+        "limitations": [
+          "対象年齢の記載がない",
+          "水族館の入場料が必要"
+        ],
+        "grade_comparison": "総合C（きんぎょ色合わせ・11/29(日)）：無料で予約不要の工作だが、対象年齢の記載がなく、入場料が別に必要。",
+        "unsupported_axes": [
+          "child_target",
+          "age_fit"
+        ],
+        "evidence": [
+          {
+            "url": "https://www.sumida-aquarium.com/event/fu355-12q/",
+            "quote": "開催期間2026年11月17日（火）～2026年12月10日（木）",
+            "checked_at": "2026-11-20",
+            "sha256": "e16564d56f9b95778d00477042bc2a47a59e48b08eee23260c65589a6c9db848",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.sumida-aquarium.com/event/fu355-12q/",
+            "quote": "土日祝日：午前10時～午後5時（最終受付：午後4時30分）",
+            "checked_at": "2026-11-20",
+            "sha256": "3da9fd048773ee0a8e8f2ee69de214a898b236725abdc29b93e1b01403c3465a",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.sumida-aquarium.com/event/fu355-12q/",
+            "quote": "参加費無料入場料は別途必要となります。",
+            "checked_at": "2026-11-20",
+            "sha256": "fec76af179454f2dca5195d0f75b47fae1a229a4e802049f2cd28cae24d3656b",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.sumida-aquarium.com/event/fu355-12q/",
+            "quote": "参加方法当日受付ワークショッ",
+            "checked_at": "2026-11-20",
+            "sha256": "050aba7f58ce9ee3548684c5f5ae442ad20e93762974cf0f81b4a20621303787",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.sumida-aquarium.com/event/fu355-12q/",
+            "quote": "金魚の形をした台紙に赤・白・黒など5色の色紙をちぎって貼り付け",
+            "checked_at": "2026-11-20",
+            "sha256": "778f43f73545925115caca8b91ac1cfa8ec2c51c4fbed1d068606feb9f49abcd",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "主催者公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-20",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  }
+]

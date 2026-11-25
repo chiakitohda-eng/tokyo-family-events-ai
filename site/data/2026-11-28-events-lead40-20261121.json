@@ -1,0 +1,136 @@
+[
+  {
+    "id": "verified-20261129-komae-iwato-ohanashikai-3sai-2026",
+    "ward": "狛江市",
+    "name": "親子で楽しむおはなし会（3歳〜小学校低学年と保護者）（岩戸地域センター）",
+    "url": "https://www.city.komae.tokyo.jp/events/index.cfm/detail.4.146670.html",
+    "official_url": "https://www.city.komae.tokyo.jp/events/index.cfm/detail.4.146670.html",
+    "source": "https://www.city.komae.tokyo.jp/events/index.cfm/detail.4.146670.html",
+    "image": "",
+    "period": "11/29(日)",
+    "date_start": "2026-11-29",
+    "date_end": "2026-11-29",
+    "time": "11:00〜12:00",
+    "venue": "岩戸地域センター（狛江市）",
+    "price": "公式ページに金額の明記なし（申込時に要確認）",
+    "description": "大型絵本の読み聞かせや紙芝居、工作を楽しむ、3歳から小学校低学年の子どもと保護者のためのおはなし会。先着20組で、要予約。",
+    "categories": [
+      "体験・ワークショップ",
+      "親子・地域体験"
+    ],
+    "indoor_outdoor": "屋内",
+    "reservation": {
+      "required": true,
+      "note": "要予約・先着20組。専用フォームまたは電話（岩戸地域センター 03-3488-7040）で申し込む。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "3歳から小学校低学年の子どもと保護者のためのおはなし会。大型絵本や紙芝居、工作があり、対象年齢がはっきりしている。要予約で先着20組、料金は公式ページに金額の記載がない。",
+      "axes": {
+        "child_target": {
+          "grade": "A",
+          "reason": "3歳〜小学校低学年と保護者のための催し"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "大型絵本・紙芝居の読み聞かせと工作"
+        },
+        "age_fit": {
+          "grade": "A",
+          "reason": "対象年齢がはっきりしている"
+        },
+        "stay_flexibility": {
+          "grade": "C",
+          "reason": "11:00〜12:00の1時間"
+        },
+        "burden": {
+          "grade": "B",
+          "reason": "地域センターの屋内で、1時間と短い"
+        },
+        "cost": {
+          "grade": "unknown",
+          "reason": "公式ページに金額の記載がない"
+        },
+        "reservation": {
+          "grade": "C",
+          "reason": "要予約で先着20組"
+        },
+        "family_value": {
+          "grade": "A",
+          "reason": "身近な地域センターで、親子で絵本と工作を楽しめる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-21",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "child_program",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "3歳〜小学校低学年が楽しめる",
+          "絵本と工作を親子で体験できる"
+        ],
+        "limitations": [
+          "要予約で先着20組",
+          "料金は公式ページに記載がなく、申込時の確認が必要"
+        ],
+        "grade_comparison": "総合B：対象がはっきりした親子向けの催し。予約と定員があり、料金は要確認。",
+        "unsupported_axes": [
+          "cost"
+        ],
+        "evidence": [
+          {
+            "url": "https://www.city.komae.tokyo.jp/events/index.cfm/detail.4.146670.html",
+            "quote": "2026年11月29日日曜日",
+            "checked_at": "2026-11-21",
+            "sha256": "daa0467685194fc7b8dc40ea5009f2586f384291c57d8fd31ea13655a925e7a9",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.komae.tokyo.jp/events/index.cfm/detail.4.146670.html",
+            "quote": "11月29日(日曜日)午前11時～正午",
+            "checked_at": "2026-11-21",
+            "sha256": "4d6a74cc3bceb2fb434afc08a387940c4021244105fab12bc27e4d98892a5a5e",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.komae.tokyo.jp/events/index.cfm/detail.4.146670.html",
+            "quote": "3歳～小学校低学年とその保護者",
+            "checked_at": "2026-11-21",
+            "sha256": "f42a1574c62f8fe68c8925f3ed028df6f283cb7db87d85b7f6b7cae0ca883e61",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.komae.tokyo.jp/events/index.cfm/detail.4.146670.html",
+            "quote": "定員先着20組（要予約）内容大型絵本読み聞かせや紙芝居、工作",
+            "checked_at": "2026-11-21",
+            "sha256": "98d0797ab7ddbfa62ca975de932582b39297b5edb355572f691774dd6a5719e9",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-21",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  }
+]

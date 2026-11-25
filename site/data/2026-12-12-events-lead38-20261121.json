@@ -1,0 +1,459 @@
+[
+  {
+    "id": "verified-20261212-meguro-karasumori-tudoi-xmas-kazari",
+    "ward": "目黒区",
+    "name": "烏森住区センター児童館 乳幼児のつどい「クリスマス飾り作り」",
+    "url": "https://www.city.meguro.tokyo.jp/houkago/event/karasumori-tudoi1.html",
+    "official_url": "https://www.city.meguro.tokyo.jp/houkago/event/karasumori-tudoi1.html",
+    "source": "https://www.city.meguro.tokyo.jp/houkago/event/karasumori-tudoi1.html",
+    "image": "https://www.city.meguro.tokyo.jp/images/18414/kara.jpg",
+    "period": "12/12(土)",
+    "date_start": "2026-12-12",
+    "date_end": "2026-12-12",
+    "time": "10:30〜11:30",
+    "venue": "烏森住区センター児童館 プレイルーム（目黒区）",
+    "price": "参加費の記載なし",
+    "description": "専門の講師や児童館職員による親子体操、工作、遊びなどを、子どもと保護者がいっしょに楽しむ会。12/12はクリスマス飾り作り。0歳児から5歳児とその保護者が対象で、お父さんの参加も歓迎。",
+    "categories": [
+      "親子",
+      "体験・ワークショップ"
+    ],
+    "indoor_outdoor": "屋内",
+    "reservation": {
+      "required": null,
+      "note": "申込方法の記載なし。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "0〜5歳の子どもと保護者がいっしょに工作や遊びを楽しむ児童館の会。区内在住などの限定の記載はなく、どなたでも参加できる。参加費と申込方法の記載はない。",
+      "axes": {
+        "child_target": {
+          "grade": "A",
+          "reason": "0歳児から5歳児とその保護者のための会"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "工作や遊びを親子で行う"
+        },
+        "age_fit": {
+          "grade": "A",
+          "reason": "対象は0〜5歳と明記"
+        },
+        "stay_flexibility": {
+          "grade": "B",
+          "reason": "10:30〜11:30の1時間"
+        },
+        "burden": {
+          "grade": "B",
+          "reason": "申込方法の記載がなく、事前確認が望ましい"
+        },
+        "cost": {
+          "grade": "unknown",
+          "reason": "参加費の記載がない"
+        },
+        "reservation": {
+          "grade": "unknown",
+          "reason": "申込方法の記載がない"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "親子で工作を楽しみ、保護者同士も交流できる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-22",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "child_program",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "0〜5歳の親子向けで、どなたでも参加できる",
+          "講師や職員がいっしょに遊ぶ"
+        ],
+        "limitations": [
+          "参加費の記載がない",
+          "申込方法の記載がない"
+        ],
+        "grade_comparison": "総合B：12/12(土)10:30〜11:30、クリスマス飾り作りの親子の会。参加費・申込方法の記載がなく、確認が必要。",
+        "unsupported_axes": [
+          "cost",
+          "reservation"
+        ],
+        "evidence": [
+          {
+            "url": "https://www.city.meguro.tokyo.jp/houkago/event/karasumori-tudoi1.html",
+            "quote": "乳幼児のつどい「クリスマス飾り作り」",
+            "checked_at": "2026-11-22",
+            "sha256": "8e9974447810b8d937446ca03e508136d7c1ac5977d252b7c9be5bb060773cae",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-22にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.meguro.tokyo.jp/houkago/event/karasumori-tudoi1.html",
+            "quote": "2026年12月12日（土曜日）",
+            "checked_at": "2026-11-22",
+            "sha256": "9c0e44ea4b059090b71190f1c9d9cfde35b93b7ea940812730e4403d28f9474e",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-22にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.meguro.tokyo.jp/houkago/event/karasumori-tudoi1.html",
+            "quote": "午前10時30分から11時30分まで",
+            "checked_at": "2026-11-22",
+            "sha256": "978e3ea4f685cde8f26540572d3f8f22820d5b2452228ff2b0b5944affdc9a81",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-22にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.meguro.tokyo.jp/houkago/event/karasumori-tudoi1.html",
+            "quote": "烏森住区センター児童館プレイルーム",
+            "checked_at": "2026-11-22",
+            "sha256": "cdce691df459338b6a9d2a7784999bd6b7ab764798b57b221955290309a134f5",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-22にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.meguro.tokyo.jp/houkago/event/karasumori-tudoi1.html",
+            "quote": "0歳児から5歳児（令和2年4月2日から令和8年4月1日生まれ）とその保護者",
+            "checked_at": "2026-11-22",
+            "sha256": "108fd62a1d6cb8d60dfc4fb8e4f32c0d76e01c0b6f500e4ca0ae182c2a825986",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-22にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.meguro.tokyo.jp/houkago/event/karasumori-tudoi1.html",
+            "quote": "対象年齢の乳幼児と保護者であれば、どなたでも参加できます。",
+            "checked_at": "2026-11-22",
+            "sha256": "7866ee8ed67a52ea684112ee6a4cb9e6aa3ec7f063f698a7caab0b80fa72f286",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-22にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-22",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  },
+  {
+    "id": "verified-20261213-meguro-mukaihara-tudoi-kisetsu-kosaku",
+    "ward": "目黒区",
+    "name": "向原住区センター児童館 乳幼児のつどい「季節の工作」",
+    "url": "https://www.city.meguro.tokyo.jp/houkago/event/mukaiharakisetu.html",
+    "official_url": "https://www.city.meguro.tokyo.jp/houkago/event/mukaiharakisetu.html",
+    "source": "https://www.city.meguro.tokyo.jp/houkago/event/mukaiharakisetu.html",
+    "image": "https://www.city.meguro.tokyo.jp/images/20284/kisetunokousaku.png",
+    "period": "12/13(日)",
+    "date_start": "2026-12-13",
+    "date_end": "2026-12-13",
+    "time": "10:30〜11:30",
+    "venue": "向原住区センター児童館 地下プレイルーム（目黒区）",
+    "price": "参加費の記載なし",
+    "description": "乳幼児と保護者が、手遊びや歌遊び、工作遊びを楽しむ「乳幼児のつどい」。12/13は季節の工作。0歳児から5歳児の乳幼児とその保護者が対象で、予約は不要。",
+    "categories": [
+      "親子",
+      "体験・ワークショップ"
+    ],
+    "indoor_outdoor": "屋内",
+    "reservation": {
+      "required": false,
+      "note": "予約は不要。10:30の開始前までに行く。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "0〜5歳の乳幼児と保護者が、手遊びや歌遊び、工作を楽しむ児童館の会。予約は不要で、日曜に参加できる。参加費の記載はない。",
+      "axes": {
+        "child_target": {
+          "grade": "A",
+          "reason": "0歳児から5歳児の乳幼児とその保護者が対象"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "手遊び・歌遊び・工作を親子で行う"
+        },
+        "age_fit": {
+          "grade": "A",
+          "reason": "対象は0〜5歳と明記"
+        },
+        "stay_flexibility": {
+          "grade": "B",
+          "reason": "10:30〜11:30の1時間"
+        },
+        "burden": {
+          "grade": "A",
+          "reason": "予約は不要で、開始前に行けばよい"
+        },
+        "cost": {
+          "grade": "unknown",
+          "reason": "参加費の記載がない"
+        },
+        "reservation": {
+          "grade": "A",
+          "reason": "予約は不要"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "親子の工作と保護者同士の交流"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-22",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "child_program",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "予約不要で、日曜に参加できる",
+          "0〜5歳の親子向け"
+        ],
+        "limitations": [
+          "参加費の記載がない",
+          "汚れてもよい服装が必要"
+        ],
+        "grade_comparison": "総合B：12/13(日)10:30〜11:30、季節の工作。予約不要で行きやすい。参加費の記載はない。",
+        "unsupported_axes": [
+          "cost"
+        ],
+        "evidence": [
+          {
+            "url": "https://www.city.meguro.tokyo.jp/houkago/event/mukaiharakisetu.html",
+            "quote": "乳幼児のつどい「季節の工作」",
+            "checked_at": "2026-11-22",
+            "sha256": "94dbaf358fc84cb4c659b4ea7dbcd04f0da95c5a0927d8d3c349cf2a9d69f00e",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-22にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.meguro.tokyo.jp/houkago/event/mukaiharakisetu.html",
+            "quote": "2026年12月13日（日曜日）",
+            "checked_at": "2026-11-22",
+            "sha256": "1f24465946a0c81c1e443859615c2e3d9975073d5593f3e672bc107b50500c1e",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-22にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.meguro.tokyo.jp/houkago/event/mukaiharakisetu.html",
+            "quote": "午前10時30分から午前11時30分まで",
+            "checked_at": "2026-11-22",
+            "sha256": "76d4c7869cf674d64c19d1cf53f9f63fc0a886ef6949e5215646408d789bfaa7",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-22にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.meguro.tokyo.jp/houkago/event/mukaiharakisetu.html",
+            "quote": "向原住区センター児童館　地下プレイルーム",
+            "checked_at": "2026-11-22",
+            "sha256": "1e0f2c3cdad0f2297949f13b6f8f1b23a10fcbc02ab4068765e5a872d6127ff3",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-22にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.meguro.tokyo.jp/houkago/event/mukaiharakisetu.html",
+            "quote": "予約は不要です。午前10時30分の開始前までにお越しください。",
+            "checked_at": "2026-11-22",
+            "sha256": "4487218aa8b0539146b4e04b77c1202a07de21c544ec0063cc6d610a847d84c7",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-22にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.meguro.tokyo.jp/houkago/event/mukaiharakisetu.html",
+            "quote": "0歳児から5歳児（令和2年4月2日から令和8年4月1日生まれ）の乳幼児とその保護者",
+            "checked_at": "2026-11-22",
+            "sha256": "33a8e5def1ba44343f6f0695963ad50407903609d15dbd379b45b9aa0ca73297",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-22にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-22",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  },
+  {
+    "id": "verified-20261212-meguro-komaba-tudoi-athletic-kosaku",
+    "ward": "目黒区",
+    "name": "駒場児童館 乳幼児のつどい「アスレチックと工作」",
+    "url": "https://www.city.meguro.tokyo.jp/houkago/event/komaba-tudoi-12.html",
+    "official_url": "https://www.city.meguro.tokyo.jp/houkago/event/komaba-tudoi-12.html",
+    "source": "https://www.city.meguro.tokyo.jp/houkago/event/komaba-tudoi-12.html",
+    "image": "https://www.city.meguro.tokyo.jp/images/20361/webkirachan.png",
+    "period": "12/12(土)",
+    "date_start": "2026-12-12",
+    "date_end": "2026-12-12",
+    "time": "10:30〜11:30",
+    "venue": "駒場児童館 プレイルーム（目黒区）",
+    "price": "無料",
+    "description": "0歳児から5歳児までを対象に、アスレチック遊びと工作を楽しむ乳幼児のつどい。先着20組で、事前予約制。",
+    "categories": [
+      "親子",
+      "体験・ワークショップ"
+    ],
+    "indoor_outdoor": "屋内",
+    "reservation": {
+      "required": true,
+      "note": "事前予約制。先着20組。申込方法は毎月の児童館のお知らせで確認する。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "0〜5歳の子どもが、アスレチックと工作を楽しむ児童館の会。参加費は無料。事前予約制で先着20組。",
+      "axes": {
+        "child_target": {
+          "grade": "A",
+          "reason": "0歳児から5歳児までが対象"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "アスレチックと工作で体を動かして作る"
+        },
+        "age_fit": {
+          "grade": "A",
+          "reason": "対象は0〜5歳と明記"
+        },
+        "stay_flexibility": {
+          "grade": "B",
+          "reason": "10:30〜11:30の1時間"
+        },
+        "burden": {
+          "grade": "C",
+          "reason": "事前予約制で、先着20組"
+        },
+        "cost": {
+          "grade": "A",
+          "reason": "参加費は無料"
+        },
+        "reservation": {
+          "grade": "C",
+          "reason": "事前予約制で、定員が少ない"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "体を動かす遊びと工作を親子で楽しめる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-22",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "child_program",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "参加費は無料",
+          "体を動かす遊びと工作が両方ある"
+        ],
+        "limitations": [
+          "事前予約制で先着20組",
+          "申込方法は別のお知らせで確認が必要"
+        ],
+        "grade_comparison": "総合B：12/12(土)10:30〜11:30、アスレチックと工作。無料だが、事前予約制で先着20組。",
+        "unsupported_axes": [],
+        "evidence": [
+          {
+            "url": "https://www.city.meguro.tokyo.jp/houkago/event/komaba-tudoi-12.html",
+            "quote": "乳幼児のつどい「アスレチックと工作」",
+            "checked_at": "2026-11-22",
+            "sha256": "75f5fbee70407faf512df0377cfc75845a28f439293e626a5b7feed7d15246ab",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-22にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.meguro.tokyo.jp/houkago/event/komaba-tudoi-12.html",
+            "quote": "2026年12月12日（土曜日）",
+            "checked_at": "2026-11-22",
+            "sha256": "9c0e44ea4b059090b71190f1c9d9cfde35b93b7ea940812730e4403d28f9474e",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-22にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.meguro.tokyo.jp/houkago/event/komaba-tudoi-12.html",
+            "quote": "午前10時30分から午前11時30分まで",
+            "checked_at": "2026-11-22",
+            "sha256": "76d4c7869cf674d64c19d1cf53f9f63fc0a886ef6949e5215646408d789bfaa7",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-22にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.meguro.tokyo.jp/houkago/event/komaba-tudoi-12.html",
+            "quote": "駒場児童館　プレイルーム",
+            "checked_at": "2026-11-22",
+            "sha256": "f52326ac010ce24ac649768bc9fd924c8f0aee84d38f9f6ec2acd6cfbad8c42a",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-22にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.meguro.tokyo.jp/houkago/event/komaba-tudoi-12.html",
+            "quote": "対象0歳児から5歳児まで",
+            "checked_at": "2026-11-22",
+            "sha256": "827b3562e440823781d58b726af5bc4c8a9ed59fa66a54d4611a63620d7843d9",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-22にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.meguro.tokyo.jp/houkago/event/komaba-tudoi-12.html",
+            "quote": "参加人数・定員先着20組料金・費用無料",
+            "checked_at": "2026-11-22",
+            "sha256": "9ba5e0e394f60eabf7e67343f863920aa230024682ab40dd5218283282dc595b",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-22にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.meguro.tokyo.jp/houkago/event/komaba-tudoi-12.html",
+            "quote": "事前予約制です。詳しくは毎月の児童館のお知らせでご確認ください。",
+            "checked_at": "2026-11-22",
+            "sha256": "f0339ffe4236ea6a5791c2fd2dd1fe9d05d7c504689a941ced117400306fed7c",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-22にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-22",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  }
+]

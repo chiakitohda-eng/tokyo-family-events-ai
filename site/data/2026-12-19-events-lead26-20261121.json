@@ -1,0 +1,167 @@
+[
+  {
+    "id": "verified-20261219-musashino-santa-oyako-undokai",
+    "ward": "武蔵野市",
+    "name": "サンタさんと親子運動会（武蔵野総合体育館）",
+    "url": "https://www.musashino.or.jp/sports/1001545/1001549/1010161.html",
+    "official_url": "https://www.musashino.or.jp/sports/1001545/1001549/1010161.html",
+    "source": "https://www.musashino.or.jp/sports/1001545/1001549/1010161.html",
+    "image": "",
+    "period": "12/19(土)",
+    "date_start": "2026-12-19",
+    "date_end": "2026-12-19",
+    "time": "（1）3・4歳の部 10:00〜11:30／（2）5・6歳の部 14:00〜15:45",
+    "venue": "武蔵野総合体育館 1階 メインアリーナ",
+    "price": "1組1,500円（保護者1名に子ども2名の場合は2,300円）",
+    "description": "8つの動物チームに分かれて、体操や障害物競争などを行う親子運動会。3・4歳の部（2022年4月2日〜2024年4月1日生まれ）と5・6歳の部（2020年4月2日〜2022年4月1日生まれ）があり、各80組。抽選申込制。託児付事業で一時保育（有料）もある。",
+    "categories": [
+      "スポーツ",
+      "親子運動"
+    ],
+    "indoor_outdoor": "屋内",
+    "reservation": {
+      "required": true,
+      "note": "抽選申込制（インターネット・はがき）。定員を超えた場合は武蔵野市内在住・在園の方を優先して抽選。申込期間は公式ページに記載がなく要確認。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "3〜6歳の親子が対象の運動会で、体操や障害物競争を親子で楽しめる。参加費1組1,500円、抽選申込制で、定員超過時は市内在住・在園者が優先される。",
+      "axes": {
+        "child_target": {
+          "grade": "A",
+          "reason": "3〜6歳の親子が対象の運動会"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "体操や障害物競争を親子で体験する"
+        },
+        "age_fit": {
+          "grade": "A",
+          "reason": "生まれ年で年齢別の2部制（3・4歳／5・6歳）"
+        },
+        "stay_flexibility": {
+          "grade": "B",
+          "reason": "各部90〜105分の枠で参加"
+        },
+        "burden": {
+          "grade": "B",
+          "reason": "抽選申込制で、対象年齢外の子連れ参加はできない"
+        },
+        "cost": {
+          "grade": "B",
+          "reason": "1組1,500円"
+        },
+        "reservation": {
+          "grade": "C",
+          "reason": "抽選申込制で、市内在住・在園者が優先される"
+        },
+        "family_value": {
+          "grade": "A",
+          "reason": "親子で体を動かして一緒に楽しめる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-21",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "child_program",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "年齢別の2部制で、親子で運動を楽しめる",
+          "一時保育（有料）が付く部がある"
+        ],
+        "limitations": [
+          "抽選申込制で、定員超過時は市内在住・在園者が優先",
+          "申込期間は公式ページに記載がなく要確認",
+          "対象年齢外の子の同伴はできない"
+        ],
+        "grade_comparison": "総合B：対象が合う親子向け企画だが、抽選と市内優先、申込期間の未記載が制約。",
+        "unsupported_axes": [],
+        "evidence": [
+          {
+            "url": "https://www.musashino.or.jp/sports/1001545/1001549/1010161.html",
+            "quote": "開催日 2026年12月19日（土曜日）",
+            "checked_at": "2026-11-21",
+            "sha256": "7d1f241bc2d9cd0e69b21eaba810f2f906caea324990ce4a793b7e0530d3ec74",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.musashino.or.jp/sports/1001545/1001549/1010161.html",
+            "quote": "（1）3・4歳の部 10：00～11：30（90分）",
+            "checked_at": "2026-11-21",
+            "sha256": "4979c02701f8fc21fad2dfefa35f38a058e2aa901bfb0472a4df9fc408035080",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.musashino.or.jp/sports/1001545/1001549/1010161.html",
+            "quote": "開催場所 武蔵野総合体育館 1階 メインアリーナ",
+            "checked_at": "2026-11-21",
+            "sha256": "d50d636ff603718a04b98db4c9b27097734fdd2d6610c685cccd852c3dfd0474",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.musashino.or.jp/sports/1001545/1001549/1010161.html",
+            "quote": "8つの動物チームに分かれて体操や障害物競争などを行う親子運動会です。",
+            "checked_at": "2026-11-21",
+            "sha256": "6cd3d919dce10d1df2196507bc36c37fc565ddca61968d95cb8bae6f40936cce",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.musashino.or.jp/sports/1001545/1001549/1010161.html",
+            "quote": "費用 1組/1,500円 ※保護者1名に子ども2名（双子など）の場合は2,300円",
+            "checked_at": "2026-11-21",
+            "sha256": "8afe22a3668468dbee10d955bf793b3840ddc197409e1355e2d2720301906cf7",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.musashino.or.jp/sports/1001545/1001549/1010161.html",
+            "quote": "抽選申込制 インターネット・はがき",
+            "checked_at": "2026-11-21",
+            "sha256": "df11e346f23e9578199bd1e88add8bb08d6bef75ebb8436c4eab42c8847c3be8",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.musashino.or.jp/sports/1001545/1001549/1010161.html",
+            "quote": "※定員超えた場合は、武蔵野市内に在住・在園の方を優先して抽選を行います。",
+            "checked_at": "2026-11-21",
+            "sha256": "8ed06b8ecfcc35bbb495051380877365ccfee21e3eca58b60e7f98d7539c0dd9",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.musashino.or.jp/sports/1001545/1001549/1010161.html",
+            "quote": "募集人数 （1）（2）各80組",
+            "checked_at": "2026-11-21",
+            "sha256": "928096b6c70b31f4d14bb597bd33c2a42a6318b3d53b792d5ba8bd1d4251c151",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-21",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  }
+]

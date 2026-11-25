@@ -1,0 +1,136 @@
+[
+  {
+    "id": "verified-20261226-nerima-oshigoto-nishihonmura",
+    "ward": "練馬区",
+    "name": "ねりまの森こどもフェスタ「森のおしごと体験」（西本村憩いの森）",
+    "url": "https://www.city.nerima.tokyo.jp/kurashi/shigoto/midori/shokai/nerimanomori.html",
+    "official_url": "https://www.city.nerima.tokyo.jp/kurashi/shigoto/midori/shokai/nerimanomori.html",
+    "source": "https://www.city.nerima.tokyo.jp/kurashi/shigoto/midori/shokai/nerimanomori.html",
+    "image": "https://www.city.nerima.tokyo.jp/kurashi/shigoto/midori/shokai/nerimanomori.images/kodomofesurogo.png",
+    "period": "12/26(土)",
+    "date_start": "2026-12-26",
+    "date_end": "2026-12-26",
+    "time": "13:30〜16:00",
+    "venue": "西本村憩いの森（練馬区大泉学園町2丁目23番）",
+    "price": "無料（一部有料のイベントがあります）",
+    "description": "落ち葉掃き、キクイモ掘り、小鳥の巣箱点検をする森のおしごと体験。ねりまの森こどもフェスタの催しで、無料・予約不要。",
+    "categories": [
+      "体験・ワークショップ",
+      "公園・自然"
+    ],
+    "indoor_outdoor": "屋外",
+    "reservation": {
+      "required": false,
+      "note": "事前予約不要。当日会場へ。雨天中止。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "落ち葉掃き、キクイモ掘り、小鳥の巣箱点検をする森のおしごと体験。西本村憩いの森で開催。無料・予約不要で、18歳以下にはグッズのプレゼントがある。屋外で雨天中止。",
+      "axes": {
+        "child_target": {
+          "grade": "B",
+          "reason": "こどもフェスタの催しで、18歳以下にグッズのプレゼントがある"
+        },
+        "interactivity": {
+          "grade": "B",
+          "reason": "森の中での体験・遊び"
+        },
+        "age_fit": {
+          "grade": "unknown",
+          "reason": "対象年齢の目安は明記がない"
+        },
+        "stay_flexibility": {
+          "grade": "B",
+          "reason": "開催時間が限られている"
+        },
+        "burden": {
+          "grade": "B",
+          "reason": "屋外開催で雨天中止。駐車場がない"
+        },
+        "cost": {
+          "grade": "A",
+          "reason": "参加費無料（一部有料のイベントあり）"
+        },
+        "reservation": {
+          "grade": "A",
+          "reason": "事前予約不要"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "森で家族で遊べる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-20",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "child_program",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "無料・予約不要",
+          "18歳以下にグッズのプレゼント"
+        ],
+        "limitations": [
+          "屋外で雨天中止",
+          "各会場に駐車場がない"
+        ],
+        "grade_comparison": "総合B：西本村憩いの森で13:30〜16:00の間、無料・予約不要で参加できるが、屋外で雨天中止になる。",
+        "unsupported_axes": [
+          "age_fit"
+        ],
+        "evidence": [
+          {
+            "url": "https://www.city.nerima.tokyo.jp/kurashi/shigoto/midori/shokai/nerimanomori.html",
+            "quote": "令和8年12月26日（土曜）午後1時30分から午後4時まで森のおしごと体験（落ち葉掃き、キクイモ掘り、小鳥の巣箱点検）西本村憩いの森（大泉学園町2丁目23番）西本村憩いの森ファンクラブ",
+            "checked_at": "2026-11-20",
+            "sha256": "48718879e6cd61990a30fb9166f0d98dd3fa7b1e7d48f5d61a9ed36d06776482",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "練馬区公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.nerima.tokyo.jp/kurashi/shigoto/midori/shokai/nerimanomori.html",
+            "quote": "参加方法当日会場へお越しください。事前予約不要・参加費無料です（一部有料のイベントがあります）。",
+            "checked_at": "2026-11-20",
+            "sha256": "730bebdf9c0fa6545fccbad0f3b5ecd80d28d8c36a1cdcac7b00a05ede354c47",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "練馬区公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.nerima.tokyo.jp/kurashi/shigoto/midori/shokai/nerimanomori.html",
+            "quote": "（注釈）オリジナルグッズが貰えるのは18歳以下が対象です。",
+            "checked_at": "2026-11-20",
+            "sha256": "ba378f98f2ff0edd2b1faa705ce6c6f06b46a52277f7a24a4990451d98929f31",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "練馬区公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://www.city.nerima.tokyo.jp/kurashi/shigoto/midori/shokai/nerimanomori.html",
+            "quote": "（注釈）雨天中止となります（一部除く）。",
+            "checked_at": "2026-11-20",
+            "sha256": "0aa46117316f5656199124375c44efb20f1c07b3b3b998824717c8de33d56d17",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "練馬区公式ページ（2026-11-20にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-20",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  }
+]

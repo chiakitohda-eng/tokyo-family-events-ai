@@ -1,0 +1,151 @@
+[
+  {
+    "id": "verified-20261205-edogawa-kasai-beachclean-rugby",
+    "ward": "江戸川区",
+    "name": "ビーチクリーン＆ラグビー体験・選手交流会（葛西海浜公園）",
+    "url": "https://kasaikaihinpark.com/event/%e3%80%90%e5%8b%9f%e9%9b%86%e4%b8%ad%e3%80%91%e3%83%93%e3%83%bc%e3%83%81%e3%82%af%e3%83%aa%e3%83%bc%e3%83%b3%ef%bc%86%e3%83%a9%e3%82%b0%e3%83%93%e3%83%bc%e4%bd%93%e9%a8%93%e3%83%bb%e9%81%b8%e6%89%8b/",
+    "official_url": "https://kasaikaihinpark.com/event/%e3%80%90%e5%8b%9f%e9%9b%86%e4%b8%ad%e3%80%91%e3%83%93%e3%83%bc%e3%83%81%e3%82%af%e3%83%aa%e3%83%bc%e3%83%b3%ef%bc%86%e3%83%a9%e3%82%b0%e3%83%93%e3%83%bc%e4%bd%93%e9%a8%93%e3%83%bb%e9%81%b8%e6%89%8b/",
+    "source": "https://kasaikaihinpark.com/event/%e3%80%90%e5%8b%9f%e9%9b%86%e4%b8%ad%e3%80%91%e3%83%93%e3%83%bc%e3%83%81%e3%82%af%e3%83%aa%e3%83%bc%e3%83%b3%ef%bc%86%e3%83%a9%e3%82%b0%e3%83%93%e3%83%bc%e4%bd%93%e9%a8%93%e3%83%bb%e9%81%b8%e6%89%8b/",
+    "image": "https://kasaikaihinpark.com/wp-content/uploads/2026/11/ビーチクリーン＆ラグビー体験・選手交流会-1.jpg",
+    "period": "12/5(土)",
+    "date_start": "2026-12-05",
+    "date_end": "2026-12-05",
+    "time": "10:00〜（第1部ビーチクリーン）／11:00〜（第2部ラグビー体験・選手交流会）",
+    "venue": "葛西海浜公園 西なぎさ（江戸川区臨海町）",
+    "price": "第1部：無料／第2部：1人1,000円（税込）",
+    "description": "浦安D-Rocksの選手と、第1部はビーチクリーン（どなたでも、無料）、第2部はラグビー体験・選手交流会（小学生20名、1,000円）。どちらもPeatixで申込が必要だが、第1部は当日参加もできる。",
+    "categories": [
+      "自然・公園",
+      "スポーツ",
+      "体験・ワークショップ"
+    ],
+    "indoor_outdoor": "屋外",
+    "reservation": {
+      "required": true,
+      "note": "どちらもPeatixで申込。第1部は当日参加も可能。第2部は定員（小学生20名）に達した時点で締切。"
+    },
+    "family_fit": {
+      "grade": "B",
+      "overall": "B",
+      "rubric_version": "family-fit-v2",
+      "reason": "第1部は誰でも参加できる無料のビーチクリーン、第2部は小学生20名のラグビー体験・選手交流会（1,000円）で、家族で参加を呼びかけている。申込はPeatix。",
+      "axes": {
+        "child_target": {
+          "grade": "B",
+          "reason": "第2部は小学生向けだが、第1部は誰でも参加できる"
+        },
+        "interactivity": {
+          "grade": "A",
+          "reason": "ビーチクリーンとラグビー体験・選手との交流に参加する"
+        },
+        "age_fit": {
+          "grade": "B",
+          "reason": "第2部は小学生と明記、第1部は年齢制限なし"
+        },
+        "stay_flexibility": {
+          "grade": "B",
+          "reason": "第1部と第2部が時間で分かれている"
+        },
+        "burden": {
+          "grade": "B",
+          "reason": "屋外で、動きやすい服装・軍手などの持ち物と、第2部は事前申込が必要"
+        },
+        "cost": {
+          "grade": "B",
+          "reason": "第1部は無料、第2部は1人1,000円"
+        },
+        "reservation": {
+          "grade": "B",
+          "reason": "Peatixで申込（第1部は当日参加も可、第2部は先着20名で締切）"
+        },
+        "family_value": {
+          "grade": "B",
+          "reason": "家族でビーチクリーンに参加でき、小学生はラグビー体験もできる"
+        }
+      },
+      "review": {
+        "schema_version": 1,
+        "method": "individual_evidence_review",
+        "reviewed_on": "2026-11-21",
+        "axes_checked": [
+          "child_target",
+          "interactivity",
+          "age_fit",
+          "stay_flexibility",
+          "burden",
+          "cost",
+          "reservation",
+          "family_value"
+        ],
+        "audience_basis": "all_ages",
+        "child_activity_confirmed": true,
+        "strengths": [
+          "第1部は無料で当日参加もできる",
+          "小学生はラグビー選手と体験・交流できる"
+        ],
+        "limitations": [
+          "第2部は1,000円・事前申込・小学生20名の定員",
+          "屋外で防寒の備えが必要"
+        ],
+        "grade_comparison": "総合B：第1部は無料で気軽に参加できるが、小学生向けの第2部は有料・事前申込・少人数。",
+        "unsupported_axes": [],
+        "evidence": [
+          {
+            "url": "https://kasaikaihinpark.com/event/%e3%80%90%e5%8b%9f%e9%9b%86%e4%b8%ad%e3%80%91%e3%83%93%e3%83%bc%e3%83%81%e3%82%af%e3%83%aa%e3%83%bc%e3%83%b3%ef%bc%86%e3%83%a9%e3%82%b0%e3%83%93%e3%83%bc%e4%bd%93%e9%a8%93%e3%83%bb%e9%81%b8%e6%89%8b/",
+            "quote": "【募集中】ビーチクリーン＆ラグビー体験・選手交流会",
+            "checked_at": "2026-11-21",
+            "sha256": "11f795d91a30a4fc12d60fafeb68ce8ffb8b9a7579e6a063847533dbca5013fd",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://kasaikaihinpark.com/event/%e3%80%90%e5%8b%9f%e9%9b%86%e4%b8%ad%e3%80%91%e3%83%93%e3%83%bc%e3%83%81%e3%82%af%e3%83%aa%e3%83%bc%e3%83%b3%ef%bc%86%e3%83%a9%e3%82%b0%e3%83%93%e3%83%bc%e4%bd%93%e9%a8%93%e3%83%bb%e9%81%b8%e6%89%8b/",
+            "quote": "１０時からの１部はビーチクリーン １１時からの２部はラグビー体験・選手交流会を開催します。",
+            "checked_at": "2026-11-21",
+            "sha256": "3f5c3b3aa1f080a8967b8c125a0391594eaa7fe47c167320f43a45ed222cda67",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://kasaikaihinpark.com/event/%e3%80%90%e5%8b%9f%e9%9b%86%e4%b8%ad%e3%80%91%e3%83%93%e3%83%bc%e3%83%81%e3%82%af%e3%83%aa%e3%83%bc%e3%83%b3%ef%bc%86%e3%83%a9%e3%82%b0%e3%83%93%e3%83%bc%e4%bd%93%e9%a8%93%e3%83%bb%e9%81%b8%e6%89%8b/",
+            "quote": "場所 葛西海浜公園 西なぎさ",
+            "checked_at": "2026-11-21",
+            "sha256": "aaf9040e184bd4e88724456fca054dff8c11ff8b66e975c4f4ad8e174d0f659a",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://kasaikaihinpark.com/event/%e3%80%90%e5%8b%9f%e9%9b%86%e4%b8%ad%e3%80%91%e3%83%93%e3%83%bc%e3%83%81%e3%82%af%e3%83%aa%e3%83%bc%e3%83%b3%ef%bc%86%e3%83%a9%e3%82%b0%e3%83%93%e3%83%bc%e4%bd%93%e9%a8%93%e3%83%bb%e9%81%b8%e6%89%8b/",
+            "quote": "１部：どなたでも／２部：小学生のお子さま２０名",
+            "checked_at": "2026-11-21",
+            "sha256": "1d4105644c811bd4b019857ae8a50a5d9f7a353261e9ca17e47c2f2c7bba51bd",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://kasaikaihinpark.com/event/%e3%80%90%e5%8b%9f%e9%9b%86%e4%b8%ad%e3%80%91%e3%83%93%e3%83%bc%e3%83%81%e3%82%af%e3%83%aa%e3%83%bc%e3%83%b3%ef%bc%86%e3%83%a9%e3%82%b0%e3%83%93%e3%83%bc%e4%bd%93%e9%a8%93%e3%83%bb%e9%81%b8%e6%89%8b/",
+            "quote": "参加費 １部：無料 ／ ２部：お一人 1,000円（税込み）",
+            "checked_at": "2026-11-21",
+            "sha256": "7a2386188d6c91a266c827bfa1e55680e2d5b8ff0d6bded480a022a4cedc33ae",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          },
+          {
+            "url": "https://kasaikaihinpark.com/event/%e3%80%90%e5%8b%9f%e9%9b%86%e4%b8%ad%e3%80%91%e3%83%93%e3%83%bc%e3%83%81%e3%82%af%e3%83%aa%e3%83%bc%e3%83%b3%ef%bc%86%e3%83%a9%e3%82%b0%e3%83%93%e3%83%bc%e4%bd%93%e9%a8%93%e3%83%bb%e9%81%b8%e6%89%8b/",
+            "quote": "どちらもPeatixにてお申込みが必要ですが １部については当日参加も可能です。",
+            "checked_at": "2026-11-21",
+            "sha256": "61d2d6f3f7be44be3767262d4706fb9a1c3a850a8f58a8a0d47a3044d5150f5f",
+            "hash_scope": "quoted_text_only_not_HTTP_response_hash",
+            "description": "公式ページ（2026-11-21にHTTP200で取得、research/2026-11-20-thin-wards/pages/に不変保存）の本文引用。引用文字列だけのUTF-8 SHA-256。"
+          }
+        ]
+      }
+    },
+    "audit": {
+      "checked_on": "2026-11-21",
+      "calendar_index_url": null,
+      "source_claim": "verified",
+      "global_23_ward_source_audit_complete": false
+    }
+  }
+]
