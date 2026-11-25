@@ -1,0 +1,599 @@
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="format-detection" content="telephone=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>パークdeウォーク&リラックスチェッカーキャンペーン2026｜公園へ行こう！</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <link rel="canonical" href="https://www.tokyo-park.or.jp/event_search/tokyo_parks_play_cp2026.html">
+
+  <link rel="stylesheet" href="/assets/css/destyle.css" />
+  <link rel="stylesheet" href="/assets/css/jquery-ui.css" />
+  <link rel="stylesheet" href="/assets/css/slick.css" />
+  <link rel="stylesheet" href="/assets/css/slick-theme.css" />
+  <link rel="stylesheet" href="/assets/css/jquery.modal.min.css" />
+  <link rel="stylesheet" href="/assets/css/flatpickr.min.css" />
+  <link rel="stylesheet" href="/assets/css/style.css" />
+  <link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
+  <link href="https://ce.mf.marsflag.com/latest/css/mf-search.css" rel="stylesheet" type="text/css" media="all" charset="UTF-8">
+  <link rel="stylesheet" href="/assets/css/park-koho.css" />
+  <script src="https://cdn-eas.readspeaker.com/script/14126/webReader/webReader.js?pids=wr&amp;disable=translation,lookup" type="text/javascript" id="rs_req_Init"></script>
+
+  <link rel="stylesheet" href="/assets/css/static-contents.css" />
+
+  
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-M647PPZW');</script>
+<!-- End Google Tag Manager -->
+</head>
+
+<body class="theme-default">
+  
+  <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M647PPZW"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+  
+  <header class="header">
+    <div class="header-fixed">
+      <div class="header-top">
+        <div class="headersplogo">
+  <div class="site-logo">
+    <a href="/"><img src="/assets/images/header/logo.png" alt="公益財団法人 東京都公園協会" /></a>
+  </div>
+  <div class="greenbizsp">
+    <a href="https://www.seisakukikaku.metro.tokyo.lg.jp/basic-plan/tokyo-greenbiz-advisoryboard" target="_blank">
+      <img src="/assets/greenbizlogopc.svg" alt="東京グリーンビズ">
+    </a>
+  </div>
+</div>
+        <nav class="category-list">
+          <ul>
+            <li class="home">
+              <a href="/">
+                <p>
+                  <img src="/assets/images/header/icon-home.svg" alt="" />
+                </p>
+                <h3>ホーム</h3>
+              </a>
+            </li>
+            <li class="park">
+              <a href="/park/">
+                <p>
+                  <img src="/assets/images/header/icon-park.svg" alt="" />
+                </p>
+                <h3>公園・庭園・<br />植物園</h3>
+              </a>
+            </li>
+            <li class="bus">
+              <a href="/water/">
+                <p>
+                  <img src="/assets/images/header/icon-ship.svg" alt="" />
+                </p>
+                <h3>水上バス・<br />河川事業</h3>
+              </a>
+            </li>
+            <li class="cemetery">
+              <a href="/reien/">
+                <p>
+                  <img src="/assets/images/header/icon-grave.svg" alt="" />
+                </p>
+                <h3>霊園・葬儀所</h3>
+              </a>
+            </li>
+            <li class="college">
+              <a href="/college/">
+                <p>
+                  <img src="/assets/images/header/icon-school.svg" alt="" />
+                </p>
+                <h3>緑と水の<br />市民カレッジ</h3>
+              </a>
+            </li>
+            <li class="volunteer">
+              <a href="/public/">
+                <p>
+                  <img src="/assets/images/header/icon-handshake.svg" alt="" />
+                </p>
+                <h3>ボランティア・基金 助成金・公益事業</h3>
+              </a>
+              
+            </li>
+            <li class="tokyo">
+              <a href="/association/">
+                <p>
+                  <img src="/assets/images/header/icon-building.svg" alt="" />
+                </p>
+                <h3>東京都<br />公園協会について</h3>
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <div class="setting-area">
+          <div class="font-size">
+            <p class="setting-title">文字サイズ</p>
+            <div class="setting-contents">
+              <button id="fontSmall">標準</button>
+              <button id="fontBig">拡大</button>
+            </div>
+          </div>
+          <div class="background">
+            <p class="setting-title bgsettitle">背景色</p>
+            <div class="setting-contents" id="backgroundTrigger">
+              <span id="backgroundTargetValue">白</span>
+              <ul class="select-list" id="backgroundList">
+                <li id="backgroundListWhite">白</li>
+                <li id="backgroundListBlack">黒</li>
+                <li id="backgroundListBlue">青</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="lang langicon">
+    <a href="/language/index.html">
+        <img src="/assets/images/header/icon-global2.svg" alt="言語" />
+    </a>
+</div>
+
+<div id="readspeaker_button1" class="rs_skip lang">
+<a href="https://app-eas.readspeaker.com/cgi-bin/rsent?customerid=14126&amp;lang=ja_jp&amp;readid=main_contents&amp;url=" onclick="readpage(this.href, 'xp1'); return false;" class="rs_href" rel="nofollow" style="display:block;" onkeydown="if(event.key === 'Enter' || event.key === ' ') { readpage(this.href, 'xp1'); event.preventDefault(); }" role="button">
+<img src="/assets/images/header/icon-audio.svg" alt="読み上げ" /></a>
+</div>
+<div class="mf_finder_container keyword">
+	         <mf-search-box submit-text="" placeholder="キーワード検索"
+		       ajax-url="https://finder.api.mf.marsflag.com/api/v1/finder_service/documents/aa3f07f2/search"
+		       serp-url="https://www.tokyo-park.or.jp/keyword/#"></mf-search-box>
+            </div>
+        </div>
+        <div class="greenbizpc">
+  <a href="https://www.seisakukikaku.metro.tokyo.lg.jp/basic-plan/tokyo-greenbiz-advisoryboard" target="_blank">
+    <img src="/assets/greenbizlogopc.svg" alt="東京グリーンビズ">
+  </a>
+</div>
+
+        <div class="sp-header-contents">
+            <div class="mf_finder_container keyword">
+	         <mf-search-box submit-text="" placeholder="キーワード検索"
+		       ajax-url="https://finder.api.mf.marsflag.com/api/v1/finder_service/documents/aa3f07f2/search"
+		       serp-url="https://www.tokyo-park.or.jp/keyword/#"></mf-search-box>
+            </div>
+
+          <div class="lang splang">
+    <div class="lang-box">
+        <a href="/language/index.html">
+            <img src="/assets/images/header/icon-global2.svg" alt="言語" />
+        </a>
+    </div>
+    <p>Language</p>
+</div>
+
+          <olang>
+          <a href="#modalMenu" rel="modal:open" class="menu-icon">
+            <div class="menu-icon_box">
+              <span></span>
+              <p>MENU</p>
+            </div>
+          </a>
+            </olang>
+          <div id="modalMenu" class="modal">
+            <section class="menu">
+              <div class="setting-area">
+                <div class="font-size">
+                  <p class="setting-title">文字サイズ</p>
+                  <div class="setting-contents">
+                    <button id="fontSmallSp">標準</button>
+                    <button id="fontBigSp">拡大</button>
+                  </div>
+                </div>
+                <div class="background">
+                  <p class="setting-title">背景色</p>
+                  <div class="setting-contents" id="backgroundTriggerSp">
+                    <span id="backgroundTargetValueSp">白</span>
+                    <ul class="select-list" id="backgroundListSp">
+                      <li id="backgroundListWhiteSp">白</li>
+                      <li id="backgroundListBlackSp">黒</li>
+                      <li id="backgroundListBlueSp">青</li>
+                    </ul>
+                  </div>
+                </div>
+<div id="readspeaker_button1" class="rs_skip lang langsp">
+<a href="https://app-eas.readspeaker.com/cgi-bin/rsent?customerid=14126&amp;lang=ja_jp&amp;readid=main_contents&amp;url=" onclick="readpage(this.href, 'xp1'); return false;" class="rs_href" rel="nofollow" onkeydown="if(event.key === 'Enter' || event.key === ' ') { readpage(this.href, 'xp1'); event.preventDefault(); }" role="button">
+<img src="/assets/images/header/icon-audio.svg" alt="読み上げ" /></a>
+</div>
+              </div>
+              <div class="menu-icons">
+                <div class="menu-contents home">
+                  <a href="/">
+                    <div class="category-name">
+                      <img src="/assets/images/top/kv-icon_home.svg" alt="" />
+                      <h3>ホーム</h3>
+                    </div>
+                  </a>
+                </div>
+                <div class="menu-contents center-top">
+                  <a href="/park/">
+                    <div class="category-name">
+                      <img src="/assets/images/top/kv-icon_park.svg" alt="" />
+                      <h3>公園・庭園・<br />植物園</h3>
+                    </div>
+                  </a>
+                </div>
+                <div class="menu-contents right-top">
+                  <a href="/water/">
+                    <div class="category-name">
+                      <img src="/assets/images/top/kv-icon_ship.svg" alt="" />
+                      <h3>水上バス・<br />河川事業</h3>
+                    </div>
+                  </a>
+                </div>
+                <div class="menu-contents left-bottom">
+                  <a href="/reien/">
+                    <div class="category-name">
+                      <img src="/assets/images/top/kv-icon_grave.svg" alt="" />
+                      <h3>霊園・葬儀所</h3>
+                    </div>
+                  </a>
+                </div>
+                <div class="menu-contents left2-bottom">
+                  <a href="/public/">
+                    <div class="category-name">
+                      <img src="/assets/images/top/kv-icon_school.svg" alt="" />
+                      <h3>緑と水の<br />市民カレッジ</h3>
+                    </div>
+                  </a>
+                </div>
+                <div class="menu-contents right2-bottom">
+                  <a href="/public/">
+                    <div class="category-name">
+                      <img src="/assets/images/top/kv-icon_handshake.svg" alt="" />
+                      <h3>ボランティア・基金 助成金・公益事業</h3>
+                    </div>
+                  </a>
+                </div>
+                <div class="menu-contents right-bottom">
+                  <a href="/association/">
+                    <div class="category-name">
+                      <img src="/assets/images/top/kv-icon_building.svg" alt="" />
+                      <h3>東京都<br />公園協会について</h3>
+                    </div>
+                  </a>
+                </div>
+                <div></div>
+              </div>
+              <nav>
+                <ul class="tag-list headerpark">
+          <li>
+
+            <a href="/park/news/">お知らせ</a>
+
+         </li>
+                  <li>
+                    <a href="/event_search/index.html">イベント</a>
+                  </li>
+                  <li>
+                    <a href="/special/">おすすめ情報</a>
+                  </li>
+                  <li>
+                    <a href="/college_search/index.html">講座</a>
+                  </li>
+                  <li>
+                    <a href="/special/biodiversity/index.html">生物多様について</a>
+                  </li>
+                  <li>
+                    <a href="/faq/">よくあるご質問(FAQ)</a>
+                  </li>
+                  <li>
+                    <a href="/special/bousai/">防災について</a>
+                  </li>
+                </ul>
+                <ul class="btn-list">
+                  <li>
+                    <a href="/inquiry/">お問合せ</a>
+                  </li>
+                </ul>
+              </nav>
+              <a href="#" class="modal-close" rel="modal:close" aria-label="閉じる">閉じる</a>
+            </section>
+          </div>
+        </div>
+      </div>
+    </div>
+      </header>
+    <div class="header-bottom">
+      <nav class="tag-list headerpark">
+        <ul>
+          <li>
+
+            <a href="/park/news/">お知らせ</a>
+
+         </li>
+
+          <li>
+            <a href="/event_search/index.html">イベント</a>
+          </li>
+          <li>
+            <a href="/special/">おすすめ情報</a>
+          </li>
+          <li>
+            <a href="/college_search/index.html">講座</a>
+          </li>
+          <li class="btncolor-re">
+            <a href="/special/biodiversity/index.html">生物多様性について</a>
+          </li>
+          <li>
+            <a href="/faq/">よくあるご質問(FAQ)</a>
+          </li>
+          <li class="btncolor-re">
+            <a href="/special/bousai/">防災について</a>
+          </li>
+          <li class="green">
+            <a href="/inquiry/">お問合せ</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+  <main class="second page-event" id="main_contents" data-color-scheme="green">
+    <header>
+      <h1>パークdeウォーク&リラックスチェッカーキャンペーン2026</h1>
+    </header>
+    <div>
+      <div class="band">イベント</div>
+      <div class="thumb">
+        <img src="/event_search/assets/titlebanner2026.webp" alt="パークdeウォーク＆リラックスチェッカーキャンペーン（タイトルバナー）">
+      </div>
+      <div class="category">
+        <ul>
+
+
+          <li><img src="/assets/images/third/play_white.svg" alt="" />体験・遊ぶ</li>
+
+          <li><img src="/assets/images/third/nature_white.svg" alt="" />自然にふれる</li>
+
+        </ul>
+      </div>
+      <section class="box-normal detail-box">
+        <dl>
+          <dt>開催日</dt>
+          <dd><p>2026年10月30日（金）～2027年1月11日（月・祝）<br>（応募締切：2027年1月11日（月・祝））</p></dd>
+          <dt>場所</dt>
+          <dd>
+
+            <a href="/park/kasairinkai/">葛西臨海公園</a>
+
+            <a href="/park/kiba/">木場公園</a>
+
+            <a href="/park/shioiri/">汐入公園</a>
+
+            <a href="/park/shinozaki/">篠崎公園</a>
+
+            <a href="/park/tokyo-rinkai-koikibosai/">東京臨海広域防災公園</a>
+
+            <a href="/park/toneri/">舎人公園</a>
+
+            <a href="/park/higashi-shirahige/">東白鬚公園</a>
+
+            <a href="/park/mizumoto/">水元公園</a>
+
+            <a href="/park/aoyama/">青山公園</a>
+
+            <a href="/park/akatsuka/">赤塚公園</a>
+
+            <a href="/park/ukima/">浮間公園</a>
+
+            <a href="/park/oizumi-chuo/">大泉中央公園</a>
+
+            <a href="/park/kinuta/">砧公園</a>
+
+            <a href="/park/komazawa-olympic/">駒沢オリンピック公園</a>
+
+            <a href="/park/siba/">芝公園</a>
+
+            <a href="/park/shakujii/">石神井公園</a>
+
+            <a href="/park/johoku-chuo/">城北中央公園</a>
+
+            <a href="/park/zempukujigawa-ryokuchi/">善福寺川緑地</a>
+
+            <a href="/park/zenpukuji/">善福寺公園</a>
+
+            <a href="/park/soshigaya/">祖師谷公園</a>
+
+            <a href="/park/takaido/">高井戸公園</a>
+
+            <a href="/park/toyama/">戸山公園</a>
+
+            <a href="/park/nerimajoshi/">練馬城址公園</a>
+
+            <a href="/park/hikarigaoka/">光が丘公園</a>
+
+            <a href="/park/hibiya/">日比谷公園</a>
+
+            <a href="/park/yoyogi/">代々木公園</a>
+
+            <a href="/park/rinshinomori/">林試の森公園</a>
+
+            <a href="/park/rokakoshun-en/">蘆花恒春園</a>
+
+            <a href="/park/wadabori/">和田堀公園</a>
+
+            <a href="/park/koganei/">小金井公園</a>
+
+            <a href="/park/higashimurayama-chuo/">東村山中央公園</a>
+
+            <a href="/park/musashino-chuo/">武蔵野中央公園</a>
+
+            <a href="/park/fuchunomori/">府中の森公園</a>
+
+            <a href="/park/musashino-no-mori/">武蔵野の森公園</a>
+
+            <a href="/park/higashiyamato-minami/">東大和南公園</a>
+
+            <a href="/park/jindai/">神代植物公園</a>
+
+            <a href="/park/akirudai/">秋留台公園</a>
+
+            <a href="/park/komine/">小峰公園・小峰ビジターセンター</a>
+
+            <a href="/park/oyamadairi/">小山内裏公園</a>
+
+            <a href="/park/oyamadaryokuchi/">小山田緑地</a>
+
+            <a href="/park/sakuragaoka/">桜ヶ丘公園</a>
+
+            <a href="/park/naganuma/">長沼公園</a>
+
+            <a href="/park/hirayama-joshi/">平山城址公園</a>
+
+
+
+          </dd>
+        </dl>
+        <p>&nbsp;</p>
+<p>東京都公園協会の公式アプリ「TOKYO PARKS PLAY」では、公園でのウォーキングが楽しくなるコンテンツ<strong>『パークdeウォーク』</strong>と<br>心と身体のコンディションを日常的に計測できるコンテンツ<strong>『リラックスチェッカー』</strong>の期間限定キャンペーンを実施します。<br><br>期間中、アプリを使って対象公園の中で<strong><span style="color: rgb(224, 62, 45);">【</span></strong><span style="color: rgb(224, 62, 45);"><strong>5,000歩以上歩く】</strong><span style="color: rgb(0, 0, 0);">＆</span><strong>【自身のコンディションを2回以上計測】</strong></span>して抽選に応募しよう！</p>
+      </section>
+      <section>
+        <h2>詳細情報</h2>
+        <p><span style="font-size: 14pt;"><strong>キャンペーン実施・応募期間</strong></span><br><br>2026年10月30日（金）～2027年1月11日（月・祝）<br><br><strong><span style="font-size: 14pt;">応募参加にあたって、まずは【イベントカード】をゲットしよう！</span><br></strong><br>対象公園でコンテンツ『パークdeウォーク』、『リラックスチェッカー』をそれぞれ利用し、<br>以下の条件を達成するとアプリ上で<strong>【イベントカード】</strong>が入手できます。</p>
+<p><img style="width: 100%; max-width: 800px; height: auto;" src="/event_search/assets/contentsguide2026.png"></p>
+<p><br><strong><span style="font-size: 14pt;">イベントカード獲得条件　<span style="text-decoration: underline;">※公園外で計測された場合、有効数に含まれません。</span></span><br></strong><br>（１）『パークdeウォーク』を使って、<span style="color: rgb(224, 62, 45);"><strong>対象公園で5,000歩達成する<br></strong></span>（２）『リラックスチェッカー』を使って、<span style="color: rgb(224, 62, 45);"><strong>対象公園で2回計測する</strong></span><br><br><strong>【イベントカード】</strong>とは、コンテンツ『TOKYO PARKS CARD』内で入手することができるバーチャルカードです。<br><br><strong>『TOKYO PARKS CARD』について<a href="/special/tokyo_parks_play/lp/tokyo-parks-card/index.html">詳しくはこちら</a><br></strong><br><br><strong><span style="font-size: 14pt;">カードを集めて抽選応募で賞品があたる！</span><br></strong><br>さらに、<span style="text-decoration: underline;">期間中に以下<strong>【イベントカード】</strong>を2種類集めた方</span>のなかから、<span style="color: rgb(224, 62, 45);"><strong>抽選で62名様</strong></span>に賞品をプレゼントします。</p>
+<p><img style="width: 100%; max-width: 800px; height: auto;" src="/event_search/assets/ouboshouhin.png"><br><br><strong><span style="font-size: 14pt;">応募賞品</span><br></strong><br>・G-SHOCK（GBD-200-7JF・GBD-200-1JF）※各1名様<br>・水元公園オリジナル手ぬぐい　※10名様<br>・神代植物公園オリジナルマグカップ ※10名様<br>・キャンペーンオリジナルマルシェバッグ ※40名様<br><br>※画像はイメージです。<br>※応募は1人につき1回まで、賞品の複数当選はできません。<br>※賞品の内容・仕様は変更になる場合があります。<br>※賞品の交換・返却・換金および当選権の譲渡はできません。<br><br><br><span style="font-size: 14pt;"><strong>参加方法</strong></span></p>
+<p><img style="width: 100%; max-width: 800px; height: auto;" src="/event_search/assets/sankahouhou.png"><br><br>（１）東京都公園協会公式アプリ「TOKYO PARKS PLAY」をダウンロード<br>　　　※アプリストアで「東京都公園協会」、「TOKYO PARKS PLAY」、「パープレ」のいずれかで検索<br>（２）『パークdeウォーク』と『リラックスチェッカー』を開いて計測開始<br>　　　※ご利用の際は、はじめに使い方をご確認ください。<br>（３）条件達成後、『TOKYO PARKS CARD』内でイベントカードを獲得</p>
+<p><strong><span style="font-size: 14pt;">応募方法<br></span><br></strong><img style="width: 100%; max-width: 800px; height: auto;" src="/event_search/assets/oubohouhou.png"><br><br>イベントカード獲得後『TOKYO PARKS CARD』内に表示される【応募ボタン】から<br>必要事項（お名前・住所・電話番号・ご希望の賞品・アプリ内ID）をご入力の上ご応募ください。<br><br>※ダウンロードや応募の際などに発生する接続料・通信料はお客様のご負担となります。<br>※このキャンペーンの期間・内容は予告なく変更・終了する場合がございます。あらかじめご了承ください。<br>※各公園へのご来園前に各公式ホームページや公式X（旧Twitter）にて最新情報をご確認ください。<br><br><br><span style="font-size: 14pt;"><strong>対象公園（※都立43公園）</strong></span></p>
+<p><img style="width: 100%; max-width: 800px; height: auto;" src="/event_search/assets/taishoukouen.png"><br><br></p>
+<p><span style="font-size: 14pt;"><strong>当選発表・賞品の発送について</strong></span><br><br>当選発表は、賞品の発送をもってかえさせていただきます。<br>賞品の発送時期については、2月頃を予定しておりますが、都合により前後する場合がございます。あらかじめご了承ください。<br>※応募時にいただいた個人情報は、本キャンペーンの抽選、賞品の発送等の目的のみに使用いたします。<br><br></p>
+<p><span style="font-size: 14pt;"><strong>アプリについて</strong></span><br><br><strong>【アプリ名】</strong><br>「TOKYO PARKS PLAY」（東京パークスプレイ　略称：パープレ）<br><br><strong>【提供元】</strong><br>公益財団法人東京都公園協会<br><br><strong>【アプリ開発・デザイン協力】</strong><br>カシオ計算機株式会社<br><br><strong>【対応OS】</strong><br>iOS15以降のiPhone、iPadおよびiPod touchに対応<br>（iPadおよびiPod touchの専用画面の設定はありません）<br>Android9以降<br><br><strong>【利用料金】</strong><br>無料（通信料が別途発生します）<br><br><strong>【主な機能】</strong><br>公園で行うイベントの通知機能<br>公園の施設や園内の紹介<br>「遊び」や「ガイド」などのセルフガイドコンテンツ<br><br><strong>【ダウンロード方法】</strong><br>アプリストアで「東京都公園協会」、「TOKYO PARKS PLAY」、「パープレ」のいずれかで検索<br>　○Google Playのダウンロードは<a class="with-other" href="https://play.google.com/store/apps/details?id=jp.or.tokyopark.tokyoparksplay&amp;hl=ja" target="_blank" rel="noopener">こちらから</a><br>　○App Storeのダウンロードは<a class="with-other" href="https://apps.apple.com/jp/app/tokyo-parks-play-%E3%83%91%E3%83%BC%E3%83%97%E3%83%AC/id1290003608" target="_blank" rel="noopener">こちらから</a><br><br><strong>アプリポータルサイトは<a href="/special/tokyo_parks_play/index.html">こちらから</a><br></strong><br><br><strong><span style="font-size: 14pt;">本件に関するお問い合わせ先</span><br></strong><br>公益財団法人 東京都公園協会<br>公園事業部 事業管理課<br>03-3232-3195</p>
+
+
+
+
+
+      </section>
+
+      <section class="images">
+        <ul>
+
+
+        </ul>
+      </section>
+      <section>
+        <h2>おすすめのイベント</h2>
+        <ul class="link-list">
+
+          <li><a href="index.html?_filter=event&_filter_value_category[]=%E4%BD%93%E9%A8%93%E3%83%BB%E9%81%8A%E3%81%B6&_filter_cond_category[]=ct">体験・遊ぶ</a></li>
+
+          <li><a href="index.html?_filter=event&_filter_value_category[]=%E8%87%AA%E7%84%B6%E3%81%AB%E3%81%B5%E3%82%8C%E3%82%8B&_filter_cond_category[]=ct">自然にふれる</a></li>
+
+        </ul>
+      </section>
+    </div>
+    <section class="bnr-list">
+      <!--ul>
+        <li>
+          <a href=""><img src="/assets/images/second/bnr-park.png" alt="" /></a>
+        </li>
+      </ul-->
+    </section>
+
+    <div class="breadcrumb">
+      <ul>
+        <li><a href="/">トップページ</a></li>
+        <li><a href="/event_search/index.html">イベント一覧</a></li>
+        <li>パークdeウォーク&リラックスチェッカーキャンペーン2026</li>
+      </ul>
+    </div>
+  </main>
+
+
+<div id="xp1" class="rs_preserve rs_skip rs_splitbutton rs_addtools rs_exp"></div>
+<footer>
+    <div class="inner">
+      <nav class="site-link">
+        <ul>
+          <li><a href="/inquiry/">お問合せ</a></li>
+          <li><a href="/faq/">よくあるご質問</a></li>
+          <li><a href="/sitepolicy/">サイトポリシー</a></li>
+          <li><a href="/terms/">アクセシビリティについて</a></li>
+          <li><a href="/privacypolicy/">個人情報の取り扱いについて</a></li>
+          <li><a href="/sitemap/">サイトマップ</a></li>
+          <li><a href="/link/">関連サイト</a></li>
+        </ul>
+        <a class="pmark_sp" href="https://privacymark.jp/" target="_blank" rel="noopener"><img
+            src="/assets/images/footer/pmark.png" alt="Pマーク" /></a>
+      </nav>
+      <div class="sns">
+        <ul>
+          <li>
+            <a href="https://twitter.com/TokyoParks?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank" rel="noopener">
+              <img src="/assets/images/footer/x.png" alt="X" />
+            </a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/tokyo_parks/?hl=ja" target="_blank" rel="noopener"><img src="/assets/images/footer/instagram.png" alt="Instagram" /></a>
+          </li>
+          <li>
+            <a href="https://www.youtube.com/channel/UCptF8vTIlGOnUjMmfTQEQ-g" target="_blank" rel="noopener"><img src="/assets/images/footer/youtube.png" alt="YouTube" /></a>
+          </li>
+        </ul>
+      </div>
+      <div class="info">
+
+        <p>〒160-0021 東京都新宿区歌舞伎町2-44-1 東京都健康プラザハイジア 9・10・16F</p>
+
+        <a class="pmark" href="https://privacymark.jp/" target="_blank" rel="noopener"><img
+            src="/assets/images/footer/pmark.png" alt="Pマーク" /></a>
+      </div>
+      <p class="copy">
+        Copyright &copy;<span id="copyright-year"></span>
+<script type="text/javascript">
+window.addEventListener('DOMContentLoaded',function(){
+    document.getElementById("copyright-year").innerHTML = new Date().getFullYear();
+});
+</script>
+公益財団法人 東京都公園協会 all rights reserved.
+      </p>
+    </div>
+  </footer>
+  <div class="page-top" id="pageTop">
+    <img src="/assets/images/footer/page-top.png" alt="" />
+  </div>
+</body>
+
+<script src="https://ce.mf.marsflag.com/latest/js/mf-search.js" charset="UTF-8"></script>
+<script src="/assets/js/jquery.min.js"></script>
+<script src="/assets/js/jquery-ui.min.js"></script>
+<script src="/assets/js/slick.min.js"></script>
+<script src="/assets/js/jquery.modal.min.js"></script>
+<script src="/assets/js/flatpickr.js"></script>
+<script src="/assets/js/ja.js"></script>
+<script src="/assets/js/dayjs.min.js"></script>
+<script src="/assets/js/common.js"></script>
+<script src="/assets/js/text-icon.js"></script>
+<script src="/assets/js/scrollx.js"></script>
+<script src="/assets/js/pagelink.js"></script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "公益財団法人東京都公園協会",
+  "alternateName": "東京都公園協会",
+  "url": "https://www.tokyo-park.or.jp/",
+  "logo": "https://www.tokyo-park.or.jp/images/assets/images/header/logo.png"
+}
+</script>
+
+
+
+</html>

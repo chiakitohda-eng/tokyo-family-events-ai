@@ -1,0 +1,52 @@
+page1 https://www.tokyo-park.or.jp/park/yoyogi/news/2026/index.html 200 48588
+page10 https://www.tokyo-park.or.jp/park/toneri/news/2026/index.html 200 24873
+page11 https://www.tokyo-park.or.jp/park/siba/news/2026/index.html 200 26897
+page12 https://www.tokyo-park.or.jp/park/shinozaki/news/2026/index.html 200 21219
+page13 https://www.tokyo-park.or.jp/park/mizumoto/news/2026/index.html 200 25981
+page14 https://www.tokyo-park.or.jp/park/soshigaya/news/2026/index.html 200 24896
+page15 https://www.tokyo-park.or.jp/park/toyama/news/2026/index.html 200 24351
+page16 https://www.tokyo-park.or.jp/park/takaido/news/2026/index.html 200 22620
+page17 https://www.tokyo-park.or.jp/park/zenpukuji/news/2026/index.html 200 20713
+page18 https://www.tokyo-park.or.jp/park/shioiri/news/2026/index.html 200 23054
+page19 https://www.tokyo-park.or.jp/park/rinshinomori/news/2026/index.html 200 25798
+page2 https://www.tokyo-park.or.jp/park/hibiya/news/2026/index.html 200 33572
+page20 https://www.tokyo-park.or.jp/park/nerimajoshi/news/2026/index.html 200 19423
+page21 https://www.tokyo-park.or.jp/park/komazawa-olympic/news/2026/index.html 200 21119
+page22 https://www.tokyo-park.or.jp/park/kinuta/news/2026/index.html 200 28237
+page23 https://www.tokyo-park.or.jp/park/johoku-chuo/news/2026/index.html 200 23424
+page24 https://www.tokyo-park.or.jp/park/higashi-shirahige/news/2026/index.html 200 23870
+page25 https://www.tokyo-park.or.jp/park/aoyama/news/2026/index.html 200 31270
+page26 https://www.tokyo-park.or.jp/park/inokashira/news/2026/index.html 404 19197
+page27 https://www.tokyo-park.or.jp/park/ueno/news/2026/index.html 404 19191
+page28 https://www.tokyo-park.or.jp/park/jindai/news/2026/index.html 200 22863
+page29 https://www.tokyo-park.or.jp/park/koganei/news/2026/index.html 200 51124
+page3 https://www.tokyo-park.or.jp/park/hikarigaoka/news/2026/index.html 200 36277
+page30 https://www.tokyo-park.or.jp/event_search/komazawa_fantasia2026.html 200 528568
+page31 https://www.tokyo-park.or.jp/event_search/tokyo_parks_play_cp2026.html 200 29639
+curl: (28) Operation timed out after 25002 milliseconds with 0 bytes received
+page32 http://www.tokyodisneyresort.jp/treasure/christmas2026/tdl/ 000 0
+page32 http://www.tokyodisneyresort.jp/treasure/christmas2026/tdl/ FAIL
+curl: (28) Operation timed out after 25001 milliseconds with 0 bytes received
+page33 http://www.tokyodisneyresort.jp/treasure/christmas2026/tds/ 000 0
+page33 http://www.tokyodisneyresort.jp/treasure/christmas2026/tds/ FAIL
+curl: (28) Operation timed out after 25001 milliseconds with 0 bytes received
+page34 https://www.tokyodisneyresort.jp/en/topics/event/christmas2026/tds.html 000 0
+page34 https://www.tokyodisneyresort.jp/en/topics/event/christmas2026/tds.html FAIL
+curl: (28) Operation timed out after 25002 milliseconds with 0 bytes received
+page35 https://www.tokyodisneyresort.jp/tdr/calendar.html 000 0
+page35 https://www.tokyodisneyresort.jp/tdr/calendar.html FAIL
+curl: (28) Operation timed out after 25002 milliseconds with 0 bytes received
+page36 http://www.tokyodisneyresort.jp/tdl/event.html 000 0
+page36 http://www.tokyodisneyresort.jp/tdl/event.html FAIL
+page37 https://www.tokyo-zoo.net/ueno/events/calendar/index.html 404 365990
+page38 https://www.tokyo-zoo.net/ueno/news/index.html 200 647023
+page39 https://www.tokyo-zoo.net/inokashira/news/index.html 200 595378
+page4 https://www.tokyo-park.or.jp/park/kasairinkai/news/2026/index.html 200 28841
+page40 https://www.tokyo-zoo.net/kasai/news/index.html 200 542649
+page41 https://www.hanayashiki.net/event/ 404 11148
+page42 https://www.tokyo-park.or.jp/park/format/map022.html 200 54370
+page5 https://www.tokyo-park.or.jp/park/shakujii/news/2026/index.html 200 22383
+page6 https://www.tokyo-park.or.jp/park/kiba/news/2026/index.html 200 27790
+page7 https://www.tokyo-park.or.jp/park/akatsuka/news/2026/index.html 200 24366
+page8 https://www.tokyo-park.or.jp/park/wadabori/news/2026/index.html 200 20269
+page9 https://www.tokyo-park.or.jp/park/ukima/news/2026/index.html 200 22075
