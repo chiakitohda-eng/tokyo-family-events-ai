@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<title>めざせゲームクリエイター！ はじめての3Dゲーム開発 ～お手本をもとに、自分だけのゲームをつくろう～</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="format-detection" content="telephone=no">
+<meta name="title" content="めざせゲームクリエイター！ はじめての3Dゲーム開発 ～お手本をもとに、自分だけのゲームをつくろう～">
+<meta name="description" content="誰でも気軽にデジタルツールを使った創作を楽しめる体験です。プログラミングやデジタルツールが初めてでも大丈夫！手ぶらで体験しにきてください。">
+<meta property="og:title" content="めざせゲームクリエイター！ はじめての3Dゲーム開発 ～お手本をもとに、自分だけのゲームをつくろう～">
+<meta property="og:description" content="誰でも気軽にデジタルツールを使った創作を楽しめる体験です。プログラミングやデジタルツールが初めてでも大丈夫！手ぶらで体験しにきてください。">
+<meta property="og:image" content="https://www.kids-digital.metro.tokyo.lg.jp/assets/img/og-img.jpg">
+<meta property="og:site_name" content="とうきょうこどもクリエイティブラボ">
+<meta property="og:url" content="https://www.kids-digital.metro.tokyo.lg.jp/">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="めざせゲームクリエイター！ はじめての3Dゲーム開発 ～お手本をもとに、自分だけのゲームをつくろう～">
+<meta name="twitter:description" content="誰でも気軽にデジタルツールを使った創作を楽しめる体験です。プログラミングやデジタルツールが初めてでも大丈夫！手ぶらで体験しにきてください。">
+<meta name="twitter:image" content="https://www.kids-digital.metro.tokyo.lg.jp/assets/img/og-img.jpg">
+<link rel="stylesheet" href="/assets/css/style.css?v=20261013-01">
+<script src="/assets/js/script.js?v=20261013-01" defer></script>
+<script src="/assets/js/network-deadline.js?v=20261013-01" defer></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;500;800&family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
+<link rel="shortcut icon" href="/assets/img/favicon.ico">
+<link href="/assets/img/favicon.ico" rel="shortcut icon" type="image/ico">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-HFS18Q3Z9S"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-HFS18Q3Z9S');
+</script>
+</head>
+<body class="page-lower page-network01" data-network-id="network16">
+  <svg xmlns="http://www.w3.org/2000/svg" style="opacity:0; position:absolute; z-index:-999" width="0" height="0">
+    <defs>
+      <symbol id="icon-arrow-green" viewbox="0 0 10.67 12.71"><path d="m9.67,6.34l-3.63-3.63v10h-1.42V2.71l-3.63,3.63-1-1L5.34,0l5.34,5.34-1,1Z"></path></symbol>
+      <symbol id="icon-arrow" viewbox="0 0 10.67 12.71"><path d="m9.67,6.34l-3.63-3.63v10h-1.42V2.71l-3.63,3.63-1-1L5.34,0l5.34,5.34-1,1Z"></path></symbol>
+      <symbol id="icon-arrow-s" viewbox="0 0 8.82 5.41"><path d="m4.41,5.41L0,1,1,0l3.41,3.41L7.81,0l1,1-4.41,4.41Z"></path></symbol>
+      <symbol id="icon-blank" viewbox="0 0 25.48 21.44"><path d="m24.06,15.96H7c-.78,0-1.42-.63-1.42-1.42V1.42c0-.78.63-1.42,1.42-1.42h17.06c.78,0,1.42.63,1.42,1.42v13.13c0,.78-.63,1.42-1.42,1.42Zm-15.64-2.83h14.22V2.83h-14.22v10.29Z"></path><path d="m13.45,21.44H1.42c-.78,0-1.42-.63-1.42-1.42v-11.98c0-.78.63-1.42,1.42-1.42s1.42.63,1.42,1.42v10.56h10.62c.78,0,1.42.63,1.42,1.42s-.63,1.42-1.42,1.42Z"></path></symbol>
+      <symbol id="shape-nami" viewbox="0 0 462.96 19.84"><path d="m441.91,19.84c-7.27,0-11.21-3.19-14.09-5.51-2.39-1.93-3.7-2.99-6.96-2.99s-4.57,1.06-6.96,2.99c-2.88,2.33-6.82,5.51-14.09,5.51s-11.21-3.19-14.09-5.51c-2.39-1.93-3.7-2.99-6.96-2.99s-4.57,1.06-6.96,2.99c-2.88,2.33-6.82,5.51-14.09,5.51s-11.21-3.19-14.09-5.51c-2.39-1.93-3.7-2.99-6.96-2.99s-4.57,1.06-6.96,2.99c-2.88,2.33-6.82,5.51-14.08,5.51s-11.21-3.19-14.08-5.51c-2.39-1.93-3.7-2.99-6.96-2.99s-4.57,1.06-6.96,2.99c-2.88,2.33-6.82,5.51-14.08,5.51s-11.21-3.19-14.09-5.51c-2.39-1.93-3.7-2.99-6.96-2.99s-4.57,1.06-6.96,2.99c-2.88,2.33-6.82,5.51-14.08,5.51s-11.21-3.19-14.08-5.51c-2.39-1.93-3.7-2.99-6.96-2.99s-4.57,1.06-6.96,2.99c-2.88,2.33-6.82,5.51-14.09,5.51s-11.21-3.19-14.08-5.51c-2.39-1.93-3.7-2.99-6.96-2.99s-4.57,1.06-6.96,2.99c-2.88,2.33-6.82,5.51-14.08,5.51s-11.21-3.19-14.09-5.51c-2.39-1.93-3.7-2.99-6.96-2.99s-4.57,1.06-6.96,2.99c-2.88,2.33-6.82,5.51-14.08,5.51s-11.21-3.19-14.08-5.51c-2.39-1.93-3.7-2.99-6.96-2.99s-4.57,1.06-6.96,2.99c-2.88,2.33-6.82,5.51-14.08,5.51s-11.21-3.19-14.08-5.51c-2.39-1.93-3.7-2.99-6.96-2.99s-4.57,1.06-6.96,2.99c-2.88,2.33-6.82,5.51-14.08,5.51s-11.21-3.19-14.08-5.51c-2.39-1.93-3.7-2.99-6.96-2.99V0c7.27,0,11.21,3.19,14.09,5.51,2.39,1.93,3.7,2.99,6.96,2.99s4.57-1.06,6.96-2.99c2.88-2.33,6.82-5.51,14.08-5.51s11.21,3.19,14.08,5.51c2.39,1.93,3.7,2.99,6.96,2.99s4.57-1.06,6.96-2.99c2.88-2.33,6.82-5.51,14.08-5.51s11.21,3.19,14.08,5.51c2.39,1.93,3.7,2.99,6.96,2.99s4.57-1.06,6.96-2.99c2.88-2.33,6.82-5.51,14.08-5.51s11.21,3.19,14.09,5.51c2.39,1.93,3.7,2.99,6.96,2.99s4.57-1.06,6.96-2.99c2.88-2.33,6.82-5.51,14.08-5.51s11.21,3.19,14.09,5.51c2.39,1.93,3.7,2.99,6.96,2.99s4.57-1.06,6.96-2.99c2.88-2.33,6.82-5.51,14.08-5.51s11.21,3.19,14.08,5.51c2.39,1.93,3.7,2.99,6.96,2.99s4.57-1.06,6.96-2.99c2.88-2.33,6.82-5.51,14.08-5.51s11.21,3.19,14.09,5.51c2.39,1.93,3.7,2.99,6.96,2.99s4.57-1.06,6.96-2.99c2.88-2.33,6.82-5.51,14.08-5.51s11.21,3.19,14.09,5.51c2.39,1.93,3.7,2.99,6.96,2.99s4.57-1.06,6.96-2.99c2.88-2.33,6.82-5.51,14.08-5.51s11.21,3.19,14.09,5.51c2.39,1.93,3.7,2.99,6.96,2.99s4.57-1.06,6.96-2.99c2.88-2.33,6.82-5.51,14.09-5.51s11.21,3.19,14.09,5.51c2.39,1.93,3.7,2.99,6.96,2.99s4.57-1.06,6.96-2.99c2.88-2.33,6.82-5.51,14.09-5.51s11.21,3.19,14.09,5.51c2.39,1.93,3.7,2.99,6.96,2.99s4.57-1.06,6.96-2.99c2.88-2.33,6.82-5.51,14.09-5.51v11.34c-3.26,0-4.57,1.06-6.96,2.99-2.88,2.33-6.82,5.51-14.09,5.51Z" fill="#18a676"></path></symbol>
+      <symbol id="about-shape-nami" viewbox="0 0 462.96 17.01"><path d="m441.91,17.01c-6.77,0-10.33-2.88-13.2-5.2-2.46-1.99-4.09-3.31-7.85-3.31s-5.39,1.32-7.85,3.31c-2.87,2.31-6.43,5.2-13.2,5.2s-10.33-2.88-13.2-5.2c-2.46-1.99-4.09-3.31-7.85-3.31s-5.39,1.32-7.85,3.31c-2.87,2.31-6.43,5.2-13.2,5.2s-10.33-2.88-13.2-5.2c-2.46-1.99-4.09-3.31-7.85-3.31s-5.38,1.32-7.85,3.31c-2.87,2.32-6.43,5.2-13.19,5.2s-10.33-2.88-13.19-5.2c-2.46-1.99-4.09-3.31-7.85-3.31s-5.38,1.32-7.85,3.31c-2.86,2.32-6.43,5.2-13.19,5.2s-10.33-2.88-13.19-5.2c-2.46-1.99-4.09-3.31-7.85-3.31s-5.38,1.32-7.85,3.31c-2.86,2.32-6.43,5.2-13.19,5.2s-10.33-2.88-13.2-5.2c-2.46-1.99-4.09-3.31-7.85-3.31s-5.38,1.32-7.85,3.31c-2.86,2.32-6.43,5.2-13.19,5.2s-10.33-2.88-13.19-5.2c-2.46-1.99-4.09-3.31-7.85-3.31s-5.38,1.32-7.85,3.31c-2.86,2.32-6.43,5.2-13.19,5.2s-10.33-2.88-13.19-5.2c-2.46-1.99-4.09-3.31-7.85-3.31s-5.38,1.32-7.85,3.31c-2.86,2.32-6.43,5.2-13.19,5.2s-10.33-2.88-13.19-5.2c-2.46-1.99-4.09-3.31-7.85-3.31s-5.38,1.32-7.85,3.31c-2.86,2.32-6.43,5.2-13.19,5.2s-10.33-2.88-13.19-5.2c-2.46-1.99-4.09-3.31-7.85-3.31s-5.38,1.32-7.85,3.31c-2.86,2.32-6.43,5.2-13.19,5.2s-10.33-2.88-13.19-5.2C5.38,9.82,3.76,8.5,0,8.5V0C6.76,0,10.33,2.88,13.19,5.2c2.46,1.99,4.09,3.31,7.85,3.31s5.38-1.32,7.85-3.31C31.76,2.88,35.32,0,42.08,0s10.33,2.88,13.19,5.2c2.46,1.99,4.09,3.31,7.85,3.31s5.38-1.32,7.85-3.31C73.84,2.88,77.4,0,84.17,0s10.33,2.88,13.19,5.2c2.46,1.99,4.09,3.31,7.85,3.31s5.38-1.32,7.85-3.31C115.92,2.88,119.48,0,126.25,0s10.33,2.88,13.19,5.2c2.46,1.99,4.09,3.31,7.85,3.31s5.38-1.32,7.85-3.31C158.01,2.88,161.57,0,168.34,0s10.33,2.88,13.19,5.2c2.46,1.99,4.09,3.31,7.85,3.31s5.38-1.32,7.85-3.31C200.09,2.88,203.66,0,210.42,0s10.33,2.88,13.19,5.2c2.46,1.99,4.09,3.31,7.85,3.31s5.38-1.32,7.85-3.31C242.18,2.88,245.74,0,252.5,0s10.33,2.88,13.2,5.2c2.46,1.99,4.09,3.31,7.85,3.31s5.38-1.32,7.85-3.31C284.26,2.88,287.83,0,294.59,0s10.33,2.88,13.19,5.2c2.46,1.99,4.09,3.31,7.85,3.31s5.38-1.32,7.85-3.31C326.35,2.88,329.91,0,336.68,0s10.33,2.88,13.2,5.2c2.46,1.99,4.09,3.31,7.85,3.31s5.39-1.32,7.85-3.31C368.44,2.88,372,0,378.77,0s10.33,2.88,13.2,5.2c2.46,1.99,4.09,3.31,7.85,3.31s5.39-1.32,7.85-3.31C410.53,2.88,414.1,0,420.86,0s10.33,2.88,13.2,5.2c2.46,1.99,4.09,3.31,7.85,3.31s5.39-1.32,7.85-3.31C452.63,2.88,456.19,0,462.96,0v8.5c-3.76,0-5.39,1.32-7.85,3.31-2.87,2.31-6.43,5.2-13.2,5.2Z"></path></symbol>
+      <symbol id="shape-nami-no-fill" viewbox="0 0 462.96 19.84"><path d="m441.91,19.84c-7.27,0-11.21-3.19-14.09-5.51-2.39-1.93-3.7-2.99-6.96-2.99s-4.57,1.06-6.96,2.99c-2.88,2.33-6.82,5.51-14.09,5.51s-11.21-3.19-14.09-5.51c-2.39-1.93-3.7-2.99-6.96-2.99s-4.57,1.06-6.96,2.99c-2.88,2.33-6.82,5.51-14.09,5.51s-11.21-3.19-14.09-5.51c-2.39-1.93-3.7-2.99-6.96-2.99s-4.57,1.06-6.96,2.99c-2.88,2.33-6.82,5.51-14.08,5.51s-11.21-3.19-14.08-5.51c-2.39-1.93-3.7-2.99-6.96-2.99s-4.57,1.06-6.96,2.99c-2.88,2.33-6.82,5.51-14.08,5.51s-11.21-3.19-14.09-5.51c-2.39-1.93-3.7-2.99-6.96-2.99s-4.57,1.06-6.96,2.99c-2.88,2.33-6.82,5.51-14.08,5.51s-11.21-3.19-14.08-5.51c-2.39-1.93-3.7-2.99-6.96-2.99s-4.57,1.06-6.96,2.99c-2.88,2.33-6.82,5.51-14.09,5.51s-11.21-3.19-14.08-5.51c-2.39-1.93-3.7-2.99-6.96-2.99s-4.57,1.06-6.96,2.99c-2.88,2.33-6.82,5.51-14.08,5.51s-11.21-3.19-14.09-5.51c-2.39-1.93-3.7-2.99-6.96-2.99s-4.57,1.06-6.96,2.99c-2.88,2.33-6.82,5.51-14.08,5.51s-11.21-3.19-14.08-5.51c-2.39-1.93-3.7-2.99-6.96-2.99s-4.57,1.06-6.96,2.99c-2.88,2.33-6.82,5.51-14.08,5.51s-11.21-3.19-14.08-5.51c-2.39-1.93-3.7-2.99-6.96-2.99s-4.57,1.06-6.96,2.99c-2.88,2.33-6.82,5.51-14.08,5.51s-11.21-3.19-14.08-5.51c-2.39-1.93-3.7-2.99-6.96-2.99V0c7.27,0,11.21,3.19,14.09,5.51,2.39,1.93,3.7,2.99,6.96,2.99s4.57-1.06,6.96-2.99c2.88-2.33,6.82-5.51,14.08-5.51s11.21,3.19,14.08,5.51c2.39,1.93,3.7,2.99,6.96,2.99s4.57-1.06,6.96-2.99c2.88-2.33,6.82-5.51,14.08-5.51s11.21,3.19,14.08,5.51c2.39,1.93,3.7,2.99,6.96,2.99s4.57-1.06,6.96-2.99c2.88-2.33,6.82-5.51,14.08-5.51s11.21,3.19,14.09,5.51c2.39,1.93,3.7,2.99,6.96,2.99s4.57-1.06,6.96-2.99c2.88-2.33,6.82-5.51,14.08-5.51s11.21,3.19,14.09,5.51c2.39,1.93,3.7,2.99,6.96,2.99s4.57-1.06,6.96-2.99c2.88-2.33,6.82-5.51,14.08-5.51s11.21,3.19,14.08,5.51c2.39,1.93,3.7,2.99,6.96,2.99s4.57-1.06,6.96-2.99c2.88-2.33,6.82-5.51,14.08-5.51s11.21,3.19,14.09,5.51c2.39,1.93,3.7,2.99,6.96,2.99s4.57-1.06,6.96-2.99c2.88-2.33,6.82-5.51,14.08-5.51s11.21,3.19,14.09,5.51c2.39,1.93,3.7,2.99,6.96,2.99s4.57-1.06,6.96-2.99c2.88-2.33,6.82-5.51,14.08-5.51s11.21,3.19,14.09,5.51c2.39,1.93,3.7,2.99,6.96,2.99s4.57-1.06,6.96-2.99c2.88-2.33,6.82-5.51,14.09-5.51s11.21,3.19,14.09,5.51c2.39,1.93,3.7,2.99,6.96,2.99s4.57-1.06,6.96-2.99c2.88-2.33,6.82-5.51,14.09-5.51s11.21,3.19,14.09,5.51c2.39,1.93,3.7,2.99,6.96,2.99s4.57-1.06,6.96-2.99c2.88-2.33,6.82-5.51,14.09-5.51v11.34c-3.26,0-4.57,1.06-6.96,2.99-2.88,2.33-6.82,5.51-14.09,5.51Z"></path></symbol>
+      <symbol id="icon-home" viewbox="0 0 16.2 16.95"><path d="m11.06,16.95h5.14V6.93L8.1,0,0,6.93v10.01h5.14v-4.62c0-.15.13-.28.3-.28h5.32c.17,0,.3.13.3.28v4.62Z"></path></symbol>
+    </defs>
+  </svg>
+  <div class="loader" data-loader></div>
+  <div class="wrapper">
+    <header class="header">
+      <div class="header-inner">
+        <div class="header-left">
+          <nav class="skip-nav">
+            <a href="#main-content" class="skip-link">
+              <p class="header-nav-text">本文へ</p>
+              <span class="icon-arrow"><svg><use href="#icon-arrow" /></svg></span>
+            </a>
+          </nav>
+          <div class="logo">
+            <a href="https://www.digitalservice.metro.tokyo.lg.jp/" target="_blank">
+              <img src="/assets/img/logo-tokyo.svg" alt="東京都のロゴ" width="110" height="28">
+            </a>
+          </div>
+          <a class="bnr" href="https://kodomo-smile.metro.tokyo.lg.jp/" target="_blank">
+            <picture>
+              <source media="(max-width: 767px)" srcset="/assets/img/bnr-kodomo-smile.jpg" width="187" height="58">
+              <source media="(min-width: 768px)" srcset="/assets/img/pc/bnr-kodomo-smile.jpg, /assets/img/pc/bnr-kodomo-smile@2x.jpg 2x" width="108" height="34">
+              <img src="/assets/img/pc/bnr-kodomo-smile.jpg" alt="こどもスマイルムーブメントバナー" loading="lazy" width="108" height="34">
+            </picture>
+          </a>
+        </div>
+        <!-- PCグローバルナビ左側 -->
+        <div class="header-right">
+          <nav class="header-nav">
+            <ul>
+              <li class="header-nav-1">
+                <a href="/index.html">
+                  <p class="header-nav-text">ホーム</p>
+                  <span class="icon-arrow">
+                    <svg>
+                      <use href="#icon-arrow">
+                      </use>
+                    </svg>
+                  </span>
+                </a>
+              </li>
+              <li class="header-nav-2">
+                <a href="/municipalities/">
+                  <p class="header-nav-text">くりらぼ in <br>区市町村</p>
+                  <span class="icon-arrow">
+                    <svg>
+                      <use href="#icon-arrow">
+                      </use>
+                    </svg>
+                  </span>
+                </a>
+              </li>
+              <li class="header-nav-5">
+                <a href="/base/">
+                  <p class="header-nav-text">くりらぼベース
+                  </p>
+                  <span class="icon-arrow">
+                    <svg>
+                      <use href="#icon-arrow">
+                      </use>
+                    </svg>
+                  </span>
+                </a>
+              </li>
+              <li class="header-nav-2">
+                <a href="/network/">
+                  <p class="header-nav-text">くりらぼ<br>ネットワーク</p>
+                  <span class="icon-arrow">
+                    <svg>
+                      <use href="#icon-arrow">
+                      </use>
+                    </svg>
+                  </span>
+                </a>
+              </li>
+              <li class="header-nav-5">
+                <a href="/workshop/">
+                  <p class="header-nav-text">ワークショップ</p>
+                  <span class="icon-arrow"><svg><use href="#icon-arrow" /></svg></span>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+
+      <button class="btn-menu" type="button" aria-label="メニューボタン" data-menu-trigger>
+        <span class="btn-menu-line">
+        </span>
+        <span class="btn-menu-line">
+        </span>
+        <span class="btn-menu-line">
+        </span>
+      </button>
+
+      <div class="menu" data-menu>
+        <div class="menu-inner">
+          <div class="menu-contents">
+            <ul class="menu-list">
+              <li class="menu-item-1"><a href="/index.html" data-menu-link><span class="menu-text">ホーム</span><span
+                    class="icon-arrow">
+                    <svg>
+                      <use href="#icon-arrow" />
+                    </svg></span></a></li>
+              <li class="menu-item-2"><a href="/municipalities/" data-menu-link><span class="menu-text">くりらぼ in
+                    区市町村</span><span class="icon-arrow">
+                    <svg>
+                      <use href="#icon-arrow" />
+                    </svg></span></a></li>
+              <li class="menu-item-3"><a href="/base/" data-menu-link><span
+                    class="menu-text">くりらぼベース</span><span class="icon-arrow">
+                    <svg>
+                      <use href="#icon-arrow" />
+                    </svg></span></a></li>
+              <li class="menu-item-4"><a href="/network/" data-menu-link><span class="menu-text">くりらぼネットワーク</span><span
+                    class="icon-arrow">
+                    <svg>
+                      <use href="#icon-arrow" />
+                    </svg></span></a></li>
+              <li class="menu-item-1"><a href="/workshop/" data-menu-link>
+                  <span class="menu-text">ワークショップ</span>
+                  <span class="icon-arrow"><svg><use href="#icon-arrow" /></svg></span>
+                </a></li>
+            </ul>
+            <ul class="menu-links">
+              <li class="menu-link-tokyo"><a href="https://www.digitalservice.metro.tokyo.lg.jp/" target="_blank"
+                  data-menu-link><img src="/assets/img/logo-tokyo.svg" alt="東京都のロゴ" width="110" height="28"></a></li>
+              <li class="menu-link-kodomo-smile"><a href="https://kodomo-smile.metro.tokyo.lg.jp/" target="_blank"
+                  data-menu-link>
+                  <picture>
+                    <source media="(max-width: 767px)" srcset="/assets/img/bnr-kodomo-smile.jpg" width="187" height="58">
+                    <source media="(min-width: 768px)"
+                      srcset="/assets/img/pc/bnr-kodomo-smile.jpg, /assets/img/pc/bnr-kodomo-smile@2x.jpg 2x" width="108"
+                      height="34"><img src="/assets/img/pc/bnr-kodomo-smile.jpg" alt="こどもスマイルムーブメントバナー" loading="lazy"
+                      width="108" height="34">
+                  </picture>
+                </a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main id="main-content" class="main" tabindex="-1">
+      <section class="section-page-heading municipalities-page-heading" aria-labelledby="area-page-heading">
+        <div class="section-inner">
+          <h1 class="municipalities" id="area-page-heading">めざせゲームクリエイター！ はじめての3Dゲーム開発 ～お手本をもとに、自分だけのゲームをつくろう～</h1>
+          <p class="sub-text">くりらぼネットワーク連携事業<br>（株式会社モバイルインターネットテクノロジー）</p>
+          <div class="period">
+            <p class="heading">申込期間</p>
+            <p></p>
+          </div>
+          <div class="deadline">
+            <img src="/assets/img/lower/deadline-badge/network16.svg" alt="申込締切" width="130" height="130">
+          </div>
+          <ul class="breadcrumb">
+            <li><a href="/"><span class="icon-home">
+                  <svg>
+                    <title>ホームのアイコン</title>
+                    <use href="#icon-home" />
+                  </svg></span>ホーム</a></li>
+            <li><span class="separator">/</span>株式会社モバイルインターネットテクノロジー
+            </li>
+          </ul>
+        </div>
+      </section>
+      <div class="block-container">
+        <div class="block-left">
+          <div class="page-nav" data-local-nav role="navigation">
+            <ul>
+              <li class="is-current item-info"><a href="#info">開催日時・場所</a></li>
+              <li class="item-program"><a href="#program">開催プログラム</a></li>
+              <li class="item-entry"><a href="#entry">募集要項</a></li>
+              <li class="item-faq"><a href="#faq">よくあるご質問</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="block-right">
+          <div class="page-text">
+            <p>
+              ブロックを組み合わせてプログラミングできる「Mind Render（マインドレンダー）※」を使って、3Dゲームづくりに挑戦！<br>
+              <br>
+              まずは講師と一緒に、お手本のマニュアルを見ながら基本の3Dゲームをつくります。ゲームづくりが初めてでも安心です。<br>
+              <br>
+              次に、実際にゲームで遊び、気づいたことや思いついたアイディアをもとに、楽しみながら、自分らしくゲームをカスタマイズ。自分だけの3Dゲームに仕上げます。<br>
+              <br>
+              さらに、自宅でもゲームづくりを続けられるよう、プログラミングや改造方法を相談できる「AIヘルプ」の使い方も紹介します。
+              <div class="list-notes">
+                <p class="item03">※.&nbsp;Mind Renderは、株式会社モバイルインターネットテクノロジーが提供する、誰でも手軽に本格的な3次元プログラムを作ることができるプログラミングツールです。<br><a href="https://mindrender.jp/" target="_blank">https://mindrender.jp/</a></p>
+              </div>
+            </p>
+            <div class="img-1">
+              <picture>
+                <img src="/assets/img/network16/set.jpg?20261108" loading="lazy" alt="めざせゲームクリエイター！ はじめての3Dゲーム開発 ～お手本をもとに、自分だけのゲームをつくろう～">
+              </picture>
+            </div>
+          </div>
+
+          <section class="section-info" id="info" data-watch aria-labelledby="area-info-heading">
+            <div class="section-inner">
+              <h2 class="section-heading" aria-labelledby="area-info-heading"><span class="icon"><img
+                    src="/assets/img/icon-map.svg" alt="開催日時・場所のアイコン" loading="lazy" width="41"
+                    height="65"></span><span id="area-info-heading">開催日時・場所</span></h2>
+              <div class="section-contents">
+                <div class="item-block item-date">
+                  <h3 class="item-heading" id="area-info-date" aria-labelledby="area-info-heading area-info-date">日時
+                  </h3>
+                  <div class="item-contents">
+                    <p>
+                      12月13日（日）13:30～16:00（13:00受付開始） 
+                    </p>
+                  </div>
+                </div>
+                <div class="item-block item-access">
+                  <h3 class="item-heading" id="area-info-access" aria-labelledby="area-info-heading area-info-access">会場
+                  </h3>
+                  <div class="item-contents">Tokyo Innovation Base 2階
+                    <dl class="list-access">
+                      <dt>住所</dt>
+                      <dd><a class="link-blank" href="https://maps.app.goo.gl/Y5MH8aXcKU5xVyhH8"
+                          target="_blank">東京都千代田区丸の内3-8-3<span class="icon-blank">
+                            <svg>
+                              <use href="#icon-blank" />
+                            </svg></span></a></dd>
+                      <dt>アクセス</dt>
+                      <dd>
+                        <p>
+                          電車でご来場の場合<br>
+                          JR山手線・京浜東北線「有楽町駅」下車［京橋口］徒歩1分<br>
+                          東京メトロ有楽町線「有楽町駅」下車［D9出口］すぐ<br>
+                          東京メトロ有楽町線「銀座一丁目駅」下車［1出口］徒歩3分
+                        </p>
+                      </dd>
+                    </dl>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="section-program" id="program" data-watch aria-labelledby="area-program-heading">
+            <div class="section-inner">
+              <h2 class="section-heading" aria-labelledby="area-program-heading"><span class="icon"><img
+                    src="/assets/img/icon-file.svg" alt="開催プログラムのアイコン" loading="lazy" width="43"
+                    height="54"></span><span id="area-program-heading">開催プログラム</span></h2>
+              <div class="section-contents">
+                <div class="item-block item-program">
+                  <h3 class="item-heading" id="area-program-program"
+                    aria-labelledby="area-program-heading area-program-program">内容</h3>
+                  <div class="item-contents">
+                    <p>【ワークショップの流れ】</p>
+                    <p><span style="margin-top: 20px; font-weight: bold; display: block;"><span>1.&nbsp;</span>基本の3Dゲームをつくろう</span>講師と一緒にブロックを組み合わせ、トナカイをねらって弾を発射し捕まえる「トナカイキャッチャー」を開発します。</p>
+                    <p><span style="margin-top: 20px; font-weight: bold; display: block;"><span>2.&nbsp;</span>遊んで動きを確かめよう</span>実際に操作して、キャラクターや弾がどのように動くかを確かめます。「ここを変えたら面白そう！」というアイディアを見つけましょう。</p>
+                    <p><span style="margin-top: 20px; font-weight: bold; display: block;"><span>3.&nbsp;</span>改造して、自分らしい3Dゲームにしよう</span>キャラクターの大きさや弾の動き、音などを変え、動きを確かめながら改造を試します。最後に、開発したゲームの工夫をみんなで紹介します。</p>
+                    <p><span style="margin-top: 20px; font-weight: bold; display: block;"><span>4.&nbsp;</span>自宅でも開発を続けてみよう：AIヘルプの紹介</span>ワークショップ後も3Dゲームの開発に取り組めるよう、プログラミングや改造方法を相談できるAIヘルプの使い方を紹介します。</p>
+                  </div>
+                </div>
+                <div class="item-block item-target">
+                  <h3 class="item-heading" id="area-program-target"
+                    aria-labelledby="area-program-heading area-program-target">対象</h3>
+                  <div class="item-contents">
+                    <p>東京都に在住又は在学の小学5～6年生、中学1～3年生で、<br>マウスやキーボードを用いたクリック・ドラッグ＆ドロップ操作や文字入力など、基本的なPC操作ができる方<br>Scratch等でプログラミング経験があれば望ましい。<br>
+                      <br>
+                      <span class="text-small">参加者のレベルに合わせてサポートします。</span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="section-partner" id="partner" data-watch aria-labelledby="area-partner-heading">
+            <div class="section-inner">
+              <h2 class="section-heading" aria-labelledby="area-partner-heading"><span class="icon"><img
+                    src="/assets/img/icon-partner.svg" alt="連携企業のアイコン" loading="lazy" width="26"
+                    height="26"></span><span id="area-partner-heading">連携企業</span></h2>
+              <div class="section-contents">
+                <div class="item-block item-numbers">
+                  <h3 class="item-heading" id="area-partner-numbers" aria-labelledby="area-partner-heading area-partner-numbers">株式会社モバイルインターネットテクノロジー</h3>
+                  <div class="item-contents">
+                    <p>株式会社モバイルインターネットテクノロジーは、モバイル端末やPC向けアプリケーションの企画・開発を行う企業です。金融分野などで培った開発経験を生かし、ブロックを組み合わせて3Dゲームを開発できる「Mind Render」を開発・提供しています。自分で考え、工夫する楽しさを大切にし、遊びや没頭を通して思考力・創造力を発揮できる環境を提供しています。</p>
+                    <p>株式会社モバイルインターネットテクノロジーホームページ： <a href="https://www.mobileit.co.jp/" target="_blank">https://www.mobileit.co.jp/</a></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="section-entry" id="entry" data-watch aria-labelledby="area-entry-heading">
+            <div class="section-inner">
+              <h2 class="section-heading" aria-labelledby="area-entry-heading"><span class="icon"><img
+                    src="/assets/img/icon-check.svg" alt="募集要項のアイコン" loading="lazy" width="37"
+                    height="37"></span><span id="area-entry-heading">募集要項</span></h2>
+              <div class="section-contents">
+                <div class="item-block item-numbers">
+                  <h3 class="item-heading" id="area-entry-numbers"
+                    aria-labelledby="area-entry-heading area-entry-numbers">募集人数</h3>
+                  <div class="item-contents">
+                    <p>20名</p>
+                    <!--
+                    <p>★お申込時の注意事項★</p>
+                    <ul class="notes">
+                      <li><span>※</span>保護者様は参加できませんが、見学は可能です。</li>
+                      <li><span>※</span>グループ単位でのお申込みはできません。グループや兄弟姉妹でも、参加者個々にお申込みをお願いします。なお、抽選となった際、全員が参加できるとは限りません。
+                      </li>
+                      <li><span>※</span>休憩時間は特には設けません。適宜休憩し、水分補給をお願いします。飲み物はお持ちください。</li>
+                      <li><span>※</span>当落に関わらず抽選結果をご連絡させていただきます。</li>
+                    </ul>
+                    -->
+                  </div>
+                </div>
+                <div class="item-block item-price">
+                  <h3 class="item-heading" id="area-entry-price" aria-labelledby="area-entry-heading area-entry-price">
+                    参加費</h3>
+                  <div class="item-contents">無料</div>
+                </div>
+                <div class="item-block item-period">
+                  <h3 class="item-heading" id="area-entry-period"
+                    aria-labelledby="area-entry-heading area-entry-period">申込期間</h3>
+                  <div class="item-contents"></div>
+                </div>
+                <div class="item-block item-entry">
+                  <h3 class="item-heading" id="area-entry-entry" aria-labelledby="area-entry-heading area-entry-entry">
+                    申込方法</h3>
+                  <div class="item-contents">
+                    <p>こちらの申込フォームからお申込みください。</p>
+                    <a class="btn-entry-form" href="/network16/confirm/"><span class="icon-pencil"><img src="/assets/img/icon-pencil.svg" alt="申込フォームボタンのアイコン" loading="lazy" width="53" height="162"></span>申込フォーム
+                      <div class="icon-arrow">
+                        <svg>
+                          <use href="#icon-arrow" />
+                        </svg>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+                <div class="item-block item-contact">
+                  <h3 class="item-heading" id="area-entry-contact"
+                    aria-labelledby="area-entry-heading area-entry-contact">抽選結果の連絡方法</h3>
+                  <div class="item-contents">
+                    <p>
+                      ご登録いただいたメールアドレス宛に、募集締切後3営業日以内にメールにてご連絡いたします。メールは「kurilabo_info＠hitocom.com」より送信されますので、受信が可能な設定にしてお待ちください。募集締切後、3営業日以内にメールが届いていない場合は迷惑メールフォルダをご確認ください。<br>
+                      ※当落に関わらず抽選結果をご連絡いたします。
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="section-faq" id="faq" data-watch data-fixed-release aria-labelledby="area-faq-heading">
+            <div class="section-inner">
+              <h2 class="section-heading" aria-labelledby="area-faq-heading"><span class="icon"><img
+                    src="/assets/img/icon-faq.svg" alt="よくある質問のアイコン" loading="lazy" width="45"
+                    height="42"></span><span id="area-faq-heading">よくある質問</span></h2>
+              <div class="section-contents">
+                <div class="accordion">
+                  <div class="accordion-block" data-accordion>
+                    <div class="accordion-head" data-accordion-el="trigger"><span class="icon-q">Q.</span>保護者は参加できますか？
+                      <div class="icon-accordion"></div>
+                    </div>
+                    <div class="accordion-body" data-accordion-el="content">
+                      <div class="accordion-body-inner">
+                        <div class="accordion-body-contents"><span class="icon-a">A.</span>保護者の方は参加できませんが、見学は可能です。
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-block" data-accordion>
+                    <div class="accordion-head" data-accordion-el="trigger"><span
+                        class="icon-q">Q.</span>グループでの申込みや、兄弟姉妹での申込みは可能でしょうか？
+                      <div class="icon-accordion"></div>
+                    </div>
+                    <div class="accordion-body" data-accordion-el="content">
+                      <div class="accordion-body-inner">
+                        <div class="accordion-body-contents"><span
+                            class="icon-a">A.</span>グループや兄弟姉妹でも、参加者個々にお申込みをお願いします。なお、募集人数以上の応募があった場合は、抽選となりますので、一緒に参加することをお約束できません。
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-block" data-accordion>
+                    <div class="accordion-head" data-accordion-el="trigger"><span
+                        class="icon-q">Q.</span>デジタルツールの使用経験がなくても参加可能でしょうか？
+                      <div class="icon-accordion"></div>
+                    </div>
+                    <div class="accordion-body" data-accordion-el="content">
+                      <div class="accordion-body-inner">
+                        <div class="accordion-body-contents"><span
+                            class="icon-a">A.</span>
+                            マウスやキーボードを用いたクリック・ドラッグ＆ドロップ操作や文字入力など、基本的なPC操作ができることが前提となります。Scratch等でプログラミング経験があることが望ましいですが、レベルに合わせてスタッフがサポートいたします。
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-block" data-accordion>
+                    <div class="accordion-head" data-accordion-el="trigger"><span
+                        class="icon-q">Q.</span>事前申込をしていないのですが、当日飛び入りの参加は可能でしょうか？
+                      <div class="icon-accordion"></div>
+                    </div>
+                    <div class="accordion-body" data-accordion-el="content">
+                      <div class="accordion-body-inner">
+                        <div class="accordion-body-contents"><span
+                            class="icon-a">A.</span>事前申込をした方のみを対象に実施しておりますので、参加いただけません。
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-block" data-accordion>
+                    <div class="accordion-head" data-accordion-el="trigger"><span
+                        class="icon-q">Q.</span>参加中に災害が発生した場合はどうなるのでしょうか？
+                      <div class="icon-accordion"></div>
+                    </div>
+                    <div class="accordion-body" data-accordion-el="content">
+                      <div class="accordion-body-inner">
+                        <div class="accordion-body-contents"><span
+                            class="icon-a">A.</span>参加者様の安全を最優先に、スタッフ全員協力のもと、安全確保のための行動を実施いたします。緊急連絡先が必要になる場合もありますので、申込時に必ず記載ください。
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-block" data-accordion>
+                    <div class="accordion-head" data-accordion-el="trigger"><span
+                        class="icon-q">Q.</span>プログラムの対象学年に達していない、または対象学年を超えている場合でも参加できますか？
+                      <div class="icon-accordion"></div>
+                    </div>
+                    <div class="accordion-body" data-accordion-el="content">
+                      <div class="accordion-body-inner">
+                        <div class="accordion-body-contents"><span
+                            class="icon-a">A.</span>プログラムの内容やサポート体制は対象学年に合わせて設計されておりますので、対象学年以外の方の参加はお断りしております。何卒ご了承ください。
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-block" data-accordion>
+                    <div class="accordion-head" data-accordion-el="trigger"><span
+                        class="icon-q">Q.</span>当日持参するものはありますか？
+                      <div class="icon-accordion"></div>
+                    </div>
+                    <div class="accordion-body" data-accordion-el="content">
+                      <div class="accordion-body-inner">
+                        <div class="accordion-body-contents"><span
+                            class="icon-a">A.</span>お飲み物（蓋つきのもの）をお持ちください。そのほか必要なものがある場合は、参加決定後にお送りする連絡事項に記載いたします。デジタル創作体験に必要な機材は全て用意いたしますので、お持ちいただく必要はありません。
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-block" data-accordion>
+                    <div class="accordion-head" data-accordion-el="trigger"><span
+                        class="icon-q">Q.</span>抽選になった場合、落選しても連絡は来るのでしょうか？
+                      <div class="icon-accordion"></div>
+                    </div>
+                    <div class="accordion-body" data-accordion-el="content">
+                      <div class="accordion-body-inner">
+                        <div class="accordion-body-contents"><span
+                            class="icon-a">A.</span>当落に関わらず、抽選結果をメールで順次お送りします。メールを受信できるように、設定をお願いします。受信制限が予め設定されている場合もあるため念のためご確認ください。
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+                <div class="entry"></div>
+                <div class="btn-contact"><a href="https://form.run/@kurilabo-contact" target="_blank" rel="noopener"><span
+                      class="icon-contact"><img src="/assets/img/icon-contact.svg" alt="問合せフォームボタンのアイコン"
+                        loading="lazy" width="512" height="374"></span>問合せフォーム</a></div>
+                <div class="btn-entry"><a href="/network16/confirm/"><span class="icon-pencil"><img
+                        src="/assets/img/icon-pencil.svg" alt="申込フォームボタンのアイコン" loading="lazy" width="53"
+                        height="162"></span>申込フォーム</a>
+                </div>
+                <div class="btn-entry fixed-btn-entry" data-fixed-button><a href="/network16/confirm/"><span
+                      class="icon-pencil"><img src="/assets/img/icon-pencil.svg" alt="申込フォームボタンのアイコン" loading="lazy"
+                        width="53" height="162"></span>申込フォーム</a>
+                </div>
+              </div>
+            </div>
+          </section>
+          <ul class="breadcrumb">
+            <li><a href="/"><span class="icon-home">
+                  <svg>
+                    <title>ホームのアイコン</title>
+                    <use href="#icon-home" />
+                  </svg></span>ホーム</a></li>
+            <li><span class="separator">/</span>株式会社モバイルインターネットテクノロジー
+            </li>
+          </ul>
+        </div>
+      </div>
+    </main>
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-inner">
+        <a class="btn-page-top" href="#" aria-label="ページ上部に戻る" data-back-to-top>
+          PAGE TOP
+          <div class="icon-arrow"><svg><use href="#icon-arrow" /></svg></div>
+        </a>
+        <div class="block-top">
+          <div>
+            <div class="footer-upper">
+              <div class="sns">
+                <p class="heading">東京都公式SNS</p>
+                <ul class="list">
+                  <li class="item-x">
+                    <a href="https://twitter.com/tocho_koho" target="_blank">
+                      <picture>
+                        <source media="(max-width: 767px)" srcset="/assets/img/sns-icon-x.png" width="60" height="60">
+                        <source media="(min-width: 768px)" srcset="/assets/img/pc/sns-icon-x.png, /assets/img/pc/sns-icon-x@2x.png 2x" width="40" height="40">
+                        <img src="/assets/img/pc/sns-icon-x.png" alt="X（旧Twitter）アイコン" loading="lazy" width="40" height="40">
+                      </picture>
+                    </a>
+                  </li>
+                  <li class="item-facebook">
+                    <a href="https://www.facebook.com/tochokoho" target="_blank">
+                      <picture>
+                        <source media="(max-width: 767px)" srcset="/assets/img/sns-icon-facebook.png" width="60" height="60">
+                        <source media="(min-width: 768px)" srcset="/assets/img/pc/sns-icon-facebook.png, /assets/img/pc/sns-icon-facebook@2x.png 2x" width="40" height="40">
+                        <img src="/assets/img/pc/sns-icon-facebook.png" alt="facebookアイコン" loading="lazy" width="40" height="40">
+                      </picture>
+                    </a>
+                  </li>
+                  <li class="item-instagram">
+                    <a href="https://www.instagram.com/tocho_koho_official/" target="_blank">
+                      <picture>
+                        <source media="(max-width: 767px)" srcset="/assets/img/sns-icon-instagram.png" width="56" height="56">
+                        <source media="(min-width: 768px)" srcset="/assets/img/pc/sns-icon-instagram.png, /assets/img/pc/sns-icon-instagram@2x.png 2x" width="36" height="36">
+                        <img src="/assets/img/pc/sns-icon-instagram.png" alt="instagramアイコン" loading="lazy" width="36" height="36">
+                      </picture>
+                    </a>
+                  </li>
+                  <li class="item-line">
+                    <a href="https://line.me/R/ti/p/%40822sysfc" target="_blank">
+                      <picture>
+                        <source media="(max-width: 767px)" srcset="/assets/img/sns-icon-line.png" width="60" height="60">
+                        <source media="(min-width: 768px)" srcset="/assets/img/pc/sns-icon-line.png, /assets/img/pc/sns-icon-line@2x.png 2x" width="40" height="40">
+                        <img src="/assets/img/pc/sns-icon-line.png" alt="LINEアイコン" loading="lazy" width="40" height="40">
+                      </picture>
+                    </a>
+                  </li>
+                  <li class="item-note">
+                    <a href="https://tokyo-metro.note.jp/" target="_blank">
+                      <picture>
+                        <source media="(max-width: 767px)" srcset="/assets/img/sns-icon-note.png" width="60" height="60">
+                        <source media="(min-width: 768px)" srcset="/assets/img/pc/sns-icon-note.png, /assets/img/pc/sns-icon-note@2x.png 2x" width="40" height="40">
+                        <img src="/assets/img/pc/sns-icon-note.png" alt="noteアイコン" loading="lazy" width="40" height="40">
+                      </picture>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div class="footer-link">
+                <ul>
+                  <li><a href="/index.html">ホーム</a></li>
+                  <li><a href="/municipalities/">くりらぼ in 区市町村</a></li>
+                  <li><a href="/base/">くりらぼベース</a></li>
+                  <li><a href="/network/">くりらぼネットワーク</a></li>
+                  <li><a href="/workshop/">ワークショップ</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="contact">
+              <div class="footer-lower">
+                <div>
+                  <p class="heading">問合せ先 とうきょうこどもクリエイティブラボ事務局</p>
+                  <ul>
+                    <li class="link-form">
+                      <a href="https://form.run/@kurilabo-contact" target="_blank" rel="noopener">
+                        <span class="icon-mail"><img src="/assets/img/icon-mail.svg" alt="メールのアイコン" loading="lazy" width="143" height="104"></span>
+                        <span class="link-text">問合せフォーム</span>
+                        <div class="icon-arrow"><svg><use href="#icon-arrow" /></svg></div>
+                      </a>
+                    </li>
+                    <!-- 事務局問合せ電話番号（リリース時更新）: tel: と次行 link-text を同じ番号に -->
+                    <li class="link-tel">
+                      <a href="tel:03-5957-3986">
+                        <span class="icon-tel"><img src="/assets/img/icon-tel.svg" alt="電話のアイコン" loading="lazy" width="155" height="155"></span>
+                        <span class="link-text">03-5957-3986</span>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="buisness-time">
+                <p class="notes"><span>※</span>電話受付時間：9:00～17:00（土日祝除く）<br><span>※</span>問い合わせフォーム：翌営業日までに回答</p>
+              </div>
+            </div>
+          </div>
+          <div>
+            <ul class="links">
+              <li><a href="https://www.metro.tokyo.lg.jp/">都庁総合HP</a></li>
+              <li><a href="/accessibility.html#sitepolicy">サイトポリシー</a></li>
+              <li><a href="https://www.digitalservice.metro.tokyo.lg.jp/privacy" target="_blank">個人情報の取扱い</a></li>
+              <li><a href="/accessibility.html#accessibility">アクセシビリティ方針</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="separator"></div>
+        <div class="block block-bottom">
+          <p class="text-operation">東京都デジタルサービス局デジタルサービス推進部デジタルサービス推進課　Tel.03-5320-7622</p>
+          <p class="copyright">Copyright © Tokyo Metropolitan Government. All Rights Reserved.</p>
+        </div>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
