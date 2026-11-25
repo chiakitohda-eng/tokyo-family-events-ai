@@ -1,0 +1,6 @@
+page1 https://www.tnm.jp/modules/r_event/index.php?controller=dtl&cid=15&id=11808 200 94527
+page2 https://www.tnm.jp/modules/r_event/index.php?controller=dtl&cid=15&id=11833 200 94372
+page3 https://www.tnm.jp/modules/r_event/index.php?controller=dtl&cid=15&id=11834 200 94542
+page4 https://www.tnm.jp/modules/r_event/index.php?controller=dtl&cid=15&id=11840 200 95534
+page5 https://www.tnm.jp/modules/r_event/index.php?controller=dtl&cid=15&id=11844 200 97181
+page6 https://www.tnm.jp/modules/r_event/index.php?controller=dtl&cid=4&id=11817 200 99580
