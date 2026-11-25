@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>文京区スポーツ協会【大会・イベント等】</title>
+<!-- meta -->
+
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1">
+<meta name="keywords" content="文京区スポーツ協会,文京区,スポーツ,区民大会,教室,イベント" />
+<meta name="description" content="文京区スポーツ協会のWEBサイトです。加盟団体のご紹介、大会情報や教室・イベント等をご案内しております。">
+<meta name="copyright" content="Copyright (C) 文京区スポーツ協会." />
+<link rel="shortcut icon" href="https://bunkyo-sports.jp/img/favicon.ico" />
+<link rel="stylesheet" href="https://bunkyo-sports.jp/css/default.css" />
+<link rel="stylesheet" href="https://bunkyo-sports.jp/css/common.css" />
+
+<!-- opg -->
+<meta property="og:url" content="https://bunkyo-sports.jp/">
+<!-- <meta property="og:image" content=""> -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="文京区スポーツ協会">
+<meta property="og:site_name" content="文京区スポーツ協会">
+<meta property="og:description" content="文京区スポーツ協会のWEBサイトです。加盟団体のご紹介、大会情報や教室・イベント等をご案内しております。">
+<meta property="og:locale" content="ja_JP">
+
+
+<!--webフォント-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+
+<!-- font-awesome -->
+<link href="https://bunkyo-sports.jp/css/font-awesome.min.css" rel="stylesheet" />
+
+<!--レスポンシブの設定-->
+<!-- ※デフォルトのスタイル 1025px以上の画面サイズの場合 -->
+<link rel="stylesheet" media="screen and (min-width: 1052px)" href="https://bunkyo-sports.jp/css/module.css" />
+<!-- ※スマートフォン用のスタイル 1024px以下の画面サイズの場合 -->
+<link rel="stylesheet" media="screen and (max-width: 1051px)"  href="https://bunkyo-sports.jp/css/module_sp.css">
+<!-- ※デフォルトのスタイル 1025px以上の画面サイズの場合 -->
+<link rel="stylesheet" media="screen and (min-width: 1052px)" href="https://bunkyo-sports.jp/css/style.css" />
+<!-- ※スマートフォン用のスタイル 1024px以下の画面サイズの場合 -->
+<link rel="stylesheet" media="screen and (max-width: 1051px)"  href="https://bunkyo-sports.jp/css/style_sp.css">
+<!--レスポンシブの設定-->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+<script src="https://bunkyo-sports.jp/js/pagetop.js"></script>
+<script src="https://bunkyo-sports.jp/js/fontsize.js"></script>
+
+<!-- scrollreveal -->
+<!-- <script src="https://unpkg.com/scrollreveal"></script> -->
+<script src="https://bunkyo-sports.jp/js/scrollreveal.min.js"></script>
+<script>
+//下から出てくる
+$(function(){
+	var flBmov= {
+		delay: 600, //アニメーションの発生タイミング
+		distance: '30px', //要素の移動距離
+		duration: 1000, //すぴーど
+		origin: 'bottom' //要素が移動してくる方向
+	};
+	var flLmov= {
+		delay: 100, //アニメーションの発生タイミング
+		distance: '100px', //要素の移動距離
+		duration: 500, //すぴーど
+		origin: 'left' //要素が移動してくる方向
+	};
+	var flRmov= {
+		delay: 1000, //アニメーションの発生タイミング
+		distance: '600px', //要素の移動距離
+		duration: 500, //すぴーど
+		origin: 'right' //要素が移動してくる方向
+	};
+	ScrollReveal().reveal('.h2Title', flLmov);
+});
+</script>
+<!-- scrollreveal END -->
+
+<!-- btnJS -->
+<script type="text/javascript" charset="utf-8">
+$(document).ready(
+  function(){
+    $("a img") .hover(function(){
+       $(this).fadeTo("4000",0.6); // マウスオーバーで透明度を30%にする
+    },function(){
+       $(this).fadeTo("4000",1.0); // マウスアウトで透明度を100%に戻す
+    });
+  });
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script>
+$(function(){
+  $('a[href^="#"]').click(function(){
+    var adjust = 0;
+    var speed = 400;
+    var href= $(this).attr("href");
+    var target = $(href == "#" || href == "" ? 'html' : href);
+    var position = target.offset().top + adjust;
+    $('body,html').animate({scrollTop:position}, speed, 'swing');
+    return false;
+  });
+});
+</script>
+
+<!-- スライドメニューnew -->
+<!-- sidemenu -->
+<link rel="stylesheet" media="screen and (max-width: 1200px)" href="https://bunkyo-sports.jp/css/sidemenu.css">
+<script>
+$(function(){
+	$(".slide_btn").click(function(){
+		$("#category_list").slideToggle(200);
+	});
+});
+</script>
+
+<!-- logofadeIn -->
+<script>
+$(document).ready(function() {
+	$('#logo').fadeIn(1800);
+});
+</script>
+<style>
+#logo{display:none}
+</style>
+
+<!-- backstretch -->
+<script src="https://bunkyo-sports.jp/js/jquery.backstretch.min.js"></script>
+<script type="text/javascript">
+$(function(){
+$("#hero").backstretch([
+      "img/fv01.jpg"
+    , "img/fv02.jpg"
+    , "img/fv03.jpg"
+//      "img/main01@2x.jpg"
+//    , "img/main02@2x.jpg"
+  ], {duration: 3000, fade: 750});
+});
+</script><!-- metaEnd -->
+</head>
+
+<body>
+<!-- header -->
+<!-- header -->
+<!-- headOuter -->
+<div id="headOuter" class="clearfix">
+
+<header id="globalHeader" class="clearfix">
+
+<h1 id="logo"><a href="https://bunkyo-sports.jp/index.html">文京区スポーツ協会</a></h1>
+
+<div class="headRight">
+<div id="headRightTop" class="clearfix">
+
+<ul class="clearfix" id="headFont">
+<li>文字サイズ</li>
+<!--
+<li><a href="">大</a></li>
+<li><a href="">中</a></li>
+<li><a href="">小</a></li>
+-->
+<li><button onclick="changeFontSize(1.0)" data-fs="1.0">大</button></li>
+<li><button onclick="changeFontSize(0.9)" data-fs="0.9">中</button></li>
+<li><button onclick="changeFontSize(0.7)" data-fs="0.7">小</button></li>
+</ul>
+
+<ul  class="hiddenSp clearfix" id="headRTLink">
+<li><a href="https://bunkyo-sports.jp/sitemap.html"><i class="fa fa-sitemap "></i>サイトマップ</a></li>
+</ul>
+
+</div>
+
+
+
+<!-- gloNaviPC -->
+<nav class="hiddenSp">
+<ul id="menu" class="clearfix">
+<li><a href="https://bunkyo-sports.jp/about.html">協会について</a></li><li><a href="https://bunkyo-sports.jp/member.html">加盟団体</a></li><li><a href="https://bunkyo-sports.jp/events_r8/events.html">大会イベント等</a></li><li><a href="https://bunkyo-sports.jp/boys.html">スポーツ少年団</a></li><!--<li><a href="school.html">教室・講習会</a></li>--><li><a href="https://bunkyo-sports.jp/newsletter.html">会報誌</a></li>
+</ul>
+</nav>
+
+<!-- #category_list / -->
+<!-- SP_menu / -->
+<nav class="global_menu hiddenPc">
+<a class="slide_btn"><img src="https://bunkyo-sports.jp/img/menu.png" width="100%"></a>
+</nav>
+<!-- / SP_menu -->
+<nav id="category_list" class="hiddenPc">
+<ul class="lists clearfix">
+<li><a href="https://bunkyo-sports.jp/about.html">協会について</a></li>
+<li><a href="https://bunkyo-sports.jp/member.html">加盟団体</a></li>
+<li><a href="https://bunkyo-sports.jp/events_r8/events.html">大会イベント等</a></li>
+<li><a href="https://bunkyo-sports.jp/boys.html">スポーツ少年団</a></li>
+<!--<li><a href="school.html">教室・講習会</a></li>-->
+<li><a href="https://bunkyo-sports.jp/newsletter.html">会報誌</a></li>
+<li><a href="https://bunkyo-sports.jp/sitemap.html">サイトマップ</a></li>
+</ul>
+<p class="list_close slide_btn"><img src="https://bunkyo-sports.jp/img/close_modal.png" width="44" height="30" alt="メニューを閉じる"></p>
+</nav>
+<!-- /#category_list -->
+
+</div>
+
+
+</header>
+</div><!-- headOuterEnd -->
+<!-- headerEnd --><!-- headerEnd -->
+
+<!-- main -->
+<div id="mainIndex" class="clearfix">
+
+<div class="about200 clearfix">
+<!-- #Breadcrumb -->
+<div aria-label="breadcrumb" class="breadcrumb">
+<ul>
+<li><a href="https://bunkyo-sports.jp/index.html"><i class="fa fa-home"></i> TOP</a></li>
+<li><a href="events.html">大会・イベント等</a></li>
+<li>文京区ボクシング大会</li>
+</ul>
+</div><!-- / #Breadcrumb -->
+</div>
+
+<!-- mainBlock -->
+<div class="mainBlock clearfix">
+	
+	<div class="clearfix">
+	<div class="h2Box">
+	<h2 class="h2Title">EVENT<span class="h2Read">大会・イベント等</span></h2>
+	</div>
+	<div class="h2RightBox PT20">
+
+<!-- contents -->
+<div class="h3Box clearfix">
+<div class="h3BoxImg"><img src="https://bunkyo-sports.jp/img/icon/icon_boxsing.png" alt="ボクシング"></div>
+<h3 class="h3BoxTitle">文京区ボクシング大会</h3>
+</div>
+
+<h4 class="h4Title">文京区ボクシング大会</h4>
+<div class="defTable">
+<table>
+	<tr>
+	<th class="table200Box">大会概要</th>
+	<td>
+		<a href="pdf/events/boxsing/info.pdf" target="_blank" class="link_pdf">大会概要はこちら（PDFファイル）</a>
+	</td>
+	</tr>
+	<tr>
+	<th class="table200Box">日程</th>
+	<td>令和7年4月12日（土） </td>
+	</tr>
+	<tr>
+	<th>会場</th>
+	<td>神奈川県立スポーツセンター アリーナ2 ボクシング場</td>
+	</tr>
+	<tr>
+	<th>対象・定員</th>
+	<td>大会概要を参照ください。</td>
+	</tr>
+	<tr>
+	<th>費用</th>
+	<td>参加選手1名につき1,000円（当日、健診・計量時に徴収）</td>
+	</tr>
+	<tr>
+	<th>申込方法</th>
+	<td>
+申込書を添付の上、下記申込先へメール送信すること<br>
+【申込書】<br>
+<br>
+<a href="pdf/events/boxsing/app.xlsx" target="_blank" class="link_xls">申込書（エクセルファイル）</a><br>
+<br>
+①文京区ボクシング連盟 城崎 昌彦<br>
+（東京大学ボクシング部監督）<br>
+E-mail masahiko.shirosaki@outlook.com<br>
+<br>
+②文京区ボクシング連盟 山岡 大地<br>
+（東京大学ボクシング部コーチ）<br>
+E-mail yamaoka.ta13@gmail.com<br>
+※業務引継ぎの都合上、連絡及び書類送信の際は必ず上記2名を併記で送信先に入力してください。
+		<!--
+		<a href="pdf/events/boxsing/" target="_blank" class="link_xls">申込書（エクセルファイル）</a> -->
+	</td>
+	</tr>
+	<tr>
+	<th>問い合わせ先</th>
+	<td>
+		<!-- お問い合わせ先記載 -->
+①文京区ボクシング連盟 城崎 昌彦<br>
+（東京大学ボクシング部監督）<br>
+TEL 090-3080-3104<br>
+E-mail masahiko.shirosaki@outlook.com<br>
+②文京区ボクシング連盟 山岡 大地<br>
+（東京大学ボクシング部コーチ）<br>
+TEL 080-2094-585<br>
+E-mail yamaoka.ta13@gmail.com
+	</td>
+	</tr>
+</table>
+</div>
+
+<div class="aboutBtnBox">
+<a href="#" onClick="history.back(); return false;" class="backBtn"><i class="fa fa-chevron-circle-left "></i>戻る</a>
+</div>
+
+<!-- / contents -->
+
+	</div>
+	</div>
+
+</div>
+<!-- / mainBlock -->
+
+</div>
+<!-- / mainIndex -->
+
+<!-- footer -->
+<!-- footer -->
+<!-- page-top/ -->
+<div id="pageTop" class="clearfix"><a href="#top">PAGE TOP</a></div>
+<!-- /page-top -->
+<div class="aboutFT">
+</div>
+<footer>
+<div id="footOuter" class="clearfix">
+
+<div id="footLogoBox">
+<a href="https://bunkyo-sports.jp/index.html" class="footlogo">文京区スポーツ協会</a>
+</div>
+
+<div id="footLinks">
+	<div class="footList">
+	<ul>
+<li class="footMenu"><a href="https://bunkyo-sports.jp/index.html">ホーム</a></li>
+<li class="footMenu"><a href="https://bunkyo-sports.jp/about.html">協会について</a></li>
+<li class="footMenu"><a href="https://bunkyo-sports.jp/member.html">加盟団体</a></li>
+<li class="footMenu"><a href="https://bunkyo-sports.jp/boys.html">スポーツ少年団</a></li>
+<!-- 
+<li class="footMenu"><a href="school_list.html">教室・講習会</a></li>
+-->
+<li class="footMenu"><a href="https://bunkyo-sports.jp/events_r8/events.html">大会イベント等</a></li>
+<li class="footMenu"><a href="https://bunkyo-sports.jp/newsletter.html">会報誌</a></li>
+<li class="footMenu"><a href="https://bunkyo-sports.jp/document.html">役員専用</a></li>
+	</ul>
+	</div>
+</div>
+
+</div>
+</footer>
+
+<div id="footBtm">Copyright &copy; <script type="text/javascript">myDate = new Date() ;myYear = myDate.getFullYear ();document.write(myYear);</script> <a href="https://bunkyo-sports.jp/index.html">文京区スポーツ協会</a>. All Rights Reserved.</div>
+<!-- footerEnd --><!-- footerEnd -->
+</body>
+</html>
