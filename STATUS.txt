@@ -1,0 +1,32 @@
+curl: (28) Operation timed out after 40002 milliseconds with 0 bytes received
+page1 https://www.tokyodisneyresort.jp/tdl/event/ 000 0
+page1 https://www.tokyodisneyresort.jp/tdl/event/ FAIL
+page10 https://www.legolanddiscoverycenter.jp/tokyo/ 404 140040
+page11 https://www.tokyo-dome.co.jp/tdc-illumination/ 404 38172
+page12 https://www.tokyo-zoo.net/zoo/ueno/ 200 619062
+page13 https://www.tokyo-zoo.net/zoo/ino/ 200 568451
+page14 https://www.tokyo-zoo.net/zoo/kasai/ 200 548208
+page15 https://www.tokyo-zoo.net/topic/topics_list 404 365990
+page16 https://www.tokyo-park.or.jp/park/inokashira/ 200 31784
+page17 https://www.tokyo-park.or.jp/park/ueno/ 200 26806
+page18 https://www.tokyo-park.or.jp/park/kinuta/ 200 57145
+page19 https://www.tokyo-park.or.jp/park/jindai/ 200 79211
+curl: (28) Operation timed out after 40002 milliseconds with 0 bytes received
+page2 https://www.tokyodisneyresort.jp/tds/event/ 000 0
+page2 https://www.tokyodisneyresort.jp/tds/event/ FAIL
+page20 https://www.tokyo-park.or.jp/park/koganei/ 200 71047
+page21 https://www.city.urayasu.lg.jp/ 200 47248
+page22 https://www.city.urayasu.lg.jp/kankou/ 404 3761
+curl: (28) Operation timed out after 40001 milliseconds with 0 bytes received
+page3 https://www.tokyodisneyresort.jp/tdl/daily/schedule.html 000 0
+page3 https://www.tokyodisneyresort.jp/tdl/daily/schedule.html FAIL
+curl: (28) Operation timed out after 40002 milliseconds with 0 bytes received
+page4 https://www.tokyodisneyresort.jp/event/ 000 0
+page4 https://www.tokyodisneyresort.jp/event/ FAIL
+curl: (28) Operation timed out after 40003 milliseconds with 0 bytes received
+page5 https://www.tokyodisneyresort.jp/christmas/ 000 0
+page5 https://www.tokyodisneyresort.jp/christmas/ FAIL
+page6 https://www.hanayashiki.net/ 200 35694
+page7 https://www.hanayashiki.net/event/ 404 11148
+page8 https://sunshinecity.jp/event/ 200 128586
+page9 https://sunshinecity.jp/ 200 138360
