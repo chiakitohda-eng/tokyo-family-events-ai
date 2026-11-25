@@ -1,0 +1,16 @@
+page1 https://www.miraikan.jst.go.jp/events/ 200 37343
+curl: (6) Could not resolve host: www.yumenoshima-nettai.com
+page10 https://www.yumenoshima-nettai.com/event/ 000 0
+page10 https://www.yumenoshima-nettai.com/event/ FAIL
+curl: (6) Could not resolve host: www.shinjuku-fire-museum.jp
+page11 https://www.shinjuku-fire-museum.jp/ 000 0
+page11 https://www.shinjuku-fire-museum.jp/ FAIL
+page12 https://www.tokyo-zoo.net/zoo/ueno/event/ 404 365990
+page2 https://www.mizunokagaku.jp/event/ 200 46267
+page3 https://www.jsf.or.jp/event/ 403 199
+page4 https://www.tnm.jp/modules/r_event/ 200 120745
+page5 https://www.mot-art-museum.jp/events/ 200 31930
+page6 https://www.sumida-aquarium.com/event/ 200 6752286
+page7 https://www.tobikan.jp/event/ 200 27564
+page8 https://www.teien-art-museum.ne.jp/event/ 200 100131
+page9 https://www.edo-tokyo-museum.or.jp/event/ 403 239
