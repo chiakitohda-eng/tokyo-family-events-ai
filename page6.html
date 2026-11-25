@@ -1,0 +1,1089 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="initial-scale=1.0,minimum-scale=0.25,user-scalable=yes">
+  <meta name="format-detection" content="telephone=no">
+  <title>イベントカレンダー：新宿区</title>
+  <meta name="copyright" content="Copyright (C) Shinjuku City All Rights Reserved.">
+  <meta name="keywords" content="">
+  <meta name="description" content="">
+  <link rel="stylesheet" href="/common/css/new_import_pc_common.css" type="text/css" id="pc-css1">
+  <link rel="stylesheet" href="/common/css/new_import_sp_common.css" type="text/css" id="sp-css">
+  <!-- ファビコン -->
+  <link rel="icon" href="/content/000297182.ico">
+
+  <!-- スマホ用アイコン -->
+  <link rel="apple-touch-icon" href="/content/000297184.png">
+  <script src="/common/js/jquery.js"></script>
+  <script src="/common/js/cssswitch.js"></script>
+  <script src="/common/js/jquery.cookie.js"></script>
+  <script src="/common/js/new_base.js"></script>
+  <script>
+$(function(){
+	if (layout == 'SP') {
+		accordionFunction02addTrigger();
+	} else if (layout == 'PC') {
+	}
+	//current control
+      $('.subHeaderNav > ul > li:eq(2)').addClass('active');
+      $('#lNavi li:eq(1)').addClass('active');
+});
+</script>
+<script>
+
+var event_types = ["", "%E8%AD%B0%E4%BC%9A%E3%83%BB%E5%AF%A9%E8%AD%B0%E4%BC%9A","%E5%82%AC%E3%81%97","%E8%AC%9B%E5%BA%A7","%E3%81%9D%E3%81%AE%E4%BB%96"];
+
+function setEventType() {
+    var queries = document.location.search.substring(1).split('&');
+    for (var i = 0; i < queries.length; i++) {
+        var v = queries[i].split('=');
+        if (v[0] == "event_type") {
+            for (var j = 0; j < event_types.length; j++) {
+                if (v[1].toUpperCase() == event_types[j]) {
+                    document.genreSelector.event_type.selectedIndex = j;
+                    break;
+                }
+            }
+            break;
+        }
+    }
+}
+
+
+function submitForm(form) {
+    var accept = document.accept;
+    accept.action += form.action;
+    accept.method = form.method;
+    var params = ["mode", "event_type"];
+    for (var i = 0; i < params.length; i++) {
+        var name = params[i];
+        var item = form[name];
+        if (item) {
+            if (item.value != "") {
+                var p = document.createElement("INPUT");
+                p.type = "hidden";
+                p.name = item.name;
+                p.value = item.value;
+                accept.appendChild(p);
+            }
+        }
+    }
+    var queries = document.location.search.substring(1).split('&');
+    for (var i = 0; i < queries.length; i++) {
+        var v = queries[i].split('=');
+        if (v[0] == "Y" || v[0] == "M") {
+            if (v[1] != "") {
+                var p = document.createElement("INPUT");
+                p.type = "hidden";
+                p.name = v[0];
+                p.value = v[1];
+                accept.appendChild(p);
+            }
+        }
+    }
+    accept.submit();
+    return false;
+}
+
+</script>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto" type="text/css">
+  <script defer src="/common/js/under.js"></script>
+
+<script>
+  // var otoReaderHidden = true;
+  /**
+   * OTOリーダーウィジェットの表示/非表示を切り替える
+   */
+  function otoreader_toggle() {
+    // ウィジェットの要素
+    var widget = document.getElementById('otowidget');
+    if (widget) {
+      if (widget.style.display === 'none') {
+        // 現在の表示状態が非表示なら表示
+        otowidget('display');
+      } else {
+        // 現在の表示状態が表示中なら非表示
+        otowidget('display none');
+      }
+    }
+  }
+</script>
+<script data-env="production" data-key="14bdce7a89ff1c0a" src="https://storage.otocreator.jp/-/js/widget.js" type="text/javascript"> </script>
+</head>
+<body id="gDef" class="lDef" onload="setEventType();">
+<div id="wrapper">
+    <noscript>このサイトではJavaScriptを使用しています。JavaScriptを無効にしている場合、機能が制限されますのでご了承ください。</noscript>
+    <header class="underHeader">
+      <div class="underHeader__inner">
+        <nav class="underHeader__nav">
+          <a class="underHeader__link" href="#container">本文へ</a>
+          <a class="underHeader__link" href="/sitemap.html">サイトマップ</a>
+          <a class="underHeader__link" href="/shisetsu/index05.html">アクセス等</a>
+          <a class="underHeader__link" href="/soshiki/index.html">問い合わせ</a>
+          <a class="underHeader__link" href="/kusei/file03_02_00001.html">携帯サイト</a>
+        </nav>
+        <div class="underHeader__container">
+          <div class="underHeader__logo" role="heading" aria-level="1">
+            <a href="/index.html" class="underHeader__link">
+              <img class="underHeader__image" src="/content/000348936.png" alt="新宿区 SHINJUKU CITY">
+            </a>
+          </div>
+          <div class="subSearch" role="search">
+              <div class="subSearchContent">
+                <div class="subSearchInput">
+<script async src="https://cse.google.com/cse.js?cx=001025494011497543824:bocrzhj9ajk">
+</script>
+<div class="gcse-searchbox-only"></div>
+                </div>
+                <a href="/kusei/kusei00_100009.html" class="howToSearch">
+                  <p class="howToSearch__round"></p>
+                  <p class="howToSearch__text">検索の方法</p>
+                </a>
+              </div>
+          </div>
+          <div class="subHeaderMenu__nav">
+            <div class="font-size">
+              <span class="subNav__text">文字サイズ :</span>
+              <span class="subNav__item">
+                <a class="subNav__link" id="js-sizeResetButton" href="#">標準</a>
+              </span>
+              <span class="subNav__item">
+                <a class="subNav__link" id="js-sizeUpButton" href="#">拡大</a>
+              </span>
+            </div>
+            <div class="acc-tool">
+              <div class="subNav__item colorVoice">
+                <a class="colorVoice__link" href="javascript:void(0);" onclick="otoreader_toggle();">音声読み上げ</a>
+              </div>
+              <div class="subNav__item language">
+                <a class="language__link" href="/kusei/snjk001086.html"><span lang="en">Language</span></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <nav class="subHeaderNav">
+        <ul class="subHeaderNav__list">
+          <li class="subHeaderNav__item">
+            <div class="subHeaderNav__itemTitle" role="heading" aria-level="2">
+              <a class="subHeaderNav__link" href="/index.html">ホーム</a>
+            </div>
+          </li>
+          <li class="subHeaderNav__item">
+            <div class="subHeaderNav__itemTitle" role="heading" aria-level="2">
+              <a class="subHeaderNav__link" href="/living.html">くらし</a>
+            </div>
+            <div class="megaMenuLife megaMenuWrap">
+              <ul class="megaMenuLife__list">
+                <li class="megaMenuLife__item">
+                  <a class="megaMenuLife__link" href="/todokede/index.html">
+                    <div class="megaMenuLife__linkTitle" role="heading" aria-level="3">戸籍・住民票・印鑑登録<br>・マイナンバーカード</div>
+                  </a>
+                </li>
+                <li class="megaMenuLife__item">
+                  <a class="megaMenuLife__link" href="/kusei/index15.html">
+                    <div class="megaMenuLife__linkTitle" role="heading" aria-level="3">電子申請サービス</div>
+                  </a>
+                </li>
+                <li class="megaMenuLife__item">
+                  <a class="megaMenuLife__link" href="/hoken/index.html">
+                    <div class="megaMenuLife__linkTitle" role="heading" aria-level="3">保険・年金・税金</div>
+                  </a>
+                </li>
+                <li class="megaMenuLife__item">
+                  <a class="megaMenuLife__link" href="/kodomo/index.html">
+                    <div class="megaMenuLife__linkTitle" role="heading" aria-level="3">出産・子ども・教育</div>
+                  </a>
+                </li>
+                <li class="megaMenuLife__item">
+                  <a class="megaMenuLife__link" href="/fukushi/kurashi00_100013.html">
+                    <div class="megaMenuLife__linkTitle" role="heading" aria-level="3">福祉・介護</div>
+                  </a>
+                </li>
+                <li class="megaMenuLife__item">
+                  <a class="megaMenuLife__link" href="/kenkou/index.html">
+                    <div class="megaMenuLife__linkTitle" role="heading" aria-level="3">健康・医療・衛生</div>
+                  </a>
+                </li>
+                <li class="megaMenuLife__item">
+                  <a class="megaMenuLife__link" href="/seikatsu/kurashi00_100025.html">
+                    <div class="megaMenuLife__linkTitle" role="heading" aria-level="3">ごみ・資源・環境</div>
+                  </a>
+                </li>
+                <li class="megaMenuLife__item">
+                  <a class="megaMenuLife__link" href="/seikatsu/index07.html">
+                    <div class="megaMenuLife__linkTitle" role="heading" aria-level="3">住まい</div>
+                  </a>
+                </li>
+                <li class="megaMenuLife__item">
+                  <a class="megaMenuLife__link" href="/kusei/index13.html">
+                    <div class="megaMenuLife__linkTitle" role="heading" aria-level="3">まちづくり・都市計画</div>
+                  </a>
+                </li>
+                <li class="megaMenuLife__item">
+                  <a class="megaMenuLife__link" href="/seikatsu/kurashi00_100039.html">
+                    <div class="megaMenuLife__linkTitle" role="heading" aria-level="3">道路・交通・自転車</div>
+                  </a>
+                </li>
+                <li class="megaMenuLife__item">
+                  <a class="megaMenuLife__link" href="/seikatsu/index14.html">
+                    <div class="megaMenuLife__linkTitle" role="heading" aria-level="3">みどり・河川・公園</div>
+                  </a>
+                </li>
+                <li class="megaMenuLife__item">
+                  <a class="megaMenuLife__link" href="/chiiki/kurashi00_100046.html">
+                    <div class="megaMenuLife__linkTitle" role="heading" aria-level="3">地域共生・区民活動</div>
+                  </a>
+                </li>
+                <li class="megaMenuLife__item">
+                  <a class="megaMenuLife__link" href="/tabunka/index.html">
+                    <div class="megaMenuLife__linkTitle" role="heading" aria-level="3">多文化共生・国際交流</div>
+                  </a>
+                </li>
+                <li class="megaMenuLife__item">
+                  <a class="megaMenuLife__link" href="/seikatsu/kurashi00_100055.html">
+                    <div class="megaMenuLife__linkTitle" role="heading" aria-level="3">消費生活・相談</div>
+                  </a>
+                </li>
+                <li class="megaMenuLife__item">
+                  <a class="megaMenuLife__link" href="/kusei/kikaku01_002131.html">
+                    <div class="megaMenuLife__linkTitle" role="heading" aria-level="3">社会保障・税番号（マイナンバー）制度</div>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="subHeaderNav__item">
+            <div class="subHeaderNav__itemTitle" role="heading" aria-level="2">
+              <a class="subHeaderNav__link" href="/kanko/index.html">観光・文化</a>
+            </div>
+            <div class="megaMenuCulture megaMenuWrap">
+              <ul class="megaMenuCulture__list">
+                <li class="megaMenuCulture__item">
+                  <a class="megaMenuCulture__link" href="/kanko/index03.html">
+                    <div class="megaMenuCulture__linkTitle" role="heading" aria-level="3">観光</div>
+                  </a>
+                </li>
+                <li class="megaMenuCulture__item">
+                  <a class="megaMenuCulture__link" href="/event/calendar/calendar.php">
+                    <div class="megaMenuCulture__linkTitle" role="heading" aria-level="3">イベントカレンダー</div>
+                  </a>
+                </li>
+                <li class="megaMenuCulture__item">
+                  <a class="megaMenuCulture__link" href="/kanko/kanko00_100002.html">
+                    <div class="megaMenuCulture__linkTitle" role="heading" aria-level="3">芸術・文化・歴史</div>
+                  </a>
+                </li>
+                <li class="megaMenuCulture__item">
+                  <a class="megaMenuCulture__link" href="/kanko/index06.html">
+                    <div class="megaMenuCulture__linkTitle" role="heading" aria-level="3">生涯学習・スポーツ</div>
+                  </a>
+                </li>
+                <li class="megaMenuCulture__item">
+                  <a class="megaMenuCulture__link" href="/kanko/kanko00_100010.html">
+                    <div class="megaMenuCulture__linkTitle" role="heading" aria-level="3">文化・観光施設</div>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="subHeaderNav__item">
+            <div class="subHeaderNav__itemTitle" role="heading" aria-level="2">
+              <a class="subHeaderNav__link" href="/jigyo/index.html">産業・ビジネス</a>
+            </div>
+            <div class="megaMenuBusiness megaMenuWrap">
+              <ul class="megaMenuBusiness__list">
+                <li class="megaMenuBusiness__item">
+                  <a class="megaMenuBusiness__link" href="/jigyo/index02.html">
+                    <div class="megaMenuBusiness__linkTitle" role="heading" aria-level="3">入札・契約</div>
+                  </a>
+                </li>
+                <li class="megaMenuBusiness__item">
+                  <a class="megaMenuBusiness__link" href="/jigyo/biz00_100007.html">
+                    <div class="megaMenuBusiness__linkTitle" role="heading" aria-level="3">産業振興・企業支援</div>
+                  </a>
+                </li>
+                <li class="megaMenuBusiness__item">
+                  <a class="megaMenuBusiness__link" href="/seikatsu/biz00_100009.html">
+                    <div class="megaMenuBusiness__linkTitle" role="heading" aria-level="3">雇用・就労支援</div>
+                  </a>
+                </li>
+                <li class="megaMenuBusiness__item">
+                  <a class="megaMenuBusiness__link" href="/seikatsu/biz00_100013.html">
+                    <div class="megaMenuBusiness__linkTitle" role="heading" aria-level="3">環境・廃棄物</div>
+                  </a>
+                </li>
+                <li class="megaMenuBusiness__item">
+                  <a class="megaMenuBusiness__link" href="/jigyo/index03.html">
+                    <div class="megaMenuBusiness__linkTitle" role="heading" aria-level="3">事業別申請・手続き</div>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="subHeaderNav__item">
+            <div class="subHeaderNav__itemTitle" role="heading" aria-level="2">
+              <a class="subHeaderNav__link" href="/anzen/index.html">防災・防犯</a>
+            </div>
+            <div class="megaMenuPrevention megaMenuWrap">
+              <ul class="megaMenuPrevention__list">
+                <li class="megaMenuPrevention__item">
+                  <a class="megaMenuPrevention__link" href="/anzen/index03.html">
+                    <div class="megaMenuPrevention__linkTitle" role="heading" aria-level="3">防災</div>
+                  </a>
+                </li>
+                <li class="megaMenuPrevention__item">
+                  <a class="megaMenuPrevention__link" href="/anzen/index02.html">
+                    <div class="megaMenuPrevention__linkTitle" role="heading" aria-level="3">防犯、安心・安全</div>
+                  </a>
+                </li>
+                <li class="megaMenuPrevention__item">
+                  <a class="megaMenuPrevention__link" href="/anzen/index03_07.html">
+                    <div class="megaMenuPrevention__linkTitle" role="heading" aria-level="3">避難場所・ターミナル駅周辺の防災対策</div>
+                  </a>
+                </li>
+                <li class="megaMenuPrevention__item">
+                  <a class="megaMenuPrevention__link" href="/anzen/index05.html">
+                    <div class="megaMenuPrevention__linkTitle" role="heading" aria-level="3">気象情報</div>
+                  </a>
+                </li>
+                <li class="megaMenuPrevention__item">
+                  <a class="megaMenuPrevention__link" href="/anzen/index04.html">
+                    <div class="megaMenuPrevention__linkTitle" role="heading" aria-level="3">救急医療</div>
+                  </a>
+                </li>
+                <li class="megaMenuPrevention__item">
+                  <a class="megaMenuPrevention__link" href="/anzen/anshin00_100006.html">
+                    <div class="megaMenuPrevention__linkTitle" role="heading" aria-level="3">被災地・被災者支援</div>
+                  </a>
+                </li>
+                <li class="megaMenuPrevention__item">
+                  <a class="megaMenuPrevention__link" href="/anzen/index99.html">
+                    <div class="megaMenuPrevention__linkTitle" role="heading" aria-level="3">災害・緊急時関連情報</div>
+                  </a>
+                </li>
+                <li class="megaMenuPrevention__item">
+                  <a class="megaMenuPrevention__link" href="/anzen/index_r01.html">
+                    <div class="megaMenuPrevention__linkTitle" role="heading" aria-level="3">空家等対策</div>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="subHeaderNav__item">
+            <div class="subHeaderNav__itemTitle" role="heading" aria-level="2">
+              <a class="subHeaderNav__link" href="/kusei/index.html">その他区政情報</a>
+            </div>
+            <div class="megaMenuOthers megaMenuWrap">
+              <ul class="megaMenuOthers__list">
+                <li class="megaMenuOthers__item">
+                  <a class="megaMenuOthers__link" href="/kanko/index02.html">
+                    <div class="megaMenuOthers__linkTitle" role="heading" aria-level="3">新宿区の紹介</div>
+                  </a>
+                </li>
+                <li class="megaMenuOthers__item">
+                  <a class="megaMenuOthers__link" href="/kucho/index.html">
+                    <div class="megaMenuOthers__linkTitle" role="heading" aria-level="3">区長の部屋</div>
+                  </a>
+                </li>
+                <li class="megaMenuOthers__item">
+                  <a class="megaMenuOthers__link" href="/kusei/index23.html">
+                    <div class="megaMenuOthers__linkTitle" role="heading" aria-level="3">新宿区役所・組織</div>
+                  </a>
+                </li>
+                <li class="megaMenuOthers__item">
+                  <a class="megaMenuOthers__link" href="/kusei/index08.html">
+                    <div class="megaMenuOthers__linkTitle" role="heading" aria-level="3">新宿区議会</div>
+                  </a>
+                </li>
+                <li class="megaMenuOthers__item">
+                  <a class="megaMenuOthers__link" href="/kusei/index03.html">
+                    <div class="megaMenuOthers__linkTitle" role="heading" aria-level="3">広報・広聴</div>
+                  </a>
+                </li>
+                <li class="megaMenuOthers__item">
+                  <a class="megaMenuOthers__link" href="/kusei/index07.html">
+                    <div class="megaMenuOthers__linkTitle" role="heading" aria-level="3">構想・計画・自治</div>
+                  </a>
+                </li>
+                <li class="megaMenuOthers__item">
+                  <a class="megaMenuOthers__link" href="/kusei/index02.html">
+                    <div class="megaMenuOthers__linkTitle" role="heading" aria-level="3">統計・調査</div>
+                  </a>
+                </li>
+                <li class="megaMenuOthers__item">
+                  <a class="megaMenuOthers__link" href="/kusei/index06.html">
+                    <div class="megaMenuOthers__linkTitle" role="heading" aria-level="3">財政・会計・公有財産</div>
+                  </a>
+                </li>
+                <li class="megaMenuOthers__item">
+                  <a class="megaMenuOthers__link" href="/kansa/index.html">
+                    <div class="megaMenuOthers__linkTitle" role="heading" aria-level="3">監査</div>
+                  </a>
+                </li>
+                <li class="megaMenuOthers__item">
+                  <a class="megaMenuOthers__link" href="/kusei/index24.html">
+                    <div class="megaMenuOthers__linkTitle" role="heading" aria-level="3">行政評価</div>
+                  </a>
+                </li>
+                <li class="megaMenuOthers__item">
+                  <a class="megaMenuOthers__link" href="/kusei/index22.html">
+                    <div class="megaMenuOthers__linkTitle" role="heading" aria-level="3">情報公開・個人情報保護</div>
+                  </a>
+                </li>
+                <li class="megaMenuOthers__item">
+                  <a class="megaMenuOthers__link" href="/kusei/file20_00001.html">
+                    <div class="megaMenuOthers__linkTitle" role="heading" aria-level="3">公益保護</div>
+                  </a>
+                </li>
+                <li class="megaMenuOthers__item">
+                  <a class="megaMenuOthers__link" href="/kusei/index09.html">
+                    <div class="megaMenuOthers__linkTitle" role="heading" aria-level="3">条例・規則</div>
+                  </a>
+                </li>
+                <li class="megaMenuOthers__item">
+                  <a class="megaMenuOthers__link" href="/kusei/index10.html">
+                    <div class="megaMenuOthers__linkTitle" role="heading" aria-level="3">選挙</div>
+                  </a>
+                </li>
+                <li class="megaMenuOthers__item">
+                  <a class="megaMenuOthers__link" href="/shingi/index.html">
+                    <div class="megaMenuOthers__linkTitle" role="heading" aria-level="3">附属機関等</div>
+                  </a>
+                </li>
+                <li class="megaMenuOthers__item">
+                  <a class="megaMenuOthers__link" href="/kusei/index201612soumu.html">
+                    <div class="megaMenuOthers__linkTitle" role="heading" aria-level="3">審査請求（不服申立て）</div>
+                  </a>
+                </li>
+                <li class="megaMenuOthers__item">
+                  <a class="megaMenuOthers__link" href="/kusei/index26.html">
+                    <div class="megaMenuOthers__linkTitle" role="heading" aria-level="3">有償刊行物</div>
+                  </a>
+                </li>
+                <li class="megaMenuOthers__item">
+                  <a class="megaMenuOthers__link" href="/koujisoutatsu/index.html">
+                    <div class="megaMenuOthers__linkTitle" role="heading" aria-level="3">公示送達</div>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </nav>
+      <nav class="fastMenu">
+        <div class="fastMenu__list">
+          <div class="fastMenu__itemTitle">
+            <div class="fastMenu__link fastMenu__linkTitle" role="heading" aria-level="2">早引きメニュー</div>
+          </div>
+          <ul class="fastMenu__itemContent">
+            <li class="fastMenu__item">
+              <div class="fastMenu__itemSubTitle" role="heading" aria-level="3">
+                <a class="fastMenu__link" href="/life_event.html">テーマから探す</a>
+              </div>
+            </li>
+            <li class="fastMenu__item">
+              <div class="fastMenu__itemSubTitle" role="heading" aria-level="3">
+                <a class="fastMenu__link" href="/formalities_info.html">お手続きの情報・窓口案内</a>
+              </div>
+            </li>
+            <li class="fastMenu__item">
+              <div class="fastMenu__itemSubTitle" role="heading" aria-level="3">
+                <a class="fastMenu__link" href="/shisetsu/index05.html">施設案内・利用予約</a>
+              </div>
+            </li>
+            <li class="fastMenu__item">
+              <div class="fastMenu__itemSubTitle" role="heading" aria-level="3">
+                <a class="fastMenu__link" href="https://www.city.shinjuku.lg.jp/form/search.php?f=portal.html">新宿行政手続きナビ</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div class="headerMenu">
+        <div class="headerLanguageMenu__sp">
+          <a href="/kusei/snjk001086.html" class="headerLanguageMenu__spLink">
+            <div class="headerLanguageMenu__spImgBox">
+              <svg class="headerLanguageMenu__spImg" id="ei-language" xmlns="http://www.w3.org/2000/svg" width="26"
+                height="26" viewBox="0 0 26 26">
+                <path id="パス_186985" data-name="パス 186985"
+                  d="M22.336,8.024c-.006-.009-.016-.013-.022-.021A10.183,10.183,0,0,0,6.127,8c-.006.008-.016.012-.022.021s0,.013-.008.019A10.146,10.146,0,0,0,6.1,20.4c0,.006,0,.013.008.019s.016.013.022.021a10.183,10.183,0,0,0,16.19-.005c0-.007.013-.009.018-.016s0-.013.008-.019a10.146,10.146,0,0,0,0-12.354C22.34,8.037,22.34,8.03,22.336,8.024ZM21.644,19.2a11.159,11.159,0,0,0-2.12-.963,17.438,17.438,0,0,0,.428-3.378h3.179A8.885,8.885,0,0,1,21.644,19.2ZM5.31,14.859H8.489a17.438,17.438,0,0,0,.428,3.378A11.159,11.159,0,0,0,6.8,19.2,8.885,8.885,0,0,1,5.31,14.859ZM6.8,9.241a11.159,11.159,0,0,0,2.12.963,17.438,17.438,0,0,0-.428,3.378H5.31A8.885,8.885,0,0,1,6.8,9.241Zm8.063,1.766a17.243,17.243,0,0,0,3.42-.451,16.077,16.077,0,0,1,.4,3.026H14.859Zm0-1.277V5.384c1.268.382,2.382,1.867,3.077,3.943a15.985,15.985,0,0,1-3.077.4ZM13.582,5.384V9.73a15.984,15.984,0,0,1-3.077-.4C11.2,7.252,12.314,5.767,13.582,5.384Zm0,5.622v2.575H9.766a16.077,16.077,0,0,1,.4-3.026,17.243,17.243,0,0,0,3.42.451ZM9.766,14.859h3.816v2.575a17.243,17.243,0,0,0-3.42.451,16.077,16.077,0,0,1-.4-3.026Zm3.816,3.852v4.345c-1.268-.382-2.382-1.867-3.077-3.943a15.984,15.984,0,0,1,3.077-.4Zm1.278,4.345V18.711a15.985,15.985,0,0,1,3.077.4c-.7,2.076-1.81,3.561-3.077,3.943Zm0-5.622V14.859h3.816a16.077,16.077,0,0,1-.4,3.026,17.243,17.243,0,0,0-3.42-.451Zm5.093-3.852a17.438,17.438,0,0,0-.428-3.378,11.159,11.159,0,0,0,2.12-.963,8.885,8.885,0,0,1,1.487,4.341Zm.893-5.348a10,10,0,0,1-1.671.745,10.171,10.171,0,0,0-1.539-3.021,8.969,8.969,0,0,1,3.211,2.276ZM10.807,5.958A10.17,10.17,0,0,0,9.267,8.979,10,10,0,0,1,7.6,8.234a8.969,8.969,0,0,1,3.211-2.276ZM7.6,20.207a10,10,0,0,1,1.671-.745,10.17,10.17,0,0,0,1.539,3.021A8.969,8.969,0,0,1,7.6,20.207Zm10.038,2.276a10.171,10.171,0,0,0,1.539-3.021,10,10,0,0,1,1.671.745,8.969,8.969,0,0,1-3.211,2.276Z"
+                  transform="translate(-1.445 -1.445)" fill="#fff" />
+                <rect id="長方形_16862" data-name="長方形 16862" width="26" height="26" fill="none" />
+              </svg>
+            </div>
+            <p class="headerLanguageMenu__spText"><span lang="en">Language</span></p>
+          </a>
+        </div>
+        <div class="headerLogo">
+          <a class="headerLogo__link" href="/index.html">
+            <img class="headerLogoImg" src="/content/000348936.png" alt="新宿区 SHINJUKU CITY">
+          </a>
+        </div>
+        <div class="headerMenu__sp">
+          <div class="hamburger">
+            <div class="hamburger__lineTop"></div>
+            <div class="hamburger__lineMiddle"></div>
+            <div class="hamburger__lineBottom"></div>
+            <p class="hamburger__text">メニュー</p>
+            <p class="hamburger__textOpen">閉じる</p>
+          </div>
+          <div class="hamburger__content">
+            <ul class="hamburger__list">
+              <li class="hamburger__item">
+                <div class="hamburger__itemTitle" role="heading" aria-level="2">
+                  <a href="/index.html" class="hamburger__link">ホーム</a>
+                </div>
+              </li>
+            </ul>
+            <div class="hamburger__list">
+              <div class="hamburger__item accordion" role="heading" aria-level="2">くらし</div>
+              <ul class="content">
+                <li class="accordion__item">
+                  <a class="accordion__link" href="/todokede/index.html">
+                    <div class="accordion__linkTitle" role="heading" aria-level="3">戸籍・住民票・印鑑登録<br>・マイナンバーカード</div>
+                  </a>
+                </li>
+                <li class="accordion__item">
+                  <a class="accordion__link" href="/kusei/index15.html">
+                    <div class="accordion__linkTitle" role="heading" aria-level="3">電子申請サービス</div>
+                  </a>
+                </li>
+                <li class="accordion__item">
+                  <a class="accordion__link" href="/hoken/index.html">
+                    <div class="accordion__linkTitle" role="heading" aria-level="3">保険・年金・税金</div>
+                  </a>
+                </li>
+                <li class="accordion__item">
+                  <a class="accordion__link" href="/kodomo/index.html">
+                    <div class="accordion__linkTitle" role="heading" aria-level="3">出産・子ども・教育</div>
+                  </a>
+                </li>
+                <li class="accordion__item">
+                  <a class="accordion__link" href="/fukushi/kurashi00_100013.html">
+                    <div class="accordion__linkTitle" role="heading" aria-level="3">福祉・介護</div>
+                  </a>
+                </li>
+                <li class="accordion__item">
+                  <a class="accordion__link" href="/kenkou/index.html">
+                    <div class="accordion__linkTitle" role="heading" aria-level="3">健康・医療・衛生</div>
+                  </a>
+                </li>
+                <li class="accordion__item">
+                  <a class="accordion__link" href="/seikatsu/kurashi00_100025.html">
+                    <div class="accordion__linkTitle" role="heading" aria-level="3">ごみ・資源・環境</div>
+                  </a>
+                </li>
+                <li class="accordion__item">
+                  <a class="accordion__link" href="/seikatsu/index07.html">
+                    <div class="accordion__linkTitle" role="heading" aria-level="3">住まい</div>
+                  </a>
+                </li>
+                <li class="accordion__item">
+                  <a class="accordion__link" href="/kusei/index13.html">
+                    <div class="accordion__linkTitle" role="heading" aria-level="3">まちづくり・都市計画</div>
+                  </a>
+                </li>
+                <li class="accordion__item">
+                  <a class="accordion__link" href="/seikatsu/kurashi00_100039.html">
+                    <div class="accordion__linkTitle" role="heading" aria-level="3">道路・交通・自転車</div>
+                  </a>
+                </li>
+                <li class="accordion__item">
+                  <a class="accordion__link" href="/seikatsu/index14.html">
+                    <div class="accordion__linkTitle" role="heading" aria-level="3">みどり・河川・公園</div>
+                  </a>
+                </li>
+                <li class="accordion__item">
+                  <a class="accordion__link" href="/chiiki/kurashi00_100046.html">
+                    <div class="accordion__linkTitle" role="heading" aria-level="3">地域共生・区民活動</div>
+                  </a>
+                </li>
+                <li class="accordion__item">
+                  <a class="accordion__link" href="/tabunka/index.html">
+                    <div class="accordion__linkTitle" role="heading" aria-level="3">多文化共生・国際交流</div>
+                  </a>
+                </li>
+                <li class="accordion__item">
+                  <a class="accordion__link" href="/seikatsu/kurashi00_100055.html">
+                    <div class="accordion__linkTitle" role="heading" aria-level="3">消費生活・相談</div>
+                  </a>
+                </li>
+                <li class="accordion__item">
+                  <a class="accordion__link" href="/kusei/kikaku01_002131.html">
+                    <div class="accordion__linkTitle" role="heading" aria-level="3">社会保障・税番号（マイナンバー）制度</div>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="hamburger__list">
+              <div class="hamburger__item accordion" role="heading" aria-level="2">観光・文化</div>
+              <ul class="content">
+                <li class="accordion__item">
+                  <a class="accordion__link" href="/kanko/index03.html">
+                    <div class="accordion__linkTitle" role="heading" aria-level="3">観光</div>
+                  </a>
+                </li>
+                <li class="accordion__item">
+                  <a class="accordion__link" href="/event/calendar/calendar.php">
+                    <div class="accordion__linkTitle" role="heading" aria-level="3">イベントカレンダー</div>
+                  </a>
+                </li>
+                <li class="accordion__item">
+                  <a class="accordion__link" href="/kanko/kanko00_100002.html">
+                    <div class="accordion__linkTitle" role="heading" aria-level="3">芸術・文化・歴史</div>
+                  </a>
+                </li>
+                <li class="accordion__item">
+                  <a class="accordion__link" href="/kanko/index06.html">
+                    <div class="accordion__linkTitle" role="heading" aria-level="3">生涯学習・スポーツ</div>
+                  </a>
+                </li>
+                <li class="accordion__item">
+                  <a class="accordion__link" href="/kanko/kanko00_100010.html">
+                    <div class="accordion__linkTitle" role="heading" aria-level="3">文化・観光施設</div>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="hamburger__list">
+              <div class="hamburger__item accordion" role="heading" aria-level="2">産業・ビジネス</div>
+              <ul class="content">
+                <li class="accordion__item">
+                  <a class="accordion__link" href="/jigyo/index02.html">
+                    <div class="accordion__linkTitle" role="heading" aria-level="3">入札・契約</div>
+                  </a>
+                </li>
+                <li class="accordion__item">
+                  <a class="accordion__link" href="/jigyo/biz00_100007.html">
+                    <div class="accordion__linkTitle" role="heading" aria-level="3">産業振興・企業支援</div>
+                  </a>
+                </li>
+                <li class="accordion__item">
+                  <a class="accordion__link" href="/seikatsu/biz00_100009.html">
+                    <div class="accordion__linkTitle" role="heading" aria-level="3">雇用・就労支援</div>
+                  </a>
+                </li>
+                <li class="accordion__item">
+                  <a class="accordion__link" href="/seikatsu/biz00_100013.html">
+                    <div class="accordion__linkTitle" role="heading" aria-level="3">環境・廃棄物</div>
+                  </a>
+                </li>
+                <li class="accordion__item">
+                  <a class="accordion__link" href="/jigyo/index03.html">
+                    <div class="accordion__linkTitle" role="heading" aria-level="3">事業別申請・手続き</div>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="hamburger__list">
+              <div class="hamburger__item accordion" role="heading" aria-level="2">防災・防犯</div>
+              <ul class="content">
+                <li class="accordion__item">
+                  <a class="accordion__link" href="/anzen/index03.html">
+                    <div class="accordion__linkTitle" role="heading" aria-level="3">防災</div>
+                  </a>
+                </li>
+                <li class="accordion__item">
+                  <a class="accordion__link" href="/anzen/index02.html">
+                    <div class="accordion__linkTitle" role="heading" aria-level="3">防犯、安心・安全</div>
+                  </a>
+                </li>
+                <li class="accordion__item">
+                  <a class="accordion__link" href="/anzen/index03_07.html">
+                    <div class="accordion__linkTitle" role="heading" aria-level="3">避難場所・ターミナル駅周辺の防災対策</div>
+                  </a>
+                </li>
+                <li class="accordion__item">
+                  <a class="accordion__link" href="/anzen/index05.html">
+                    <div class="accordion__linkTitle" role="heading" aria-level="3">気象情報</div>
+                  </a>
+                </li>
+                <li class="accordion__item">
+                  <a class="accordion__link" href="/anzen/index04.html">
+                    <div class="accordion__linkTitle" role="heading" aria-level="3">救急医療</div>
+                  </a>
+                </li>
+                <li class="accordion__item">
+                  <a class="accordion__link" href="/anzen/anshin00_100006.html">
+                    <div class="accordion__linkTitle" role="heading" aria-level="3">被災地・被災者支援</div>
+                  </a>
+                </li>
+                <li class="accordion__item">
+                  <a class="accordion__link" href="/anzen/index99.html">
+                    <div class="accordion__linkTitle" role="heading" aria-level="3">災害・緊急時関連情報</div>
+                  </a>
+                </li>
+                <li class="accordion__item">
+                  <a class="accordion__link" href="/anzen/index_r01.html">
+                    <div class="accordion__linkTitle" role="heading" aria-level="3">空家等対策</div>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="hamburger__list">
+              <div class="hamburger__item accordion" role="heading" aria-level="2">その他区政情報</div>
+              <ul class="content">
+                <li class="accordion__item">
+                  <a class="accordion__link" href="/kanko/index02.html">
+                    <div class="accordion__linkTitle" role="heading" aria-level="3">新宿区の紹介</div>
+                  </a>
+                </li>
+                <li class="accordion__item">
+                  <a class="accordion__link" href="/kucho/index.html">
+                    <div class="accordion__linkTitle" role="heading" aria-level="3">区長の部屋</div>
+                  </a>
+                </li>
+                <li class="accordion__item">
+                  <a class="accordion__link" href="/kusei/index23.html">
+                    <div class="accordion__linkTitle" role="heading" aria-level="3">新宿区役所・組織</div>
+                  </a>
+                </li>
+                <li class="accordion__item">
+                  <a class="accordion__link" href="/kusei/index08.html">
+                    <div class="accordion__linkTitle" role="heading" aria-level="3">新宿区議会</div>
+                  </a>
+                </li>
+                <li class="accordion__item">
+                  <a class="accordion__link" href="/kusei/index03.html">
+                    <div class="accordion__linkTitle" role="heading" aria-level="3">広報・広聴</div>
+                  </a>
+                </li>
+                <li class="accordion__item">
+                  <a class="accordion__link" href="/kusei/index07.html">
+                    <div class="accordion__linkTitle" role="heading" aria-level="3">構想・計画・自治</div>
+                  </a>
+                </li>
+                <li class="accordion__item">
+                  <a class="accordion__link" href="/kusei/index02.html">
+                    <div class="accordion__linkTitle" role="heading" aria-level="3">統計・調査</div>
+                  </a>
+                </li>
+                <li class="accordion__item">
+                  <a class="accordion__link" href="/kusei/index06.html">
+                    <div class="accordion__linkTitle" role="heading" aria-level="3">財政・会計・公有財産</div>
+                  </a>
+                </li>
+                <li class="accordion__item">
+                  <a class="accordion__link" href="/kansa/index.html">
+                    <div class="accordion__linkTitle" role="heading" aria-level="3">監査</div>
+                  </a>
+                </li>
+                <li class="accordion__item">
+                  <a class="accordion__link" href="/kusei/index24.html">
+                    <div class="accordion__linkTitle" role="heading" aria-level="3">行政評価</div>
+                  </a>
+                </li>
+                <li class="accordion__item">
+                  <a class="accordion__link" href="/kusei/index22.html">
+                    <div class="accordion__linkTitle" role="heading" aria-level="3">情報公開・個人情報保護</div>
+                  </a>
+                </li>
+                <li class="accordion__item">
+                  <a class="accordion__link" href="/kusei/file20_00001.html">
+                    <div class="accordion__linkTitle" role="heading" aria-level="3">公益保護</div>
+                  </a>
+                </li>
+                <li class="accordion__item">
+                  <a class="accordion__link" href="/kusei/index09.html">
+                    <div class="accordion__linkTitle" role="heading" aria-level="3">条例・規則</div>
+                  </a>
+                </li>
+                <li class="accordion__item">
+                  <a class="accordion__link" href="/kusei/index10.html">
+                    <div class="accordion__linkTitle" role="heading" aria-level="3">選挙</div>
+                  </a>
+                </li>
+                <li class="accordion__item">
+                  <a class="accordion__link" href="/shingi/index.html">
+                    <div class="accordion__linkTitle" role="heading" aria-level="3">附属機関等</div>
+                  </a>
+                </li>
+                <li class="accordion__item">
+                  <a class="accordion__link" href="/kusei/index201612soumu.html">
+                    <div class="accordion__linkTitle" role="heading" aria-level="3">審査請求（不服申立て）</div>
+                  </a>
+                </li>
+                <li class="accordion__item">
+                  <a class="accordion__link" href="/kusei/index26.html">
+                    <div class="accordion__linkTitle" role="heading" aria-level="3">有償刊行物</div>
+                  </a>
+                </li>
+                <li class="accordion__item">
+                  <a class="accordion__link" href="/koujisoutatsu/index.html">
+                    <div class="accordion__linkTitle" role="heading" aria-level="3">公示送達</div>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <ul class="hamburger__box">
+              <li class="hamburger__boxItem">
+                <div class="hamburger__boxItemTitle" role="heading" aria-level="2">
+                  <a class="hamburger__link" href="https://www.city.shinjuku.lg.jp/kusei/counterCS2102.html">窓口受付・混雑状況</a>
+                </div>
+              </li>
+              <li class="hamburger__boxItem">
+                <div class="hamburger__boxItemTitle" role="heading" aria-level="2">
+                  <a class="hamburger__link" href="/sitemap.html">サイトマップ</a>
+                </div>
+              </li>
+              <li class="hamburger__boxItem">
+                <div class="hamburger__boxItemTitle" role="heading" aria-level="2">
+                  <a class="hamburger__link" href="/shisetsu/index05.html">アクセス等</a>
+                </div>
+              </li>
+              <li class="hamburger__boxItem">
+                <div class="hamburger__boxItemTitle" role="heading" aria-level="2">
+                  <a class="hamburger__link" href="/soshiki/index.html">問い合わせ</a>
+                </div>
+              </li>
+              <li class="hamburger__boxItem">
+                <div class="hamburger__boxItemTitle" role="heading" aria-level="2">
+                  <a class="hamburger__link" href="/kusei/file03_02_00001.html">携帯サイト</a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="search" role="search">
+          <p class="searchTitle">新宿区サイト内検索</p>
+          <div class="searchContent">
+            <div class="searchInput">
+<script async src="https://cse.google.com/cse.js?cx=001025494011497543824:bocrzhj9ajk">
+</script>
+<div class="gcse-searchbox-only"></div>
+            </div>
+            <a href="/kusei/kusei00_100009.html" class="howToSearch">
+              <p class="howToSearch__round"></p>
+              <p class="howToSearch__text">検索の方法</p>
+            </a>
+          </div>
+      </div>
+    </header>
+<div id="container" class="clearfix">
+<div id="otowidget" style="display:none;"></div>
+<div id="contentSection">
+<div id="contentSectionIn" class="clearfix">
+<div id="topicPath">
+<ul>
+<li class="home"><a href="/index.html">新宿区ホーム</a></li>
+<li><a href="/kanko/index.html">観光・文化</a></li>
+<li>イベントカレンダー</li>
+</ul>
+</div>
+<div id="primary">
+	<div id="primaryIn01">
+<h1 class="h1_basic01"><span>イベントカレンダー</span></h1>
+
+
+<form action="/event/calendar/calendar.php" method="get" name="genreSelector" onsubmit="return submitForm(this);">
+
+<div class="free_text_area01">イベント条件を選んで、カレンダーの表示を絞り込むことができます。</div>
+
+
+<div class="eventChose">
+<p><label for="event_type">イベント条件を選択してください。</label></p>
+<select id="event_type" name="event_type" class="eventChoseSelect03">
+<option value="">イベント条件を選択</option>
+<option value="議会・審議会">議会・審議会</option>
+<option value="催し">催し</option>
+<option value="講座">講座</option>
+<option value="その他">その他</option>
+</select>
+<div class="mt15 tac"><label for="eventSearch"><input type="image" id="eventSearch" src="/content/000000062.gif" alt="絞り込む" /></label></div>
+</div>
+</form>
+
+
+<div class="free_text_area01">参加申し込みや料金が必要な催しもあります。各問い合わせ先にご確認ください。</div>
+
+<div class="free_text_area01">
+<div class="eventSelect">
+
+<!-- print_events/ -->
+<script>
+function setParams(form) {
+    setSelector("","$event_type");
+}
+</script>
+<div id="evntTable">
+
+<div class="eventSelectTitle">
+<div class="clearfix">
+<a href="/event/calendar/calendar.php?&Y=2026&M=10"><img src="/content/event_btn02.gif" alt="前月へ" width="69" height="23" border="0" /></a>
+<strong><span>2026</span><span>年</span><span>11</span><span>月</span></strong>
+<a href="/event/calendar/calendar.php?&Y=2026&M=12"><img src="/content/event_btn03.gif" alt="翌月へ" width="69" height="23" border="0" /></a>
+<a href="/event/calendar/calendar.php?"><img src="/content/event_btn04.gif" alt="当月へ" width="69" height="23" border="0" /></a>
+</div>
+</div><div style="background-color:#fdedeb"><div class="eventSelectDay clearfix" style="background-color:#fdedeb"><p>1日(日曜日)</p><ul><li class="eventItem"><span class="red14"><a href="/seikatsu/midori05_000001_00024.html">新宿区いきものさがし2026(2026年12月31日まで)</a></span></li><li class="eventItem"><span class="red14"><a href="/kanko/bunka01_000001_00038.html">SOMPO美術館50周年記念「アルベール・マルケ展」(2026年12月13日まで)</a></span></li></ul></div></div><div style="background-color:#ffffff"><div class="eventSelectDay clearfix" style="background-color:#ffffff"><p>2日(月曜日)</p><ul><li class="eventItem"><span class="black14"><a href="/kusei/toshikei01_002289_00036.html">第231回新宿区都市計画審議会</a></span></li></ul></div></div><div style="background-color:#fdedeb"><div class="eventSelectDay clearfix" style="background-color:#fdedeb"><p>3日(火曜日)</p><ul><li>&#xA0;</li></ul></div></div><div style="background-color:#ffffff"><div class="eventSelectDay clearfix" style="background-color:#ffffff"><p>4日(水曜日)</p><ul><li>&#xA0;</li></ul></div></div><div style="background-color:#ffffff"><div class="eventSelectDay clearfix" style="background-color:#ffffff"><p>5日(木曜日)</p><ul><li class="eventItem"><span class="black14"><a href="/fukushi/kaigo01_000003.html">新宿区の介護人材確保・育成支援事業（イベント開催情報）</a></span></li></ul></div></div><div style="background-color:#ffffff"><div class="eventSelectDay clearfix" style="background-color:#ffffff"><p>6日(金曜日)</p><ul><li class="eventItem"><span class="black14"><a href="/event/kyoseisaku01_20220408_00004.html">令和8年　教育委員会第11回定例会</a></span></li></ul></div></div><div style="background-color:#eff3fd"><div class="eventSelectDay clearfix" style="background-color:#eff3fd"><p>7日(土曜日)</p><ul><li class="eventItem"><span class="blue14"><a href="/soshiki/nishi-h01_001023.html">【終了しました】令和8年度【糖尿病予防啓発イベント】けんこうマルシェ</a></span></li></ul></div></div><div style="background-color:#fdedeb"><div class="eventSelectDay clearfix" style="background-color:#fdedeb"><p>8日(日曜日)</p><ul><li class="eventItem"><span class="red14"><a href="/event/kodomosc01_00004.html">【終了しました】第13回ここ・からまつり　～ここからハロー！ここからハッピー！～</a></span></li></ul></div></div><div style="background-color:#ffffff"><div class="eventSelectDay clearfix" style="background-color:#ffffff"><p>9日(月曜日)</p><ul><li class="eventItem"><span class="black14"><a href="/event/keiyaku02_000001_00003.html">令和8年度第2回新宿区労働報酬等審議会</a></span></li><li class="eventItem"><span class="black14"><a href="/shingi/index06_00012.html">第6回新宿区基本構想審議会</a></span></li></ul></div></div><div style="background-color:#ffffff"><div class="eventSelectDay clearfix" style="background-color:#ffffff"><p>10日(火曜日)</p><ul><li class="eventItem"><span class="black14"><a href="/fukushi/korei01_000001_00185.html">介護者講座</a></span></li><li class="eventItem"><span class="black14"><a href="/fukushi/kaigo01_000003.html">新宿区の介護人材確保・育成支援事業（イベント開催情報）</a></span></li><li class="eventItem"><span class="black14"><a href="/fukushi/kaigo01_000003_00007.html">【事業所向け】ケアプランデータ連携システム導入支援事業　オンライン説明会について</a></span></li></ul></div></div><div style="background-color:#ffffff"><div class="eventSelectDay clearfix" style="background-color:#ffffff"><p>11日(水曜日)</p><ul><li class="eventItem"><span class="black14"><a href="/kankyo/gomi02_000001_00004.html">歌舞伎町クリーン作戦</a></span></li><li class="eventItem"><span class="black14"><a href="/seikatsu/index18_01.html">令和8年度　無料建築相談会</a></span></li></ul></div></div><div style="background-color:#ffffff"><div class="eventSelectDay clearfix" style="background-color:#ffffff"><p>12日(木曜日)</p><ul><li class="eventItem"><span class="black14"><a href="/fukushi/korei01_000001_00141.html">認知症介護者家族会（学習会）</a></span></li><li class="eventItem"><span class="black14"><a href="/kusei/community01_000001_00029.html">新宿区×生涯学習セミナー</a></span></li></ul></div></div><div style="background-color:#ffffff"><div class="eventSelectDay clearfix" style="background-color:#ffffff"><p>13日(金曜日)</p><ul><li class="eventItem"><span class="black14"><a href="/seikatsu/seikankyo03_001001.html">ポイ捨て防止・路上喫煙禁止キャンペーン</a></span></li></ul></div></div><div style="background-color:#eff3fd"><div class="eventSelectDay clearfix" style="background-color:#eff3fd"><p>14日(土曜日)</p><ul><li>&#xA0;</li></ul></div></div><div style="background-color:#fdedeb"><div class="eventSelectDay clearfix" style="background-color:#fdedeb"><p>15日(日曜日)</p><ul><li>&#xA0;</li></ul></div></div><div style="background-color:#ffffff"><div class="eventSelectDay clearfix" style="background-color:#ffffff"><p>16日(月曜日)</p><ul><li>&#xA0;</li></ul></div></div><div style="background-color:#ffffff"><div class="eventSelectDay clearfix" style="background-color:#ffffff"><p>17日(火曜日)</p><ul><li class="eventItem"><span class="black14"><a href="/fukushi/korei01_000001_00186.html">令和8年度　家族会応援ボランティア養成講座を開催します</a></span></li></ul></div></div><div style="background-color:#ffffff"><div class="eventSelectDay clearfix" style="background-color:#ffffff"><p>18日(水曜日)</p><ul><li class="eventItem"><span class="black14"><a href="/kenkou/ochiai_000001_00008.html">フレイル予防講演会</a></span></li><li class="eventItem"><span class="black14"><a href="/kenkou/kenko01_000001_00180.html">スマートウォッチを活用したフレイル予防説明会</a></span></li></ul></div></div><div style="background-color:#ffffff"><div class="eventSelectDay clearfix" style="background-color:#ffffff"><p>19日(木曜日)</p><ul><li class="eventItem"><span class="black14"><a href="/kanko/bunkataiken2026_00002.html">令和8年度　文化体験プログラム(2026年11月26日まで)</a></span></li></ul></div></div><div style="background-color:#ffffff"><div class="eventSelectDay clearfix" style="background-color:#ffffff"><p>20日(金曜日)</p><ul><li class="eventItem"><span class="black14"><a href="/fukushi/korei01_000001_00186.html">令和8年度　家族会応援ボランティア養成講座を開催します</a></span></li><li class="eventItem"><span class="black14"><a href="/seikatsu/seikankyo03_001001.html">ポイ捨て防止・路上喫煙禁止キャンペーン</a></span></li></ul></div></div><div style="background-color:#eff3fd"><div class="eventSelectDay clearfix" style="background-color:#eff3fd"><p>21日(土曜日)</p><ul><li>&#xA0;</li></ul></div></div><div style="background-color:#fdedeb"><div class="eventSelectDay clearfix" style="background-color:#fdedeb"><p>22日(日曜日)</p><ul><li>&#xA0;</li></ul></div></div><div style="background-color:#fdedeb"><div class="eventSelectDay clearfix" style="background-color:#fdedeb"><p>23日(月曜日)</p><ul><li>&#xA0;</li></ul></div></div><div style="background-color:#ffffff"><div class="eventSelectDay clearfix" style="background-color:#ffffff"><p>24日(火曜日)</p><ul><li class="eventItem"><span class="black14"><a href="/kusei/soumu01_000001_00062.html">令和8年度新宿区特別職報酬等審議会</a></span></li><li class="eventItem"><span class="black14"><a href="/event/korei01_002067_00002.html">令和8年度　施設見学会</a></span></li></ul></div></div><div style="background-color:#ffffff"><div class="eventSelectDay clearfix" style="background-color:#ffffff"><p>25日(水曜日)</p><ul><li class="eventItem"><span class="black14"><a href="/fukushi/file05_01_00026.html">いきいきハイキング</a></span></li><li class="eventItem"><span class="black14"><a href="/kankyo/gomi02_000001_00004.html">歌舞伎町クリーン作戦</a></span></li></ul></div></div><div style="background-color:#ffffff"><div class="eventSelectDay clearfix" style="background-color:#ffffff"><p>26日(木曜日)</p><ul><li class="eventItem"><span class="black14"><a href="/event/korei01_002067_00002.html">令和8年度　施設見学会</a></span></li><li class="eventItem"><span class="black14"><a href="/fukushi/file05_01_00026.html">いきいきハイキング</a></span></li><li class="eventItem"><span class="black14"><a href="/soshiki/261700okubo_00063.html">大久保・百人町地区クリーン活動</a></span></li><li class="eventItem"><span class="black14"><a href="/fukushi/kaigo01_000003_00007.html">【事業所向け】ケアプランデータ連携システム導入支援事業　オンライン説明会について</a></span></li></ul></div></div><div style="background-color:#ffffff"><div class="eventSelectDay clearfix" style="background-color:#ffffff"><p>27日(金曜日)</p><ul><li class="eventItem"><span class="black14"><a href="/kusei/gikai01_00123820210610_00013.html">【新宿区議会】令和8年第4回定例会　本会議（区長の所信表明）</a></span></li></ul></div></div><div style="background-color:#eff3fd"><div class="eventSelectDay clearfix" style="background-color:#eff3fd"><p>28日(土曜日)</p><ul><li class="eventItem"><span class="blue14"><a href="/event/seikankyo03_002041.html">新宿3Ｒフェスタ～みんなでつくる地球の未来～</a></span></li><li class="eventItem"><span class="blue14"><a href="/event/shogai01_002139_00003.html">新宿生活実習所　ぽれぽれ祭り</a></span></li><li class="eventItem"><span class="blue14"><a href="/fukushi/shogai01_000001_00106.html">障害者生活支援センター施設見学会＆体験会</a></span></li><li class="eventItem"><span class="blue14"><a href="/kenkou/iryo_kokaikoza202611.html">第21回新宿区民医療公開講座</a></span></li></ul></div></div><div style="background-color:#fdedeb"><div class="eventSelectDay clearfix" style="background-color:#fdedeb"><p>29日(日曜日)</p><ul><li class="eventItem"><span class="red14"><a href="/kenkou/kenko01_002168_00002.html">令和8年度　在宅療養シンポジウム</a></span></li><li class="eventItem"><span class="red14"><a href="/kanko/260500community_00024.html">（生涯学習講座）テレビ局の仕事体験</a></span></li><li class="eventItem"><span class="red14"><a href="/kanko/community01_002104_00003.html">パラスポーツ体験会</a></span></li></ul></div></div><div style="background-color:#ffffff"><div class="eventSelectDay clearfix" style="background-color:#ffffff"><p>30日(月曜日)</p><ul><li class="eventItem"><span class="black14"><a href="/fukushi/yotsuya-h01_001064.html">新宿区 乳がん体験者の会「るぴなす」</a></span></li></ul></div></div>
+</div>
+</div>
+
+</div>
+
+
+	<!-- /primaryIn01 --></div>
+<!-- /primary --></div>
+<div id="secondary">
+	<div id="lNavi">
+		<dl>
+			<dt><span>観光・文化</span></dt>
+			<dd>
+				<ul>
+				<li><a href="/kanko/index03.html" class="lNav01">観光</a></li>
+				<li><a href="/event/calendar/calendar.php" class="lNav01">イベントカレンダー</a></li>
+				<li><a href="/kanko/kanko00_100002.html" class="lNav01">芸術・文化・歴史</a></li>
+				<li><a href="/kanko/index06.html" class="lNav01">生涯学習・スポーツ</a></li>
+				<li><a href="/kanko/kanko00_100010.html" class="lNav01">文化・観光施設</a></li>
+				</ul>
+			</dd>
+		</dl>
+	<!-- /lNavi --></div>
+<!-- /secondary --></div>
+<!-- /contentSectionIn --></div>
+<!-- /contentSection --></div>
+<!-- /container --></div>
+<!-- /wrapper --></div>
+  <footer class="footer">
+    <nav class="footerNav">
+      <div class="footerNav__inner">
+        <ul class="footerNav__list">
+          <li class="footerNav__item">
+            <a class="footerNav__link" href="/kusei/about.html">本ホームページについて</a>
+          </li>
+          <li class="footerNav__item">
+            <a class="footerNav__link" href="/site_information.html">本ホームページの使い方</a>
+          </li>
+          <li class="footerNav__item">
+            <a class="footerNav__link" href="/privacy.html">個人情報の取り扱い</a>
+          </li>
+          <li class="footerNav__item">
+            <a class="footerNav__link" href="/kusei/accessibility_index.html">ウェブアクセシビリティ方針</a>
+          </li>
+        </ul>
+        <div class="pageTop__link">
+          <a class="pageTop__linkText" href="#wrapper">ページの先頭へ</a>
+        </div>
+      </div>
+    </nav>
+    <div class="footerMain">
+      <ul class="footerMain__list">
+        <li class="footerMain__item">
+          <div class="footer__logo" role="heading" aria-level="1">
+            <a class="footerMain__link" href="/index.html">
+              <img class="footerMain__logo" src="/content/000348936.png" alt="新宿区のロゴ">
+            </a>
+          </div>
+        </li>
+        <li class="footerMain__item footerMain__pcItem">
+          <p class="address">〒160-8484　東京都新宿区歌舞伎町1-4-1</p>
+          <table class="callCenter">
+            <tr class="callCenter__tel">
+              <td class="callCenter__head">コールセンター　電話:</td>
+              <td class="callCenter__telNumber">03-3209-9999</td>
+            </tr>
+            <tr class="callCenter__fax">
+              <td class="callCenter__head">コールセンター　ファクス番号:</td>
+              <td class="callCenter__faxNumber">03-3209-9900</td>
+            </tr>
+            <tr class="governmentOffice__tel">
+              <td class="governmentOffice__head">区役所代表電話番号:</td>
+              <td class="governmentOffice__number">03-3209-1111</td>
+            </tr>
+          </table>
+        </li>
+        <li class="footerMain__item footerMain__pcItem">
+          <div class="activeTime-access">
+            <a href="/kaichou.html" class="activeTime">
+              <div class="activeTime__imgBox">
+                <img src="/content/000348944.png" class="activeTime__img" alt="">
+              </div>
+              <div class="activeTime__title" role="heading" aria-level="2">受付時間</div>
+            </a>
+            <a href="/kanko/shisetu_1.html" class="access">
+              <div class="access__imgBox">
+                <img src="/content/000348943.png" class="access__img" alt="">
+              </div>
+              <div class="access__title" role="heading" aria-level="2">交通アクセス</div>
+            </a>
+          </div>
+        </li>
+        <li class="footerMain__item footerMain__spItem">
+          <p class="address">〒160-8484　東京都新宿区歌舞伎町1-4-1</p>
+          <div class="activeTime-access">
+            <a href="/kaichou.html" class="activeTime__sp">
+              <div class="activeTime__imgBox">
+                <img src="/content/000348944.png" class="activeTime__img" alt="">
+              </div>
+              <p class="activeTime__title">受付時間</p>
+            </a>
+            <a href="/kanko/shisetu_1.html" class="access__sp">
+              <div class="access__imgBox">
+                <img src="/content/000348943.png" class="access__img" alt="">
+              </div>
+              <p class="access__title">交通アクセス</p>
+            </a>
+          </div>
+          <div class="number__list">
+            <table class="callCenter">
+              <tr class="callCenter__tel">
+                <td class="callCenter__head">コールセンター　電話:</td>
+                <td class="callCenter__telNumber">03-3209-9999</td>
+              </tr>
+              <tr class="callCenter__fax">
+                <td class="callCenter__head">コールセンター　ファクス番号:</td>
+                <td class="callCenter__faxNumber">03-3209-9900</td>
+              </tr>
+              <tr class="governmentOffice__tel">
+                <td class="governmentOffice__head">区役所代表電話番号:</td>
+                <td class="governmentOffice__number">03-3209-1111</td>
+              </tr>
+            </table>
+          </div>
+        </li>
+        <li class="footerMain__item norton">
+          <div class="norton__imgBox">
+<div class="securityLogo">
+<!-- DigiCert Seal HTML -->
+<!-- Place HTML on your site where the seal should appear -->
+<div id="DigiCertClickID_1E18mGhl"></div>
+
+<!-- DigiCert Seal Code -->
+<!-- Place with DigiCert Seal HTML or with other scripts -->
+<script>
+	var __dcid = __dcid || [];
+	__dcid.push({"cid":"DigiCertClickID_1E18mGhl","tag":"1E18mGhl"});
+	(function(){var cid=document.createElement("script");cid.async=true;cid.src="//seal.digicert.com/seals/cascade/seal.min.js";var s = document.getElementsByTagName("script");var ls = s[(s.length - 1)];ls.parentNode.insertBefore(cid, ls.nextSibling);}());
+</script>
+</div>
+          </div>
+          <div class="pageTop__link">
+            <a class="pageTop__linkText" href="#wrapper">
+              ページの先頭へ
+            </a>
+          </div>
+          <small class="copyright"><span lang="en">Copyright &copy; Shinjuku City All Rights Reserved.</span></small>
+        </li>
+      </ul>
+    </div>
+  </footer>
+<script>
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+
+<script>
+try {
+var pageTracker = _gat._getTracker("UA-11914617-1");
+if(typeof(referCatSecondRank) != "undefined") {
+  pageTracker._setPageGroup(1, referCatSecondRank);
+}
+pageTracker._trackPageview();
+} catch(err) {}
+</script>
+
+</body>
+</html>

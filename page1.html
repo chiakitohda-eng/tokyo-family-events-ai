@@ -1,0 +1,415 @@
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-126679942-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-126679942-1');
+</script>
+<meta name="google-site-verification" content="bcgLd6rtH4lFOy3b04MfxzzRIIEF0gEc1IkM8xv5p8A">
+
+<title>イベント検索｜ギャラクシティ</title>
+
+<meta http-equiv="X-Frame-Options" content="sameorigin">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width,user-scalable=yes,maximum-scale=1">
+<meta name="format-detection" content="telephone=no">
+
+<meta name="description" content="子どもの好奇心を大きくそだてる わくわく、どきどきのギャラクシティ。ギャラクシティは「こども未来創造館」と 「西新井文化ホール」の複合施設です。">
+
+<link rel="shortcut icon" href="/assets/img/common/favicon.ico">
+<link rel="apple-touch-icon" href="/assets/img/common/apple-touch-icon.png" sizes="180x180">
+<link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP" rel="stylesheet">
+<link rel="stylesheet" href="/assets/css/sanitize.css">
+<link rel="stylesheet" href="/assets/css/common.css?20250924">
+<link rel="stylesheet" href="/assets/css/search.css">
+
+<!--[if gte IE 9]><!-->
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<!--<![endif]-->
+<!--[if lt IE 9]>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="//cdn.jsdelivr.net/g/selectivizr@1.0.3b,html5shiv@3.7.3"></script>
+<![endif]-->
+  
+<link rel="stylesheet" href="/assets/css/top.css">
+<link rel="stylesheet" href="/assets/css/flatpickr.min.css">
+
+</head>
+
+<body id="search" class="">
+
+  <!-- Start header-->
+  <header id="header">
+    <div class="header-inner">
+      
+      <p class="header__logo">
+        <a href="/">
+          <img src="/assets/img/common/logo.png" alt="ギャラクシティ" class="-imgw">
+        </a>
+      </p>
+      
+      <!-- ▼ sp-only ▼ -->
+      <a href="/search/" class="header-search-btn -sp">イベント<br>検索</a>
+      <div class="menuicon-btn -sp">
+        <div class="menuicon-btn-inner">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+      <!-- ▲ sp-only ▲ -->
+      <nav class="global-nav -opc">
+        <ul>
+          
+          <li class="global-nav-type-01 -facility"><a href="/about/#section-guide"><span>施設案内</span></a></li>
+          <li class="global-nav-type-01 -access"><a href="/about/#section-access"><span>アクセス</span></a></li>
+          
+          <li class="global-nav-type-04"><a href="/search/">イベント検索</a></li>
+          <li class="global-nav-type-02"><a href="/future-creation-hall/">こども<br class="-sp">未来創造館</a></li>
+          <li class="global-nav-type-02"><a href="/cultural-hall/">西新井<br class="-sp">文化ホール</a></li>
+          <li class="global-nav-type-02"><a href="/facilities/">施設･<br class="-sp">アトラクション</a></li>
+          <li class="global-nav-type-03"><a href="/about/"><span>ギャラクシティとは</span></a></li>
+           <li class="global-nav-type-03"><a href="/rental/"><span>施設貸出･団体利用</span></a></li>
+          <li class="global-nav-type-03"><a href="/kodomo-meeting/"><span>こどもみーてぃんぐ</span></a></li>
+          <li class="global-nav-type-03"><a href="/g-gakuen/"><span>Gがくえん</span></a></li>
+		  <li class="global-nav-type-05"><a href="https://www.galaxcity.jp/post_2.html"><span>ブランドからの<br class="-pc">お知らせ</span></a></li>
+          <li class="global-nav-type-03"><a href="/cooperation/"><span>いっしょに創る</span></a></li>
+          <li class="global-nav-type-03"><a href="/report/"><span>イベントレポート</span></a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <!-- End header -->
+
+  <!-- Start #container -->
+  <div id="container">
+    <!-- Start container-inner -->
+    <div class="container-inner">
+
+      <main id="main">
+
+        <section class="section-event">
+
+          
+          
+          <ul class="event-list -opc">
+                    </ul>
+
+                    
+          
+          <div class="search-box">
+            <h1 class="search-box__ttl"><span>イベント検索</span></h1>
+            <form action="" method="post">
+              <table class="search-table">
+                <tr>
+                  <th>カテゴリで探す</th>
+                  <td>
+                                        <ul class="col3 col3-normal">
+                                            <li>
+                        <input type="radio" id="cat1" class="search-category" name="facility" value="future_creation_hall"
+                        checked
+                        >
+                        <label for="cat1">イベント</label>
+                      </li>
+                                            <li>
+                        <input type="radio" id="cat2" class="search-category" name="facility" value="multi_experience_dome"
+                        >
+                        <label for="cat2">投影番組（プラネタリウム）</label>
+                      </li>
+                                            <li>
+                        <input type="radio" id="cat3" class="search-category" name="facility" value="cultural_hall"
+                        >
+                        <label for="cat3">公演</label>
+                      </li>
+                    </ul>
+                  </td>
+                </tr>
+              </table>
+              <table class="search-table search-table--event">
+                                <tr>
+                  <th>対象で探す</th>
+                                                                        <td>
+                    <ul class="col4">
+                      <li>
+                        <input type="checkbox" name="future_creation_hall[entry_cat][]" id="target11" value="15"
+  >
+<label for="target11">0～3歳</label>                      </li>
+                      <li>
+                        <input type="checkbox" name="future_creation_hall[entry_cat][]" id="target12" value="16"
+  >
+<label for="target12">4～6歳（未就学児）</label>                      </li>
+                      <li>
+                        <input type="checkbox" name="future_creation_hall[entry_cat][]" id="target13" value="17"
+  >
+<label for="target13">小学生</label>                      </li>
+                      <li>
+                        <input type="checkbox" name="future_creation_hall[entry_cat][]" id="target14" value="18"
+  >
+<label for="target14">中学生</label>                      </li>
+                      <li>
+                        <input type="checkbox" name="future_creation_hall[entry_cat][]" id="target15" value="19"
+  >
+<label for="target15">高校生（16歳以上）</label>                      </li>
+                      <li>
+                        <input type="checkbox" name="future_creation_hall[entry_cat][]" id="target16" value="20"
+  >
+<label for="target16">おとな（18歳以上）</label>                      </li>
+                      <li>
+                        <input type="checkbox" name="future_creation_hall[entry_cat][]" id="target17" value="21"
+  >
+<label for="target17">子育て中のパパ・ママ</label>                      </li>
+                    </ul>
+                  </td>
+                </tr>
+                <tr>
+                                                      <th>期間で探す</th>
+<td>
+  <input type="text" name="future_creation_hall[date][period_start]" value="" class="js-flatpickr">
+  <span class="from"><span>～</span></span>
+  <input type="text" name="future_creation_hall[date][period_end]" value="" class="js-flatpickr">
+  <span class="date-clear">× 期間をクリア</span>
+</td>                </tr>
+                <tr>
+                  <th>ジャンルで探す</th>
+                                                                        <td>
+                    <ul class="col4 col2-sp">
+                      <li>
+                        <input type="checkbox" name="future_creation_hall[entry_icon][]" id="genre11" value="1"
+  >
+<label for="genre11">おしごと体験</label>                      </li>
+                      <li>
+                        <input type="checkbox" name="future_creation_hall[entry_icon][]" id="genre12" value="2"
+  >
+<label for="genre12">表現</label>                      </li>
+                      <li>
+                        <input type="checkbox" name="future_creation_hall[entry_icon][]" id="genre13" value="3"
+  >
+<label for="genre13">運動</label>                      </li>
+                      <li>
+                        <input type="checkbox" name="future_creation_hall[entry_icon][]" id="genre14" value="4"
+  >
+<label for="genre14">料理</label>                      </li>
+                      <li>
+                        <input type="checkbox" name="future_creation_hall[entry_icon][]" id="genre15" value="5"
+  >
+<label for="genre15">ものづくり</label>                      </li>
+                      <li>
+                        <input type="checkbox" name="future_creation_hall[entry_icon][]" id="genre16" value="6"
+  >
+<label for="genre16">音楽</label>                      </li>
+                      <li>
+                        <input type="checkbox" name="future_creation_hall[entry_icon][]" id="genre17" value="7"
+  >
+<label for="genre17">サイエンス</label>                      </li>
+                      <li>
+                        <input type="checkbox" name="future_creation_hall[entry_icon][]" id="genre18" value="8"
+  >
+<label for="genre18">天文・宇宙</label>                      </li>
+                      <li>
+                        <input type="checkbox" name="future_creation_hall[entry_icon][]" id="genre19" value="9"
+  >
+<label for="genre19">プログラミング</label>                      </li>
+                      <li>
+                        <input type="checkbox" name="future_creation_hall[entry_icon][]" id="genre110" value="10"
+  >
+<label for="genre110">英語</label>                      </li>
+                      <li>
+                        <input type="checkbox" name="future_creation_hall[entry_icon][]" id="genre111" value="11"
+  >
+<label for="genre111">おはなし会</label>                      </li>
+                      <li>
+                        <input type="checkbox" name="future_creation_hall[entry_icon][]" id="genre112" value="12"
+  >
+<label for="genre112">子育て・親子</label>                      </li>
+                      <li>
+                        <input type="checkbox" name="future_creation_hall[entry_icon][]" id="genre113" value="13"
+  >
+<label for="genre113">その他</label>                      </li>
+                    </ul>
+                  </td>
+                </tr>
+                <tr>
+                  <th>申込方法で探す</th>
+                                                                        <td>
+                    <ul class="col4">
+                      <li>
+                        <input type="checkbox" name="future_creation_hall[entry_ticket_class][]" id="booking1" value="1"
+  >
+<label for="booking1">事前申込</label>                      </li>
+                      <li>
+                        <input type="checkbox" name="future_creation_hall[entry_ticket_class][]" id="booking2" value="2"
+  >
+<label for="booking2">当日申込</label>                      </li>
+                    </ul>
+                  </td>
+                </tr>
+                <tr>
+                                    <th>キーワードで探す</th>
+<td><input type="text" name="future_creation_hall[keyword]" value=""></td>                </tr>
+              </table>
+              <table class="search-table search-table--planetarium">
+                                <tr>
+                  <th>種別で探す</th>
+                                                                        <td>
+                    <ul class="col4">
+                      <li>
+                        <input type="checkbox" name="multi_experience_dome[entry_tag1_class][]" id="type1" value="-tag-type-01"
+  >
+<label for="type1">映像番組</label>                      </li>
+                      <li>
+                        <input type="checkbox" name="multi_experience_dome[entry_tag1_class][]" id="type2" value="-tag-type-02"
+  >
+<label for="type2">生解説番組</label>                      </li>
+                      <li>
+                        <input type="checkbox" name="multi_experience_dome[entry_tag1_class][]" id="type3" value="-tag-type-03"
+  >
+<label for="type3">イベント</label>                      </li>
+                    </ul>
+                  </td>
+                </tr>
+                <tr>
+                  <th>対象で探す</th>
+                                                                        <td>
+                    <ul class="col4">
+                    <li>
+                        <input type="checkbox" name="multi_experience_dome[entry_cat][]" id="target21" value="39"
+  >
+<label for="target21">0～3歳</label>                      </li>
+                      <li>
+                        <input type="checkbox" name="multi_experience_dome[entry_cat][]" id="target22" value="40"
+  >
+<label for="target22">4～6歳（未就学児）</label>                      </li>
+                      <li>
+                        <input type="checkbox" name="multi_experience_dome[entry_cat][]" id="target23" value="41"
+  >
+<label for="target23">小学生</label>                      </li>
+                      <li>
+                        <input type="checkbox" name="multi_experience_dome[entry_cat][]" id="target24" value="42"
+  >
+<label for="target24">中学生</label>                      </li>
+                      <li>
+                        <input type="checkbox" name="multi_experience_dome[entry_cat][]" id="target25" value="43"
+  >
+<label for="target25">高校生（16歳以上）</label>                      </li>
+                      <li>
+                        <input type="checkbox" name="multi_experience_dome[entry_cat][]" id="target26" value="44"
+  >
+<label for="target26">おとな（18歳以上）</label>                      </li>
+                      <li>
+                        <input type="checkbox" name="multi_experience_dome[entry_cat][]" id="target27" value="45"
+  >
+<label for="target27">子育て中のパパ・ママ</label>                      </li>
+                    </ul>
+                  </td>
+                </tr>
+                <tr>
+                                                      <th>期間で探す</th>
+<td>
+  <input type="text" name="multi_experience_dome[date][period_start]" value="" class="js-flatpickr">
+  <span class="from"><span>～</span></span>
+  <input type="text" name="multi_experience_dome[date][period_end]" value="" class="js-flatpickr">
+  <span class="date-clear">× 期間をクリア</span>
+</td>                </tr>
+                <tr>
+                                    <th>キーワードで探す</th>
+<td><input type="text" name="multi_experience_dome[keyword]" value=""></td>                </tr>
+              </table>
+              <table class="search-table search-table--performance">
+                                <tr>
+                  <th>ジャンルで探す</th>
+                                                                        <td>
+                    <ul class="col3">
+                      <li>
+                        <input type="checkbox" name="cultural_hall[entry_cat][]" id="genre31" value="9"
+  >
+<label for="genre31">クラシック音楽</label>                      </li>
+                      <li>
+                        <input type="checkbox" name="cultural_hall[entry_cat][]" id="genre32" value="10"
+  >
+<label for="genre32">ポピュラー音楽</label>                      </li>
+                      <li>
+                        <input type="checkbox" name="cultural_hall[entry_cat][]" id="genre33" value="11"
+  >
+<label for="genre33">演劇・舞踊</label>                      </li>
+                      <li>
+                        <input type="checkbox" name="cultural_hall[entry_cat][]" id="genre34" value="12"
+  >
+<label for="genre34">バラエティ</label>                      </li>
+                      <li>
+                        <input type="checkbox" name="cultural_hall[entry_cat][]" id="genre35" value="13"
+  >
+<label for="genre35">子どもと楽しめる</label>                      </li>
+                      <li>
+                        <input type="checkbox" name="cultural_hall[entry_cat][]" id="genre36" value="14"
+  >
+<label for="genre36">その他</label>                      </li>
+                    </ul>
+                  </td>
+                </tr>
+                <tr>
+                                                      <th>期間で探す</th>
+<td>
+  <input type="text" name="cultural_hall[date][period_start]" value="" class="js-flatpickr">
+  <span class="from"><span>～</span></span>
+  <input type="text" name="cultural_hall[date][period_end]" value="" class="js-flatpickr">
+  <span class="date-clear">× 期間をクリア</span>
+</td>                </tr>
+                <tr>
+                                    <th>キーワードで探す</th>
+<td><input type="text" name="cultural_hall[keyword]" value=""></td>                </tr>
+              </table>
+              <p class="search-btn"><button id="search-submit" type="button" value="search"><span>検索する</span></button></p>
+            </form>
+          </div>
+        </section>
+
+<ul class="sns-box">
+  <li><a href="https://www.facebook.com/www.galaxcity.jp/" target="_blank"><img src="/assets/img/top/btn-sns-01.svg" alt="Facebook" class="-imgw"></a></li>
+  <li><a href="https://twitter.com/galax_city" target="_blank"><img src="/assets/img/top/btn-sns-02.svg" alt="X" class="-imgw"></a></li>
+  <li><a href="https://www.instagram.com/galaxcity_official/" target="_blank"><img src="/assets/img/top/btn-sns-03.png" alt="Instagram" class="-imgw"></a></li>
+  <!-- <li><a href="#" target="_blank"><img src="/assets/img/top/btn-sns-04.svg" alt="LINE" class="-imgw"></a></li> -->
+  <li><a href="https://www.youtube.com/channel/UC6tU3W11RhKY5Lg9boVtqWw" target="_blank"><img src="/assets/img/top/btn-sns-05.png" alt="YouTube" class="-imgw"></a></li>
+</ul>
+      </main>
+      <!-- End #main -->
+
+    </div>
+    <!-- End container-inner -->
+
+    <!-- Start footer -->
+    <footer id="footer">
+      <ul class="-opc">
+        <li><a href="/faq/">よくあるご質問</a></li>
+      <li><a href="/contact/">お問い合わせ</a></li>
+        <li><a href="/pressrelease/">プレスリリース</a></li>
+        <li><a href="/sitepolicy/">サイトポリシー</a></li>
+        <li><a href="/management/">施設運営について</a></li>
+        <li><a href="/sitemap/">サイトマップ</a></li>
+        <li><a href="/linklist/">リンクリスト</a></li>
+      </ul>
+      <p id="copy-right">Copyright &copy; GALAXCITY ALL RIGHT RESERVED.</p>
+    </footer>
+    <!-- End footer -->
+  </div>
+  <!-- End #container -->
+
+  <script src="/assets/js/common.js"></script>
+  
+<script src="/assets/js/flatpickr.js"></script>
+<script src="/assets/js/flatpickr.ja.js"></script>
+<script src="/assets/js/search.js"></script>
+    
+</body>
+</html>
